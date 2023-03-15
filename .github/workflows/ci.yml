@@ -17,7 +17,7 @@ jobs:
           uses: concord-consortium/s3-deploy-action@v1
           with:
             bucket: models-resources
-            localFolder: .
+            folderToDeploy: .
             prefix: clue-curriculum
             awsAccessKeyId: ${{ secrets.AWS_ACCESS_KEY_ID }}
             awsSecretAccessKey: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
