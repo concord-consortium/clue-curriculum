@@ -1,0 +1,180 @@
+{
+  "code": "faw",
+  "abbrevTitle": "FAW",
+  "title": "Filling and Wrapping",
+  "subtitle": "Three-Dimensional Measurement",
+  "config": {"enableHistoryRoles": ["teacher"], "placeholderText": "Enter notes here", "stamps": [], "settings": {"table": {"numFormat": ".2~f"}}},
+  "sections": {
+    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
+    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
+    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
+    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
+    "didYouKnow": {"initials": "DY", "title": "Did You Know?", "placeholder": "Work area for\nDid You Know? section"},
+    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
+    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
+    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
+    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
+      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
+      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
+      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+    },
+    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "FAW Investigation 1. Building Smart Boxes: Rectangular Prisms",
+      "problems": [
+        {
+          "description": "Problem 1.1",
+          "ordinal": 1,
+          "title": "FAW 1.1 How Big Are Those Boxes?",
+          "subtitle": "Finding Volume",
+          "disabled": [],
+          "sections": ["faw-investigation-1-problem-1-section-1.json", "faw-investigation-1-problem-1-section-2.json", "faw-investigation-1-problem-1-section-3.json", "faw-investigation-1-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 1.2",
+          "ordinal": 2,
+          "title": "FAW 1.2 Optimal Containers",
+          "subtitle": "Finding the Least Surface Area",
+          "sections": ["faw-investigation-1-problem-2-section-1.json", "faw-investigation-1-problem-2-section-2.json", "faw-investigation-1-problem-2-section-3.json", "faw-investigation-1-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 1.3",
+          "ordinal": 3,
+          "title": "FAW 1.3 Compost Containers",
+          "subtitle": "Scaling Up Using Proportional Reasoning",
+          "sections": ["faw-investigation-1-problem-3-section-1.json", "faw-investigation-1-problem-3-section-2.json", "faw-investigation-1-problem-3-section-3.json", "faw-investigation-1-problem-3-section-4.json"],
+          "supports": []
+        }
+      ]
+    },
+    {
+      "description": "Investigation 2",
+      "ordinal": 2,
+      "title": "FAW Investigation 2. Connecting Rectangular Prisms to Polygonal Prisms",
+      "problems": [
+        {
+          "description": "Problem 2.1",
+          "ordinal": 1,
+          "title": "FAW 2.1 Folding Paper",
+          "subtitle": "Surface Area and Volume of Right Prisms",
+          "sections": ["faw-investigation-2-problem-1-section-1.json", "faw-investigation-2-problem-1-section-2.json", "faw-investigation-2-problem-1-section-3.json", "faw-investigation-2-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 2.2",
+          "ordinal": 2,
+          "title": "FAW 2.2 Packing a Prism",
+          "subtitle": "Volume of Right Prism",
+          "sections": ["faw-investigation-2-problem-2-section-1.json", "faw-investigation-2-problem-2-section-2.json", "faw-investigation-2-problem-2-section-3.json", "faw-investigation-2-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 2.3",
+          "ordinal": 3,
+          "title": "FAW 2.3 Slicing Prisms and Pyramids",
+          "subtitle": "An Experiment",
+          "sections": ["faw-investigation-2-problem-3-section-1.json", "faw-investigation-2-problem-3-section-2.json", "faw-investigation-2-problem-3-section-3.json", "faw-investigation-2-problem-3-section-4.json"],
+          "supports": []
+        }
+      ]
+    },
+    {
+      "description": "Investigation 3",
+      "ordinal": 3,
+      "title": "FAW Investigation 3 Area and Circumference of Circles",
+      "problems": [
+        {
+          "description": "Problem 3.1",
+          "ordinal": 1,
+          "title": "FAW 3.1 Going Around in Circles",
+          "subtitle": "Circumference",
+          "sections": ["faw-investigation-3-problem-1-section-1.json", "faw-investigation-3-problem-1-section-2.json", "faw-investigation-3-problem-1-section-3.json", "faw-investigation-3-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 3.2",
+          "ordinal": 2,
+          "title": "FAW 3.2 Testing Absorbency of Paper Towels",
+          "subtitle": "Area of a Circle",
+          "sections": ["faw-investigation-3-problem-2-section-1.json", "faw-investigation-3-problem-2-section-2.json", "faw-investigation-3-problem-2-section-3.json", "faw-investigation-3-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 3.3",
+          "ordinal": 3,
+          "title": "FAW 3.3 Connecting Circumference and Area",
+          "subtitle": "",
+          "sections": ["faw-investigation-3-problem-3-section-1.json", "faw-investigation-3-problem-3-section-2.json", "faw-investigation-3-problem-3-section-3.json", "faw-investigation-3-problem-3-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 3.4",
+          "ordinal": 4,
+          "title": "FAW 3.4 Nate’s Conjecture",
+          "subtitle": "Connecting Circles to Cylinders",
+          "sections": ["faw-investigation-3-problem-4-section-1.json", "faw-investigation-3-problem-4-section-2.json", "faw-investigation-3-problem-4-section-3.json", "faw-investigation-3-problem-4-section-4.json"],
+          "supports": []
+        }
+      ]
+    },
+    {
+      "description": "Investigation 4",
+      "ordinal": 4,
+      "title": "FAW Investigation 4 Designing Packages: More Three-Dimensional Shapes",
+      "problems": [
+        {
+          "description": "Problem 4.1",
+          "ordinal": 1,
+          "title": "FAW 4.1 Comparing Juice Containers Using Surface Area",
+          "subtitle": "",
+          "sections": ["faw-investigation-4-problem-1-section-1.json", "faw-investigation-4-problem-1-section-2.json", "faw-investigation-4-problem-1-section-3.json", "faw-investigation-4-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 4.2",
+          "ordinal": 2,
+          "title": "FAW 4.2 Connecting Circles to Cones and Spheres",
+          "subtitle": "",
+          "sections": ["faw-investigation-4-problem-2-section-1.json", "faw-investigation-4-problem-2-section-2.json", "faw-investigation-4-problem-2-section-3.json", "faw-investigation-4-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 4.3",
+          "ordinal": 3,
+          "title": "FAW 4.3 Creating Ice Cream Containers",
+          "subtitle": "Prism, Cylinder or Cone?",
+          "sections": ["faw-investigation-4-problem-3-section-1.json", "faw-investigation-4-problem-3-section-2.json", "faw-investigation-4-problem-3-section-3.json", "faw-investigation-4-problem-3-section-4.json"],
+          "supports": []
+        }
+      ]
+    },
+    {
+      "description": "Mathematical Reflections",
+      "ordinal": 5,
+      "title": "FAW MR1 - MR4",
+      "problems": [
+        {
+          "description": "Mathematical Reflections",
+          "ordinal": 1,
+          "title": "Filling and Wrapping Mathematical Reflections",
+          "subtitle": "",
+          "sections": ["faw-investigation-5-problem-1-section-1.json", "faw-investigation-5-problem-1-section-2.json", "faw-investigation-5-problem-1-section-3.json", "faw-investigation-5-problem-1-section-4.json"]
+        }
+      ],
+      "supports": []
+    }
+  ],
+  "supports": []
+}

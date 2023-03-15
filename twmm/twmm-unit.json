@@ -1,0 +1,162 @@
+{
+  "code": "twmm",
+  "abbrevTitle": "TWMM",
+  "title": "Thinking with Mathematical Models",
+  "subtitle": "Linear Functions and Bivariate Data",
+  "config": {"enableHistoryRoles": ["teacher"], "placeholderText": "Enter notes here", "settings": {"table": {"numFormat": ".2~f"}}},
+  "sections": {
+    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
+    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
+    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
+    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
+    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
+    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
+    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
+    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
+      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
+      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
+      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+    },
+    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "TWMM Investigation 1 Exploring Data Patterns in Building Bridges",
+      "introduction": {"tiles": []},
+      "problems": [
+        {
+          "description": "Problem 1.1",
+          "ordinal": 1,
+          "title": "TWMM 1.1 Bridge Thickness and Strength",
+          "subtitle": "",
+          "sections": ["twmm-investigation-1-problem-1-section-1.json", "twmm-investigation-1-problem-1-section-2.json", "twmm-investigation-1-problem-1-section-3.json", "twmm-investigation-1-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "TWMM Problem 1.2",
+          "ordinal": 2,
+          "title": "TWMM 1.2 Bridge Length and Strength",
+          "subtitle": "",
+          "sections": ["twmm-investigation-1-problem-2-section-1.json", "twmm-investigation-1-problem-2-section-2.json", "twmm-investigation-1-problem-2-section-3.json", "twmm-investigation-1-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 1.3",
+          "ordinal": 3,
+          "title": "TWMM 1.3 Custom Construction Parts: More Patterns",
+          "subtitle": "",
+          "sections": ["twmm-investigation-1-problem-3-section-1.json", "twmm-investigation-1-problem-3-section-2.json", "twmm-investigation-1-problem-3-section-3.json", "twmm-investigation-1-problem-3-section-4.json"]
+        }
+      ],
+      "supports": []
+    },
+    {
+      "description": "Investigation 2",
+      "ordinal": 2,
+      "title": "TWMM Investigation 2 Linear Models and Equations",
+      "introduction": {},
+      "problems": [
+        {
+          "description": "Problem 2.1",
+          "ordinal": 1,
+          "title": "TWMM 2.1 Tree Top Fun",
+          "subtitle": "Equations for Linear Functions",
+          "disabled": [],
+          "sections": ["twmm-investigation-2-problem-1-section-1.json", "twmm-investigation-2-problem-1-section-2.json", "twmm-investigation-2-problem-1-section-3.json", "twmm-investigation-2-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 2.2",
+          "ordinal": 2,
+          "title": "TWMM 2.2 Boat Rental",
+          "subtitle": "Solving Linear Equations",
+          "sections": ["twmm-investigation-2-problem-2-section-1.json", "twmm-investigation-2-problem-2-section-2.json", "twmm-investigation-2-problem-2-section-3.json", "twmm-investigation-2-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 2.3",
+          "ordinal": 3,
+          "title": "TWMM 2.3 Up and Down the Staircase Again",
+          "subtitle": "Exploring Slope",
+          "sections": ["twmm-investigation-2-problem-3-section-1.json", "twmm-investigation-2-problem-3-section-2.json", "twmm-investigation-2-problem-3-section-3.json", "twmm-investigation-2-problem-3-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 2.4",
+          "ordinal": 4,
+          "title": "TWMM 2.4 Exploring Patterns with Lines",
+          "subtitle": "",
+          "sections": ["twmm-investigation-2-problem-4-section-1.json", "twmm-investigation-2-problem-4-section-2.json", "twmm-investigation-2-problem-4-section-3.json", "twmm-investigation-2-problem-4-section-4.json"]
+        }
+      ],
+      "supports": []
+    },
+    {
+      "description": "Investigation 3",
+      "ordinal": 3,
+      "title": "TWMM Investigation 3 Inverse Variation",
+      "problems": [
+        {
+          "description": "Problem 3.1",
+          "ordinal": 1,
+          "title": "TWMM 3.1 Rectangles with Fixed Area",
+          "subtitle": "",
+          "sections": ["twmm-investigation-3-problem-1-section-1.json", "twmm-investigation-3-problem-1-section-2.json", "twmm-investigation-3-problem-1-section-3.json", "twmm-investigation-3-problem-1-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 3.2",
+          "ordinal": 2,
+          "title": "TWMM 3.2 Distance, Speed, and Time",
+          "subtitle": "",
+          "sections": ["twmm-investigation-3-problem-2-section-1.json", "twmm-investigation-3-problem-2-section-2.json", "twmm-investigation-3-problem-2-section-3.json", "twmm-investigation-3-problem-2-section-4.json"],
+          "supports": []
+        },
+        {
+          "description": "Problem 3.3",
+          "ordinal": 3,
+          "title": "TWMM 3.3 Planning a Field Trip",
+          "subtitle": "Finding Individual Costs",
+          "sections": ["twmm-investigation-3-problem-3-section-1.json", "twmm-investigation-3-problem-3-section-2.json", "twmm-investigation-3-problem-3-section-3.json", "twmm-investigation-3-problem-3-section-4.json"]
+        }
+      ],
+      "supports": []
+    },
+    {
+      "description": "Investigation 4",
+      "ordinal": 4,
+      "title": "TWMM Investigation 4 Variability in Numerical and Categorical Data",
+      "problems": [
+        {"description": "Problem 4.1", "ordinal": 1, "title": "TWMM 4.1 Lines of Best Fit", "subtitle": "", "sections": [], "supports": []},
+        {"description": "Problem 4.2", "ordinal": 2, "title": "TWMM 4.2Wood or Steel? Relationships in Categorical Data", "subtitle": "", "sections": [], "supports": []},
+        {"description": "Problem 4.3", "ordinal": 3, "title": "TWMM 4.3 After-School Sports and Band Enrollments", "subtitle": "Working Backwards: Setting up a Two-way Table", "sections": []},
+        {"description": "Problem 4.4", "ordinal": 3, "title": "TWMM 4.4 Linear, Bivariate, and Categorical Data", "subtitle": "", "sections": []}
+      ],
+      "supports": []
+    },
+    {
+      "description": "Mathematical Reflections",
+      "ordinal": 5,
+      "title": "TWMM MR1 - MR4",
+      "problems": [
+        {
+          "description": "Mathematical Reflections",
+          "ordinal": 1,
+          "title": "Thinking with Math Models Mathematical Reflections",
+          "subtitle": "",
+          "sections": ["twmm-investigation-5-problem-1-section-1.json", "twmm-investigation-5-problem-1-section-2.json", "twmm-investigation-5-problem-1-section-3.json"]
+        }
+      ],
+      "supports": []
+    }
+  ],
+  "supports": []
+}

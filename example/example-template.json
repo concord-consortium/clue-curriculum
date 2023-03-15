@@ -1,0 +1,108 @@
+{
+  "code": "example-template",
+  "abbrevTitle": "EXT",
+  "title": "Unit with a Template in the document side",
+  "subtitle": "",
+  "config": {
+    "autoAssignStudentsToIndividualGroups": false,
+    "autoSectionProblemDocuments": false,
+    "placeholderText": "Enter notes here",
+    "defaultDocumentType": "problem",
+    "defaultDocumentTitle": "Untitled",
+    "defaultDocumentTemplate": {
+      "tiles": [
+        {
+          "content": {
+            "type": "Text",
+            "text": "Directions: Use the space below to consider how you would approach your first task. Use the prompt questions at left to help you organize your thoughts. You can use any of the tile types (diagram, text, drawing, image, table) to help you with your assignment. "
+          }
+        },
+        {"layout": {"height": 800}, "content": {"type": "Text", "text": ""}},
+        {"content": {"type": "Diagram"}}
+      ]
+    },
+    "documentLabels": {"personal": {"labels": {"1": "Document", "n": "Documents"}}, "problem": {"labels": {"1": "Document", "n": "Documents"}}},
+    "settings": {"table": {"numFormat": ".3~f"}, "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "variable", "delete"]}},
+    "defaultStamps": [],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Activities",
+          "sections": [{"initials": "help", "title": "Get Started", "type": "problem-documents"}, {"initials": "A", "title": "Task A", "type": "problem-documents"}, {"initials": "B", "title": "Task B", "type": "problem-documents"}, {"initials": "C", "title": "Task C", "type": "problem-documents"}]
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {"title": "Documents", "type": "problem-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["problem", "planning"], "properties": ["!isDeleted"], "addDocument": true},
+            {"title": "Documents", "type": "personal-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["personal"], "properties": ["!isDeleted"], "addDocument": true}
+          ]
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "sections": [
+            {"title": "Workspaces", "type": "published-problem-documents", "dataTestHeader": "class-work-section-published", "dataTestItem": "class-work-list-items", "documentTypes": ["publication"], "showStars": ["teacher"], "properties": ["!isTeacherDocument"]},
+            {"title": "Workspaces", "type": "published-personal-documents", "dataTestHeader": "class-work-section-personal", "dataTestItem": "class-work-list-items", "documentTypes": ["personalPublication"], "properties": ["!isTeacherDocument"]},
+            {
+              "className": "section teacher published-documents",
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": ["publication", "personalPublication"],
+              "properties": ["isTeacherDocument", "!isDeleted"]
+            },
+            {"title": "Workspaces", "type": "teacher-supports", "dataTestHeader": "supports-section-teacher-supports", "dataTestItem": "supports-list-items", "documentTypes": ["supportPublication"], "properties": ["teacherSupport", "!isDeleted"]}
+          ]
+        }
+      ]
+    },
+    "toolbar": [
+      {"id": "Diagram", "title": "Diagram", "isTileTool": true},
+      {"id": "Text", "title": "Text", "isTileTool": true},
+      {"id": "Drawing", "title": "Drawing", "isTileTool": true},
+      {"id": "Image", "title": "Image", "isTileTool": true},
+      {"id": "Table", "title": "Table", "isTileTool": true},
+      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+    ]
+  },
+  "sections": {
+    "help": {"initials": "DOC", "title": "Get Started", "placeholder": "Notes on Help"},
+    "taska": {"initials": "A", "title": "Task A", "placeholder": "Work on Task A here"},
+    "taskb": {"initials": "B", "title": "Task B", "placeholder": "Work on Task B here"},
+    "taskc": {"initials": "C", "title": "Task C", "placeholder": "Work on Task C here"}
+  },
+  "planningDocument": {"enable": "teacher", "default": true, "sectionInfo": {"plan": {"initials": "PL", "title": "Plan", "placeholder": "Plan the work; work the plan"}, "show": {"initials": "SH", "title": "Show", "placeholder": "Show the work"}}, "sections": [{"type": "plan"}, {"type": "show"}]},
+  "investigations": [
+    {
+      "description": "M2Studio Investigation Description",
+      "ordinal": 1,
+      "title": "M2Studio Examples",
+      "problems": [
+        {
+          "description": "M2S Problem 1.1 Description",
+          "ordinal": 1,
+          "title": "Getting Started in M2Studio",
+          "subtitle": "",
+          "sections": ["example-template-investigation-1-problem-1-section-1.json", "example-template-investigation-1-problem-1-section-2.json", "example-template-investigation-1-problem-1-section-3.json"],
+          "supports": [],
+          "config": {
+            "planningTemplate": {
+              "show": {
+                "tiles": [
+                  {"content": {"type": "Text", "format": "html", "text": ["<p><strong>This is top <em>Show</em> section content!</strong></p>"]}},
+                  [{"content": {"type": "Text", "format": "html", "text": ["<p><strong>This is left <em>Show</em> section content!</strong></p>"]}}, {"content": {"type": "Text", "format": "html", "text": ["<p><strong>This is right <em>Show</em> section content!</strong></p>"]}}],
+                  {"content": {"type": "Text", "format": "html", "text": ["<p><strong>This is bottom <em>Show</em> section content!</strong></p>"]}}
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

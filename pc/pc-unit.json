@@ -1,0 +1,44 @@
+{
+  "code": "pc",
+  "abbrevTitle": "PC2",
+  "title": "Precipitating Change",
+  "subtitle": "Coastal Erosion",
+  "placeholderText": "Enter notes here",
+  "settings": {"table": {"numFormat": ".2~f"}},
+  "sections": {
+    "firstinsight": {"initials": "FI", "title": "First Insight", "placeholder": "Work area for\nFirst Insight section"},
+    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
+    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"}
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": false,
+    "sectionInfo": {
+      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
+      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
+      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
+      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+    },
+    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+  },
+  "defaultStamps": [],
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Coastal Erosion",
+      "problems": [
+        {
+          "description": "Problem 1.1",
+          "ordinal": 1,
+          "title": "What is Erosion",
+          "subtitle": "Coastlines and Oceans",
+          "disabled": [],
+          "sections": ["pc-investigation-1-problem-1-section-1.json", "pc-investigation-1-problem-1-section-2.json", "pc-investigation-1-problem-1-section-3.json"],
+          "supports": []
+        }
+      ]
+    }
+  ],
+  "supports": []
+}

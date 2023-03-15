@@ -1,0 +1,58 @@
+{
+  "code": "dfe",
+  "abbrevTitle": "DE",
+  "title": "Dataflow Example Curriculum",
+  "subtitle": "Demonstrating the Dataflow Tile",
+  "config": {
+    "placeholderText": "This is where users can type text",
+    "defaultDocumentType": "personal",
+    "settings": {"table": {"numFormat": ".2~f"}, "text": {"tools": ["bold", "subscript", "superscript"]}},
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {"tab": "problems", "label": "Chapter", "sections": [{"initials": "ST", "title": "Story", "type": "problem-documents"}, {"initials": "SC", "title": "Sources", "type": "problem-documents"}, {"initials": "MD", "title": "Models", "type": "problem-documents"}]},
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [{"title": "Workspaces", "type": "personal-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["personal"], "properties": ["!isDeleted"], "showStars": ["student", "teacher"], "addDocument": true}]
+        }
+      ]
+    },
+    "toolbar": [
+      {"id": "Text", "title": "Text", "isTileTool": true},
+      {"id": "Table", "title": "Table", "isTileTool": true},
+      {"id": "Drawing", "title": "Drawing", "isTileTool": true},
+      {"id": "Dataflow", "title": "Dataflow", "isTileTool": true},
+      {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
+      {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
+      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+    ],
+    "stamps": []
+  },
+  "sections": {
+    "first": {"initials": "FI", "title": "First Section", "placeholder": "Work area for\nFirst Section"},
+    "second": {"initials": "SE", "title": "Second Section", "placeholder": "Second Section Placeholder"},
+    "third": {"initials": "TH", "title": "Third Section", "placeholder": "Third Section content goes here"}
+  },
+  "planningDocument": {"enable": "teacher", "default": true, "sectionInfo": {"plan": {"initials": "PL", "title": "Plan", "placeholder": "Plan the work; work the plan"}}, "sections": [{"type": "plan"}]},
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Coastal Erosion",
+      "problems": [
+        {
+          "description": "Problem 1.1",
+          "ordinal": 1,
+          "title": "What is Erosion",
+          "subtitle": "Coastlines and Oceans",
+          "disabled": [],
+          "sections": ["dfe-investigation-1-problem-1-section-1.json", "dfe-investigation-1-problem-1-section-2.json", "dfe-investigation-1-problem-1-section-3.json"],
+          "supports": []
+        }
+      ]
+    }
+  ],
+  "supports": []
+}
