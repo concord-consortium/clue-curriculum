@@ -1,0 +1,44 @@
+{
+  "code": "help",
+  "abbrevTitle": "HELP",
+  "title": "CLUE Help",
+  "subtitle": "Tips and Documentation",
+  "placeholderText": "Enter notes here",
+  "sections": {
+    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
+    "tools": {"initials": "TO", "title": "Tools", "placeholder": "Work area for\nTools section"},
+    "sharing": {"initials": "SH", "title": "Sharing", "placeholder": "Work area for\nSharing section"},
+    "instructors": {"initials": "IS", "title": "Instructors", "placeholder": "Work area for\nInstructors section"}
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
+      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
+      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
+      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+    },
+    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Introduction to CLUE",
+      "introduction": {"tiles": []},
+      "problems": [
+        {
+          "description": "CLUE Help",
+          "ordinal": 1,
+          "title": "Introduction to CLUE",
+          "subtitle": "Working in the Collaborative Learning User Environment (CLUE)",
+          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/tools/content.json", "investigation-1/problem-1/sharing/content.json", "investigation-1/problem-1/instructors/content.json"],
+          "supports": []
+        }
+      ],
+      "supports": []
+    }
+  ],
+  "supports": []
+}
