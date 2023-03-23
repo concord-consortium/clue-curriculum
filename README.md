@@ -27,8 +27,14 @@ Note that each problem section's directory name should match the section's type.
 
 Use the problem-section-template.json file as a starting place to build a problem section's content.json file. To populate the `tiles` array with the tiles that should appear in the section, first create the tiles in CLUE, then use CLUE's export/copy-to-clipboard feature to gather the tile's JSON, and then add it to the the `tiles` array.
 
+The keystrokes for copying/exporting CLUE content are:
+
+`cmd+option+e` to copy/export a single tile
+`cmd+shift+s` to copy/export the whole document
+`cmd+option+shift+s` to copy/export the whole document as sections
+
 The unit's root content.json file references the separate problem section files using relative paths. These paths are used by CLUE to import the problem sections when loading the unit content.
 
 ## Adding a Teacher Guide
 
-In an existing unit directory, add a subdirectory named `teacher-guide`. The teacher guide should have it's own content.json file added to that subdirectory. If the teacher guide contains problem sections, they should go into separate files in the teacher-guide directory, following the same pattern that the main unit uses.
+In an existing unit directory, add a subdirectory named `teacher-guide`. The teacher guide should have its own content.json file added to that subdirectory. If the teacher guide contains problem sections, they should go into separate files in the teacher-guide directory, following the same pattern that the main unit uses.
