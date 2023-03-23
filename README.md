@@ -11,17 +11,17 @@ Curriculum units contain a number of investigations. Each investigation contains
 
 Each problem section should have its own content.json file located in a subdirectory of the unit directory. The file structure is generally:
 
--- unit
----- content.json
----- investigation-1
------- problem-1
--------- section-1-type
----------- content.json
--------- section-2-type
----------- content.json
------- problem-2
--------- section-1-type
----------- content.json
+-- unit  
+---- content.json  
+---- investigation-1  
+------ problem-1  
+-------- section-1-type  
+---------- content.json  
+-------- section-2-type  
+---------- content.json  
+------ problem-2  
+-------- section-1-type  
+---------- content.json  
 
 Note that each problem section's directory name should match the section's type. So if the problem section's type is `introduction`, its directory name should be `introduction`.
 
