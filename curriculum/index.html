@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CLUE Curriculum</title>
+    <style>
+      html, body {
+        background: #fff;
+        color: #313131;
+        margin: 0;
+        padding: 0;
+        font-family: helvetica, verdana, arial, sans-serif;
+      }
+      h1 {
+        font-size: 24px;
+        margin: 0;
+        padding: 10px;
+      }
+      p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0 10px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CLUE Curriculum</h1>
+    <p>A local instance of clue-curriculum is now running. <span id="curriculum-file-link"></span></p>
+    <script>
+      function setExampleLink() {
+        var currentUrlProtocol = window.location.protocol;
+        var currentUrlHost = window.location.host;
+        var contentLinkUrl = currentUrlProtocol + "//" + currentUrlHost + "/sas/content.json";
+        var contentLinkText = "You can access the curriculum content files at URLs like <a href=\"" + contentLinkUrl + "\">" + contentLinkUrl + "</a>.";
+        document.querySelector("#curriculum-file-link").innerHTML = contentLinkText;
+      }
+      document.body.onload = setExampleLink;
+    </script>
+  </body>
+</html>
