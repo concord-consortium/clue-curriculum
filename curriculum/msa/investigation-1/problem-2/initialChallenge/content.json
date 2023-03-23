@@ -36,7 +36,14 @@
         "title": "Walking Rates",
         "content": {
           "type": "Geometry",
-          "board": {"properties": {"axisMin": [-1.933, -2.25], "axisRange": [10, 20], "axisNames": ["t", "D"], "axisLabels": ["Time (seconds)", "Distance (m)"]}},
+          "board": {
+            "properties": {
+              "axisMin": [-1.933, -2.25], 
+              "axisRange": [10, 20], 
+              "axisNames": ["t", "D"], 
+              "axisLabels": [
+                "Time (seconds)", "Distance (m)"
+                ]}},
           "objects": [
             {"type": "movableLine", "parents": [{"type": "point", "parents": [0, 0]}, {"type": "point", "parents": [7, 18]}], "properties": {"id": "yEmEwM0rzkoqA07p", "pt1": {"type": "point", "id": "yEmEwM0rzkoqA07p-point1"}, "pt2": {"type": "point", "id": "yEmEwM0rzkoqA07p-point2"}}},
             {"type": "movableLine", "parents": [{"type": "point", "parents": [0, 0]}, {"type": "point", "parents": [9, 18]}], "properties": {"id": "NRzANO7xnT9_nccm", "pt1": {"type": "point", "id": "NRzANO7xnT9_nccm-point1"}, "pt2": {"type": "point", "id": "NRzANO7xnT9_nccm-point2"}}},

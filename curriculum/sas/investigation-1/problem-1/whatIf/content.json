@@ -5,12 +5,12 @@
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
+          "format": "html",
           "text": [
-            "**Situation A. Daphne’s Reasoning**",
-            "Daphne’s Reasoning",
-            "I used ratios to find the height of the teacher. For every inch measured of the PI magazine, there are 10 inches in real life. I used the PI magazine height to measure the height of the teacher.",
-            "How could ratios help her find the height of the teachers? "
+            "<p><strong>Situation A. Daphne’s Reasoning</strong></p>",
+            "<p>Daphne’s Reasoning</p>",
+            "<p>I used ratios to find the height of the teacher. For every inch measured of the PI magazine, there are 10 inches in real life. I used the PI magazine height to measure the height of the teacher.",
+            "How could ratios help her find the height of the teachers?</p>"
           ]
         }
       },
@@ -27,7 +27,16 @@
           ]
         }
       },
-      {"content": {"type": "Text", "format": "html", "text": ["<strong>Situation B. What’s Different?</strong>", "1. How does the real-life teacher differ from the teacher in the photo?"]}},
+      {"content": 
+        {
+          "type": "Text", 
+          "format": "html", 
+          "text": [
+            "<strong>Situation B. What’s Different?</strong>", 
+            "1. How does the real-life teacher differ from the teacher in the photo?"
+            ]
+        }
+      },
       {
         "display": "teacher",
         "content": {
@@ -39,20 +48,26 @@
           ]
         }
       },
-      {"content": {"type": "Text", "format": "html", "text": ["2. Can you think of some other times you could use a photo to estimate the size of something?"]}},
+      {
+        "content": {
+          "type": "Text", 
+          "format": "html", 
+          "text": [
+            "<p>2. Can you think of some other times you could use a photo to estimate the size of something?</p>"
+            ]
+        }
+      },
       {
         "display": "teacher",
         "content": {
           "type": "Text",
-          "format": "markdown",
+          "format": "html",
           "text": [
-            "Answers will vary. Possible answers:",
-            "* You might want to use a photograph to estimate the size of a large item you plan to buy, such as a large bookshelf. Estimating its size can help you determine whether or not it will fit in its designated spot.  ",
-            "* You could also take a close-up shot of something small, like an insect, next to an object with a standard size, like a penny. Then you can compare the features of the insect, such as its size, to pictures in a reference book. "
+            "<p>Answers will vary. Possible answers:</p>",
+            "<ul><li>You might want to use a photograph to estimate the size of a large item you plan to buy, such as a large bookshelf. Estimating its size can help you determine whether or not it will fit in its designated spot.</li><li>You could also take a close-up shot of something small, like an insect, next to an object with a standard size, like a penny. Then you can compare the features of the insect, such as its size, to pictures in a reference book. </li></ul>"
           ]
         }
       }
-    ],
-    "supports": []
+    ]
   }
 }
