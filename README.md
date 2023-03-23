@@ -11,17 +11,17 @@ Curriculum units contain a number of investigations. Each investigation contains
 
 Each problem section should have its own content.json file located in a subdirectory of the unit directory. The file structure is generally:
 
--- unit
----- content.json
----- investigation-1
------- problem-1
--------- section-1-type
----------- content.json
--------- section-2-type
----------- content.json
------- problem-2
--------- section-1-type
----------- content.json
+-- unit  
+---- content.json  
+---- investigation-1  
+------ problem-1  
+-------- section-1-type  
+---------- content.json  
+-------- section-2-type  
+---------- content.json  
+------ problem-2  
+-------- section-1-type  
+---------- content.json  
 
 Note that each problem section's directory name should match the section's type. So if the problem section's type is `introduction`, its directory name should be `introduction`.
 
@@ -29,9 +29,9 @@ Use the problem-section-template.json file as a starting place to build a proble
 
 The keystrokes for copying/exporting CLUE content are:
 
-`cmd+option+e` to copy/export a single tile
-`cmd+shift+s` to copy/export the whole document
-`cmd+option+shift+s` to copy/export the whole document as sections
+`cmd+option+e` to copy/export a single tile  
+`cmd+shift+s` to copy/export the whole document  
+`cmd+option+shift+s` to copy/export the whole document as sections  
 
 The unit's root content.json file references the separate problem section files using relative paths. These paths are used by CLUE to import the problem sections when loading the unit content.
 
