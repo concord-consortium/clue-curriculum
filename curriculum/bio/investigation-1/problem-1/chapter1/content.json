@@ -27,7 +27,88 @@
                 ]
               }
             },
-            "objects": []
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  1.8249948730468764,
+                  4.341213110351565
+                ],
+                "properties": {
+                  "id": "vIS1dv8zgsTopxWU",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  3.0487626953125013,
+                  7.601694677734377
+                ],
+                "properties": {
+                  "id": "nx5S2UxDXnbgP8tH",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  6.833413574218752,
+                  4.443456689453128
+                ],
+                "properties": {
+                  "id": "nkmpYqk6hAMcssSR",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "vIS1dv8zgsTopxWU",
+                  "nx5S2UxDXnbgP8tH",
+                  "nkmpYqk6hAMcssSR"
+                ],
+                "properties": {
+                  "id": "KSaZZLmihyQ0VdPl"
+                }
+              },
+              {
+                "type": "movableLine",
+                "parents": [
+                  {
+                    "type": "point",
+                    "parents": [
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "type": "point",
+                    "parents": [
+                      5.536852620442708,
+                      9.613341284179688
+                    ]
+                  }
+                ],
+                "properties": {
+                  "id": "jPKbE0A-A1A64rw4",
+                  "pt1": {
+                    "type": "point",
+                    "id": "jPKbE0A-A1A64rw4-point1"
+                  },
+                  "pt2": {
+                    "type": "point",
+                    "id": "jPKbE0A-A1A64rw4-point2"
+                  }
+                }
+              }
+            ]
           }
         },
         {
