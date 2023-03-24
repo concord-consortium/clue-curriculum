@@ -2,12 +2,11 @@
   "name": "clue-curriculum",
   "version": "1.0.0",
   "description": "This is a repository for CLUE curriculum unit and teacher guide data. The unit and teacher guide data is imported by [CLUE](https://github.com/concord-consortium/collaborative-learning).",
-  "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "build": "node no-build.js",
+    "start": "webpack serve --no-https",
+    "start:secure": "webpack serve",
+    "start:secure:no-certs": "webpack serve --no-https-request-cert",
     "test": "echo \"No test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +20,10 @@
   },
   "homepage": "https://github.com/concord-consortium/clue-curriculum#readme",
   "devDependencies": {
+    "html-loader": "^4.2.0",
     "json-stringify-pretty-compact": "^4.0.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
   }
 }
