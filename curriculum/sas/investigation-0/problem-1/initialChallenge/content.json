@@ -11,23 +11,43 @@
             "text": [
               "<p><strong>Using CLUE’s Tools</strong></p>",
               "<p></p>",
-              "<p>It’s time  to try out each of CLUE’s tools. You’ll decide which tools to use to solve a problem. Knowing how the tools work will help you present your mathematical answers in a way that makes sense to you, whether that’s in words or a graph or table. To use a tool, just click it. You can then move it to a particular section or above or below another tile. Or to position it precisely, drag it from the toolbar into your workspace, moving to where you want it (the drop zone is indicated by a blue vertical bar), then let go.</p>"
+              "<p>It is time  to try out each of CLUE’s tools. You’ll decide which tools to use to solve a problem. Knowing how the tools work will help you present your mathematical answers in a way that makes sense to you, whether that’s in words or a graph or table. To use a tool, just click it. You can then move it to a particular section or above or below another tile. Or to position it precisely, drag it from the toolbar into your workspace, moving to where you want it (the drop zone is indicated by a blue vertical bar), then let go.</p>"
             ]
           }
         },
-        {"id": "_acGcUoGuBg5sXvL", "title": "Tool Tiles on the CLUE Toolbar", "content": {"type": "Image", "url": "sas/images/AllToolsToolBar-labeled.png"}}
+        {
+          "id": "_acGcUoGuBg5sXvL",
+          "title": "Tool Tiles on the CLUE Toolbar",
+          "content": {
+            "type": "Image",
+            "url": "curriculum/stretching-and-shrinking/images/AllToolsToolBar-labeled.png"
+          }
+        }
       ],
       [
         {
           "id": "jVu0lyX6VmWRgOhY",
-          "layout": {"height": 120},
+          "layout": {
+            "height": 120
+          },
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p><strong>Text</strong></p>", "<p>When you click into a text tile in your workspace, a tray with icons for editing options appears below it. Hover your mouse over the items in the tray for more information (and a keyboard shortcut) about each.</p>", "<p></p>"]
+            "text": [
+              "<p><strong>Text</strong></p>",
+              "<p>When you click into a text tile in your workspace, a tray with icons for editing options appears below it. Hover your mouse over the items in the tray for more information (and a keyboard shortcut) about each.</p>",
+              "<p></p>"
+            ]
           }
         },
-        {"id": "kKGmMgSxgJId6zJW", "title": "Text controls", "content": {"type": "Image", "url": "sas/images/TextTray.png"}}
+        {
+          "id": "kKGmMgSxgJId6zJW",
+          "title": "Text controls",
+          "content": {
+            "type": "Image",
+            "url": "curriculum/stretching-and-shrinking/images/TextTray.png"
+          }
+        }
       ],
       [
         {
@@ -96,10 +116,38 @@
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p>Explore the table functions. See if you can add another column and label it Height (ft.), then fill the column with heights. You can make up the numbers (or research them, if you want). Also, add another dinosaur or two and fill out the columns with numbers.</p>"]
+            "text": [
+              "<p>Explore the table functions. See if you can add another column and label it Height (ft.), then fill the column with heights. You can make up the numbers (or research them, if you want). Also, add another dinosaur or two and fill out the columns with numbers.</p>"
+            ]
           }
         },
-        {"id": "-ZoJoDESMoYPKL7H", "content": {"type": "Table", "name": "Dinosaur Characteristics", "columns": [{"name": "Dinosaur", "values": ["Velociraptor", "Coelophysis", "Triceratops", "Allosaurus"]}, {"name": "Length (ft.)", "values": ["6.5", "10", "26", "32"]}]}}
+        {
+          "id": "-ZoJoDESMoYPKL7H",
+          "content": {
+            "type": "Table",
+            "name": "Dinosaur Characteristics",
+            "columns": [
+              {
+                "name": "Dinosaur",
+                "values": [
+                  "Velociraptor",
+                  "Coelophysis",
+                  "Triceratops",
+                  "Allosaurus"
+                ]
+              },
+              {
+                "name": "Length (ft.)",
+                "values": [
+                  "6.5",
+                  "10",
+                  "26",
+                  "32"
+                ]
+              }
+            ]
+          }
+        }
       ],
       {
         "id": "FMm-bEHPbtoLSJd2",
@@ -111,18 +159,65 @@
           ]
         }
       },
-      {"id": "JU_PfL7clLhi5YKm", "content": {"type": "Table", "name": "Connections Between Points", "columns": [{"name": "Points", "values": ["1", "2", "3", "4", "5"]}, {"name": "Connections", "values": ["0", "1", "3", "6", "10"]}]}},
-      {"id": "1O2b0WS9ShaqbaHv", "content": {"type": "Text", "format": "html", "text": ["<p>Tables have other features that we’ll explore later in this activity.</p>"]}},
+      {
+        "id": "JU_PfL7clLhi5YKm",
+        "content": {
+          "type": "Table",
+          "name": "Connections Between Points",
+          "columns": [
+            {
+              "name": "Points",
+              "values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ]
+            },
+            {
+              "name": "Connections",
+              "values": [
+                "0",
+                "1",
+                "3",
+                "6",
+                "10"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "1O2b0WS9ShaqbaHv",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Tables have other features that we’ll explore later in this activity.</p>"
+          ]
+        }
+      },
       [
         {
           "id": "bsVBeX_vC7orGn2k",
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p><strong>Graph</strong></p>", "<p>The Graph tool allows you to work with both geometrical figures and number relationships on a graph. Many features are available from the graph tray that appears when a graph tile is selected.</p>"]
+            "text": [
+              "<p><strong>Graph</strong></p>",
+              "<p>The Graph tool allows you to work with both geometrical figures and number relationships on a graph. Many features are available from the graph tray that appears when a graph tile is selected.</p>"
+            ]
           }
         },
-        {"id": "8l7oyYGXkc9uVEps", "title": "Graph controls", "content": {"type": "Image", "url": "sas/images/GraphTrayLabled.png"}}
+        {
+          "id": "8l7oyYGXkc9uVEps",
+          "title": "Graph controls",
+          "content": {
+            "type": "Image",
+            "url": "curriculum/stretching-and-shrinking/images/GraphTrayLabled.png"
+          }
+        }
       ],
       {
         "id": "ig4n6NXWNFIqgugW",
@@ -143,15 +238,72 @@
           "title": "Graph Play",
           "content": {
             "type": "Geometry",
-            "board": {"properties": {"axisMin": [-2.186, -1.093], "axisRange": [26.23, 17.486]}},
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2.186,
+                  -1.093
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ]
+              }
+            },
             "objects": [
-              {"type": "point", "parents": [5.009165503307461, 4.9969649184597], "properties": {"id": "4LBSAZbwBSIZj8oe", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-              {"type": "point", "parents": [10, 10.000000000000002], "properties": {"id": "CwvkuSfF5kvTyumD", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-              {"type": "point", "parents": [15, 5.000000000000001], "properties": {"id": "1t6NY4AggtTSPW_H", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}}
+              {
+                "type": "point",
+                "parents": [
+                  5.009165503307461,
+                  4.9969649184597
+                ],
+                "properties": {
+                  "id": "4LBSAZbwBSIZj8oe",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  10,
+                  10.000000000000002
+                ],
+                "properties": {
+                  "id": "CwvkuSfF5kvTyumD",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  15,
+                  5.000000000000001
+                ],
+                "properties": {
+                  "id": "1t6NY4AggtTSPW_H",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              }
             ]
           }
         },
-        {"id": "tYv03K0SXNOBRbws", "content": {"type": "Text", "format": "html", "text": ["<p>You can try out the remaining features and some tricks with the Graph tool later in this activity.</p>", "<p></p>"]}}
+        {
+          "id": "tYv03K0SXNOBRbws",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>You can try out the remaining features and some tricks with the Graph tool later in this activity.</p>",
+              "<p></p>"
+            ]
+          }
+        }
       ],
       {
         "id": "V8HfULbj8W5hEh1x",
@@ -165,7 +317,14 @@
           ]
         }
       },
-      {"id": "ldQbqn6TNXqeGSnU", "title": "Snapshot of physical work loaded in CLUE", "content": {"type": "Image", "url": "sas/images/ImageTool-StudentWork_450w.png"}},
+      {
+        "id": "ldQbqn6TNXqeGSnU",
+        "title": "Snapshot of physical work loaded in CLUE",
+        "content": {
+          "type": "Image",
+          "url": "curriculum/stretching-and-shrinking/images/ImageTool-StudentWork_450w.png"
+        }
+      },
       {
         "id": "MADDxE2jZiDIptpg",
         "content": {
@@ -178,8 +337,25 @@
           ]
         }
       },
-      {"id": "SbbKDh_4RIFGF5Ig", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Draw</strong></p>", "<p>This simple draw tool can help you explain your answers when nothing else will. Drag a new Draw tool into the Initial Challenge workspace, and try it out.</p>"]}},
-      {"id": "gOJ6rVNNfONMKs3K", "title": "Drawing controls", "content": {"type": "Image", "url": "sas/images/DrawTrayLabeled_450w.png"}},
+      {
+        "id": "SbbKDh_4RIFGF5Ig",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Draw</strong></p>",
+            "<p>This simple draw tool can help you explain your answers when nothing else will. Drag a new Draw tool into the Initial Challenge workspace, and try it out.</p>"
+          ]
+        }
+      },
+      {
+        "id": "gOJ6rVNNfONMKs3K",
+        "title": "Drawing controls",
+        "content": {
+          "type": "Image",
+          "url": "curriculum/stretching-and-shrinking/images/DrawTrayLabeled_450w.png"
+        }
+      },
       {
         "id": "UmuJ2eGSIGvOpkwy",
         "content": {
@@ -211,7 +387,56 @@
         "content": {
           "type": "Table",
           "name": "Dog",
-          "columns": [{"name": "x", "values": ["6", "8", "8.5", "10", "11", "15", "19", "20", "19", "18", "18", "16", "14", "12", "10", "10", "9", "9", "7"]}, {"name": "y", "values": ["8.5", "10", "11", "11", "9", "9.5", "9", "11", "5", "5", "7", "6.5", "6", "6.5", "7", "5", "5", "8.5", "8"]}]
+          "columns": [
+            {
+              "name": "x",
+              "values": [
+                "6",
+                "8",
+                "8.5",
+                "10",
+                "11",
+                "15",
+                "19",
+                "20",
+                "19",
+                "18",
+                "18",
+                "16",
+                "14",
+                "12",
+                "10",
+                "10",
+                "9",
+                "9",
+                "7"
+              ]
+            },
+            {
+              "name": "y",
+              "values": [
+                "8.5",
+                "10",
+                "11",
+                "11",
+                "9",
+                "9.5",
+                "9",
+                "11",
+                "5",
+                "5",
+                "7",
+                "6.5",
+                "6",
+                "6.5",
+                "7",
+                "5",
+                "5",
+                "8.5",
+                "8"
+              ]
+            }
+          ]
         }
       },
       [
@@ -225,7 +450,14 @@
             ]
           }
         },
-        {"display": "teacher", "title": "Graph with picture of dog", "content": {"type": "Image", "url": "sas/images/DogGraphTeacherImage_350w.png"}}
+        {
+          "display": "teacher",
+          "title": "Graph with picture of dog",
+          "content": {
+            "type": "Image",
+            "url": "curriculum/stretching-and-shrinking/images/DogGraphTeacherImage_350w.png"
+          }
+        }
       ],
       {
         "id": "DoQmgg9mbQ_KfaHb",
