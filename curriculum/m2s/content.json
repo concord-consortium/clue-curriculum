@@ -349,7 +349,7 @@
       "title": "Stations",
       "placeholder": "Work on the task here"
     },
-    "diagram": {
+    "resources": {
       "initials": "RES",
       "title": "Resources",
       "placeholder": "Work on the task here"
@@ -357,6 +357,11 @@
     "timeMoney": {
       "initials": "TM",
       "title": "Time & Money",
+      "placeholder": "Work on the task here"
+    },
+    "wordProblem": {
+      "initials": "WP",
+      "title": "Word Problem",
       "placeholder": "Work on the task here"
     },
     "foodWaste": {
@@ -998,7 +1003,7 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-4/problem-2/task/content.json",
+            "investigation-4/problem-2/wordProblem/content.json",
             "investigation-4/problem-1/help/content.json"
           ],
           "config": {
@@ -1215,13 +1220,13 @@
               "tiles": [
                 [
                   {
-                    "id": "TemplateTextTile12MAR2023",
-                    "title": "TemplateTextTile",
+                    "id": "S9bAuIInwb72c0V9",
+                    "title": "4_6_TextTile",
                     "content": {
                       "type": "Text",
                       "format": "html",
                       "text": [
-                        "<p></p>"
+                        "<p><strong>1. Write down at least two thoughts</strong> you have about this model. Your “thoughts” can be questions, ideas, or comments; they really can be anything but they must relate to a specific aspect of the model (e.g., one of the factors, the output, etc.)</p>"
                       ]
                     }
                   },
@@ -1234,6 +1239,17 @@
                     }
                   }
                 ],
+                {
+                  "id": "-wYSwZZR8lR-wFVw",
+                  "title": "Text 4",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>**Build the food waste model(s) in the diagram tile below**</strong></p>"
+                    ]
+                  }
+                },
                 {
                   "id": "TemplateDeagramTile12MAR2023",
                   "title": "Template Diagram Tile",
