@@ -3,16 +3,26 @@
   "content": {
     "tiles": [
       {
-        "id": "Q9M_mxGM40cRN_RP",
-        "title": "Text 1",
+        "id": "pRKlaMg3reeU3Ysp",
+        "title": "Text 22",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Here are some quick tips for using M2Studio. Need more tips? Check out the <a href=\"https://docs.google.com/document/d/1ujXw2SiqHlunDOLmMj1Y5ap93-Cg39yWj8gkFZAfvmI/edit#heading=h.qtifl5jpruox\">User Guide</a>.</p><p><strong>Naming variables</strong></p><ul><li>You can use letters and numbers to name variables, and the name must start with a letter. Since no space is allowed in variable names, you can connect multiple words using an underscore (&quot;variable_name&quot;) or capitalize the first letter of each word (&quot;VariableName&quot;).</li></ul><p><strong>Units</strong></p><ul><li>Frequently used standard units and abbreviations: &quot;m&quot; or &quot;meter&quot;, &quot;s&quot; or &quot;second&quot; (see more below)</li><li>Use &quot;<strong>$</strong>&quot; for &quot;dollar&quot;</li><li>Use &quot;<strong>/</strong>&quot; for &quot;per&quot;, e.g., &quot;m/s&quot;, &quot;$/lb&quot;</li><li>Plural and singular are treated  the same, e.g., &quot;cat&quot; and &quot;cats&quot; are the same.   </li></ul><p><strong>Value</strong></p><ul><li>You can enter integers and decimals. </li><li>Ratios, fractions, and percentages are not supported yet. You must convert them to decimals first, e.g., 1:10, 1/10, or 10% should be converted to 0.1</li></ul><p><strong>Expression</strong></p><ul><li>Operators: <strong>+</strong> addition, <strong>-</strong> subtraction, <strong>*</strong> multiplication, <strong>/</strong> division, <strong>^</strong> exponentiation (e.g., &quot;a^b&quot; means &quot;raise a to the power of b&quot;)</li><li>Use one or more <strong>( )</strong> to ensure the desired order of operation, ((a + b) * c - d) / e.</li></ul><p><strong>Converting computed units</strong></p><ul><li>If the computed unit is not in the form you want (e.g., in seconds when you want it in minutes), convert it using the <strong>&quot;to [unit]&quot;</strong> function in the expression. For example, for the variables &quot;distance = 1 mile&quot; and &quot;speed = 4 miles/hour&quot;, the computed result of the expression &quot;distance/speed&quot; will be &quot;900 s&quot;. To convert it to &quot;min&quot;, add &quot;to min&quot; to the end of the expression: &quot;distance/speed to min&quot;. This will give the result as &quot;15 min.&quot;</li></ul><p><strong>Built-in standard units</strong></p><p>You can use either the unit word (“meter”) or its common abbreviation (“m”).</p><ul><li>Length: meter (m), inch (in), foot (ft), yard (yd), mile (mi);</li><li>Surface area: m2, sqin, sqft, sqyd, sqmi, sqrd;</li><li>Volume: m3, litre (L, liter), cc, cuin, cuft, cuyd, teaspoon, tablespoon;</li><li>Liquid volume: fluidounce (floz), cup, pint (pt), quart (qt), gallon (gal);</li><li>Angles: rad (radian), deg (degree);</li><li>Time: second (s, secs, seconds), minute (min, mins, minutes), hour (h, hr, hrs, hours), day (days), week (weeks), month (months), year (years), decade (decades), century (centuries), millennium (millennia);</li><li>Mass: gram(g), tonne, ton, ounce (oz), poundmass (lb, lbs);</li><li>Temperature: kelvin (K), celsius (degC), fahrenheit (degF).</li><li>Frequently used decimal prefixes for International System of Units can also be used: <strong>kilo, centi, milli</strong> (see more in <a href=\"https://docs.google.com/document/d/1ujXw2SiqHlunDOLmMj1Y5ap93-Cg39yWj8gkFZAfvmI/edit#\">User Guide</a>).</li></ul>"
+            "<p><strong>Food Waste</strong></p><p>Hi students, the dining manager of a college has asked for your help to revise and improve the food waste model used by institutions in New York State.</p>",
+            "<p>Recreate this initial model in your workspace</p>"
           ]
         }
+      },
+      {
+        "id": "V0M_1UZ21jKhB2vi",
+        "title": "Initial Model: Food Waste",
+        "content": {
+          "type": "Image",
+          "url": "m2s/images/FoodWaste.png",
+          "filename": "m2s/images/FoodWaste.png"
+        }
       }
-     ]
+    ]
   }
 }
