@@ -11,7 +11,6 @@
       "tiles": [{"id": "document_Text_1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Welcome to MothEd CLUE!</strong></p>", "<p>To get started, click the My Resources bar at extreme left, and then click the tab labeled <strong>Activity.</strong></p>"]}}]
     },
     "defaultDocumentType": "problem",
-    "settings": {"table": {"numFormat": ".2~f"}},
     "toolbar": [
       {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
       {"id": "Text", "title": "Text", "isTileTool": true},
@@ -49,6 +48,12 @@
           ]
         }
       ]
+    },
+    "settings": {
+      "table": {
+        "numFormat": ".2~f", 
+        "tools": ["delete"]
+      }
     },
     "stamps": [
       {"url": "curriculum/mothed/stamps/acorn.png", "width": 35, "height": 35},
