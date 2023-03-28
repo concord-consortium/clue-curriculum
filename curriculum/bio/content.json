@@ -4,7 +4,6 @@
   "title": "Bio4Community",
   "subtitle": "Stress in our Community and Bodies",
   "placeholderText": "Discuss Evidence here",
-  "settings": {"table": {"numFormat": ".2~f"}},
   "config": {
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": false,
@@ -19,6 +18,12 @@
       {"id": "Drawing", "title": "Drawing", "isTileTool": true},
       {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
     ],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f", 
+        "tools": ["delete"]
+      }
+    },
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
