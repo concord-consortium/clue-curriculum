@@ -5,16 +5,16 @@
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
-          "text": ["***Situation A. Student Strategies from Ms. Gomez’s Class***", "- Examine each strategy. Is it correct? Explain why.", "- Can each strategy be used to make predictions? Which would you choose to make a prediction? Explain.", "- How are the four strategies the same? Different?"]
+          "format": "html",
+          "text": ["<h3>Situation A. Student Strategies from Ms. Gomez’s Class</h3>", "- Examine each strategy. Is it correct? Explain why.", "- Can each strategy be used to make predictions? Which would you choose to make a prediction? Explain.", "- How are the four strategies the same? Different?"]
         }
       },
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
+          "format": "html",
           "text": [
-            "**Maria Uses a Table**",
+            "<h3>Maria Uses a Table</h3>",
             "I worked out several cases for truss lengths. I recorded them in a table. I noticed that as the length increased by 1 unit, the number of rods increased by 4. That is the number of rods is increasing at a rate of change of 4 rods per one additional unit."
           ]
         }
@@ -23,17 +23,17 @@
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
-          "text": ["**Sungah Uses a Graph**", "I also worked out several cases for truss lengths. But I made a graph of the data. The data points appear to lie on a straight line. The y-intercept is (0,0) but I was not sure what the rate of change between the two variables is."]
+          "format": "html",
+          "text": ["<h3>Sungah Uses a Graph</h3>", "I also worked out several cases for truss lengths. But I made a graph of the data. The data points appear to lie on a straight line. The y-intercept is (0,0) but I was not sure what the rate of change between the two variables is."]
         }
       },
-      {"content": {"type": "Image", "url": "curriculum/thinking-with-math-models/images/TWMM_1_3_sungah_graph_400w.png"}},
+      {"content": {"type": "Image", "url": "twmm/images/TWMM_1_3_sungah_graph_400w.png"}},
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
+          "format": "html",
           "text": [
-            "**Walter Uses an Equation**",
+            "<h3>Walter Uses an Equation</h3>",
             "I noticed that as the length of the truss increased by 1, the number of rods increased by 4. This means the relationship between the length of the truss L and the number of rods N is linear. So, the rate of change between the two variables is 4. The point (0,0) represents the y-intercept, the equation is",
             "**N = 0 + 4L or N = 4L.**"
           ]
@@ -42,23 +42,22 @@
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
+          "format": "html",
           "text": [
-            "**Jenna Uses an Equation**",
+            "<h3>Jenna Uses an Equation</h3>",
             "I figured out a pattern for the number of rods. For overall length 7, there are 7 triangles and 6 rods connecting these triangles, so I wrote ",
-            "**3 x 7 + 6 = 27**. The length L = 27.",
+            "3 x 7 + 6 = 27. The length L = 27.",
             "The number of connecting rods 6 is one less than the length 7. I wrote the equation for the number of rods N is",
-            "**N = 3L + L - 1**"
+            "N = 3L + L - 1"
           ]
         }
       },
-      {"content": {"type": "Text", "format": "markdown", "text": ["---"]}},
       {"content": {"type": "Text", "format": "html", "text": ["<h3>Situation B. Another Structure: Staircase Frames</h3>Custom Steel Products also makes staircase frames like those shown here."]}},
-      {"content": {"type": "Image", "url": "curriculum/thinking-with-math-models/images/TWMM_1_3_stairase_frames_400w.png"}},
+      {"content": {"type": "Image", "url": "twmm/images/TWMM_1_3_stairase_frames_400w.png"}},
       {
         "content": {
           "type": "Text",
-          "format": "markdown",
+          "format": "html",
           "text": [
             "1. Describe the pattern of change in the number of rods as the number of steps increases. Explain how you found the pattern.",
             "2. How would the pattern you described be shown in the table? Graph? Equation?",
@@ -68,6 +67,5 @@
         }
       }
     ]
-  },
-  "supports": []
+  }
 }
