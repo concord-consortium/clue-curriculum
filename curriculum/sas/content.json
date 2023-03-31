@@ -4,66 +4,157 @@
   "title": "Stretching and Shrinking",
   "subtitle": "Understanding Similarity",
   "config": {
-    "enableHistoryRoles": ["teacher"],
+    "enableHistoryRoles": [
+      "teacher"
+    ],
     "placeholderText": "Enter notes here",
     "stamps": [
-      {"url": "curriculum/moving-straight-ahead/stamps/plus.png", "width": 25, "height": 25},
-      {"url": "curriculum/moving-straight-ahead/stamps/equals.png", "width": 25, "height": 25},
-      {"url": "curriculum/moving-straight-ahead/stamps/lparen.png", "width": 25, "height": 25},
-      {"url": "curriculum/moving-straight-ahead/stamps/rparen.png", "width": 25, "height": 25}
+      {
+        "url": "curriculum/moving-straight-ahead/stamps/plus.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "curriculum/moving-straight-ahead/stamps/equals.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "curriculum/moving-straight-ahead/stamps/lparen.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "curriculum/moving-straight-ahead/stamps/rparen.png",
+        "width": 25,
+        "height": 25
+      }
     ]
   },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
-    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
-    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
-    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
-    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
-    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
-    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "MathReflection4": {
+      "initials": "R4",
+      "title": "Math Reflection 4",
+      "placeholder": "Work area for\nMathematical Reflection 4 section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
       "description": "Investigation 0",
       "ordinal": 0,
       "title": "Introduction to CLUE",
-      "introduction": {"tiles": []},
+      "introduction": {
+        "tiles": []
+      },
       "problems": [
         {
           "description": "Problem 0.1",
           "ordinal": 1,
           "title": "0.1 Intro to CLUE",
           "subtitle": "Working in the Collaborative Learning User Environment",
-          "sections": ["investigation-0/problem-1/introduction/content.json", "investigation-0/problem-1/initialChallenge/content.json", "investigation-0/problem-1/whatIf/content.json", "investigation-0/problem-1/nowWhatDoYouKnow/content.json"],
-          "supports": []
+          "sections": [
+            "investigation-0/problem-1/introduction/content.json",
+            "investigation-0/problem-1/initialChallenge/content.json",
+            "investigation-0/problem-1/whatIf/content.json",
+            "investigation-0/problem-1/nowWhatDoYouKnow/content.json"
+          ]
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Investigation 1",
       "ordinal": 1,
       "title": "SAS Investigation 1 Enlarging and Reducing Shapes",
-      "introduction": {"tiles": []},
+      "introduction": {
+        "tiles": []
+      },
       "problems": [
         {
           "description": "Problem 1.1",
           "ordinal": 1,
           "title": "SAS 1.1 Solving a Mystery with Proportional Reasoning",
           "subtitle": "",
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/initialChallenge/content.json", "investigation-1/problem-1/whatIf/content.json", "investigation-1/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -86,12 +177,56 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p>", "<p>The Mystery Club advisor says that the picture is similar to the actual scene. What do you suppose the advisor means by similar? How is the photo similar to the actual scene that is photographed?</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>The Mystery Club advisor says that the picture is similar to the actual scene. What do you suppose the advisor means by similar? How is the photo similar to the actual scene that is photographed?</p>"
+                      ]
                     }
                   },
-                  {"id": "8Rq8Uw_LJZwpiSsX", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Similar Figures: <em>Introduction</em> </p>", "<p>Proportional Reasoning: <em>Analysis</em></p>"]}},
-                  {"id": "Qfk0rPo-Jx-0jxU2", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Similar</p>", "<p>Scale drawing</p>", "<p></p>", "<p></p>", "<p></p>"]}},
-                  {"id": "X9PI6Cb8DoYeJGh9", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 1.1: Photograph of Mystery Teacher </p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "8Rq8Uw_LJZwpiSsX",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Similar Figures: <em>Introduction</em> </p>",
+                        "<p>Proportional Reasoning: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Qfk0rPo-Jx-0jxU2",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Similar</p>",
+                        "<p>Scale drawing</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "X9PI6Cb8DoYeJGh9",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 1.1: Photograph of Mystery Teacher </p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "7KnyqQODcWqrcgMZ",
                     "title": "Text 1",
@@ -191,15 +326,19 @@
                 ]
               }
             }
-          },
-          "supports": []
+          }
         },
         {
           "description": "SAS Problem 1.2",
           "ordinal": 2,
           "title": "SAS 1.2 Designing a Poster Using a Rubber Band Stretcher",
           "subtitle": "",
-          "sections": ["investigation-1/problem-2/introduction/content.json", "investigation-1/problem-2/initialChallenge/content.json", "investigation-1/problem-2/whatIf/content.json", "investigation-1/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -222,11 +361,36 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p>", "<p>The original figure and its image are s<em>imilar figures</em>  or scale drawings. For two similar figures, what characteristics and measures are the same?  Different? Explain how you know.</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>The original figure and its image are s<em>imilar figures</em>  or scale drawings. For two similar figures, what characteristics and measures are the same?  Different? Explain how you know.</p>"
+                      ]
                     }
                   },
-                  {"id": "DhPBFmxLwYzg871Z", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Analysis</em></p>", "<p>Similar Figures: <em>Introduction and Exploration</em></p>"]}},
-                  {"id": "U4zPM-kEdZva43nt", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "DhPBFmxLwYzg871Z",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Analysis</em></p>",
+                        "<p>Similar Figures: <em>Introduction and Exploration</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "U4zPM-kEdZva43nt",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "JORy6R9PAUIhXmQz",
                     "title": "Text 1",
@@ -343,15 +507,19 @@
                 ]
               }
             }
-          },
-          "supports": []
+          }
         },
         {
           "description": "Problem 1.3",
           "ordinal": 3,
           "title": "SAS 1.3 Scaling Up and Down with Percents",
           "subtitle": "",
-          "sections": ["investigation-1/problem-3/introduction/content.json", "investigation-1/problem-3/initialChallenge/content.json", "investigation-1/problem-3/whatIf/content.json", "investigation-1/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -371,11 +539,55 @@
                   {
                     "id": "z-zlXOh40zBMQ4no",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>For similar figures, what features (attributes) and measures stay the same? What features (attributes) and measures change? How does a multiplier play a role in these changes?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>For similar figures, what features (attributes) and measures stay the same? What features (attributes) and measures change? How does a multiplier play a role in these changes?</p>"
+                      ]
+                    }
                   },
-                  {"id": "dzn6dK7qC_YXq7Zc", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Analysis</em></p>", "<p>Similar Figures: <em>Introduction and Exploration</em></p>"]}},
-                  {"id": "y5nDTZJ1pVbaAWny", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Corresponding sides</p>", "<p>Corresponding angles</p>"]}},
-                  {"id": "eLVPfi0VfWhXJpDU", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 1.3</p>", "<p>Super Sleuth Figure and Two Copies </p>", "<p>Tracing paper, patty paper, transparency, etc. (optional)</p>"]}},
+                  {
+                    "id": "dzn6dK7qC_YXq7Zc",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Analysis</em></p>",
+                        "<p>Similar Figures: <em>Introduction and Exploration</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "y5nDTZJ1pVbaAWny",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Corresponding sides</p>",
+                        "<p>Corresponding angles</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "eLVPfi0VfWhXJpDU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 1.3</p>",
+                        "<p>Super Sleuth Figure and Two Copies </p>",
+                        "<p>Tracing paper, patty paper, transparency, etc. (optional)</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "NNNsqVge-ocwuVug",
                     "title": "Text 1",
@@ -474,8 +686,7 @@
             }
           }
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Investigation 2",
@@ -488,8 +699,15 @@
           "ordinal": 1,
           "title": "SAS 2.1 Drawing Wumps",
           "subtitle": "Making Similar Figures",
-          "disabled": ["GeometryLinkedTables"],
-          "sections": ["investigation-2/problem-1/introduction/content.json", "investigation-2/problem-1/initialChallenge/content.json", "investigation-2/problem-1/whatIf/content.json", "investigation-2/problem-1/nowWhatDoYouKnow/content.json"],
+          "disabled": [
+            "GeometryLinkedTables"
+          ],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -512,11 +730,36 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you determine if an original figure and its image are similar by looking at the coordinate rule that produced the image? What features (attributes) stay the same for Mug and similar figures? What features change? </p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you determine if an original figure and its image are similar by looking at the coordinate rule that produced the image? What features (attributes) stay the same for Mug and similar figures? What features change? </p>"
+                      ]
                     }
                   },
-                  {"id": "HQEcVqVef3HyZHAg", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Analysis</em></p>", "<p>Similar Figures: <em>Exploration and Analysis</em></p>"]}},
-                  {"id": "VcNfMmDAptger270", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "HQEcVqVef3HyZHAg",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Analysis</em></p>",
+                        "<p>Similar Figures: <em>Exploration and Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "VcNfMmDAptger270",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "MFymJ4pRD8xiqEPY",
                     "title": "Text 1",
@@ -629,15 +872,18 @@
                 ]
               }
             }
-          },
-          "supports": []
+          }
         },
         {
           "description": "Problem 2.2",
           "ordinal": 2,
           "title": "SAS 2.2 Hats Off to the Wumps",
           "subtitle": "Changing a Figure's Size and Location",
-          "sections": ["investigation-2/problem-2/initialChallenge/content.json", "investigation-2/problem-2/whatIf/content.json", "investigation-2/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -666,8 +912,30 @@
                       ]
                     }
                   },
-                  {"id": "RGGN6d5POv0r0g_6", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p> Proportional Reasoning: <em>Analysis</em></p>", "<p>Similar Figures: <em>Analysis</em></p>"]}},
-                  {"id": "27JO8nc0dIYNfmUP", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "RGGN6d5POv0r0g_6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p> Proportional Reasoning: <em>Analysis</em></p>",
+                        "<p>Similar Figures: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "27JO8nc0dIYNfmUP",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "B7Ua1FozLl1UQhHo",
                     "title": "Text 1",
@@ -781,15 +1049,19 @@
                 ]
               }
             }
-          },
-          "supports": []
+          }
         },
         {
           "description": "Problem 2.3",
           "ordinal": 3,
           "title": "SAS 2.3 Mouthing Off and Nosing Around",
           "subtitle": "Scale Factors",
-          "sections": ["investigation-2/problem-3/introduction/content.json", "investigation-2/problem-3/initialChallenge/content.json", "investigation-2/problem-3/whatIf/content.json", "investigation-2/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -806,10 +1078,56 @@
                       ]
                     }
                   },
-                  {"id": "MWIVEeWUPF_4GLpJ", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you decide if two shapes are similar? How can you determine the scale factor between two similar shapes?</p>"]}},
-                  {"id": "bEj_NL8jmFadh7ht", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Analysis</em> </p>", "<p>Similar Figures: <em>Analysis</em></p>"]}},
-                  {"id": "EFSRXuBC9QRTIEMA", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Scale factor</p>"]}},
-                  {"id": "PHXEl6byD8FcqGYV", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 2.3                </p>", "<p>Wump Mouths and Noses</p>"]}},
+                  {
+                    "id": "MWIVEeWUPF_4GLpJ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you decide if two shapes are similar? How can you determine the scale factor between two similar shapes?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "bEj_NL8jmFadh7ht",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Analysis</em> </p>",
+                        "<p>Similar Figures: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "EFSRXuBC9QRTIEMA",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Scale factor</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "PHXEl6byD8FcqGYV",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 2.3                </p>",
+                        "<p>Wump Mouths and Noses</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "7k2AK-R6X7YCfvNa",
                     "title": "Text 1",
@@ -917,7 +1235,12 @@
           "ordinal": 1,
           "title": "SAS 3.1 Using Proportional Reasoning to Rep-tile",
           "subtitle": "The Area Connection",
-          "sections": ["investigation-3/problem-1/introduction/content.json", "investigation-3/problem-1/initialChallenge/content.json", "investigation-3/problem-1/whatIf/content.json", "investigation-3/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -934,9 +1257,43 @@
                       ]
                     }
                   },
-                  {"id": "K8g5teMMostICINA", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How do rep-tiles show the relationship between the scale factor and the perimeter and area of similar shape?</p>"]}},
-                  {"id": "Tf7WtDHO8xMufRsB", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Synthesis</em> </p>", "<p>Similar Figures: <em>Analysis</em></p>"]}},
-                  {"id": "TweltiCl0ONgkcuG", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Rep-tile</p>"]}},
+                  {
+                    "id": "K8g5teMMostICINA",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How do rep-tiles show the relationship between the scale factor and the perimeter and area of similar shape?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Tf7WtDHO8xMufRsB",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Synthesis</em> </p>",
+                        "<p>Similar Figures: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TweltiCl0ONgkcuG",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Rep-tile</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "h4QFdINvd9dRuAAF",
                     "title": "Text 1",
@@ -1052,15 +1409,19 @@
                 ]
               }
             }
-          },
-          "supports": []
+          }
         },
         {
           "description": "Problem 3.2",
           "ordinal": 2,
           "title": "SAS 3.2 Designing Under Constraints",
           "subtitle": "Scale Factors and Similar Shapes (Scale Drawings)",
-          "sections": ["investigation-3/problem-2/introduction/content.json", "investigation-3/problem-2/initialChallenge/content.json", "investigation-3/problem-2/whatIf/content.json", "investigation-3/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1083,18 +1444,50 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you use scale factors to draw similar figures (scale drawings)? </p>", "<p>How can you use scale factors to find missing information about angles measures? Side lengths? Area? Perimeter?</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you use scale factors to draw similar figures (scale drawings)? </p>",
+                        "<p>How can you use scale factors to find missing information about angles measures? Side lengths? Area? Perimeter?</p>"
+                      ]
                     }
                   },
-                  {"id": "5S5fW9WBJwdKruj2", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Synthesis</em> </p>", "<p>Similar Figures: <em>Analysis and Synthesis</em></p>"]}},
-                  {"id": "cRzZ4_UyPqyY7xq6", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "5S5fW9WBJwdKruj2",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Synthesis</em> </p>",
+                        "<p>Similar Figures: <em>Analysis and Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "cRzZ4_UyPqyY7xq6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "HgmEQjDpmXPz6XXG",
                     "title": "Text 1",
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 3.2A Designing Under Constraints</p>", "<p>Learning Aid 3.2B   Polygon Sets (optional)</p>", "<p>Quarter-inch Grid Paper</p>", "<p>Angle rulers or protractors Rulers</p>"]
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 3.2A Designing Under Constraints</p>",
+                        "<p>Learning Aid 3.2B   Polygon Sets (optional)</p>",
+                        "<p>Quarter-inch Grid Paper</p>",
+                        "<p>Angle rulers or protractors Rulers</p>"
+                      ]
                     }
                   },
                   {
@@ -1203,7 +1596,12 @@
           "ordinal": 3,
           "title": "SAS 3.3 Out of Reach",
           "subtitle": "Finding Lengths with Similar Triangles",
-          "sections": ["investigation-3/problem-3/introduction/content.json", "investigation-3/problem-3/initialChallenge/content.json", "investigation-3/problem-3/whatIf/content.json", "investigation-3/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1220,10 +1618,56 @@
                       ]
                     }
                   },
-                  {"id": "2njkNN_nflfVgYbg", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you use similar triangles to find a distance that is difficult to measure?</p>"]}},
-                  {"id": "H5L521S0NvFVQX47", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Synthesis</em> </p>", "<p>Similar Figures: <em>Synthesis</em></p>"]}},
-                  {"id": "sLUOD1ciUGTNE5nO", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Nested triangles</p>"]}},
-                  {"id": "BHG6FkKcbt7sVzVW", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p><strong>Learning Aid 3.3     </strong>       </p>", "<p>River Diagrams</p>"]}},
+                  {
+                    "id": "2njkNN_nflfVgYbg",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you use similar triangles to find a distance that is difficult to measure?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "H5L521S0NvFVQX47",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Synthesis</em> </p>",
+                        "<p>Similar Figures: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "sLUOD1ciUGTNE5nO",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Nested triangles</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "BHG6FkKcbt7sVzVW",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p><strong>Learning Aid 3.3     </strong>       </p>",
+                        "<p>River Diagrams</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "AtDZgKskSs4ozaoJ",
                     "title": "Text 1",
@@ -1333,7 +1777,12 @@
           "ordinal": 1,
           "title": "SAS 4.1 Equivalent Ratios within Similar Figures",
           "subtitle": "",
-          "sections": ["investigation-4/problem-1/introduction/content.json", "investigation-4/problem-1/initialChallenge/content.json", "investigation-4/problem-1/whatIf/content.json", "investigation-4/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-1/introduction/content.json",
+            "investigation-4/problem-1/initialChallenge/content.json",
+            "investigation-4/problem-1/whatIf/content.json",
+            "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1353,10 +1802,47 @@
                   {
                     "id": "pxkeaV-xobTZdcVK",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>What information do the ratios of adjacent side lengths within two similar figures provide about similar figures? How are these ratios helpful in solving problems?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>What information do the ratios of adjacent side lengths within two similar figures provide about similar figures? How are these ratios helpful in solving problems?</p>"
+                      ]
+                    }
                   },
-                  {"id": "_3UIgtjXrI8u7fmY", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Synthesis</em> </p>", "<p>Similar Figures: <em>Analysis</em></p>"]}},
-                  {"id": "3sC7bHa_GiG56TSM", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Adjacent sides</p>", "<p>Equivalent ratios</p>", "<p>Proportion</p>", "<p>Ratio</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "_3UIgtjXrI8u7fmY",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Synthesis</em> </p>",
+                        "<p>Similar Figures: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "3sC7bHa_GiG56TSM",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Adjacent sides</p>",
+                        "<p>Equivalent ratios</p>",
+                        "<p>Proportion</p>",
+                        "<p>Ratio</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "g7JSkeZ9vFdH3mpu",
                     "title": "Text 1",
@@ -1474,7 +1960,12 @@
           "ordinal": 2,
           "title": "SAS 4.2 Using Shadows and Mirrors to Find Heights",
           "subtitle": "",
-          "sections": ["investigation-4/problem-2/introduction/content.json", "investigation-4/problem-2/initialChallenge/content.json", "investigation-4/problem-2/whatIf/content.json", "investigation-4/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-2/introduction/content.json",
+            "investigation-4/problem-2/initialChallenge/content.json",
+            "investigation-4/problem-2/whatIf/content.json",
+            "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1494,11 +1985,56 @@
                   {
                     "id": "6Q3_KWST9Dw3Gh9x",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>If two figures are similar, how can you use information about the figures to find unknown lengths, perimeters, areas, or angle measures?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>If two figures are similar, how can you use information about the figures to find unknown lengths, perimeters, areas, or angle measures?</p>"
+                      ]
+                    }
                   },
-                  {"id": "2dsaiR2lXW7GSVPQ", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Synthesis</em> </p>", "<p>Similar Figures: <em>Synthesis</em></p>"]}},
-                  {"id": "ZVuat_NegWEEGdjm", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p></p>", "<p></p>"]}},
-                  {"id": "VRUqJ9bGtqQ7fhdI", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 4.2  </p>", "<p>Reflection and Shadow Diagrams</p>", "<p>Meter sticks (optional)</p>", "<p>Small mirrors (optional)</p>"]}},
+                  {
+                    "id": "2dsaiR2lXW7GSVPQ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Synthesis</em> </p>",
+                        "<p>Similar Figures: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ZVuat_NegWEEGdjm",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "VRUqJ9bGtqQ7fhdI",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 4.2  </p>",
+                        "<p>Reflection and Shadow Diagrams</p>",
+                        "<p>Meter sticks (optional)</p>",
+                        "<p>Small mirrors (optional)</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "2NwDH3vwm03ebLCJ",
                     "title": "Text 1",
@@ -1604,7 +2140,12 @@
           "ordinal": 3,
           "title": "SAS 4.3 More Imposters",
           "subtitle": "Pulling it All Together",
-          "sections": ["investigation-4/problem-3/introduction/content.json", "investigation-4/problem-3/initialChallenge/content.json", "investigation-4/problem-3/whatIf/content.json", "investigation-4/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-3/introduction/content.json",
+            "investigation-4/problem-3/initialChallenge/content.json",
+            "investigation-4/problem-3/whatIf/content.json",
+            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1621,13 +2162,56 @@
                       ]
                     }
                   },
-                  {"id": "A1_wtyH9eQ4Ckmi-", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>What are strategies for identifying if shapes have been scaled (similar figures) or if the shapes are imposters?</p>"]}},
-                  {"id": "tJjVntVhFszhuzwd", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Proportional Reasoning: <em>Synthesis</em> </p>", "<p>Similar Figures: <em>Synthesis</em></p>"]}},
-                  {"id": "HeGgMvlORA6prvk6", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "A1_wtyH9eQ4Ckmi-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>What are strategies for identifying if shapes have been scaled (similar figures) or if the shapes are imposters?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "tJjVntVhFszhuzwd",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Proportional Reasoning: <em>Synthesis</em> </p>",
+                        "<p>Similar Figures: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "HeGgMvlORA6prvk6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "5-WtyqjBwMZZtIyD",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p><strong>Learning Aid 4.3   </strong>      Sets of Figures</p>", "<p>Rulers</p>", "<p>Angle rulers or protractors</p>", "<p>Tracing paper, patty paper, transparency, etc.</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p><strong>Learning Aid 4.3   </strong>      Sets of Figures</p>",
+                        "<p>Rulers</p>",
+                        "<p>Angle rulers or protractors</p>",
+                        "<p>Tracing paper, patty paper, transparency, etc.</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "EM8pV9fPE-8yXnlS",
@@ -1740,7 +2324,12 @@
           "ordinal": 1,
           "title": "Stretching and Shrinking Mathematical Reflections",
           "subtitle": "",
-          "sections": ["investigation-5/problem-1/MathReflection1/content.json", "investigation-5/problem-1/MathReflection2/content.json", "investigation-5/problem-1/MathReflection3/content.json", "investigation-5/problem-1/MathReflection4/content.json"]
+          "sections": [
+            "investigation-5/problem-1/MathReflection1/content.json",
+            "investigation-5/problem-1/MathReflection2/content.json",
+            "investigation-5/problem-1/MathReflection3/content.json",
+            "investigation-5/problem-1/MathReflection4/content.json"
+          ]
         }
       ]
     }

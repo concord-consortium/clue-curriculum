@@ -3,27 +3,99 @@
   "abbrevTitle": "HL",
   "title": "How Likely Is It?",
   "subtitle": "Proportional Relationships in the Context of Probability",
-  "config": {"enableHistoryRoles": ["teacher"], "placeholderText": "Enter notes here", "stamps": [], "settings": {"table": {"numFormat": ".2~f"}}},
+  "config": {
+    "enableHistoryRoles": [
+      "teacher"
+    ],
+    "placeholderText": "Enter notes here",
+    "stamps": [],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    }
+  },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
-    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
-    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
-    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
-    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
-    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
-    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "MathReflection4": {
+      "initials": "R4",
+      "title": "Math Reflection 4",
+      "placeholder": "Work area for\nMathematical Reflection 4 section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
@@ -37,7 +109,12 @@
           "title": "HL 1.1 Negotiating Screen Time",
           "subtitle": "Tossing Coins and Cups to Find Probability",
           "disabled": [],
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/initialChallenge/content.json", "investigation-1/problem-1/whatIf/content.json", "investigation-1/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -53,17 +130,49 @@
                       ]
                     }
                   },
-                  {"id": "m2tkNg91Sp3QFo70", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How can you use an experiment to predict future results?</p>"]}},
+                  {
+                    "id": "m2tkNg91Sp3QFo70",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How can you use an experiment to predict future results?</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "v4hF_UdvgIfGKrhT",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction </em></p><p>Proportional Relationships: <em>Analysis</em><strong></strong></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction </em></p><p>Proportional Relationships: <em>Analysis</em><strong></strong></p>"
+                      ]
+                    }
                   },
-                  {"id": "bKOwiY7IJbOmV_n6", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "bKOwiY7IJbOmV_n6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "Xf1tgzld0ACq_uEN",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 1.1A Coin-Toss Results</p><p>Learning Aid 1.1B Cup-toss Results<strong></strong></p><p>Coins (2 per group)</p><p>Paper Cups (1 per group)</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 1.1A Coin-Toss Results</p><p>Learning Aid 1.1B Cup-toss Results<strong></strong></p><p>Coins (2 per group)</p><p>Paper Cups (1 per group)</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "90iwGZgITQ8LRqer",
@@ -131,7 +240,12 @@
           "ordinal": 2,
           "title": "HL 1.2 Match, No Match",
           "subtitle": "Finding Experimental Probabilities",
-          "sections": ["investigation-1/problem-2/introduction/content.json", "investigation-1/problem-2/initialChallenge/content.json", "investigation-1/problem-2/whatIf/content.json", "investigation-1/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -150,11 +264,47 @@
                   {
                     "id": "A8cTh4U3jLFBzdYe",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How does collecting more experimental data help you predict the likelihood of each possible outcome occurring? How does proportional reasoning help you make predictions?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How does collecting more experimental data help you predict the likelihood of each possible outcome occurring? How does proportional reasoning help you make predictions?</p>"
+                      ]
+                    }
                   },
-                  {"id": "PcJ0kYEBrFCOEv-d", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships:  <em>Analysis</em></p>"]}},
-                  {"id": "w_pjJuuS21JXdx2Y", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Probability</p><p>Experimental Probability</p><p>Trial</p><p>Favorable outcomes<strong></strong></p>"]}},
-                  {"id": "M0tB9OhLxoVH39mp", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid  1.2</p><p>Matching Coins</p>"]}},
+                  {
+                    "id": "PcJ0kYEBrFCOEv-d",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships:  <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "w_pjJuuS21JXdx2Y",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Probability</p><p>Experimental Probability</p><p>Trial</p><p>Favorable outcomes<strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "M0tB9OhLxoVH39mp",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid  1.2</p><p>Matching Coins</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "1bxlWoCvm9_JCr7J",
                     "title": "Text 1",
@@ -219,9 +369,14 @@
         {
           "description": "Problem 1.3",
           "ordinal": 3,
-          "title": "HL 1.3 Analyzing Events:",
+          "title": "HL 1.3 Analyzing Events",
           "subtitle": "Equally Likely",
-          "sections": ["investigation-1/problem-3/introduction/content.json", "investigation-1/problem-3/initialChallenge/content.json", "investigation-1/problem-3/whatIf/content.json", "investigation-1/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -240,11 +395,47 @@
                   {
                     "id": "ZKw5N1aP_MjvSSPn",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How can you determine whether the outcomes of a probability event are all equally likely? Why would this information matter if you are using the outcomes to make a decision? </p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How can you determine whether the outcomes of a probability event are all equally likely? Why would this information matter if you are using the outcomes to make a decision? </p>"
+                      ]
+                    }
                   },
-                  {"id": "D99tcgSv1BL93Aj8", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships: <em>Analysis</em></p>"]}},
-                  {"id": "MlbsI0uoEmjvoHfr", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Equally likely</p>"]}},
-                  {"id": "iT_Lmo6uux8uPJ4p", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong>"]}},
+                  {
+                    "id": "D99tcgSv1BL93Aj8",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "MlbsI0uoEmjvoHfr",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Equally likely</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "iT_Lmo6uux8uPJ4p",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong>"
+                      ]
+                    }
+                  },
                   {
                     "id": "Z1vMrjlRC-3BSJ-l",
                     "title": "Text 1",
@@ -318,7 +509,12 @@
           "ordinal": 1,
           "title": "HL 2.1 Gee Whiz Everyone Wins",
           "subtitle": "Finding Theoretical Probabilities",
-          "sections": ["investigation-2/problem-1/introduction/content.json", "investigation-2/problem-1/initialChallenge/content.json", "investigation-2/problem-1/whatIf/content.json", "investigation-2/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -337,15 +533,47 @@
                   {
                     "id": "3PXjgk3ECpXM9EUW",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How does experimental probability compare to theoretical probability for a given situation? What can you say about the sum of theoretical probabilities for all possible outcomes</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How does experimental probability compare to theoretical probability for a given situation? What can you say about the sum of theoretical probabilities for all possible outcomes</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "gP5K1T8aYsWTTO3Y",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
                   },
-                  {"id": "XF_w5AQBZz8cJPMR", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Theoretical Probability</p>"]}},
-                  {"id": "1Zx36YoNQOoYlwAl", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>One bucket or bag containing 9 red blocks, 6 yellow blocks, and 3 blue blocks</p><p>Teaching Aid 2.1 Gee Whiz! Class Data</p>"]}},
+                  {
+                    "id": "XF_w5AQBZz8cJPMR",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Theoretical Probability</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "1Zx36YoNQOoYlwAl",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>One bucket or bag containing 9 red blocks, 6 yellow blocks, and 3 blue blocks</p><p>Teaching Aid 2.1 Gee Whiz! Class Data</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "nQIBiTUbcqyf0arq",
                     "title": "Text 1",
@@ -412,7 +640,12 @@
           "ordinal": 2,
           "title": "HL 2.2 Designing a Fair Game",
           "subtitle": "Pondering Possible and Probable",
-          "sections": ["investigation-2/problem-2/introduction/content.json", "investigation-2/problem-2/initialChallenge/content.json", "investigation-2/problem-2/whatIf/content.json", "investigation-2/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-2/introduction/content.json",
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -431,15 +664,47 @@
                   {
                     "id": "VPSWos9c_z9JC4mT",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>What are some strategies for listing all the outcomes in a sample space when you have two or more events happening at the same time? How do you decide whether a game is fair or not?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What are some strategies for listing all the outcomes in a sample space when you have two or more events happening at the same time? How do you decide whether a game is fair or not?</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "IuA2FB2wK3x27N01",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Introduction/Explore</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
                   },
-                  {"id": "i5Doyo0IcGPliWOo", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Fair Game</p><p>Tree Diagram</p><p>Sample Space<strong></strong></p>"]}},
-                  {"id": "DGfLdK-ZBUKUVBX7", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Coins (3 per group)</p><p>Red, yellow, blue blocks (2 of each per partner group)</p><p>2 boxes, buckets, or bags</p>"]}},
+                  {
+                    "id": "i5Doyo0IcGPliWOo",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Fair Game</p><p>Tree Diagram</p><p>Sample Space<strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "DGfLdK-ZBUKUVBX7",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Coins (3 per group)</p><p>Red, yellow, blue blocks (2 of each per partner group)</p><p>2 boxes, buckets, or bags</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "JljQj2G-ThDWfm8H",
                     "title": "Text 1",
@@ -506,7 +771,12 @@
           "ordinal": 3,
           "title": "HL 2.3 Designing a Spinner to find Probabilities",
           "subtitle": "",
-          "sections": ["investigation-2/problem-3/introduction/content.json", "investigation-2/problem-3/initialChallenge/content.json", "investigation-2/problem-3/whatIf/content.json", "investigation-2/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -528,12 +798,44 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p><p>How do you determine experimental and theoretical probability using a spinner? Compare spinners to the methods of finding probabilities used in Investigations 1 and 2 to determine probability.</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How do you determine experimental and theoretical probability using a spinner? Compare spinners to the methods of finding probabilities used in Investigations 1 and 2 to determine probability.</p>"
+                      ]
                     }
                   },
-                  {"id": "naY00Rg23hEMKVqE", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Explore</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}},
-                  {"id": "WmwGK9PSmSU0vlrf", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Compound Events</p>"]}},
-                  {"id": "lz2YYzaWmeh_lo8A", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 2.3 Spinning for Lunch</p><p>Teaching Aid 2.3 Bedtime Spinner</p><p>Paper clips, or blank plastic spinners (optional)</p>"]}},
+                  {
+                    "id": "naY00Rg23hEMKVqE",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Explore</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "WmwGK9PSmSU0vlrf",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Compound Events</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "lz2YYzaWmeh_lo8A",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 2.3 Spinning for Lunch</p><p>Teaching Aid 2.3 Bedtime Spinner</p><p>Paper clips, or blank plastic spinners (optional)</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "9FhJDpp4eetwYNSa",
                     "title": "Text 1",
@@ -607,7 +909,12 @@
           "ordinal": 1,
           "title": "HL 3.1 Making Decisions: Analyzing Fairness",
           "subtitle": "",
-          "sections": ["investigation-3/problem-1/introduction/content.json", "investigation-3/problem-1/initialChallenge/content.json", "investigation-3/problem-1/whatIf/content.json", "investigation-3/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -623,13 +930,49 @@
                       ]
                     }
                   },
-                  {"id": "qfJZ_ous9LG8i2xk", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>What does it mean to be a fair game? When creating a simulation, what things must you consider?</p>"]}},
-                  {"id": "dte2ryn2DdSfoUSj", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Explore/Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}},
-                  {"id": "F_FL3lVs7SFszURg", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "qfJZ_ous9LG8i2xk",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What does it mean to be a fair game? When creating a simulation, what things must you consider?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "dte2ryn2DdSfoUSj",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Explore/Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "F_FL3lVs7SFszURg",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "PVlZZO3AAW0tTpYP",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 3.1 Blank Spinner</p><p>Paper clips or plastic blank spinners, number cubes, coins, colored blocks, bags, buckets, or boxes, Aangle rulers</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 3.1 Blank Spinner</p><p>Paper clips or plastic blank spinners, number cubes, coins, colored blocks, bags, buckets, or boxes, Aangle rulers</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "FnIOY7OkKZRvIGQU",
@@ -697,7 +1040,12 @@
           "ordinal": 2,
           "title": "HL 3.2 Roller Derby: Analyzing a Game",
           "subtitle": "",
-          "sections": ["investigation-3/problem-2/introduction/content.json", "investigation-3/problem-2/initialChallenge/content.json", "investigation-3/problem-2/whatIf/content.json", "investigation-3/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -713,10 +1061,50 @@
                       ]
                     }
                   },
-                  {"id": "58Tez7PJpImUSk2Q", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How does understanding probability help you design a winning strategy for a game? </p>"]}},
-                  {"id": "X5-7NwKkH2iy4zA9", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}},
-                  {"id": "LLbbHC_HGS6ClUz8", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "hc83x2JVkCmOa7v7", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 3.2 Roller Derby</p><p>Number cubes (2 per partner group)</p><p>Game markers (counters, buttons, or equivalent)</p>"]}},
+                  {
+                    "id": "58Tez7PJpImUSk2Q",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How does understanding probability help you design a winning strategy for a game? </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "X5-7NwKkH2iy4zA9",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "LLbbHC_HGS6ClUz8",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "hc83x2JVkCmOa7v7",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 3.2 Roller Derby</p><p>Number cubes (2 per partner group)</p><p>Game markers (counters, buttons, or equivalent)</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "v2ZkJzNVKMxqwv88",
                     "title": "Text 1",
@@ -783,7 +1171,12 @@
           "ordinal": 3,
           "title": "HL 3.3 Scratching Spots",
           "subtitle": "Designing and Using a Simulation",
-          "sections": ["investigation-3/problem-3/introduction/content.json", "investigation-3/problem-3/initialChallenge/content.json", "investigation-3/problem-3/whatIf/content.json", "investigation-3/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -805,15 +1198,43 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p><p>What factors do you have to consider to design a simulation? Suppose you run your simulation 20 times, how does proportional reasoning help you report your estimated theoretical probability as a ratio or percent?</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What factors do you have to consider to design a simulation? Suppose you run your simulation 20 times, how does proportional reasoning help you report your estimated theoretical probability as a ratio or percent?</p>"
+                      ]
                     }
                   },
-                  {"id": "8m2MJ5EJ3pmP8CQU", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}},
-                  {"id": "6PQydx2NaNuYOEbA", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Simulation</p>"]}},
+                  {
+                    "id": "8m2MJ5EJ3pmP8CQU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "6PQydx2NaNuYOEbA",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Simulation</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "ShPvx76nyM6aZZ2O",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Paper clips or plastic blank spinners</p><p>number cubes</p><p>coins</p><p>colored blocks</p><p>bags, buckets, or boxes</p><p>angle rulers</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Paper clips or plastic blank spinners</p><p>number cubes</p><p>coins</p><p>colored blocks</p><p>bags, buckets, or boxes</p><p>angle rulers</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "PHxPVyg8ePR2G8U6",
@@ -888,7 +1309,12 @@
           "ordinal": 1,
           "title": "HL 4.1 Making Purple Game",
           "subtitle": "Using Area Models to Find Sample Spaces",
-          "sections": ["investigation-4/problem-1/introduction/content.json", "investigation-4/problem-1/initialChallenge/content.json", "investigation-4/problem-1/whatIf/content.json", "investigation-4/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-1/introduction/content.json",
+            "investigation-4/problem-1/initialChallenge/content.json",
+            "investigation-4/problem-1/whatIf/content.json",
+            "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -904,13 +1330,49 @@
                       ]
                     }
                   },
-                  {"id": "F3ACxzcrhOrJyRFI", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How can an area model help represent and analyze the outcomes of a compound event? </p>"]}},
-                  {"id": "dmZBbv7Mxe95P_GU", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}},
-                  {"id": "VADMMSpvMwlNNmyN", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Area Model</p>"]}},
+                  {
+                    "id": "F3ACxzcrhOrJyRFI",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How can an area model help represent and analyze the outcomes of a compound event? </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "dmZBbv7Mxe95P_GU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "VADMMSpvMwlNNmyN",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Area Model</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "y3jjJfd3W8bNIj-r",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 4.1 Making Purple</p><p>Paper clips or blank plastic spinners</p><p>Teaching Aid 4.1 Tree Diagrams Transformed to Area Models</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 4.1 Making Purple</p><p>Paper clips or blank plastic spinners</p><p>Teaching Aid 4.1 Tree Diagrams Transformed to Area Models</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "lQYlIyCyRWe_9KwZ",
@@ -978,7 +1440,12 @@
           "ordinal": 2,
           "title": "HL 4.2 One-and-One Free Throw",
           "subtitle": "Simulating a Probability Situation",
-          "sections": ["investigation-4/problem-2/introduction/content.json", "investigation-4/problem-2/initialChallenge/content.json", "investigation-4/problem-2/whatIf/content.json", "investigation-4/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-2/introduction/content.json",
+            "investigation-4/problem-2/initialChallenge/content.json",
+            "investigation-4/problem-2/whatIf/content.json",
+            "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -997,15 +1464,47 @@
                   {
                     "id": "w2mMFWXHccs-37rU",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How is an area model for the one-and-one free throw situation like or unlike the area model for the Marble game or Making Purple game in Problem 4.1? </p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How is an area model for the one-and-one free throw situation like or unlike the area model for the Marble game or Making Purple game in Problem 4.1? </p>"
+                      ]
+                    }
                   },
                   {
                     "id": "GQkjsntA4XsdbdfN",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis/Synthesis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Analysis/Synthesis</em></p><p>Proportional Relationships: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
                   },
-                  {"id": "trLehcSWcWjjxd1-", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "ECjRu4x2XRer6D6Y", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 4.2A Nishi’s One-and-One</p><p>Learning Aid 4.2B 10 x 10 grid</p><p>Paper clips or blank plastic spinners</p>"]}},
+                  {
+                    "id": "trLehcSWcWjjxd1-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ECjRu4x2XRer6D6Y",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 4.2A Nishi’s One-and-One</p><p>Learning Aid 4.2B 10 x 10 grid</p><p>Paper clips or blank plastic spinners</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "3E9t5h3hc1NpbtN1",
                     "title": "Text 1",
@@ -1072,7 +1571,12 @@
           "ordinal": 3,
           "title": "HL 4.3 Finding Long-term Averages",
           "subtitle": "",
-          "sections": ["investigation-4/problem-3/introduction/content.json", "investigation-4/problem-3/initialChallenge/content.json", "investigation-4/problem-3/whatIf/content.json", "investigation-4/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-3/introduction/content.json",
+            "investigation-4/problem-3/initialChallenge/content.json",
+            "investigation-4/problem-3/whatIf/content.json",
+            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1088,10 +1592,50 @@
                       ]
                     }
                   },
-                  {"id": "Inyxk-hOsHyQ75MU", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p><p>How is the long-term average calculated from the probabilities of outcomes for an event? </p>"]}},
-                  {"id": "TdXpUx-fNX3b2uO6", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Synthesis/Abstraction</em></p><p>Proportional Relationships: <em>Synthesis</em></p>"]}},
-                  {"id": "AL5DQCpiR5-0K1--", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Long Term Average</p>"]}},
-                  {"id": "olrvEbxZgHEXp7nJ", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>"]}},
+                  {
+                    "id": "Inyxk-hOsHyQ75MU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How is the long-term average calculated from the probabilities of outcomes for an event? </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TdXpUx-fNX3b2uO6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Synthesis/Abstraction</em></p><p>Proportional Relationships: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "AL5DQCpiR5-0K1--",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Long Term Average</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "olrvEbxZgHEXp7nJ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "oZ_ivOerd0dwKwJG",
                     "title": "Text 1",
@@ -1158,7 +1702,12 @@
           "ordinal": 4,
           "title": "HL 4.4 Binomial Situations",
           "subtitle": "",
-          "sections": ["investigation-4/problem-4/introduction/content.json", "investigation-4/problem-4/initialChallenge/content.json", "investigation-4/problem-4/whatIf/content.json", "investigation-4/problem-4/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-4/introduction/content.json",
+            "investigation-4/problem-4/initialChallenge/content.json",
+            "investigation-4/problem-4/whatIf/content.json",
+            "investigation-4/problem-4/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1180,16 +1729,44 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p><p>Compare these Problems to those in the Unit. How are they the same? Different? In what ways are the proportional relationships in this Unit the sameas or different from those in other Units you have studied this year? </p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Compare these Problems to those in the Unit. How are they the same? Different? In what ways are the proportional relationships in this Unit the sameas or different from those in other Units you have studied this year? </p>"
+                      ]
                     }
                   },
                   {
                     "id": "yTkUywYE9YaEzq7R",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Synthesis/Abstraction</em></p><p>Proportional Relationships: <em>Synthesis/Abstraction</em></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Synthesis/Abstraction</em></p><p>Proportional Relationships: <em>Synthesis/Abstraction</em></p>"
+                      ]
+                    }
                   },
-                  {"id": "5WiPW0nA82DtkgOL", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p><p>Binomial Probability</p>"]}},
-                  {"id": "XgvxFTW-sr0eD5GK", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p><p>Learning Aid 4.4A Experiments1, 2, 3</p><p>Learning Aid 4.4B Optional Experiment 4</p><p>Poster paper, markers</p>"]}},
+                  {
+                    "id": "5WiPW0nA82DtkgOL",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Binomial Probability</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "XgvxFTW-sr0eD5GK",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 4.4A Experiments1, 2, 3</p><p>Learning Aid 4.4B Optional Experiment 4</p><p>Poster paper, markers</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "IBkaMMAks3-UqFX0",
                     "title": "Text 1",
@@ -1263,7 +1840,12 @@
           "ordinal": 1,
           "title": "How Likely Is It? Mathematical Reflections",
           "subtitle": "",
-          "sections": ["investigation-5/problem-1/MathReflection1/content.json", "investigation-5/problem-1/MathReflection2/content.json", "investigation-5/problem-1/MathReflection3/content.json", "investigation-5/problem-1/MathReflection4/content.json"]
+          "sections": [
+            "investigation-5/problem-1/MathReflection1/content.json",
+            "investigation-5/problem-1/MathReflection2/content.json",
+            "investigation-5/problem-1/MathReflection3/content.json",
+            "investigation-5/problem-1/MathReflection4/content.json"
+          ]
         }
       ],
       "config": {
@@ -1281,14 +1863,50 @@
                   ]
                 }
               },
-              {"id": "BSMx4x7Z1nvUC_Iv", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Mathematical Reflection</strong></p><p>What do you know about probability? About proportional relationships?</p>"]}},
+              {
+                "id": "BSMx4x7Z1nvUC_Iv",
+                "title": "Text 1",
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p><strong>Mathematical Reflection</strong></p><p>What do you know about probability? About proportional relationships?</p>"
+                  ]
+                }
+              },
               {
                 "id": "_xIwVugJNKqyIV8P",
                 "title": "Text 1",
-                "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Synthesis/Abstraction</em></p><p>Proportional Relationships: <em>Synthesis/Abstraction</em></p>"]}
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p><strong>Arc of Learning</strong></p><p>Experimental and Theoretical Probability: <em>Synthesis/Abstraction</em></p><p>Proportional Relationships: <em>Synthesis/Abstraction</em></p>"
+                  ]
+                }
               },
-              {"id": "HxAJw8XKpNPGVq6X", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-              {"id": "LMS7KcUhaoP4U9AO", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong>"]}},
+              {
+                "id": "HxAJw8XKpNPGVq6X",
+                "title": "Text 1",
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p><strong>Key Terms</strong></p>"
+                  ]
+                }
+              },
+              {
+                "id": "LMS7KcUhaoP4U9AO",
+                "title": "Text 1",
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p><strong>Materials</strong>"
+                  ]
+                }
+              },
               {
                 "id": "FjZdmet6NNjNX31r",
                 "title": "Text 1",
@@ -1313,7 +1931,9 @@
               }
             ]
           },
-          "launch": {"tiles": []},
+          "launch": {
+            "tiles": []
+          },
           "explore": {
             "tiles": [
               {
