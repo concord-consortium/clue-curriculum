@@ -40,8 +40,98 @@
             "type": "Image",
             "url": "qa/images/TextTray.png"
           }
+        },
+        {
+          "id": "CE4z-EhAf4VbdDKI",
+          "title": "Text 2",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>text</p><p>text</p><p>text</p><p>text</p><p>text</p><p>text</p><p>text</p><p>text</p>"
+            ]
+          }
         }
       ],
+      {
+        "id": "Pdq8v99_t6eWcyM7",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "j-ewGu6bULmT-dSH",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "lGWSG3rPnkYW27CY": 80,
+            "64NiPLs214fQjHct": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      [
+        {
+          "id": "cTvyREdRyAIZAKyy",
+          "title": "Graph 1",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": []
+          }
+        },
+        {
+          "id": "idOLLTxamE6hz4Im",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p></p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "e5Ygre7w0CwqF-yI",
+        "title": "Drawing 1",
+        "content": {
+          "type": "Drawing",
+          "objects": []
+        }
+      },
+      {
+        "id": "RzFLE7hqhVs2Xs7H",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/fix-editable-document-css/assets/images/image_placeholder.png"
+        }
+      },
       [
         {
           "id": "I8j7wDtsSN4g6NYH",
@@ -59,7 +149,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Drag this tile into the Initial Challenge section in your workspace, and format the text below as described.</p><p></p><p><strong>Bold</strong></p><p><em>Italic</em></p><p><u>Underline</u></p><p><sub>Sub</sub>script</p><p><sup>Super</sup>script</p><p></p><ol><li>This is a</li><li>Numbered</li><li>List</li></ol><p></p><ul><li>This is a</li><li>Bulleted</li><li>List</li><li></li></ul><p><a href=\"https://google.com\">This is a hyperlink.</a></p>"
+              "<p>Drag this tile into the Initial Challenge section in your workspace, and format the text below as described.</p><p></p><p><strong>Bold</strong></p><p><em>Italic</em></p><p><u>Underline</u></p><p><sub>Sub</sub>script</p><p><sup>Super</sup>script</p><p></p><ol><li>This is a</li><li>Numbered</li><li>List</li></ol><p></p><ul><li>This is a</li><li>Bulleted</li><li>List</li><li></li></ul><p><a href=\"https://google.com/\">This is a hyperlink.</a></p>"
             ]
           }
         }
@@ -611,6 +701,41 @@
         },
         "tiles": [
           "xW3a8ImrCr37XGef"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "qeEGTlCnK67xYNQn",
+          "providerId": "j-ewGu6bULmT-dSH",
+          "dataSet": {
+            "id": "tmBvcZGAzGD5SMOW",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "lGWSG3rPnkYW27CY",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": []
+              },
+              {
+                "id": "64NiPLs214fQjHct",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": []
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "j-ewGu6bULmT-dSH"
         ]
       }
     ]
