@@ -2,21 +2,47 @@
   "type": "whatIf",
   "content": {
     "tiles": [
-      {"content": {"type": "Text", "format": "html", "text": ["<h3>Situation A. Durrell's Claim</h3> I used unit rep-tiles to show that the smaller right triangle is similar to the larger right triangle. Is he correct? Explain."]}},
       {
+        "id": "document_Text_1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h3>Situation A. Durrell&#x27;s Claim</h3><p> I used unit rep-tiles to show that the smaller right triangle is similar to the larger right triangle. Is he correct? Explain.</p>"
+          ]
+        }
+      },
+      {
+        "id": "document_Text_2",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Durrell’s Claim is not correct.</p>",
-            "<p>Students may refer back to Problem 3.1 Kazuko’s Claim. The scale factor is not a whole number. So, we cannot consider the smaller triangle as a unit rep-tile. The distance from Stake 1 to Stake 2 in smaller triangle is 80ft. The corresponding distance in larger triangle is 140ft (from Tree 1 to Tree 2). If you put two small triangles, it will be 160 ft long, which is longer than 140 ft. You cannot fit whole amounts of the small triangles in the large triangle. Therefore, you cannot use rep-tiles to show the similarity.</p>"
+            "<p>Durrell’s Claim is not correct.</p><p>Students may refer back to Problem 3.1 Kazuko’s Claim. The scale factor is not a whole number. So, we cannot consider the smaller triangle as a unit rep-tile. The distance from Stake 1 to Stake 2 in smaller triangle is 80ft. The corresponding distance in larger triangle is 140ft (from Tree 1 to Tree 2). If you put two small triangles, it will be 160 ft long, which is longer than 140 ft. You cannot fit whole amounts of the small triangles in the large triangle. Therefore, you cannot use rep-tiles to show the similarity.</p>"
           ]
         }
       },
-      {"content": {"type": "Text", "format": "html", "text": ["<h3>Situation B. Angie Moves the Stakes</h3>", "Angie’s Strategy", "I put the stakes in different places and made a sketch. It does not change my answer.", "Is she correct? Explain."]}},
-      {"id": "-6wzAUG202201df46pM", "title": "Another Diagram of the river with similar triangles", "content": {"type": "Image", "url": "curriculum/stretching-and-shrinking/images/SS_3_3_WI_27_river_triangle2_500w.png"}},
       {
+        "id": "document_Text_3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h3>Situation B. Angie Moves the Stakes</h3><p>Angie’s StrategyI put the stakes in different places and made a sketch. It does not change my answer.Is she correct? Explain.</p>"
+          ]
+        }
+      },
+      {
+        "id": "-6wzAUG202201df46pM",
+        "title": "Another Diagram of the river with similar triangles",
+        "content": {
+          "type": "Image",
+          "url": "sas/images/SS_3_3_WI_27_river_triangle2_500w.png"
+        }
+      },
+      {
+        "id": "document_Text_4",
         "display": "teacher",
         "content": {
           "type": "Text",
@@ -28,5 +54,9 @@
       }
     ]
   },
-  "supports": [{"text": "How is the new diagram in the <em>What If?</em> section different from the diagram in the <em>initialChallenge</em>? How is it the same?"}]
+  "supports": [
+    {
+      "text": "How is the new diagram in the <em>What If?</em> section different from the diagram in the <em>initialChallenge</em>? How is it the same?"
+    }
+  ]
 }
