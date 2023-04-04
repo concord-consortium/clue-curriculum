@@ -1,178 +1,161 @@
 {
   "type": "whatIf",
-  "content":
-    {
-      "tiles": [
+  "content": {
+    "tiles": [
+      {
+        "id": "RZRb211JCAyD1Pdp",
+        "title": "Text 22",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Kaleb’s Notes</strong></p><p>Kaleb writes the following statements in his notes. </p><p>P(9 pm) = 1/8P(10 pm) = 1/8</p><p>What information was he trying to represent? Is he correct?</p>"
+          ]
+        }
+      },
+      {
+        "id": "QhFzJK9-6R4BfbnN",
+        "title": "Text 24",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Maybe Kaleb wants to indicate the theoretical probability of getting 9 pm or 10 pm when spinning the spinner. If so, he is not correct.</p><p>P(9:00 pm) = 3/8 or 37.5%</p><p>P(10:00 pm) = 2/8= 1/4 or 25%</p>"
+          ]
+        }
+      },
+      {
+        "id": "ZGPslj0Y4mq36dOG",
+        "title": "Text 26",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Spinning for Lunch</strong></p><p>The school chef decides to create a new way for students to select their lunch. She creates three spinners. Students spin each spinner once to determine their lunch of a main course, vegetable, and a drink. </p>"
+          ]
+        }
+      },
+      [
         {
-          "id": "RZRb211JCAyD1Pdp",
-          "title": "Text 22",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>Situation A. Kaleb’s Notes</strong></p><p>Kaleb writes the following statements in his notes. </p><p>P(9 pm) = 1/8P(10 pm) = 1/8</p><p></p><p>What information was he trying to represent? Is he correct?</p>"
-            ]
-          }
-        },
-        {
-          "id": "QhFzJK9-6R4BfbnN",
-          "title": "Text 24",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>SOLUTION BEGIN</strong></p><p>Maybe Kaleb wants to indicate the theoretical probability of getting 9 pm or 10 pm when spinning the spinner. If so, he is not correct.</p><p>P(9:00 pm) = 3/8 or 37.5%</p><p>P(10:00 pm) = 2/8= 1/4 or 25%</p>"
-            ]
-          }
-        },
-        {
-          "id": "ZGPslj0Y4mq36dOG",
-          "title": "Text 26",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>Situation B. Spinning for Lunch</strong></p><p></p><p></p><p>The school chef decides to create a new way for students to select their lunch. She creates three spinners. Students spin each spinner once to determine their lunch of a main course, vegetable, and a drink. </p>"
-            ]
-          }
-        },
-        [
-          {
-            "id": "e9OpWWq_5ISuRuHJ",
-            "title": "Main Course Spinner",
-            "content": {
-              "type": "Image",
-              "url": "hlit/images/2.3_WI_1.png",
-              "filename": "hlit/images/2.3_WI_1.png"
-            }
-          },
-          {
-            "id": "3bjsVv4P9JobWohX",
-            "title": "Vegetable Spinner",
-            "content": {
-              "type": "Image",
-              "url": "hlit/images/2.3_WI_2.png",
-              "filename": "hlit/images/2.3_WI_2.png"
-            }
-          },
-          {
-            "id": "Hn0rVLtm6MdY_dDQ",
-            "title": "Drink Spinner",
-            "content": {
-              "type": "Image",
-              "url": "hlit/images/2.3_WI_3.png",
-              "filename": "hlit/images/2.3_WI_3.png"
-            }
-          }
-        ],
-        {
-          "id": "zyKfijr0eGRErzj2",
-          "title": "Text 33",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<ul><li>How many possible combinations there are? What is the probability of each combination? Are they all equally likely? </li></ul>"
-            ]
-          }
-        },
-        {
-          "id": "znMY3NycUhN38yb5",
-          "title": "Text 34",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>SOLUTION BEGIN</strong></p>"
-            ]
-          }
-        },
-        {
-          "id": "fMtn8S9PQpcs_rdy",
-          "title": "Text 35",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>There are 12 combinations of meals. They are all equally likely.</p>"
-            ]
-          }
-        },
-        {
-          "id": "8c1T0UkU8SAKTs61",
-          "title": "Meal Tree Diagram",
+          "id": "e9OpWWq_5ISuRuHJ",
+          "title": "Main Course Spinner",
           "content": {
             "type": "Image",
-            "url": "hlit/images/2.3_WI_4.png",
-            "filename": "hlit/images/2.3_WI_4.png"
+            "url": "hlit/images/2.3_WI_1.png",
+            "filename": "hlit/images/2.3_WI_1.png"
           }
         },
         {
-          "id": "uFQHmKiLtWNlMPj1",
-          "title": "Text 37",
+          "id": "3bjsVv4P9JobWohX",
+          "title": "Vegetable Spinner",
           "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Each meal has a 1/12 chance of being chosen. (3 x 2 x 2 = 12)</p>"
-            ]
+            "type": "Image",
+            "url": "hlit/images/2.3_WI_2.png",
+            "filename": "hlit/images/2.3_WI_2.png"
           }
         },
         {
-          "id": "4_UHAWzNhz93tLhR",
-          "title": "Text 38",
+          "id": "Hn0rVLtm6MdY_dDQ",
+          "title": "Drink Spinner",
           "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>SOLUTION END</strong></p>"
-            ]
-          }
-        },
-        {
-          "id": "3sDXsNfaceJujEub",
-          "title": "Text 39",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<ul><li>Kaleb’s favorite lunch is pizza, corn, and milk. What is the probability he will get his favorite lunch today?</li></ul>"
-            ]
-          }
-        },
-        {
-          "id": "vJtstWG4JpY340z3",
-          "title": "Text 41",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>SOLUTION BEGIN</strong></p><p>P(pizza, corn, milk) =1/12</p>"
-            ]
-          }
-        },
-        {
-          "id": "qBa8UQJDnjCo3_Ba",
-          "title": "Text 43",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<ul><li>In the next 24 days of school, how many times can he expect to get his favorite lunch? Explain.</li></ul>"
-            ]
-          }
-        },
-        {
-          "id": "MPwREYk-3Cf7X3tv",
-          "title": "Text 45",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>SOLUTION BEGIN</strong></p><p>If there are 24 school days it would be 1/12 x 24 or 2 days. </p><p>Students might also use proportions and scale up the probability 1/12 = ?/24 or 2.</p>"
-            ]
+            "type": "Image",
+            "url": "hlit/images/2.3_WI_3.png",
+            "filename": "hlit/images/2.3_WI_3.png"
           }
         }
-      ]
-    }
+      ],
+      {
+        "id": "zyKfijr0eGRErzj2",
+        "title": "Text 33",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How many possible combinations there are? What is the probability of each combination? Are they all equally likely? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "fMtn8S9PQpcs_rdy",
+        "title": "Text 35",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>There are 12 combinations of meals. They are all equally likely.</p>"
+          ]
+        }
+      },
+      {
+        "id": "8c1T0UkU8SAKTs61",
+        "title": "Meal Tree Diagram",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "hlit/images/2.3_WI_4.png",
+          "filename": "hlit/images/2.3_WI_4.png"
+        }
+      },
+      {
+        "id": "uFQHmKiLtWNlMPj1",
+        "title": "Text 37",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Each meal has a 1/12 chance of being chosen. (3 x 2 x 2 = 12)</p>"
+          ]
+        }
+      },
+      {
+        "id": "3sDXsNfaceJujEub",
+        "title": "Text 39",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Kaleb’s favorite lunch is pizza, corn, and milk. What is the probability he will get his favorite lunch today?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "vJtstWG4JpY340z3",
+        "title": "Text 41",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>P(pizza, corn, milk) =1/12</p>"
+          ]
+        }
+      },
+      {
+        "id": "qBa8UQJDnjCo3_Ba",
+        "title": "Text 43",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>In the next 24 days of school, how many times can he expect to get his favorite lunch? Explain.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "MPwREYk-3Cf7X3tv",
+        "title": "Text 45",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>If there are 24 school days it would be 1/12 x 24 or 2 days. </p><p>Students might also use proportions and scale up the probability 1/12 = ?/24 or 2.</p>"
+          ]
+        }
+      }
+    ]
+  }
 }
