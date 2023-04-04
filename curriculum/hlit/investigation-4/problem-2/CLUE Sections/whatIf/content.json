@@ -1,0 +1,429 @@
+{
+  "type": "whatIf",
+  "content":
+    {
+      "tiles": [
+        [
+          {
+            "id": "qDbd5IG4iJ8IJtGX",
+            "title": "Text 21",
+            "content": {
+              "type": "Text",
+              "format": "html",
+              "text": [
+                "<p><strong>Situation A. Using an Area Model to Determine Theoretical Probability</strong></p><p></p><p>Bea suggests using an area model to determine the theoretical </p><p>probabilities of getting a score of 0, 1, or 2. She uses a 10 x 10 grid to make an area model to analyze the situation. </p>"
+              ]
+            }
+          },
+          {
+            "id": "Kv3u17Y_qdvfGH6T",
+            "title": "10 x 10 grid",
+            "content": {
+              "type": "Image",
+              "url": "hlit/images/4.2_WI_1.png",
+              "filename": "hlit/images/4.2_WI_1.png"
+            }
+          }
+        ],
+        {
+          "id": "kil1ka25BIAJ8OU4",
+          "title": "Text 23",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>Use the area model to find the theoretical probability that Nishi will score 0 points. 1 point. 2 points. How do they compare to the three experimental probabilities?</li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "XMHfUz6tc3KB_lIZ",
+          "title": "Text 24",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p>"
+            ]
+          }
+        },
+        {
+          "id": "ytHJxl8Y3-u3jhj8",
+          "title": "Text 25",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Possible Area Model:</p>"
+            ]
+          }
+        },
+        {
+          "id": "3yPkUlxJIgHqiLY1",
+          "title": "Possible Area Model",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [-2, -1],
+                "axisRange": [26.23, 17.486],
+                "axisNames": ["x", "y"],
+                "axisLabels": ["x", "y"]
+              }
+            },
+            "objects": [
+              { "type": "point", "parents": [0, 0], "properties": {"id":"psWxtu2faCN9h0gK","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [3.989156420765026, -0.0076417349726782165], "properties": {"id":"P8UVmRzXCE-z2P9c","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [3.96033982240437, 5.999871926229507], "properties": {"id":"LmkpldhDThWieMrt","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [0, 6], "properties": {"id":"acO_kkN2edEWRqMs","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "polygon", "parents": ["psWxtu2faCN9h0gK", "P8UVmRzXCE-z2P9c", "LmkpldhDThWieMrt", "acO_kkN2edEWRqMs"],"properties": {"id":"YmtrPsDmO0vDkKkI"} },
+              { "type": "point", "parents": [10, 2.7755575615628914e-17], "properties": {"id":"EPCfSEXley54Ivaq","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [10.040215163934423, 6.0096909153005456], "properties": {"id":"u_Yv9ZqpWZmVtmZ_","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [4.000000000000002, 6.000000000000001], "properties": {"id":"6vRdy1QDjttQ8VMY","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [4.000000000000003, 0], "properties": {"id":"vBK68HkqAKYDgf8u","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "polygon", "parents": ["EPCfSEXley54Ivaq", "u_Yv9ZqpWZmVtmZ_", "6vRdy1QDjttQ8VMY", "vBK68HkqAKYDgf8u"],"properties": {"id":"RkqV7TsWB5uaXeoD"} },
+              { "type": "comment", "parents": [-3.863740181010927, -4.130315061475412], "properties": {"id":"R7GEg2jWs5zjqpbX","text":"1 Makes the first, misses the second","anchor":"YmtrPsDmO0vDkKkI"} },
+              { "type": "comment", "parents": [0.3835595969945338, -0.0711129610655723], "properties": {"id":"CJI9SkhbyLJCl9Wf","text":"2 Makes the first, makes the second","anchor":"RkqV7TsWB5uaXeoD"} },
+              { "type": "point", "parents": [0, 10.000000000000002], "properties": {"id":"cQ6X4WhwbuhAqnpQ","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [10, 10], "properties": {"id":"cBEVBR2I1SzGn_lI","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [10, 6.0000000000000036], "properties": {"id":"j9-eYy2b50CxAx7o","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "point", "parents": [0, 6.000000000000004], "properties": {"id":"aWSHgRrTGR8Fcf0E","snapToGrid":true,"snapSizeX":0.1,"snapSizeY":0.1} },
+              { "type": "polygon", "parents": ["cQ6X4WhwbuhAqnpQ", "cBEVBR2I1SzGn_lI", "j9-eYy2b50CxAx7o", "aWSHgRrTGR8Fcf0E"],"properties": {"id":"JqvP-tb3KILhR_Be"} },
+              { "type": "comment", "parents": [1.0380379098360653, -1.6448514344262293], "properties": {"id":"CzHsvX4_fQ3PDT7l","text":"0 Misses the first attempt","anchor":"cQ6X4WhwbuhAqnpQ"} }
+            ]
+          }
+        },
+        {
+          "id": "y2QPKhY1yi9zEARZ",
+          "title": "Possible Area model",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_2.png",
+            "filename": "hlit/images/4.2_WI_2.png"
+          }
+        },
+        {
+          "id": "9Wv-HXnnR7Wox5Db",
+          "title": "Text 27",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>P(0 points) = 40/100 = 40%</p><p>P(1 point) = 24/100 = 24%</p><p>P(2 points) = 36/100 = 36%</p>"
+            ]
+          }
+        },
+        {
+          "id": "-qoLgHuoovm-T7DV",
+          "title": "Possible Area Model with Probabilities",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_3.png",
+            "filename": "hlit/images/4.2_WI_3.png"
+          }
+        },
+        {
+          "id": "PqkbReITbtpGoKcc",
+          "title": "Text 29",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Answers will vary but their experimental probabilities will be close the theoretical probabilities.</p>"
+            ]
+          }
+        },
+        {
+          "id": "NSrvhwPWlLwoqOLa",
+          "title": "Text 30",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION END</strong></p>"
+            ]
+          }
+        },
+        {
+          "id": "LoFm_8dYAzv74iNm",
+          "title": "Text 31",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>Which of these models — the spinner or area model — is a better prediction in a free throw situation? Explain. </li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "OGjCV8E79X31hTZJ",
+          "title": "Text 33",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p><p>Answers will vary. Both models provide a way to determine what is likely to happen in the situation.</p><p>The area model shows all the theoretical results of 1 or 2 free throws. The spinner can deal with the free throws only one free throw at a time. The spinner can be used to find experimental probability. Both can be used to represent making 60% free throws in different ways.</p>"
+            ]
+          }
+        },
+        {
+          "id": "h451oSSxelYl_r9F",
+          "title": "Text 35",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>If Nishi has 100 one-and-one situations, how many times will she expect to make 0 points? One point? Two points?</li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "JDHFWa4c8GGcvIZ6",
+          "title": "Text 37",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p><p>P(0 points) = 40/100; 40 times</p><p>P(1 point) = 24/100 ; 24 times</p><p>P(2 points) = 36/100; 36 times</p>"
+            ]
+          }
+        },
+        {
+          "id": "_t9Qr0CRT6kln1vs",
+          "title": "Text 39",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>Situation B. Choosing Paths</strong></p><p>Kenisha designs a game involving paths through the woods that lead to caves. Before the game starts, the player </p><ul><li>Predicts landing in either Cave A or Cave B. </li><li>Next, the player starts at the beginning and chooses a path at random at each fork or break in the path. </li><li>If the player lands in the cave that was chosen in the beginning, he or she wins a prize. </li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "lpqDWDflsx2tYn4C",
+          "title": "Text 40",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>Make a prediction. If you randomly choose each path are you more likely to end up in Cave A or Cave B?</li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "wfpd6SxDHhXo60kq",
+          "title": "Kenisha's game map",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_4.png",
+            "filename": "hlit/images/4.2_WI_4.png"
+          }
+        },
+        {
+          "id": "jIhiHzmCL23snilB",
+          "title": "Text 43",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p><p>Answers will vary. Some students will choose Cave A because it has the most openings from the paths. Some students will realize the openings are not “equally weighted.”</p>"
+            ]
+          }
+        },
+        {
+          "id": "BWhN1wOPIbIvHS7m",
+          "title": "Text 45",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Brandon wants to analyze the probability of landing in Cave A or Cave B. He considers conducting an experiment or using an area model to analyze the outcomes.</p><p></p><ul><li>What would an area model look like? What is the probability of landing in Cave A? Cave B?</li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "6nAwgRQ_8UYzXZa-",
+          "title": "Text 46",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p>"
+            ]
+          }
+        },
+        {
+          "id": "zbaR3jvxSfVpQlv5",
+          "title": "Possible area model for Kenesha's game",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_5.png",
+            "filename": "hlit/images/4.2_WI_5.png"
+          }
+        },
+        {
+          "id": "sArSlF8h6v1OHUv8",
+          "title": "Text 49",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Imagining people walking the paths may help when creating the area model. Students can see the “decisions” (random path choices) that lead to dividing up the area.</p>"
+            ]
+          }
+        },
+        {
+          "id": "HVzGCsTCFYEI4xCb",
+          "title": "Traveling on each path in Kenesha's game",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_6.png",
+            "filename": "hlit/images/4.2_WI_6.png"
+          }
+        },
+        {
+          "id": "9lQ5bSwQhnpyd55H",
+          "title": "Text 51",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Equal size pieces to determine the theoretical probabilities:</p>"
+            ]
+          }
+        },
+        {
+          "id": "T-nDjv7AubE4RTEd",
+          "title": "Finding Theoretical Probability with each model",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_7.png",
+            "filename": "hlit/images/4.2_WI_7.png"
+          }
+        },
+        [
+          {
+            "id": "CDUsVIAiQ2axptlV",
+            "title": "Text 53",
+            "content": {
+              "type": "Text",
+              "format": "html",
+              "text": [
+                "<p>P(Cave A) = 14/24 = 7/12</p>"
+              ]
+            }
+          },
+          {
+            "id": "7GLiEv-lFYS37Oh4",
+            "title": "Text 52",
+            "content": {
+              "type": "Text",
+              "format": "html",
+              "text": [
+                "<p>P(Cave B) = 10/24 = 5/12</p>"
+              ]
+            }
+          }
+        ],
+        {
+          "id": "jdE2MRSNVPHqZczU",
+          "title": "Text 55",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Students might also imagine a group of people walking the paths and splitting up equally at each fork. Choosing a number with many factors (an abundant number) is helpful, so splitting-up is easier to imagine. For example, if we start with 48 people and split equally at each path, we get:</p>"
+            ]
+          }
+        },
+        [
+          {
+            "id": "emd9KNHmMl0girvU",
+            "title": "Text 56",
+            "content": {
+              "type": "Text",
+              "format": "html",
+              "text": [
+                "<p>Cave A: 28 out of 48 people or </p><p>7 out of 12</p>"
+              ]
+            }
+          },
+          {
+            "id": "HeApqRW4bQUJWpc6",
+            "title": "Text 57",
+            "content": {
+              "type": "Text",
+              "format": "html",
+              "text": [
+                "<p>Cave B: 20 out of 48 people or </p><p>5 out of 12</p>"
+              ]
+            }
+          }
+        ],
+        {
+          "id": "asdNpac-vkNzamaj",
+          "title": "48 People Walking Through Kenisha's game",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/4.2_WI_8.png",
+            "filename": "hlit/images/4.2_WI_8.png"
+          }
+        },
+        {
+          "id": "mgbYL6HyWziDShsu",
+          "title": "Text 59",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION END</strong></p>"
+            ]
+          }
+        },
+        {
+          "id": "xeb7Bps_D9YN4uHC",
+          "title": "Text 60",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>Design an experiment that would allow a player to randomly choose a path at each stage of the game.</li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "PLWBJcINjxD_h4y6",
+          "title": "Text 62",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p><p>Answers will vary. Students might use tools such as number cubes, cards, spinners, etc. These can be used to create random decisions at each break (fork) in the paths.</p>"
+            ]
+          }
+        },
+        {
+          "id": "66ltBxxnyCDgvMyM",
+          "title": "Text 64",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>If you play the game 100 times. How many times would you land in Cave A? Cave B?</li></ul>"
+            ]
+          }
+        },
+        {
+          "id": "00yIswdja0u4jUkR",
+          "title": "Text 66",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>SOLUTION BEGIN</strong></p><p>Cave A ≈ 58%</p><p>Cave B ≈ 42%</p>"
+            ]
+          }
+        }
+      ]
+    }
+}
