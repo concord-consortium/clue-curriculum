@@ -2,88 +2,590 @@
   "type": "initialChallenge",
   "content": {
     "tiles": [
-      {"content": {"type": "Text", "format": "html", "text": ["The diagram shows a collection of mouths (rectangles) and noses (triangles). Some are from the Wump family. Others are from impostors."]}},
       {
-        "id": "21AUG20220512PM",
-        "title": "Wump Mouths and Noses",
-        "layout": {"height": 420},
+        "id": "document_Text_1",
         "content": {
-          "type": "Geometry",
-          "objects": [
-            {"type": "image", "parents": {"url": "curriculum/stretching-and-shrinking/images/SS_2_3_IC_19_shapes_350w.png", "coords": [0, 0], "size": [350, 368]}},
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [1, 19], "properties": {"name": "J₁"}},
-                {"type": "point", "parents": [9, 19], "properties": {"name": "J₂"}},
-                {"type": "point", "parents": [9, 17], "properties": {"name": "J₃"}},
-                {"type": "point", "parents": [1, 17], "properties": {"name": "J₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [12, 19], "properties": {"name": "K₁"}},
-                {"type": "point", "parents": [16, 19], "properties": {"name": "K₂"}},
-                {"type": "point", "parents": [16, 16], "properties": {"name": "K₃"}},
-                {"type": "point", "parents": [12, 16], "properties": {"name": "K₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [2, 16], "properties": {"name": "L₁"}},
-                {"type": "point", "parents": [6, 16], "properties": {"name": "L₂"}},
-                {"type": "point", "parents": [6, 15], "properties": {"name": "L₃"}},
-                {"type": "point", "parents": [2, 15], "properties": {"name": "L₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [5, 14], "properties": {"name": "M₁"}},
-                {"type": "point", "parents": [17, 14], "properties": {"name": "M₂"}},
-                {"type": "point", "parents": [17, 13], "properties": {"name": "M₃"}},
-                {"type": "point", "parents": [5, 13], "properties": {"name": "M₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [1, 12], "properties": {"name": "N₁"}},
-                {"type": "point", "parents": [13, 12], "properties": {"name": "N₂"}},
-                {"type": "point", "parents": [13, 9], "properties": {"name": "N₃"}},
-                {"type": "point", "parents": [1, 9], "properties": {"name": "N₄"}}
-              ]
-            },
-            {"type": "polygon", "parents": [{"type": "point", "parents": [2, 6], "properties": {"name": "O₁"}}, {"type": "point", "parents": [1, 5], "properties": {"name": "O₂"}}, {"type": "point", "parents": [3, 5], "properties": {"name": "O₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [8, 7], "properties": {"name": "P₁"}}, {"type": "point", "parents": [7, 4], "properties": {"name": "P₂"}}, {"type": "point", "parents": [9, 4], "properties": {"name": "P₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [15, 7], "properties": {"name": "Q₁"}}, {"type": "point", "parents": [12, 6], "properties": {"name": "Q₂"}}, {"type": "point", "parents": [18, 6], "properties": {"name": "Q₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [4, 4], "properties": {"name": "R₁"}}, {"type": "point", "parents": [2, 2], "properties": {"name": "R₂"}}, {"type": "point", "parents": [6, 2], "properties": {"name": "R₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [13, 4], "properties": {"name": "S₁"}}, {"type": "point", "parents": [10, 1], "properties": {"name": "S₂"}}, {"type": "point", "parents": [16, 1], "properties": {"name": "S₃"}}]}
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The diagram shows a collection of mouths (rectangles) and noses (triangles). Some are from the Wump family. Others are from impostors.</p>"
           ]
         }
       },
-      {"content": {"type": "Text", "format": "markdown", "text": ["* Identify pairs of similar shapes. Provide evidence that your shapes are similar. What is the scale factor? "]}},
       {
+        "id": "21AUG20220512PM",
+        "title": "Wump Mouths and Noses",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -2,
+                -1
+              ],
+              "axisRange": [
+                26.23,
+                17.486
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "image",
+              "parents": {
+                "url": "sas/images/SS_2_3_IC_19_shapes_350w.png",
+                "coords": [
+                  0,
+                  0
+                ],
+                "size": [
+                  19.12568306010929,
+                  20.109289617486336
+                ]
+              },
+              "properties": {
+                "id": "VcKOFYIHFx_xOJpm"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                19
+              ],
+              "properties": {
+                "id": "ZpukQLFVK5CPBIZW",
+                "name": "J₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                19
+              ],
+              "properties": {
+                "id": "KAtgVfD7ihovfzRZ",
+                "name": "J₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                17
+              ],
+              "properties": {
+                "id": "szLedV7yKzAKfSAJ",
+                "name": "J₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                17
+              ],
+              "properties": {
+                "id": "5B7Uj0hJDmYGmpHd",
+                "name": "J₄"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "ZpukQLFVK5CPBIZW",
+                "KAtgVfD7ihovfzRZ",
+                "szLedV7yKzAKfSAJ",
+                "5B7Uj0hJDmYGmpHd"
+              ],
+              "properties": {
+                "id": "r4na641hZH-LibkB"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                12,
+                19
+              ],
+              "properties": {
+                "id": "2rYSNqPcQiXI40Dc",
+                "name": "K₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                16,
+                19
+              ],
+              "properties": {
+                "id": "AmY63S8pgotPTxE5",
+                "name": "K₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                16,
+                16
+              ],
+              "properties": {
+                "id": "sfc0MUjjwkKhTanb",
+                "name": "K₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                12,
+                16
+              ],
+              "properties": {
+                "id": "fvO-ZBb7a8RaMM7y",
+                "name": "K₄"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "2rYSNqPcQiXI40Dc",
+                "AmY63S8pgotPTxE5",
+                "sfc0MUjjwkKhTanb",
+                "fvO-ZBb7a8RaMM7y"
+              ],
+              "properties": {
+                "id": "wwDGN-4uUgxCvFcT"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                16
+              ],
+              "properties": {
+                "id": "PAlNP1C8PIgqyLFa",
+                "name": "L₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                16
+              ],
+              "properties": {
+                "id": "y3NZKj9WH6glPT7S",
+                "name": "L₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                15
+              ],
+              "properties": {
+                "id": "2DGEOMpCJM_q1QHc",
+                "name": "L₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                15
+              ],
+              "properties": {
+                "id": "f3Qi9NV_VybYvSJm",
+                "name": "L₄"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "PAlNP1C8PIgqyLFa",
+                "y3NZKj9WH6glPT7S",
+                "2DGEOMpCJM_q1QHc",
+                "f3Qi9NV_VybYvSJm"
+              ],
+              "properties": {
+                "id": "EkH6oAuXDC4EMXVu"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                14
+              ],
+              "properties": {
+                "id": "9ObQkQX6ux_Xfis0",
+                "name": "M₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                17,
+                14
+              ],
+              "properties": {
+                "id": "7C76wWslpQotUUWf",
+                "name": "M₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                17,
+                13
+              ],
+              "properties": {
+                "id": "_HuH8o1vBGCU-Tzo",
+                "name": "M₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                13
+              ],
+              "properties": {
+                "id": "DwIRHNItmE86rAOj",
+                "name": "M₄"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "9ObQkQX6ux_Xfis0",
+                "7C76wWslpQotUUWf",
+                "_HuH8o1vBGCU-Tzo",
+                "DwIRHNItmE86rAOj"
+              ],
+              "properties": {
+                "id": "BT1xiRwSy4QElocG"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                12
+              ],
+              "properties": {
+                "id": "bM9j6uqqEdLd7U_j",
+                "name": "N₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                13,
+                12
+              ],
+              "properties": {
+                "id": "krmqtssiD9h9mbBl",
+                "name": "N₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                13,
+                9
+              ],
+              "properties": {
+                "id": "fjGv_mPde-bR-CUf",
+                "name": "N₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                9
+              ],
+              "properties": {
+                "id": "ydJvtI7iQ3u32-IH",
+                "name": "N₄"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "bM9j6uqqEdLd7U_j",
+                "krmqtssiD9h9mbBl",
+                "fjGv_mPde-bR-CUf",
+                "ydJvtI7iQ3u32-IH"
+              ],
+              "properties": {
+                "id": "AaKn43FT1VEkXpCV"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                6
+              ],
+              "properties": {
+                "id": "xAiVdz9xB52RTK1K",
+                "name": "O₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                5
+              ],
+              "properties": {
+                "id": "0Q5gfxtBUaKA2Z1O",
+                "name": "O₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                3,
+                5
+              ],
+              "properties": {
+                "id": "6zG4_ooZ4HgZv7sS",
+                "name": "O₃"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "xAiVdz9xB52RTK1K",
+                "0Q5gfxtBUaKA2Z1O",
+                "6zG4_ooZ4HgZv7sS"
+              ],
+              "properties": {
+                "id": "75hg9o9cG1V0M1bT"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                8,
+                7
+              ],
+              "properties": {
+                "id": "h_t0OrAnqUT30nb2",
+                "name": "P₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                7,
+                4
+              ],
+              "properties": {
+                "id": "WNGRK9hFUm9nRBmz",
+                "name": "P₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                4
+              ],
+              "properties": {
+                "id": "9rjoud9f3iFlbhYA",
+                "name": "P₃"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "h_t0OrAnqUT30nb2",
+                "WNGRK9hFUm9nRBmz",
+                "9rjoud9f3iFlbhYA"
+              ],
+              "properties": {
+                "id": "O22nMTBbkf6YFBHh"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                15,
+                7
+              ],
+              "properties": {
+                "id": "vfacovmnGgAUWJma",
+                "name": "Q₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                12,
+                6
+              ],
+              "properties": {
+                "id": "6Y1cqJ8Ovx_GkDYF",
+                "name": "Q₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                18,
+                6
+              ],
+              "properties": {
+                "id": "bCWKeiXi_SQKzNDK",
+                "name": "Q₃"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "vfacovmnGgAUWJma",
+                "6Y1cqJ8Ovx_GkDYF",
+                "bCWKeiXi_SQKzNDK"
+              ],
+              "properties": {
+                "id": "n_2x8qyebM2NMmvu"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                4,
+                4
+              ],
+              "properties": {
+                "id": "P5IL_NUBh_vARnXZ",
+                "name": "R₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                2
+              ],
+              "properties": {
+                "id": "vW3lMC6bITeeoR8_",
+                "name": "R₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                2
+              ],
+              "properties": {
+                "id": "80IcvtTE0OhuEF3R",
+                "name": "R₃"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "P5IL_NUBh_vARnXZ",
+                "vW3lMC6bITeeoR8_",
+                "80IcvtTE0OhuEF3R"
+              ],
+              "properties": {
+                "id": "y1GgsG3H22B7PBVy"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                13,
+                4
+              ],
+              "properties": {
+                "id": "pki5t8Ol9ian29AT",
+                "name": "S₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                10,
+                1
+              ],
+              "properties": {
+                "id": "WsbcMLY9JIwQLShF",
+                "name": "S₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                16,
+                1
+              ],
+              "properties": {
+                "id": "SnPx3GuHWlhrDwIU",
+                "name": "S₃"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "pki5t8Ol9ian29AT",
+                "WsbcMLY9JIwQLShF",
+                "SnPx3GuHWlhrDwIU"
+              ],
+              "properties": {
+                "id": "Ci1CUuiAXavsF60j"
+              }
+            }
+          ]
+        },
+        "layout": {
+          "height": 420
+        }
+      },
+      {
+        "id": "document_Text_2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            ""
+          ]
+        }
+      },
+      {
+        "id": "document_Text_3",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Rectangles</p>",
-            "<p>Rectangles (mouths) J, L, and N are similar to each other. Students should point out that since these are all rectangles, the angles are all right angles and hence congruent, or the same size. For rectangles, it is then only necessary to check side lengths.</p>",
-            "<p>L to J is 2; L to N is 3; J to N is 3/2</p>",
-            "<p>J to L is 1/2 (reciprocal of 2); N to L is 1/3  (reciprocal of 3); N to J is   2/3 (reciprocal of 3/2 ).</p>",
-            "<p>Triangles</p>",
-            "<p>Triangles (noses) O, R, and S are similar to each other.</p>",
-            "<p>O to R is 2; O to S is 3; and R to S is 3/2 .</p>",
-            "<p>R to O is 1/2 (reciprocal of 2); S to O is 1/3  (reciprocal of 3); S to R is 2/3  (reciprocal of 3/2 ).</p>"
+            "<p>Rectangles</p><p>Rectangles (mouths) J, L, and N are similar to each other. Students should point out that since these are all rectangles, the angles are all right angles and hence congruent, or the same size. For rectangles, it is then only necessary to check side lengths.</p><p>L to J is 2; L to N is 3; J to N is 3/2</p><p>J to L is 1/2 (reciprocal of 2); N to L is 1/3  (reciprocal of 3); N to J is   2/3 (reciprocal of 3/2 ).</p><p>Triangles</p><p>Triangles (noses) O, R, and S are similar to each other.</p><p>O to R is 2; O to S is 3; and R to S is 3/2 .</p><p>R to O is 1/2 (reciprocal of 2); S to O is 1/3  (reciprocal of 3); S to R is 2/3  (reciprocal of 3/2 ).</p>"
           ]
         }
       },
-      {"content": {"type": "Text", "format": "html", "text": ["• In what ways could scale factor be useful when determining similar figures?"]}},
       {
+        "id": "document_Text_4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>• In what ways could scale factor be useful when determining similar figures?</p>"
+          ]
+        }
+      },
+      {
+        "id": "document_Text_5",
         "display": "teacher",
         "content": {
           "type": "Text",
@@ -95,5 +597,9 @@
       }
     ]
   },
-  "supports": [{"text": "When you identify pairs of rectangles or triangles, what measurements do you compare? Angles, Side lengths, Perimeters, Areas, etc."}]
+  "supports": [
+    {
+      "text": "When you identify pairs of rectangles or triangles, what measurements do you compare? Angles, Side lengths, Perimeters, Areas, etc."
+    }
+  ]
 }
