@@ -544,6 +544,83 @@
           "name": "Table 1"
         }
       },
+      [
+        {
+          "id": "V_iWOkC8Vr87paOL",
+          "title": "Graph 1",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  0,
+                  0
+                ],
+                "axisRange": [
+                  16,
+                  15
+                ],
+                "axisNames": [
+                  "time",
+                  "distance"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  1.2000000000000002,
+                  8.4
+                ],
+                "properties": {
+                  "id": "2lwQfUOqdYIvczNF",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  10.4,
+                  10.4
+                ],
+                "properties": {
+                  "id": "WuGEVjfOz7Tk-_oi",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "2lwQfUOqdYIvczNF",
+                  "WuGEVjfOz7Tk-_oi"
+                ],
+                "properties": {
+                  "id": "dacZ3QdZipZhRI3e"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "J0Ohtgsh-qNRUUid",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p></p>"
+            ]
+          }
+        }
+      ],
       {
         "id": "document_Text_3",
         "display": "teacher",
