@@ -9,8 +9,13 @@
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
     "defaultDocumentTemplate": {"tiles": []},
-    "defaultDocumentType": "problem",
-    "settings": {"table": {"numFormat": ".2~f"}},
+    "defaultDocumentType": "problem",    
+    "settings": {
+      "table": {
+        "numFormat": ".2~f", 
+        "tools": ["delete"]
+      }
+    },
     "learningLog": {"labels": {"1": "Learning Journal", "n": "Learning Journals"}},
     "toolbar": [
       {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
