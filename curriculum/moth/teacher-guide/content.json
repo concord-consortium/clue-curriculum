@@ -13,13 +13,18 @@
     "overview": {
       "initials": "OV",
       "title": "Overview",
-      "placeholder": "Work area for\nOverview section"
+      "placeholder": "Work area for Overview section"
     },
     "teach": {
       "initials": "LC",
       "title": "Teach",
-      "placeholder": "Work area for\nLaunch section"
-    }
+      "placeholder": "Work area for Launch section"
+    },
+    "summary": {"initials": "SUM", "title": "Summary", "placeholder": "Discuss your findings"},
+    "start": {"initials": "START", "title": "Start", "placeholder": "Record your ideas"},
+    "trap": {"initials": "TRAP", "title": "Trap", "type": "problem-documents"},
+    "sort": {"initials": "SORT", "title": "Sort", "type": "problem-documents"},
+    "analyze": {"initials": "ID", "title": "Analysis", "type": "problem-documents"}
   },
   "investigations": [
     {
@@ -49,12 +54,26 @@
           ]
         },
         {
-          "description": "Problem 1.3",
+          "description": "Activity 1.3",
           "ordinal": 3,
+          "title": "MothEd Middle School Activity - New Tabs",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-3/start/content.json", 
+            "investigation-1/problem-3/trap/content.json", 
+            "investigation-1/problem-3/sort/content.json", 
+            "investigation-1/problem-3/analyze/content.json", 
+            "investigation-1/problem-3/summary/content.json"
+          ]
+        },
+        {
+          "description": "Problem 1.5",
+          "ordinal": 5,
           "title": "MothEd Original Sample",
           "subtitle": "",
           "sections": [
-            "investigation-1/problem-3/overview/content.json"
+            "investigation-1/problem-5/overview/content.json"
           ]
         }
       ]
@@ -70,6 +89,16 @@
           "subtitle": "",
           "sections": [
             "investigation-2/problem-1/overview/content.json"
+          ]
+        },
+        {
+          "description": "Activity 2.2 - Replica Gr1",
+          "ordinal": 2,
+          "title": "MothEd Elementary Curriculum - Sorting Moths",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-2/problem-2/start/content.json"
           ]
         }
       ]
