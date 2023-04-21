@@ -24,49 +24,17 @@
     },
     "defaultDocumentType": "problem",
     "toolbar": [
-      {
-        "id": "select",
-        "title": "Select",
-        "iconId": "icon-select-tool",
-        "isTileTool": false,
-        "isDefault": true
-      },
-      {
-        "id": "Text",
-        "title": "Text",
-        "isTileTool": true
-      },
-      {
-        "id": "Image",
-        "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
-      },
-      {
-        "id": "Drawing",
-        "title": "Drawing",
-        "isTileTool": true
-      },
-      {
-        "id": "Table",
-        "title": "Table",
-        "isTileTool": true
-      },
-      {
-        "id": "Geometry",
-        "title": "Graph",
-        "isTileTool": true
-      },
-      {
-        "id": "delete",
-        "title": "Delete",
-        "iconId": "icon-delete-tool",
-        "isTileTool": false
-      }
+      {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
+      {"id": "Text", "title": "Text", "isTileTool": true},
+      {"id": "Image", "title": "Image", "isTileTool": true},
+      {"id": "DataCard", "title": "Data Cards", "isTileTool": true},
+      {"id": "Drawing", "title": "Drawing", "isTileTool": true},
+      {"id": "Table", "title": "Table", "isTileTool": true},
+      {"id": "XYPlot", "title": "XY Plot", "isTileTool": true},
+      {"id": "duplicate", "title": "Duplicate Tile", "iconId": "icon-duplicate-tool", "isTileTool": false},
+      {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
+      {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
+      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
     ],
     "navTabs": {
       "showNavPanel": true,
