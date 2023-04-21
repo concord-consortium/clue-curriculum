@@ -8,18 +8,65 @@
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
     "defaultDocumentTemplate": {
-      "tiles": [{"id": "document_Text_1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Welcome to MothEd CLUE!</strong></p>", "<p>To get started, click the My Resources bar at extreme left, and then click the tab labeled <strong>Activity.</strong></p>"]}}]
+      "tiles": [
+        {
+          "id": "document_Text_1",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>Welcome to MothEd CLUE!</strong></p>",
+              "<p>To get started, click the My Resources bar at extreme left, and then click the tab labeled <strong>Activity.</strong></p>"
+            ]
+          }
+        }
+      ]
     },
     "defaultDocumentType": "problem",
     "toolbar": [
-      {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
-      {"id": "Text", "title": "Text", "isTileTool": true},
-      {"id": "Image", "title": "Image", "isTileTool": true},
-      {"id": "DataCard", "title": "Data Cards", "isTileTool": true},
-      {"id": "Drawing", "title": "Drawing", "isTileTool": true},
-      {"id": "Table", "title": "Table", "isTileTool": true},
-      {"id": "Geometry", "title": "Graph", "isTileTool": true},
-      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
     ],
     "navTabs": {
       "showNavPanel": true,
@@ -29,62 +76,223 @@
           "tab": "problems",
           "label": "Activity",
           "sections": [
-            {"initials": "GS", "title": "Get Started", "type": "problem-documents"},
-            {"initials": "TB", "title": "Trapping", "type": "problem-documents"},
-            {"initials": "PIN", "title": "Pinning", "type": "problem-documents"},
-            {"initials": "SORT", "title": "Sorting", "type": "problem-documents"},
-            {"initials": "ID", "title": "Identifying", "type": "problem-documents"},
-            {"initials": "SUM", "title": "Summary", "type": "problem-documents"},
-            {"initials": "START", "title": "Start", "type": "problem-documents"},
-            {"initials": "TRAP", "title": "Trap", "type": "problem-documents"},
-            {"initials": "SORT", "title": "Sort", "type": "problem-documents"},
-            {"initials": "ID", "title": "Analysis", "type": "problem-documents"}
+            {
+              "initials": "GS",
+              "title": "Get Started",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "TB",
+              "title": "Trapping",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "PIN",
+              "title": "Pinning",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "SORT",
+              "title": "Sorting",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "ID",
+              "title": "Identifying",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "SUM",
+              "title": "Summary",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "START",
+              "title": "Start",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "TRAP",
+              "title": "Trap",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "SORT",
+              "title": "Sort",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "ID",
+              "title": "Analysis",
+              "type": "problem-documents"
+            }
           ]
         },
-        {"tab": "teacher-guide", "label": "Teacher Guide", "teacherOnly": true, "sections": []},
-        {"tab": "student-work", "label": "Student Work", "teacherOnly": true, "sections": []},
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
         {
           "tab": "class-work",
           "label": "Class Work",
           "sections": [
-            {"title": "Workspaces", "type": "published-problem-documents", "dataTestHeader": "class-work-section-published", "dataTestItem": "class-work-list-items", "documentTypes": ["publication"], "showStars": [], "properties": ["!isDeleted"]},
-            {"title": "Workspaces", "type": "teacher-supports", "dataTestHeader": "supports-section-teacher-supports", "dataTestItem": "supports-list-items", "documentTypes": ["supportPublication"], "properties": ["teacherSupport", "!isDeleted"]}
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [],
+              "properties": [
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            }
           ]
         }
       ]
     },
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["delete"]
+        "numFormat": ".2~f",
+        "tools": [
+          "delete"
+        ]
       }
     },
     "stamps": [
-      {"url": "moth/stamps/acorn.png", "width": 35, "height": 35},
-      {"url": "moth/stamps/firneedles.png", "width": 35, "height": 29},
-      {"url": "moth/stamps/mapleleaf.png", "width": 35, "height": 38},
-      {"url": "moth/stamps/tree.png", "width": 37, "height": 35},
-      {"url": "moth/stamps/pine.png", "width": 23, "height": 40},
-      {"url": "moth/stamps/greenleaf.png", "width": 35, "height": 34}
+      {
+        "url": "moth/stamps/acorn.png",
+        "width": 35,
+        "height": 35
+      },
+      {
+        "url": "moth/stamps/firneedles.png",
+        "width": 35,
+        "height": 29
+      },
+      {
+        "url": "moth/stamps/mapleleaf.png",
+        "width": 35,
+        "height": 38
+      },
+      {
+        "url": "moth/stamps/tree.png",
+        "width": 37,
+        "height": 35
+      },
+      {
+        "url": "moth/stamps/pine.png",
+        "width": 23,
+        "height": 40
+      },
+      {
+        "url": "moth/stamps/greenleaf.png",
+        "width": 35,
+        "height": 34
+      }
     ]
   },
   "sections": {
-    "getStarted": {"initials": "GS", "title": "Get Started", "placeholder": "Record your ideas"},
-    "trapBuilding": {"initials": "TB", "title": "Trapping", "placeholder": "Document your moth traps"},
-    "pinning": {"initials": "PIN", "title": "Pinning", "placeholder": "Assemble your moth collection"},
-    "sorting": {"initials": "SORT", "title": "Sorting", "placeholder": "Categorize your moth collection"},
-    "id": {"initials": "ID", "title": "Identifying", "placeholder": "Document your collected moths"},
-    "summary": {"initials": "SUM", "title": "Summary", "placeholder": "Discuss your findings"},
-    "start": {"initials": "START", "title": "Start", "placeholder": "Record your ideas"},
-    "trap": {"initials": "TRAP", "title": "Trap", "type": "problem-documents"},
-    "sort": {"initials": "SORT", "title": "Sort", "type": "problem-documents"},
-    "analyze": {"initials": "ID", "title": "Analysis", "type": "problem-documents"}
+    "getStarted": {
+      "initials": "GS",
+      "title": "Get Started",
+      "placeholder": "Record your ideas"
+    },
+    "trapBuilding": {
+      "initials": "TB",
+      "title": "Trapping",
+      "placeholder": "Document your moth traps"
+    },
+    "pinning": {
+      "initials": "PIN",
+      "title": "Pinning",
+      "placeholder": "Assemble your moth collection"
+    },
+    "sorting": {
+      "initials": "SORT",
+      "title": "Sorting",
+      "placeholder": "Categorize your moth collection"
+    },
+    "id": {
+      "initials": "ID",
+      "title": "Identifying",
+      "placeholder": "Document your collected moths"
+    },
+    "summary": {
+      "initials": "SUM",
+      "title": "Summary",
+      "placeholder": "Discuss your findings"
+    },
+    "start": {
+      "initials": "START",
+      "title": "Start",
+      "placeholder": "Record your ideas"
+    },
+    "trap": {
+      "initials": "TRAP",
+      "title": "Trap",
+      "type": "problem-documents"
+    },
+    "sort": {
+      "initials": "SORT",
+      "title": "Sort",
+      "type": "problem-documents"
+    },
+    "analyze": {
+      "initials": "ID",
+      "title": "Analysis",
+      "type": "problem-documents"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
-    "sectionInfo": {"overview": {"initials": "GS", "title": "Overview", "placeholder": "Add some tiles here"}, "teach": {"initials": "TC", "title": "Teaching Tips", "placeholder": "Add some tiles here"}},
-    "sections": [{"type": "getStarted"}, {"type": "fieldNotes"}, {"type": "share"}]
+    "sectionInfo": {
+      "overview": {
+        "initials": "GS",
+        "title": "Overview",
+        "placeholder": "Add some tiles here"
+      },
+      "teach": {
+        "initials": "TC",
+        "title": "Teaching Tips",
+        "placeholder": "Add some tiles here"
+      }
+    },
+    "sections": [
+      {
+        "type": "getStarted"
+      },
+      {
+        "type": "fieldNotes"
+      },
+      {
+        "type": "share"
+      }
+    ]
   },
   "investigations": [
     {
@@ -98,7 +306,12 @@
           "title": "Welcome to MothEd CLUE PD",
           "subtitle": "Application and Collaboration",
           "disabled": [],
-          "sections": ["investigation-1/problem-1/getStarted/content.json", "investigation-1/problem-1/trapBuilding/content.json", "investigation-1/problem-1/pinning/content.json", "investigation-1/problem-1/summary/content.json"]
+          "sections": [
+            "investigation-1/problem-1/getStarted/content.json",
+            "investigation-1/problem-1/trapBuilding/content.json",
+            "investigation-1/problem-1/pinning/content.json",
+            "investigation-1/problem-1/summary/content.json"
+          ]
         },
         {
           "description": "Activity 1.2",
@@ -106,7 +319,13 @@
           "title": "MothEd Middle School Activity",
           "subtitle": "",
           "disabled": [],
-          "sections": ["investigation-1/problem-2/getStarted/content.json", "investigation-1/problem-2/trapBuilding/content.json", "investigation-1/problem-2/pinning/content.json", "investigation-1/problem-2/id/content.json", "investigation-1/problem-2/summary/content.json"]
+          "sections": [
+            "investigation-1/problem-2/getStarted/content.json",
+            "investigation-1/problem-2/trapBuilding/content.json",
+            "investigation-1/problem-2/pinning/content.json",
+            "investigation-1/problem-2/id/content.json",
+            "investigation-1/problem-2/summary/content.json"
+          ]
         },
         {
           "description": "Activity 1.3",
@@ -115,10 +334,10 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-3/start/content.json", 
-            "investigation-1/problem-3/trap/content.json", 
-            "investigation-1/problem-3/sort/content.json", 
-            "investigation-1/problem-3/analyze/content.json", 
+            "investigation-1/problem-3/start/content.json",
+            "investigation-1/problem-3/trap/content.json",
+            "investigation-1/problem-3/sort/content.json",
+            "investigation-1/problem-3/analyze/content.json",
             "investigation-1/problem-3/summary/content.json"
           ]
         },
@@ -128,7 +347,12 @@
           "title": "Moth Investigation",
           "subtitle": "Study and Share",
           "disabled": [],
-          "sections": ["investigation-1/problem-5/getStarted/content.json", "investigation-1/problem-5/trapBuilding/content.json", "investigation-1/problem-5/pinning/content.json", "investigation-1/problem-5/summary/content.json"]
+          "sections": [
+            "investigation-1/problem-5/getStarted/content.json",
+            "investigation-1/problem-5/trapBuilding/content.json",
+            "investigation-1/problem-5/pinning/content.json",
+            "investigation-1/problem-5/summary/content.json"
+          ]
         }
       ]
     },
@@ -143,7 +367,22 @@
           "title": "MothEd Elementary Curriculum",
           "subtitle": "",
           "disabled": [],
-          "sections": ["investigation-2/problem-1/getStarted/content.json", "investigation-2/problem-1/trapBuilding/content.json", "investigation-2/problem-1/sorting/content.json", "investigation-2/problem-1/pinning/content.json"]
+          "sections": [
+            "investigation-2/problem-1/getStarted/content.json",
+            "investigation-2/problem-1/trapBuilding/content.json",
+            "investigation-2/problem-1/sorting/content.json",
+            "investigation-2/problem-1/pinning/content.json"
+          ]
+        },
+        {
+          "description": "Activity 2.2 - Replica Gr1",
+          "ordinal": 2,
+          "title": "MothEd Elementary Curriculum - Sorting Moths",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-2/problem-2/start/content.json"
+          ]
         }
       ]
     }
