@@ -1,113 +1,124 @@
 {
-    "type": "activity",
-    "content": {
-        "sharedModels": [
-            {
-                "sharedModel": {
-                "type": "SharedDataSet",
-                "id": "lb02MAY20230948",
-                "providerId": "lb02MAY2023945",
-                "dataSet": {
-                    "id": "Ta62sdTWhfvdHN",
-                    "attributes": [
-                    {
-                        "id": "blurf",
-                        "clientKey": "",
-                        "name": "Heuristic",
-                        "hidden": false,
-                        "units": "",
-                        "formula": {},
-                        "values": [
-                        "MIRROR OR ARRAY",
-                        "ROTATE",
-                        "ALLOW USER TO REARRANGE"
-                        ]
-                    },
-                    {
-                        "id": "sprolk",
-                        "clientKey": "",
-                        "name": "Category",
-                        "hidden": false,
-                        "units": "",
-                        "formula": {},
-                        "values": [
-                        "Orientation",
-                        "Orientation",
-                        "Human Factors"
-                        ]
-                    },
-                    {
-                        "id": "farb",
-                        "clientKey": "",
-                        "name": "Example",
-                        "hidden": false,
-                        "units": "",
-                        "formula": {},
-                        "values": [
-                        "mods/images/mirrorOrArray.png",
-                        "mods/images/rotate.png",
-                        "mods/images/allowUserToRearrange.png"
-                        ]
-                    },
-                    {
-                        "id": "banff",
-                        "clientKey": "",
-                        "name": "Description",
-                        "hidden": false,
-                        "units": "",
-                        "formula": {},
-                        "values": [
-                        "Start or continue a pattern",
-                        "Move part of the design around another part.",
-                        "Enable the user to move or rearrange parts of the design."
-                        ]
-                    }
-                    ],
-                    "cases": [
-                    {
-                        "__id__": "01GVHHA95WXK1YQ3PQN4P9_01",
-                        "__id__": "01GVHHA95WXK1YQ3PQN4P9_02",
-                        "__id__": "01GVHHA95WXK1YQ3PQN4P9_03"
-                    }
-                    ]
-                }
-                },
-                "tiles": [
-                "lb02MAY2023945"
-                ]
-            }
-            ],
-        "tiles": [
-        {
-            "id": "lb02MAY20230940",
-            "title": "Text 3",
-            "content": {
-                "type": "Text",
-                "format": "html",
-                "text": [
-                    "<p><strong>Concept Drawing</strong></p><p>In this lesson you will be able to sketch solutions to your design problem that meet requirements. </p>"
-                ]
-            }
-        },
-        {
-            "layout": {"height": 350},
-            "id": "lb02MAY2023945",
-            "title": "Stakeholders",
-            "content": {
-            "type": "DataCard"
-            }
-        },
-        {
-            "id": "lb02MAY20230950",
-            "title": "Text 4",
-            "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-                "<p>Use this deck of design prompts to help you migrate your design sketches in meaningful ways.</p>"
-            ]
-            }
+  "type": "activity",
+  "content": {
+    "tiles": [
+      {
+        "id": "lb02MAY20230940",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Concept Drawing</strong></p><p>In this lesson you will be able to sketch solutions to your design problem that meet requirements. </p>"
+          ]
         }
+      },
+      {
+        "id": "--erWtWvzYTFKzp4",
+        "title": "Stakeholders",
+        "content": {
+          "type": "DataCard"
+        }
+      },
+      {
+        "id": "lb02MAY20230950",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Use this deck of design prompts to help you migrate your design sketches in meaningful ways.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "H5X0MAzLZ3M1E-il",
+          "providerId": "--erWtWvzYTFKzp4",
+          "dataSet": {
+            "id": "P39BiIqpJAOZBitd",
+            "attributes": [
+              {
+                "id": "43mG-Rz7WfcLBaQG",
+                "clientKey": "",
+                "name": "Heuristic",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "MIRROR OR ARRAY",
+                  "ROTATE",
+                  "ALLOW USER TO REARRANGE",
+                  "ROTATE",
+                  "ALLOW USER TO REARRANGE"
+                ]
+              },
+              {
+                "id": "gE3UnQJFVyQ4SdQT",
+                "clientKey": "",
+                "name": "Category",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Orientation",
+                  "Orientation",
+                  "Human Factors",
+                  "Orientation",
+                  "Human Factors"
+                ]
+              },
+              {
+                "id": "DIG-qNOwWjPSRmX6",
+                "clientKey": "",
+                "name": "Example",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "mods/images/mirrorOrArray.png",
+                  "curriculum/mods/images/rotate.png",
+                  "curriculum/mods/images/allowUserToAssemble.png",
+                  "mods/images/rotate.png",
+                  "mods/images/allowUserToRearrange.png"
+                ]
+              },
+              {
+                "id": "_RA89U9-cA9vp4WZ",
+                "clientKey": "",
+                "name": "Description",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Start or continue a pattern",
+                  "Move part of the design around another part.",
+                  "Enable user to move parts of the design.",
+                  "Move part of the design around another part.",
+                  "Enable the user to move or rearrange parts of the design."
+                ]
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01GZFNQ3T6P0MRPFY8XDMC5SZK"
+              },
+              {
+                "__id__": "01GZFNQ3T6P0MRPFY8XDMC5SZM"
+              },
+              {
+                "__id__": "01GZFNQ3T6P0MRPFY8XDMC5SZN"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "--erWtWvzYTFKzp4"
         ]
-    }
+      }
+    ]
+  }
 }
