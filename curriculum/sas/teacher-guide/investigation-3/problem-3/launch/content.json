@@ -3,6 +3,74 @@
   "content": {
     "tiles": [
       {
+        "id": "Z0xs98UKVcYAQUKT",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem Overview</strong></p>",
+            "<p>In this Problem, students use similar triangles to measure distances on the ground that cannot be measured directly. The Student Edition provides a diagram to illustrate this idea. However, if possible, you can reenact the Problem in a  real‑life setting.</p>",
+            "<p>Students revisit what it means for triangles to be similar. They recall that they can use similar triangles, and the scale factor between the triangles, to find unknown corresponding lengths. They apply these ideas in finding an inaccessible distance across a river.</p>"
+          ]
+        }
+      },
+      {
+        "id": "l1dhAasWy2KM0vZh",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#RevisionComments'>Revision Comments</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#StemProblemFormat'>CMP STEM Problem Format</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#StemProblemFormat'>Unit Descriptions</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#UnitGoals'>Goals of the Units</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#UnitAlignment'>Unit Alignments</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#GeneralAoL'>General Arc of Learning </a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#UnitAoL'>Unit Arc of Learning</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#MathOverview'>Mathematical Overview</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#LearningAids'>Learning Aids</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#TeachingAids'>Teaching Aids</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#FamilyLetters'>Family Letters </a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#Assessments'>Assessments</a></strong></p>",
+            "<p><strong><a href='https://connectedmath.msu.edu/teacher-guide/stretching-and-shrinking/#ACEHomework'>ACE Homework</a></strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "uk3VHDTWt6l77_X3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>AoL:</strong> Synthesis, Synthesis</p>",
+            "<p><strong>CCSSM:</strong> 7.G.A.1, 7.G.A.2, 7.G.B.6, 7.RP.A.2, 7.RP.A.2.A, 7.RP.A.2.B, 7.RP.A.3</p>"
+          ]
+        }
+      },
+      {
+        "id": "OoM5ngnfxg8DAwNT",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Emerging Mathematical Ideas</strong></p>",
+            "<p>Introduce the term “nested triangles” and broaden understanding of similar triangles.</p>",
+            "<p>Use knowledge of similar figures/scale drawings and apply it to nested triangles to solve real world distance problems that are difficult to physically measure.</p>"
+          ]
+        }
+      },
+      {
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>NWDYK</strong></p>",
+            "<p>How can you use similar triangles to find a distance that is difficult to measure?</p>"
+          ]
+        }
+      },
+      {
         "id": "YepDxNovHZqWtEhq",
         "content": {
           "type": "Text",
@@ -15,13 +83,23 @@
           ]
         }
       },
-      {"id": "XaQzwanwb_Qorb9z", "title": "Nonsimilar parallelograph with similar triangles", "content": {"type": "Image", "url": "sas/images/SASTG_3-3_connecting_to_prioir_knowledge_1.png"}},
+      {
+        "id": "XaQzwanwb_Qorb9z",
+        "title": "Nonsimilar parallelograph with similar triangles",
+        "content": {
+          "type": "Image",
+          "url": "sas/images/SASTG_3-3_connecting_to_prioir_knowledge_1.png"
+        }
+      },
       {
         "id": "OT9zY5ryC79Qxuvp",
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Suggested Questions</strong></p>", "<ul><li>What shapes do you see on the diagram?</li><li>What measurements do you need? </li></ul>Refer to Problem 3.1 and the Rep-tiling with triangles. Do you see nested triangles in this rep-tile? Where?"]
+          "text": [
+            "<p><strong>Suggested Questions</strong></p>",
+            "<ul><li>What shapes do you see on the diagram?</li><li>What measurements do you need? </li></ul>Refer to Problem 3.1 and the Rep-tiling with triangles. Do you see nested triangles in this rep-tile? Where?"
+          ]
         }
       },
       {
@@ -29,16 +107,127 @@
         "title": "Rep-tiled triangle",
         "content": {
           "type": "Geometry",
-          "board": {"properties": {"axisMin": [-4.186, -2.093], "axisRange": [26.23, 17.486], "axisNames": ["x", "y"], "axisLabels": ["x", "y"]}},
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.186,
+                -2.093
+              ],
+              "axisRange": [
+                26.23,
+                17.486
+              ],
+              "axisNames": [
+                "x",
+                "y"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
           "objects": [
-            {"type": "point", "parents": [1, 10.008111338797814], "properties": {"id": "IMav4NSL51yAx2cW", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [1.006617144808743, -0.011740095628415048], "properties": {"id": "WaQmRcXAjS6as7VI", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [9, 10.008111338797814], "properties": {"id": "fqFFfArr0yCYZJ3K", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "polygon", "parents": ["IMav4NSL51yAx2cW", "WaQmRcXAjS6as7VI", "fqFFfArr0yCYZJ3K"], "properties": {"id": "6XU2YDR00D7gA--b"}},
-            {"type": "point", "parents": [5, 5], "properties": {"id": "ibra8nKjqADwKLiq", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [5, 10], "properties": {"id": "4QncjKswHDWPVSnP", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [1, 5], "properties": {"id": "2YPLz3SsOv5QwWCR", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "polygon", "parents": ["ibra8nKjqADwKLiq", "4QncjKswHDWPVSnP", "2YPLz3SsOv5QwWCR"], "properties": {"id": "YqqUEnzvRliI6dmb"}}
+            {
+              "type": "point",
+              "parents": [
+                1,
+                10.008111338797814
+              ],
+              "properties": {
+                "id": "IMav4NSL51yAx2cW",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1.006617144808743,
+                -0.011740095628415048
+              ],
+              "properties": {
+                "id": "WaQmRcXAjS6as7VI",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                10.008111338797814
+              ],
+              "properties": {
+                "id": "fqFFfArr0yCYZJ3K",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "IMav4NSL51yAx2cW",
+                "WaQmRcXAjS6as7VI",
+                "fqFFfArr0yCYZJ3K"
+              ],
+              "properties": {
+                "id": "6XU2YDR00D7gA--b"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                5
+              ],
+              "properties": {
+                "id": "ibra8nKjqADwKLiq",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                10
+              ],
+              "properties": {
+                "id": "4QncjKswHDWPVSnP",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                5
+              ],
+              "properties": {
+                "id": "2YPLz3SsOv5QwWCR",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "ibra8nKjqADwKLiq",
+                "4QncjKswHDWPVSnP",
+                "2YPLz3SsOv5QwWCR"
+              ],
+              "properties": {
+                "id": "YqqUEnzvRliI6dmb"
+              }
+            }
           ]
         }
       },
@@ -47,12 +236,21 @@
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Note:</strong> In general, it is true that if the corresponding angles of two triangles are congruent, then the triangles are similar. In this Unit, we assume that this theorem is true. A proof for the theorem is developed in 8th grade.  </p>"]
+          "text": [
+            "<p><strong>Note:</strong> In general, it is true that if the corresponding angles of two triangles are congruent, then the triangles are similar. In this Unit, we assume that this theorem is true. A proof for the theorem is developed in 8th grade.  </p>"
+          ]
         }
       },
       {
         "id": "kyy53dkYjEjn3hb-",
-        "content": {"type": "Text", "format": "html", "text": ["<p><u>Presenting the Challenge</u></p>", "<p>Have the students use the diagram to find the distance across the river.  Make sure they provide explanations for their methods. Have students work with a partner on this problem.  </p>"]}
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Presenting the Challenge</u></p>",
+            "<p>Have the students use the diagram to find the distance across the river.  Make sure they provide explanations for their methods. Have students work with a partner on this problem.  </p>"
+          ]
+        }
       }
     ]
   }
