@@ -9,118 +9,199 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Working with pressure sensors</strong></p>",
-            "<p>Today we will work with pressure sensors to make the gripper &quot;feel&quot; objects. To do so, you will need to attach sensing &quot;mittens&quot; to your gripper:</p>",
-            "<p>Step 1: Flip the gripper over so the black battery is facing up and lay the mittens in front of the gripper so the arcs of the mittens are facing each other:</p>"
-          ]
-        }
-      },
-      {"id": "tXdlGWYpv6_5OdO-", "title": "Step 1", "content": {"type": "Image", "url": "brain/images/mittensStep1.png"}},
-      {"id": "UOXrVRlQ4v_mvtFT", "title": "Text 12", "content": {"type": "Text", "format": "html", "text": ["<p>Step 2: Slide the mitten under the gripper like so, and gently push on the orange arm into the mitten. It should be a snug fit. Repeat with the other mitten. </p>"]}},
-      {"id": "isT7GydSe_TamHum", "title": "Step 2", "content": {"type": "Image", "url": "brain/images/mittensStep2.png", "filename": "brain/images/mittensStep2.png"}},
-      {
-        "id": "xtGortNUEVAPNJi2",
-        "title": "Text 13",
-        "content": {"type": "Text", "format": "html", "text": ["<p>Step 3: If the mittens do not fit the arm of the gripper snug, then repeat step two,  but pull the mitten up while holding the gripper arm steady. The mitten should tighten around the arm of the gripper.</p>"]}
-      },
-      {"id": "v1xEmofre1JL7gtz", "title": "Step 3", "content": {"type": "Image", "url": "brain/images/mittensStep3.png", "filename": "brain/images/mittensStep3.png"}},
-      {
-        "id": "10p-RetC503aMsaJ",
-        "title": "Text 14",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Step 4: After the mittens are securely attached to the gripper arm, you will need to attach the touch sensor (if the sensor is already attached to one of the mittens, skip steps #4-5). Guide the pressure sensor through the small slit of one of the mittens (doesn&#x27;t matter which one):</p>"
-          ]
-        }
-      },
-      {"id": "LB59H45EIKOgrqFs", "title": "Step 4", "content": {"type": "Image", "url": "brain/images/mittensStep4.png", "filename": "brain/images/mittensStep4.png"}},
-      {
-        "id": "3Q71M0ZjYeGFj4el",
-        "title": "Text 15",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Step 5: Take a small piece of double sided tape and attach the sensor to the arc of the mitten.Push the back of the pressure sensor into the double-sided tape. Make sure that the striped side of the sensor is facing OUT (note: The pressure sensor will not work if the wrong side is taped):</p>"
-          ]
-        }
-      },
-      {"id": "zCgYPSTozc_REVqg", "title": "Step 5", "content": {"type": "Image", "url": "brain/images/mittensStep5.png", "filename": "brain/images/mittensStep5.png"}},
-      {
-        "id": "a6O5yNWtW-CGadj6",
-        "title": "Text 4",
-        "content": {"type": "Text", "format": "html", "text": ["<p>The next step is to connect the pressure sensor to the Muscle Spiker Shield (orange board).  You will notice that there are three wires coming out of the sensor: red, black, and blue. Plug these wires to the following sockets:</p>"]}
-      },
-      {"id": "iRLH-JgZYIUmUb6w", "title": "Connecting the sensor to the muscle spiker shield (orange board)", "content": {"type": "Image", "url": "brain/images/arduinowPressure.png", "filename": "brain/images/arduinowPressure.png"}},
-      {"id": "G4St3ETHDxn6Xxb0", "title": "Zoom in", "content": {"type": "Image", "url": "brain/images/connectorColors.png", "filename": "brain/images/connectorColors.png"}},
-      {
-        "id": "dTTzuz68xecRDgTs",
-        "title": "Text 5",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Next, you will need to connect the Arduino board to your computer using the blue USB cable, open a DataFlow tile and click on the lightning bolt connection button to pair your device. Add a sensor to your DataFlow program and choose &quot;Surface Pressure&quot; from the first drop-down menu and &quot;connect for live fsr&quot; from the second drop-down menu. Click on the graph icon to visualize the data that is received from the sensor and change the sampling rate to 100ms.</p>",
-            "<p>Try pressing the sensor with your fingers. Do you see any changes in your graph? If not, make sure you properly followed all the previous steps. </p>"
+            "<p><strong>Modeling touch receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the level of pressure applied by the gripper and makes the gripper release an object when too much pressure is applied.</p><p>1. Drag the following program to your workspace and connect the blocks such that the gripper stays closed. This program simulates an extended muscle contraction that keeps the gripper closed for a long period of time. </p>"
           ]
         }
       },
       {
-        "id": "Pbmb_5NSuyphX0nR",
+        "id": "fXr4dhoarK6Kk02g",
         "title": "Program 1",
         "content": {
           "type": "Dataflow",
           "programDataRate": 1000,
-          "programZoom": {"dx": 0, "dy": 0, "scale": 1},
-          "program": {"values": {"1": {"currentValues": {}}}, "id": "dataflow@0.1.0", "nodes": {"1": {"id": 1, "name": "Sensor", "x": 40, "y": 5, "inputs": {}, "outputs": {"num": {"connections": {}}}, "data": {"plot": false, "type": "fsr-reading", "sensor": "fsr", "virtual": false}}}}
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 0.5499999999999996
+          },
+          "program": {
+            "values": {
+              "2": {
+                "currentValues": {
+                  "nodeValue": 1000
+                }
+              },
+              "3": {
+                "currentValues": {
+                  "nodeValue": 300
+                }
+              },
+              "4": {
+                "currentValues": {}
+              },
+              "5": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              }
+            },
+            "id": "dataflow@0.1.0",
+            "nodes": {
+              "2": {
+                "id": 2,
+                "name": "Number",
+                "x": 54.96527716969002,
+                "y": 88.76041775941842,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "nodeValueUnits": ""
+                }
+              },
+              "3": {
+                "id": 3,
+                "name": "Number",
+                "x": 53.875004797228016,
+                "y": 216.63460202471057,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "nodeValueUnits": ""
+                }
+              },
+              "4": {
+                "id": 4,
+                "name": "Logic",
+                "x": 298.51305958210946,
+                "y": 146.26925511653616,
+                "inputs": {
+                  "num1": {
+                    "connections": {}
+                  },
+                  "num2": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "logicOperator": "Greater Than"
+                }
+              },
+              "5": {
+                "id": 5,
+                "name": "Demo Output",
+                "x": 538.768757511281,
+                "y": 91.34920173442126,
+                "inputs": {
+                  "nodeValue": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {},
+                "data": {
+                  "outputType": "Grabber",
+                  "demoOutput": 0
+                }
+              }
+            }
+          }
         }
       },
       {
-        "id": "WY0kXUDfbiDWaHIb",
-        "title": "Text 3",
+        "id": "srxKpumyruyS7yoA",
+        "title": "Text 9",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Control the gripper with your muscles</strong></p>",
-            "<p>Follow the same steps from lesson 1.5 to control the gripper with your muscles (go back to lesson 1.5 if you need additional information):</p>",
-            "<p>1. Connect the gripper to the Muscle SpikerShield. </p>",
-            "<p>2. Stick two EMG surface electrodes on your forearm and one on your elbow.</p>",
-            "<p>3. Connect the black alligator clip to the electrode on your elbow and the red alligator clips to the electrodes on your forearm. </p>",
-            "<p>4. Plug the end of the orange wire into the orange connection box on the Muscle SpikerShield.</p>",
-            "<p>5. Create a new DataFlow tile and add a sensor block:</p>",
-            "<p>- In the &quot;Select a sensor type&quot; drop-down menu, select EMG</p>",
-            "<p>- In the &quot;Select a sensor&quot; drop-down menu, select &quot;connect for live EMG&quot;</p>",
-            "<p>6. Add a Live Output Block. In the drop-down menu, choose &quot;Grabber.&quot; </p>",
-            "<p>7. Add logic and number blocks and connect all the blocks (just like you did in lesson 1.5). </p>",
-            "<p>8. Power up the gripper by connecting a 9V battery to the Muscle SpikerShield (the yellow board). </p>",
-            "<p>Can you make the gripper open and close by contracting your arm muscles? If not, check your work and make sure you followed all the previous steps correctly.  </p>"
+            "<p>2. Add a pressure sensor. To do so, click on &quot;Sensor&quot; and select &quot;Surface Pressure&quot; as a sensor type. Then, select &quot;FSR Demo Data&quot; in the second dropdown menu.</p><p>3. Add a logic block to check if the pressure is above 1000 (we&#x27;ll assume that 1000 represents excessive pressure that can break a fragile object).</p><p>4. Next, we will need to use a new block type called &quot;Control&quot; (see image below). The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
           ]
         }
       },
       {
-        "id": "rlC-zkmUWgRhuT5K",
-        "title": "Text 6",
+        "id": "FA-5gtLPFVmIe_lr",
+        "title": "The Control Block",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
+        "id": "-iTf_NvEdVage5PD",
+        "title": "Text 10",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Your challenge, should you choose to accept it...</strong></p>",
-            "<p>Your goal in this final activity is to program the gripper to hold an egg without cracking it. Your DataFlow program should do two main things: (1) when a muscle is contracted, the signal is detected and triggers the gripper to close. (2) When the pressure applied on an object becomes too strong, the pressure sensor tells the gripper to keep its current position. This is meant to prevent the gripper from closing too strongly on the egg and cracking it. </p>",
-            "<p>Hint: You will need to use a &quot;control&quot; block (see lesson 2.2). </p>",
-            "<p>Before you test your program with a real egg, try pressing the sensor with your fingers and contracting your muscles at the same time. Does your gripper move? Why or why not?  </p>"
+            "<p>As explained in the video, the control block receives two inputs:</p><p>Input 1 (the top one) determines if the block is on or off.</p><p>Input 2 (the bottom one) determines which value is passed through.</p><p>If the control block is OFF, it simply passes input 2 through. In other words, the output would be equal to input 2.</p><p>If the control block is ON, it can do different things, such as outputting the number zero. This option is useful because when the gripper receives the number zero it opens up.</p><p>5. Finally, connect all the blocks together such that when the pressure is greater than 1000 the gripper opens up to release the object. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
           ]
         }
       },
       {
-        "id": "Rqu8k407eNNyE-Co",
-        "title": "Text 7",
-        "content": {"type": "Text", "format": "html", "text": ["<p><strong>Evaluate the design of the touch-sensitive gripper</strong></p>", "<p>With your team, discuss the strengths and weaknesses of the touch-sensitive gripper. Drag the following table to your workspace and fill it in:</p>"]}
+        "id": "8od0XSnf1qqURYMR",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>PBS News Hour story</strong></p><p>Watch <a href=\"https://www.pbs.org/newshour/show/how-sensors-rewiring-nerves-could-help-prosthetics-feel-and-function-like-real-limbs\">this 6-minute video</a> from PBS News Hour on recent advancements in prosthetics and answer the following questions in your workspace. </p>"
+          ]
+        }
       },
-      {"id": "Kyjs5g52AYRfAHnS", "title": "Table 1", "content": {"type": "Table", "name": "Gripper evaluation", "columns": [{"name": "Strengths", "width": 200}, {"name": "Weaknesses", "width": 200}]}},
-      {"id": "OpA7t27RXurcLg-k", "title": "Text 8", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Reflection</strong></p>", "<p>At the end of the activity, please record your current thinking and learning in your learning journal (see Reflection tab). </p>"]}}
+      {
+        "id": "4qXS3QDYXOCpe8dT",
+        "title": "Text 12",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>1. How are the prosthetics “wired into the brain”?</p><p>2. How do you think the programming of our gripper compares to the programming of the prosthetics from the video?</p><p>3. What do you think would be affected most if you had decreased sensation of touch in your body?</p><p>4. Why is touch important to the human experience?</p>"
+          ]
+        }
+      },
+      {
+        "id": "OpA7t27RXurcLg-k",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Reflection</strong></p><p>At the end of the activity, please record your current thinking and learning in your learning journal (see Reflection tab). </p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "GaG54XgfEvVk0TXp",
+          "providerId": "fXr4dhoarK6Kk02g",
+          "dataSet": {
+            "id": "Z5k_hPOSbDfKTbZU",
+            "attributes": [],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "fXr4dhoarK6Kk02g"
+        ]
+      }
     ]
   }
 }
