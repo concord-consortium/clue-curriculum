@@ -1,6 +1,58 @@
 {
   "type": "activity",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "2raocGeLs-3e9u7W",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "yir7ixb6uspRaIm9",
+        "title": "Data Card Collection 1",
+        "content": {
+          "type": "DataCard"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Yqx72aiq57W_7z4y",
+          "providerId": "yir7ixb6uspRaIm9",
+          "dataSet": {
+            "id": "5KGba4enlzuwQOuR",
+            "attributes": [
+              {
+                "id": "oMpn7mIAmB7MztKQ",
+                "clientKey": "",
+                "name": "Label 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "https://concordconsort.wpenginepowered.com/wp-content/uploads/2016/12/images/logos/cc/cc-logo.png"
+                ]
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01H00Y73VKWB4YCSSC994BV4A6"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "yir7ixb6uspRaIm9"
+        ]
+      }
+    ]
   }
 }
