@@ -3,6 +3,17 @@
   "content": {
     "tiles": [
       {
+        "id": "QE1BFHtxWLSwnQw1",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Explore 10 Moth data cards </strong></p>"
+          ]
+        }
+      },
+      {
         "id": "x8YQxBfW5cPJziqm",
         "title": "Data Cards: 10 Moths to Explore",
         "content": {
@@ -16,7 +27,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Explore the 10 Moth data cards above. What do you notice? Share your favorite with your group. Why is it your favorite? </p><p></p><p>Visit the <a href=\"https://docs.google.com/document/d/1zFZaNx7w49uSHzQactpnT__LGX2KLN-jaCHnaMtHSPs/edit?usp=sharing\">Picture Cards</a>. Can you identify any of the moths in this deck?</p>"
+            "<p>Think about and discuss: </p><p>What do you notice? Share your favorite with your group. Why is it your favorite? </p><p></p><p></p>"
           ]
         }
       },
@@ -34,7 +45,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Now you can sort and count your insects. </p>"
+            "<p>Now you can sort and count the  insects you collected!</p>"
           ]
         }
       },
@@ -129,6 +140,35 @@
         },
         "layout": {
           "height": 305
+        }
+      },
+      {
+        "id": "KkfvpTvujLYzI68f",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Visit these</strong> <strong> </strong><a href=\"https://docs.google.com/document/d/1zFZaNx7w49uSHzQactpnT__LGX2KLN-jaCHnaMtHSPs/edit?usp=sharing\"><strong>Picture Cards </strong></a><strong>to identify the moths in the new deck below.</strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "88S2hS3ZAdsdPz_C",
+        "title": "Data Card Collection 1",
+        "content": {
+          "type": "DataCard"
+        }
+      },
+      {
+        "id": "4HDcicXT_sBN6eRn",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Can you identify any of the moths in the deck above?</p>"
+          ]
         }
       },
       {
@@ -425,6 +465,38 @@
         },
         "tiles": [
           "x8YQxBfW5cPJziqm"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "1WKdKf-oAH1wfH69",
+          "providerId": "88S2hS3ZAdsdPz_C",
+          "dataSet": {
+            "id": "YgCHaeAb_h79cJtG",
+            "attributes": [
+              {
+                "id": "wGloH0yzWLPZL-kj",
+                "clientKey": "",
+                "name": "Label 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01H0GC77Z33C78XY3XDX10JQK6"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "88S2hS3ZAdsdPz_C"
         ]
       }
     ]
