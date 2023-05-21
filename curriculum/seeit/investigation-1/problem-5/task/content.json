@@ -18,6 +18,115 @@
         "content": {
           "type": "Expression Tile"
         }
+      },
+      {
+        "id": "C_mFmhXCyhMSTJ1O",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "96xpNv-w7SxYVEBW": 80,
+            "0DIuZs8Ejjn8fHjo": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "Sv8AjMDztPvmFeG8",
+        "title": "X-Y Plot 1",
+        "content": {
+          "type": "Graph",
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -4.5,
+              "max": 7.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -4.5,
+              "max": 7.5
+            }
+          },
+          "plotType": "scatterPlot",
+          "config": {
+            "id": "DCONvj3uV_yUiirK",
+            "primaryRole": "x",
+            "_attributeDescriptions": {
+              "x": {
+                "attributeID": "96xpNv-w7SxYVEBW"
+              }
+            },
+            "_yAttributeDescriptions": [
+              {
+                "attributeID": "0DIuZs8Ejjn8fHjo"
+              }
+            ]
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5Bcy4XQP0nnmb_r3",
+          "providerId": "C_mFmhXCyhMSTJ1O",
+          "dataSet": {
+            "id": "_AM-GdV9CgMwXxab",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "96xpNv-w7SxYVEBW",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1"
+                ],
+                "title": ""
+              },
+              {
+                "id": "0DIuZs8Ejjn8fHjo",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "cIO9m26tX7pVsAhB"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "C_mFmhXCyhMSTJ1O",
+          "Sv8AjMDztPvmFeG8"
+        ]
       }
     ]
   }
