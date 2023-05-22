@@ -37,6 +37,14 @@
             "board": {"properties": {"axisMin": [-4.049, -2.232], "axisRange": [36.592, 19.71]}},
             "objects": [{"type": "polygon", "parents": ["HR3at2-RqvnRaT9z:yGRYwwl0l_VBAvBB", "O3SmGUb4iRPw29HU:yGRYwwl0l_VBAvBB", "76WRbhQpTu2Wqy1c:yGRYwwl0l_VBAvBB"], "properties": {"id": "cWoEx64CKz1q6gdJ"}}]
           }
+        },
+        {
+          "id": "abc123",
+          "title": "My Expression",
+          "content": {
+            "type": "Expression",
+            "latexStr": "a=\\pi r^2"
+          }
         }
       ]
     },
@@ -80,6 +88,7 @@
       {"id": "Geometry", "title": "Geometry", "isTileTool": true},
       {"id": "DataCard", "title": "DataCard", "isTileTool": true},
       {"id": "Table", "title": "Table", "isTileTool": true},
+      {"id": "Expression", "title": "Math Expression", "isTileTool": true},
       {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
     ]
   },

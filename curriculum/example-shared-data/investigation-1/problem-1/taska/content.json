@@ -19,6 +19,14 @@
     ],
     "tiles": [
       {"content": {"type": "Text", "text": "My plain text on the right 2"}},
+      {
+        "id": "abc123",
+        "title": "My Expression",
+        "content": {
+          "type": "Expression",
+          "latexStr": "a=\\pi r^2"
+        }
+      },
       {"id": "table-1", "title": "Table in Section", "content": {"type": "Table", "name": "Table in Section"}},
       {
         "id": "graph-1",
