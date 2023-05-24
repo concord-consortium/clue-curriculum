@@ -30,6 +30,13 @@
             "<p>Sort 1: Sort the group into at least 2 categories. You will need to add more categories to the sample deck. Label each group consistently in the cards. Explain your categories to everyone in the class. </p><p>Sort 2: Now complete a second sort with at least two of the following categories: beneficiaries/consumers, resource providers, influential bystanders and potential allies. You can also add additional stakeholders to your card deck at this time.</p>"
           ]
         }
+      },
+      {
+        "id": "TbX8W_wqLSSX21f0",
+        "title": "Data Card Collection 1",
+        "content": {
+          "type": "DataCard"
+        }
       }
     ],
     "sharedModels": [
@@ -50,7 +57,8 @@
                 "formula": {},
                 "values": [
                   "Cafeteria Worker"
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "lJfYV1Xh17L1nxLS",
@@ -61,7 +69,8 @@
                 "formula": {},
                 "values": [
                   "cleaning, cooking"
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "aJO-7JpaEuCjw9Eu",
@@ -72,7 +81,8 @@
                 "formula": {},
                 "values": [
                   "https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0"
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "zbtv8CsO0DTV_uWc",
@@ -83,7 +93,8 @@
                 "formula": {},
                 "values": [
                   "test"
-                ]
+                ],
+                "title": ""
               }
             ],
             "cases": [
@@ -95,6 +106,38 @@
         },
         "tiles": [
           "pmYqdiqxHO9A00aq"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "T0iFH24LV14B3R8k",
+          "providerId": "TbX8W_wqLSSX21f0",
+          "dataSet": {
+            "id": "Umwh8eK8sayqh2rE",
+            "attributes": [
+              {
+                "id": "meIE5sykNLq4i5N_",
+                "clientKey": "",
+                "name": "Label 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01H171BBDMVK84NBV3ZT8TVHYP"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "TbX8W_wqLSSX21f0"
         ]
       }
     ]
