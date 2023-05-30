@@ -64,6 +64,13 @@
       },
       "diagram": {
         "maxTiles": 1
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true
       }
     },
     "defaultStamps": [],
@@ -279,7 +286,7 @@
         "isTileTool": true
       },
       {
-        "id": "XYplot",
+        "id": "Graph",
         "title": "XY Plot",
         "isTileTool": true
       },
