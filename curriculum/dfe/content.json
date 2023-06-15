@@ -6,7 +6,11 @@
   "config": {
     "placeholderText": "This is where users can type text",
     "defaultDocumentType": "personal",
-    "settings": {"table": {"numFormat": ".2~f"}, "text": {"tools": ["bold", "subscript", "superscript"]}},
+    "settings": {
+      "table": {"numFormat": ".2~f"},
+      "text": {"tools": ["bold", "subscript", "superscript", "new-variable", "insert-variable", "edit-variable"]},
+      "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "new-variable", "insert-variable", "edit-variable", "delete"]}
+    },
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -24,6 +28,16 @@
       {"id": "Table", "title": "Table", "isTileTool": true},
       {"id": "Drawing", "title": "Drawing", "isTileTool": true},
       {"id": "Dataflow", "title": "Dataflow", "isTileTool": true},
+      {
+        "id": "Simulator",
+        "title": "Simulator",
+        "isTileTool": true
+      },
+      {
+        "id": "Diagram",
+        "title": "Diagram",
+        "isTileTool": true
+      },
       {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
       {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
       {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}

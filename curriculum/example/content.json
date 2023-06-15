@@ -10,15 +10,15 @@
       "table": {
         "numFormat": ".2~f"
       },
-      "text": {
-        "tools": ["bold", "subscript", "superscript"]
-      },
+      "text": {"tools": ["bold", "subscript", "superscript", "new-variable", "insert-variable", "edit-variable"]},
+      "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "new-variable", "insert-variable", "edit-variable", "delete"]},
       "graph": {
         "defaultAxisLabels": {
           "bottom": "x",
           "left": "y"
         },
-        "emptyPlotIsNumeric": true
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true
       }
     },
     "navTabs": {
@@ -43,6 +43,16 @@
       {"id": "Graph", "title": "XY Plot", "isTileTool": true},
       {"id": "Geometry", "title": "Graph", "isTileTool": true},
       {"id": "Dataflow", "title": "Dataflow", "isTileTool": true},
+      {
+        "id": "Simulator",
+        "title": "Simulator",
+        "isTileTool": true
+      },
+      {
+        "id": "Diagram",
+        "title": "Diagram",
+        "isTileTool": true
+      },
       {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
       {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
       {"id": "duplicate", "title": "Duplicate", "iconId": "icon-duplicate-tool", "isTileTool": false},
