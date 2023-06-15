@@ -14,6 +14,14 @@
       "table": {
         "numFormat": ".2~f", 
         "tools": ["link-tile","delete"]
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "time",
+          "left": "dist"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true
       }
     },
     "learningLog": {"labels": {"1": "Learning Journal", "n": "Learning Journals"}},
