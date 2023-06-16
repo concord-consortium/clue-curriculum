@@ -47,6 +47,11 @@
         "isTileTool": true
       },
       {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
         "id": "duplicate",
         "title": "Duplicate Tile",
         "iconId": "icon-duplicate-tool",
@@ -71,7 +76,12 @@
         "isTileTool": false
       }
     ],
-    "stamps": []
+    "stamps": [],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    }
   },
   "sections": {
     "introduction": {
