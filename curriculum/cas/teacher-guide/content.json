@@ -4,19 +4,38 @@
   "title": "Comparing and Scaling",
   "subtitle": "Understanding Similarity",
   "placeholderText": "Enter notes here",
-  "settings": {"table": {"numFormat": ".2~f"}},
-  "sections": {
-    "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-    "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-    "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-    "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+  "settings": {
+    "table": {
+      "numFormat": ".2~f"
+    }
   },
-  "defaultStamps": [
-    {"url": "msa/stamps/plus.png", "width": 25, "height": 25},
-    {"url": "msa/stamps/equals.png", "width": 25, "height": 25},
-    {"url": "msa/stamps/lparen.png", "width": 25, "height": 25},
-    {"url": "msa/stamps/rparen.png", "width": 25, "height": 25}
-  ],
+  "sections": {
+    "unitPlan": {
+      "initials": "UP",
+      "title": "Unit Plan",
+      "placeholder": "Work area for\nUnit Plan section"
+    },
+    "overview": {
+      "initials": "OV",
+      "title": "Overview",
+      "placeholder": "Work area for\nOverview section"
+    },
+    "launch": {
+      "initials": "LC",
+      "title": "Launch",
+      "placeholder": "Work area for\nLaunch section"
+    },
+    "explore": {
+      "initials": "EX",
+      "title": "Explore",
+      "placeholder": "Work area for\nExplore section"
+    },
+    "summarize": {
+      "initials": "SM",
+      "title": "Summarize",
+      "placeholder": "Work area for\nSummarize section"
+    }
+  },
   "investigations": [
     {
       "description": "Investigation 1",
@@ -28,21 +47,36 @@
           "ordinal": 1,
           "title": "CAS 1.1 Mixing Juice",
           "subtitle": "Choosing a Comparing Strategy",
-          "sections": ["investigation-1/problem-1/overview/content.json", "investigation-1/problem-1/launch/content.json", "investigation-1/problem-1/explore/content.json", "investigation-1/problem-1/summarize/content.json"]
+          "sections": [
+            "investigation-1/problem-1/launch/content.json",
+            "investigation-1/problem-1/explore/content.json",
+            "investigation-1/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 1.2",
           "ordinal": 2,
           "title": "CAS 1.2 Time to Concentrate",
           "subtitle": "Scaling Ratios",
-          "sections": ["investigation-1/problem-2/overview/content.json", "investigation-1/problem-2/launch/content.json", "investigation-1/problem-2/explore/content.json", "investigation-1/problem-2/summarize/content.json"]
+          "sections": [
+            "investigation-1/problem-2/launch/content.json",
+            "investigation-1/problem-2/explore/content.json",
+            "investigation-1/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 1.3",
           "ordinal": 3,
           "title": "CAS 1.3 Keeping Things in Proportion",
           "subtitle": "Using Proportions",
-          "sections": ["investigation-1/problem-3/overview/content.json", "investigation-1/problem-3/launch/content.json", "investigation-1/problem-3/explore/content.json", "investigation-1/problem-3/summarize/content.json"]
+          "sections": [
+            "investigation-1/problem-3/launch/content.json",
+            "investigation-1/problem-3/explore/content.json",
+            "investigation-1/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         }
       ]
     },
@@ -56,21 +90,36 @@
           "ordinal": 1,
           "title": "CAS 2.1 Sharing Pizzas",
           "subtitle": "Comparing Rate Strategies",
-          "sections": ["investigation-2/problem-1/overview/content.json", "investigation-2/problem-1/launch/content.json", "investigation-2/problem-1/explore/content.json", "investigation-2/problem-1/summarize/content.json"]
+          "sections": [
+            "investigation-2/problem-1/launch/content.json",
+            "investigation-2/problem-1/explore/content.json",
+            "investigation-2/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 2.2",
           "ordinal": 2,
           "title": "CAS 2.2 Comparing Pizza Prices",
           "subtitle": "How Do We Know It Is Proportional?",
-          "sections": ["investigation-2/problem-2/overview/content.json", "investigation-2/problem-2/launch/content.json", "investigation-2/problem-2/explore/content.json", "investigation-2/problem-2/summarize/content.json"]
+          "sections": [
+            "investigation-2/problem-2/launch/content.json",
+            "investigation-2/problem-2/explore/content.json",
+            "investigation-2/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 2.3",
           "ordinal": 3,
           "title": "CAS 2.3 Finding Costs",
           "subtitle": "Unit Rates and the Constant of Proportionality",
-          "sections": ["investigation-2/problem-3/overview/content.json", "investigation-2/problem-3/launch/content.json", "investigation-2/problem-3/explore/content.json", "investigation-2/problem-3/summarize/content.json"]
+          "sections": [
+            "investigation-2/problem-3/launch/content.json",
+            "investigation-2/problem-3/explore/content.json",
+            "investigation-2/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         }
       ]
     },
@@ -84,28 +133,48 @@
           "ordinal": 1,
           "title": "CAS 3.1 Using Percents",
           "subtitle": "What is the Tax?",
-          "sections": ["investigation-3/problem-1/overview/content.json", "investigation-3/problem-1/launch/content.json", "investigation-3/problem-1/explore/content.json", "investigation-3/problem-1/summarize/content.json"]
+          "sections": [
+            "investigation-3/problem-1/launch/content.json",
+            "investigation-3/problem-1/explore/content.json",
+            "investigation-3/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 3.2",
           "ordinal": 2,
           "title": "CAS 3.2 Using Percents",
           "subtitle": "What is the Tip?",
-          "sections": ["investigation-3/problem-2/overview/content.json", "investigation-3/problem-2/launch/content.json", "investigation-3/problem-2/explore/content.json", "investigation-3/problem-2/summarize/content.json"]
+          "sections": [
+            "investigation-3/problem-2/launch/content.json",
+            "investigation-3/problem-2/explore/content.json",
+            "investigation-3/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 3.3",
           "ordinal": 3,
           "title": "CAS 3.3 Free Throws and Feeding Chimps",
           "subtitle": "The Percent Connection",
-          "sections": ["investigation-3/problem-3/overview/content.json", "investigation-3/problem-3/launch/content.json", "investigation-3/problem-3/explore/content.json", "investigation-3/problem-3/summarize/content.json"]
+          "sections": [
+            "investigation-3/problem-3/launch/content.json",
+            "investigation-3/problem-3/explore/content.json",
+            "investigation-3/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         },
         {
           "description": "Problem 3.4",
           "ordinal": 4,
           "title": "CAS 3.4 The Leaky Faucet Experiment",
           "subtitle": "",
-          "sections": ["investigation-3/problem-4/overview/content.json", "investigation-3/problem-4/launch/content.json", "investigation-3/problem-4/explore/content.json", "investigation-3/problem-4/summarize/content.json"]
+          "sections": [
+            "investigation-3/problem-4/launch/content.json",
+            "investigation-3/problem-4/explore/content.json",
+            "investigation-3/problem-4/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         }
       ]
     },
@@ -119,7 +188,12 @@
           "ordinal": 1,
           "title": "Comparing and Scaling Mathematical Reflections",
           "subtitle": "?",
-          "sections": ["investigation-4/problem-1/MathReflection1/content.json", "investigation-4/problem-1/MathReflection2/content.json", "investigation-4/problem-1/MathReflection3/content.json"]
+          "sections": [
+            "investigation-4/problem-1/MathReflection1/content.json",
+            "investigation-4/problem-1/MathReflection2/content.json",
+            "investigation-4/problem-1/MathReflection3/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
+          ]
         }
       ]
     }
