@@ -8,6 +8,74 @@
       "teacher"
     ],
     "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
     "stamps": [],
     "settings": {
       "table": {
@@ -55,12 +123,37 @@
       "initials": "R4",
       "title": "Math Reflection 4",
       "placeholder": "Work area for\nMathematical Reflection 4 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
     }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
+      "unitPlan": {
+        "initials": "UP",
+        "title": "Unit Plan",
+        "placeholder": "Work area for\nUnit Plan section"
+      },
       "overview": {
         "initials": "OV",
         "title": "Overview",

@@ -3,28 +3,124 @@
   "abbrevTitle": "FFPC",
   "title": "Frogs, Fleas, and Painted Cubes",
   "subtitle": "Quadratic Functions and Expressions",
-  "config": {"enableHistoryRoles": ["teacher"], "placeholderText": "Enter notes here", "stamps": [], "settings": {"table": {"numFormat": ".2~f"}}},
+  "config": {
+    "enableHistoryRoles": [
+      "teacher"
+    ],
+    "placeholderText": "Enter notes here",
+    "stamps": [],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    }
+  },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
-    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
-    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
-    "didYouKnow": {"initials": "DY", "title": "Did You Know?", "placeholder": "Work area for\nDid You Know? section"},
-    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
-    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
-    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
-    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "didYouKnow": {
+      "initials": "DY",
+      "title": "Did You Know?",
+      "placeholder": "Work area for\nDid You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "MathReflection4": {
+      "initials": "R4",
+      "title": "Math Reflection 4",
+      "placeholder": "Work area for\nMathematical Reflection 4 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
@@ -38,7 +134,12 @@
           "title": "FFPC 1.1 Staking a Claim",
           "subtitle": "Maximizing Area",
           "disabled": [],
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/initialChallenge/content.json", "investigation-1/problem-1/whatIf/content.json", "investigation-1/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -46,7 +147,12 @@
           "ordinal": 2,
           "title": "FFPC 1.2 Using Graphs and Tables to Make Predictions",
           "subtitle": "",
-          "sections": ["investigation-1/problem-2/introduction/content.json", "investigation-1/problem-2/initialChallenge/content.json", "investigation-1/problem-2/whatIf/content.json", "investigation-1/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -54,7 +160,12 @@
           "ordinal": 3,
           "title": "FFPC 1.3 Using Equations to Make Predictions",
           "subtitle": "",
-          "sections": ["investigation-1/problem-3/introduction/content.json", "investigation-1/problem-3/initialChallenge/content.json", "investigation-1/problem-3/whatIf/content.json", "investigation-1/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         }
       ]
@@ -69,7 +180,12 @@
           "ordinal": 1,
           "title": "FFPC 2.1 Trading Land",
           "subtitle": "Representing Areas of Rectangles",
-          "sections": ["investigation-2/problem-1/introduction/content.json", "investigation-2/problem-1/initialChallenge/content.json", "investigation-2/problem-1/whatIf/content.json", "investigation-2/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -77,7 +193,12 @@
           "ordinal": 2,
           "title": "FFPC 2.2 Changing Dimensions",
           "subtitle": "The Distributive Property and Expressions",
-          "sections": ["investigation-2/problem-2/introduction/content.json", "investigation-2/problem-2/initialChallenge/content.json", "investigation-2/problem-2/whatIf/content.json", "investigation-2/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-2/introduction/content.json",
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -85,7 +206,12 @@
           "ordinal": 3,
           "title": "FFPC 2.3 Factoring Expressions",
           "subtitle": "",
-          "sections": ["investigation-2/problem-3/introduction/content.json", "investigation-2/problem-3/initialChallenge/content.json", "investigation-2/problem-3/whatIf/content.json", "investigation-2/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -93,7 +219,12 @@
           "ordinal": 4,
           "title": "FFPC 2.4 Quadratic Functions and Their Graphs",
           "subtitle": "",
-          "sections": ["investigation-2/problem-4/introduction/content.json", "investigation-2/problem-4/initialChallenge/content.json", "investigation-2/problem-4/whatIf/content.json", "investigation-2/problem-4/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-4/introduction/content.json",
+            "investigation-2/problem-4/initialChallenge/content.json",
+            "investigation-2/problem-4/whatIf/content.json",
+            "investigation-2/problem-4/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         }
       ]
@@ -108,7 +239,12 @@
           "ordinal": 1,
           "title": "FFPC 3.1 Exploring Triangular Numbers",
           "subtitle": "",
-          "sections": ["investigation-3/problem-1/introduction/content.json", "investigation-3/problem-1/initialChallenge/content.json", "investigation-3/problem-1/whatIf/content.json", "investigation-3/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -116,7 +252,12 @@
           "ordinal": 2,
           "title": "FFPC 3.2 Counting Handshakes",
           "subtitle": "Another Quadratic Function?",
-          "sections": ["investigation-3/problem-2/introduction/content.json", "investigation-3/problem-2/initialChallenge/content.json", "investigation-3/problem-2/whatIf/content.json", "investigation-3/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -124,7 +265,12 @@
           "ordinal": 3,
           "title": "FFPC 3.3 Quadratic Functions and Patterns of Change",
           "subtitle": "",
-          "sections": ["investigation-3/problem-3/introduction/content.json", "investigation-3/problem-3/initialChallenge/content.json", "investigation-3/problem-3/whatIf/content.json", "investigation-3/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         }
       ]
@@ -139,7 +285,12 @@
           "ordinal": 1,
           "title": "FFPC 4.1 Tracking a Ball",
           "subtitle": "Interpreting a Table and Graph",
-          "sections": ["investigation-4/problem-1/introduction/content.json", "investigation-4/problem-1/initialChallenge/content.json", "investigation-4/problem-1/whatIf/content.json", "investigation-4/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-1/introduction/content.json",
+            "investigation-4/problem-1/initialChallenge/content.json",
+            "investigation-4/problem-1/whatIf/content.json",
+            "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -147,7 +298,12 @@
           "ordinal": 2,
           "title": "FFPC 4.2 Painted Cubes",
           "subtitle": "Looking at Several Functions",
-          "sections": ["investigation-4/problem-2/introduction/content.json", "investigation-4/problem-2/initialChallenge/content.json", "investigation-4/problem-2/whatIf/content.json", "investigation-4/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-2/introduction/content.json",
+            "investigation-4/problem-2/initialChallenge/content.json",
+            "investigation-4/problem-2/whatIf/content.json",
+            "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -155,7 +311,12 @@
           "ordinal": 3,
           "title": "FFPC 4.3 Putting It All Together",
           "subtitle": "",
-          "sections": ["investigation-4/problem-3/introduction/content.json", "investigation-4/problem-3/initialChallenge/content.json", "investigation-4/problem-3/whatIf/content.json", "investigation-4/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-3/introduction/content.json",
+            "investigation-4/problem-3/initialChallenge/content.json",
+            "investigation-4/problem-3/whatIf/content.json",
+            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         }
       ]
@@ -170,7 +331,12 @@
           "ordinal": 1,
           "title": "How Likely Is It? Mathematical Reflections",
           "subtitle": "",
-          "sections": ["investigation-5/problem-1/MathReflection1/content.json", "investigation-5/problem-1/MathReflection2/content.json", "investigation-5/problem-1/MathReflection3/content.json", "investigation-5/problem-1/MathReflection4/content.json"]
+          "sections": [
+            "investigation-5/problem-1/MathReflection1/content.json",
+            "investigation-5/problem-1/MathReflection2/content.json",
+            "investigation-5/problem-1/MathReflection3/content.json",
+            "investigation-5/problem-1/MathReflection4/content.json"
+          ]
         }
       ],
       "supports": []
