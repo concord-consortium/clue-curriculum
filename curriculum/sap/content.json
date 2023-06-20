@@ -8,6 +8,74 @@
       "teacher"
     ],
     "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
     "stamps": [],
     "settings": {
       "table": {
@@ -283,6 +351,24 @@
             "investigation-4/problem-1/initialChallenge/content.json",
             "investigation-4/problem-1/whatIf/content.json",
             "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "SAP ACE Question Bank",
+      "ordinal": 5,
+      "title": "SAP ACE 1 - ACE 4",
+      "problems": [
+        {
+          "description": "SAP ACE Question Banks",
+          "ordinal": 1,
+          "title": "SAP ACE Question Banks",
+          "subtitle": "",
+          "sections": [
+            "investigation-5/problem-1/ACE1/content.json",
+            "investigation-5/problem-1/ACE2/content.json",
+            "investigation-5/problem-1/ACE3/content.json"
           ]
         }
       ]
