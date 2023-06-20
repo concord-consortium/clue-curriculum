@@ -154,6 +154,11 @@
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
+      "unitPlan": {
+        "initials": "UP",
+        "title": "Unit Plan",
+        "placeholder": "Work area for\nUnit Plan section"
+      },
       "overview": {
         "initials": "OV",
         "title": "Overview",
@@ -176,6 +181,9 @@
       }
     },
     "sections": [
+      {
+        "type": "unitPlan"
+      }
       {
         "type": "overview"
       },
@@ -207,8 +215,7 @@
             "investigation-1/problem-1/initialChallenge/content.json",
             "investigation-1/problem-1/whatIf/content.json",
             "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 1.2",
@@ -220,8 +227,7 @@
             "investigation-1/problem-2/initialChallenge/content.json",
             "investigation-1/problem-2/whatIf/content.json",
             "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 1.3",
@@ -233,8 +239,7 @@
             "investigation-1/problem-3/initialChallenge/content.json",
             "investigation-1/problem-3/whatIf/content.json",
             "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ] 
         }
       ]
     },
@@ -253,8 +258,7 @@
             "investigation-2/problem-1/initialChallenge/content.json",
             "investigation-2/problem-1/whatIf/content.json",
             "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 2.2",
@@ -266,16 +270,19 @@
             "investigation-2/problem-2/initialChallenge/content.json",
             "investigation-2/problem-2/whatIf/content.json",
             "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 2.3",
           "ordinal": 3,
           "title": "CR 2.3 Profit or Loss",
           "subtitle": "The +/- Connection",
-          "sections": [],
-          "supports": []
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ]
         }
       ]
     },
@@ -294,8 +301,7 @@
             "investigation-3/problem-1/initialChallenge/content.json",
             "investigation-3/problem-1/whatIf/content.json",
             "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 3.2",
@@ -307,8 +313,7 @@
             "investigation-3/problem-2/initialChallenge/content.json",
             "investigation-3/problem-2/whatIf/content.json",
             "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 3.3",
@@ -319,21 +324,19 @@
             "investigation-3/problem-3/initialChallenge/content.json",
             "investigation-3/problem-3/whatIf/content.json",
             "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
-          "description": "Problem 3.3",
+          "description": "Problem 3.4",
           "ordinal": 4,
-          "title": "CR 3.3 The Integer Product Game",
+          "title": "CR 3.4 The Integer Product Game",
           "subtitle": "Applying Multiplication and Division",
           "sections": [
             "investigation-3/problem-4/introduction/content.json",
             "investigation-3/problem-4/initialChallenge/content.json",
             "investigation-3/problem-4/whatIf/content.json",
             "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         }
       ]
     },
@@ -352,8 +355,7 @@
             "investigation-4/problem-1/initialChallenge/content.json",
             "investigation-4/problem-1/whatIf/content.json",
             "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 4.2",
@@ -365,16 +367,14 @@
             "investigation-4/problem-2/initialChallenge/content.json",
             "investigation-4/problem-2/whatIf/content.json",
             "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 4.3",
           "ordinal": 3,
           "title": "CR 4.3 Water In and Out",
           "subtitle": "Rational Numbers to the Rescue",
-          "sections": [],
-          "supports": []
+          "sections": []
         }
       ]
     },
@@ -395,9 +395,26 @@
             "investigation-5/problem-1/MathReflection4/content.json"
           ]
         }
-      ],
-      "supports": []
+      ]
+    },
+    {
+      "description": "CR ACE Question Bank",
+      "ordinal": 6,
+      "title": "CR ACE 1 - ACE 4",
+      "problems": [
+        {
+          "description": "CR ACE Question Banks",
+          "ordinal": 1,
+          "title": "CR ACE Question Banks",
+          "subtitle": "",
+          "sections": [
+            "investigation-6/problem-1/ACE1/content.json",
+            "investigation-6/problem-1/ACE2/content.json",
+            "investigation-6/problem-1/ACE3/content.json",
+            "investigation-6/problem-1/ACE4/content.json"
+          ]
+        }
+      ]
     }
-  ],
-  "supports": []
+  ]
 }
