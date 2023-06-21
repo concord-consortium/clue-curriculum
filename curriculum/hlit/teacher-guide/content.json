@@ -1,22 +1,41 @@
 {
   "code": "hlit",
   "abbrevTitle": "HLIT",
-  "title": "How Likely Is It? Teacher Guide",
+  "title": "Teacher Guide: How Likely Is It?",
   "subtitle": "",
   "placeholderText": "Enter notes here",
-  "settings": {"table": {"numFormat": ".2~f"}},
-  "sections": {
-    "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-    "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-    "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-    "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+  "settings": {
+    "table": {
+      "numFormat": ".2~f"
+    }
   },
-  "defaultStamps": [
-    {"url": "msa/stamps/plus.png", "width": 25, "height": 25},
-    {"url": "msa/stamps/equals.png", "width": 25, "height": 25},
-    {"url": "msa/stamps/lparen.png", "width": 25, "height": 25},
-    {"url": "msa/stamps/rparen.png", "width": 25, "height": 25}
-  ],
+  "sections": {
+    "unitPlan": {
+      "initials": "UP",
+      "title": "Unit Plan",
+      "placeholder": "Work area for\nUnit Plan section"
+    },
+    "overview": {
+      "initials": "OV",
+      "title": "Overview",
+      "placeholder": "Work area for\nOverview section"
+    },
+    "launch": {
+      "initials": "LC",
+      "title": "Launch",
+      "placeholder": "Work area for\nLaunch section"
+    },
+    "explore": {
+      "initials": "EX",
+      "title": "Explore",
+      "placeholder": "Work area for\nExplore section"
+    },
+    "summarize": {
+      "initials": "SM",
+      "title": "Summarize",
+      "placeholder": "Work area for\nSummarize section"
+    }
+  },
   "investigations": [
     {
       "description": "Investigation 1",
@@ -30,10 +49,10 @@
           "subtitle": "Tossing Coins and Cups to Find Probability",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/overview/content.json",
             "investigation-1/problem-1/launch/content.json",
             "investigation-1/problem-1/explore/content.json",
-            "investigation-1/problem-1/summarize/content.json"
+            "investigation-1/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -42,10 +61,10 @@
           "title": "HL 1.2 Match, No Match",
           "subtitle": "Finding Experimental Probabilities",
           "sections": [
-            "investigation-1/problem-2/overview/content.json",
             "investigation-1/problem-2/launch/content.json",
             "investigation-1/problem-2/explore/content.json",
-            "investigation-1/problem-2/summarize/content.json"
+            "investigation-1/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -54,10 +73,10 @@
           "title": "HL 1.3 Analyzing Events",
           "subtitle": "Equally Likely",
           "sections": [
-            "investigation-1/problem-3/overview/content.json",
             "investigation-1/problem-3/launch/content.json",
             "investigation-1/problem-3/explore/content.json",
-            "investigation-1/problem-3/summarize/content.json"
+            "investigation-1/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         }
       ]
@@ -73,10 +92,10 @@
           "title": "HL 2.1 Gee Whiz Everyone Wins",
           "subtitle": "Finding Theoretical Probabilities",
           "sections": [
-            "investigation-2/problem-1/overview/content.json",
             "investigation-2/problem-1/launch/content.json",
             "investigation-2/problem-1/explore/content.json",
-            "investigation-2/problem-1/summarize/content.json"
+            "investigation-2/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -85,10 +104,10 @@
           "title": "HL 2.2 Designing a Fair Game",
           "subtitle": "Pondering Possible and Probable",
           "sections": [
-            "investigation-2/problem-2/overview/content.json",
             "investigation-2/problem-2/launch/content.json",
             "investigation-2/problem-2/explore/content.json",
-            "investigation-2/problem-2/summarize/content.json"
+            "investigation-2/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -97,10 +116,10 @@
           "title": "HL 2.3 Designing a Spinner to find Probabilities",
           "subtitle": "",
           "sections": [
-            "investigation-2/problem-3/overview/content.json",
             "investigation-2/problem-3/launch/content.json",
             "investigation-2/problem-3/explore/content.json",
-            "investigation-2/problem-3/summarize/content.json"
+            "investigation-2/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         }
       ]
@@ -116,10 +135,10 @@
           "title": "HL 3.1 Making Decisions: Analyzing Fairness",
           "subtitle": "",
           "sections": [
-            "investigation-3/problem-1/overview/content.json",
             "investigation-3/problem-1/launch/content.json",
             "investigation-3/problem-1/explore/content.json",
-            "investigation-3/problem-1/summarize/content.json"
+            "investigation-3/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -128,10 +147,10 @@
           "title": "HL 3.2 Roller Derby: Analyzing a Game",
           "subtitle": "",
           "sections": [
-            "investigation-3/problem-2/overview/content.json",
             "investigation-3/problem-2/launch/content.json",
             "investigation-3/problem-2/explore/content.json",
-            "investigation-3/problem-2/summarize/content.json"
+            "investigation-3/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -140,10 +159,10 @@
           "title": "HL 3.3 Scratching Spots",
           "subtitle": "Designing and Using a Simulation",
           "sections": [
-            "investigation-3/problem-3/overview/content.json",
             "investigation-3/problem-3/launch/content.json",
             "investigation-3/problem-3/explore/content.json",
-            "investigation-3/problem-3/summarize/content.json"
+            "investigation-3/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         }
       ]
@@ -159,10 +178,10 @@
           "title": "HL 4.1 Making Purple Game",
           "subtitle": "Using Area Models to Find Sample Spaces",
           "sections": [
-            "investigation-4/problem-1/overview/content.json",
             "investigation-4/problem-1/launch/content.json",
             "investigation-4/problem-1/explore/content.json",
-            "investigation-4/problem-1/summarize/content.json"
+            "investigation-4/problem-1/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -171,10 +190,10 @@
           "title": "HL 4.2 One-and-One Free Throw",
           "subtitle": "Simulating a Probability Situation",
           "sections": [
-            "investigation-4/problem-2/overview/content.json",
             "investigation-4/problem-2/launch/content.json",
             "investigation-4/problem-2/explore/content.json",
-            "investigation-4/problem-2/summarize/content.json"
+            "investigation-4/problem-2/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -183,10 +202,10 @@
           "title": "HL 4.3 Finding Long-term Averages",
           "subtitle": "",
           "sections": [
-            "investigation-4/problem-3/overview/content.json",
             "investigation-4/problem-3/launch/content.json",
             "investigation-4/problem-3/explore/content.json",
-            "investigation-4/problem-3/summarize/content.json"
+            "investigation-4/problem-3/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         },
         {
@@ -195,10 +214,10 @@
           "title": "HL 4.4 Binomial Situations",
           "subtitle": "",
           "sections": [
-            "investigation-4/problem-4/overview/content.json",
             "investigation-4/problem-4/launch/content.json",
             "investigation-4/problem-4/explore/content.json",
-            "investigation-4/problem-4/summarize/content.json"
+            "investigation-4/problem-4/summarize/content.json",
+            "investigation-1/problem-1/unitPlan/content.json"
           ]
         }
       ]

@@ -8,28 +8,80 @@
       "teacher"
     ],
     "placeholderText": "Enter notes here",
-    "stamps": [
+    "toolbar": [
       {
-        "url": "msa/stamps/plus.png",
-        "width": 25,
-        "height": 25
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
       },
       {
-        "url": "msa/stamps/equals.png",
-        "width": 25,
-        "height": 25
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
       },
       {
-        "url": "msa/stamps/lparen.png",
-        "width": 25,
-        "height": 25
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
       },
       {
-        "url": "msa/stamps/rparen.png",
-        "width": 25,
-        "height": 25
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
       }
-    ]
+    ],
+    "stamps": [],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    }
   },
   "sections": {
     "introduction": {
@@ -727,8 +779,7 @@
           "ordinal": 1,
           "title": "SAS 2.1 Drawing Wumps",
           "subtitle": "Making Similar Figures",
-          "disabled": [
-            "GeometryLinkedTables"
+          "disabled": [ 
           ],
           "sections": [
             "investigation-2/problem-1/introduction/content.json",
@@ -2364,7 +2415,7 @@
     {
       "description": "SAS ACE Question Bank",
       "ordinal": 6,
-      "title": "SAS ACE1 - ACE3",
+      "title": "SAS ACE 1 - ACE 4",
       "problems": [
         {
           "description": "SAS ACE Question Banks",
