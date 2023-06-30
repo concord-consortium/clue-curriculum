@@ -3,41 +3,208 @@
   "abbrevTitle": "TWMM",
   "title": "Thinking with Mathematical Models",
   "subtitle": "Linear Functions and Bivariate Data",
-  "config": {"enableHistoryRoles": ["teacher"], "placeholderText": "Enter notes here", "settings": {"table": {"numFormat": ".2~f"}}},
+  "config": {
+    "enableHistoryRoles": [
+      "teacher"
+    ],
+    "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "stamps": [],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    }
+  },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
-    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
-    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
-    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
-    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
-    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
-    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "MathReflection4": {
+      "initials": "R4",
+      "title": "Math Reflection 4",
+      "placeholder": "Work area for\nMathematical Reflection 4 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
       "description": "Investigation 1",
       "ordinal": 1,
       "title": "TWMM Investigation 1 Exploring Data Patterns in Building Bridges",
-      "introduction": {"tiles": []},
+      "introduction": {
+        "tiles": []
+      },
       "problems": [
         {
           "description": "Problem 1.1",
           "ordinal": 1,
           "title": "TWMM 1.1 Bridge Thickness and Strength",
           "subtitle": "",
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/initialChallenge/content.json", "investigation-1/problem-1/whatIf/content.json", "investigation-1/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -45,7 +212,12 @@
           "ordinal": 2,
           "title": "TWMM 1.2 Bridge Length and Strength",
           "subtitle": "",
-          "sections": ["investigation-1/problem-2/introduction/content.json", "investigation-1/problem-2/initialChallenge/content.json", "investigation-1/problem-2/whatIf/content.json", "investigation-1/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -53,7 +225,12 @@
           "ordinal": 3,
           "title": "TWMM 1.3 Custom Construction Parts: More Patterns",
           "subtitle": "",
-          "sections": ["investigation-1/problem-3/introduction/content.json", "investigation-1/problem-3/initialChallenge/content.json", "investigation-1/problem-3/whatIf/content.json", "investigation-1/problem-3/nowWhatDoYouKnow/content.json"]
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ]
         }
       ],
       "supports": []
@@ -70,7 +247,12 @@
           "title": "TWMM 2.1 Tree Top Fun",
           "subtitle": "Equations for Linear Functions",
           "disabled": [],
-          "sections": ["investigation-2/problem-1/introduction/content.json", "investigation-2/problem-1/initialChallenge/content.json", "investigation-2/problem-1/whatIf/content.json", "investigation-2/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -78,7 +260,12 @@
           "ordinal": 2,
           "title": "TWMM 2.2 Boat Rental",
           "subtitle": "Solving Linear Equations",
-          "sections": ["investigation-2/problem-2/introduction/content.json", "investigation-2/problem-2/initialChallenge/content.json", "investigation-2/problem-2/whatIf/content.json", "investigation-2/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-2/introduction/content.json",
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -86,7 +273,12 @@
           "ordinal": 3,
           "title": "TWMM 2.3 Up and Down the Staircase Again",
           "subtitle": "Exploring Slope",
-          "sections": ["investigation-2/problem-3/introduction/content.json", "investigation-2/problem-3/initialChallenge/content.json", "investigation-2/problem-3/whatIf/content.json", "investigation-2/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -94,7 +286,12 @@
           "ordinal": 4,
           "title": "TWMM 2.4 Exploring Patterns with Lines",
           "subtitle": "",
-          "sections": ["investigation-2/problem-4/introduction/content.json", "investigation-2/problem-4/initialChallenge/content.json", "investigation-2/problem-4/whatIf/content.json", "investigation-2/problem-4/nowWhatDoYouKnow/content.json"]
+          "sections": [
+            "investigation-2/problem-4/introduction/content.json",
+            "investigation-2/problem-4/initialChallenge/content.json",
+            "investigation-2/problem-4/whatIf/content.json",
+            "investigation-2/problem-4/nowWhatDoYouKnow/content.json"
+          ]
         }
       ],
       "supports": []
@@ -109,7 +306,12 @@
           "ordinal": 1,
           "title": "TWMM 3.1 Rectangles with Fixed Area",
           "subtitle": "",
-          "sections": ["investigation-3/problem-1/introduction/content.json", "investigation-3/problem-1/initialChallenge/content.json", "investigation-3/problem-1/whatIf/content.json", "investigation-3/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -117,7 +319,12 @@
           "ordinal": 2,
           "title": "TWMM 3.2 Distance, Speed, and Time",
           "subtitle": "",
-          "sections": ["investigation-3/problem-2/introduction/content.json", "investigation-3/problem-2/initialChallenge/content.json", "investigation-3/problem-2/whatIf/content.json", "investigation-3/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "supports": []
         },
         {
@@ -125,7 +332,12 @@
           "ordinal": 3,
           "title": "TWMM 3.3 Planning a Field Trip",
           "subtitle": "Finding Individual Costs",
-          "sections": ["investigation-3/problem-3/introduction/content.json", "investigation-3/problem-3/initialChallenge/content.json", "investigation-3/problem-3/whatIf/content.json", "investigation-3/problem-3/nowWhatDoYouKnow/content.json"]
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ]
         }
       ],
       "supports": []
@@ -135,10 +347,36 @@
       "ordinal": 4,
       "title": "TWMM Investigation 4 Variability in Numerical and Categorical Data",
       "problems": [
-        {"description": "Problem 4.1", "ordinal": 1, "title": "TWMM 4.1 Lines of Best Fit", "subtitle": "", "sections": [], "supports": []},
-        {"description": "Problem 4.2", "ordinal": 2, "title": "TWMM 4.2Wood or Steel? Relationships in Categorical Data", "subtitle": "", "sections": [], "supports": []},
-        {"description": "Problem 4.3", "ordinal": 3, "title": "TWMM 4.3 After-School Sports and Band Enrollments", "subtitle": "Working Backwards: Setting up a Two-way Table", "sections": []},
-        {"description": "Problem 4.4", "ordinal": 3, "title": "TWMM 4.4 Linear, Bivariate, and Categorical Data", "subtitle": "", "sections": []}
+        {
+          "description": "Problem 4.1",
+          "ordinal": 1,
+          "title": "TWMM 4.1 Lines of Best Fit",
+          "subtitle": "",
+          "sections": [],
+          "supports": []
+        },
+        {
+          "description": "Problem 4.2",
+          "ordinal": 2,
+          "title": "TWMM 4.2Wood or Steel? Relationships in Categorical Data",
+          "subtitle": "",
+          "sections": [],
+          "supports": []
+        },
+        {
+          "description": "Problem 4.3",
+          "ordinal": 3,
+          "title": "TWMM 4.3 After-School Sports and Band Enrollments",
+          "subtitle": "Working Backwards: Setting up a Two-way Table",
+          "sections": []
+        },
+        {
+          "description": "Problem 4.4",
+          "ordinal": 3,
+          "title": "TWMM 4.4 Linear, Bivariate, and Categorical Data",
+          "subtitle": "",
+          "sections": []
+        }
       ],
       "supports": []
     },
@@ -152,7 +390,11 @@
           "ordinal": 1,
           "title": "Thinking with Math Models Mathematical Reflections",
           "subtitle": "",
-          "sections": ["investigation-5/problem-1/MathReflection1/content.json", "investigation-5/problem-1/MathReflection2/content.json", "investigation-5/problem-1/MathReflection3/content.json"]
+          "sections": [
+            "investigation-5/problem-1/MathReflection1/content.json",
+            "investigation-5/problem-1/MathReflection2/content.json",
+            "investigation-5/problem-1/MathReflection3/content.json"
+          ]
         }
       ],
       "supports": []

@@ -18,7 +18,15 @@
       }
     ],
     "tiles": [
-      {"content": {"type": "Text", "text": "My plain text on the right 2"}},
+      {"content": {"type": "Text", "text": "My plain text on the left"}},
+      {
+        "id": "abc123",
+        "title": "Area",
+        "content": {
+          "type": "Expression",
+          "latexStr": "a=\\pi r^2"
+        }
+      },
       {"id": "table-1", "title": "Table in Section", "content": {"type": "Table", "name": "Table in Section"}},
       {
         "id": "graph-1",
