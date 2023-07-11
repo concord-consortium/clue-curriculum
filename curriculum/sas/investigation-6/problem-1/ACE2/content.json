@@ -105,6 +105,7 @@
       {
         "id": "cz0Q2gHQb27MR8tE",
         "title": "Mug",
+        "display": "teacher",
         "content": {
           "type": "Geometry",
           "board": {
@@ -248,6 +249,7 @@
       {
         "id": "i6KxS_Xa3WHeBtA2",
         "title": "Glum",
+        "display": "teacher",
         "content": {
           "type": "Geometry",
           "board": {
@@ -391,6 +393,7 @@
       {
         "id": "axHmtBBG3GMam2X3",
         "title": "Sum",
+        "display": "teacher",
         "content": {
           "type": "Geometry",
           "board": {
@@ -537,6 +540,7 @@
       {
         "id": "rko4Z4LLn6RXiH4u",
         "title": "Tum",
+        "display": "teacher",
         "content": {
           "type": "Geometry",
           "board": {
@@ -683,6 +687,7 @@
       {
         "id": "3gUmnK97JbaRVtyi",
         "title": "Crum",
+        "display": "teacher",
         "content": {
           "type": "Geometry",
           "board": {
@@ -1009,6 +1014,7 @@
       {
         "id": "_8sVgZ7Xh9loJQ7o",
         "title": "Text 23",
+        "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
@@ -2184,17 +2190,36 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(a) On grid paper, draw triangle ABC with vertex coordinates A(0,2), B(6,2), C(4,4) </li></ul>"
+            "<ul><li>(a) On graph, draw triangle ABC with vertex coordinates A(0,2), B(6,2), C(4,4) </li></ul>"
           ]
         }
       },
       {
-        "id": "yja57V7YrTM49n9Y",
-        "title": "Grid paper with ruler",
+        "id": "6rE1OsslaZYQm0mA",
+        "title": "Graph for ACE 2-4",
         "content": {
-          "type": "Image",
-          "url": "sas/images/grid-paper-with-ruler.png",
-          "filename": "sas/images/grid-paper-with-ruler.png"
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -2,
+                -1
+              ],
+              "axisRange": [
+                26.23,
+                17.486
+              ],
+              "axisNames": [
+                "x",
+                "y"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": []
         }
       },
       {
@@ -2211,7 +2236,7 @@
       },
       {
         "id": "rOh1LBVm9rjabJBr",
-        "title": "Three triangles",
+        "title": "Three triangles for ACE 2-4",
         "display": "teacher",
         "content": {
           "type": "Image",
@@ -2481,6 +2506,180 @@
           "filename": "sas/images/square-figure-and-triangle-figure.png"
         }
       },
+      [
+        {
+          "id": "o65oUcX_pRONR50Q",
+          "title": "Rectangle for ACE 2-6",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  0.9911474722501769,
+                  1.005280191119815
+                ],
+                "properties": {
+                  "id": "40heKh4kvDCc5yyE",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.0089507878909165,
+                  0.9718727584210569
+                ],
+                "properties": {
+                  "id": "f3XAjQdXhqTgiNMS",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.030079584947537,
+                  4.960019556142706
+                ],
+                "properties": {
+                  "id": "DNbAbMcleh09L2BJ",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  1.0094269363493278,
+                  5.042943420951661
+                ],
+                "properties": {
+                  "id": "hRu6WScTvXm_bPK3",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "40heKh4kvDCc5yyE",
+                  "f3XAjQdXhqTgiNMS",
+                  "DNbAbMcleh09L2BJ",
+                  "hRu6WScTvXm_bPK3"
+                ],
+                "properties": {
+                  "id": "EJh3zr8ozn-DFRca"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "0qjLfURBwYMtuj8y",
+          "title": "Triangle for ACE 2-6",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  5.022642508985462,
+                  3.976072876373642
+                ],
+                "properties": {
+                  "id": "R619bGo0WNcIjNmd",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  9,
+                  4
+                ],
+                "properties": {
+                  "id": "DqJYg55Wod-GcnsB",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  8.007685172435352,
+                  9.985657548533364
+                ],
+                "properties": {
+                  "id": "Rom_ort5gHq5gW8M",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "R619bGo0WNcIjNmd",
+                  "DqJYg55Wod-GcnsB",
+                  "Rom_ort5gHq5gW8M"
+                ],
+                "properties": {
+                  "id": "xP41otKICT6BXFa5"
+                }
+              }
+            ]
+          }
+        }
+      ],
       {
         "id": "UDA5YI9_fc4ZxwwZ",
         "title": "Text 45",
@@ -2967,7 +3166,7 @@
       },
       {
         "id": "xk0vlD16NTXdF5Oq",
-        "title": "Polygons TUVWXYZ",
+        "title": "Polygons T, U, V, W, X, Y, Z",
         "content": {
           "type": "Image",
           "url": "sas/images/polygons-tuvwxyz.png",
