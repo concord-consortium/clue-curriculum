@@ -1,1 +1,167 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "SH2muV_utMmZe6ZR",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The best way to discover what is so special about quadrilaterals in construction is to build several models and explore the relationship among the side lengths. Use polystrips to make and study several quadrilaterals. </p>"
+          ]
+        }
+      },
+      {
+        "id": "CJayPmdwG40vA_y-",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Make a prediction </strong></p><ul><li>Will any four side lengths make a quadrilateral?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "8FV9KY1wrFBsuOBM",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Student predictions will vary based on their past experiences. </p>"
+          ]
+        }
+      },
+      {
+        "id": "cBGhZJ8CncN7JTxZ",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Conduct the experiment</strong></p><p>Equipment </p><ul><li>Polystrips and fastenerns</li></ul><p>Directions </p><ul><li>Choose any four numbers between 2 and 20 for side lengths. Use them as side lengths to build a quadrilateral. </li><li>If you can build a quadrilateral, try to build a different quadrilateral with the same side lengths.</li><li>Record the data in a table similar to the one below.</li><li>Make and study several other quadrilaterals. </li></ul><p><strong></strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "j6CxQNRD3aIIU0Nq",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "_PRgCtn3Pf2urAmu": 115.94338989257812,
+            "wjpP91aoxvBBAYWT": 137.91122436523438,
+            "-druVdDz7lQxeMED": 80,
+            "iQTBqypetZ4yu-1q": 218.4794921875
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "Mr2Gg89HT8BC90jw",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Analyze the data </strong></p><ul><li>What pattern do you see that explains why some sets of numbers make a quadrilateral and some do now? Does this agree with your prediction? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "pJ8L4vMGBvEUtiVc",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To construct a quadrilateral from four given side lengths, the sum of the three shortest side lengths must be greater than the longest side length. </p><p>When it is possible to make one quadrilateral from four side lengths, it is possible to make many different shapes from the same side lengths.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "cVuNsgIAkICfCF4d",
+          "providerId": "j6CxQNRD3aIIU0Nq",
+          "dataSet": {
+            "id": "3gqBgZTGNc_7Yibf",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "_PRgCtn3Pf2urAmu",
+                "clientKey": "",
+                "name": "Side Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "wjpP91aoxvBBAYWT",
+                "clientKey": "",
+                "name": "Quadrilateral Possible?",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "-druVdDz7lQxeMED",
+                "clientKey": "",
+                "name": "Sketch",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "iQTBqypetZ4yu-1q",
+                "clientKey": "",
+                "name": "Different Quadrilateral Possible?",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "1V4CGmSfAJoHjGfs"
+              },
+              {
+                "__id__": "98GlKxdkURUTTSju"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "j6CxQNRD3aIIU0Nq"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
