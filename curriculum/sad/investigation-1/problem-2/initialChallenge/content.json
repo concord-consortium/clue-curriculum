@@ -165,6 +165,43 @@
             "<p>Special quadrilaterals can be made with the following combination of side lengths.</p><p>All four side lengths are equivalent: rhombus and square (if the angles are 90˚).</p><p>Three side lengths are equivalent: a special type of isosceles trapezoid.</p><p>Two side lengths are equivalent, or one pair of side lengths is equivalent: isosceles trapezoid (if the opposites sides are equal length).</p><p>Two pairs of side lengths are equivalent: parallelograms (if the opposites sides are equal length), rectangles (if the opposites sides are equal length and angles are 90˚), kites (if adjacent sides are equal length).</p>"
           ]
         }
+      },
+      {
+        "id": "ncuPzvMM7cEEFSHU",
+        "title": "Text 12",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Test your conjectures on the following side lengths. Which ones form a quadrilateral? Are any of these squares? Rectangles? Parallelograms? Explain why.</li><ul><li>Shape 1: 6, 10, 15, 15 </li><li>Shape 2: 3, 5, 10, 20</li><li>Shape 3: 8, 8, 10, 10</li><li>Shape 4: 12, 20, 6, 9</li></ul></ul>"
+          ]
+        }
+      },
+      {
+        "id": "5ob5E79VwvOXbYj9",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "IOG8c-yT7QQyTkfW": 108.26953125,
+            "ch8jf3hQnfz7-Gep": 131.078125,
+            "Gn75PQE_MpQqE6dR": 80,
+            "sv8ILy0ioRHoW1vA": 230.49609375
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "q9SLAd_gw4hh3L_0",
+        "title": "Text 13",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>None of the given side length combinations can be used to form a square, because a square requires all side lengths to be equal and the angles to be 90˚.</p>"
+          ]
+        }
       }
     ],
     "sharedModels": [
@@ -242,6 +279,89 @@
         },
         "tiles": [
           "Sxexqt1TibO069Hb"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "My1sIeTCVNwDY3Nd",
+          "providerId": "5ob5E79VwvOXbYj9",
+          "dataSet": {
+            "id": "BBy9iUYQQMO2g-jk",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "IOG8c-yT7QQyTkfW",
+                "clientKey": "",
+                "name": "Side Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "6 - 10 - 15 -15 ",
+                  "3 - 5 - 10 - 20",
+                  "8 - 8 - 10 - 20 "
+                ],
+                "title": ""
+              },
+              {
+                "id": "ch8jf3hQnfz7-Gep",
+                "clientKey": "",
+                "name": "Quadrilateral?",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Yes",
+                  "No",
+                  "Yes "
+                ],
+                "title": ""
+              },
+              {
+                "id": "Gn75PQE_MpQqE6dR",
+                "clientKey": "",
+                "name": "Sketch",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "sv8ILy0ioRHoW1vA",
+                "clientKey": "",
+                "name": "Different Quadrilateral Possible?",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "FoZXItZ8XUh-YMQl"
+              },
+              {
+                "__id__": "EKzxJ9K1gEAtgG-p"
+              },
+              {
+                "__id__": "kKA0e_VNVapmrfJi"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "5ob5E79VwvOXbYj9"
         ]
       }
     ]
