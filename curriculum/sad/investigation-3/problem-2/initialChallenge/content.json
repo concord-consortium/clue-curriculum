@@ -1,1 +1,216 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "0ALVHVRR9ocf2El9",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Devon used the shapes from Problem 3.1. He suggested starting with a triangle. </p>"
+          ]
+        }
+      },
+      {
+        "id": "IMt8Hnikudqh3GWp",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Devon’s Strategy</strong></p><p><strong>The Sum of the Angles of a Triangle</strong></p><p>I began by drawing irregular triangles. I tore the corners off the triangle and then rearranged them. The angles form a straight line or a straight angle. The sum of the angles of triangle are 180º. </p>"
+          ]
+        }
+      },
+      {
+        "id": "ynEg7l0aChO4cVIy",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/picture64.png",
+          "filename": "sad/images/picture64.png"
+        }
+      },
+      {
+        "id": "Rq4weEewmGUMZP9t",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Make a prediction </strong></p><ul><li>Does Devon&#x27;s strategy make sense? Will it work on other triangles? Other polygons. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "UYORis7Eoec2LJAw",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary based on students&#x27; prior experiences. </p>"
+          ]
+        }
+      },
+      {
+        "id": "Fvlo0kVo_fKrx_aR",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Conduct an experiment </strong></p><p>Equipment </p><ul><li>A copy of the shapes from Problem 3.1. </li></ul><p>Directions (individually, with a partner, or small group)</p><ul><li>Tear off each angle and rearrange them around a point</li><li>Record the following information in a table. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "MB9iF3C-xud30dxP",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Wbl2S-YXJaFkxa5w": 104.38671875,
+            "oMjtHTvfJOMg5qsE": 187.9921875,
+            "fPH1WCuSNMu0GL48": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "xep0Ym-jU4DF_hbl",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Analyze the data</strong></p><p>•What patterns do you observe in the table? Does it agree with your prediction?</p>"
+          ]
+        }
+      },
+      {
+        "id": "7Zwp8NVit1lAUOJ1",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>As you increase the number of sides by one, the angle sum increases by 180. Looking at this pattern in the table, we can see that (n – 2)180 = angle sum.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "TGigM2R6j-ZVv4zI",
+          "providerId": "MB9iF3C-xud30dxP",
+          "dataSet": {
+            "id": "ZpTiZFETe3P-kXk5",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "Wbl2S-YXJaFkxa5w",
+                "clientKey": "",
+                "name": "Polygon",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Triangle",
+                  "Square",
+                  "Pentagon",
+                  "Hexagon",
+                  "Heptagon",
+                  "Octagon",
+                  "Nonagon",
+                  "Decagon",
+                  "n-gon"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oMjtHTvfJOMg5qsE",
+                "clientKey": "",
+                "name": "Number of Sides (n)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "fPH1WCuSNMu0GL48",
+                "clientKey": "",
+                "name": "Angle sum (S)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "4FQUCCm_P4IIXZZR"
+              },
+              {
+                "__id__": "W0QXQXhmWfnjfrZg"
+              },
+              {
+                "__id__": "CeBT7oGrNPrlPmq6"
+              },
+              {
+                "__id__": "WqJdcPhLx2e1jz3B"
+              },
+              {
+                "__id__": "wBgu6bUGWMNyW0sO"
+              },
+              {
+                "__id__": "pLb07Rka0iZW83Zf"
+              },
+              {
+                "__id__": "FFJpsd_k--MCVt24"
+              },
+              {
+                "__id__": "l2pTAo3FOoD9meC1"
+              },
+              {
+                "__id__": "oUrrbVTarG1_3wdS"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "MB9iF3C-xud30dxP"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
