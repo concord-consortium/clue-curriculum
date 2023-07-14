@@ -1,1 +1,91 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "Nk7aplIsZODUvyBI",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Angle Measure and Tiling</strong></p><p>Maisie makes a claim. Is she correct? Explain why or why not.</p>"
+          ]
+        }
+      },
+      {
+        "id": "FnNttO16PzjIYYnf",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Maisie’s Claim</p><p>I was thinking about the bees using regular hexagons. I think that the size of an angle has something to do with regular polygons that tile.</p><p>I measured the angles of a regular hexagon. Each angle is 120º. So, three regular hexagons tile around a point since the sum of the vertex angles is 360º.  I looked at other regular polygons. I know that the vertex angles in regular polygons are equal. </p>"
+          ]
+        }
+      },
+      {
+        "id": "XNOuAIh_2xIHgHJH",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "UPukG8DCAjPVCwYy": 121.1484375,
+            "CQeV-kkkVbm3bv82": 117.57421875,
+            "avtaFnZuny1a4gr3": 124.671875
+          },
+          "name": "Table 1"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "4v671w7uZLJ2jsxa",
+          "providerId": "XNOuAIh_2xIHgHJH",
+          "dataSet": {
+            "id": "X_ev-IVtU5Xh5jXw",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "UPukG8DCAjPVCwYy",
+                "clientKey": "",
+                "name": "Regular Polygon",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "CQeV-kkkVbm3bv82",
+                "clientKey": "",
+                "name": "Number of Sides ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "avtaFnZuny1a4gr3",
+                "clientKey": "",
+                "name": "Measure of one angle",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "XNOuAIh_2xIHgHJH"
+        ]
+      }
+    ]
+  }
+}
