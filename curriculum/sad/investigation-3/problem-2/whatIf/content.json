@@ -1,1 +1,50 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "2K4H8eOfFOnSaH5i",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Trevor, Casey, and Maria’s Strategies </strong></p><p>Below are students’ strategies for finding the sum of the angles of a polygon. </p><p>Are they correct? Explain why?</p>"
+          ]
+        }
+      },
+      {
+        "id": "G_6CnjhMy2VyxGs8",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Trevor’s Strategy</p><p>The Sum of the Angles of a Polygon</p><p></p><p>I used Devon’s results for a triangle. </p><p>I divided polygons into smaller triangles by drawing diagonals from one vertex. </p>"
+          ]
+        }
+      },
+      {
+        "id": "On0KB1n1VGyIkZtG",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/picture65.png",
+          "filename": "sad/images/picture65.png"
+        }
+      },
+      {
+        "id": "-L-l4isI_cC5m6tA",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Yes. Trevor is decomposing each polygon into triangles drawn from one vertex of the polygon to all the other vertices. Trevor can then use what we know about triangle angle sum to find the angle sum of any polygon.</p><p>Trevor partitions each polygon into n - 2 triangles (where n is the number of sides of the polygon). </p><p>The angles of the triangles piece together to give the angles of the polygons. If a triangle has an angle sum of 180°, then a polygon of n sides must have an angle sum of 180(n - 2)°.</p><p>This will help students make the connection to the equation for angle sum: (n-2)180 = S</p>"
+          ]
+        }
+      }
+    ]
+  }
+}
