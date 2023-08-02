@@ -22,8 +22,14 @@
         "isTileTool": true
       },
       {
+        "id": "Graph",
+        "title": "Data Graph",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
         "id": "Geometry",
-        "title": "Graph",
+        "title": "Geometry Graph",
         "isTileTool": true
       },
       {
@@ -111,6 +117,14 @@
     "settings": {
       "table": {
         "numFormat": ".2~f"
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "time",
+          "left": "Signal"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true
       }
     },
     "showCommentTag": true,
