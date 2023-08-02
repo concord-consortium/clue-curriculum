@@ -124,6 +124,7 @@
         {
           "id": "Vj8mzPSK4jtulPwq",
           "title": "3 - 3 - 5 - 5 Kite",
+          "display": "teacher",
           "content": {
             "type": "Image",
             "url": "sad/images/picture100.png",
@@ -178,19 +179,80 @@
         }
       },
       {
-        "id": "5ob5E79VwvOXbYj9",
-        "title": "Table 1",
+        "id": "Ik8bl8X-M2Kn0NTz",
+        "title": "Text 14",
+        "display": "teacher",
         "content": {
-          "type": "Table",
-          "columnWidths": {
-            "IOG8c-yT7QQyTkfW": 108.26953125,
-            "ch8jf3hQnfz7-Gep": 131.078125,
-            "Gn75PQE_MpQqE6dR": 80,
-            "sv8ILy0ioRHoW1vA": 230.49609375
-          },
-          "name": "Table 1"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Shape 1 </strong></p><p><strong>Side Lengths</strong> - 6, 10, 15, 15 </p><p><strong>Quadrilateral?</strong> - Yes </p><p>6 + 10 + 15 &gt; 15 </p><p><strong>Special Quadrilateral:</strong></p><p>Isosceles trapezoid (if opposites sides are same length)</p>"
+          ]
         }
       },
+      {
+        "id": "ZBmN_L1PmYVeBdQC",
+        "title": "Image 1",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/picture102.png",
+          "filename": "sad/images/picture102.png"
+        }
+      },
+      {
+        "id": "b4KoXJE9L6vf7v1S",
+        "title": "Text 15",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Shape 2</strong></p><p><strong>Side Lengths </strong>- 3, 5, 10, 20</p><p><strong>Quadrilateral?</strong> - No</p><p>3 + 5 + 10 &lt; 20</p>"
+          ]
+        }
+      },
+      {
+        "id": "EM01mc51mdrMeeZc",
+        "title": "Text 16",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Shape 3</strong></p><p><strong>Side Lengths </strong>- 8, 8, 10, 10</p><p><strong>Quadrilateral? </strong>- Yes </p><p>8 + 8 + 10 &gt; 10</p><p><strong>Special Quadrilateral:</strong></p><p>Parallelogram (if the opposites sides are equal length)</p><p>Rectangle (if the opposites sides are equal length and angles are 90˚)</p><p>Kite (if adjacent sides are equal length)</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "2pAo-Ywd_L9yIKm0",
+          "title": "Parallelogram",
+          "content": {
+            "type": "Image",
+            "url": "sad/images/picture103.png",
+            "filename": "sad/images/picture103.png"
+          }
+        },
+        {
+          "id": "rkQEkVlkyLvos5nn",
+          "title": "Rectangle",
+          "content": {
+            "type": "Image",
+            "url": "sad/images/picture104.png",
+            "filename": "sad/images/picture104.png"
+          }
+        },
+        {
+          "id": "fPvsmWKtaWjB9G3f",
+          "title": "Kite",
+          "content": {
+            "type": "Image",
+            "url": "sad/images/picture105.png",
+            "filename": "sad/images/picture105.png"
+          }
+        }
+      ],
       {
         "id": "q9SLAd_gw4hh3L_0",
         "title": "Text 13",
@@ -279,89 +341,6 @@
         },
         "tiles": [
           "Sxexqt1TibO069Hb"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "My1sIeTCVNwDY3Nd",
-          "providerId": "5ob5E79VwvOXbYj9",
-          "dataSet": {
-            "id": "BBy9iUYQQMO2g-jk",
-            "name": "Table 1",
-            "attributes": [
-              {
-                "id": "IOG8c-yT7QQyTkfW",
-                "clientKey": "",
-                "name": "Side Lengths",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "6 - 10 - 15 -15 ",
-                  "3 - 5 - 10 - 20",
-                  "8 - 8 - 10 - 20 "
-                ],
-                "title": ""
-              },
-              {
-                "id": "ch8jf3hQnfz7-Gep",
-                "clientKey": "",
-                "name": "Quadrilateral?",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "Yes",
-                  "No",
-                  "Yes "
-                ],
-                "title": ""
-              },
-              {
-                "id": "Gn75PQE_MpQqE6dR",
-                "clientKey": "",
-                "name": "Sketch",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "sv8ILy0ioRHoW1vA",
-                "clientKey": "",
-                "name": "Different Quadrilateral Possible?",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  null,
-                  null,
-                  null
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "FoZXItZ8XUh-YMQl"
-              },
-              {
-                "__id__": "EKzxJ9K1gEAtgG-p"
-              },
-              {
-                "__id__": "kKA0e_VNVapmrfJi"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "5ob5E79VwvOXbYj9"
         ]
       }
     ]
