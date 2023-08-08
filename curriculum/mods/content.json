@@ -28,8 +28,8 @@
           "tab": "problems",
           "label": "Activity",
           "sections": [
+            {"initials": "INT", "title": "Introduction", "type": "problem-documents"},
             {"initials": "ACT", "title": "Activity", "type": "problem-documents"},
-            {"initials": "Q", "title": "Questions", "type": "problem-documents"},
             {"initials": "REF", "title": "Reflection", "type": "problem-documents"}
           ]
         },
@@ -89,9 +89,9 @@
     ]
   },
   "sections": {
-    "activity": {"initials": "ACT", "title": "Introduction", "placeholder": "Record your ideas"},
-    "questions": {"initials": "Q", "title": "Design", "placeholder": "Generate Solutions"},
-    "reflection": {"initials": "REF", "title": "Reflect", "placeholder": "What did you learn?"}
+    "introduction": {"initials": "INT", "title": "Introduction", "placeholder": "Frame the problem"},
+    "activity": {"initials": "ACT", "title": "Activity", "placeholder": "Record your ideas"},
+    "reflection": {"initials": "REF", "title": "Reflection", "placeholder": "What did you learn?"}
   }, 
   "investigations": [
     {
@@ -106,8 +106,8 @@
           "subtitle": "Importance of Water Conservation",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-1/introduction/content.json",
             "investigation-1/problem-1/activity/content.json",
-            "investigation-1/problem-1/questions/content.json",
             "investigation-1/problem-1/reflection/content.json"
           ]
         },
@@ -118,8 +118,8 @@
           "subtitle": "Stakeholder Mapping",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-2/introduction/content.json",
             "investigation-1/problem-2/activity/content.json",
-            "investigation-1/problem-2/questions/content.json",
             "investigation-1/problem-2/reflection/content.json"
           ]
         },
@@ -130,8 +130,8 @@
           "subtitle": "Scoping",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-3/introduction/content.json",
             "investigation-1/problem-3/activity/content.json",
-            "investigation-1/problem-3/questions/content.json",
             "investigation-1/problem-3/reflection/content.json"
           ]
         },
@@ -142,8 +142,8 @@
           "subtitle": "Stakeholder Interviews",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-4/introduction/content.json",
             "investigation-1/problem-4/activity/content.json",
-            "investigation-1/problem-4/questions/content.json",
             "investigation-1/problem-4/reflection/content.json"
           ]
         },
@@ -154,8 +154,8 @@
           "subtitle": "Research",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-5/introduction/content.json",
             "investigation-1/problem-5/activity/content.json",
-            "investigation-1/problem-5/questions/content.json",
             "investigation-1/problem-5/reflection/content.json"
           ]
         },
@@ -166,8 +166,8 @@
           "subtitle": "Concept Generation, Drawing Ideas",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-6/introduction/content.json",
             "investigation-1/problem-6/activity/content.json",
-            "investigation-1/problem-6/questions/content.json",
             "investigation-1/problem-6/reflection/content.json"
           ]
         },
@@ -178,8 +178,8 @@
           "subtitle": "Presentation & Reflection",
           "disabled": [],
           "sections": [
+            "investigation-1/problem-7/introduction/content.json",
             "investigation-1/problem-7/activity/content.json",
-            "investigation-1/problem-7/questions/content.json",
             "investigation-1/problem-7/reflection/content.json"
 
           ]
