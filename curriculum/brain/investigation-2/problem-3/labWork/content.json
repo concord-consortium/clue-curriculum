@@ -9,136 +9,147 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Modeling touch receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the level of pressure applied by the gripper and makes the gripper release an object when too much pressure is applied.</p><p>1. Drag the following Simulation (Sim) tile and DataFlow tiles into your workspace and place them side-by-side. Make sure that &quot;simulated EMG&quot; in the sensor block and that &quot;simulated Gripper&quot; is selected in the Live Output block. </p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
+            "<p><strong>Modeling temperature receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the temperature of objects and makes the gripper release an object when it&#x27;s too hot (&gt;52 degrees selcius). </p><p>1. Drag the following DataFlow tile into your workspace. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
           ]
         }
       },
-      [
-        {
-          "id": "fXr4dhoarK6Kk02g",
-          "title": "Program 1",
-          "content": {
-            "type": "Dataflow",
-            "programDataRate": 1000,
-            "programZoom": {
-              "dx": 0.484039306640625,
-              "dy": -0.00152587890625,
-              "scale": 0.37423311417881716
-            },
-            "program": {
-              "values": {
-                "3": {
-                  "currentValues": {
-                    "nodeValue": 1
-                  }
-                },
-                "6": {
-                  "currentValues": {
-                    "nodeValue": 470
-                  }
-                },
-                "7": {
-                  "currentValues": {}
-                },
-                "8": {
-                  "currentValues": {
-                    "nodeValue": 0
-                  }
+      {
+        "id": "fXr4dhoarK6Kk02g",
+        "title": "Program 1",
+        "content": {
+          "type": "Dataflow",
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 0.484039306640625,
+            "dy": -0.00152587890625,
+            "scale": 0.37423311417881716
+          },
+          "program": {
+            "values": {
+              "3": {
+                "currentValues": {
+                  "nodeValue": 1
                 }
               },
-              "id": "dataflow@0.1.0",
-              "nodes": {
-                "3": {
-                  "id": 3,
-                  "name": "Number",
-                  "x": 10.538104872315643,
-                  "y": 227.72051069738455,
-                  "inputs": {},
-                  "outputs": {
-                    "num": {
-                      "connections": {}
-                    }
-                  },
-                  "data": {
-                    "plot": false,
-                    "orderedDisplayName": "Number 1",
-                    "nodeValueUnits": ""
+              "6": {
+                "currentValues": {
+                  "nodeValue": 403
+                }
+              },
+              "7": {
+                "currentValues": {}
+              },
+              "10": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              },
+              "11": {
+                "currentValues": {}
+              }
+            },
+            "id": "dataflow@0.1.0",
+            "nodes": {
+              "3": {
+                "id": 3,
+                "name": "Number",
+                "x": 10.538104872315643,
+                "y": 227.72051069738455,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
                   }
                 },
-                "6": {
-                  "id": 6,
-                  "name": "Sensor",
-                  "x": 13.816700929226307,
-                  "y": 74.77543672898062,
-                  "inputs": {},
-                  "outputs": {
-                    "num": {
-                      "connections": {}
-                    }
-                  },
-                  "data": {
-                    "plot": false,
-                    "orderedDisplayName": "Sensor 2",
-                    "type": "emg-reading",
-                    "sensor": "SIMemg_key",
-                    "virtual": false
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 1",
+                  "nodeValueUnits": ""
+                }
+              },
+              "6": {
+                "id": 6,
+                "name": "Sensor",
+                "x": 13.816700929226307,
+                "y": 74.77543672898062,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
                   }
                 },
-                "7": {
-                  "id": 7,
-                  "name": "Math",
-                  "x": 242.2529663252481,
-                  "y": 135.13033286019981,
-                  "inputs": {
-                    "num1": {
-                      "connections": {}
-                    },
-                    "num2": {
-                      "connections": {}
-                    }
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 2",
+                  "type": "emg-reading",
+                  "sensor": "SIMemg_key",
+                  "virtual": false
+                }
+              },
+              "7": {
+                "id": 7,
+                "name": "Math",
+                "x": 242.2529663252481,
+                "y": 135.13033286019981,
+                "inputs": {
+                  "num1": {
+                    "connections": {}
                   },
-                  "outputs": {
-                    "num": {
-                      "connections": {}
-                    }
-                  },
-                  "data": {
-                    "plot": false,
-                    "orderedDisplayName": "Math 3",
-                    "mathOperator": "Divide"
+                  "num2": {
+                    "connections": {}
                   }
                 },
-                "8": {
-                  "id": 8,
-                  "name": "Live Output",
-                  "x": 516.2191134759078,
-                  "y": 121.01000988756715,
-                  "inputs": {
-                    "nodeValue": {
-                      "connections": {}
-                    }
-                  },
-                  "outputs": {},
-                  "data": {
-                    "orderedDisplayName": "Live Output 4",
-                    "outputType": "Grabber",
-                    "hubSelect": "Simulated Gripper",
-                    "liveOutputType": "Grabber"
+                "outputs": {
+                  "num": {
+                    "connections": {}
                   }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Math 3",
+                  "mathOperator": "Divide"
+                }
+              },
+              "10": {
+                "id": 10,
+                "name": "Demo Output",
+                "x": 764.575871289139,
+                "y": 122.64873253161873,
+                "inputs": {
+                  "nodeValue": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {},
+                "data": {
+                  "orderedDisplayName": "Demo Output 4",
+                  "outputType": "Grabber",
+                  "demoOutput": 0
+                }
+              },
+              "11": {
+                "id": 11,
+                "name": "Sensor",
+                "x": 98.18682412099704,
+                "y": 365,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 5",
+                  "type": "temperature",
+                  "sensor": "none",
+                  "virtual": false
                 }
               }
             }
           }
-        },
-        {
-          "id": "FXSKc3qCsCpcuyBh",
-          "title": "Simulation 1",
-          "content": {
-            "type": "Simulator",
-            "simulation": "EMG_and_claw"
-          }
         }
-      ],
+      },
       {
         "id": "srxKpumyruyS7yoA",
         "title": "Text 9",
@@ -146,16 +157,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>3. If your program is set up correctly, you will notice that the cup gets crushed when too much pressure is applied. To prevent that from happening, add a pressure sensor to your program. To do so, click on &quot;Sensor&quot; and select &quot;Surface Pressure&quot; as a sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the pressure is above 1000 (we&#x27;ll assume that 1000 represents excessive pressure that can break a fragile object).</p><p>5. Next, we will need to use a new block type called &quot;Hold&quot; (see image below). The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
+            "<p>3. To prevent the gripper from damage by hot objects, add a temperature sensor to your program. To do so, click on &quot;Sensor&quot; and select &quot;Temperature&quot; as a sensor type. Then, select &quot;Temperature Demo Data&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the temp is above 52 degrees. </p><p>5. Next, we will need to use a new block type called &quot;Hold.&quot; The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
           ]
-        }
-      },
-      {
-        "id": "FA-5gtLPFVmIe_lr",
-        "title": "The Control Block",
-        "content": {
-          "type": "Image",
-          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
         }
       },
       {
@@ -165,7 +168,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding the gripper in its previous position (&quot;hold previous&quot;), such that the cup won&#x27;t get crushed. </p><p>6. Finally, connect all the blocks together such that when the pressure is greater than 1000 the gripper holds its previous position. Change the number &quot;1000&quot; such that the cup doesn&#x27;t get crushed. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
+            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding 0, which would make the gripper open and release an object.  </p><p>6. Finally, connect all the blocks together such that when the temp is greater than 52 the gripper opens up. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
           ]
         }
       },
@@ -228,7 +231,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 409,
+              "value": 403,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -269,7 +272,6 @@
           ]
         },
         "tiles": [
-          "FXSKc3qCsCpcuyBh",
           "fXr4dhoarK6Kk02g",
           "rJt5kDc73bJomWKx",
           "srxKpumyruyS7yoA",
