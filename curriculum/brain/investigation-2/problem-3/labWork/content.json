@@ -165,7 +165,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as outputting the number zero. This option is useful because when the gripper receives the number zero it opens up.</p><p>6. Finally, connect all the blocks together such that when the pressure is greater than 1000 the gripper opens up to release the object. Change the number &quot;1000&quot; such that the cup doesn&#x27;t get crushed. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
+            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding the gripper in its previous position (&quot;hold previous&quot;), such that the cup won&#x27;t get crushed. </p><p>6. Finally, connect all the blocks together such that when the pressure is greater than 1000 the gripper holds its previous position. Change the number &quot;1000&quot; such that the cup doesn&#x27;t get crushed. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
           ]
         }
       },
@@ -228,7 +228,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 446,
+              "value": 409,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
