@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Modeling temperature receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the temperature of objects and makes the gripper release an object when it&#x27;s too hot (&gt;52 degrees selcius). </p><p>1. Drag the following DataFlow tile into your workspace. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
+            "<p><strong>Modeling temperature receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the temperature of objects and makes the gripper release an object when it&#x27;s too hot (&gt;52 degrees celsius). </p><p>1. Drag the following DataFlow tile into your workspace. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
           ]
         }
       },
@@ -43,9 +43,6 @@
                 "currentValues": {
                   "nodeValue": 0
                 }
-              },
-              "11": {
-                "currentValues": {}
               }
             },
             "id": "dataflow@0.1.0",
@@ -126,25 +123,6 @@
                   "outputType": "Grabber",
                   "demoOutput": 0
                 }
-              },
-              "11": {
-                "id": 11,
-                "name": "Sensor",
-                "x": 98.18682412099704,
-                "y": 365,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Sensor 5",
-                  "type": "temperature",
-                  "sensor": "none",
-                  "virtual": false
-                }
               }
             }
           }
@@ -157,7 +135,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>3. To prevent the gripper from damage by hot objects, add a temperature sensor to your program. To do so, click on &quot;Sensor&quot; and select &quot;Temperature&quot; as a sensor type. Then, select &quot;Temperature Demo Data&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the temp is above 52 degrees. </p><p>5. Next, we will need to use a new block type called &quot;Hold.&quot; The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
+            "<p>3. To prevent damage from hot objects, add a temperature sensor to your program. To do so, click on &quot;Sensor&quot; and select &quot;Temperature&quot; as a sensor type. Then, select &quot;Temperature Demo Data&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the temp is above 52 degrees. </p><p>5. Next, we will need to use a new block type called &quot;Hold.&quot; The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
           ]
         }
       },
