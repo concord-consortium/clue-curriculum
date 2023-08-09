@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Modeling touch receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the level of pressure applied by the gripper and makes the gripper release an object when too much pressure is applied.</p><p>1. Drag the following Simulation (Sim) tile and DataFlow tiles into your workspace and place them side-by-side. </p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p>"
+            "<p><strong>Modeling touch receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the level of pressure applied by the gripper and makes the gripper release an object when too much pressure is applied.</p><p>1. Drag the following Simulation (Sim) tile and DataFlow tiles into your workspace and place them side-by-side. Make sure that &quot;simulated EMG&quot; in the sensor block and that &quot;simulated Gripper&quot; is selected in the Live Output block. </p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
           ]
         }
       },
