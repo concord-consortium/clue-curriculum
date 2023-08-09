@@ -9,119 +9,136 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Modeling touch receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the level of pressure applied by the gripper and makes the gripper release an object when too much pressure is applied.</p><p>1. Drag the following program to your workspace and connect the blocks such that the gripper stays closed. This program simulates an extended muscle contraction that keeps the gripper closed for a long period of time. </p>"
+            "<p><strong>Modeling touch receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the level of pressure applied by the gripper and makes the gripper release an object when too much pressure is applied.</p><p>1. Drag the following Simulation (Sim) tile and DataFlow tiles into your workspace and place them side-by-side. </p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p>"
           ]
         }
       },
-      {
-        "id": "fXr4dhoarK6Kk02g",
-        "title": "Program 1",
-        "content": {
-          "type": "Dataflow",
-          "programDataRate": 1000,
-          "programZoom": {
-            "dx": 0,
-            "dy": 0,
-            "scale": 0.5499999999999996
-          },
-          "program": {
-            "values": {
-              "2": {
-                "currentValues": {
-                  "nodeValue": 1000
-                }
-              },
-              "3": {
-                "currentValues": {
-                  "nodeValue": 300
-                }
-              },
-              "4": {
-                "currentValues": {}
-              },
-              "5": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              }
+      [
+        {
+          "id": "fXr4dhoarK6Kk02g",
+          "title": "Program 1",
+          "content": {
+            "type": "Dataflow",
+            "programDataRate": 1000,
+            "programZoom": {
+              "dx": 0.484039306640625,
+              "dy": -0.00152587890625,
+              "scale": 0.37423311417881716
             },
-            "id": "dataflow@0.1.0",
-            "nodes": {
-              "2": {
-                "id": 2,
-                "name": "Number",
-                "x": 54.96527716969002,
-                "y": 88.76041775941842,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
+            "program": {
+              "values": {
+                "3": {
+                  "currentValues": {
+                    "nodeValue": 1
                   }
                 },
-                "data": {
-                  "plot": false,
-                  "nodeValueUnits": ""
-                }
-              },
-              "3": {
-                "id": 3,
-                "name": "Number",
-                "x": 53.875004797228016,
-                "y": 216.63460202471057,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
+                "6": {
+                  "currentValues": {
+                    "nodeValue": 470
                   }
                 },
-                "data": {
-                  "plot": false,
-                  "nodeValueUnits": ""
+                "7": {
+                  "currentValues": {}
+                },
+                "8": {
+                  "currentValues": {
+                    "nodeValue": 0
+                  }
                 }
               },
-              "4": {
-                "id": 4,
-                "name": "Logic",
-                "x": 298.51305958210946,
-                "y": 146.26925511653616,
-                "inputs": {
-                  "num1": {
-                    "connections": {}
+              "id": "dataflow@0.1.0",
+              "nodes": {
+                "3": {
+                  "id": 3,
+                  "name": "Number",
+                  "x": 10.538104872315643,
+                  "y": 227.72051069738455,
+                  "inputs": {},
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
                   },
-                  "num2": {
-                    "connections": {}
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Number 1",
+                    "nodeValueUnits": ""
                   }
                 },
-                "outputs": {
-                  "num": {
-                    "connections": {}
+                "6": {
+                  "id": 6,
+                  "name": "Sensor",
+                  "x": 13.816700929226307,
+                  "y": 74.77543672898062,
+                  "inputs": {},
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Sensor 2",
+                    "type": "emg-reading",
+                    "sensor": "SIMemg_key",
+                    "virtual": false
                   }
                 },
-                "data": {
-                  "plot": false,
-                  "logicOperator": "Greater Than"
-                }
-              },
-              "5": {
-                "id": 5,
-                "name": "Demo Output",
-                "x": 538.768757511281,
-                "y": 91.34920173442126,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {}
+                "7": {
+                  "id": 7,
+                  "name": "Math",
+                  "x": 242.2529663252481,
+                  "y": 135.13033286019981,
+                  "inputs": {
+                    "num1": {
+                      "connections": {}
+                    },
+                    "num2": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Math 3",
+                    "mathOperator": "Divide"
                   }
                 },
-                "outputs": {},
-                "data": {
-                  "outputType": "Grabber",
-                  "demoOutput": 0
+                "8": {
+                  "id": 8,
+                  "name": "Live Output",
+                  "x": 516.2191134759078,
+                  "y": 121.01000988756715,
+                  "inputs": {
+                    "nodeValue": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {},
+                  "data": {
+                    "orderedDisplayName": "Live Output 4",
+                    "outputType": "Grabber",
+                    "hubSelect": "Simulated Gripper",
+                    "liveOutputType": "Grabber"
+                  }
                 }
               }
             }
           }
+        },
+        {
+          "id": "FXSKc3qCsCpcuyBh",
+          "title": "Simulation 1",
+          "content": {
+            "type": "Simulator",
+            "simulation": "EMG_and_claw"
+          }
         }
-      },
+      ],
       {
         "id": "srxKpumyruyS7yoA",
         "title": "Text 9",
@@ -129,7 +146,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>2. Add a pressure sensor. To do so, click on &quot;Sensor&quot; and select &quot;Surface Pressure&quot; as a sensor type. Then, select &quot;FSR Demo Data&quot; in the second dropdown menu.</p><p>3. Add a logic block to check if the pressure is above 1000 (we&#x27;ll assume that 1000 represents excessive pressure that can break a fragile object).</p><p>4. Next, we will need to use a new block type called &quot;Control&quot; (see image below). The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
+            "<p>3. If your program is set up correctly, you will notice that the cup gets crushed when too much pressure is applied. To prevent that from happening, add a pressure sensor to your program. To do so, click on &quot;Sensor&quot; and select &quot;Surface Pressure&quot; as a sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the pressure is above 1000 (we&#x27;ll assume that 1000 represents excessive pressure that can break a fragile object).</p><p>5. Next, we will need to use a new block type called &quot;Hold&quot; (see image below). The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
           ]
         }
       },
@@ -148,7 +165,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As explained in the video, the control block receives two inputs:</p><p>Input 1 (the top one) determines if the block is on or off.</p><p>Input 2 (the bottom one) determines which value is passed through.</p><p>If the control block is OFF, it simply passes input 2 through. In other words, the output would be equal to input 2.</p><p>If the control block is ON, it can do different things, such as outputting the number zero. This option is useful because when the gripper receives the number zero it opens up.</p><p>5. Finally, connect all the blocks together such that when the pressure is greater than 1000 the gripper opens up to release the object. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
+            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as outputting the number zero. This option is useful because when the gripper receives the number zero it opens up.</p><p>6. Finally, connect all the blocks together such that when the pressure is greater than 1000 the gripper opens up to release the object. Change the number &quot;1000&quot; such that the cup doesn&#x27;t get crushed. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
           ]
         }
       },
@@ -200,6 +217,66 @@
         },
         "tiles": [
           "fXr4dhoarK6Kk02g"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "i_XkwXDwyCD84JyN",
+          "variables": [
+            {
+              "id": "QoUhLFHAy9x4vdlh",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "value": 397,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading"
+              ]
+            },
+            {
+              "id": "vtVEMvyrmuivOLuM",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "mPa",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name"
+              ]
+            },
+            {
+              "id": "3EWb9mDBBvgjyL25",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0"
+              ]
+            }
+          ]
+        },
+        "tiles": [
+          "FXSKc3qCsCpcuyBh",
+          "fXr4dhoarK6Kk02g",
+          "rJt5kDc73bJomWKx",
+          "srxKpumyruyS7yoA",
+          "-iTf_NvEdVage5PD",
+          "8od0XSnf1qqURYMR",
+          "4qXS3QDYXOCpe8dT",
+          "OpA7t27RXurcLg-k"
         ]
       }
     ]
