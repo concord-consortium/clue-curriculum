@@ -103,7 +103,7 @@
       },
       {
         "id": "81iZjvPjYhuPfxK-",
-        "title": "Image 2",
+        "title": "Map of Two Flight Paths",
         "content": {
           "type": "Image",
           "url": "sad/images/picture40.png",
@@ -122,22 +122,28 @@
         }
       },
       {
-        "id": "xOSIx-4Z5bHNqFDv",
+        "id": "TrwmQOOwOtfYkLsv",
         "title": "Data table",
         "content": {
-          "type": "Image",
-          "url": "sad/images/screen-shot-2023-08-02-at-1.20.06-pm.png",
-          "filename": "sad/images/screen-shot-2023-08-02-at-1.20.06-pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "fgfVB3c6BwYzxQzD": 80,
+            "rA5hexIh_kbM4MwB": 124.85678100585938
+          },
+          "name": "Table 1"
         }
       },
       {
-        "id": "WS2lQmnOpkJoDn9C",
-        "title": "Data table filled out",
+        "id": "YNJIccJhvsrBiWet",
+        "title": "Data table: Filled out",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "sad/images/screen-shot-2023-08-02-at-1.18.32-pm.png",
-          "filename": "sad/images/screen-shot-2023-08-02-at-1.18.32-pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "sAKIzS7wPP-Lj6QC": 80,
+            "Xk7Loawmw05KPOrJ": 124.85678100585938
+          },
+          "name": "Table 1"
         }
       },
       {
@@ -220,6 +226,123 @@
             "<p>D = 20 • (10)</p><p>D = 200 miles</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "V94CCUW64zAuZytn",
+          "providerId": "TrwmQOOwOtfYkLsv",
+          "dataSet": {
+            "id": "kuDjFkQ7UdupZ9CJ",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "fgfVB3c6BwYzxQzD",
+                "clientKey": "",
+                "name": "Time in hours",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4",
+                  "8",
+                  "12"
+                ],
+                "title": ""
+              },
+              {
+                "id": "rA5hexIh_kbM4MwB",
+                "clientKey": "",
+                "name": "Distance apart in miles",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "JImoxhV17TBx6WUC"
+              },
+              {
+                "__id__": "eZhNinBK6IYcxYRz"
+              },
+              {
+                "__id__": "TpZnT79of-ox3jCB"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "TrwmQOOwOtfYkLsv"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "dKkCrOd8uLVtZour",
+          "providerId": "YNJIccJhvsrBiWet",
+          "dataSet": {
+            "id": "WztvXxfv-0BM09eR",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "sAKIzS7wPP-Lj6QC",
+                "clientKey": "",
+                "name": "Time in hours",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4",
+                  "8",
+                  "12",
+                  "1"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Xk7Loawmw05KPOrJ",
+                "clientKey": "",
+                "name": "Distance apart in miles",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "80",
+                  "160",
+                  "240",
+                  "20"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01H84J8ZQQR2FXKHMFTPHREGGF"
+              },
+              {
+                "__id__": "01H84J8ZQQR2FXKHMFTPHREGGG"
+              },
+              {
+                "__id__": "01H84J8ZQQR2FXKHMFTPHREGGH"
+              },
+              {
+                "__id__": "K8QJoM1piWw3gCua"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "YNJIccJhvsrBiWet"
+        ]
       }
     ]
   }
