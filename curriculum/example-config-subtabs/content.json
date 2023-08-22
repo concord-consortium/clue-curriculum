@@ -1,8 +1,8 @@
 {
   "code": "example-config-subtabs",
   "abbrevTitle": "EXCS",
-  "title": "Example Curriculum No SubTabs",
-  "subtitle": " No Subtabs",
+  "title": "Example Curriculum Configured SubTabs",
+  "subtitle": "Some Subtabs",
   "placeholderText": "Type in me!",
   "config": {
     "placeholderText": "This is where users can type text",
@@ -17,7 +17,9 @@
           "left": "dist"
         },
         "emptyPlotIsNumeric": true,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "navTabs": {
@@ -101,6 +103,12 @@
           ]
         },
         {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
           "tab": "class-work",
           "label": "Class Work",
           "sections": [
@@ -127,13 +135,17 @@
               "documentTypes": [
                 "personalPublication"
               ],
+              "showStars": [
+                "teacher",
+                "student"
+              ],
               "properties": [
                 "!isTeacherDocument"
               ]
             },
             {
               "className": "section teacher published-documents",
-              "title": "Workspaces",
+              "title": "Supplemental Work",
               "type": "teacher-supports",
               "dataTestHeader": "supports-section-teacher-supports",
               "dataTestItem": "supports-list-items",
@@ -174,6 +186,22 @@
                 "teacher",
                 "student"
               ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Starred",
+              "type": "starred-personal-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
             }
           ]
         }
@@ -188,6 +216,7 @@
       {"id": "Expression", "title": "Expression", "isTileTool": true},
       {"id": "Graph", "title": "XY Plot", "isTileTool": true},
       {"id": "Geometry", "title": "Graph", "isTileTool": true},
+      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
       {"id": "Dataflow", "title": "Dataflow", "isTileTool": true},
       {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
       {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
