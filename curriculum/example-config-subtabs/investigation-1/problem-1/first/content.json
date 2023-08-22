@@ -1,1 +1,83 @@
-{"type": "first", "content": {"tiles": []}, "supports": []}
+{
+  "type": "first",
+  "content": {
+    "tiles": [
+      {
+        "id": "mvnKpMGcUR_-oy6y",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Here is a test text tile.</p>"
+          ]
+        }
+      },
+      {
+        "id": "n6Ov7HS8RSe4Y2_G",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "rkDiqfe9RW10O9V9": 80,
+            "GyAwZvXxMPjOsSIp": 248.6640625
+          },
+          "name": "Table 1"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "0P1MBauHE0iHv0Gv",
+          "providerId": "n6Ov7HS8RSe4Y2_G",
+          "dataSet": {
+            "id": "zpzPoJKhkEtfuUdB",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "rkDiqfe9RW10O9V9",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "GyAwZvXxMPjOsSIp",
+                "clientKey": "",
+                "name": "longish title for an attribute",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "gM8l4d4T-AcZWKjC"
+              },
+              {
+                "__id__": "hgpAkgPugAu1QuAp"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "n6Ov7HS8RSe4Y2_G"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
