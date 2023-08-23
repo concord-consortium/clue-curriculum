@@ -107,7 +107,16 @@
         "tools": [
           "delete"
         ]
-      }
+      },
+      "graph": {
+        "_comment1": "this configures the XYPlot tool",
+        "defaultAxisLabels": {
+        "bottom": "Categories",
+        "left": "Counts"
+        },
+        "emptyPlotIsNumeric": false,
+        "scalePlotOnValueChange": true
+        }
     },
     "stamps": []
   },
