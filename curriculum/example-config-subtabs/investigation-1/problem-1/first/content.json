@@ -24,6 +24,39 @@
           },
           "name": "Table 1"
         }
+      },
+      {
+        "id": "-ffDJEk8J3nfyxLW",
+        "title": "Drawing 1",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "rectangle",
+              "id": "LX6OMHTy_rDhCOTm",
+              "x": 61,
+              "y": 117.5,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 46,
+              "height": 18
+            },
+            {
+              "type": "ellipse",
+              "id": "svEXLMElCZOe1rWm",
+              "x": 331,
+              "y": 123.5,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "rx": 39,
+              "ry": 13
+            }
+          ]
+        }
       }
     ],
     "sharedModels": [
@@ -103,6 +136,33 @@
         "textOffset": {
           "dx": 10.999999999999991,
           "dy": -32.166015625
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "DDFFKgCi9OhBhD21",
+        "sourceObject": {
+          "tileId": "-ffDJEk8J3nfyxLW",
+          "objectId": "LX6OMHTy_rDhCOTm",
+          "objectType": "rectangle"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "-ffDJEk8J3nfyxLW",
+          "objectId": "svEXLMElCZOe1rWm",
+          "objectType": "ellipse"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "text": "another test",
+        "textOffset": {
+          "dx": -1.5000000000000322,
+          "dy": -71.5
         },
         "type": "arrowAnnotation"
       }
