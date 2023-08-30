@@ -57,6 +57,47 @@
             }
           ]
         }
+      },
+      {
+        "id": "GnIWy0tzB_2vc7xX",
+        "title": "X-Y Plot 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "empty",
+              "place": "bottom",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "plotType": "casePlot",
+          "config": {
+            "id": "DCONaedGCDm65Dnv",
+            "_attributeDescriptions": {},
+            "_yAttributeDescriptions": []
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false
+        }
       }
     ],
     "sharedModels": [
@@ -107,64 +148,23 @@
           }
         },
         "tiles": [
-          "n6Ov7HS8RSe4Y2_G"
+          "n6Ov7HS8RSe4Y2_G",
+          "GnIWy0tzB_2vc7xX"
         ]
-      }
-    ],
-    "annotations": [
-      {
-        "id": "rQR_sUr42lhORKI-",
-        "sourceObject": {
-          "tileId": "n6Ov7HS8RSe4Y2_G",
-          "objectId": "cell:{gM8l4d4T-AcZWKjC}:{rkDiqfe9RW10O9V9}",
-          "objectType": "cell"
-        },
-        "sourceOffset": {
-          "dx": 0,
-          "dy": -8
-        },
-        "targetObject": {
-          "tileId": "n6Ov7HS8RSe4Y2_G",
-          "objectId": "cell:{hgpAkgPugAu1QuAp}:{GyAwZvXxMPjOsSIp}",
-          "objectType": "cell"
-        },
-        "targetOffset": {
-          "dx": 0,
-          "dy": -8
-        },
-        "text": "test",
-        "textOffset": {
-          "dx": 10.999999999999991,
-          "dy": -32.166015625
-        },
-        "type": "arrowAnnotation"
       },
       {
-        "id": "DDFFKgCi9OhBhD21",
-        "sourceObject": {
-          "tileId": "-ffDJEk8J3nfyxLW",
-          "objectId": "LX6OMHTy_rDhCOTm",
-          "objectType": "rectangle"
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "tYnLmTZvcZEKfejK",
+          "data": "zpzPoJKhkEtfuUdB",
+          "collections": {},
+          "categories": {},
+          "columnWidths": {},
+          "hidden": {}
         },
-        "sourceOffset": {
-          "dx": 0,
-          "dy": 0
-        },
-        "targetObject": {
-          "tileId": "-ffDJEk8J3nfyxLW",
-          "objectId": "svEXLMElCZOe1rWm",
-          "objectType": "ellipse"
-        },
-        "targetOffset": {
-          "dx": 0,
-          "dy": 0
-        },
-        "text": "another test",
-        "textOffset": {
-          "dx": -1.5000000000000322,
-          "dy": -71.5
-        },
-        "type": "arrowAnnotation"
+        "tiles": [
+          "GnIWy0tzB_2vc7xX"
+        ]
       }
     ]
   },
