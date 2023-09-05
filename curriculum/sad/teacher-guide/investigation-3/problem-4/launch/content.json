@@ -3,25 +3,76 @@
   "content": {
     "tiles": [
       {
+        "id": "jGJEvdmH-oJNdrt_",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem Overview</strong></p><p><strong></strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "AT40m4dyzZWSUx3Z",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>AoL</strong></p><p>Generalizing and Using Properties of Polygons: Synthesis, Abstraction</p><p>Algebraic Expressions and Equations: Analysis</p>"
+          ]
+        }
+      },
+      {
+        "id": "43qI6OJoswWTY7C_",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Emerging Mathematical Ideas</strong></p><p>Analyze sets of triangle and quadrilateral criteria looking for minimum combinations of sides and/or angles that will describe a unique polygon.</p><p>Begin to notice and generalize the following minimal combinations of sides and/or angles that will describe a single  unique triangle:</p><ul><li>the measures of two sides and the included angle, and</li><li>the measures of two angles and one side, </li><li>the measure of three sides, and</li><li>other combinations of criteria will allow for either multiple triangles (AAA) to be formed or no triangle to be formed (e.g., 3in, 5in, and 10in.)</li></ul><p>Analyze sets of criteria (angle and side measures expressed with numbers or variables) and draw conclusions using the following facts about triangles and quadrilaterals:</p><ul><li>the sum of the angle measures of a triangle must equal 180°, </li><li>the sum of the angle measures of a quadrilateral must equal 360°,</li><li>the measure of every side of a triangle or a quadrilateral must be less than the sum of the other three sides.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "PNd0aNBjxQT-PZY1",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>NWDYK</strong></p><p>What information about a triangle allows you to draw a triangle? Draw a unique triangle? Explain why this true What information about a quadrilateral allows you to draw a quadrilateral? Explain why this true? </p>"
+          ]
+        }
+      },
+      {
         "id": "YepDxNovHZqWtEhq",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Launch (Getting Started)</strong></u></p>",
-            "<p><u>Connecting to Prior Knowledge</u></p>",
-            "<p>Describe the Problem to the class. Ask students to compare the ideas to Problem 3.2. Have the class identify the similar triangles and find the corresponding angles and sides. You may want to introduce the term nested in the Launch for this Problem to describe the two triangles pictured in Problem 3.3 in the Student Edition. It is a handy, though nontechnical, way to describe a smaller triangle within a larger triangle, where the triangles share an angle.  (Language)</p>",
-            "<p>In the two previous Problems, we used the fact that if two triangles have congruent corresponding angles, then the triangles are similar. This is not generally true for other polygons. Explain why this is not true for parallelograms or rectangles. ( All rectangles have four 90° angles, yet not all rectangles are similar. Corresponding side lengths in two rectangles can have different scale factors. Likewise, for any parallelogram, we can stretch just one pair of sides, as in the diagram below. The parallelogram maintains the same angles but results in a figure that is not similar to the original.) </p>"
+            "<p><u><strong>Launch (Getting Started)</strong></u></p><p><u>Connecting to Prior Knowledge</u></p><p>Describe the Problem to the class. Ask students to compare the ideas to Problem 3.2. Have the class identify the similar triangles and find the corresponding angles and sides. You may want to introduce the term nested in the Launch for this Problem to describe the two triangles pictured in Problem 3.3 in the Student Edition. It is a handy, though nontechnical, way to describe a smaller triangle within a larger triangle, where the triangles share an angle.  (Language)</p><p>In the two previous Problems, we used the fact that if two triangles have congruent corresponding angles, then the triangles are similar. This is not generally true for other polygons. Explain why this is not true for parallelograms or rectangles. ( All rectangles have four 90° angles, yet not all rectangles are similar. Corresponding side lengths in two rectangles can have different scale factors. Likewise, for any parallelogram, we can stretch just one pair of sides, as in the diagram below. The parallelogram maintains the same angles but results in a figure that is not similar to the original.) </p>"
           ]
         }
       },
-      {"id": "XaQzwanwb_Qorb9z", "title": "Nonsimilar parallelograph with similar triangles", "content": {"type": "Image", "url": "sas/images/SASTG_3-3_connecting_to_prioir_knowledge_1.png"}},
+      {
+        "id": "XaQzwanwb_Qorb9z",
+        "title": "Nonsimilar parallelograph with similar triangles",
+        "content": {
+          "type": "Image",
+          "url": "sas/images/SASTG_3-3_connecting_to_prioir_knowledge_1.png"
+        }
+      },
       {
         "id": "OT9zY5ryC79Qxuvp",
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Suggested Questions</strong></p>", "<ul><li>What shapes do you see on the diagram?</li><li>What measurements do you need? </li></ul>Refer to Problem 3.1 and the Rep-tiling with triangles. Do you see nested triangles in this rep-tile? Where?"]
+          "text": [
+            "<p><strong>Suggested Questions</strong></p><ul><li>What shapes do you see on the diagram?</li><li>What measurements do you need? </li></ul><p>Refer to Problem 3.1 and the Rep-tiling with triangles. Do you see nested triangles in this rep-tile? Where?</p>"
+          ]
         }
       },
       {
@@ -29,16 +80,127 @@
         "title": "Rep-tiled triangle",
         "content": {
           "type": "Geometry",
-          "board": {"properties": {"axisMin": [-4.186, -2.093], "axisRange": [26.23, 17.486], "axisNames": ["x", "y"], "axisLabels": ["x", "y"]}},
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.186,
+                -2.093
+              ],
+              "axisRange": [
+                26.23,
+                17.486
+              ],
+              "axisNames": [
+                "x",
+                "y"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
           "objects": [
-            {"type": "point", "parents": [1, 10.008111338797814], "properties": {"id": "IMav4NSL51yAx2cW", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [1.006617144808743, -0.011740095628415048], "properties": {"id": "WaQmRcXAjS6as7VI", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [9, 10.008111338797814], "properties": {"id": "fqFFfArr0yCYZJ3K", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "polygon", "parents": ["IMav4NSL51yAx2cW", "WaQmRcXAjS6as7VI", "fqFFfArr0yCYZJ3K"], "properties": {"id": "6XU2YDR00D7gA--b"}},
-            {"type": "point", "parents": [5, 5], "properties": {"id": "ibra8nKjqADwKLiq", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [5, 10], "properties": {"id": "4QncjKswHDWPVSnP", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [1, 5], "properties": {"id": "2YPLz3SsOv5QwWCR", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "polygon", "parents": ["ibra8nKjqADwKLiq", "4QncjKswHDWPVSnP", "2YPLz3SsOv5QwWCR"], "properties": {"id": "YqqUEnzvRliI6dmb"}}
+            {
+              "type": "point",
+              "parents": [
+                1,
+                10.008111338797814
+              ],
+              "properties": {
+                "id": "IMav4NSL51yAx2cW",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1.006617144808743,
+                -0.011740095628415048
+              ],
+              "properties": {
+                "id": "WaQmRcXAjS6as7VI",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                10.008111338797814
+              ],
+              "properties": {
+                "id": "fqFFfArr0yCYZJ3K",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "IMav4NSL51yAx2cW",
+                "WaQmRcXAjS6as7VI",
+                "fqFFfArr0yCYZJ3K"
+              ],
+              "properties": {
+                "id": "6XU2YDR00D7gA--b"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                5
+              ],
+              "properties": {
+                "id": "ibra8nKjqADwKLiq",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                10
+              ],
+              "properties": {
+                "id": "4QncjKswHDWPVSnP",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                5
+              ],
+              "properties": {
+                "id": "2YPLz3SsOv5QwWCR",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "ibra8nKjqADwKLiq",
+                "4QncjKswHDWPVSnP",
+                "2YPLz3SsOv5QwWCR"
+              ],
+              "properties": {
+                "id": "YqqUEnzvRliI6dmb"
+              }
+            }
           ]
         }
       },
@@ -47,12 +209,20 @@
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Note:</strong> In general, it is true that if the corresponding angles of two triangles are congruent, then the triangles are similar. In this Unit, we assume that this theorem is true. A proof for the theorem is developed in 8th grade.  </p>"]
+          "text": [
+            "<p><strong>Note:</strong> In general, it is true that if the corresponding angles of two triangles are congruent, then the triangles are similar. In this Unit, we assume that this theorem is true. A proof for the theorem is developed in 8th grade.  </p>"
+          ]
         }
       },
       {
         "id": "kyy53dkYjEjn3hb-",
-        "content": {"type": "Text", "format": "html", "text": ["<p><u>Presenting the Challenge</u></p>", "<p>Have the students use the diagram to find the distance across the river.  Make sure they provide explanations for their methods. Have students work with a partner on this problem.  </p>"]}
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Presenting the Challenge</u></p><p>Have the students use the diagram to find the distance across the river.  Make sure they provide explanations for their methods. Have students work with a partner on this problem.  </p>"
+          ]
+        }
       }
     ]
   }
