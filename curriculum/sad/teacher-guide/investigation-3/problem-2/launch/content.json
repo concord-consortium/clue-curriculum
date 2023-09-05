@@ -3,8 +3,59 @@
   "content": {
     "tiles": [
       {
+        "id": "QfNpwS0d3uXetyHq",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem Overview</strong></p><p><strong></strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "2SbVjz24CHfOkOcp",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>AoL</strong></p><p>Generalizing and Using Properties of Polygons: Analysis, Synthesis</p><p>Algebraic Expressions and Equations: Analysis</p>"
+          ]
+        }
+      },
+      {
+        "id": "iyHbS40xh9JlWipg",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Emerging Mathematical Ideas</strong></p><p>Explore side (n) and angle (A) relationships for polygons and develop and apply equations relating the number sides with the sum of the angles (S). </p><p>Explore, draw conclusions, and apply angle and side relationships in polygons to solve problems including:  </p><ul><li>measure angles to complete a table for regular polygons listing the number of sides (n), measure of one inside angle (A), and the sum of the angles,</li><li>analyze patterns in the table to look for side/angle relationships that can be described in words – e.g., the sum of the angle measures inside a polygon is equal to the number of sides minus 2, then multiplied by 180° or you can find the value of one angle in a regular polygon by dividing the sum of the inside angles by the number of angles (same as number of sides),</li><li>create and make connections among equivalent equations for calculating the sum of the inside  angles of a polygon based on patterns found in the table and  geometric strategies that partition shapes into triangles, e.g., S = 180°(n-2) OR S = 180n – 360°, </li></ul><ul><li>note that the side/angle relationship is the same for regular, irregular, concave, and convex polygons,</li><li>for regular polygons, make sense of using the sum of the angle measures to find the measure of one angle by dividing the total by the number of angles (sides) in the polygon, S = [180° * (n-2)] / n and </li><li>use these equations, knowledge of angle relationships, and partitioning strategies to solve multi-step problems.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "ULmGRpMoydRHTPLf",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>NWDYK</strong></p><p>What is the relationship between the angle sum S of a polygon with n sides? How can you find the measure of an angle in a regular polygon with n sides?</p>"
+          ]
+        }
+      },
+      {
         "id": "ZU1C-FcaWkYsOOCF",
-        "content": {"type": "Text", "format": "html", "text": ["<p><u><strong>Launch (Getting Started)</strong></u> </p>", "<p><u>Connecting to Prior Knowledge</u></p>", "<p>In this Problem, students continue to build on their understanding of scale factors and scaled drawings or similarity.</p>"]}
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Launch (Getting Started)</strong></u> </p><p><u>Connecting to Prior Knowledge</u></p><p>In this Problem, students continue to build on their understanding of scale factors and scaled drawings or similarity.</p>"
+          ]
+        }
       },
       {
         "id": "fqhk3w02W8CFi-fP",
@@ -12,8 +63,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Suggested Questions</strong></p>",
-            "<ul><li>If you are given a rectangle, how might you draw a similar rectangle with a scale factor of 2? (Calculate twice the length for each side of the rectangle, and then draw a rectangle with those measurements.) </li><li>How would the areas of the original rectangle and the rectangle you drew relate? (The new rectangle would have an area 4 times as great as the original rectangle.) </li><li>What would the scale factor be for a pair of similar figures where one figure has an area 16 times as great as the other figure? (4)</li><li>What is base of a triangle? (This can be any side of a triangle.)</li><li>What is the height of a triangle? (Perpendicular distance from the base to the opposite vertex.)</li></ul>"
+            "<p><strong>Suggested Questions</strong></p><ul><li>If you are given a rectangle, how might you draw a similar rectangle with a scale factor of 2? (Calculate twice the length for each side of the rectangle, and then draw a rectangle with those measurements.) </li><li>How would the areas of the original rectangle and the rectangle you drew relate? (The new rectangle would have an area 4 times as great as the original rectangle.) </li><li>What would the scale factor be for a pair of similar figures where one figure has an area 16 times as great as the other figure? (4)</li><li>What is base of a triangle? (This can be any side of a triangle.)</li><li>What is the height of a triangle? (Perpendicular distance from the base to the opposite vertex.)</li></ul>"
           ]
         }
       },
@@ -23,9 +73,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u>Presenting the Challenge</u></p>",
-            "<p>Display Rectangle A and Triangle B for the class. Tell the class that their challenge is to draw similar figures with the conditions given in the Problem.</p>",
-            "<p><strong>Implementation Note:</strong> Assign one or two from each set in the Initial Challenge to partner groups.  Have students create posters to present their findings.</p>"
+            "<p><u>Presenting the Challenge</u></p><p>Display Rectangle A and Triangle B for the class. Tell the class that their challenge is to draw similar figures with the conditions given in the Problem.</p><p><strong>Implementation Note:</strong> Assign one or two from each set in the Initial Challenge to partner groups.  Have students create posters to present their findings.</p>"
           ]
         }
       },
@@ -34,10 +82,13 @@
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Suggested Questions</strong></p>", "<ul><li>What are the side lengths of Rectangle A? (4 units and 8 units)</li><li>What is the area of Rectangle A? (32 square units)</li><li>What is the area of Triangle B? (14 square units)</li></ul>"]
+          "text": [
+            "<p><strong>Suggested Questions</strong></p><ul><li>What are the side lengths of Rectangle A? (4 units and 8 units)</li><li>What is the area of Rectangle A? (32 square units)</li><li>What is the area of Triangle B? (14 square units)</li></ul>"
+          ]
         }
       },
       {
+        "id": "document_Text_1",
         "display": "teacher",
         "content": {
           "type": "Text",
