@@ -52,6 +52,8 @@
         "title": "Data Cards",
         "isTileTool": true
       },
+      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -82,7 +84,16 @@
       "table": {
         "numFormat": ".2~f"
       }
-    }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+       "part-to-part": "Part-to-Part",
+       "part-to-whole": "Part-to-Whole",
+       "unit-rate": "Unit Rate",
+       "guess-and-check": "Guess and Check",
+       "none": "None"
+    },
+     "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
