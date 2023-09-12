@@ -1370,6 +1370,55 @@
           "url": "sad/images/sd-uo-pic-7.png",
           "filename": "sad/images/sd-uo-pic-7.png"
         }
+      },
+      {
+        "id": "QnzuSs5P4e9Pa_RF",
+        "title": "Text 21",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>One strategy is to choose one vertex of the polygon and draw all the diagonals from this point. (Diagram on the left.) This divides the polygon into triangles; there will always be 2 fewer triangles than sides of the polygon.  The angles of the triangles are all located in the corners of the polygon. So, the sum of all the angles of triangles gives the angle sum of the polygon. This strategy confirms the results found by tearing off the angles of a polygon and rearranging them around a point.  <strong>If there are </strong><strong><em>n</em></strong><strong> sides, there will be </strong><strong><em>n</em></strong><strong>-2 triangles and the angle sum is 180(</strong><strong><em>n</em></strong><strong> – 2). </strong></p><p>Another strategy is to choose a point in the interior and draw lines to each vertex.  There are the same number of triangles as sides, so if there are <em>n</em> sides then <em>the sum of the angles of n triangles would be 180n</em>. </p><p>However, some of the angles of the triangles form 360˚ round this central point. So, to find the sum of the angles of the polygon we must subtract this 360˚ from 180<em>n</em>.</p><p><strong>The angle sum of the polygon is 180</strong><strong><em>n</em></strong><strong> – 360. </strong></p><p></p><p>STRATEGIC CURRICULUM CONNECTION. </p><p>Notice that 180n – 360 and 180(n – 2) are equivalent expressions. There are multiple opportunities to use algebraic reasoning about the angle relationships or the angle sum of a polygon. </p><p>For example, for an octagon the angle sum is:  </p>"
+          ]
+        }
+      },
+      {
+        "id": "o94wkgPt12tEnIIp",
+        "title": "The angle sum for an octagon",
+        "content": {
+          "type": "Expression",
+          "latexStr": "A=180\\left(8\\right)-360=1080"
+        }
+      },
+      {
+        "id": "Fzpe0FjCLpaf7ud9",
+        "title": "Text 22",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>And if the octagon is regular then each angle is:</p>"
+          ]
+        }
+      },
+      {
+        "id": "pLXGdxWQ-RVV0gO4",
+        "title": "Measure of each angle in a regular octagon",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{A}{n}=\\frac{1080}{8}=135\\degree"
+        }
+      },
+      {
+        "id": "HkTvYGBTdYHcxJnd",
+        "title": "Text 23",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Or, given three angle measure of a quadrilateral are 20, 100 and 85 find the fourth angle <em>x</em>. </p><p>A = (n – 2)180</p><p>   = (4 – 2 )180</p><p>   = 360.</p><p>So, 20 + 100 + 85 + x = 360.</p><p>205 + x = 360.</p><p>x = 155.</p>"
+          ]
+        }
       }
     ]
   }
