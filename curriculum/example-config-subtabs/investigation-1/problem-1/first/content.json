@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Here is a test text tile.</p>"
+            "<p>Im making a new curriculum about rabbits.</p><p></p>"
           ]
         }
       },
@@ -46,8 +46,8 @@
             {
               "type": "ellipse",
               "id": "svEXLMElCZOe1rWm",
-              "x": 331,
-              "y": 123.5,
+              "x": 277,
+              "y": 85.5,
               "stroke": "#000000",
               "strokeDashArray": "",
               "strokeWidth": 2,
@@ -59,46 +59,136 @@
         }
       },
       {
-        "id": "GnIWy0tzB_2vc7xX",
-        "title": "X-Y Plot 1",
+        "id": "XceaO-12XZowXC0S",
+        "title": "Rabit size",
         "content": {
-          "type": "Graph",
-          "adornments": [],
-          "axes": {
-            "bottom": {
-              "type": "empty",
-              "place": "bottom",
-              "scale": "ordinal",
-              "min": 0,
-              "max": 0
-            },
-            "left": {
-              "type": "empty",
-              "place": "left",
-              "scale": "ordinal",
-              "min": 0,
-              "max": 0
-            }
+          "type": "Table",
+          "columnWidths": {
+            "vev8J7vc0u0GkHTk": 80,
+            "mL4sienWD1PUOnmB": 80
           },
-          "plotType": "casePlot",
-          "config": {
-            "id": "DCONaedGCDm65Dnv",
-            "_attributeDescriptions": {},
-            "_yAttributeDescriptions": []
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false
+          "name": "Table 2"
         }
-      }
+      },
+      [
+        {
+          "id": "U68C9aCniL7HWd1v",
+          "title": "Graph 1",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  10.91797858235287,
+                  12.655176521369107
+                ],
+                "properties": {
+                  "id": "or2xeOxDnfPhCkTO",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  8.985717072593824,
+                  9.05313574132048
+                ],
+                "properties": {
+                  "id": "dk6OqWv5qAs1C8SD",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.945002975479916,
+                  10.538946655617693
+                ],
+                "properties": {
+                  "id": "ZsbgNXL3mebt2O-c",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  5.648986013633344,
+                  7.964032362612179
+                ],
+                "properties": {
+                  "id": "_pVUmyzf1oIws0B5",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  10.428842068627286,
+                  12.844207543539449
+                ],
+                "properties": {
+                  "id": "_zp-Se4fvlUtDaWQ",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "or2xeOxDnfPhCkTO",
+                  "dk6OqWv5qAs1C8SD",
+                  "ZsbgNXL3mebt2O-c",
+                  "_pVUmyzf1oIws0B5",
+                  "_zp-Se4fvlUtDaWQ"
+                ],
+                "properties": {
+                  "id": "nljt59Z_MmPrulnm"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "dYbJhLaeUq9DpHI_",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>hey students this is the answer to the problem. </p>"
+            ]
+          }
+        }
+      ]
     ],
     "sharedModels": [
       {
@@ -148,22 +238,52 @@
           }
         },
         "tiles": [
-          "n6Ov7HS8RSe4Y2_G",
-          "GnIWy0tzB_2vc7xX"
+          "n6Ov7HS8RSe4Y2_G"
         ]
       },
       {
         "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "tYnLmTZvcZEKfejK",
-          "data": "zpzPoJKhkEtfuUdB",
-          "collections": {},
-          "categories": {},
-          "columnWidths": {},
-          "hidden": {}
+          "type": "SharedDataSet",
+          "id": "ws8OoOUBAhKkaKNp",
+          "providerId": "XceaO-12XZowXC0S",
+          "dataSet": {
+            "id": "zJnDPcII60qv958S",
+            "name": "Table 2",
+            "attributes": [
+              {
+                "id": "vev8J7vc0u0GkHTk",
+                "clientKey": "",
+                "name": "name",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "mL4sienWD1PUOnmB",
+                "clientKey": "",
+                "name": "lbs",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "ZtEqFhs4i297sRqR"
+              }
+            ]
+          }
         },
         "tiles": [
-          "GnIWy0tzB_2vc7xX"
+          "XceaO-12XZowXC0S"
         ]
       }
     ]
