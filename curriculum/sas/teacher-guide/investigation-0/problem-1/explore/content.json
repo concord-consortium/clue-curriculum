@@ -3,13 +3,189 @@
   "content": {
     "tiles": [
       {
+        "id": "document_Text_1",
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Problem Exploration</strong></p>", "<p>This Problem is intended to help both educators and students to learn how software features work in CLUE. There is no extended teacher guide. You will find teacher guides in other problems.</p>"]
+          "text": [
+            "<p><strong>Problem Exploration</strong></p><p>This Problem is intended to help both educators and students to learn how software features work in CLUE. There is no extended teacher guide. You will find teacher guides in other problems.</p>"
+          ]
         }
-      }
-    ],
-    "supports": []
+      },
+      [
+        {
+          "id": "C1rbJVm2dkcesUd2",
+          "title": "Graph 1",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  5.016094603825136,
+                  9.883282103825136
+                ],
+                "properties": {
+                  "id": "bZD55FhUGeqntA7f",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  10.058999316939891,
+                  9.909323770491802
+                ],
+                "properties": {
+                  "id": "2gKHQcIcXpzrJ-sp",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  10.264557718579235,
+                  4.321251707650273
+                ],
+                "properties": {
+                  "id": "dr08Y7FbixZokzd9",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.79047131147541,
+                  1.6714053961748627
+                ],
+                "properties": {
+                  "id": "kBieG32klL2QZ7Af",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  1.3982240437158473,
+                  6.545466188524589
+                ],
+                "properties": {
+                  "id": "Dv_59tyb6AZVjkqW",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "bZD55FhUGeqntA7f",
+                  "2gKHQcIcXpzrJ-sp",
+                  "dr08Y7FbixZokzd9",
+                  "kBieG32klL2QZ7Af",
+                  "Dv_59tyb6AZVjkqW"
+                ],
+                "properties": {
+                  "id": "Vqa9jZ25y_cnPG_5"
+                }
+              },
+              {
+                "type": "vertexAngle",
+                "parents": [
+                  "dr08Y7FbixZokzd9",
+                  "kBieG32klL2QZ7Af",
+                  "Dv_59tyb6AZVjkqW"
+                ],
+                "properties": {
+                  "id": "BoNZcPHwdFAIPlUJ"
+                }
+              },
+              {
+                "type": "vertexAngle",
+                "parents": [
+                  "kBieG32klL2QZ7Af",
+                  "Dv_59tyb6AZVjkqW",
+                  "bZD55FhUGeqntA7f"
+                ],
+                "properties": {
+                  "id": "2_Q5UZuVg6TJQFyv"
+                }
+              },
+              {
+                "type": "vertexAngle",
+                "parents": [
+                  "Dv_59tyb6AZVjkqW",
+                  "bZD55FhUGeqntA7f",
+                  "2gKHQcIcXpzrJ-sp"
+                ],
+                "properties": {
+                  "id": "v39UwEvEOqqohj8l"
+                }
+              },
+              {
+                "type": "vertexAngle",
+                "parents": [
+                  "bZD55FhUGeqntA7f",
+                  "2gKHQcIcXpzrJ-sp",
+                  "dr08Y7FbixZokzd9"
+                ],
+                "properties": {
+                  "id": "3Z9gpTmnlazgPH-K"
+                }
+              },
+              {
+                "type": "vertexAngle",
+                "parents": [
+                  "2gKHQcIcXpzrJ-sp",
+                  "dr08Y7FbixZokzd9",
+                  "kBieG32klL2QZ7Af"
+                ],
+                "properties": {
+                  "id": "tR5bX8vZMAdQdRV5"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "ZvYoU_amkaQVm5Sx",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p></p>"
+            ]
+          }
+        }
+      ]
+    ]
   }
 }
