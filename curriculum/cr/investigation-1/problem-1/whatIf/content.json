@@ -1,1 +1,282 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "AC7CrcHLjGY7pYip",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Four More Turns: Who is Winning?</strong></p><p>The following scores show a sequence of points for the next four turns for each team. </p><ul><li><u>Superbrain</u>: Continue from –300</li><li><u>Rocket Scientists</u>: Continue from 150</li><li><u>Know-It-Alls</u>: Continue from –500</li></ul>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "QPRUJYeE7gB__xye",
+          "title": "Super Brain",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "Q4SbyKs4TX7cgJGX": 80,
+              "u3yfRUYWQM3zpm7_": 80
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "8NRG3M4VOX4_c7qt",
+          "title": "Rocket Scientists",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "HCDA9JvOvEj0Fv7s": 80,
+              "pD9yzlSAajTftueQ": 80
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "IX92CEGdHWanfN6I",
+          "title": "Know-It-Alls",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "n-HMJffu2kHJ5BFa": 80,
+              "N-cTrgz32pPJ9B6p": 80
+            },
+            "name": "Table 1"
+          }
+        }
+      ],
+      {
+        "id": "gQ1UEU0J3hXOgaPB",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li> After the four turns in the game, which team has the highest score? Which team has the lowest score? Give evidence to support your answer.</li><li>  What is the difference in the total points between the team with the highest score and the team with the lowest score?</li></ol><p></p>"
+          ]
+        }
+      },
+      {
+        "id": "Y5dvCdN0e60M7ExG",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Luisa and Sam Keep Score</strong></p><p>Luisa answers a 300-point question correctly and a 400-point question incorrectly. Luisa and Sam use different methods to keep score:</p><p><u>Luisa&#x27;s Method</u>: 300 – 400 = –100</p><p><u>Sam&#x27;s Method</u>: 300 +  –400 = 0</p><p>Who is correct? Will this method always work for keeping score? Explain your reasoning.</p>"
+          ]
+        }
+      },
+      {
+        "id": "6YPy1AbxYK2__k0N",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation C. Back to Zero</strong></p><p>Sammy had 250 points. On his next move, his score became 0. Which equation represents the situation? Explain. </p><p><u>Equation 1:</u> 250 – 250 = 0</p><p><u>Equation 2</u>: 250 + –250 = 0</p>"
+          ]
+        }
+      },
+      {
+        "id": "rXIBZviVSflhJM3E",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation D. Hank Adds Cards to The Algebra Connection Game</strong></p><p>Hank adds cards to his Algebra Connection game. Each card describes what happens at a particular point during a game of <em>Going Positive</em>.</p><p> For each equation:</p><ol><li>Find the missing number(s) x or y.</li><li>What information does the equation provide about what happened to the team and their current score?</li></ol><p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "eZBgP2BJF7WfkDH0",
+          "providerId": "QPRUJYeE7gB__xye",
+          "dataSet": {
+            "id": "LRHEqc1XpPgrC05m",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "Q4SbyKs4TX7cgJGX",
+                "clientKey": "",
+                "name": "Point Value",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "200",
+                  "150",
+                  "50",
+                  "50"
+                ],
+                "title": ""
+              },
+              {
+                "id": "u3yfRUYWQM3zpm7_",
+                "clientKey": "",
+                "name": "Answer",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Correct",
+                  "Incorrect",
+                  "Correct",
+                  "Correct"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "cHKd9ng9a92a5-BJ"
+              },
+              {
+                "__id__": "dbQhzU0xbjUNUgM-"
+              },
+              {
+                "__id__": "xaudYR3qkzshpQn9"
+              },
+              {
+                "__id__": "xuMa_gUARQ811la_"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "QPRUJYeE7gB__xye"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "nYnVRajqhhkXI33R",
+          "providerId": "8NRG3M4VOX4_c7qt",
+          "dataSet": {
+            "id": "9eKaDtyUPFseoXYz",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "HCDA9JvOvEj0Fv7s",
+                "clientKey": "",
+                "name": "Point Value",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "50",
+                  "200",
+                  "100",
+                  "150"
+                ],
+                "title": ""
+              },
+              {
+                "id": "pD9yzlSAajTftueQ",
+                "clientKey": "",
+                "name": "Answer",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Incorrect",
+                  "Incorrect",
+                  "Correct",
+                  "Incorrect"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "dlryjxoIBxSlctS_"
+              },
+              {
+                "__id__": "N658J_VKcXJvVckt"
+              },
+              {
+                "__id__": "EArX0xYEyGVJoJCw"
+              },
+              {
+                "__id__": "fDY3crRPGN7z52QU"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "8NRG3M4VOX4_c7qt"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "1a4wAkH-v6FgpHP2",
+          "providerId": "IX92CEGdHWanfN6I",
+          "dataSet": {
+            "id": "x0LrOPo5h16YOHfM",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "n-HMJffu2kHJ5BFa",
+                "clientKey": "",
+                "name": "Point Value",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "100",
+                  "200",
+                  "150",
+                  "50"
+                ],
+                "title": ""
+              },
+              {
+                "id": "N-cTrgz32pPJ9B6p",
+                "clientKey": "",
+                "name": "Answer",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Incorrect",
+                  "Correct",
+                  "Incorrect",
+                  "Incorrect"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "PQPB3kSQ7i324meW"
+              },
+              {
+                "__id__": "Zdd5bbFehRaMBYZD"
+              },
+              {
+                "__id__": "nkG_Grm3Ptx-MQ3D"
+              },
+              {
+                "__id__": "WDwB534Y8zJWTjUR"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "IX92CEGdHWanfN6I"
+        ]
+      }
+    ]
+  }
+}
