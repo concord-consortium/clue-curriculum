@@ -15,7 +15,7 @@
       },
       {
         "id": "Nn3iA7xEgQFLEUgS",
-        "title": "Image 1",
+        "title": "Situation A Number Line",
         "content": {
           "type": "Image",
           "url": "cr/images/picture4.png",
@@ -47,7 +47,7 @@
       [
         {
           "id": "nvKMYNY3G-5nVDs2",
-          "title": "Image 8",
+          "title": "Number Line A",
           "content": {
             "type": "Image",
             "url": "cr/images/a.png",
@@ -56,7 +56,7 @@
         },
         {
           "id": "lLMSA2grDw8m2OPR",
-          "title": "Image 3",
+          "title": "Number Line B",
           "content": {
             "type": "Image",
             "url": "cr/images/b.png",
@@ -67,7 +67,7 @@
       [
         {
           "id": "qOYs1s_LwhLn13Pp",
-          "title": "Image 4",
+          "title": "Number Line C",
           "content": {
             "type": "Image",
             "url": "cr/images/c.png",
@@ -76,7 +76,7 @@
         },
         {
           "id": "PqNcyk_xx7o4KXPD",
-          "title": "Image 5",
+          "title": "Number Line D",
           "content": {
             "type": "Image",
             "url": "cr/images/d.png",
@@ -87,7 +87,7 @@
       [
         {
           "id": "L8NAgZ45KrM6BeuF",
-          "title": "Image 6",
+          "title": "Number Line E",
           "content": {
             "type": "Image",
             "url": "cr/images/e.png",
@@ -96,7 +96,7 @@
         },
         {
           "id": "Re9e7ktIlorfihIr",
-          "title": "Image 7",
+          "title": "Number Line F",
           "content": {
             "type": "Image",
             "url": "cr/images/f.png",
@@ -104,17 +104,60 @@
           }
         }
       ],
-      {
-        "id": "uVKAu5GQGXGfM2vH",
-        "title": "Text 4",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>Equation 1:   20 + n = 10</li><li>Equation 2:   –20 + n = 10</li><li>Equation 3:   20 + n = –10</li><li>Equation 4:   –10 + n = –20</li><li>Equation 5:   10 + n = 20</li><li>Equation 6:   –20 + n = –10</li></ul>"
-          ]
+      [
+        {
+          "id": "jKvwsIpW2iu7cFP6",
+          "title": "Eq. 1",
+          "content": {
+            "type": "Expression",
+            "latexStr": "20+n=10"
+          }
+        },
+        {
+          "id": "s4ODXrrqtN6skS33",
+          "title": "Eq. 2",
+          "content": {
+            "type": "Expression",
+            "latexStr": "-20+n=10"
+          }
         }
-      },
+      ],
+      [
+        {
+          "id": "urPC3s8ccPObVPSZ",
+          "title": "Eq. 3",
+          "content": {
+            "type": "Expression",
+            "latexStr": "20+n=-10"
+          }
+        },
+        {
+          "id": "LnRWjHUGUTmRDQu4",
+          "title": "Eq. 4",
+          "content": {
+            "type": "Expression",
+            "latexStr": "-10+n=-20"
+          }
+        }
+      ],
+      [
+        {
+          "id": "7-X8J9NOvxNpqOuT",
+          "title": "Eq. 5",
+          "content": {
+            "type": "Expression",
+            "latexStr": "10+n=20"
+          }
+        },
+        {
+          "id": "cSohoteFO6Igiygt",
+          "title": "Eq. 6",
+          "content": {
+            "type": "Expression",
+            "latexStr": "-20+n=-10"
+          }
+        }
+      ],
       {
         "id": "PLLL3dTxi7jO0Uux",
         "title": "Text 5",
@@ -127,22 +170,170 @@
         }
       },
       {
-        "id": "jw3q06TlUuoy9FFt",
-        "title": "Image 9",
+        "id": "atSlokeld4b-R-5Q",
+        "title": "If the temeprature starts at 25°F",
         "content": {
-          "type": "Image",
-          "url": "cr/images/table1.png",
-          "filename": "cr/images/table1.png"
+          "type": "Table",
+          "columnWidths": {
+            "kXoirc-63W9dNqoA": 99,
+            "EVuasQU5LTok7cWN": 176,
+            "0JWf4oM9u6KoETSr": 193
+          },
+          "name": "Table 1"
         }
       },
       {
-        "id": "P4satOl65dT42WpP",
-        "title": "Image 10",
+        "id": "FeKFQ-jGtyxGOlkL",
+        "title": "If the temperature starts at -15°F",
         "content": {
-          "type": "Image",
-          "url": "cr/images/table2.png",
-          "filename": "cr/images/table2.png"
+          "type": "Table",
+          "columnWidths": {
+            "lTLjUZYjYT59R7_a": 100,
+            "1PY2yuuFdUb0Mq2_": 177,
+            "7N6anDGUKzcGdc3f": 182
+          },
+          "name": "Table 1"
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "azoB8-LqqwPx_Om8",
+          "providerId": "atSlokeld4b-R-5Q",
+          "dataSet": {
+            "id": "Aethd3ptxvQVAh7y",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "kXoirc-63W9dNqoA",
+                "clientKey": "",
+                "name": "Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Change 1",
+                  "Change 2",
+                  "Change 3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "EVuasQU5LTok7cWN",
+                "clientKey": "",
+                "name": "Temperature Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Rises 10°F",
+                  "Falls 2°F",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "0JWf4oM9u6KoETSr",
+                "clientKey": "",
+                "name": "New temperature reading after change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "-5°F"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "nywjZ3AoFjGsx7FY"
+              },
+              {
+                "__id__": "Z2VlaVICWP2Un41f"
+              },
+              {
+                "__id__": "Yf4sDaGkQc3WHLKz"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "atSlokeld4b-R-5Q"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "6pt3GCtfr6wcGQle",
+          "providerId": "FeKFQ-jGtyxGOlkL",
+          "dataSet": {
+            "id": "Fm0Inu1fWK0q_ugS",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "lTLjUZYjYT59R7_a",
+                "clientKey": "",
+                "name": "Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Change 4",
+                  "Change 5",
+                  "Change 6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1PY2yuuFdUb0Mq2_",
+                "clientKey": "",
+                "name": "Temperature Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "+3°F",
+                  "-10°F",
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "7N6anDGUKzcGdc3f",
+                "clientKey": "",
+                "name": "New temperature reading after change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  "25°F"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "ZQv-u0aar_TFrb3A"
+              },
+              {
+                "__id__": "t-dEZ7QFHnBhTtbn"
+              },
+              {
+                "__id__": "YZ4g2tyGoxZlZXtX"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "FeKFQ-jGtyxGOlkL"
+        ]
       }
     ]
   }
