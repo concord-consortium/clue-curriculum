@@ -2,115 +2,16 @@
   "type": "whatIf",
   "content": {
     "tiles": [
-      [
-        {
-          "id": "D6EOEa6X222T-Owd",
-          "title": "Table 1",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "EFYLk-b2wQPOY4SD": 80,
-              "0wHMG2zPSVJla3Q1": 80
-            },
-            "name": "Table 1"
-          }
-        },
-        {
-          "id": "uROXkMugFHZ6F4jP",
-          "title": "Table 2",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "1hvezmvFIuXQqt1P": 80,
-              "fjw_py0XpKo-63FH": 80
-            },
-            "name": "Table 2"
-          }
-        }
-      ],
       {
-        "id": "CMpzJf43o5gEP3rS",
-        "title": "Drawing 1",
+        "id": "LMmTAC1ReqvyV_E5",
+        "title": "Text 1",
         "content": {
-          "type": "Drawing",
-          "objects": []
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Predicting Signs for Quotients</strong></p><p>Mr. Bernoski’s class was trying to predict the sign for quotients. </p><p>For each group of numbers:</p><ul><li>What do the equations have in common? </li><li>Predict the sign of the quotient.</li><li>Find the value of n.</li></ul>"
+          ]
         }
-      }
-    ],
-    "sharedModels": [
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "c02-EaK1i8W-_pmv",
-          "providerId": "D6EOEa6X222T-Owd",
-          "dataSet": {
-            "id": "iw00QeFjGirghmcw",
-            "name": "Table 1",
-            "attributes": [
-              {
-                "id": "EFYLk-b2wQPOY4SD",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              },
-              {
-                "id": "0wHMG2zPSVJla3Q1",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              }
-            ],
-            "cases": []
-          }
-        },
-        "tiles": [
-          "D6EOEa6X222T-Owd"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "H4cLjFsE8WennOvv",
-          "providerId": "uROXkMugFHZ6F4jP",
-          "dataSet": {
-            "id": "oROKXebvoZlAmlyh",
-            "name": "Table 2",
-            "attributes": [
-              {
-                "id": "1hvezmvFIuXQqt1P",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              },
-              {
-                "id": "fjw_py0XpKo-63FH",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              }
-            ],
-            "cases": []
-          }
-        },
-        "tiles": [
-          "uROXkMugFHZ6F4jP"
-        ]
       }
     ]
   }
