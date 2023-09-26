@@ -1,1 +1,102 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "yAQmhWB5gpOr_U0r",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Mr. Bernoski saved examples of addition equations that his class used in Investigation 1. He put up the posters. He challenges his students to look for patterns. Record equations from Investigation 1 that fit in each category.</p>"
+          ]
+        }
+      },
+      {
+        "id": "BkB-uWrxcIsXw-B7",
+        "title": "Addition Equations from Investigation 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "DCpkEiZS1J5apZNU": 178,
+            "bkZhPgWse1A9V4k4": 152,
+            "JUFpHtdzjYWpaEkk": 172
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "nlRaAT9_kk1qq8YE",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How can you predict whether the sum of two integers is negative, positive, or equal to zero? Explain your reasoning using equations, number lines, or chip boards. </li><li>What strategy can you use to find the sum? Does it work in each case? Explain.</li></ul>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5HK09oOlTV_6dCJF",
+          "providerId": "BkB-uWrxcIsXw-B7",
+          "dataSet": {
+            "id": "XS6-vA9rG_EyMxqi",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "DCpkEiZS1J5apZNU",
+                "clientKey": "",
+                "name": "Sums that are Negative",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "bkZhPgWse1A9V4k4",
+                "clientKey": "",
+                "name": "Sums that are equal to Zero",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "JUFpHtdzjYWpaEkk",
+                "clientKey": "",
+                "name": "Sums that equal Postive",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "YnZOvUxdx7Mc5KT-"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "BkB-uWrxcIsXw-B7"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
