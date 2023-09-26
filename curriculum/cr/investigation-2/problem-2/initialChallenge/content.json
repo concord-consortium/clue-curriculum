@@ -1,1 +1,92 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "b9PfjRPfIftwZBaS",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Mr. Bernoski saved examples of subtraction equations that his class used in Investigation 1. He put up the posters. He challenges his students to look for patterns. Record equations from Investigation 1 that fit in each category.</p>"
+          ]
+        }
+      },
+      {
+        "id": "gcf56n0yxUnWCWPS",
+        "title": "Equations from Investigation 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "7_gWF-F8gzmsxc9V": 143,
+            "LwyiBGO2dI9uRIBs": 152,
+            "t_x8qxV8eFnKOJUJ": 169
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "Nl-_xDpfN2Bv1QMy",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How can you predict whether the difference of two integers is negative, positive, or equal to zero? Explain your reasoning using equations, number lines, or chip boards. </li><li>What strategy can you use to find the difference? Does it work in each case? Explain.</li></ul>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "yxwpDndeDHCUWQbL",
+          "providerId": "gcf56n0yxUnWCWPS",
+          "dataSet": {
+            "id": "wR58AkWqVdy4jW1b",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "7_gWF-F8gzmsxc9V",
+                "clientKey": "",
+                "name": "Differences that are Negative",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "LwyiBGO2dI9uRIBs",
+                "clientKey": "",
+                "name": "Differences that are equal to Zero",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "t_x8qxV8eFnKOJUJ",
+                "clientKey": "",
+                "name": "Differences that equal Positive",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "gcf56n0yxUnWCWPS"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
