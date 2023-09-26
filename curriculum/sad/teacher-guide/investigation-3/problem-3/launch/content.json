@@ -3,56 +3,109 @@
   "content": {
     "tiles": [
       {
+        "id": "-6mzMbrbLG1msPy1",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem Overview</strong></p><p>The goal of Problem 3.3 is to add another piece of information that will help students in constructing geometric shapes by developing student understanding of the concept of exterior angle and to apply that idea to reasoning from another perspective, about interior angles of polygons. Defining interior and exterior angles is a nontrivial task. It may be helpful for students to see that the interior and exterior angles at a vertex are always supplementary. An interesting fact emerges—the sum of the exterior angles of a polygon is always 360º. Intuitively, this may not be surprising. That is, if you start at one vertex and walk completely around the polygon to the starting vertex, you have in essence done a 360º rotation.</p><p>In all of the preceding work with angles and polygons, we have focused student attention on convex figures, making all interior angles of measure less than 180°. As the star and arrowhead polygons shown in the Student Edition indicate, there are some figures that seem to qualify as polygons but involve interior angles greater than a straight angle. These shapes are briefly visited as an interesting contrast.</p>"
+          ]
+        }
+      },
+      {
+        "id": "08XLn7JNm30hr3Hv",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>AoL</strong></p><p>Generalizing and Using Properties of Polygons: <em>Analysis/Synthesis</em></p><p>Algebraic Expressions and Equations: <em>Analysis</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "6-779M_wT1RWPsMM",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Emerging Mathematical Ideas</strong></p><p>Analyze and draw conclusions about the sum of the exterior angles of any polygon and the relationship between the sums of exterior angles and she ¬-um of interior angles. </p><p>Analyze relationships in a variety of polygons to notice: </p><ul><li>while the sum of the interior angles of polygons changes depending on the numbers of sides, the sum of the exterior angles of any polygon is always 360°,</li><li>each pair of interior and exterior angles on a polygon forms a straight angle (or are supplementary or equals 180°), </li><li>using the observation above, you can find the total sum of interior and exterior angles of a polygon by multiplying the number of sides (n) times 180°</li><li>the total sum of interior and exterior angles can be used as another way to find the sum of the interior angles (S), that is S= 180°(n) – 360°, and</li><li>use these equations, knowledge of tiling, and angle relationships (supplementary, complementary, vertical) to solve multi-step problems.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "RUlJoaOgVGsDAEsQ",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>NWDYK</strong></p><p>What do you know about the exterior angles of a polygon? How might this knowledge be useful?</p>"
+          ]
+        }
+      },
+      {
         "id": "YepDxNovHZqWtEhq",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Launch (Getting Started)</strong></u></p>",
-            "<p><u>Connecting to Prior Knowledge</u></p>",
-            "<p>Describe the Problem to the class. Ask students to compare the ideas to Problem 3.2. Have the class identify the similar triangles and find the corresponding angles and sides. You may want to introduce the term nested in the Launch for this Problem to describe the two triangles pictured in Problem 3.3 in the Student Edition. It is a handy, though nontechnical, way to describe a smaller triangle within a larger triangle, where the triangles share an angle.  (Language)</p>",
-            "<p>In the two previous Problems, we used the fact that if two triangles have congruent corresponding angles, then the triangles are similar. This is not generally true for other polygons. Explain why this is not true for parallelograms or rectangles. ( All rectangles have four 90° angles, yet not all rectangles are similar. Corresponding side lengths in two rectangles can have different scale factors. Likewise, for any parallelogram, we can stretch just one pair of sides, as in the diagram below. The parallelogram maintains the same angles but results in a figure that is not similar to the original.) </p>"
-          ]
-        }
-      },
-      {"id": "XaQzwanwb_Qorb9z", "title": "Nonsimilar parallelograph with similar triangles", "content": {"type": "Image", "url": "sas/images/SASTG_3-3_connecting_to_prioir_knowledge_1.png"}},
-      {
-        "id": "OT9zY5ryC79Qxuvp",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": ["<p><strong>Suggested Questions</strong></p>", "<ul><li>What shapes do you see on the diagram?</li><li>What measurements do you need? </li></ul>Refer to Problem 3.1 and the Rep-tiling with triangles. Do you see nested triangles in this rep-tile? Where?"]
-        }
-      },
-      {
-        "id": "RC3UieLB15VxqHaO",
-        "title": "Rep-tiled triangle",
-        "content": {
-          "type": "Geometry",
-          "board": {"properties": {"axisMin": [-4.186, -2.093], "axisRange": [26.23, 17.486], "axisNames": ["x", "y"], "axisLabels": ["x", "y"]}},
-          "objects": [
-            {"type": "point", "parents": [1, 10.008111338797814], "properties": {"id": "IMav4NSL51yAx2cW", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [1.006617144808743, -0.011740095628415048], "properties": {"id": "WaQmRcXAjS6as7VI", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [9, 10.008111338797814], "properties": {"id": "fqFFfArr0yCYZJ3K", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "polygon", "parents": ["IMav4NSL51yAx2cW", "WaQmRcXAjS6as7VI", "fqFFfArr0yCYZJ3K"], "properties": {"id": "6XU2YDR00D7gA--b"}},
-            {"type": "point", "parents": [5, 5], "properties": {"id": "ibra8nKjqADwKLiq", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [5, 10], "properties": {"id": "4QncjKswHDWPVSnP", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "point", "parents": [1, 5], "properties": {"id": "2YPLz3SsOv5QwWCR", "snapToGrid": true, "snapSizeX": 0.1, "snapSizeY": 0.1}},
-            {"type": "polygon", "parents": ["ibra8nKjqADwKLiq", "4QncjKswHDWPVSnP", "2YPLz3SsOv5QwWCR"], "properties": {"id": "YqqUEnzvRliI6dmb"}}
+            "<p><u><strong>Launch (Getting Started)</strong></u></p><p><u>Connecting to Prior Knowledge</u></p><p>Have students study the figures in which exterior angles have been drawn. By doing this, students should be clear about the concept of exterior angles. Point out that there are two possible exterior angles at any vertex of a polygon. When looking for a pattern in the measures of exterior angles for any specific polygon, it will help to study angles that are drawn in a consistent direction (counterclockwise or clockwise). Although students have been told to measure angles counterclockwise, Figure 2 shows walking around a polygon in a clockwise direction. If students notice this, you can discuss that they can think of these angles as having the same measurement. The important thing is that the sides have to be extended in the same direction – either all clockwise or all counterclockwise.</p><p>Show the class an example of an exterior and interior angle of a polygon.  These two angles come in pairs. Students might note that the sum of their measures is 180º. The interior and exterior angles at a vertex are always supplementary.</p>"
           ]
         }
       },
       {
-        "id": "YJ6oeERZMx9HX5Oa",
+        "id": "f2xMzyeB47hVA5iz",
+        "title": "Interior and exterior angles of a polygon",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": ["<p><strong>Note:</strong> In general, it is true that if the corresponding angles of two triangles are congruent, then the triangles are similar. In this Unit, we assume that this theorem is true. A proof for the theorem is developed in 8th grade.  </p>"]
+          "type": "Image",
+          "url": "sad/images/sd-3.3-intro-pic-1.png",
+          "filename": "sad/images/sd-3.3-intro-pic-1.png"
         }
       },
       {
-        "id": "kyy53dkYjEjn3hb-",
-        "content": {"type": "Text", "format": "html", "text": ["<p><u>Presenting the Challenge</u></p>", "<p>Have the students use the diagram to find the distance across the river.  Make sure they provide explanations for their methods. Have students work with a partner on this problem.  </p>"]}
+        "id": "rkTRjUzN4dZoWENM",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Tell the class that there are two sets of exterior angles depending on how you extend the sides of a polygon. The important thing is that the sides have to be extended in the same direction—either all clockwise or all counterclockwise. (Language)</p>"
+          ]
+        }
+      },
+      {
+        "id": "3XEKntpminZD-5MW",
+        "title": "Two sets of exterior angles",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/sd-3.3-intro-pic-2.png",
+          "filename": "sad/images/sd-3.3-intro-pic-2.png"
+        }
+      },
+      {
+        "id": "aiFyfJIrPGHjBNtw",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Presenting the Challenge</u></p><p>Ask the class if any of them have done any cycling. You might ask them how angles or the language of angles are used in cycling.</p><p>Tell the class about the cyclist who is cycling around a track in the shape of a pentagon. You might demonstrate this with a pentagon.</p><ul><li>As the cyclist turns the first corner at vertex B, what angle of turn is made? (About 85º. Student measurements may vary slightly but should be around 85º.)</li></ul><p>You can also tape a large pentagon on the floor that resembles the pentagon in the Initial Challenge and have students simulate going around it and making the left turns through an exterior angle.  (Portrayal)</p><p>Tell the class that their challenge is to find how many degrees the cyclist bikes through as she bikes once around a pentagon-shaped track. Tell the class that the cyclist is going counterclockwise around the track. See the counterclockwise figure above.</p>"
+          ]
+        }
+      },
+      {
+        "id": "4DXRU0WfJQHV01tH",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Have students work on Problem 3.3 in partners. <strong>Learning Aid 3.3A: Pentagonal Path</strong> may be helpful for some students.</p><p><strong>Implementation Note</strong>:  You may want to divide up the three claims in What If Situation A among the groups to save time. They can share their findings in the Summary.</p>"
+          ]
+        }
       }
     ]
   }
