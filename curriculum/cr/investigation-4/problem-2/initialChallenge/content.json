@@ -1,1 +1,124 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "D4as3lPYLFLFHQmM",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Kim is planning to start her own bicycle tune-up business. She needs $800 to buy new tools and parts. She charges $50 for each tune-up. She wants to know how many tune-ups it will take to buy the new tools and make a profit. So, she makes a chart.</p>"
+          ]
+        }
+      },
+      {
+        "id": "nuBsiQdCQF5VVaiC",
+        "title": "Kim's Chart",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "vwR0gN2-JJhM-MSc": 138,
+            "Rm3xKSPPxwMZvPgt": 123
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "QP7yoUISI8Njb9yx",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Find the values that complete the table. </li><li>How many tune-ups will make enough money to pay the $800 to buy new tools?</li><li>How many tune-ups does she need to start making a profit? How could she show this on a number line?</li><li>After looking at the table and number line, Kim writes the equation:</li><li><em>P </em>= 50<em>n</em> – 800. <em>P</em> represents the profit and <em>n</em> is the number Tune-ups. </li><li>Does this equation make sense? Explain why. </li><li>Kim’s friend said that she will make a profit when 50<em>n</em> – 800 &gt; 0. Does this make sense? Explain. </li></ul>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "nSarC2G_NMXAyHAa",
+          "providerId": "nuBsiQdCQF5VVaiC",
+          "dataSet": {
+            "id": "aCSIigE-Sqzg4JLU",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "vwR0gN2-JJhM-MSc",
+                "clientKey": "",
+                "name": "Number of Tune-Ups",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "25",
+                  "",
+                  "n"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Rm3xKSPPxwMZvPgt",
+                "clientKey": "",
+                "name": "Total Revenue",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "oMjjVcAY8wApvizB"
+              },
+              {
+                "__id__": "OjJvDrXYfg90EfMW"
+              },
+              {
+                "__id__": "FC12_4r17Lj1n3XU"
+              },
+              {
+                "__id__": "FmCbvMCxcV_WHDbj"
+              },
+              {
+                "__id__": "vMjw4QgN9ya80xyD"
+              },
+              {
+                "__id__": "0_CX3u-KSzcbLsDV"
+              },
+              {
+                "__id__": "h_Zq2_4ZnRXqjsYV"
+              },
+              {
+                "__id__": "crpzmRn7uDRKAbNq"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "nuBsiQdCQF5VVaiC"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
