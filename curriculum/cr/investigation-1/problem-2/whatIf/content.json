@@ -273,6 +273,18 @@
         }
       ],
       {
+        "id": "vkdS_y4eDSIcDH2u",
+        "title": "Text 15",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li><strong>Sunday</strong> → Number Line <strong>B</strong> → Eq. <strong>3</strong> </li><li><strong>Monday</strong> → Number Line <strong>E</strong> → Eq. <strong>6</strong></li><li><strong>Tuesday</strong> → Number Line<strong> D</strong> → Eq. <strong>2</strong></li><li><strong>Wednesday</strong> → Number Line <strong>F</strong> → Eq. <strong>4</strong></li><li><strong>Thursday</strong> → Number Line <strong>A </strong>→ Eq. <strong>1</strong></li><li><strong>Friday</strong> → Number Line <strong>C</strong> → Eq. <strong>5</strong></li></ul><p>Note: It is important for students to remember that n represents the change from one number to another. It represents both the distance and the increase or decrease of the number. </p><p>For example, with Equation 1 and Number Line A, n “tells us” that the original value will change by a decrease of 10 (we represent this with a -10). </p>"
+          ]
+        }
+      },
+      {
         "id": "PLLL3dTxi7jO0Uux",
         "title": "Text 5",
         "content": {
@@ -297,6 +309,20 @@
         }
       },
       {
+        "id": "5J51X7X3BDR3d9Ny",
+        "title": "If the temeprature starts at 25°F",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "tTRSP-JOMD4Gymzn": 99,
+            "_QWWm6lWFFTC6lWi": 176,
+            "LUxPZp1WfcNGxQqm": 193
+          },
+          "name": "Table 1"
+        }
+      },
+      {
         "id": "FeKFQ-jGtyxGOlkL",
         "title": "If the temperature starts at -15°F",
         "content": {
@@ -305,6 +331,20 @@
             "lTLjUZYjYT59R7_a": 100,
             "1PY2yuuFdUb0Mq2_": 177,
             "7N6anDGUKzcGdc3f": 182
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "BuP7O8KwReaKKu_o",
+        "title": "If the temperature starts at -15°F",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "R73hjnob6AAbVYF_": 100,
+            "JYn1BrqHn4ki2ShS": 258,
+            "iFwlTmZV6An8aJLr": 233
           },
           "name": "Table 1"
         }
@@ -447,6 +487,144 @@
         },
         "tiles": [
           "FeKFQ-jGtyxGOlkL"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "NUSONJKsvHcMCF6j",
+          "providerId": "5J51X7X3BDR3d9Ny",
+          "dataSet": {
+            "id": "PFavFOimVammkVsg",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "tTRSP-JOMD4Gymzn",
+                "clientKey": "",
+                "name": "Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Change 1",
+                  "Change 2",
+                  "Change 3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "_QWWm6lWFFTC6lWi",
+                "clientKey": "",
+                "name": "Temperature Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Rises 10°F",
+                  "Falls 2°F",
+                  "Falls 30°F, 25 + -30 = -5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "LUxPZp1WfcNGxQqm",
+                "clientKey": "",
+                "name": "New temperature reading after change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "35°F because 25 + 10 = 35",
+                  "23°F because 25 + -2 = 23",
+                  "-5°F"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HBP1VRWDR66CQWQYHXA2VE2F"
+              },
+              {
+                "__id__": "01HBP1VRWDR66CQWQYHXA2VE2G"
+              },
+              {
+                "__id__": "01HBP1VRWDR66CQWQYHXA2VE2H"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "5J51X7X3BDR3d9Ny"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "rW5UlXfavZJT_aIR",
+          "providerId": "BuP7O8KwReaKKu_o",
+          "dataSet": {
+            "id": "XFZWBWZM220P0o39",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "R73hjnob6AAbVYF_",
+                "clientKey": "",
+                "name": "Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Change 4",
+                  "Change 5",
+                  "Change 6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "JYn1BrqHn4ki2ShS",
+                "clientKey": "",
+                "name": "Temperature Change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "+3°F",
+                  "-10°F",
+                  "40°F, -15 + 40 = 25 OR 25 - 40 = -15"
+                ],
+                "title": ""
+              },
+              {
+                "id": "iFwlTmZV6An8aJLr",
+                "clientKey": "",
+                "name": "New temperature reading after change",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "-12°F because -15 + 3 = -12",
+                  "-25°F because -15 + -10 = -25",
+                  "25°F"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HBP1VY01WM0848DARSNQSFY3"
+              },
+              {
+                "__id__": "01HBP1VY01WM0848DARSNQSFY4"
+              },
+              {
+                "__id__": "01HBP1VY01WM0848DARSNQSFY5"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "BuP7O8KwReaKKu_o"
         ]
       }
     ]
