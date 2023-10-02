@@ -25,7 +25,7 @@
     "defaultDocumentType": "problem",
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
+        "numFormat": ".2~f",
         "tools": ["link-tile","delete"]
       },
       "graph": {
@@ -33,9 +33,9 @@
           "bottom": "Categories",
           "left": "Counts"
         },
-        "emptyPlotIsNumeric": false,
+        "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true,
-        "defaultSeriesLegend": false,
+        "defaultSeriesLegend": true,
         "connectPointsByDefault": false
       }
     },
@@ -496,7 +496,7 @@
             "investigation-3/problem-2/analyze/content.json"
 
           ]
-        } 
+        }
       ]
     }
   ]
