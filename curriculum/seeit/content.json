@@ -3,7 +3,6 @@
   "abbrevTitle": "SI",
   "title": "See It?",
   "subtitle": "Sensors and Internet of Things",
-  "defaultSimulation": "terrarium",
   "config": {
     "enableHistoryRoles": [
       "teacher"
@@ -25,6 +24,9 @@
         },
         "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true
+      },
+      "simulator": {
+        "defaultSimulation": "terrarium"
       }
     },
     "learningLog": {
