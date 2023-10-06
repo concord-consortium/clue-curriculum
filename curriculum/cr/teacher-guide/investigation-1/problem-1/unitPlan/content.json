@@ -701,22 +701,25 @@
         }
       },
       {
-        "id": "77Su4UhEmQ_BeRq6",
-        "title": "Text 32",
+        "id": "x61GKC4XbEDiDjZm",
+        "title": "Text 34",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>There are alternative ways to think about multiplying signed numbers, including taking advantage of the <em>commutative property for multiplication</em>, and the repeated addition meaning of multiplication, and patterning.</p><p>Multiplication is commutative, so the following expressions are all equivalent.</p>"
+            "<p>There are alternative ways to think about multiplying signed numbers, including taking advantage of the commutative property for multiplication, and the repeated addition meaning of multiplication, and patterning.</p><p>For example,</p><p>3・2 = 6</p><p>3・1 = 3</p><p>3・0 = 0</p><p>Following the pattern of results above,</p><p>3・(-1) = -3</p><p>This can also be modeled as (-1) + (-1) + (-1).</p><p>3・(-2) = -6</p><p>3・(-3) = -9</p><p>etc.</p>"
           ]
         }
       },
       {
-        "id": "fA3U1lQqPNWCOGHA",
-        "title": "Commutative multiplication example",
+        "id": "_wDzDzMHlziKaA5-",
+        "title": "Text 35",
         "content": {
-          "type": "Expression",
-          "latexStr": "3\\times\\left(-2\\right)=\\left(-2\\right)\\times3=-6"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>As another example,</p><p>Multiplication is commutative, so 3・(-2) = -6 is equivalent to (-2)・3 = -6</p><p>(-2)・2 = -4</p><p>(-2)・1 = -2</p><p>(-2)・0 = 0</p><p>Now following the patter of results above</p><p>(-2)・(-1) = 2</p><p>(-2)・(-2) = 4</p><p>etc.</p>"
+          ]
         }
       },
       {
@@ -726,8 +729,32 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>Generalizing the multiplication algorithm</strong></p>"
           ]
+        }
+      },
+      {
+        "id": "LshsSICYS-9x3B48",
+        "title": "If both a and b are positive",
+        "content": {
+          "type": "Expression",
+          "latexStr": "ab=+\\left(\\left|a\\right|\\right)\\left(\\left|b\\right|\\right)"
+        }
+      },
+      {
+        "id": "sdad0bzc-ActA3SL",
+        "title": "If both a and b are negative",
+        "content": {
+          "type": "Expression",
+          "latexStr": "ab=+\\left(\\left|a\\right|\\right)\\left(\\left|b\\right|\\right)"
+        }
+      },
+      {
+        "id": "eb8u_SRuqoDzlFny",
+        "title": "If one of a or b is negative",
+        "content": {
+          "type": "Expression",
+          "latexStr": "ab=-\\left(\\left|a\\right|\\right)\\left(\\left|b\\right|\\right)"
         }
       }
     ]
