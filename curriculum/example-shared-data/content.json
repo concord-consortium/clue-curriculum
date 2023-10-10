@@ -27,7 +27,7 @@
         }
       ],
       "tiles": [
-        {"content": {"type": "Text", "text": "My plain text on the right 2"}},
+        {"content": {"type": "Text", "text": "My plain text on the right"}},
         {"id": "ocE9IDDQyJInnvVH", "title": "Table 1", "content": {"type": "Table", "name": "Table 1"}},
         {
           "id": "7PaV91x-dBRFVZsc",
@@ -36,6 +36,14 @@
             "type": "Geometry",
             "board": {"properties": {"axisMin": [-4.049, -2.232], "axisRange": [36.592, 19.71]}},
             "objects": [{"type": "polygon", "parents": ["HR3at2-RqvnRaT9z:yGRYwwl0l_VBAvBB", "O3SmGUb4iRPw29HU:yGRYwwl0l_VBAvBB", "76WRbhQpTu2Wqy1c:yGRYwwl0l_VBAvBB"], "properties": {"id": "cWoEx64CKz1q6gdJ"}}]
+          }
+        },
+        {
+          "id": "def456",
+          "title": "Circumference",
+          "content": {
+            "type": "Expression",
+            "latexStr": "c=\\pi d"
           }
         }
       ]
@@ -80,7 +88,7 @@
       {"id": "Geometry", "title": "Geometry", "isTileTool": true},
       {"id": "DataCard", "title": "DataCard", "isTileTool": true},
       {"id": "Table", "title": "Table", "isTileTool": true},
-      {"id": "Expression", "title": "Expression", "isTileTool": true},
+      {"id": "Expression", "title": "Math Expression", "isTileTool": true},
       {
         "id": "Dataflow",
         "title": "Dataflow",

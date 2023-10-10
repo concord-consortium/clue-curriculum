@@ -4,39 +4,255 @@
   "title": "Moving Straight Ahead",
   "subtitle": "Linear Expressions, Equations, and Relationships",
   "config": {
-    "enableHistoryRoles": ["teacher"],
-    "placeholderText": "Enter notes here",
-    "stamps": [
-      {"url": "msa/stamps/coin.png", "width": 25, "height": 25},
-      {"url": "msa/stamps/pouch.png", "width": 30, "height": 37},
-      {"url": "msa/stamps/plus.png", "width": 25, "height": 25},
-      {"url": "msa/stamps/equals.png", "width": 25, "height": 25},
-      {"url": "msa/stamps/lparen.png", "width": 25, "height": 25},
-      {"url": "msa/stamps/rparen.png", "width": 25, "height": 25}
+    "enableHistoryRoles": [
+      "teacher"
     ],
-    "settings": {"table": {"numFormat": ".2~f"}}
+    "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Data Graph",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Geometry Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "stamps": [
+      {
+        "url": "msa/stamps/coin.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "msa/stamps/pouch.png",
+        "width": 30,
+        "height": 37
+      },
+      {
+        "url": "msa/stamps/plus.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "msa/stamps/equals.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "msa/stamps/lparen.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "msa/stamps/rparen.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+       "part-to-part": "Part-to-Part",
+       "part-to-whole": "Part-to-Whole",
+       "unit-rate": "Unit Rate",
+       "guess-and-check": "Guess and Check",
+       "none": "None"
+    },
+     "tagPrompt": "Select Student Strategy"
   },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
-    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
-    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
-    "didYouKnow": {"initials": "DY", "title": "Did You Know?", "placeholder": "Work area for\nDid You Know? section"},
-    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
-    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
-    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"},
-    "MathReflection4": {"initials": "R4", "title": "Math Reflection 4", "placeholder": "Work area for\nMathematical Reflection 4 section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "didYouKnow": {
+      "initials": "DY",
+      "title": "Did You Know?",
+      "placeholder": "Work area for\nDid You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "MathReflection4": {
+      "initials": "R4",
+      "title": "Math Reflection 4",
+      "placeholder": "Work area for\nMathematical Reflection 4 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "unitPlan": {
+        "initials": "UP",
+        "title": "Unit Plan",
+        "placeholder": "Work area for\nUnit Plan section"
+      },
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "unitPlan"
+      },
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
@@ -50,7 +266,12 @@
           "title": "MSA 1.1 Using Walking Rates to Explore Linear Relationships",
           "subtitle": "",
           "disabled": [],
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/initialChallenge/content.json", "investigation-1/problem-1/whatIf/content.json", "investigation-1/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -67,10 +288,56 @@
                       ]
                     }
                   },
-                  {"id": "s_KJIm8HsrCE9cB5", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe how the distance you walk at a constant rate of time is represented in an equation and graph.</p>"]}},
-                  {"id": "rdKJWfuqac3oZLAs", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Introduce Algebraic Expressions</em> and Equations: <em>Introduce/Explore</em></p>"]}},
-                  {"id": "w-yOsBa4nRfknzf7", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Linear relationship</p>", "<p>Linear<strong></strong></p>"]}},
-                  {"id": "BiOQwpjKUVVRgiij", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Meter sticks</p>", "<p>Timers</p>"]}},
+                  {
+                    "id": "s_KJIm8HsrCE9cB5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe how the distance you walk at a constant rate of time is represented in an equation and graph.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "rdKJWfuqac3oZLAs",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Introduce Algebraic Expressions</em> and Equations: <em>Introduce/Explore</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "w-yOsBa4nRfknzf7",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Linear relationship</p>",
+                        "<p>Linear<strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "BiOQwpjKUVVRgiij",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Meter sticks</p>",
+                        "<p>Timers</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "ECUsQOEE0Vc6Q6Mp",
                     "title": "Text 1",
@@ -187,7 +454,12 @@
           "ordinal": 2,
           "title": "MSA 1.2 Walking Rates",
           "subtitle": "Exploring Linear Relationships with Tables, Graphs, and Equations",
-          "sections": ["investigation-1/problem-2/introduction/content.json", "investigation-1/problem-2/initialChallenge/content.json", "investigation-1/problem-2/whatIf/content.json", "investigation-1/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -204,13 +476,61 @@
                       ]
                     }
                   },
-                  {"id": "5ND7KmNTM-SxVce1", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you recognize a linear pattern of change in a verbal context, a table, a graph, an expression, or an equation? </p>"]}},
-                  {"id": "SHfrBp8Uxm7eL4kX", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Introduce &amp; Algebraic </em>Expressions and Equations: <em>Explore</em></p>"]}},
-                  {"id": "Wo008pZ9tu-AK_2S", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Equivalent expressions</p>", "<p>Rate of change<strong></strong></p>"]}},
+                  {
+                    "id": "5ND7KmNTM-SxVce1",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you recognize a linear pattern of change in a verbal context, a table, a graph, an expression, or an equation? </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "SHfrBp8Uxm7eL4kX",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Introduce &amp; Algebraic </em>Expressions and Equations: <em>Explore</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Wo008pZ9tu-AK_2S",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Equivalent expressions</p>",
+                        "<p>Rate of change<strong></strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "dWA5hw2n8tdxztmu",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 1.2        </p>", "<p>Three Students Walking Rates</p>", "<p>Colored pencils or markers</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 1.2        </p>",
+                        "<p>Three Students Walking Rates</p>",
+                        "<p>Colored pencils or markers</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
                   },
                   {
                     "id": "XCYsma12Pqh0VPG0",
@@ -332,7 +652,12 @@
           "ordinal": 3,
           "title": "MSA 1.3 Raising Money",
           "subtitle": "Using Linear Relationships to Solve Problems",
-          "sections": ["investigation-1/problem-3/introduction/content.json", "investigation-1/problem-3/initialChallenge/content.json", "investigation-1/problem-3/whatIf/content.json", "investigation-1/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -352,11 +677,53 @@
                   {
                     "id": "HGtHaFWbqHwbh-aL",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you predict where the graph of a linear relationship intersects the y-axis from a context , table, or equation that represent the relationship?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you predict where the graph of a linear relationship intersects the y-axis from a context , table, or equation that represent the relationship?</p>"
+                      ]
+                    }
                   },
-                  {"id": "6bWd9CV5iALIOfF-", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Explore &amp; Algebraic</em> Expressions and Equations: <em>Analysis</em></p>"]}},
-                  {"id": "BPT-H64X7O_V7wAf", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "54IJgw8cio8Z9H7D", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 1.3        </p>", "<p>Three Students Pledge</p>", "<p></p>", "<p>Colored pencils or markers</p>"]}},
+                  {
+                    "id": "6bWd9CV5iALIOfF-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Explore &amp; Algebraic</em> Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "BPT-H64X7O_V7wAf",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "54IJgw8cio8Z9H7D",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 1.3        </p>",
+                        "<p>Three Students Pledge</p>",
+                        "<p></p>",
+                        "<p>Colored pencils or markers</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "xD4AYKXOWE-CS2Yi",
                     "title": "Text 1",
@@ -468,7 +835,12 @@
           "ordinal": 4,
           "title": "MSA 1.4 Walkathon Money",
           "subtitle": "Expressing Linear Relationships and Proportionality",
-          "sections": ["investigation-1/problem-4/introduction/content.json", "investigation-1/problem-4/initialChallenge/content.json", "investigation-1/problem-4/whatIf/content.json", "investigation-1/problem-4/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-4/introduction/content.json",
+            "investigation-1/problem-4/initialChallenge/content.json",
+            "investigation-1/problem-4/whatIf/content.json",
+            "investigation-1/problem-4/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -485,10 +857,57 @@
                       ]
                     }
                   },
-                  {"id": "lWQFIHBmLf4jfN1Y", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>If a relationship is linear, how can you tell if the pattern of change is decreasing, increasing, or neither?</p>"]}},
-                  {"id": "HQlEfuklz14oj_OQ", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Explore</em>  Algebraic Expressions and Equations: <em>Analysis</em></p>"]}},
-                  {"id": "sxax1UmFCiuQShrh", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "o5izKFHOx6fAQ2-6", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "lWQFIHBmLf4jfN1Y",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>If a relationship is linear, how can you tell if the pattern of change is decreasing, increasing, or neither?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "HQlEfuklz14oj_OQ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Explore</em>  Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "sxax1UmFCiuQShrh",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "o5izKFHOx6fAQ2-6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "RoZshxS-RrVQSwMN",
                     "title": "Text 1",
@@ -611,7 +1030,12 @@
           "ordinal": 1,
           "title": "MSA 2.1 Henri and Emile’s Race",
           "subtitle": "Developing Strategies to Find a Solution",
-          "sections": ["investigation-2/problem-1/introduction/content.json", "investigation-2/problem-1/initialChallenge/content.json", "investigation-2/problem-1/whatIf/content.json", "investigation-2/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -628,13 +1052,60 @@
                       ]
                     }
                   },
-                  {"id": "g_xGeUo5Y5faKWeU", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe some strategies for solving problems that involve linear relationships.</p>"]}},
-                  {"id": "GDd6T6-DpY7oOK70", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Explore/Analysis</em> &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"]}},
-                  {"id": "y6wyzCJ9aH-s51IT", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "g_xGeUo5Y5faKWeU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe some strategies for solving problems that involve linear relationships.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "GDd6T6-DpY7oOK70",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Explore/Analysis</em> &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "y6wyzCJ9aH-s51IT",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "MchSED5ItCl3A3xp",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Teaching Aid 2.1A</p>", "<p>Emile &amp; Henri’s Race</p>", "<p></p>", "<p>Teaching Aid 2.1B</p>", "<p>Amit’s Claims</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Teaching Aid 2.1A</p>",
+                        "<p>Emile &amp; Henri’s Race</p>",
+                        "<p></p>",
+                        "<p>Teaching Aid 2.1B</p>",
+                        "<p>Amit’s Claims</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
                   },
                   {
                     "id": "F4jJuhfdkZktscOo",
@@ -758,7 +1229,12 @@
           "ordinal": 2,
           "title": "MSA 2.2 Comparing Cost Relationships",
           "subtitle": "Using Tables and Graphs to Solve Problems",
-          "sections": ["investigation-2/problem-2/introduction/content.json", "investigation-2/problem-2/initialChallenge/content.json", "investigation-2/problem-2/whatIf/content.json", "investigation-2/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-2/introduction/content.json",
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -778,11 +1254,55 @@
                   {
                     "id": "YsE3hD7yTMo4mFep",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How do you know if the ordered pair of numbers for a point on a graph or table is a solution to an equation? How can you use a table or graph to find a solution for an equation?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How do you know if the ordered pair of numbers for a point on a graph or table is a solution to an equation? How can you use a table or graph to find a solution for an equation?</p>"
+                      ]
+                    }
                   },
-                  {"id": "FCj0bhGwA_nD26SO", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Analysis  &amp; Algebraic Expressions</em> and Equations: <em>Analysis</em></p>"]}},
-                  {"id": "APyK9UrSHDuQVJlf", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Solution of equation</p>"]}},
-                  {"id": "AQAG1MmUhpaSUi_3", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Teaching Aid 2.2A </p>", "<p>Introduction</p>", "<p></p>", "<p>Teaching Aid 2.2B</p>", "<p>T-Shirts</p>"]}},
+                  {
+                    "id": "FCj0bhGwA_nD26SO",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Analysis  &amp; Algebraic Expressions</em> and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "APyK9UrSHDuQVJlf",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Solution of equation</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "AQAG1MmUhpaSUi_3",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Teaching Aid 2.2A </p>",
+                        "<p>Introduction</p>",
+                        "<p></p>",
+                        "<p>Teaching Aid 2.2B</p>",
+                        "<p>T-Shirts</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "XXGaR5Z_l3jcHFm8",
                     "title": "Text 1",
@@ -890,7 +1410,12 @@
           "ordinal": 3,
           "title": "MSA 2.3 Connecting Tables, Graphs, and Equations to Solutions",
           "subtitle": "",
-          "sections": ["investigation-2/problem-3/introduction/content.json", "investigation-2/problem-3/initialChallenge/content.json", "investigation-2/problem-3/whatIf/content.json", "investigation-2/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -907,9 +1432,41 @@
                       ]
                     }
                   },
-                  {"id": "cyx_H6LIbfipjNZw", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe the advantages and disadvantages of using tables, graphs, and symbolic methods to solve equations.</p>"]}},
-                  {"id": "8yP9NC30aDW0kqB5", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Analysis </em>&amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"]}},
-                  {"id": "vuCerC_vuKgjExon", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "cyx_H6LIbfipjNZw",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe the advantages and disadvantages of using tables, graphs, and symbolic methods to solve equations.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "8yP9NC30aDW0kqB5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Analysis </em>&amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "vuCerC_vuKgjExon",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "sVaj5EjezmjR6ioX",
                     "title": "Text 1",
@@ -1053,7 +1610,12 @@
           "ordinal": 1,
           "title": "MSA 3.1 Mystery Pouches",
           "subtitle": "Exploring Equality",
-          "sections": ["investigation-3/problem-1/introduction/content.json", "investigation-3/problem-1/initialChallenge/content.json", "investigation-3/problem-1/whatIf/content.json", "investigation-3/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1076,18 +1638,51 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p>", "<p>Pouches that hold an unknown number of coins and coins are represented with an equation. What strategies can you use to find the number of coins in each pouch? How do you know if your answer is correct?</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Pouches that hold an unknown number of coins and coins are represented with an equation. What strategies can you use to find the number of coins in each pouch? How do you know if your answer is correct?</p>"
+                      ]
                     }
                   },
-                  {"id": "mP9aBY_gJS0cEbUi", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Explore</em>  &amp; Algebraic Expressions and Equations: <em>Explore</em></p>"]}},
-                  {"id": "HDK0R-jn_uJfrB6K", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "mP9aBY_gJS0cEbUi",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Explore</em>  &amp; Algebraic Expressions and Equations: <em>Explore</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "HDK0R-jn_uJfrB6K",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "uvsuoom5OH8xp_GN",
                     "title": "Text 1",
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 3.1         </p>", "<p>Pouches and Coins</p>", "<p></p>", "<p>Teaching Aid 3.1A      </p>", "<p>Alana’s Earnings</p>", "<p>Teaching Aid 3.1B       </p>", "<p>Nicole’s Strategy</p>"]
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 3.1         </p>",
+                        "<p>Pouches and Coins</p>",
+                        "<p></p>",
+                        "<p>Teaching Aid 3.1A      </p>",
+                        "<p>Alana’s Earnings</p>",
+                        "<p>Teaching Aid 3.1B       </p>",
+                        "<p>Nicole’s Strategy</p>"
+                      ]
                     }
                   },
                   {
@@ -1210,7 +1805,12 @@
           "ordinal": 2,
           "title": "MSA 3.2 From Pouches to Variables",
           "subtitle": "Writing and Solving Equations",
-          "sections": ["investigation-3/problem-2/introduction/content.json", "investigation-3/problem-2/initialChallenge/content.json", "investigation-3/problem-2/whatIf/content.json", "investigation-3/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1230,11 +1830,49 @@
                   {
                     "id": "WpIkupo3s3eJNZHT",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe how the strategies you used to find the number of coins in a pouch is similar to finding the value of a variable in an equation.</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe how the strategies you used to find the number of coins in a pouch is similar to finding the value of a variable in an equation.</p>"
+                      ]
+                    }
                   },
-                  {"id": "yUiYEoLVtQiNvm1l", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Analysis</em>  &amp; Algebraic Expressions and Equations: <em>Explore</em></p>"]}},
-                  {"id": "7YNGIowosvsTPpjK", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "XV_3mVmkLGLSCGBL", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>"]}},
+                  {
+                    "id": "yUiYEoLVtQiNvm1l",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Analysis</em>  &amp; Algebraic Expressions and Equations: <em>Explore</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "7YNGIowosvsTPpjK",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "XV_3mVmkLGLSCGBL",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "FkUsp_3QLG17jCg7",
                     "title": "Text 1",
@@ -1350,7 +1988,12 @@
           "ordinal": 3,
           "title": "MSA 3.3 Solving Linear Equations",
           "subtitle": "",
-          "sections": ["investigation-3/problem-3/introduction/content.json", "investigation-3/problem-3/initialChallenge/content.json", "investigation-3/problem-3/whatIf/content.json", "investigation-3/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1367,10 +2010,57 @@
                       ]
                     }
                   },
-                  {"id": "RSawBX_qWPs5zhHt", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe the strategies you can use to solve linear equations using the properties of operations and equality. </p>"]}},
-                  {"id": "0u-Cdmup2WqWB5Bc", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Analysis</em> &amp;  Algebraic Expressions and Equations: <em>Explore/Analysis</em></p>"]}},
-                  {"id": "zAUBDVIpce91cgL5", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Properties of equality</p>"]}},
-                  {"id": "-nZN95h3T75ZW3Or", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Teaching Aid 3.3A                </p>", "<p>Set 3 Student Thinking</p>", "<p></p>", "<p>Teaching Aid 3.3B     Situation A</p>"]}},
+                  {
+                    "id": "RSawBX_qWPs5zhHt",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe the strategies you can use to solve linear equations using the properties of operations and equality. </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "0u-Cdmup2WqWB5Bc",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Analysis</em> &amp;  Algebraic Expressions and Equations: <em>Explore/Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "zAUBDVIpce91cgL5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Properties of equality</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "-nZN95h3T75ZW3Or",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Teaching Aid 3.3A                </p>",
+                        "<p>Set 3 Student Thinking</p>",
+                        "<p></p>",
+                        "<p>Teaching Aid 3.3B     Situation A</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "h62I5y8Zr8ltJ_Bq",
                     "title": "Text 1",
@@ -1492,8 +2182,28 @@
           "ordinal": 4,
           "title": "MSA 3.4 The Point of Intersection",
           "subtitle": "Using Equations and Inequalities",
-          "sections": ["investigation-3/problem-4/introduction/content.json", "investigation-3/problem-4/initialChallenge/content.json", "investigation-3/problem-4/whatIf/content.json", "investigation-3/problem-4/nowWhatDoYouKnow/content.json"],
-          "config": {"planningTemplate": {"overview": {"tiles": []}, "launch": {"tiles": []}, "explore": {"tiles": []}, "summarize": {"tiles": []}}}
+          "sections": [
+            "investigation-3/problem-4/introduction/content.json",
+            "investigation-3/problem-4/initialChallenge/content.json",
+            "investigation-3/problem-4/whatIf/content.json",
+            "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": []
+              },
+              "explore": {
+                "tiles": []
+              },
+              "summarize": {
+                "tiles": []
+              }
+            }
+          }
         }
       ]
     },
@@ -1507,7 +2217,12 @@
           "ordinal": 1,
           "title": "MSA 4.1 Preparing for the Walkathon",
           "subtitle": "Using the Ratio of Rise to Run",
-          "sections": ["investigation-4/problem-1/introduction/content.json", "investigation-4/problem-1/initialChallenge/content.json", "investigation-4/problem-1/whatIf/content.json", "investigation-4/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-1/introduction/content.json",
+            "investigation-4/problem-1/initialChallenge/content.json",
+            "investigation-4/problem-1/whatIf/content.json",
+            "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1527,11 +2242,54 @@
                   {
                     "id": "vjHOSimBmi9AhiTy",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How does the steepness of stairs expressed as a ratio relate to a straight-line graph? To the linear rate of change? To a linear equation that represents the graph?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How does the steepness of stairs expressed as a ratio relate to a straight-line graph? To the linear rate of change? To a linear equation that represents the graph?</p>"
+                      ]
+                    }
                   },
-                  {"id": "Asg1U7QkSY_7MdH5", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Analysis</em> &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"]}},
-                  {"id": "Dd053eKmsO8raiFm", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "etgWV5sBmTXHX3-y", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Stair Measurement Table</p>", "<p>Tape measure or ruler</p>", "<p></p>", "<p>Teaching Aid 4.1</p>", "<p>Stairs on a Graph</p>"]}},
+                  {
+                    "id": "Asg1U7QkSY_7MdH5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Analysis</em> &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Dd053eKmsO8raiFm",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "etgWV5sBmTXHX3-y",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Stair Measurement Table</p>",
+                        "<p>Tape measure or ruler</p>",
+                        "<p></p>",
+                        "<p>Teaching Aid 4.1</p>",
+                        "<p>Stairs on a Graph</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "dQrrbU0mgxgM3qFQ",
                     "title": "Text 1",
@@ -1636,7 +2394,12 @@
           "ordinal": 2,
           "title": "MSA 4.2 After the Walkathon",
           "subtitle": "",
-          "sections": ["investigation-4/problem-2/introduction/content.json", "investigation-4/problem-2/initialChallenge/content.json", "investigation-4/problem-2/whatIf/content.json", "investigation-4/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-2/introduction/content.json",
+            "investigation-4/problem-2/initialChallenge/content.json",
+            "investigation-4/problem-2/whatIf/content.json",
+            "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1656,15 +2419,55 @@
                   {
                     "id": "z5auKj2yjFyS-3vw",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How do the situations in this Problem compare to other Problems in the Unit?  In what ways are tables, graphs, equations, and inequalities useful for solving problems?</p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How do the situations in this Problem compare to other Problems in the Unit?  In what ways are tables, graphs, equations, and inequalities useful for solving problems?</p>"
+                      ]
+                    }
                   },
                   {
                     "id": "Lu3kyVHWd2n5izIO",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: </p>", "<p><em>Analysis/Synthesis</em> &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>", "<p></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: </p>",
+                        "<p><em>Analysis/Synthesis</em> &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>",
+                        "<p></p>"
+                      ]
+                    }
                   },
-                  {"id": "zGjXfnVEoz6ifzZ2", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Slope</p>", "<p>Rate of change<strong></strong></p>"]}},
-                  {"id": "J9007JGs_XN023vU", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Teaching Aid 4.2</p>", "<p>A Set of Stairs</p>"]}},
+                  {
+                    "id": "zGjXfnVEoz6ifzZ2",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Slope</p>",
+                        "<p>Rate of change<strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "J9007JGs_XN023vU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Teaching Aid 4.2</p>",
+                        "<p>A Set of Stairs</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "zVywpt9GupJbeyV3",
                     "title": "Text 1",
@@ -1779,7 +2582,11 @@
           "ordinal": 3,
           "title": "MSA 4.3 Pulling it All Together",
           "subtitle": "",
-          "sections": ["investigation-4/problem-3/initialChallenge/content.json", "investigation-4/problem-3/whatIf/content.json", "investigation-4/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-4/problem-3/initialChallenge/content.json",
+            "investigation-4/problem-3/whatIf/content.json",
+            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1796,10 +2603,57 @@
                       ]
                     }
                   },
-                  {"id": "UXiCViZ9d896UYcM", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe some strategies for recognizing equivalent representations.</p>"]}},
-                  {"id": "nOE2kFsOZY6s0sm7", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Synthesis</em>  &amp; Algebraic Expressions and Equations: <em>Synthesis</em></p>"]}},
-                  {"id": "HmS7wDBY-Gjxi9bI", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "nJPOm0JPNQC6Vj-J", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 4.3A</p>", "<p>Pulling It All Together Matching</p>", "<p></p>", "<p>Learning Aid 4.3B</p>", "<p>Equivalent Equations</p>"]}},
+                  {
+                    "id": "UXiCViZ9d896UYcM",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe some strategies for recognizing equivalent representations.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "nOE2kFsOZY6s0sm7",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Synthesis</em>  &amp; Algebraic Expressions and Equations: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "HmS7wDBY-Gjxi9bI",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "nJPOm0JPNQC6Vj-J",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 4.3A</p>",
+                        "<p>Pulling It All Together Matching</p>",
+                        "<p></p>",
+                        "<p>Learning Aid 4.3B</p>",
+                        "<p>Equivalent Equations</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "S_laHaUrPJUedD0y",
                     "title": "Text 1",
@@ -1918,7 +2772,12 @@
           "ordinal": 1,
           "title": "Moving Straight Ahead Mathematical Reflections",
           "subtitle": "",
-          "sections": ["investigation-5/problem-1/MathReflection1/content.json", "investigation-5/problem-1/MathReflection2/content.json", "investigation-5/problem-1/MathReflection3/content.json", "investigation-5/problem-1/MathReflection4/content.json"],
+          "sections": [
+            "investigation-5/problem-1/MathReflection1/content.json",
+            "investigation-5/problem-1/MathReflection2/content.json",
+            "investigation-5/problem-1/MathReflection3/content.json",
+            "investigation-5/problem-1/MathReflection4/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1935,14 +2794,57 @@
                       ]
                     }
                   },
-                  {"id": "REMNBsuD9QsugMnM", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Mathematical Reflection</strong></p>", "<p>What do you know about linear relationships, expressions, equations, and inequalities?</p>"]}},
-                  {"id": "KXlug7w-CVrB0zL-", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Linear Relationships: <em>Explore</em>  &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"]}},
+                  {
+                    "id": "REMNBsuD9QsugMnM",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Mathematical Reflection</strong></p>",
+                        "<p>What do you know about linear relationships, expressions, equations, and inequalities?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "KXlug7w-CVrB0zL-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Linear Relationships: <em>Explore</em>  &amp; Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "NfzQF_83g_y9udCY",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Linear Relationship</p>", "<p>Linear</p>", "<p>Equivalent expressions</p>", "<p>Rate of Change</p>", "<p>y-intercept<strong></strong></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Linear Relationship</p>",
+                        "<p>Linear</p>",
+                        "<p>Equivalent expressions</p>",
+                        "<p>Rate of Change</p>",
+                        "<p>y-intercept<strong></strong></p>"
+                      ]
+                    }
                   },
-                  {"id": "DwbEsQ6WfluLS9am", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>"]}},
+                  {
+                    "id": "DwbEsQ6WfluLS9am",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "rNlIFXrVPTBZDIoc",
                     "title": "Text 1",
@@ -2041,6 +2943,25 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "description": "MSA ACE Question Bank",
+      "ordinal": 6,
+      "title": "MSA ACE 1 - ACE 4",
+      "problems": [
+        {
+          "description": "SAS ACE Question Banks",
+          "ordinal": 1,
+          "title": "SAS ACE Question Banks",
+          "subtitle": "",
+          "sections": [
+            "investigation-6/problem-1/ACE1/content.json",
+            "investigation-6/problem-1/ACE2/content.json",
+            "investigation-6/problem-1/ACE3/content.json",
+            "investigation-6/problem-1/ACE4/content.json"
+          ]
         }
       ]
     }

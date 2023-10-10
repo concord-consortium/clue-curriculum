@@ -8,28 +8,112 @@
       "teacher"
     ],
     "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
     "stamps": [
       {
-        "url": "msa/stamps/plus.png",
+        "url": "sad/stamps/blackChip.png",
         "width": 25,
         "height": 25
       },
       {
-        "url": "msa/stamps/equals.png",
-        "width": 25,
-        "height": 25
-      },
-      {
-        "url": "msa/stamps/lparen.png",
-        "width": 25,
-        "height": 25
-      },
-      {
-        "url": "msa/stamps/rparen.png",
-        "width": 25,
-        "height": 25
+        "url": "sad/stamps/redChip.png",
+        "width": 30,
+        "height": 37
       }
-    ]
+    ],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+      "part-to-part": "Part-to-Part",
+      "part-to-whole": "Part-to-Whole",
+      "unit-rate": "Unit Rate",
+      "guess-and-check": "Guess and Check",
+      "none": "None"
+    },
+    "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -117,7 +201,21 @@
         "title": "Summarize",
         "placeholder": "Work area for\nSummarize section"
       }
-    }
+    },
+    "sections": [
+      {
+        "type": "unitPlan"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
@@ -136,7 +234,126 @@
             "investigation-1/problem-1/initialChallenge/content.json",
             "investigation-1/problem-1/whatIf/content.json",
             "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "ts_UTjYmsFlg1rYT",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.1 Designing Triangles: The Side Connections</strong></p><p>This Problem develops student understanding of the basic facts that in a triangle the sum of any two sides must be greater than the third; and that once three acceptable side lengths have been chosen, there is only one triangular shape with those side lengths. In the Initial Challenge students use Polystrips to find side lengths that will make triangles.  The What If Situations will have them examine some specific triangles. </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ZlyF6-C1OgJbJtoP",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What combinations of three side lengths can be used to make a triangle? How many different triangles are possible for each combination?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "PEyxRaJVyxtlLXgQ",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Introduction/Exploration</em></p><p>Algebraic Expressions and Equations: <em>Introduction</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "wy9de70uUTZ7s4QZ",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Polygons</p><p>Regular Polygons</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "yrGSQjQfDhAe-ZRI",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 1: Paper Polystrips (optional)</p><p>Learning Aid 1.1: Building Triangles</p><p>Polystrips and fasteners or digital polystrips</p><p>Virtual polystrips (alternate): <a href=\"https://media.pk12ls.com/curriculum/math/cmp3/activities/A82391/index.html\">https://media.pk12ls.com/curriculum/math/cmp3/activities/A82391/index.html</a></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "J084eLxsrK3xCd0P",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-3</p><p><strong>A</strong> #1-6</p><p><strong>C</strong> #15-16</p><p><strong>E</strong> #21</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "OgMQV_NK_HmAFsMr",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Language</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>As you are going over the Looking Ahead spend time discussing polygons and regular polygons.  You might find it useful to initiate work on the Investigation by asking students where they have seen triangles used in structures and then why they think those extra braces are used. </p><p><strong>Suggested question</strong></p><ul><li>What is it that makes triangles so common in construction?</li></ul><p><em>Teacher Moves: Fist to Five, Make a Prediction</em></p><p>PRESENTING THE CHALLENGE</p><p>It is a good idea to demonstrate how to use the polystrips and how to make a triangle given the lengths. First, choose three numbers under 20, such as 6, 8, 12.  Build a triangle with the polystrips using those numbers as side lengths.  Then have each group build a 6-8-12 triangle.  Check to see that each group knows how to fasten the strips together to represent the lengths. </p><p>Once they are comfortable with how to use the polystrips, have students work in groups of 2 -3 to complete this problem for other triangles to choose the lengths of sides for their possible triangles you could have students roll a number cube. </p><p><strong>Suggested question</strong></p><ul><li>Will any three side lengths make a triangle? </li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "BGwXXM-c5Uoi8s_7",
+                    "title": "Text 10",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Restating</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Make sure students produce sample sets of side lengths that can be used for constructing a triangle and other sample sets that cannot be used. Have students record the sets of side lengths that can be used to make a triangle versus those that cannot, so that they may draw their own conclusions from the data collected. As students continue to explore types of triangles using polystrips, encourage them to try to find patterns in the side lengths of the triangles they find. Asking students to restate how another person describes their conjecture can help a group to decide how to write it symbolically. For What If Situation A, some students may need some reminders of the definitions of equilateral, isosceles and right triangles</p><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating take note of the conjectures students have on the combinations of three side lengths that can be used to make a triangle.  Encourage students to look for patterns in the data they have collected.   Choose several examples from students that will make triangles and examples that will not to use in the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "Zqgk8RmFC7BH6JNS",
+                    "title": "Text 11",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Claim, Support, Question</em></p><p>SOLUTIONS AND STRATEGIES</p><p>The most important result from this Problem is to answer the question, “What combinations of side lengths can and cannot be used to make a triangle?” Students should be able to articulate, in reasonably clear language, the principle that the sum of any two side lengths must always be greater than the third side length. They should be able to give an argument about why that is true, accompanied by a demonstration with polystrips.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested questions</strong></p><ul><li>Can we come up with a summary statement that would help someone who is not here today know how to judge whether three lengths will make a triangle without actually building the triangle? </li><li>Which sets of side lengths form a triangle? Why? </li><li>Do any of these triangles have special properties? Describe them. </li><li>For What if Situation A, how could Giraldo make his triangular doorframe?  </li><li>Do you have any What If questions?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.2",
@@ -148,7 +365,257 @@
             "investigation-1/problem-2/initialChallenge/content.json",
             "investigation-1/problem-2/whatIf/content.json",
             "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "m9o-MBQOohen6X82",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.2 Designing Quadrilaterals: The Side Connection</strong></p><p>The objective of this Problem is to extend the Triangle Inequality Property into a somewhat parallel result for quadrilaterals. The Initial Challenge will have students building quadrilaterals with different side lengths.  The What If Situations will look at conjectures, reveal the fact that quadrilaterals are not rigid figures and investigate other polygons.  </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ZI8nelBoIHjKH41L",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe what you learned from experiments in building triangles and quadrilaterals. How are different polygons similar and different? How do the differences explain the frequent use of triangles when building structures?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "dg1Gb1lS6VenJMAk",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Exploration</em></p><p>Algebraic Expressions and Equations: <em>Introduction/Exploration</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "_mTfobHge5VCoy7-",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p><strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TPRWIu0mHPcLl8yy",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 1: Paper Polystrips (optional)</p><p>Learning Aid 1.2: Building Quadrilaterals</p><p>Polystrips and fasteners or digital polystrips</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "nbpz7eD0Zc0gYi8_",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-3</p><p><strong>A</strong> #7-12</p><p><strong>C</strong> #17-18</p><p><strong>E</strong> #22</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "2A3tK0QOamqapWXF",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Discuss that the results of the sum of two side lengths is greater than the third side length for triangles and the uniqueness of the Side-Side-Side condition for triangles that students found in Problem 1.1.</p><p><em>Teacher Moves: Make Predictions</em></p><p>PRESENTING THE CHALLENGE</p><p><strong>Suggested question</strong></p><ul><li>Can you make a quadrilateral using any four lengths for the sides? If so, is the shape unique?</li></ul><p>Tell students they are going to conduct an experiment to gather data to help answer this question. They will look for relationships that will let them predict whether four line segments will make a quadrilateral without building it. </p><p>Explain to students that keeping an accurate record of their data is very important because it allows them to recreate examples as evidence of what they discovered.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "qBu71uMvnlRbd6lE",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As students work on the Initial Challenge, make sure students keep the question, “Can you make a quadrilateral using any four lengths for the sides?” in mind. Encourage them to consider different arrangements of side lengths and to record differences in the shapes that may occur. Also, encourage students to make sketches of their quadrilaterals.</p><p>For What If Situation A, you may want to have half the room investigate pentagons and half the room investigate hexagons. Some groups may want to investigate other polygons as well.</p><p>PLANNING FOR THE SUMMARY</p><p>As students are working on making quadrilaterals look for examples that will make a quadrilateral and ones that do not. Use these examples in the Summary. Listen for the way students are talking about the side lengths necessary to create a quadrilateral.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "6zaJOSRe_j0wKnId",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Gallery Walk</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Each part of this Problem focuses on an important property of polygons, so it will be important to review student answers. You can start with a Gallery Walk for the Initial Challenge. Students should be able to justify answers to the questions: </p><ul><li>Can any four lengths form a quadrilateral? </li><li>What is unique about the four side lengths that can be used build squares? Rectangles? Parallelograms?</li></ul><p><em>Teacher Moves: Language</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>A summary of strategies for finding different quadrilaterals from a given set of side lengths should come from the discussion. Two powerful strategies that focus on different aspects of what determines a quadrilateral are the following:</p><ul><li>Put the set of lengths together in different orders.  (This technique highlights the role of side lengths in determining a shape.)</li><li>Build a quadrilateral from polystrips. Alter its shape by pressing on the sides or vertices of the quadrilateral.  A quadrilateral with any give side lengths can form an infinite number of different quadrilaterals.  (This technique highlights the role of angles in determining a shape and the lack of rigidity for quadrilaterals.)</li></ul><p>If four side lengths make a quadrilateral, the shape is not unique. Ask for examples of this and put them on the board or poster paper. As the discussion continues, add other examples with descriptions. </p><p>Ask students to explain and record in their notes a clear answer to the build-and-stress activity questions. Ask whether a quadrilateral is rigid. </p><p>Finally, students should compare the relationships among side lengths of triangles with those of quadrilaterals. You may want to make a poster to show these findings. Include information about angle sums as well. </p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "description": "Problem 1.3",
+          "ordinal": 3,
+          "title": "SAD 1.3 Designing Other Shapes",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "YckI4N8WFhbaPDlr",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.3 Experimenting with Rigidity</strong></p><p>In this Problem students will investigate shapes that aren’t very rigid and how to increase the rigidity with diagonals. Students will conduct an experiment in the Initial Challenge to find that the number of diagonals needed to make a polygon rigid is three less than the number of sides. Students will generalize in words and symbols the relationship between the number of diagonals creating embedded triangles in the polygons which make it rigid.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "-Y3NcXLXnLg6rnZc",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What do you know about the rigidity of shapes and how does this explain the frequent use of triangles in building structures?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "jCg-U3bLAeOA6oiA",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Introduction/Exploration</em></p><p>Algebraic Expressions and Equations: <em>Introduction/Exploration</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "6tvlXzkMc6EIZopq",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p><strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "HENOqr9oJJoe-wHL",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 1.3: Diagonals and Rigidity</p><p>Learning Aid 1.3B: Shapes (optional)</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "JB676XuuOU6aw97N",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2</p><p><strong>A</strong> #13-14</p><p><strong>C</strong> #19-20</p><p><strong>E</strong> #23</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "8xZvj7ySWtvGtGzA",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Revisit What If Situation B from Problem 1.2 on Beatrice’s Experiment with rigidity of triangles and quadrilaterals.</p><p><em>Teacher Moves: Making Predictions</em></p><p>PRESENTING THE CHALLENGE</p><p>Discuss the introduction of Beatrice’s wondering about adding diagonals to make polygons more rigid. </p><p><strong>Suggested questions</strong></p><ul><li>What does it mean to be rigid?</li><li>Are triangles rigid? Quadrilaterals?</li><li>What do you think would happen if you added a diagonal to one of the quadrilaterals you made yesterday?</li></ul><p>Explain the experiment in the Initial Challenge.</p><ul><li>If a polygon with n sides is not rigid, what is the minimum number of diagonals needed to make it rigid?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "GjZ_HT69Ncipj4_N",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Circulate to see that students are building the polygons with diagonals correctly.</p><p><strong>Suggested questions</strong></p><ul><li>How do you know that you have built a _________ (insert name of polygon)?  </li><li>What tells you the shape is rigid? </li><li>Do you see a pattern in the data in your table? </li><li>Does your sketch give you any ideas on how many diagonals are needed?</li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore select student work to use in the Summary that will push the conversation on minimum number of diagonals needed to make a polygon rigid.  Select polygons that students have made of various side lengths to use as examples. Listen for students who are finding the embedded triangles in the polygons as they add the diagonals.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "cJ53pOmd5iS0R0JZ",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share their polygons with diagonals that they made with polystrips.  Have students share the conclusion they found for the minimum number of diagonals needed of an n-gon to make it rigid.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested questions</strong></p><ul><li>Do you agree with _________’s polygon and the number of diagonals they have chosen? </li><li>What did you notice in your sketches of the polygons and the minimum number of diagonals? </li><li>What is the minimum number of diagonals for an n-gon? </li><li>Did this generalization work for a heptagon, octagon and/or nonagon? </li><li>Do you agree with Beatrice?  </li><li>Does Beatrice’s observation about creating embedded triagonal when adding the diagonals appear in the polygons you made with the polystrips? </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -167,7 +634,127 @@
             "investigation-2/problem-1/initialChallenge/content.json",
             "investigation-2/problem-1/whatIf/content.json",
             "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "U2oAxWkjgZNAStdJ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.1 In a Spin: Angles and Rotations</strong></p><p>The goals of this Problem are to develop student understanding of angles as rotations or turns, as a geometric shape, and their awareness of common benchmark angles, the multiples of 30° and 45°.  In the Initial Challenge students will play a game called Four In A Row where the object is to get four in a row on a circular grid with 30° or 45° intervals.  In the What If Situations students will use this understanding to estimate given angles and draw angles. </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "z1F0baX3aAXX3wA2",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How are benchmark angles useful in solving problems?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "EJB7oU7e6JmCWOYH",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Exploration/Analysis</em></p><p>Algebraic Expressions and Equations: <em>Exploration</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "NC-4RSbhovi3y42r",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Angle</p><p>Degree</p><p>Right angle</p><p>Angle measures</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "JtHJ-LOaqzx9Mqgw",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 2.1A: Four in a Row</p><p>Learning Aid 2.1B: Angles</p><p>Teaching Aid 2.1: Introduction to Angle Measures</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "3M1JtB0lSWYK8gns",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1-2 Days</p><p><strong>Groups</strong></p><p>2</p><p><strong>A</strong> #1-6</p><p><strong>C</strong> #20-22</p><p><strong>E</strong> #28-29</p>"
+                      ]
+                    }
+                  }
+
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "OgMQV_NK_HmAFsMr",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Language</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>As you are going over the Looking Ahead spend time discussing polygons and regular polygons.  You might find it useful to initiate work on the Investigation by asking students where they have seen triangles used in structures and then why they think those extra braces are used. </p><p><strong>Suggested question</strong></p><ul><li>What is it that makes triangles so common in construction?</li></ul><p><em>Teacher Moves: Fist to Five, Make a Prediction</em></p><p>PRESENTING THE CHALLENGE</p><p>It is a good idea to demonstrate how to use the polystrips and how to make a triangle given the lengths. First, choose three numbers under 20, such as 6, 8, 12.  Build a triangle with the polystrips using those numbers as side lengths.  Then have each group build a 6-8-12 triangle.  Check to see that each group knows how to fasten the strips together to represent the lengths. </p><p>Once they are comfortable with how to use the polystrips, have students work in groups of 2 -3 to complete this problem for other triangles to choose the lengths of sides for their possible triangles you could have students roll a number cube. </p><p><strong>Suggested question</strong></p><ul><li>Will any three side lengths make a triangle? </li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "BGwXXM-c5Uoi8s_7",
+                    "title": "Text 10",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Restating</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Make sure students produce sample sets of side lengths that can be used for constructing a triangle and other sample sets that cannot be used. Have students record the sets of side lengths that can be used to make a triangle versus those that cannot, so that they may draw their own conclusions from the data collected. As students continue to explore types of triangles using polystrips, encourage them to try to find patterns in the side lengths of the triangles they find. Asking students to restate how another person describes their conjecture can help a group to decide how to write it symbolically. For What If Situation A, some students may need some reminders of the definitions of equilateral, isosceles and right triangles</p><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating take note of the conjectures students have on the combinations of three side lengths that can be used to make a triangle.  Encourage students to look for patterns in the data they have collected.   Choose several examples from students that will make triangles and examples that will not to use in the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "Zqgk8RmFC7BH6JNS",
+                    "title": "Text 11",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Claim, Support, Question</em></p><p>SOLUTIONS AND STRATEGIES</p><p>The most important result from this Problem is to answer the question, “What combinations of side lengths can and cannot be used to make a triangle?” Students should be able to articulate, in reasonably clear language, the principle that the sum of any two side lengths must always be greater than the third side length. They should be able to give an argument about why that is true, accompanied by a demonstration with polystrips.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested questions</strong></p><ul><li>Can we come up with a summary statement that would help someone who is not here today know how to judge whether three lengths will make a triangle without actually building the triangle? </li><li>Which sets of side lengths form a triangle? Why? </li><li>Do any of these triangles have special properties? Describe them. </li><li>For What if Situation A, how could Giraldo make his triangular doorframe?  </li><li>Do you have any What If questions?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.2",
@@ -179,7 +766,126 @@
             "investigation-2/problem-2/initialChallenge/content.json",
             "investigation-2/problem-2/whatIf/content.json",
             "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [ 
+                  {
+                    "id": "OaTQfjJQqxKRSGIz",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.2 The Bee Dance and Amelia Earhart: Measuring Angles and Distances</strong></p><p>The goal of this Problem is to develop student understanding of two standard tools for angle measurement—the goniometer or angle ruler and the protractor. The contexts of the bee dance in the Initial Challenge and Amelia Earhart’s fateful journey in the What If Situations give a context for the purpose of accuracy in angle measurement.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "1HauXd6lc2a_3SjK",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What are the advantages and disadvantages of estimating angle measures? What are the advantages and disadvantages of using a protractor or angle ruler to measure an angle?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "-8oaGtpe_FTuyu4w",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Exploration/Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "-IL2O4ary_Zw_joL",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p><strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "JW1s7dpuhO2K8Opz",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 2.2A: Bees and Angle Measurements</p><p>Learning Aid 2.2B: Amelia Earhart</p><p>Teaching Aid 2.2: Using an Angle Ruler</p><p>Teacher Connection Videos (optional): <a href=\"https://www.youtube.com/watch?v=-7ijI-g4jHg\"></a></p><ul><li><a href=\"https://www.youtube.com/watch?v=-7ijI-g4jHg\">https://www.youtube.com/watch?v=-7ijI-g4jHg</a> </li><li><a href=\"https://www.youtube.com/watch?v=bFDGPgXtK-U\">https://www.youtube.com/watch?v=bFDGPgXtK-U</a> </li></ul>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "GEFAtF9LQ-NHp8br",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1-2 Days</p><p><strong>Groups</strong></p><p>2</p><p><strong>A</strong> #7-12</p><p><strong>C</strong> #23-25</p><p><strong>E</strong> #30-31</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [ 
+                  {
+                    "id": "Xhu3b3kQyrs7dYRM",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Draw an angle and ask students to estimate its measure. Before students use a tool to measure an angle, they should have a reasonable estimate of the angle’s size so that they can tell if they have measured incorrectly. Tell students that in this Problem, they will use tools to measure the size of angles.</p><p>PRESENTING THE CHALLENGE</p><p>Introduce the tools, angle ruler and protractor.  Demonstrate measuring an angle using each tool. The angle ruler reinforces angles as rotations, encourage students to use it as they are learning about angle measures being the opening between the two rays. Students are probably more familiar with protractors; however, to make sure students are using them correctly, you will need to review how to use them.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "PUeS4AbAbVAy2Qx7",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Problem Solving Environment</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As students use an angle ruler, monitor their work to be sure that they are placing the angle ruler correctly and reading the measures accurately. Since the tool is easily flipped over and the arms interchanged, be aware of the importance of placing the arm with the scale on it down first. It needs to be placed over the initial side of the angle, with the rivet over the vertex, before rotating the other arm counterclockwise to the terminal side. If students use a protractor, ask them to check their answer with the goniometer/angle ruler and vice versa. This gives them practice with both tools.</p><p>As students are working on the What If Situation B table and equation about Amelia Earhart’s journey, refer them back to their work with equations in 6th grade, <em>Comparing Quantities</em> or <em>Variables and Patterns</em>.</p><p>PLANNING FOR SUMMARY</p><p>As students are working on this Problem, look for how students are using the tools to measure angles accurately. Have students demonstrate how they find the angle measures.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "07npQ9qroEOsmHLK",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Language</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share the angle measures they found for the Initial Challenge and explain their strategies for using the tools.  Have students share their angle measures and distance measures for the What If on Amelia Earhart’s journey.</p><p><em>Teacher Moves: Compare Thinking, I Used to Think... Now I Think...</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Have students report their findings in a class discussion. Take time to explore all the strategies they used to arrive at their answers.</p><p>Have students record their measurements for some of the angles. Look for large discrepancies. If large discrepancies occur, have the group measure again. Discuss what might account for any differences in the measurements. In this discussion, students will begin to understand the issues involved in making precise measurements; relate this to the fateful journey of Amelia Earhart.  </p><p><strong>Suggested questions </strong></p><ul><li>How do you decide the number of degrees for angles between the 5° intervals on the angle ruler?</li><li>What things do you check to make sure you are making accurate measurements?</li><li>We didn’t always get the same measurements.  Why did this happen?</li></ul><p>Have students complete this sentence: “I used to think angles and angle measurement was…” and “Now, I think angles and angle measurement is…” to gain insight on their current understanding. </p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                 ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.3",
@@ -191,7 +897,126 @@
             "investigation-2/problem-3/initialChallenge/content.json",
             "investigation-2/problem-3/whatIf/content.json",
             "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "LFrLJpSIvXnmMEWz",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.3 Vertical, Supplementary, and Complementary Angles</strong></p><p>The objective of this Problem is to develop student understanding and skill in working with the vertical, supplemental and complementary angles.  In the Initial Challenge students will investigate the relationship among these angles.  In the What If Situations they will write generalizations and use algebraic expressions about these relationships.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "i1OaYsjcTKlCQU1l",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe what you know about angles formed by intersecting lines. Include parallel lines and the angles formed by a line that intersects the parallel lines in your description.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "JP_Ecu4ovo8ofjW_",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Exploration/Analysis</em></p><p>Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "gsnltmw23D3i_Jib",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Parallel</p><p>Vertical angles</p><p>Supplementary angles</p><p>Complementary angles</p><p>Adjacent angles</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "xEFr9ZOlbYCCcAvI",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 2.3A: Initial Challenge Cases</p><p>Learning Aid 2.3B: What If Situation A</p><p>Learning Aid 2.3C: What If Situations B and C</p><p>Teaching Aid 2.3A: Parallel and Non-Parallel Lines</p><p>Teaching Aid 2.3B: Complement Angles (optional)</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "A3Q8Qrw7q5gJKuNN",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #13-19</p><p><strong>C</strong> #26-27</p><p><strong>E</strong> #32-34</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "MfmNkYlRMVZXHYNH",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Language</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Use Teaching Aid 2.3: Parallel and Non-Parallel Lines to talk about parallel and nonparallel lines. Students were first introduced to parallel lines in elementary school. It will be helpful to briefly review the definitions.</p><p>PRESENTING THE CHALLENGE</p><p>Use the introduction in the student edition to introduce the setting of parallel lines in our lives.  Launch the problem with the suggested question, “<em>How do we determine or construct parallel lines?</em>”</p><p><strong>Note:</strong> Have a brief conversation with students after they&#x27;ve worked on the Initial Challenge</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "bhyjsWlqnive6UBD",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Going Vertical</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Having students stand up and work on a vertical surface during this problem can increase engagement and collaboration between students as they work out the relationships with these angles.</p><p><strong>Suggested questions</strong></p><ul><li>Do any of the angles have the same measurement?  How do you know?</li><li>Could any of the angles help you in finding the measurement of another angle?</li><li>Are there any “special” angles that could help you find relationships? </li><li>Does measuring the angles help you to see any new relationships</li><li>What relationships can help you find the measurements of the angles in What If A? </li><li>In What If Situation C, how did we write and solve equations in Variables and Patterns and Bits of Rational in 6th grade?</li></ul><p>PLANNING FOR THE SUMMARY</p><p>Listen for how students are making sense of vertical, supplementary and complementary angles.  Look for students who are using the relationships formed by a line that intersects the parallel lines versus actually measuring the angles to lead the discussions in the Summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "MUJNm2Z-_wp7WT8M",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share the relationships they found in the Initial Challenge before they work on the What If situations.</p><p><strong>Suggested questions</strong></p><ul><li>What relationships among the vertical angles did you find in the Initial Challenge?</li></ul><p>Have students share their evidence to prove or disprove their conjectures from their work on the What If situations.</p><p><em>Teacher Moves: Compare Thinking, Language</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested questions</strong></p><ul><li>What are some relationships you noticed in the angle measures in What If Situation A?</li><li>Do you agree with Jamal’s claim in What If Situation B?  Why or why not?</li><li>How did you find the value of x for each figure in What If Situation C?</li></ul><p>The variety of relationships among angles formed by parallel lines are very useful to know. Be sure students have those facts figured out (not necessarily by their familiar names of alternate interior, alternate exterior, and corresponding angles). A good way to deal with this in the Summarize might be to present a different sketch other than those offered in the Problem and ask students to start from the measure of just one angle to deduce all the other measures. Have them explain how they know the measure of an angle. </p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -210,7 +1035,126 @@
             "investigation-3/problem-1/initialChallenge/content.json",
             "investigation-3/problem-1/whatIf/content.json",
             "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "nmsRNiQXjBTinrlQ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.1 Back to the Bees: Tiling a Plane</strong></p><p>This Problem uses results about angle measurement in polygons to explain the tiling properties of polygons.  The use of tessellations or tiling will help to solidify ideas that students are forming around characteristics of shapes and in particular angle measurements. In the Initial Challenge students will investigate tiling several  polygons.  In the What If Situations students look at the angle measures of polygons and tiling with more than one polygon.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "v7OI5rYRyC6_N9FL",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Which regular polygons can be used to tile a surface? Explain why they tile. Give some examples of how tiling polygons can be useful.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "D2EuA2hLOmzEjnhD",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "8X4-51TvcJxH_SwL",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Tilings</p><p>Tessellations</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "2x6KjLN9Wcqa6yyL",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Large paper</p><p>Markers</p><p>Learning Aid 3.1A: Polygons to Test for Tiling</p><p>Learning Aid 3.1B: Initial Challenge Table</p><p>Shapes Set (or paper/digital shapes)</p><p>Teaching Aid 3.2: Honeycombs</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "rup3lgM8bDZYn2hk",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #8-10</p><p><strong>C</strong> #26-20</p><p><strong>E</strong> #40</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "GtMHQ_12IYcAHG-1",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Launch the Problem by asking students is they have seen honeycombs made by bees. Ask where they might have seen a similar pattern of hexagons, since it is a very common tile pattern.  </p><p><strong>Suggested questions</strong></p><ul><li>Why do these regular hexagons fit so neatly?  </li><li>What other polygons do you think can be used to tile a surface?</li></ul><p><em>Teacher Moves: Portrayal, Think-Pair-Share</em></p><p>PRESENTING THE CHALLENGE</p><p>Have students begin looking for shapes that will tile independently. Transition them to working with a partner after they’ve had time to experiment on their own. The goal is to find which polygons will tile and why. Have students record their findings on large sheets of paper that show drawings and explanations of their work and/or Learning Aid 3.1B: Initial Challenge Table.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "kGG3Mx-PynBtYRpf",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>It will be helpful for many students to have the plastic shapes. This will give them a tactile and visual sense of what goes wrong with the non-tiling figures.</p><p><strong>Suggested questions </strong></p><ul><li>Could you turn/flip the shape to see if it will fit together and tile?</li><li>What do you notice about the shapes that tile versus the shapes that don’t tile? Do regular polygons and irregular polygons tile?</li><li>What are some examples of polygons that tile?</li><li>What do you notice about where the tiles meet?</li><li>What does that tell us about the measures of the angles around the point?</li></ul><p>Be sure students draw pictures to illustrate their answers.</p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating look for examples of tiling and non-tiling regular polygons for students to share in the Summary.  Listen for the ways that students are generalizing the relationships they’ve found with the angle measures and tiling.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "JrruZ2BLnzbd7MX2",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES</p><p>Have groups share the shapes and combinations of shapes that they found would tile. Focus the discussion on why those work and others did not.</p><p><em>Teacher Moves: Claim, Support, Question</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Students should be able to explain why there are only three regular polygons that tile, using angle measure as part of their argument.  They should also be able to explain why certain combinations of regular polygons work, using angle measures.</p><p><strong>Suggested questions </strong></p><ul><li>When you tried just a single shape, did all of your shapes tile? </li><li>With the shapes that did tile, what is the sum of the measures of the angles around each vertex point in a tiling? </li><li>What happens with the heptagon? </li><li>How did finding the shapes that tile help you with thinking about angle measurements?</li><li>Since we know that triangles, squares, and hexagons tile, what does this tell us about the measure of the angles if those are regular shapes?</li><li>What is the measure of one angle a regular triangle? A square? A regular hexagon?</li><li>What other combinations of shapes tile?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p><p>At the end of this problem, you might want to share one of these videos.  </p><ul><li>What is a Tessellation? (Time 2:20) at <a href=\"https://www.youtube.com/watch?v=7GiKeeWSf4s\">https://www.youtube.com/watch?v=7GiKeeWSf4s</a></li><li>Why do bees love hexagons? (Time 3:58) at <a href=\"https://www.youtube.com/watch?v=QEzlsjAqADA \">https://www.youtube.com/watch?v=QEzlsjAqADA</a></li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.2",
@@ -222,7 +1166,126 @@
             "investigation-3/problem-2/initialChallenge/content.json",
             "investigation-3/problem-2/whatIf/content.json",
             "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "nmsRNiQXjBTinrlQ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.1 Back to the Bees: Tiling a Plane</strong></p><p>This Problem uses results about angle measurement in polygons to explain the tiling properties of polygons.  The use of tessellations or tiling will help to solidify ideas that students are forming around characteristics of shapes and in particular angle measurements. In the Initial Challenge students will investigate tiling several  polygons.  In the What If Situations students look at the angle measures of polygons and tiling with more than one polygon.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "v7OI5rYRyC6_N9FL",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Which regular polygons can be used to tile a surface? Explain why they tile. Give some examples of how tiling polygons can be useful.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "D2EuA2hLOmzEjnhD",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "8X4-51TvcJxH_SwL",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Tilings</p><p>Tessellations</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "2x6KjLN9Wcqa6yyL",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Large paper</p><p>Markers</p><p>Learning Aid 3.1A: Polygons to Test for Tiling</p><p>Learning Aid 3.1B: Initial Challenge Table</p><p>Shapes Set (or paper/digital shapes)</p><p>Teaching Aid 3.2: Honeycombs</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "rup3lgM8bDZYn2hk",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #8-10</p><p><strong>C</strong> #26-20</p><p><strong>E</strong> #40</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "GtMHQ_12IYcAHG-1",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Launch the Problem by asking students is they have seen honeycombs made by bees. Ask where they might have seen a similar pattern of hexagons, since it is a very common tile pattern.  </p><p><strong>Suggested questions</strong></p><ul><li>Why do these regular hexagons fit so neatly?  </li><li>What other polygons do you think can be used to tile a surface?</li></ul><p><em>Teacher Moves: Portrayal, Think-Pair-Share</em></p><p>PRESENTING THE CHALLENGE</p><p>Have students begin looking for shapes that will tile independently. Transition them to working with a partner after they’ve had time to experiment on their own. The goal is to find which polygons will tile and why. Have students record their findings on large sheets of paper that show drawings and explanations of their work and/or Learning Aid 3.1B: Initial Challenge Table.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "kGG3Mx-PynBtYRpf",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>It will be helpful for many students to have the plastic shapes. This will give them a tactile and visual sense of what goes wrong with the non-tiling figures.</p><p><strong>Suggested questions </strong></p><ul><li>Could you turn/flip the shape to see if it will fit together and tile?</li><li>What do you notice about the shapes that tile versus the shapes that don’t tile? Do regular polygons and irregular polygons tile?</li><li>What are some examples of polygons that tile?</li><li>What do you notice about where the tiles meet?</li><li>What does that tell us about the measures of the angles around the point?</li></ul><p>Be sure students draw pictures to illustrate their answers.</p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating look for examples of tiling and non-tiling regular polygons for students to share in the Summary.  Listen for the ways that students are generalizing the relationships they’ve found with the angle measures and tiling.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "JrruZ2BLnzbd7MX2",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES</p><p>Have groups share the shapes and combinations of shapes that they found would tile. Focus the discussion on why those work and others did not.</p><p><em>Teacher Moves: Claim, Support, Question</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Students should be able to explain why there are only three regular polygons that tile, using angle measure as part of their argument.  They should also be able to explain why certain combinations of regular polygons work, using angle measures.</p><p><strong>Suggested questions </strong></p><ul><li>When you tried just a single shape, did all of your shapes tile? </li><li>With the shapes that did tile, what is the sum of the measures of the angles around each vertex point in a tiling? </li><li>What happens with the heptagon? </li><li>How did finding the shapes that tile help you with thinking about angle measurements?</li><li>Since we know that triangles, squares, and hexagons tile, what does this tell us about the measure of the angles if those are regular shapes?</li><li>What is the measure of one angle a regular triangle? A square? A regular hexagon?</li><li>What other combinations of shapes tile?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p><p>At the end of this problem, you might want to share one of these videos.  </p><ul><li>What is a Tessellation? (Time 2:20) at <a href=\"https://www.youtube.com/watch?v=7GiKeeWSf4s\">https://www.youtube.com/watch?v=7GiKeeWSf4s</a></li><li>Why do bees love hexagons? (Time 3:58) at <a href=\"https://www.youtube.com/watch?v=QEzlsjAqADA \">https://www.youtube.com/watch?v=QEzlsjAqADA</a></li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.3",
@@ -234,7 +1297,126 @@
             "investigation-3/problem-3/initialChallenge/content.json",
             "investigation-3/problem-3/whatIf/content.json",
             "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "nmsRNiQXjBTinrlQ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.1 Back to the Bees: Tiling a Plane</strong></p><p>This Problem uses results about angle measurement in polygons to explain the tiling properties of polygons.  The use of tessellations or tiling will help to solidify ideas that students are forming around characteristics of shapes and in particular angle measurements. In the Initial Challenge students will investigate tiling several  polygons.  In the What If Situations students look at the angle measures of polygons and tiling with more than one polygon.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "v7OI5rYRyC6_N9FL",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Which regular polygons can be used to tile a surface? Explain why they tile. Give some examples of how tiling polygons can be useful.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "D2EuA2hLOmzEjnhD",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "8X4-51TvcJxH_SwL",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Tilings</p><p>Tessellations</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "2x6KjLN9Wcqa6yyL",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Large paper</p><p>Markers</p><p>Learning Aid 3.1A: Polygons to Test for Tiling</p><p>Learning Aid 3.1B: Initial Challenge Table</p><p>Shapes Set (or paper/digital shapes)</p><p>Teaching Aid 3.2: Honeycombs</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "rup3lgM8bDZYn2hk",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #8-10</p><p><strong>C</strong> #26-20</p><p><strong>E</strong> #40</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "GtMHQ_12IYcAHG-1",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Launch the Problem by asking students is they have seen honeycombs made by bees. Ask where they might have seen a similar pattern of hexagons, since it is a very common tile pattern.  </p><p><strong>Suggested questions</strong></p><ul><li>Why do these regular hexagons fit so neatly?  </li><li>What other polygons do you think can be used to tile a surface?</li></ul><p><em>Teacher Moves: Portrayal, Think-Pair-Share</em></p><p>PRESENTING THE CHALLENGE</p><p>Have students begin looking for shapes that will tile independently. Transition them to working with a partner after they’ve had time to experiment on their own. The goal is to find which polygons will tile and why. Have students record their findings on large sheets of paper that show drawings and explanations of their work and/or Learning Aid 3.1B: Initial Challenge Table.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "kGG3Mx-PynBtYRpf",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>It will be helpful for many students to have the plastic shapes. This will give them a tactile and visual sense of what goes wrong with the non-tiling figures.</p><p><strong>Suggested questions </strong></p><ul><li>Could you turn/flip the shape to see if it will fit together and tile?</li><li>What do you notice about the shapes that tile versus the shapes that don’t tile? Do regular polygons and irregular polygons tile?</li><li>What are some examples of polygons that tile?</li><li>What do you notice about where the tiles meet?</li><li>What does that tell us about the measures of the angles around the point?</li></ul><p>Be sure students draw pictures to illustrate their answers.</p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating look for examples of tiling and non-tiling regular polygons for students to share in the Summary.  Listen for the ways that students are generalizing the relationships they’ve found with the angle measures and tiling.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "JrruZ2BLnzbd7MX2",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES</p><p>Have groups share the shapes and combinations of shapes that they found would tile. Focus the discussion on why those work and others did not.</p><p><em>Teacher Moves: Claim, Support, Question</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Students should be able to explain why there are only three regular polygons that tile, using angle measure as part of their argument.  They should also be able to explain why certain combinations of regular polygons work, using angle measures.</p><p><strong>Suggested questions </strong></p><ul><li>When you tried just a single shape, did all of your shapes tile? </li><li>With the shapes that did tile, what is the sum of the measures of the angles around each vertex point in a tiling? </li><li>What happens with the heptagon? </li><li>How did finding the shapes that tile help you with thinking about angle measurements?</li><li>Since we know that triangles, squares, and hexagons tile, what does this tell us about the measure of the angles if those are regular shapes?</li><li>What is the measure of one angle a regular triangle? A square? A regular hexagon?</li><li>What other combinations of shapes tile?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p><p>At the end of this problem, you might want to share one of these videos.  </p><ul><li>What is a Tessellation? (Time 2:20) at <a href=\"https://www.youtube.com/watch?v=7GiKeeWSf4s\">https://www.youtube.com/watch?v=7GiKeeWSf4s</a></li><li>Why do bees love hexagons? (Time 3:58) at <a href=\"https://www.youtube.com/watch?v=QEzlsjAqADA \">https://www.youtube.com/watch?v=QEzlsjAqADA</a></li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.4",
@@ -246,7 +1428,166 @@
             "investigation-3/problem-4/initialChallenge/content.json",
             "investigation-3/problem-4/whatIf/content.json",
             "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": [
+                  {
+                    "id": "JhbXDPquWt_RhUdI",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.4 Designing Polygons</strong></p><p>The objective of this Problem is to develop student understanding of the conditions that determine unique shapes. This is the foundation for future work on similarity and congruence. The storyline is a challenge to convey a lot of information with only a few words to produce a unique triangle.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "YhOMJnTfjSgh5w7-",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What information about a triangle allows you to draw a triangle? Draw a unique triangle? Explain why this true? What information about a quadrilateral allows you to draw a quadrilateral? Explain why this true?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "LYRHyGqdBjzR_45M",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Generalizing and Using Properties of Polygons: <em>Synthesis/Abstraction</em></p><p>Algebraic Expressions and Equations: <em>Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "GhfxQYphvMn7SN3p",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p><strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "gA2LWX4LDbRcd8gA",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 3.4A: Message Cards</p><p>Learning Aid 3.4B: Possible Polygon Designs</p><p>polystrips, angle rulers, geoboards, dot paper, geometry technology, etc.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "X6Mf08aCXT_33MGs",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2</p><p><strong>A</strong> #16-21</p><p><strong>C</strong> #33-37</p><p><strong>E</strong> #42-43</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "zjxypxJRHIMGN7k-",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Earlier in the unit, students found that the sum of any two side lengths of a triangle is greater than the third side. They also found that given three side lengths that make a triangle, there is exactly one triangle. They learned that the sum of the angles of a triangle is 180°. In this Problem, they use this knowledge to look at the conditions that produce unique triangles and use their knowledge of angles to create other polygons.</p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PRESENTING THE CHALLENGE</p><p>Launch the Problem by asking students, “Suppose you want to text a friend to give directions for drawing an exact copy of the figure. What is the shortest message to do the job?”</p><p>Have students brainstorm and share their ideas in their groups.</p><p>After some class discussion of approaches, you could segue to the Initial Challenge. Guide your students by suggesting that they look for some general guidelines they could use for writing their messages about triangles with minimum text and maximum information.</p><p><strong>Note:</strong> There are 5 message cards on Learning Aid 3.4A. These could be divided up in the classroom with each partner group doing 2-3 message cards.  Choose the message cards for each group based on the formative assessment you’ve been gathering on each student to meet their current needs.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "_aw94hkoXn7coQdP",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL LEARNING NEEDS</p><p>As students work on the message cards, they should justify their answers. Encourage students to share their triangles on poster paper. You can use the posters in a Gallery Walk during the Summarize. At that time, students can add new information to their notes from the posters.</p><p>Students could use polystrips, angle rulers, geoboards, dot paper, geometry technology, etc. to determine if the triangles are possible.  </p><p>As students are finishing the Initial Challenge give students cards from Learning Aid 3.4B:  Possible Polygon Designs.  Make sure each partner group gets at least one that is not possible.</p><p><strong>Note:</strong> You can have them add this work to their posters for the Gallery Walk in the Summary.</p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating, take note of how students are justifying when triangles/quadrilaterals are and are not possible.  Have students share these generalizations in the Summary.  Look for students using angles and/or side lengths as their justifications.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "SZb9gHYQ610sxj4A",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Gallery Walk</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Start with a Gallery Walk of student created posters or have groups share their findings with the whole class. Ask the students where they notice differences. Students should be able to resolve these differences.</p><p><em>Teacher Moves: Claim, Support, Question, and Anchor Chart</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Have students share thoughts, questions, and conclusions about the 5 message cards. Repeat a similar discussion with the What If 12 designs.</p><p>A conversation from one classroom:</p><p><u>Sandra</u>: We thought there were three triangles for Message 1. (Shares the three they found, and they are the same triangle but oriented differently.)</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "4oJ8fR3fiAJN1WJ6",
+                    "title": "Sandra's Triangles for Message 1",
+                    "content": {
+                      "type": "Image",
+                      "url": "sad/images/SD 3.4 TG pic 3.png",
+                      "filename": "sad/images/SD 3.4 TG pic 3.png"
+                    }
+                  },
+                  {
+                    "id": "Qy0nhjMezj9j4imG",
+                    "title": "Text 10",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><u>Lewis</u>: That is the same triangle but just turned on different sides.  (Goes up to a poster and shows rotating the triangles to all be the same.)</p><p><u>Sandra</u>: Oh.  Now I see.</p><p><u>Arvin</u>: We thought Message 4 was fun.</p><p><u>Teacher</u>: What was fun in Message 4. </p><p><u>Arvin</u>: Since we had all the angles for the triangle, we could create a lot of different triangles by just lengthening or shortening the sides once we had the angles set. </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "CKiWUKThDPfW75Oh",
+                    "title": "Arvin's Triangles for Message 4",
+                    "content": {
+                      "type": "Image",
+                      "url": "sad/images/SD 3.4 TG pic 4.png",
+                      "filename": "sad/images/SD 3.4 TG pic 4.png"
+                    }
+                  },
+                  {
+                    "id": "Dd0rMzvjwdaxzp-B",
+                    "title": "Text 11",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><u>Shandra</u>: We found that same thing with Design 2 in What If Situation A. We knew three angles and could find lots of triangles.</p><p><u>Teacher</u>:  What does this tell us about triangles?</p><p><u>Arvin</u>:If we have three angle measures, we can make lots of triangles that have those angles.</p><p><u>Shandra</u>:  I agree. But, sometimes three angle measures do not form any triangles. We cannot just have any three angle measures. So, if you have three angle measures that make a triangle, then there are many triangles possible.</p><p><u>Teacher</u> (writing on anchor chart): We have found that, “Many triangles are possible if we have three angle measures that make a triangle.”</p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -264,7 +1605,23 @@
             "investigation-4/problem-1/MathReflection1/content.json",
             "investigation-4/problem-1/MathReflection2/content.json",
             "investigation-4/problem-1/MathReflection3/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "unitPlan": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": []
+              },
+              "explore": {
+                "tiles": []
+              },
+              "summarize": {
+                "tiles": []
+              }
+            }
+          }
         }
       ]
     },

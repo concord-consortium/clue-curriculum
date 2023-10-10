@@ -179,17 +179,18 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Experiment</strong></u></p><p>Experiment with the following:</p><ul><li>Changing the locations of the EMG electrodes (can you control the gripper more effectively with different muscles?)</li><li>Grasping objects of different sizes/weights. </li><li>Stacking plastic cups (can you get quicker over time?)</li></ul><p>When you are done experimenting, unplug all of the accessories from the circuit board and place them back in their protective packaging.</p>"
+            "<p><u><strong>Extra challenge</strong></u></p><p>Can you make the gripper close in proportion to the amplitude of the EMG signal? In other words, can you make the gripper close just slightly with a minor muscle contraction and fully close with a major muscle contraction?</p><p>Tip: The Live Grabber block expects a number between 0 and 1 that tells it how much to close. You will need to replace the Logic block with a Math block to convert the EMG signal to a number between 0 and 1. </p><p>** Remember to disconnect the 9V battery at the end of class **</p>"
           ]
         }
       },
       {
-        "id": "uNijOQL2yeqEY1uL",
+        "id": "UX_DWReXodl0gDIr",
+        "title": "Text 1",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Extra challenge</strong></u></p><p>Can you make the gripper close in proportion to the amplitude of the EMG signal? In other words, can you make the gripper close just slightly with a minor muscle contraction and fully close with a major muscle contraction?</p><p>Tip: The Live Grabber block expects a number between 0 and 1 that tells it how much to close. You will need to replace the Logic block with a Math block to convert the EMG signal to a number between 0 and 1. </p><p>** Remember to disconnect the 9V battery at the end of class **</p>"
+            "<p><u><strong>Experiment</strong></u></p><p>Experiment with the following:</p><ul><li>Changing the locations of the EMG electrodes (can you control the gripper more effectively with different muscles?)</li><li>Grasping objects of different sizes/weights. </li><li>Stacking plastic cups (can you get quicker over time?)</li></ul><p>When you are done experimenting, unplug all of the accessories from the circuit board and place them back in their protective packaging.</p>"
           ]
         }
       },
