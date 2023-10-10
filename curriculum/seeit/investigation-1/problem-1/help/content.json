@@ -9,7 +9,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Workspace</strong></p><p>Your workspace is on the right. You can create content in it by dragging tiles from any tab on the left, or by using one of the tile tools in the toolbar.</p>"
+              "<p><strong>Workspace</strong></p>",
+              "<p>Your workspace is on the right. You can create content in it by dragging tiles from any tab on the left, or by using one of the tile tools in the toolbar.</p>"
           ]
         }
       },
@@ -29,7 +30,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Text Tile</strong></p><p>Text tiles can be used to document your ideas, make lists, and to display or define variables.</p>"
+              "<p><strong>Text Tile</strong></p>",
+              "<p>Text tiles can be used to document your ideas, make lists, and to display or define variables.</p>"
           ]
         }
       },
@@ -49,7 +51,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Table Tiles</strong></p><p>You can store reference data in tables.</p>"
+              "<p><strong>Table Tiles</strong></p>",
+              "<p>You can store reference data in tables.</p>"
           ]
         }
       },
@@ -58,11 +61,11 @@
         "title": "Table 1",
         "content": {
           "type": "Table",
-          "columnWidths": {
-            "DxuOMGl8Ss0A6XU1": 120,
-            "zB3t8lgSdt4xeKUR": 230
-          },
-          "name": "World Population by Age Range"
+            "name": "World Population by Age Range",
+            "columns": [
+              {"name":"Age Group","width":120,"values":["<20 years","20-39 years","40-59 years","60-79 years","80-99 years","100+ years"]},
+              {"name":"Number of People","width":230,"values":["2.6 billion","2.3 billion","1.8 billion","918 million","147 million","0.6 million"]}
+            ]
         }
       },
       {
@@ -72,7 +75,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Drawing Tile</strong></p><p>Drawing tiles can be used to document your ideas as sketches, make annotations on top of embedded images, and to display or define variables.</p>"
+              "<p><strong>Drawing Tile</strong></p>",
+              "<p>Drawing tiles can be used to document your ideas as sketches, make annotations on top of embedded images, and to display or define variables.</p>"
           ]
         }
       },
@@ -92,7 +96,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Programming Tile</strong></p><p>Programming tiles can be used to define and create relationships between variables, read values from sensors, and control values of output devices.</p>"
+              "<p><strong>Programming Tile</strong></p>",
+              "<p>Programming tiles can be used to define and create relationships between variables, read values from sensors, and control values of output devices.</p>"
           ]
         }
       },
@@ -112,78 +117,6 @@
           "type": "Expression",
           "latexStr": "123"
         }
-      }
-    ],
-    "sharedModels": [
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "0cZmX5pSrKKV_qqL",
-          "providerId": "FDAYvugP7pz6d3Oh",
-          "dataSet": {
-            "id": "mM-tLI-Goc_U0GMY",
-            "name": "World Population by Age Range",
-            "attributes": [
-              {
-                "id": "DxuOMGl8Ss0A6XU1",
-                "clientKey": "",
-                "name": "Age Group",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "<20 years",
-                  "20-39 years",
-                  "40-59 years",
-                  "60-79 years",
-                  "80-99 years",
-                  "100+ years"
-                ],
-                "title": ""
-              },
-              {
-                "id": "zB3t8lgSdt4xeKUR",
-                "clientKey": "",
-                "name": "Number of People",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "2.6 billion",
-                  "2.3 billion",
-                  "1.8 billion",
-                  "918 million",
-                  "147 million",
-                  "0.6 million"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01H2GA9QC1FJDQNS7S95WDNFRN"
-              },
-              {
-                "__id__": "01H2GA9QC1FJDQNS7S95WDNFRP"
-              },
-              {
-                "__id__": "01H2GA9QC1FJDQNS7S95WDNFRQ"
-              },
-              {
-                "__id__": "01H2GA9QC1FJDQNS7S95WDNFRR"
-              },
-              {
-                "__id__": "01H2GA9QC1FJDQNS7S95WDNFRS"
-              },
-              {
-                "__id__": "01H2GA9QC1FJDQNS7S95WDNFRT"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "FDAYvugP7pz6d3Oh"
-        ]
       }
     ]
   }
