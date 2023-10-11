@@ -1,1 +1,384 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "HO---ZdCsbNKUNgV",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Billie’s Conjecture </strong></p><p>Does Billie’s claim make sense? Explain.</p><p>Billie’s Conjecture: If the integer in the denominator has only the prime factors of 2 or 5, then the fraction will have a terminating decimal.</p>"
+          ]
+        }
+      },
+      {
+        "id": "dVxIH_MEJu0BOJo-",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Yes, if the prime factors of the denominators are 2 and/or 5, the denominator can scale up to a power of ten. This would make the decimal terminate.</p>"
+          ]
+        }
+      },
+      {
+        "id": "uIyYX5FOZ6nusYbt",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Matt’s Pattern</strong></p><p>Matt explored fractions with a denominator of 9 and found an interesting pattern. </p>"
+          ]
+        }
+      },
+      {
+        "id": "_YdjdLRW1JGiumEb",
+        "title": "Matt's Pattern",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Trfcofc9pHbrffZZ": 146,
+            "sH06gmfRwtHtPT79": 163
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "qdeW72wA7M6AMpYj",
+        "title": "Matt's Pattern",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "dlpfaqoCJ5f7QYKU": 146,
+            "SdUNDTt-87-lvDke": 163
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "goNefb4uy5kOq8Wo",
+        "title": "Text 6",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Note: Some students may struggle with 0.99999…= 1. </p><p>Another way to help them connect to this thinking, is to represent 0.99999… as </p><p>0.33333… + 0.33333… + 0.33333… = 1/3 + 1/3 + 1/3 = 1.</p>"
+          ]
+        }
+      },
+      {
+        "id": "SVJ8jUO18JQHfnMW",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>What pattern did Matt find?</li><li>What is the decimal 11/9? 12/9?</li><li>Sophia liked Matt&#x27;s pattern and used it to write the following fractions as repeating decimals without using long division. Is this possible? Explain.</li></ol>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "Xn_ElvzWXrgAohDg",
+          "title": "Sophia A.",
+          "content": {
+            "type": "Expression",
+            "latexStr": "\\frac{1}{99},\\frac{2}{99},\\frac{3}{99},..."
+          }
+        },
+        {
+          "id": "tv-aU6DR_U2IlIf-",
+          "title": "Sophia B.",
+          "content": {
+            "type": "Expression",
+            "latexStr": "\\frac{1}{999},\\frac{2}{999},\\frac{3}{999},..."
+          }
+        }
+      ],
+      {
+        "id": "z1YppghbHDaDhjQ5",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>All of the fractions are repeating, except when equivalent to whole numbers. The repeating decimal number increases by 1, as you increase the numerator by 1. The repeating decimal number is the same as the numerator when the fraction is less than 1.</li><li>11/9 → 1.222…   12/9 → 1.333…</li><li>Sophia A: </li></ol><ul><li>1/99= 0.010101...</li><li>2/99 = 0.020202…</li><li>3/99 = 0.030303…</li></ul><p>               Sophia B:</p><ul><li>1/999 = 0.001001001…</li><li> 2/999 = 0.002002002…</li><li> 3/999 = 0.003003003…</li></ul><p>             Some students will see that their pattern of the repeating decimal is related to the size of the denominator.</p>"
+          ]
+        }
+      },
+      {
+        "id": "LfwiPyo67f8Z68Ir",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation C. Reversing the Process: Decimals to Fractions</strong></p><p>Use the patterns you discovered to write each of the following decimals as fractions. </p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "T16GxqQ6OI-oc4mi",
+          "title": "Decimal 1",
+          "content": {
+            "type": "Expression",
+            "latexStr": "1.2222..."
+          }
+        },
+        {
+          "id": "B9bYRvn96HcY-E4V",
+          "title": "Decimal 2",
+          "content": {
+            "type": "Expression",
+            "latexStr": "2.777..."
+          }
+        }
+      ],
+      [
+        {
+          "id": "sSvwNCVMy7RMjVgh",
+          "title": "Decimal 3",
+          "content": {
+            "type": "Expression",
+            "latexStr": "0.333..."
+          }
+        },
+        {
+          "id": "-JdKNH6NJMYp8aqA",
+          "title": "Decimal 4",
+          "content": {
+            "type": "Expression",
+            "latexStr": "3.999..."
+          }
+        }
+      ],
+      [
+        {
+          "id": "e5gNBGO-4Ks2m5Pb",
+          "title": "Decimal 5",
+          "content": {
+            "type": "Expression",
+            "latexStr": "0.05050505..."
+          }
+        },
+        {
+          "id": "uC_MUIl870swiks7",
+          "title": "Decimal 6",
+          "content": {
+            "type": "Expression",
+            "latexStr": "10.12121212..."
+          }
+        }
+      ],
+      [
+        {
+          "id": "FPo8NJlm0DqSdtzO",
+          "title": "Decimal 7",
+          "content": {
+            "type": "Expression",
+            "latexStr": "0.45454545..."
+          }
+        },
+        {
+          "id": "-UWz-c1X8ZkIiAvo",
+          "title": "Decimal 8",
+          "content": {
+            "type": "Expression",
+            "latexStr": "0.0450450450..."
+          }
+        }
+      ],
+      {
+        "id": "wz3XISvdJWoBdgHx",
+        "title": "Situation C Answers",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "cr/images/sitc.png",
+          "filename": "cr/images/sitc.png"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Cutp2Hz1VNDTuNGL",
+          "providerId": "_YdjdLRW1JGiumEb",
+          "dataSet": {
+            "id": "PpyNAhwhawUcjh6o",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "Trfcofc9pHbrffZZ",
+                "clientKey": "",
+                "name": "Fraction",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1/9",
+                  "2/9",
+                  "3/9",
+                  "4/9",
+                  "5/9",
+                  "6/9",
+                  "7/9",
+                  "8/9",
+                  "9/9"
+                ],
+                "title": ""
+              },
+              {
+                "id": "sH06gmfRwtHtPT79",
+                "clientKey": "",
+                "name": "Decimal",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "h4Vdu_QA5LT3lWws"
+              },
+              {
+                "__id__": "eizuzAECbvyKzybJ"
+              },
+              {
+                "__id__": "avpw9yIs5kDoakEr"
+              },
+              {
+                "__id__": "qDVdY_F9Y8XpnIKy"
+              },
+              {
+                "__id__": "xwcFZkEk3TuPBCDQ"
+              },
+              {
+                "__id__": "-LtoO8n7XR7v4XEH"
+              },
+              {
+                "__id__": "u-q2OKVCfKKxsXqF"
+              },
+              {
+                "__id__": "UsXCgF8Oz_vCI29z"
+              },
+              {
+                "__id__": "Ry243g2gIokkwoKx"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "_YdjdLRW1JGiumEb"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "YV4OCIQXp6YRDGIl",
+          "providerId": "qdeW72wA7M6AMpYj",
+          "dataSet": {
+            "id": "jKzhZoP5uFHrkLwF",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "dlpfaqoCJ5f7QYKU",
+                "clientKey": "",
+                "name": "Fraction",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1/9",
+                  "2/9",
+                  "3/9",
+                  "4/9",
+                  "5/9",
+                  "6/9",
+                  "7/9",
+                  "8/9",
+                  "9/9"
+                ],
+                "title": ""
+              },
+              {
+                "id": "SdUNDTt-87-lvDke",
+                "clientKey": "",
+                "name": "Decimal",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0.1...",
+                  "0.2...",
+                  "0.3...",
+                  "0.4...",
+                  "0.5...",
+                  "0.6...",
+                  "0.7...",
+                  "0.8...",
+                  "1 or 0.9..."
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8D8"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8D9"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DA"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DB"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DC"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DD"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DE"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DF"
+              },
+              {
+                "__id__": "01HBP7DR480V1H1GM599GNJ8DG"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "qdeW72wA7M6AMpYj"
+        ]
+      }
+    ]
+  }
+}
