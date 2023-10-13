@@ -23,7 +23,13 @@
           "left": "y"
         },
         "emptyPlotIsNumeric": true,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "simulator": {
+        "defaultSimulation": "terrarium",
+        "maxTiles": 1
       }
     },
     "learningLog": {
@@ -48,6 +54,11 @@
       {
         "id": "Dataflow",
         "title": "Sensor Program",
+        "isTileTool": true
+      },
+      {
+        "id": "Simulator",
+        "title": "Terrarium Simulator",
         "isTileTool": true
       },
       {
