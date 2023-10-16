@@ -1,0 +1,183 @@
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "tDW26DUpgvXbl1GD",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Water Towers hold supplies of water that get distributed to homes, apartments, and businesses. Clean water is pumped into the tower. It stays in the tower until someone needs to use the water. When someone turns on a faucet, water will leave the tower. The movement of water in and out is called water flow. The average water flow could be positive or negative depending on whether more water is flowing in or out.</p><p>The water tower starts empty. For the first 4 hours, 5,000 gallons of water flowed into the tower each hour. The table shows what happened to the water in a tower in 21 hours.</p>"
+          ]
+        }
+      },
+      {
+        "id": "auf0k2XpJ7druIg3",
+        "title": "Water Tower",
+        "content": {
+          "type": "Image",
+          "url": "cr/images/se-4.3-pic-1.png",
+          "filename": "cr/images/se-4.3-pic-1.png"
+        }
+      },
+      {
+        "id": "m021Bm1NOmuRZPlL",
+        "title": "Water Flow over Time",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Vv65CSWh5lkwxDV0": 120.28646850585938,
+            "bWo6PRwEqB_dSd4j": 217.63888549804688,
+            "OZZpSzebFSUk_U4L": 215.05642700195312
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "3QwSO3LnPiFoEItz",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How much water is in the tower at the end of this 21-hour period? What equation shows your reasoning?</li><li>What was the average rate of water flow per hour in the first 11 hours? </li><li>What was the average rate of flow of water per hour in the last 10 hours? </li><li>At the end of the entire time, what was the average rate of flow (in or out) per hour?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "V_ry6gafbN0pJsam",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How much water is in the tower at the end of this 21-hour period? What equation shows your reasoning?</li></ul><p>34750 gallons</p><p>Equations will vary. </p><p>Possible answer: 4(5000) + 7(4000) – 3.5(7500) + 6.5(5000) – 6.5(3000) = 38500</p><p>OR</p><p>4(5000) + 7(4000) + 3.5(–7500) + 6.5(5000) + 6.5(–3000) = 38500</p>"
+          ]
+        }
+      },
+      {
+        "id": "QLRKrGrxFTNXHwt1",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>What was the average rate of water flow per hour in the first 11 hours? </li></ul><p>Mean Average: (5000 • 4 + 4000 • 7) ÷ 11 = 48000/11 ≅ 4363.6 gallons/hour</p>"
+          ]
+        }
+      },
+      {
+        "id": "tVc2IOzo-AYAK55-",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>What was the average rate of flow of water per hour in the last 10 hours? </li></ul><p>[-7500 • 3.5 + (5000 – 3000) • 6.5]/10 = 39250/10 = 3,925 gallons/hour</p>"
+          ]
+        }
+      },
+      {
+        "id": "IMKWaSGNMOmyYNVA",
+        "title": "Text 6",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>At the end of the entire time, what was the average rate of flow (in or out) per hour? </li></ul><p>[5000•4 + 4000•7 – 7500•3.5 + (5000 – 3000)•6.5] / (4 + 7 + 3.5 + 6.5) = 34750/21 ≅ 1654.8 gallons/hour</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "WPG5HdvfThN9BrMC",
+          "providerId": "m021Bm1NOmuRZPlL",
+          "dataSet": {
+            "id": "XVTB8v_tsdo5IfIz",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "Vv65CSWh5lkwxDV0",
+                "clientKey": "",
+                "name": "Length of Time (hours)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "4",
+                  "7",
+                  "3.5",
+                  "6.5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "bWo6PRwEqB_dSd4j",
+                "clientKey": "",
+                "name": "Water Flow into the Tower (average number of gallons every hour)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "5000",
+                  "4000",
+                  "0",
+                  "5000"
+                ],
+                "title": ""
+              },
+              {
+                "id": "OZZpSzebFSUk_U4L",
+                "clientKey": "",
+                "name": "Water Flow out of the Tower (average number of gallons every hour)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "0",
+                  "0",
+                  "7500",
+                  "3000"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "POL_S1RjY7FuLc1E"
+              },
+              {
+                "__id__": "rwPuT6M2943SWZTk"
+              },
+              {
+                "__id__": "N07w-DlITtPhaALc"
+              },
+              {
+                "__id__": "udaaOL-rNJi0AveD"
+              },
+              {
+                "__id__": "Lg_zRXWfiBsjK1tO"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "m021Bm1NOmuRZPlL"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
