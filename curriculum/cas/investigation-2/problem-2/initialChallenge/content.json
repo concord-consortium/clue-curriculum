@@ -2,18 +2,19 @@
   "type": "initialChallenge",
   "content": {
     "tiles": [
-      {"content": {"type": "Text", "format": "html", "text": ["<p>Julia is in charge of ordering pizzas for a camp dinner. There are two pizza companies nearby. Both allow customers to use the same pricing rate for fewer or more pizzas than the listed number.</p>"]}},
+      {"content": {"type": "Text", "format": "html", "text": ["<p>Julia is in charge of ordering pizzas for a camp dinner. There are two pizza companies nearby. Both allow customers to use the same pricing rate for fewer or more pizzas than the listed number.</p>"]}, "id": "TILEk17NEeA2PlNf"},
       [
         {"id": "08OCT20220428PM", "title": "Royal Pizza - 5 for $65", "content": {"type": "Image", "url": "cas/images/C&S_2-2_RoyalPizzaFlyer.png"}},
         {"id": "08OCT20220429PM", "title": "Howdy's Pizza - 15 for $165 + Delivery", "content": {"type": "Image", "url": "cas/images/C&S_2-2_HowdysPizzaFlyer.png"}}
       ],
-      {"content": {"type": "Text", "format": "html", "text": ["<p>Julia wonders which company to use. The cost is a deciding factor. She uses tables to determine the cost of the pizzas.</p>"]}},
+      {"content": {"type": "Text", "format": "html", "text": ["<p>Julia wonders which company to use. The cost is a deciding factor. She uses tables to determine the cost of the pizzas.</p>"]}, "id": "TILENg_gzphMnfHd"},
       {
         "content": {
           "type": "Table",
           "name": "Pizza Price of Royal Pizza",
           "columns": [{"name": "Number of Pizzas", "width": 150, "values": ["1", "2", "3", "4", "5", "10", "15", "20", "100", "150", "200"]}, {"name": "Total Cost in Dollars", "width": 150, "values": ["--", "--", "--", "--", "$65", "--", "--", "--", "--", "--", "--"]}]
-        }
+        },
+        "id": "TILE_Z-xsebSSrn1"
       },
       {
         "display": "teacher",
@@ -21,7 +22,8 @@
           "type": "Table",
           "name": "Pizza Price of Royal Pizza- Solution",
           "columns": [{"name": "Number of Pizzas", "width": 150, "values": ["1", "2", "3", "4", "5", "10", "15", "20", "100", "150", "200"]}, {"name": "Total Cost in Dollars", "width": 150, "values": ["13", "26", "39", "52", "65", "130", "195", "260", "1300", "1950", "2600"]}]
-        }
+        },
+        "id": "TILEQUNZm4ggajTD"
       },
       {
         "display": "teacher",
@@ -31,7 +33,8 @@
           "text": [
             "<p>Students might work the table forward or backwards looking for equivalent ratios to fill in the table. Some students might start with 5 for $65 then find 10 for $130 and 20 for $260, etc.  Some students may find how much it is for 1 pizza and then use that to scale up and fill in the rest of the table.</p>"
           ]
-        }
+        },
+        "id": "TILE-rImQ7cMBgy3"
       },
       {
         "id": "t-cIVNG003HLLzWX",
@@ -51,7 +54,8 @@
             {"name": "Total Cost in $", "width": 150, "values": ["41", "52", "63", "74", "85", "140", "195", "250", "1130", "1680", "2230"]},
             {"name": "Cost w/o Delivery in $", "width": 150, "values": ["11", "22", "33", "44", "55", "110", "165", "220", "1100", "1650", "2200"]}
           ]
-        }
+        },
+        "id": "TILEsFx53Vt_RFKD"
       },
       {
         "display": "teacher",
@@ -62,7 +66,8 @@
             "<p>Students need to recognize that the $195 for 15 pizzas also includes the $30 delivery charge.  They need to subtract that and then use the $165 to either scale up or down to find the other values in the table.</p>",
             "<p>Some students may create another row to the table to find the cost of the pizzas without delivery.</p>"
           ]
-        }
+        },
+        "id": "TILE7wH33DI2duba"
       },
       {"id": "wehSEgZb6ZDW6Vu9", "content": {"type": "Text", "format": "html", "text": ["<ul><li>On a copy of the tables, find the total costs for each number of pizzas shown in the table. </li></ul>"]}},
       {"id": "zN_Ac2lOzCS7nEni", "content": {"type": "Text", "format": "html", "text": ["<ul><li>How can Julia use the tables to make her choice? Which company should she choose and why?</li></ul>"]}},
@@ -76,7 +81,8 @@
             "<p>At Royal Pizza the price for 210 campers or 84 pizzas is $1,092. Students might use the unit rate and then find the cost with $13 x 84= $1,092. Students might also use values on the table to add up to 84 pizzas: one example is 20 pizzas are $260 and 4 groups of that would be 80 pizzas for $1,040 then we need 4 more pizzas, which are $52. So, $1,040 + $52 = $1,092.</p>",
             "<p>At Howdy’s Pizza the price for 210 campers or 84 pizzas is $954. Students need to find that the price of the pizzas is $11 each and then add a $30 delivery charge. So for 84 pizzas it would be $84 x 11 = $924, then add the delivery charge: $924 + 30 = $954.</p>"
           ]
-        }
+        },
+        "id": "TILEqhrAjS6sNeEX"
       }
     ]
   },
