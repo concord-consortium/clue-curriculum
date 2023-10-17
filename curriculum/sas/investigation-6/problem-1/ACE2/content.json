@@ -870,7 +870,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For Glum: Mouth lengths, nose lengths, and perimeters are 1.5 times as long as the corresponding lengths of Mug. The angles are the same. The areas are 2.25 times as large.</p><p></p><p>For Tum: Mouth lengths, nose lengths, and perimeters are 4 times as long as the corresponding lengths and perimeter of Mug. The angles are the same. The areas are 16 times as large. The dimensions of the mouth are 16 units by 4 units and the nose has a width of 8 units and a height of 4 units.</p>"
+            "<p>For Glum: </p><p>Mouth lengths, nose lengths, and perimeters are 1.5 times as long as the corresponding lengths of Mug. The angles are the same. The areas are 2.25 times as large.</p><p>For Tum: </p><p>Mouth lengths, nose lengths, and perimeters are 4 times as long as the corresponding lengths and perimeter of Mug. The angles are the same. The areas are 16 times as large. The dimensions of the mouth are 16 units by 4 units and the nose has a width of 8 units and a height of 4 units.</p>"
           ]
         }
       },
@@ -893,7 +893,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For Sum: The height of the mouth and the height of the nose are 2 times as long while the width of the mouth and the width of the nose are 3 times as long as the corresponding lengths of Mug. The mouth is 12 units wide and 2 units high and the nose is 6 units wide and 2 units high.</p><p></p><p>For Crum: The heights of the mouth and the nose are the same as the corresponding heights of Mug. The widths of the mouth and the nose are 2 times as long as the corresponding widths of Mug.</p>"
+            "<p>For Sum: </p><p>The height of the mouth and the height of the nose are 2 times as long while the width of the mouth and the width of the nose are 3 times as long as the corresponding lengths of Mug. The mouth is 12 units wide and 2 units high and the nose is 6 units wide and 2 units high.</p><p>For Crum: </p><p>The heights of the mouth and the nose are the same as the corresponding heights of Mug. The widths of the mouth and the nose are 2 times as long as the corresponding widths of Mug.</p>"
           ]
         }
       },
@@ -950,7 +950,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Answers will vary</p>"
+            "<p>Answers will vary.</p>"
           ]
         }
       },
@@ -1386,21 +1386,11 @@
                 "snapSizeX": 0.1,
                 "snapSizeY": 0.1
               }
-            },
-            {
-              "type": "point",
-              "parents": [
-                4.313498900690272,
-                -3.1803756935009058
-              ],
-              "properties": {
-                "id": "fUC12lHs2V1_hprl",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
             }
           ]
+        },
+        "layout": {
+          "height": 363
         }
       },
       {
@@ -1423,7 +1413,7 @@
             "sd8_ryYyvf9FzNq6": 80,
             "ffTqDeloVEu3JXHP": 80,
             "38Z8XNV1O6pnFPy0": 80,
-            "tkYQo1gHsNDk25HH": 80
+            "tkYQo1gHsNDk25HH": 90
           },
           "name": "Table 3"
         }
@@ -2168,7 +2158,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In both diagrams, the length of Mug&#x27;s new mouth is 8 units, twice as long as Mug&#x27;s original mouth. The width of Mug&#x27;s new mouth is 2 units, twice as wide as Mug&#x27;s original mouth. The area of Mug&#x27;s new mouth is 16 square units, 4 times greater than that of Mug&#x27;s original mouth.</p><p></p><p>The coefficients of x and y correspond to the scale factor from the original diagram of Mug to both images. The sqaure of the coefficients gives the factor by which the area is increased. All these comparisions are the same for both images because the second diagram is imply a reflection of the first. A reflection preserves measurements, such as length and area. </p>"
+            "<p>In both diagrams, the length of Mug&#x27;s new mouth is 8 units, twice as long as Mug&#x27;s original mouth. The width of Mug&#x27;s new mouth is 2 units, twice as wide as Mug&#x27;s original mouth. The area of Mug&#x27;s new mouth is 16 square units, 4 times greater than that of Mug&#x27;s original mouth.</p><p></p><p>The coefficients of x and y correspond to the scale factor from the original diagram of Mug to both images. The square of the coefficients gives the factor by which the area is increased. All these comparisons are the same for both images because the second diagram is imply a reflection of the first. A reflection preserves measurements, such as length and area. </p>"
           ]
         }
       },
@@ -2234,16 +2224,198 @@
           ]
         }
       },
-      {
-        "id": "rOh1LBVm9rjabJBr",
-        "title": "Three triangles for ACE 2-4",
-        "display": "teacher",
-        "content": {
-          "type": "Image",
-          "url": "sas/images/three-triangles.jpg",
-          "filename": "sas/images/three-triangles.jpg"
+      [
+        {
+          "id": "rOh1LBVm9rjabJBr",
+          "title": "Three triangles for ACE 2-4",
+          "display": "teacher",
+          "content": {
+            "type": "Image",
+            "url": "sas/images/three-triangles.jpg",
+            "filename": "sas/images/three-triangles.jpg"
+          }
+        },
+        {
+          "id": "AvxSs9DIJUPFlYZn",
+          "title": "Three Triangles for ACE 2-4 (wrong labels)",
+          "display": "teacher",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  -0.017651793629372563,
+                  2.000230161558565
+                ],
+                "properties": {
+                  "id": "Bi7ofXZVGz6GzRhF",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  5.996991548657062,
+                  2.000230161558565
+                ],
+                "properties": {
+                  "id": "p0FVsfIUY6BcA1Hz",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4,
+                  4
+                ],
+                "properties": {
+                  "id": "Ud_UN5sa6rmBgVhE",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "Bi7ofXZVGz6GzRhF",
+                  "p0FVsfIUY6BcA1Hz",
+                  "Ud_UN5sa6rmBgVhE"
+                ],
+                "properties": {
+                  "id": "n38xartmj1aDbzg-"
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  0,
+                  3
+                ],
+                "properties": {
+                  "id": "DtDKCI93quL7PQPt",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  9.00431321980028,
+                  2.9667602162033737
+                ],
+                "properties": {
+                  "id": "v0XvNr6G-yWV_DBU",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  6,
+                  6.000000000000001
+                ],
+                "properties": {
+                  "id": "NtTu-Ow7W_qdoXvu",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "DtDKCI93quL7PQPt",
+                  "v0XvNr6G-yWV_DBU",
+                  "NtTu-Ow7W_qdoXvu"
+                ],
+                "properties": {
+                  "id": "tghQQNqzw-X0DW6N"
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  0.03702678220959503,
+                  1.142135899263483
+                ],
+                "properties": {
+                  "id": "-QVQTPQy01YCl8nz",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  8,
+                  2
+                ],
+                "properties": {
+                  "id": "sVMd6VipISQkIlqc",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  12.011634890943498,
+                  1.032846281777144
+                ],
+                "properties": {
+                  "id": "LpzkpYwX3G46gkIl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "-QVQTPQy01YCl8nz",
+                  "sVMd6VipISQkIlqc",
+                  "LpzkpYwX3G46gkIl"
+                ],
+                "properties": {
+                  "id": "CUJ3CjcrDXAhvh2M"
+                }
+              }
+            ]
+          }
         }
-      },
+      ],
       {
         "id": "DR6i0Hiabim08m7x",
         "title": "Text 35",
@@ -2263,7 +2435,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The side lengths and perimeter of triangle PQR are 1.5 times the side lengths and perimeter of triangle ABC. The angle measures of triangles ABC and PQR are the same. The area of triangle PQR is 2.25 times (the scare factor squared) the area of triangle ABC.</p><p></p><p><strong>Note: </strong>At this point, students may still use area formulas ti calculate each area and then compare the results. The area of triangle ABC is 6 square units, and the are of triangle PQR is 13.5 square units. 13.5 is equal to 2.25 x 6.</p>"
+            "<p>The side lengths and perimeter of triangle PQR are 1.5 times the side lengths and perimeter of triangle ABC. The angle measures of triangles ABC and PQR are the same. The area of triangle PQR is 2.25 times (the scare factor squared) the area of triangle ABC.</p><p><strong>Note: </strong>At this point, students may still use area formulas to calculate each area and then compare the results. The area of triangle ABC is 6 square units, and the area of triangle PQR is 13.5 square units. 13.5 is equal to 2.25 x 6.</p>"
           ]
         }
       },
@@ -2331,7 +2503,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(a) On grid paper, draw parallelogram ABCD with vertex coordinates A(0,2), B(8,6), C(8,6), and D(2,6)</li></ul>"
+            "<ul><li>(a) On a graph, draw parallelogram ABCD with vertex coordinates A(0,2), B(8,6), C(8,6), and D(2,6)</li></ul>"
           ]
         }
       },
@@ -2471,7 +2643,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Using the rule (x,y) students would add or subtract values to the x and/or y. Students my test their rules in the same manner as in part (b) above. </p>"
+            "<p>Using the rule (x, y) students would add or subtract values to the x and/or y. Students my test their rules in the same manner as in part (b) above. </p>"
           ]
         }
       },
@@ -2687,7 +2859,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(a) Draw a figure similar, but not identical, to the rectangle</li></ul>"
+            "<ul><li>(a) Draw a figure similar, but not identical, to the rectangle.</li></ul>"
           ]
         }
       },
@@ -2699,7 +2871,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Answers will vary</p>"
+            "<p>Answers will vary.</p>"
           ]
         }
       },
@@ -2710,7 +2882,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(b) Draw a figure similar, but not identical, to the triangle</li></ul>"
+            "<ul><li>(b) Draw a figure similar, but not identical, to the triangle.</li></ul>"
           ]
         }
       },
@@ -2722,7 +2894,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Answers will vary</p>"
+            "<p>Answers will vary.</p>"
           ]
         }
       },
@@ -2767,7 +2939,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The diagram below shows two similar polygons</p>"
+            "<p>The diagram below shows two similar polygons.</p>"
           ]
         }
       },
@@ -3191,7 +3363,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Multiple Choice </strong>Choose the pair of similar figures</p><p>A.       Z and Y</p><p>B.       V and T</p><p>C.       X and Y</p><p>D.       Y and W</p>"
+            "<p><strong>Multiple Choice </strong></p><p>Choose the pair of similar figures.</p><p><strong>A.  </strong>Z and Y</p><p><strong>B. </strong> V and T</p><p><strong>C. </strong> X and Y</p><p><strong>D. </strong> Y and W</p>"
           ]
         }
       },
@@ -3417,7 +3589,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For rectangles ABCD and JILK:</p><p>The corresponding angles are: A and J (or L), B and I (or K), C and L (or J), D and K (or I)</p><p>The corresponding sides are: AB and JI (or LK), BC and IL (or KJ), CD and LK (or JI), DA and KJ (or IL) </p><p>For triangles DFE and XYZ:</p><p>The corresponding angles are: F and Z, E and Y, D and X</p><p>The corresponding sides are: FE and ZY, ED and YX, DF and XZ</p>"
+            "<p>For rectangles ABCD and JILK:</p><ul><li>The corresponding angles are: A and J (or L), B and I (or K), C and L (or J), D and K (or I)</li><li>The corresponding sides are: AB and JI (or LK), BC and IL (or KJ), CD and LK (or JI), DA and KJ (or IL) </li></ul><p>For triangles DFE and XYZ:</p><ul><li>The corresponding angles are: F and Z, E and Y, D and X</li><li>The corresponding sides are: FE and ZY, ED and YX, DF and XZ</li></ul>"
           ]
         }
       },
@@ -3472,7 +3644,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>On grid paper, draw a rectangle with an area of 14 square centimeters. Label it ABCD</p>"
+            "<p>On a graph, draw a rectangle with an area of 14 square centimeters. Label it ABCD.</p>"
           ]
         }
       },
@@ -3483,7 +3655,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(a) Write and use a coordinate rule that will make a rectangle similar to rectangle ABCB that is three times as long and three times as wide. Label it EFGH</li></ul>"
+            "<ul><li>(a) Write and use a coordinate rule that will make a rectangle similar to rectangle ABCD that is three times as long and three times as wide. Label it EFGH.</li></ul>"
           ]
         }
       },
@@ -3541,7 +3713,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Area of rectangle EFGH is nine times as large as the area of rectangle ABCD</p>"
+            "<p>Area of rectangle EFGH is nine times as large as the area of rectangle ABCD.</p>"
           ]
         }
       },
@@ -3871,7 +4043,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>(1.5x, 1.5y)</p><p>A. 150%</p><p>B. 15%</p><p>C. 1.5%</p><p>D. None of these</p>"
+            "<p>(1.5x, 1.5y)</p><p><strong>A. </strong>150%</p><p><strong>B.</strong> 15%</p><p><strong>C.</strong> 1.5%</p><p><strong>D.</strong> None of these</p>"
           ]
         }
       },
@@ -3905,7 +4077,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>(0.7x, 0.7y)</p><p>F. 700%</p><p>G. 7%</p><p>H. 0.7%</p><p>J. None of these</p>"
+            "<p>(0.7x, 0.7y)</p><p><strong>F.</strong> 700%</p><p><strong>G.</strong> 7%</p><p><strong>H.</strong> 0.7%</p><p><strong>J.</strong> None of these</p>"
           ]
         }
       },
@@ -4010,7 +4182,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>An accurate map is a scale drawing of the place it represents. Below is a map of South Africa</p>"
+            "<p>An accurate map is a scale drawing of the place it represents. Below is a map of South Africa.</p>"
           ]
         }
       },
@@ -4065,7 +4237,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>About 800km, or 440 miles</p>"
+            "<p>About 800 km, or 440 miles</p>"
           ]
         }
       },
@@ -4151,17 +4323,6 @@
           "format": "html",
           "text": [
             "<p>1/2</p>"
-          ]
-        }
-      },
-      {
-        "id": "cpURIiGOzNDq5dhI",
-        "title": "Text 152",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>(c) 3/7 ÷ 4/7</li></ul>"
           ]
         }
       },
@@ -4258,7 +4419,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Answers will vary. One possible answer: The large rectangle represents 0.72, the left over bread, and the smaller rectangle represents 0.04, one serving. There are 8 servings in the larger rectangle.</p><p></p><p>4 x 4 1/2 = 18</p>"
+            "<p>Answers will vary. One possible answer: The large rectangle represents 0.72, the left over bread, and the smaller rectangle represents 0.04, one serving. There are 8 servings in the larger rectangle.</p><p>4 x 4½ = 18</p>"
           ]
         }
       },
@@ -4470,7 +4631,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The vertices of three similar triangles are given.</p><ul><li>triangle ABC: A(1,2), B(4,3), C(2,5)</li><li>triangle DEF: D(3,6), E(12,9), F(6,15)</li><li>triangle GHI: G(5,9), H(14,12), I(8,18)</li></ul><p></p><ul><li>(a) Find a rule that changes the vertices of triangle ABC to the vertices of triangle DEF</li></ul>"
+            "<p>The vertices of three similar triangles are given.</p><ul><li>triangle ABC: A(1,2), B(4,3), C(2,5)</li><li>triangle DEF: D(3,6), E(12,9), F(6,15)</li><li>triangle GHI: G(5,9), H(14,12), I(8,18)</li></ul><ul><li>(a) Find a rule that changes the vertices of triangle ABC to the vertices of triangle DEF.</li></ul>"
           ]
         }
       },
@@ -4493,7 +4654,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(b) Find a rule that changes the vertices of triangle DEF to vertices of triangle GHI</li></ul>"
+            "<ul><li>(b) Find a rule that changes the vertices of triangle DEF to vertices of triangle GHI.</li></ul>"
           ]
         }
       },
@@ -6885,8 +7046,8 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "JwwaFdNpzoffyqUw": 80,
-            "oebL0PL6JcyVDqb0": 80
+            "JwwaFdNpzoffyqUw": 189,
+            "oebL0PL6JcyVDqb0": 168
           },
           "name": "Table 3"
         }
@@ -6898,7 +7059,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>(b) You can write a coordinate rule to describe the movement of points from one location to another. For example, the coordinate rule (x-2, y+3) moves a point (x,y) to the left 2 units and up 3 units from its original location. Which of the other drawings is produced by the coordinate rule (x+6, y-7).</li></ul>"
+            "<ul><li>(b) You can write a coordinate rule to describe the movement of points from one location to another. For example, the coordinate rule (x-2, y+3) moves a point (x, y) to the left 2 units and up 3 units from its original location. Which of the other drawings is produced by the coordinate rule (x+6, y-7).</li></ul>"
           ]
         }
       },
@@ -6910,7 +7071,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The rule (x+6, y-7) moves Mug to position IV</p>"
+            "<p>The rule (x+6, y-7) moves Mug to position IV.</p>"
           ]
         }
       },
@@ -7074,7 +7235,7 @@
                   "(2x,y)",
                   null,
                   "(4,2)",
-                  "(12.2)",
+                  "(12,2)",
                   "(12,3)",
                   "(4,3)",
                   "(4,2)",
