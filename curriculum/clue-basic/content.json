@@ -41,7 +41,26 @@
         },
         {
           "tab": "class-work",
-          "label": "Class Work",
+          "label": "Activity",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "class-work",
+          "label": "Published Class Work",
           "sections": [
             {
               "title": "Workspaces",
