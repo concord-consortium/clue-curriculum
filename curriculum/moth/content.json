@@ -24,10 +24,7 @@
     },
     "defaultDocumentType": "problem",
     "settings": {
-      "table": {
-        "numFormat": ".2~f", 
-        "tools": ["link-tile","delete"]
-      },
+      "table": { "numFormat": ".2~f", "tools": ["link-tile", "link-graph", ["data-set-view", "DataCard"], "delete"]},
       "graph": {
         "defaultAxisLabels": {
           "bottom": "Categories",
