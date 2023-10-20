@@ -26,7 +26,7 @@
       },
       {
         "id": "FflO05SRiWnnK_7B",
-        "title": "Image 1",
+        "title": "Amelia Earhart Flight Plan",
         "content": {
           "type": "Image",
           "url": "sad/images/picture39.png",
@@ -103,7 +103,7 @@
       },
       {
         "id": "81iZjvPjYhuPfxK-",
-        "title": "Image 2",
+        "title": "Map of Two Flight Paths",
         "content": {
           "type": "Image",
           "url": "sad/images/picture40.png",
@@ -122,27 +122,28 @@
         }
       },
       {
-        "id": "TNv41S1-3ADEhYKb",
-        "title": "Table 1",
+        "id": "TrwmQOOwOtfYkLsv",
+        "title": "Data table",
         "content": {
           "type": "Table",
           "columnWidths": {
-            "yIupRBfRwSoW1U8n": 138.76171875,
-            "qSBr1nQ9TPoNBuR6": 181.29296875
+            "fgfVB3c6BwYzxQzD": 80,
+            "rA5hexIh_kbM4MwB": 124.85678100585938
           },
           "name": "Table 1"
         }
       },
       {
-        "id": "vFc1KhYav0v_0-8m",
-        "title": "Table 2",
+        "id": "YNJIccJhvsrBiWet",
+        "title": "Data table: Filled out",
+        "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
-            "wFa5-nkD0EqEArf5": 165.8671875,
-            "OahXPedreGm1aDEl": 182.3828125
+            "sAKIzS7wPP-Lj6QC": 80,
+            "Xk7Loawmw05KPOrJ": 124.85678100585938
           },
-          "name": "Table 2"
+          "name": "Table 1"
         }
       },
       {
@@ -152,7 +153,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>2.Look for patterns in the table. Use words to describe the relationships in the pattern.</p>"
+            "<p>2. Look for patterns in the table. Use words to describe the relationships in the pattern.</p>"
           ]
         }
       },
@@ -175,7 +176,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p> 3.Write an equation to represent the relationship between the time t in hours and the distance d apart.</p>"
+            "<p> 3. Write an equation to represent the relationship between the time t in hours and the distance d apart.</p>"
           ]
         }
       },
@@ -210,7 +211,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>4.Use your equation to find how far apart they are after 10 hours?</p>"
+            "<p>4. Use your equation to find how far apart they are after 10 hours?</p>"
           ]
         }
       },
@@ -231,79 +232,69 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "330YuWs6NTqb-pVJ",
-          "providerId": "TNv41S1-3ADEhYKb",
+          "id": "V94CCUW64zAuZytn",
+          "providerId": "TrwmQOOwOtfYkLsv",
           "dataSet": {
-            "id": "dmmbHU9egXjUMgyF",
+            "id": "kuDjFkQ7UdupZ9CJ",
             "name": "Table 1",
             "attributes": [
               {
-                "id": "yIupRBfRwSoW1U8n",
+                "id": "fgfVB3c6BwYzxQzD",
                 "clientKey": "",
-                "name": "Time in hours ",
+                "name": "Time in hours",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
                   "4",
                   "8",
-                  "12",
-                  "",
-                  " t"
+                  "12"
                 ],
                 "title": ""
               },
               {
-                "id": "qSBr1nQ9TPoNBuR6",
+                "id": "rA5hexIh_kbM4MwB",
                 "clientKey": "",
-                "name": "Distance Apart in Miles ",
+                "name": "Distance apart in miles",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  null,
-                  "",
                   "",
                   null,
-                  "d "
+                  null
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "dupUvrCPWy7jnb8y"
+                "__id__": "JImoxhV17TBx6WUC"
               },
               {
-                "__id__": "9HNTI4_GNY2QQtBH"
+                "__id__": "eZhNinBK6IYcxYRz"
               },
               {
-                "__id__": "wQ9itpYOV7gaGZ0J"
-              },
-              {
-                "__id__": "Li8v3k8-mmLPNb0m"
-              },
-              {
-                "__id__": "HpDzCE3l4RmoKgN0"
+                "__id__": "TpZnT79of-ox3jCB"
               }
             ]
           }
         },
         "tiles": [
-          "TNv41S1-3ADEhYKb"
+          "TrwmQOOwOtfYkLsv"
         ]
       },
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "pqxBnvO3HOvJY5Qs",
-          "providerId": "vFc1KhYav0v_0-8m",
+          "id": "dKkCrOd8uLVtZour",
+          "providerId": "YNJIccJhvsrBiWet",
           "dataSet": {
-            "id": "gRmUbwojhaz_kmiR",
-            "name": "Table 2",
+            "id": "WztvXxfv-0BM09eR",
+            "name": "Table 1",
             "attributes": [
               {
-                "id": "wFa5-nkD0EqEArf5",
+                "id": "sAKIzS7wPP-Lj6QC",
                 "clientKey": "",
                 "name": "Time in hours",
                 "hidden": false,
@@ -313,15 +304,14 @@
                   "4",
                   "8",
                   "12",
-                  "1",
-                  "t"
+                  "1"
                 ],
                 "title": ""
               },
               {
-                "id": "OahXPedreGm1aDEl",
+                "id": "Xk7Loawmw05KPOrJ",
                 "clientKey": "",
-                "name": "Distance Apart in Miles",
+                "name": "Distance apart in miles",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -329,33 +319,29 @@
                   "80",
                   "160",
                   "240",
-                  "20",
-                  "d"
+                  "20"
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "UeIKwI9CCuD8ZwJl"
+                "__id__": "01H84J8ZQQR2FXKHMFTPHREGGF"
               },
               {
-                "__id__": "4Re38AcYln2jsy8N"
+                "__id__": "01H84J8ZQQR2FXKHMFTPHREGGG"
               },
               {
-                "__id__": "ywW1O4y7MJghRwK6"
+                "__id__": "01H84J8ZQQR2FXKHMFTPHREGGH"
               },
               {
-                "__id__": "r5KJmitK4atC1RWg"
-              },
-              {
-                "__id__": "loRSiFFuhBilePTV"
+                "__id__": "K8QJoM1piWw3gCua"
               }
             ]
           }
         },
         "tiles": [
-          "vFc1KhYav0v_0-8m"
+          "YNJIccJhvsrBiWet"
         ]
       }
     ]

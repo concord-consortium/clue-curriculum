@@ -28,9 +28,12 @@
           "left": "Signal"
         },
         "emptyPlotIsNumeric": true,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       },
       "simulator": {
+        "defaultSimulation": "EMG_and_claw",
         "maxTiles": 1
       }
     },
