@@ -10,7 +10,7 @@
     "defaultDocumentTemplate": {
       "tiles": [
         {
-          "id": "document_Text_1",
+          "id": "LBAUG02_20231131AM",
           "content": {
             "type": "Text",
             "format": "html",
@@ -24,17 +24,16 @@
     },
     "defaultDocumentType": "problem",
     "settings": {
-      "table": {
-        "numFormat": ".2~f", 
-        "tools": ["link-tile","delete"]
-      },
+      "table": { "numFormat": ".2~f", "tools": ["link-tile", "link-graph", ["data-set-view", "DataCard"], "delete"]},
       "graph": {
         "defaultAxisLabels": {
           "bottom": "Categories",
           "left": "Counts"
         },
         "emptyPlotIsNumeric": false,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
       }
     },
     "toolbar": [
@@ -131,7 +130,7 @@
             },
             {
               "initials": "ID",
-              "title": "Identifying",
+              "title": "Investigating",
               "type": "problem-documents"
             },
             {
@@ -313,7 +312,7 @@
     },
     "id": {
       "initials": "ID",
-      "title": "Identifying",
+      "title": "Investigating",
       "placeholder": "Document your collected moths"
     },
     "summary": {
@@ -329,17 +328,17 @@
     "trap": {
       "initials": "TRAP",
       "title": "Trap",
-      "type": "problem-documents"
+      "placeholder": "Document your moth traps"
     },
     "sort": {
       "initials": "SORT",
       "title": "Sort",
-      "type": "problem-documents"
+      "placeholder": "Assemble your moth collection"
     },
     "analyze": {
       "initials": "ID",
       "title": "Analysis",
-      "type": "problem-documents"
+      "placeholder": "Document your collected moths"
     }
   },
   "planningDocument": {
@@ -373,13 +372,13 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "Identifying Moths 22-23",
+      "title": "Investigating Moths 2022-23",
       "problems": [
         {
           "description": "Activity 1.1",
           "ordinal": 1,
           "title": "Welcome to MothEd CLUE PD: Archived",
-          "subtitle": "Application and Collaboration",
+          "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-1/problem-1/getStarted/content.json",
@@ -434,7 +433,7 @@
     {
       "description": "Investigation 2",
       "ordinal": 2,
-      "title": "Identifying Moths 22-23",
+      "title": "Investigating Moths 2022-23",
       "problems": [
         {
           "description": "Activity 2.1",
@@ -464,12 +463,12 @@
     {
       "description": "Investigation 3",
       "ordinal": 3,
-      "title": "Identifying Moths",
+      "title": "Investigating Moths",
       "problems": [
         {
           "description": "Activity 3.1",
           "ordinal": 1,
-          "title": "Middle School",
+          "title": "Middle School 2023-24",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -481,16 +480,17 @@
           ]
         },
         {
-          "description": "Activity 3.1",
+          "description": "Activity 3.2",
           "ordinal": 2,
-          "title": "Elementary",
+          "title": "Elementary 2023-24",
           "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-3/problem-2/start/content.json",
             "investigation-3/problem-2/trapBuilding/content.json",
             "investigation-3/problem-2/sorting/content.json",
-            "investigation-3/problem-2/pinning/content.json"
+            "investigation-3/problem-2/pinning/content.json",
+            "investigation-3/problem-2/analyze/content.json"
 
           ]
         } 

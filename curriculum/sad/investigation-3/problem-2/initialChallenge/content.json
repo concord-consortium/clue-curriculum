@@ -1,1 +1,694 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "0ALVHVRR9ocf2El9",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Devon used the shapes from Problem 3.1. He suggested starting with a triangle. </p>"
+          ]
+        }
+      },
+      {
+        "id": "IMt8Hnikudqh3GWp",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Devon’s Strategy</strong></p><p><strong>The Sum of the Angles of a Triangle</strong></p><p>I began by drawing irregular triangles. I tore the corners off the triangle and then rearranged them. The angles form a straight line or a straight angle. The sum of the angles of triangle are 180º. </p>"
+          ]
+        }
+      },
+      {
+        "id": "ynEg7l0aChO4cVIy",
+        "title": "Devon's Strategy",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/picture64.png",
+          "filename": "sad/images/picture64.png"
+        }
+      },
+      {
+        "id": "Rq4weEewmGUMZP9t",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Make a prediction </strong></p><ul><li>Does Devon&#x27;s strategy make sense? Will it work on other triangles? Other polygons. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "UYORis7Eoec2LJAw",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary based on students&#x27; prior experiences. </p>"
+          ]
+        }
+      },
+      {
+        "id": "Fvlo0kVo_fKrx_aR",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Conduct an experiment </strong></p><p>Equipment </p><ul><li>A copy of the shapes from Problem 3.1. </li></ul><p>Directions (individually, with a partner, or small group)</p><ul><li>Tear off each angle and rearrange them around a point</li><li>Record the following information in a table. </li></ul>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "ZzsBIGYUhR8i2jUE",
+          "title": "Triangle T",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "oHbXNl0-ow_n3sCW",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  5,
+                  1
+                ],
+                "properties": {
+                  "id": "k2i06j9ejnyS6kbM",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  5,
+                  4
+                ],
+                "properties": {
+                  "id": "NL601OZ7Q762X3_g",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "oHbXNl0-ow_n3sCW",
+                  "k2i06j9ejnyS6kbM",
+                  "NL601OZ7Q762X3_g"
+                ],
+                "properties": {
+                  "id": "c4dOWnAaCRMbrnYJ"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "2BTdkayV2twbNyxb",
+          "title": "Square B",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "wYVLzaaZY9yKCP1U",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.96587598635728,
+                  1.0460307954220502
+                ],
+                "properties": {
+                  "id": "LNCTusbK6y5IYf7n",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.992911811010204,
+                  4.955991473352959
+                ],
+                "properties": {
+                  "id": "vNeFGEWWg5sGb_aX",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  5
+                ],
+                "properties": {
+                  "id": "BheHvu7IS5w9gLVK",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "wYVLzaaZY9yKCP1U",
+                  "LNCTusbK6y5IYf7n",
+                  "vNeFGEWWg5sGb_aX",
+                  "BheHvu7IS5w9gLVK"
+                ],
+                "properties": {
+                  "id": "BJY1UJxk_dn7En6c"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "ljHP9FBmCHlz0aAz",
+          "title": "Parallelogram K",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  1.0140518565539345,
+                  0.9723479489155877
+                ],
+                "properties": {
+                  "id": "YzjPwZzbPz3ydlCs",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4.956388558160354,
+                  1.0488748584256882
+                ],
+                "properties": {
+                  "id": "S8iczImMN6b_8wO2",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  7,
+                  4
+                ],
+                "properties": {
+                  "id": "K9thOaVvV5Jn4wsp",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  3,
+                  4
+                ],
+                "properties": {
+                  "id": "4p_ytPqEspswz889",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "YzjPwZzbPz3ydlCs",
+                  "S8iczImMN6b_8wO2",
+                  "K9thOaVvV5Jn4wsp",
+                  "4p_ytPqEspswz889"
+                ],
+                "properties": {
+                  "id": "1wGAirB4vL2_ObYO"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "1id1kmn0NIRvXmn0",
+          "title": "Trapezoid S",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  0.9509626374027498,
+                  1.0353696197257365
+                ],
+                "properties": {
+                  "id": "DWZ0OyYpLCB2EfTr",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  6,
+                  1
+                ],
+                "properties": {
+                  "id": "OQd6xel_uNPaCa_o",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4,
+                  4
+                ],
+                "properties": {
+                  "id": "cAry_NGeA74DUweB",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  4
+                ],
+                "properties": {
+                  "id": "8QCQ6JHC8C_50TM7",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "DWZ0OyYpLCB2EfTr",
+                  "OQd6xel_uNPaCa_o",
+                  "cAry_NGeA74DUweB",
+                  "8QCQ6JHC8C_50TM7"
+                ],
+                "properties": {
+                  "id": "jpO-0PRQdAvbjMMK"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "OjYYPgTpbwGTj9cP",
+          "title": "Hexagon D",
+          "content": {
+            "type": "Image",
+            "url": "sad/images/sd-3.1-ic-pic-1.png",
+            "filename": "sad/images/sd-3.1-ic-pic-1.png"
+          }
+        },
+        {
+          "id": "GQWJOy8pMqnk7i5x",
+          "title": "Septagon E",
+          "content": {
+            "type": "Image",
+            "url": "sad/images/sd-3.1-ic-pic-2.png",
+            "filename": "sad/images/sd-3.1-ic-pic-2.png"
+          }
+        }
+      ],
+      {
+        "id": "MB9iF3C-xud30dxP",
+        "title": "Observation Table for Angle Sum of Polygons",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Wbl2S-YXJaFkxa5w": 104.38671875,
+            "oMjtHTvfJOMg5qsE": 187.9921875,
+            "fPH1WCuSNMu0GL48": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "xep0Ym-jU4DF_hbl",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Analyze the data</strong></p><p>•What patterns do you observe in the table? Does it agree with your prediction?</p>"
+          ]
+        }
+      },
+      {
+        "id": "7Zwp8NVit1lAUOJ1",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>As you increase the number of sides by one, the angle sum increases by 180. Looking at this pattern in the table, we can see that (n – 2)180 = angle sum.</p>"
+          ]
+        }
+      },
+      {
+        "id": "JTo_DyQNm-HpChCe",
+        "title": "Observation Table: Filled out",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/screen-shot-2023-07-26-at-12.54.24-pm.png",
+          "filename": "sad/images/screen-shot-2023-07-26-at-12.54.24-pm.png"
+        }
+      },
+      {
+        "id": "r-Eb0VA8XA4CslTR",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>This gives a good opportunity to revisit the Distributive Property and early work on equivalent expressions from the Factoring in Structure Unit of Grade 6. </p><p><em>Note: At this point we do not expect students to have a deductive argument justifying their formula, just an observation about the pattern in the table values.</em></p><p><em>(number of sides – 2) • 180 = angle sum </em></p><p><em>or, in equation form</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "To8U1ASG_uVwbbUH",
+        "title": "Sample equation for angle sum",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\left(n-2)180=180\\left(n-2\\right)=S\\right."
+        }
+      },
+      {
+        "id": "h0vbzodJh9wLtBHf",
+        "title": "Sample equation for angle sum",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "180n-360=S"
+        }
+      },
+      {
+        "id": "frURlkTOrmh9j8sg",
+        "title": "Text 9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>•What is the sum of the angles of an octagon? Nonagon? Decagon? N-gon?</p>"
+          ]
+        }
+      },
+      {
+        "id": "XdHmnSI1Yuao3VqU",
+        "title": "Text 10",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>See table above. </p>"
+          ]
+        }
+      },
+      {
+        "id": "EGufSQjZWdCGlzqd",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>•What is the angle measure of regular polygons? Octagon? Nonagon? Decagon? N-gon?</p>"
+          ]
+        }
+      },
+      {
+        "id": "bhKwKYt0RQrmqvIV",
+        "title": "Text 12",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>For regular polygons, we can take the angle sum and divide it by the number of angles, which is the same as the number of sides, to get the measure of one angle.</p>"
+          ]
+        }
+      },
+      {
+        "id": "_ldgQvezutoZ1Daq",
+        "title": "Expanded Observation Table",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "sad/images/screen-shot-2023-07-26-at-1.02.46-pm.png",
+          "filename": "sad/images/screen-shot-2023-07-26-at-1.02.46-pm.png"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "TGigM2R6j-ZVv4zI",
+          "providerId": "MB9iF3C-xud30dxP",
+          "dataSet": {
+            "id": "ZpTiZFETe3P-kXk5",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "Wbl2S-YXJaFkxa5w",
+                "clientKey": "",
+                "name": "Polygon",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Triangle",
+                  "Square",
+                  "Pentagon",
+                  "Hexagon",
+                  "Heptagon",
+                  "Octagon",
+                  "Nonagon",
+                  "Decagon",
+                  "n-gon"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oMjtHTvfJOMg5qsE",
+                "clientKey": "",
+                "name": "Number of Sides (n)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "fPH1WCuSNMu0GL48",
+                "clientKey": "",
+                "name": "Angle sum (S)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "4FQUCCm_P4IIXZZR"
+              },
+              {
+                "__id__": "W0QXQXhmWfnjfrZg"
+              },
+              {
+                "__id__": "CeBT7oGrNPrlPmq6"
+              },
+              {
+                "__id__": "WqJdcPhLx2e1jz3B"
+              },
+              {
+                "__id__": "wBgu6bUGWMNyW0sO"
+              },
+              {
+                "__id__": "pLb07Rka0iZW83Zf"
+              },
+              {
+                "__id__": "FFJpsd_k--MCVt24"
+              },
+              {
+                "__id__": "l2pTAo3FOoD9meC1"
+              },
+              {
+                "__id__": "oUrrbVTarG1_3wdS"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "MB9iF3C-xud30dxP"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

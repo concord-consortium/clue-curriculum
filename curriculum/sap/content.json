@@ -51,6 +51,8 @@
         "title": "Data Cards",
         "isTileTool": true
       },
+      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -81,7 +83,16 @@
       "table": {
         "numFormat": ".2~f"
       }
-    }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+       "part-to-part": "Part-to-Part",
+       "part-to-whole": "Part-to-Whole",
+       "unit-rate": "Unit Rate",
+       "guess-and-check": "Guess and Check",
+       "none": "None"
+    },
+     "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -282,63 +293,8 @@
       ]
     },
     {
-      "description": "Investigation 3",
-      "ordinal": 3,
-      "title": "SAP Investigation 3 Using Samples to Draw Conclusions",
-      "problems": [
-        {
-          "description": "Problem 3.1",
-          "ordinal": 1,
-          "title": "SAP 3.1 Solving an Archeological Mystery",
-          "subtitle": "Comparing Samples using Median, IQR, and Box Plots",
-          "sections": [
-            "investigation-3/problem-1/introduction/content.json",
-            "investigation-3/problem-1/initialChallenge/content.json",
-            "investigation-3/problem-1/whatIf/content.json",
-            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
-          ]
-        },
-        {
-          "description": "Problem 3.2",
-          "ordinal": 2,
-          "title": "SAP 3.2 Comparing Heights of Basketball Players",
-          "subtitle": "Using Means and MADS",
-          "sections": [
-            "investigation-3/problem-2/introduction/content.json",
-            "investigation-3/problem-2/initialChallenge/content.json",
-            "investigation-3/problem-2/whatIf/content.json",
-            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
-          ]
-        },
-        {
-          "description": "Problem 3.3",
-          "ordinal": 3,
-          "title": "SAP 3.3 Five Chocolate Chips in Every Cookie",
-          "subtitle": "Using Samples in a Simulation",
-          "sections": [
-            "investigation-3/problem-3/introduction/content.json",
-            "investigation-3/problem-3/initialChallenge/content.json",
-            "investigation-3/problem-3/whatIf/content.json",
-            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
-          ]
-        },
-        {
-          "description": "Problem 3.4",
-          "ordinal": 4,
-          "title": "SAP 3.4 Estimating a Deer Population",
-          "subtitle": "Using Samples to Estimate the Size of a Population",
-          "sections": [
-            "investigation-3/problem-4/introduction/content.json",
-            "investigation-3/problem-4/initialChallenge/content.json",
-            "investigation-3/problem-4/whatIf/content.json",
-            "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
-          ]
-        }
-      ]
-    },
-    {
       "description": "SAP Mathematical Reflections",
-      "ordinal": 4,
+      "ordinal": 3,
       "title": "SAP MR1-3",
       "problems": [
         {
@@ -348,15 +304,14 @@
           "subtitle": "",
           "sections": [
             "investigation-4/problem-1/MathReflection1/content.json",
-            "investigation-4/problem-1/MathReflection2/content.json",
-            "investigation-4/problem-1/MathReflection3/content.json"
+            "investigation-4/problem-1/MathReflection2/content.json"
           ]
         }
       ]
     },
     {
       "description": "SAP ACE Question Bank",
-      "ordinal": 5,
+      "ordinal": 4,
       "title": "SAP ACE 1 - ACE 4",
       "problems": [
         {
@@ -366,8 +321,7 @@
           "subtitle": "",
           "sections": [
             "investigation-5/problem-1/ACE1/content.json",
-            "investigation-5/problem-1/ACE2/content.json",
-            "investigation-5/problem-1/ACE3/content.json"
+            "investigation-5/problem-1/ACE2/content.json"
           ]
         }
       ]

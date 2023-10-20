@@ -9,7 +9,11 @@
     "settings": {
       "table": {"numFormat": ".2~f"},
       "text": {"tools": ["bold", "subscript", "superscript", "new-variable", "insert-variable", "edit-variable"]},
-      "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "new-variable", "insert-variable", "edit-variable", "delete"]}
+      "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "new-variable", "insert-variable", "edit-variable", "delete"]},
+      "simulator": {
+        "defaultSimulation": "EMG_and_claw",
+        "maxTiles": 1
+      }
     },
     "navTabs": {
       "showNavPanel": true,
@@ -38,6 +42,8 @@
         "title": "Diagram",
         "isTileTool": true
       },
+      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
       {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
       {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
       {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
