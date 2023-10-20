@@ -9,7 +9,11 @@
     "settings": {
       "table": {"numFormat": ".2~f"},
       "text": {"tools": ["bold", "subscript", "superscript", "new-variable", "insert-variable", "edit-variable"]},
-      "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "new-variable", "insert-variable", "edit-variable", "delete"]}
+      "drawing": {"tools": ["select", "line", "vector", "rectangle", "ellipse", "stamp", "stroke-color", "fill-color", "new-variable", "insert-variable", "edit-variable", "delete"]},
+      "simulator": {
+        "defaultSimulation": "EMG_and_claw",
+        "maxTiles": 1
+      }
     },
     "navTabs": {
       "showNavPanel": true,

@@ -24,17 +24,16 @@
     },
     "defaultDocumentType": "problem",
     "settings": {
-      "table": {
-        "numFormat": ".2~f", 
-        "tools": ["link-tile","delete"]
-      },
+      "table": { "numFormat": ".2~f", "tools": ["link-tile", "link-graph", ["data-set-view", "DataCard"], "delete"]},
       "graph": {
         "defaultAxisLabels": {
           "bottom": "Categories",
           "left": "Counts"
         },
         "emptyPlotIsNumeric": false,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
       }
     },
     "toolbar": [

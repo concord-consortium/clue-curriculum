@@ -21,6 +21,7 @@
         "title": "Text",
         "isTileTool": true
       },
+      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
       {
         "id": "Geometry",
         "title": "Graph",
@@ -51,6 +52,8 @@
         "title": "Data Cards",
         "isTileTool": true
       },
+      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -76,12 +79,38 @@
         "isTileTool": false
       }
     ],
-    "stamps": [],
+    "stamps": [
+      {
+        "url": "cr/stamps/blackChip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/redChip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
     "settings": {
       "table": {
         "numFormat": ".2~f"
       }
-    }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+       "part-to-part": "Part-to-Part",
+       "part-to-whole": "Part-to-Whole",
+       "unit-rate": "Unit Rate",
+       "ratios": "Ratios of Same Variable",
+       "common-parts": "Common Part to Whole",
+       "building-up": "Building Up",
+       "other-proportional": "Other - Proportional",
+       "operate-one-variable": "Operate on Same Variable",
+       "operate-two-variables": "Operate on Both Variables",
+       "affective-response": "Affective Responses",
+       "other-nonproportional": "Other - Nonproportional"
+    },
+     "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -183,7 +212,7 @@
     "sections": [
       {
         "type": "unitPlan"
-      }
+      },
       {
         "type": "overview"
       },
@@ -215,7 +244,23 @@
             "investigation-1/problem-1/initialChallenge/content.json",
             "investigation-1/problem-1/whatIf/content.json",
             "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": []
+              },
+              "explore": {
+                "tiles": []
+              },
+              "summarize": {
+                "tiles": []
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.2",
@@ -374,7 +419,12 @@
           "ordinal": 3,
           "title": "CR 4.3 Water In and Out",
           "subtitle": "Rational Numbers to the Rescue",
-          "sections": []
+          "sections": [
+            "investigation-4/problem-3/introduction/content.json",
+            "investigation-4/problem-3/initialChallenge/content.json",
+            "investigation-4/problem-3/whatIf/content.json",
+            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+          ]
         }
       ]
     },
