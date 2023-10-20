@@ -3,22 +3,32 @@
   "content": {
     "tiles": [
       {
+        "id": "document_Text_1",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "The diagram shows a collection of mouths (rectangles) and noses (triangles). Some are from the Wump family. Others are from impostors."
+            "<p>The diagram shows a collection of mouths (rectangles) and noses (triangles). Some are from the Wump family. Others are from impostors.</p>"
           ]
         }
       },
       {
         "id": "21AUG20220512PM",
         "title": "Wump Mouths and Noses",
-        "layout": {
-          "height": 420
-        },
         "content": {
           "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -2,
+                -1
+              ],
+              "axisRange": [
+                26.23,
+                17.486
+              ]
+            }
+          },
           "objects": [
             {
               "type": "image",
@@ -29,415 +39,522 @@
                   0
                 ],
                 "size": [
-                  350,
-                  368
+                  19.12568306010929,
+                  20.109289617486336
                 ]
+              },
+              "properties": {
+                "id": "OTR2gOd3zU6N8uJL"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                19
+              ],
+              "properties": {
+                "id": "ZNZ081EmbOuKM73F",
+                "name": "J₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                19
+              ],
+              "properties": {
+                "id": "JDGmyLJCDAc8ExoY",
+                "name": "J₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                17
+              ],
+              "properties": {
+                "id": "HyiQdw_a14Tz8eF-",
+                "name": "J₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                17
+              ],
+              "properties": {
+                "id": "L0ICko3OMt1EBrSt",
+                "name": "J₄"
               }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    1,
-                    19
-                  ],
-                  "properties": {
-                    "name": "J₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    9,
-                    19
-                  ],
-                  "properties": {
-                    "name": "J₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    9,
-                    17
-                  ],
-                  "properties": {
-                    "name": "J₃"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    1,
-                    17
-                  ],
-                  "properties": {
-                    "name": "J₄"
-                  }
-                }
-              ]
+                "ZNZ081EmbOuKM73F",
+                "JDGmyLJCDAc8ExoY",
+                "HyiQdw_a14Tz8eF-",
+                "L0ICko3OMt1EBrSt"
+              ],
+              "properties": {
+                "id": "_mR8rqctyVYUJnO7"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                12,
+                19
+              ],
+              "properties": {
+                "id": "gV433jH1FVAbgCOp",
+                "name": "K₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                16,
+                19
+              ],
+              "properties": {
+                "id": "vhqYUmRGSkFlvcKq",
+                "name": "K₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                16,
+                16
+              ],
+              "properties": {
+                "id": "GBeWc7EcXCe6wccM",
+                "name": "K₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                12,
+                16
+              ],
+              "properties": {
+                "id": "PYdeJhcpapcGlkc4",
+                "name": "K₄"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    12,
-                    19
-                  ],
-                  "properties": {
-                    "name": "K₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    16,
-                    19
-                  ],
-                  "properties": {
-                    "name": "K₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    16,
-                    16
-                  ],
-                  "properties": {
-                    "name": "K₃"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    12,
-                    16
-                  ],
-                  "properties": {
-                    "name": "K₄"
-                  }
-                }
-              ]
+                "gV433jH1FVAbgCOp",
+                "vhqYUmRGSkFlvcKq",
+                "GBeWc7EcXCe6wccM",
+                "PYdeJhcpapcGlkc4"
+              ],
+              "properties": {
+                "id": "OAp3MI6GK5Lw2H6C"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                16
+              ],
+              "properties": {
+                "id": "l2wf5e5N9JnjPRI5",
+                "name": "L₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                16
+              ],
+              "properties": {
+                "id": "dwr-y4PQ4eSJcOYt",
+                "name": "L₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                15
+              ],
+              "properties": {
+                "id": "B15Xhb3ieSM2mkAz",
+                "name": "L₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                15
+              ],
+              "properties": {
+                "id": "uQFnF1lQZ2bvLkq5",
+                "name": "L₄"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    16
-                  ],
-                  "properties": {
-                    "name": "L₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    6,
-                    16
-                  ],
-                  "properties": {
-                    "name": "L₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    6,
-                    15
-                  ],
-                  "properties": {
-                    "name": "L₃"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    15
-                  ],
-                  "properties": {
-                    "name": "L₄"
-                  }
-                }
-              ]
+                "l2wf5e5N9JnjPRI5",
+                "dwr-y4PQ4eSJcOYt",
+                "B15Xhb3ieSM2mkAz",
+                "uQFnF1lQZ2bvLkq5"
+              ],
+              "properties": {
+                "id": "RTESJoDiorVATBgd"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                14
+              ],
+              "properties": {
+                "id": "uQQlb1V-wCZp5X3A",
+                "name": "M₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                17,
+                14
+              ],
+              "properties": {
+                "id": "K2ndlpVJuwMrPIjC",
+                "name": "M₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                17,
+                13
+              ],
+              "properties": {
+                "id": "sz3yKWuKYFmCgheG",
+                "name": "M₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                5,
+                13
+              ],
+              "properties": {
+                "id": "9qtyUeR6YYzu3AEi",
+                "name": "M₄"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    5,
-                    14
-                  ],
-                  "properties": {
-                    "name": "M₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    17,
-                    14
-                  ],
-                  "properties": {
-                    "name": "M₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    17,
-                    13
-                  ],
-                  "properties": {
-                    "name": "M₃"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    5,
-                    13
-                  ],
-                  "properties": {
-                    "name": "M₄"
-                  }
-                }
-              ]
+                "uQQlb1V-wCZp5X3A",
+                "K2ndlpVJuwMrPIjC",
+                "sz3yKWuKYFmCgheG",
+                "9qtyUeR6YYzu3AEi"
+              ],
+              "properties": {
+                "id": "jrUgfYxh1N4Wk1YK"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                12
+              ],
+              "properties": {
+                "id": "pVYYs0ZwmqKd6zW5",
+                "name": "N₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                13,
+                12
+              ],
+              "properties": {
+                "id": "g6BP_cZpfJvPvMUq",
+                "name": "N₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                13,
+                9
+              ],
+              "properties": {
+                "id": "HHAuRCYrAgooiiXM",
+                "name": "N₃"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                9
+              ],
+              "properties": {
+                "id": "Giaxj4VyArx-EJ8x",
+                "name": "N₄"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    1,
-                    12
-                  ],
-                  "properties": {
-                    "name": "N₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    13,
-                    12
-                  ],
-                  "properties": {
-                    "name": "N₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    13,
-                    9
-                  ],
-                  "properties": {
-                    "name": "N₃"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    1,
-                    9
-                  ],
-                  "properties": {
-                    "name": "N₄"
-                  }
-                }
-              ]
+                "pVYYs0ZwmqKd6zW5",
+                "g6BP_cZpfJvPvMUq",
+                "HHAuRCYrAgooiiXM",
+                "Giaxj4VyArx-EJ8x"
+              ],
+              "properties": {
+                "id": "ZVSCpI7dS1gIXgi9"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                6
+              ],
+              "properties": {
+                "id": "EayHtqkdp6y9ocbi",
+                "name": "O₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                5
+              ],
+              "properties": {
+                "id": "UdskVWJni2HjGMcN",
+                "name": "O₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                3,
+                5
+              ],
+              "properties": {
+                "id": "qVXNxm2qoeQgm5cF",
+                "name": "O₃"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    6
-                  ],
-                  "properties": {
-                    "name": "O₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    1,
-                    5
-                  ],
-                  "properties": {
-                    "name": "O₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    3,
-                    5
-                  ],
-                  "properties": {
-                    "name": "O₃"
-                  }
-                }
-              ]
+                "EayHtqkdp6y9ocbi",
+                "UdskVWJni2HjGMcN",
+                "qVXNxm2qoeQgm5cF"
+              ],
+              "properties": {
+                "id": "_r3azgnFJIvzt2X4"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                8,
+                7
+              ],
+              "properties": {
+                "id": "HnEMUD1tWGbg5uEH",
+                "name": "P₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                7,
+                4
+              ],
+              "properties": {
+                "id": "MB9MYP3D0xXjjTD1",
+                "name": "P₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                9,
+                4
+              ],
+              "properties": {
+                "id": "oYefkrNFeZkN6KS4",
+                "name": "P₃"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    8,
-                    7
-                  ],
-                  "properties": {
-                    "name": "P₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    7,
-                    4
-                  ],
-                  "properties": {
-                    "name": "P₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    9,
-                    4
-                  ],
-                  "properties": {
-                    "name": "P₃"
-                  }
-                }
-              ]
+                "HnEMUD1tWGbg5uEH",
+                "MB9MYP3D0xXjjTD1",
+                "oYefkrNFeZkN6KS4"
+              ],
+              "properties": {
+                "id": "dmsRzjfSLZltSaRJ"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                15,
+                7
+              ],
+              "properties": {
+                "id": "QgDHXPHHroBZelFt",
+                "name": "Q₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                12,
+                6
+              ],
+              "properties": {
+                "id": "XhqZRg77cKVV4r4O",
+                "name": "Q₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                18,
+                6
+              ],
+              "properties": {
+                "id": "OrsZVddqvUX1C-L9",
+                "name": "Q₃"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    15,
-                    7
-                  ],
-                  "properties": {
-                    "name": "Q₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    12,
-                    6
-                  ],
-                  "properties": {
-                    "name": "Q₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    18,
-                    6
-                  ],
-                  "properties": {
-                    "name": "Q₃"
-                  }
-                }
-              ]
+                "QgDHXPHHroBZelFt",
+                "XhqZRg77cKVV4r4O",
+                "OrsZVddqvUX1C-L9"
+              ],
+              "properties": {
+                "id": "udzz3NE_zBm91doy"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                4,
+                4
+              ],
+              "properties": {
+                "id": "JHIM2veD7GKvO3Li",
+                "name": "R₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                2
+              ],
+              "properties": {
+                "id": "exGHIbTS3ALXVNWE",
+                "name": "R₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                2
+              ],
+              "properties": {
+                "id": "l9zHhIzGP8BD-BB9",
+                "name": "R₃"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    4,
-                    4
-                  ],
-                  "properties": {
-                    "name": "R₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    2
-                  ],
-                  "properties": {
-                    "name": "R₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    6,
-                    2
-                  ],
-                  "properties": {
-                    "name": "R₃"
-                  }
-                }
-              ]
+                "JHIM2veD7GKvO3Li",
+                "exGHIbTS3ALXVNWE",
+                "l9zHhIzGP8BD-BB9"
+              ],
+              "properties": {
+                "id": "wylvwE8pLd54qRJF"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                13,
+                4
+              ],
+              "properties": {
+                "id": "tSnfBydu4HfwxjxL",
+                "name": "S₁"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                10,
+                1
+              ],
+              "properties": {
+                "id": "ohIOSHlRb3Dv3n6U",
+                "name": "S₂"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                16,
+                1
+              ],
+              "properties": {
+                "id": "d2fkg1wf6HSQMKpj",
+                "name": "S₃"
+              }
             },
             {
               "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    13,
-                    4
-                  ],
-                  "properties": {
-                    "name": "S₁"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    10,
-                    1
-                  ],
-                  "properties": {
-                    "name": "S₂"
-                  }
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    16,
-                    1
-                  ],
-                  "properties": {
-                    "name": "S₃"
-                  }
-                }
-              ]
+                "tSnfBydu4HfwxjxL",
+                "ohIOSHlRb3Dv3n6U",
+                "d2fkg1wf6HSQMKpj"
+              ],
+              "properties": {
+                "id": "pyIg2EMIWN98PGdm"
+              }
             }
           ]
+        },
+        "layout": {
+          "height": 420
         }
       },
       {
+        "id": "document_Text_2",
         "content": {
           "type": "Text",
           "format": "html",
@@ -447,32 +564,28 @@
         }
       },
       {
+        "id": "document_Text_3",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Rectangles</p>",
-            "<p>Rectangles (mouths) J, L, and N are similar to each other. Students should point out that since these are all rectangles, the angles are all right angles and hence congruent, or the same size. For rectangles, it is then only necessary to check side lengths.</p>",
-            "<p>L to J is 2; L to N is 3; J to N is 3/2</p>",
-            "<p>J to L is 1/2 (reciprocal of 2); N to L is 1/3  (reciprocal of 3); N to J is   2/3 (reciprocal of 3/2 ).</p>",
-            "<p>Triangles</p>",
-            "<p>Triangles (noses) O, R, and S are similar to each other.</p>",
-            "<p>O to R is 2; O to S is 3; and R to S is 3/2 .</p>",
-            "<p>R to O is 1/2 (reciprocal of 2); S to O is 1/3  (reciprocal of 3); S to R is 2/3  (reciprocal of 3/2 ).</p>"
+            "<p><strong>Rectangles</strong></p><p>Rectangles (mouths) J, L, and N are similar to each other. Students should point out that since these are all rectangles, the angles are all right angles and hence congruent, or the same size. For rectangles, it is then only necessary to check side lengths.</p><p>L to J is 2; L to N is 3; J to N is 3/2</p><p>J to L is 1/2 (reciprocal of 2); N to L is 1/3 (reciprocal of 3); N to J is 2/3 (reciprocal of 3/2).</p><p><strong>Triangles</strong></p><p>Triangles (noses) O, R, and S are similar to each other.</p><p>O to R is 2; O to S is 3; and R to S is 3/2.</p><p>R to O is 1/2 (reciprocal of 2); S to O is 1/3 (reciprocal of 3); S to R is 2/3 (reciprocal of 3/2).</p>"
           ]
         }
       },
       {
+        "id": "document_Text_4",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "• In what ways could scale factor be useful when determining similar figures?"
+            "<ul><li>In what ways could scale factor be useful when determining similar figures?</li></ul>"
           ]
         }
       },
       {
+        "id": "document_Text_5",
         "display": "teacher",
         "content": {
           "type": "Text",

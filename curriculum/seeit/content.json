@@ -16,6 +16,20 @@
     "settings": {
       "table": {
         "numFormat": ".2~f"
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "simulator": {
+        "defaultSimulation": "terrarium",
+        "maxTiles": 1
       }
     },
     "learningLog": {
@@ -39,7 +53,12 @@
       },
       {
         "id": "Dataflow",
-        "title": "Dataflow",
+        "title": "Sensor Program",
+        "isTileTool": true
+      },
+      {
+        "id": "Simulator",
+        "title": "Terrarium Simulator",
         "isTileTool": true
       },
       {
@@ -58,11 +77,12 @@
         "isTileTool": true
       },
       {
-        "id": "XYplot",
+        "id": "Graph",
         "title": "XY Plot",
         "iconId": "icon-plot-tool",
         "isTileTool": true
       },
+      {"id": "Expression", "title": "Expression", "isTileTool": true},
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -88,6 +108,7 @@
         "isTileTool": false
       }
     ],
+    "tools": ["Simulator"],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,

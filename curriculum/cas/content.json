@@ -3,41 +3,224 @@
   "abbrevTitle": "CAS",
   "title": "Comparing and Scaling",
   "subtitle": "Developing Proportional Reasoning in the Context of Number (Quantities)",
-  "config": {"enableHistoryRoles": ["teacher"], "placeholderText": "Enter notes here"},
+  "config": {
+    "enableHistoryRoles": [
+      "teacher"
+    ],
+    "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "stamps": [],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+       "part-to-part": "Part-to-Part",
+       "part-to-whole": "Part-to-Whole",
+       "unit-rate": "Unit Rate",
+       "guess-and-check": "Guess and Check",
+       "none": "None"
+    },
+     "tagPrompt": "Select Student Strategy"
+  },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "initialChallenge": {"initials": "IC", "title": "Initial Challenge", "placeholder": "Work area for\nInitial Challenge section"},
-    "whatIf": {"initials": "WI", "title": "What If...?", "placeholder": "Work area for\nWhat If...? section"},
-    "nowWhatDoYouKnow": {"initials": "NW", "title": "Now What Do You Know?", "placeholder": "Work area for\nNow What Do You Know? section"},
-    "didYouKnow": {"initials": "DY", "title": "Did You Know?", "placeholder": "Work area for\nDid You Know? section"},
-    "MathReflection1": {"initials": "R1", "title": "Math Reflection 1", "placeholder": "Work area for\nMathematical Reflection 1 section"},
-    "MathReflection2": {"initials": "R2", "title": "Math Reflection 2", "placeholder": "Work area for\nMathematical Reflection 2 section"},
-    "MathReflection3": {"initials": "R3", "title": "Math Reflection 3", "placeholder": "Work area for\nMathematical Reflection 3 section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "didYouKnow": {
+      "initials": "DY",
+      "title": "Did You Know?",
+      "placeholder": "Work area for\nDid You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "unitPlan": {
+        "initials": "UP",
+        "title": "Unit Plan",
+        "placeholder": "Work area for\nUnit Plan section"
+      },
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
       "description": "Investigation 1",
       "ordinal": 1,
       "title": "CAS Investigation 1 Proportional Reasoning Using Ratio Comparisons",
-      "introduction": {"tiles": []},
+      "introduction": {
+        "tiles": []
+      },
       "problems": [
         {
           "description": "Problem 1.1",
           "ordinal": 1,
           "title": "CAS 1.1 Mixing Juice",
           "subtitle": "Choosing a Comparing Strategy",
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/initialChallenge/content.json", "investigation-1/problem-1/whatIf/content.json", "investigation-1/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -54,14 +237,62 @@
                       ]
                     }
                   },
-                  {"id": "l7ATmoD_g0Vp3tYP", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe some strategies for solving problems that involve ratios. </p>"]}},
+                  {
+                    "id": "l7ATmoD_g0Vp3tYP",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe some strategies for solving problems that involve ratios. </p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "geD2-nKha2wnUWNk",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Introduction, Exploration, </em></p>", "<p><em>and Analysis</em></p>", "<p></p>", "<p></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Introduction, Exploration, </em></p>",
+                        "<p><em>and Analysis</em></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
                   },
-                  {"id": "tgX_TSRpAh8yqc7x", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Ratio</p>"]}},
-                  {"id": "SUgbcvf8XcNXhSr0", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 1.1 Strategies</p>", "<p>Teaching Aid 1.1 Orange Juice Recipes</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "tgX_TSRpAh8yqc7x",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Ratio</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "SUgbcvf8XcNXhSr0",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 1.1 Strategies</p>",
+                        "<p>Teaching Aid 1.1 Orange Juice Recipes</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "nGBXSmq2W74Mg7RL",
                     "title": "Text 1",
@@ -169,7 +400,12 @@
           "ordinal": 2,
           "title": "CAS 1.2 Time to Concentrate",
           "subtitle": "Scaling Ratios",
-          "sections": ["investigation-1/problem-2/introduction/content.json", "investigation-1/problem-2/initialChallenge/content.json", "investigation-1/problem-2/whatIf/content.json", "investigation-1/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -186,10 +422,62 @@
                       ]
                     }
                   },
-                  {"id": "b1VAvNSjzAl4X9no", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How do the strategies you used in this Problem compare to those used in Problem 1.1?</p>"]}},
-                  {"id": "_7HaSroVLVE0jp_k", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Analysis</em></p>", "<p></p>"]}},
-                  {"id": "ZIpprS1nAYkupYnJ", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Part-to Part</p>", "<p>Part-to-Whole</p>", "<p>Unit Rate<strong></strong></p>"]}},
-                  {"id": "VWLTXzWNSjpUvvor", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 1.2 Recipes </p>", "<p>Teaching Aid 1.2  Ratio Types Notation</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "b1VAvNSjzAl4X9no",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How do the strategies you used in this Problem compare to those used in Problem 1.1?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "_7HaSroVLVE0jp_k",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Analysis</em></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ZIpprS1nAYkupYnJ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Part-to Part</p>",
+                        "<p>Part-to-Whole</p>",
+                        "<p>Unit Rate<strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "VWLTXzWNSjpUvvor",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 1.2 Recipes </p>",
+                        "<p>Teaching Aid 1.2  Ratio Types Notation</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "1zzbEMX8bBoiOnlz",
                     "title": "Text 1",
@@ -292,7 +580,12 @@
           "ordinal": 3,
           "title": "CAS 1.3 Keeping Things in Proportion",
           "subtitle": "Using Proportions",
-          "sections": ["investigation-1/problem-3/introduction/content.json", "investigation-1/problem-3/initialChallenge/content.json", "investigation-1/problem-3/whatIf/content.json", "investigation-1/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -309,10 +602,60 @@
                       ]
                     }
                   },
-                  {"id": "h7wy5SehMmzzqU8d", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How are proportions like other strategies that you have used to solve ratio problems?  How are they different?</p>"]}},
-                  {"id": "VKLfWWCpUdlRZDy_", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Analysis and Synthesis</em></p>", "<p></p>"]}},
-                  {"id": "LUD85GFnVWm0P8WK", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Proportion</p>", "<p>Proportional Reasoning<strong></strong></p>"]}},
-                  {"id": "n4dH5U9IkRoayRr5", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Teaching Aid 1.3 Proportional Reasoning Examples</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "h7wy5SehMmzzqU8d",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How are proportions like other strategies that you have used to solve ratio problems?  How are they different?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "VKLfWWCpUdlRZDy_",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Analysis and Synthesis</em></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "LUD85GFnVWm0P8WK",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Proportion</p>",
+                        "<p>Proportional Reasoning<strong></strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "n4dH5U9IkRoayRr5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Teaching Aid 1.3 Proportional Reasoning Examples</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "A6io5x2fdHfQrcSp",
                     "title": "Text 1",
@@ -411,8 +754,7 @@
             }
           }
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Investigation 2",
@@ -426,7 +768,12 @@
           "title": "CAS 2.1 Sharing Pizzas",
           "subtitle": "Comparing Rate Strategies",
           "disabled": [],
-          "sections": ["investigation-2/problem-1/introduction/content.json", "investigation-2/problem-1/initialChallenge/content.json", "investigation-2/problem-1/whatIf/content.json", "investigation-2/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -443,10 +790,60 @@
                       ]
                     }
                   },
-                  {"id": "Xt_RGpRYdnoNHOKb", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>We have used several strategies for solving problems that involve ratios. How do you decide which method to use?</p>"]}},
-                  {"id": "6GTDPFngKavuNT4z", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Analysis</em></p>", "<p></p>"]}},
-                  {"id": "1JRTzjRyPc5VgEF5", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Rates</p>"]}},
-                  {"id": "0XTrdh9bg13vrhwN", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 2.1A: Pizzas and Tables</p>", "<p>Learning Aid 2.1B: Strategies</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "Xt_RGpRYdnoNHOKb",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>We have used several strategies for solving problems that involve ratios. How do you decide which method to use?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "6GTDPFngKavuNT4z",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Analysis</em></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "1JRTzjRyPc5VgEF5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Rates</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "0XTrdh9bg13vrhwN",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 2.1A: Pizzas and Tables</p>",
+                        "<p>Learning Aid 2.1B: Strategies</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "37IUnGqAUzb4eImv",
                     "title": "Text 1",
@@ -552,7 +949,11 @@
           "ordinal": 2,
           "title": "CAS 2.2 Comparing Pizza Prices",
           "subtitle": "How Do We Know It Is Proportional?",
-          "sections": ["investigation-2/problem-2/initialChallenge/content.json", "investigation-2/problem-2/whatIf/content.json", "investigation-2/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -569,10 +970,58 @@
                       ]
                     }
                   },
-                  {"id": "SGmZS3lUN8mSrF1p", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How can you determine if a situation is a proportional relationship?</p>"]}},
-                  {"id": "KSIq9qIMq1qWSgMg", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Analysis and Synthesis</em></p>", "<p></p>"]}},
-                  {"id": "B84vo4d-dIU2PVLR", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Rates</p>"]}},
-                  {"id": "FvAO5myZmPhzvHFl", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 2.2: Royal and Howdy Pizza Costs</p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "SGmZS3lUN8mSrF1p",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How can you determine if a situation is a proportional relationship?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "KSIq9qIMq1qWSgMg",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Analysis and Synthesis</em></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "B84vo4d-dIU2PVLR",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Rates</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "FvAO5myZmPhzvHFl",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 2.2: Royal and Howdy Pizza Costs</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "So24lrQr2tsdcG9G",
                     "title": "Text 1",
@@ -686,7 +1135,12 @@
           "ordinal": 3,
           "title": "CAS 2.3 Finding Costs",
           "subtitle": "Unit Rates and the Constant of Proportionality",
-          "sections": ["investigation-2/problem-3/introduction/content.json", "investigation-2/problem-3/initialChallenge/content.json", "investigation-2/problem-3/whatIf/content.json", "investigation-2/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -709,18 +1163,51 @@
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe how you can determine a unit rate, or constant of proportionality, from a description, rate table, equation, or graph? In what ways is a unit rate or the constant of proportionality helpful for solving a problem?</p>"]
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe how you can determine a unit rate, or constant of proportionality, from a description, rate table, equation, or graph? In what ways is a unit rate or the constant of proportionality helpful for solving a problem?</p>"
+                      ]
                     }
                   },
-                  {"id": "m6qukFiwEJXHHAjN", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Synthesis</em></p>"]}},
-                  {"id": "jKsi0U7oWjsPXVal", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>", "<p>Constant of proportionality</p>"]}},
+                  {
+                    "id": "m6qukFiwEJXHHAjN",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "jKsi0U7oWjsPXVal",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>",
+                        "<p>Constant of proportionality</p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "Y8RqvdXgTj0dl4HA",
                     "title": "Text 1",
                     "content": {
                       "type": "Text",
                       "format": "html",
-                      "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 2.3: Cost of Oranges</p>", "<p>Graphing technology such as an online graphing program or a graphing calculator (optional)</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 2.3: Cost of Oranges</p>",
+                        "<p>Graphing technology such as an online graphing program or a graphing calculator (optional)</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
                     }
                   },
                   {
@@ -837,7 +1324,12 @@
           "ordinal": 1,
           "title": "CAS 3.1 Using Percents",
           "subtitle": "What is the Tax?",
-          "sections": ["investigation-3/problem-1/introduction/content.json", "investigation-3/problem-1/initialChallenge/content.json", "investigation-3/problem-1/whatIf/content.json", "investigation-3/problem-1/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -854,13 +1346,58 @@
                       ]
                     }
                   },
-                  {"id": "jrKsJyN3A_l6ameF", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How are percent problems like ratio and rate problems? </p>"]}},
-                  {"id": "4wiEJHt_IaRJZpSa", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em> Analysis and Synthesis</em></p>"]}},
-                  {"id": "vIBxrckEsodiHC-o", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "jrKsJyN3A_l6ameF",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How are percent problems like ratio and rate problems? </p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "4wiEJHt_IaRJZpSa",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em> Analysis and Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "vIBxrckEsodiHC-o",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "6K3scHoNZrKnCXl1",
                     "title": "Text 1",
-                    "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 3.1A Cost of Skylar’s School Items</p>", "<p>Learning Aid 3.1B Student Strategies</p>", "<p></p>", "<p>Teacher Aid 3.1 Introduction</p>", "<p></p>", "<p></p>", "<p></p>"]}
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 3.1A Cost of Skylar’s School Items</p>",
+                        "<p>Learning Aid 3.1B Student Strategies</p>",
+                        "<p></p>",
+                        "<p>Teacher Aid 3.1 Introduction</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
                   },
                   {
                     "id": "eZOIKD8BVcv7iIJu",
@@ -977,7 +1514,12 @@
           "ordinal": 2,
           "title": "CAS 3.2 Using Percents",
           "subtitle": "What is the Tip?",
-          "sections": ["investigation-3/problem-2/introduction/content.json", "investigation-3/problem-2/initialChallenge/content.json", "investigation-3/problem-2/whatIf/content.json", "investigation-3/problem-2/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -994,10 +1536,59 @@
                       ]
                     }
                   },
-                  {"id": "Wu6zZF-73Ebd1IZT", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe some strategies you used to solve percent problems.</p>"]}},
-                  {"id": "71YCyk56jvtnVU6x", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Synthesis</em></p>"]}},
-                  {"id": "y8OAJT9IdGmXPTWB", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "DaMjghd45qY7DOkK", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid.3.2 Larry’s Lunch Place Menu</p>", "<p>Chart Paper</p>", "<p>Sticky Notes</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "Wu6zZF-73Ebd1IZT",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe some strategies you used to solve percent problems.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "71YCyk56jvtnVU6x",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "y8OAJT9IdGmXPTWB",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "DaMjghd45qY7DOkK",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid.3.2 Larry’s Lunch Place Menu</p>",
+                        "<p>Chart Paper</p>",
+                        "<p>Sticky Notes</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "QslD3GkCgT27Xqph",
                     "title": "Text 1",
@@ -1115,7 +1706,12 @@
           "ordinal": 3,
           "title": "CAS 3.3 Feeding Chimps",
           "subtitle": "The Percent Connection",
-          "sections": ["investigation-3/problem-3/introduction/content.json", "investigation-3/problem-3/initialChallenge/content.json", "investigation-3/problem-3/whatIf/content.json", "investigation-3/problem-3/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1132,10 +1728,57 @@
                       ]
                     }
                   },
-                  {"id": "EBScRCIQXnGgwHLF", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>How are percents useful to solve problems?</p>"]}},
-                  {"id": "X6WiWVGtKTAF4qqN", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Synthesis and Abstraction</em></p>"]}},
-                  {"id": "luLz6KJXFt6RBbkj", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
-                  {"id": "Q2tkHeLXpyorZP1h", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Materials</strong></p>", "<p>Learning Aid 3.3 Chimp Food Mixtures.</p>", "<p></p>", "<p></p>", "<p></p>", "<p></p>"]}},
+                  {
+                    "id": "EBScRCIQXnGgwHLF",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>How are percents useful to solve problems?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "X6WiWVGtKTAF4qqN",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Synthesis and Abstraction</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "luLz6KJXFt6RBbkj",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Q2tkHeLXpyorZP1h",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>",
+                        "<p>Learning Aid 3.3 Chimp Food Mixtures.</p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>",
+                        "<p></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "Ao5i53Yk9Ru3Iji8",
                     "title": "Text 1",
@@ -1243,7 +1886,12 @@
           "ordinal": 4,
           "title": "CAS 3.4 Leaky Faucets, Free Throws, Populations, and Environment",
           "subtitle": "What’s the Connection?",
-          "sections": ["investigation-3/problem-4/introduction/content.json", "investigation-3/problem-4/initialChallenge/content.json", "investigation-3/problem-4/whatIf/content.json", "investigation-3/problem-4/nowWhatDoYouKnow/content.json"],
+          "sections": [
+            "investigation-3/problem-4/introduction/content.json",
+            "investigation-3/problem-4/initialChallenge/content.json",
+            "investigation-3/problem-4/whatIf/content.json",
+            "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
+          ],
           "config": {
             "planningTemplate": {
               "overview": {
@@ -1260,9 +1908,41 @@
                       ]
                     }
                   },
-                  {"id": "2f8otU3HC-IfShjF", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>NWDYK</strong></p>", "<p>Describe some situations that you encounter in your daily life that require proportional reasoning.</p>"]}},
-                  {"id": "z3qRWiIYrKunToeJ", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Arc of Learning</strong></p>", "<p>Reasoning Proportionally with Quantities: <em>Analysis and Synthesis</em></p>"]}},
-                  {"id": "7cRG5mY2tJ9d7K11", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Key Terms</strong></p>"]}},
+                  {
+                    "id": "2f8otU3HC-IfShjF",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p>",
+                        "<p>Describe some situations that you encounter in your daily life that require proportional reasoning.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "z3qRWiIYrKunToeJ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p>",
+                        "<p>Reasoning Proportionally with Quantities: <em>Analysis and Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "7cRG5mY2tJ9d7K11",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
                   {
                     "id": "owZmrmVt2thZpKVV",
                     "title": "Text 1",
@@ -1396,8 +2076,7 @@
             }
           }
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Mathematical Reflections",
@@ -1409,11 +2088,47 @@
           "ordinal": 1,
           "title": "Comparing and Scaling Mathematical Reflections",
           "subtitle": "",
-          "sections": ["investigation-4/problem-1/MathReflection1/content.json", "investigation-4/problem-1/MathReflection2/content.json", "investigation-4/problem-1/MathReflection3/content.json"],
-          "config": {"planningTemplate": {"overview": {"tiles": []}, "launch": {"tiles": []}, "explore": {"tiles": []}, "summarize": {"tiles": []}}}
+          "sections": [
+            "investigation-4/problem-1/MathReflection1/content.json",
+            "investigation-4/problem-1/MathReflection2/content.json",
+            "investigation-4/problem-1/MathReflection3/content.json"
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": []
+              },
+              "explore": {
+                "tiles": []
+              },
+              "summarize": {
+                "tiles": []
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "description": "CAS ACE Question Bank",
+      "ordinal": 5,
+      "title": "CAS ACE 1 - ACE 4",
+      "problems": [
+        {
+          "description": "CAS ACE Question Banks",
+          "ordinal": 1,
+          "title": "CAS ACE Question Banks",
+          "subtitle": "",
+          "sections": [
+            "investigation-5/problem-1/ACE1/content.json",
+            "investigation-5/problem-1/ACE2/content.json",
+            "investigation-5/problem-1/ACE3/content.json"
+          ]
         }
       ]
     }
-  ],
-  "supports": []
+  ]
 }

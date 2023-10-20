@@ -2,15 +2,15 @@
   "code": "moth",
   "abbrevTitle": "MothEd",
   "appName": "MothEd",
-  "title": "MothEd Identifying Moths",
-  "subtitle": "Wings, Spots, and Legs",
+  "title": "MothEd",
+  "subtitle": "",
   "config": {
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
     "defaultDocumentTemplate": {
       "tiles": [
         {
-          "id": "document_Text_1",
+          "id": "LBAUG02_20231131AM",
           "content": {
             "type": "Text",
             "format": "html",
@@ -23,18 +23,82 @@
       ]
     },
     "defaultDocumentType": "problem",
+    "settings": {
+      "table": { "numFormat": ".2~f", "tools": ["link-tile", "link-graph", ["data-set-view", "DataCard"], "delete"]},
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "Categories",
+          "left": "Counts"
+        },
+        "emptyPlotIsNumeric": false,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
+      }
+    },
     "toolbar": [
-      {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
-      {"id": "Text", "title": "Text", "isTileTool": true},
-      {"id": "Image", "title": "Image", "isTileTool": true},
-      {"id": "DataCard", "title": "Data Cards", "isTileTool": true},
-      {"id": "Drawing", "title": "Drawing", "isTileTool": true},
-      {"id": "Table", "title": "Table", "isTileTool": true},
-      {"id": "XYPlot", "title": "XY Plot", "isTileTool": true},
-      {"id": "duplicate", "title": "Duplicate Tile", "iconId": "icon-duplicate-tool", "isTileTool": false},
-      {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
-      {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
-      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "XY Plot",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
     ],
     "navTabs": {
       "showNavPanel": true,
@@ -66,7 +130,7 @@
             },
             {
               "initials": "ID",
-              "title": "Identifying",
+              "title": "Investigating",
               "type": "problem-documents"
             },
             {
@@ -142,14 +206,6 @@
         }
       ]
     },
-    "settings": {
-      "table": {
-        "numFormat": ".2~f",
-        "tools": [
-          "delete"
-        ]
-      }
-    },
     "stamps": [
       {
         "url": "moth/stamps/ABDOMEN.png",
@@ -167,47 +223,47 @@
         "height": 36
       },
       {
-        "url":"moth/stamps/L-ANTENNA.png",
+        "url": "moth/stamps/L-ANTENNA.png",
         "width": 50,
         "height": 8
       },
       {
-        "url":"moth/stamps/R-ANTENNA.png",
+        "url": "moth/stamps/R-ANTENNA.png",
         "width": 50,
         "height": 34
       },
       {
-        "url":"moth/stamps/L-FORE.png",
+        "url": "moth/stamps/L-FORE.png",
         "width": 150,
         "height": 99
       },
       {
-        "url":"moth/stamps/L-HIND.png",
+        "url": "moth/stamps/L-HIND.png",
         "width": 100,
         "height": 114
       },
       {
-        "url":"moth/stamps/R-FORE.png",
+        "url": "moth/stamps/R-FORE.png",
         "width": 150,
         "height": 82
       },
       {
-        "url":"moth/stamps/R-HIND.png",
+        "url": "moth/stamps/R-HIND.png",
         "width": 100,
         "height": 102
       },
       {
-        "url":"moth/stamps/LIGHT.png",
+        "url": "moth/stamps/LIGHT.png",
         "width": 96,
         "height": 96
       },
       {
-        "url":"moth/stamps/STRINGS.png",
+        "url": "moth/stamps/STRINGS.png",
         "width": 60,
         "height": 106
       },
       {
-        "url":"moth/stamps/TIES.png",
+        "url": "moth/stamps/TIES.png",
         "width": 100,
         "height": 25
       },
@@ -256,7 +312,7 @@
     },
     "id": {
       "initials": "ID",
-      "title": "Identifying",
+      "title": "Investigating",
       "placeholder": "Document your collected moths"
     },
     "summary": {
@@ -272,17 +328,17 @@
     "trap": {
       "initials": "TRAP",
       "title": "Trap",
-      "type": "problem-documents"
+      "placeholder": "Document your moth traps"
     },
     "sort": {
       "initials": "SORT",
       "title": "Sort",
-      "type": "problem-documents"
+      "placeholder": "Assemble your moth collection"
     },
     "analyze": {
       "initials": "ID",
       "title": "Analysis",
-      "type": "problem-documents"
+      "placeholder": "Document your collected moths"
     }
   },
   "planningDocument": {
@@ -316,13 +372,13 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "MothEd Curriculum",
+      "title": "Investigating Moths 2022-23",
       "problems": [
         {
           "description": "Activity 1.1",
           "ordinal": 1,
-          "title": "Welcome to MothEd CLUE PD",
-          "subtitle": "Application and Collaboration",
+          "title": "Welcome to MothEd CLUE PD: Archived",
+          "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-1/problem-1/getStarted/content.json",
@@ -334,7 +390,7 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "MothEd Middle School Activity",
+          "title": "Middle School Activity v1: Archived",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -348,7 +404,7 @@
         {
           "description": "Activity 1.3",
           "ordinal": 3,
-          "title": "MothEd Middle School Activity - New Tabs",
+          "title": "Middle School",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -360,10 +416,10 @@
           ]
         },
         {
-          "description": "Activity 1.5 - old original",
+          "description": "Activity 1.5",
           "ordinal": 5,
-          "title": "Moth Investigation",
-          "subtitle": "Study and Share",
+          "title": "Moth Investigation v0: Archived",
+          "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-1/problem-5/getStarted/content.json",
@@ -377,12 +433,12 @@
     {
       "description": "Investigation 2",
       "ordinal": 2,
-      "title": "MothEd Elementary Curriculum",
+      "title": "Investigating Moths 2022-23",
       "problems": [
         {
           "description": "Activity 2.1",
           "ordinal": 1,
-          "title": "MothEd Elementary Curriculum",
+          "title": "Elementary",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -393,15 +449,51 @@
           ]
         },
         {
-          "description": "Activity 2.2 - Replica Gr1",
+          "description": "Activity 2.2",
           "ordinal": 2,
-          "title": "MothEd Elementary Curriculum - Sorting Moths",
+          "title": "MothEd Elementary v0: Archived",
           "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-2/problem-2/start/content.json"
           ]
         }
+      ]
+    },
+    {
+      "description": "Investigation 3",
+      "ordinal": 3,
+      "title": "Investigating Moths",
+      "problems": [
+        {
+          "description": "Activity 3.1",
+          "ordinal": 1,
+          "title": "Middle School 2023-24",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-1/start/content.json",
+            "investigation-3/problem-1/trap/content.json",
+            "investigation-3/problem-1/sort/content.json",
+            "investigation-3/problem-1/analyze/content.json",
+            "investigation-3/problem-1/summary/content.json"
+          ]
+        },
+        {
+          "description": "Activity 3.2",
+          "ordinal": 2,
+          "title": "Elementary 2023-24",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-2/start/content.json",
+            "investigation-3/problem-2/trapBuilding/content.json",
+            "investigation-3/problem-2/sorting/content.json",
+            "investigation-3/problem-2/pinning/content.json",
+            "investigation-3/problem-2/analyze/content.json"
+
+          ]
+        } 
       ]
     }
   ]
