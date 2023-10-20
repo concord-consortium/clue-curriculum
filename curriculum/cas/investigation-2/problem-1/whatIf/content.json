@@ -60,12 +60,13 @@
           ]
         }
       },
-      {"display": "teacher", "content": {"type": "Text", "format": "html", "text": ["<p>Selma is correct.  (10 people)/(4 pizzas) =  (1 person)/(4/10 pizza)</p>", "<p>                                          (8 people)/(3 pizzas) = (1 person)/(3/8 pizza)</p>"]}},
+      {"display": "teacher", "content": {"type": "Text", "format": "html", "text": ["<p>Selma is correct.  (10 people)/(4 pizzas) =  (1 person)/(4/10 pizza)</p>", "<p>                                          (8 people)/(3 pizzas) = (1 person)/(3/8 pizza)</p>"]}, "id": "TILEV6YvOSKFhHzL"},
       {
         "display": "teacher",
-        "content": {"type": "Text", "format": "html", "text": ["<p>Tony scales the ratio correctly.   (10 people)/(4 pizzas ) = (2.5 people)/(1 pizza)</p>", "<p>                                                                           (8 people)/(3 pizzas) = (2 2/3  people)/(1 pizza)</p>"]}
+        "content": {"type": "Text", "format": "html", "text": ["<p>Tony scales the ratio correctly.   (10 people)/(4 pizzas ) = (2.5 people)/(1 pizza)</p>", "<p>                                                                           (8 people)/(3 pizzas) = (2 2/3  people)/(1 pizza)</p>"]},
+        "id": "TILEte9h1WxTXUCC"
       },
-      {"display": "teacher", "content": {"type": "Text", "format": "html", "text": ["<p>But Tony does not correctly interpret the numbers. 2 2/3 is greater than 2.5. But that means that more people are sharing a pizza at the small table.</p>"]}},
+      {"display": "teacher", "content": {"type": "Text", "format": "html", "text": ["<p>But Tony does not correctly interpret the numbers. 2 2/3 is greater than 2.5. But that means that more people are sharing a pizza at the small table.</p>"]}, "id": "TILEERR69q3lC2oI"},
       {
         "display": "teacher",
         "content": {
@@ -77,7 +78,8 @@
             "<p>Even though there are six more people than pizzas at the large table and only five more people than pizzas at the small table, each person at the large table will get a greater share of pizza than each person at the small table.</p>",
             "<p>Note: Some students might agree with Terry. For them, the comparison implied by a ratio is defined by the difference between the ratio parts. They think about how many extra people there are compared to the number of pizzas (six at the large table and five at the small table).</p>"
           ]
-        }
+        },
+        "id": "TILEg0lSYAw7KezH"
       },
       {"id": "wxtNCpiqEwHaE16_", "content": {"type": "Text", "format": "html", "text": ["<strong>Situation B. Pizza for all the Campers</strong>", "<p>If there are 210 campers, how many pizzas are needed</p>", "1. If only large tables are used?"]}},
       {
@@ -86,7 +88,8 @@
           "type": "Text",
           "format": "html",
           "text": ["<p><strong>Proportions as a Strategy</strong></p>", "                      x 21", "                       ⃕", "10 people = 210 people", "____________________________", "     4 pizzas = 84 pizzas", "                    ⤻", "                  x 21"]
-        }
+        },
+        "id": "TILEO8r3RAL1QrHu"
       },
       {
         "display": "teacher",
@@ -94,7 +97,8 @@
           "type": "Text",
           "format": "html",
           "text": ["<p><strong>Unit Rate as a Strategy</strong></p>", "<p>A way to find missing values in a proportional situation is to build a rate table of equivalent ratios using the unit rate. Some students will notice that even though the math is correct, 5/2 of a person is not possible.</p>"]
-        }
+        },
+        "id": "TILEQrhPhiXgLbXo"
       },
       {
         "display": "teacher",
@@ -102,15 +106,21 @@
           "type": "Table",
           "name": "Unit Rate Table",
           "columns": [{"name": "Number of People", "width": 150, "values": ["5/2", "5", "10", "20", "30", "40", "50", "blank", "210", "blank"]}, {"name": "Number of Pizzas", "width": 150, "values": ["1", "2", "4", "8", "12", "16", "20", "", "84", ""]}]
-        }
+        },
+        "id": "TILELftwGVd3cjUX"
       },
-      {"content": {"type": "Text", "format": "html", "text": ["2. If only small tables are used?"]}},
+      {"content": {"type": "Text", "format": "html", "text": ["2. If only small tables are used?"]}, "id": "TILEbycQCFBE5GQ1"},
       {
         "display": "teacher",
-        "content": {"type": "Text", "format": "html", "text": ["Proportions as a strategy:", "                x 26.25", "                      ⃕", "8 people = 210 people", "___________________________", "3 pizzas = 78.75 pizzas", "                   ⤻", "                x26.25"]}
+        "content": {"type": "Text", "format": "html", "text": ["Proportions as a strategy:", "                x 26.25", "                      ⃕", "8 people = 210 people", "___________________________", "3 pizzas = 78.75 pizzas", "                   ⤻", "                x26.25"]},
+        "id": "TILEPJ5MniXpYJ22"
       },
-      {"display": "teacher", "content": {"type": "Text", "format": "html", "text": ["<p>Unit Rate as a Strategy</p>", "<p>A way to find missing values in a proportional situation is to build a rate table of equivalent ratios using the unit rate.</p>"]}},
-      {"display": "teacher", "content": {"type": "Table", "name": "Unit Rate Table", "columns": [{"name": "Number of people", "width": 150, "values": ["8/3", "8", "80", "160", "208", "210"]}, {"name": "Number of pizzas", "width": 150, "values": ["1", "3", "30", "60", "78", "78 3/4"]}]}},
+      {"display": "teacher", "content": {"type": "Text", "format": "html", "text": ["<p>Unit Rate as a Strategy</p>", "<p>A way to find missing values in a proportional situation is to build a rate table of equivalent ratios using the unit rate.</p>"]}, "id": "TILEMXKTDbyZ83BH"},
+      {
+        "display": "teacher",
+        "content": {"type": "Table", "name": "Unit Rate Table", "columns": [{"name": "Number of people", "width": 150, "values": ["8/3", "8", "80", "160", "208", "210"]}, {"name": "Number of pizzas", "width": 150, "values": ["1", "3", "30", "60", "78", "78 3/4"]}]},
+        "id": "TILEEsu01Zdwes7j"
+      },
       {"id": "ZdcxH3JV3J7GuG_a", "content": {"type": "Text", "format": "html", "text": ["<strong>Situation C. Considering Extra-large Tables</strong>", "<p>The camp decides to use only extra-large tables that seat 25 people.</p>", "1. How many pizzas should be put on an extra-large table?"]}},
       {
         "display": "teacher",
@@ -118,7 +128,8 @@
           "type": "Text",
           "format": "html",
           "text": ["<p>Answers will vary. If students use the same unit rate that was at the large table, they may solve it with a proportion and scale factor.</p>", "<ul><li> (10 people)/(4 pizzas) =(1 person)/(4/10 pizza) = (25 people)/(10 pizzas)</li></ul>"]
-        }
+        },
+        "id": "TILESaUAeM9QZcrE"
       },
       {
         "display": "teacher",
@@ -129,7 +140,8 @@
             "<p>Students may create a different ratio for an extra-large table. One example from a classroom was from a group that wanted the amount of pizza per person at the extra-large table to be more than at the large table. They found that 25 people and 10 pizzas was the exact same amount per person, so they said if you put 11 pizzas it would be more than 4/10 per person. They showed it with this proportion:</p>",
             "<ul><li> (25 people)/(11 pizzas) = (1 person )/(44/100  pizza)</li></ul>"
           ]
-        }
+        },
+        "id": "TILEprI7l_jIOkgA"
       },
       {"id": "NM4TxZ9MMRA4GKqA", "content": {"type": "Text", "format": "html", "text": ["2. How many pizzas would be used to serve 210 campers if they sit at extra-large tables?"]}},
       {
@@ -138,7 +150,8 @@
           "type": "Text",
           "format": "html",
           "text": ["<p>If students use the ratio from Situation C #1 it would be</p>", "<p>(25 people)/(10 pizzas)= (210 campers)/(84 pizzas)</p>", "<p>Or if they used (25 people)/(11 pizzas) = (210 campers)/(92.4 pizzas)   (In classrooms that used this idea most students said 93 pizzas.)</p>"]
-        }
+        },
+        "id": "TILEem6vFw846Kqi"
       }
     ]
   },
