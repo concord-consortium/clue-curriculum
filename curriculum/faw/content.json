@@ -22,13 +22,18 @@
         "isTileTool": true
       },
       {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
         "id": "Geometry",
         "title": "Graph",
         "isTileTool": true
       },
       {
-        "id": "Table",
-        "title": "Table",
+        "id": "Drawing",
+        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -36,14 +41,10 @@
         "title": "Expression",
         "isTileTool": true
       },
+      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
       {
         "id": "Image",
         "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "Drawing",
-        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -86,13 +87,16 @@
     },
     "showCommentTag": true,
     "commentTags": {
-       "part-to-part": "Part-to-Part",
-       "part-to-whole": "Part-to-Whole",
-       "unit-rate": "Unit Rate",
-       "guess-and-check": "Guess and Check",
-       "none": "None"
+      "part-to-part": "Part-to-Part",
+      "part-to-whole": "Part-to-Whole",
+      "unit-rate": "Unit Rate",
+      "ratios": "Ratios of Same Variable",
+      "common-parts": "Common Part or Whole",
+      "building-up": "Building Up",
+      "other-proportional": "Other - Proportional",
+      "other-nonproportional": "Other - Nonproportional"
     },
-     "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
