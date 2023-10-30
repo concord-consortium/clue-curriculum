@@ -7,30 +7,61 @@
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<strong>Situation A. Table and Equation Strategies</strong>", "<p>Students in Ms. Lopez’s class used different strategies to find the number of recipes needed for 210 campers. Examine each strategy. How are the two strategies the same? Different?</p>"]
+          "text": [
+            "<p><strong>Situation A. Table and Equation Strategies</strong></p><p>Students in Ms. Lopez’s class used different strategies to find the number of recipes needed for 210 campers. Examine each strategy. How are the two strategies the same? Different?</p>"
+          ]
         }
       },
-      {"id": "E2rQF_q8VamwREoC", "content": {"type": "Text", "format": "html", "text": ["<strong>Adia’s Strategy</strong>", "<p>I used a rate table to find the number of batches of Recipe A to serve 210 campers.</p>"]}},
+      {
+        "id": "E2rQF_q8VamwREoC",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Adia’s Strategy</strong></p><p>I used a rate table to find the number of batches of Recipe A to serve 210 campers.</p>"
+          ]
+        }
+      },
       {
         "id": "Geco2vI8XAFZ8DX8",
         "title": "Table 1",
         "content": {
           "type": "Table",
-          "name": "Adia's Strategy",
-          "columns": [{"name": "Number of batches of Recipe A", "width": 140, "values": ["1", "2", "3", "4", "5", "10", "20", "40", "41", "        ?"]}, {"name": "Number of 1 cup servings of juice", "width": 122, "values": ["5", "", "", "", "", "", "", "", "", "210"]}]
+          "columnWidths": {
+            "48LdqvsrnQCyLJ4_": 140,
+            "qqID2LqWghvGgBq3": 122
+          },
+          "name": "Adia's Strategy"
         }
       },
-      {"id": "cSLYigd0r8c_nXSD", "content": {"type": "Text", "format": "html", "text": ["<strong>Otis’s Strategy</strong>", "<p>I used an equation to show how the ratios are equal and to find the number of batches of Recipe A.</p>", "<p>1/5=  x/210</p>"]}},
       {
+        "id": "cSLYigd0r8c_nXSD",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Otis’s Strategy</strong></p><p>I used an equation to show how the ratios are equal and to find the number of batches of Recipe A.</p>"
+          ]
+        }
+      },
+      {
+        "id": "1bzB0w1Lkb2e9NqE",
+        "title": "Otis's Strategy",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac15=\\frac{x}{210}"
+        }
+      },
+      {
+        "id": "TILEXMV349G8cbTI",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>They both used equivalent ratios.  Otis used the unit rate of 1batch/(5 c.juice) and scaled it directly up to 210 c. juice.  Adia used the unit rate of 1batch/(5 c.juice)  and scaled it up several times by changing the total number of cups of juice and then scaling up the number of batches until she got to 210 total cups.</p>"
+            "<p>They both used equivalent ratios.  Otis used the unit rate of 1 batch/(5 c. juice) and scaled it directly up to 210 c. juice.  Adia used the unit rate of 1 batch/(5 c. juice) and scaled it up several times by changing the total number of cups of juice and then scaling up the number of batches until she got to 210 total cups.</p>"
           ]
-        },
-        "id": "TILEXMV349G8cbTI"
+        }
       },
       {
         "id": "UosVT5U9_kafjN6D",
@@ -38,21 +69,270 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<strong>Situation B. Cece Makes Lemonade</strong>",
-            "<p>After the camp, Cece makes lemonade for her family. She uses the unit rate of one cup of concentrate to three cups of cold water. She needs 160 ounces of juice. Note that one cup is equal to 8 ounces.</p>",
-            "<p>1.  How much concentrate will she need?</p>",
-            "<p>2.  How much water will she need?</p>"
+            "<p><strong>Situation B. Cece Makes Lemonade</strong></p><p>After the camp, Cece makes lemonade for her family. She uses the unit rate of one cup of concentrate to three cups of cold water. She needs 160 ounces of juice. Note that one cup is equal to 8 ounces.</p><ol><li>How much concentrate will she need?</li><li>How much water will she need?</li></ol>"
           ]
         }
       },
       {
+        "id": "TILE9JVnNLoU6-J-",
+        "title": "Cece's Lemonade",
         "display": "teacher",
         "content": {
           "type": "Table",
-          "name": "Cece's Lemonade",
-          "columns": [{"name": "Recipe", "width": 140, "values": ["Concentrate", "Water", "Total Lemonade"]}, {"name": "Cups", "values": ["1", "3", "4"]}, {"name": "Oz", "values": ["8", "24", "32"]}, {"name": "x 5", "values": ["40", "120", "160"]}, {"name": "x 5 Cups", "values": ["5", "15", "20"]}]
+          "columnWidths": {
+            "Wczv8qd0OOWptLOP": 140,
+            "52STbGIpWEPRdm_d": 80,
+            "oBFlv-0cUQb1JgqI": 80,
+            "4DMF3yiNC-V2MqES": 80,
+            "n4y8CK4nW7YjLixX": 90
+          },
+          "name": "Cece's Lemonade"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "YpjGlqaF9l2r4Q03",
+          "providerId": "Geco2vI8XAFZ8DX8",
+          "dataSet": {
+            "id": "j8XIrrgOFUDaNAIy",
+            "name": "Adia's Strategy",
+            "attributes": [
+              {
+                "id": "48LdqvsrnQCyLJ4_",
+                "clientKey": "",
+                "name": "Number of batches of Recipe A",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "10",
+                  "20",
+                  "40",
+                  "41",
+                  "        ?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "qqID2LqWghvGgBq3",
+                "clientKey": "",
+                "name": "Number of 1 cup servings of juice",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "210"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0F"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0G"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0H"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0J"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0K"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0M"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0N"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0P"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0Q"
+              },
+              {
+                "__id__": "01HE0HTSK659YE1FEFS8PA5C0R"
+              }
+            ]
+          }
         },
-        "id": "TILE9JVnNLoU6-J-"
+        "tiles": [
+          "Geco2vI8XAFZ8DX8"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "15-WEwHAFGQTyWky",
+          "providerId": "TILE9JVnNLoU6-J-",
+          "dataSet": {
+            "id": "9Dq7ldQ2PB0VIE3o",
+            "name": "Cece's Lemonade",
+            "attributes": [
+              {
+                "id": "Wczv8qd0OOWptLOP",
+                "clientKey": "",
+                "name": "Recipe",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Concentrate",
+                  "Water",
+                  "Total Lemonade"
+                ],
+                "title": ""
+              },
+              {
+                "id": "52STbGIpWEPRdm_d",
+                "clientKey": "",
+                "name": "Cups",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oBFlv-0cUQb1JgqI",
+                "clientKey": "",
+                "name": "Oz",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "8",
+                  "24",
+                  "32"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4DMF3yiNC-V2MqES",
+                "clientKey": "",
+                "name": "x 5 oz",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "40",
+                  "120",
+                  "160"
+                ],
+                "title": ""
+              },
+              {
+                "id": "n4y8CK4nW7YjLixX",
+                "clientKey": "",
+                "name": "x 5 Cups",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "15",
+                  "20"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HE0HTSKARSFZDXCMGBAYSCFW"
+              },
+              {
+                "__id__": "01HE0HTSKARSFZDXCMGBAYSCFX"
+              },
+              {
+                "__id__": "01HE0HTSKARSFZDXCMGBAYSCFY"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "TILE9JVnNLoU6-J-"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "w9Br2jpmCxKBlZEH",
+        "sourceObject": {
+          "tileId": "TILE9JVnNLoU6-J-",
+          "objectId": "cell:{01HE0HTSKARSFZDXCMGBAYSCFW}:{oBFlv-0cUQb1JgqI}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "TILE9JVnNLoU6-J-",
+          "objectId": "cell:{01HE0HTSKARSFZDXCMGBAYSCFW}:{4DMF3yiNC-V2MqES}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x5",
+        "textOffset": {
+          "dx": -7.347880794884118e-15,
+          "dy": -813.5
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "oEivWlALJbgqGwhb",
+        "sourceObject": {
+          "tileId": "TILE9JVnNLoU6-J-",
+          "objectId": "cell:{01HE0HTSKARSFZDXCMGBAYSCFY}:{52STbGIpWEPRdm_d}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "TILE9JVnNLoU6-J-",
+          "objectId": "cell:{01HE0HTSKARSFZDXCMGBAYSCFY}:{n4y8CK4nW7YjLixX}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x5",
+        "textOffset": {
+          "dx": -2.1237097656776403e-14,
+          "dy": -857.5
+        },
+        "type": "arrowAnnotation"
       }
     ]
   },
