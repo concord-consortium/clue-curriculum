@@ -89,62 +89,65 @@
           ]
         }
       },
-      {
-        "id": "07OCT20220504PM",
-        "title": "Recipe B Solution",
-        "display": "teacher",
-        "content": {
-          "type": "Image",
-          "url": "cas/images/C&S_1-2_RecipeB2_350w.png"
-        }
-      },
-      {
-        "id": "DycEEoxsyKK7Nml6",
-        "title": "Recipe A",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "QQnEEeBKoXIFry-y": 99,
-            "B_8U4mUeH5-zaVWg": 80,
-            "Y--D2eps3Qnz9nXH": 80,
-            "jgs0VSvpUfIII053": 80
-          },
-          "name": "Table 1"
-        }
-      },
-      {
-        "id": "6q6WCpwQCaLQ90tq",
-        "title": "Recipe B",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "ezIiPpKxmSxxBbfP": 106,
-            "cHF-iJODlrh0vrD3": 80,
-            "kX4V7S9OVYfog2U2": 80,
-            "88CG_6rpBnZf_7_4": 80
-          },
-          "name": "Table 1"
-        }
-      },
       [
         {
-          "id": "07OCT20220503PM",
-          "title": "Recipe C Solution",
+          "id": "DycEEoxsyKK7Nml6",
+          "title": "Recipe A",
           "display": "teacher",
           "content": {
-            "type": "Image",
-            "url": "cas/images/C&S_1-2_RecipeC2_350w.png"
+            "type": "Table",
+            "columnWidths": {
+              "QQnEEeBKoXIFry-y": 99,
+              "B_8U4mUeH5-zaVWg": 80,
+              "Y--D2eps3Qnz9nXH": 80,
+              "jgs0VSvpUfIII053": 80
+            },
+            "name": "Table 1"
           }
         },
         {
-          "id": "07OCT20220555PM",
-          "title": "Recipe D Solution",
+          "id": "6q6WCpwQCaLQ90tq",
+          "title": "Recipe B",
           "display": "teacher",
           "content": {
-            "type": "Image",
-            "url": "cas/images/C&S_1-2_RecipeD2_350w.png"
+            "type": "Table",
+            "columnWidths": {
+              "ezIiPpKxmSxxBbfP": 106,
+              "cHF-iJODlrh0vrD3": 80,
+              "kX4V7S9OVYfog2U2": 80,
+              "88CG_6rpBnZf_7_4": 80
+            },
+            "name": "Table 1"
+          }
+        }
+      ],
+      [
+        {
+          "id": "k4TXoqZCJ5ih80k7",
+          "title": "Recipe C",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "RsORj9RLDOVUz38w": 99,
+              "qu0ClGixV0LbHo2Y": 80,
+              "iInhjodhIclx_kca": 80,
+              "QysHpbsNvtwJ1RYO": 80
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "RUZM8nBZECaa9seS",
+          "title": "Recipe D",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "vc97PqjObl9XMp6R": 95,
+              "PRHH1zTjcn2d6zht": 80,
+              "sm8aOmw7bvXwL488": 80,
+              "ZuPa_lhJDE06Ulx6": 80
+            },
+            "name": "Table 1"
           }
         }
       ]
@@ -315,6 +318,172 @@
         "tiles": [
           "6q6WCpwQCaLQ90tq"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Tn_BHE8yCXGAq0Ym",
+          "providerId": "k4TXoqZCJ5ih80k7",
+          "dataSet": {
+            "id": "fjsaGKdZOY7iI0Z1",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "RsORj9RLDOVUz38w",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "concentrate",
+                  "water",
+                  "total juice"
+                ],
+                "title": ""
+              },
+              {
+                "id": "qu0ClGixV0LbHo2Y",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "iInhjodhIclx_kca",
+                "clientKey": "",
+                "name": "y2",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "70",
+                  "140",
+                  "210"
+                ],
+                "title": ""
+              },
+              {
+                "id": "QysHpbsNvtwJ1RYO",
+                "clientKey": "",
+                "name": "y3",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1/3",
+                  "2/3",
+                  "1"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "hfGj70ZT6YZca85J"
+              },
+              {
+                "__id__": "7GFqnQS94k9_rbY2"
+              },
+              {
+                "__id__": "pc_wH38ToCBEPvbk"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "k4TXoqZCJ5ih80k7"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5NEtHuv-Xh8p3ozX",
+          "providerId": "RUZM8nBZECaa9seS",
+          "dataSet": {
+            "id": "nsi1CjYSDIH4VfmX",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "vc97PqjObl9XMp6R",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "concentrate",
+                  "water",
+                  "total juice"
+                ],
+                "title": ""
+              },
+              {
+                "id": "PRHH1zTjcn2d6zht",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "3",
+                  "5",
+                  "8"
+                ],
+                "title": ""
+              },
+              {
+                "id": "sm8aOmw7bvXwL488",
+                "clientKey": "",
+                "name": "y2",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "78.75",
+                  "131.25",
+                  "210"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ZuPa_lhJDE06Ulx6",
+                "clientKey": "",
+                "name": "y3",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "3/8",
+                  "5/8",
+                  "1"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "34M5pMR_kDwuqhZ9"
+              },
+              {
+                "__id__": "qMbmvPgYwYeyGMYJ"
+              },
+              {
+                "__id__": "ny8EXUOPIe5UVMND"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "RUZM8nBZECaa9seS"
+        ]
       }
     ],
     "annotations": [
@@ -346,10 +515,10 @@
         "type": "arrowAnnotation"
       },
       {
-        "id": "wygCmAFSQ7VIjZm_",
+        "id": "Cwe4gx5f-2d5qkZR",
         "sourceObject": {
           "tileId": "6q6WCpwQCaLQ90tq",
-          "objectId": "cell:{QoEc14qmIGFIyRri}:{cHF-iJODlrh0vrD3}",
+          "objectId": "cell:{JS_bi9_Tx0g2YSXb}:{cHF-iJODlrh0vrD3}",
           "objectType": "cell"
         },
         "sourceOffset": {
@@ -358,17 +527,71 @@
         },
         "targetObject": {
           "tileId": "6q6WCpwQCaLQ90tq",
-          "objectId": "cell:{QoEc14qmIGFIyRri}:{kX4V7S9OVYfog2U2}",
+          "objectId": "cell:{JS_bi9_Tx0g2YSXb}:{kX4V7S9OVYfog2U2}",
           "objectType": "cell"
         },
         "targetOffset": {
           "dx": 0,
           "dy": -8
         },
-        "text": "",
+        "text": "x15",
+        "textOffset": {
+          "dx": -1.0000000000000073,
+          "dy": -641.5
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "Ue7CsTVSHxyoy_Hi",
+        "sourceObject": {
+          "tileId": "k4TXoqZCJ5ih80k7",
+          "objectId": "cell:{hfGj70ZT6YZca85J}:{qu0ClGixV0LbHo2Y}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "k4TXoqZCJ5ih80k7",
+          "objectId": "cell:{hfGj70ZT6YZca85J}:{iInhjodhIclx_kca}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x70",
         "textOffset": {
           "dx": -7.347880794884118e-15,
-          "dy": -411.5
+          "dy": -562.5
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "f1bZPUnhwhaYOSDU",
+        "sourceObject": {
+          "tileId": "RUZM8nBZECaa9seS",
+          "objectId": "cell:{34M5pMR_kDwuqhZ9}:{PRHH1zTjcn2d6zht}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "RUZM8nBZECaa9seS",
+          "objectId": "cell:{34M5pMR_kDwuqhZ9}:{sm8aOmw7bvXwL488}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": " x26.25",
+        "textOffset": {
+          "dx": -7.347880794884118e-15,
+          "dy": -530.5
         },
         "type": "arrowAnnotation"
       }
