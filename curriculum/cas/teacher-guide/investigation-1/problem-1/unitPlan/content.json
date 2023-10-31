@@ -306,7 +306,30 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In the Table: Students know from Comparing Quantities that there are two unit rates.</p>"
+            "<p><strong>In the Table</strong>: Students know from <em>Comparing Quantities</em> that there are two unit rates.</p>"
+          ]
+        }
+      },
+      {
+        "id": "3gtyq3NPZfL0vebd",
+        "title": "Unit Rate Table",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "H_Fk5o2BfWs3inYq": 80,
+            "EmgWtTU6HypCCdz2": 80
+          },
+          "name": "Table 2"
+        }
+      },
+      {
+        "id": "zxaL47cwoSjOUTqe",
+        "title": "Text 17",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>2 : 5 = 1 : 2.5 = 0.4 : 1.</p><p>For every 1 cup of concentrate there are 2.5 cups juice. For every 0.4 cups of concentrate there is 1 cup of juice. </p><p><strong>The unit rate is derived from the vertical ratio</strong> in the table.</p><p>When the table includes all whole number values for one of the two quantities in the ratio, as below, you can see the unit rate as the rate of change. (This relates to the idea of slope, which is explored in <em>Moving Straight Ahead.</em>)</p>"
           ]
         }
       }
@@ -381,6 +404,71 @@
         "tiles": [
           "fgILfJzKj1-jbCRN",
           "VoUz0Hk8RD1qVlKe"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "lfi-RByi9W9es8YU",
+          "providerId": "3gtyq3NPZfL0vebd",
+          "dataSet": {
+            "id": "Tm_tkun6kvO2-wqP",
+            "name": "Table 2",
+            "attributes": [
+              {
+                "id": "H_Fk5o2BfWs3inYq",
+                "clientKey": "",
+                "name": "Cups Concentrate ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0.4",
+                  "1",
+                  "2",
+                  "...",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "EmgWtTU6HypCCdz2",
+                "clientKey": "",
+                "name": "Cups Juice ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2.5",
+                  "5",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "_WlvpE5SsCGzUxX2"
+              },
+              {
+                "__id__": "gyuYckdJ0vfUYNiG"
+              },
+              {
+                "__id__": "N0dpdvuK5KJWuB2f"
+              },
+              {
+                "__id__": "ZP0PPtTT_yzv_R6g"
+              },
+              {
+                "__id__": "25NX-9ACxAnNd_AR"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "3gtyq3NPZfL0vebd"
         ]
       }
     ]
