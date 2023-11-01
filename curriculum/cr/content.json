@@ -128,7 +128,8 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f", 
+        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
       }
     },
     "showCommentTag": true,
