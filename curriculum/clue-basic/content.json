@@ -89,6 +89,33 @@
       "lazyLoadTabContents": true,
       "tabSpecs": [
         {
+          "tab": "problems",
+          "label": "Activity",
+          "sections": [
+            {
+              "initials": "1",
+              "title": "Section 1",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "2",
+              "title": "Section 2",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "3",
+              "title": "Section 3",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
           "tab": "student-work",
           "label": "Student Work",
           "teacherOnly": true,
@@ -96,7 +123,7 @@
         },
         {
           "tab": "class-work",
-          "label": "Activity",
+          "label": "Class Work",
           "sections": [
             {
               "title": "Custom Activities",
@@ -188,11 +215,7 @@
     },
     "settings": {
       "table": {
-        "numFormat": ".2~f",
-        "tools": [
-          "link-tile",
-          "delete"
-        ]
+        "numFormat": ".2~f"
       },
       "graph": {
         "defaultAxisLabels": {
@@ -200,7 +223,9 @@
           "left": "Counts"
         },
         "emptyPlotIsNumeric": false,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
       }
     },
     "stamps": []
@@ -208,18 +233,18 @@
   "sections": {
     "1": {
       "initials": "1",
-      "title": "1",
-      "placeholder": "Record your ideas"
+      "title": "Section 1",
+      "placeholder": "Work your teacher assignment here"
     },
     "2": {
       "initials": "2",
-      "title": "2",
-      "placeholder": "Document your investigation"
+      "title": "Section 2",
+      "placeholder": "Work your teacher assignment here"
     },
     "3": {
       "initials": "3",
-      "title": "3",
-      "placeholder": "Summarize your findings"
+      "title": "Section 3",
+      "placeholder": "Work your teacher assignment here"
     }
   },
   "planningDocument": {
@@ -254,7 +279,7 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "Leslie's 2nd Problem",
+          "title": "CLUE-It-Yourself Activity 2",
           "subtitle": "",
           "disabled": [],
           "sections": [
