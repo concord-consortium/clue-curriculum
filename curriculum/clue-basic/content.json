@@ -9,19 +9,80 @@
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
     "toolbar": [
-      {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
-      {"id": "Text", "title": "Text", "isTileTool": true},
-      {"id": "Image", "title": "Image", "isTileTool": true},
-      {"id": "DataCard", "title": "Data Cards", "isTileTool": true},
-      {"id": "Drawing", "title": "Drawing", "isTileTool": true},
-      {"id": "Table", "title": "Table", "isTileTool": true},
-      {"id": "Graph", "title": "XY Plot", "iconId": "icon-plot-tool", "isTileTool": true},
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
-      {"id": "duplicate", "title": "Duplicate Tile", "iconId": "icon-duplicate-tool", "isTileTool": false},
-      {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
-      {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
-      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "XY Plot",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
     ],
     "navTabs": {
       "showNavPanel": true,
@@ -33,17 +94,17 @@
           "sections": [
             {
               "initials": "1",
-              "title": "1",
+              "title": "Section 1",
               "type": "problem-documents"
             },
             {
               "initials": "2",
-              "title": "2",
+              "title": "Section 2",
               "type": "problem-documents"
             },
             {
               "initials": "3",
-              "title": "3",
+              "title": "Section 3",
               "type": "problem-documents"
             }
           ]
@@ -65,28 +126,31 @@
           "label": "Class Work",
           "sections": [
             {
-              "title": "Workspaces",
+              "title": "Custom Activities",
               "type": "published-problem-documents",
               "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
+              "dataTestItem":  "class-work-list-items",
               "documentTypes": [
-                "publication"
+                "publication",
+                "personalPublication"
               ],
-              "showStars": [],
               "properties": [
+                "isTeacherDocument",
                 "!isDeleted"
               ]
             },
             {
-              "title": "Workspaces",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
+              "title": "Student Published Work",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
               "documentTypes": [
-                "supportPublication"
+                "publication",
+                "personalPublication"
               ],
+              "showStars": [],
               "properties": [
-                "teacherSupport",
+                "!isTeacherDocument",
                 "!isDeleted"
               ]
             }
@@ -96,17 +160,62 @@
           "tab": "my-work",
           "label": "My Work",
           "sections": [
-            {"title": "Workspaces", "type": "problem-documents", "dataTestHeader": "my-work-section-investigations", "dataTestItem": "my-work-list-items", "documentTypes": ["problem", "planning"], "order": "original", "showStars": ["student", "teacher"]},
-            {"title": "Workspaces", "type": "personal-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["personal"], "properties": ["!isDeleted"], "showStars": ["student", "teacher"], "addDocument": true},
-            {"title": "Starred", "type": "starred-problem-documents", "dataTestHeader": "my-work-section-starred", "documentTypes": ["personal", "problem"], "properties": ["starred", "!isDeleted"], "showStars": ["student", "teacher"]}
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Starred",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
           ]
         }
       ]
     },
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["link-tile","delete"]
+        "numFormat": ".2~f"
       },
       "graph": {
         "defaultAxisLabels": {
@@ -114,26 +223,28 @@
           "left": "Counts"
         },
         "emptyPlotIsNumeric": false,
-        "scalePlotOnValueChange": true
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
       }
     },
     "stamps": []
   },
   "sections": {
-    "1":  {
+    "1": {
       "initials": "1",
-      "title": "1",
-      "placeholder": "Record your ideas"
+      "title": "Section 1",
+      "placeholder": "Work your teacher assignment here"
     },
     "2": {
       "initials": "2",
-      "title": "2",
-      "placeholder": "Document your investigation"
+      "title": "Section 2",
+      "placeholder": "Work your teacher assignment here"
     },
     "3": {
       "initials": "3",
-      "title": "3",
-      "placeholder": "Summarize your findings"
+      "title": "Section 3",
+      "placeholder": "Work your teacher assignment here"
     }
   },
   "planningDocument": {
@@ -141,7 +252,7 @@
     "default": true,
     "sectionInfo": {
       "overview": {
-        "initials": "GS",
+        "initials": "OV",
         "title": "Overview",
         "placeholder": "Add some tiles here"
       }
@@ -168,7 +279,7 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "Leslie's 2nd Problem",
+          "title": "CLUE-It-Yourself Activity 2",
           "subtitle": "",
           "disabled": [],
           "sections": [
