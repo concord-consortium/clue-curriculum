@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Comparing and Scaling Unit Overview </strong></p><p>Click here to view the Comparing and Scaling: Unit Planning Chart (including pacing, key terms, materials and resources) </p>"
+            "<p><strong>Comparing and Scaling Unit Overview </strong></p><p><a href=\"https://drive.google.com/file/d/1HWBTpad2GpEbDdh74TRM9koHDwzFeQdX/view?usp=sharing\">Click here to view the Comparing and Scaling: Unit Planning Chart (including pacing, key terms, materials and resources) </a></p>"
           ]
         }
       },
@@ -80,7 +80,7 @@
       },
       {
         "id": "7-QlVfXXPwBS-fSS",
-        "title": "Eq. 1",
+        "title": "Cross-multiplying example",
         "content": {
           "type": "Expression",
           "latexStr": "\\frac{4pizzas}{10campers}=\\frac{Ppizzas}{57campers}"
@@ -88,7 +88,7 @@
       },
       {
         "id": "1O8nGhZG9PpEMiA4",
-        "title": "Eq. 2",
+        "title": "Cross-multiplying step 1",
         "content": {
           "type": "Expression",
           "latexStr": "4\\left(57)somethings=P\\left(10\\right)somethings\\right."
@@ -96,7 +96,7 @@
       },
       {
         "id": "zRs2oHWKDCZISR_J",
-        "title": "Eq. 3",
+        "title": "Cross-multiplying step 2",
         "content": {
           "type": "Expression",
           "latexStr": "\\frac{4\\left(57\\right)somethings}{10pizzas}=Ppizzas"
@@ -114,11 +114,12 @@
         }
       },
       {
-        "id": "BIgpeettdFxPaeXJ",
-        "title": "Eq. 4",
+        "id": "6JhLWpzq2TcWRG2M",
+        "title": "Scaling up with unit rate",
         "content": {
-          "type": "Expression",
-          "latexStr": "\\frac{4pizzas}{10campers}=\\frac{0.4pizzas}{1camper}"
+          "type": "Image",
+          "url": "cas/images/cas-unit-plan-pic-1.png",
+          "filename": "cas/images/cas-unit-plan-pic-1.png"
         }
       },
       {
@@ -156,7 +157,7 @@
       },
       {
         "id": "cut3F2pK--W6xX9R",
-        "title": "Image 1",
+        "title": "Orange Juice Recipes",
         "content": {
           "type": "Image",
           "url": "cas/images/image1.png",
@@ -175,13 +176,13 @@
         }
       },
       {
-        "id": "fgILfJzKj1-jbCRN",
-        "title": "Table 1",
+        "id": "3VT4fXzseeV9Pq_V",
+        "title": "Data from Recipe A",
         "content": {
           "type": "Table",
           "columnWidths": {
-            "8jeO22dnWGlbFHLu": 80,
-            "ODVXNvF8e7w8kORO": 80
+            "kADEIax4Y_K-Whe9": 118.09461975097656,
+            "AG69G8sg-6wbzUwk": 86.5711669921875
           },
           "name": "Table 1"
         }
@@ -193,16 +194,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Looking vertically in the table at the ratio 2:5, and all the other equivalent rations 4:10, 6:15, the amount of juice is always 2.5 times the amount of concentrate. </p><p>We can skip to 240 cups of juice and divide this by 2.5 to find the cups of concentrate needed. (2.5 is also a unit rate. See <strong>Unit Rate</strong>.) </p><p>Looking horizontally at the ratios 2: ? and 5 :240, we can ask by how much we should multiply or scale up 5 cups of juice to make 240 cups. </p>"
+            "<p>Looking horizontally in the table at the ratio 2:5, and all the other equivalent rations 4:10, 6:15, the amount of juice is always 2.5 times the amount of concentrate. </p><p>We can skip to 240 cups of juice and divide this by 2.5 to find the cups of concentrate needed. (2.5 is also a unit rate. See <strong>Unit Rate</strong>.) </p><p>Looking vertically at the ratios 2: ? and 5 :240, we can ask by how much we should multiply or scale up 5 cups of juice to make 240 cups. </p>"
           ]
         }
       },
       {
-        "id": "mWozAuTBd6I4_dLj",
-        "title": "Image 2",
+        "id": "YUFkzQt1GHO0gnai",
+        "title": "Data from Recipe A",
         "content": {
-          "type": "Image",
-          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          "type": "Table",
+          "columnWidths": {
+            "qH22LX-VfAb1FCDD": 118.09461975097656,
+            "LnuW6jrvUJVSz6sA": 86.5711669921875
+          },
+          "name": "Table 1"
         }
       },
       {
@@ -461,7 +466,6 @@
           }
         },
         "tiles": [
-          "fgILfJzKj1-jbCRN",
           "VoUz0Hk8RD1qVlKe"
         ]
       },
@@ -529,6 +533,202 @@
         "tiles": [
           "3gtyq3NPZfL0vebd"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "7qnyujge4PjHzOee",
+          "providerId": "3VT4fXzseeV9Pq_V",
+          "dataSet": {
+            "id": "HkmTMNzzNY4dmNvr",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "kADEIax4Y_K-Whe9",
+                "clientKey": "",
+                "name": "Cups Concentrate",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "...",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "AG69G8sg-6wbzUwk",
+                "clientKey": "",
+                "name": "Cups Juice",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "pnEu-v2sn7JVcmr1"
+              },
+              {
+                "__id__": "x0QVrSxHJhjYadfz"
+              },
+              {
+                "__id__": "SepZYCAJLwySCAJA"
+              },
+              {
+                "__id__": "cY0G8fMDBMiCiTRu"
+              },
+              {
+                "__id__": "MA5RpO-Eh2Q2am0a"
+              },
+              {
+                "__id__": "9tplSYVI5NKZ2C1C"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "3VT4fXzseeV9Pq_V"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Vz8y4hueH97G9Nag",
+          "providerId": "YUFkzQt1GHO0gnai",
+          "dataSet": {
+            "id": "ttVmwDtI9IghM0fP",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "qH22LX-VfAb1FCDD",
+                "clientKey": "",
+                "name": "Cups Concentrate",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "...",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "LnuW6jrvUJVSz6sA",
+                "clientKey": "",
+                "name": "Cups Juice",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEKBCABAT3JC6QVPJ35A7YYS"
+              },
+              {
+                "__id__": "01HEKBCABAT3JC6QVPJ35A7YYT"
+              },
+              {
+                "__id__": "01HEKBCABAT3JC6QVPJ35A7YYV"
+              },
+              {
+                "__id__": "01HEKBCABAT3JC6QVPJ35A7YYW"
+              },
+              {
+                "__id__": "01HEKBCABAT3JC6QVPJ35A7YYX"
+              },
+              {
+                "__id__": "01HEKBCABAT3JC6QVPJ35A7YYY"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "YUFkzQt1GHO0gnai"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "XSshZ_6w1JxPrem9",
+        "sourceObject": {
+          "tileId": "YUFkzQt1GHO0gnai",
+          "objectId": "cell:{01HEKBCABAT3JC6QVPJ35A7YYS}:{LnuW6jrvUJVSz6sA}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "YUFkzQt1GHO0gnai",
+          "objectId": "cell:{01HEKBCABAT3JC6QVPJ35A7YYS}:{qH22LX-VfAb1FCDD}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "Divide by 2.5",
+        "textOffset": {
+          "dx": -9.39912377362465e-15,
+          "dy": -51.166446685791016
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "phrRjqB3PSjx3rcT",
+        "sourceObject": {
+          "tileId": "YUFkzQt1GHO0gnai",
+          "objectId": "cell:{01HEKBCABAT3JC6QVPJ35A7YYY}:{LnuW6jrvUJVSz6sA}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "YUFkzQt1GHO0gnai",
+          "objectId": "cell:{01HEKBCABAT3JC6QVPJ35A7YYY}:{qH22LX-VfAb1FCDD}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "Divide by 2.5",
+        "textOffset": {
+          "dx": -9.39912377362465e-15,
+          "dy": -51.166446685791016
+        },
+        "type": "arrowAnnotation"
       }
     ]
   }
