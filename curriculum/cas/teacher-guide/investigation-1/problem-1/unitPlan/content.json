@@ -346,16 +346,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>2 : 5 = 1 : 2.5 = 0.4 : 1.</p><p>For every 1 cup of concentrate there are 2.5 cups juice. For every 0.4 cups of concentrate there is 1 cup of juice. </p><p><strong>The unit rate is derived from the vertical ratio</strong> in the table.</p><p>When the table includes all whole number values for one of the two quantities in the ratio, as below, you can see the unit rate as the rate of change. (This relates to the idea of slope, which is explored in <em>Moving Straight Ahead.</em>)</p>"
+            "<p>2 : 5 = 1 : 2.5 = 0.4 : 1.</p><p>For every 1 cup of concentrate there are 2.5 cups juice. For every 0.4 cups of concentrate there is 1 cup of juice. </p><p><strong>The unit rate is derived from the horizontal ratio</strong> in the table.</p><p>When the table includes all whole number values for one of the two quantities in the ratio, as below, you can see the unit rate as the rate of change. (This relates to the idea of slope, which is explored in <em>Moving Straight Ahead.</em>)</p>"
           ]
         }
       },
       {
-        "id": "KvNBsHctX6QJPVOa",
-        "title": "Image 3",
+        "id": "IcnAGuai4v5_5CPX",
+        "title": "Data for Recipt A",
         "content": {
-          "type": "Image",
-          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          "type": "Table",
+          "columnWidths": {
+            "_rVNBc-jSqPCuYLW": 119.57899475097656,
+            "8CIq-jLWoDuqBbTn": 80
+          },
+          "name": "Table 2"
         }
       },
       {
@@ -755,6 +759,71 @@
         "tiles": [
           "53Csw9Sc30BfmB8F"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-Q4Z2CuizdNPL4zp",
+          "providerId": "IcnAGuai4v5_5CPX",
+          "dataSet": {
+            "id": "QYHHmthI6kwfy7Cc",
+            "name": "Table 2",
+            "attributes": [
+              {
+                "id": "_rVNBc-jSqPCuYLW",
+                "clientKey": "",
+                "name": "Cups Concentrate ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "8CIq-jLWoDuqBbTn",
+                "clientKey": "",
+                "name": "Cups Juice ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2.5",
+                  "5",
+                  "7.5",
+                  "10",
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HETKCQ1Q5ZJA80YF2DQMN1M8"
+              },
+              {
+                "__id__": "01HETKCQ1Q5ZJA80YF2DQMN1M9"
+              },
+              {
+                "__id__": "01HETKCQ1Q5ZJA80YF2DQMN1MA"
+              },
+              {
+                "__id__": "01HETKCQ1Q5ZJA80YF2DQMN1MB"
+              },
+              {
+                "__id__": "01HETKCQ1Q5ZJA80YF2DQMN1MC"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "IcnAGuai4v5_5CPX"
+        ]
       }
     ],
     "annotations": [
@@ -862,6 +931,33 @@
         "text": "x 48",
         "textOffset": {
           "dx": 55,
+          "dy": 0
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "CamVrFXNhryl7Qdb",
+        "sourceObject": {
+          "tileId": "IcnAGuai4v5_5CPX",
+          "objectId": "cell:{01HETKCQ1Q5ZJA80YF2DQMN1M8}:{_rVNBc-jSqPCuYLW}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": -58.78949737548828,
+          "dy": -10
+        },
+        "targetObject": {
+          "tileId": "IcnAGuai4v5_5CPX",
+          "objectId": "cell:{01HETKCQ1Q5ZJA80YF2DQMN1M9}:{_rVNBc-jSqPCuYLW}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 58.78949737548828,
+          "dy": 10
+        },
+        "text": "+1",
+        "textOffset": {
+          "dx": 11,
           "dy": 0
         },
         "type": "arrowAnnotation"
