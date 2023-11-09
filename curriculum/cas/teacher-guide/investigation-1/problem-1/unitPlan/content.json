@@ -176,12 +176,15 @@
         }
       },
       {
-        "id": "ERfzW1uGLvqHFIwM",
+        "id": "CtT_Jec9QyLEPqMp",
         "title": "Data for Recipe A",
         "content": {
-          "type": "Image",
-          "url": "cas/images/cas-unit-plan-pic-2.png",
-          "filename": "cas/images/cas-unit-plan-pic-2.png"
+          "type": "Table",
+          "columnWidths": {
+            "4eYQXihAFFCEE3so": 116.82725524902344,
+            "kYQ_fl1udSN1E6SO": 83.68923950195312
+          },
+          "name": "Table 1"
         }
       },
       {
@@ -191,17 +194,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Looking vertically in the table at the ratio 2:5, and all the other equivalent rations 4:10, 6:15, the amount of juice is always 2.5 times the amount of concentrate.</p><p>We can skip to 240 cups of juice and divide this by 2.5 to find the cups of concentrate needed. (2.5 is also a unit rate. See <strong>Unit Rate</strong>.)</p>"
+            "<p>Looking horizontally in the table at the ratio 2:5, and all the other equivalent rations 4:10, 6:15, the amount of juice is always 2.5 times the amount of concentrate.</p><p>We can skip to 240 cups of juice and divide this by 2.5 to find the cups of concentrate needed. (2.5 is also a unit rate. See <strong>Unit Rate</strong>.)</p>"
           ]
         }
       },
       {
-        "id": "cpzc_WF8zFSW0pAZ",
-        "title": "Ratios of Juice to Concentrate",
+        "id": "srsuHOLLklkuf2fs",
+        "title": "Data for Recipe A",
         "content": {
-          "type": "Image",
-          "url": "cas/images/cas-unit-plan-pic-3.png",
-          "filename": "cas/images/cas-unit-plan-pic-3.png"
+          "type": "Table",
+          "columnWidths": {
+            "yjXx21NarStedtz0": 116.82725524902344,
+            "Ez2lrCMmN8OV4iO8": 83.68923950195312
+          },
+          "name": "Table 1"
         }
       },
       {
@@ -211,17 +217,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Looking horizontally at the ratios 2: ? and 5 :240, we can ask by how much we should multiply or scale up 5 cups of juice to make 240 cups.</p><p>Then, do the same to 2 cups of concentrate.</p>"
+            "<p>Looking vertically at the ratios 2: ? and 5 :240, we can ask by how much we should multiply or scale up 5 cups of juice to make 240 cups.</p><p>Then, do the same to 2 cups of concentrate.</p>"
           ]
         }
       },
       {
-        "id": "HuZb2LPzv37eHGRz",
-        "title": "Scaling up Ratios",
+        "id": "53Csw9Sc30BfmB8F",
+        "title": "Data for Recipe A",
         "content": {
-          "type": "Image",
-          "url": "cas/images/cas-unit-plan-pic-4.png",
-          "filename": "cas/images/cas-unit-plan-pic-4.png"
+          "type": "Table",
+          "columnWidths": {
+            "vie7-qndKI929JFb": 116.82725524902344,
+            "Jj_wH5R-R7b3HfZU": 83.68923950195312
+          },
+          "name": "Table 1"
         }
       },
       {
@@ -324,7 +333,7 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "H_Fk5o2BfWs3inYq": 80,
+            "H_Fk5o2BfWs3inYq": 119.57899475097656,
             "EmgWtTU6HypCCdz2": 80
           },
           "name": "Table 2"
@@ -536,6 +545,326 @@
         "tiles": [
           "3gtyq3NPZfL0vebd"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "ke30EHiborJTZyP6",
+          "providerId": "CtT_Jec9QyLEPqMp",
+          "dataSet": {
+            "id": "5QctLiqqRDPlGi9D",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "4eYQXihAFFCEE3so",
+                "clientKey": "",
+                "name": "Cups Concentrate",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "...",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "kYQ_fl1udSN1E6SO",
+                "clientKey": "",
+                "name": "Cups Juice",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "7wHipxnQkX7P-fgy"
+              },
+              {
+                "__id__": "HJchMUfrnN8UJvNh"
+              },
+              {
+                "__id__": "8PzQybP8EdZ7-42C"
+              },
+              {
+                "__id__": "LRWLGtwrKjR-ikCJ"
+              },
+              {
+                "__id__": "EyTu80IG_av6_hKo"
+              },
+              {
+                "__id__": "mLDRXVQdq0DsKF3u"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "CtT_Jec9QyLEPqMp"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "qw1Ijao0hroOcW6B",
+          "providerId": "srsuHOLLklkuf2fs",
+          "dataSet": {
+            "id": "zpQM8hbK6qdV3Axz",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "yjXx21NarStedtz0",
+                "clientKey": "",
+                "name": "Cups Concentrate",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "...",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Ez2lrCMmN8OV4iO8",
+                "clientKey": "",
+                "name": "Cups Juice",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HETHJXQR4FWFW5XN598D7GEB"
+              },
+              {
+                "__id__": "01HETHJXQR4FWFW5XN598D7GEC"
+              },
+              {
+                "__id__": "01HETHJXQR4FWFW5XN598D7GED"
+              },
+              {
+                "__id__": "01HETHJXQR4FWFW5XN598D7GEE"
+              },
+              {
+                "__id__": "01HETHJXQR4FWFW5XN598D7GEF"
+              },
+              {
+                "__id__": "01HETHJXQR4FWFW5XN598D7GEG"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "srsuHOLLklkuf2fs"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5BulAxf6_nF6b4Db",
+          "providerId": "53Csw9Sc30BfmB8F",
+          "dataSet": {
+            "id": "m7_1YiXRtNLWQ01_",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "vie7-qndKI929JFb",
+                "clientKey": "",
+                "name": "Cups Concentrate",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "...",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Jj_wH5R-R7b3HfZU",
+                "clientKey": "",
+                "name": "Cups Juice",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HETHN0FSXE7V1H47JYZG61BW"
+              },
+              {
+                "__id__": "01HETHN0FSXE7V1H47JYZG61BX"
+              },
+              {
+                "__id__": "01HETHN0FSXE7V1H47JYZG61BY"
+              },
+              {
+                "__id__": "01HETHN0FSXE7V1H47JYZG61BZ"
+              },
+              {
+                "__id__": "01HETHN0FSXE7V1H47JYZG61C0"
+              },
+              {
+                "__id__": "01HETHN0FSXE7V1H47JYZG61C1"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "53Csw9Sc30BfmB8F"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "mll4ViokeXKVX4KN",
+        "sourceObject": {
+          "tileId": "srsuHOLLklkuf2fs",
+          "objectId": "cell:{01HETHJXQR4FWFW5XN598D7GEB}:{Ez2lrCMmN8OV4iO8}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "srsuHOLLklkuf2fs",
+          "objectId": "cell:{01HETHJXQR4FWFW5XN598D7GEB}:{yjXx21NarStedtz0}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "Divide by 2.5",
+        "textOffset": {
+          "dx": 0.9999999999999908,
+          "dy": -44.12912368774414
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "Yivdx_HlQ42EQUfz",
+        "sourceObject": {
+          "tileId": "srsuHOLLklkuf2fs",
+          "objectId": "cell:{01HETHJXQR4FWFW5XN598D7GEG}:{Ez2lrCMmN8OV4iO8}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "srsuHOLLklkuf2fs",
+          "objectId": "cell:{01HETHJXQR4FWFW5XN598D7GEG}:{yjXx21NarStedtz0}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "Divide by 2.5",
+        "textOffset": {
+          "dx": 4.999999999999991,
+          "dy": 42.87087631225586
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "OR5dGaJGX7N9JGWl",
+        "sourceObject": {
+          "tileId": "53Csw9Sc30BfmB8F",
+          "objectId": "cell:{01HETHN0FSXE7V1H47JYZG61BW}:{vie7-qndKI929JFb}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "53Csw9Sc30BfmB8F",
+          "objectId": "cell:{01HETHN0FSXE7V1H47JYZG61C1}:{vie7-qndKI929JFb}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 48",
+        "textOffset": {
+          "dx": -51.41362762451172,
+          "dy": 2
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "EbripPdFZfkgS-JF",
+        "sourceObject": {
+          "tileId": "53Csw9Sc30BfmB8F",
+          "objectId": "cell:{01HETHN0FSXE7V1H47JYZG61BW}:{Jj_wH5R-R7b3HfZU}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "53Csw9Sc30BfmB8F",
+          "objectId": "cell:{01HETHN0FSXE7V1H47JYZG61C1}:{Jj_wH5R-R7b3HfZU}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 48",
+        "textOffset": {
+          "dx": 55,
+          "dy": 0
+        },
+        "type": "arrowAnnotation"
       }
     ]
   }
