@@ -681,6 +681,213 @@
           "url": "cas/images/cas-unit-plan-pic-5.jpg",
           "filename": "cas/images/cas-unit-plan-pic-5.jpg"
         }
+      },
+      [
+        {
+          "id": "pVZBtC_v1S4KlE7o",
+          "title": "Cost at Howdy's Pizza",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -4.4,
+                  -1
+                ],
+                "axisRange": [
+                  16.4,
+                  121
+                ],
+                "axisNames": [
+                  "# of Pizzas",
+                  "Cost in $"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "movableLine",
+                "parents": [
+                  {
+                    "type": "point",
+                    "parents": [
+                      -2.3944921987559504,
+                      3.660585813684545
+                    ]
+                  },
+                  {
+                    "type": "point",
+                    "parents": [
+                      -1.8717769504164081,
+                      9.41045354541951
+                    ]
+                  }
+                ],
+                "properties": {
+                  "id": "uYXxh_gAwGMoj-yA",
+                  "pt1": {
+                    "type": "point",
+                    "id": "uYXxh_gAwGMoj-yA-point1"
+                  },
+                  "pt2": {
+                    "type": "point",
+                    "id": "uYXxh_gAwGMoj-yA-point2"
+                  }
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  40.900000000000006
+                ],
+                "properties": {
+                  "id": "3xHXZ6orCdeubvIn",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  2,
+                  40.900000000000006
+                ],
+                "properties": {
+                  "id": "n1wAMwpuH8xNWKB5",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  2,
+                  52
+                ],
+                "properties": {
+                  "id": "bw7KPi58dXwFwtnF",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "3xHXZ6orCdeubvIn",
+                  "n1wAMwpuH8xNWKB5",
+                  "bw7KPi58dXwFwtnF"
+                ],
+                "properties": {
+                  "id": "v0lGCrTN3-hMbLr8"
+                }
+              },
+              {
+                "type": "comment",
+                "parents": [
+                  -0.7850525522439684,
+                  -10.276173246079601
+                ],
+                "properties": {
+                  "id": "JTQHQaksgaQLokLa",
+                  "text": "+1",
+                  "anchor": "n1wAMwpuH8xNWKB5"
+                }
+              },
+              {
+                "type": "comment",
+                "parents": [
+                  0.508285438305061,
+                  -4.238581007805422
+                ],
+                "properties": {
+                  "id": "D2F7zs6YWFeLWc4z",
+                  "text": "+11",
+                  "anchor": "bw7KPi58dXwFwtnF"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "JClrXL2vXJ1ZEB2m",
+          "title": "Cost at Howdy's Pizza",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "sdJ73thtTM_mRyco": 92.10504150390625,
+              "v8rHBhwCbj05zKER": 90.1953125
+            },
+            "name": "Table 1"
+          }
+        }
+      ],
+      {
+        "id": "IviNZW_MNDeQ1kyz",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>In the Context:</u> There is a rate per pizza of $11 : 1 pizza, but the delivery cost adds to the cost, so <em>the overall unit rate changes</em> per pizza delivered. </p><p><u>In the Table:</u> When delivery is included the horizontal ratios are</p>"
+          ]
+        }
+      },
+      {
+        "id": "s9uR_OgH6b5uC_qK",
+        "title": "Pizza to cost ratios",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{1pizza}{\\$41}\\ne\\frac{2pizzas}{\\$52}\\ne\\frac{3pizzas}{\\$63}"
+        }
+      },
+      {
+        "id": "p7-gsuvksgtJzQR5",
+        "title": "Text 22",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The first vertical ratios are</p>"
+          ]
+        }
+      },
+      {
+        "id": "Oqe6cfLkF1enM8bc",
+        "title": "Unequal ratios",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{1pizza}{2pizzas}\\ne\\frac{\\$41}{\\$52}"
+        }
+      },
+      {
+        "id": "psJQeLK-vkLCB961",
+        "title": "Text 23",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Neither the horizontal nor vertical ratios are equal.</em></p><p><em>Note: The rate of change can be seen in the table, but not as a multiplicative comparison with the ratios.</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "H1UFs2Vui2cc9lL2",
+        "title": "Cost at Howdy's Pizza",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "dSpt41Kxh_GjXNVS": 92.10504150390625,
+            "CNJ3a1btqna1C1b1": 90.1953125
+          },
+          "name": "Table 1"
+        }
       }
     ],
     "sharedModels": [
@@ -1148,6 +1355,131 @@
         "tiles": [
           "lla59BrG4Sj53ZoD"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "X2Ftbe563At8vzbR",
+          "providerId": "JClrXL2vXJ1ZEB2m",
+          "dataSet": {
+            "id": "W311-wSBR4LFBusB",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "sdJ73thtTM_mRyco",
+                "clientKey": "",
+                "name": "Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "...",
+                  "15"
+                ],
+                "title": ""
+              },
+              {
+                "id": "v8rHBhwCbj05zKER",
+                "clientKey": "",
+                "name": "Cost",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "11+30",
+                  "22+30",
+                  "33+30",
+                  null,
+                  "165+30"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "oP40XTP6243HWm7o"
+              },
+              {
+                "__id__": "LtUX8n_3s1mJZaUJ"
+              },
+              {
+                "__id__": "7_w_eonPOW8T0eQJ"
+              },
+              {
+                "__id__": "y1v6Lf5Wd51ihRlY"
+              },
+              {
+                "__id__": "BSULqmiQs_js3fkE"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "JClrXL2vXJ1ZEB2m"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "OypBBj6nFeFOguGF",
+          "providerId": "H1UFs2Vui2cc9lL2",
+          "dataSet": {
+            "id": "ljoF0Y4ztPk0Tfxf",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "dSpt41Kxh_GjXNVS",
+                "clientKey": "",
+                "name": "Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "CNJ3a1btqna1C1b1",
+                "clientKey": "",
+                "name": "Cost",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "41",
+                  "52",
+                  "63",
+                  "74"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXABM0XF6HFM16P0GRG6HS5"
+              },
+              {
+                "__id__": "01HEXABM0YS21DDG9PCJ15EZPB"
+              },
+              {
+                "__id__": "01HEXABM0YS21DDG9PCJ15EZPC"
+              },
+              {
+                "__id__": "01HEXABM0YS21DDG9PCJ15EZPD"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "H1UFs2Vui2cc9lL2"
+        ]
       }
     ],
     "annotations": [
@@ -1580,6 +1912,114 @@
         "textOffset": {
           "dx": -40.799041748046875,
           "dy": 7
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "2jv8Rcweemoygl3E",
+        "sourceObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0XF6HFM16P0GRG6HS5}:{dSpt41Kxh_GjXNVS}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0YS21DDG9PCJ15EZPB}:{dSpt41Kxh_GjXNVS}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -10
+        },
+        "text": "+1",
+        "textOffset": {
+          "dx": -39.052520751953125,
+          "dy": -1
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "6nj5ZmR4ZYAi5yLF",
+        "sourceObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0YS21DDG9PCJ15EZPC}:{dSpt41Kxh_GjXNVS}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0YS21DDG9PCJ15EZPD}:{dSpt41Kxh_GjXNVS}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+1",
+        "textOffset": {
+          "dx": -39.052520751953125,
+          "dy": -1
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "SdoYdJ4AxEGRfxSL",
+        "sourceObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0XF6HFM16P0GRG6HS5}:{CNJ3a1btqna1C1b1}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0YS21DDG9PCJ15EZPB}:{CNJ3a1btqna1C1b1}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+11",
+        "textOffset": {
+          "dx": 47,
+          "dy": 0
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "1Tkx9hcL9TL0oiUB",
+        "sourceObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0YS21DDG9PCJ15EZPC}:{CNJ3a1btqna1C1b1}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "H1UFs2Vui2cc9lL2",
+          "objectId": "cell:{01HEXABM0YS21DDG9PCJ15EZPD}:{CNJ3a1btqna1C1b1}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+11",
+        "textOffset": {
+          "dx": 49,
+          "dy": 0
         },
         "type": "arrowAnnotation"
       }
