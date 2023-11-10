@@ -888,6 +888,83 @@
           },
           "name": "Table 1"
         }
+      },
+      {
+        "id": "KqZ8ENeg707Dyyw6",
+        "title": "Text 24",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>On the Graph</u>: The graph is linear but does not pass through the origin. (0, 30) on the graph indicates that even for 0 pizzas the delivery charge is $30.</p><p><u>In the equation</u>: C = 11N + 30. The additive term (+30) means this is not a proportional relationship.</p>"
+          ]
+        }
+      },
+      {
+        "id": "flVagW2Zfk_V5os4",
+        "title": "Text 25",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Strategies: Solving problems about proportional situations</strong></p><p><strong>Tables, Scaling, Equivalent Ratios, Unit Rate</strong></p><p>We can use tables, graphs, and equations to solve problems about proportional situations. </p><p><em>Suppose the problem is to figure out how many pizzas we should order for 240 campers, when 4 pizzas serve 10 campers, as shown in the graphic.</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "YAYHfyqccoxQvbO4",
+        "title": "Large Table",
+        "content": {
+          "type": "Image",
+          "url": "cas/images/cas-unit-plan-pic-6.png",
+          "filename": "cas/images/cas-unit-plan-pic-6.png"
+        }
+      },
+      {
+        "id": "_8MNj60ZJWmlEFY6",
+        "title": "Text 26",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Scaling a ratio</strong></p><p>The vertical ratios are all equal in the table of a proportional relationship. We can scale up 4:10.</p><p>Multiplying by a scale factor of 24, we have 4:10 = 96 : 240. We need 96 pizzas.</p>"
+          ]
+        }
+      },
+      {
+        "id": "HeH6nCZq72QGQ966",
+        "title": "Pizza for Campers at Large Tables",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "fqzZMdGvmlhOvZ27": 126.0242919921875,
+            "0ctC_FGkPzYf0PfF": 140.71612548828125
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "MplV5gGqaW79nKi0",
+        "title": "Text 27",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Scaling a unit rate</strong></p><p>This is a variation of scaling a ratio. Find the number of pizzas for 1 camper by scaling 4:10 down to 0.4: 1. Then scale up the unit rate.</p><p><em>Note: There are two unit rates, 2.5 campers per 1 pizza, and 0.4 pizzas per 1 camper. The latter is more convenient for scaling up the number of campers from 1 to 240. </em></p>"
+          ]
+        }
+      },
+      {
+        "id": "4iRWowJEMTZewjbL",
+        "title": "Pizza for Campers at Large Tables",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "OcdnJO1yh_aIYigV": 126.0242919921875,
+            "ftJ8Hz8kHnOo4M0r": 140.71612548828125
+          },
+          "name": "Table 1"
+        }
       }
     ],
     "sharedModels": [
@@ -1480,6 +1557,116 @@
         "tiles": [
           "H1UFs2Vui2cc9lL2"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "EQFsRxkITiDeU1lu",
+          "providerId": "HeH6nCZq72QGQ966",
+          "dataSet": {
+            "id": "_bvgKFba7oAfXGaN",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "fqzZMdGvmlhOvZ27",
+                "clientKey": "",
+                "name": "# of pizzas (P)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4",
+                  "...",
+                  "P"
+                ],
+                "title": ""
+              },
+              {
+                "id": "0ctC_FGkPzYf0PfF",
+                "clientKey": "",
+                "name": "# of campers (C)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "10",
+                  "...",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "7TUNeP7Mq6RB1ave"
+              },
+              {
+                "__id__": "f3qSGG8mAqGj1gyw"
+              },
+              {
+                "__id__": "Dk7RgBtnK8ZtJElY"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "HeH6nCZq72QGQ966"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Dm4gLhUpgaESvyXO",
+          "providerId": "4iRWowJEMTZewjbL",
+          "dataSet": {
+            "id": "LC6asiQT6KHQpQ09",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "OcdnJO1yh_aIYigV",
+                "clientKey": "",
+                "name": "# of pizzas (P)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4",
+                  ".4",
+                  "P"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ftJ8Hz8kHnOo4M0r",
+                "clientKey": "",
+                "name": "# of campers (C)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "10",
+                  "1",
+                  "240"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXBKC4J9QVP4CTNZKH4AA1R"
+              },
+              {
+                "__id__": "01HEXBKC4J9QVP4CTNZKH4AA1S"
+              },
+              {
+                "__id__": "01HEXBKC4J9QVP4CTNZKH4AA1T"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "4iRWowJEMTZewjbL"
+        ]
       }
     ],
     "annotations": [
@@ -2020,6 +2207,168 @@
         "textOffset": {
           "dx": 49,
           "dy": 0
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "sFDuFMJ1WWaqgIEn",
+        "sourceObject": {
+          "tileId": "HeH6nCZq72QGQ966",
+          "objectId": "cell:{7TUNeP7Mq6RB1ave}:{fqzZMdGvmlhOvZ27}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 17,
+          "dy": 1
+        },
+        "targetObject": {
+          "tileId": "HeH6nCZq72QGQ966",
+          "objectId": "cell:{Dk7RgBtnK8ZtJElY}:{fqzZMdGvmlhOvZ27}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 8.98785400390625,
+          "dy": -2
+        },
+        "text": "x 24",
+        "textOffset": {
+          "dx": 20.98785400390625,
+          "dy": 1
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "OHo9m0nckSVyn0_V",
+        "sourceObject": {
+          "tileId": "HeH6nCZq72QGQ966",
+          "objectId": "cell:{7TUNeP7Mq6RB1ave}:{0ctC_FGkPzYf0PfF}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 33,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "HeH6nCZq72QGQ966",
+          "objectId": "cell:{Dk7RgBtnK8ZtJElY}:{0ctC_FGkPzYf0PfF}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 39,
+          "dy": 0
+        },
+        "text": "x 24",
+        "textOffset": {
+          "dx": 55,
+          "dy": 2
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "_BqGyPXKybimd44Y",
+        "sourceObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1R}:{OcdnJO1yh_aIYigV}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 18,
+          "dy": -3
+        },
+        "targetObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1S}:{OcdnJO1yh_aIYigV}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 17,
+          "dy": -6
+        },
+        "text": "Divide by 10",
+        "textOffset": {
+          "dx": 58,
+          "dy": -1
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "lvOiLlucBPMAeOFR",
+        "sourceObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1R}:{ftJ8Hz8kHnOo4M0r}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 27,
+          "dy": -1
+        },
+        "targetObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1S}:{ftJ8Hz8kHnOo4M0r}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 26,
+          "dy": -1
+        },
+        "text": "Divide by 10",
+        "textOffset": {
+          "dx": 89,
+          "dy": -9
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "Fh5XAGnJ5VQvU4zZ",
+        "sourceObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1S}:{OcdnJO1yh_aIYigV}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 22,
+          "dy": 3
+        },
+        "targetObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1T}:{OcdnJO1yh_aIYigV}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 24,
+          "dy": 3
+        },
+        "text": "x 240",
+        "textOffset": {
+          "dx": 48,
+          "dy": 2
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "i3ruB7KhghJfgGBq",
+        "sourceObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1S}:{ftJ8Hz8kHnOo4M0r}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 34,
+          "dy": 7
+        },
+        "targetObject": {
+          "tileId": "4iRWowJEMTZewjbL",
+          "objectId": "cell:{01HEXBKC4J9QVP4CTNZKH4AA1T}:{ftJ8Hz8kHnOo4M0r}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 31,
+          "dy": 5
+        },
+        "text": "x 240",
+        "textOffset": {
+          "dx": 78,
+          "dy": 2
         },
         "type": "arrowAnnotation"
       }
