@@ -1055,7 +1055,52 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a. </strong></p><p><strong>b.   </strong></p><p><strong>c.  </strong></p><p><strong>d.  </strong></p><p><strong>e.  </strong></p>"
+            "<p><strong>a.  </strong>$20; In the table, “Day 0” represents the start of camp, when Jamal has been at camp for 0 days.</p><p><strong>b.   </strong>$2; As the number of days increases by 1, the amount of money left decreases by $2.</p><p><strong>c.  </strong>Yes; as the values for the days go up by 1 unit, the values for the money left go down by a constant amount.</p><p><strong>d.  </strong>See graph below.</p><p><strong>e.  </strong><em>M</em> = –2<em>d</em> + 20, where <em>M</em> is the money left, <em>d</em> is the number of days, the 20 is the starting amount in Jamal’s wallet, and the –2 is the rate at which the money in Jamal’s wallet is decreasing.</p>"
+          ]
+        }
+      },
+      {
+        "id": "hu4UY15i1-wAmDci",
+        "title": "Jamal's Money",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -1,
+                -1
+              ],
+              "axisRange": [
+                8,
+                22
+              ],
+              "axisNames": [
+                "Number of Days",
+                "Amount of Money"
+              ],
+              "axisLabels": [
+                "",
+                ""
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "polygon",
+              "parents": [
+                "UYfXNwBIgQe4m-NB:zaTQzfVE7Q0NnBlz",
+                "Nv9kEFR-4LgIkYdB:zaTQzfVE7Q0NnBlz",
+                "HBGwI4feeQU7A1gd:zaTQzfVE7Q0NnBlz",
+                "8_4rWHwYx7p6ptx0:zaTQzfVE7Q0NnBlz",
+                "v4dLQlHnDoaWdYfv:zaTQzfVE7Q0NnBlz",
+                "7O2cQkPz75SevWKC:zaTQzfVE7Q0NnBlz",
+                "6cofNdgIqSsq5VEz:zaTQzfVE7Q0NnBlz"
+              ],
+              "properties": {
+                "id": "dm5zkwmA4mtMd2fU"
+              }
+            }
           ]
         }
       },
@@ -1071,6 +1116,38 @@
         }
       },
       {
+        "id": "HxArO6ykI836_14H",
+        "title": "Text 38",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Write an equation for each graph.</p>"
+          ]
+        }
+      },
+      {
+        "id": "8GQqwwf1CB3UCj8A",
+        "title": "ACE 1-13 Graphs",
+        "content": {
+          "type": "Image",
+          "url": "msa/images/graphs.png",
+          "filename": "msa/images/graphs.png"
+        }
+      },
+      {
+        "id": "XJOdrOuxIVyd2khF",
+        "title": "Text 39",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Graph 1: y = -x</p><p>Graph 2: y = -x</p><p><strong>Note</strong>: Students are not expected to be fluent at finding the equation from a given graph at this stage.</p>"
+          ]
+        }
+      },
+      {
         "id": "sNmOmru8ddM4dhgz",
         "title": "Text 2",
         "content": {
@@ -1078,6 +1155,29 @@
           "format": "html",
           "text": [
             "<p><strong>ACE 1-14</strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "oCH9XxcEd6VRFsm6",
+        "title": "Text 40",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>a.  </strong>Describe a situation that involves a linear relationship between an independent variable and a dependent variable for which the rate of change is:</p><ol><li>positive</li><li>zero (no change)</li><li>negative</li></ol><p><strong>b.  </strong>Write an equation that models each situation in part <strong>a</strong>.</p>"
+          ]
+        }
+      },
+      {
+        "id": "_7Ot3rdGHWbMaMlC",
+        "title": "Text 41",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>a.  </strong></p><ol><li>A cable company charges a family a $100 start-up fee and then $50 per month. The relationship between months that the family has had cable and the total amount they have to pay is linear and positive.</li><li>Another cable company charges a $100 installation fee and no monthly fee. The relationship between months that the family has had cable and the total amount they have to pay to the cable company would be linear with zero rate of change, because no matter how many months they have cable, they would never pay more than $100.</li><li>If the family has $1,000 in their account to pay the first cable company, the amount of money in that account decreases at a constant rate.</li></ol><p><strong>b.  </strong>Again, answers will depend on the answers to part <strong>a</strong>. For the examples above, the first equation is <em>y</em> = 100 + 50<em>x</em>, the second equation is <em>y</em> = 100, and the third equation is <em>y</em> = 1,000 – 50<em>x</em>.</p>"
           ]
         }
       },
@@ -1928,7 +2028,8 @@
           }
         },
         "tiles": [
-          "Fb1wW8uqc_JD7CHl"
+          "Fb1wW8uqc_JD7CHl",
+          "hu4UY15i1-wAmDci"
         ]
       }
     ]
