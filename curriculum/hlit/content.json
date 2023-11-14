@@ -22,23 +22,13 @@
         "isTileTool": true
       },
       {
-        "id": "Geometry",
-        "title": "Graph",
-        "isTileTool": true
-      },
-      {
         "id": "Table",
         "title": "Table",
         "isTileTool": true
       },
       {
-        "id": "Expression",
-        "title": "Expression",
-        "isTileTool": true
-      },
-      {
-        "id": "Image",
-        "title": "Image",
+        "id": "Geometry",
+        "title": "Graph",
         "isTileTool": true
       },
       {
@@ -47,12 +37,33 @@
         "isTileTool": true
       },
       {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
         "id": "DataCard",
         "title": "Data Cards",
         "isTileTool": true
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -78,7 +89,53 @@
         "isTileTool": false
       }
     ],
-    "stamps": [],
+    "stamps": [
+      {
+        "url": "hlit/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "hlit/stamps/red-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
     "settings": {
       "table": {
         "numFormat": ".2~f"
@@ -86,13 +143,16 @@
     },
     "showCommentTag": true,
     "commentTags": {
-       "part-to-part": "Part-to-Part",
-       "part-to-whole": "Part-to-Whole",
-       "unit-rate": "Unit Rate",
-       "guess-and-check": "Guess and Check",
-       "none": "None"
+      "part-to-part": "Part-to-Part",
+      "part-to-whole": "Part-to-Whole",
+      "unit-rate": "Unit Rate",
+      "ratios": "Ratios of Same Variable",
+      "common-parts": "Common Part or Whole",
+      "building-up": "Building Up",
+      "other-proportional": "Other - Proportional",
+      "other-nonproportional": "Other - Nonproportional"
     },
-     "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
