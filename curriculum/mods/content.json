@@ -9,12 +9,38 @@
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
     "toolbar": [
-      {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
-      {"id": "Text", "title": "Text", "isTileTool": true},
-      {"id": "Drawing", "title": "Sketch", "isTileTool": true},
-      {"id": "Image", "title": "Image", "isTileTool": true},
-      {"id": "DataCard", "title": "Data Cards", "isTileTool": true},
-      {"id": "Table", "title": "Table", "isTileTool": true},
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
       {
         "id": "sparrow",
         "title": "Sparrow",
@@ -22,15 +48,35 @@
         "isTileTool": false
       },
       {
-          "id": "hide-annotations",
-          "title": "Hide Annotations",
-          "iconId": "icon-hide-annotations-tool",
-          "isTileTool": false
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
       },
-      {"id": "duplicate", "title": "Duplicate Tile", "iconId": "icon-duplicate-tool", "isTileTool": false},
-      {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
-      {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
-      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
     ],
     "navTabs": {
       "showNavPanel": true,
@@ -40,48 +86,131 @@
           "tab": "problems",
           "label": "Activity",
           "sections": [
-            {"initials": "INT", "title": "Introduction", "type": "problem-documents"},
-            {"initials": "ACT", "title": "Activity", "type": "problem-documents"},
-            {"initials": "REF", "title": "Reflection", "type": "problem-documents"}
+            {
+              "initials": "INT",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "ACT",
+              "title": "Activity",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "REF",
+              "title": "Reflection",
+              "type": "problem-documents"
+            }
           ]
         },
         {
           "tab": "my-work",
           "label": "My Work",
           "sections": [
-            {"title": "Workspaces", "type": "problem-documents", "dataTestHeader": "my-work-section-investigations", "dataTestItem": "my-work-list-items", "documentTypes": ["problem", "planning"], "order": "original", "showStars": []},
-            {"title": "Workspaces", "type": "personal-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["personal"], "properties": ["!isDeleted"], "showStars": [], "addDocument": true},
-            {"title": "Learning Journal", "type": "learning-logs", "dataTestHeader": "learning-log-section", "documentTypes": ["learningLog"], "properties": ["!isDeleted"], "addDocument": true}
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": []
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Journal",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
+            }
           ]
         },
         {
           "tab": "class-work",
           "label": "Class Work",
           "sections": [
-            {"title": "Workspaces", "type": "published-problem-documents", "dataTestHeader": "class-work-section-published", "dataTestItem": "class-work-list-items", "documentTypes": ["publication"], "showStars": [], "properties": ["!isDeleted"]},
-            {"title": "Workspaces", "type": "teacher-supports", "dataTestHeader": "supports-section-teacher-supports", "dataTestItem": "supports-list-items", "documentTypes": ["supportPublication"], "properties": ["teacherSupport", "!isDeleted"]}
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [],
+              "properties": [
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            }
           ]
         },
-        {"tab": "teacher-guide", "label": "Teacher Guide", "teacherOnly": true, "sections": []},
-        {"tab": "student-work", "label": "Student Work", "teacherOnly": true, "sections": []}
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        }
       ]
     },
     "settings": {
-      "showCommentTag": true,
-      "commentTags": {
-          "diverging": "Diverging Designs",
-          "converging": "Converging Designs",
-          "materials": "Varies Material/Surface",
-          "physical": "Varies Physical Factors",
-          "user": "Varies Human Factors",
-          "system": "Varies System Factors"
-      },
-      "tagPrompt": "Identify Design Approach",
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["delete"]
+        "numFormat": ".2~f",
+        "tools": [
+          "delete"
+        ]
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Diverging Designs",
+      "converging": "Converging Designs",
+      "materials": "Varies Material/Surface",
+      "physical": "Varies Physical Factors",
+      "user": "Varies Human Factors",
+      "system": "Varies System Factors"
+    },
+    "tagPrompt": "Identify Design Approach",
     "stamps": [
       {
         "url": "mods/stamps/jumping.png",
@@ -111,10 +240,22 @@
     ]
   },
   "sections": {
-    "introduction": {"initials": "INT", "title": "Introduction", "placeholder": "Frame the problem"},
-    "activity": {"initials": "ACT", "title": "Activity", "placeholder": "Record your ideas"},
-    "reflection": {"initials": "REF", "title": "Reflection", "placeholder": "What did you learn?"}
-  }, 
+    "introduction": {
+      "initials": "INT",
+      "title": "Introduction",
+      "placeholder": "Frame the problem"
+    },
+    "activity": {
+      "initials": "ACT",
+      "title": "Activity",
+      "placeholder": "Record your ideas"
+    },
+    "reflection": {
+      "initials": "REF",
+      "title": "Reflection",
+      "placeholder": "What did you learn?"
+    }
+  },
   "investigations": [
     {
       "description": "Problem 1: Water Resources",
@@ -203,7 +344,6 @@
             "investigation-1/problem-7/introduction/content.json",
             "investigation-1/problem-7/activity/content.json",
             "investigation-1/problem-7/reflection/content.json"
-
           ]
         }
       ]
