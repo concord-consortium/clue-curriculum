@@ -2,7 +2,17 @@
   "type": "initialChallenge",
   "content": {
     "tiles": [
-      {"id": "NQsigLgDb3Gc0tvy", "title": "Text 1", "content": {"type": "Text", "format": "html", "text": ["<p>The following problem provides an opportunity to revisit some of the major ideas in this unit.</p>"]}},
+      {
+        "id": "NQsigLgDb3Gc0tvy",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The following problem provides an opportunity to revisit some of the major ideas in this unit.</p>"
+          ]
+        }
+      },
       {
         "id": "FJ0WdpwET0ddi4_-",
         "title": "Text 2",
@@ -10,34 +20,151 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The cards contain graphs, equations, contexts that represent various situations, or tables. </p>",
-            "<ul><li>Sort the cards into groups. Each group should represent the same relationships. For example, you may have a graph, context, and a table that “tell the same story” of the relationship between the variables.</li><li>Explain how each group is the same or different from other groups.</li><li>Are any of the relationships linear? Explain why. Are any of the linear relationships proportional? Explain why.</li></ul>"
+            "<p>The cards contain graphs, equations, contexts that represent various situations, or tables. </p><ul><li>Sort the cards into groups. Each group should represent the same relationships. For example, you may have a graph, context, and a table that “tell the same story” of the relationship between the variables.</li><li>Explain how each group is the same or different from other groups.</li><li>Are any of the relationships linear? Explain why. Are any of the linear relationships proportional? Explain why.</li></ul>"
           ]
         }
       },
       [
-        {"id": "ccFomWvODJ6Z_1l-", "title": "Graph A", "content": {"type": "Image", "url": "msa/images/4.3_GraphA.png", "filename": "msa/images/4.3_GraphA.png"}},
-        {"id": "dA6vqk_KKIGu_B7B", "title": "Graph B", "content": {"type": "Image", "url": "msa/images/4.3_GraphB.png", "filename": "msa/images/4.3_GraphB.png"}},
-        {"id": "OwjF7ejhamz78o79", "title": "Graph C", "content": {"type": "Image", "url": "msa/images/4.3_GraphC.png", "filename": "msa/images/4.3_GraphC.png"}}
+        {
+          "id": "ccFomWvODJ6Z_1l-",
+          "title": "Graph A",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/4.3_GraphA.png",
+            "filename": "msa/images/4.3_GraphA.png"
+          }
+        },
+        {
+          "id": "dA6vqk_KKIGu_B7B",
+          "title": "Graph B",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/4.3_GraphB.png",
+            "filename": "msa/images/4.3_GraphB.png"
+          }
+        },
+        {
+          "id": "OwjF7ejhamz78o79",
+          "title": "Graph C",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/4.3_GraphC.png",
+            "filename": "msa/images/4.3_GraphC.png"
+          }
+        }
       ],
       [
-        {"id": "5HXtszUSVwVmk5fN", "title": "Graph D", "content": {"type": "Image", "url": "msa/images/4.3_GraphD.png", "filename": "msa/images/4.3_GraphD.png"}},
-        {"id": "YpkHimvE-7wuaA-f", "title": "Graph E", "content": {"type": "Image", "url": "msa/images/4.3_GraphE.png", "filename": "msa/images/4.3_GraphE.png"}},
-        {"id": "3L3MTrUYNQAnREJu", "title": "Graph F", "content": {"type": "Image", "url": "msa/images/4.3_GraphF.png", "filename": "msa/images/4.3_GraphF.png"}}
+        {
+          "id": "5HXtszUSVwVmk5fN",
+          "title": "Graph D",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/4.3_GraphD.png",
+            "filename": "msa/images/4.3_GraphD.png"
+          }
+        },
+        {
+          "id": "YpkHimvE-7wuaA-f",
+          "title": "Graph E",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/4.3_GraphE.png",
+            "filename": "msa/images/4.3_GraphE.png"
+          }
+        },
+        {
+          "id": "3L3MTrUYNQAnREJu",
+          "title": "Graph F",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/4.3_GraphF.png",
+            "filename": "msa/images/4.3_GraphF.png"
+          }
+        }
       ],
       [
-        {"id": "5EqvA4fbeqKnAHg4", "title": "Text 17", "content": {"type": "Text", "format": "html", "text": ["<p>Equation G</p>", "<p>y= x+5</p>"]}},
-        {"id": "hMXPt5-VcrZ8mcZU", "title": "Text 18", "content": {"type": "Text", "format": "html", "text": ["<p>Equation H</p>", "<p>y= 20 - 3x</p>"]}},
-        {"id": "lZNUHa8VnL8eW4XP", "title": "Text 19", "content": {"type": "Text", "format": "html", "text": ["<p>Equation I</p>", "<p>y = 2x + 30</p>"]}},
-        {"id": "0D63wCizbTiGPcIr", "title": "Text 20", "content": {"type": "Text", "format": "html", "text": ["<p>Equation J</p>", "<p>y= 0.5x</p>"]}}
+        {
+          "id": "W7YWWbJX2YjdZb2G",
+          "title": "Equation G",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=x+5"
+          }
+        },
+        {
+          "id": "igN_Bj5cqiRGFTcv",
+          "title": "Equation H",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=20-3x"
+          }
+        }
       ],
       [
-        {"id": "vB7iBzfE6lBDrd8v", "title": "Text 21", "content": {"type": "Text", "format": "html", "text": ["<p>Context K</p>", "<p></p>", "<p>A fire in California is burning at a rate of 0.5 square miles per hour. How many square miles have burned after a certain number of hours?</p>"]}},
-        {"id": "56JvyPkv_WnA_7CS", "title": "Text 22", "content": {"type": "Text", "format": "html", "text": ["<p>Context L</p>", "<p></p>", "<p>Mia borrows $20 from her uncle to buy a school T-shirt. Mia pays back $3 a week. How much money is left to pay off after a certain number of weeks?</p>"]}}
+        {
+          "id": "6RMpEho5Va-n9Hhn",
+          "title": "Equation I",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=2x+30"
+          }
+        },
+        {
+          "id": "eRigORN34Q0Wp5Eb",
+          "title": "Equation J",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=0.5x"
+          }
+        }
       ],
       [
-        {"id": "t34-c-6BwkjLeS8H", "title": "Text 23", "content": {"type": "Text", "format": "html", "text": ["<p>Context M</p>", "<p></p>", "<p>In a trivia game, teams get 1 point for answering the first question correctly. Then for every correct answer, their score doubles.</p>"]}},
-        {"id": "lJHUusOkrmos9vYI", "title": "Text 24", "content": {"type": "Text", "format": "html", "text": ["<p>Context N</p>", "<p></p>", "<p>Will pays $79 a month for unlimited data. What equation would show Will’s cost in a month?</p>"]}}
+        {
+          "id": "vB7iBzfE6lBDrd8v",
+          "title": "Text 21",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Context K</em></p><p>A fire in California is burning at a rate of 0.5 square miles per hour. How many square miles have burned after a certain number of hours?</p>"
+            ]
+          }
+        },
+        {
+          "id": "56JvyPkv_WnA_7CS",
+          "title": "Text 22",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Context L</em></p><p>Mia borrows $20 from her uncle to buy a school T-shirt. Mia pays back $3 a week. How much money is left to pay off after a certain number of weeks?</p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "t34-c-6BwkjLeS8H",
+          "title": "Text 23",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Context M</em></p><p>In a trivia game, teams get 1 point for answering the first question correctly. Then for every correct answer, their score doubles.</p>"
+            ]
+          }
+        },
+        {
+          "id": "lJHUusOkrmos9vYI",
+          "title": "Text 24",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Context N</em></p><p>Will pays $79 a month for unlimited data. What equation would show Will’s cost in a month?</p>"
+            ]
+          }
+        }
       ],
       [
         {
@@ -46,121 +173,684 @@
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p>Context O</p>", "<p></p>", "<p>The school is buying tickets, The cost for the first 20 students is $10 per student. The cost for the number of students greater than 20 is $3 per student. What is the total cost for a certain number of students?</p>"]
+            "text": [
+              "<p><em>Context O</em></p><p>The school is buying tickets, The cost for the first 20 students is $10 per student. The cost for the number of students greater than 20 is $3 per student. What is the total cost for a certain number of students?</p>"
+            ]
           }
         },
         {
           "id": "hZ0dl4ZBZetCv5ee",
           "title": "Text 31",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Context P</p>", "<p></p>", "<p>You can estimate Fahrenheit from Celsius temperature. Multiply the Celsius temperature by 2 and add 30. What equation will estimate the temperature from one temperature system to the other? </p>"]}
-        }
-      ],
-      [
-        {"id": "QtfkEWRlB8InfheS", "title": "Table 1", "content": {"type": "Table", "name": "Table Q", "columns": [{"name": "x", "width": 80, "values": ["0", "1", "2", "3", "4", "5"]}, {"name": "y", "width": 80, "values": ["20", "17", "14", "11", "8", "5"]}]}},
-        {"id": "tld_hMPEH0r6iJKr", "title": "Table 2", "content": {"type": "Table", "name": "Table R", "columns": [{"name": "x", "width": 80, "values": ["1", "2", "3", "4", "5", "6"]}, {"name": "y", "width": 80, "values": ["1", "4", "9", "16", "25", "36"]}]}}
-      ],
-      [
-        {"id": "G9oMwuP6v03mhrHh", "title": "Table 6", "content": {"type": "Table", "name": "Table S", "columns": [{"name": "x", "width": 80, "values": ["1", "2", "3", "4", "5", "6"]}, {"name": "y", "width": 80, "values": ["4.5", "4", "3.5", "3", "2.5", "2"]}]}},
-        {"id": "x-1QP_Cd9xPvSFsD", "title": "Table 5", "content": {"type": "Table", "name": "Table T", "columns": [{"name": "x", "width": 80, "values": ["1", "2", "3", "4", "5", "6"]}, {"name": "y", "width": 80, "values": ["1", "2", "4", "8", "16", "32"]}]}}
-      ],
-      [
-        {"id": "LiF3Z2_6bdp20fS2", "title": "Table 4", "content": {"type": "Table", "name": "Table U", "columns": [{"name": "x", "width": 80, "values": ["1", "2", "3", "4", "5"]}, {"name": "y", "width": 80, "values": ["79", "79", "79", "79", "79"]}]}},
-        {"id": "ZdMuJU3jYvWEGhGp", "title": "Table 3", "content": {"type": "Table", "name": "Table V", "columns": [{"name": "x", "width": 80, "values": ["1", "2", "3", "4", "5", "6"]}, {"name": "y", "width": 80, "values": ["32", "34", "36", "38", "40", "42"]}]}}
-      ],
-      {"id": "G7v-3F95ZVEo-Qbe", "display": "teacher", "title": "Text 33", "content": {"type": "Text", "format": "html", "text": ["<p>Answers</p>", "<p>Relationships are included for reference during conversations.</p>"]}},
-      [
-        {
-          "id": "7mpImW0x_NvTebW3",
-          "display": "teacher",
-          "title": "Text 34",
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p>Graph A</p>", "<p>Equation H</p>", "<p>Context L</p>", "<p>Table Q</p>", "<p>Linear – decreasing</p>", "<p>Non-proportional</p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 3.</p>"]
+            "text": [
+              "<p><em>Context P</em></p><p>You can estimate Fahrenheit from Celsius temperature. Multiply the Celsius temperature by 2 and add 30. What equation will estimate the temperature from one temperature system to the other? </p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "QtfkEWRlB8InfheS",
+          "title": "Table Q",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "JJ8MHttXGdiKJCoH": 80,
+              "3eeFkqLyUqiMiPwq": 80
+            },
+            "name": "Table Q"
+          }
+        },
+        {
+          "id": "tld_hMPEH0r6iJKr",
+          "title": "Table R",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "L_dQSuRY_a-bgW26": 80,
+              "jL_LHd9D4WhqvSGu": 80
+            },
+            "name": "Table R"
+          }
+        }
+      ],
+      [
+        {
+          "id": "G9oMwuP6v03mhrHh",
+          "title": "Table S",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "UGv4WpWztaTHBZ-m": 80,
+              "BDtk3JHGhaZsWqk6": 80
+            },
+            "name": "Table S"
+          }
+        },
+        {
+          "id": "x-1QP_Cd9xPvSFsD",
+          "title": "Table T",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "ts7CoYoQME4ZHPxg": 80,
+              "2N_jPvhJorcWeDdV": 80
+            },
+            "name": "Table T"
+          }
+        }
+      ],
+      [
+        {
+          "id": "LiF3Z2_6bdp20fS2",
+          "title": "Table U",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "Oqp0xu8olNOj9dxV": 80,
+              "QZc8zHt587EXcchc": 80
+            },
+            "name": "Table U"
+          }
+        },
+        {
+          "id": "ZdMuJU3jYvWEGhGp",
+          "title": "Table V",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "Eu92HE3vIFKTEQ5I": 80,
+              "0lHqBQBVJQLzqw_Y": 80
+            },
+            "name": "Table V"
+          }
+        }
+      ],
+      {
+        "id": "G7v-3F95ZVEo-Qbe",
+        "title": "Text 33",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers</p><p>Relationships are included for reference during conversations.</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "7mpImW0x_NvTebW3",
+          "title": "Text 34",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Graph A</em></p><p><em>Equation H</em></p><p><em>Context L</em></p><p><em>Table Q</em></p><p>Linear – decreasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 3.</p>"
+            ]
           }
         },
         {
           "id": "XbpBMogUmXlZNT10",
-          "display": "teacher",
           "title": "Text 35",
+          "display": "teacher",
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p>Graph C</p>", "<p>Equation J</p>", "<p>Context K</p>", "<p>Linear – increasing</p>", "<p>Proportional</p>", "<p></p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 0.5.</p>", "<p></p>"]
+            "text": [
+              "<p><em>Graph C</em></p><p><em>Equation J</em></p><p><em>Context K</em></p><p>Linear – increasing</p><p>Proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 0.5.</p><p></p>"
+            ]
           }
         }
       ],
       [
         {
           "id": "TRY9uX0iaF8txbN2",
-          "display": "teacher",
           "title": "Text 37",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Graph D</p>", "<p>Context M</p>", "<p>Table T</p>", "<p>Exponential</p>", "<p></p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values double.</p>"]}
-        },
-        {
-          "id": "0BYkdqcZVpGjX-LW",
           "display": "teacher",
-          "title": "Text 36",
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p>Graph F</p>", "<p>Context O</p>", "<p>Piece-wise linear</p>", "<p></p>", "<p>Pattern of Change: There are two patterns of change. For x-values of 0-20, the rate of change is 10. For x-values larger than 20, the rate of change is 3.</p>"]
+            "text": [
+              "<p><em>Graph D</em></p><p><em>Context M</em></p><p><em>Table T</em></p><p>Exponential</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values double.</p>"
+            ]
+          }
+        },
+        {
+          "id": "0BYkdqcZVpGjX-LW",
+          "title": "Text 36",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Graph F</em></p><p><em>Context O</em></p><p>Piece-wise linear</p><p>Pattern of Change: There are two patterns of change. For x-values of 0-20, the rate of change is 10. For x-values larger than 20, the rate of change is 3.</p>"
+            ]
           }
         }
       ],
       [
         {
           "id": "cPfPZnCLVlXtL2Qa",
-          "display": "teacher",
           "title": "Text 38",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Equation I</p>", "<p>Context P</p>", "<p>Table V</p>", "<p>Linear – increasing</p>", "<p>Non-proportional</p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 2.</p>"]}
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Equation I</em></p><p><em>Context P</em></p><p><em>Table V</em></p><p>Linear – increasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 2.</p>"
+            ]
+          }
         },
         {
           "id": "JDUyajSM0FGxh3UC",
-          "display": "teacher",
           "title": "Text 39",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Context N</p>", "<p>Table U</p>", "<p>Linear (slope of zero)</p>", "<p>Non-proportional</p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values change by 0. (no increase or decrease) </p>"]}
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Context N</em></p><p><em>Table U</em></p><p>Linear (slope of zero)</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values change by 0. (no increase or decrease) </p>"
+            ]
+          }
         }
       ],
-      {"id": "md6o7rVJ0a23KfDi", "display": "teacher", "title": "Text 40", "content": {"type": "Text", "format": "html", "text": ["<p>The following representations do not match others. They stand alone. </p>", "<p>Equations and relationships are included for reference during conversations.</p>"]}},
+      {
+        "id": "md6o7rVJ0a23KfDi",
+        "title": "Text 40",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The following representations do not match others. They stand alone. </p><p>Equations and relationships are included for reference during conversations.</p>"
+          ]
+        }
+      },
       [
         {
           "id": "rASSoFwCAwKRiV5Y",
-          "display": "teacher",
           "title": "Text 41",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Equation G</p>", "<p>Linear – increasing</p>", "<p>Non-proportional </p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 1.</p>"]}
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Equation G</em></p><p>Linear – increasing</p><p>Non-proportional </p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 1.</p>"
+            ]
+          }
         },
         {
           "id": "Rv8z5xx5NbQQarrp",
-          "display": "teacher",
           "title": "Text 42",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Table R</p>", "<p>Quadratic y = x2  (square numbers)</p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by an increasing amount.</p>"]}
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Table R</em></p><p>Quadratic y = x<sup>2</sup>  (square numbers)</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by an increasing amount.</p>"
+            ]
+          }
         }
       ],
       [
         {
           "id": "CQKs7qYMVmdoQqpZ",
-          "display": "teacher",
           "title": "Text 43",
+          "display": "teacher",
           "content": {
             "type": "Text",
             "format": "html",
-            "text": ["<p>Table S</p>", "<p>y = –0.5x + 5</p>", "<p></p>", "<p></p>", "<p>Linear – decreasing</p>", "<p>Non-proportional</p>", "<p></p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 0.5.</p>"]
+            "text": [
+              "<p><em>Table S</em></p><p>y = –0.5x + 5</p><p>Linear – decreasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 0.5.</p>"
+            ]
           }
         },
         {
           "id": "Li7BFP2FtuSsm_SO",
-          "display": "teacher",
           "title": "Text 44",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Graph B</p>", "<p>y = 20 + 3x</p>", "<p></p>", "<p>Linear – increasing</p>", "<p>Non-proportional</p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 3.</p>"]}
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Graph B</em></p><p>y = 20 + 3x</p><p>Linear – increasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 3.</p>"
+            ]
+          }
         },
         {
           "id": "nunh3Qr6wxLAKnfW",
-          "display": "teacher",
           "title": "Text 45",
-          "content": {"type": "Text", "format": "html", "text": ["<p>Graph E</p>", "<p>y = –3x</p>", "<p></p>", "<p>Linear – decreasing</p>", "<p>Proportional</p>", "<p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 3.</p>"]}
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Graph E</em></p><p>y = –3x</p><p>Linear – decreasing</p><p>Proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 3.</p>"
+            ]
+          }
         }
       ]
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "xhYcWJbqeTWpgA4x",
+          "providerId": "QtfkEWRlB8InfheS",
+          "dataSet": {
+            "id": "FnO6AxN5dxifqOzX",
+            "name": "Table Q",
+            "attributes": [
+              {
+                "id": "JJ8MHttXGdiKJCoH",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "3eeFkqLyUqiMiPwq",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "20",
+                  "17",
+                  "14",
+                  "11",
+                  "8",
+                  "5"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXX4XXTRTJVABH7M5QSQN5P"
+              },
+              {
+                "__id__": "01HEXX4XXTRTJVABH7M5QSQN5Q"
+              },
+              {
+                "__id__": "01HEXX4XXTRTJVABH7M5QSQN5R"
+              },
+              {
+                "__id__": "01HEXX4XXTRTJVABH7M5QSQN5S"
+              },
+              {
+                "__id__": "01HEXX4XXTRTJVABH7M5QSQN5T"
+              },
+              {
+                "__id__": "01HEXX4XXTRTJVABH7M5QSQN5V"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "QtfkEWRlB8InfheS"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "FoTPQzu9gAKQt9y_",
+          "providerId": "tld_hMPEH0r6iJKr",
+          "dataSet": {
+            "id": "_58CJB7z8sqpsyvv",
+            "name": "Table R",
+            "attributes": [
+              {
+                "id": "L_dQSuRY_a-bgW26",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "jL_LHd9D4WhqvSGu",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "16",
+                  "25",
+                  "36"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEG"
+              },
+              {
+                "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEH"
+              },
+              {
+                "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEJ"
+              },
+              {
+                "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEK"
+              },
+              {
+                "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEM"
+              },
+              {
+                "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEN"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "tld_hMPEH0r6iJKr"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "s6rnwf3ERhHwhVmy",
+          "providerId": "G9oMwuP6v03mhrHh",
+          "dataSet": {
+            "id": "_zmAKqRU41fM5kqC",
+            "name": "Table S",
+            "attributes": [
+              {
+                "id": "UGv4WpWztaTHBZ-m",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BDtk3JHGhaZsWqk6",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4.5",
+                  "4",
+                  "3.5",
+                  "3",
+                  "2.5",
+                  "2"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXX4XXXWGY9YX1XHD0K5D15"
+              },
+              {
+                "__id__": "01HEXX4XXXWGY9YX1XHD0K5D16"
+              },
+              {
+                "__id__": "01HEXX4XXXWGY9YX1XHD0K5D17"
+              },
+              {
+                "__id__": "01HEXX4XXXWGY9YX1XHD0K5D18"
+              },
+              {
+                "__id__": "01HEXX4XXXWGY9YX1XHD0K5D19"
+              },
+              {
+                "__id__": "01HEXX4XXXWGY9YX1XHD0K5D1A"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "G9oMwuP6v03mhrHh"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "41EPQ7yTf1sYXvSw",
+          "providerId": "x-1QP_Cd9xPvSFsD",
+          "dataSet": {
+            "id": "Eq_oB74CX1iGHgXe",
+            "name": "Table T",
+            "attributes": [
+              {
+                "id": "ts7CoYoQME4ZHPxg",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "2N_jPvhJorcWeDdV",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "4",
+                  "8",
+                  "16",
+                  "32"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXX4XXYW16N763FJKKWXXG0"
+              },
+              {
+                "__id__": "01HEXX4XXYW16N763FJKKWXXG1"
+              },
+              {
+                "__id__": "01HEXX4XXYW16N763FJKKWXXG2"
+              },
+              {
+                "__id__": "01HEXX4XXYW16N763FJKKWXXG3"
+              },
+              {
+                "__id__": "01HEXX4XXYW16N763FJKKWXXG4"
+              },
+              {
+                "__id__": "01HEXX4XXYW16N763FJKKWXXG5"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "x-1QP_Cd9xPvSFsD"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "OZxKlCv2ylUV2v7_",
+          "providerId": "LiF3Z2_6bdp20fS2",
+          "dataSet": {
+            "id": "zr-UXlr-NcDSY-8P",
+            "name": "Table U",
+            "attributes": [
+              {
+                "id": "Oqp0xu8olNOj9dxV",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "QZc8zHt587EXcchc",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "79",
+                  "79",
+                  "79",
+                  "79",
+                  "79"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXX4XXZE7VDAEPXEAB1NEV9"
+              },
+              {
+                "__id__": "01HEXX4XXZE7VDAEPXEAB1NEVA"
+              },
+              {
+                "__id__": "01HEXX4XXZE7VDAEPXEAB1NEVB"
+              },
+              {
+                "__id__": "01HEXX4XXZE7VDAEPXEAB1NEVC"
+              },
+              {
+                "__id__": "01HEXX4XXZE7VDAEPXEAB1NEVD"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "LiF3Z2_6bdp20fS2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "ZBTzSDeKyAAP_mak",
+          "providerId": "ZdMuJU3jYvWEGhGp",
+          "dataSet": {
+            "id": "-RM0N181sacGpvYu",
+            "name": "Table V",
+            "attributes": [
+              {
+                "id": "Eu92HE3vIFKTEQ5I",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "0lHqBQBVJQLzqw_Y",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "32",
+                  "34",
+                  "36",
+                  "38",
+                  "40",
+                  "42"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNWW"
+              },
+              {
+                "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNWX"
+              },
+              {
+                "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNWY"
+              },
+              {
+                "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNWZ"
+              },
+              {
+                "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNX0"
+              },
+              {
+                "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNX1"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "ZdMuJU3jYvWEGhGp"
+        ]
+      }
     ]
   }
 }
