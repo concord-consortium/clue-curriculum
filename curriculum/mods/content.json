@@ -301,16 +301,19 @@
             "investigation-1/problem-1/reflection/content.json"
           ],
           "config": {
-            "planningTemplate": {
-              "objectives": {
-                "tiles": []
-              },
-              "sequence": {
-                "tiles": []
+            "settings": {
+              "drawing": {
+                "tools": [
+                  "select",
+                  "line",
+                  "vector",
+                  "image-upload",
+                  "delete"
+                ]
               }
             }
-        }
-      },
+          }
+        },
         {
           "description": "Activity 1.2",
           "ordinal": 2,
