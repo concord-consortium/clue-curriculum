@@ -2,30 +2,71 @@
   "type": "initialChallenge",
   "content": {
     "tiles": [
-      {"content": {"type": "Text", "format": "html", "text": ["<p>Julia is in charge of ordering pizzas for a camp dinner. There are two pizza companies nearby. Both allow customers to use the same pricing rate for fewer or more pizzas than the listed number.</p>"]}, "id": "TILEmdGnGmfFtKAC"},
-      [
-        {"id": "08OCT20220428PM", "title": "Royal Pizza - 5 for $65", "content": {"type": "Image", "url": "cas/images/C&S_2-2_RoyalPizzaFlyer.png"}},
-        {"id": "08OCT20220429PM", "title": "Howdy's Pizza - 15 for $165 + Delivery", "content": {"type": "Image", "url": "cas/images/C&S_2-2_HowdysPizzaFlyer.png"}}
-      ],
-      {"content": {"type": "Text", "format": "html", "text": ["<p>Julia wonders which company to use. The cost is a deciding factor. She uses tables to determine the cost of the pizzas.</p>"]}, "id": "TILEChfmIfKRSr0_"},
       {
+        "id": "TILEmdGnGmfFtKAC",
         "content": {
-          "type": "Table",
-          "name": "Pizza Price of Royal Pizza",
-          "columns": [{"name": "Number of Pizzas", "width": 150, "values": ["1", "2", "3", "4", "5", "10", "15", "20", "100", "150", "200"]}, {"name": "Total Cost in Dollars", "width": 150, "values": ["--", "--", "--", "--", "$65", "--", "--", "--", "--", "--", "--"]}]
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Julia is in charge of ordering pizzas for a camp dinner. There are two pizza companies nearby. Both allow customers to use the same pricing rate for fewer or more pizzas than the listed number.</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "08OCT20220428PM",
+          "title": "Royal Pizza - 5 for $65",
+          "content": {
+            "type": "Image",
+            "url": "cas/images/C&S_2-2_RoyalPizzaFlyer.png"
+          }
         },
-        "id": "TILEhbkgAGQQpTnV"
+        {
+          "id": "08OCT20220429PM",
+          "title": "Howdy's Pizza - 15 for $165 + Delivery",
+          "content": {
+            "type": "Image",
+            "url": "cas/images/C&S_2-2_HowdysPizzaFlyer.png"
+          }
+        }
+      ],
+      {
+        "id": "TILEChfmIfKRSr0_",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Julia wonders which company to use. The cost is a deciding factor. She uses tables to determine the cost of the pizzas.</p>"
+          ]
+        }
       },
       {
+        "id": "TILEhbkgAGQQpTnV",
+        "title": "Pizza Price of Royal Pizza",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Jh5OQrnzRyu7oBt1": 150,
+            "dUgtbWeiNRd6xSku": 150
+          },
+          "name": "Pizza Price of Royal Pizza"
+        }
+      },
+      {
+        "id": "TILErFK25npEDreR",
+        "title": "Pizza Price of Royal Pizza- Solution",
         "display": "teacher",
         "content": {
           "type": "Table",
-          "name": "Pizza Price of Royal Pizza- Solution",
-          "columns": [{"name": "Number of Pizzas", "width": 150, "values": ["1", "2", "3", "4", "5", "10", "15", "20", "100", "150", "200"]}, {"name": "Total Cost in Dollars", "width": 150, "values": ["13", "26", "39", "52", "65", "130", "195", "260", "1300", "1950", "2600"]}]
-        },
-        "id": "TILErFK25npEDreR"
+          "columnWidths": {
+            "g67JIfGlvTmeG5DE": 150,
+            "7hUIXuOnYMoQzuw6": 150
+          },
+          "name": "Pizza Price of Royal Pizza- Solution"
+        }
       },
       {
+        "id": "TILEKui7dk-nkR6v",
         "display": "teacher",
         "content": {
           "type": "Text",
@@ -33,56 +74,479 @@
           "text": [
             "<p>Students might work the table forward or backwards looking for equivalent ratios to fill in the table. Some students might start with 5 for $65 then find 10 for $130 and 20 for $260, etc.  Some students may find how much it is for 1 pizza and then use that to scale up and fill in the rest of the table.</p>"
           ]
-        },
-        "id": "TILEKui7dk-nkR6v"
-      },
-      {
-        "id": "t-cIVNG003HLLzWX",
-        "content": {
-          "type": "Table",
-          "name": "Pizza Price of Howdy's Pizza",
-          "columns": [{"name": "Number of Pizzas", "width": 150, "values": ["1", "2", "3", "4", "5", "10", "15", "20", "100", "150", "200"]}, {"name": "Total Cost of Pizza in Dollars", "width": 150, "values": ["--", "--", "--", "--", "--", "--", "$195", "--", "--", "--", "--"]}]
         }
       },
       {
+        "id": "t-cIVNG003HLLzWX",
+        "title": "Pizza Price of Howdy's Pizza",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "VU-mc_WR3rRQSw-w": 150,
+            "hqc13LpWi9ueAVRt": 150
+          },
+          "name": "Pizza Price of Howdy's Pizza"
+        }
+      },
+      {
+        "id": "TILEGodbDjYuNrij",
+        "title": "Pizza Prices for Howdys Pizza- Solution",
         "display": "teacher",
         "content": {
           "type": "Table",
-          "name": "Pizza Prices for Howdys Pizza- Solution",
-          "columns": [
-            {"name": "No. of Pizzas", "width": 150, "values": ["1", "2", "3", "4", "5", "10", "15", "20", "100", "150", "200"]},
-            {"name": "Total Cost in $", "width": 150, "values": ["41", "52", "63", "74", "85", "140", "195", "250", "1130", "1680", "2230"]},
-            {"name": "Cost w/o Delivery in $", "width": 150, "values": ["11", "22", "33", "44", "55", "110", "165", "220", "1100", "1650", "2200"]}
-          ]
-        },
-        "id": "TILEGodbDjYuNrij"
+          "columnWidths": {
+            "J2uwK-dU0nOP7AUY": 150,
+            "yyDZpLf8NAdbCZD_": 150,
+            "Gfmsqcl6-HSzIv_B": 150
+          },
+          "name": "Pizza Prices for Howdys Pizza- Solution"
+        }
       },
       {
+        "id": "TILE1KDcJJTcXBKZ",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Students need to recognize that the $195 for 15 pizzas also includes the $30 delivery charge.  They need to subtract that and then use the $165 to either scale up or down to find the other values in the table.</p>",
-            "<p>Some students may create another row to the table to find the cost of the pizzas without delivery.</p>"
+            "<p>Students need to recognize that the $195 for 15 pizzas also includes the $30 delivery charge.  They need to subtract that and then use the $165 to either scale up or down to find the other values in the table.</p><p>Some students may create another row to the table to find the cost of the pizzas without delivery.</p>"
           ]
-        },
-        "id": "TILE1KDcJJTcXBKZ"
+        }
       },
-      {"id": "wehSEgZb6ZDW6Vu9", "content": {"type": "Text", "format": "html", "text": ["<ul><li>On a copy of the tables, find the total costs for each number of pizzas shown in the table. </li></ul>"]}},
-      {"id": "zN_Ac2lOzCS7nEni", "content": {"type": "Text", "format": "html", "text": ["<ul><li>How can Julia use the tables to make her choice? Which company should she choose and why?</li></ul>"]}},
       {
+        "id": "wehSEgZb6ZDW6Vu9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>On a copy of the tables, find the total costs for each number of pizzas shown in the table. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "zN_Ac2lOzCS7nEni",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How can Julia use the tables to make her choice? Which company should she choose and why?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "TILE6KTPrRTDwthz",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Some students won’t find the exact amount but they will notice that for 15 pizzas it is the same cost for each company. After 15 pizzas, the price at Howdy’s Pizza is always cheaper than Royal Pizza. Since 84  pizzas (which is the needed number of pizzas from the previous problem) is more than 15 pizzas, Howdy’s Pizza will be cheaper.</p>",
-            "<p>At Royal Pizza the price for 210 campers or 84 pizzas is $1,092. Students might use the unit rate and then find the cost with $13 x 84= $1,092. Students might also use values on the table to add up to 84 pizzas: one example is 20 pizzas are $260 and 4 groups of that would be 80 pizzas for $1,040 then we need 4 more pizzas, which are $52. So, $1,040 + $52 = $1,092.</p>",
-            "<p>At Howdy’s Pizza the price for 210 campers or 84 pizzas is $954. Students need to find that the price of the pizzas is $11 each and then add a $30 delivery charge. So for 84 pizzas it would be $84 x 11 = $924, then add the delivery charge: $924 + 30 = $954.</p>"
+            "<p>Some students won’t find the exact amount but they will notice that for 15 pizzas it is the same cost for each company. After 15 pizzas, the price at Howdy’s Pizza is always cheaper than Royal Pizza. Since 84 pizzas (which is the needed number of pizzas from the previous problem) is more than 15 pizzas, Howdy’s Pizza will be cheaper.</p><p>At Royal Pizza the price for 210 campers or 84 pizzas is $1,092. Students might use the unit rate and then find the cost with $13 x 84= $1,092. Students might also use values on the table to add up to 84 pizzas: one example is 20 pizzas are $260 and 4 groups of that would be 80 pizzas for $1,040 then we need 4 more pizzas, which are $52. So, $1,040 + $52 = $1,092.</p><p>At Howdy’s Pizza the price for 210 campers or 84 pizzas is $954. Students need to find that the price of the pizzas is $11 each and then add a $30 delivery charge. So for 84 pizzas it would be $84 x 11 = $924, then add the delivery charge: $924 + 30 = $954.</p>"
           ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "4HGjxlipKnu3dn2F",
+          "providerId": "TILEhbkgAGQQpTnV",
+          "dataSet": {
+            "id": "uLM289kEvn92mpHo",
+            "name": "Pizza Price of Royal Pizza",
+            "attributes": [
+              {
+                "id": "Jh5OQrnzRyu7oBt1",
+                "clientKey": "",
+                "name": "Number of Pizzas",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "100",
+                  "150",
+                  "200"
+                ],
+                "title": ""
+              },
+              {
+                "id": "dUgtbWeiNRd6xSku",
+                "clientKey": "",
+                "name": "Total Cost in Dollars",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "--",
+                  "--",
+                  "--",
+                  "--",
+                  "$65",
+                  "--",
+                  "--",
+                  "--",
+                  "--",
+                  "--",
+                  "--"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKX4"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKX5"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKX6"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKX7"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKX8"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKX9"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKXA"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKXB"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKXC"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKXD"
+              },
+              {
+                "__id__": "01HE0R0FFQ4TR8X21ZB89DRKXE"
+              }
+            ]
+          }
         },
-        "id": "TILE6KTPrRTDwthz"
+        "tiles": [
+          "TILEhbkgAGQQpTnV"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "jYtInawpu4zK81r8",
+          "providerId": "TILErFK25npEDreR",
+          "dataSet": {
+            "id": "ZZxJqxyk7j7n-Oi0",
+            "name": "Pizza Price of Royal Pizza- Solution",
+            "attributes": [
+              {
+                "id": "g67JIfGlvTmeG5DE",
+                "clientKey": "",
+                "name": "Number of Pizzas",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "100",
+                  "150",
+                  "200"
+                ],
+                "title": ""
+              },
+              {
+                "id": "7hUIXuOnYMoQzuw6",
+                "clientKey": "",
+                "name": "Total Cost in Dollars",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "13",
+                  "26",
+                  "39",
+                  "52",
+                  "65",
+                  "130",
+                  "195",
+                  "260",
+                  "1300",
+                  "1950",
+                  "2600"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVT6"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVT7"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVT8"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVT9"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTA"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTB"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTC"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTD"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTE"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTF"
+              },
+              {
+                "__id__": "01HE0R0FFTNJ1W3686YMNKNVTG"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "TILErFK25npEDreR"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "FhDt9iZUzIa_LiBN",
+          "providerId": "t-cIVNG003HLLzWX",
+          "dataSet": {
+            "id": "KtnK2KM147DsGDO7",
+            "name": "Pizza Price of Howdy's Pizza",
+            "attributes": [
+              {
+                "id": "VU-mc_WR3rRQSw-w",
+                "clientKey": "",
+                "name": "Number of Pizzas",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "100",
+                  "150",
+                  "200"
+                ],
+                "title": ""
+              },
+              {
+                "id": "hqc13LpWi9ueAVRt",
+                "clientKey": "",
+                "name": "Total Cost of Pizza in Dollars",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "--",
+                  "--",
+                  "--",
+                  "--",
+                  "--",
+                  "--",
+                  "$195",
+                  "--",
+                  "--",
+                  "--",
+                  "--"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5J"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5K"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5M"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5N"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5P"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5Q"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5R"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5S"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5T"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5V"
+              },
+              {
+                "__id__": "01HE0R0FFY76Q38VRK4AF9XF5W"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "t-cIVNG003HLLzWX"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "F9QP3RxPO1ilFxmC",
+          "providerId": "TILEGodbDjYuNrij",
+          "dataSet": {
+            "id": "K0COAZBU0tU7KHGx",
+            "name": "Pizza Prices for Howdys Pizza- Solution",
+            "attributes": [
+              {
+                "id": "J2uwK-dU0nOP7AUY",
+                "clientKey": "",
+                "name": "No. of Pizzas",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "100",
+                  "150",
+                  "200"
+                ],
+                "title": ""
+              },
+              {
+                "id": "yyDZpLf8NAdbCZD_",
+                "clientKey": "",
+                "name": "Total Cost in $",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "41",
+                  "52",
+                  "63",
+                  "74",
+                  "85",
+                  "140",
+                  "195",
+                  "250",
+                  "1130",
+                  "1680",
+                  "2230"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Gfmsqcl6-HSzIv_B",
+                "clientKey": "",
+                "name": "Cost w/o Delivery in $",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "11",
+                  "22",
+                  "33",
+                  "44",
+                  "55",
+                  "110",
+                  "165",
+                  "220",
+                  "1100",
+                  "1650",
+                  "2200"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHSW"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHSX"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHSY"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHSZ"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT0"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT1"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT2"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT3"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT4"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT5"
+              },
+              {
+                "__id__": "01HE0R0FG2GG1DRJ842VZCQHT6"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "TILEGodbDjYuNrij"
+        ]
       }
     ]
   },
