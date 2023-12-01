@@ -34,12 +34,31 @@
         }
       },
       {
+        "id": "LdUXqNcBi7vPoSlf",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Drag the following simulation to your workspace. </p>"
+          ]
+        }
+      },
+      {
+        "id": "URUiNMMSGRcg7t94",
+        "title": "Simulation 1",
+        "content": {
+          "type": "Simulator",
+          "simulation": "EMG_and_claw"
+        }
+      },
+      {
         "id": "qp3ALL5BqFvvnji8",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The following Dataflow program is supposed to monitor the outside temperature and remind you to water your lawn when the temperature is above 20 degrees celsius.  However, the program is not working well. Can you drag it into your workspace and fix it? </p>"
+            "<p>The following Dataflow program is supposed to measure the temperature of the water in the pan and turn on a light bulb when the water reaches 80 degrees celsius.  However, the program is not working well. Can you drag it into your workspace and fix it? </p>"
           ]
         }
       },
@@ -57,7 +76,9 @@
           "program": {
             "values": {
               "3313": {
-                "currentValues": {}
+                "currentValues": {
+                  "nodeValue": 15.5
+                }
               },
               "3322": {
                 "currentValues": {}
@@ -94,9 +115,10 @@
                 },
                 "data": {
                   "plot": false,
+                  "orderedDisplayName": "Sensor 1",
                   "type": "temperature",
-                  "sensor": "00001-VIR",
-                  "virtual": true
+                  "sensor": "SIMtemperature_key",
+                  "virtual": false
                 }
               },
               "3322": {
@@ -131,6 +153,7 @@
                 },
                 "data": {
                   "plot": false,
+                  "orderedDisplayName": "Logic 2",
                   "logicOperator": "Greater Than"
                 }
               },
@@ -147,6 +170,7 @@
                 },
                 "data": {
                   "plot": false,
+                  "orderedDisplayName": "Number 3",
                   "nodeValueUnits": ""
                 }
               },
@@ -168,6 +192,7 @@
                 },
                 "outputs": {},
                 "data": {
+                  "orderedDisplayName": "Demo Output 4",
                   "outputType": "Light Bulb",
                   "demoOutput": 0
                 }
@@ -232,16 +257,123 @@
                 "hidden": false,
                 "units": "",
                 "formula": {},
-                "values": [
-                ]
+                "values": [],
+                "title": ""
               }
             ],
-            "cases": [
-            ]
+            "cases": []
           }
         },
         "tiles": [
           "gX3nceoKGZrxqjmR"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "bKxvoVjEBb6375cP",
+          "variables": [
+            {
+              "id": "PIUrpJDH15vRcRJr",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "e63DYay5Sj9CKnfI",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 38,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "QZ4_n7l8b8NfdI9X",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "hytwQRtXhZA76tI_",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "XfwFXFWrLtoTm5N1",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 100,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "IHmNwo6l55wzAnnc",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "1VnMLJb0goGo4E_K",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 1,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "URUiNMMSGRcg7t94",
+          "gX3nceoKGZrxqjmR",
+          "nktXKxeXTDkfpIkB",
+          "f_KkdkpBCqi9KRxk",
+          "758mGzn3UXzxTTSB",
+          "qp3ALL5BqFvvnji8",
+          "Vgc6qoEDt_gV8hAb",
+          "FFsWGlSrLofqnz1h",
+          "9R8Pq1QLUzthSal0",
+          "LdUXqNcBi7vPoSlf"
         ]
       }
     ]
