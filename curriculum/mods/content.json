@@ -287,7 +287,7 @@
     {
       "description": "Problem 1: Water Resources",
       "ordinal": 1,
-      "title": "Problem 1: Water Resources",
+      "title": "Water Resources",
       "problems": [
         {
           "description": "Activity 1.1",
@@ -301,17 +301,6 @@
             "investigation-1/problem-1/reflection/content.json"
           ],
           "config": {
-            "settings": {
-              "drawing": {
-                "tools": [
-                  "select",
-                  "line",
-                  "vector",
-                  "image-upload",
-                  "delete"
-                ]
-              }
-            }
           }
         },
         {
@@ -468,6 +457,43 @@
               }
             }
         }
+        }
+      ]
+    },
+    {
+      "description": "Investigation 2: Usability and Sketch Test",
+      "ordinal": 2,
+      "title": "Usability Analysis",
+      "problems": [
+        {
+          "description": "Activity 2.1",
+          "ordinal": 1,
+          "title": "Activity 2.1",
+          "subtitle": "Sketch Test",
+          "disabled": [],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/activity/content.json",
+            "investigation-2/problem-1/reflection/content.json"
+          ],
+          "config": {
+            "settings": {
+              "drawing": {
+                "tools": [
+                  "select", 
+                  "line", 
+                  "stamp", 
+                  "stroke-color", 
+                  "text", 
+                  "image-upload", 
+                  "group", 
+                  "ungroup", 
+                  "duplicate", 
+                  "delete"
+                ]
+              }
+            }
+          }
         }
       ]
     }
