@@ -58,7 +58,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The following Dataflow program is supposed to measure the temperature of the water in the pan and turn on a light bulb when the water reaches 80 degrees celsius.  However, the program is not working well. Can you drag it into your workspace and fix it? (make sure &quot;Simulated Temperature is selected&quot;)</p>"
+            "<p>The following Dataflow program is supposed to measure the temperature of the water in the pan and turn on a light bulb when the water reaches 80 degrees celsius.  However, the program is not working well. Can you drag it into your workspace and fix it? (make sure &quot;Simulated Temperature&quot; is selected)</p>"
           ]
         }
       },
@@ -76,9 +76,7 @@
           "program": {
             "values": {
               "3313": {
-                "currentValues": {
-                  "nodeValue": 15.5
-                }
+                "currentValues": {}
               },
               "3322": {
                 "currentValues": {}
@@ -287,7 +285,7 @@
               "name": "emg_key",
               "displayName": "EMG",
               "unit": "mV",
-              "value": 38,
+              "value": 39,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -333,7 +331,7 @@
               "id": "XfwFXFWrLtoTm5N1",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 75.5,
+              "value": 85.5,
               "inputs": [],
               "color": "light-gray",
               "labels": []
