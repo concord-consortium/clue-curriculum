@@ -8,7 +8,24 @@
     "autoAssignStudentsToIndividualGroups": true,
     "disablePublish": true,
     "defaultDocumentType": "personal",
-    "settings": {"table": {"numFormat": ".2~f"}},
+    "settings": {
+      "table": {
+        "numFormat": ".2~f"
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "tools": [
+          "link-tile",
+          "link-tile-multiple"
+        ]
+      },
+      "diagram": {
+        "maxTiles": 1
+      }
+    },
     "navTabs": {
       "showNavPanel": false,
       "lazyLoadTabContents": true,
@@ -20,7 +37,51 @@
         }
       ]
     },
-    "toolbar": [{"id": "Text", "title": "Text", "isTileTool": true}, {"id": "Table", "title": "Table", "isTileTool": true}, {"id": "Drawing", "title": "Drawing", "isTileTool": true}, {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}],
+    "toolbar": [
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "Diagram",
+        "title": "Diagram",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "XY Plot",
+        "isTileTool": true
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
     "stamps": []
   },
   "sections": {
