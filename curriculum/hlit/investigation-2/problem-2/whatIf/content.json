@@ -55,19 +55,22 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Tevy’s Strategy</strong></p><p>I made a list to represent tossing three coins. I found all the ways I could get 3 heads, exactly 2 heads, 1 head, and 0 heads.</p>"
+            "<p><u><em>Tevy’s Strategy</em></u></p><p>I made a list to represent tossing three coins. I found all the ways I could get 3 heads, exactly 2 heads, 1 head, and 0 heads.</p>"
           ]
         }
       },
       {
-        "id": "NJnQ-nhpWXhsDWSF",
-        "title": "Text 49",
+        "id": "3Xx_Fa-RxGcQKbV-",
+        "title": "Tevy's Strategy",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>  <strong> Three H   Two H  One H   No H</strong></p><p>        HHH      HHT    HTT     TTT</p><p>                      HTH    THT</p><p>                      THH    TTH</p>"
-          ]
+          "type": "Table",
+          "columnWidths": {
+            "lueJjC-mMlJut2l1": 86.40000915527344,
+            "GhHoxLDpMKazcAhR": 80,
+            "jl99VZRm3VsT-tv4": 80,
+            "BoSyO3gSk6VmlTd-": 80
+          },
+          "name": "Table 1"
         }
       },
       {
@@ -77,7 +80,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Santo’s Strategy</strong></p><p>I made the diagram below to represent tossing three coins. </p>"
+            "<p><u><em>Santo’s Strategy</em></u></p><p>I made the diagram below to represent tossing three coins. </p>"
           ]
         }
       },
@@ -131,7 +134,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation C. Winning the Bonus Prize for Gee Whiz Everyone Wins! </strong></p><p>Brelynn and Akimi make up a new game. All the winners from the Gee Whiz Everyone Wins! game show have the opportunity to compete for a bonus prize. There are two bags. </p><ul><li>Each bag contains one red, one yellow, and one blue block. </li><li>The person will pick one block from each bag.</li><li>The person must predict the color they will pick from each bag.</li><li>If the prediction is correct, they win a bonus prize! </li></ul>"
+            "<p><strong>Situation C. Winning the Bonus Prize for Gee Whiz Everyone Wins! </strong></p><p>Brelynn and Akimi make up a new game. All the winners from the <em>Gee Whiz Everyone Wins! </em>game show have the opportunity to compete for a bonus prize. There are two bags. </p><ul><li>Each bag contains one red, one yellow, and one blue block. </li><li>The person will pick one block from each bag.</li><li>The person must predict the color they will pick from each bag.</li><li>If the prediction is correct, they win a bonus prize! </li></ul>"
           ]
         }
       },
@@ -176,7 +179,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>All pairs are equally likely because there is exactly one of each color block in each of the bags and order matters in this game, so RY is different from YR. </p><p></p><p>If order did not matter, the outcomes would not be equally likely.</p>"
+            "<p>All pairs are equally likely because there is exactly one of each color block in each of the bags and order matters in this game, so RY is different from YR. </p><p>If order did not matter, the outcomes would not be equally likely.</p>"
           ]
         }
       },
@@ -199,7 +202,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The theoretical probability of each pair being chosen is 1/9</p><p>P(RR) = 1/9P(RY) = 1/9P(RB) = 1/9</p><p>P(YR) = 1/9P(YY) = 1/9P(YB) = 1/9</p><p>P(BR) = 1/9P(BY) = 1/9P(BB) = 1/9</p>"
+            "<p>The theoretical probability of each pair being chosen is 1/9</p><p>P(RR) = 1/9</p><p>P(RY) = 1/9</p><p>P(RB) = 1/9</p><p>P(YR) = 1/9</p><p>P(YY) = 1/9</p><p>P(YB) = 1/9</p><p>P(BR) = 1/9</p><p>P(BY) = 1/9</p><p>P(BB) = 1/9</p>"
           ]
         }
       },
@@ -222,7 +225,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Akimi</p><p>I predict 2 reds.</p>"
+              "<p><u><em>Akimi</em></u></p><p>I predict 2 reds.</p>"
             ]
           }
         },
@@ -233,7 +236,33 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Brelynn</p><p>I predict 1 blue and 1 red or 1 blue and 1 red. </p>"
+              "<p><u><em>Brelynn</em></u></p><p>I predict 1 blue and 1 red or 1 blue and 1 red. </p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "uH7zKn4yujIf42_r",
+          "title": "Text 72",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>P(RR) = 1/9</p>"
+            ]
+          }
+        },
+        {
+          "id": "cOweUWyT7UhO9wNT",
+          "title": "Text 73",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>P(BR or RB) = 2/9</p>"
             ]
           }
         }
@@ -246,9 +275,94 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>P(RR) = 1/9P(BR or RB) = 2/9</p><p>Each contestant has a chance of winning the bonus prize. </p><p>Brelynn has a better chance than Akimi.</p><p>And, each contestant is more likely to lose than to win. </p><p>Akimi has an 8/9 chance of losing. Brelynn has an 7/9 chance of losing.</p>"
+            "<p>Each contestant has a chance of winning the bonus prize. </p><p>Brelynn has a better chance than Akimi.</p><p>And, each contestant is more likely to lose than to win. </p><p>Akimi has an 8/9 chance of losing. Brelynn has an 7/9 chance of losing.</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Q8FRO-Q7G6Xi7l3a",
+          "providerId": "3Xx_Fa-RxGcQKbV-",
+          "dataSet": {
+            "id": "CR7RsHI-LFzSd8Pa",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "lueJjC-mMlJut2l1",
+                "clientKey": "",
+                "name": "Three H",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "HHH",
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "GhHoxLDpMKazcAhR",
+                "clientKey": "",
+                "name": "Two H",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "HHT",
+                  "HTH",
+                  "THH"
+                ],
+                "title": ""
+              },
+              {
+                "id": "jl99VZRm3VsT-tv4",
+                "clientKey": "",
+                "name": "One H",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "HTT",
+                  "THT",
+                  "TTH"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BoSyO3gSk6VmlTd-",
+                "clientKey": "",
+                "name": "No H",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "TTT",
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "TrHQ_H_egPxqZswv"
+              },
+              {
+                "__id__": "Qv0PMANlQtxhq7j-"
+              },
+              {
+                "__id__": "85enYxgNzb68Z3Ee"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "3Xx_Fa-RxGcQKbV-"
+        ]
       }
     ]
   }
