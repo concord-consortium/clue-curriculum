@@ -21,15 +21,19 @@
         "title": "Text",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
       {
         "id": "Geometry",
         "title": "Graph",
         "isTileTool": true
       },
       {
-        "id": "Table",
-        "title": "Table",
+        "id": "Drawing",
+        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -37,14 +41,10 @@
         "title": "Expression",
         "isTileTool": true
       },
+      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
       {
         "id": "Image",
         "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "Drawing",
-        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -81,19 +81,55 @@
     ],
     "stamps": [
       {
-        "url": "cr/stamps/blackChip.png",
+        "url": "cr/stamps/black-chip.png",
         "width": 25,
         "height": 25
       },
       {
-        "url": "cr/stamps/redChip.png",
+        "url": "cr/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cr/stamps/red-chip.png",
         "width": 25,
         "height": 25
       }
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f", 
+        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
       }
     },
     "showCommentTag": true,
@@ -102,12 +138,9 @@
        "part-to-whole": "Part-to-Whole",
        "unit-rate": "Unit Rate",
        "ratios": "Ratios of Same Variable",
-       "common-parts": "Common Part to Whole",
+       "common-parts": "Common Part or Whole",
        "building-up": "Building Up",
        "other-proportional": "Other - Proportional",
-       "operate-one-variable": "Operate on Same Variable",
-       "operate-two-variables": "Operate on Both Variables",
-       "affective-response": "Affective Responses",
        "other-nonproportional": "Other - Nonproportional"
     },
      "tagPrompt": "Select Student Strategy"
@@ -248,16 +281,119 @@
           "config": {
             "planningTemplate": {
               "overview": {
-                "tiles": []
+                "tiles": [
+                  {
+                    "id": "lUi-cLddobCn40KE",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.1 The Game of Going Positive: Using Positive and Negative Numbers</strong></p><p>This Problem builds on students’ intuitions about negative numbers and asks questions that may be represented by addition or related subtraction expressions. This is a good opportunity for you to learn what your students already know about integers and ways of operating on them. In the Initial Challenge students will look at how groups of students could attain certain positive or negative score in The Game of Going Positive. The What If Situations will ease students into looking at number sentences to represent the scores changing in the game.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "s1BmTLNeP7d3KHnV",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p> What strategies can you use for combining positive and negative integers to find a total value?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "nkEU0ahtB1kFdwPA",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Introduction/Exploration/Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "XAsTr5g1cvPj_h8y",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "q4yszigcHeQFGXsi",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "voQXD-yyyWMu7TS7",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #1-2</p><p><strong>C</strong> #13-14</p><p><strong>E</strong> #20</p>"
+                      ]
+                    }
+                  }
+                ]
               },
               "launch": {
-                "tiles": []
+                "tiles": [
+                  {
+                    "id": "rAXE71M72B6OQtkI",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Delay the Question</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Explore extending the number line to include negative integers and rational values. Have students label the integer points from -10 to 10 on the number line. Students should then locate some fractional and decimal values between the integers. Have students draw lines to connect some pairs of numbers to show opposites on their number lines. </p><p>Show the picture of the Going Positive game board. Ask them to think about what this unit/problem might be about.  Using the Going Positive PowerPoint game playing a few questions can help¬ students understand how it is played.  </p><p><strong>Implementation Note: </strong>In Investigation 2, students will develop algorithms for addition and subtraction of integers. To prepare for this collect number sentences that they use in Investigation 1 (see extended Launch-Explore-Summarize)</p><p><em>Teacher Moves: Portrayal</em></p><p>PRESENTING THE CHALLENGE</p><p>Discuss the Going Positive game as described in the student edition.</p><p><strong>Suggested Questions</strong></p><ul><li>What happens when a team gets a question incorrect? Correct? (When a question is answered incorrectly a team loses points and when answered correctly they gain points)</li><li>Could a team ever have negative points? (yes)</li></ul><p><strong>Implementation Note:</strong> You may want to have a brief conversation after the Initial Challenge to discuss number sentences before having the students work on the What If section. Don’t force formal ways of writing number sentences at this time.</p>"
+                      ]
+                    }
+                  }
+                ]
               },
               "explore": {
-                "tiles": []
+                "tiles": [
+                  {
+                  "id": "D2jGQHlbE8qrW-Of",
+                  "title": "Text 8",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p><strong>Suggested Questions</strong></p><ul><li>Where is this number in relation to zero?  </li><li>Would a number line be helpful?  </li><li>Is the team earning points or losing points? </li><li>How can you indicate that the team is earning or losing points in your equation? </li></ul><p>Some students can be challenged to delve further into the content. Below are some additional questions you can ask about the Going Positive game:  </p><ul><li>What is the fewest number of questions that each team could have answered to get their current score?  </li><li>If the Rocket Scientists reached their score after answering ten questions, what is a possible sequence of questions they could have answered? Is that the only sequence? </li><li>If the Rocket Scientists get the next question wrong, will they have a positive or negative score? </li></ul><p><strong>Implementation Note:</strong> You may need to use Situation D at a later time in the unit.  If your students need more time to experiment with the positive and negative numbers. If using equations feels like a big leap at this time, use this when you feel your students are ready.</p><p><em>Teacher Moves: Language</em></p><p>PLANNING FOR THE SUMMARY</p><p>Answers will be informal and provide an opportunity to assess students understand.  Listen for how students are talking about the impact on the score when a team gets a question incorrect in the Going Positive Game.  Listen for how they describe taking away points or adding on a negative score.  Listen for ways that students will use zero as an “anchor point” for finding the final score.</p>"
+                    ]
+                  }
+                }
+              ]
               },
               "summarize": {
-                "tiles": []
+                "tiles": [
+                  {
+                  "id": "LySwUQg5eWrTXf3z",
+                  "title": "Text 9",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>For the Initial Challenge ask the class how they found the difference between the teams’ scores. Have several pairs share their number sentences for the Initial Challenge. There are many ways each team could have arrived at their score. Take note of whether or not students offer different orders of scoring as different solutions.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Suggested Questions</p><ul><li>What strategy did you use to determine each team’s new score after the sequence of points?  </li><li>How did you determine the difference in points for each pair of teams?  </li><li>What would the number sentence be that reflects your reasoning?  </li></ul><p>For What If Situation A, ask students to explain how they found each team’s final score.  </p><p>This is a good opportunity to gather some formative assessment data on what the students understand about addition and subtraction relationships and about additive inverses. </p><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                    ]
+                  }
+                }
+              ]
               }
             }
           }
@@ -272,7 +408,126 @@
             "investigation-1/problem-2/initialChallenge/content.json",
             "investigation-1/problem-2/whatIf/content.json",
             "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "LbWr2nR9-_ir78rZ",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.2 Falling and Rising Temperatures in Montana: Using a Number Line</strong></p><p>Students write number sentences and sketch number lines, both vertical and horizontal, to compare temperatures. In the Initial Challenge students encounter extreme temperature changes in Montana and determine use number lines to understand the change. The What If Situations offer more opportunities for students to make sense of changing temperatures using number lines and number sentences.  Students use informal arithmetic reasoning to connect direction and distance to the number line, and then represent their reasoning with number sentences.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "L6xEKcNGuPeYZnfz",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe a strategy for finding the change in temperature when given a beginning and ending temperatures. How can you represent this difference on a number line?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "8CiMRo3IU1Se5O8f",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Exploration/Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "kw7g9MwdRHroW4cu",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "_jRgaZwFKMobTFlJ",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Number Lines</p><p>Learning Aid: 1.2 Situation C Matching Change, Number Lines, and Equations</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "XG0R6kcLZ4Nzx3nQ",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-3 students</p><p><strong>A</strong> #3-7</p><p><strong>C</strong> #15-17</p><p><strong>E</strong> #21</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "EFV-1tSmv9dOA3Ib",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Review the vocabulary of rational numbers, opposites and negative rational numbers that are in the introduction of the Student Edition.  Discuss how to represent a temperature change with a number line and an equation using the question in the introduction.</p><p>Engage students in a discussion of temperature changes they may have experienced.</p><p><strong>Note:</strong> In Investigation 2, students will develop algorithms for addition and subtraction of integers. To prepare for this collect number sentences that they use in Investigation 1 (see extended Launch-Explore-Summarize)</p><p><em>Teacher Moves: Language</em></p><p>PRESENTING THE CHALLENGE</p><p><strong>Suggested Questions</strong></p><ul><li>You can think of a thermometer as a vertical number line.  On a thermometer, where are the positive numbers located in relation to 0℉?  </li><li>Where are the negative numbers located in relation to 0℉? </li><li>Suppose the temperature is +5℉.  Where is the +5℉ located on this vertical number line in relation to 0℉?  Repeat with -5℉.</li><li>How is the horizontal number line different from vertical thermometers?  How is it the same?  </li></ul><p>Help students understand that these changes have both distance and direction.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "6K6EQp933qlphiIs",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As you circulate, have students explain how they are determining their solutions. Encourage students to use sketches on number lines to show their thinking and to write addition and/or subtraction number sentences to describe their work.</p><p>Suggested Questions</p><ul><li>What is the starting temperature?  (Answers will vary)</li><li>What is the ending temperature? (Answers will vary)</li><li>Is the temperature increasing or decreasing? (Answers will vary)</li><li>How can your number line express this change?</li></ul><p><em>Teacher Moves: Portrayal</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the explore look for how students are making sense of using number lines to show change.  Are students making sense of positive and negative direction?  Are students making sense of positive and negative values for temperature? Look for how students are making sense of number sentences representing change in temperature.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "dqywIrSPK7mqUmFW",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Portrayal, Language</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students demonstrate and explain their solutions. Take time to consider the number sentences that can be written to describe the actions on the number lines. </p><p><strong>Suggested Questions </strong></p><ul><li>When you wrote addition sentences, what did the first number represent? </li><li>What did the second number represent? </li><li>What did the sum represent?  </li><li>When you wrote subtraction sentences, what did the numbers represent? </li></ul><p><em>Teacher Moves: Connect, Extend, Challenge</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions </strong></p><ul><li>What did the arrow represent?</li><li>How does the number line represent each number sentence?</li><li>How did you decide which number sentence matched with which number line?</li><li>What aspects of these new ideas are challenging your thinking?  </li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.3",
@@ -284,7 +539,126 @@
             "investigation-1/problem-3/initialChallenge/content.json",
             "investigation-1/problem-3/whatIf/content.json",
             "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
-          ] 
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "VJMaof-82hzAgh3_",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.3 The Game of Zero: Using a Chip Model</strong></p><p>Students model addition and subtraction on chip-board displays. Students explore relationships between addition and subtraction as well. One chip color indicates positive values, and the other chip color indicates negative values.  In the Initial Challenge students are introduced to the chip board model and using red and black chips to represent positive and negative numbers.  What If Situations A-C give students opportunities to experiment with the chipboard model and using red and black chips to put zeroes on the board as needed.  In What If Situation D student will play The Game of Zero.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "vPKh4xPZiWBVhwur",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How can you use a chip board to represent addition and subtraction of integers?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "h1VK63gjYqvjpu7h",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Exploration/Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "H-9jo4r0PfR3Shs8",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "njtqZPlQoIUdGiOe",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Small Chipboards OR digital drawing tools with chip stamps</p><p>Learning Aid 1.3A: Cards</p><p>Learning Aid 1.3B: Recording Sheet</p><p>2 color chips OR digital drawing tool with chip stamps</p><p>Number cubes</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "clTf2TaK09HaalFJ",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>2 days</p><p><strong>Groups</strong></p><p>2-3 students</p><p><strong>A</strong> #8-12</p><p><strong>C</strong> #18-19</p><p><strong>E</strong> #22</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "idj786H54LWU3b6R",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Discuss the context of describing finances as “in the black” or “in the red.” Check to see if your students have ever heard these terms used and in what context.</p><p><strong>Note:</strong> In Investigation 2, students will develop algorithms for addition and subtraction of integers. To prepare for this collect number sentences that they use in Investigation 1 (see extended Launch-Explore-Summarize)</p><p><em>Teacher Moves: Time</em></p><p>PRESENTING THE CHALLENGE</p><p>Introduce chipboards and how to use them.  Have students represent 5 with 5 black chips.  Repeat with -5 and 5 red chips.  Go back to +5 and ask if there is any way to represent +5 with red and black chips?  </p><p>Discuss the situation in the introduction of the student edition about Tate owing his sister money.  Display Julia’s chipboard that is in the Student Edition.  Give partners a set of two-color chips.  Launch students into the Problem to investigate chipboard situations.</p><p><strong>Note: </strong>This problem may take 2 days for students to fully explore the ideas and to discuss their findings as a whole class.  Giving them this time to investigate creating zeroes will be beneficial when they use it to create algorithms in Investigation 2.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "-Crt4PdCmQvmzo49",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Problem Solving Environment</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As you circulate, have students explain how they are determining their solutions. Encourage students to use chips and the chip board to show their thinking. Have them write addition and/or subtraction number sentences to describe their work.</p><p><strong>Suggested Questions</strong></p><ul><li>Can you use chips to Model Beatrice and/or Mo’s ideas in Situation B? </li><li>After Isabella and Nick’s moves there is the same total value, but the combination of chips is different. Why is this true?</li><li>What happens to the total value on the chip board if you add 1 black chip and 1 red chip? </li><li>How can you use this information to help you subtract 2 black chips?</li></ul><p>PLANNING FOR THE SUMMARY</p><p>Look for the patterns that students notice when working on the different situations.  Take note of how students dealt with situations when there weren’t enough chips on their board to subtract.  Help students to verbalize how the use of zeroes helps them.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "e1IggxlIOuODsE6i",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students demonstrate and explain their solutions using chips. Take time to discuss the number sentences that can be written to describe the actions. As an extension, encourage students to find other number sentences that show the same total value.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions</strong></p><ul><li>Do you have any What if questions? </li><li>How does Julia’s chip board relate to her expression? </li><li>What is some other ways Julia can show a total value of -2?</li><li>What is some ways Julia can show a total value of 0?  </li><li>What are some groups of red chips and black chips that Julia can add to her board that will not change her total value? </li></ul><p>For What If Situation A, have students demonstrate how to show the same idea with the number line. </p><p>Have students turn to another partner group and share their real-life situations in which opposite quantities combine to make 0 for What If Situation B.  Bring to the whole class any situations that are causing disagreements to decide if they are correct.</p><ul><li>When playing the Game of Zero what were some moves that you made?  </li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          } 
         }
       ]
     },
@@ -303,7 +677,126 @@
             "investigation-2/problem-1/initialChallenge/content.json",
             "investigation-2/problem-1/whatIf/content.json",
             "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "k4Yu7Y2ZnhWDduJ_",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.1 Extending Addition of Rational Numbers</strong></p><p>Students are introduced to the idea of an algorithm and challenged to develop an algorithm for addition of rational numbers.  The Initial Challenge has students look back over their work in Investigation 1 to look for patterns when adding integers.  The What If Situations give students experiences to refine an algorithm for adding integers.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "sPdGpHZiGTk6bLoL",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe an algorithm for adding rational numbers. How does this compare to your algorithm for adding whole numbers?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "vPLJXg9M-3NQISSp",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "hni9yn9-bUDiSEYT",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Additive Inverse</p><p>Additive Identity</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "b4WV9Qk6U8Yd51tx",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Number Lines</p><p>Learning Aid: Chip Boards OR digital drawing tool with chip stamps</p><p>Two color chips OR digital drawing tool with chip stamps</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "qvvZIhHfNKUTBrG7",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2 students</p><p><strong>A</strong> #1-3</p><p><strong>C</strong> #13</p><p><strong>E</strong> #18-19</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "GuM72r4-owwA93Ok",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Introduce the vocabulary of <strong>Additive Inverse </strong>and <strong>Additive Identity</strong> in the student edition.  </p><p><strong>Suggested Questions</strong></p><ul><li>How have we found additive inverses helpful so far? </li><li>Can you think of any other time that we operate on a number and it keeps its identity?  </li><li>How have we found additive identity helpful so far?  </li><li>How can you write a sum of two numbers that results in a sum of -5?</li></ul><p><em>Teacher Moves: Make Predictions</em></p><p>PRESENTING THE CHALLENGE</p><p>Students should be comfortable with using number lines and chip board models from their work in Investigation 1.  Use the situation in the student edition introduction of the problem with Linda and her friend with video games to review the two models as needed.  Tell students they will be using these models in different situations to find patterns to create an algorithm for addition of integers.  Have students use the Initial Challenge as a prediction for what they will find as they work through the rest of the problem. If they make changes to their predictions in the Initial Challenge have them jot down what changed their mind.</p><p><strong>Note:</strong> It may be helpful to debrief their predictions from the Initial Challenge.  Remind them that they may change their minds as they continue with the What if when they have more ideas. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "XsavbtcRo-DVbo8q",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Problem Solving Environment</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Suggest that students use what they know about working with chips and the number line to help them reason as they work through the situations.</p><p><strong>Suggested Questions </strong></p><ul><li>How do you know if the solution will be positive or negative? </li><li>For What If Situation C: How does the initial number sentence help you?  </li><li>How did you decide when to use a chip model and when to use a number line?</li></ul><p>PLANNING FOR THE SUMMARY</p><p>Look for ways students are connecting the models to number sentence.  Look for how students are generalizing about the sign of the sums. Listen for how students are making sense of the patterns they’ve seen and generalizing this into an algorithm.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "BNghp_0wQ1qX3yTp",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Portrayal</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share their strategies and solutions.  Share number lines and chip boards.  Connect the models to the symbols in the number sentences.  Focus on the generalizations the students find when adding integers.</p><p><em>Teacher Moves: Language</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>As students are sharing their solutions and strategies the questions posed should revolve around getting students to be able to verbalize an algorithm for adding integers.  </p><p><strong>Suggested Questions</strong></p><ul><li>How do you solve integer addition problems in which both signs are the same? </li><li>How do you solve integer addition problems in which the signs of the numbers are different? </li><li>Which model better represents this situation: the chip model or the number line model? Why do you think this? </li><li>In What If Situation A, did changing the order if the number change the sum?  </li><li>How did you use the models for What If Situation B?</li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.2",
@@ -315,7 +808,126 @@
             "investigation-2/problem-2/initialChallenge/content.json",
             "investigation-2/problem-2/whatIf/content.json",
             "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "ax42GjynoZKIG-c9",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.2 Extending Subtraction of Rational Numbers</strong></p><p>In this Problem, students use chip boards and number lines to explore contexts that involve subtraction of rational numbers. The goal is to give students experience in finding and representing differences of rational numbers. In the Initial Challenge students look back at their work from Investigation 1 and draw conclusions about subtracting integers.  In the What If Situations they work with expressions and their contexts, students develop an algorithm for computing and representing subtraction with signed numbers.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "On42NyAbLNq5xm_L",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe an algorithm for subtracting rational numbers. How does this compare to your algorithm for subtracting whole numbers?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "eGf1fSZp9x9e4IPl",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "oJDgLDjAPnWxiQbS",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Commutative Property of Addition</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "9l_Ej5ELPj1tid05",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Number Lines</p><p>Learning Aid: Chip Boards OR digital drawing tool with chip stamps</p><p>Learning Aid 2.2: Solving Equations</p><p>Two Color Chips OR digital drawing tool with chip stamps</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "-S4ZgIQRhncdTL1C",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>2 Days</p><p><strong>Groups</strong></p><p>2 students</p><p><strong>A</strong> #4-7</p><p><strong>C</strong> #14-15</p><p><strong>E</strong> #20</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "6VrDKzBSc1eP4wZI",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>By now, students should be comfortable using addition in the context of chips and number lines.</p><p>If you have not discussed additive inverses and additive identity, do so now.</p><p>PRESENTING THE CHALLENGE</p><p>Have students work in groups of two to three to investigate subtraction with integers using chip boards and/or number lines. Their goal will be to develop an algorithm for subtracting integers and to determine that the commutative property does not work for subtraction.</p><p><strong>Note:</strong> Have a conversation after What If Situation A.  This will give students the opportunity to explore subtraction of integers and make some predictions about an algorithm.  The second day the students can refine this idea with the rest of the problem.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "SvZoF1Og8Zf7XlgV",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Time</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Have students talk through using a number line and make sketches to show their thinking. </p><p>Suggest that students use what they know about working with chips and the number line to help them make predictions in the Initial Challenge and What If Situation A.  Push students to show evidence of their conclusions. </p><p>Models help students make sense of operations like subtraction with integers. These experiences help them get ready to move toward a more abstract understanding of subtraction of integers.</p><p>PLANNING FOR THE SUMMARY</p><p>Look for ways students are connecting the models to number sentences.  Look for how students are generalizing subtracting integers.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "ooNaAKuruqom7tiT",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Language, Claim, Support, Question</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share their strategies and solutions.  Share number lines and chip boards.  Connect the models to the symbols in the number sentences.  Focus on the generalizations the students are starting to find when subtracting integers.  Discuss the Commutative Property. </p><p><em>Teacher Moves: Problem Solving Environment, Sentence Stem</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>As students are sharing their solutions and strategies the questions posed should revolve around getting students to be able to verbalize an algorithm for subtracting integers.  </p><p><strong>Suggested Questions</strong></p><ul><li>How do you know if the difference is positive or negative? </li><li>Does the Commutative Property apply for subtraction of integers? How do you know?  </li><li>How do you compute subtraction problems in which both signs are the same? </li><li>How do you compute subtraction problems in which the signs of the numbers are different? </li></ul><p>Using the sentence stem “I believe my answer is correct because…” can help focus the discussion. </p><ul><li>When you are subtracting with integers, must you always think of the operation as subtraction? Why or why not?</li><li>How did you decide which chip board/number line matched with the equations?  </li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.3",
@@ -327,7 +939,126 @@
             "investigation-2/problem-3/initialChallenge/content.json",
             "investigation-2/problem-3/whatIf/content.json",
             "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "COl_p8P3OARxGt2P",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.3 Profit or Loss: The +/- Connection</strong></p><p>This Problem supports students in synthesizing their thinking about addition and subtraction with integers.  In the Initial Challenge students will look at three different fund-raising activities and analyze the profit and loss of each.  In the What If Situations students will use fact families, examples, models, equations, and context to solidify their algorithms for adding and subtracting integers.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "mL7Ri4_grCVPTTmx",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How are addition and subtraction related?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "dRWYE8vTWmjCofdQ",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "cQmGI9eKHmwmX4Xp",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "I3KaIAogudxvT2VX",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Number Lines</p><p>Learning Aid: Chip Boards OR digital drawing tool with chip stamps</p><p>Two Color Chips OR digital drawing tool with chip stamps</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "eZpKZ98obEfycI4O",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-3 students</p><p><strong>A</strong> #8-12</p><p><strong>C</strong> #16-17</p><p><strong>E</strong> #21</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "WOpVcB0IYj9WbtMF",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Time</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Since The Game of Going Positive in Problem 1.1 students have been informally thinking about the connection between adding and subtracting with integers.  This problem will help students to formalize their thinking about the +/- connection.  </p><p>Discuss the introduction in the Student Edition on notation.  Stress that at this point the vocabulary that we use is very important.  It is important to distinguish between “positive versus negative” and “add versus subtract”.</p><p><em>Teacher Moves: Problem Solving Environment, Language</em></p><p>PRESENTING THE CHALLENGE</p><p>Bringing back an idea from The Game of Going Positive to illustrate this connection can set the stage.  </p><p>Discuss the ideas of profit and loss and how they relate to positive and negative numbers.  </p><p>Describe the situation of a middle school raising money to make improvements to the recreation center.  </p><p><strong>Note: </strong>You may want to divide the class into three groups and have them work on one grade level instead of all three.</p><p>You might want to have a brief discussion after the Initial Challenge before having the students look at the What If.  They will start to formulate their ideas about the relationship between addition and subtraction here and then strengthen it through the What If situations.  Getting a sense of where they are before they attack these situations can be helpful.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "0oFwPAl7MuzLhnqb",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Remind students that they can model each equation with a chip board or a number line to try out their ideas.</p><p><strong>Suggested Questions</strong></p><ul><li>In the Initial Challenge, how does the advertising money impact profit or loss?  </li><li>How does the price for purchasing smoothie bars from a distributor/supplies or a car wash/price or to create a digital recording impact profit or loss?  </li><li>Does addition make sense?</li><li>Does subtraction makes sense?</li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>Look for examples where students verbalize or right about using addition or subtraction number sentences to represent a situation.  Make sure students are also discussing how addition is commutative and subtraction is not.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "apnT_I5iQked3xKl",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have groups share their thinking about the different grade levels money raising plans in the Initial Challenge.  Discuss the similarities and differences in how to approach profit and loss.  </p><p>Have teams share their results from thinking about the What If Situations.</p><p><em>Teacher Moves: Chalk Talk</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>When discussing the Initial Challenge bring out how students are making sense of profit and loss.  Bring out how they record their thinking using integers.  </p><p><strong>Suggested Questions</strong></p><ul><li>In the Initial Challenge, how does the advertising money impact profit or loss?  </li><li>How does the price for purchasing smoothie bars from a distributor/supplies or a car wash/price or to create a digital recording impact profit or loss?  </li><li>How did you record your thinking for the 6th grade/7th grade or 8th grade fundraising efforts?  </li></ul><p>Have students share their strategies for solving the equations in What If Situation C.  Many students will find the answers mentally. Help them to verbalize their thinking and show this work using symbols.  It is important for the teacher to take the student thinking and have them or the teacher illustrate it using symbols. </p><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -346,7 +1077,126 @@
             "investigation-3/problem-1/initialChallenge/content.json",
             "investigation-3/problem-1/whatIf/content.json",
             "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "Qcd4BUym8MLdytoR",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.1 The Number Relay Race Game: Multiplication Patterns with Rational Numbers</strong></p><p>The Problem starts with a Number Relay Race in which runners are running on a number line that goes from -50 to +50. This race gives students practice in “reading” number lines that extend from positive to negative numbers. In the Initial Challenge students build on this experience to move to understanding multiplication with positive and negative integers.  The What If Situations will look at the patterns in multiplying integers so that students will be able to describe an algorithm for multiplying integers.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "u1zByfkkZhrijbMF",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe an algorithm for multiplying positive and negative rational numbers. How can you predict whether the sign of a product of two rational numbers is positive, negative, or zero?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "qKjXXfLhUPcNNzQk",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "BUa3AmMe1cXscrJX",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "y-SUD5ejLAwkKURW",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Situation A Cards</p><p>Learning Aid: Number Lines</p><p>Learning Aid: Chip Boards OR digital drawing tool with chip stamps</p><p>Two Color Chips OR digital drawing tool with chip stamps</p><p>Teaching Aid 3.1: Multiplication Patterns</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ynXYN-vJ09vQiD7T",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>2 Days</p><p><strong>Groups</strong></p><p>2-3 students</p><p><strong>A</strong> #1-2</p><p><strong>C</strong> #12-14</p><p><strong>E</strong> #21</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "30Zh6mNsNjvHh7nl",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Students may need help visualizing the team running along a number line that extends from -50 to 50.</p><p><em>Teacher Moves: Portrayal, Language</em></p><p>PRESENTING THE CHALLENGE</p><p>Explain the context of the Number Relay Race.  Having students act out the idea of going forward and backward in time and in direction of positive and negative can help students before they begin the Initial Challenge.  </p><ul><li>Students are asked to write number sentences for situations. It is important that they do this in order to make sense of what happens when you multiply different combinations of integers. Be sure to have students describe what each of the numbers represents in the problem.</li></ul><p><strong>Note:</strong> Stopping after What If Situation A and summarizing students’ thoughts before going to the rest of the What If will give students the opportunity to sort out any misconceptions they have about multiplication of integers.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "bWRkK8VQvHrHOY2G",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Going Vertical</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Having students stand up and work on a vertical surface during this problem can increase engagement and collaboration between students as they work out the multiplication algorithm.</p><p><strong>Suggested Questions </strong></p><p>Ask clarifying questions to make sure students understand the context.</p><ul><li>What does 5 meters per second mean? </li><li>Which way is he/she running? Left, or right? Positive or negative?  </li><li>What number sentence could you write to show where Hahn will be in 6 seconds if he is going to the right and passes the 0-point running 5 meters per second? </li><li>What do the 5 and the 6 stand for? </li><li>Suppose Hahn was running 5 meters per second to the left. How would this change the number sentence?  </li></ul><p>Remind students that they are looking for patterns with multiplying positive and negative integers.</p><ul><li>Students may struggle with multiplying a negative by a negative. If so, suggest that they think about what each sentence is saying in the context of the relay race and what seems reasonable.</li></ul><p><em>Teacher Moves: Language</em></p><p>PLANNING FOR THE SUMMARY</p><p>As students encounter the different situations in this problem asking them to think about things use these generalizations to help them sort through the patterns:  Describe an algorithm for multiplying two positive rational numbers; a positive rational number and a negative rational number; a negative rational number and a negative rational number.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "8hMwOcEZwJuvATQx",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share the number sentences they have written for the various Number Relay Race situations.</p><p><em>Teacher Moves: Language</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions</strong></p><ul><li>What number sentences did you write for Aurelia (and others) in the Initial Challenge?  </li><li>What does the operation of multiplication mean? </li><li>Here you have a positive number times a negative number. Why is the result negative?</li><li>Why does it make sense that this means Tori is at a positive position on the racing field?</li></ul><p>Use What If Situations B and C to bring the ideas together for the students.</p><ul><li>In What If Situation C, the three equations involving multiplying a positive factor times a negative factor and result in a negative product. Is this always true? Does a positive factor multiplied by a negative factor always give a negative product? Explain why or why not.</li><li>In What If Situation C, when you multiplied two negative factors, what is the sign of the product when two negative factors are multiplied?</li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.2",
@@ -358,7 +1208,126 @@
             "investigation-3/problem-2/initialChallenge/content.json",
             "investigation-3/problem-2/whatIf/content.json",
             "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "zcusbKzxvQUnnUI5",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.2 Revisiting the Relay Race: Division of Rational Numbers</strong></p><p>In the Initial Challenge students will use the context of the Number Relay Race to write division equations.  The What If Situations will help students look for patterns and describe an algorithm for dividing rational numbers.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "mZifZPyqHIbKFR5R",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe an algorithm for dividing rational numbers. Describe how multiplication and division are related.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "wN1lJJBrf_7o7kVg",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Analysis/Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "cHse_4iRNqpkIrry",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Multiplicative Identity</p><p>Multiplicative Inverse</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Nh_J_hT1LnGeZ7DD",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid: Number Lines</p><p>Learning Aid: Chip Boards (with two color chips) OR digital drawing tool with chip stamps</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "g_AJT4W2oTw9ESrB",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #3-6</p><p><strong>C</strong> #15-16</p><p><strong>E</strong> #22</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "7EJVsczFFp-e2UXr",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Write 36 ÷ 4 = 9 on the board. </p><p><strong>Suggested Questions </strong></p><ul><li>What does this sentence mean? </li><li>How are the operations of multiplication and division related?</li></ul><p><em>Teacher Moves: Think-Pair-Share, Problem Solving Environment</em></p><p>PRESENTING THE CHALLENGE</p><p>Remind students of the Number Relay race from yesterday.  Have students begin the problem independently and then work with a partner to complete it.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "Efl_WCrf1y4TMtdo",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Portrayal</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As students work on the Problem, listen for the patterns they are noticing.  For the Initial Challenge it might help to encourage some students to draw the number relay situation to visualize the context. </p><p><strong>Suggested Questions</strong></p><ul><li>In What If Situation A, what do you notice about the signs of the numbers in each group? </li><li>Is there a multiplicative identity for multiplication and division of rational numbers? Explain. </li><li>Is there a multiplicative inverse for each rational number? </li><li>What patterns do you see in the groups of equations?</li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the explore listening for how students are making sense of the signs for the quotients in the division sentences.  Find examples of student work/conversations that will help students describe a division algorithm and the relationship between multiplication and division.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "-QU-0rfBsoqrF3EE",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Claim, Support, Question, Language</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students display their solutions. If there are disagreements about any of the solutions, have students discuss their solutions and explain why they make sense.</p><p>Facilitate a conversation to help students generalize some rules for dividing positive and negative integers. Look for opportunities to talk about fact families and the relationship between multiplication and division. </p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions</strong></p><ul><li>What multiplication problems are related to this division problem? </li><li>How can you use your algorithm for multiplication to decide whether the quotient is positive or negative?  </li><li>How did you decide if the quotient is positive or negative?</li><li>Why is the rule “a negative divided by a negative is positive” reasonable?  </li><li>How can you find the quotient when you divide a negative integer by a positive integer? For example, why does it make sense that -99 ÷ 11 = -9? </li><li>How can you find the quotient when you divide a positive number by a negative number?</li><li>For What If Situation C, how did you decide if the quotient was positive, negative or zero?</li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.3",
@@ -369,7 +1338,126 @@
             "investigation-3/problem-3/initialChallenge/content.json",
             "investigation-3/problem-3/whatIf/content.json",
             "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "ILR5spZSbS8gjN7W",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.3 Connecting Fractions to Decimals</strong></p><p>In this problem students will continue the work they began in the 6th grade unit, <em>Points of Rational</em> on using long division to connect fractions and decimals.  In 6th grade the focus was on terminating decimals. In the Initial Challenge students will focus on repeating and terminating decimals and interesting patterns.  The What If Situations will look at the patterns in more detail and use their ideas to change decimals to fractions.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "fGx_thJ2WUskExNc",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>How can you predict which fractions have terminating decimal representations? Repeating decimal representations?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "O_8u4kI9S-qBvFbE",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Exploration/Analysis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "CAndYWAO3y-s2uFo",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "u_py_epRBlFTSolp",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Multiplication chart (Optional)</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "berKELSG6LID5QQ3",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2 students</p><p><strong>A</strong> #7-8</p><p><strong>C</strong> #17-18</p><p><strong>E</strong> #23</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "cZhKKLCY7sAnN_hB",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Use the introduction in the student edition for 3/4.  This will revisit the long division algorithm and terminating decimals. </p><p><strong>Suggested Questions</strong></p><ul><li>How can we find the equivalent decimal representation for 3/4? </li><li>How do we note the steps in 3 ÷ 4?</li><li>Why is this called a terminating decimal?  </li></ul><p><em>Teacher Moves: Problem Solving Environment</em></p><p>PRESENTING THE CHALLENGE</p><p>Have students look at the example of  2/3  in the student edition.</p><p><strong>Suggested Questions</strong></p><ul><li>How is this decimal different from the decimal equivalent to  3/4? </li><li>How do we know if a decimal is going to be a terminating or repeating decimal?</li></ul><p>Let them know that they will be looking for patterns to help them decide if a decimal will terminate or repeat</p><p><strong>Note: </strong>In the Initial Challenge there are 9 long division problems to complete.  Have each student work on the first one with their partner.  Then partners can each do 4 of the other problems and share their results</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "sw52rYqVgBq3s1UA",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Some students may benefit from the use of multiplication chart while working through the long division process. </p><p><strong>Suggested Questions</strong></p><ul><li>What is the next step in the long division process?  </li><li>How are the fractions in the first part of the Initial Challenge similar/different from the second part of the Initial Challenge?  </li><li>What are prime factors?  </li></ul><p>For What If Situation B, some students may make errors in the long division and not see the pattern.  If this is the case redirect them by helping them find their computational errors.  Some students may benefit from the use of calculator for the computation.</p><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore, look for the patterns students are finding to determine when a decimal will terminate or repeat.  Use these student examples in the summary. Find examples of how students used their patterns to create the fractions for What If Situation C and use these in the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "CRkgfORhxGokP9SK",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Gallery Walk, Agency, Identity, Ownership</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share how they used the long division algorithm to find the decimal equivalents. </p><p>Have partners share the patterns they found and how this helps in predicting which fractions have terminating decimal representations and which have repeating decimal representations.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>The main focus of the summary should be on repeating decimals.</p><p><strong>Suggested Questions</strong></p><ul><li>How did you use the long division algorithm to find your decimal representation? </li><li>In the Initial Challenge, was Charlie’s claim correct?  </li><li>In the Initial Challenge, is it possible for Nicole to predict if the fractions will have a terminating or repeating decimal? </li><li>What pattern in Matt find in What If Situation B?</li></ul><p><strong>Going Further</strong>:  Some students might also enjoy looking at the pattern in the decimals that have a denominator of 11.  </p><ul><li>How did you find the fractional representation for the decimals in What If Situation C?  </li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.4",
@@ -381,7 +1469,126 @@
             "investigation-3/problem-4/initialChallenge/content.json",
             "investigation-3/problem-4/whatIf/content.json",
             "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "O49gBftiemOzbl6w",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.4 The Integer Product Game: Applying Multiplication and Division</strong></p><p>The Integer Product Game gives students a fun way to practice multiplication with positive and negative numbers.  In the Initial Challenge students will play the game with a partner.  In What If Situations A and B students will analyze the game and make some generalizations.  What If Situation C gives students the opportunity to pull all their ideas together on multiplication and division of integers.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "t021WUEIfBBGZTYR",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>What patterns about factors, multiples, products, and quotients, help you play the Integer Product Game?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "IhseKa25lo-V4yC-",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "pyllCdWhJInchmSH",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "fT_eU5Z7mYjtFPCk",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 3.4: Integer Product Game</p><p>Paper clips</p><p>Colored pencils</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "yZLTS-NVq8yQcSAh",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2 students</p><p><strong>A</strong> #9-11</p><p><strong>C</strong> #19-20</p><p><strong>E</strong> #24</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "BMyi_dUTYTssmx1L",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In this Problem students will use what they have learned about finding products of numbers that are a mix of positive and negative numbers. </p><p><strong>Suggested Questions </strong></p><ul><li>If I multiply a negative number by a positive number, what is the sign of the product? </li><li>Suppose both numbers are negative. What is the sign of the product?</li></ul><p>PRESENTING THE CHALLENGE</p><p>Display the Integer Product Game Board. </p><p><strong>Suggested Questions</strong></p><ul><li>How do you think this game is played? </li><li>Will some products be easier to get than others? </li><li>What do you think is a good first move? </li></ul><p>You may want to encourage students to record their number sentences for each move to help them think about strategies.  </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "GAawdPKaCpQ0KO-N",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p><strong>Suggested Questions</strong></p><ul><li>What factors can I put paper clips on to get a product of -10? </li><li>What numbers divide -10 equally? </li><li>How are these two lists related? </li><li>Is it better to go first or second? Why? </li><li>What is the best move if you are second? </li><li>Your opponent puts a paper clip on -4.  What are 5 products that you can forms, assuming they are not marked?</li></ul><p><em>Teacher Moves: Stop and Jot, Language</em></p><p>PLANNING FOR THE SUMMARY</p><p>As students are playing and analyzing the game, look for students who are using various strategies. It may be helpful to have students stop a moment and record mathematical sentences to show their thinking. In some cases, students might be using multiplication to guide their moves, and at other times division. Look for examples of both to bring out during the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "Ydp5sz-tCtRR6kqV",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Begin by discussing any strategies for playing and winning the game that students discovered. </p><p>Guide the discussion of strategies to bring out the notion that when using positive and negative products, you have many more combinations to consider than you do when the Product Game is played with nonnegative numbers.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Help students connect their approaches back to their algorithms. Writing number sentences for their verbal descriptions might be helpful.</p><p><strong>Suggested Questions</strong></p><ul><li>When was multiplication helpful? </li><li>When was division helpful? </li><li>How would the pairs of factors for a particular product compare to the list of factor pairs you could make if the game only used positive numbers? </li><li>In What If Situation B, Zach asked “Why isn’t 0 listed as one of the factors?” How did you respond to that? </li></ul><p>For What If Situation C discuss how students solved the problems.  Focus on their use of structure and the Distributive Property.</p><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -400,7 +1607,126 @@
             "investigation-4/problem-1/initialChallenge/content.json",
             "investigation-4/problem-1/whatIf/content.json",
             "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "I8r1ICX8BZiJW9fo",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 4.1 The Dealing Up Game: Writing and Evaluating Expressions</strong></p><p>Problem 4.1 examines Order of Operations with positive and negative numbers. In the Initial Challenge student will play the Game Dealing Up and make number sentences using the order of operations to get the greatest possible quantity. The What If Situations gives students an opportunity to understand the role of parentheses in clarifying the intended sequences of operations to carry out. Students deal with more complicated addition and subtraction computation strings and see why rules for computational order are necessary.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "yiDv9O1VSZw_9X7s",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe how the properties of rational numbers and the conventions of order of operations help you write and evaluate an expression.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "teXwDjEpfzy4MYtP",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "LSRwbra2-NUAk0XA",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p><p>Order of Operations</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Y6HKwBeymJX3Kllp",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 4.1A: Dealing Up Cards</p><p>Learning Aid 4.1B: Scoresheet for Dealing Up</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "BW9-kaAq0UG48REc",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>3-4 students</p><p><strong>A</strong> #1-3</p><p><strong>C</strong> #10-13</p><p><strong>E</strong> #19-21</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "RV3RQS3w97XsOdDo",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Start by reviewing the Order of Operations for whole numbers.</p><p><strong>Suggested Questions </strong></p><ul><li>Use parentheses and the + and - signs and the four numbers in the given order to write an equality. 5, 11, 9, 7 = 27             </li><li>What other numbers can you obtain by using ( ), +, and - with these  four numbers?</li></ul><p>PRESENTING THE CHALLENGE</p><p>Hold a discussion of the conventions for the Order of Operations and the computations given. </p><p>Talk a bit about the use of parentheses with your students. Make sure that they understand parentheses as a grouping symbol.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "qER7IUDMYYQq5Muw",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Language</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As you are circulating and the students are playing The Dealing Up Game in the Initial Challenge, ask questions around the arrangement of the numbers and the use of operations.</p><p><strong>Suggested Questions</strong></p><ul><li>Why did you choose multiplication/division/addition/subtraction in this part of your number sentence? </li><li>How did you team know which number sentence was the winning one?  </li></ul><p>Ask students to say in words how they should compute the mathematical sentences they write or have to interpret to help them connect their thinking to the symbols.</p><p>PLANNING FOR THE SUMMARY</p><p>While students are playing The Game Dealing Up, listen for how they are making sense of the operations with integers, order of operations, and the size of rational numbers.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "V2L1HGVT5FUVYAbz",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share some of the winning number sentences.  Discuss how they knew this was the winning number sentence.  </p><p><em>Teacher Moves: Compare Thinking, Agency, Identity, Ownership</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>As students are sharing their number sentences from the Dealing Up game or looking at the number sentences in the What If Situations, emphasize the use of order of operations; the algorithms for computing with integers; and the size of the rational numbers. </p><p><strong>Suggested Questions</strong></p><ul><li>Why did you choose multiplication (division, addition or subtraction) in this part of your number sentence? </li><li>Why did it make sense to use a positive (negative) number in this part of your number sentence? </li><li>Would exponents help to make a winning number sentence?  </li><li>How did your team know which number sentence was the winning one?</li><li>Who is correct in What If Situation D, Pedro or David? Why?    </li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 4.2",
@@ -412,7 +1738,126 @@
             "investigation-4/problem-2/initialChallenge/content.json",
             "investigation-4/problem-2/whatIf/content.json",
             "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "DjblZxJASyYSfJf6",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 4.2 Making a Profit: More of Less</strong></p><p>This Problem will use the context of profit to look at integers and the use of inequalities to describe a situation. In the Initial Challenge the context is a bicycle tune up shop and they students will look at when it makes a profit.  In the What If Situations students will use their knowledge of equations, number line graphs, and integers to make sense of various contexts.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "G4rzhEv1QsZ6Sx7J",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe how representations of equality and inequality are helpful in making sense of situations and in solving problems.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "mphGhXfWAW6UXmb7",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "lw1RULgrVGiBbYe7",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "YN-_mTr4jiWpGDWv",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 4.2: Matching Representations and Situations</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "sz26b7WsoePUlXJ7",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A</strong> #4-6</p><p><strong>C</strong> #14-16</p><p><strong>E</strong> #22-23</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "xf90sddgUp1LqsD1",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Language</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Review inequalities and number line graphs with the class.  They began this work in the 6th grade unit, <em>Points of Rational</em>.</p><p><strong>Suggested Questions</strong></p><ul><li>What would this number sentence mean to you x &gt; -17?  </li><li>What would the number line graph look like for that number sentence?  </li></ul><p><em>Teacher Moves: Think-Pair-Share</em></p><p>PRESENTING THE CHALLENGE</p><p>Introduce the context of Kim’s bicycle tune up business.  Discuss the concepts of profit and loss.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "BZSaeX5TvFwAwcWn",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Portrayal</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As you circulate make sure students are making sense of the equation for Kim’s bicycle tune-up business, the use of number line graphs, and inequalities. </p><p><strong>Suggested Questions</strong></p><ul><li>What does 50n mean?  </li><li>What does &gt; mean? </li><li>How do you find the values for Kim’s table?</li><li>How does a number line help Kim?  </li></ul><p>When students are working on What If Situations A and B, remind them to think about the meaning of the symbols &lt;, &gt;, and = as they are writing their inequalities, interpreting a situation and making their matches.  </p><p>For What If Situation B, it may help some students if you ask some predicting questions…</p><ul><li>What are some possible heights for Beatrice?</li><li>How many weeks must Izzy work to consider buying a scooter?</li><li>What are some possible temperatures for Mongolia for the month of August?</li><li>How much money could Saul have earned at his work?</li></ul><p><em>Teacher Moves: Language</em></p><p>PLANNING FOR THE SUMMARY</p><p>Listen for how students are making sense of profit and loss in the Initial Challenge. Listen for how students describe the symbols &lt;, &gt;, and =.  Are they able to describe settings using them?  Are students connecting the number line graphs, situations and symbols.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "cI0HU4XTu8ZVPvw5",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Have students share their thinking.  Focus on the components of the problem that caused the most conversation in the room during the Explore.  Use their conversations as a springboard to clear up misconceptions on integers, inequalities, equations, and number line graphs.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions</strong></p><ul><li>Do you have any What If questions? </li><li>How many tune ups does it take before Kim is making a positive profit?  How did you find this answer?  </li><li>How did you decide on the inequality for Jamal and his lawn mowing job?  </li><li>What do number line graph tell us?  </li><li>What was helpful to you when matching the cards in What If Situation B?</li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 4.3",
@@ -424,7 +1869,126 @@
             "investigation-4/problem-3/initialChallenge/content.json",
             "investigation-4/problem-3/whatIf/content.json",
             "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "bHNl8VsfsqOqjmfO",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 4.3 Water In and Out: Rational Numbers to the Rescue</strong></p><p>This problem comprises five contexts that challenge students to use the information to make decisions about what operations they need to use to solve the problem. Each problem situation encourages students to ask themselves, “What is this problem situation asking and what do I know that would help me solve it?” Students need these kinds of experiences to make the mathematics they are learning available to use in different kinds of situations.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "WNXE1n4d4QtEHYcf",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>NWDYK</strong></p><p>Describe how you can decide which operation(s) to use to solve a problem.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "jjfAeiltUaYzuzIM",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p>Rational Numbers: <em>Synthesis</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "X9vQRGVio5oZxA_g",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Key Terms</strong></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "yHLBVlRXoXG61WTc",
+                    "title": "Text 5",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Materials</strong></p><p>Learning Aid 4.3: What If Cards</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "_n6RDVcLo1bR8GKd",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-3 students</p><p><strong>A</strong> #7-9</p><p><strong>C</strong> #17-18</p><p><strong>E</strong> #24-25</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "qlabUE69SeLIv974",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Problem 4.3 builds on the experiences students had in Problems 4.1 and 4.2 by having them use what they learned about operations with rational numbers to choose appropriate operations and write number sentences to solve problem situations.</p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PRESENTING THE CHALLENGE</p><p><strong>Suggested Questions</strong></p><ul><li>In the chart about the Water Tower Water Flow, what does the 4,000 represent?</li><li>In the chart about the Water Tower Water Flow, what does the 7 represent? </li><li>In the chart about the Water Tower Water Flow, what does the 7,500 represent?  </li></ul><p>They will analyze the situation and decide what operation is needed to solve it and then complete the computation to solve it.  </p><p><strong>Note: </strong>Pass out 1-2 Situation Cards from Learning Aid 4.3: What If Cards for each group as they begin What If Situation A.  Based on the formative assessment the teacher has gathered throughout this unit, the cards can be distributed to meet individual student needs.</p><p>Have students record their thinking on large paper to be used in a Gallery Walk or have students publish digital work so teachers can share using Starred View during the Summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "h36PLgTzXCcGkhkb",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Problem Solving Environment</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>As students are exploring, ask groups to explain their thinking. This allows you to consider which student groups should present their ideas. This makes for a good discussion of the problems, but more importantly, it allows you to determine who is understanding the ideas discussed and who needs more help.</p><p>PLANNING FOR THE SUMMARY</p><p>Listen for how students are deciding which operation to use.  Find examples of student work to highlight during the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "5h7wDqLrTbATeMQ7",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Gallery Walk, Portrayal</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Discuss which operations made the most sense to use when solving the questions in the Initial Challenge.  </p><p>Post the student work on the situations in the What If.  Use a Gallery Walk protocol such as: </p><ul><li>First have students look at the work of students that solved the same situation they did.  As they are looking at other posters have them use sticky notes and write down something they noticed or wondered about the other groups work. </li><li>Then have them switch their thinking by looking at work on at least one poster that was a situation they didn’t solve.  They are to decide is they agree or disagree with the work on the poster and why or why not.</li></ul><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions</strong></p><ul><li>What equation did you write to show your reasoning for #1 in the Initial Challenge? </li><li>What did you notice or wonder about a poster that was the same situation that you worked on?  </li><li>Looking at a poster from a situation that you didn’t do; is there one you disagree with?</li></ul><p>Continue these conversations on noticing/wonderings and disagreements until most or all have been addressed. </p><ul><li>How did you decide which operation to use in these situations?  </li></ul><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -443,7 +2007,104 @@
             "investigation-5/problem-1/MathReflection2/content.json",
             "investigation-5/problem-1/MathReflection3/content.json",
             "investigation-5/problem-1/MathReflection4/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": [
+                  {
+                    "id": "e53xSbOwt9T31dRC",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Completely Rational Mathematical Reflection</strong></p><p>The Mathematical Reflection provides an opportunity to discuss the goals of the Investigation. Students can pull together their reasoning from the Now What Do You Know questions to summarize their learning over the time.</p><p>Students can record their responses to the Mathematical Reflection to create a record of their current understandings of the big ideas of the Unit. The Mathematical Reflection can provide a self-assessment for students. Each student can have check points of their understanding of the mathematics after each Investigation.</p><p>Students can use the MR to consolidate their mathematical thinking, take notes, and provide evidence of what they know and can do.</p><p>A teacher can gain an understanding of student thinking during a discussion of the reflection question. Then one can assess individual understanding based on each student’s written work.</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "HWu-C6pRci78JQQt",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Mathematical Reflection</strong></p><p>What do you know about rational numbers and their operations?</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "qcmwiBnJrRaW8bMG",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Arc of Learning</strong></p><p><u>Investigation 1</u></p><p>Rational Numbers: <em>Analysis</em></p><p><u>Investigation 2</u></p><p>Rational Numbers: <em>Synthesis</em></p><p><u>Investigation 3</u></p><p>Rational Numbers: <em>Synthesis</em></p><p><u>Investigation 4</u></p><p>Rational Numbers: <em>Synthesis/Abstraction</em></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "MiMc7pGnw4YONWfw",
+                    "title": "Text 6",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Pacing</strong></p><p>1/2 Day</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "AY2PORRO8M6k_xVQ",
+                    "title": "Text 7",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Time</em></p><p>Having students refer to their notes from the Now What Do You Know in each Problem in the Investigation can help them to synthesize all their ideas around rational numbers and their operations.</p><p>As a class discuss the Mathematical Reflection. Sample strategies to have students synthesize and record their thinking are listed in the EXPLORE section.</p><p><strong>Suggested questions</strong></p><ul><li>After this Investigation, what do we know about the rational number system? </li><li>What did we learn in each Problem of this Investigation?</li><li>How might we describe the “big mathematical idea(s)” of the Investigation?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "esbrWxPrcxy5Zd76",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Anchor Chart, Portrayal, Language</em></p><p><strong>Example Strategies for Student Participation</strong></p><p>A few creative strategies teachers use to encourage students&#x27; ownership of their learning.</p><p><u>Anchor Charts</u></p><p>After a discussion, chart the emerging understanding and post it in the classroom. This can be done on poster paper or electronically.</p><ul><li>Work with students throughout the unit to reference, add to, or refine their understandings. </li><li><strong>Note:</strong> For teachers who move classrooms or have multiple classes of the same grade level, create the chart in all classes, but keep just one represent all of your classes. Post this one in the room or bring it out when needed.</li></ul><p><u>Note Organization</u></p><p>Some teachers use the Mathematical Reflections as an organizer for note taking during the Investigation. </p><ul><li>As part of the Summarize of the Problems, students record key ideas to the Now What Do You Know? reflection questions on a separate paper.</li><li>At the close of the Investigation, students synthesize their notes into responses that summarize their emerging understandings of the ideas in the unit.</li></ul><p><u>Word Bank</u></p><p>As a class, create a word bank of terms from the Investigation.</p><ul><li>Have groups of students write 3 – 4 statements using the words from the bank.</li><li>After formatively assessing their statements, you may choose to have a class discussion to refine the statements.</li></ul><p><u>Chalk Talk</u></p><p>With a chalk talk, your writing does “the talking” instead of talking aloud.</p><ul><li>Post the question(s) on sheets of chart paper or on sections of your board</li><li>Small groups record responses while collaborating in “chalk talk” format</li><li>Students move to others’ work and add their thinking in the form of new ideas and connections</li></ul><p><u>Final Reflection Presentation</u></p><p>Teachers sometimes use the MR after the last Investigation as a summary of students’ learning.</p><ul><li>Students consolidate their learning from the Unit.</li><li>Teachers choose from various ways to present their ideas. Presentation choices might include creating a: Poster, Written Paper, PowerPoint/Prezi, Song/Rap, etc.</li></ul><p><u>Partner Write</u></p><p>Students create a written response to the reflection question with a partner.  </p><ul><li>Students discuss the reflection question with a partner.</li><li>Students create and write a response with a partner.</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "QlldhCFwdFPXElHK",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><strong>Student Responses</strong></p><p>At the beginning of the year, students will need more collaboration to outline and summarize the important ideas. They may need examples of writing, diagrams, and/or justifications from other students to help build their vision of what is expected when answering a Mathematical Reflection. Early in the year you may want to start writing Mathematical Reflections as a whole group. Then as the year progresses, move to small groups, pairs, and finally individuals.</p><p>Each Investigation contributes to students’ conceptual understandings of the ideas in the Unit. Students’ explanations at the beginning of a Unit might be just forming. As you progress through the Unit, students can use the contexts, representation, and connections to express a more solid understanding. By the end of the Unit, students can create a complete picture of understanding.</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },

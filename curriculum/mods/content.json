@@ -5,16 +5,45 @@
   "subtitle": "Engineering Design",
   "placeholderText": "Enter notes here",
   "config": {
+    "enableHistoryRoles": [
+      "teacher"
+    ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
     "toolbar": [
-      {"id": "select", "title": "Select", "iconId": "icon-select-tool", "isTileTool": false, "isDefault": true},
-      {"id": "Text", "title": "Text", "isTileTool": true},
-      {"id": "Drawing", "title": "Sketch", "isTileTool": true},
-      {"id": "Image", "title": "Image", "isTileTool": true},
-      {"id": "DataCard", "title": "Data Cards", "isTileTool": true},
-      {"id": "Table", "title": "Table", "isTileTool": true},
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
       {
         "id": "sparrow",
         "title": "Sparrow",
@@ -22,15 +51,35 @@
         "isTileTool": false
       },
       {
-          "id": "hide-annotations",
-          "title": "Hide Annotations",
-          "iconId": "icon-hide-annotations-tool",
-          "isTileTool": false
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
       },
-      {"id": "duplicate", "title": "Duplicate Tile", "iconId": "icon-duplicate-tool", "isTileTool": false},
-      {"id": "undo", "title": "Undo", "iconId": "icon-undo-tool", "isTileTool": false},
-      {"id": "redo", "title": "Redo", "iconId": "icon-redo-tool", "isTileTool": false},
-      {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
     ],
     "navTabs": {
       "showNavPanel": true,
@@ -40,48 +89,131 @@
           "tab": "problems",
           "label": "Activity",
           "sections": [
-            {"initials": "INT", "title": "Introduction", "type": "problem-documents"},
-            {"initials": "ACT", "title": "Activity", "type": "problem-documents"},
-            {"initials": "REF", "title": "Reflection", "type": "problem-documents"}
+            {
+              "initials": "INT",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "ACT",
+              "title": "Activity",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "REF",
+              "title": "Reflection",
+              "type": "problem-documents"
+            }
           ]
         },
         {
           "tab": "my-work",
           "label": "My Work",
           "sections": [
-            {"title": "Workspaces", "type": "problem-documents", "dataTestHeader": "my-work-section-investigations", "dataTestItem": "my-work-list-items", "documentTypes": ["problem", "planning"], "order": "original", "showStars": []},
-            {"title": "Workspaces", "type": "personal-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["personal"], "properties": ["!isDeleted"], "showStars": [], "addDocument": true},
-            {"title": "Learning Journal", "type": "learning-logs", "dataTestHeader": "learning-log-section", "documentTypes": ["learningLog"], "properties": ["!isDeleted"], "addDocument": true}
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": []
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Journal",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
+            }
           ]
         },
         {
           "tab": "class-work",
           "label": "Class Work",
           "sections": [
-            {"title": "Workspaces", "type": "published-problem-documents", "dataTestHeader": "class-work-section-published", "dataTestItem": "class-work-list-items", "documentTypes": ["publication"], "showStars": [], "properties": ["!isDeleted"]},
-            {"title": "Workspaces", "type": "teacher-supports", "dataTestHeader": "supports-section-teacher-supports", "dataTestItem": "supports-list-items", "documentTypes": ["supportPublication"], "properties": ["teacherSupport", "!isDeleted"]}
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [],
+              "properties": [
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            }
           ]
         },
-        {"tab": "teacher-guide", "label": "Teacher Guide", "teacherOnly": true, "sections": []},
-        {"tab": "student-work", "label": "Student Work", "teacherOnly": true, "sections": []}
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        }
       ]
     },
     "settings": {
-      "showCommentTag": true,
-      "commentTags": {
-          "diverging": "Diverging Designs",
-          "converging": "Converging Designs",
-          "materials": "Varies Material/Surface",
-          "physical": "Varies Physical Factors",
-          "user": "Varies Human Factors",
-          "system": "Varies System Factors"
-      },
-      "tagPrompt": "Identify Design Approach",
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["delete"]
+        "numFormat": ".2~f",
+        "tools": [
+          "delete"
+        ]
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Diverging Designs",
+      "converging": "Converging Designs",
+      "materials": "Varies Material/Surface",
+      "physical": "Varies Physical Factors",
+      "user": "Varies Human Factors",
+      "system": "Varies System Factors"
+    },
+    "tagPrompt": "Identify Design Approach",
     "stamps": [
       {
         "url": "mods/stamps/jumping.png",
@@ -111,15 +243,51 @@
     ]
   },
   "sections": {
-    "introduction": {"initials": "INT", "title": "Introduction", "placeholder": "Frame the problem"},
-    "activity": {"initials": "ACT", "title": "Activity", "placeholder": "Record your ideas"},
-    "reflection": {"initials": "REF", "title": "Reflection", "placeholder": "What did you learn?"}
-  }, 
+    "introduction": {
+      "initials": "INT",
+      "title": "Introduction",
+      "placeholder": "Frame the problem"
+    },
+    "activity": {
+      "initials": "ACT",
+      "title": "Activity",
+      "placeholder": "Record your ideas"
+    },
+    "reflection": {
+      "initials": "REF",
+      "title": "Reflection",
+      "placeholder": "What did you learn?"
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "objectives": {
+        "initials": "OB",
+        "title": "Objectives",
+        "placeholder": "Work area for\nObjectives section"
+      },
+      "sequence": {
+        "initials": "SQ",
+        "title": "Sequence",
+        "placeholder": "Work area for\nSequence section"
+      }
+    },
+    "sections": [
+      {
+        "type": "objectives"
+      },
+      {
+        "type": "sequence"
+      }
+    ]
+  },
   "investigations": [
     {
       "description": "Problem 1: Water Resources",
       "ordinal": 1,
-      "title": "Problem 1: Water Resources",
+      "title": "Water Resources",
       "problems": [
         {
           "description": "Activity 1.1",
@@ -131,7 +299,9 @@
             "investigation-1/problem-1/introduction/content.json",
             "investigation-1/problem-1/activity/content.json",
             "investigation-1/problem-1/reflection/content.json"
-          ]
+          ],
+          "config": {
+          }
         },
         {
           "description": "Activity 1.2",
@@ -143,7 +313,17 @@
             "investigation-1/problem-2/introduction/content.json",
             "investigation-1/problem-2/activity/content.json",
             "investigation-1/problem-2/reflection/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
         },
         {
           "description": "Activity 1.3",
@@ -155,7 +335,17 @@
             "investigation-1/problem-3/introduction/content.json",
             "investigation-1/problem-3/activity/content.json",
             "investigation-1/problem-3/reflection/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
         },
         {
           "description": "Activity 1.4",
@@ -167,7 +357,17 @@
             "investigation-1/problem-4/introduction/content.json",
             "investigation-1/problem-4/activity/content.json",
             "investigation-1/problem-4/reflection/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
         },
         {
           "description": "Activity 1.5",
@@ -179,7 +379,17 @@
             "investigation-1/problem-5/introduction/content.json",
             "investigation-1/problem-5/activity/content.json",
             "investigation-1/problem-5/reflection/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
         },
         {
           "description": "Activity 1.6",
@@ -191,20 +401,99 @@
             "investigation-1/problem-6/introduction/content.json",
             "investigation-1/problem-6/activity/content.json",
             "investigation-1/problem-6/reflection/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
         },
         {
           "description": "Activity 1.7",
           "ordinal": 7,
           "title": "Activity 1.7",
-          "subtitle": "Presentation & Reflection",
+          "subtitle": "Idea Generation Part 2",
           "disabled": [],
           "sections": [
             "investigation-1/problem-7/introduction/content.json",
             "investigation-1/problem-7/activity/content.json",
             "investigation-1/problem-7/reflection/content.json"
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        },
+        {
+          "description": "Activity 1.8",
+          "ordinal": 8,
+          "title": "Activity 1.8",
+          "subtitle": "Presentation & Reflection",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-8/introduction/content.json",
+            "investigation-1/problem-8/activity/content.json",
+            "investigation-1/problem-8/reflection/content.json"
 
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        }
+      ]
+    },
+    {
+      "description": "Investigation 2: Usability and Sketch Test",
+      "ordinal": 2,
+      "title": "Usability Analysis",
+      "problems": [
+        {
+          "description": "Activity 2.1",
+          "ordinal": 1,
+          "title": "Activity 2.1",
+          "subtitle": "Sketch Test",
+          "disabled": [],
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/activity/content.json",
+            "investigation-2/problem-1/reflection/content.json"
+          ],
+          "config": {
+            "settings": {
+              "drawing": {
+                "tools": [
+                  "select", 
+                  "line", 
+                  "stamp", 
+                  "stroke-color", 
+                  "text", 
+                  "image-upload", 
+                  "group", 
+                  "ungroup", 
+                  "duplicate", 
+                  "delete"
+                ]
+              }
+            }
+          }
         }
       ]
     }

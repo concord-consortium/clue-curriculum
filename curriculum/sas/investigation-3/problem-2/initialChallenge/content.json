@@ -3,138 +3,6 @@
   "content": {
     "tiles": [
       {
-        "id": "-6zAUG20220128pm",
-        "title": "Rectangle A and Triangle B",
-        "content": {
-          "type": "Image",
-          "url": "sas/images/SS_3_2_In_23_A_B_350w.png"
-        }
-      },
-      {
-        "id": "21AUG20220506PM",
-        "title": "Rectangle and Triangle Figures",
-        "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -2,
-                -1
-              ],
-              "axisRange": [
-                26.23,
-                17.486
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "point",
-              "parents": [
-                1,
-                4
-              ],
-              "properties": {
-                "id": "WjQ02oIogntRuB-i",
-                "name": "A"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                1,
-                0
-              ],
-              "properties": {
-                "id": "BmdyMh31a4U19mqX",
-                "name": "B"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                9,
-                0
-              ],
-              "properties": {
-                "id": "VCK8RpOjr_v-YPlP",
-                "name": "C"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                9,
-                4
-              ],
-              "properties": {
-                "id": "CDn77_ywb7SAv7aT",
-                "name": "D"
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "WjQ02oIogntRuB-i",
-                "BmdyMh31a4U19mqX",
-                "VCK8RpOjr_v-YPlP",
-                "CDn77_ywb7SAv7aT"
-              ],
-              "properties": {
-                "id": "U_6MsOp424fI-7Ma"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                12,
-                0
-              ],
-              "properties": {
-                "id": "vKsDDy8I5JtS0AkT",
-                "name": "E"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                19,
-                0
-              ],
-              "properties": {
-                "id": "Cr_hXSh1DezQaSlI",
-                "name": "F"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                15,
-                4
-              ],
-              "properties": {
-                "id": "okPe8dqOcqm0767l",
-                "name": "G"
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "vKsDDy8I5JtS0AkT",
-                "Cr_hXSh1DezQaSlI",
-                "okPe8dqOcqm0767l"
-              ],
-              "properties": {
-                "id": "HSKdnxwDdVLxn57Z"
-              }
-            }
-          ]
-        },
-        "layout": {
-          "height": 260
-        }
-      },
-      {
         "id": "document_Text_1",
         "content": {
           "type": "Text",
@@ -144,6 +12,193 @@
           ]
         }
       },
+      {
+        "id": "lk-iHMT8Iu3SxSih",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You can copy Rectangle A and Triangle B into your workspace as graphing tiles or use the images below:</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "21AUG20220506PM",
+          "title": "Rectangle A",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  4
+                ],
+                "properties": {
+                  "id": "WjQ02oIogntRuB-i",
+                  "name": "A"
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  1,
+                  0
+                ],
+                "properties": {
+                  "id": "BmdyMh31a4U19mqX",
+                  "name": "B"
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  9,
+                  0
+                ],
+                "properties": {
+                  "id": "VCK8RpOjr_v-YPlP",
+                  "name": "C"
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  9,
+                  4
+                ],
+                "properties": {
+                  "id": "CDn77_ywb7SAv7aT",
+                  "name": "D"
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "WjQ02oIogntRuB-i",
+                  "BmdyMh31a4U19mqX",
+                  "VCK8RpOjr_v-YPlP",
+                  "CDn77_ywb7SAv7aT"
+                ],
+                "properties": {
+                  "id": "U_6MsOp424fI-7Ma"
+                }
+              }
+            ]
+          },
+          "layout": {
+            "height": 260
+          }
+        },
+        {
+          "id": "xBVyKs5xbk-BhjUC",
+          "title": "Triangle B",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "point",
+                "parents": [
+                  0.9945318755196819,
+                  0.9846380417267472
+                ],
+                "properties": {
+                  "id": "tDAncf3x642zCUxk",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  7.966384247167985,
+                  0.9756372137100912
+                ],
+                "properties": {
+                  "id": "Zm0GQJP3hTbUxCtc",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "point",
+                "parents": [
+                  4,
+                  5
+                ],
+                "properties": {
+                  "id": "2iNQG9sScjUbCANa",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
+              },
+              {
+                "type": "polygon",
+                "parents": [
+                  "tDAncf3x642zCUxk",
+                  "Zm0GQJP3hTbUxCtc",
+                  "2iNQG9sScjUbCANa"
+                ],
+                "properties": {
+                  "id": "EBEB4MkOAyuUCPVM"
+                }
+              }
+            ]
+          },
+          "layout": {
+            "height": 260
+          }
+        }
+      ],
+      [
+        {
+          "id": "x_MGQ3J6slbYk50p",
+          "title": "Rectangle A",
+          "content": {
+            "type": "Image",
+            "url": "sas/images/screenshot-2023-12-05-at-10.55.20 am.png",
+            "filename": "sas/images/screenshot-2023-12-05-at-10.55.20 am.png"
+          }
+        },
+        {
+          "id": "6SHo2GfB_fnpsjEM",
+          "title": "Triangle B",
+          "content": {
+            "type": "Image",
+            "url": "sas/images/screenshot-2023-12-05-at-10.55.31 am.png",
+            "filename": "sas/images/screenshot-2023-12-05-at-10.55.31 am.png"
+          }
+        }
+      ],
       {
         "id": "6SAD92cDHNbTcMAA",
         "title": "Text 2",
