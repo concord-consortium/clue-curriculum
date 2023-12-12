@@ -52,6 +52,103 @@
           ]
         },
         {
+          "tab": "sort-work",
+          "label": "Sort Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [
+                "teacher"
+              ],
+              "properties": [
+                "!isTeacherDocument"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "published-personal-documents",
+              "dataTestHeader": "class-work-section-personal",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "personalPublication"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ],
+              "properties": [
+                "!isTeacherDocument"
+              ]
+            },
+            {
+              "className": "section teacher published-documents",
+              "title": "Supplemental Work",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Starred",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Starred",
+              "type": "starred-personal-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
+            }
+          ]
+        },
+        {
           "tab": "my-work",
           "label": "My Work",
           "sections": [
