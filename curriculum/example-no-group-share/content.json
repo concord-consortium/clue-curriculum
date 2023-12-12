@@ -10,20 +10,62 @@
     "defaultDocumentType": "personal",
     "settings": {
       "table": {
-        "numFormat": ".2~f"
-      },
-      "graph": {
-        "defaultAxisLabels": {
-          "bottom": "x",
-          "left": "y"
-        },
+        "numFormat": ".3~f",
         "tools": [
-          "link-tile",
-          "link-tile-multiple"
+          "set-expression",
+          "merge-in",
+          ["data-set-view", "Graph"],
+          "delete"
+        ]
+      },
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "subscript",
+          "superscript",
+          "link",
+          "new-variable",
+          "insert-variable",
+          "edit-variable"
+        ]
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "new-variable",
+          "insert-variable",
+          "edit-variable",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "stroke-color",
+          "fill-color",
+          "select", 
+          "text", 
+          "image-upload", 
+          "group", 
+          "ungroup", 
+          "duplicate", 
+          "delete"
         ]
       },
       "diagram": {
         "maxTiles": 1
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": false
       }
     },
     "navTabs": {
@@ -33,11 +75,39 @@
         {
           "tab": "my-work",
           "label": "My Work",
-          "sections": [{"title": "Workspaces", "type": "personal-documents", "dataTestHeader": "my-work-section-workspaces", "dataTestItem": "my-work-list-items", "documentTypes": ["personal"], "properties": ["!isDeleted"], "showStars": ["student", "teacher"], "addDocument": true}]
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            }
+          ]
         }
       ]
     },
     "toolbar": [
+      {
+        "id": "Diagram",
+        "title": "Diagram",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
       {
         "id": "Text",
         "title": "Text",
@@ -51,16 +121,6 @@
       {
         "id": "Drawing",
         "title": "Drawing",
-        "isTileTool": true
-      },
-      {
-        "id": "Diagram",
-        "title": "Diagram",
-        "isTileTool": true
-      },
-      {
-        "id": "Graph",
-        "title": "XY Plot",
         "isTileTool": true
       },
       {
@@ -85,25 +145,80 @@
     "stamps": []
   },
   "sections": {
-    "first": {"initials": "FI", "title": "First Section", "placeholder": "Work area for\nFirst Section"},
-    "second": {"initials": "SE", "title": "Second Section", "placeholder": "Second Section Placeholder"},
-    "third": {"initials": "TH", "title": "Third Section", "placeholder": "Third Section content goes here"}
+    "first": {
+      "initials": "FI",
+      "title": "First Section",
+      "placeholder": "Work area for\nFirst Section"
+    },
+    "second": {
+      "initials": "SE",
+      "title": "Second Section",
+      "placeholder": "Second Section Placeholder"
+    },
+    "third": {
+      "initials": "TH",
+      "title": "Third Section",
+      "placeholder": "Third Section content goes here"
+    }
   },
-  "planningDocument": {"enable": "teacher", "default": true, "sectionInfo": {"plan": {"initials": "PL", "title": "Plan", "placeholder": "Plan the work; work the plan"}}, "sections": [{"type": "plan"}]},
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "plan": {
+        "initials": "PL",
+        "title": "Plan",
+        "placeholder": "Plan the work; work the plan"
+      }
+    },
+    "sections": [
+      {
+        "type": "plan"
+      }
+    ]
+  },
   "investigations": [
     {
       "description": "Investigation 1",
       "ordinal": 1,
       "title": "Example Investigation 1",
       "problems": [
-        {"description": "Problem 1.1", "ordinal": 1, "title": "1.1 Unit Toolbar Configuration", "subtitle": "Text, Table, Drawing", "sections": ["investigation-1/problem-1/first/content.json", "investigation-1/problem-1/second/content.json", "investigation-1/problem-1/third/content.json"]},
+        {
+          "description": "Problem 1.1",
+          "ordinal": 1,
+          "title": "1.1 Unit Toolbar Configuration",
+          "subtitle": "Text, Table, Drawing",
+          "sections": [
+            "investigation-1/problem-1/first/content.json",
+            "investigation-1/problem-1/second/content.json",
+            "investigation-1/problem-1/third/content.json"
+          ]
+        },
         {
           "description": "Problem 1.2",
           "ordinal": 2,
           "title": "1.2 Problem Toolbar Configuration",
           "subtitle": "Text only",
-          "config": {"toolbar": [{"id": "Text", "title": "Text", "isTileTool": true}, {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}]},
-          "sections": ["investigation-1/problem-2/first/content.json", "investigation-1/problem-2/second/content.json", "investigation-1/problem-2/third/content.json"]
+          "config": {
+            "toolbar": [
+              {
+                "id": "Text",
+                "title": "Text",
+                "isTileTool": true
+              },
+              {
+                "id": "delete",
+                "title": "Delete",
+                "iconId": "icon-delete-tool",
+                "isTileTool": false
+              }
+            ]
+          },
+          "sections": [
+            "investigation-1/problem-2/first/content.json",
+            "investigation-1/problem-2/second/content.json",
+            "investigation-1/problem-2/third/content.json"
+          ]
         }
       ]
     }

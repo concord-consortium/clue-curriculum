@@ -151,6 +151,13 @@
           ]
         },
         {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": [
+          ]
+        },
+        {
           "tab": "student-work",
           "label": "Student Workspaces",
           "teacherOnly": true,
@@ -2151,6 +2158,64 @@
                 ],
                 {
                   "id": "TemplateDiagramTileQ5_8",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "description": "M2Studio Spring 2024",
+      "ordinal": 6,
+      "title": "M2Studio Spring 2024",
+      "problems": [
+        {
+          "description": "M2S Activity 6.1",
+          "ordinal": 1,
+          "title": "Introduction to Math Modeling",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-1/resources/content.json", 
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_1",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_1",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_1",
                   "title": "Template Diagram Tile",
                   "content": {
                     "type": "Diagram",
