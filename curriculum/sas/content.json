@@ -81,7 +81,13 @@
     "stamps": [],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-graph",
+          ["data-set-view", "DataCard"],
+          "delete"
+        ]
       }
     },
     "showCommentTag": true,
