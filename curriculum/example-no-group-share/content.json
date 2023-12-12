@@ -10,7 +10,13 @@
     "defaultDocumentType": "personal",
     "settings": {
       "table": {
-        "numFormat": ".3~f"
+        "numFormat": ".3~f",
+        "tools": [
+          "set-expression",
+          "merge-in",
+          ["data-set-view", "Graph"],
+          "delete"
+        ]
       },
       "text": {
         "tools": [
@@ -51,8 +57,8 @@
       },
       "graph": {
         "tools": [
-          "addData",
-          "showAll"
+          "link-tile-multiple",
+          "fit-all"
         ],
         "defaultAxisLabels": {
           "bottom": "x",
