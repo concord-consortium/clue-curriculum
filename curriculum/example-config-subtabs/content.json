@@ -54,27 +54,8 @@
         {
           "tab": "sort-work",
           "label": "Sort Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "problem-documents",
-              "dataTestHeader": "sort-work-section-problem",
-              "dataTestItem": "sort-work-list-items",
-              "documentTypes": [
-                "personalPublication",
-                "personal",
-                "problem",
-                "publication"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ],
-              "properties": [
-                "!isTeacherDocument"
-              ]
-            }
-          ]
+          "teacherOnly": true,
+          "sections": []
         },
         {
           "tab": "my-work",
