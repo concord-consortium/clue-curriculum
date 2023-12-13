@@ -20,7 +20,18 @@
         }
       ]
     },
-    "toolbar": [{"id": "Text", "title": "Text", "isTileTool": true}, {"id": "Table", "title": "Table", "isTileTool": true}, {"id": "Drawing", "title": "Drawing", "isTileTool": true}, {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}],
+    "toolbar": [{"id": "Text", "title": "Text", "isTileTool": true}, {"id": "Table", "title": "Table", "isTileTool": true}, {"id": "Drawing", "title": "Drawing", "isTileTool": true}, {
+      "id": "sparrow",
+      "title": "Sparrow",
+      "iconId": "icon-sparrow-tool",
+      "isTileTool": false
+    },
+    {
+      "id": "hide-annotations",
+      "title": "Hide Annotations",
+      "iconId": "icon-hide-annotations-tool",
+      "isTileTool": false
+    }, {"id": "delete", "title": "Delete", "iconId": "icon-delete-tool", "isTileTool": false}],
     "stamps": []
   },
   "sections": {
