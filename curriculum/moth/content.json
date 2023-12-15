@@ -24,7 +24,35 @@
     },
     "defaultDocumentType": "problem",
     "settings": {
-      "table": { "numFormat": ".2~f", "tools": ["link-tile", "link-graph", ["data-set-view", "DataCard"], "delete"]},
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "merge-in",
+          "link-graph",
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "DataCard"
+          ],
+          "delete"
+        ]
+      },
+      "dataCard": {
+        "tools": [
+          "duplicate",
+          "merge-in",
+          "link-graph",
+          [
+            "data-set-view",
+            "Table"
+          ],
+          "image-upload",
+          "delete-attribute"
+        ]
+      },
       "graph": {
         "defaultAxisLabels": {
           "bottom": "Categories",
@@ -491,9 +519,8 @@
             "investigation-3/problem-2/sorting/content.json",
             "investigation-3/problem-2/pinning/content.json",
             "investigation-3/problem-2/analyze/content.json"
-
           ]
-        } 
+        }
       ]
     }
   ]
