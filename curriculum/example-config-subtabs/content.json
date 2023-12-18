@@ -55,7 +55,23 @@
           "tab": "sort-work",
           "label": "Sort Work",
           "teacherOnly": true,
-          "sections": []
+          "sections": [
+              {
+                "title": "Workspaces",
+                "type": "problem-documents",
+                "dataTestHeader": "my-work-section-investigations",
+                "dataTestItem": "my-work-list-items",
+                "documentTypes": [
+                  "problem",
+                  "planning"
+                ],
+                "order": "original",
+                "showStars": [
+                  "student",
+                  "teacher"
+                ]
+            }
+          ]
         },
         {
           "tab": "my-work",
