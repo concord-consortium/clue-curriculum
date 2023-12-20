@@ -195,7 +195,168 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Distinguishing Between Proportional and Non-Proportional Linear Relationships</strong></p><p><strong></strong></p>"
+            "<p><strong>Distinguishing Between Proportional and Non-Proportional Linear Relationships</strong></p><p>For both T-shirt plans, Cost and Number are linearly related. However, only one is also a proportional relationship. </p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "MpJ15s24ZXGmAZ0O",
+          "title": "No Shrink",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "VwWOUoUdX_Musy9b": 119.76995849609375,
+              "EjXVhmz_e1RpZiKI": 111.00259399414062
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "ATptoUq3cYKe3pDz",
+          "title": "Text 15",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>For No Shrink, we have already seen that the constant rate of change is 4.5/1. Notice also the equal horizontal ratios in the table, $4.50:1, $9:2, $13.5:3, $45:10. <em>That is, the horizontal ratios C/N are the same as the constant rate of change. So, the rate of change is also the constant of proportionality.</em></p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "snJGhqMyz9CqP3Rg",
+          "title": "Mighty Tee",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "VwiwAu295LVv7DkD": 119.76995849609375,
+              "Svf0qs2738O8P8pF": 111.00259399414062
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "5GPU5ADwK46rorUH",
+          "title": "Text 16",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>For Mighty Tee, we have seen the constant rate of change is 1/1. Notice that the horizontal ratios change, $50:1, $51:2, $59:10, $60:11 etc. <em>The horizontal ratios C/N are not the same as the constant rate of change. For this reason, there is no constant of proportionality.</em></p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "37897ceHiz4u6k_F",
+        "title": "Text 17",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Compare the graphs. </strong></p><p>Notice that for the points on this line, (1, 4.5), (2, 9), (3, 13.5), (10, 45) etc., the ratio of coordinates C/N = 4.5/1. This is equivalent to the equation C = 4.5N. All proportional relationships have this characteristic that Y/X = constant rate of change.  They can be written as Y/X = a or Y = ax, where a is the constant rate of change, constant of proportionality, or slope, and the y-intercept is (0,0). </p><p>For points on Mighty Tee’s graph, (1, 50), (2, 51), (11, 60) etc., the ratios of coordinates are not equal. The equation representing this relationship cannot be written C/N = a constant. It is not a proportional relationship. The y-intercept is not (0, 0).</p>"
+          ]
+        }
+      },
+      {
+        "id": "-jo8WruU9P0pfXXT",
+        "title": "Cost of No Shrink and Mighty Tee",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -1,
+                -1
+              ],
+              "axisRange": [
+                21,
+                71
+              ],
+              "axisNames": [
+                "Number of Ts",
+                "Cost"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "movableLine",
+              "parents": [
+                {
+                  "type": "point",
+                  "parents": [
+                    0,
+                    49
+                  ]
+                },
+                {
+                  "type": "point",
+                  "parents": [
+                    5.915335463258785,
+                    54.915335463258785
+                  ]
+                }
+              ],
+              "properties": {
+                "id": "XzBJ8cHELbg8_E13",
+                "pt1": {
+                  "type": "point",
+                  "id": "XzBJ8cHELbg8_E13-point1"
+                },
+                "pt2": {
+                  "type": "point",
+                  "id": "XzBJ8cHELbg8_E13-point2"
+                }
+              }
+            },
+            {
+              "type": "movableLine",
+              "parents": [
+                {
+                  "type": "point",
+                  "parents": [
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "point",
+                  "parents": [
+                    5.915335463258785,
+                    26.619009584664532
+                  ]
+                }
+              ],
+              "properties": {
+                "id": "7_fiq_7jc-7708rP",
+                "pt1": {
+                  "type": "point",
+                  "id": "7_fiq_7jc-7708rP-point1"
+                },
+                "pt2": {
+                  "type": "point",
+                  "id": "7_fiq_7jc-7708rP-point2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "a7rdN-CoVCVA4ASB",
+        "title": "Text 18",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Moving Between Representations</strong></p><p><strong></strong></p>"
           ]
         }
       }
@@ -339,6 +500,146 @@
         },
         "tiles": [
           "IuHIGXhhrf_nV64h"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "u8WxhXN9LH-2V6HF",
+          "providerId": "MpJ15s24ZXGmAZ0O",
+          "dataSet": {
+            "id": "F0JbKRaSupB1CzwA",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "VwWOUoUdX_Musy9b",
+                "clientKey": "",
+                "name": "Number of T's",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "...",
+                  "10"
+                ],
+                "title": ""
+              },
+              {
+                "id": "EjXVhmz_e1RpZiKI",
+                "clientKey": "",
+                "name": "Cost ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "4.5",
+                  "9",
+                  "13.5",
+                  "...",
+                  "45"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "bDf2bqdgPbb38-xE"
+              },
+              {
+                "__id__": "pIoA9w_ScP53pzZM"
+              },
+              {
+                "__id__": "Ar8stToPhqn5rbiJ"
+              },
+              {
+                "__id__": "Ix-iGMap_U4lfTno"
+              },
+              {
+                "__id__": "KbD8xokZcR69HtLM"
+              },
+              {
+                "__id__": "NucZfHqJq0vB99Sn"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "MpJ15s24ZXGmAZ0O"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "D6KuKesnCfJN3_oW",
+          "providerId": "snJGhqMyz9CqP3Rg",
+          "dataSet": {
+            "id": "twSCL2RMCmnh0jMX",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "VwiwAu295LVv7DkD",
+                "clientKey": "",
+                "name": "Number of T's",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "...",
+                  "10",
+                  "11"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Svf0qs2738O8P8pF",
+                "clientKey": "",
+                "name": "Cost ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "49",
+                  "50",
+                  "51",
+                  "...",
+                  "59",
+                  "60"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HJ4C5PPYY4HKC1YK0NFHN5XQ"
+              },
+              {
+                "__id__": "01HJ4C5PPYY4HKC1YK0NFHN5XR"
+              },
+              {
+                "__id__": "01HJ4C5PPYY4HKC1YK0NFHN5XS"
+              },
+              {
+                "__id__": "01HJ4C5PPYY4HKC1YK0NFHN5XT"
+              },
+              {
+                "__id__": "01HJ4C5PPYY4HKC1YK0NFHN5XV"
+              },
+              {
+                "__id__": "01HJ4C5PPYY4HKC1YK0NFHN5XW"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "snJGhqMyz9CqP3Rg"
         ]
       }
     ],
