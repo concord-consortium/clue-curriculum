@@ -55,7 +55,23 @@
           "tab": "sort-work",
           "label": "Sort Work",
           "teacherOnly": true,
-          "sections": []
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "sort-work-section",
+              "dataTestItem": "sort-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
         },
         {
           "tab": "my-work",
@@ -75,6 +91,30 @@
                 "student",
                 "teacher"
               ]
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
             },
             {
               "title": "Workspaces",
