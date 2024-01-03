@@ -359,6 +359,129 @@
             "<p><strong>Moving Between Representations</strong></p><p>Starting with the equation and generating ordered pairs for the table or graph is just a matter of substituting values for one variable to find the related value for the other variable. It is also possible to start with a table or graph and find the related equation. See below for two examples.</p>"
           ]
         }
+      },
+      [
+        {
+          "id": "VlCKJDXgUfXE0wbV",
+          "title": "Negative Slope",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "KZ9nSebz6F4KyEk-": 80,
+              "T5bAUnkK083LjkXS": 80
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "PxjhWVHcVJcbAeuB",
+          "title": "Text 19",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The rate of change (or slope) is -2/1 (or -14/7). It is constant so this is a linear relationship. The intercept is (0, 16). The equation that represents this linear relationship is y = -2x + 16. </p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "aYwkj8Es7NO1uWmU",
+        "title": "Negative Slope",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.4,
+                -1
+              ],
+              "axisRange": [
+                44.4,
+                21
+              ],
+              "axisNames": [
+                "x",
+                "y"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "movableLine",
+              "parents": [
+                {
+                  "type": "point",
+                  "parents": [
+                    0.018459396473036103,
+                    15.94358659827191
+                  ]
+                },
+                {
+                  "type": "point",
+                  "parents": [
+                    7.95747103088999,
+                    0.03585317860478998
+                  ]
+                }
+              ],
+              "properties": {
+                "id": "qMn6-cImOi3BB9S2",
+                "pt1": {
+                  "type": "point",
+                  "id": "qMn6-cImOi3BB9S2-point1"
+                },
+                "pt2": {
+                  "type": "point",
+                  "id": "qMn6-cImOi3BB9S2-point2"
+                }
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                14
+              ],
+              "properties": {
+                "id": "AbfZVunQY6CJoiiu",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                12
+              ],
+              "properties": {
+                "id": "F15UfIDoQxz9VNcq",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                3,
+                10
+              ],
+              "properties": {
+                "id": "8SM9hEVgQydpXoU7",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            }
+          ]
+        }
       }
     ],
     "sharedModels": [
@@ -640,6 +763,76 @@
         },
         "tiles": [
           "snJGhqMyz9CqP3Rg"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "rflcAycrsvHTQL2N",
+          "providerId": "VlCKJDXgUfXE0wbV",
+          "dataSet": {
+            "id": "OJVzwRzKSuhEpWtz",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "KZ9nSebz6F4KyEk-",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "...",
+                  "10"
+                ],
+                "title": ""
+              },
+              {
+                "id": "T5bAUnkK083LjkXS",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "14",
+                  "12",
+                  "10",
+                  "...",
+                  "-6"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "f_wXmI-tnXIIFdNm"
+              },
+              {
+                "__id__": "5SDD-dAHsLkZwK_H"
+              },
+              {
+                "__id__": "7C7tKjVrzQFeBxwc"
+              },
+              {
+                "__id__": "yev5vFf6lRrCUKDW"
+              },
+              {
+                "__id__": "v9ueNf8gU1R5zA5c"
+              },
+              {
+                "__id__": "LuS11OJuZxZhFWy3"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "VlCKJDXgUfXE0wbV"
         ]
       }
     ],
@@ -965,6 +1158,168 @@
         "textOffset": {
           "dx": 51,
           "dy": 3
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "qkyry8MGVqGKgOrG",
+        "sourceObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{f_wXmI-tnXIIFdNm}:{KZ9nSebz6F4KyEk-}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 19,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{5SDD-dAHsLkZwK_H}:{KZ9nSebz6F4KyEk-}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 17,
+          "dy": 2
+        },
+        "text": "+1",
+        "textOffset": {
+          "dx": 31,
+          "dy": 1
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "uaxYj-Z85qB_-EH1",
+        "sourceObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{f_wXmI-tnXIIFdNm}:{T5bAUnkK083LjkXS}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 30,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{5SDD-dAHsLkZwK_H}:{T5bAUnkK083LjkXS}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 29,
+          "dy": 0
+        },
+        "text": "-2",
+        "textOffset": {
+          "dx": 37,
+          "dy": 1
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "8RjCIDhleAPqrXWe",
+        "sourceObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{5SDD-dAHsLkZwK_H}:{KZ9nSebz6F4KyEk-}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 16,
+          "dy": -1
+        },
+        "targetObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{7C7tKjVrzQFeBxwc}:{KZ9nSebz6F4KyEk-}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 16,
+          "dy": 2
+        },
+        "text": "+1",
+        "textOffset": {
+          "dx": 34,
+          "dy": 4
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "SYoi4ljMiCCclcl1",
+        "sourceObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{5SDD-dAHsLkZwK_H}:{T5bAUnkK083LjkXS}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 30,
+          "dy": 8
+        },
+        "targetObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{7C7tKjVrzQFeBxwc}:{T5bAUnkK083LjkXS}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 34,
+          "dy": 1
+        },
+        "text": "-2",
+        "textOffset": {
+          "dx": 39,
+          "dy": 2
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "PUnIpxX_taA634-j",
+        "sourceObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{yev5vFf6lRrCUKDW}:{KZ9nSebz6F4KyEk-}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 18,
+          "dy": -1
+        },
+        "targetObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{LuS11OJuZxZhFWy3}:{KZ9nSebz6F4KyEk-}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 20,
+          "dy": 0
+        },
+        "text": "+7",
+        "textOffset": {
+          "dx": 32,
+          "dy": 0
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "VlHNmY9FZxG4TO2d",
+        "sourceObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{yev5vFf6lRrCUKDW}:{T5bAUnkK083LjkXS}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 22,
+          "dy": 1
+        },
+        "targetObject": {
+          "tileId": "VlCKJDXgUfXE0wbV",
+          "objectId": "cell:{LuS11OJuZxZhFWy3}:{T5bAUnkK083LjkXS}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 24,
+          "dy": 1
+        },
+        "text": "-14",
+        "textOffset": {
+          "dx": 42,
+          "dy": 0
         },
         "type": "arrowAnnotation"
       }
