@@ -570,26 +570,28 @@
           ]
         }
       },
-      {
-        "id": "nbjeJQ3hO0QKsQtj",
-        "title": "Text 21",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>The students in Ms. Chang&#x27;s class decide to order water bottles that advertise the walkathon. Hyun obtains two different quotes for the costs of the bottles.</p>"
-          ]
+      [
+        {
+          "id": "nbjeJQ3hO0QKsQtj",
+          "title": "Text 21",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The students in Ms. Chang&#x27;s class decide to order water bottles that advertise the walkathon. Hyun obtains two different quotes for the costs of the bottles.</p>"
+            ]
+          }
+        },
+        {
+          "id": "1cbVo1kIrVsnuwWQ",
+          "title": "Phone Screen Image",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/iphone.png",
+            "filename": "msa/images/iphone.png"
+          }
         }
-      },
-      {
-        "id": "1cbVo1kIrVsnuwWQ",
-        "title": "Phone Screen Image",
-        "content": {
-          "type": "Image",
-          "url": "msa/images/iphone.png",
-          "filename": "msa/images/iphone.png"
-        }
-      },
+      ],
       {
         "id": "ptKHV6kIDrzp55hc",
         "title": "Text 22",
@@ -615,75 +617,99 @@
       },
       [
         {
-          "id": "vvJECHn1ftnQ5Aw5",
-          "title": "Fill It Up and Bottles by Bob",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  50,
-                  194
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "polygon",
-                "parents": [
-                  "_PxNGDNYbLeX3eXo:NGPiZfJVckNERmby",
-                  "e8MiMA7kItAC4voM:NGPiZfJVckNERmby",
-                  "E1wYr8Yzp_vn9XLC:NGPiZfJVckNERmby",
-                  "Z6Zz3Xb17zIsVVSb:NGPiZfJVckNERmby",
-                  "lZz3W1dzwEHr19U7:NGPiZfJVckNERmby",
-                  "TW5kmJI5S8C7miVd:NGPiZfJVckNERmby",
-                  "UzxbdZ6gdKOa_3bc:NGPiZfJVckNERmby"
-                ],
-                "properties": {
-                  "id": "BkdryLSUzXyzY6jM"
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
-                  "_PxNGDNYbLeX3eXo:cO86FvF8QPtkS8Zz",
-                  "e8MiMA7kItAC4voM:cO86FvF8QPtkS8Zz",
-                  "E1wYr8Yzp_vn9XLC:cO86FvF8QPtkS8Zz",
-                  "Z6Zz3Xb17zIsVVSb:cO86FvF8QPtkS8Zz",
-                  "lZz3W1dzwEHr19U7:cO86FvF8QPtkS8Zz",
-                  "TW5kmJI5S8C7miVd:cO86FvF8QPtkS8Zz",
-                  "UzxbdZ6gdKOa_3bc:cO86FvF8QPtkS8Zz"
-                ],
-                "properties": {
-                  "id": "8npYbcv2l00YTMkE"
-                }
-              }
-            ]
-          },
-          "layout": {
-            "height": 330
-          }
-        },
-        {
           "id": "4FKz11ngRq1OzNrG",
-          "title": "Fill it up and Bottles by bob",
+          "title": "Cost for Fill It Up",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "9kegHh0UOAC5pJy9": 80,
-              "cO86FvF8QPtkS8Zz": 80,
-              "NGPiZfJVckNERmby": 80
+              "cO86FvF8QPtkS8Zz": 80
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "VUx6akqMIGSlkZwX",
+          "title": "Cost for Bottles by Bob",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "DAHKWu21x3MWTbfy": 80,
+              "zO65xLg0lzoBD_IJ": 140.41232299804688
             },
             "name": "Table 1"
           }
         }
       ],
+      {
+        "id": "DmXYmaL8b9Bbgu1n",
+        "title": "Cost for Fill It Up and Bottles by Bob",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -2.1,
+                -0.9
+              ],
+              "axisRange": [
+                103.7,
+                179.9
+              ],
+              "axisNames": [
+                "# of Bottles",
+                "Cost ($)"
+              ],
+              "axisLabels": [
+                "",
+                ""
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "polygon",
+              "parents": [
+                "_PxNGDNYbLeX3eXo:cO86FvF8QPtkS8Zz",
+                "e8MiMA7kItAC4voM:cO86FvF8QPtkS8Zz",
+                "E1wYr8Yzp_vn9XLC:cO86FvF8QPtkS8Zz",
+                "Z6Zz3Xb17zIsVVSb:cO86FvF8QPtkS8Zz",
+                "lZz3W1dzwEHr19U7:cO86FvF8QPtkS8Zz",
+                "TW5kmJI5S8C7miVd:cO86FvF8QPtkS8Zz",
+                "UzxbdZ6gdKOa_3bc:cO86FvF8QPtkS8Zz"
+              ],
+              "properties": {
+                "id": "ZA3atFbWen4D9MS5"
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "01HKD16Y3NMBAH8G8GHY9WKWJW:zO65xLg0lzoBD_IJ",
+                "01HKD16Y3NMBAH8G8GHY9WKWJX:zO65xLg0lzoBD_IJ",
+                "01HKD16Y3PMGTQBVRWCCXPFSX9:zO65xLg0lzoBD_IJ",
+                "01HKD16Y3PMGTQBVRWCCXPFSXA:zO65xLg0lzoBD_IJ",
+                "01HKD16Y3PMGTQBVRWCCXPFSXB:zO65xLg0lzoBD_IJ",
+                "01HKD16Y3PMGTQBVRWCCXPFSXC:zO65xLg0lzoBD_IJ",
+                "01HKD16Y3PMGTQBVRWCCXPFSXD:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXF:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXG:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXH:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXJ:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXK:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXM:zO65xLg0lzoBD_IJ",
+                "01HKD192CHTV0B9Y681EEC3DXN:zO65xLg0lzoBD_IJ"
+              ],
+              "properties": {
+                "id": "Zr1r69LPdzjGexJG"
+              }
+            }
+          ]
+        }
+      },
       {
         "id": "JsLWHkVRDS0qsvZb",
         "title": "Text 24",
@@ -2415,27 +2441,6 @@
                   192
                 ],
                 "title": ""
-              },
-              {
-                "id": "NGPiZfJVckNERmby",
-                "clientKey": "",
-                "name": "Bottles by Bob",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": "25+3*x",
-                  "canonical": "(25 + (3 * __x__))"
-                },
-                "values": [
-                  25,
-                  49,
-                  73,
-                  97,
-                  121,
-                  145,
-                  169
-                ],
-                "title": ""
               }
             ],
             "cases": [
@@ -2465,7 +2470,7 @@
         },
         "tiles": [
           "4FKz11ngRq1OzNrG",
-          "vvJECHn1ftnQ5Aw5"
+          "DmXYmaL8b9Bbgu1n"
         ]
       },
       {
@@ -3215,6 +3220,120 @@
         },
         "tiles": [
           "sh12ETyeYPYCvY6k"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Z0W2BgVaX7G1Hw4o",
+          "providerId": "VUx6akqMIGSlkZwX",
+          "dataSet": {
+            "id": "mKy6KoQTsUwVkQqd",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "DAHKWu21x3MWTbfy",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "8",
+                  "16",
+                  "24",
+                  "32",
+                  "40",
+                  "48",
+                  "0",
+                  "8",
+                  "16",
+                  "24",
+                  "32",
+                  "40",
+                  "48"
+                ],
+                "title": ""
+              },
+              {
+                "id": "zO65xLg0lzoBD_IJ",
+                "clientKey": "",
+                "name": "Bottles by Bob",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "25+3*x",
+                  "canonical": "(25 + (3 * __x__))"
+                },
+                "values": [
+                  25,
+                  49,
+                  73,
+                  97,
+                  121,
+                  145,
+                  169,
+                  25,
+                  49,
+                  73,
+                  97,
+                  121,
+                  145,
+                  169
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HKD16Y3NMBAH8G8GHY9WKWJW"
+              },
+              {
+                "__id__": "01HKD16Y3NMBAH8G8GHY9WKWJX"
+              },
+              {
+                "__id__": "01HKD16Y3PMGTQBVRWCCXPFSX9"
+              },
+              {
+                "__id__": "01HKD16Y3PMGTQBVRWCCXPFSXA"
+              },
+              {
+                "__id__": "01HKD16Y3PMGTQBVRWCCXPFSXB"
+              },
+              {
+                "__id__": "01HKD16Y3PMGTQBVRWCCXPFSXC"
+              },
+              {
+                "__id__": "01HKD16Y3PMGTQBVRWCCXPFSXD"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXF"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXG"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXH"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXJ"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXK"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXM"
+              },
+              {
+                "__id__": "01HKD192CHTV0B9Y681EEC3DXN"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "VUx6akqMIGSlkZwX",
+          "DmXYmaL8b9Bbgu1n"
         ]
       }
     ]
