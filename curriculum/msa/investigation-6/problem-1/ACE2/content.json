@@ -32,7 +32,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Grace and Allie are going to meet at the fountain near their houses. They both leave their houses at the same time. Allie passes Grace&#x27;s house on her way to the fountain.</p><ul><li>Allie&#x27;s walking rate is 2 meters per second.</li><li>Grace&#x27;s walking rate is 1.5 meters per second.</li></ul><p><strong>a.  </strong>How many seconds will it take Allie to reach the fountain?</p><p><strong>b.  </strong>Suppose Grace&#x27;s house is 90 meters from the fountain. Who will reach the fountain first, Allie or Grace? Explain your reasoning.</p>"
+              "<p>Grace and Allie are going to meet at the fountain near their houses. They both leave their houses at the same time. Allie passes Grace&#x27;s house on her way to the fountain.</p><ul><li>Allie&#x27;s walking rate is 2 meters per second.</li><li>Grace&#x27;s walking rate is 1.5 meters per second.</li></ul>"
             ]
           }
         },
@@ -46,6 +46,17 @@
           }
         }
       ],
+      {
+        "id": "1ujlpIc78sgD00fg",
+        "title": "Text 71",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>a.  </strong>How many seconds will it take Allie to reach the fountain?</p><p><strong>b.  </strong>Suppose Grace&#x27;s house is 90 meters from the fountain. Who will reach the fountain first, Allie or Grace? Explain your reasoning.</p>"
+          ]
+        }
+      },
       {
         "id": "sDugqEgiBiXuUTG8",
         "title": "Text 4",
@@ -76,8 +87,16 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In Problem 2.1, Emile&#x27;s friend, Gilberto, joins the race. Gilberto has a head start of 20 meters and walks at 2 meters per second.</p><p><strong>a. </strong> Write an equation that gives the relationship between Gilberto&#x27;s distance d from where Emile starts and the time t.</p><p><strong>b. </strong> How would Gilberto&#x27;s graph compare to Emile&#x27;s and Henri&#x27;s graphs?</p><p><strong>c. </strong> Emile wrote the following inequality: 20 + 2t &gt; 45 + t. What information was he looking for?</p>"
+            "<p>In Problem 2.1, Emile&#x27;s friend, Gilberto, joins the race. Gilberto has a head start of 20 meters and walks at 2 meters per second.</p><p><strong>a. </strong> Write an equation that gives the relationship between Gilberto&#x27;s distance d from where Emile starts and the time t.</p><p><strong>b. </strong> How would Gilberto&#x27;s graph compare to Emile&#x27;s and Henri&#x27;s graphs?</p><p><strong>c. </strong> Emile wrote the inequality below. What information was he looking for?</p>"
           ]
+        }
+      },
+      {
+        "id": "8NioJigYt5a6ifWB",
+        "title": "Emile's Inequality",
+        "content": {
+          "type": "Expression",
+          "latexStr": "20+2t>45+t"
         }
       },
       {
@@ -114,22 +133,36 @@
           ]
         }
       },
-      {
-        "id": "2Xrg-noCnTUY3FD4",
-        "title": "Tara's and Ingrid's Walk to School",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "1O5M9qU16rsDQK4R": 132,
-            "qJx04vxTKxIxYIJ4": 178,
-            "Cj0BxQBweTyRUwPH": 181
-          },
-          "name": "Table 1"
+      [
+        {
+          "id": "2Xrg-noCnTUY3FD4",
+          "title": "Tara's  Walk to School",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "1O5M9qU16rsDQK4R": 132,
+              "qJx04vxTKxIxYIJ4": 178
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "sBUnw_UijwXllhYw",
+          "title": "Ingrid's Walk to School",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "RWDmSmia8szlDfnV": 132,
+              "4ff6l-0zG80N3GF0": 181
+            },
+            "name": "Table 1"
+          }
         }
-      },
+      ],
       {
-        "id": "V89Z7CYTgN7k5p0L",
+        "id": "cX2mRu-KjkTQK9BQ",
         "title": "Tara's and Ingrid's Walk to School",
         "content": {
           "type": "Geometry",
@@ -140,23 +173,20 @@
                 -1
               ],
               "axisRange": [
-                6.964,
-                1280.204
+                7,
+                1501
+              ],
+              "axisNames": [
+                "Time (minutes)",
+                "Distance (feet)"
+              ],
+              "axisLabels": [
+                "",
+                ""
               ]
             }
           },
           "objects": [
-            {
-              "type": "polygon",
-              "parents": [
-                "W1URm5I_WE0FUzGJ:Cj0BxQBweTyRUwPH",
-                "sWdRH8kHS0Y-Egdk:Cj0BxQBweTyRUwPH",
-                "-OiYCMaJIIlXy4ET:Cj0BxQBweTyRUwPH"
-              ],
-              "properties": {
-                "id": "J0qA2jjr_sXpMYBL"
-              }
-            },
             {
               "type": "polygon",
               "parents": [
@@ -165,67 +195,68 @@
                 "-OiYCMaJIIlXy4ET:qJx04vxTKxIxYIJ4"
               ],
               "properties": {
-                "id": "3BPX5HdEqHpXfrhw"
+                "id": "jUlYU82gogbEZB7g"
               }
             },
             {
-              "type": "movableLine",
+              "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    492.5695652173913
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2.002567802616863,
-                    748.6
-                  ]
-                }
+                "01HKD2RK0YJCBNTYEYC9BNPEKH:4ff6l-0zG80N3GF0",
+                "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0",
+                "01HKD2RK0YJCBNTYEYC9BNPEKK:4ff6l-0zG80N3GF0"
               ],
               "properties": {
-                "id": "AWoVwWGZSOIt6B2R",
-                "pt1": {
-                  "type": "point",
-                  "id": "AWoVwWGZSOIt6B2R-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "AWoVwWGZSOIt6B2R-point2"
-                }
+                "id": "XNW-9TlfA5zjhDuU"
               }
             },
             {
-              "type": "movableLine",
+              "type": "point",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2.00445765230312,
-                    502.3695652173912
-                  ]
-                }
+                1,
+                250
               ],
               "properties": {
-                "id": "9VYJ3ie4xyyQ08vk",
-                "pt1": {
-                  "type": "point",
-                  "id": "9VYJ3ie4xyyQ08vk-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "9VYJ3ie4xyyQ08vk-point2"
-                }
+                "id": "5fn54T9aIgQh8uBQ",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                0.23123802329009413,
+                -89.11371446692425
+              ],
+              "properties": {
+                "id": "swilHGYgWxwQ27qq",
+                "text": "Ingrid",
+                "anchor": "5fn54T9aIgQh8uBQ"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                627.5
+              ],
+              "properties": {
+                "id": "C8IkC1brj4h3W3lR",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -0.1737685514984354,
+                149.93533590565562
+              ],
+              "properties": {
+                "id": "3mIT6WQhZ5aH7vlQ",
+                "text": "Tara",
+                "anchor": "C8IkC1brj4h3W3lR"
               }
             }
           ]
@@ -302,8 +333,8 @@
                 -1
               ],
               "axisRange": [
-                314.175,
-                247.077
+                302,
+                202
               ]
             }
           },
@@ -2014,20 +2045,6 @@
                   "1000"
                 ],
                 "title": ""
-              },
-              {
-                "id": "Cj0BxQBweTyRUwPH",
-                "clientKey": "",
-                "name": "Ingrid Distance (feet)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "0",
-                  "500",
-                  "1000"
-                ],
-                "title": ""
               }
             ],
             "cases": [
@@ -2045,7 +2062,7 @@
         },
         "tiles": [
           "2Xrg-noCnTUY3FD4",
-          "V89Z7CYTgN7k5p0L"
+          "cX2mRu-KjkTQK9BQ"
         ]
       },
       {
@@ -2930,6 +2947,62 @@
         "tiles": [
           "txklGcbn6PNn1Vni",
           "huRzlaDIP1LhxEoY"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "42lNS7mVi-ySqE8S",
+          "providerId": "sBUnw_UijwXllhYw",
+          "dataSet": {
+            "id": "aDMCP3xjSbD6j6GD",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "RWDmSmia8szlDfnV",
+                "clientKey": "",
+                "name": "Time (minutes)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "2",
+                  "4."
+                ],
+                "title": ""
+              },
+              {
+                "id": "4ff6l-0zG80N3GF0",
+                "clientKey": "",
+                "name": "Ingrid Distance (feet)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "500",
+                  "1000"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HKD2RK0YJCBNTYEYC9BNPEKH"
+              },
+              {
+                "__id__": "01HKD2RK0YJCBNTYEYC9BNPEKJ"
+              },
+              {
+                "__id__": "01HKD2RK0YJCBNTYEYC9BNPEKK"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "sBUnw_UijwXllhYw",
+          "cX2mRu-KjkTQK9BQ"
         ]
       }
     ]
