@@ -1064,84 +1064,103 @@
           ]
         }
       },
-      [
-        {
-          "id": "xz7m7xjgZCTkO7c7",
-          "title": "Cricket Chirps",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
+      {
+        "id": "fiPndf4ZF1NfCJMh",
+        "title": "Cricket Chirps",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.1,
+                -0.9
+              ],
+              "axisRange": [
+                244.1,
+                100.9
+              ],
+              "axisNames": [
+                "# of Chirps",
+                "Temperature (F)"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "point",
+              "parents": [
+                0,
+                40
+              ],
               "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  162,
-                  82
-                ]
+                "id": "rJxQAT6DHKdLteWK",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
               }
             },
-            "objects": [
-              {
-                "type": "polygon",
-                "parents": [
-                  "7XT3vL79-CTdV4G3:o7VJeF6Y1RgWShki",
-                  "xux7IcZi4wYUrQBT:o7VJeF6Y1RgWShki",
-                  "7OP065xmB05z_LvW:o7VJeF6Y1RgWShki"
-                ],
-                "properties": {
-                  "id": "IBcD5O-PExz_L1Vv"
-                }
-              },
-              {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      1.2272727272727277,
-                      41
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      80.47727272727276,
-                      60.734375
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "DaBtFoEk7ITft7xu",
-                  "pt1": {
-                    "type": "point",
-                    "id": "DaBtFoEk7ITft7xu-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "DaBtFoEk7ITft7xu-point2"
-                  }
-                }
+            {
+              "type": "point",
+              "parents": [
+                80,
+                60
+              ],
+              "properties": {
+                "id": "aHrEWymcpcU-oXeF",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
               }
-            ]
-          }
+            },
+            {
+              "type": "point",
+              "parents": [
+                160,
+                80
+              ],
+              "properties": {
+                "id": "tzCBLM39URjw9PU6",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                240,
+                99.9
+              ],
+              "properties": {
+                "id": "6ZuwQud_1JXQ0bQz",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "rJxQAT6DHKdLteWK",
+                "aHrEWymcpcU-oXeF",
+                "tzCBLM39URjw9PU6",
+                "6ZuwQud_1JXQ0bQz"
+              ],
+              "properties": {
+                "id": "JwnE7ouKwc3e2z71"
+              }
+            }
+          ]
         },
-        {
-          "id": "dKZIZ0LGu73j2r6v",
-          "title": "Cricket Chirps",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "knV99xBeJNZMQ3Rp": 136,
-              "o7VJeF6Y1RgWShki": 141
-            },
-            "name": "Table 1"
-          }
+        "layout": {
+          "height": 338.99481201171875
         }
-      ],
+      },
       {
         "id": "J-FyT5z_YkDXYej6",
         "title": "Text 2",
@@ -2472,62 +2491,6 @@
       }
     ],
     "sharedModels": [
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "ShuGUDcGwF6hC1M9",
-          "providerId": "dKZIZ0LGu73j2r6v",
-          "dataSet": {
-            "id": "uSQpFDgiwJ-M9eI-",
-            "name": "Table 1",
-            "attributes": [
-              {
-                "id": "knV99xBeJNZMQ3Rp",
-                "clientKey": "",
-                "name": "Number of Chrips",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "0",
-                  "80",
-                  "160"
-                ],
-                "title": ""
-              },
-              {
-                "id": "o7VJeF6Y1RgWShki",
-                "clientKey": "",
-                "name": "Temperature (deg F)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "40",
-                  "60",
-                  "80"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "7XT3vL79-CTdV4G3"
-              },
-              {
-                "__id__": "xux7IcZi4wYUrQBT"
-              },
-              {
-                "__id__": "7OP065xmB05z_LvW"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "dKZIZ0LGu73j2r6v",
-          "xz7m7xjgZCTkO7c7"
-        ]
-      },
       {
         "sharedModel": {
           "type": "SharedDataSet",
