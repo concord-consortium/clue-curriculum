@@ -223,18 +223,6 @@
               }
             },
             {
-              "type": "comment",
-              "parents": [
-                0.23123802329009413,
-                -89.11371446692425
-              ],
-              "properties": {
-                "id": "swilHGYgWxwQ27qq",
-                "text": "Ingrid",
-                "anchor": "5fn54T9aIgQh8uBQ"
-              }
-            },
-            {
               "type": "point",
               "parents": [
                 1,
@@ -250,13 +238,25 @@
             {
               "type": "comment",
               "parents": [
-                -0.1737685514984354,
-                149.93533590565562
+                2.2936330942007213,
+                385.4166012639584
               ],
               "properties": {
-                "id": "3mIT6WQhZ5aH7vlQ",
+                "id": "GRm1pb_TTSSmpDhh",
+                "text": "Ingrid",
+                "anchor": "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                1.8686829056206915,
+                1008.8585570515065
+              ],
+              "properties": {
+                "id": "FqQJdFb_FElJ_W9C",
                 "text": "Tara",
-                "anchor": "C8IkC1brj4h3W3lR"
+                "anchor": "sWdRH8kHS0Y-Egdk:qJx04vxTKxIxYIJ4"
               }
             }
           ]
@@ -307,23 +307,37 @@
           ]
         }
       },
-      {
-        "id": "OnUyc0WgdJ4uTEQF",
-        "title": "Cost and Income From the Protein Bar Sale",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "EHr9OZXNFvXwdYZV": 116,
-            "B8QPul9FOL6XQHUu": 132,
-            "lUPVFk474KmHWUqi": 117
-          },
-          "name": "Table 1"
+      [
+        {
+          "id": "OnUyc0WgdJ4uTEQF",
+          "title": "Cost for Protein Bars",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "EHr9OZXNFvXwdYZV": 116,
+              "lUPVFk474KmHWUqi": 117
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "z_eb5aCEIIcWOEQ1",
+          "title": "Income from Protein Bar Sale",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "hVnhSxTPICaL_lDE": 116,
+              "1H85G8-bsCHodsP8": 132
+            },
+            "name": "Table 1"
+          }
         }
-      },
+      ],
       {
-        "id": "6x6tyhN1WIPGPvLK",
-        "title": "Cost and Income From the Protein Bar Sale",
+        "id": "XKdjpAcAbJZN8opc",
+        "title": "Cost and Income from the Protein Bar Sale",
         "content": {
           "type": "Geometry",
           "board": {
@@ -335,6 +349,14 @@
               "axisRange": [
                 302,
                 202
+              ],
+              "axisNames": [
+                "Number of Bars Sold",
+                "Total Dollars"
+              ],
+              "axisLabels": [
+                "",
+                ""
               ]
             }
           },
@@ -348,91 +370,43 @@
                 "NunDAxayZMagViX5:lUPVFk474KmHWUqi"
               ],
               "properties": {
-                "id": "MhCc4ybICTFq05xw"
+                "id": "HVp5xCkpRlVBOLs3"
               }
             },
             {
               "type": "polygon",
               "parents": [
-                "hEICnOhk6PQp2tbH:B8QPul9FOL6XQHUu",
-                "Wx_WITxBhYlsTQ-A:B8QPul9FOL6XQHUu",
-                "subJp4w3N4H6sxQy:B8QPul9FOL6XQHUu",
-                "NunDAxayZMagViX5:B8QPul9FOL6XQHUu"
+                "01HKD393PTBZ5ND6C9MYSEHPGM:1H85G8-bsCHodsP8",
+                "01HKD393PTBZ5ND6C9MYSEHPGN:1H85G8-bsCHodsP8",
+                "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8",
+                "01HKD393PTBZ5ND6C9MYSEHPGQ:1H85G8-bsCHodsP8"
               ],
               "properties": {
-                "id": "eQ4EYG4q9ph_olVj"
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    -0.3
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    151.54877883707266,
-                    101.08188405797102
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "9guBATw-a7PJVqnJ",
-                "pt1": {
-                  "type": "point",
-                  "id": "9guBATw-a7PJVqnJ-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "9guBATw-a7PJVqnJ-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    25.6
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    226.3365527488856,
-                    100.6396892564119
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "fxp4v1TiFWeexhzw",
-                "pt1": {
-                  "type": "point",
-                  "id": "fxp4v1TiFWeexhzw-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "fxp4v1TiFWeexhzw-point2"
-                }
+                "id": "5QmqVyPwUGJk73SC"
               }
             },
             {
               "type": "comment",
               "parents": [
-                17.949479940564657,
-                -45.644927536231855
+                159.22481595552887,
+                62.89467344422272
               ],
               "properties": {
-                "id": "3K52TvOTwhZhTWcC",
+                "id": "K4VT7CNdcDvoXdb6",
                 "text": "Cost",
-                "anchor": "fxp4v1TiFWeexhzw"
+                "anchor": "subJp4w3N4H6sxQy:lUPVFk474KmHWUqi"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                145.1317157274753,
+                132.8210484601449
+              ],
+              "properties": {
+                "id": "JR53qcj4uujmJlmY",
+                "text": "Income",
+                "anchor": "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8"
               }
             }
           ]
@@ -2077,7 +2051,7 @@
               {
                 "id": "EHr9OZXNFvXwdYZV",
                 "clientKey": "",
-                "name": "Number of Bars Sold",
+                "name": "# of Bars",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -2090,24 +2064,9 @@
                 "title": ""
               },
               {
-                "id": "B8QPul9FOL6XQHUu",
-                "clientKey": "",
-                "name": "Total Dollars Income",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "0",
-                  "50",
-                  "100",
-                  "200"
-                ],
-                "title": ""
-              },
-              {
                 "id": "lUPVFk474KmHWUqi",
                 "clientKey": "",
-                "name": "Total Dollars Cost",
+                "name": "Cost ($)",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -2138,7 +2097,7 @@
         },
         "tiles": [
           "OnUyc0WgdJ4uTEQF",
-          "6x6tyhN1WIPGPvLK"
+          "XKdjpAcAbJZN8opc"
         ]
       },
       {
@@ -3003,6 +2962,67 @@
         "tiles": [
           "sBUnw_UijwXllhYw",
           "cX2mRu-KjkTQK9BQ"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "KWpztptQIqiGvP1x",
+          "providerId": "z_eb5aCEIIcWOEQ1",
+          "dataSet": {
+            "id": "y4kgZNaNNyXrJyDV",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "hVnhSxTPICaL_lDE",
+                "clientKey": "",
+                "name": "# of Bars",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "75",
+                  "150",
+                  "300"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1H85G8-bsCHodsP8",
+                "clientKey": "",
+                "name": "Income ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "50",
+                  "100",
+                  "200"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGM"
+              },
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGN"
+              },
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGP"
+              },
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGQ"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "z_eb5aCEIIcWOEQ1",
+          "XKdjpAcAbJZN8opc"
         ]
       }
     ]
