@@ -27,7 +27,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Step 1: Create a Dataflow program that controls the gripper</strong></p><p>Follow the instructions in <a href=\"https://www.youtube.com/watch?v=N5n1KW-qGjQ\">this video tutorial</a> (the video instructions are also listed below). </p><p><strong>Setting Up</strong></p>"
+            "<p><u><strong>Step 1: Create a Dataflow program that controls the gripper</strong></u></p><p>Follow the instructions in <a href=\"https://www.youtube.com/watch?v=N5n1KW-qGjQ\">this video tutorial</a> (the video instructions are also listed below). </p><p><strong>Set-Up</strong></p>"
           ]
         }
       },
@@ -49,25 +49,6 @@
           "type": "Image",
           "url": "brain/images/plug-usb.jpg",
           "filename": "brain/images/plug-usb.jpg"
-        }
-      },
-      {
-        "id": "_tBY3tOwPRKPKgQM",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>2. Plug in the Alligator clips to the Arduino Board.</p>"
-          ]
-        }
-      },
-      {
-        "id": "mMXFp4wDNJbKXR8G",
-        "title": "Image 3",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/plug-in-alligator-clips.jpg",
-          "filename": "brain/images/plug-in-alligator-clips.jpg"
         }
       },
       {
@@ -117,26 +98,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>5. Drag and drop a Dataflow Tile into your workspace. Select a &quot;Live Output&quot; block. Click, &quot;gripper 2.0&quot; from the dropdown menu.</p>"
-          ]
-        }
-      },
-      {
-        "id": "ViQzY8KepP6uCiKN",
-        "title": "Browser connection dialog to the Arduino",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/Connect2serial.png",
-          "filename": "brain/images/Connect2serial.png"
-        }
-      },
-      {
-        "id": "OKkKRvCqIfMFyqzH",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>6. To make the gripper open and close, you will need to add an input block (for example, a timer or a generator) and connect it to the output block. </p><p>7. Power up the gripper by connecting a 9V battery to the Muscle SpikerShield (the yellow board). The gripper should close, wait, and open. </p><p>8. Experiment with different input types (for example, if you used a timer, switch it to a generator). </p><p>9. When you&#x27;re done, delete the Dataflow tile and unplug the battery. </p>"
+            "<p>5. Drag and drop a Dataflow Tile into your workspace. Connect DataFlow with the hardware using the same method as previous lessons. (click the lightning bolt and connect to the serial port)</p><p>6. To make the gripper open and close, you will need to add an input block (for example, a timer or a generator) and connect it to the output block. </p><p>8. Experiment with different input types (for example, if you used a timer, switch it to a generator). </p><p>9. When you&#x27;re done, delete the Dataflow tile and unplug the battery. </p>"
           ]
         }
       },
