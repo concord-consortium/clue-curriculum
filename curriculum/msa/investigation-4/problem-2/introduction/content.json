@@ -3,6 +3,17 @@
   "content": {
     "tiles": [
       {
+        "id": "F8S4f_PluekWBR2w",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>After the Walkathon</strong></p>"
+          ]
+        }
+      },
+      {
         "id": "Hv_sfErIhv8jW5Gk",
         "content": {
           "type": "Text",
@@ -19,16 +30,42 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The steepness of the line is the ratio of rise (vertical change) to run (horizontal change) for this step. We call this ratio the <em>rate of change</em> or <strong>slope</strong> of the line. </p>",
-            "<p>                    vertical change            rise</p>",
-            "<p>Slope  =  __________________   =  ______</p>",
-            "                   horizontal change          run"
+            "<p>The steepness of the line is the ratio of rise (vertical change) to run (horizontal change) for this step. We call this ratio the <em>rate of change</em> or <strong>slope</strong> of the line. </p>"
           ]
         }
       },
-      {"id": "ZL91_xMcHp6S9Smy", "title": "Rise over Run from a line on stairs", "content": {"type": "Image", "url": "msa/images/MSA_4_2_In_stairs_350w.png"}},
-      {"id": "L2bwZ2UpG-Q901VX", "title": "Rise over Run on a graph", "content": {"type": "Image", "url": "msa/images/MSA_4_2_stairgraph.png"}},
-      {"id": "9nINzYTa1Z_FAP5b", "title": "Slope calculation", "content": {"type": "Image", "url": "msa/images/MSA_4-2_Intro_Pic4_350.jpg"}},
+      {
+        "id": "AfILuXfk4Fppofjq",
+        "title": "Slope",
+        "content": {
+          "type": "Expression",
+          "latexStr": "slope=\\frac{VerticalChange}{HorizontalChange}=\\frac{rise}{run}"
+        }
+      },
+      {
+        "id": "ZL91_xMcHp6S9Smy",
+        "title": "Rise over Run from a line on stairs",
+        "content": {
+          "type": "Image",
+          "url": "msa/images/MSA_4_2_In_stairs_350w.png"
+        }
+      },
+      {
+        "id": "L2bwZ2UpG-Q901VX",
+        "title": "Rise over Run on a graph",
+        "content": {
+          "type": "Image",
+          "url": "msa/images/MSA_4_2_stairgraph.png"
+        }
+      },
+      {
+        "id": "JeL-wy324eaC16Cg",
+        "title": "Slope Calculation",
+        "content": {
+          "type": "Expression",
+          "latexStr": "Slope=\\frac{\\left(12-6\\right)}{\\left(24-12\\right)}=\\frac{6}{12}=\\frac12"
+        }
+      },
       {
         "id": "3u-_k05_uBWmlEbN",
         "title": "Text 4",
@@ -36,8 +73,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Unlike the steepness of stairs, the rate of change of a line can be negative. To determine the rate of change of a line, we need to consider the direction, or sign, of the vertical and horizontal changes (the slope of a line) from one point to another. </p>",
-            "<p>We will learn more about slopes of lines in the Grade 8 unit <em>Thinking with Mathematical Models</em>.</p>"
+            "<p>Unlike the steepness of stairs, the rate of change of a line can be negative. To determine the rate of change of a line, we need to consider the direction, or sign, of the vertical and horizontal changes (the slope of a line) from one point to another. </p><p>We will learn more about slopes of lines in the Grade 8 unit <em>Thinking with Mathematical Models</em>.</p>"
           ]
         }
       }

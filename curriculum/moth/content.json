@@ -24,11 +24,13 @@
     },
     "defaultDocumentType": "problem",
     "settings": {
+     "dataset": {
+        "cellsSelectCases": true
+      },
       "table": {
         "numFormat": ".2~f",
         "tools": [
           "merge-in",
-          "link-graph",
           [
             "data-set-view",
             "graph"

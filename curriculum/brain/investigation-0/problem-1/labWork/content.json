@@ -39,7 +39,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The following Dataflow program is supposed to monitor the outside temperature and remind you to water your lawn when the temperature is above 20 degrees celsius.  However, the program is not working well. Can you drag it into your workspace and fix it? </p>"
+            "<p>The following Dataflow program is supposed to turn on a light bulb whenever the input from the number generator is positive.  However, the program is not working. Can you drag it into your workspace and fix it? </p>"
           ]
         }
       },
@@ -50,24 +50,26 @@
           "type": "Dataflow",
           "programDataRate": 1000,
           "programZoom": {
-            "dx": 0,
+            "dx": -0.0162353515625,
             "dy": 0,
-            "scale": 1
+            "scale": 0.6058285767831006
           },
           "program": {
             "values": {
-              "3313": {
-                "currentValues": {}
-              },
               "3322": {
                 "currentValues": {}
               },
-              "3327": {
+              "3337": {
                 "currentValues": {
                   "nodeValue": 0
                 }
               },
-              "3337": {
+              "3338": {
+                "currentValues": {
+                  "nodeValue": 0.97
+                }
+              },
+              "3339": {
                 "currentValues": {
                   "nodeValue": 0
                 }
@@ -75,30 +77,6 @@
             },
             "id": "dataflow@0.1.0",
             "nodes": {
-              "3313": {
-                "id": 3313,
-                "name": "Sensor",
-                "x": 63.114284774256284,
-                "y": 70.57511609798658,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {
-                      "3322-undefined-num1": {
-                        "node": 3322,
-                        "input": "num1",
-                        "data": {}
-                      }
-                    }
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "type": "temperature",
-                  "sensor": "00001-VIR",
-                  "virtual": true
-                }
-              },
               "3322": {
                 "id": 3322,
                 "name": "Logic",
@@ -106,13 +84,7 @@
                 "y": 110.95676741266041,
                 "inputs": {
                   "num1": {
-                    "connections": {
-                      "3313-num-undefined": {
-                        "node": 3313,
-                        "output": "num",
-                        "data": {}
-                      }
-                    }
+                    "connections": {}
                   },
                   "num2": {
                     "connections": {}
@@ -120,34 +92,13 @@
                 },
                 "outputs": {
                   "num": {
-                    "connections": {
-                      "3337-undefined-nodeValue": {
-                        "node": 3337,
-                        "input": "nodeValue",
-                        "data": {}
-                      }
-                    }
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "logicOperator": "Greater Than"
-                }
-              },
-              "3327": {
-                "id": 3327,
-                "name": "Number",
-                "x": 51.9244629467631,
-                "y": 286.68177936593975,
-                "inputs": {},
-                "outputs": {
-                  "num": {
                     "connections": {}
                   }
                 },
                 "data": {
                   "plot": false,
-                  "nodeValueUnits": ""
+                  "orderedDisplayName": "Logic 1",
+                  "logicOperator": "Greater Than"
                 }
               },
               "3337": {
@@ -157,19 +108,52 @@
                 "y": 140.5773811102751,
                 "inputs": {
                   "nodeValue": {
-                    "connections": {
-                      "3322-num-undefined": {
-                        "node": 3322,
-                        "output": "num",
-                        "data": {}
-                      }
-                    }
+                    "connections": {}
                   }
                 },
                 "outputs": {},
                 "data": {
+                  "orderedDisplayName": "Demo Output 2",
                   "outputType": "Light Bulb",
                   "demoOutput": 0
+                }
+              },
+              "3338": {
+                "id": 3338,
+                "name": "Generator",
+                "x": 42.95312952716057,
+                "y": 57.922324251974615,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Generator 3",
+                  "generatorType": "Sine",
+                  "amplitudeUnits": "",
+                  "amplitude": 1,
+                  "periodUnits": "sec",
+                  "period": 10
+                }
+              },
+              "3339": {
+                "id": 3339,
+                "name": "Number",
+                "x": 43.136365625588255,
+                "y": 281.10634943713586,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 4",
+                  "nodeValueUnits": ""
                 }
               }
             }
@@ -232,16 +216,121 @@
                 "hidden": false,
                 "units": "",
                 "formula": {},
-                "values": [
-                ]
+                "values": [],
+                "title": ""
               }
             ],
-            "cases": [
-            ]
+            "cases": []
           }
         },
         "tiles": [
           "gX3nceoKGZrxqjmR"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "bKxvoVjEBb6375cP",
+          "variables": [
+            {
+              "id": "PIUrpJDH15vRcRJr",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 440,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "e63DYay5Sj9CKnfI",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 407,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "QZ4_n7l8b8NfdI9X",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "hytwQRtXhZA76tI_",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "XfwFXFWrLtoTm5N1",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 38.5,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "IHmNwo6l55wzAnnc",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "1VnMLJb0goGo4E_K",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 1,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "gX3nceoKGZrxqjmR",
+          "nktXKxeXTDkfpIkB",
+          "f_KkdkpBCqi9KRxk",
+          "758mGzn3UXzxTTSB",
+          "qp3ALL5BqFvvnji8",
+          "Vgc6qoEDt_gV8hAb",
+          "FFsWGlSrLofqnz1h",
+          "9R8Pq1QLUzthSal0"
         ]
       }
     ]
