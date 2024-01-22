@@ -27,7 +27,37 @@
       "dataset": {
         "cellsSelectCases": true
       },
-      "table": { "numFormat": ".2~f", "tools": ["link-tile", "link-graph", ["data-set-view", "DataCard"], "delete"]},
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "merge-in",
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "DataCard"
+          ],
+          "delete"
+        ]
+      },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          "merge-in",
+          [
+            "data-set-view",
+            "Table"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "image-upload",
+          "delete-attribute"
+        ]
+      },
       "graph": {
         "defaultAxisLabels": {
           "bottom": "Categories",
@@ -494,9 +524,8 @@
             "investigation-3/problem-2/sorting/content.json",
             "investigation-3/problem-2/pinning/content.json",
             "investigation-3/problem-2/analyze/content.json"
-
           ]
-        } 
+        }
       ]
     }
   ]
