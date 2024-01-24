@@ -15,11 +15,11 @@
       [
         {
           "id": "PodHYZ4go3HA1HYi",
-          "title": "SpikerShield",
+          "title": "Arduino + SpikerShield",
           "content": {
             "type": "Image",
-            "url": "brain/images/1.jpg",
-            "filename": "brain/images/1.jpg"
+            "url": "brain/images/arduinoboard.jpg",
+            "filename": "brain/images/arduinoboard.jpg"
           }
         },
         {
@@ -28,7 +28,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Muscle SpikerShield (yellow board) coupled with an Arduino board (blue). The Muscle SpikerShield allows you to record your muscle&#x27;s electrical activity (known as Electromyography or EMG). The yellow board has a small switch that reads &#x27;EMG&#x27; on one side and &#x27;Control&#x27; on the other. The switch should be on the &#x27;EMG&#x27; position.</p>"
+              "<p>SpikerShield (yellow board) coupled with an Arduino board (blue). The Muscle SpikerShield allows you to record your muscle&#x27;s electrical activity (known as Electromyography or EMG). The yellow board has a small switch that reads &#x27;EMG&#x27; on one side and &#x27;Control&#x27; on the other. The switch should be on the &#x27;Control&#x27; position.</p>"
             ]
           }
         }
@@ -36,11 +36,11 @@
       [
         {
           "id": "4pWC3KJXXdYoa5vv",
-          "title": "Alligator clips",
+          "title": "Muscle Electrode Cable",
           "content": {
             "type": "Image",
-            "url": "brain/images/2.jpg",
-            "filename": "brain/images/2.jpg"
+            "url": "brain/images/alligatorclips.jpg",
+            "filename": "brain/images/alligatorclips.jpg"
           }
         },
         {
@@ -49,7 +49,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Orange Muscle Electrode Cable with 3 alligator clips (two reds, one black). </p>"
+              "<p>Muscle Electrode Cabl<em>e</em> with 3 alligator clips (two reds, one black). </p>"
             ]
           }
         }
@@ -57,11 +57,11 @@
       [
         {
           "id": "vn4aa8kjXblKIQSA",
-          "title": "USB Cable connects Arduino to Computer",
+          "title": "USB Cable",
           "content": {
             "type": "Image",
-            "url": "brain/images/Lesson1_4img2.jpeg",
-            "filename": "brain/images/Lesson1_4img2.jpeg"
+            "url": "brain/images/abcord.jpg",
+            "filename": "brain/images/abcord.jpg"
           }
         },
         {
@@ -70,7 +70,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>A USB data cable that connects the Arduino board to a computer. </p>"
+              "<p>USB cable that connects the Arduino board to a computer. </p>"
             ]
           }
         }
@@ -78,11 +78,11 @@
       [
         {
           "id": "I_o28skM9_9QVzEu",
-          "title": "Sticker Electrodes",
+          "title": "Electrodes",
           "content": {
             "type": "Image",
-            "url": "brain/images/4.jpg",
-            "filename": "brain/images/4.jpg"
+            "url": "brain/images/electrodes.jpg",
+            "filename": "brain/images/electrodes.jpg"
           }
         },
         {
@@ -91,155 +91,186 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Sticker electrodes - used to pick up electrical signals from your muscles. </p>"
+              "<p>Electrodes used to pick up electrical signals from your muscles. </p>"
             ]
           }
         }
       ],
-      [
-        {
-          "id": "hB0y5oGIJC8z8tgZ",
-          "title": "gripper",
-          "content": {
-            "type": "Image",
-            "url": "brain/images/6.png",
-            "filename": "brain/images/6.png"
-          }
-        },
-        {
-          "id": "1tEg4VyVBMnyWl_o",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>One hand grip (optional)</p>"
-            ]
-          }
+      {
+        "id": "hB0y5oGIJC8z8tgZ",
+        "title": "gripper",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/6.png",
+          "filename": "brain/images/6.png"
         }
-      ],
+      },
       {
         "id": "hRL2PzfJH5u7ohJD",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3><u>Procedure</u></h3><p>The following video tutorial will show you how to measure your EMG muscle activity (see also step-by-step instructions below):</p><p>If you are using a Chromebook, <a href=\"https://www.youtube.com/watch?v=Y1vcS5a-DiI\">click here</a>. </p><p>If you are using a PC or a Mac laptop, <a href=\"https://www.youtube.com/watch?v=IY7SjI3Vr-s\">click here</a>. </p><h3>Step-by-step instructions:</h3><p>1. Connect the Arduino board to your computer using the blue USB cable.</p>"
+            "<h3><u>Procedure</u></h3><p><strong>1</strong>. Connect the Arduino board to your computer using the blue USB cable.</p>"
           ]
         }
       },
-      {
-        "id": "AIaXlh5Jt6mO1ko4",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>2. Decide who is going to be the study participant (you can take turns). Place two electrode stickers on the participant’s forearm close to each other and another one on the participant’s elbow (this is the reference electrode)</p>"
-          ]
+      [
+        {
+          "id": "Ypj2iZjEq2a9kFkj",
+          "title": "Image 3",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/electrodepplacement.jpg",
+            "filename": "brain/images/electrodepplacement.jpg"
+          }
+        },
+        {
+          "id": "Xf1VSQp7lP4Hckuo",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>2</strong>. Decide who is going to be the study participant (you can take turns). Place two electrode stickers on the participant’s forearm close to each other and another one on the participant’s elbow (this is the reference electrode)</p>"
+            ]
+          }
         }
-      },
-      {
-        "id": "2hcaL4NZmS-uOSsY",
-        "title": "Place electrodes",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/9.jpg",
-          "filename": "brain/images/9.jpg"
+      ],
+      [
+        {
+          "id": "aUtkGBRiKFZSvLLo",
+          "title": "Connected Arduino",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/alltogether.jpg",
+            "filename": "brain/images/alltogether.jpg"
+          }
+        },
+        {
+          "id": "AIaXlh5Jt6mO1ko4",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>3</strong>. Connect the orange muscle electrode cable (the one with the three alligators) to the Muscle SpikerShield orange connector:</p>"
+            ]
+          }
         }
-      },
-      {
-        "id": "Xf1VSQp7lP4Hckuo",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>3. Connect the orange muscle electrode cable (the one with the three alligators) to the Muscle SpikerShield orange connector:</p>"
-          ]
+      ],
+      [
+        {
+          "id": "Scaz701B_NYFGSlS",
+          "title": "Electrode Cable Placement",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/placement.jpg",
+            "filename": "brain/images/placement.jpg"
+          }
+        },
+        {
+          "id": "ubWseUhinUcs1rwC",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>4</strong>.<strong> </strong>Connect the two red electrode cables to the electrodes on your arm. The black cable should be connected to the reference electrode:</p>"
+            ]
+          }
         }
-      },
-      {
-        "id": "hGLe_2Xa-uVW069o",
-        "title": "Connect Electrodes to shield",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/10.jpg",
-          "filename": "brain/images/10.jpg"
-        }
-      },
-      {
-        "id": "ubWseUhinUcs1rwC",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>4. Connect the two red alligators to the electrodes on your arm. The black cable should be connected to the reference electrode:</p>"
-          ]
-        }
-      },
-      {
-        "id": "2r6t0lkN0WkyPi2i",
-        "title": "Connect Electrodes to arm",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/11.jpg",
-          "filename": "brain/images/11.jpg"
-        }
-      },
+      ],
       {
         "id": "Mo17A3If3LtSFuUG",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><em>If you are using a Chromebook:</em></u></p><p>5. Navigate to the <a href=\"https://spikerecorder.backyardbrains.com/\">Spike Recorder website</a> and follow the instructions on the screen.</p><p>By default, Spike Recorder displays sound waves from the computer&#x27;s microphone. To change that to EMG data, click on the USB icon and select your device:  </p>"
+            "<p>Congrats! You&#x27;re halfway there. After the participant is hooked up, navigate to your CLUE workspace .</p>"
           ]
         }
       },
-      {
-        "id": "5MLzG8dR4K_5Ubn6",
-        "title": "USB Button in Spike Recorder",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/usb-button-in-spike-recorder.jpg",
-          "filename": "brain/images/usb-button-in-spike-recorder.jpg"
+      [
+        {
+          "id": "GhdH8bsZKIbOKlss",
+          "title": "click on sensor tile, then click dropdown arrow",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/sensor-type.png",
+            "filename": "brain/images/sensor-type.png"
+          }
+        },
+        {
+          "id": "tgTrUa8Y0x7Wh0t0",
+          "title": "Text 1",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>5</strong>.&nbsp; Place a Dataflow tile in your workspace under Activities. Then, drag a Sensor block into the Dataflow. On the “select a sensor type” dropdown menu, choose “EMG.”</p>"
+            ]
+          }
         }
-      },
-      {
-        "id": "tgTrUa8Y0x7Wh0t0",
-        "title": "Text 1",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><u><em>If you are using a PC or a Mac laptop:</em></u></p><p>5. Open the Backyard Brains Spike Recorder App on your computer. Click on the gear icon at the top left corner of the screen. Then, click on the &#x27;Connect&#x27; button just below &#x27;Select Port&#x27; (you may need to make the app window larger to view this option).</p>"
-          ]
-        }
-      },
-      {
-        "id": "gy5LjOQMM03K1ezq",
-        "title": "Setting up the SpikeRecoder App",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/filter.png",
-          "filename": "brain/images/filter.png"
-        }
-      },
+      ],
       {
         "id": "BfEcsBHvG1mVwV4H",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><em>What am I seeing in Spike Recorder?</em></u></p><p>The signals that you see on the screen reflect your muscle electrical activity.  If needed, change the time scale of your signal to ~1 second by using the trackpad.</p><p>Hold the hand grip and squeeze it (or just make a fist) - how does the display change?&quot;</p>"
+            "<p><strong>6</strong>. Click on the lightning bolt in the top left corner of the Dataflow tile. Select the option that appears as a compatible device, then click “Connect.” When you are successfully connected the lighting bolt will turn green. </p>"
           ]
         }
       },
+      [
+        {
+          "id": "gy5LjOQMM03K1ezq",
+          "title": "click on lighting bolt",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/unnamed-2.jpg",
+            "filename": "brain/images/unnamed-2.jpg"
+          }
+        },
+        {
+          "id": "37G5QKmZIbx5C6qO",
+          "title": "click on compatiable device then connect",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/unnamed-3.jpg",
+            "filename": "brain/images/unnamed-3.jpg"
+          }
+        }
+      ],
+      [
+        {
+          "id": "nHcjmx6S8pJ4HydI",
+          "title": "Backyard Brains App",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/graph-1.png",
+            "filename": "brain/images/graph-1.png"
+          }
+        },
+        {
+          "id": "9fvkPT-7n6I43BNY",
+          "title": "Text 2",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>7</strong>. Place a Graph tile in your workspace below your Dataflow tile. Name your graph and then click &#x27;link data&#x27;.</p>"
+            ]
+          }
+        }
+      ],
       {
-        "id": "nHcjmx6S8pJ4HydI",
-        "title": "Backyard Brains App",
+        "id": "_jQDySdjRb0L0R8M",
+        "title": "Text 3",
         "content": {
-          "type": "Image",
-          "url": "brain/images/12.png",
-          "filename": "brain/images/12.png"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>8</strong>. When you’re ready to record your data on the graph, be sure to click “record” on the top of the Dataflow tile, and click it again when you’re ready to stop recording. Have the participant clench their fist and see what happens!</p>"
+          ]
         }
       },
       {
@@ -248,7 +279,18 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>EMG Experiment</h3><p>Now it is time to explore your EMG muscle activity. With your group, select 3 of the following research questions and answer them in your workspace. Make sure to include screenshots from the Spike Recorder App as evidence and describe what is shown in each image. (Screenshots can be copied and pasted into image or drawing tiles in your workspace.)</p><ul><li>How does muscle activity vary between one’s dominant vs. non-dominant hand? </li><li>How does muscle activity vary between different muscles (e.g., forearm vs. forehead muscles)?</li><li>How does muscle activity vary between <a href=\"https://www.google.com/url?q=https://www.bbc.co.uk/bitesize/guides/zct2hv4/revision/2%23:~:text%3DIn%2520an%2520antagonistic%2520muscle%2520pair,lengthening%2520is%2520called%2520the%2520antagonist.&amp;sa=D&amp;source=docs&amp;ust=1656487065696941&amp;usg=AOvVaw3V0NsK35zz-BzcJKzU5B1m\">agonist and antagonist muscles</a>? </li><li>What happens when we activate our hand muscles for an extended period of time using a <a href=\"https://backyardbrains.com/experiments/rateoffatigue\">hand gripper</a>?</li><li>Can you predict who’s going to win an arm-wrestling contest based on the contestants’ muscle activity?</li></ul><p>Please document your observations in your Workspace.</p>"
+            "<h3>EMG Experiment</h3><p>Now it is time to explore your EMG muscle activity. With your group, select 3 of the following research questions and answer them in your workspace. Make sure to include screenshots from the Spike Recorder App as evidence and describe what is shown in each image. (Screenshots can be copied and pasted into image or drawing tiles in your workspace.)</p>"
+          ]
+        }
+      },
+      {
+        "id": "NoYuEaxNqGQxwgYa",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How does muscle activity vary between one’s dominant vs. non-dominant hand? </li><li>How does muscle activity vary between different muscles (e.g., forearm vs. forehead muscles)?</li><li>What happens when we activate our hand muscles for an extended period of time using a <a href=\"https://backyardbrains.com/experiments/rateoffatigue\">hand gripper</a>?</li><li>Can you predict who’s going to win an arm-wrestling contest based on the contestants’ muscle activity?</li><p></p><p>Drag this tile into your workspace and document your observations.</p></ul>"
           ]
         }
       },
@@ -258,7 +300,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Reflection</strong></p><p>Please record your current thinking and learning in your Learning Journal (see Reflection tab). </p>"
+            "<p><u><strong>What is Electromyography (EMG)?</strong></u></p><p>EMG is the recording and evaluation of electrical signals in the muscles. When you think about moving a muscle, your brain sends action potentials down the neurons in the spinal cord all the way to motor neurons deep inside of your muscles which causes your muscles to contract. When the muscles “contract” electrical activity is generated by muscle fibers which make up the greater muscle. These electrical signals, called electromyograms (spikes!) represent the combined electrical activity of muscles that are being recorded.</p>"
           ]
         }
       }
