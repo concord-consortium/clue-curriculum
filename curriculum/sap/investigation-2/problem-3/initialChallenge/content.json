@@ -123,6 +123,44 @@
             "name": "Table 4"
           }
         }
+      ],
+      {
+        "id": "Oo6TyKmGq12Ka-75",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Two Unknown Time Periods </strong></p><p><em>Source: </em><strong><em>Plains Anthropologist</em></strong></p><p>(all measured in millimeters)</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "NbE-6M_Am6mYYCyB",
+          "title": "Unknown Site 1: 15 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "cn6Rg_nHc-H0q11b": 117,
+              "SjbiJV3Fmp4277ng": 80,
+              "dvFz_XxDrBydUkDR": 90
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "W9OXHBel4CS1e3JU",
+          "title": "Table 2",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "9w4wwSA8w-ZYvET_": 80,
+              "qNKn9EsjFtr7-WhH": 80
+            },
+            "name": "Table 2"
+          }
+        }
       ]
     ],
     "sharedModels": [
@@ -1459,6 +1497,142 @@
         },
         "tiles": [
           "olrcOmeuTsLnbusP"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "0ignBUkVv4pdqN4Y",
+          "providerId": "NbE-6M_Am6mYYCyB",
+          "dataSet": {
+            "id": "fIZEkUzFqLYsW0zQ",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "cn6Rg_nHc-H0q11b",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "SjbiJV3Fmp4277ng",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "19",
+                  "22",
+                  "26",
+                  "32",
+                  "16",
+                  "23.3",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "dvFz_XxDrBydUkDR",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "24",
+                  "29",
+                  "38",
+                  "45",
+                  "63",
+                  "39",
+                  "39.6",
+                  "11.7"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "-9nJySb31o3K8G6B"
+              },
+              {
+                "__id__": "UHCszaPt33xynPzU"
+              },
+              {
+                "__id__": "9zD6idTe5QsGU5Ek"
+              },
+              {
+                "__id__": "kcHrAJxy-nIOvsJY"
+              },
+              {
+                "__id__": "MfUPy1UH-qrs-VT_"
+              },
+              {
+                "__id__": "2IEYq_eqmqkfFilz"
+              },
+              {
+                "__id__": "W6rJjVauN-NSMWHy"
+              },
+              {
+                "__id__": "uVbhTy0rS5JIq158"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "NbE-6M_Am6mYYCyB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-9IBOTmrXknfAPYU",
+          "providerId": "W9OXHBel4CS1e3JU",
+          "dataSet": {
+            "id": "dCytLyTf-AnMxR8w",
+            "name": "Table 2",
+            "attributes": [
+              {
+                "id": "9w4wwSA8w-ZYvET_",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "qNKn9EsjFtr7-WhH",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "W9OXHBel4CS1e3JU"
         ]
       }
     ]
