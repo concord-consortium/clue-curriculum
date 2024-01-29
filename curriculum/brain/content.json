@@ -19,7 +19,11 @@
         "numFormat": ".2~f",
         "tools": [
           "merge-in",
-          "link-tile-multiple",
+          "link-tile",
+          [
+            "data-set-view",
+            "graph"
+          ],
           "delete"
         ]
       },
