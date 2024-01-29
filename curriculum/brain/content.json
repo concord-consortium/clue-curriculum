@@ -18,11 +18,17 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
-          "link-tile",
+          "merge-in",
+          "link-graph-multiple",
           "delete"
         ]
       },
       "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
         "defaultAxisLabels": {
           "bottom": "time",
           "left": "Signal"
@@ -37,6 +43,14 @@
         "maxTiles": 1
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Decomposition",
+      "converging": "Pattern Recognition",
+      "materials": "Abstraction/Generalization",
+      "physical": "Algorithmic Thinking"
+    },
+    "tagPrompt": "Computational Thinking",
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
