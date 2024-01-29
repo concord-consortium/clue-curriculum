@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation A. Drawing Marbles – Theoretical Probabilities</strong></p><p>Ms. Tsao’s class had a conjecture about the sum of the theoretical probabilities for an event in the Initial Challenge. They claimed that the sum of the theoretical probabilities for an event is always one. </p><p></p><p>Ms. Tsao suggests they test their conjecture on another experiment. </p>"
+            "<p><strong>Situation A. Drawing Marbles – Theoretical Probabilities</strong></p><p>Ms. Tsao’s class had a conjecture about the sum of the theoretical probabilities for an event in the Initial Challenge. They claimed that the sum of the theoretical probabilities for an event is always one. </p><p>Ms. Tsao suggests they test their conjecture on another experiment. </p>"
           ]
         }
       },
@@ -21,7 +21,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Experiment:</p><p>A bucket contains </p><ul><li>two yellow blocks,</li><li>four blue blocks, and </li><li>six red blocks. </li></ul><p></p><p>The blocks are all the same size. A player chooses a block from the bucket at random.</p>"
+              "<p><em>Experiment</em>:</p><p>A bucket contains </p><ul><li>two yellow blocks,</li><li>four blue blocks, and </li><li>six red blocks. </li></ul><p>The blocks are all the same size. A player chooses a block from the bucket at random.</p>"
             ]
           }
         },
@@ -54,7 +54,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>P(Yellow) = 2/12 or 1/6</p><p>P(Blue) = 4/12  or 1/3</p><p>P(Red) = 6/12 or 1/2</p><p></p><p>Red is most likely to be drawn.</p>"
+            "<p>P(Yellow) = 2/12 or 1/6</p><p>P(Blue) = 4/12 or 1/3</p><p>P(Red) = 6/12 or 1/2</p><p>Red is most likely to be drawn.</p>"
           ]
         }
       },
@@ -70,6 +70,15 @@
         }
       },
       {
+        "id": "oGKbFcNQ0XexongX",
+        "title": "Sum of Probabilities",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{2}{12}+\\frac{4}{12}+\\frac{6}{12}=\\frac{12}{12}or1"
+        }
+      },
+      {
         "id": "_hgUNWBbVIj75uWX",
         "title": "Text 58",
         "display": "teacher",
@@ -77,7 +86,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>2/12 + 4/12 + 6/12 = 12/12 or 1. </p><p></p><p>Yes. It makes sense that the sum of the probabilities is 1. You would want to account for all of the possible outcomes. So, all the parts should equal the whole in the ratios.</p>"
+            "<p>Yes. It makes sense that the sum of the probabilities is 1. You would want to account for all of the possible outcomes. So, all the parts should equal the whole in the ratios.</p>"
           ]
         }
       },
@@ -99,7 +108,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Conjecture 1</strong></p><p>The sum of the probability of drawing a blue block and the probability of not drawing a blue block is 1. </p>"
+            "<p><u>Conjecture 1</u></p><p>The sum of the probability of drawing a blue block and the probability of not drawing a blue block is 1. </p>"
           ]
         }
       },
@@ -122,7 +131,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Conjecture 2</strong></p><p>If we triple the number of each color, the probability of drawing each color is the same as adding 3 of each color.</p>"
+            "<p><u>Conjecture 2</u></p><p>If we triple the number of each color, the probability of drawing each color is the same as adding 3 of each color.</p>"
           ]
         }
       },
@@ -134,7 +143,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Incorrect. </p><p>When you triple the amount of each color the ratios remain equivalent: </p><p>P(Yellow) = 6/36 or 1/6</p><p>P(Blue) = 12/36or 1/3</p><p>P(Red) = 18/36 or 1/2</p><p></p><p>When you add 3 more of each color the ratios change. </p><p>P(Yellow) = 5/21 </p><p>P(Blue) = 7/(21 )  or 1/3</p><p>P(Red) = 9/21 or 3/7</p>"
+            "<p>Incorrect. </p><p>When you triple the amount of each color the ratios remain equivalent: </p><p>P(Yellow) = 6/36 or 1/6</p><p>P(Blue) = 12/36or 1/3</p><p>P(Red) = 18/36 or 1/2</p><p></p><p>When you add 3 more of each color the ratios change. </p><p>P(Yellow) = 5/21 </p><p>P(Blue) = 7/(21)  or 1/3</p><p>P(Red) = 9/21 or 3/7</p>"
           ]
         }
       },
@@ -145,7 +154,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Conjecture 3</strong></p><p>The probability of drawing either a red block or a yellow block is the sum of the probabilities of drawing a red block and drawing a yellow block. </p>"
+            "<p><u>Conjecture 3</u></p><p>The probability of drawing either a red block or a yellow block is the sum of the probabilities of drawing a red block and drawing a yellow block. </p>"
           ]
         }
       },
@@ -157,7 +166,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Correct. </p><p>The probability of drawing a red is 6/12 of the time and the probability of drawing a yellow is 2/12 of the time, so 8/12 of the time you will get red or yellow. </p><p>Another way to look at it is with the counterargument that 4/12 of the time you will get blue so 1 - 4/12 = 8/12.</p>"
+            "<p>Correct. </p><p>The probability of drawing a red is 6/12 of the time and the probability of drawing a yellow is 2/12 of the time, so 8/12 of the time you will get red or yellow. </p><p>Another way to look at it is with the counterargument that 4/12 of the time you will get blue so 1 - (4/12) = 8/12.</p>"
           ]
         }
       },
@@ -168,7 +177,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Conjecture 4</strong></p><p>If we add two blue blocks to the bucket, then the probability of drawing a blue block is ½. </p>"
+            "<p><u>Conjecture 4</u></p><p>If we add two blue blocks to the bucket, then the probability of drawing a blue block is ½. </p>"
           ]
         }
       },
@@ -191,7 +200,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Conjecture 5</strong></p><p>Jakayla says the probability of drawing a blue is 12/4  .</p><p></p>"
+            "<p><u>Conjecture 5</u></p><p>Jakayla says the probability of drawing a blue is 12/4.</p><p></p>"
           ]
         }
       },
@@ -237,7 +246,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>P(blue) = 3/6. Total probability is 1. P(red or white) = 1/6 + 1/3 = 3/6 so P(blue) = 1 - 3/6=  3/6</p>"
+            "<p>P(blue) = 3/6. Total probability is 1. </p><p>P(red or white) = 1/6 + 1/3 = 3/6, so P(blue) = 1 - (3/6) = 3/6</p>"
           ]
         }
       },
@@ -260,7 +269,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>6 marbles. 1 white, 2 red, 3 blue</p>"
+            "<p>6 marbles. </p><p>1 white, 2 red, 3 blue</p>"
           ]
         }
       },

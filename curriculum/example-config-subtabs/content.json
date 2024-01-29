@@ -19,9 +19,23 @@
         "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true,
         "defaultSeriesLegend": true,
-        "connectPointsByDefault": true
+        "connectPointsByDefault": true,
+        "tools": [
+          "link-tile-multiple",
+          "fit-all"
+        ]
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Diverging Designs",
+      "converging": "Converging Designs",
+      "materials": "Varies Material/Surface",
+      "physical": "Varies Physical Factors",
+      "user": "Varies Human Factors",
+      "system": "Varies System Factors"
+    },
+    "tagPrompt": "Identify Design Approach",
     "navTabs": {
       "lazyLoadTabContents": true,
       "showNavPanel": true,
@@ -46,6 +60,11 @@
               "type": "problem-documents"
             }
           ]
+        },
+        {
+          "tab": "sort-work",
+          "label": "Sort Work",
+          "teacherOnly": false
         },
         {
           "tab": "my-work",
@@ -73,6 +92,22 @@
               "dataTestItem": "my-work-list-items",
               "documentTypes": [
                 "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Workspaces",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
               ],
               "properties": [
                 "!isDeleted"
@@ -121,7 +156,7 @@
                 "publication"
               ],
               "showStars": [
-                "teacher"
+                "teacher", "student"
               ],
               "properties": [
                 "!isTeacherDocument"
@@ -155,19 +190,6 @@
               ],
               "properties": [
                 "isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "title": "Workspaces",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": [
-                "supportPublication"
-              ],
-              "properties": [
-                "teacherSupport",
                 "!isDeleted"
               ]
             },

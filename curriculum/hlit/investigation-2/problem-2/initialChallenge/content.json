@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Santo and Tevy make up a new Match, No-Match game. Players toss three coins. Player A wins if exactly two coins match. Player B wins if three coins match.</p><p>Make a prediction</p><ul><li>Is this a fair game? </li></ul>"
+            "<p>Santo and Tevy make up a new <em>Match, No-Match</em> game. Players toss three coins. Player A wins if exactly two coins match. Player B wins if three coins match.</p><p><u>Make a prediction</u></p><ul><li>Is this a fair game? </li></ul>"
           ]
         }
       },
@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Conduct the experiment of the new <em>Match, No-Match</em> game</p>"
+            "<p><u>Conduct the experiment </u>of the new <em>Match, No-Match</em> game</p>"
           ]
         }
       },
@@ -31,7 +31,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Equipment</p><ul><li>3 Coins</li></ul>"
+            "<p><em>Equipment</em></p><ul><li>3 Coins</li></ul>"
           ]
         }
       },
@@ -42,7 +42,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Directions (with a partner)</p><ul><li>Each player tosses the coins 16 times.</li><li>Player A wins if exactly two coins match.</li><li>Player B wins if three coins match.</li><li>Record how many times each player wins.</li></ul>"
+            "<p><em>Directions (with a partner)</em></p><ul><li>Each player tosses the coins 16 times.</li><li>Player A wins if exactly two coins match.</li><li>Player B wins if three coins match.</li><li>Record how many times each player wins.</li></ul>"
           ]
         }
       },
@@ -53,7 +53,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Analyze: Experimental Probabilities</p><ul><li>What is the experimental probability that each player will win? Is this a fair game?</li></ul>"
+            "<p><u>Analyze: Experimental Probabilities</u></p><ul><li>What is the experimental probability that each player will win? Is this a fair game?</li></ul>"
           ]
         }
       },
@@ -64,7 +64,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Analyze: Theoretical Probabilities</p><ul><li>What is the sample space?</li></ul>"
+            "<p><u>Analyze: Theoretical Probabilities</u></p><ul><li>What is the sample space?</li></ul>"
           ]
         }
       },
@@ -75,10 +75,10 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "eLemZFFr8s5eL44n": 80,
-            "x9fSyp56PhV9rHGI": 80,
-            "9ByKo91UhoY4kyBw": 80,
-            "lCuuRN-zd46WvPfK": 80
+            "eLemZFFr8s5eL44n": 103.19999694824219,
+            "x9fSyp56PhV9rHGI": 100,
+            "9ByKo91UhoY4kyBw": 103.98748016357422,
+            "lCuuRN-zd46WvPfK": 112.00003051757812
           },
           "name": "Sample Space for the New Game"
         }
@@ -127,6 +127,21 @@
           "text": [
             "<p>P(Player B with 3 coins matching: HHH or TTT) = 2/8</p><p>P(Player A with exactly 2 coins matching) = 6/8</p>"
           ]
+        }
+      },
+      {
+        "id": "GZb_jT_CxGY2cdlZ",
+        "title": "Sample Space for the New Game",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "buLn1qgazv568tj6": 103.19999694824219,
+            "-vMvr6pb7UEV-NK7": 100,
+            "LMFSAQDfIiLjIzgj": 103.98748016357422,
+            "23HNxOBlSK4RXenA": 112.00003051757812
+          },
+          "name": "Sample Space for the New Game"
         }
       },
       {
@@ -183,7 +198,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Students might use proportions and scale up the probability. </p><p>P(Player A with 2 coins matching) = 3/4 = ?/24 or 18</p><p>P(Player B with 3 coins matching) = 1/4 = ?/24 or 6</p><p></p><p>Students might use multiplication of the fraction form.</p><p>P(Player A with exactly 2 coins matching) = 3/4  x 24 = 18 or 18 matches.</p><p>P(Player B with 3 coins matching) = 1/4 x 24 = 6 or 6 matches</p>"
+            "<p>Students might use proportions and scale up the probability. </p><p>P(Player A with 2 coins matching) = 3/4 = ?/24 or 18</p><p>P(Player B with 3 coins matching) = 1/4 = ?/24 or 6</p><p></p><p>Students might use multiplication of the fraction form.</p><p>P(Player A with exactly 2 coins matching) = (3/4) x 24 = 18 or 18 matches.</p><p>P(Player B with 3 coins matching) = (1/4) x 24 = 6 or 6 matches</p>"
           ]
         }
       }
@@ -209,7 +224,8 @@
                   "HHH",
                   "",
                   null
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "x9fSyp56PhV9rHGI",
@@ -222,7 +238,8 @@
                   "HHT",
                   "HTH",
                   "THH"
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "9ByKo91UhoY4kyBw",
@@ -235,7 +252,8 @@
                   "HTT",
                   "THT",
                   "TTH"
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "lCuuRN-zd46WvPfK",
@@ -248,7 +266,8 @@
                   "TTT",
                   "",
                   null
-                ]
+                ],
+                "title": ""
               }
             ],
             "cases": [
@@ -266,6 +285,89 @@
         },
         "tiles": [
           "_z4_K1ZlzbjWSxE3"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "D1NkcexAF1_OsvEC",
+          "providerId": "GZb_jT_CxGY2cdlZ",
+          "dataSet": {
+            "id": "pO_Ejz7yr8RdSl8A",
+            "name": "Sample Space for the New Game",
+            "attributes": [
+              {
+                "id": "buLn1qgazv568tj6",
+                "clientKey": "",
+                "name": "All Heads (Player B)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "HHH",
+                  "",
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "-vMvr6pb7UEV-NK7",
+                "clientKey": "",
+                "name": "One Tail (Player A)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "HHT",
+                  "HTH",
+                  "THH"
+                ],
+                "title": ""
+              },
+              {
+                "id": "LMFSAQDfIiLjIzgj",
+                "clientKey": "",
+                "name": "Two Tails (Player A)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "HTT",
+                  "THT",
+                  "TTH"
+                ],
+                "title": ""
+              },
+              {
+                "id": "23HNxOBlSK4RXenA",
+                "clientKey": "",
+                "name": "All Tails (Player B)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "TTT",
+                  "",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HHADMTQ48DDMSTKJS4MA6XS3"
+              },
+              {
+                "__id__": "01HHADMTQ48DDMSTKJS4MA6XS4"
+              },
+              {
+                "__id__": "01HHADMTQ48DDMSTKJS4MA6XS5"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "GZb_jT_CxGY2cdlZ"
         ]
       }
     ]

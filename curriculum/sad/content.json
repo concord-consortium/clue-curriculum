@@ -22,13 +22,18 @@
         "isTileTool": true
       },
       {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
         "id": "Geometry",
         "title": "Graph",
         "isTileTool": true
       },
       {
-        "id": "Table",
-        "title": "Table",
+        "id": "Drawing",
+        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -36,14 +41,10 @@
         "title": "Expression",
         "isTileTool": true
       },
+      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
       {
         "id": "Image",
         "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "Drawing",
-        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -90,19 +91,59 @@
     ],
     "stamps": [
       {
-        "url": "sad/stamps/blackChip.png",
+        "url": "sad/stamps/black-chip.png",
         "width": 25,
         "height": 25
       },
       {
-        "url": "sad/stamps/redChip.png",
-        "width": 30,
-        "height": 37
+        "url": "sad/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sad/stamps/red-chip.png",
+        "width": 25,
+        "height": 25
       }
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f", 
+        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
+      },
+      "datacard": { 
+        "tools": ["duplicate", "link-tile", "merge-in",
+          ["data-set-view", "Table"], "image-upload", "delete-attribute"]
       }
     },
     "showCommentTag": true,
@@ -110,8 +151,11 @@
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
       "unit-rate": "Unit Rate",
-      "guess-and-check": "Guess and Check",
-      "none": "None"
+      "ratios": "Ratios of Same Variable",
+      "common-parts": "Common Part or Whole",
+      "building-up": "Building Up",
+      "other-proportional": "Other - Proportional",
+      "other-nonproportional": "Other - Nonproportional"
     },
     "tagPrompt": "Select Student Strategy"
   },
@@ -704,7 +748,6 @@
                       ]
                     }
                   }
-
                 ]
               },
               "launch": {
@@ -769,7 +812,7 @@
           "config": {
             "planningTemplate": {
               "unitPlan": {
-                "tiles": [ 
+                "tiles": [
                   {
                     "id": "OaTQfjJQqxKRSGIz",
                     "title": "Text 1",
@@ -839,7 +882,7 @@
                 ]
               },
               "launch": {
-                "tiles": [ 
+                "tiles": [
                   {
                     "id": "Xhu3b3kQyrs7dYRM",
                     "title": "Text 7",
@@ -881,7 +924,7 @@
                       ]
                     }
                   }
-                 ]
+                ]
               }
             }
           }
