@@ -14,7 +14,7 @@
         "tools": [
           "set-expression",
           "merge-in",
-          ["data-set-view", "Graph"],
+          "link-graph-multiple",
           "delete"
         ]
       },
@@ -26,6 +26,7 @@
           "subscript",
           "superscript",
           "link",
+          "|",
           "new-variable",
           "insert-variable",
           "edit-variable"
@@ -49,7 +50,11 @@
           "group", 
           "ungroup", 
           "duplicate", 
-          "delete"
+          "delete",
+          "|",
+          "new-variable",
+          "insert-variable",
+          "edit-variable"
         ]
       },
       "diagram": {
@@ -58,7 +63,8 @@
       "graph": {
         "tools": [
           "link-tile-multiple",
-          "fit-all"
+          "fit-all",
+          "toggle-lock"
         ],
         "defaultAxisLabels": {
           "bottom": "x",
