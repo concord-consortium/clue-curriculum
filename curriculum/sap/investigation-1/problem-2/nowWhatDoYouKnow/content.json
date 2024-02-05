@@ -2,21 +2,34 @@
   "type": "nowWhatDoYouKnow",
   "content": {
     "tiles": [
-      {"content": {"type": "Text", "format": "html", "text": ["The original figure and its image are <strong>similar figures</strong> or scale drawings. For two similar figures, what characteristics and measures are the same?  Different? Explain how you know."]}, "id": "TILEmyN5ew9AqV1N"},
       {
+        "id": "EJpqKklRSxn9DVkT",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>How can we use random sampling to estimate populations?</p>"
+          ]
+        }
+      },
+      {
+        "id": "g2mBORg1N-kZijg5",
+        "title": "Text 2",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Informally students should see that when enlarging a geometric figure some attributes of shape change and some stay the same:</p>",
-            "<ul><li>angles of the two figures appear to be the same,</li><li>side lengths of the enlarged figure are longer,</li><li>area of the enlarged figure is bigger.</li></ul>",
-            "<p>Note that as the Unit continues, students will revisit these questions and add more specific mathematical detail to them.</p>"
+            "<p>Random sampling is giving every member of a population an equally likely chance of being selected. Many, if not most, random samples do ‘mirror’ the distribution of population data; however, there are samples that appear not to be from the population even though they are. This is what ‘random sampling’ means. It is important for students to realize that not all samples are ‘good’ samples BUT this does not mean they should then decide that sampling is not worthwhile! </p><p>When you use samples to estimate the properties of populations, you never obtain the correct values exactly. Random error is present in all samples. Sample data are not 100% representative of the population because they are not the entire population! Samples can never provide a perfect depiction of the population from which they are drawn.</p>"
           ]
-        },
-        "id": "TILEV9eLk-YF_SzB"
+        }
       }
     ]
   },
-  "supports": [{"text": "Have you considered how points, angles, side lengths, and area change?"}]
+  "supports": [
+    {
+      "text": "Have you considered how points, angles, side lengths, and area change?"
+    }
+  ]
 }
