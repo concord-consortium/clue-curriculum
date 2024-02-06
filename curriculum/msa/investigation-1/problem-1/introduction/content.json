@@ -246,6 +246,152 @@
             "<p><em>What do you think your walking rate is?</em></p>"
           ]
         }
+      },
+      {
+        "id": "T5GLueIHWk3i4FSP",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "VvUFI873JlfXO8uu": 80,
+            "_VtI22Qe9KAww249": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "RKC53yCMRHT5pIb9",
+        "title": "This is my graph",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "empty",
+              "place": "bottom",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "casePlot",
+          "layers": [
+            {
+              "id": "LAYReWBfF-ZebTHg",
+              "config": {
+                "id": "DCONfcto2nPIJNeb",
+                "dataset": "cJfoa834YlPKlfb-",
+                "metadata": "rVKAdtENE0AswY9S",
+                "_attributeDescriptions": {},
+                "_yAttributeDescriptions": []
+              }
+            }
+          ],
+          "_idColors": {},
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "gR7G05DYd22geX-v",
+          "providerId": "T5GLueIHWk3i4FSP",
+          "dataSet": {
+            "id": "cJfoa834YlPKlfb-",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "VvUFI873JlfXO8uu",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "5",
+                  "10",
+                  "15",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "_VtI22Qe9KAww249",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "150",
+                  "300",
+                  "450",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "2x_F_uB0kLPrXvJy"
+              },
+              {
+                "__id__": "-pmWLbUWFwu6qdaX"
+              },
+              {
+                "__id__": "Gf0EycXd32ecSESD"
+              },
+              {
+                "__id__": "g7iTTZsYfmZzopf7"
+              },
+              {
+                "__id__": "4sKCeQeju6EjZH25"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "T5GLueIHWk3i4FSP",
+          "RKC53yCMRHT5pIb9"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "rVKAdtENE0AswY9S",
+          "data": "cJfoa834YlPKlfb-",
+          "collections": {},
+          "categories": {},
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "RKC53yCMRHT5pIb9"
+        ]
       }
     ]
   }
