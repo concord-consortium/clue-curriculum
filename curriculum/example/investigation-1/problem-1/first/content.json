@@ -28,6 +28,165 @@
           "type": "Expression",
           "latexStr": "y+2+x=5"
         }
+      },
+      {
+        "id": "S7RyJqrCpWZmRyJ0",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "6BKXBTSTFO62ufrr": 80,
+            "KzO90j-I2SR_ymFd": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "3iR3soBHipOvpmtg",
+        "title": "Graph 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNFB69wttS6nBn",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 1.9,
+              "max": 3.3
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 1.9,
+              "max": 3.3
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRs2dMCKP7PjlR",
+              "config": {
+                "id": "DCONsJ-QbnELWzOb",
+                "dataset": "qLLBqm4PZzEvdp7T",
+                "metadata": "271NVRFYM5NUYvRg",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "6BKXBTSTFO62ufrr"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "KzO90j-I2SR_ymFd"
+                  }
+                ]
+              }
+            }
+          ],
+          "_idColors": {
+            "KzO90j-I2SR_ymFd": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "z_Sqn9UjE0mnA_cU",
+          "providerId": "S7RyJqrCpWZmRyJ0",
+          "dataSet": {
+            "id": "qLLBqm4PZzEvdp7T",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "6BKXBTSTFO62ufrr",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "KzO90j-I2SR_ymFd",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "3"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "Ke6W5degLFuCl5v1"
+              },
+              {
+                "__id__": "e6XxqvkD7lsK-zF1"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "S7RyJqrCpWZmRyJ0",
+          "3iR3soBHipOvpmtg"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "271NVRFYM5NUYvRg",
+          "data": "qLLBqm4PZzEvdp7T",
+          "collections": {},
+          "categories": {
+            "6BKXBTSTFO62ufrr": {
+              "attribute": "6BKXBTSTFO62ufrr",
+              "colors": {},
+              "moves": []
+            },
+            "KzO90j-I2SR_ymFd": {
+              "attribute": "KzO90j-I2SR_ymFd",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "3iR3soBHipOvpmtg"
+        ]
       }
     ]
   },
