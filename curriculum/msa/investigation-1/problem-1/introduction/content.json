@@ -258,6 +258,75 @@
           },
           "name": "Table 1"
         }
+      },
+      {
+        "id": "4TjXSauTHR-5knd5",
+        "title": "Table 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNy6Fw-kP202iw",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -1,
+              "max": 17
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -25,
+              "max": 525
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYR-tuWCzQYvq_V",
+              "config": {
+                "id": "DCONKGBJ9NK1mvca",
+                "dataset": "cJfoa834YlPKlfb-",
+                "metadata": "bEJxLEsYWgFKd7f0",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "VvUFI873JlfXO8uu"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "_VtI22Qe9KAww249"
+                  }
+                ]
+              }
+            }
+          ],
+          "_idColors": {
+            "_VtI22Qe9KAww249": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
       }
     ],
     "sharedModels": [
@@ -323,7 +392,33 @@
           }
         },
         "tiles": [
-          "T5GLueIHWk3i4FSP"
+          "T5GLueIHWk3i4FSP",
+          "4TjXSauTHR-5knd5"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "bEJxLEsYWgFKd7f0",
+          "data": "cJfoa834YlPKlfb-",
+          "collections": {},
+          "categories": {
+            "VvUFI873JlfXO8uu": {
+              "attribute": "VvUFI873JlfXO8uu",
+              "colors": {},
+              "moves": []
+            },
+            "_VtI22Qe9KAww249": {
+              "attribute": "_VtI22Qe9KAww249",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "4TjXSauTHR-5knd5"
         ]
       }
     ]
