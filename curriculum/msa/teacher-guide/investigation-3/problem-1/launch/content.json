@@ -13,18 +13,6 @@
         }
       },
       {
-        "id": "oXyo4heepzGyOub8",
-        "title": "Table 1",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "OE6VjJp2GO8zqpRk": 80,
-            "uBNFklPsK6YuJqMx": 80
-          },
-          "name": "Table 1"
-        }
-      },
-      {
         "id": "TILEbj_SDAEyYgxB",
         "content": {
           "type": "Text",
@@ -79,78 +67,72 @@
           }
         },
         {
-          "id": "TILEYIQMVLkvi2m5",
+          "id": "1vGRruUU1I3EzAUw",
           "title": "Walkathon Earnings",
           "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -5
-                ],
-                "axisRange": [
-                  60,
-                  50
-                ],
-                "axisNames": [
-                  "Distance (km)",
-                  "Amount Earned"
-                ],
-                "axisLabels": [
-                  "d",
-                  "$"
-                ]
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRNy9pNIpyIIf5x",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -2.5,
+                "max": 37.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -1,
+                "max": 23
               }
             },
-            "objects": [
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
               {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      2.8000030517578125,
-                      6.500000953674316
-                    ]
+                "id": "LAYRYkQA-LHo6Gte",
+                "config": {
+                  "id": "DCONCKeILOtrSyOC",
+                  "dataset": "CBDop2uk7sKgq1nf",
+                  "metadata": "svx09XbGPWp7AdFO",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "CWuUZfA14gse0Quu"
+                    }
                   },
-                  {
-                    "type": "point",
-                    "parents": [
-                      30.290845589048672,
-                      21.44542279452434
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "oLug757RT7ZTYL1_",
-                  "pt1": {
-                    "type": "point",
-                    "id": "oLug757RT7ZTYL1_-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "oLug757RT7ZTYL1_-point2"
-                  }
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  30,
-                  21.700000000000003
-                ],
-                "properties": {
-                  "id": "eUz-CSwUlsaxaXGk",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "dkhbaM6DkaLd7FE1"
+                    }
+                  ]
                 }
               }
-            ]
-          },
-          "layout": {
-            "height": 365
+            ],
+            "_idColors": {
+              "dkhbaM6DkaLd7FE1": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Distance (km)",
+            "yAttributeLabel": "Amount earned ($)"
           }
         }
       ],
@@ -253,67 +235,33 @@
           }
         },
         "tiles": [
-          "TILEPoICKO-hZf9Q"
+          "TILEPoICKO-hZf9Q",
+          "1vGRruUU1I3EzAUw"
         ]
       },
       {
         "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "YG3EHk0zaE5Ft6wi",
-          "providerId": "oXyo4heepzGyOub8",
-          "dataSet": {
-            "id": "rSN8kcssH_aRjxn-",
-            "name": "Table 1",
-            "attributes": [
-              {
-                "id": "OE6VjJp2GO8zqpRk",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "1",
-                  "3",
-                  "5",
-                  "7"
-                ],
-                "title": ""
-              },
-              {
-                "id": "uBNFklPsK6YuJqMx",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "1",
-                  "2",
-                  "3",
-                  "5"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "hDa3NKWjTNp95Za6"
-              },
-              {
-                "__id__": "DaLZoUlOsfLURG6F"
-              },
-              {
-                "__id__": "ZoOM0svPUf2sz9YH"
-              },
-              {
-                "__id__": "c0y4FulPRLNeYZId"
-              }
-            ]
-          }
+          "type": "SharedCaseMetadata",
+          "id": "svx09XbGPWp7AdFO",
+          "data": "CBDop2uk7sKgq1nf",
+          "collections": {},
+          "categories": {
+            "CWuUZfA14gse0Quu": {
+              "attribute": "CWuUZfA14gse0Quu",
+              "colors": {},
+              "moves": []
+            },
+            "dkhbaM6DkaLd7FE1": {
+              "attribute": "dkhbaM6DkaLd7FE1",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
         },
         "tiles": [
-          "oXyo4heepzGyOub8"
+          "1vGRruUU1I3EzAUw"
         ]
       }
     ]
