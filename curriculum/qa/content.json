@@ -13,10 +13,22 @@
       {"url": "curriculum/moving-straight-ahead/stamps/rparen.png", "width": 25, "height": 25}
     ],
     "settings": {
-      "table": { "numFormat": ".2~f", "tools": ["set-expression", "link-tile", ["data-set-view", "DataCard"], "delete"]},
-      "datacard": { 
-        "tools": ["duplicate", "link-tile", "merge-in",
-          ["data-set-view", "Table"], "image-upload", "delete-attribute"]
+      "table": { "numFormat": ".2~f" },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          "merge-in",
+          [
+            "data-set-view",
+            "Table"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "image-upload",
+          "delete-attribute"
+        ]
       },
       "diagram": {
         "maxTiles": 1,
@@ -41,11 +53,12 @@
         },
         "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true,
-        "defaultSeriesLegend": false,
-        "connectPointsByDefault": false,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true,
         "tools": [
           "link-tile-multiple",
-          "fit-all"
+          "fit-all",
+          "toggle-lock"
         ]
       },
       "simulator": {

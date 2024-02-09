@@ -1,7 +1,7 @@
 {
-  "code": "qa-config-subtabs",
-  "abbrevTitle": "QA2",
-  "title": "QA Curriculum Configured SubTabs",
+  "code": "qa-moth-plot",
+  "abbrevTitle": "QA7",
+  "title": "QA Curriculum Moth Style Plot",
   "subtitle": "Some Subtabs",
   "placeholderText": "Type in me!",
   "config": {
@@ -29,18 +29,13 @@
       },
       "graph": {
         "defaultAxisLabels": {
-          "bottom": "time",
-          "left": "dist"
+          "bottom": "Categories",
+          "left": "Counts"
         },
-        "emptyPlotIsNumeric": true,
+        "emptyPlotIsNumeric": false,
         "scalePlotOnValueChange": true,
-        "defaultSeriesLegend": true,
-        "connectPointsByDefault": true,
-        "tools": [
-          "link-tile-multiple",
-          "fit-all",
-          "toggle-lock"
-        ]
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
       },
       "diagram": {
         "maxTiles": 1
