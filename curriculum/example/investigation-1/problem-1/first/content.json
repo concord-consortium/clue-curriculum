@@ -111,27 +111,31 @@
         }
       },
       {
-        "id": "0yL9fbUJvGQGVF3E",
+        "id": "IctAPOL49ybYCGlz",
         "title": "Diagram 1",
         "content": {
-          "nodes": {
-            "6nt3WbNAlEpqmXzB": {
-              "id": "6nt3WbNAlEpqmXzB",
-              "variable": "WKrJiY1YnQcwSWi1",
-              "x": 29,
-              "y": 33
-            },
-            "vdX1mNA3vsgDqa54": {
-              "id": "vdX1mNA3vsgDqa54",
-              "variable": "kB00MMw3wXXOefPm",
-              "x": 33,
-              "y": 161
-            },
-            "DBkBwALif1Xq1G4s": {
-              "id": "DBkBwALif1Xq1G4s",
-              "variable": "DQube-OHsaiRZDxo",
-              "x": 277,
-              "y": 109
+          "type": "Diagram",
+          "version": "0.0.3",
+          "root": {
+            "nodes": {
+              "uPOYNPvIMC2mgkg1": {
+                "id": "uPOYNPvIMC2mgkg1",
+                "variable": "Omyq58DsXcQHtP0l",
+                "x": 41.75,
+                "y": 27
+              },
+              "nS0fHCVC1E3Aed0W": {
+                "id": "nS0fHCVC1E3Aed0W",
+                "variable": "uN0cQ_EVNux6lXhO",
+                "x": 29.75,
+                "y": 168
+              },
+              "Ot4Y8DJ6G_H-itgO": {
+                "id": "Ot4Y8DJ6G_H-itgO",
+                "variable": "b0Mf7lIn3Yc8dKY0",
+                "x": 319.75,
+                "y": 83
+              }
             }
           }
         }
@@ -248,12 +252,42 @@
               "expression": "a+b",
               "color": "light-gray",
               "labels": []
+            },
+            {
+              "id": "Omyq58DsXcQHtP0l",
+              "name": "a",
+              "description": "",
+              "value": 1,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "uN0cQ_EVNux6lXhO",
+              "name": "b",
+              "description": "",
+              "value": 2,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "b0Mf7lIn3Yc8dKY0",
+              "name": "c",
+              "description": "",
+              "inputs": [
+                "uN0cQ_EVNux6lXhO",
+                "Omyq58DsXcQHtP0l"
+              ],
+              "expression": "a+b",
+              "color": "light-gray",
+              "labels": []
             }
           ]
         },
         "tiles": [
-          "0yL9fbUJvGQGVF3E",
-          "JGEZwV1ukhksYLcc"
+          "JGEZwV1ukhksYLcc",
+          "IctAPOL49ybYCGlz"
         ]
       }
     ]
