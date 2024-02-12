@@ -74,169 +74,81 @@
         }
       },
       {
-        "id": "_RHXOBHkv4ugOCQu",
+        "id": "LEuu6f2ysFaNv2FA",
         "title": "Walking Rates",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                11,
-                27
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRN2gyCYHkL8lnU",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.5,
+              "max": 11.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -1,
+              "max": 27
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "polygon",
-              "parents": [
-                "01HEXFP0NPRAWT2789KH7KJKQF:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQG:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQH:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQJ:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQK:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQM:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQN:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQP:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQQ:xQTDki1fmPtTpqJq",
-                "01HEXFP0NPRAWT2789KH7KJKQR:xQTDki1fmPtTpqJq"
-              ],
-              "properties": {
-                "id": "4c3fH3Zx4P9cymp7"
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "01HEXFP0NPRAWT2789KH7KJKQF:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQG:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQH:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQJ:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQK:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQM:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQN:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQP:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQQ:m-D23ppeOXkfc70d",
-                "01HEXFP0NPRAWT2789KH7KJKQR:m-D23ppeOXkfc70d"
-              ],
-              "properties": {
-                "id": "uNbqvbFUKIx2mDnI"
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "01HEXFP0NPRAWT2789KH7KJKQF:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQG:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQH:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQJ:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQK:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQM:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQN:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQP:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQQ:IU1NgyX2WuPgvMF5",
-                "01HEXFP0NPRAWT2789KH7KJKQR:IU1NgyX2WuPgvMF5"
-              ],
-              "properties": {
-                "id": "-THLKUlgUJxfZN0R"
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    -0.05213270142180093,
-                    2.636718749999999
-                  ]
+              "id": "LAYRHq3OiutcQy3o",
+              "config": {
+                "id": "DCONXHyxCoKW3tLm",
+                "dataset": "Bsw-0ErpSbT2UBQd",
+                "metadata": "Lf6KfS30nqkCUkOJ",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "Q3pZ7KwcbM9BZjxX"
+                  }
                 },
-                {
-                  "type": "point",
-                  "parents": [
-                    5.121642969984203,
-                    7.810494421406003
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "VM2868tmrtJZK8PA",
-                "pt1": {
-                  "type": "point",
-                  "id": "VM2868tmrtJZK8PA-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "VM2868tmrtJZK8PA-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    2.498001805406602e-16,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    5.990521327014219,
-                    15.019531249999998
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "MgxZA-JxboCjWm0M",
-                "pt1": {
-                  "type": "point",
-                  "id": "MgxZA-JxboCjWm0M-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "MgxZA-JxboCjWm0M-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    -0.05213270142180046,
-                    -0.10546875
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    5.017377567140601,
-                    10.062499999999998
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "O7H9aoj8kRmgO3QS",
-                "pt1": {
-                  "type": "point",
-                  "id": "O7H9aoj8kRmgO3QS-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "O7H9aoj8kRmgO3QS-point2"
-                }
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "IU1NgyX2WuPgvMF5"
+                  },
+                  {
+                    "attributeID": "m-D23ppeOXkfc70d"
+                  },
+                  {
+                    "attributeID": "xQTDki1fmPtTpqJq"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "IU1NgyX2WuPgvMF5": 0,
+            "m-D23ppeOXkfc70d": 1,
+            "xQTDki1fmPtTpqJq": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (seconds)",
+          "yAttributeLabel": "Distance (meters)"
         }
       },
       {
@@ -286,12 +198,13 @@
         }
       },
       {
-        "id": "rNIIRa5dnW6C0FZ1",
+        "id": "jqfSzzfAFtDidE7T",
         "title": "Solutions for 3 Walking Rate Tables",
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "msa/images/MSA_1-2_TimeDistance3groups.png"
+          "url": "msa/images/se-pic-1.png",
+          "filename": "msa/images/se-pic-1.png"
         }
       },
       {
@@ -504,7 +417,32 @@
         },
         "tiles": [
           "xgtm5jfG-Z6fgf2Z",
-          "_RHXOBHkv4ugOCQu"
+          "LEuu6f2ysFaNv2FA"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "Lf6KfS30nqkCUkOJ",
+          "data": "Bsw-0ErpSbT2UBQd",
+          "collections": {},
+          "categories": {
+            "Q3pZ7KwcbM9BZjxX": {
+              "attribute": "Q3pZ7KwcbM9BZjxX",
+              "colors": {},
+              "moves": []
+            },
+            "IU1NgyX2WuPgvMF5": {
+              "attribute": "IU1NgyX2WuPgvMF5",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "LEuu6f2ysFaNv2FA"
         ]
       }
     ]
