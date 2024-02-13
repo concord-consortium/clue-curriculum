@@ -13,89 +13,28 @@
           ]
         }
       },
-      {
-        "id": "LIevGzVpseY1BlGZ",
-        "title": "Equation of a Line (example)",
-        "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -2.833,
-                -5.75
-              ],
-              "axisRange": [
-                10,
-                12
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    1
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    4,
-                    6
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "kILGROQtyFho-K6a",
-                "pt1": {
-                  "type": "point",
-                  "id": "kILGROQtyFho-K6a-point1",
-                  "name": "y-intercept (0, b)"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "kILGROQtyFho-K6a-point2"
-                }
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                6,
-                -0.5108781250000005
-              ],
-              "properties": {
-                "id": "HcxNZ4YgdQvLL8gR",
-                "text": "y = ax + b",
-                "anchor": "kILGROQtyFho-K6a"
-              }
-            }
-          ]
+      [
+        {
+          "id": "mOgMEZn6K7_fd7LM",
+          "title": "Equation of a Line (example)",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/se-pic-4.png",
+            "filename": "msa/images/se-pic-4.png"
+          }
+        },
+        {
+          "id": "sMOh3bu_BUt8bMdn",
+          "title": "Text 2",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The coordinates of the y-intercept for the graph shown above are (0, <em>b</em>). To save time, we sometimes refer to the number <em>b</em>, rather than the coordinates of the point (0, <em>b</em>), as the y-intercept. </p><p>A coefficient is the number that multiplies a variable in an equation. The <em>a</em> in y = <em>a</em>x + b is the coefficient of x, so <em>a</em>x means <em>a</em> times x.</p>"
+            ]
+          }
         }
-      },
-      {
-        "id": "sMOh3bu_BUt8bMdn",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>The coordinates of the y-intercept for the graph shown above are (0, <em>b</em>). To save time, we sometimes refer to the number <em>b</em>, rather than the coordinates of the point (0, <em>b</em>), as the y-intercept. </p><p>A coefficient is the number that multiplies a variable in an equation. The <em>a</em> in y = <em>a</em>x + b is the coefficient of x, so <em>a</em>x means <em>a</em> times x.</p>"
-          ]
-        }
-      },
+      ],
       {
         "id": "XJsTwCA9QbQ_Se-z",
         "title": "Text 3",
@@ -109,27 +48,27 @@
       },
       [
         {
-          "id": "agKes9sWzuxl1K8R",
+          "id": "_DK1Ol-rWakkGqAn",
           "title": "Henri",
           "content": {
             "type": "Geometry",
             "board": {
               "properties": {
                 "axisMin": [
-                  -8.333,
-                  -15
+                  -2,
+                  -1.2
                 ],
                 "axisRange": [
-                  40,
-                  80
+                  62,
+                  61.2
                 ],
                 "axisNames": [
                   "t",
                   "d"
                 ],
                 "axisLabels": [
-                  "time",
-                  "distance"
+                  "t",
+                  "d"
                 ]
               }
             },
@@ -147,21 +86,20 @@
                   {
                     "type": "point",
                     "parents": [
-                      5,
-                      50
+                      9.305309734513273,
+                      54.30530973451327
                     ]
                   }
                 ],
                 "properties": {
-                  "id": "k3dPkME7EDJHEd2Z",
+                  "id": "mGow_86RA0YeihFY",
                   "pt1": {
                     "type": "point",
-                    "id": "k3dPkME7EDJHEd2Z-point1",
-                    "name": "y-intercept (0, 45)"
+                    "id": "mGow_86RA0YeihFY-point1"
                   },
                   "pt2": {
                     "type": "point",
-                    "id": "k3dPkME7EDJHEd2Z-point2"
+                    "id": "mGow_86RA0YeihFY-point2"
                   }
                 }
               }
@@ -261,6 +199,35 @@
         "tiles": [
           "LXftOd808yytZsmF"
         ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "67nkB1JVcaYCY2Po",
+        "sourceObject": {
+          "tileId": "LXftOd808yytZsmF",
+          "objectId": "cell:{01HEXJBZ8CW54MS2P5CKR00695}:{G5Yht2iJ9NA0M9rq}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "LXftOd808yytZsmF",
+          "objectId": "cell:{01HEXJBZ8CW54MS2P5CKR00695}:{uDIv28Zkv3mlM0b9}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "(0,45) on the table",
+        "textOffset": {
+          "dx": 8.999999999999986,
+          "dy": -76.5234375
+        },
+        "type": "arrowAnnotation"
       }
     ]
   }

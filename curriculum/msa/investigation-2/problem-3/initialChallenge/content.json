@@ -95,75 +95,6 @@
       },
       [
         {
-          "id": "Ed_inADnZypNWN84",
-          "title": "Plan 1",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -4.012
-                ],
-                "axisRange": [
-                  8,
-                  32.013
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      3.3306690738754696e-16,
-                      -3.0124999999999997
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      2,
-                      6.949999999999997
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "OnZ27E7A4vkARojI",
-                  "pt1": {
-                    "type": "point",
-                    "id": "OnZ27E7A4vkARojI-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "OnZ27E7A4vkARojI-point2",
-                    "name": ""
-                  }
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  2
-                ],
-                "properties": {
-                  "id": "fAnt0_aHYebVtoaD",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              }
-            ]
-          },
-          "layout": {
-            "height": 356
-          }
-        },
-        {
           "id": "XN1eRgbjfe2h5Tom",
           "title": "Plan 1",
           "display": "teacher",
@@ -175,130 +106,79 @@
             },
             "name": "Plan 1"
           }
+        },
+        {
+          "id": "TRl__16r1FbUlNXB",
+          "title": "Plan 1",
+          "display": "teacher",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRN7Jduemhgr9Y2",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -0.5,
+                "max": 7.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -7.5,
+                "max": 32.5
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRo-B3oyiWWqc4",
+                "config": {
+                  "id": "DCONBEBmKWHNsTpm",
+                  "dataset": "UEBy6qwkPxXkHv8l",
+                  "metadata": "RgHFvoLnlTRBxzIo",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "RLkYTWCgOp2LHwmw"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "DhZrznEtC7BdfYEP"
+                    }
+                  ]
+                }
+              }
+            ],
+            "_idColors": {
+              "DhZrznEtC7BdfYEP": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Distance Walked (km)",
+            "yAttributeLabel": "Amount Pledged ($)"
+          }
         }
       ],
       [
-        {
-          "id": "mgQRyooUzaBWFMiJ",
-          "title": "Plan 2",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  7.994,
-                  8
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      -5.342948306008566e-16,
-                      6
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      5.9937499999999995,
-                      0
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "pWygr3w04hVUhh7N",
-                  "pt1": {
-                    "type": "point",
-                    "id": "pWygr3w04hVUhh7N-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "pWygr3w04hVUhh7N-point2",
-                    "name": ""
-                  }
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  5
-                ],
-                "properties": {
-                  "id": "E5TlDxmtYDEL9dYZ",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  4
-                ],
-                "properties": {
-                  "id": "x2HOIndiSoYDBXdV",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  3
-                ],
-                "properties": {
-                  "id": "FnaNZ7iBlrLTBS6j",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  4,
-                  2
-                ],
-                "properties": {
-                  "id": "1aN33QOirvSQqV6O",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5,
-                  1
-                ],
-                "properties": {
-                  "id": "lprHZY2BiODzkbOB",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              }
-            ]
-          },
-          "layout": {
-            "height": 356
-          }
-        },
         {
           "id": "dNlp8ruyKHxewSlm",
           "title": "Plan 2",
@@ -311,65 +191,79 @@
             },
             "name": "Plan 2"
           }
+        },
+        {
+          "id": "5BdQerqKaJdYCS0d",
+          "title": "Plan 2",
+          "display": "teacher",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRNAQoNAjtSJOpg",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -0.5,
+                "max": 7.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -0.5,
+                "max": 7.5
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYR8rle0gB-_RYC",
+                "config": {
+                  "id": "DCONE4chcfbhPCE9",
+                  "dataset": "LG0QFD_OlaU55B3W",
+                  "metadata": "opnWYMVtLW8WP9iW",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "UdUFVYc-ocBtWC-Q"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "LmiQaAhTkbFdBy7L"
+                    }
+                  ]
+                }
+              }
+            ],
+            "_idColors": {
+              "LmiQaAhTkbFdBy7L": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Distance Walked (km)",
+            "yAttributeLabel": "Amount Pledged ($)"
+          }
         }
       ],
       [
-        {
-          "id": "G9OcEIWthN9EBnn8",
-          "title": "Plan 3",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  8,
-                  9.6
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      0,
-                      2
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      6,
-                      2
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "NEX7g6XUlygns7o_",
-                  "pt1": {
-                    "type": "point",
-                    "id": "NEX7g6XUlygns7o_-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "NEX7g6XUlygns7o_-point2",
-                    "name": ""
-                  }
-                }
-              }
-            ]
-          },
-          "layout": {
-            "height": 356
-          }
-        },
         {
           "id": "tzOwcgovKKcr9sRm",
           "title": "Plan 3",
@@ -381,6 +275,76 @@
               "6p0PZ3-2ztByuu9Z": 80
             },
             "name": "Plan 3"
+          }
+        },
+        {
+          "id": "Y8aZWY9z9abaxpDb",
+          "title": "Plan 3",
+          "display": "teacher",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRNxzhtOd9CewKs",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -0.5,
+                "max": 7.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -3.5,
+                "max": 8.5
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYR9zILYQ8Vd2_-",
+                "config": {
+                  "id": "DCONB6qqIcYVBUM1",
+                  "dataset": "HVYt_4IJEKzy2sWj",
+                  "metadata": "2yaqVnx8EJx_yJr_",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "PZnqMFugPF-rZCX2"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "6p0PZ3-2ztByuu9Z"
+                    }
+                  ]
+                }
+              }
+            ],
+            "_idColors": {
+              "6p0PZ3-2ztByuu9Z": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Distance Walked (km)",
+            "yAttributeLabel": "Amount Pledged ($)"
           }
         }
       ]
@@ -459,7 +423,7 @@
         },
         "tiles": [
           "XN1eRgbjfe2h5Tom",
-          "Ed_inADnZypNWN84"
+          "TRl__16r1FbUlNXB"
         ]
       },
       {
@@ -535,7 +499,7 @@
         },
         "tiles": [
           "dNlp8ruyKHxewSlm",
-          "mgQRyooUzaBWFMiJ"
+          "5BdQerqKaJdYCS0d"
         ]
       },
       {
@@ -611,7 +575,82 @@
         },
         "tiles": [
           "tzOwcgovKKcr9sRm",
-          "G9OcEIWthN9EBnn8"
+          "Y8aZWY9z9abaxpDb"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "2yaqVnx8EJx_yJr_",
+          "data": "HVYt_4IJEKzy2sWj",
+          "collections": {},
+          "categories": {
+            "PZnqMFugPF-rZCX2": {
+              "attribute": "PZnqMFugPF-rZCX2",
+              "colors": {},
+              "moves": []
+            },
+            "6p0PZ3-2ztByuu9Z": {
+              "attribute": "6p0PZ3-2ztByuu9Z",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "Y8aZWY9z9abaxpDb"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "opnWYMVtLW8WP9iW",
+          "data": "LG0QFD_OlaU55B3W",
+          "collections": {},
+          "categories": {
+            "UdUFVYc-ocBtWC-Q": {
+              "attribute": "UdUFVYc-ocBtWC-Q",
+              "colors": {},
+              "moves": []
+            },
+            "LmiQaAhTkbFdBy7L": {
+              "attribute": "LmiQaAhTkbFdBy7L",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "5BdQerqKaJdYCS0d"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "RgHFvoLnlTRBxzIo",
+          "data": "UEBy6qwkPxXkHv8l",
+          "collections": {},
+          "categories": {
+            "RLkYTWCgOp2LHwmw": {
+              "attribute": "RLkYTWCgOp2LHwmw",
+              "colors": {},
+              "moves": []
+            },
+            "DhZrznEtC7BdfYEP": {
+              "attribute": "DhZrznEtC7BdfYEP",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "TRl__16r1FbUlNXB"
         ]
       }
     ]

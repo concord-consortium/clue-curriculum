@@ -36,18 +36,18 @@
       },
       {
         "id": "9bqf-zEw1-8vqKQC",
-        "title": "Graph 1",
+        "title": "Graph showing vertical and horizontal distance",
         "content": {
           "type": "Geometry",
           "board": {
             "properties": {
               "axisMin": [
-                -4.186,
-                -2.093
+                -4.2,
+                -2.1
               ],
               "axisRange": [
-                26.23,
-                17.486
+                29.2,
+                12.1
               ],
               "axisNames": [
                 "x",
@@ -77,7 +77,7 @@
               "type": "point",
               "parents": [
                 4,
-                8
+                7.9
               ],
               "properties": {
                 "id": "hMuiiRYK0CEThpjR",
@@ -126,33 +126,156 @@
               }
             },
             {
-              "type": "movableLine",
+              "type": "point",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    4.95081881569144,
-                    9.924946769339138
-                  ]
-                }
+                0,
+                0
               ],
               "properties": {
-                "id": "ZlWU-BAur-1RMoGu",
-                "pt1": {
-                  "type": "point",
-                  "id": "ZlWU-BAur-1RMoGu-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "ZlWU-BAur-1RMoGu-point2"
-                }
+                "id": "ZEJThbMGVvW3B9yE",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                0
+              ],
+              "properties": {
+                "id": "fyWM8TX30G7zqPie",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                2
+              ],
+              "properties": {
+                "id": "jfVSq1HKzTx0yuZH",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "YPjzXKwpexfLWvNb",
+                "hMuiiRYK0CEThpjR",
+                "zZB7HtSfQLjLj-BR",
+                "sdRYt-7oYA7cE0oP",
+                "Sh024wEYTxTyEB1c",
+                "ZEJThbMGVvW3B9yE",
+                "fyWM8TX30G7zqPie",
+                "jfVSq1HKzTx0yuZH"
+              ],
+              "properties": {
+                "id": "dc2_kq0NuqZ90MZ-"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -1.154809515877105,
+                -0.9561241476214453
+              ],
+              "properties": {
+                "id": "zPtByo01HLAHI_IO",
+                "text": "+1",
+                "anchor": "fyWM8TX30G7zqPie"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                0.5260563582687121,
+                -1.0147047723869895
+              ],
+              "properties": {
+                "id": "BEleedPXDZIZ21c4",
+                "text": "+2",
+                "anchor": "jfVSq1HKzTx0yuZH"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2,
+                4
+              ],
+              "properties": {
+                "id": "CogLeooeXlj3puk6",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                3.9699852987730315,
+                4.0385865108301555
+              ],
+              "properties": {
+                "id": "cjpDKFpL0sO_gEol",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                4,
+                8
+              ],
+              "properties": {
+                "id": "TvXtjvwHlL13iD1u",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "CogLeooeXlj3puk6",
+                "cjpDKFpL0sO_gEol",
+                "TvXtjvwHlL13iD1u"
+              ],
+              "properties": {
+                "id": "6a0YOKhLY-kfJ1rW"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -1.7257992243677087,
+                -0.851461695241444
+              ],
+              "properties": {
+                "id": "E5WNFFXH2-tMAnXd",
+                "text": "+2",
+                "anchor": "cjpDKFpL0sO_gEol"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                0.03747360881364692,
+                -2.214298525156174
+              ],
+              "properties": {
+                "id": "7YQlgzV7khOeksTS",
+                "text": "+4",
+                "anchor": "TvXtjvwHlL13iD1u"
               }
             }
           ]

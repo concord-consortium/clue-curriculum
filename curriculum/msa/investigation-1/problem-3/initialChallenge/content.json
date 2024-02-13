@@ -49,134 +49,81 @@
         }
       },
       {
-        "id": "hGlkarnApZtZNOEt",
+        "id": "hwDvbWHOp5Ma-jAf",
         "title": "Comparing Walking Rates",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                18,
-                14
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNdne66gFXuMzs",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.5,
+              "max": 7.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -1,
+              "max": 15
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    10
-                  ]
+              "id": "LAYRJd2sCtv_v4SY",
+              "config": {
+                "id": "DCON5sA-tVkCBC0q",
+                "dataset": "zvui9OpIrruddyyB",
+                "metadata": "tjOTvw-2l7tc7JvT",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "vJ5HIMwnd-bXlxeA"
+                  }
                 },
-                {
-                  "type": "point",
-                  "parents": [
-                    10,
-                    10
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "7BSe6ALwMMVtOm8K",
-                "pt1": {
-                  "type": "point",
-                  "id": "7BSe6ALwMMVtOm8K-point1",
-                  "name": "Leanne"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "7BSe6ALwMMVtOm8K-point2",
-                  "name": ""
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0.14218009478672985,
-                    5.109375000000001
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    5.848341232227489,
-                    7.921875
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "zDNbTObCK6X41amc",
-                "pt1": {
-                  "type": "point",
-                  "id": "zDNbTObCK6X41amc-point1",
-                  "name": "Alana"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "zDNbTObCK6X41amc-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    6,
-                    12
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "SXE84DeblInqB2JO",
-                "pt1": {
-                  "type": "point",
-                  "id": "SXE84DeblInqB2JO-point1",
-                  "name": "Gilberto"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "SXE84DeblInqB2JO-point2"
-                }
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "01HEXGCWFJXFHG8XMGAGY6HDZN:6H35830pReHmbOlw",
-                "01HEXGCWFJXFHG8XMGAGY6HDZP:6H35830pReHmbOlw",
-                "01HEXGCWFJXFHG8XMGAGY6HDZQ:6H35830pReHmbOlw",
-                "01HEXGCWFJXFHG8XMGAGY6HDZR:6H35830pReHmbOlw",
-                "01HEXGCWFJXFHG8XMGAGY6HDZS:6H35830pReHmbOlw",
-                "01HEXGCWFJXFHG8XMGAGY6HDZT:6H35830pReHmbOlw",
-                "01HEXGCWFJXFHG8XMGAGY6HDZV:6H35830pReHmbOlw"
-              ],
-              "properties": {
-                "id": "xxdBZerm-kBgy6iV"
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "uGEfCfBNAQ2G-EO2"
+                  },
+                  {
+                    "attributeID": "wppZiiePQTlzZMxB"
+                  },
+                  {
+                    "attributeID": "6H35830pReHmbOlw"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "uGEfCfBNAQ2G-EO2": 0,
+            "wppZiiePQTlzZMxB": 1,
+            "6H35830pReHmbOlw": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       },
       {
@@ -383,7 +330,32 @@
         },
         "tiles": [
           "TKv_Slofwe8akroQ",
-          "hGlkarnApZtZNOEt"
+          "hwDvbWHOp5Ma-jAf"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "tjOTvw-2l7tc7JvT",
+          "data": "zvui9OpIrruddyyB",
+          "collections": {},
+          "categories": {
+            "vJ5HIMwnd-bXlxeA": {
+              "attribute": "vJ5HIMwnd-bXlxeA",
+              "colors": {},
+              "moves": []
+            },
+            "uGEfCfBNAQ2G-EO2": {
+              "attribute": "uGEfCfBNAQ2G-EO2",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "hwDvbWHOp5Ma-jAf"
         ]
       }
     ]
