@@ -132,6 +132,12 @@
           "sections": []
         },
         {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
           "tab": "my-work",
           "label": "My Work",
           "sections": [
@@ -168,7 +174,7 @@
               "addDocument": true
             },
             {
-              "title": "Workspaces",
+              "title": "Learning Log",
               "type": "learning-logs",
               "dataTestHeader": "learning-log-section",
               "documentTypes": [
@@ -184,7 +190,7 @@
               "addDocument": true
             },
             {
-              "title": "Starred",
+              "title": "Bookmarks",
               "type": "starred-problem-documents",
               "dataTestHeader": "my-work-section-starred",
               "documentTypes": [
@@ -244,7 +250,7 @@
             },
             {
               "className": "section teacher published-documents",
-              "title": "Supplemental Work",
+              "title": "Teacher",
               "type": "teacher-supports",
               "dataTestHeader": "supports-section-teacher-supports",
               "dataTestItem": "supports-list-items",
@@ -259,7 +265,7 @@
             },
             {
               "className": "section problem starred",
-              "title": "Starred",
+              "title": "Bookmarks",
               "type": "starred-problem-documents",
               "dataTestHeader": "class-work-section-starred",
               "documentTypes": [
@@ -275,7 +281,7 @@
             },
             {
               "className": "section problem starred",
-              "title": "Starred",
+              "title": "Bookmarks",
               "type": "starred-personal-documents",
               "dataTestHeader": "class-work-section-starred",
               "documentTypes": [
