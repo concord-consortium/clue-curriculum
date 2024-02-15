@@ -2,100 +2,2305 @@
   "type": "initialChallenge",
   "content": {
     "tiles": [
-      {"content": {"type": "Text", "format": "html", "text": ["The diagram shows a collection of mouths (rectangles) and noses (triangles). Some are from the Wump family. Others are from impostors."]}, "id": "TILECcOcKeiPqo9f"},
       {
-        "id": "21AUG20220512PM",
-        "title": "Wump Mouths and Noses",
-        "layout": {"height": 420},
+        "id": "uoJSbzGFMRgi-paE",
+        "title": "Text 1",
         "content": {
-          "type": "Geometry",
-          "objects": [
-            {"type": "image", "parents": {"url": "sas/images/SS_2_3_IC_19_shapes_350w.png", "coords": [0, 0], "size": [350, 368]}},
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [1, 19], "properties": {"name": "J₁"}},
-                {"type": "point", "parents": [9, 19], "properties": {"name": "J₂"}},
-                {"type": "point", "parents": [9, 17], "properties": {"name": "J₃"}},
-                {"type": "point", "parents": [1, 17], "properties": {"name": "J₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [12, 19], "properties": {"name": "K₁"}},
-                {"type": "point", "parents": [16, 19], "properties": {"name": "K₂"}},
-                {"type": "point", "parents": [16, 16], "properties": {"name": "K₃"}},
-                {"type": "point", "parents": [12, 16], "properties": {"name": "K₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [2, 16], "properties": {"name": "L₁"}},
-                {"type": "point", "parents": [6, 16], "properties": {"name": "L₂"}},
-                {"type": "point", "parents": [6, 15], "properties": {"name": "L₃"}},
-                {"type": "point", "parents": [2, 15], "properties": {"name": "L₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [5, 14], "properties": {"name": "M₁"}},
-                {"type": "point", "parents": [17, 14], "properties": {"name": "M₂"}},
-                {"type": "point", "parents": [17, 13], "properties": {"name": "M₃"}},
-                {"type": "point", "parents": [5, 13], "properties": {"name": "M₄"}}
-              ]
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                {"type": "point", "parents": [1, 12], "properties": {"name": "N₁"}},
-                {"type": "point", "parents": [13, 12], "properties": {"name": "N₂"}},
-                {"type": "point", "parents": [13, 9], "properties": {"name": "N₃"}},
-                {"type": "point", "parents": [1, 9], "properties": {"name": "N₄"}}
-              ]
-            },
-            {"type": "polygon", "parents": [{"type": "point", "parents": [2, 6], "properties": {"name": "O₁"}}, {"type": "point", "parents": [1, 5], "properties": {"name": "O₂"}}, {"type": "point", "parents": [3, 5], "properties": {"name": "O₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [8, 7], "properties": {"name": "P₁"}}, {"type": "point", "parents": [7, 4], "properties": {"name": "P₂"}}, {"type": "point", "parents": [9, 4], "properties": {"name": "P₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [15, 7], "properties": {"name": "Q₁"}}, {"type": "point", "parents": [12, 6], "properties": {"name": "Q₂"}}, {"type": "point", "parents": [18, 6], "properties": {"name": "Q₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [4, 4], "properties": {"name": "R₁"}}, {"type": "point", "parents": [2, 2], "properties": {"name": "R₂"}}, {"type": "point", "parents": [6, 2], "properties": {"name": "R₃"}}]},
-            {"type": "polygon", "parents": [{"type": "point", "parents": [13, 4], "properties": {"name": "S₁"}}, {"type": "point", "parents": [10, 1], "properties": {"name": "S₂"}}, {"type": "point", "parents": [16, 1], "properties": {"name": "S₃"}}]}
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>We will explore how the archeologists use the information from the known sites to predict the time period for the unknown sites. Below are the following data:</p><ul><li>Tables of data from the sites with unknown time periods and known time periods.</li><li>Tables with information about the widths and lengths of the arrow heads from all each site: minimum/maximum, Q1, Q2, Q3, mean, MAD.</li></ul>"
           ]
         }
       },
-      {"content": {"type": "Text", "format": "html", "text": ["<ul><li>Identify pairs of similar shapes. Provide evidence that your shapes are similar. What is the scale factor? </li></ul>"]}, "id": "TILEgV6m9QAOMQB6"},
       {
-        "display": "teacher",
+        "id": "jM2x48x3oAc30om3",
+        "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Rectangles</p>",
-            "<p>Rectangles (mouths) J, L, and N are similar to each other. Students should point out that since these are all rectangles, the angles are all right angles and hence congruent, or the same size. For rectangles, it is then only necessary to check side lengths.</p>",
-            "<p>L to J is 2; L to N is 3; J to N is 3/2</p>",
-            "<p>J to L is 1/2 (reciprocal of 2); N to L is 1/3  (reciprocal of 3); N to J is   2/3 (reciprocal of 3/2 ).</p>",
-            "<p>Triangles</p>",
-            "<p>Triangles (noses) O, R, and S are similar to each other.</p>",
-            "<p>O to R is 2; O to S is 3; and R to S is 3/2 .</p>",
-            "<p>R to O is 1/2 (reciprocal of 2); S to O is 1/3  (reciprocal of 3); S to R is 2/3  (reciprocal of 3/2 ).</p>"
+            "<p><u>Two Unknown Time Periods</u></p><p><em>Source: </em><strong><em>Plains Anthropologist</em></strong></p>"
           ]
-        },
-        "id": "TILEx_Lj9PhXegJE"
+        }
       },
-      {"content": {"type": "Text", "format": "html", "text": ["• In what ways could scale factor be useful when determining similar figures?"]}, "id": "TILEy8zGVwg4wwCn"},
+      [
+        {
+          "id": "WPwWsMapOG3sDD1K",
+          "title": "Site #1: 15 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "JVQXa_ZZuU3xLtld": 96,
+              "b0P79twUThPFpjXB": 94
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "C8DDQkfFESQm3WYN",
+          "title": "Site #2: 37 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "ZCPvVS3NaiEJdFkf": 96,
+              "inskewB6bMRAPaFV": 92
+            },
+            "name": "Table 2"
+          }
+        }
+      ],
       {
+        "id": "WU_ns_LDlfN3CLBT",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Four Known Time Periods</u></p><p><em>Two Sites Settled between A.D. 500 and A.D. 1600</em></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "dug8scXnyrkZhSaB",
+          "title": "Big Goose: 52 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "Xh6Y_74Xwu2Pkk8K": 113,
+              "N13rCxLVW3x80lWx": 119
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "Cqf6meGhp_ieFpLU",
+          "title": "Wortham Shelter: 45 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "ITeOLeppRNmtAQEl": 119,
+              "1mHJY4Iz1FGCgI7d": 117
+            },
+            "name": "Table 2"
+          }
+        }
+      ],
+      {
+        "id": "g2-r7hQxqGhGmMkP",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Two Sites Settled between 4000 B.C. and A.D. 500</em></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "DQIbVwUSWoVJmUyw",
+          "title": "Laddie Creek: 18 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "_KMuLTjzNvL5gOMm": 122,
+              "dsXO2GK-9Ntvm2Tq": 117
+            },
+            "name": "Table 3"
+          }
+        },
+        {
+          "id": "olrcOmeuTsLnbusP",
+          "title": "Kobold/Buffalo Creek: 52 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "aunhM2nD7hcbbAjZ": 141,
+              "J0I_W9aRDACTH4OK": 121
+            },
+            "name": "Table 4"
+          }
+        }
+      ],
+      {
+        "id": "Oo6TyKmGq12Ka-75",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Two Unknown Time Periods </strong></p><p><em>Source: </em><strong><em>Plains Anthropologist</em></strong></p><p>(all measured in millimeters)</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "NbE-6M_Am6mYYCyB",
+          "title": "Unknown Site 1: 15 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "cn6Rg_nHc-H0q11b": 117,
+              "SjbiJV3Fmp4277ng": 80,
+              "dvFz_XxDrBydUkDR": 90
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "HPB677KtnJxIV3W3",
+          "title": "Unknown Site 2: 37 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "q4XjaQE6uWuqjGUf": 117,
+              "cn7W4yE0pvs4qgnG": 80,
+              "XltDB3DL353Bt-ll": 90
+            },
+            "name": "Table 1"
+          }
+        }
+      ],
+      {
+        "id": "387knwbENgYwvkYj",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Four Known Time Periods</strong></p><p>Two Sites Settled between A.D. 500 and A.D. 1600</p><p>(all measured in millimeters)</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "1e9K3UjJGeI5CmHr",
+          "title": "Big Goose: 52 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "WVDc4faqhDYqWgeO": 117,
+              "5uYyQ-O9Qsak0AWm": 80,
+              "Oxbb3GLp7nTY5bgH": 90
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "JwBtGJmTTbWdLjTS",
+          "title": "Wortham Shelter: 45 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "ZbzN9e-ia4zPeFoe": 117,
+              "SLaSw5kGY9KqKhTM": 80,
+              "4GFcYjKZ5q2UWi9I": 90
+            },
+            "name": "Table 1"
+          }
+        }
+      ],
+      {
+        "id": "CsstjwfHXlo7iSG0",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Two Sites Settled between 4000 B.C. and A.D. 500</p><p>(all measured in millimeters)</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "VHY8D7pl73fSKV3X",
+          "title": "Laddie Creek: 18 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "od1-K41_UvJzhg43": 117,
+              "gTGwdsn03oGtSR3S": 80,
+              "ciWuYu9bMah-uR0t": 90
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "1OrpQf8ySSg1ikCg",
+          "title": "Kobold/Buffalo Creek: 52 Arrowheads",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "dyq0NNNOdoDcqVat": 117,
+              "SCVva7UB9QgrnPgN": 80,
+              "Jg-F16l7JHRJrkAR": 90
+            },
+            "name": "Table 1"
+          }
+        }
+      ],
+      {
+        "id": "Ual7oR6ubQKUwYe5",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Describe how you could use the data to estimate the length and width of a typical arrowhead for each of the six sites.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "KVMXXTzdymSJhpAB",
+        "title": "Text 9",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The scale factor tells us how much the new figure has been stretched or shrunk in both vertical and horizontal directions. If the scale factor is larger than 1, then the new figure will be bigger than the original figure. The new side lengths and perimeters will be the scale factor times as large. If the scale factor is less than 1, then the new figure will be smaller than the original figure. The new side lengths and perimeters will be the scale factor times as small.</p>"
+            "<p>Students may choose to use measures of center, such as median and mean. </p><p>Students may consider the Q1 and Q3 values since 50% of the data observations are within those values.</p><p>Students may want to make graphs, such as box plots, as well.</p>"
           ]
+        }
+      },
+      {
+        "id": "Q3YIPiz7X4nTKI_t",
+        "title": "Possible Reasoning",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/sp22.png",
+          "filename": "sap/images/sp22.png"
+        }
+      },
+      {
+        "id": "zceibixhJUehurI1",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Describe how you could use the data from the known time periods to determine the time periods for the unknown sites.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "tENc_1MtNPESRhk1",
+        "title": "Text 11",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Students may choose to compare means or medians as ways to decide; they might also decide to look at variability.</p><p><em>Site I</em></p><p>Site I was most likely settled between 4000 B.C. and 500 A.D. The five number summary for the Site I data are more similar to the five number summary for the Laddie Creek/Dead Indian Creek and Kobold/Buffalo Creek data. Site I has a similar variability and similar mean to the sites settled between 4000 B.C. and 500 A.D. Also, when compared to the Site II, Big Goose Creek, and Wortham Shelter five number summary, the Site I box plot is very different. Looking at the summary statistics, the medians of the sites from the 4000 B.C. to A.D. 500. period vary from 33.5 to 45 and the means vary from 35 to 45.9. These statistics are a bit more spread out but, again, when the statistics are compared with the statistics of the three other sites, it is clear that Site I is similar to the Kobold/Buffalo Creek and Laddie Creek/Dead Indian Creek sites.</p><p><em>Site II</em></p><p>Site II was most likely settled between A.D. 500 and A.D. 1600. The five number summary for Site II is similar to the five number summary for Big Goose Creek and Wortham Shelter. Looking at the summary statistics, the medians vary from 24 to 26 and the means vary from 23.6 to 26.3. The ranges of data are also similar (between 24 and 30), whereas the ranges for the other three sites are between 27 and 53. The data for the two known sites are a bit more spread out, but Site II has two outliers which extend the box plot.</p><p>The statistics and box plots for arrowhead width do support the conclusions drawn in Situation A. Site I data are similar to the data from the Kobold/Buffalo Creek and Laddie Creek/Dead Indian Creek settlements. The widths are greater, and the data are more spread out.</p><p>Site II data are similar to the data from the Big Goose Creek and Wortham Shelter settlements. The widths are shorter, and the data are less spread out.</p>"
+          ]
+        }
+      },
+      {
+        "id": "Tr_Co5J69XDHbhYO",
+        "title": "Text 12",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Box Plots of Arrowhead Lengths</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "vEiyma83S5krG9xd",
+          "title": "Box Plot 1",
+          "display": "teacher",
+          "content": {
+            "type": "Image",
+            "url": "sap/images/sp23.png",
+            "filename": "sap/images/sp23.png"
+          }
         },
-        "id": "TILEIW5QhFM_GjV-"
+        {
+          "id": "nbRMG37lrzTjJBMn",
+          "title": "Box Plot 2",
+          "display": "teacher",
+          "content": {
+            "type": "Image",
+            "url": "sap/images/sp24.png",
+            "filename": "sap/images/sp24.png"
+          }
+        }
+      ],
+      {
+        "id": "KbmjPDwR6uXnuLS4",
+        "title": "Text 13",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Box Plots of Arrowhead Widths</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "UAMbr1KnoJTmDtId",
+          "title": "Box Plot 3",
+          "display": "teacher",
+          "content": {
+            "type": "Image",
+            "url": "sap/images/sp25.png",
+            "filename": "sap/images/sp25.png"
+          }
+        },
+        {
+          "id": "pBT8JBZd1aoLH8YW",
+          "title": "Box Plot 4",
+          "display": "teacher",
+          "content": {
+            "type": "Image",
+            "url": "sap/images/sp26.png",
+            "filename": "sap/images/sp26.png"
+          }
+        }
+      ]
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "6NbwgOimxCrrWBiS",
+          "providerId": "WPwWsMapOG3sDD1K",
+          "dataSet": {
+            "id": "RgJa8LxblvW4VPA9",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "JVQXa_ZZuU3xLtld",
+                "clientKey": "",
+                "name": "Length (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "24",
+                  "27",
+                  "29",
+                  "29",
+                  "31",
+                  "31",
+                  "37",
+                  "38",
+                  "38",
+                  "40",
+                  "45",
+                  "45",
+                  "55",
+                  "62",
+                  "63"
+                ],
+                "title": ""
+              },
+              {
+                "id": "b0P79twUThPFpjXB",
+                "clientKey": "",
+                "name": "Width (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "19",
+                  "19",
+                  "19",
+                  "22",
+                  "16",
+                  "32",
+                  "23",
+                  "22",
+                  "26",
+                  "25",
+                  "22",
+                  "28",
+                  "22",
+                  "26",
+                  "29"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "YxEcTvsuptqDdKC7"
+              },
+              {
+                "__id__": "TUWFTvLK5N9C-a7w"
+              },
+              {
+                "__id__": "VCO4l82ZcTQujkEG"
+              },
+              {
+                "__id__": "tuWSHF2c3n5pMQRd"
+              },
+              {
+                "__id__": "EhATVBDOvHIitRic"
+              },
+              {
+                "__id__": "rsc4VF9Q_jTzz26v"
+              },
+              {
+                "__id__": "3wSL7lmdUSLrx-ht"
+              },
+              {
+                "__id__": "siomm5RXvAglFw8N"
+              },
+              {
+                "__id__": "yC8u3QB2o65xGKF1"
+              },
+              {
+                "__id__": "Ybv_8vB5uy4TGI00"
+              },
+              {
+                "__id__": "eA3tz8xykOIZVsQR"
+              },
+              {
+                "__id__": "AO3w93JSZXCrpbw8"
+              },
+              {
+                "__id__": "cGD839YwIgeNGIWv"
+              },
+              {
+                "__id__": "fExAd0UCMCZMAvkQ"
+              },
+              {
+                "__id__": "1Z0fo9xdVSgDW4K0"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "WPwWsMapOG3sDD1K"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "l_DuiMBmcYYpXuSR",
+          "providerId": "C8DDQkfFESQm3WYN",
+          "dataSet": {
+            "id": "daBQkvYaYo93lFzK",
+            "name": "Table 2",
+            "attributes": [
+              {
+                "id": "ZCPvVS3NaiEJdFkf",
+                "clientKey": "",
+                "name": "Length (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "13",
+                  "15",
+                  "16",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "19",
+                  "20.",
+                  "20",
+                  "21",
+                  "22",
+                  "22",
+                  "22",
+                  "22",
+                  "23",
+                  "23",
+                  "24",
+                  "24",
+                  "24",
+                  "24",
+                  "24",
+                  "24",
+                  "24",
+                  "25",
+                  "25",
+                  "25",
+                  "25",
+                  "26",
+                  "26",
+                  "26",
+                  "27",
+                  "28",
+                  "28",
+                  "32",
+                  "42",
+                  "43"
+                ],
+                "title": ""
+              },
+              {
+                "id": "inskewB6bMRAPaFV",
+                "clientKey": "",
+                "name": "Width (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "15",
+                  "12",
+                  "12",
+                  "13",
+                  "12",
+                  "12",
+                  "11",
+                  "13",
+                  "13",
+                  "13",
+                  "14",
+                  "14",
+                  "15",
+                  "11",
+                  "12",
+                  "13",
+                  "13",
+                  "14",
+                  "15",
+                  "15",
+                  "13",
+                  "13",
+                  "15",
+                  "24",
+                  "14",
+                  "14",
+                  "15",
+                  "14",
+                  "11",
+                  "13",
+                  "12",
+                  "16",
+                  "14"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "z_HbeE6puz4_htZw"
+              },
+              {
+                "__id__": "qA0is8hq1GJcKuck"
+              },
+              {
+                "__id__": "dpM-Nzh8AYoRbv4R"
+              },
+              {
+                "__id__": "jyD2pSyqq27jsAwn"
+              },
+              {
+                "__id__": "T1mjF5qU3eCq-ojw"
+              },
+              {
+                "__id__": "iVqk0uDihOXhNHGo"
+              },
+              {
+                "__id__": "cesMZXtlFyVPow55"
+              },
+              {
+                "__id__": "8lb_DymTJdKGcaa7"
+              },
+              {
+                "__id__": "z8XzopbsG64JYq5s"
+              },
+              {
+                "__id__": "pKmB0HQi6IM8na-u"
+              },
+              {
+                "__id__": "rNoA9Suz7MfaTkSx"
+              },
+              {
+                "__id__": "V7p66DeDjLXiBdM_"
+              },
+              {
+                "__id__": "CwWG1v0vYC10u7pA"
+              },
+              {
+                "__id__": "mgIACdg5VC-w38ZA"
+              },
+              {
+                "__id__": "cRXxaFc5Xu43XtN2"
+              },
+              {
+                "__id__": "rq3PVPZ15Sqzbygq"
+              },
+              {
+                "__id__": "dO9OOHKWOrwBnyFC"
+              },
+              {
+                "__id__": "H3c2h29E6fpEFbNv"
+              },
+              {
+                "__id__": "J1vImaGlXPdDF0g9"
+              },
+              {
+                "__id__": "rLnDjL3zjH90t6iA"
+              },
+              {
+                "__id__": "jJX3TLGIcwJqbzCO"
+              },
+              {
+                "__id__": "QqfoMoUZrA2XQ4qj"
+              },
+              {
+                "__id__": "6rBPv2BYUeEWmJFw"
+              },
+              {
+                "__id__": "cCKuKDdM7ugw4b-u"
+              },
+              {
+                "__id__": "LyOFujxcZLBYsGJZ"
+              },
+              {
+                "__id__": "Gk3l2gVjx5A6et6W"
+              },
+              {
+                "__id__": "EDJLgjaNNY4vId2F"
+              },
+              {
+                "__id__": "yw1T-bLNKxcmYR8m"
+              },
+              {
+                "__id__": "6YRFgZ-0k7di9bS2"
+              },
+              {
+                "__id__": "iupGjGuSgKkYhhyN"
+              },
+              {
+                "__id__": "5C_mP3iMqO4vpLEW"
+              },
+              {
+                "__id__": "wioswQVK76DrDy3S"
+              },
+              {
+                "__id__": "eCTmkm5AAi5tQCnl"
+              },
+              {
+                "__id__": "B-6NvGVnm1TcESVU"
+              },
+              {
+                "__id__": "Pky7eLBmYldszuKk"
+              },
+              {
+                "__id__": "XkbdujMrArWiiYGq"
+              },
+              {
+                "__id__": "h9kX-j8A8BCHGJQ8"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "C8DDQkfFESQm3WYN"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "MC_iEE0MuAKMwkx0",
+          "providerId": "dug8scXnyrkZhSaB",
+          "dataSet": {
+            "id": "rARdwmafOhL13m3v",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "Xh6Y_74Xwu2Pkk8K",
+                "clientKey": "",
+                "name": "Length (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "16",
+                  "17",
+                  "17",
+                  "18",
+                  "18",
+                  "18",
+                  "18",
+                  "19",
+                  "20",
+                  "20",
+                  "21",
+                  "21",
+                  "21",
+                  "22",
+                  "22",
+                  "22",
+                  "23",
+                  "23",
+                  "23",
+                  "24",
+                  "24",
+                  "25",
+                  "25",
+                  "25",
+                  "26",
+                  "26",
+                  "26",
+                  "26",
+                  "27",
+                  "27",
+                  "27",
+                  "27",
+                  "27",
+                  "28",
+                  "28",
+                  "28",
+                  "28",
+                  "29",
+                  "30",
+                  "30",
+                  "30",
+                  "30",
+                  "30",
+                  "30",
+                  "31",
+                  "33",
+                  "33",
+                  "34",
+                  "35",
+                  "39",
+                  "40"
+                ],
+                "title": ""
+              },
+              {
+                "id": "N13rCxLVW3x80lWx",
+                "clientKey": "",
+                "name": "Width (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "13",
+                  "14",
+                  "13",
+                  "13",
+                  "12",
+                  "12",
+                  "13",
+                  "15",
+                  "11",
+                  "11",
+                  "12",
+                  "11",
+                  "12",
+                  "12",
+                  "12",
+                  "13",
+                  "13",
+                  "13",
+                  "13",
+                  "14",
+                  "14",
+                  "14",
+                  "13",
+                  "13",
+                  "14",
+                  "11",
+                  "12",
+                  "14",
+                  "16",
+                  "13",
+                  "13",
+                  "14",
+                  "14",
+                  "17",
+                  "10",
+                  "13",
+                  "13",
+                  "15",
+                  "15",
+                  "11",
+                  "13",
+                  "14",
+                  "14",
+                  "14",
+                  "15",
+                  "12",
+                  "13",
+                  "15",
+                  "15",
+                  "14.",
+                  "18",
+                  "14"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "RzI2krM5kBmXR2JU"
+              },
+              {
+                "__id__": "Lprfq1gb29PEWHAZ"
+              },
+              {
+                "__id__": "u-3kz7hSYKU-hSbz"
+              },
+              {
+                "__id__": "00L4Q50yNxp2572d"
+              },
+              {
+                "__id__": "FYtqLUAdltg-GOt0"
+              },
+              {
+                "__id__": "GEYaLz3eDBxBOY3Q"
+              },
+              {
+                "__id__": "FvGcDE1LBKyH-Hbz"
+              },
+              {
+                "__id__": "3YXj5VU0_Btiqd2s"
+              },
+              {
+                "__id__": "jm8LO9e29QseRZdn"
+              },
+              {
+                "__id__": "DKYSbQ7V5dsE9bh2"
+              },
+              {
+                "__id__": "twkLMZyEsJU_W7E4"
+              },
+              {
+                "__id__": "CBMj8mC7XjcmTU25"
+              },
+              {
+                "__id__": "rHoXn8cbZ3JUNmrj"
+              },
+              {
+                "__id__": "TL04Wdh5zWXQgTq3"
+              },
+              {
+                "__id__": "3rYaqIUK3lyoTcId"
+              },
+              {
+                "__id__": "-gtD7MpDC-ulRTGV"
+              },
+              {
+                "__id__": "wYUEaDnP2pS9o7uZ"
+              },
+              {
+                "__id__": "B5w8aH9PTJ2olb_4"
+              },
+              {
+                "__id__": "YIwCss_OgUTqHwHp"
+              },
+              {
+                "__id__": "aIh8lD2_fWuHJn4j"
+              },
+              {
+                "__id__": "wx3uetwDgbJ2PD0o"
+              },
+              {
+                "__id__": "vq8qzelFlsYV-F-P"
+              },
+              {
+                "__id__": "HaZ0LuA-dfkLVCE4"
+              },
+              {
+                "__id__": "dtw1rzy9OOvNYtlS"
+              },
+              {
+                "__id__": "v-akxfvzyky9lI_X"
+              },
+              {
+                "__id__": "sOXOiPgqwKvGgboV"
+              },
+              {
+                "__id__": "blj0-tZtpLotZSqC"
+              },
+              {
+                "__id__": "GcFlwlDBSl3gWljz"
+              },
+              {
+                "__id__": "dGvTDpjbXiD-mj6H"
+              },
+              {
+                "__id__": "esT0ekHiyeLOotYC"
+              },
+              {
+                "__id__": "Kh4enRAAMvin7pvo"
+              },
+              {
+                "__id__": "1Wgs7SaeI1ajxRLc"
+              },
+              {
+                "__id__": "iSiqMRZCpPdF80G2"
+              },
+              {
+                "__id__": "jjegRw_7RzWlgIjz"
+              },
+              {
+                "__id__": "PlomWoSBNqHB9Q99"
+              },
+              {
+                "__id__": "0qck4H3fNMdomKWf"
+              },
+              {
+                "__id__": "24BiHlci3p4eppYX"
+              },
+              {
+                "__id__": "s44c-ubqa7vw13xA"
+              },
+              {
+                "__id__": "uTwrENf_r6ylmY_v"
+              },
+              {
+                "__id__": "CoiNbANE2Q95hnEQ"
+              },
+              {
+                "__id__": "QX-lk-hdMIXiFgtU"
+              },
+              {
+                "__id__": "brPLPz8OQ9It6qA6"
+              },
+              {
+                "__id__": "EemKQv8OwGnE10bA"
+              },
+              {
+                "__id__": "WYMS1I5sPfjko5gP"
+              },
+              {
+                "__id__": "22akJPKDYw9xC4Ym"
+              },
+              {
+                "__id__": "IJo2m4eSw0ME9M4e"
+              },
+              {
+                "__id__": "oNCp1oaQc8XzBTH8"
+              },
+              {
+                "__id__": "jknwL14OHF1EPKpu"
+              },
+              {
+                "__id__": "EqAwV_BMQ2BbpS5e"
+              },
+              {
+                "__id__": "W24mSo0Om6ovN-lv"
+              },
+              {
+                "__id__": "MOM70_9j5JL1jY6k"
+              },
+              {
+                "__id__": "fPVOzjce4al3puGM"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "dug8scXnyrkZhSaB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "KklN7Ks2t6W52KJR",
+          "providerId": "Cqf6meGhp_ieFpLU",
+          "dataSet": {
+            "id": "6sqGgi366aVczrNj",
+            "name": "Table 2",
+            "attributes": [
+              {
+                "id": "ITeOLeppRNmtAQEl",
+                "clientKey": "",
+                "name": "Length (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "18",
+                  "19",
+                  "19",
+                  "19",
+                  "19",
+                  "20",
+                  "20",
+                  "20",
+                  "22",
+                  "22",
+                  "23",
+                  "23",
+                  "23",
+                  "24",
+                  "24",
+                  "25",
+                  "25",
+                  "25",
+                  "25",
+                  "25",
+                  "26",
+                  "26",
+                  "26",
+                  "27",
+                  "27",
+                  "27",
+                  "28",
+                  "28",
+                  "28",
+                  "29",
+                  "29",
+                  "29",
+                  "29",
+                  "30",
+                  "30",
+                  "30",
+                  "31",
+                  "31",
+                  "31",
+                  "31",
+                  "31",
+                  "32",
+                  "32",
+                  "35",
+                  "42"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1mHJY4Iz1FGCgI7d",
+                "clientKey": "",
+                "name": "Width (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "11",
+                  "12",
+                  "14",
+                  "14",
+                  "16",
+                  "13",
+                  "14",
+                  "15",
+                  "12",
+                  "14",
+                  "13",
+                  "14",
+                  "15",
+                  "12",
+                  "13",
+                  "14",
+                  "14",
+                  "15",
+                  "15",
+                  "15",
+                  "13",
+                  "13",
+                  "15",
+                  "14",
+                  "14",
+                  "15",
+                  "13",
+                  "14",
+                  "16",
+                  "13",
+                  "14",
+                  "14",
+                  "17",
+                  "14",
+                  "16",
+                  "17",
+                  "13",
+                  "14",
+                  "14",
+                  "16",
+                  "17",
+                  "14",
+                  "15",
+                  "18",
+                  "18"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "lBE8ts83dZBy2ANa"
+              },
+              {
+                "__id__": "aGPtY0hwsgaH46yG"
+              },
+              {
+                "__id__": "5m6W6q2AFmm05V9j"
+              },
+              {
+                "__id__": "gIyXHFBMt--H2PLo"
+              },
+              {
+                "__id__": "8aWs5tHd319iuDBx"
+              },
+              {
+                "__id__": "DjZc_d51uXI5fRuX"
+              },
+              {
+                "__id__": "Tz0bauwWx-uREaxT"
+              },
+              {
+                "__id__": "5bJ7d_vSjNnE38--"
+              },
+              {
+                "__id__": "8HYr51iiKO_yZzYP"
+              },
+              {
+                "__id__": "1zPav7R6bdYbgD-J"
+              },
+              {
+                "__id__": "qII07wIqNoTW6Yki"
+              },
+              {
+                "__id__": "SSz79ITzKjB7CxfM"
+              },
+              {
+                "__id__": "y-fqowm6OaD8M0Bf"
+              },
+              {
+                "__id__": "_EHY8K4cadIYiGG1"
+              },
+              {
+                "__id__": "YvnmejgHSayp43Xs"
+              },
+              {
+                "__id__": "D0xxyaO1SQLNCU2T"
+              },
+              {
+                "__id__": "livnaZu1uQcYmdDV"
+              },
+              {
+                "__id__": "Jv04gN2mqiDa-HjC"
+              },
+              {
+                "__id__": "Gm0ZbMH6AXZgN9dN"
+              },
+              {
+                "__id__": "pa8fgjVp5TC4wqxA"
+              },
+              {
+                "__id__": "uJIue-hpspVS-tJ_"
+              },
+              {
+                "__id__": "XIvJ-XUuxlROo8XO"
+              },
+              {
+                "__id__": "31SpgGYkRGlAXQo9"
+              },
+              {
+                "__id__": "WjcevO5ynDyGPthE"
+              },
+              {
+                "__id__": "MpjyaFQVy6Ka4Ayc"
+              },
+              {
+                "__id__": "nWdn6X3-lYMy-tse"
+              },
+              {
+                "__id__": "zAUwMwf3PT9abt3J"
+              },
+              {
+                "__id__": "qipu5J-KFQHdexLc"
+              },
+              {
+                "__id__": "z_ZY6mPH0ZQadCTq"
+              },
+              {
+                "__id__": "WZ_r20XMnP6d2PoK"
+              },
+              {
+                "__id__": "MQJ4J0RJmXe90y4D"
+              },
+              {
+                "__id__": "3sQqMoKHlsQCLnrT"
+              },
+              {
+                "__id__": "PpQzOUaoSkLXk2hJ"
+              },
+              {
+                "__id__": "thoCSTTfYWl2tS5y"
+              },
+              {
+                "__id__": "xzDqMz6qzJ-YA6Zk"
+              },
+              {
+                "__id__": "5LBQNMyanG2qaDMQ"
+              },
+              {
+                "__id__": "VLpvStoMCRve3zB2"
+              },
+              {
+                "__id__": "qHzqWYIqw60TuLym"
+              },
+              {
+                "__id__": "o5rm-JXN_NGS8rCZ"
+              },
+              {
+                "__id__": "n9ll9ob0datJhZrp"
+              },
+              {
+                "__id__": "BS6rljVKxEyGPS89"
+              },
+              {
+                "__id__": "jfjjHaNfqF3Fj5R8"
+              },
+              {
+                "__id__": "BfYh2TXrq99CCBmg"
+              },
+              {
+                "__id__": "4ctUTZhGx1t5Ejo0"
+              },
+              {
+                "__id__": "DS3a1uBBy3iv1xhP"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "Cqf6meGhp_ieFpLU"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "VndFNVU9MMmsYddF",
+          "providerId": "DQIbVwUSWoVJmUyw",
+          "dataSet": {
+            "id": "cA6csp6wvuIat--Y",
+            "name": "Table 3",
+            "attributes": [
+              {
+                "id": "_KMuLTjzNvL5gOMm",
+                "clientKey": "",
+                "name": "Length (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "25",
+                  "27",
+                  "27",
+                  "29",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "32",
+                  "35",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "44",
+                  "52"
+                ],
+                "title": ""
+              },
+              {
+                "id": "dsXO2GK-9Ntvm2Tq",
+                "clientKey": "",
+                "name": "Width (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "18",
+                  "20",
+                  "20",
+                  "14",
+                  "20",
+                  "23",
+                  "18",
+                  "16",
+                  "19",
+                  "20",
+                  "17",
+                  "17",
+                  "18",
+                  "18",
+                  "15",
+                  "22",
+                  "18",
+                  "21"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "wwn0FZ0ywTahb7zD"
+              },
+              {
+                "__id__": "gdBc3iFmhO1Fm_kz"
+              },
+              {
+                "__id__": "iokBphJF7imnsfKQ"
+              },
+              {
+                "__id__": "f3Qr4mQtLrI5yW13"
+              },
+              {
+                "__id__": "NrSfq4_R1u_9tEho"
+              },
+              {
+                "__id__": "Kw-A9ADvQB4EpxQO"
+              },
+              {
+                "__id__": "xmFyoXNcwlhK7fvH"
+              },
+              {
+                "__id__": "8pYzvNozSadQQtBE"
+              },
+              {
+                "__id__": "jcbqfVEm2g-DSBIZ"
+              },
+              {
+                "__id__": "ckvqD-4bg5jNY-Dr"
+              },
+              {
+                "__id__": "SyWNUSq-2Y92qYjd"
+              },
+              {
+                "__id__": "fATmCvFJD7WJVOF1"
+              },
+              {
+                "__id__": "6YZvjq97jO9KIFpr"
+              },
+              {
+                "__id__": "7_p4Mb5GpWrAvgLd"
+              },
+              {
+                "__id__": "6XBM2wQwVHxYcTL4"
+              },
+              {
+                "__id__": "4sgU4Hn8eDajZw57"
+              },
+              {
+                "__id__": "Mu7pblQoyuXwiJhD"
+              },
+              {
+                "__id__": "fH4tujToZAjW9_XV"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "DQIbVwUSWoVJmUyw"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "b9T01jP9DwnmQexm",
+          "providerId": "olrcOmeuTsLnbusP",
+          "dataSet": {
+            "id": "28HAwEfnFSUrT4T0",
+            "name": "Table 4",
+            "attributes": [
+              {
+                "id": "aunhM2nD7hcbbAjZ",
+                "clientKey": "",
+                "name": "Length (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "25",
+                  "30",
+                  "30",
+                  "31",
+                  "31",
+                  "32",
+                  "32",
+                  "32",
+                  "35",
+                  "35",
+                  "37",
+                  "37",
+                  "38",
+                  "38",
+                  "39",
+                  "40",
+                  "40",
+                  "40",
+                  "40",
+                  "41",
+                  "42",
+                  "42",
+                  "44",
+                  "44",
+                  "44",
+                  "45",
+                  "45",
+                  "46",
+                  "46",
+                  "46",
+                  "47",
+                  "47",
+                  "47",
+                  "49",
+                  "50",
+                  "50",
+                  "50",
+                  "51",
+                  "52",
+                  "52",
+                  "52",
+                  "54",
+                  "56",
+                  "56",
+                  "56",
+                  "57",
+                  "61",
+                  "64",
+                  "66",
+                  "67",
+                  "71",
+                  "78"
+                ],
+                "title": ""
+              },
+              {
+                "id": "J0I_W9aRDACTH4OK",
+                "clientKey": "",
+                "name": "Width (mm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "18",
+                  "17",
+                  "19",
+                  "16",
+                  "17",
+                  "20",
+                  "22",
+                  "23",
+                  "19",
+                  "22",
+                  "18",
+                  "21",
+                  "18",
+                  "24",
+                  "21",
+                  "19",
+                  "20",
+                  "20",
+                  "21",
+                  "21",
+                  "22",
+                  "22",
+                  "20",
+                  "20",
+                  "25",
+                  "20",
+                  "22",
+                  "17",
+                  "20",
+                  "23",
+                  "19",
+                  "20",
+                  "22",
+                  "20",
+                  "21",
+                  "23",
+                  "23",
+                  "18",
+                  "17",
+                  "22",
+                  "24",
+                  "24",
+                  "19",
+                  "21",
+                  "25",
+                  "21",
+                  "19",
+                  "21",
+                  "20",
+                  "21",
+                  "24",
+                  "26"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "JQZdjS2WKsLJ6_vH"
+              },
+              {
+                "__id__": "vFVsN4ygljUvjcUO"
+              },
+              {
+                "__id__": "R7hBeEa66NHN9eLs"
+              },
+              {
+                "__id__": "mZGE1MuprHz1qAvj"
+              },
+              {
+                "__id__": "tN5CUO_XtkE7s96R"
+              },
+              {
+                "__id__": "hJ8O7ounzInO5LDs"
+              },
+              {
+                "__id__": "-D2iCtU-wJhcnrlJ"
+              },
+              {
+                "__id__": "67c02dO1Mz_-EJXP"
+              },
+              {
+                "__id__": "JJrLFLycMrAhh5yG"
+              },
+              {
+                "__id__": "COcVN4Lxz_J289nk"
+              },
+              {
+                "__id__": "oFL7G003z0HCxRXc"
+              },
+              {
+                "__id__": "gVFesxzoNgzJiqi_"
+              },
+              {
+                "__id__": "XTlQF2Dc-IlDIATr"
+              },
+              {
+                "__id__": "qin0NuFlfNWvk9n3"
+              },
+              {
+                "__id__": "Q_ge7ENnLqBYX8r2"
+              },
+              {
+                "__id__": "LztQUjH7YlG-P3Oh"
+              },
+              {
+                "__id__": "fMPcKD7VgcutNgoH"
+              },
+              {
+                "__id__": "Z--YEgmsHTZBZqY_"
+              },
+              {
+                "__id__": "tYB97fpaL0qfyLwx"
+              },
+              {
+                "__id__": "uQ2KIedun0YfpJ-Y"
+              },
+              {
+                "__id__": "iDQSlyS-DoJ9QQpt"
+              },
+              {
+                "__id__": "h66SDdt4jaIrYD8j"
+              },
+              {
+                "__id__": "ZiYusf5RlF9s8oMc"
+              },
+              {
+                "__id__": "qjVWdtmfeBEF3yAT"
+              },
+              {
+                "__id__": "unlc-KM-B6JmnQ6-"
+              },
+              {
+                "__id__": "F6PpXpw4BtcnP44x"
+              },
+              {
+                "__id__": "pdivlHLLEjHBIWvo"
+              },
+              {
+                "__id__": "eFjjQZW5cj45cztD"
+              },
+              {
+                "__id__": "lHKo4s5sCOZHfO1k"
+              },
+              {
+                "__id__": "p4-g3CdHF1dFJQ7Q"
+              },
+              {
+                "__id__": "xGa70fy_Dcnzr4qw"
+              },
+              {
+                "__id__": "xBABeuHPFskY5Ko6"
+              },
+              {
+                "__id__": "MHp2o9mTV32JIpW1"
+              },
+              {
+                "__id__": "T6sfVrBVLTofMuRK"
+              },
+              {
+                "__id__": "qouaCP23K9Suf-VR"
+              },
+              {
+                "__id__": "p0FH4RKLb2A4e4n8"
+              },
+              {
+                "__id__": "TPxv6rutCffdJjSA"
+              },
+              {
+                "__id__": "HqVrKxtIUxWjsk4a"
+              },
+              {
+                "__id__": "aPdWG1A54bYV8049"
+              },
+              {
+                "__id__": "DoMLKHuSAvxwxCYE"
+              },
+              {
+                "__id__": "ZFfjAe6KMoCG6wsO"
+              },
+              {
+                "__id__": "2SHhy8Upp8RCQSZj"
+              },
+              {
+                "__id__": "KqntC8v-0e1p2wrd"
+              },
+              {
+                "__id__": "bcguuZVb1sD3zP_c"
+              },
+              {
+                "__id__": "Sp5e1UbQT9FQyx2o"
+              },
+              {
+                "__id__": "vhhi5xH2KMB2SuPc"
+              },
+              {
+                "__id__": "QERC9euvZdvXurZy"
+              },
+              {
+                "__id__": "EtazW0zvAw9N9Qz_"
+              },
+              {
+                "__id__": "hHWquWDLgrj2tFLv"
+              },
+              {
+                "__id__": "u4v2EWxH8CpbiX3t"
+              },
+              {
+                "__id__": "_5pr5TaqMKPpErGh"
+              },
+              {
+                "__id__": "Lr5dL4t6LBGm1eSC"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "olrcOmeuTsLnbusP"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "0ignBUkVv4pdqN4Y",
+          "providerId": "NbE-6M_Am6mYYCyB",
+          "dataSet": {
+            "id": "fIZEkUzFqLYsW0zQ",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "cn6Rg_nHc-H0q11b",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "SjbiJV3Fmp4277ng",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "19",
+                  "22",
+                  "26",
+                  "32",
+                  "16",
+                  "23.3",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "dvFz_XxDrBydUkDR",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "24",
+                  "29",
+                  "38",
+                  "45",
+                  "63",
+                  "39",
+                  "39.6",
+                  "11.7"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "-9nJySb31o3K8G6B"
+              },
+              {
+                "__id__": "UHCszaPt33xynPzU"
+              },
+              {
+                "__id__": "9zD6idTe5QsGU5Ek"
+              },
+              {
+                "__id__": "kcHrAJxy-nIOvsJY"
+              },
+              {
+                "__id__": "MfUPy1UH-qrs-VT_"
+              },
+              {
+                "__id__": "2IEYq_eqmqkfFilz"
+              },
+              {
+                "__id__": "W6rJjVauN-NSMWHy"
+              },
+              {
+                "__id__": "uVbhTy0rS5JIq158"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "NbE-6M_Am6mYYCyB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "FtM0OM0i8v5XT2Jz",
+          "providerId": "HPB677KtnJxIV3W3",
+          "dataSet": {
+            "id": "iP-j624-3zg66mP9",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "q4XjaQE6uWuqjGUf",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "cn7W4yE0pvs4qgnG",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "10",
+                  "12",
+                  "13",
+                  "14",
+                  "24",
+                  "14",
+                  "13.4",
+                  "1.5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "XltDB3DL353Bt-ll",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "13",
+                  "20",
+                  "24",
+                  "25.5",
+                  "43",
+                  "30",
+                  "23.6",
+                  "2.6"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5F"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5G"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5H"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5J"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5K"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5M"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5N"
+              },
+              {
+                "__id__": "01HNAPB98FBZFEE8KEQFQYMT5P"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "HPB677KtnJxIV3W3"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "CkM_EMGEK7ciNtkZ",
+          "providerId": "1e9K3UjJGeI5CmHr",
+          "dataSet": {
+            "id": "8oFbSC3WLOi47ZHL",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "WVDc4faqhDYqWgeO",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "5uYyQ-O9Qsak0AWm",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "10",
+                  "12",
+                  "13",
+                  "14",
+                  "18",
+                  "8",
+                  "13.3",
+                  "1.2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Oxbb3GLp7nTY5bgH",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "21",
+                  "26",
+                  "29.5",
+                  "40",
+                  "24",
+                  "25.4",
+                  "4.5"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X0"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X1"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X2"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X3"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X4"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X5"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X6"
+              },
+              {
+                "__id__": "01HNAPEY6C3H1NX1Y5TM7KB5X7"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "1e9K3UjJGeI5CmHr"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "JF3rZKf95c9gaSjM",
+          "providerId": "JwBtGJmTTbWdLjTS",
+          "dataSet": {
+            "id": "RE_vy6r-frhGfDFQ",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "ZbzN9e-ia4zPeFoe",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "SLaSw5kGY9KqKhTM",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "11",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "7",
+                  "14.4",
+                  "1.2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4GFcYjKZ5q2UWi9I",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "18",
+                  "23",
+                  "26",
+                  "30",
+                  "42",
+                  "24",
+                  "26.3",
+                  "3.9"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG00"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG01"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG02"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG03"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG04"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG05"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG06"
+              },
+              {
+                "__id__": "01HNAPGSMR6MV154VE1JQ9NG07"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "JwBtGJmTTbWdLjTS"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "9YPAN6oLsFFcRqCH",
+          "providerId": "VHY8D7pl73fSKV3X",
+          "dataSet": {
+            "id": "BcP2gfDEebh9zqRG",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "od1-K41_UvJzhg43",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "gTGwdsn03oGtSR3S",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "14",
+                  "17",
+                  "18",
+                  "20",
+                  "23",
+                  "9",
+                  "18.6",
+                  "1.8"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ciWuYu9bMah-uR0t",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "25",
+                  "29",
+                  "33.5",
+                  "40",
+                  "52",
+                  "27",
+                  "35",
+                  "5.9"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMG"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMH"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMJ"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMK"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMM"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMN"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMP"
+              },
+              {
+                "__id__": "01HNAPKAGW84WQ8WXB27CKZSMQ"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "VHY8D7pl73fSKV3X"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "I644QpNgnuURvVdg",
+          "providerId": "1OrpQf8ySSg1ikCg",
+          "dataSet": {
+            "id": "32TOyFU2h1RmZNlY",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "dyq0NNNOdoDcqVat",
+                "clientKey": "",
+                "name": "Statistics",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value",
+                  "Range",
+                  "Mean (nearest tenth)",
+                  "MAD (nearest tenth)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "SCVva7UB9QgrnPgN",
+                "clientKey": "",
+                "name": "Widths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "19",
+                  "21",
+                  "22",
+                  "26",
+                  "10",
+                  "20.7",
+                  "1.8"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Jg-F16l7JHRJrkAR",
+                "clientKey": "",
+                "name": "Lengths",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "25",
+                  "38",
+                  "45",
+                  "52",
+                  "78",
+                  "53",
+                  "45.9",
+                  "8.7"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRP"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRQ"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRR"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRS"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRT"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRV"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRW"
+              },
+              {
+                "__id__": "01HNAPMPZEX7NPC1TJ7QKFWPRX"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "1OrpQf8ySSg1ikCg"
+        ]
       }
     ]
   },
-  "supports": [{"text": "When you identify pairs of rectangles or triangles, what measurements do you compare? Angles, Side lengths, Perimeters, Areas, etc."}]
+  "supports": [
+    {
+      "text": "When you identify pairs of rectangles or triangles, what measurements do you compare? Angles, Side lengths, Perimeters, Areas, etc."
+    }
+  ]
 }

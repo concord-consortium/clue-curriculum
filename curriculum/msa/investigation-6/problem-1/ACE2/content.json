@@ -32,7 +32,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Grace and Allie are going to meet at the fountain near their houses. They both leave their houses at the same time. Allie passes Grace&#x27;s house on her way to the fountain.</p><ul><li>Allie&#x27;s walking rate is 2 meters per second.</li><li>Grace&#x27;s walking rate is 1.5 meters per second.</li></ul><p><strong>a.  </strong>How many seconds will it take Allie to reach the fountain?</p><p><strong>b.  </strong>Suppose Grace&#x27;s house is 90 meters from the fountain. Who will reach the fountain first, Allie or Grace? Explain your reasoning.</p>"
+              "<p>Grace and Allie are going to meet at the fountain near their houses. They both leave their houses at the same time. Allie passes Grace&#x27;s house on her way to the fountain.</p><ul><li>Allie&#x27;s walking rate is 2 meters per second.</li><li>Grace&#x27;s walking rate is 1.5 meters per second.</li></ul>"
             ]
           }
         },
@@ -46,6 +46,17 @@
           }
         }
       ],
+      {
+        "id": "1ujlpIc78sgD00fg",
+        "title": "Text 71",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>a.  </strong>How many seconds will it take Allie to reach the fountain?</p><p><strong>b.  </strong>Suppose Grace&#x27;s house is 90 meters from the fountain. Who will reach the fountain first, Allie or Grace? Explain your reasoning.</p>"
+          ]
+        }
+      },
       {
         "id": "sDugqEgiBiXuUTG8",
         "title": "Text 4",
@@ -76,8 +87,16 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In Problem 2.1, Emile&#x27;s friend, Gilberto, joins the race. Gilberto has a head start of 20 meters and walks at 2 meters per second.</p><p><strong>a. </strong> Write an equation that gives the relationship between Gilberto&#x27;s distance d from where Emile starts and the time t.</p><p><strong>b. </strong> How would Gilberto&#x27;s graph compare to Emile&#x27;s and Henri&#x27;s graphs?</p><p><strong>c. </strong> Emile wrote the following inequality: 20 + 2t &gt; 45 + t. What information was he looking for?</p>"
+            "<p>In Problem 2.1, Emile&#x27;s friend, Gilberto, joins the race. Gilberto has a head start of 20 meters and walks at 2 meters per second.</p><p><strong>a. </strong> Write an equation that gives the relationship between Gilberto&#x27;s distance d from where Emile starts and the time t.</p><p><strong>b. </strong> How would Gilberto&#x27;s graph compare to Emile&#x27;s and Henri&#x27;s graphs?</p><p><strong>c. </strong> Emile wrote the inequality below. What information was he looking for?</p>"
           ]
+        }
+      },
+      {
+        "id": "8NioJigYt5a6ifWB",
+        "title": "Emile's Inequality",
+        "content": {
+          "type": "Expression",
+          "latexStr": "20+2t>45+t"
         }
       },
       {
@@ -114,22 +133,36 @@
           ]
         }
       },
-      {
-        "id": "2Xrg-noCnTUY3FD4",
-        "title": "Tara's and Ingrid's Walk to School",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "1O5M9qU16rsDQK4R": 132,
-            "qJx04vxTKxIxYIJ4": 178,
-            "Cj0BxQBweTyRUwPH": 181
-          },
-          "name": "Table 1"
+      [
+        {
+          "id": "2Xrg-noCnTUY3FD4",
+          "title": "Tara's  Walk to School",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "1O5M9qU16rsDQK4R": 132,
+              "qJx04vxTKxIxYIJ4": 178
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "sBUnw_UijwXllhYw",
+          "title": "Ingrid's Walk to School",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "RWDmSmia8szlDfnV": 132,
+              "4ff6l-0zG80N3GF0": 181
+            },
+            "name": "Table 1"
+          }
         }
-      },
+      ],
       {
-        "id": "V89Z7CYTgN7k5p0L",
+        "id": "cX2mRu-KjkTQK9BQ",
         "title": "Tara's and Ingrid's Walk to School",
         "content": {
           "type": "Geometry",
@@ -140,23 +173,20 @@
                 -1
               ],
               "axisRange": [
-                6.964,
-                1280.204
+                7,
+                1501
+              ],
+              "axisNames": [
+                "Time (minutes)",
+                "Distance (feet)"
+              ],
+              "axisLabels": [
+                "",
+                ""
               ]
             }
           },
           "objects": [
-            {
-              "type": "polygon",
-              "parents": [
-                "W1URm5I_WE0FUzGJ:Cj0BxQBweTyRUwPH",
-                "sWdRH8kHS0Y-Egdk:Cj0BxQBweTyRUwPH",
-                "-OiYCMaJIIlXy4ET:Cj0BxQBweTyRUwPH"
-              ],
-              "properties": {
-                "id": "J0qA2jjr_sXpMYBL"
-              }
-            },
             {
               "type": "polygon",
               "parents": [
@@ -165,67 +195,68 @@
                 "-OiYCMaJIIlXy4ET:qJx04vxTKxIxYIJ4"
               ],
               "properties": {
-                "id": "3BPX5HdEqHpXfrhw"
+                "id": "jUlYU82gogbEZB7g"
               }
             },
             {
-              "type": "movableLine",
+              "type": "polygon",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    492.5695652173913
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2.002567802616863,
-                    748.6
-                  ]
-                }
+                "01HKD2RK0YJCBNTYEYC9BNPEKH:4ff6l-0zG80N3GF0",
+                "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0",
+                "01HKD2RK0YJCBNTYEYC9BNPEKK:4ff6l-0zG80N3GF0"
               ],
               "properties": {
-                "id": "AWoVwWGZSOIt6B2R",
-                "pt1": {
-                  "type": "point",
-                  "id": "AWoVwWGZSOIt6B2R-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "AWoVwWGZSOIt6B2R-point2"
-                }
+                "id": "XNW-9TlfA5zjhDuU"
               }
             },
             {
-              "type": "movableLine",
+              "type": "point",
               "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2.00445765230312,
-                    502.3695652173912
-                  ]
-                }
+                1,
+                250
               ],
               "properties": {
-                "id": "9VYJ3ie4xyyQ08vk",
-                "pt1": {
-                  "type": "point",
-                  "id": "9VYJ3ie4xyyQ08vk-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "9VYJ3ie4xyyQ08vk-point2"
-                }
+                "id": "5fn54T9aIgQh8uBQ",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1,
+                627.5
+              ],
+              "properties": {
+                "id": "C8IkC1brj4h3W3lR",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                2.2936330942007213,
+                385.4166012639584
+              ],
+              "properties": {
+                "id": "GRm1pb_TTSSmpDhh",
+                "text": "Ingrid",
+                "anchor": "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                1.8686829056206915,
+                1008.8585570515065
+              ],
+              "properties": {
+                "id": "FqQJdFb_FElJ_W9C",
+                "text": "Tara",
+                "anchor": "sWdRH8kHS0Y-Egdk:qJx04vxTKxIxYIJ4"
               }
             }
           ]
@@ -276,23 +307,37 @@
           ]
         }
       },
-      {
-        "id": "OnUyc0WgdJ4uTEQF",
-        "title": "Cost and Income From the Protein Bar Sale",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "EHr9OZXNFvXwdYZV": 116,
-            "B8QPul9FOL6XQHUu": 132,
-            "lUPVFk474KmHWUqi": 117
-          },
-          "name": "Table 1"
+      [
+        {
+          "id": "OnUyc0WgdJ4uTEQF",
+          "title": "Cost for Protein Bars",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "EHr9OZXNFvXwdYZV": 116,
+              "lUPVFk474KmHWUqi": 117
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "z_eb5aCEIIcWOEQ1",
+          "title": "Income from Protein Bar Sale",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "hVnhSxTPICaL_lDE": 116,
+              "1H85G8-bsCHodsP8": 132
+            },
+            "name": "Table 1"
+          }
         }
-      },
+      ],
       {
-        "id": "6x6tyhN1WIPGPvLK",
-        "title": "Cost and Income From the Protein Bar Sale",
+        "id": "XKdjpAcAbJZN8opc",
+        "title": "Cost and Income from the Protein Bar Sale",
         "content": {
           "type": "Geometry",
           "board": {
@@ -302,8 +347,16 @@
                 -1
               ],
               "axisRange": [
-                314.175,
-                247.077
+                302,
+                202
+              ],
+              "axisNames": [
+                "Number of Bars Sold",
+                "Total Dollars"
+              ],
+              "axisLabels": [
+                "",
+                ""
               ]
             }
           },
@@ -317,91 +370,43 @@
                 "NunDAxayZMagViX5:lUPVFk474KmHWUqi"
               ],
               "properties": {
-                "id": "MhCc4ybICTFq05xw"
+                "id": "HVp5xCkpRlVBOLs3"
               }
             },
             {
               "type": "polygon",
               "parents": [
-                "hEICnOhk6PQp2tbH:B8QPul9FOL6XQHUu",
-                "Wx_WITxBhYlsTQ-A:B8QPul9FOL6XQHUu",
-                "subJp4w3N4H6sxQy:B8QPul9FOL6XQHUu",
-                "NunDAxayZMagViX5:B8QPul9FOL6XQHUu"
+                "01HKD393PTBZ5ND6C9MYSEHPGM:1H85G8-bsCHodsP8",
+                "01HKD393PTBZ5ND6C9MYSEHPGN:1H85G8-bsCHodsP8",
+                "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8",
+                "01HKD393PTBZ5ND6C9MYSEHPGQ:1H85G8-bsCHodsP8"
               ],
               "properties": {
-                "id": "eQ4EYG4q9ph_olVj"
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    -0.3
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    151.54877883707266,
-                    101.08188405797102
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "9guBATw-a7PJVqnJ",
-                "pt1": {
-                  "type": "point",
-                  "id": "9guBATw-a7PJVqnJ-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "9guBATw-a7PJVqnJ-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    25.6
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    226.3365527488856,
-                    100.6396892564119
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "fxp4v1TiFWeexhzw",
-                "pt1": {
-                  "type": "point",
-                  "id": "fxp4v1TiFWeexhzw-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "fxp4v1TiFWeexhzw-point2"
-                }
+                "id": "5QmqVyPwUGJk73SC"
               }
             },
             {
               "type": "comment",
               "parents": [
-                17.949479940564657,
-                -45.644927536231855
+                159.22481595552887,
+                62.89467344422272
               ],
               "properties": {
-                "id": "3K52TvOTwhZhTWcC",
+                "id": "K4VT7CNdcDvoXdb6",
                 "text": "Cost",
-                "anchor": "fxp4v1TiFWeexhzw"
+                "anchor": "subJp4w3N4H6sxQy:lUPVFk474KmHWUqi"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                145.1317157274753,
+                132.8210484601449
+              ],
+              "properties": {
+                "id": "JR53qcj4uujmJlmY",
+                "text": "Income",
+                "anchor": "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8"
               }
             }
           ]
@@ -426,7 +431,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>about 75 protein bars</p><p><strong>b.  </strong>$33.50 because 0.67(50) = 33.5;</p><p>$83.75 because 0.67(125) = 83.75</p><p>Note: The 0.67 was derived from the points (0, 0) and (300, 200), showing that each protein bar would sell for $0.67.</p><p><strong>c.  </strong>For an income of $200, the band would have to sell about 300 protein bars. The cost would be $125, leaving a profit of about $75.</p><p><em>Note:</em> Using 300 as the amount of bars and $0.34 as the cost of the bars, the answer is $73. Suggest that students try to write an equation for each line.</p>"
+            "<p><strong>a.  </strong>about 75 protein bars</p><p><strong>b.  </strong>$33.50 because 0.67(50) = 33.5;</p><p>$83.75 because 0.67(125) = 83.75</p><p>Note: The 0.67 was derived from the points (0, 0) and (300, 200), showing that each protein bar would sell for $0.67.</p><p><strong>c.  </strong>For an income of $200, the band would have to sell about 300 protein bars. The cost would be $125, leaving a profit of about $75.</p><p><u>Note:</u> Using 300 as the amount of bars and $0.34 as the cost of the bars, the answer is $73. Suggest that students try to write an equation for each line.</p>"
           ]
         }
       },
@@ -639,10 +644,46 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Find the following for each equation:</p><ul><li>The rate of change?</li><li>State whether the y-values are increasing, decreasing, or neither as x increases.</li><li>Give the y-intercept.</li><li>List the coordinates of two points that lie on the graph of the equation.</li></ul><p><strong>a.</strong>  <em>y</em> = 1.5<em>x</em></p><p><strong>b.  </strong><em>y </em>= -3<em>x</em> + 10</p><p><strong>c.  </strong><em>y </em>= -2<em>x</em> + 6</p><p><strong>d.  </strong><em>y</em> = 2<em>x</em> + 5</p>"
+            "<p>Find the following for each equation:</p><ul><li>The rate of change?</li><li>State whether the y-values are increasing, decreasing, or neither as x increases.</li><li>Give the y-intercept.</li><li>List the coordinates of two points that lie on the graph of the equation.</li></ul>"
           ]
         }
       },
+      [
+        {
+          "id": "s6snNV9H4E8BbcOj",
+          "title": "ACE 2-8 part a",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=1.5x"
+          }
+        },
+        {
+          "id": "L1ivgExXMBG8emHt",
+          "title": "ACE 2-8 part b",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=-3x+10"
+          }
+        }
+      ],
+      [
+        {
+          "id": "kr4bu9IqumAFWWFN",
+          "title": "ACE 2-8 part c",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=-2x+6"
+          }
+        },
+        {
+          "id": "AG0ICvXjtG0wYmLo",
+          "title": "ACE 2-8 part d",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=2x+5"
+          }
+        }
+      ],
       {
         "id": "HgnNMIyWB6FUAm3k",
         "title": "Text 21",
@@ -855,10 +896,46 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For each equation in give two values for x for which the value of y is negative.</p><p><strong>a.  </strong>y = -2x - 5</p><p><strong>b.  </strong>y = -5</p><p><strong>c.  </strong>y = 2x - 5 </p><p><strong>d.  </strong>y = (3/2)x - ¼</p>"
+            "<p>For each equation in give two values for x for which the value of y is negative.</p>"
           ]
         }
       },
+      [
+        {
+          "id": "HTcAsOI6txtPa88D",
+          "title": "ACE 2-11 part a",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=-2x-5"
+          }
+        },
+        {
+          "id": "FP71iPlIa9Z3-xBq",
+          "title": "ACE 2-11 part b",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=-5"
+          }
+        }
+      ],
+      [
+        {
+          "id": "LcBTzrDsDA4eGePo",
+          "title": "ACE 2-11 part c",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=2x-5"
+          }
+        },
+        {
+          "id": "cml4vE0rZIMVA5D7",
+          "title": "ACE 2-11 part d",
+          "content": {
+            "type": "Expression",
+            "latexStr": "y=\\frac32x-\\frac14"
+          }
+        }
+      ],
       {
         "id": "btK0wRPdhxPkplGc",
         "title": "Text 27",
@@ -1214,54 +1291,60 @@
           ]
         }
       },
-      [
-        {
-          "id": "ccq58rFvF3dC5dCO",
-          "title": "Paying for a TV on an Installment Plan",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  14,
-                  182
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "polygon",
-                "parents": [
-                  "qrCIOjPgAAE9YIvA:f6uve3mxopS2nXsy",
-                  "9obv_rnvXWzqfg5Z:f6uve3mxopS2nXsy",
-                  "swB_84YN_YghYHlv:f6uve3mxopS2nXsy",
-                  "KHf3u2g40VhLlclq:f6uve3mxopS2nXsy"
-                ],
-                "properties": {
-                  "id": "JFC8OKQABxQo7I0_"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "7dTuQvGTlEx67dPy",
-          "title": "Paying for a TV on an Installment Plan",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "wyoDUSYrS9Ebh5DY": 104,
-              "f6uve3mxopS2nXsy": 164
-            },
-            "name": "Table 1"
-          }
+      {
+        "id": "7dTuQvGTlEx67dPy",
+        "title": "Paying for a TV on an Installment Plan",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "wyoDUSYrS9Ebh5DY": 104,
+            "f6uve3mxopS2nXsy": 164
+          },
+          "name": "Table 1"
         }
-      ],
+      },
+      {
+        "id": "ccq58rFvF3dC5dCO",
+        "title": "Paying for a TV on an Installment Plan",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -2.3,
+                -1
+              ],
+              "axisRange": [
+                16.3,
+                221
+              ],
+              "axisNames": [
+                "Months",
+                "Amount Owed ($)"
+              ],
+              "axisLabels": [
+                "",
+                ""
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "polygon",
+              "parents": [
+                "qrCIOjPgAAE9YIvA:f6uve3mxopS2nXsy",
+                "9obv_rnvXWzqfg5Z:f6uve3mxopS2nXsy",
+                "swB_84YN_YghYHlv:f6uve3mxopS2nXsy",
+                "KHf3u2g40VhLlclq:f6uve3mxopS2nXsy"
+              ],
+              "properties": {
+                "id": "JFC8OKQABxQo7I0_"
+              }
+            }
+          ]
+        }
+      },
       {
         "id": "a4GC3gK1ZRNW_SAw",
         "title": "Text 40",
@@ -1309,7 +1392,7 @@
       },
       {
         "id": "Nt5U4JdbMlT25qLu",
-        "title": "ACE 2-18 Images",
+        "title": "ACE 2-18 Rectangles",
         "content": {
           "type": "Image",
           "url": "msa/images/tango.png",
@@ -1524,7 +1607,7 @@
       [
         {
           "id": "NS4F2Yw4gKWa66Fc",
-          "title": "2-22 a1.",
+          "title": "Path 1",
           "content": {
             "type": "Image",
             "url": "msa/images/uni.png",
@@ -1533,7 +1616,7 @@
         },
         {
           "id": "GRtQNNsaFugeg0Eh",
-          "title": "2-22 a2.",
+          "title": "Path 2",
           "content": {
             "type": "Image",
             "url": "msa/images/dos.png",
@@ -1544,7 +1627,7 @@
       [
         {
           "id": "XquJ-xmlS_tRE_ui",
-          "title": "2-22 a3.",
+          "title": "Path 3",
           "content": {
             "type": "Image",
             "url": "msa/images/tres.png",
@@ -1553,7 +1636,7 @@
         },
         {
           "id": "bO5Xv8ia3-EuETWm",
-          "title": "2-22 a4.",
+          "title": "Path 4",
           "content": {
             "type": "Image",
             "url": "msa/images/quatro.png",
@@ -1563,7 +1646,7 @@
       ],
       {
         "id": "3YN_ehraN8b7LWLv",
-        "title": "2-22 a5.",
+        "title": "Path 5",
         "content": {
           "type": "Image",
           "url": "msa/images/cinco.png",
@@ -1683,6 +1766,186 @@
           "format": "html",
           "text": [
             "<p><strong>a - b: </strong>see graph below</p><p><strong>c.  </strong>These three triangles are similar.</p><p><strong>d.  </strong>The areas of the three triangles are 128 square units, 32 square units, and 8 square units, respectively.</p><p><strong>e.  </strong>The corresponding vertices of these similar triangles represent a linear relationship. If you connected these vertices, a straight line would emerge. Also, the relationship between corresponding lengths and scale factor used is linear. (This is easiest to see with the vertical sides.) </p><p><strong>Note:</strong> The relationship between area and scale factor is not linear.</p>"
+          ]
+        }
+      },
+      {
+        "id": "-FPgBPRqlcMYP-Tr",
+        "title": "ACE 2-23 Triangles",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.4,
+                -1
+              ],
+              "axisRange": [
+                64.4,
+                27
+              ],
+              "axisNames": [
+                "x",
+                "y"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "point",
+              "parents": [
+                7.9977544023120934,
+                5.961025616312272
+              ],
+              "properties": {
+                "id": "a0IH-JKX_Kf0e9mk",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                8,
+                22
+              ],
+              "properties": {
+                "id": "KqBQ5Pjebibpinz9",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                24,
+                14
+              ],
+              "properties": {
+                "id": "iJkEmTEB1MB7Bb61",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "a0IH-JKX_Kf0e9mk",
+                "KqBQ5Pjebibpinz9",
+                "iJkEmTEB1MB7Bb61"
+              ],
+              "properties": {
+                "id": "FHHib3SOLyOwc4uh"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                4,
+                3
+              ],
+              "properties": {
+                "id": "rk2m0GBIGClfFVqA",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                3.9963488751814222,
+                10.99940656579059
+              ],
+              "properties": {
+                "id": "HvnJAU4AOydl395R",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                11.99592430435867,
+                7.004159015157947
+              ],
+              "properties": {
+                "id": "kpVQZBnCj6tFWJlE",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "rk2m0GBIGClfFVqA",
+                "HvnJAU4AOydl395R",
+                "kpVQZBnCj6tFWJlE"
+              ],
+              "properties": {
+                "id": "L_FQb9HG5uc7DyM6"
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                2.015432422565963,
+                1.5472951142684268
+              ],
+              "properties": {
+                "id": "Ceq2ZJUdZe7Otd9A",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                1.973647010482101,
+                5.538890838623047
+              ],
+              "properties": {
+                "id": "VRnS8EmytXcWB5_4",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                6,
+                3.5
+              ],
+              "properties": {
+                "id": "6oWGv1BfnHgyjhbN",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "Ceq2ZJUdZe7Otd9A",
+                "VRnS8EmytXcWB5_4",
+                "6oWGv1BfnHgyjhbN"
+              ],
+              "properties": {
+                "id": "dZ_-rDG_ebzRr2jS"
+              }
+            }
           ]
         }
       },
@@ -1878,7 +2141,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Ms. Chang&#x27;s class decides to order posters that advertise the walkathon. Ichiro obtains quotes from two different companies.</p><ul><li>Clear Prints charges $2 per poster.</li><li>Posters by Sue charges $15 plus $.50 per poster.</li></ul><p><strong>a. </strong> For each company, write an equation Ichiro could use to calculate the cost for any number of posters.</p><p><strong>b.</strong>  For what number of posters is the cost the same for both companies? Explain.</p><p><strong>c.  </strong>Which company do you think the class should buy posters from? Explain your reasoning.</p><p><strong>d. </strong> If Ms. Chang&#x27;s class has an $18 budget for posters, which company do you think the class should buy posters from? If Ms. Chang donates an additional $10 for ordering posters, does it impact the decision made? What factors influenced your decision?</p><p><strong>e.  </strong>Use the information from parts (<strong>a</strong>)–(<strong>c</strong>) to find an ordered pair that makes the inequality C &lt; 20 true for Clear Prints. Find an ordered pair that makes the inequality C &gt; 20 true for Posters by Sue.</p>"
+            "<p>Ms. Chang&#x27;s class decides to order posters that advertise the walkathon. Ichiro obtains quotes from two different companies.</p><ul><li><strong>Clear Prints</strong> charges $2 per poster.</li><li><strong>Posters by Sue</strong> charges $15 plus $.50 per poster.</li></ul><p><strong>a. </strong> For each company, write an equation Ichiro could use to calculate the cost for any number of posters.</p><p><strong>b.</strong>  For what number of posters is the cost the same for both companies? Explain.</p><p><strong>c.  </strong>Which company do you think the class should buy posters from? Explain your reasoning.</p><p><strong>d. </strong> If Ms. Chang&#x27;s class has an $18 budget for posters, which company do you think the class should buy posters from? If Ms. Chang donates an additional $10 for ordering posters, does it impact the decision made? What factors influenced your decision?</p><p><strong>e.  </strong>Use the information from parts (<strong>a</strong>)–(<strong>c</strong>) to find an ordered pair that makes the inequality C &lt; 20 true for Clear Prints. Find an ordered pair that makes the inequality C &gt; 20 true for Posters by Sue.</p>"
           ]
         }
       },
@@ -1928,54 +2191,212 @@
           ]
         }
       },
-      [
-        {
-          "id": "huRzlaDIP1LhxEoY",
-          "title": "Triangle",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
+      {
+        "id": "5oujnnyWz-KtI755",
+        "title": "ACE 2-28 part b",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.4,
+                -1
+              ],
+              "axisRange": [
+                74.4,
+                121
+              ],
+              "axisNames": [
+                "x",
+                "y"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "movableLine",
+              "parents": [
+                {
+                  "type": "point",
+                  "parents": [
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "point",
+                  "parents": [
+                    32.19202898550724,
+                    64.38405797101449
+                  ]
+                }
+              ],
               "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  102,
-                  52
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "polygon",
-                "parents": [
-                  "gLV9p1NvHZKITyLc:8Esicxq4zkTduJ7T",
-                  "nNTbtikSN_cZYnF0:8Esicxq4zkTduJ7T",
-                  "DkuGpGcz47IZ5I1E:8Esicxq4zkTduJ7T"
-                ],
-                "properties": {
-                  "id": "J6SSia2il3RJPIIp"
+                "id": "wZvzL_CSeDCvhYAM",
+                "pt1": {
+                  "type": "point",
+                  "id": "wZvzL_CSeDCvhYAM-point1"
+                },
+                "pt2": {
+                  "type": "point",
+                  "id": "wZvzL_CSeDCvhYAM-point2"
                 }
               }
-            ]
-          }
-        },
-        {
-          "id": "txklGcbn6PNn1Vni",
-          "title": "Triangle",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "c2uTulB05o0KofH_": 80,
-              "8Esicxq4zkTduJ7T": 80
             },
-            "name": "Table 1"
-          }
+            {
+              "type": "movableLine",
+              "parents": [
+                {
+                  "type": "point",
+                  "parents": [
+                    0,
+                    50
+                  ]
+                },
+                {
+                  "type": "point",
+                  "parents": [
+                    36.07982583454282,
+                    50
+                  ]
+                }
+              ],
+              "properties": {
+                "id": "dAZOGt2hX4PtVrIK",
+                "pt1": {
+                  "type": "point",
+                  "id": "dAZOGt2hX4PtVrIK-point1"
+                },
+                "pt2": {
+                  "type": "point",
+                  "id": "dAZOGt2hX4PtVrIK-point2"
+                }
+              }
+            },
+            {
+              "type": "movableLine",
+              "parents": [
+                {
+                  "type": "point",
+                  "parents": [
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "point",
+                  "parents": [
+                    36.07982583454282,
+                    36.07982583454282
+                  ]
+                }
+              ],
+              "properties": {
+                "id": "wgjAoZ0-Lz3t2a2x",
+                "pt1": {
+                  "type": "point",
+                  "id": "wgjAoZ0-Lz3t2a2x-point1"
+                },
+                "pt2": {
+                  "type": "point",
+                  "id": "wgjAoZ0-Lz3t2a2x-point2"
+                }
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                0,
+                0
+              ],
+              "properties": {
+                "id": "rl6Kn-90e_k0xlNS",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                25,
+                50
+              ],
+              "properties": {
+                "id": "hj_-5IN0IU9B67Vl",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                50,
+                50
+              ],
+              "properties": {
+                "id": "yleg7Di23MF06PlN",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "rl6Kn-90e_k0xlNS",
+                "hj_-5IN0IU9B67Vl",
+                "yleg7Di23MF06PlN"
+              ],
+              "properties": {
+                "id": "oXvlMG2ET5f-wIjU"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -3.1068422801954827,
+                11.297812420388917
+              ],
+              "properties": {
+                "id": "vZerbbpZWoRcHd3P",
+                "text": "(0,0)",
+                "anchor": "rl6Kn-90e_k0xlNS"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -2.975614178440221,
+                11.685993139294617
+              ],
+              "properties": {
+                "id": "k15L9GNRZHoG-Hb2",
+                "text": "(25,50)",
+                "anchor": "hj_-5IN0IU9B67Vl"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -1.819859794539184,
+                -11.145746756291047
+              ],
+              "properties": {
+                "id": "3Y1cY80HNXxPUsxa",
+                "text": "(100,50)",
+                "anchor": "yleg7Di23MF06PlN"
+              }
+            }
+          ]
         }
-      ]
+      }
     ],
     "sharedModels": [
       {
@@ -2014,20 +2435,6 @@
                   "1000"
                 ],
                 "title": ""
-              },
-              {
-                "id": "Cj0BxQBweTyRUwPH",
-                "clientKey": "",
-                "name": "Ingrid Distance (feet)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "0",
-                  "500",
-                  "1000"
-                ],
-                "title": ""
               }
             ],
             "cases": [
@@ -2045,7 +2452,7 @@
         },
         "tiles": [
           "2Xrg-noCnTUY3FD4",
-          "V89Z7CYTgN7k5p0L"
+          "cX2mRu-KjkTQK9BQ"
         ]
       },
       {
@@ -2060,7 +2467,7 @@
               {
                 "id": "EHr9OZXNFvXwdYZV",
                 "clientKey": "",
-                "name": "Number of Bars Sold",
+                "name": "# of Bars",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -2073,24 +2480,9 @@
                 "title": ""
               },
               {
-                "id": "B8QPul9FOL6XQHUu",
-                "clientKey": "",
-                "name": "Total Dollars Income",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "0",
-                  "50",
-                  "100",
-                  "200"
-                ],
-                "title": ""
-              },
-              {
                 "id": "lUPVFk474KmHWUqi",
                 "clientKey": "",
-                "name": "Total Dollars Cost",
+                "name": "Cost ($)",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -2121,7 +2513,7 @@
         },
         "tiles": [
           "OnUyc0WgdJ4uTEQF",
-          "6x6tyhN1WIPGPvLK"
+          "XKdjpAcAbJZN8opc"
         ]
       },
       {
@@ -2879,57 +3271,118 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "JFEiCa8hAjqRbbWE",
-          "providerId": "txklGcbn6PNn1Vni",
+          "id": "42lNS7mVi-ySqE8S",
+          "providerId": "sBUnw_UijwXllhYw",
           "dataSet": {
-            "id": "suXFaHw_d1cIjnLG",
+            "id": "aDMCP3xjSbD6j6GD",
             "name": "Table 1",
             "attributes": [
               {
-                "id": "c2uTulB05o0KofH_",
+                "id": "RWDmSmia8szlDfnV",
                 "clientKey": "",
-                "name": "x",
+                "name": "Time (minutes)",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  "25",
-                  "100",
-                  "0"
+                  "0",
+                  "2",
+                  "4."
                 ],
                 "title": ""
               },
               {
-                "id": "8Esicxq4zkTduJ7T",
+                "id": "4ff6l-0zG80N3GF0",
                 "clientKey": "",
-                "name": "y",
+                "name": "Ingrid Distance (feet)",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  "50",
-                  "50",
-                  "0"
+                  "0",
+                  "500",
+                  "1000"
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "gLV9p1NvHZKITyLc"
+                "__id__": "01HKD2RK0YJCBNTYEYC9BNPEKH"
               },
               {
-                "__id__": "nNTbtikSN_cZYnF0"
+                "__id__": "01HKD2RK0YJCBNTYEYC9BNPEKJ"
               },
               {
-                "__id__": "DkuGpGcz47IZ5I1E"
+                "__id__": "01HKD2RK0YJCBNTYEYC9BNPEKK"
               }
             ]
           }
         },
         "tiles": [
-          "txklGcbn6PNn1Vni",
-          "huRzlaDIP1LhxEoY"
+          "sBUnw_UijwXllhYw",
+          "cX2mRu-KjkTQK9BQ"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "KWpztptQIqiGvP1x",
+          "providerId": "z_eb5aCEIIcWOEQ1",
+          "dataSet": {
+            "id": "y4kgZNaNNyXrJyDV",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "hVnhSxTPICaL_lDE",
+                "clientKey": "",
+                "name": "# of Bars",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "75",
+                  "150",
+                  "300"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1H85G8-bsCHodsP8",
+                "clientKey": "",
+                "name": "Income ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "50",
+                  "100",
+                  "200"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGM"
+              },
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGN"
+              },
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGP"
+              },
+              {
+                "__id__": "01HKD393PTBZ5ND6C9MYSEHPGQ"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "z_eb5aCEIIcWOEQ1",
+          "XKdjpAcAbJZN8opc"
         ]
       }
     ]

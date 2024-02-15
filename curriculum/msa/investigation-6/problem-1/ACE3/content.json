@@ -106,6 +106,18 @@
         }
       },
       {
+        "id": "U8qAt3LV8lXh--pO",
+        "title": "Text 114",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>a.</strong> <u>Plan 1:</u> Looking for the number of kilometers walked to get a $14 donation.</p><p><u>Plan 2:</u> Looking for how much a donation will be for walking 10 kilometers.</p><p><u>Plan 3:</u> Looking for the number of kilometers walked to get a $100 donation.</p><p><strong>b.</strong></p><p><u>Plan 1</u>: Solve for x.</p><p>14 ÷ 2 = 2x ÷ 2</p><p>7 = x</p><p><u>Plan 2:</u> Evaluate the expression.</p><p>y = 3.5(10) + 10</p><p>y = 35 + 10</p><p>y = 45</p><p><u>Plan 3:</u> Solve for x.</p><p>100 - 55 = 1.5x + 55 - 55</p><p>45 = 1.5x</p><p>45 ÷ 1.5 = 1.5x ÷ 1.5</p><p>30 = x</p>"
+          ]
+        }
+      },
+      {
         "id": "63fQobYdqoTq4GSf",
         "title": "Text 2",
         "content": {
@@ -123,8 +135,52 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For each equation, sketch a picture using pouches and coins. Then, determine how many coins are in a pouch.</p><p><strong>a.</strong>  3x = 12</p><p><strong>b.</strong>  2x + 5 = 19</p><p><strong>c.  </strong>4x + 5 = 2x + 19</p><p><strong>d. </strong> x + 12 = 2x + 6</p><p><strong>e.  </strong>3(x + 4) = 18</p>"
+            "<p>For each equation, sketch a picture using pouches and coins. Then, determine how many coins are in a pouch.</p>"
           ]
+        }
+      },
+      [
+        {
+          "id": "KjI5Sp7y--9LVBWV",
+          "title": "ACE 3-3 a.",
+          "content": {
+            "type": "Expression",
+            "latexStr": "3x=12"
+          }
+        },
+        {
+          "id": "g0fuRLeXsvNrWAJl",
+          "title": "ACE 3-3 b.",
+          "content": {
+            "type": "Expression",
+            "latexStr": "2x+5=19"
+          }
+        }
+      ],
+      [
+        {
+          "id": "rpe7uyFnGvqdSy1d",
+          "title": "ACE 3-3 c.",
+          "content": {
+            "type": "Expression",
+            "latexStr": "4x+5=2x+19"
+          }
+        },
+        {
+          "id": "gsJXGPK9RclZ_9cr",
+          "title": "ACE 3-3 d.",
+          "content": {
+            "type": "Expression",
+            "latexStr": "x+12=2x+6"
+          }
+        }
+      ],
+      {
+        "id": "InPNNqiNC2aZrEDk",
+        "title": "ACE 3-3 e.",
+        "content": {
+          "type": "Expression",
+          "latexStr": "3\\left(x+4)=18\\right."
         }
       },
       {
@@ -1008,84 +1064,103 @@
           ]
         }
       },
-      [
-        {
-          "id": "xz7m7xjgZCTkO7c7",
-          "title": "Cricket Chirps",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
+      {
+        "id": "fiPndf4ZF1NfCJMh",
+        "title": "Cricket Chirps",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "properties": {
+              "axisMin": [
+                -4.1,
+                -0.9
+              ],
+              "axisRange": [
+                244.1,
+                100.9
+              ],
+              "axisNames": [
+                "# of Chirps",
+                "Temperature (F)"
+              ],
+              "axisLabels": [
+                "x",
+                "y"
+              ]
+            }
+          },
+          "objects": [
+            {
+              "type": "point",
+              "parents": [
+                0,
+                40
+              ],
               "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  162,
-                  82
-                ]
+                "id": "rJxQAT6DHKdLteWK",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
               }
             },
-            "objects": [
-              {
-                "type": "polygon",
-                "parents": [
-                  "7XT3vL79-CTdV4G3:o7VJeF6Y1RgWShki",
-                  "xux7IcZi4wYUrQBT:o7VJeF6Y1RgWShki",
-                  "7OP065xmB05z_LvW:o7VJeF6Y1RgWShki"
-                ],
-                "properties": {
-                  "id": "IBcD5O-PExz_L1Vv"
-                }
-              },
-              {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      1.2272727272727277,
-                      41
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      80.47727272727276,
-                      60.734375
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "DaBtFoEk7ITft7xu",
-                  "pt1": {
-                    "type": "point",
-                    "id": "DaBtFoEk7ITft7xu-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "DaBtFoEk7ITft7xu-point2"
-                  }
-                }
+            {
+              "type": "point",
+              "parents": [
+                80,
+                60
+              ],
+              "properties": {
+                "id": "aHrEWymcpcU-oXeF",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
               }
-            ]
-          }
+            },
+            {
+              "type": "point",
+              "parents": [
+                160,
+                80
+              ],
+              "properties": {
+                "id": "tzCBLM39URjw9PU6",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "point",
+              "parents": [
+                240,
+                99.9
+              ],
+              "properties": {
+                "id": "6ZuwQud_1JXQ0bQz",
+                "snapToGrid": true,
+                "snapSizeX": 0.1,
+                "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "polygon",
+              "parents": [
+                "rJxQAT6DHKdLteWK",
+                "aHrEWymcpcU-oXeF",
+                "tzCBLM39URjw9PU6",
+                "6ZuwQud_1JXQ0bQz"
+              ],
+              "properties": {
+                "id": "JwnE7ouKwc3e2z71"
+              }
+            }
+          ]
         },
-        {
-          "id": "dKZIZ0LGu73j2r6v",
-          "title": "Cricket Chirps",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "knV99xBeJNZMQ3Rp": 136,
-              "o7VJeF6Y1RgWShki": 141
-            },
-            "name": "Table 1"
-          }
+        "layout": {
+          "height": 338.99481201171875
         }
-      ],
+      },
       {
         "id": "J-FyT5z_YkDXYej6",
         "title": "Text 2",
@@ -2157,7 +2232,8 @@
           "title": "Number Line a.",
           "content": {
             "type": "Image",
-            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+            "url": "msa/images/ace-1.png",
+            "filename": "msa/images/ace-1.png"
           }
         },
         {
@@ -2419,62 +2495,6 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "ShuGUDcGwF6hC1M9",
-          "providerId": "dKZIZ0LGu73j2r6v",
-          "dataSet": {
-            "id": "uSQpFDgiwJ-M9eI-",
-            "name": "Table 1",
-            "attributes": [
-              {
-                "id": "knV99xBeJNZMQ3Rp",
-                "clientKey": "",
-                "name": "Number of Chrips",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "0",
-                  "80",
-                  "160"
-                ],
-                "title": ""
-              },
-              {
-                "id": "o7VJeF6Y1RgWShki",
-                "clientKey": "",
-                "name": "Temperature (deg F)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "40",
-                  "60",
-                  "80"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "7XT3vL79-CTdV4G3"
-              },
-              {
-                "__id__": "xux7IcZi4wYUrQBT"
-              },
-              {
-                "__id__": "7OP065xmB05z_LvW"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "dKZIZ0LGu73j2r6v",
-          "xz7m7xjgZCTkO7c7"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
           "id": "CACXchyowt9jIg2v",
           "providerId": "B2detNmxKRfWPMgY",
           "dataSet": {
@@ -2492,7 +2512,8 @@
                   " 0",
                   "200",
                   "400",
-                  "600"
+                  "600",
+                  ""
                 ],
                 "title": ""
               },
@@ -2504,6 +2525,7 @@
                 "units": "",
                 "formula": {},
                 "values": [
+                  null,
                   null,
                   null,
                   null,
@@ -2519,6 +2541,7 @@
                 "units": "",
                 "formula": {},
                 "values": [
+                  null,
                   null,
                   null,
                   null,
@@ -2539,6 +2562,9 @@
               },
               {
                 "__id__": "rDT4yKEoUrWQVNRD"
+              },
+              {
+                "__id__": "BqHXI37P_CmESUth"
               }
             ]
           }

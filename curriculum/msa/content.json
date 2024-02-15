@@ -244,7 +244,7 @@
             },
             {
               "className": "section teacher published-documents",
-              "title": "Supplemental Work",
+              "title": "Teacher",
               "type": "teacher-supports",
               "dataTestHeader": "supports-section-teacher-supports",
               "dataTestItem": "supports-list-items",
@@ -258,8 +258,20 @@
               ]
             },
             {
+              "className": "section teacher published-documents",
+              "title": "Teacher",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": ["supportPublication"],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            },
+            {
               "className": "section problem starred",
-              "title": "Starred",
+              "title": "Bookmarks",
               "type": "starred-problem-documents",
               "dataTestHeader": "class-work-section-starred",
               "documentTypes": [
@@ -275,7 +287,7 @@
             },
             {
               "className": "section problem starred",
-              "title": "Starred",
+              "title": "Bookmarks",
               "type": "starred-personal-documents",
               "dataTestHeader": "class-work-section-starred",
               "documentTypes": [
@@ -400,7 +412,7 @@
       "other-proportional": "Other - Proportional",
       "other-nonproportional": "Other - Nonproportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {

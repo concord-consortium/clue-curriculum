@@ -235,12 +235,13 @@
         }
       },
       {
-        "id": "n1AR8REpDAHaeO1d",
-        "title": "Table showing how values of C are generated",
+        "id": "3fsxfehSWgZPzba-",
+        "title": "Table showing cost of 12 t-shirts",
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "msa/images/MSA_2-2_SitC_CostofTShirts_350.jpg"
+          "url": "msa/images/se-pic-5.png",
+          "filename": "msa/images/se-pic-5.png"
         }
       },
       {
@@ -327,129 +328,96 @@
         }
       },
       {
-        "id": "MDqB0da-IKXfKyVK",
-        "title": "Mighty vs. No-Shrink",
+        "id": "QihBf55slwYGzxOV",
+        "title": "T-shirt Company Costs",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -14.898,
-                -10.611
-              ],
-              "axisRange": [
-                57.581,
-                75.382
-              ],
-              "axisNames": [
-                "n",
-                "$"
-              ],
-              "axisLabels": [
-                "number shirts",
-                "cost"
-              ]
+          "type": "Table",
+          "columnWidths": {
+            "MyeP4Jlb8pP8qL77": 80,
+            "Md-gCctsauPu5pKz": 80,
+            "wBwbomtGIJB8-pNQ": 80,
+            "PjS11hCzeOQxhKNC": 80
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "mZ_pc6IeEK7mazaW",
+        "title": "T-shirt Company Costs",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNPL-14MyhBhqG",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -1,
+              "max": 23
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -4.45,
+              "max": 105
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
+              "id": "LAYRYtrdEe1g3UFQ",
+              "config": {
+                "id": "DCON-WjSUtt6q5Ai",
+                "dataset": "7SRaMKybN1WvGTys",
+                "metadata": "fyCo9df55rlwCC09",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "MyeP4Jlb8pP8qL77"
+                  }
                 },
-                {
-                  "type": "point",
-                  "parents": [
-                    14,
-                    63
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "OeftjktzaL9uZqe-",
-                "pt1": {
-                  "type": "point",
-                  "id": "OeftjktzaL9uZqe--point1",
-                  "name": "No-Shrink"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "OeftjktzaL9uZqe--point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    49
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    14,
-                    63
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "rN52SdPt2jUKny2F",
-                "pt1": {
-                  "type": "point",
-                  "id": "rN52SdPt2jUKny2F-point1",
-                  "name": "Mighty"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "rN52SdPt2jUKny2F-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    34
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    10,
-                    59
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "1yHTnMw0WGC30Gph",
-                "pt1": {
-                  "type": "point",
-                  "id": "1yHTnMw0WGC30Gph-point1",
-                  "name": "Big Tee"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "1yHTnMw0WGC30Gph-point2"
-                }
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "Md-gCctsauPu5pKz"
+                  },
+                  {
+                    "attributeID": "wBwbomtGIJB8-pNQ"
+                  },
+                  {
+                    "attributeID": "PjS11hCzeOQxhKNC"
+                  }
+                ]
               }
             }
-          ]
-        },
-        "layout": {
-          "height": 536
+          ],
+          "_idColors": {
+            "Md-gCctsauPu5pKz": 0,
+            "wBwbomtGIJB8-pNQ": 1,
+            "PjS11hCzeOQxhKNC": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of t-shirts",
+          "yAttributeLabel": "Cost ($)"
         }
       }
     ],
@@ -612,6 +580,173 @@
         },
         "tiles": [
           "KeqN1UnA_-q8sfgr"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "O_BVe5_vH1JtGksJ",
+          "providerId": "QihBf55slwYGzxOV",
+          "dataSet": {
+            "id": "7SRaMKybN1WvGTys",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "MyeP4Jlb8pP8qL77",
+                "clientKey": "",
+                "name": "Number of T-shirts",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "10",
+                  "12",
+                  "14",
+                  "18",
+                  "20"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Md-gCctsauPu5pKz",
+                "clientKey": "",
+                "name": "Mighty Tee",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "49+x",
+                  "canonical": "(49 + __x__)"
+                },
+                "values": [
+                  49,
+                  51,
+                  53,
+                  55,
+                  57,
+                  59,
+                  61,
+                  63,
+                  67,
+                  69
+                ],
+                "title": ""
+              },
+              {
+                "id": "wBwbomtGIJB8-pNQ",
+                "clientKey": "",
+                "name": "No Shrink",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "4.5*x",
+                  "canonical": "(4.5 * __x__)"
+                },
+                "values": [
+                  0,
+                  9,
+                  18,
+                  27,
+                  36,
+                  45,
+                  54,
+                  63,
+                  81,
+                  90
+                ],
+                "title": ""
+              },
+              {
+                "id": "PjS11hCzeOQxhKNC",
+                "clientKey": "",
+                "name": "Big Tee",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "34+2.5*x",
+                  "canonical": "(34 + (2.5 * __x__))"
+                },
+                "values": [
+                  34,
+                  39,
+                  44,
+                  49,
+                  54,
+                  59,
+                  64,
+                  69,
+                  79,
+                  84
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "Mu_-fzi924njIj0U"
+              },
+              {
+                "__id__": "aAEQDmFDJvJQJgWc"
+              },
+              {
+                "__id__": "whzBOA7rzEqdR42s"
+              },
+              {
+                "__id__": "VY57vyYx92GMT1Sb"
+              },
+              {
+                "__id__": "fF0KFiCSFpBGHN99"
+              },
+              {
+                "__id__": "YRY_HW9nz9RMCkHu"
+              },
+              {
+                "__id__": "Sd8NQ3V0DgwdlcmU"
+              },
+              {
+                "__id__": "xVOzBtFTH7QSgaxT"
+              },
+              {
+                "__id__": "aSOWz8SrSwJuyqky"
+              },
+              {
+                "__id__": "7kwv3hGV2CScxy6t"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "QihBf55slwYGzxOV",
+          "mZ_pc6IeEK7mazaW"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "fyCo9df55rlwCC09",
+          "data": "7SRaMKybN1WvGTys",
+          "collections": {},
+          "categories": {
+            "MyeP4Jlb8pP8qL77": {
+              "attribute": "MyeP4Jlb8pP8qL77",
+              "colors": {},
+              "moves": []
+            },
+            "Md-gCctsauPu5pKz": {
+              "attribute": "Md-gCctsauPu5pKz",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "mZ_pc6IeEK7mazaW"
         ]
       }
     ]

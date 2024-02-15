@@ -18,11 +18,21 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
+          "merge-in",
           "link-tile",
+          [
+            "data-set-view",
+            "graph"
+          ],
           "delete"
         ]
       },
       "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
         "defaultAxisLabels": {
           "bottom": "time",
           "left": "Signal"
@@ -37,6 +47,14 @@
         "maxTiles": 1
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Decomposition",
+      "converging": "Pattern Recognition",
+      "materials": "Abstraction/Generalization",
+      "physical": "Algorithmic Thinking"
+    },
+    "tagPrompt": "Computational Thinking",
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
@@ -165,6 +183,19 @@
               ],
               "properties": [
                 "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Custom Lessons",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
                 "!isDeleted"
               ]
             },

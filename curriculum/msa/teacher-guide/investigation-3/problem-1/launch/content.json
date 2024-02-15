@@ -43,16 +43,6 @@
         }
       },
       {
-        "id": "TILEmVH21g-VHTu4",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#Revision%20Comments\">Revision Comments</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#StemProblemFormat\">CMP STEM Problem Format</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#UnitDescriptions\">Unit Descriptions</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#SummaryInvestigations\">Summary of Investigations</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#UnitGoals\">Goals of the Units</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#UnitAlignment\">Unit Alignments: Goals, CCSSM, Arc of Learning, Emerging Mathematics</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#GeneralAoL\">General Arc of Learning</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#UnitAoL\">Unit Arc of Learning</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#MathOverview\">Mathematical Overview</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#labsheets\">Labsheets</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#TeachingAids\">Teaching Aids</a></p><p><a href=\"https://connectedmath.msu.edu/teacher-guide/moving-straight-ahead/#FamilyLetters\">Family Letter</a></p>"
-          ]
-        }
-      },
-      {
         "id": "91vRj_sL2o5_Z67S",
         "title": "Text 6",
         "content": {
@@ -77,78 +67,72 @@
           }
         },
         {
-          "id": "TILEYIQMVLkvi2m5",
+          "id": "1vGRruUU1I3EzAUw",
           "title": "Walkathon Earnings",
           "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -5
-                ],
-                "axisRange": [
-                  60,
-                  50
-                ],
-                "axisNames": [
-                  "Distance (km)",
-                  "Amount Earned"
-                ],
-                "axisLabels": [
-                  "d",
-                  "$"
-                ]
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRNy9pNIpyIIf5x",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -2.5,
+                "max": 37.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -1,
+                "max": 23
               }
             },
-            "objects": [
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
               {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      2.8000030517578125,
-                      6.500000953674316
-                    ]
+                "id": "LAYRYkQA-LHo6Gte",
+                "config": {
+                  "id": "DCONCKeILOtrSyOC",
+                  "dataset": "CBDop2uk7sKgq1nf",
+                  "metadata": "svx09XbGPWp7AdFO",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "CWuUZfA14gse0Quu"
+                    }
                   },
-                  {
-                    "type": "point",
-                    "parents": [
-                      30.290845589048672,
-                      21.44542279452434
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "oLug757RT7ZTYL1_",
-                  "pt1": {
-                    "type": "point",
-                    "id": "oLug757RT7ZTYL1_-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "oLug757RT7ZTYL1_-point2"
-                  }
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  30,
-                  21.700000000000003
-                ],
-                "properties": {
-                  "id": "eUz-CSwUlsaxaXGk",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "dkhbaM6DkaLd7FE1"
+                    }
+                  ]
                 }
               }
-            ]
-          },
-          "layout": {
-            "height": 365
+            ],
+            "_idColors": {
+              "dkhbaM6DkaLd7FE1": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Distance (km)",
+            "yAttributeLabel": "Amount earned ($)"
           }
         }
       ],
@@ -251,7 +235,33 @@
           }
         },
         "tiles": [
-          "TILEPoICKO-hZf9Q"
+          "TILEPoICKO-hZf9Q",
+          "1vGRruUU1I3EzAUw"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "svx09XbGPWp7AdFO",
+          "data": "CBDop2uk7sKgq1nf",
+          "collections": {},
+          "categories": {
+            "CWuUZfA14gse0Quu": {
+              "attribute": "CWuUZfA14gse0Quu",
+              "colors": {},
+              "moves": []
+            },
+            "dkhbaM6DkaLd7FE1": {
+              "attribute": "dkhbaM6DkaLd7FE1",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "1vGRruUU1I3EzAUw"
         ]
       }
     ]

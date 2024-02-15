@@ -1,1 +1,60 @@
-{"type": "nowWhatDoYouKnow", "content": {"tiles": [], "supports": []}}
+{
+  "type": "nowWhatDoYouKnow",
+  "content": {
+    "tiles": [
+      {
+        "id": "NT_UCtzpNJOjvE9V",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>If a sphere and a cone have the same dimensions as a cylinder, how do the volumes compare? What formulas for the volume of a sphere and the volume of a cone can you write using these relationships?</p>"
+          ]
+        }
+      },
+      {
+        "id": "XaXu48gd9UhhNn7o",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To compare their volumes, it is important to make sure that they all have the same height and the same radius of circle. Let’s say r refers to the radius of a sphere.</p><p>For a cylinder: the radius of base circle = <em>r</em> and the height = 2<em>r</em></p><p>For a cone: the radius of base circle = <em>r</em> and the height = 2<em>r</em></p><p>Then, the volume of a cylinder = (π × r × r) × 2<em>r</em> = 2πr<sup>3</sup>;</p>"
+          ]
+        }
+      },
+      {
+        "id": "1lnUfhbfHuW1VZHV",
+        "title": "volume of a cone",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "2\\pi r^3\\times\\frac13=\\frac23\\pi r^3"
+        }
+      },
+      {
+        "id": "yG4gBLoFTvzZai0K",
+        "title": "volume of a sphere",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "2\\pi r^3\\times\\frac23=\\frac43\\pi r^3"
+        }
+      },
+      {
+        "id": "VAK9YHXLFCPmbbEe",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Note: </em>In Grade 8, Say It with Symbols, students will look at the volume of cylinders with and without comparing them to spheres.</p>"
+          ]
+        }
+      }
+    ]
+  }
+}
