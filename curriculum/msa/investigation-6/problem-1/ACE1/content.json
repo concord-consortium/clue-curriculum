@@ -150,61 +150,81 @@
         }
       },
       {
-        "id": "pGg6TnQgehp39Zoi",
-        "title": "Jose, Mario, and Melanie Graph",
+        "id": "e7KA54jYMpFB30jL",
+        "title": "Cycling Distance for Jose, Mario, and melanie",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                4,
-                29
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNOTaK3XKszyFC",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.25,
+              "max": 3.75
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -2.5,
+              "max": 32.5
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "polygon",
-              "parents": [
-                "80STImBbVyP61rkG:an_wGQ0Hxr69QRfs",
-                "_LQhVJBzyUlzPdMS:an_wGQ0Hxr69QRfs",
-                "lYUCwkaPc_JmM-J2:an_wGQ0Hxr69QRfs",
-                "CaGzajtoynGHZcpk:an_wGQ0Hxr69QRfs"
-              ],
-              "properties": {
-                "id": "lCvUK8ibYVBPuzG4"
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "80STImBbVyP61rkG:kRNGydw3lDzuhMCA",
-                "_LQhVJBzyUlzPdMS:kRNGydw3lDzuhMCA",
-                "lYUCwkaPc_JmM-J2:kRNGydw3lDzuhMCA",
-                "CaGzajtoynGHZcpk:kRNGydw3lDzuhMCA"
-              ],
-              "properties": {
-                "id": "xpALEuDbWnTJ-oLd"
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "80STImBbVyP61rkG:xkPOUwxsjjvkvueC",
-                "_LQhVJBzyUlzPdMS:xkPOUwxsjjvkvueC",
-                "lYUCwkaPc_JmM-J2:xkPOUwxsjjvkvueC",
-                "CaGzajtoynGHZcpk:xkPOUwxsjjvkvueC"
-              ],
-              "properties": {
-                "id": "MUUokJhIiRmkBmCP"
+              "id": "LAYRJdvZokdrkVWJ",
+              "config": {
+                "id": "DCONHyvLc_aRm6Q8",
+                "dataset": "RjJX_XxSdWk_KbOY",
+                "metadata": "vardvbLnTSOFqJHh",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "cOHUeUwuEz4_UjyG"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "xkPOUwxsjjvkvueC"
+                  },
+                  {
+                    "attributeID": "kRNGydw3lDzuhMCA"
+                  },
+                  {
+                    "attributeID": "an_wGQ0Hxr69QRfs"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "xkPOUwxsjjvkvueC": 0,
+            "kRNGydw3lDzuhMCA": 1,
+            "an_wGQ0Hxr69QRfs": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (hours)",
+          "yAttributeLabel": "Distance (miles)"
         }
       },
       {
@@ -277,40 +297,73 @@
         }
       },
       {
-        "id": "U9WWvQUy7S1faolb",
+        "id": "Gqc-7OBXq5bOspHk",
         "title": "Mike's Cycling Distance",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                8,
-                41
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNYhpRPgz9CikL",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.5,
+              "max": 7.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -2.5,
+              "max": 42.5
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "polygon",
-              "parents": [
-                "pLXO7eYK05VXQeAf:CQ0dbrwYjes1Dumk",
-                "_-62zhMe15E45Vd1:CQ0dbrwYjes1Dumk",
-                "n370G3Q3zxPovN2w:CQ0dbrwYjes1Dumk",
-                "M7F7BtSzQRrPjnSu:CQ0dbrwYjes1Dumk",
-                "sj81--22mxdNd7ye:CQ0dbrwYjes1Dumk",
-                "wHkBnN0XGMQahuXy:CQ0dbrwYjes1Dumk",
-                "KDJfX2SmtEMgKSID:CQ0dbrwYjes1Dumk"
-              ],
-              "properties": {
-                "id": "QEHt19Hq8lZfVLL_"
+              "id": "LAYRk_BrFaO_MeIW",
+              "config": {
+                "id": "DCONadUPiLBlrNin",
+                "dataset": "G2ds0ChDUWjbZZc_",
+                "metadata": "ym0yx0Ntt1x71Y-L",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "6dBdR5SBPaGjJPnk"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "CQ0dbrwYjes1Dumk"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "CQ0dbrwYjes1Dumk": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (hours)",
+          "yAttributeLabel": "Distance (miles)"
         }
       },
       {
@@ -382,158 +435,95 @@
         }
       },
       {
-        "id": "b0FpUdOQGJ_bNBrs",
+        "id": "Ud1WPE5hR_LoEDq8",
+        "title": "Pledge Plans",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "jQoepZ9nL2U3hhRL": 97.86892700195312,
+            "BtwQk--urpFc0q05": 103.94964599609375,
+            "oi0vldgrasd61LPx": 104.4140625,
+            "91Fr_lyCmeINy-5q": 105.93316650390625
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "GDL8t6jq6taEfbFS",
         "title": "Pledge Plans",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -4.4,
-                -1
-              ],
-              "axisRange": [
-                52.7,
-                13
-              ],
-              "axisNames": [
-                "Distance (km)",
-                "Money Raised ($)"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNIPPOenYNqdRH",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.5,
+              "max": 6.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -1,
+              "max": 17
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0.054531946508172356,
-                    0.1641304347826118
-                  ]
+              "id": "LAYRU2Lhawz-D0ba",
+              "config": {
+                "id": "DCONbLMQRA_y6utD",
+                "dataset": "Kp7GaAOSgctTa-g7",
+                "metadata": "BLRIAE3TfPtFageX",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "jQoepZ9nL2U3hhRL"
+                  }
                 },
-                {
-                  "type": "point",
-                  "parents": [
-                    1.0191679049034192,
-                    3.0304347826086966
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "hyd2VuqyA6XKZdHN",
-                "pt1": {
-                  "type": "point",
-                  "id": "hyd2VuqyA6XKZdHN-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "hyd2VuqyA6XKZdHN-point2"
-                }
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                -3.339160187807632,
-                7.967029704218323
-              ],
-              "properties": {
-                "id": "JeM-6Q9Il6FyYeqX",
-                "text": "Sponsor A",
-                "anchor": "hyd2VuqyA6XKZdHN"
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    1.9695652173913045
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2.0552748885586927,
-                    5
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "Tf6OZUJnVrOaj2fV",
-                "pt1": {
-                  "type": "point",
-                  "id": "Tf6OZUJnVrOaj2fV-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "Tf6OZUJnVrOaj2fV-point2"
-                }
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                2.8935831013556363,
-                3.3493909531745363
-              ],
-              "properties": {
-                "id": "sQ7gL2VRhogJDw8v",
-                "text": "Sponsor C",
-                "anchor": "Tf6OZUJnVrOaj2fV"
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    15.105349182763742,
-                    4.923913043478261
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    30.193759286775627,
-                    5.000000000000001
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "h5B8VdIhZW-z0Bvl",
-                "pt1": {
-                  "type": "point",
-                  "id": "h5B8VdIhZW-z0Bvl-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "h5B8VdIhZW-z0Bvl-point2"
-                }
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                9.270476121168873,
-                -0.769604226817254
-              ],
-              "properties": {
-                "id": "8z9BvQrysPs6H_Fn",
-                "text": "Sponsor B",
-                "anchor": "h5B8VdIhZW-z0Bvl"
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "BtwQk--urpFc0q05"
+                  },
+                  {
+                    "attributeID": "oi0vldgrasd61LPx"
+                  },
+                  {
+                    "attributeID": "91Fr_lyCmeINy-5q"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "BtwQk--urpFc0q05": 0,
+            "oi0vldgrasd61LPx": 1,
+            "91Fr_lyCmeINy-5q": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Distance (km",
+          "yAttributeLabel": "Money Raised"
         }
       },
       {
@@ -624,7 +614,7 @@
             "type": "Table",
             "columnWidths": {
               "9kegHh0UOAC5pJy9": 80,
-              "cO86FvF8QPtkS8Zz": 80
+              "cO86FvF8QPtkS8Zz": 127.092041015625
             },
             "name": "Table 1"
           }
@@ -644,70 +634,93 @@
         }
       ],
       {
-        "id": "DmXYmaL8b9Bbgu1n",
-        "title": "Cost for Fill It Up and Bottles by Bob",
+        "id": "J-Z0DUzpL8ae_4z2",
+        "title": "Cost for Both Companies",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -2.1,
-                -0.9
-              ],
-              "axisRange": [
-                103.7,
-                179.9
-              ],
-              "axisNames": [
-                "# of Bottles",
-                "Cost ($)"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNYs-R-FsVxHjR",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -2.5,
+              "max": 52.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -10,
+              "max": 210
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "polygon",
-              "parents": [
-                "_PxNGDNYbLeX3eXo:cO86FvF8QPtkS8Zz",
-                "e8MiMA7kItAC4voM:cO86FvF8QPtkS8Zz",
-                "E1wYr8Yzp_vn9XLC:cO86FvF8QPtkS8Zz",
-                "Z6Zz3Xb17zIsVVSb:cO86FvF8QPtkS8Zz",
-                "lZz3W1dzwEHr19U7:cO86FvF8QPtkS8Zz",
-                "TW5kmJI5S8C7miVd:cO86FvF8QPtkS8Zz",
-                "UzxbdZ6gdKOa_3bc:cO86FvF8QPtkS8Zz"
-              ],
-              "properties": {
-                "id": "ZA3atFbWen4D9MS5"
+              "id": "LAYR7QLgDrGnGAVe",
+              "config": {
+                "id": "DCONUaUfpv7fpFN9",
+                "dataset": "xoeNxK0aktJcc-vs",
+                "metadata": "KHtO_dQlpBzSu-pL",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "9kegHh0UOAC5pJy9"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "cO86FvF8QPtkS8Zz"
+                  }
+                ]
               }
             },
             {
-              "type": "polygon",
-              "parents": [
-                "01HKD16Y3NMBAH8G8GHY9WKWJW:zO65xLg0lzoBD_IJ",
-                "01HKD16Y3NMBAH8G8GHY9WKWJX:zO65xLg0lzoBD_IJ",
-                "01HKD16Y3PMGTQBVRWCCXPFSX9:zO65xLg0lzoBD_IJ",
-                "01HKD16Y3PMGTQBVRWCCXPFSXA:zO65xLg0lzoBD_IJ",
-                "01HKD16Y3PMGTQBVRWCCXPFSXB:zO65xLg0lzoBD_IJ",
-                "01HKD16Y3PMGTQBVRWCCXPFSXC:zO65xLg0lzoBD_IJ",
-                "01HKD16Y3PMGTQBVRWCCXPFSXD:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXF:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXG:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXH:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXJ:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXK:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXM:zO65xLg0lzoBD_IJ",
-                "01HKD192CHTV0B9Y681EEC3DXN:zO65xLg0lzoBD_IJ"
-              ],
-              "properties": {
-                "id": "Zr1r69LPdzjGexJG"
+              "id": "LAYRhxif6sEHCLJU",
+              "config": {
+                "id": "DCONJn3hGogy7zRV",
+                "dataset": "mKy6KoQTsUwVkQqd",
+                "metadata": "T9Rur3RMPd9KlZO9",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "DAHKWu21x3MWTbfy"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "zO65xLg0lzoBD_IJ"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "cO86FvF8QPtkS8Zz": 0,
+            "zO65xLg0lzoBD_IJ": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Bottles",
+          "yAttributeLabel": "Cost"
         }
       },
       {
@@ -1088,48 +1101,73 @@
         }
       },
       {
-        "id": "hu4UY15i1-wAmDci",
+        "id": "BOPiL8Y9X_WjUw1y",
         "title": "Jamal's Money",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                8,
-                22
-              ],
-              "axisNames": [
-                "# of Days",
-                "Amount of Money ($)"
-              ],
-              "axisLabels": [
-                "",
-                "Amount of Money"
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNeknApxFKknCS",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.5,
+              "max": 7.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -1,
+              "max": 23
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "polygon",
-              "parents": [
-                "UYfXNwBIgQe4m-NB:zaTQzfVE7Q0NnBlz",
-                "Nv9kEFR-4LgIkYdB:zaTQzfVE7Q0NnBlz",
-                "HBGwI4feeQU7A1gd:zaTQzfVE7Q0NnBlz",
-                "8_4rWHwYx7p6ptx0:zaTQzfVE7Q0NnBlz",
-                "v4dLQlHnDoaWdYfv:zaTQzfVE7Q0NnBlz",
-                "7O2cQkPz75SevWKC:zaTQzfVE7Q0NnBlz",
-                "6cofNdgIqSsq5VEz:zaTQzfVE7Q0NnBlz"
-              ],
-              "properties": {
-                "id": "dm5zkwmA4mtMd2fU"
+              "id": "LAYRjVJ7efF-JIL-",
+              "config": {
+                "id": "DCONsiZ2Rq7gl01f",
+                "dataset": "TxfCrIvPv1pjxVCZ",
+                "metadata": "6ygL892B5L0-Hmx4",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "XogpxLIxSyDMxdto"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "zaTQzfVE7Q0NnBlz"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "zaTQzfVE7Q0NnBlz": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Days",
+          "yAttributeLabel": "Amount of Money"
         }
       },
       {
@@ -1885,7 +1923,7 @@
       },
       {
         "id": "RNvvvmeB8OgMyY0y",
-        "title": "Leaky Faucet Experiment",
+        "title": "Leaking Faucet Experiment",
         "content": {
           "type": "Table",
           "columnWidths": {
@@ -2333,7 +2371,7 @@
         },
         "tiles": [
           "7mMnc1sWNuey7mqP",
-          "pGg6TnQgehp39Zoi"
+          "e7KA54jYMpFB30jL"
         ]
       },
       {
@@ -2409,7 +2447,7 @@
         },
         "tiles": [
           "o_e7OWcjGa84YkYE",
-          "U9WWvQUy7S1faolb"
+          "Gqc-7OBXq5bOspHk"
         ]
       },
       {
@@ -2488,7 +2526,7 @@
         },
         "tiles": [
           "4FKz11ngRq1OzNrG",
-          "DmXYmaL8b9Bbgu1n"
+          "J-Z0DUzpL8ae_4z2"
         ]
       },
       {
@@ -2828,7 +2866,7 @@
         },
         "tiles": [
           "Fb1wW8uqc_JD7CHl",
-          "hu4UY15i1-wAmDci"
+          "BOPiL8Y9X_WjUw1y"
         ]
       },
       {
@@ -3351,7 +3389,251 @@
         },
         "tiles": [
           "VUx6akqMIGSlkZwX",
-          "DmXYmaL8b9Bbgu1n"
+          "J-Z0DUzpL8ae_4z2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "vardvbLnTSOFqJHh",
+          "data": "RjJX_XxSdWk_KbOY",
+          "collections": {},
+          "categories": {
+            "cOHUeUwuEz4_UjyG": {
+              "attribute": "cOHUeUwuEz4_UjyG",
+              "colors": {},
+              "moves": []
+            },
+            "xkPOUwxsjjvkvueC": {
+              "attribute": "xkPOUwxsjjvkvueC",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "e7KA54jYMpFB30jL"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "ym0yx0Ntt1x71Y-L",
+          "data": "G2ds0ChDUWjbZZc_",
+          "collections": {},
+          "categories": {
+            "6dBdR5SBPaGjJPnk": {
+              "attribute": "6dBdR5SBPaGjJPnk",
+              "colors": {},
+              "moves": []
+            },
+            "CQ0dbrwYjes1Dumk": {
+              "attribute": "CQ0dbrwYjes1Dumk",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "Gqc-7OBXq5bOspHk"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Ghx92d0vbk8h46cB",
+          "providerId": "Ud1WPE5hR_LoEDq8",
+          "dataSet": {
+            "id": "Kp7GaAOSgctTa-g7",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "jQoepZ9nL2U3hhRL",
+                "clientKey": "",
+                "name": "Distance",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BtwQk--urpFc0q05",
+                "clientKey": "",
+                "name": "Sponsor A ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "3",
+                  "6",
+                  "9",
+                  "12",
+                  "15"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oi0vldgrasd61LPx",
+                "clientKey": "",
+                "name": "Sponsor B ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "91Fr_lyCmeINy-5q",
+                "clientKey": "",
+                "name": "Sponsor C ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "3.50",
+                  "5",
+                  "6.5",
+                  "8",
+                  "9.5"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "yCGSosl7W13fZfrZ"
+              },
+              {
+                "__id__": "_F01_z_EEDRs6-8G"
+              },
+              {
+                "__id__": "9Ro9aV5L9ZvH0rcp"
+              },
+              {
+                "__id__": "9BrtnTfsX6JgVVrX"
+              },
+              {
+                "__id__": "U5GGj__XYYEV9uWo"
+              },
+              {
+                "__id__": "ckA_zmoSJPU-ZyUA"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "Ud1WPE5hR_LoEDq8",
+          "GDL8t6jq6taEfbFS"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "BLRIAE3TfPtFageX",
+          "data": "Kp7GaAOSgctTa-g7",
+          "collections": {},
+          "categories": {
+            "jQoepZ9nL2U3hhRL": {
+              "attribute": "jQoepZ9nL2U3hhRL",
+              "colors": {},
+              "moves": []
+            },
+            "BtwQk--urpFc0q05": {
+              "attribute": "BtwQk--urpFc0q05",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "GDL8t6jq6taEfbFS"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "KHtO_dQlpBzSu-pL",
+          "data": "xoeNxK0aktJcc-vs",
+          "collections": {},
+          "categories": {
+            "9kegHh0UOAC5pJy9": {
+              "attribute": "9kegHh0UOAC5pJy9",
+              "colors": {},
+              "moves": []
+            },
+            "cO86FvF8QPtkS8Zz": {
+              "attribute": "cO86FvF8QPtkS8Zz",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "J-Z0DUzpL8ae_4z2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "T9Rur3RMPd9KlZO9",
+          "data": "mKy6KoQTsUwVkQqd",
+          "collections": {},
+          "categories": {},
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "J-Z0DUzpL8ae_4z2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "6ygL892B5L0-Hmx4",
+          "data": "TxfCrIvPv1pjxVCZ",
+          "collections": {},
+          "categories": {
+            "XogpxLIxSyDMxdto": {
+              "attribute": "XogpxLIxSyDMxdto",
+              "colors": {},
+              "moves": []
+            },
+            "zaTQzfVE7Q0NnBlz": {
+              "attribute": "zaTQzfVE7Q0NnBlz",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "BOPiL8Y9X_WjUw1y"
         ]
       }
     ]
