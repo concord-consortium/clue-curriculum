@@ -162,96 +162,7 @@
         }
       ],
       {
-        "id": "kLML3e9OuZT0IxuV",
-        "title": "Tara's and Ingrid's Walk to School",
-        "content": {
-          "type": "Graph",
-          "adornments": [
-            {
-              "id": "ADRNk2jL7cmlHNqV",
-              "type": "Connecting Lines",
-              "isVisible": true
-            }
-          ],
-          "axes": {
-            "bottom": {
-              "type": "numeric",
-              "place": "bottom",
-              "scale": "linear",
-              "min": -0.25,
-              "max": 4.75
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": -50,
-              "max": 1150
-            }
-          },
-          "lockAxes": false,
-          "plotType": "scatterPlot",
-          "layers": [
-            {
-              "id": "LAYRIpUqf82O1XJj",
-              "config": {
-                "id": "DCONc-Eh_rvLxAgy",
-                "dataset": "XNM41M1wlsCBVmhd",
-                "metadata": "XS09hlrrc9X7B-K1",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "1O5M9qU16rsDQK4R"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "qJx04vxTKxIxYIJ4"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "LAYRVb4f2MSB9Pky",
-              "config": {
-                "id": "DCONrHUQ7TiLM_00",
-                "dataset": "aDMCP3xjSbD6j6GD",
-                "metadata": "kABgD5zTRVFCFNsy",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "RWDmSmia8szlDfnV"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "4ff6l-0zG80N3GF0"
-                  }
-                ]
-              }
-            }
-          ],
-          "_idColors": {
-            "qJx04vxTKxIxYIJ4": 0,
-            "4ff6l-0zG80N3GF0": 1
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "Time (minutes)",
-          "yAttributeLabel": "Distance (feet)"
-        }
-      },
-      {
-        "id": "cX2mRu-KjkTQK9BQ",
+        "id": "wV9CUJZ7ipZyziEz",
         "title": "Tara's and Ingrid's Walk to School",
         "content": {
           "type": "Geometry",
@@ -262,12 +173,12 @@
                 -1
               ],
               "axisRange": [
-                7.3,
-                1760.9
+                6,
+                1566.5
               ],
               "axisNames": [
-                "x",
-                "y"
+                "Time (minutes)",
+                "Distance (feet)"
               ],
               "axisLabels": [
                 "",
@@ -284,7 +195,7 @@
                 "-OiYCMaJIIlXy4ET:qJx04vxTKxIxYIJ4"
               ],
               "properties": {
-                "id": "jUlYU82gogbEZB7g"
+                "id": "LMgGSsrHvlDDOHHt"
               }
             },
             {
@@ -295,57 +206,31 @@
                 "01HKD2RK0YJCBNTYEYC9BNPEKK:4ff6l-0zG80N3GF0"
               ],
               "properties": {
-                "id": "XNW-9TlfA5zjhDuU"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                1,
-                250
-              ],
-              "properties": {
-                "id": "5fn54T9aIgQh8uBQ",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                1,
-                627.5
-              ],
-              "properties": {
-                "id": "C8IkC1brj4h3W3lR",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
+                "id": "VFX90fKf4MSDeQQK"
               }
             },
             {
               "type": "comment",
               "parents": [
-                2.2936330942007213,
-                385.4166012639584
+                1.1659561576172015,
+                814.517648384344
               ],
               "properties": {
-                "id": "GRm1pb_TTSSmpDhh",
-                "text": "Ingrid",
-                "anchor": "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                1.8686829056206915,
-                1008.8585570515065
-              ],
-              "properties": {
-                "id": "FqQJdFb_FElJ_W9C",
+                "id": "jRV35eXB_K5Oscb2",
                 "text": "Tara",
                 "anchor": "sWdRH8kHS0Y-Egdk:qJx04vxTKxIxYIJ4"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                1.2740527646186455,
+                208.46244345824084
+              ],
+              "properties": {
+                "id": "--wiXX3CaTmTn1zv",
+                "text": "Ingrid",
+                "anchor": "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0"
               }
             }
           ]
@@ -525,16 +410,8 @@
                 -1
               ],
               "axisRange": [
-                312.2,
-                234.8
-              ],
-              "axisNames": [
-                "Number of Bars",
-                "Total Dollars"
-              ],
-              "axisLabels": [
-                "",
-                ""
+                312.225,
+                234.821
               ]
             }
           },
@@ -922,16 +799,8 @@
                   -1
                 ],
                 "axisRange": [
-                  5.7,
-                  49.5
-                ],
-                "axisNames": [
-                  "Number of Hours",
-                  "Money Earned ($)"
-                ],
-                "axisLabels": [
-                  "",
-                  ""
+                  10,
+                  62
                 ]
               }
             },
@@ -1498,20 +1367,12 @@
           "board": {
             "properties": {
               "axisMin": [
-                -2.3,
+                -1,
                 -1
               ],
               "axisRange": [
-                16.3,
-                221
-              ],
-              "axisNames": [
-                "Months",
-                "Amount Owed ($)"
-              ],
-              "axisLabels": [
-                "",
-                ""
+                14,
+                182
               ]
             }
           },
@@ -2638,8 +2499,7 @@
         },
         "tiles": [
           "2Xrg-noCnTUY3FD4",
-          "cX2mRu-KjkTQK9BQ",
-          "kLML3e9OuZT0IxuV"
+          "wV9CUJZ7ipZyziEz"
         ]
       },
       {
@@ -3509,8 +3369,7 @@
         },
         "tiles": [
           "sBUnw_UijwXllhYw",
-          "cX2mRu-KjkTQK9BQ",
-          "kLML3e9OuZT0IxuV"
+          "wV9CUJZ7ipZyziEz"
         ]
       },
       {
@@ -3573,45 +3432,6 @@
           "z_eb5aCEIIcWOEQ1",
           "XKdjpAcAbJZN8opc",
           "j1Mm_5KCjApeD9c_"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "XS09hlrrc9X7B-K1",
-          "data": "XNM41M1wlsCBVmhd",
-          "collections": {},
-          "categories": {
-            "1O5M9qU16rsDQK4R": {
-              "attribute": "1O5M9qU16rsDQK4R",
-              "colors": {},
-              "moves": []
-            },
-            "qJx04vxTKxIxYIJ4": {
-              "attribute": "qJx04vxTKxIxYIJ4",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "kLML3e9OuZT0IxuV"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "kABgD5zTRVFCFNsy",
-          "data": "aDMCP3xjSbD6j6GD",
-          "collections": {},
-          "categories": {},
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "kLML3e9OuZT0IxuV"
         ]
       },
       {
