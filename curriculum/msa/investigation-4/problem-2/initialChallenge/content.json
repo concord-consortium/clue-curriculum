@@ -48,93 +48,77 @@
         }
       },
       {
-        "id": "Y-KGwqe5KG98KiCy",
-        "title": "Finding Profit Point",
+        "id": "nsgtL2s50YpWaovv",
+        "title": "Movie Theater Income and Expenses",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -9.112,
-                -19.188
-              ],
-              "axisRange": [
-                54.149,
-                291.014
-              ],
-              "axisNames": [
-                "n",
-                "$"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNixJ3FDuhAoVV",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -5,
+              "max": 75
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -25,
+              "max": 325
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
+              "id": "LAYRAeg_tgsGNvRB",
+              "config": {
+                "id": "DCON9aQzZNSNHCh7",
+                "dataset": "EaqnJbUqmo1aYfK4",
+                "metadata": "86o8BRlaI8Iv492D",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "PYcJyZI9PIoaImVH"
+                  }
                 },
-                {
-                  "type": "point",
-                  "parents": [
-                    26.128099173553718,
-                    117.57644628099173
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "Lx5vkwYtM7yPQO2J",
-                "pt1": {
-                  "type": "point",
-                  "id": "Lx5vkwYtM7yPQO2J-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "Lx5vkwYtM7yPQO2J-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    130
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    32.27660104166667,
-                    168.73192125
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "h46Epp9mEcRYw1OA",
-                "pt1": {
-                  "type": "point",
-                  "id": "h46Epp9mEcRYw1OA-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "h46Epp9mEcRYw1OA-point2"
-                }
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "n_BO8sFQhz5C-dtC"
+                  },
+                  {
+                    "attributeID": "CXpMuQdshYBgTNQ-"
+                  }
+                ]
               }
             }
-          ]
+          ],
+          "_idColors": {
+            "n_BO8sFQhz5C-dtC": 0,
+            "CXpMuQdshYBgTNQ-": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       },
       {
@@ -150,15 +134,15 @@
         }
       },
       {
-        "id": "Cn59OxZQsxEyuBzJ",
-        "title": "Finding Profit Point",
+        "id": "1B7kAFcHDu4U_gJl",
+        "title": "Movie Theatre Income and Expenses",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
-            "cjHkuPNyFqcaqaIs": 107.6875,
-            "8pp5GhvNmttS-oqw": 104.89453125,
-            "JmpNCiGsBw3JQKbo": 115.74609375
+            "PYcJyZI9PIoaImVH": 118.79341125488281,
+            "n_BO8sFQhz5C-dtC": 146.74044799804688,
+            "CXpMuQdshYBgTNQ-": 139.9609375
           },
           "name": "Table 1"
         }
@@ -168,16 +152,16 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "8RqyL7wtpH3cG-ol",
-          "providerId": "Cn59OxZQsxEyuBzJ",
+          "id": "FSkhjqbarc-eIkdf",
+          "providerId": "1B7kAFcHDu4U_gJl",
           "dataSet": {
-            "id": "bvOLvpSMmZdEjjzY",
+            "id": "EaqnJbUqmo1aYfK4",
             "name": "Table 1",
             "attributes": [
               {
-                "id": "cjHkuPNyFqcaqaIs",
+                "id": "PYcJyZI9PIoaImVH",
                 "clientKey": "",
-                "name": "Number of Students, x",
+                "name": "Number of students",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -188,80 +172,106 @@
                   "30",
                   "40",
                   "50",
-                  "60",
-                  "70"
+                  "60"
                 ],
                 "title": ""
               },
               {
-                "id": "8pp5GhvNmttS-oqw",
+                "id": "n_BO8sFQhz5C-dtC",
                 "clientKey": "",
-                "name": "Income, I (in dollars)",
+                "name": "Expenses",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": "1.25*x+130",
+                  "canonical": "((1.25 * __x__) + 130)"
+                },
                 "values": [
-                  "0",
-                  "45",
-                  "90",
-                  "135",
-                  "180",
-                  "225",
-                  "270",
-                  "315"
+                  130,
+                  142.5,
+                  155,
+                  167.5,
+                  180,
+                  192.5,
+                  205
                 ],
                 "title": ""
               },
               {
-                "id": "JmpNCiGsBw3JQKbo",
+                "id": "CXpMuQdshYBgTNQ-",
                 "clientKey": "",
-                "name": "Expenses, E (in dollars)",
+                "name": "Income",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": "4.5*x",
+                  "canonical": "(4.5 * __x__)"
+                },
                 "values": [
-                  "130",
-                  "142.5",
-                  "155",
-                  "167.5",
-                  "180",
-                  "192.5",
-                  "205",
-                  "217.5"
+                  0,
+                  45,
+                  90,
+                  135,
+                  180,
+                  225,
+                  270
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS68"
+                "__id__": "YJnryhCwFLOrX_1q"
               },
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS69"
+                "__id__": "rKCXaIS1NmHuUocY"
               },
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS6A"
+                "__id__": "J-Tewz2RhZGzLLBm"
               },
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS6B"
+                "__id__": "XbC1EY63HwgHqaLH"
               },
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS6C"
+                "__id__": "7Xj3mCOvfSclVSiz"
               },
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS6D"
+                "__id__": "ay9LtlideLqDZ1P-"
               },
               {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS6E"
-              },
-              {
-                "__id__": "01HEXWSQ32YJJPTT0HMJ52RS6F"
+                "__id__": "CEdNEZxIXdVn9VlG"
               }
             ]
           }
         },
         "tiles": [
-          "Cn59OxZQsxEyuBzJ"
+          "1B7kAFcHDu4U_gJl",
+          "nsgtL2s50YpWaovv"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "86o8BRlaI8Iv492D",
+          "data": "EaqnJbUqmo1aYfK4",
+          "collections": {},
+          "categories": {
+            "PYcJyZI9PIoaImVH": {
+              "attribute": "PYcJyZI9PIoaImVH",
+              "colors": {},
+              "moves": []
+            },
+            "n_BO8sFQhz5C-dtC": {
+              "attribute": "n_BO8sFQhz5C-dtC",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "nsgtL2s50YpWaovv"
         ]
       }
     ]
