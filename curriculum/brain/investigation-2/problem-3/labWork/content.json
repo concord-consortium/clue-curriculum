@@ -3,13 +3,43 @@
   "content": {
     "tiles": [
       {
+        "id": "QPU23TTaf0VV-NM-",
+        "title": "Text 13",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Today we will develop a DataFlow program that can prevent the gripper from crushing fragile objects (like an egg). </p><p>Just like engineers, we will first run a simulation to make sure the program works well and then test the program with a physical gripper. </p><p>Your DataFlow program will incorporate two new types of blocks: the TRANSFORM block and the HOLD block. Let&#x27;s familiarize ourselves with these blocks. </p>"
+          ]
+        }
+      },
+      {
+        "id": "NSB6wZqEPnzXPGGG",
+        "title": "Text 14",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>The Transform Block</strong></p><p>In order to grab fragile objects, we&#x27;d like to gripper to close slowly rather than abruptly. If the gripper closes too fast, we won&#x27;t be able to pause it just before it crushes the object. </p><p>Watch this video and then recreate the same DataFlow program in your workspace. </p>"
+          ]
+        }
+      },
+      {
+        "id": "iEajAi9jh54za5Xj",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
         "id": "rJt5kDc73bJomWKx",
         "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Modeling temperature receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the temperature of objects and makes the gripper release an object when it&#x27;s too hot (&gt;52 degrees celsius). </p><p>1. Drag the following DataFlow tile into your workspace. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
+            "<p><strong>Modeling Touch Receptors</strong></p><p>Let&#x27;s design a DataFlow program that detects the temperature of objects and makes the gripper release an object when it&#x27;s too hot (&gt;52 degrees celsius). </p><p>1. Drag the following DataFlow tile into your workspace. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
           ]
         }
       },
@@ -32,9 +62,7 @@
                 }
               },
               "6": {
-                "currentValues": {
-                  "nodeValue": 403
-                }
+                "currentValues": {}
               },
               "7": {
                 "currentValues": {}
@@ -115,6 +143,9 @@
                 "inputs": {
                   "nodeValue": {
                     "connections": {}
+                  },
+                  "tilt": {
+                    "connections": {}
                   }
                 },
                 "outputs": {},
@@ -147,28 +178,6 @@
           "format": "html",
           "text": [
             "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding 0, which would make the gripper open and release an object.  </p><p>6. Finally, connect all the blocks together such that when the temp is greater than 52 the gripper opens up. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
-          ]
-        }
-      },
-      {
-        "id": "8od0XSnf1qqURYMR",
-        "title": "Text 11",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>PBS News Hour story</strong></p><p>Watch <a href=\"https://www.pbs.org/newshour/show/how-sensors-rewiring-nerves-could-help-prosthetics-feel-and-function-like-real-limbs\">this 6-minute video</a> from PBS News Hour on recent advancements in prosthetics and answer the following questions in your workspace. </p>"
-          ]
-        }
-      },
-      {
-        "id": "4qXS3QDYXOCpe8dT",
-        "title": "Text 12",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>1. How are the prosthetics “wired into the brain”?</p><p>2. How do you think the programming of our gripper compares to the programming of the prosthetics from the video?</p><p>3. What do you think would be affected most if you had decreased sensation of touch in your body?</p><p>4. Why is touch important to the human experience?</p>"
           ]
         }
       },
@@ -254,9 +263,9 @@
           "rJt5kDc73bJomWKx",
           "srxKpumyruyS7yoA",
           "-iTf_NvEdVage5PD",
-          "8od0XSnf1qqURYMR",
-          "4qXS3QDYXOCpe8dT",
-          "OpA7t27RXurcLg-k"
+          "OpA7t27RXurcLg-k",
+          "QPU23TTaf0VV-NM-",
+          "NSB6wZqEPnzXPGGG"
         ]
       }
     ]
