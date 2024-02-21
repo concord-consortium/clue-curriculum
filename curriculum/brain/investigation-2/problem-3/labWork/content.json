@@ -388,7 +388,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>And now... for the real test!</strong></p><p>After running a successful simulation, you are ready to connect the physical gripper. </p><p>First, make sure you have all the materials:</p>"
+            "<p><strong>And now... for the real test!</strong></p><p>After running a successful simulation, you are ready to connect the physical gripper:</p><p><u>Step 1</u>: make sure you have all the materials.</p>"
           ]
         }
       },
@@ -408,7 +408,27 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Next, connect Arduino board to your computer using the blue USB cable (1), plug in the Gripper using the grey ribbon cord (2) and plug in the battery (3). </p>"
+            "<p><u>Step 2</u>: connect Arduino board to your computer using the blue USB cable (1), plug in the Gripper using the grey ribbon cord (2) and plug in the battery (3). </p>"
+          ]
+        }
+      },
+      {
+        "id": "Xn3SPVrrwoEWS6Af",
+        "title": "Connecting the cables",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/1.5.jpg",
+          "filename": "brain/images/1.5.jpg"
+        }
+      },
+      {
+        "id": "yVzOqfzSo_yI8bdH",
+        "title": "Text 22",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Step 3</u>: </p><p>1. Stick two EMG surface electrodes on your forearm and one on your elbow.</p><p>2. Connect the black alligator clip to the electrode on your elbow and the red alligator clips to the electrodes on your forearm. </p><p>3. Plug the end of the orange wire into the orange connection box on the Muscle SpikerShield.</p>"
           ]
         }
       },
@@ -449,7 +469,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 38,
+              "value": 37,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -500,7 +520,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 92.5,
+              "value": 88.5,
               "inputs": [],
               "color": "light-gray",
               "labels": []
@@ -546,7 +566,8 @@
           "zidMDK6mlMedIEb2",
           "aExgfJ4xXNQHQAvW",
           "VTPbEE0j0SYcTp2G",
-          "kfI8VW3DDZPbPBKZ"
+          "kfI8VW3DDZPbPBKZ",
+          "yVzOqfzSo_yI8bdH"
         ]
       },
       {
