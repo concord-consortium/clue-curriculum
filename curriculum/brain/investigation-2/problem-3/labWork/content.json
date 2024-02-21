@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>The Transform Block</strong></p><p>In order to grab fragile objects, we&#x27;d like to gripper to close slowly rather than abruptly. If the gripper closes too fast, we won&#x27;t be able to pause it just before it crushes the object. </p><p>To do that, we will need to use the transform block.</p><p>To learn about the transform block, try to create the same DataFlow program as in the image below.</p>"
+            "<p><strong>The Transform Block</strong></p><p>In order to grab fragile objects, we&#x27;d like the gripper to close slowly rather than abruptly. If the gripper closes too fast, we won&#x27;t be able to pause it just before it crushes the object. </p><p>To do that, we will need to use the transform block.</p><p>To learn about the transform block, try to create the same DataFlow program as in the image below.</p>"
           ]
         }
       },
@@ -82,7 +82,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding holding the current or previous value. This would make the gripper hold position, preventing it from closing any further and crushing the objects. </p>"
+            "<p>The Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding the current or previous value. This would make the gripper hold position, preventing it from closing any further and crushing the object. </p>"
           ]
         }
       },
@@ -93,7 +93,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Drag the following program into your workspace and connect the blocks.  Then, change the value of the Number block from 0 to 1 to turn the hold block ON. What happened to the gripper? </p><p>Change the value back to 0 turn the hold block OFF. What happens then?</p>"
+            "<p>Drag the following program into your workspace and connect the blocks.  Then, change the value of the Number block from 0 to 1 to turn the hold block ON. What happened to the gripper? </p><p>Change the value back to 0 to turn the hold block OFF. What happens then?</p>"
           ]
         }
       },
@@ -357,7 +357,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>3. Next, let&#x27;s add a TRANSFORM block to slow down the gripper. Where would you place the transform block?  Make sure to select &#x27;ramp&#x27; instead of &#x27;absolute value&#x27;. To test your program, move the slider in the SIM tile from &#x27;flexed&#x27; to &#x27;relaxed&#x27; or vice versa. Does the gripper open and close more gradually? If not, check your program.  </p><p>4. As you may have noticed, the gripper moves now more gradually but it still crushes the cup. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>5. Add a logic block to check if the surface pressure is above 100 PSI. </p><p>6. Finally, we will need to add a HOLD block to get the gripper to listen both to the EMG signal and to the pressure sensor. Here&#x27;s a hint how to connect the hold block: </p>"
+            "<p>3. Next, let&#x27;s add a TRANSFORM block to slow down the gripper. Where would you place the transform block?  Make sure to select &#x27;ramp&#x27; instead of &#x27;absolute value&#x27;. To test your program, move the slider in the SIM tile from &#x27;flexed&#x27; to &#x27;relaxed&#x27; or vice versa. Does the gripper open and close more gradually? If not, check your program.  </p><p>4. As you may have noticed, the gripper now moves more gradually but it still crushes the cup. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>5. Add a logic block to check if the surface pressure is above 100 PSI. </p><p>6. Finally, we will need to add a HOLD block to get the gripper to listen both to the EMG signal and to the pressure sensor. Here&#x27;s a hint how to connect the hold block: </p>"
           ]
         }
       },
@@ -377,7 +377,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>And now... the moment of truth! Move the slider all the way to &#x27;relaxed&#x27; and make sure the hold block is OFF (to turn it of, disconnect INPUT 2 - the bottom input - and then reconnect it).  Now, move the slides all the way to &#x27;flexed&#x27;. What happened to the cup? If the cup still gets crushed, think how to modify your program. Then, try again by moving the slider to &#x27;relaxed&#x27;, turning the HOLD block off, and then moving the slider back to &#x27;flexed&#x27;. </p>"
+            "<p>And now... the moment of truth! Move the slider all the way to &#x27;relaxed&#x27; and make sure the hold block is OFF (to turn it off, disconnect INPUT 2 - the bottom input - and then reconnect it).  Now, move the slider all the way to &#x27;flexed&#x27;. What happened to the cup? If the cup still gets crushed, think how to modify your program. Then, try again by moving the slider to &#x27;relaxed&#x27;, turning the HOLD block off, and moving the slider back to &#x27;flexed&#x27;. </p>"
           ]
         }
       },
@@ -520,7 +520,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 36,
+              "value": 37,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -571,7 +571,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 95,
+              "value": 73,
               "inputs": [],
               "color": "light-gray",
               "labels": []
