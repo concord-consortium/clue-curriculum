@@ -75,7 +75,7 @@
           "title": "Program 1",
           "content": {
             "type": "Dataflow",
-            "programDataRate": 1000,
+            "programDataRate": 100,
             "programZoom": {
               "dx": 0,
               "dy": 0,
@@ -91,15 +91,14 @@
                 "3": {
                   "currentValues": {}
                 },
-                "6": {
-                  "currentValues": {
-                    "nodeValue": 0,
-                    "tilt": 0
-                  }
-                },
                 "11": {
                   "currentValues": {
-                    "nodeValue": 39
+                    "nodeValue": 37
+                  }
+                },
+                "14": {
+                  "currentValues": {
+                    "nodeValue": 0
                   }
                 }
               },
@@ -146,26 +145,6 @@
                     "logicOperator": "Greater Than"
                   }
                 },
-                "6": {
-                  "id": 6,
-                  "name": "Demo Output",
-                  "x": 463.36054274645005,
-                  "y": 235.75916425314034,
-                  "inputs": {
-                    "nodeValue": {
-                      "connections": {}
-                    },
-                    "tilt": {
-                      "connections": {}
-                    }
-                  },
-                  "outputs": {},
-                  "data": {
-                    "orderedDisplayName": "Demo Output 3",
-                    "outputType": "Advanced Grabber",
-                    "demoOutput": 0
-                  }
-                },
                 "11": {
                   "id": 11,
                   "name": "Sensor",
@@ -179,10 +158,28 @@
                   },
                   "data": {
                     "plot": false,
-                    "orderedDisplayName": "Sensor 4",
+                    "orderedDisplayName": "Sensor 3",
                     "type": "emg-reading",
                     "sensor": "SIMemg_key",
                     "virtual": false
+                  }
+                },
+                "14": {
+                  "id": 14,
+                  "name": "Live Output",
+                  "x": 460.81630173196254,
+                  "y": 327.2258453379301,
+                  "inputs": {
+                    "nodeValue": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {},
+                  "data": {
+                    "orderedDisplayName": "Live Output 4",
+                    "outputType": "Grabber",
+                    "hubSelect": "Simulated Gripper",
+                    "liveOutputType": "Grabber"
                   }
                 }
               }
@@ -360,7 +357,7 @@
               "name": "emg_key",
               "displayName": "EMG",
               "unit": "mV",
-              "value": 39,
+              "value": 40,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -406,7 +403,7 @@
               "id": "v8nTW8TtmMlDPEic",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 21.5,
+              "value": 41.5,
               "inputs": [],
               "color": "light-gray",
               "labels": []
