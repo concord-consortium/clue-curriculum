@@ -388,8 +388,16 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding 0, which would make the gripper open and release an object.  </p><p>6. Finally, connect all the blocks together such that when the temp is greater than 52 the gripper opens up. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
+            "<p><strong>And now... for the real test!</strong></p><p>After running a successful simulation, you are ready to connect the physical gripper. </p><p>First, make sure you have all the materials:</p>"
           ]
+        }
+      },
+      {
+        "id": "uIiZdRrnNpcPZnrI",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
         }
       },
       {
@@ -429,7 +437,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 37,
+              "value": 39,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -480,7 +488,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 21.5,
+              "value": 79,
               "inputs": [],
               "color": "light-gray",
               "labels": []
