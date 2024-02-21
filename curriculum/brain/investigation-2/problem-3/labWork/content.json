@@ -184,6 +184,9 @@
                 "inputs": {
                   "nodeValue": {
                     "connections": {}
+                  },
+                  "tilt": {
+                    "connections": {}
                   }
                 },
                 "outputs": {},
@@ -244,9 +247,7 @@
                 }
               },
               "6": {
-                "currentValues": {
-                  "nodeValue": 38
-                }
+                "currentValues": {}
               },
               "7": {
                 "currentValues": {}
@@ -356,7 +357,27 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>3. Next, let&#x27;s add a TRANSFORM block to slow down the gripper. Where would you place the transform block?  Make sure to select &#x27;ramp&#x27; instead of &#x27;absolute value&#x27;. To test your program, move the slider in the SIM tile from &#x27;flexed&#x27; to &#x27;relaxed&#x27; or vice versa. Does the gripper open and close more gradually? If not, check your program.  </p><p>4. As you may have noticed, the gripper moves now more gradually but it still crushes the cup. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>5. Add a logic block to check if the surface pressure is above 100 PSI. </p><p>6. Finally, we will need to add a HOLD block to get the gripper to listen both to the EMG signal and to the pressure sensor. </p>"
+            "<p>3. Next, let&#x27;s add a TRANSFORM block to slow down the gripper. Where would you place the transform block?  Make sure to select &#x27;ramp&#x27; instead of &#x27;absolute value&#x27;. To test your program, move the slider in the SIM tile from &#x27;flexed&#x27; to &#x27;relaxed&#x27; or vice versa. Does the gripper open and close more gradually? If not, check your program.  </p><p>4. As you may have noticed, the gripper moves now more gradually but it still crushes the cup. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>5. Add a logic block to check if the surface pressure is above 100 PSI. </p><p>6. Finally, we will need to add a HOLD block to get the gripper to listen both to the EMG signal and to the pressure sensor. Here&#x27;s a hint how to connect the hold block: </p>"
+          ]
+        }
+      },
+      {
+        "id": "3SZLtbs2pW6k95p9",
+        "title": "Connecting the hold block",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/hint.jpg",
+          "filename": "brain/images/hint.jpg"
+        }
+      },
+      {
+        "id": "VTPbEE0j0SYcTp2G",
+        "title": "Text 20",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>And now... the moment of truth! Move the slider all the way to &#x27;relaxed&#x27; and make sure the hold block is OFF (to turn it of, disconnect INPUT 2 - the bottom input - and then reconnect it).  Now, move the slides all the way to &#x27;flexed&#x27;. What happened to the cup? If the cup still gets crushed, think how to modify your program. Then, try again by moving the slider to &#x27;relaxed&#x27;, turning the HOLD block off, and then moving the slider back to &#x27;flexed&#x27;. </p>"
           ]
         }
       },
@@ -459,7 +480,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 53,
+              "value": 21.5,
               "inputs": [],
               "color": "light-gray",
               "labels": []
@@ -503,7 +524,8 @@
           "sZrMFsniwPj77lC3",
           "7Ob6ZkA355KNmy6x",
           "zidMDK6mlMedIEb2",
-          "aExgfJ4xXNQHQAvW"
+          "aExgfJ4xXNQHQAvW",
+          "VTPbEE0j0SYcTp2G"
         ]
       },
       {
