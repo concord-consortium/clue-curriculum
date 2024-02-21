@@ -221,136 +221,134 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Let&#x27;s run a simulation!</strong></p><p>Now we&#x27;re going to put everything together and design a DataFlow program that makes the gripper hold position before too much pressure is applied on the object.  Please follow these steps:</p><p>1. Drag the following DataFlow tile into your workspace and place a SIM tile just next to it. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks in DataFlow and move the slider in the SIM tile all the way to &#x27;flexed&#x27;. What happens to the cup?</p>"
+            "<p><strong>Let&#x27;s run a simulation!</strong></p><p>Now we&#x27;re going to put everything together and design a DataFlow program that makes the gripper hold position before too much pressure is applied on the object.  Please follow these steps:</p><p>1. Drag the following DataFlow tile into your workspace and place a SIM tile just underneath it. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks in DataFlow and move the slider in the SIM tile all the way to &#x27;flexed&#x27;. What happens to the cup?</p>"
           ]
         }
       },
-      [
-        {
-          "id": "fXr4dhoarK6Kk02g",
-          "title": "Program 1",
-          "content": {
-            "type": "Dataflow",
-            "programDataRate": 100,
-            "programZoom": {
-              "dx": 0.484039306640625,
-              "dy": -0.00152587890625,
-              "scale": 0.37423311417881716
-            },
-            "program": {
-              "values": {
-                "3": {
-                  "currentValues": {
-                    "nodeValue": 400
-                  }
-                },
-                "6": {
-                  "currentValues": {
-                    "nodeValue": 38
-                  }
-                },
-                "7": {
-                  "currentValues": {}
-                },
-                "15": {
-                  "currentValues": {
-                    "nodeValue": 0
-                  }
+      {
+        "id": "fXr4dhoarK6Kk02g",
+        "title": "Program 1",
+        "content": {
+          "type": "Dataflow",
+          "programDataRate": 100,
+          "programZoom": {
+            "dx": 0.484039306640625,
+            "dy": -0.00152587890625,
+            "scale": 0.37423311417881716
+          },
+          "program": {
+            "values": {
+              "3": {
+                "currentValues": {
+                  "nodeValue": 400
                 }
               },
-              "id": "dataflow@0.1.0",
-              "nodes": {
-                "3": {
-                  "id": 3,
-                  "name": "Number",
-                  "x": 10.538104872315643,
-                  "y": 227.72051069738455,
-                  "inputs": {},
-                  "outputs": {
-                    "num": {
-                      "connections": {}
-                    }
-                  },
-                  "data": {
-                    "plot": false,
-                    "orderedDisplayName": "Number 1",
-                    "nodeValueUnits": ""
+              "6": {
+                "currentValues": {
+                  "nodeValue": 38
+                }
+              },
+              "7": {
+                "currentValues": {}
+              },
+              "15": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              }
+            },
+            "id": "dataflow@0.1.0",
+            "nodes": {
+              "3": {
+                "id": 3,
+                "name": "Number",
+                "x": 10.538104872315643,
+                "y": 227.72051069738455,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
                   }
                 },
-                "6": {
-                  "id": 6,
-                  "name": "Sensor",
-                  "x": 13.816700929226307,
-                  "y": 74.77543672898062,
-                  "inputs": {},
-                  "outputs": {
-                    "num": {
-                      "connections": {}
-                    }
-                  },
-                  "data": {
-                    "plot": false,
-                    "orderedDisplayName": "Sensor 2",
-                    "type": "emg-reading",
-                    "sensor": "SIMemg_key",
-                    "virtual": false
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 1",
+                  "nodeValueUnits": ""
+                }
+              },
+              "6": {
+                "id": 6,
+                "name": "Sensor",
+                "x": 13.816700929226307,
+                "y": 74.77543672898062,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
                   }
                 },
-                "7": {
-                  "id": 7,
-                  "name": "Math",
-                  "x": 242.2529663252481,
-                  "y": 135.13033286019981,
-                  "inputs": {
-                    "num1": {
-                      "connections": {}
-                    },
-                    "num2": {
-                      "connections": {}
-                    }
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 2",
+                  "type": "emg-reading",
+                  "sensor": "SIMemg_key",
+                  "virtual": false
+                }
+              },
+              "7": {
+                "id": 7,
+                "name": "Math",
+                "x": 242.2529663252481,
+                "y": 135.13033286019981,
+                "inputs": {
+                  "num1": {
+                    "connections": {}
                   },
-                  "outputs": {
-                    "num": {
-                      "connections": {}
-                    }
-                  },
-                  "data": {
-                    "plot": false,
-                    "orderedDisplayName": "Math 3",
-                    "mathOperator": "Divide"
+                  "num2": {
+                    "connections": {}
                   }
                 },
-                "15": {
-                  "id": 15,
-                  "name": "Live Output",
-                  "x": 562.3839035645634,
-                  "y": 147.69019086666086,
-                  "inputs": {
-                    "nodeValue": {
-                      "connections": {}
-                    }
-                  },
-                  "outputs": {},
-                  "data": {
-                    "orderedDisplayName": "Live Output 4",
-                    "outputType": "Gripper 2.0",
-                    "hubSelect": "Simulated Gripper",
-                    "liveOutputType": "Gripper 2.0"
+                "outputs": {
+                  "num": {
+                    "connections": {}
                   }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Math 3",
+                  "mathOperator": "Divide"
+                }
+              },
+              "15": {
+                "id": 15,
+                "name": "Live Output",
+                "x": 562.3839035645634,
+                "y": 147.69019086666086,
+                "inputs": {
+                  "nodeValue": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {},
+                "data": {
+                  "orderedDisplayName": "Live Output 4",
+                  "outputType": "Gripper 2.0",
+                  "hubSelect": "Simulated Gripper",
+                  "liveOutputType": "Gripper 2.0"
                 }
               }
             }
           }
-        },
-        {
-          "id": "aExgfJ4xXNQHQAvW",
-          "title": "Simulation 1",
-          "content": {
-            "type": "Simulator",
-            "simulation": "EMG_and_claw"
-          }
         }
-      ],
+      },
+      {
+        "id": "aExgfJ4xXNQHQAvW",
+        "title": "Simulation 1",
+        "content": {
+          "type": "Simulator",
+          "simulation": "EMG_and_claw"
+        }
+      },
       {
         "id": "srxKpumyruyS7yoA",
         "title": "Text 9",
@@ -358,7 +356,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>3. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the temp is above 52 degrees. </p><p>5. Next, we will need to use a new block type called &quot;Hold.&quot; The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
+            "<p>3. Next, let&#x27;s add a TRANSFORM block to slow down the gripper. Where would you place the transform block?  Make sure to select &#x27;ramp&#x27; instead of &#x27;absolute value&#x27;. To test your program, move the slider in the SIM tile from &#x27;flexed&#x27; to &#x27;relaxed&#x27; or vice versa. Does the gripper open and close more gradually? If not, check your program.  </p><p>4. As you may have noticed, the gripper moves now more gradually but it still crushes the cup. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>5. Add a logic block to check if the surface pressure is above 100 PSI. </p><p>6. Finally, we will need to add a HOLD block to get the gripper to listen both to the EMG signal and to the pressure sensor. </p>"
           ]
         }
       },
@@ -410,7 +408,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 39,
+              "value": 36,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -461,7 +459,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 24.5,
+              "value": 84,
               "inputs": [],
               "color": "light-gray",
               "labels": []
