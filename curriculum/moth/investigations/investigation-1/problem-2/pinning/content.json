@@ -1,38 +1,25 @@
 {
   "type": "pinning",
   "content": {
-    "sharedModels": [
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "2RLUYg5P96NDMIfI",
-          "providerId": "Mf8F2TQ576QtCIk",
-          "dataSet": {
-            "id": "pmBp0E-weI04bgsG",
-            "attributes": [
-              {"id": "lgQ-aHc3ENGlh4CC", "clientKey": "", "name": "Moth", "hidden": false, "units": "", "formula": {}, "values": ["large"]},
-              {"id": "nb9o6hyCZqVPYp9R", "clientKey": "", "name": "Date", "hidden": false, "units": "", "formula": {}, "values": [""]},
-              {"id": "jzCeWK-wTPkHjaui", "clientKey": "", "name": "image", "hidden": false, "units": "", "formula": {}, "values": [""]},
-              {"id": "mxFnkDHe2Xbceey_", "clientKey": "", "name": "Another Label ", "hidden": false, "units": "", "formula": {}, "values": [""]}
-            ],
-            "cases": [{"__id__": "01GB97G7F4QR5TBZ4D1CB50G9K"}]
-          }
-        },
-        "tiles": ["Mf8F2TQ576QtCIk"]
-      }
-    ],
     "tiles": [
-      {"id": "XejN-F7hDWsdjxpt", "title": "Text 13", "content": {"type": "Text", "format": "html", "text": ["<h2>Pin and organize your moths</h2>"]}},
+      {
+        "id": "XejN-F7hDWsdjxpt",
+        "title": "Text 13",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2>Pin and organize your moths PIN EDIT</h2>"
+          ]
+        }
+      },
       {
         "id": "R9NR96j-7MyF-Z2y",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Moth Pinning Video</strong></p>",
-            "<p>for studying, comparing, and identifying them.</p>",
-            "<p>MSU Team Moth <a href='https://drive.google.com/file/d/1sVzZNz_2TR9jvpveACbKpBR6M7JA4IhH/view?usp=drivesdk'>Pinning Tutorial</a></p>",
-            "<p>Oregon State <a href='https://extension.oregonstate.edu/video/pinning-butterflies-moths'>Pinning Tutorial</a></p>"
+            "<p><strong>Moth Pinning Video</strong></p><p>for studying, comparing, and identifying them.</p><p>MSU Team Moth <a href=\"https://drive.google.com/file/d/1sVzZNz_2TR9jvpveACbKpBR6M7JA4IhH/view?usp=drivesdk\">Pinning Tutorial</a></p><p>Oregon State <a href=\"https://extension.oregonstate.edu/video/pinning-butterflies-moths\">Pinning Tutorial</a></p>"
           ]
         }
       },
@@ -42,17 +29,191 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Organizing your moths</strong></p>",
-            "<p>Think about pinning the moths in categories that will help answer your group's research question.</p>",
-            "<p><strong>Would data cards or a table help you get organized?</strong></p>",
-            "You can start with the card below and add cards. Or to make your own, click the data card icon on the tool bar.  Decide which labels you want to add. "
+            "<p><strong>Organizing your moths</strong></p><p>Think about pinning the moths in categories that will help answer your group&#x27;s research question.</p><p><strong>Would data cards or a table help you get organized?</strong></p><p>You can start with the card below and add cards. Or to make your own, click the data card icon on the tool bar.  Decide which labels you want to add. </p>"
           ]
         }
       },
-      {"id": "Mf8F2TQ576QtCIk", "title": "My Moths", "content": {"type": "DataCard"}},
-      {"id": "1WcMxVhDjM_iQviT", "title": "Text 11", "content": {"type": "Text", "format": "html", "text": ["<p>Or, click the table icon in the toolbar and decide on column titles you want to add. You can start with the table below, or make your own. </p>"]}},
-      {"id": "hmo9bA0tWyHk-f2t1", "title": "Table 1", "content": {"type": "Table", "name": "Table 1", "columns": [{"name": "moth", "width": 80}, {"name": "date", "width": 80}, {"name": "weather", "width": 92}, {"name": "color", "width": 80}, {"name": "column title", "width": 94}]}},
-      {"id": "ffP5vaAz9sV-f2d5", "title": "Text 12", "content": {"type": "Text", "format": "html", "text": ["<p><strong>Share your findings </strong></p><p>...with your group<strong> </strong>to discuss what you are learning.</p>"]}}
+      {
+        "id": "Mf8F2TQ576QtCIk",
+        "title": "My Moths",
+        "content": {
+          "type": "DataCard"
+        }
+      },
+      {
+        "id": "1WcMxVhDjM_iQviT",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Or, click the table icon in the toolbar and decide on column titles you want to add. You can start with the table below, or make your own. </p>"
+          ]
+        }
+      },
+      {
+        "id": "hmo9bA0tWyHk-f2t1",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "ALgDwJyT7FuMVZLI": 80,
+            "MAmbLNbQ_mK6JSJE": 80,
+            "2sAyK5DGKE_SjRdo": 92,
+            "yjvSpCKAGaYU_YrV": 80,
+            "9sYaeX7Dlq0GApnX": 94
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "ffP5vaAz9sV-f2d5",
+        "title": "Text 12",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Share your findings </strong></p><p>...with your group<strong> </strong>to discuss what you are learning.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "2RLUYg5P96NDMIfI",
+          "providerId": "Mf8F2TQ576QtCIk",
+          "dataSet": {
+            "id": "pmBp0E-weI04bgsG",
+            "attributes": [
+              {
+                "id": "lgQ-aHc3ENGlh4CC",
+                "clientKey": "",
+                "name": "Moth",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "large"
+                ],
+                "title": ""
+              },
+              {
+                "id": "nb9o6hyCZqVPYp9R",
+                "clientKey": "",
+                "name": "Date",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "jzCeWK-wTPkHjaui",
+                "clientKey": "",
+                "name": "image",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "mxFnkDHe2Xbceey_",
+                "clientKey": "",
+                "name": "Another Label ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01GB97G7F4QR5TBZ4D1CB50G9K"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "Mf8F2TQ576QtCIk"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "MrDasWqMe0PowmmR",
+          "providerId": "hmo9bA0tWyHk-f2t1",
+          "dataSet": {
+            "id": "BBBKyidwRcHTFdNH",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "ALgDwJyT7FuMVZLI",
+                "clientKey": "",
+                "name": "moth",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "MAmbLNbQ_mK6JSJE",
+                "clientKey": "",
+                "name": "date",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "2sAyK5DGKE_SjRdo",
+                "clientKey": "",
+                "name": "weather",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "yjvSpCKAGaYU_YrV",
+                "clientKey": "",
+                "name": "color",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "9sYaeX7Dlq0GApnX",
+                "clientKey": "",
+                "name": "column title",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "hmo9bA0tWyHk-f2t1"
+        ]
+      }
     ]
   }
 }
