@@ -493,25 +493,12 @@
             {
               "type": "image",
               "id": "-xgvZwYogT350tsT",
-              "x": 4,
-              "y": 4,
+              "x": 3,
+              "y": -1,
               "visible": true,
               "url": "hlit/images/graph-paper.jpeg",
               "width": 643,
               "height": 433
-            },
-            {
-              "type": "rectangle",
-              "id": "l0mSideWlXF8XaKf",
-              "x": 233.11631774902344,
-              "y": 180.08679962158203,
-              "visible": true,
-              "stroke": "#eb0000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "none",
-              "width": 179,
-              "height": 181
             },
             {
               "type": "vector",
@@ -539,50 +526,6 @@
             },
             {
               "type": "text",
-              "id": "JOo9l0GaIiAHdM8t",
-              "x": 266.11631774902344,
-              "y": 228.08679962158203,
-              "visible": true,
-              "width": 61,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Hit, Hit"
-            },
-            {
-              "type": "text",
-              "id": "wYUXQ3kR86Gtoh6p",
-              "x": 372.11631774902344,
-              "y": 230.08679962158203,
-              "visible": true,
-              "width": 64,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Hit, Miss"
-            },
-            {
-              "type": "text",
-              "id": "kLoZkiUS7CaLiXr7",
-              "x": 259.11631774902344,
-              "y": 302.08679962158203,
-              "visible": true,
-              "width": 73,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Miss, Hit"
-            },
-            {
-              "type": "text",
-              "id": "exrt4kokvxNNVkp3",
-              "x": 369.11631774902344,
-              "y": 303.08679962158203,
-              "visible": true,
-              "width": 73,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Miss, Miss"
-            },
-            {
-              "type": "text",
               "id": "xSZ7g1jrUkpZ9fgp",
               "x": 244.11631774902344,
               "y": 69.08679962158203,
@@ -593,75 +536,500 @@
               "text": "2nd attempt"
             },
             {
-              "type": "text",
-              "id": "Q3LDsSl3qcBjZD3P",
-              "x": 283.11631774902344,
-              "y": 65.08679962158203,
+              "type": "group",
+              "id": "JEHFIBjoHO4y_r0k",
+              "x": 0,
+              "y": 0,
               "visible": true,
-              "width": 111,
-              "height": 39,
-              "stroke": "#000000",
-              "text": "2nd attempt"
+              "objects": [
+                {
+                  "type": "text",
+                  "id": "wYUXQ3kR86Gtoh6p",
+                  "x": 373.11631774902344,
+                  "y": 231.08679962158203,
+                  "visible": true,
+                  "width": 64,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Hit, Miss"
+                },
+                {
+                  "type": "text",
+                  "id": "JOo9l0GaIiAHdM8t",
+                  "x": 267.11631774902344,
+                  "y": 229.08679962158203,
+                  "visible": true,
+                  "width": 61,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Hit, Hit"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "l0mSideWlXF8XaKf",
+                  "x": 233.11631774902344,
+                  "y": 180.08679962158203,
+                  "visible": true,
+                  "stroke": "#eb0000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "fill": "none",
+                  "width": 179,
+                  "height": 181
+                },
+                {
+                  "type": "text",
+                  "id": "kLoZkiUS7CaLiXr7",
+                  "x": 259.11631774902344,
+                  "y": 302.08679962158203,
+                  "visible": true,
+                  "width": 73,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Miss, Hit"
+                },
+                {
+                  "type": "text",
+                  "id": "exrt4kokvxNNVkp3",
+                  "x": 369.11631774902344,
+                  "y": 303.08679962158203,
+                  "visible": true,
+                  "width": 73,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Miss, Miss"
+                }
+              ],
+              "objectExtents": {
+                "wYUXQ3kR86Gtoh6p": {
+                  "top": 0.281767955801105,
+                  "right": 0.9760765550239234,
+                  "bottom": 0.4696132596685083,
+                  "left": 0.6698564593301436
+                },
+                "JOo9l0GaIiAHdM8t": {
+                  "top": 0.27071823204419887,
+                  "right": 0.45454545454545453,
+                  "bottom": 0.4585635359116022,
+                  "left": 0.16267942583732056
+                },
+                "l0mSideWlXF8XaKf": {
+                  "top": 0,
+                  "right": 0.8564593301435407,
+                  "bottom": 1,
+                  "left": 0
+                },
+                "kLoZkiUS7CaLiXr7": {
+                  "top": 0.6740331491712708,
+                  "right": 0.47368421052631576,
+                  "bottom": 0.861878453038674,
+                  "left": 0.12440191387559808
+                },
+                "exrt4kokvxNNVkp3": {
+                  "top": 0.6795580110497238,
+                  "right": 1,
+                  "bottom": 0.8674033149171271,
+                  "left": 0.6507177033492823
+                }
+              }
             },
             {
-              "type": "text",
-              "id": "XZ1V80KcRMK5g8EM",
-              "x": 257.11631774902344,
-              "y": 140.08679962158203,
+              "type": "group",
+              "id": "oUVt0n6iRp1zCNo9",
+              "x": 0,
+              "y": 0,
               "visible": true,
-              "width": 37,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Hit"
+              "objects": [
+                {
+                  "type": "text",
+                  "id": "VJxjy2GdJiCt2P14",
+                  "x": 168.11631774902344,
+                  "y": 308.08679962158203,
+                  "visible": true,
+                  "width": 49,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Miss"
+                },
+                {
+                  "type": "text",
+                  "id": "WUMlimBZdJdgKqgV",
+                  "x": 34.11631774902344,
+                  "y": 252.08679962158203,
+                  "visible": true,
+                  "width": 111,
+                  "height": 39,
+                  "stroke": "#000000",
+                  "text": "1st attempt"
+                },
+                {
+                  "type": "text",
+                  "id": "jfEMKSjSiECq0IUR",
+                  "x": 181.11631774902344,
+                  "y": 219.08679962158203,
+                  "visible": true,
+                  "width": 37,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Hit"
+                }
+              ],
+              "objectExtents": {
+                "VJxjy2GdJiCt2P14": {
+                  "top": 0.7235772357723578,
+                  "right": 0.9945652173913043,
+                  "bottom": 1,
+                  "left": 0.7282608695652174
+                },
+                "WUMlimBZdJdgKqgV": {
+                  "top": 0.2682926829268293,
+                  "right": 0.6032608695652174,
+                  "bottom": 0.5853658536585366,
+                  "left": 0
+                },
+                "jfEMKSjSiECq0IUR": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 0.2764227642276423,
+                  "left": 0.7989130434782609
+                }
+              }
             },
             {
-              "type": "text",
-              "id": "jfEMKSjSiECq0IUR",
-              "x": 180.11631774902344,
-              "y": 219.08679962158203,
+              "type": "group",
+              "id": "L_7o6yEwPnEgZfNV",
+              "x": 0,
+              "y": -10,
               "visible": true,
-              "width": 37,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Hit"
-            },
-            {
-              "type": "text",
-              "id": "VJxjy2GdJiCt2P14",
-              "x": 167.11631774902344,
-              "y": 308.08679962158203,
-              "visible": true,
-              "width": 49,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Miss"
-            },
-            {
-              "type": "text",
-              "id": "Jyr5QfcSQJ3VzNE0",
-              "x": 353.11631774902344,
-              "y": 135.08679962158203,
-              "visible": true,
-              "width": 49,
-              "height": 34,
-              "stroke": "#000000",
-              "text": "Miss"
-            },
-            {
-              "type": "text",
-              "id": "WUMlimBZdJdgKqgV",
-              "x": 33.11631774902344,
-              "y": 252.08679962158203,
-              "visible": true,
-              "width": 111,
-              "height": 39,
-              "stroke": "#000000",
-              "text": "1st attempt"
+              "objects": [
+                {
+                  "type": "text",
+                  "id": "Q3LDsSl3qcBjZD3P",
+                  "x": 284.11631774902344,
+                  "y": 58.08679962158203,
+                  "visible": true,
+                  "width": 111,
+                  "height": 39,
+                  "stroke": "#000000",
+                  "text": "2nd attempt"
+                },
+                {
+                  "type": "text",
+                  "id": "XZ1V80KcRMK5g8EM",
+                  "x": 257.11631774902344,
+                  "y": 128.08679962158203,
+                  "visible": true,
+                  "width": 37,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Hit"
+                },
+                {
+                  "type": "text",
+                  "id": "Jyr5QfcSQJ3VzNE0",
+                  "x": 354.11631774902344,
+                  "y": 128.08679962158203,
+                  "visible": true,
+                  "width": 49,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Miss"
+                }
+              ],
+              "objectExtents": {
+                "Q3LDsSl3qcBjZD3P": {
+                  "top": 0,
+                  "right": 0.9452054794520548,
+                  "bottom": 0.375,
+                  "left": 0.18493150684931506
+                },
+                "XZ1V80KcRMK5g8EM": {
+                  "top": 0.6730769230769231,
+                  "right": 0.2534246575342466,
+                  "bottom": 1,
+                  "left": 0
+                },
+                "Jyr5QfcSQJ3VzNE0": {
+                  "top": 0.6730769230769231,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 0.6643835616438356
+                }
+              }
             }
           ]
         },
         "layout": {
           "height": 457.00001525878906
+        }
+      },
+      {
+        "id": "PQwbPrJHrNtShox_",
+        "title": "Text 20",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The total area represents all possible outcomes, or the sample space, and is subdivided to proportionally represent the probabilities of each outcome.  </p><p>The probability of hit-then-hit is 36%. </p><p>(This is again a compound event; each shot is an event and again the probability of a hit on the second event does not depend on the outcome of the first event. The assumption is that the player has 60% chance of success for each attempt. Notice that some of the outcomes, like miss-then-hit, do not happen in reality, because of the rules of a one-and -one in basketball, but they are all possible outcomes theoretically.)</p>"
+          ]
+        }
+      },
+      {
+        "id": "qOEQc0BWd_0bjqrg",
+        "title": "Text 21",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Using a tree to think about a compound event</strong></p><p>Example: Suppose that to win a prize you have to scratch off two matching symbols on a card with five choices, of which only two match. You may only scratch off two circles.</p>"
+          ]
+        }
+      },
+      {
+        "id": "BYnJT9jsxAKkpsGT",
+        "title": "Scratch-off Card",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "group",
+              "id": "t4lYN1eiO3r5cykR",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "ellipse",
+                  "id": "cOOzo_eTJaOc0ZN5",
+                  "x": 89.11631774902344,
+                  "y": 126.9305419921875,
+                  "visible": true,
+                  "stroke": "#000000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "fill": "none",
+                  "rx": 54,
+                  "ry": 50.5
+                },
+                {
+                  "type": "text",
+                  "id": "OvvQ6KU_eys9pWZj",
+                  "x": 64.11631774902344,
+                  "y": 118.4305419921875,
+                  "visible": true,
+                  "width": 43,
+                  "height": 37,
+                  "stroke": "#000000",
+                  "text": "Yes!"
+                }
+              ],
+              "objectExtents": {
+                "cOOzo_eTJaOc0ZN5": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 0
+                },
+                "OvvQ6KU_eys9pWZj": {
+                  "top": 0.4158415841584158,
+                  "right": 0.6666666666666666,
+                  "bottom": 0.7821782178217822,
+                  "left": 0.26851851851851855
+                }
+              }
+            },
+            {
+              "type": "group",
+              "id": "vYfpkqA4-GKXxevj",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "ellipse",
+                  "id": "Ol6dqbJAkj52xMgp",
+                  "x": 217.61631774902344,
+                  "y": 212.9305419921875,
+                  "visible": true,
+                  "stroke": "#eb0000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "fill": "none",
+                  "rx": 50.5,
+                  "ry": 47.5
+                },
+                {
+                  "type": "text",
+                  "id": "NmP2ALTN2062lh1U",
+                  "x": 192.11631774902344,
+                  "y": 197.4305419921875,
+                  "visible": true,
+                  "width": 40,
+                  "height": 36,
+                  "stroke": "#000000",
+                  "text": "NO"
+                }
+              ],
+              "objectExtents": {
+                "Ol6dqbJAkj52xMgp": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 0
+                },
+                "NmP2ALTN2062lh1U": {
+                  "top": 0.3368421052631579,
+                  "right": 0.6435643564356436,
+                  "bottom": 0.7157894736842105,
+                  "left": 0.24752475247524752
+                }
+              }
+            },
+            {
+              "type": "group",
+              "id": "bJDP3aJP_j3BzQYl",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "text",
+                  "id": "khR_4LFIAVokqyXr",
+                  "x": 311.11631774902344,
+                  "y": 109.4305419921875,
+                  "visible": true,
+                  "width": 54,
+                  "height": 33,
+                  "stroke": "#000000",
+                  "text": "Uh-oh"
+                },
+                {
+                  "type": "ellipse",
+                  "id": "2N8JeN5YfMhrO_R_",
+                  "x": 342.61631774902344,
+                  "y": 126.9305419921875,
+                  "visible": true,
+                  "stroke": "#eb0000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "fill": "none",
+                  "rx": 50.5,
+                  "ry": 47.5
+                }
+              ],
+              "objectExtents": {
+                "khR_4LFIAVokqyXr": {
+                  "top": 0.3157894736842105,
+                  "right": 0.7227722772277227,
+                  "bottom": 0.6631578947368421,
+                  "left": 0.18811881188118812
+                },
+                "2N8JeN5YfMhrO_R_": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 0
+                }
+              }
+            },
+            {
+              "type": "group",
+              "id": "cDCcP0Yl0aW03Lyt",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "ellipse",
+                  "id": "gRRZWKlwx4SP8Idi",
+                  "x": 470.11631774902344,
+                  "y": 215.9305419921875,
+                  "visible": true,
+                  "stroke": "#000000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "fill": "none",
+                  "rx": 54,
+                  "ry": 50.5
+                },
+                {
+                  "type": "text",
+                  "id": "RSC88glaoOhPWVz7",
+                  "x": 449.11631774902344,
+                  "y": 196.4305419921875,
+                  "visible": true,
+                  "width": 43,
+                  "height": 37,
+                  "stroke": "#000000",
+                  "text": "Yes!"
+                }
+              ],
+              "objectExtents": {
+                "gRRZWKlwx4SP8Idi": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 0
+                },
+                "RSC88glaoOhPWVz7": {
+                  "top": 0.3069306930693069,
+                  "right": 0.7037037037037037,
+                  "bottom": 0.6732673267326733,
+                  "left": 0.3055555555555556
+                }
+              }
+            },
+            {
+              "type": "group",
+              "id": "OAw2E_XXnN0j9_jl",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "ellipse",
+                  "id": "M1nVMO-vvvg5m1sY",
+                  "x": 587.6163177490234,
+                  "y": 127.9305419921875,
+                  "visible": true,
+                  "stroke": "#eb0000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "fill": "none",
+                  "rx": 50.5,
+                  "ry": 47.5
+                },
+                {
+                  "type": "text",
+                  "id": "Ozjz50kkVx3zE2Vd",
+                  "x": 560.1163177490234,
+                  "y": 107.4305419921875,
+                  "visible": true,
+                  "width": 49,
+                  "height": 34,
+                  "stroke": "#000000",
+                  "text": "Sorry"
+                }
+              ],
+              "objectExtents": {
+                "M1nVMO-vvvg5m1sY": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 1,
+                  "left": 0
+                },
+                "Ozjz50kkVx3zE2Vd": {
+                  "top": 0.28421052631578947,
+                  "right": 0.7128712871287128,
+                  "bottom": 0.6421052631578947,
+                  "left": 0.22772277227722773
+                }
+              }
+            }
+          ]
+        },
+        "layout": {
+          "height": 287.9930725097656
         }
       }
     ]
