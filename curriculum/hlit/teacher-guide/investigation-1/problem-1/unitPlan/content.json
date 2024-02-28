@@ -1142,7 +1142,29 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>Binomial events</strong></p><p>Binomial events have two possible outcomes. The outcomes may or may not be equally likely. A binomial compound event has two or more events, each of which is binomial. </p><p><u><strong>Example:</strong></u></p><p><em>Hank has to take a five-item true/false quiz. He has not studied at all. He decides to guess each time. What is the probability that Hank gets at least four correct? </em></p><p><em>Since each event is a guess on one question, and since there are two outcomes for each question, a correct guess or a wrong guess, each question is a </em><strong><em>binomial event</em></strong><em>. </em></p><p><em>To solve this theoretically we might try a list of all possible outcomes in the sample space:</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "5eUHtP9HowdwCks_",
+        "title": "Text 30",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Sample Space:</strong></u></p><p><u>1 way to get 5 correct:</u></p><ul><li>C, C, C, C, C</li></ul><p><u>5 ways to get 4 correct:</u></p><ul><li>C, C, C, C, I </li><li>C, C, C, I, C</li><li>C, C, I, C, C</li><li>C, I, C, C, C </li><li>I, C, C, C, C</li></ul><p><u>10 ways to get 3 correct:</u></p><ul><li>C, C, C, I, I</li><li>C, C, I, C, I</li><li>C, C, I, I, C</li><li>C, I, C, C, I</li><li>C, I, C, I, C</li><li>C, I, I, C, C</li><li>I, C, C, C, I</li><li>I, C, C, I, C</li><li>I, C, I, C, C</li><li>I, I, C, C, C</li></ul><p><u>10 ways to get 2 correct:</u></p><ul><li>C, C, I, I, I</li><li>C, I, C, I, I</li><li>C, I, I, C, I</li><li>C, I, I, I, C</li><li>I, C, C, I, I</li><li>I, C, I, C, I</li><li>I, C, I, I, C</li><li>I, I, C, C, I</li><li>I, I, C, I, C</li><li>I, I, I, C, C</li></ul><p><u>5 ways to get 1 correct:</u></p><ul><li>C, I, I, I, I</li><li>I, C, I, I, I</li><li>I, I, C, I, I</li><li>I, I, I, C, I</li><li>I, I, I, I, C</li></ul><p><u>1 way to get 0 correct:</u></p><ul><li>I, I, I, I, I</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "vZLTLDtomR9LsZtE",
+        "title": "Text 31",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>We need a complete list of possible outcomes. As you can see the list gets very long, and it becomes difficult to not miss any outcomes.</p><p><u><strong>A simulation will solve this problem:</strong></u></p><p><strong>Tool:</strong> Hank is guessing, so there is a 50% chance he will guess each question correctly and 50 % chance he will guess incorrectly. Toss a coin to represent a guess on Question 1. H = correct, T = wrong.</p><p><strong>Outcome to track:</strong> Number of times we get at least 4 heads. </p><p><strong>Trial:</strong> Toss a coin 5 times.</p><p><strong>Repetitions:</strong> 30. That is, do 5 tosses, 30 times. More repetitions will give a better approximation.</p><p>Experimental probability = (number of times 4 or more Heads occurred)/(30 trials)</p><p><strong>Notice that the same simulation will solve other binomial probability problems.</strong></p><p>For example, <em>What is the probability that team A will win a five game series with team B, if the two teams are equally matched, that is, each has a 50% chance of winning any individual game?</em></p>"
           ]
         }
       }
