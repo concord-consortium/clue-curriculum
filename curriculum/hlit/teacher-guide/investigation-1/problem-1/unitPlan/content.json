@@ -1081,8 +1081,58 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Example:</strong></u> Using a number cube.</p><p>Suppose a 60% shooter usually tries 10 shots in a game. What is the probability that she will score on 6 or more consecutive attempts out of her 10 shots? </p><p><strong>Tool:</strong> A five sided number cube, where 1, 2, 3 represent a successful shot, and 4, 5 represent a missed shot.</p><p><strong>Trial:</strong> Toss 10 times to represent 10 shots.</p><p><strong>Outcome to track:</strong> 6 or more consecutive successes. Each trial will result one of two 2 outcomes, “6 or more consecutive hits” or “not”.</p><p><strong>Repetition:</strong> repeat the trial 30 times, that is 30 repetitions of 10 tosses. Record (Number of &quot;6 or more consecutive hits&quot;)/ (30 trials)</p><p>This will give an experimental probability. More repetitions of the trials will result in a closer approximation to the theoretical probability.</p>"
+            "<p><u><strong>Example:</strong></u> Using a number cube.</p><p>Suppose a 60% shooter usually tries 10 shots in a game. What is the probability that she will score on 6 or more consecutive attempts out of her 10 shots? </p><p><strong>Tool:</strong> A five sided number cube, where 1, 2, 3 represent a successful shot, and 4, 5 represent a missed shot.</p><p><strong>Trial:</strong> Toss 10 times to represent 10 shots.</p><p><strong>Outcome to track:</strong> 6 or more consecutive successes. Each trial will result one of two 2 outcomes, “6 or more consecutive hits” or “not”.</p><p><strong>Repetition:</strong> repeat the trial 30 times, that is 30 repetitions of 10 tosses. Record: (Number of &quot;6 or more consecutive hits&quot;)/ (30 trials)</p><p>This will give an experimental probability. More repetitions of the trials will result in a closer approximation to the theoretical probability.</p>"
           ]
+        }
+      },
+      {
+        "id": "vZkeLdCwCcNBZmud",
+        "title": "Text 26",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Example:</strong></u> Using a spinner</p><p>The scratch card example in the column to the left can be simulated with a spinner.</p><p><strong>Tool:</strong> spinners, divided as shown below.</p>"
+          ]
+        }
+      },
+      {
+        "id": "ablZGz1eu9CN7PSG",
+        "title": "Spinners 1, 2, and 3",
+        "content": {
+          "type": "Image",
+          "url": "hlit/images/tg-unit-plan-pic-6.png",
+          "filename": "hlit/images/tg-unit-plan-pic-6.png"
+        }
+      },
+      {
+        "id": "cnMlDnpVtX2s8DRW",
+        "title": "Text 27",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Trial:</strong> spin spinner 1, then spin spinner 2 or 3 depending on how spinner 1 turned out. </p><p><strong>Outcome to track:</strong> two Ys.</p><p><strong>Repetition:</strong> Repeat 30 times, that is, 30 spins of two spinners.  Record the relative frequency:</p><p>(Number of times 2 Ys occurred)/(30 trials)</p><p></p><p>Note: this could also be modeled with 5 pieces of paper in a hat, marked Y, Y, N, N, and N. One trial would be choosing 1 piece of paper, then another.  </p>"
+          ]
+        }
+      },
+      {
+        "id": "dXuMuQE2UHpi4wWG",
+        "title": "Text 28",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>FUTURE LINK: In High School students will learn to calculate probabilities for problems like the scratch card problem, or the binomial problems on the next page. </p><p>For example: </p><p>The probability of choosing 2 Ys on the scratch card</p><p>= P(Y on first choice and Y on second choice)</p><p>= P(Y on first choice)·P(Y on 2nd choice given Y on first)</p>"
+          ]
+        }
+      },
+      {
+        "id": "_vDRgkPnWJSqdAPH",
+        "title": "Probability of 2 Y's",
+        "content": {
+          "type": "Expression",
+          "latexStr": "P\\left(twoYs)=\\frac25\\times\\frac14=\\frac{2}{20}\\right."
         }
       }
     ]
