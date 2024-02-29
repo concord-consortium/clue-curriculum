@@ -35,18 +35,111 @@
             {
               "type": "ellipse",
               "id": "TLIrZ5W73IJJ_ndu",
-              "x": 100.63671875,
-              "y": 90.259765625,
+              "x": 241.13671875,
+              "y": 89.759765625,
               "visible": true,
               "stroke": "#000000",
               "strokeDashArray": "",
               "strokeWidth": 2,
               "fill": "#008a00",
-              "rx": 50,
-              "ry": 49
+              "rx": 35.5,
+              "ry": 35.5
             }
           ]
         }
+      },
+      {
+        "id": "8yzRHjnFXCmiozft",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "kaS1gv_iLNvIfk5S": 80,
+            "Kc9YKgPTFlocFcuQ": 244.9169921875
+          },
+          "name": "Table 1"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "qqZ7PpgP8EtOFlPv",
+          "providerId": "8yzRHjnFXCmiozft",
+          "dataSet": {
+            "id": "-8Nixmq5tfLfd35i",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "kaS1gv_iLNvIfk5S",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "buckle my shoe"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Kc9YKgPTFlocFcuQ",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "4M0UYbsIcBRTniGn"
+              },
+              {
+                "__id__": "03gCNiYRxYsNA3qU"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "8yzRHjnFXCmiozft"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "pTMym9iXmvChjIQ3",
+        "sourceObject": {
+          "tileId": "pVhhOOVZuLLaekOs",
+          "objectId": "9r7YlWLtJl1MaW9E",
+          "objectType": "rectangle"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "pVhhOOVZuLLaekOs",
+          "objectId": "TLIrZ5W73IJJ_ndu",
+          "objectType": "ellipse"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "text": "put peg",
+        "textOffset": {
+          "dx": 2.749999999999991,
+          "dy": -74.5
+        },
+        "type": "arrowAnnotation"
       }
     ]
   }
