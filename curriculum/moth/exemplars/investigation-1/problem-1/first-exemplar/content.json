@@ -339,18 +339,124 @@
         }
       },
       {
-        "id": "gGOxWYFnGhkPdUHS",
+        "id": "JaGQr9kJrKMjwq6N",
+        "title": "Graph 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "empty",
+              "place": "bottom",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "casePlot",
+          "layers": [
+            {
+              "id": "LAYRt95ldIGZCDNS",
+              "config": {
+                "id": "DCON79lHC6qqu4Ni",
+                "_attributeDescriptions": {},
+                "_yAttributeDescriptions": []
+              }
+            }
+          ],
+          "_idColors": {},
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Categories",
+          "yAttributeLabel": "Counts"
+        }
+      },
+      {
+        "id": "xwFFs3rsC-qMOwPy",
         "content": {
           "type": "DataCard"
         }
       },
       {
-        "id": "bWJze-YF4E4P6NKL",
+        "id": "-6Uy4NBCvM5vMNJx",
+        "title": "Graph 2",
         "content": {
-          "type": "Table",
-          "columnWidths": {
-            "DehHZlXkpXNMvKHD": 80
-          }
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.25,
+              "max": 3.75
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -0.5,
+              "max": 10.5
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRVMkT3EBxFk2Q",
+              "config": {
+                "id": "DCONNQFCzKKcYJqb",
+                "dataset": "tIzymjp8QHmyDK7X",
+                "metadata": "Oq5VsaoDfc3BdjZz",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "JBRvVnQz3hDtTktu",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "lPJruJOWicb4CZeI",
+                    "type": "numeric"
+                  }
+                ]
+              }
+            }
+          ],
+          "_idColors": {
+            "lPJruJOWicb4CZeI": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Categories",
+          "yAttributeLabel": "Counts"
         }
       }
     ],
@@ -358,35 +464,77 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "xBFVJs4Fcv35OcH5",
-          "providerId": "gGOxWYFnGhkPdUHS",
+          "id": "hGTau4QG_UDisBit",
+          "providerId": "xwFFs3rsC-qMOwPy",
           "dataSet": {
-            "id": "Y8B1IDs2ixWbhcu9",
+            "id": "tIzymjp8QHmyDK7X",
             "name": "Card Deck Data 1",
             "attributes": [
               {
-                "id": "DehHZlXkpXNMvKHD",
+                "id": "JBRvVnQz3hDtTktu",
                 "clientKey": "",
                 "name": "hi",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  "hello"
+                  "1",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "lPJruJOWicb4CZeI",
+                "clientKey": "",
+                "name": "hello",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "9"
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "01HR5R8D9H670J3SSYH8QX3ZHG"
+                "__id__": "01HR5RX4N40XYMBMCNEM7QHFYZ"
+              },
+              {
+                "__id__": "01HR5RXJ2CGTDMR0DZR6FP7PE1"
               }
             ]
           }
         },
         "tiles": [
-          "gGOxWYFnGhkPdUHS",
-          "bWJze-YF4E4P6NKL"
+          "xwFFs3rsC-qMOwPy",
+          "-6Uy4NBCvM5vMNJx"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "Oq5VsaoDfc3BdjZz",
+          "data": "tIzymjp8QHmyDK7X",
+          "collections": {},
+          "categories": {
+            "JBRvVnQz3hDtTktu": {
+              "attribute": "JBRvVnQz3hDtTktu",
+              "colors": {},
+              "moves": []
+            },
+            "lPJruJOWicb4CZeI": {
+              "attribute": "lPJruJOWicb4CZeI",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "-6Uy4NBCvM5vMNJx"
         ]
       }
     ]
