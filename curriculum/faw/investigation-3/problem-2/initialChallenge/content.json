@@ -43,7 +43,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Conduct the Experiment</em></p><p>Equipment</p><ul><li>Several different brands of paper towels.</li><li>Eye dropper</li><li>Colored water (color is optional)</li><li>Transparent cm grid paper</li></ul>"
+            "<p><em>Conduct the Experiment</em></p><p><u>Equipment:</u></p><ul><li>Several different brands of paper towels.</li><li>Eye dropper</li><li>Colored water (color is optional)</li><li>Transparent cm grid paper</li></ul>"
           ]
         }
       },
@@ -54,17 +54,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Directions (individually, with a partner, or small group)</em></p><ul><li><em>Set out same size pieces of the different types of paper.</em></li><li><em>Fill the eye dropper with water.</em></li><li><em>Drop two drops of water on each type of paper. The drops should land in the same location (on top of each other).</em></li><li><em>Measure the diameter, radius, and area of water spots.</em></li><li><em>Record your result in a table.</em></li></ul>"
+            "<p><u>Directions:</u><em> (individually, with a partner, or small group)</em></p><ul><li><em>Set out same size pieces of the different types of paper.</em></li><li><em>Fill the eye dropper with water.</em></li><li><em>Drop two drops of water on each type of paper. The drops should land in the same location (on top of each other).</em></li><li><em>Measure the diameter, radius, and area of water spots.</em></li><li><em>Record your result in a table.</em></li></ul>"
           ]
         }
       },
       {
-        "id": "31-NyFJo3XMg-O4o",
-        "title": "Image 1",
+        "id": "gHg_9qi78WoyBNRj",
         "content": {
-          "type": "Image",
-          "url": "faw/images/screen-shot-2023-12-29-at-8.09.34-pm.png",
-          "filename": "faw/images/screen-shot-2023-12-29-at-8.09.34-pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "nZivHrUlRr-cyI_O": 146,
+            "APZ3FC2RAH4587cv": 129,
+            "DDWy3Z0dKxrMCaFb": 111,
+            "5BV796ADt5yvDSEv": 117
+          }
         }
       },
       {
@@ -80,13 +83,16 @@
         }
       },
       {
-        "id": "UntdhMnEw75RKyB0",
-        "title": "Image 2",
+        "id": "uVoLqBXAqPT3ivI_",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "faw/images/screen-shot-2023-12-29-at-8.10.24-pm.png",
-          "filename": "faw/images/screen-shot-2023-12-29-at-8.10.24-pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "IF-ypy8OGqpgwLEM": 146,
+            "56vtpglOK_svJFkA": 129,
+            "kMcM9e-kgPT2tjsB": 111,
+            "9xCbCljepDnRsgrU": 117
+          }
         }
       },
       {
@@ -111,6 +117,189 @@
             "<p>Strategies for finding the area will vary. Possible strategies include counting unit squares inside the circle.</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "w5WadI7ckZD6Epqr",
+          "providerId": "gHg_9qi78WoyBNRj",
+          "dataSet": {
+            "id": "u27yQbXeyxMhCJVd",
+            "name": "Paper Towel Experiment",
+            "attributes": [
+              {
+                "id": "nZivHrUlRr-cyI_O",
+                "clientKey": "",
+                "name": "Circular Samples",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Sample 1",
+                  "Sample 2",
+                  "Sample 3",
+                  "Sample 4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "APZ3FC2RAH4587cv",
+                "clientKey": "",
+                "name": "Diameter (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "DDWy3Z0dKxrMCaFb",
+                "clientKey": "",
+                "name": "Radius (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "5BV796ADt5yvDSEv",
+                "clientKey": "",
+                "name": "Area (cm^2)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "K35p2kZZusf3CfoR"
+              },
+              {
+                "__id__": "AC0E6LUbrGwWZvSv"
+              },
+              {
+                "__id__": "zQvl6TiePhM0c5kr"
+              },
+              {
+                "__id__": "AauWteK7T_oWxQF8"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "gHg_9qi78WoyBNRj"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "6tsb4SL3Fsm62fEn",
+          "providerId": "uVoLqBXAqPT3ivI_",
+          "dataSet": {
+            "id": "dCZt30dd2zuDh6u6",
+            "name": "Paper Towel Experiment",
+            "attributes": [
+              {
+                "id": "IF-ypy8OGqpgwLEM",
+                "clientKey": "",
+                "name": "Circular Samples",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Sample 1",
+                  "Sample 2",
+                  "Sample 3",
+                  "Sample 4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "56vtpglOK_svJFkA",
+                "clientKey": "",
+                "name": "Diameter (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "3",
+                  "2",
+                  "2.5",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "kMcM9e-kgPT2tjsB",
+                "clientKey": "",
+                "name": "Radius (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1.5",
+                  "1",
+                  "1.25",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "9xCbCljepDnRsgrU",
+                "clientKey": "",
+                "name": "Area (cm^2)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "6.75",
+                  "3",
+                  "4.7",
+                  "12"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HR60YERYHBC767J2745SK565"
+              },
+              {
+                "__id__": "01HR60YERYHBC767J2745SK566"
+              },
+              {
+                "__id__": "01HR60YERYHBC767J2745SK567"
+              },
+              {
+                "__id__": "01HR60YERYHBC767J2745SK568"
+              }
+            ]
+          }
+        },
+        "provider": "uVoLqBXAqPT3ivI_",
+        "tiles": [
+          "uVoLqBXAqPT3ivI_"
+        ]
       }
     ]
   },
