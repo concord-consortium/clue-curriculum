@@ -31,7 +31,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Conduct an Experiment</em></p><p>Equipment</p><ul><li>Several different circular objects</li><li>String</li><li>Tape measures or rulers</li><li>Table to record results  </li></ul>"
+            "<p><em>Conduct an Experiment</em></p><p><u>Equipment:</u></p><ul><li>Several different circular objects</li><li>String</li><li>Tape measures or rulers</li><li>Table to record results  </li></ul>"
           ]
         }
       },
@@ -42,17 +42,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Directions (individually, with a partner, or small group)</p><ul><li>Measure the circumference and diameter of several circular objects.</li><li>Record the object name, diameter, circumference, and ratio of circumference to diameter in a table.</li><li>Look for patterns or relationships between the measurements.</li></ul>"
+            "<p><u>Directions:</u> (individually, with a partner, or small group)</p><ul><li>Measure the circumference and diameter of several circular objects.</li><li>Record the object name, diameter, circumference, and ratio of circumference to diameter in a table.</li><li>Look for patterns or relationships between the measurements.</li></ul>"
           ]
         }
       },
       {
-        "id": "FNB131MJWWldlpLA",
-        "title": "Image 1",
+        "id": "GBH3ObH-CnzS5HIT",
         "content": {
-          "type": "Image",
-          "url": "faw/images/screen-shot-2023-12-29-at-7.12.11-pm.png",
-          "filename": "faw/images/screen-shot-2023-12-29-at-7.12.11-pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "CnIcoS1tOXutSN37": 80,
+            "fkoSQHuLpcxOKoq8": 102,
+            "VTwY1dRNcyaDkVNQ": 133,
+            "4wg7u2hoswG6p76c": 136
+          }
         }
       },
       {
@@ -112,6 +115,65 @@
             "<p>You can find the diameter of a circle when you know its circumference because the ratio of circumference to diameter should be about 3. For example, when the circumference is 20 inches, its diameter is 6.67 because 20/6.67 ≈ 3.</p><p><em>Note: Some students will calculate the relationships to more exact quantities. Based on the accuracy of their measures, students can estimate the relationship to be 3.1 (or closer to the value of π) • diameter = circumference.</em></p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "QRvO86AN7mfTJara",
+          "providerId": "GBH3ObH-CnzS5HIT",
+          "dataSet": {
+            "id": "1gkARhQZZhFTiveg",
+            "name": "Measurements of Circular Objects",
+            "attributes": [
+              {
+                "id": "CnIcoS1tOXutSN37",
+                "clientKey": "",
+                "name": "Object Name",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "fkoSQHuLpcxOKoq8",
+                "clientKey": "",
+                "name": "Diameter",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "VTwY1dRNcyaDkVNQ",
+                "clientKey": "",
+                "name": "Circumference",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "4wg7u2hoswG6p76c",
+                "clientKey": "",
+                "name": "Ratio of Circumference to Diameter",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "GBH3ObH-CnzS5HIT"
+        ]
       }
     ]
   },
