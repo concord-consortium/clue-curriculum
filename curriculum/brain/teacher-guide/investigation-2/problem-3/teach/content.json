@@ -9,6 +9,17 @@
           "type": "Text",
           "format": "html",
           "text": [
+            "<p><a href=\"https://drive.google.com/file/d/1GudTSgfuwC2-gjhbuWMFWjbaDCzcABre/view?usp=sharing\">Teacher Guide for 2.3</a> (video)</p><p><a href=\"https://drive.google.com/file/d/1K5w6F6-4cTKv7hxIDgYantREk4ex_OvN/view?usp=sharing\">Solution Explanation </a> (video)</p>"
+          ]
+        }
+      },
+      {
+        "id": "HG_H0rOI6Vcq_56u",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
             "<p>You can share the following solution with you students by publishing it. Your solution will show in the &#x27;extensions&#x27; tab &gt;&gt; custom lessons. </p>"
           ]
         }
@@ -29,13 +40,12 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Solution:</p>"
+            "<p><strong>Solution: </strong></p>"
           ]
         }
       },
       {
         "id": "PsXqqiO26I-DWyeq",
-        "title": "Program 1",
         "content": {
           "type": "Dataflow",
           "programDataRate": 100,
@@ -47,14 +57,10 @@
           "program": {
             "values": {
               "1": {
-                "currentValues": {
-                  "nodeValue": 39
-                }
+                "currentValues": {}
               },
               "3": {
-                "currentValues": {
-                  "nodeValue": 0.0975
-                }
+                "currentValues": {}
               },
               "4": {
                 "currentValues": {
@@ -62,14 +68,10 @@
                 }
               },
               "5": {
-                "currentValues": {
-                  "nodeValue": 0.0975
-                }
+                "currentValues": {}
               },
               "6": {
-                "currentValues": {
-                  "nodeValue": 0.0975
-                }
+                "currentValues": {}
               },
               "7": {
                 "currentValues": {
@@ -87,9 +89,7 @@
                 }
               },
               "10": {
-                "currentValues": {
-                  "nodeValue": 10
-                }
+                "currentValues": {}
               }
             },
             "id": "dataflow@0.1.0",
@@ -394,6 +394,7 @@
           "providerId": "PsXqqiO26I-DWyeq",
           "dataSet": {
             "id": "p-jd6_nPuzbUcPBM",
+            "name": "Program 1",
             "attributes": [],
             "cases": []
           }
@@ -421,7 +422,7 @@
               "name": "emg_key",
               "displayName": "EMG",
               "unit": "mV",
-              "value": 39,
+              "value": 38,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -467,7 +468,7 @@
               "id": "GS64JFfhLNp7FxBg",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 82,
+              "value": 100,
               "inputs": [],
               "color": "light-gray",
               "labels": []
@@ -501,7 +502,8 @@
           "PCnfGR_np0js30tO",
           "-bQohjopzRSMHLYu",
           "PsXqqiO26I-DWyeq",
-          "mugq_XcqX3Qcl2WD"
+          "mugq_XcqX3Qcl2WD",
+          "HG_H0rOI6Vcq_56u"
         ]
       }
     ]
