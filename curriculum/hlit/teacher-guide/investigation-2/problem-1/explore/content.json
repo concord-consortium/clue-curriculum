@@ -31,8 +31,16 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Suggested questions (Day 2)</strong></p><p>As students work, pay attention to which ideas seem to be difficult for them. If students struggle with the probability of something not happening, you may want to ask them about what could happen to make the “not” statement true, or the “not” outcome occur, rather than pointing them to a formula.</p><p>After students have meaningfully found, for instance, that choosing a red or choosing a yellow is the same as not choosing a blue, you might ask the following questions.</p><ul><li>What is the probability of not blue? How many ways can this occur? (It can occur 4 ways, so the probability is 1 minus all the ways it could happen (1 - (8/12))</li><li>What happens if you add P(blue) and P(not blue)? (The sum is one. P(blue) + P(not blue) = 4/12 + (1 - (8/12)) = 1</li><li>Continue with this line of questioning for other parts of the Problem as needed.   </li></ul>"
+            "<p><strong>Suggested questions (Day 2)</strong></p><p>As students work, pay attention to which ideas seem to be difficult for them. If students struggle with the probability of something not happening, you may want to ask them about what could happen to make the “not” statement true, or the “not” outcome occur, rather than pointing them to a formula.</p><p>After students have meaningfully found, for instance, that choosing a red or choosing a yellow is the same as not choosing a blue, you might ask the following questions.</p><ul><li>What is the probability of not blue? How many ways can this occur? (It can occur 4 ways, so the probability is 1 minus all the ways it could happen (1 - (4/12))</li><li>What happens if you add P(blue) and P(not blue)? (The sum is one, see the equation below)</li><li>Continue with this line of questioning for other parts of the Problem as needed.   </li></ul>"
           ]
+        }
+      },
+      {
+        "id": "6fmBDbEdM21tcujm",
+        "title": "Sum of probabilities",
+        "content": {
+          "type": "Expression",
+          "latexStr": "P\\left(Blue\\right)+P\\left(notBlue\\right)=\\frac{4}{12}+\\left(1-\\frac{4}{12}\\right)=1"
         }
       },
       {
