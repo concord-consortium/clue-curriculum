@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>The Transform Block</strong></p><p>In order to grab fragile objects, we&#x27;d like the gripper to close slowly rather than abruptly. If the gripper closes too fast, we won&#x27;t be able to pause it just before it crushes the object. </p><p>To do that, we will need to use the transform block.</p><p>To learn about the transform block, try to create the same DataFlow program as in the image below.</p>"
+            "<p><a href=\"https://drive.google.com/file/d/1Ks2KyBwr62KOkQ7ipUbdj2e5zQYMk0H8/view?usp=sharing\"><strong>The Transform Block</strong></a></p><p>In order to grab fragile objects, we&#x27;d like the gripper to close slowly rather than abruptly. If the gripper closes too fast, we won&#x27;t be able to pause it just before it crushes the object. </p><p>To do that, we will need to use the transform block.</p><p>To learn about the transform block, try to create the same DataFlow program as in the image below.</p>"
           ]
         }
       },
@@ -62,7 +62,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>The Hold Block</strong></p><p>In today&#x27;s activity, we will use pressure sensors to measure how much pressure the gripper applies on objects. In order to get the gripper to listen to the pressure sensors in addition to the commands coming from your muscles, you will need to use the HOLD block. </p>"
+            "<p><a href=\"https://drive.google.com/file/d/1bafaMsWUr41P0WU5NxWPBDHnpS26PpgB/view?usp=sharing\"><strong>The Hold Block</strong></a></p><p>In today&#x27;s activity, we will use pressure sensors to measure how much pressure the gripper applies on objects. In order to get the gripper to listen to the pressure sensors in addition to the commands coming from your muscles, you will need to use the HOLD block. </p>"
           ]
         }
       },
@@ -99,7 +99,6 @@
       },
       {
         "id": "zidMDK6mlMedIEb2",
-        "title": "Program 2",
         "content": {
           "type": "Dataflow",
           "programDataRate": 100,
@@ -230,7 +229,6 @@
       },
       {
         "id": "fXr4dhoarK6Kk02g",
-        "title": "Program 1",
         "content": {
           "type": "Dataflow",
           "programDataRate": 100,
@@ -503,6 +501,7 @@
           "providerId": "fXr4dhoarK6Kk02g",
           "dataSet": {
             "id": "Z5k_hPOSbDfKTbZU",
+            "name": "Program 1",
             "attributes": [],
             "cases": []
           }
@@ -520,7 +519,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 36,
+              "value": 37,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -571,7 +570,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 65.5,
+              "value": 97.5,
               "inputs": [],
               "color": "light-gray",
               "labels": []
@@ -631,6 +630,7 @@
           "providerId": "zidMDK6mlMedIEb2",
           "dataSet": {
             "id": "3Jrh5aFOp7otwYOX",
+            "name": "Program 2",
             "attributes": [],
             "cases": []
           }
