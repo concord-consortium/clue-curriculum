@@ -62,6 +62,63 @@
           "type": "Image",
           "url": "msa/images/MSA_2-1_InitialChallenge_Graph.png"
         }
+      },
+      {
+        "id": "MlXZtIBuwEWf57Th",
+        "title": "Distance vs. Time",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNHPDQVfAZo_oN",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 50
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 100
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRJqtfL5CJDjYl",
+              "config": {
+                "id": "DCON3E1Bn8z1ygYF",
+                "_attributeDescriptions": {},
+                "_yAttributeDescriptions": []
+              }
+            }
+          ],
+          "_idColors": {},
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Seconds",
+          "yAttributeLabel": "Meters"
+        }
       }
     ]
   }

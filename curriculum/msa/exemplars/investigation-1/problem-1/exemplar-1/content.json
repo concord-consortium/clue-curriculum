@@ -1,0 +1,76 @@
+{
+  "title": "Part to Part Example",
+  "tag": "part-to-part",
+  "content": {
+    "tiles": [
+      {
+        "id": "6Jyw4jsYqibUvYvz",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Part to Part Example</p>"
+          ]
+        }
+      },
+      {
+        "id": "BhVdCNhgVCe6CPNn",
+        "title": "Graph 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNCnUSzQUrPoWk",
+              "type": "Connecting Lines",
+              "isVisible": true
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRa3ewdvSePoeV",
+              "config": {
+                "id": "DCONBqNg9-u7ilK1",
+                "_attributeDescriptions": {},
+                "_yAttributeDescriptions": []
+              }
+            }
+          ],
+          "_idColors": {},
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      }
+    ]
+  },
+  "type": "This is the title"
+}
