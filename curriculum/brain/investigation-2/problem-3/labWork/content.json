@@ -3,22 +3,235 @@
   "content": {
     "tiles": [
       {
+        "id": "QPU23TTaf0VV-NM-",
+        "title": "Text 13",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Today we will develop a DataFlow program that can prevent the gripper from crushing fragile objects (like an egg). </p><p>Just like engineers, we will first run a simulation to make sure the program works well and then test the program with a physical gripper. </p><p>Your DataFlow program will incorporate two new types of blocks: the TRANSFORM block and the HOLD block. Let&#x27;s familiarize ourselves with these blocks. </p>"
+          ]
+        }
+      },
+      {
+        "id": "NSB6wZqEPnzXPGGG",
+        "title": "Text 14",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><a href=\"https://drive.google.com/file/d/1Ks2KyBwr62KOkQ7ipUbdj2e5zQYMk0H8/view?usp=sharing\"><strong>The Transform Block</strong></a></p><p>In order to grab fragile objects, we&#x27;d like the gripper to close slowly rather than abruptly. If the gripper closes too fast, we won&#x27;t be able to pause it just before it crushes the object. </p><p>To do that, we will need to use the transform block.</p><p>To learn about the transform block, try to create the same DataFlow program as in the image below.</p>"
+          ]
+        }
+      },
+      {
+        "id": "XbKOhvEsnJyN1RhT",
+        "title": "The Transform Block",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/transform.jpg",
+          "filename": "brain/images/transform.jpg"
+        }
+      },
+      {
+        "id": "13nxE72_XiQ2bxeT",
+        "title": "Text 15",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Make sure to select &#x27;ramp&#x27; in the transform drop-down menu. Also, open the mini-graph in each block by clicking on the mini-graph icon (pointed by the red arrows in the image above). Look closely at the two graphs and answer the following question in your workspace: </p>"
+          ]
+        }
+      },
+      {
+        "id": "saSOUJlInFoYlJc9",
+        "title": "Text 16",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Question</u>: What is the difference between the two graphs? </p><p><u>Your answer</u>: </p>"
+          ]
+        }
+      },
+      {
+        "id": "z_z6iILZ6lBFZKhW",
+        "title": "Text 17",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><a href=\"https://drive.google.com/file/d/1bafaMsWUr41P0WU5NxWPBDHnpS26PpgB/view?usp=sharing\"><strong>The Hold Block</strong></a></p><p>In today&#x27;s activity, we will use pressure sensors to measure how much pressure the gripper applies on objects. In order to get the gripper to listen to the pressure sensors in addition to the commands coming from your muscles, you will need to use the HOLD block. </p>"
+          ]
+        }
+      },
+      {
+        "id": "cYtzmBTpz7Di6Mff",
+        "title": "The Hold Block",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/hold.png",
+          "filename": "brain/images/hold.png"
+        }
+      },
+      {
+        "id": "sZrMFsniwPj77lC3",
+        "title": "Text 18",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding the current or previous value. This would make the gripper hold position, preventing it from closing any further and crushing the object. </p>"
+          ]
+        }
+      },
+      {
+        "id": "7Ob6ZkA355KNmy6x",
+        "title": "Text 19",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Drag the following program into your workspace and connect the blocks.  Then, change the value of the Number block from 0 to 1 to turn the hold block ON. What happened to the gripper? </p><p>Change the value back to 0 to turn the hold block OFF. What happens then?</p>"
+          ]
+        }
+      },
+      {
+        "id": "zidMDK6mlMedIEb2",
+        "content": {
+          "type": "Dataflow",
+          "programDataRate": 100,
+          "programZoom": {
+            "dx": 0.032470703125,
+            "dy": 0,
+            "scale": 1
+          },
+          "program": {
+            "values": {
+              "11": {
+                "currentValues": {
+                  "nodeValue": 0.26
+                }
+              },
+              "12": {
+                "currentValues": {}
+              },
+              "13": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              },
+              "14": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              }
+            },
+            "id": "dataflow@0.1.0",
+            "nodes": {
+              "11": {
+                "id": 11,
+                "name": "Generator",
+                "x": 40,
+                "y": 5,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Generator 1",
+                  "generatorType": "Sine",
+                  "amplitudeUnits": "",
+                  "amplitude": 1,
+                  "periodUnits": "sec",
+                  "period": 10
+                }
+              },
+              "12": {
+                "id": 12,
+                "name": "Control",
+                "x": 265.60894775390625,
+                "y": 114.529541015625,
+                "inputs": {
+                  "num2": {
+                    "connections": {}
+                  },
+                  "num1": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Hold 2",
+                  "controlOperator": "Hold Current"
+                }
+              },
+              "13": {
+                "id": 13,
+                "name": "Demo Output",
+                "x": 492.73358154296875,
+                "y": 87.27716064453125,
+                "inputs": {
+                  "nodeValue": {
+                    "connections": {}
+                  },
+                  "tilt": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {},
+                "data": {
+                  "orderedDisplayName": "Demo Output 3",
+                  "outputType": "Grabber",
+                  "demoOutput": 0
+                }
+              },
+              "14": {
+                "id": 14,
+                "name": "Number",
+                "x": 28.83782958984375,
+                "y": 251.536865234375,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 4",
+                  "nodeValueUnits": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      {
         "id": "rJt5kDc73bJomWKx",
         "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Modeling temperature receptors in DataFlow</strong></p><p>Let&#x27;s design a DataFlow program that detects the temperature of objects and makes the gripper release an object when it&#x27;s too hot (&gt;52 degrees celsius). </p><p>1. Drag the following DataFlow tile into your workspace. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks and change the value of Number 1 such that the gripper closes proportionally to the level of the EMG signal. </p><p>Hint: the gripper only responds to numbers between 0 (fully open) and 1 (fully closed)</p>"
+            "<p><strong>Let&#x27;s run a simulation!</strong></p><p>Now we&#x27;re going to put everything together and design a DataFlow program that makes the gripper hold position before too much pressure is applied on the object.  Please follow these steps:</p><p>1. Drag the following DataFlow tile into your workspace and place a SIM tile just underneath it. Make sure that &quot;simulated EMG&quot; is selected in the sensor block.</p><p>2. Connect the blocks in DataFlow and move the slider in the SIM tile all the way to &#x27;flexed&#x27;. What happens to the cup?</p>"
           ]
         }
       },
       {
         "id": "fXr4dhoarK6Kk02g",
-        "title": "Program 1",
         "content": {
           "type": "Dataflow",
-          "programDataRate": 1000,
+          "programDataRate": 100,
           "programZoom": {
             "dx": 0.484039306640625,
             "dy": -0.00152587890625,
@@ -28,18 +241,16 @@
             "values": {
               "3": {
                 "currentValues": {
-                  "nodeValue": 1
+                  "nodeValue": 400
                 }
               },
               "6": {
-                "currentValues": {
-                  "nodeValue": 403
-                }
+                "currentValues": {}
               },
               "7": {
                 "currentValues": {}
               },
-              "10": {
+              "15": {
                 "currentValues": {
                   "nodeValue": 0
                 }
@@ -107,11 +318,11 @@
                   "mathOperator": "Divide"
                 }
               },
-              "10": {
-                "id": 10,
-                "name": "Demo Output",
-                "x": 764.575871289139,
-                "y": 122.64873253161873,
+              "15": {
+                "id": 15,
+                "name": "Live Output",
+                "x": 562.3839035645634,
+                "y": 147.69019086666086,
                 "inputs": {
                   "nodeValue": {
                     "connections": {}
@@ -119,13 +330,22 @@
                 },
                 "outputs": {},
                 "data": {
-                  "orderedDisplayName": "Demo Output 4",
-                  "outputType": "Grabber",
-                  "demoOutput": 0
+                  "orderedDisplayName": "Live Output 4",
+                  "outputType": "Gripper 2.0",
+                  "hubSelect": "Simulated Gripper",
+                  "liveOutputType": "Gripper 2.0"
                 }
               }
             }
           }
+        }
+      },
+      {
+        "id": "aExgfJ4xXNQHQAvW",
+        "title": "Simulation 1",
+        "content": {
+          "type": "Simulator",
+          "simulation": "EMG_and_claw"
         }
       },
       {
@@ -135,7 +355,27 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>3. To prevent damage from hot objects, add a temperature sensor to your program. To do so, click on &quot;Sensor&quot; and select &quot;Temperature&quot; as a sensor type. Then, select &quot;Temperature Demo Data&quot; in the second dropdown menu.</p><p>4. Add a logic block to check if the temp is above 52 degrees. </p><p>5. Next, we will need to use a new block type called &quot;Hold.&quot; The function of this block is described in <a href=\"https://drive.google.com/file/d/1VbpM4w3C9wnWMT9o3RScMFOITH9vWAzA/view?usp=share_link\">this short video</a>.  </p>"
+            "<p>3. Next, let&#x27;s add a TRANSFORM block to slow down the gripper. Where would you place the transform block?  Make sure to select &#x27;ramp&#x27; instead of &#x27;absolute value&#x27;. To test your program, move the slider in the SIM tile from &#x27;flexed&#x27; to &#x27;relaxed&#x27; or vice versa. Does the gripper open and close more gradually? If not, check your program.  </p><p>4. As you may have noticed, the gripper now moves more gradually but it still crushes the cup. To prevent the cup from crushing,  add another sensor to your program. Select &quot;Surface Pressure&quot; as the sensor type. Then, select &quot;Simulated Surface Pressure&quot; in the second dropdown menu.</p><p>5. Add a logic block to check if the surface pressure is above 100 PSI. </p><p>6. Finally, we will need to add a HOLD block to get the gripper to listen both to the EMG signal and to the pressure sensor. Here&#x27;s a hint how to connect the hold block: </p>"
+          ]
+        }
+      },
+      {
+        "id": "3SZLtbs2pW6k95p9",
+        "title": "Connecting the hold block",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/hint.jpg",
+          "filename": "brain/images/hint.jpg"
+        }
+      },
+      {
+        "id": "VTPbEE0j0SYcTp2G",
+        "title": "Text 20",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>And now... the moment of truth! Move the slider all the way to &#x27;relaxed&#x27; and make sure the hold block is OFF (to turn it off, disconnect INPUT 2 - the bottom input - and then reconnect it).  Now, move the slider all the way to &#x27;flexed&#x27;. What happened to the cup? If the cup still gets crushed, think how to modify your program. Then, try again by moving the slider to &#x27;relaxed&#x27;, turning the HOLD block off, and moving the slider back to &#x27;flexed&#x27;. </p>"
           ]
         }
       },
@@ -146,29 +386,98 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As explained in the video, the Hold block receives two inputs:</p><p>Input 1 (the top one) determines which value is passed through.</p><p>Input 2 (the bottom one) determines if the block is on or off.</p><p>If the Hold block is OFF, it simply passes input 1 through. In other words, the output would be equal to input 1.</p><p>If the Hold block is ON, it can do different things, such as holding 0, which would make the gripper open and release an object.  </p><p>6. Finally, connect all the blocks together such that when the temp is greater than 52 the gripper opens up. </p><p>Watch <a href=\"https://drive.google.com/file/d/1WroS5tX2lecfdLIVzATAhkqFnUrHSWsN/view?usp=share_link\">this tutorial video</a> if you need some additional guidance.  </p>"
+            "<p><strong>And now... for the real test!</strong></p><p>After running a successful simulation, you are ready to connect the physical gripper:</p><p><u>Step 1</u>: make sure you have all the materials.</p>"
           ]
         }
       },
       {
-        "id": "8od0XSnf1qqURYMR",
-        "title": "Text 11",
+        "id": "uIiZdRrnNpcPZnrI",
+        "title": "Materials",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/materials.jpg",
+          "filename": "brain/images/materials.jpg"
+        }
+      },
+      {
+        "id": "kfI8VW3DDZPbPBKZ",
+        "title": "Text 21",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>PBS News Hour story</strong></p><p>Watch <a href=\"https://www.pbs.org/newshour/show/how-sensors-rewiring-nerves-could-help-prosthetics-feel-and-function-like-real-limbs\">this 6-minute video</a> from PBS News Hour on recent advancements in prosthetics and answer the following questions in your workspace. </p>"
+            "<p><u>Step 2</u>: connect Arduino board to your computer using the blue USB cable (1), plug in the Gripper using the grey ribbon cord (2) and plug in the battery (3). </p>"
           ]
         }
       },
       {
-        "id": "4qXS3QDYXOCpe8dT",
-        "title": "Text 12",
+        "id": "Xn3SPVrrwoEWS6Af",
+        "title": "Connecting the cables",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/1.5.jpg",
+          "filename": "brain/images/1.5.jpg"
+        }
+      },
+      {
+        "id": "yVzOqfzSo_yI8bdH",
+        "title": "Text 22",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>1. How are the prosthetics “wired into the brain”?</p><p>2. How do you think the programming of our gripper compares to the programming of the prosthetics from the video?</p><p>3. What do you think would be affected most if you had decreased sensation of touch in your body?</p><p>4. Why is touch important to the human experience?</p>"
+            "<p><u>Step 3</u>: </p><p>1. Stick two EMG surface electrodes on your forearm and one on your elbow.</p><p>2. Connect the black alligator clip to the electrode on your elbow and the red alligator clips to the electrodes on your forearm. </p><p>3. Plug the end of the orange wire into the orange connection box on the Muscle SpikerShield.</p>"
+          ]
+        }
+      },
+      {
+        "id": "Q96ljgqThAjBnw_d",
+        "title": "Connecting the EMG electrodes",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/9.jpg",
+          "filename": "brain/images/9.jpg"
+        }
+      },
+      {
+        "id": "C2hxmbMGyrKjEUgP",
+        "title": "Text 23",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Step 4</u>: Back in DataFlow, click on the button with the flashlight (top-left corner of the DataFlow tile). </p><p>- The browser may open a popup that says the site would like to connect to a Serial Port.  </p><p>- There should only be one choice.  Click on it and then hit the connect button. </p><p>Finally:</p><p>- In the &quot;Select a sensor&quot; drop-down menu for the EMG sensor, select &quot;connect for live EMG&quot;</p><p>- In the &quot;Select a sensor&quot; drop-down menu for the pressure sensor, select &quot;connect for live pressure&quot;</p><p>- In the gripper block, select &#x27;connect device&#x27;</p>"
+          ]
+        }
+      },
+      {
+        "id": "qziK32iORm_DugZt",
+        "title": "Select live EMG and pressure",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/live-input.jpg",
+          "filename": "brain/images/live-input.jpg"
+        }
+      },
+      {
+        "id": "UnagmLwGRt0Yw-Xj",
+        "title": "Text 24",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Make sure the hold block is OFF and then squeeze your hand while trying to grab a plastic cup. Describe what happened below. </p>"
+          ]
+        }
+      },
+      {
+        "id": "aC3PGe5XU1W8hEtz",
+        "title": "Text 25",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Question</u>: What happened when you tried to grab a plastic cup? If the cup got crushed, what should be changed in your DataFlow program?</p><p><u>Your answer</u>: </p>"
           ]
         }
       },
@@ -192,6 +501,7 @@
           "providerId": "fXr4dhoarK6Kk02g",
           "dataSet": {
             "id": "Z5k_hPOSbDfKTbZU",
+            "name": "Program 1",
             "attributes": [],
             "cases": []
           }
@@ -209,7 +519,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 403,
+              "value": 37,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -246,6 +556,47 @@
                 "live-output:Grabber",
                 "live-output:Gripper 2.0"
               ]
+            },
+            {
+              "id": "3ZM1jIGsKff8k5W4",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "ikwLmHhsfhI2nu89",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 97.5,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "o1sMlWMD0pUK3PZB",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "LVWM65-BUR1UIpPO",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
             }
           ]
         },
@@ -254,9 +605,38 @@
           "rJt5kDc73bJomWKx",
           "srxKpumyruyS7yoA",
           "-iTf_NvEdVage5PD",
-          "8od0XSnf1qqURYMR",
-          "4qXS3QDYXOCpe8dT",
-          "OpA7t27RXurcLg-k"
+          "OpA7t27RXurcLg-k",
+          "QPU23TTaf0VV-NM-",
+          "NSB6wZqEPnzXPGGG",
+          "13nxE72_XiQ2bxeT",
+          "saSOUJlInFoYlJc9",
+          "z_z6iILZ6lBFZKhW",
+          "sZrMFsniwPj77lC3",
+          "7Ob6ZkA355KNmy6x",
+          "zidMDK6mlMedIEb2",
+          "aExgfJ4xXNQHQAvW",
+          "VTPbEE0j0SYcTp2G",
+          "kfI8VW3DDZPbPBKZ",
+          "yVzOqfzSo_yI8bdH",
+          "C2hxmbMGyrKjEUgP",
+          "UnagmLwGRt0Yw-Xj",
+          "aC3PGe5XU1W8hEtz"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "9jL6S5SV9GSB05Nw",
+          "providerId": "zidMDK6mlMedIEb2",
+          "dataSet": {
+            "id": "3Jrh5aFOp7otwYOX",
+            "name": "Program 2",
+            "attributes": [],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "zidMDK6mlMedIEb2"
         ]
       }
     ]
