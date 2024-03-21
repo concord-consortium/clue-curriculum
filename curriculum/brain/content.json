@@ -480,7 +480,11 @@
       "ordinal": 3,
       "title": "Module 3: Microcontrollers",
       "config": {
-        "sim": "chip"
+        "settings": {
+          "simulator": {
+            "defaultSimulation": "potentiometer_chip_servo"
+          }
+        }
       },
       "problems": [
         {
