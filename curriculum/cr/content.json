@@ -33,7 +33,7 @@
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -53,7 +53,7 @@
         "isTileTool": true
       },
       {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {"id": "hide-annotations", "title": "Hide Sparrows", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -129,7 +129,7 @@
     "settings": {
       "table": {
         "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
+        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
       }
     },
     "showCommentTag": true,

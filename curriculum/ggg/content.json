@@ -33,7 +33,7 @@
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -48,11 +48,6 @@
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
-      },
-      {
         "id": "sparrow",
         "title": "Sparrow",
         "iconId": "icon-sparrow-tool",
@@ -60,7 +55,7 @@
       },
       {
         "id": "hide-annotations",
-        "title": "Hide Annotations",
+        "title": "Hide Sparrow",
         "iconId": "icon-hide-annotations-tool",
         "isTileTool": false
       },
@@ -138,7 +133,28 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,

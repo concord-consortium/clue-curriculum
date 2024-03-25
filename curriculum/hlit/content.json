@@ -27,13 +27,13 @@
         "isTileTool": true
       },
       {
-        "id": "Geometry",
+        "id": "Graph",
         "title": "Graph",
         "isTileTool": true
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -60,7 +60,7 @@
       },
       {
         "id": "hide-annotations",
-        "title": "Hide Annotations",
+        "title": "Hide Sparrows",
         "iconId": "icon-hide-annotations-tool",
         "isTileTool": false
       },
@@ -138,7 +138,28 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": false,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": false
       }
     },
     "showCommentTag": true,

@@ -54,11 +54,6 @@
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
-      },
-      {
         "id": "sparrow",
         "title": "Sparrow",
         "iconId": "icon-sparrow-tool",
@@ -378,7 +373,8 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
       },
       "graph": {
         "tools": [
