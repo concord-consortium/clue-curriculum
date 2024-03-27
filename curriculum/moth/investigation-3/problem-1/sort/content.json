@@ -52,15 +52,25 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ORGANIZE</strong></p><p>Think about organizing the moths into categories that will help answer your group&#x27;s research question.</p><p><strong>Would data cards or a table help you get organized?</strong></p><p>You can start with the card below and add cards. Or to make your own, click the data card icon on the tool bar.  Decide which labels you want to add. </p>"
+            "<p><strong>ORGANIZE</strong></p><p>Think about organizing the moths into categories that will help answer your group&#x27;s research question.</p><p><strong>Would data cards or a table help you get organized?</strong></p><p>Start with the card below -- drag it across to your workspace and add the categories for data that will help with your research question. Or, to make cards from scratch, click the data card icon on the tool bar in your workspace.  </p>"
           ]
         }
       },
       {
         "id": "Mf8F2TQ576QtCIkq",
-        "title": "My Moths",
         "content": {
           "type": "DataCard"
+        }
+      },
+      {
+        "id": "AR1rvTTmiig-Uepi",
+        "title": "Text 20",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Moth scientists collect data including date, location, traps and images.</strong></p><p>The data cards above have these categories pre-made for you. Make sure to add the categories that you and your group are interested in.</p>"
+          ]
         }
       },
       {
@@ -76,17 +86,15 @@
       },
       {
         "id": "hmo9bA0tWyHk-f2t",
-        "title": "Table 1",
         "content": {
           "type": "Table",
           "columnWidths": {
             "BN6EmHCE14U2j3fJ": 80,
-            "qJgljYJC3xzMjKH-": 80,
             "qFcogEMhiLaGHta8": 92,
             "gO-NqPSm3wl1_VsX": 80,
-            "pEUyEJe6prxSsX6S": 94
-          },
-          "name": "Table 1"
+            "Ggd28Vms6L4Ryk0L": 80,
+            "WMF1t0uPC0nn7YHL": 80
+          }
         }
       },
       {
@@ -109,21 +117,10 @@
           "providerId": "Mf8F2TQ576QtCIkq",
           "dataSet": {
             "id": "pmBp0E-weI04bgsG",
+            "name": "My Moths",
             "attributes": [
               {
                 "id": "lgQ-aHc3ENGlh4CC",
-                "clientKey": "",
-                "name": "Moth",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "large"
-                ],
-                "title": ""
-              },
-              {
-                "id": "nb9o6hyCZqVPYp9R",
                 "clientKey": "",
                 "name": "Date",
                 "hidden": false,
@@ -135,9 +132,21 @@
                 "title": ""
               },
               {
+                "id": "nb9o6hyCZqVPYp9R",
+                "clientKey": "",
+                "name": "School Code",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              },
+              {
                 "id": "jzCeWK-wTPkHjaui",
                 "clientKey": "",
-                "name": "image",
+                "name": "Trap ID",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -149,7 +158,19 @@
               {
                 "id": "mxFnkDHe2Xbceey_",
                 "clientKey": "",
-                "name": "Another Label ",
+                "name": "Image ",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "53Y7mOrW1XXPwNC8",
+                "clientKey": "",
+                "name": "Label 1",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -182,17 +203,7 @@
               {
                 "id": "BN6EmHCE14U2j3fJ",
                 "clientKey": "",
-                "name": "moth",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              },
-              {
-                "id": "qJgljYJC3xzMjKH-",
-                "clientKey": "",
-                "name": "date",
+                "name": "Date",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -202,7 +213,7 @@
               {
                 "id": "qFcogEMhiLaGHta8",
                 "clientKey": "",
-                "name": "weather",
+                "name": "School ID",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -212,7 +223,7 @@
               {
                 "id": "gO-NqPSm3wl1_VsX",
                 "clientKey": "",
-                "name": "color",
+                "name": "Trap ID",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -220,9 +231,19 @@
                 "title": ""
               },
               {
-                "id": "pEUyEJe6prxSsX6S",
+                "id": "Ggd28Vms6L4Ryk0L",
                 "clientKey": "",
-                "name": "column title",
+                "name": "Image",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "WMF1t0uPC0nn7YHL",
+                "clientKey": "",
+                "name": "Label 1",
                 "hidden": false,
                 "units": "",
                 "formula": {},
