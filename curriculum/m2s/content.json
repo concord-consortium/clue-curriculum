@@ -2199,9 +2199,6 @@
       "title": "M2Studio Fall 2024",
       "config": {
         "settings": {
-          "table": {
-            "numFormat": ".3~f"
-          },
           "text": {
             "tools": [
               "bold",
@@ -2241,7 +2238,10 @@
               "new-variable",
               "insert-variable",
               "edit-variable",
-              "link-tile-multiple",
+              [
+                "data-set-view",
+                "graph"
+              ],
               "|",
               "zoom-in",
               "zoom-out",
@@ -2255,12 +2255,13 @@
           "graph": {
             "tools": [
               "link-tile-multiple",
-              "add-points",
+              "add-points-by-hand",
               "fit-all",
               "toggle-lock",
+              "movable-line",
               "|",
-              "select-points",
-              "create-points",
+              "move-points",
+              "add-points",
               "delete"
             ],
             "defaultAxisLabels": {
@@ -2269,6 +2270,17 @@
             },
             "emptyPlotIsNumeric": true,
             "scalePlotOnValueChange": true
+          },
+          "table": {
+            "numFormat": ".4~f",
+            "tools": [
+              "merge-in",
+              [
+                "data-set-view",
+                "graph"
+              ],
+              "delete"
+            ]
           }
         }
       },
