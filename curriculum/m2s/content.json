@@ -2197,6 +2197,81 @@
       "description": "M2Studio Fall 2024",
       "ordinal": 6,
       "title": "M2Studio Fall 2024",
+      "config": {
+        "settings": {
+          "table": {
+            "numFormat": ".3~f"
+          },
+          "text": {
+            "tools": [
+              "bold",
+              "italic",
+              "list-ul",
+              "subscript",
+              "superscript",
+              "link",
+              "|",
+              "new-variable",
+              "insert-variable",
+              "edit-variable"
+            ]
+          },
+          "drawing": {
+            "tools": [
+              "select",
+              "line",
+              "vector",
+              "rectangle",
+              "ellipse",
+              "stamp",
+              "stroke-color",
+              "fill-color",
+              "textbox",
+              "image-upload",
+              "|",
+              "new-variable",
+              "insert-variable",
+              "edit-variable",
+              "delete"
+            ]
+          },
+          "diagram": {
+            "maxTiles": 1,
+            "tools": [
+              "new-variable",
+              "insert-variable",
+              "edit-variable",
+              "link-tile-multiple",
+              "|",
+              "zoom-in",
+              "zoom-out",
+              "fit-view",
+              "toggle-lock",
+              "toggle-navigator",
+              "|",
+              "delete"
+            ]
+          },
+          "graph": {
+            "tools": [
+              "link-tile-multiple",
+              "add-points",
+              "fit-all",
+              "toggle-lock",
+              "|",
+              "select-points",
+              "create-points",
+              "delete"
+            ],
+            "defaultAxisLabels": {
+              "bottom": "x axis label",
+              "left": "y axis label"
+            },
+            "emptyPlotIsNumeric": true,
+            "scalePlotOnValueChange": true
+          }
+        }
+      },
       "problems": [
         {
           "description": "M2S Activity 6.1",
