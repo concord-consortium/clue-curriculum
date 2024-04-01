@@ -3,51 +3,623 @@
   "content": {
     "tiles": [
       {
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": ["Daphne thinks the rubber-band method is clever, but she believes the school copier can make more accurate copies in a greater variety of sizes. She makes a copy of “Super Sleuth” with two different percent size factors. The results are shown below."]
-        },
-        "id": "TILEaTDM0tOER377"
-      },
-      {"id": "21AUG20220852340AM", "title": "Copies of Super Sleuth with different percent size factors.", "content": {"type": "Image", "url": "sas/images/copiesOfSuperSleuth1_3.png"}},
-      {"content": {"type": "Text", "format": "html", "text": ["* What percent size multiplier did Daphne use to create Copy 1 and Copy 2? Explain your reasoning."]}, "id": "TILEyPTpaSyd727i"},
-      {
-        "display": "teacher",
-        "content": {"type": "Text", "format": "html", "text": ["<p>For Copy 2, if we compare corresponding sides such as the base of the triangle, 1 and ½ lengths of the original make the corresponding length of the copy. This means that the multiplier is 1.5 or 150% of the original.</p>"]},
-        "id": "TILEnJMRLYdEAzhL"
-      },
-      {"display": "teacher", "id": "21AUsfafG20220850AM", "title": "Comparing side lengths for Super Sleuth and Copy 2", "content": {"type": "Image", "url": "sas/images/comparingSideLengths1_3.png"}},
-      {
-        "display": "teacher",
-        "content": {"type": "Text", "format": "html", "text": ["<p>For Copy 1, if we compare corresponding sides such as the base of the triangle, ¾ of the length of the original makes the corresponding length of the copy. This means that the multiplier is 0.75 or 75% of the original.</p>"]},
-        "id": "TILE0c0sTxTspXAP"
-      },
-      {"display": "teacher", "id": "21AUasG2022adsf0850AM", "title": "Comparing side lengths for Super Sleuth and Copy 1", "content": {"type": "Image", "url": "sas/images/1-3_Initial_Challenge_2.png"}},
-      {"content": {"type": "Text", "format": "html", "text": ["How are the copies like the original? How are they different?"]}, "id": "TILEQEcWBj3f0gfH"},
-      {
-        "display": "teacher",
-        "id": "_7HJi5zFt89fPzIp",
+        "id": "zTO9dgyTGZVJjWMx",
         "title": "Text 1",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Possible answers</strong></p>",
-            "<p>Stays the same/alike:</p>",
-            "<ul><li>Same basic shapes</li><li>Corresponding angle measures</li></ul>",
-            "<p>Size changes:</p>",
-            "<ul><li>Copy 1 is smaller/shrunk</li><li>Copy 2 is bigger/stretched</li></ul>",
-            "<p>Corresponding side lengths change:</p>",
-            "<ul><li>Copy 1 are ¾ the size of the corresponding side lengths in the original</li><li>Copy 2 are 1.5 times the size of the corresponding side lengths in the original</li></ul>",
-            "<p>Perimeter changes in the same way the corresponding side lengths change. This can be explained by the Distributive Property: For example, in Copy 2 the sides of the hat change b6 150%, so the perimeter will also change by 150%: 1.5l+1.5l+1.5w+1.5w=1.5(l+l+w+w)</p>",
-            "<p>Area changes:</p>",
-            "<ul><li>It’s smaller from the original to Copy 1</li><li>It’s larger from the original to Copy 2, but it is not 1.5 times larger.</li></ul>",
-            "<p>Note: At this time in the Unit, students will make general statements about the area. Such as, “The area grows (or shrinks) but not in the same way as the lengths.” The area change relationship in scale figures will be developed in Investigations 2 and 3.</p>",
-            "<p>Ratios change:</p>",
-            "<ul><li>The ratio in length from the original to Copy 1 is 1 to ¾.</li><li>The ratio in length from the original to Copy 2 is 1 to 1.5</li></ul>"
+            "<p>The school nurses want to know how many hours of sleep the middle school students gets the night before school. The table below shows data collected from the 100 7th graders in North Middle School. The data include the number of hours of sleep each student got the previous night.</p><p><u>Predict</u></p><ul><li>What can we conclude about the hours of sleep of the 100 7th grade students?</li></ul>"
           ]
         }
+      },
+      {
+        "id": "wfXQw_NfvfeY0boJ",
+        "title": "7th Grade Sleep Hours",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "KMIWzhEiqlZMvYsm": 111,
+            "4BHNIghzKdyK7G2V": 101
+          },
+          "name": "Table 1"
+        }
+      },
+      {
+        "id": "xo3VR0ofZFSyoQw5",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Experiment</u></p><p><em>Equipment</em></p><ul><li>The list of the student numbers and hours of sleep for each student</li><li>Items to randomly choose 30 of the student numbers; such as 100 pieces of paper in a bag, a random number generator, two spinners, etc.</li></ul><p><em>Experimental Procedure</em></p><ul><li>Choose a method for selecting random samples.</li><li>Pick a random sample of 30 student numbers. If you select a student number already in your sample, select another.</li><li>Create a line plot to show the number of hours each student slept.</li><li>Create a five number summary of your sample distribution.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "yYi9_rn-A68lfK-O",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Making Sense of the Data</strong></p><ul><li>What can you conclude from your sample about the number of hours the population of 7th-grade students slept last night?</li><li>How does your sample compare to the samples of your classmates?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "kv77hyou3nlM35n6",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary based on the samples drawn.</p><p>Example answer:</p>"
+          ]
+        }
+      },
+      {
+        "id": "aqfsqiMb62zJzjdV",
+        "title": "Initial Challenge Example",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/sp6.png",
+          "filename": "sap/images/sp6.png"
+        }
+      },
+      {
+        "id": "My1P9boThvAbIudk",
+        "title": "Box Plot",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/sp7.png",
+          "filename": "sap/images/sp7.png"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Oq8JGXS1HXJ7QxEI",
+          "providerId": "wfXQw_NfvfeY0boJ",
+          "dataSet": {
+            "id": "4-Z5qCdHDmzeJ96Q",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "KMIWzhEiqlZMvYsm",
+                "clientKey": "",
+                "name": "Student Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "01",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49",
+                  "50",
+                  "51",
+                  "52",
+                  "53",
+                  "54",
+                  "55",
+                  "56",
+                  "57",
+                  "58",
+                  "59",
+                  "60",
+                  "61",
+                  "62",
+                  "63",
+                  "64",
+                  "65",
+                  "66",
+                  "67",
+                  "68",
+                  "69",
+                  "70",
+                  "71",
+                  "72",
+                  "73",
+                  "74",
+                  "75",
+                  "76",
+                  "77",
+                  "78",
+                  "79",
+                  "80",
+                  "81",
+                  "82",
+                  "83",
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97",
+                  "98",
+                  "99",
+                  "100"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4BHNIghzKdyK7G2V",
+                "clientKey": "",
+                "name": "Hours of Sleep",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "7",
+                  "8",
+                  "8.67",
+                  "8.75",
+                  "7.5",
+                  "6.5",
+                  "9",
+                  "7",
+                  "9.25",
+                  "8.3",
+                  "8",
+                  "8",
+                  "9.5",
+                  "8",
+                  "9",
+                  "9.15",
+                  "7",
+                  "8",
+                  "8",
+                  "7",
+                  "8.3",
+                  "7.5",
+                  "10",
+                  "8.5",
+                  "7",
+                  "9",
+                  "8.25",
+                  "7",
+                  "8",
+                  "9",
+                  "8.5",
+                  "8",
+                  "8.5",
+                  "10",
+                  "8",
+                  "8.75",
+                  "7",
+                  "7.5",
+                  "8.3",
+                  "8",
+                  "6.75",
+                  "9.5",
+                  "9",
+                  "4",
+                  "8.3",
+                  "6.67",
+                  "8.3",
+                  "8",
+                  "4.3",
+                  "8.75",
+                  "10",
+                  "8",
+                  "9.5",
+                  "7",
+                  "8.5",
+                  "6",
+                  "7",
+                  "8.3",
+                  "7",
+                  "9.5",
+                  "7",
+                  "7",
+                  "8",
+                  "7.5",
+                  "9",
+                  "8",
+                  "9",
+                  "8",
+                  "7.5",
+                  "7.5",
+                  "7.5",
+                  "8",
+                  "7",
+                  "6",
+                  "6",
+                  "7",
+                  "8.5",
+                  "9",
+                  "7",
+                  "11.25",
+                  "7.5",
+                  "7",
+                  "8.67",
+                  "9",
+                  "9",
+                  "9",
+                  "9.5",
+                  "4",
+                  "9",
+                  "10.5",
+                  "9",
+                  "8.75",
+                  "10",
+                  "8",
+                  "6",
+                  "5.3",
+                  "8.5",
+                  "6",
+                  "7.83",
+                  "9"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "9BD9HQw_vZ0Twhec"
+              },
+              {
+                "__id__": "phFVujyf8FhiENFZ"
+              },
+              {
+                "__id__": "h_viI06DZIRjNSxx"
+              },
+              {
+                "__id__": "h9bUziP2jxIQOuIE"
+              },
+              {
+                "__id__": "RVrYQ_FX4pEsnAgv"
+              },
+              {
+                "__id__": "VLP84_DKh5GLI1_G"
+              },
+              {
+                "__id__": "639MqdxqXRluCAKo"
+              },
+              {
+                "__id__": "XR43SqtNu5IvsRt4"
+              },
+              {
+                "__id__": "vedeMx8uIKkWJdVm"
+              },
+              {
+                "__id__": "n98e2NmtoXA_zuKy"
+              },
+              {
+                "__id__": "TUqIsrKeA7BrHI2K"
+              },
+              {
+                "__id__": "rx45FHH4q1rss-Gy"
+              },
+              {
+                "__id__": "lw9E3PpQ2erdq5uV"
+              },
+              {
+                "__id__": "hNgJsb2dERwATnIy"
+              },
+              {
+                "__id__": "waYtr2ngota32puJ"
+              },
+              {
+                "__id__": "qPZ7bYAW4BFLEUCe"
+              },
+              {
+                "__id__": "P0uh0XpbL5rcEd6B"
+              },
+              {
+                "__id__": "o3kDqFFEYODBSRsn"
+              },
+              {
+                "__id__": "nOqIMu66Fx_91AJI"
+              },
+              {
+                "__id__": "Rc1hZyXrGYHuoCl0"
+              },
+              {
+                "__id__": "4-TxO9q_oqaPUT1H"
+              },
+              {
+                "__id__": "u6HXRuFMiexCAZjP"
+              },
+              {
+                "__id__": "WfsgQ7j89T0RKLz5"
+              },
+              {
+                "__id__": "F5dal_vCQpxmoRcL"
+              },
+              {
+                "__id__": "L_0fZZyEGEER3-B2"
+              },
+              {
+                "__id__": "KFk6SxFUvL3bqFZX"
+              },
+              {
+                "__id__": "uOTS80ekkUPuFUYw"
+              },
+              {
+                "__id__": "DobMvQZunJb82kI5"
+              },
+              {
+                "__id__": "qPaXOGRdCnqqaY3r"
+              },
+              {
+                "__id__": "q0P77Unhw9W9G7zx"
+              },
+              {
+                "__id__": "svYHWh7zoey065sI"
+              },
+              {
+                "__id__": "zfP7fvgACoB-eRG3"
+              },
+              {
+                "__id__": "pJpZgLYc0R-dtvcI"
+              },
+              {
+                "__id__": "0RumXn91O8YDQqK7"
+              },
+              {
+                "__id__": "5GQtDsWXAM0KUuwJ"
+              },
+              {
+                "__id__": "5KgT_K9x28CQaTHN"
+              },
+              {
+                "__id__": "k23uJ2oGvDVeUSJM"
+              },
+              {
+                "__id__": "4qF9OrdP_OGIydd8"
+              },
+              {
+                "__id__": "BgpdGE8zg-sld4r5"
+              },
+              {
+                "__id__": "5L2uYAurUo3ahPiH"
+              },
+              {
+                "__id__": "IdyGst-agOZLuaO6"
+              },
+              {
+                "__id__": "srfLZ3m8K9N4Ux8N"
+              },
+              {
+                "__id__": "rfBGsuRC_QkgmYOd"
+              },
+              {
+                "__id__": "Fdy8GVMdoagKpHNI"
+              },
+              {
+                "__id__": "BPqeSGIt76m3giBZ"
+              },
+              {
+                "__id__": "E67Qr2hjFDn3jQf5"
+              },
+              {
+                "__id__": "KptYwuigOaQskbAm"
+              },
+              {
+                "__id__": "4Ew35Qe0yHwiHpFN"
+              },
+              {
+                "__id__": "0lWZ9ElJAmnS1F78"
+              },
+              {
+                "__id__": "1fTB832s242lcVfA"
+              },
+              {
+                "__id__": "q1RC9rbj6yyVCrXC"
+              },
+              {
+                "__id__": "KwCAK9WfoFOwXVky"
+              },
+              {
+                "__id__": "0eEAjFJkAtUV0ErL"
+              },
+              {
+                "__id__": "n5lDfvV4PRXqdatu"
+              },
+              {
+                "__id__": "lWS7w_yf_R8G8bxw"
+              },
+              {
+                "__id__": "MECAilMKSsGfykKA"
+              },
+              {
+                "__id__": "oZFhS03GpD30y_9X"
+              },
+              {
+                "__id__": "YP66pQL2QS4FuKUm"
+              },
+              {
+                "__id__": "LVA6l6yeCaBRY7Uv"
+              },
+              {
+                "__id__": "4Paw_sYIFCdBI_u-"
+              },
+              {
+                "__id__": "JNUCjGGN-mK8M9Tf"
+              },
+              {
+                "__id__": "ovjxDvu1IG2oM-AU"
+              },
+              {
+                "__id__": "E6Tku424bxRq_Cc8"
+              },
+              {
+                "__id__": "MAJMXgnwGnRjacB8"
+              },
+              {
+                "__id__": "S_GWMoXegvakMSRF"
+              },
+              {
+                "__id__": "C4oJ422EzUWXxMlQ"
+              },
+              {
+                "__id__": "fE3KHrIE1TP5dLnN"
+              },
+              {
+                "__id__": "emqf60yqvt_XZC3K"
+              },
+              {
+                "__id__": "4mOPFzokIKVvuueE"
+              },
+              {
+                "__id__": "A4Sc93GX0zCzoica"
+              },
+              {
+                "__id__": "EknyKmXUsorPWFyn"
+              },
+              {
+                "__id__": "1g7GVRosNsY_LVQ4"
+              },
+              {
+                "__id__": "JWwbpvaqDSQfZFO5"
+              },
+              {
+                "__id__": "JPnI1TR94F87c-gy"
+              },
+              {
+                "__id__": "KwEfy4ZdVTn9gO5J"
+              },
+              {
+                "__id__": "2fsQIgr0Mr36-v2J"
+              },
+              {
+                "__id__": "C1ZDWWJUveM_y4BM"
+              },
+              {
+                "__id__": "3Lk5gwhN7gpe84D0"
+              },
+              {
+                "__id__": "LVhQq2leyYq7PBdh"
+              },
+              {
+                "__id__": "2nFNRfdXHhc-lzbn"
+              },
+              {
+                "__id__": "iNlN968EUx-mie9Q"
+              },
+              {
+                "__id__": "MkoMY3B2q24baEil"
+              },
+              {
+                "__id__": "z-hfwh6C06SVhYZb"
+              },
+              {
+                "__id__": "b45W8GFsh7dqYcnh"
+              },
+              {
+                "__id__": "-H3QbHblkq4l3tGz"
+              },
+              {
+                "__id__": "YKbFOaDANX8VMG6F"
+              },
+              {
+                "__id__": "v-dy2AD1yF16bgb1"
+              },
+              {
+                "__id__": "c_FmnXcYMj4Ycoe0"
+              },
+              {
+                "__id__": "VbZQIa9qTytKWrhL"
+              },
+              {
+                "__id__": "4dyLHBmBbX5LIp--"
+              },
+              {
+                "__id__": "4EDwIXzVVBH-KMTI"
+              },
+              {
+                "__id__": "mvtPf_bK49u_ptD4"
+              },
+              {
+                "__id__": "HZWYRMVQBje5LXtl"
+              },
+              {
+                "__id__": "RHjF-mrLJ6J64U2Y"
+              },
+              {
+                "__id__": "etYqheUlv91l-EWR"
+              },
+              {
+                "__id__": "GWeltFu1NVA14fXS"
+              },
+              {
+                "__id__": "QmyREptd1yzvt6yh"
+              },
+              {
+                "__id__": "PhWgJrYu0sNrKJbH"
+              },
+              {
+                "__id__": "HEcTjD3YuGbglSRk"
+              },
+              {
+                "__id__": "e-2mY2Y04NKZr3Bo"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "wfXQw_NfvfeY0boJ"
+        ]
       }
     ]
   },

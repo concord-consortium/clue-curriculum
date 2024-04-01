@@ -1,1 +1,386 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "BpdJI0qYBV-42yzl",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>A toy company is planning to market a collector set of the Wump Family and Imposter Characters. Each character will be sold separately. The Mug Wump character comes in a cube-shaped package with 1-inch edges.</p><p>The toy company ships packages of the Mug Wump characters to different toy stores. It plans to use large rectangular shaped prisms (boxes), each holding 24 of the cube-shaped packages. The designer created a table to help her determine which rectangular shape box to use.</p>"
+          ]
+        }
+      },
+      {
+        "id": "aNB9Xm2Rg3mvv92s",
+        "title": "Mug Wump",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/image7.png",
+          "filename": "faw/images/image7.png"
+        }
+      },
+      {
+        "id": "UXx0KqzF8v9TDIxp",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Find all ways that 24-unit cubes can be packed in a rectangular prism. Sketch each possibility. Record the dimensions, volume, surface area, and sketches in a table. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "-OR3o3kvl3u9idWC",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "rRQw-pPA_IXs_A8t": 115.15223693847656,
+            "dtI3Y3kRG3IYe9XG": 107.36911010742188,
+            "8VODO4vkivWp_0ZQ": 104.96875,
+            "sNbM9g7-YfLJmxpI": 120.6875,
+            "Da2X4w1-BJtuYk-Y": 174.13287353515625,
+            "drEif0SwNXZAxWJf": 80
+          }
+        }
+      },
+      {
+        "id": "Tli-NxM0fGaD_bo3",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "NX6UgfL9r-vZ1yGY": 115.15223693847656,
+            "1QKjr90hr2APnMPt": 107.36911010742188,
+            "X4LjXl9Lm-_9kvAM": 106.98092651367188,
+            "T4dwDzW01OpRs_YF": 128.6966552734375,
+            "ERWROunjBAx8_v2D": 174.13287353515625
+          }
+        }
+      },
+      {
+        "id": "elX70ypi3Rps5dFi",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Some students might argue that there are other combinations of dimensions, but the assignment of labels (length, width, and height) is arbitrary since you could simply move the box around to a new orientation. These are the only combinations of 3 side lengths that give a volume of 24.</p>"
+          ]
+        }
+      },
+      {
+        "id": "wtJU6L0PEm23LwUr",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>What are the dimensions of a prism that with hold 24 of the cube-shaped packages and be least expensive to make? Explain your reasoning. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "wCzMdq9gf8pnAikU",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The box with dimensions 2 by 3 by 4 gives the minimum surface area of 52 square inches, while its volume is 24.</p>"
+          ]
+        }
+      },
+      {
+        "id": "MvxeDbUOrPTRJvfS",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Which prism shape would you recommend for shipping the Mug Wump characters? Explain your reasoning.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "E-1e_cawnfu3sIlZ",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary. Possible answers:</p><ul><li> The box with dimension 2 by 3 by 4 is the best choice because it will need the least amount of package materials.</li><li>The box with 2 by 2 by 6 is the best choice because its surface area is smaller than many of others and it is easy to handle in that its length and width are same.</li></ul><p>If the required number of Mug Wump characters were 26, there are only two possibilities to stack up the boxes. One is 1 by 1 by 26, which has a surface area 106 square inches); the other one is 1 by 2 by 13, which has a surface area 82 square inches. Both cases are no better than the case of 24 boxes in terms of the cost of packaging.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "ysxg6nZGsa2YnDuc",
+          "providerId": "Tli-NxM0fGaD_bo3",
+          "dataSet": {
+            "id": "z0ZLpuqrm7TgoVnJ",
+            "name": "Possible Arrangements of 24 Cubes",
+            "attributes": [
+              {
+                "id": "NX6UgfL9r-vZ1yGY",
+                "clientKey": "",
+                "name": "Length (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "2",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1QKjr90hr2APnMPt",
+                "clientKey": "",
+                "name": "Width (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "2",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "X4LjXl9Lm-_9kvAM",
+                "clientKey": "",
+                "name": "Height (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "24",
+                  "12",
+                  "8",
+                  "6",
+                  "6",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "T4dwDzW01OpRs_YF",
+                "clientKey": "",
+                "name": "Volume (in.3)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "24",
+                  "24",
+                  "24",
+                  "24",
+                  "24",
+                  "24"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ERWROunjBAx8_v2D",
+                "clientKey": "",
+                "name": "Surface Area(in.3)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "98",
+                  "76",
+                  "70",
+                  "68",
+                  "56",
+                  "52"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "-c5F1awVdB7j9M1a"
+              },
+              {
+                "__id__": "W8HpUV1E4TaL5-Vy"
+              },
+              {
+                "__id__": "mS_97V35cU1wEGBF"
+              },
+              {
+                "__id__": "F85dAQ_TIKtrQHJz"
+              },
+              {
+                "__id__": "nz3Rsi0cvRcLOlR6"
+              },
+              {
+                "__id__": "AmT2gWS0BHNQTK3F"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "Tli-NxM0fGaD_bo3"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "7J41uK3q3YY2BaTZ",
+          "providerId": "-OR3o3kvl3u9idWC",
+          "dataSet": {
+            "id": "tHC9wAIbavGKFpnd",
+            "name": "Possible Arrangements of 24 Cubes",
+            "attributes": [
+              {
+                "id": "rRQw-pPA_IXs_A8t",
+                "clientKey": "",
+                "name": "Length (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "dtI3Y3kRG3IYe9XG",
+                "clientKey": "",
+                "name": "Width (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "8VODO4vkivWp_0ZQ",
+                "clientKey": "",
+                "name": "Height (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "sNbM9g7-YfLJmxpI",
+                "clientKey": "",
+                "name": "Volume (in.3)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "Da2X4w1-BJtuYk-Y",
+                "clientKey": "",
+                "name": "Surface Area(in.3)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "drEif0SwNXZAxWJf",
+                "clientKey": "",
+                "name": "Sketch",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HKDDG2M37AERHZMB0ECZ7PYE"
+              },
+              {
+                "__id__": "01HKDDG2M4K59AQ6SGPQM98N67"
+              },
+              {
+                "__id__": "01HKDDG2M4K59AQ6SGPQM98N68"
+              },
+              {
+                "__id__": "01HKDDG2M4K59AQ6SGPQM98N69"
+              },
+              {
+                "__id__": "01HKDDG2M4K59AQ6SGPQM98N6A"
+              },
+              {
+                "__id__": "01HKDDG2M4K59AQ6SGPQM98N6B"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "-OR3o3kvl3u9idWC"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

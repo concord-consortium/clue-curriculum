@@ -24,121 +24,94 @@
           ]
         }
       },
-      {
-        "id": "9-AB5J_XI2flrfSQ",
-        "title": "Break even point",
-        "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -7,
-                -21.7
-              ],
-              "axisRange": [
-                118.6,
-                299.8
-              ],
-              "axisNames": [
-                "Number of Students",
-                "Money"
-              ],
-              "axisLabels": [
-                "Number of Students",
-                "Money"
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    40.08283598332111,
-                    175.03969938858697
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "6-n2q0qknIOLHsxw",
-                "pt1": {
-                  "type": "point",
-                  "id": "6-n2q0qknIOLHsxw-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "6-n2q0qknIOLHsxw-point2"
-                }
+      [
+        {
+          "id": "Pel13alGJAEZNkYe",
+          "title": "Theater Expenses and Income",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "X3Pr4w250A6dtqKb": 80,
+              "bgEkIpprGx4JmKV5": 80,
+              "JbdULWI1MdnmkxMl": 80
+            },
+            "name": "Table 1"
+          }
+        },
+        {
+          "id": "0oe1TE6v9h8GSpwh",
+          "title": "Theater Expenses and Income",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRN8ilcTDG5CoHM",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -5,
+                "max": 75
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -25,
+                "max": 325
               }
             },
-            {
-              "type": "point",
-              "parents": [
-                40,
-                175.10000000000002
-              ],
-              "properties": {
-                "id": "aioLnr3JYfRiF8oa",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    -0.18746563416422285,
-                    124.88217561141303
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    40.05663203354105,
-                    174.1921731700068
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRuQRlvPrRpTpW",
+                "config": {
+                  "id": "DCON2_pE2aYQTQSI",
+                  "dataset": "-JPV8H2MguxKKoSy",
+                  "metadata": "-ot0QbNpqDS5lChu",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "X3Pr4w250A6dtqKb"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "bgEkIpprGx4JmKV5"
+                    },
+                    {
+                      "attributeID": "JbdULWI1MdnmkxMl"
+                    }
                   ]
                 }
-              ],
-              "properties": {
-                "id": "GX_AqlBcXaaTQscH",
-                "pt1": {
-                  "type": "point",
-                  "id": "GX_AqlBcXaaTQscH-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "GX_AqlBcXaaTQscH-point2"
-                }
               }
+            ],
+            "_idColors": {
+              "bgEkIpprGx4JmKV5": 0,
+              "JbdULWI1MdnmkxMl": 1
             },
-            {
-              "type": "point",
-              "parents": [
-                40.44652675953079,
-                214.8140285326087
-              ],
-              "properties": {
-                "id": "LINHPK1B7uqm8_W8",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            }
-          ]
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Number of students",
+            "yAttributeLabel": "Money"
+          }
         }
-      },
+      ],
       {
         "id": "KkSskUJljrH8_4we",
         "title": "Text 17",
@@ -162,105 +135,12 @@
         }
       },
       {
-        "id": "pR4Gbt3pHZfwKW8I",
-        "title": "Graph of y < 255",
+        "id": "xHV1HOpaXTtdtkKj",
+        "title": "y < 255",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -23.46,
-                -21.739
-              ],
-              "axisRange": [
-                281.525,
-                347.826
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    210.56319877199414,
-                    261.8790336277174
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    0.46084585777125575,
-                    260.03709212593407
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "MbWnWrDiQqfNmG7r",
-                "pt1": {
-                  "type": "point",
-                  "id": "MbWnWrDiQqfNmG7r-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "MbWnWrDiQqfNmG7r-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    -0.3164520711143695,
-                    135.9845368758492
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    100.13752061950146,
-                    260.6300951086957
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "xL7GtWIgY0_s0GNz",
-                "pt1": {
-                  "type": "point",
-                  "id": "xL7GtWIgY0_s0GNz-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "xL7GtWIgY0_s0GNz-point2"
-                }
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                145.26667888563048,
-                230.01443614130434
-              ],
-              "properties": {
-                "id": "URHap0tf-wqxcY_k",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            }
-          ]
+          "type": "Image",
+          "url": "msa/images/tg-pic-22.png",
+          "filename": "msa/images/tg-pic-22.png"
         }
       },
       {
@@ -275,140 +155,12 @@
         }
       },
       {
-        "id": "6VjC3SmvUIUsBjhl",
-        "title": "Graph 3",
+        "id": "Kr95YA4Z87u5RaD-",
+        "title": "y < 255 and x < 100",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -23.46,
-                -21.739
-              ],
-              "axisRange": [
-                281.525,
-                347.826
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "point",
-              "parents": [
-                100,
-                0
-              ],
-              "properties": {
-                "id": "LwaY_Gn-A6EV7akW",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                100,
-                279
-              ],
-              "properties": {
-                "id": "SgthmqPu-A38Ys6l",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "LwaY_Gn-A6EV7akW",
-                "SgthmqPu-A38Ys6l"
-              ],
-              "properties": {
-                "id": "lGDVhnezXiFjjreg"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                0,
-                260
-              ],
-              "properties": {
-                "id": "obEdeRYDAEUktQbg",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                191,
-                260
-              ],
-              "properties": {
-                "id": "viy94Rvj8WVXU-rB",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "obEdeRYDAEUktQbg",
-                "viy94Rvj8WVXU-rB"
-              ],
-              "properties": {
-                "id": "4DoupY6hQUhznwAV"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                0,
-                125.10000000000001
-              ],
-              "properties": {
-                "id": "r2vGQNRu3chTWDLr",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                139.5191795729472,
-                313.2164893108865
-              ],
-              "properties": {
-                "id": "3wUOEJW1UtbGYL3C",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "r2vGQNRu3chTWDLr",
-                "3wUOEJW1UtbGYL3C"
-              ],
-              "properties": {
-                "id": "yadul5nGg3S3gVnJ"
-              }
-            }
-          ]
+          "type": "Image",
+          "url": "msa/images/tg-pic-23.png",
+          "filename": "msa/images/tg-pic-23.png"
         }
       },
       {
@@ -452,6 +204,133 @@
             "<p><strong>Reflecting on Student Learning </strong></p><p>Use the following questions to assess student understanding at the end of the lesson. </p><ul><li>What evidence do I have that students understand the Now What Do You Know question?</li></ul><ol><li>Where did my students get stuck?</li><li>What strategies did they use?</li><li>What breakthroughs did my students have today?</li></ol><ul><li>How will I use this to plan for tomorrow? For the next time I teach this lesson?</li><li>Where will I have the opportunity to reinforce these ideas as I continue through this Unit? The next Unit? </li></ul>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5zDFSgMAOE0Oyk0M",
+          "providerId": "Pel13alGJAEZNkYe",
+          "dataSet": {
+            "id": "-JPV8H2MguxKKoSy",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "X3Pr4w250A6dtqKb",
+                "clientKey": "",
+                "name": "Number of students",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "60"
+                ],
+                "title": ""
+              },
+              {
+                "id": "bgEkIpprGx4JmKV5",
+                "clientKey": "",
+                "name": "Expenses",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "130+1.25*x",
+                  "canonical": "(130 + (1.25 * __x__))"
+                },
+                "values": [
+                  130,
+                  142.5,
+                  155,
+                  167.5,
+                  180,
+                  192.5,
+                  205
+                ],
+                "title": ""
+              },
+              {
+                "id": "JbdULWI1MdnmkxMl",
+                "clientKey": "",
+                "name": "Income",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "4.5*x",
+                  "canonical": "(4.5 * __x__)"
+                },
+                "values": [
+                  0,
+                  45,
+                  90,
+                  135,
+                  180,
+                  225,
+                  270
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "xi3JvTUpHGtblX_c"
+              },
+              {
+                "__id__": "m2xXHxhiUJM5Uqdl"
+              },
+              {
+                "__id__": "_WczVPZOvGI_p9sr"
+              },
+              {
+                "__id__": "GaLGhlVSbKK6spLC"
+              },
+              {
+                "__id__": "4JUStqWtTJj60WBu"
+              },
+              {
+                "__id__": "NLKHiwLlol286Yi0"
+              },
+              {
+                "__id__": "Z1MAD0qtyeMFgCz_"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "Pel13alGJAEZNkYe",
+          "0oe1TE6v9h8GSpwh"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "-ot0QbNpqDS5lChu",
+          "data": "-JPV8H2MguxKKoSy",
+          "collections": {},
+          "categories": {
+            "X3Pr4w250A6dtqKb": {
+              "attribute": "X3Pr4w250A6dtqKb",
+              "colors": {},
+              "moves": []
+            },
+            "bgEkIpprGx4JmKV5": {
+              "attribute": "bgEkIpprGx4JmKV5",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "0oe1TE6v9h8GSpwh"
+        ]
       }
     ]
   }

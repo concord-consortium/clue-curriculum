@@ -28,13 +28,13 @@
       },
       {
         "id": "Graph",
-        "title": "Data Graph",
+        "title": "Graph",
         "iconId": "icon-plot-tool",
         "isTileTool": true
       },
       {
         "id": "Geometry",
-        "title": "Graph",
+        "title": "Shapes",
         "isTileTool": true
       },
       {
@@ -95,6 +95,222 @@
         "isTileTool": false
       }
     ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+           {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Logs",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        },
+        {
+          "tab": "class-work",
+          "label": "Published Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [
+                "teacher", "student"
+              ],
+              "properties": [
+                "!isTeacherDocument"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "published-personal-documents",
+              "dataTestHeader": "class-work-section-personal",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "personalPublication"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ],
+              "properties": [
+                "!isTeacherDocument"
+              ]
+            },
+            {
+              "className": "section teacher published-documents",
+              "title": "Teacher",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "className": "section teacher published-documents",
+              "title": "Teacher",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": ["supportPublication"],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Bookmarks",
+              "type": "starred-personal-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "stamps": [
       {
         "url": "msa/stamps/coin.png",
@@ -179,7 +395,13 @@
       "graph": {
         "tools": [
           "link-tile-multiple",
-          "fit-all"
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
         ],
         "defaultAxisLabels": {
           "bottom": "x",
@@ -202,7 +424,7 @@
       "other-proportional": "Other - Proportional",
       "other-nonproportional": "Other - Nonproportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -332,10 +554,13 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/introduction/content.json",
-            "investigation-1/problem-1/initialChallenge/content.json",
-            "investigation-1/problem-1/whatIf/content.json",
-            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+            "sections/investigation-1/problem-1/introduction/content.json",
+            "sections/investigation-1/problem-1/initialChallenge/content.json",
+            "sections/investigation-1/problem-1/whatIf/content.json",
+            "sections/investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -520,10 +745,10 @@
           "title": "MSA 1.2 Walking Rates",
           "subtitle": "Exploring Linear Relationships with Tables, Graphs, and Equations",
           "sections": [
-            "investigation-1/problem-2/introduction/content.json",
-            "investigation-1/problem-2/initialChallenge/content.json",
-            "investigation-1/problem-2/whatIf/content.json",
-            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+            "sections/investigation-1/problem-2/introduction/content.json",
+            "sections/investigation-1/problem-2/initialChallenge/content.json",
+            "sections/investigation-1/problem-2/whatIf/content.json",
+            "sections/investigation-1/problem-2/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -718,10 +943,10 @@
           "title": "MSA 1.3 Raising Money",
           "subtitle": "Using Linear Relationships to Solve Problems",
           "sections": [
-            "investigation-1/problem-3/introduction/content.json",
-            "investigation-1/problem-3/initialChallenge/content.json",
-            "investigation-1/problem-3/whatIf/content.json",
-            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+            "sections/investigation-1/problem-3/introduction/content.json",
+            "sections/investigation-1/problem-3/initialChallenge/content.json",
+            "sections/investigation-1/problem-3/whatIf/content.json",
+            "sections/investigation-1/problem-3/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -901,10 +1126,10 @@
           "title": "MSA 1.4 Walkathon Money",
           "subtitle": "Expressing Linear Relationships and Proportionality",
           "sections": [
-            "investigation-1/problem-4/introduction/content.json",
-            "investigation-1/problem-4/initialChallenge/content.json",
-            "investigation-1/problem-4/whatIf/content.json",
-            "investigation-1/problem-4/nowWhatDoYouKnow/content.json"
+            "sections/investigation-1/problem-4/introduction/content.json",
+            "sections/investigation-1/problem-4/initialChallenge/content.json",
+            "sections/investigation-1/problem-4/whatIf/content.json",
+            "sections/investigation-1/problem-4/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -1096,10 +1321,13 @@
           "title": "MSA 2.1 Henri and Emile’s Race",
           "subtitle": "Developing Strategies to Find a Solution",
           "sections": [
-            "investigation-2/problem-1/introduction/content.json",
-            "investigation-2/problem-1/initialChallenge/content.json",
-            "investigation-2/problem-1/whatIf/content.json",
-            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+            "sections/investigation-2/problem-1/introduction/content.json",
+            "sections/investigation-2/problem-1/initialChallenge/content.json",
+            "sections/investigation-2/problem-1/whatIf/content.json",
+            "sections/investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-2/problem-1/exemplar-1/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -1295,10 +1523,10 @@
           "title": "MSA 2.2 Comparing Cost Relationships",
           "subtitle": "Using Tables and Graphs to Solve Problems",
           "sections": [
-            "investigation-2/problem-2/introduction/content.json",
-            "investigation-2/problem-2/initialChallenge/content.json",
-            "investigation-2/problem-2/whatIf/content.json",
-            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+            "sections/investigation-2/problem-2/introduction/content.json",
+            "sections/investigation-2/problem-2/initialChallenge/content.json",
+            "sections/investigation-2/problem-2/whatIf/content.json",
+            "sections/investigation-2/problem-2/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -1476,10 +1704,10 @@
           "title": "MSA 2.3 Connecting Tables, Graphs, and Equations to Solutions",
           "subtitle": "",
           "sections": [
-            "investigation-2/problem-3/introduction/content.json",
-            "investigation-2/problem-3/initialChallenge/content.json",
-            "investigation-2/problem-3/whatIf/content.json",
-            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+            "sections/investigation-2/problem-3/introduction/content.json",
+            "sections/investigation-2/problem-3/initialChallenge/content.json",
+            "sections/investigation-2/problem-3/whatIf/content.json",
+            "sections/investigation-2/problem-3/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -1676,10 +1904,10 @@
           "title": "MSA 3.1 Mystery Pouches",
           "subtitle": "Exploring Equality",
           "sections": [
-            "investigation-3/problem-1/introduction/content.json",
-            "investigation-3/problem-1/initialChallenge/content.json",
-            "investigation-3/problem-1/whatIf/content.json",
-            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+            "sections/investigation-3/problem-1/introduction/content.json",
+            "sections/investigation-3/problem-1/initialChallenge/content.json",
+            "sections/investigation-3/problem-1/whatIf/content.json",
+            "sections/investigation-3/problem-1/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -1871,10 +2099,10 @@
           "title": "MSA 3.2 From Pouches to Variables",
           "subtitle": "Writing and Solving Equations",
           "sections": [
-            "investigation-3/problem-2/introduction/content.json",
-            "investigation-3/problem-2/initialChallenge/content.json",
-            "investigation-3/problem-2/whatIf/content.json",
-            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+            "sections/investigation-3/problem-2/introduction/content.json",
+            "sections/investigation-3/problem-2/initialChallenge/content.json",
+            "sections/investigation-3/problem-2/whatIf/content.json",
+            "sections/investigation-3/problem-2/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2054,10 +2282,10 @@
           "title": "MSA 3.3 Solving Linear Equations",
           "subtitle": "",
           "sections": [
-            "investigation-3/problem-3/introduction/content.json",
-            "investigation-3/problem-3/initialChallenge/content.json",
-            "investigation-3/problem-3/whatIf/content.json",
-            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+            "sections/investigation-3/problem-3/introduction/content.json",
+            "sections/investigation-3/problem-3/initialChallenge/content.json",
+            "sections/investigation-3/problem-3/whatIf/content.json",
+            "sections/investigation-3/problem-3/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2248,10 +2476,10 @@
           "title": "MSA 3.4 The Point of Intersection",
           "subtitle": "Using Equations and Inequalities",
           "sections": [
-            "investigation-3/problem-4/introduction/content.json",
-            "investigation-3/problem-4/initialChallenge/content.json",
-            "investigation-3/problem-4/whatIf/content.json",
-            "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
+            "sections/investigation-3/problem-4/introduction/content.json",
+            "sections/investigation-3/problem-4/initialChallenge/content.json",
+            "sections/investigation-3/problem-4/whatIf/content.json",
+            "sections/investigation-3/problem-4/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2283,10 +2511,10 @@
           "title": "MSA 4.1 Preparing for the Walkathon",
           "subtitle": "Using the Ratio of Rise to Run",
           "sections": [
-            "investigation-4/problem-1/introduction/content.json",
-            "investigation-4/problem-1/initialChallenge/content.json",
-            "investigation-4/problem-1/whatIf/content.json",
-            "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+            "sections/investigation-4/problem-1/introduction/content.json",
+            "sections/investigation-4/problem-1/initialChallenge/content.json",
+            "sections/investigation-4/problem-1/whatIf/content.json",
+            "sections/investigation-4/problem-1/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2460,10 +2688,10 @@
           "title": "MSA 4.2 After the Walkathon",
           "subtitle": "",
           "sections": [
-            "investigation-4/problem-2/introduction/content.json",
-            "investigation-4/problem-2/initialChallenge/content.json",
-            "investigation-4/problem-2/whatIf/content.json",
-            "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
+            "sections/investigation-4/problem-2/introduction/content.json",
+            "sections/investigation-4/problem-2/initialChallenge/content.json",
+            "sections/investigation-4/problem-2/whatIf/content.json",
+            "sections/investigation-4/problem-2/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2648,9 +2876,9 @@
           "title": "MSA 4.3 Pulling it All Together",
           "subtitle": "",
           "sections": [
-            "investigation-4/problem-3/initialChallenge/content.json",
-            "investigation-4/problem-3/whatIf/content.json",
-            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+            "sections/investigation-4/problem-3/initialChallenge/content.json",
+            "sections/investigation-4/problem-3/whatIf/content.json",
+            "sections/investigation-4/problem-3/nowWhatDoYouKnow/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2838,10 +3066,10 @@
           "title": "Moving Straight Ahead Mathematical Reflections",
           "subtitle": "",
           "sections": [
-            "investigation-5/problem-1/MathReflection1/content.json",
-            "investigation-5/problem-1/MathReflection2/content.json",
-            "investigation-5/problem-1/MathReflection3/content.json",
-            "investigation-5/problem-1/MathReflection4/content.json"
+            "sections/investigation-5/problem-1/MathReflection1/content.json",
+            "sections/investigation-5/problem-1/MathReflection2/content.json",
+            "sections/investigation-5/problem-1/MathReflection3/content.json",
+            "sections/investigation-5/problem-1/MathReflection4/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -2954,10 +3182,10 @@
           "title": "SAS ACE Question Banks",
           "subtitle": "",
           "sections": [
-            "investigation-6/problem-1/ACE1/content.json",
-            "investigation-6/problem-1/ACE2/content.json",
-            "investigation-6/problem-1/ACE3/content.json",
-            "investigation-6/problem-1/ACE4/content.json"
+            "sections/investigation-6/problem-1/ACE1/content.json",
+            "sections/investigation-6/problem-1/ACE2/content.json",
+            "sections/investigation-6/problem-1/ACE3/content.json",
+            "sections/investigation-6/problem-1/ACE4/content.json"
           ]
         }
       ]

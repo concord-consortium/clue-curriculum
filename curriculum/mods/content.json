@@ -11,6 +11,7 @@
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
+    "disablePublish": true,
     "toolbar": [
       {
         "id": "select",
@@ -151,46 +152,13 @@
           ]
         },
         {
-          "tab": "class-work",
+          "tab": "sort-work",
           "label": "Class Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication"
-              ],
-              "showStars": [],
-              "properties": [
-                "!isDeleted"
-              ]
-            },
-            {
-              "title": "Workspaces",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": [
-                "supportPublication"
-              ],
-              "properties": [
-                "teacherSupport",
-                "!isDeleted"
-              ]
-            }
-          ]
+          "teacherOnly": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
-          "teacherOnly": true,
-          "sections": []
-        },
-        {
-          "tab": "student-work",
-          "label": "Student Work",
           "teacherOnly": true,
           "sections": []
         }
@@ -208,12 +176,12 @@
     "commentTags": {
       "diverging": "Diverging Designs",
       "converging": "Converging Designs",
-      "materials": "Varies Material/Surface",
-      "physical": "Varies Physical Factors",
-      "user": "Varies Human Factors",
-      "system": "Varies System Factors"
+      "user": "Who's it for?",
+      "environment": "Where's it used?",
+      "form": "What's it look like?",
+      "function": "What's it do?"
     },
-    "tagPrompt": "Identify Design Approach",
+    "tagPrompt": "Design Focus",
     "stamps": [
       {
         "url": "mods/stamps/jumping.png",

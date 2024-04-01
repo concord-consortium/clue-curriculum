@@ -1,1 +1,108 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "r3XKl3teePFdcDSR",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Esther and Jasmine buy ice cream from Chilly’s Ice Cream Parlor.</p><p>Esther gets a scoop of ice cream in a cone, and Jasmine gets a scoop in a cylindrical cup. Each container has a height of 8 centimeters and a radius of 4 centimeters. Each scoop of ice cream is a sphere with a radius of 4 centimeters. </p>"
+          ]
+        }
+      },
+      {
+        "id": "IVn4cQ31rcLujXOh",
+        "title": "Ice Cream Scoops",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/1.png",
+          "filename": "faw/images/1.png"
+        }
+      },
+      {
+        "id": "IY-JsiZlZMDcoW2C",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Suppose Esther and Jasmine both allow their ice cream to melt.</p>"
+          ]
+        }
+      },
+      {
+        "id": "m3_QdlRk1yO_MWJ2",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Will the melted ice cream fill Esther’s cone exactly?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "-vehW2-IoaYtQyjw",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>No. The cone has volume (π × 4 × 4) × 8 × 1/3 ≈ 134 cm<sup>3</sup>, whereas the spherical scoop of ice cream has volume (π × 4 × 4) × 8 × 2/3 ≈ 268 cm<sup>3</sup>. If the ice cream melts, it would fill the cone and overflow. </p>"
+          ]
+        }
+      },
+      {
+        "id": "aKp-z93G-fxDq9IO",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Will the melted ice cream fill Jasmine’s cup exactly?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "CV6i0AjaeDNd1Bqz",
+        "title": "Text 6",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>No. The cup has volume (π × 4 × 4) × 8 ≈ 402 cm<sup>3</sup>, which is greater than the volume of spherical ice cream. Some students can suggest that the cup has the same radius and height as the cone, so the cup’s volume is three times the cone’s volume. The ice cream has less volume than the cup, so, if it melts, it will not completely fill the cup. It only fills 2/3 of the cup. </p>"
+          ]
+        }
+      },
+      {
+        "id": "IPh3hKbZ9eXpGZpA",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How many scoops of ice cream can be packed into each container? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "1dDq4Npyp0rA3SZ9",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The cone will hold half a scoop of melted ice cream. </p><p>The cup will hold 1.5 scoops of melted ice cream.</p>"
+          ]
+        }
+      }
+    ]
+  },
+  "supports": []
+}

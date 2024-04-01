@@ -1,1 +1,307 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "tE4PRGztKqkvdSJM",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Paper Towel Experiment:</strong> Conduct an experiment to find the absorbency of paper towels.</p>"
+          ]
+        }
+      },
+      {
+        "id": "i9qyTOvbKIpa5Z2D",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Make a Prediction</em></p><ul><li>What is the relationship between the area of a circle and its diameter or radius?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "-VKWP59CuH9oaEf1",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Students’ predictions will depend on their prior experiences.</p>"
+          ]
+        }
+      },
+      {
+        "id": "Q_3ntlN6rfZSCLb9",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Conduct the Experiment</em></p><p><u>Equipment:</u></p><ul><li>Several different brands of paper towels.</li><li>Eye dropper</li><li>Colored water (color is optional)</li><li>Transparent cm grid paper</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "TqC6HB17n7v3iEVI",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Directions:</u><em> (individually, with a partner, or small group)</em></p><ul><li><em>Set out same size pieces of the different types of paper.</em></li><li><em>Fill the eye dropper with water.</em></li><li><em>Drop two drops of water on each type of paper. The drops should land in the same location (on top of each other).</em></li><li><em>Measure the diameter, radius, and area of water spots.</em></li><li><em>Record your result in a table.</em></li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "gHg_9qi78WoyBNRj",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "nZivHrUlRr-cyI_O": 146,
+            "APZ3FC2RAH4587cv": 129,
+            "DDWy3Z0dKxrMCaFb": 111,
+            "5BV796ADt5yvDSEv": 117
+          }
+        }
+      },
+      {
+        "id": "qdm73aAiJIdIcfUe",
+        "title": "Text 6",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Example answers</p>"
+          ]
+        }
+      },
+      {
+        "id": "uVoLqBXAqPT3ivI_",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "IF-ypy8OGqpgwLEM": 146,
+            "56vtpglOK_svJFkA": 129,
+            "kMcM9e-kgPT2tjsB": 111,
+            "9xCbCljepDnRsgrU": 117
+          }
+        }
+      },
+      {
+        "id": "ECkhrNJQ1Uv11QP8",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Question</em></p><ul><li>Examine the patterns in the data in the table to describe the relationship between the area and diameter and radius of a circle.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "SBGl1Zs_kBrYMdoS",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Strategies for finding the area will vary. Possible strategies include counting unit squares inside the circle.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "w5WadI7ckZD6Epqr",
+          "providerId": "gHg_9qi78WoyBNRj",
+          "dataSet": {
+            "id": "u27yQbXeyxMhCJVd",
+            "name": "Paper Towel Experiment",
+            "attributes": [
+              {
+                "id": "nZivHrUlRr-cyI_O",
+                "clientKey": "",
+                "name": "Circular Samples",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Sample 1",
+                  "Sample 2",
+                  "Sample 3",
+                  "Sample 4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "APZ3FC2RAH4587cv",
+                "clientKey": "",
+                "name": "Diameter (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "DDWy3Z0dKxrMCaFb",
+                "clientKey": "",
+                "name": "Radius (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "5BV796ADt5yvDSEv",
+                "clientKey": "",
+                "name": "Area (cm^2)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "K35p2kZZusf3CfoR"
+              },
+              {
+                "__id__": "AC0E6LUbrGwWZvSv"
+              },
+              {
+                "__id__": "zQvl6TiePhM0c5kr"
+              },
+              {
+                "__id__": "AauWteK7T_oWxQF8"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "gHg_9qi78WoyBNRj"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "6tsb4SL3Fsm62fEn",
+          "providerId": "uVoLqBXAqPT3ivI_",
+          "dataSet": {
+            "id": "dCZt30dd2zuDh6u6",
+            "name": "Paper Towel Experiment",
+            "attributes": [
+              {
+                "id": "IF-ypy8OGqpgwLEM",
+                "clientKey": "",
+                "name": "Circular Samples",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Sample 1",
+                  "Sample 2",
+                  "Sample 3",
+                  "Sample 4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "56vtpglOK_svJFkA",
+                "clientKey": "",
+                "name": "Diameter (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "3",
+                  "2",
+                  "2.5",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "kMcM9e-kgPT2tjsB",
+                "clientKey": "",
+                "name": "Radius (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1.5",
+                  "1",
+                  "1.25",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "9xCbCljepDnRsgrU",
+                "clientKey": "",
+                "name": "Area (cm^2)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "6.75",
+                  "3",
+                  "4.7",
+                  "12"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HR60YERYHBC767J2745SK565"
+              },
+              {
+                "__id__": "01HR60YERYHBC767J2745SK566"
+              },
+              {
+                "__id__": "01HR60YERYHBC767J2745SK567"
+              },
+              {
+                "__id__": "01HR60YERYHBC767J2745SK568"
+              }
+            ]
+          }
+        },
+        "provider": "uVoLqBXAqPT3ivI_",
+        "tiles": [
+          "uVoLqBXAqPT3ivI_"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

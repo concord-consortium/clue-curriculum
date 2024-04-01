@@ -18,11 +18,19 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
-          "link-tile",
+          [
+            "data-set-view",
+            "graph"
+          ],
           "delete"
         ]
       },
       "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
         "defaultAxisLabels": {
           "bottom": "time",
           "left": "Signal"
@@ -37,6 +45,14 @@
         "maxTiles": 1
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Decomposition",
+      "converging": "Pattern Recognition",
+      "materials": "Abstraction/Generalization",
+      "physical": "Algorithmic Thinking"
+    },
+    "tagPrompt": "Computational Thinking",
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
@@ -165,6 +181,19 @@
               ],
               "properties": [
                 "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Custom Lessons",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
                 "!isDeleted"
               ]
             },
@@ -442,6 +471,61 @@
             "investigation-2/problem-4/intro/content.json",
             "investigation-2/problem-4/labWork/content.json",
             "investigation-2/problem-4/reflection/content.json"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Investigation 3",
+      "ordinal": 3,
+      "title": "Module 3: Microcontrollers",
+      "problems": [
+        {
+          "description": "Lesson 3.1",
+          "ordinal": 1,
+          "title": "Lesson 3.1 - Electrical Circuits",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-1/intro/content.json",
+            "investigation-3/problem-1/labWork/content.json",
+            "investigation-3/problem-1/reflection/content.json"
+          ]
+        },
+        {
+          "description": "Lesson 3.2",
+          "ordinal": 2,
+          "title": "Lesson 3.2 - Systems of Circuits",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-2/intro/content.json",
+            "investigation-3/problem-2/labWork/content.json",
+            "investigation-3/problem-2/reflection/content.json"
+          ]
+        },
+        {
+          "description": "Lesson 3.3",
+          "ordinal": 3,
+          "title": "Lesson 3.3 - From Electricity to Data",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-3/intro/content.json",
+            "investigation-3/problem-3/labWork/content.json",
+            "investigation-3/problem-3/reflection/content.json"
+          ]
+        },
+        {
+          "description": "Lesson 3.4",
+          "ordinal": 4,
+          "title": "Lesson 3.4 - From Data to Motion",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-4/intro/content.json",
+            "investigation-3/problem-4/labWork/content.json",
+            "investigation-3/problem-4/reflection/content.json"
           ]
         }
       ]

@@ -505,6 +505,30 @@
                 "snapSizeX": 0.1,
                 "snapSizeY": 0.1
               }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -1.6920330953661662,
+                7.996003284665157
+              ],
+              "properties": {
+                "id": "6GNDYG3ymb81ul6J",
+                "text": "Cost with Fee",
+                "anchor": "r-IQhXBhfEdAxNdj"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                0.9563200417356621,
+                -6.650260758823471
+              ],
+              "properties": {
+                "id": "tWuiDcgax3XHEUx1",
+                "text": "Cost of Tickets",
+                "anchor": "CoHfUHot7WXIJmLy"
+              }
             }
           ]
         }
@@ -578,7 +602,7 @@
         }
       },
       {
-        "id": "TILEzggt09LHgVC0",
+        "id": "faRY_ZHFNl6Aeor2",
         "title": "Cost of Tickets from Box Office",
         "content": {
           "type": "Geometry",
@@ -589,8 +613,8 @@
                 -5
               ],
               "axisRange": [
-                6.094,
-                168.153
+                8.5,
+                145
               ],
               "axisNames": [
                 "x",
@@ -670,7 +694,7 @@
                 0
               ],
               "properties": {
-                "id": "L3krMtgjXEW8210S",
+                "id": "3bLAZT5qBJJrXdDs",
                 "name": "(0, 0)",
                 "snapToGrid": true,
                 "snapSizeX": 0.1,
@@ -684,7 +708,7 @@
                 30
               ],
               "properties": {
-                "id": "2CErD77hDBQu7nYW",
+                "id": "peUSNU92ssK4Glj9",
                 "name": "(1, 30)",
                 "snapToGrid": true,
                 "snapSizeX": 0.1,
@@ -698,11 +722,35 @@
                 60
               ],
               "properties": {
-                "id": "8BJDzJvH7mApQ1xd",
+                "id": "1r6ZiB2G03Nr7Z1-",
                 "name": "(2, 60)",
                 "snapToGrid": true,
                 "snapSizeX": 0.1,
                 "snapSizeY": 0.1
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                -1.6920330953661662,
+                7.996003284665157
+              ],
+              "properties": {
+                "id": "6GNDYG3ymb81ul6J",
+                "text": "Cost with Fee",
+                "anchor": "r-IQhXBhfEdAxNdj"
+              }
+            },
+            {
+              "type": "comment",
+              "parents": [
+                0.9563200417356621,
+                -6.650260758823471
+              ],
+              "properties": {
+                "id": "tWuiDcgax3XHEUx1",
+                "text": "Cost of Tickets",
+                "anchor": "CoHfUHot7WXIJmLy"
               }
             }
           ]
@@ -739,61 +787,23 @@
         }
       },
       {
-        "id": "TUN2Wpa6CM5XQnTm",
+        "id": "gwdfmTPHIgFEVakg",
+        "title": "Examples from Little Giant Store",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><em>Little Giant Store</em></p>"
-          ]
+          "type": "Image",
+          "url": "cas/images/cas-12.png",
+          "filename": "cas/images/cas-12.png"
         }
       },
-      [
-        {
-          "id": "hLX-yEKDcR36QXif",
-          "title": "Little Giant 1",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/TG_2-3_LittleGiantStore_1.png"
-          }
-        },
-        {
-          "id": "ZZXAbF4pFSNVn6l5",
-          "title": "Little Giant 2",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/TG_2-3_LittleGiantStore_2.png"
-          }
-        }
-      ],
       {
-        "id": "9D2bcPZkIwzRmDuE",
+        "id": "H4HYbqIbSQI5kZgs",
+        "title": "Examples from Food Fresh Store",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Foodfresh Store</p>"
-          ]
+          "type": "Image",
+          "url": "cas/images/cas-12.png",
+          "filename": "cas/images/cas-12.png"
         }
       },
-      [
-        {
-          "id": "UfjyujhivqFFk_2-",
-          "title": "Food Fresh 1",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/TG_2-3_FoodFreshStore_1.png"
-          }
-        },
-        {
-          "id": "Xgz8CJ9rdaSSZ6HL",
-          "title": "Food Fresh 2",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/TG_2-3_FoodFreshStore_2.png"
-          }
-        }
-      ],
       {
         "id": "TILE5kFyBH4Q6Q15",
         "display": "teacher",
@@ -843,12 +853,12 @@
               {
                 "id": "3fce6Hwgb3ECc3RH",
                 "clientKey": "",
-                "name": "Total Cost ",
+                "name": "Cost of Tickets",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  "1",
+                  "0",
                   "30",
                   "40"
                 ],
@@ -975,8 +985,8 @@
         },
         "text": "x4",
         "textOffset": {
-          "dx": 33,
-          "dy": -1305.5
+          "dx": 36,
+          "dy": -1.5
         },
         "type": "arrowAnnotation"
       },
@@ -1002,8 +1012,8 @@
         },
         "text": "NOT x4",
         "textOffset": {
-          "dx": 33,
-          "dy": -1305.5
+          "dx": 84,
+          "dy": -0.5
         },
         "type": "arrowAnnotation"
       }

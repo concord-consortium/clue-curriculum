@@ -1,1 +1,88 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "EtUqsd0banyg9piE",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>A cylinder has a radius of 5 cm and a height of 12 cm. </p>"
+          ]
+        }
+      },
+      {
+        "id": "CVHHEGHH8VhwxXRD",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>What is its volume?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "fss5l-ptcQf9lObP",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The area of the base of the cylinder is 5 x 5 x π cm<sup>2</sup>, so the volume of the cylinder is 5 x 5 x π x 12 = 300π cm<sup>3</sup> (or about 942 cm<sup>3</sup>).</p>"
+          ]
+        }
+      },
+      {
+        "id": "HRbUm33yajB2c9O9",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Which change in the dimensions of the cylinder would cause the greater change in volume: doubling the height or doubling the radius?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "E_GPaxqw1TQE48Sm",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Doubling the radius. If you double the height, it will be 24 cm. Then, the volume will be 5 x 5 x p x 24 = 600p cm<sup>3</sup>. </p><p>If you double the radius, it will be 10 cm. Then, the volume will be 10 x 10 x p x 12 = 1200p cm<sup>3</sup>, which is bigger than 600p. </p>"
+          ]
+        }
+      },
+      {
+        "id": "_iBlG_xIHKMOZ75I",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>By what factor is the volume increased if both the radius and the height are increased by a factor of 2? By a factor of 3? Explain.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "KxwK4BKiPxI4J3QU",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>When the radius of a cylinder is <em>r</em> and its height is <em>h</em>, then the volume of the cylinder is<em> r × r × h × π</em>. If the radius increases by 2 and the height increases by 2, then the volume will be 2r × 2r × <em>π</em> × 2h = 8× r × r × h × π. This is 8 (or 2<sup>3</sup>) times bigger than the original cylinder. If the radius increases by 3 and the height increases by 3, then the volume will be 3r × 3r × π × 3h = 27× r × r × h × π. This is 27 (or 3<sup>3</sup>) times bigger than the original cylinder.</p>"
+          ]
+        }
+      }
+    ]
+  },
+  "supports": []
+}

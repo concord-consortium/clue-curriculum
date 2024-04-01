@@ -9,9 +9,502 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>--- under development (see student-facing lesson) ---</p>"
+            "<p><a href=\"https://drive.google.com/file/d/1GudTSgfuwC2-gjhbuWMFWjbaDCzcABre/view?usp=sharing\">Teacher Guide for 2.3</a> (video)</p><p><a href=\"https://drive.google.com/file/d/1K5w6F6-4cTKv7hxIDgYantREk4ex_OvN/view?usp=sharing\">Solution Explanation </a> (video)</p>"
           ]
         }
+      },
+      {
+        "id": "HG_H0rOI6Vcq_56u",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You can share the following solution with you students by publishing it. Your solution will show in the &#x27;extensions&#x27; tab &gt;&gt; custom lessons. </p>"
+          ]
+        }
+      },
+      {
+        "id": "k5-I_8uOa4E-ZLjG",
+        "title": "Publishing a workspace",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/teach.jpg",
+          "filename": "brain/images/teach.jpg"
+        }
+      },
+      {
+        "id": "mugq_XcqX3Qcl2WD",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Solution: </strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "PsXqqiO26I-DWyeq",
+        "content": {
+          "type": "Dataflow",
+          "programDataRate": 100,
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 0.5999999999999996
+          },
+          "program": {
+            "values": {
+              "1": {
+                "currentValues": {}
+              },
+              "3": {
+                "currentValues": {}
+              },
+              "4": {
+                "currentValues": {
+                  "nodeValue": 400
+                }
+              },
+              "5": {
+                "currentValues": {}
+              },
+              "6": {
+                "currentValues": {}
+              },
+              "7": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              },
+              "8": {
+                "currentValues": {
+                  "nodeValue": 20
+                }
+              },
+              "9": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              },
+              "10": {
+                "currentValues": {}
+              }
+            },
+            "id": "dataflow@0.1.0",
+            "nodes": {
+              "1": {
+                "id": 1,
+                "name": "Sensor",
+                "x": 40,
+                "y": 5,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "3-undefined-num1": {
+                        "node": 3,
+                        "input": "num1",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 1",
+                  "type": "emg-reading",
+                  "sensor": "SIMemg_key",
+                  "virtual": false
+                }
+              },
+              "3": {
+                "id": 3,
+                "name": "Math",
+                "x": 264.4830729166667,
+                "y": 47.584716796875,
+                "inputs": {
+                  "num1": {
+                    "connections": {
+                      "1-num-undefined": {
+                        "node": 1,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  },
+                  "num2": {
+                    "connections": {
+                      "4-num-undefined": {
+                        "node": 4,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "5-undefined-num1": {
+                        "node": 5,
+                        "input": "num1",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Math 2",
+                  "mathOperator": "Divide"
+                }
+              },
+              "4": {
+                "id": 4,
+                "name": "Number",
+                "x": 37.820068359375014,
+                "y": 160.78157552083334,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "3-undefined-num2": {
+                        "node": 3,
+                        "input": "num2",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 3",
+                  "nodeValueUnits": ""
+                }
+              },
+              "5": {
+                "id": 5,
+                "name": "Transform",
+                "x": 487.3881239330892,
+                "y": 52.99964442405829,
+                "inputs": {
+                  "num1": {
+                    "connections": {
+                      "3-num-undefined": {
+                        "node": 3,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "6-undefined-num2": {
+                        "node": 6,
+                        "input": "num2",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Transform 4",
+                  "transformOperator": "Ramp"
+                }
+              },
+              "6": {
+                "id": 6,
+                "name": "Control",
+                "x": 679.5511881510417,
+                "y": 218.83186848958334,
+                "inputs": {
+                  "num2": {
+                    "connections": {
+                      "5-num-undefined": {
+                        "node": 5,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  },
+                  "num1": {
+                    "connections": {
+                      "9-num-undefined": {
+                        "node": 9,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "10-undefined-nodeValue": {
+                        "node": 10,
+                        "input": "nodeValue",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Hold 5",
+                  "controlOperator": "Hold Prior"
+                }
+              },
+              "7": {
+                "id": 7,
+                "name": "Sensor",
+                "x": 33.796915690104186,
+                "y": 328.35400390625,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "9-undefined-num1": {
+                        "node": 9,
+                        "input": "num1",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 6",
+                  "type": "fsr-reading",
+                  "sensor": "SIMpressure_key",
+                  "virtual": false
+                }
+              },
+              "8": {
+                "id": 8,
+                "name": "Number",
+                "x": 36.161336263020885,
+                "y": 488.66455078125017,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "9-undefined-num2": {
+                        "node": 9,
+                        "input": "num2",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 7",
+                  "nodeValueUnits": ""
+                }
+              },
+              "9": {
+                "id": 9,
+                "name": "Logic",
+                "x": 275.64046223958337,
+                "y": 386.68107096354163,
+                "inputs": {
+                  "num1": {
+                    "connections": {
+                      "7-num-undefined": {
+                        "node": 7,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  },
+                  "num2": {
+                    "connections": {
+                      "8-num-undefined": {
+                        "node": 8,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {
+                      "6-undefined-num1": {
+                        "node": 6,
+                        "input": "num1",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Logic 8",
+                  "logicOperator": "Greater Than"
+                }
+              },
+              "10": {
+                "id": 10,
+                "name": "Live Output",
+                "x": 907.1651017743538,
+                "y": 203.52114295226255,
+                "inputs": {
+                  "nodeValue": {
+                    "connections": {
+                      "6-num-undefined": {
+                        "node": 6,
+                        "output": "num",
+                        "data": {}
+                      }
+                    }
+                  }
+                },
+                "outputs": {},
+                "data": {
+                  "orderedDisplayName": "Live Output 9",
+                  "outputType": "Gripper 2.0",
+                  "hubSelect": "Simulated Gripper",
+                  "liveOutputType": "Gripper 2.0"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "PCnfGR_np0js30tO",
+        "title": "Simulation 1",
+        "content": {
+          "type": "Simulator",
+          "simulation": "EMG_and_claw"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "rWOsiICLvceBb5BQ",
+          "providerId": "PsXqqiO26I-DWyeq",
+          "dataSet": {
+            "id": "p-jd6_nPuzbUcPBM",
+            "name": "Program 1",
+            "attributes": [],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "PsXqqiO26I-DWyeq"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "Q8LFNJt1SGrJ2Ezd",
+          "variables": [
+            {
+              "id": "YRaoNKEL2DrXVNZw",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "rmUbx32bSC2aINA0",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 36,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "wFXzsKKtkkBjZokv",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "ymyY8N0vqDGezuHd",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 10,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "GS64JFfhLNp7FxBg",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 53,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "C5QkpRcC58832Czx",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "bKLpAn0MLu60xyxM",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "PCnfGR_np0js30tO",
+          "-bQohjopzRSMHLYu",
+          "PsXqqiO26I-DWyeq",
+          "mugq_XcqX3Qcl2WD",
+          "HG_H0rOI6Vcq_56u"
+        ]
       }
     ]
   },

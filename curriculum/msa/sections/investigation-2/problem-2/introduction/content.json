@@ -1,0 +1,234 @@
+{
+  "type": "introduction",
+  "content": {
+    "tiles": [
+      {
+        "id": "1PzGI_VHApygtsvN",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>All the linear relationships we have studied so far can be written in the form <em>y = ax</em>, <em>y = ax + b</em>, or <em>y = b + ax</em>. In these equations, <em>y</em> depends on <em>x</em>.</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "mOgMEZn6K7_fd7LM",
+          "title": "Equation of a Line (example)",
+          "content": {
+            "type": "Image",
+            "url": "msa/images/se-pic-4.png",
+            "filename": "msa/images/se-pic-4.png"
+          }
+        },
+        {
+          "id": "sMOh3bu_BUt8bMdn",
+          "title": "Text 2",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The coordinates of the y-intercept for the graph shown above are (0, <em>b</em>). To save time, we sometimes refer to the number <em>b</em>, rather than the coordinates of the point (0, <em>b</em>), as the y-intercept. </p><p>A coefficient is the number that multiplies a variable in an equation. The <em>a</em> in y = <em>a</em>x + b is the coefficient of x, so <em>a</em>x means <em>a</em> times x.</p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "XJsTwCA9QbQ_Se-z",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>A <strong>solution of an equation</strong> is an ordered pair that makes the equation true and lies on the graph of the line. For example, in the equation that represents the distance Henri walks </p><p>d<sub>Henri </sub>= 45 +<em> t</em>,</p><p>(0, 45) is a solution to the equation.</p><p>When the coordinate values are substituted into the equation it is a true statement; </p><p>(45) = 45 + (0)</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "_DK1Ol-rWakkGqAn",
+          "title": "Henri",
+          "content": {
+            "type": "Geometry",
+            "board": {
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1.2
+                ],
+                "axisRange": [
+                  62,
+                  61.2
+                ],
+                "axisNames": [
+                  "t",
+                  "d"
+                ],
+                "axisLabels": [
+                  "t",
+                  "d"
+                ]
+              }
+            },
+            "objects": [
+              {
+                "type": "movableLine",
+                "parents": [
+                  {
+                    "type": "point",
+                    "parents": [
+                      0,
+                      45
+                    ]
+                  },
+                  {
+                    "type": "point",
+                    "parents": [
+                      9.305309734513273,
+                      54.30530973451327
+                    ]
+                  }
+                ],
+                "properties": {
+                  "id": "mGow_86RA0YeihFY",
+                  "pt1": {
+                    "type": "point",
+                    "id": "mGow_86RA0YeihFY-point1"
+                  },
+                  "pt2": {
+                    "type": "point",
+                    "id": "mGow_86RA0YeihFY-point2"
+                  }
+                }
+              }
+            ]
+          },
+          "layout": {
+            "height": 383
+          }
+        },
+        {
+          "id": "LXftOd808yytZsmF",
+          "title": "Henri",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "G5Yht2iJ9NA0M9rq": 133.15625,
+              "uDIv28Zkv3mlM0b9": 168.9375
+            },
+            "name": "Points on Henri's line"
+          }
+        }
+      ],
+      {
+        "id": "OB9hWapKR31kqNUy",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>What does the point (0, 45) represent in the context of the race?</em></p><p><em>If the coordinates of a point on the graph or values in the table are (t, 48), what is the value of t? </em></p><p><em>If the coordinates of a point on the graph or values in the table are (10, d), what is the value of d?</em></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "TVb-gjp4-jaKmvWR",
+          "providerId": "LXftOd808yytZsmF",
+          "dataSet": {
+            "id": "cTELP6tElbdV8Aew",
+            "name": "Points on Henri's line",
+            "attributes": [
+              {
+                "id": "G5Yht2iJ9NA0M9rq",
+                "clientKey": "",
+                "name": "Time (seconds)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40"
+                ],
+                "title": ""
+              },
+              {
+                "id": "uDIv28Zkv3mlM0b9",
+                "clientKey": "",
+                "name": "Henri's Distance (meters)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "45",
+                  "55",
+                  "65",
+                  "75",
+                  "85"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HEXJBZ8CW54MS2P5CKR00695"
+              },
+              {
+                "__id__": "01HEXJBZ8CW54MS2P5CKR00696"
+              },
+              {
+                "__id__": "01HEXJBZ8CW54MS2P5CKR00697"
+              },
+              {
+                "__id__": "01HEXJBZ8CW54MS2P5CKR00698"
+              },
+              {
+                "__id__": "01HEXJBZ8CW54MS2P5CKR00699"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "LXftOd808yytZsmF"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "67nkB1JVcaYCY2Po",
+        "sourceObject": {
+          "tileId": "LXftOd808yytZsmF",
+          "objectId": "cell:{01HEXJBZ8CW54MS2P5CKR00695}:{G5Yht2iJ9NA0M9rq}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "LXftOd808yytZsmF",
+          "objectId": "cell:{01HEXJBZ8CW54MS2P5CKR00695}:{uDIv28Zkv3mlM0b9}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "(0,45) on the table",
+        "textOffset": {
+          "dx": 8.999999999999986,
+          "dy": -76.5234375
+        },
+        "type": "arrowAnnotation"
+      }
+    ]
+  }
+}

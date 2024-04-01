@@ -12,130 +12,94 @@
           ]
         }
       },
-      {
-        "id": "TILEHQAe-yvAhi4H",
-        "title": "Bakery Income and Expenses",
-        "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -30,
-                -174.5
-              ],
-              "axisRange": [
-                702.5,
-                2389.2
-              ],
-              "axisNames": [
-                "Number of Cakes",
-                "Money"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    400,
-                    3280
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "ngkojjkNMKHF3m_6",
-                "pt1": {
-                  "type": "point",
-                  "id": "ngkojjkNMKHF3m_6-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "ngkojjkNMKHF3m_6-point2"
-                }
+      [
+        {
+          "id": "UgHgTsD7CQWCc1YH",
+          "title": "Bakery Income and Expenses",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRNR7h6ju-sVh8y",
+                "type": "Connecting Lines",
+                "isVisible": true
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": -10,
+                "max": 230
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -100,
+                "max": 1900
               }
             },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    825
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    400,
-                    2125
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRdln4WvvFioLk",
+                "config": {
+                  "id": "DCONfjSK6dYCQPKg",
+                  "dataset": "GSMdnquIp3rD09TK",
+                  "metadata": "taImn6UH-1wz3Fdx",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "EkGafng8bp3M1P8y"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "ExNfjZYSRxDVACRz"
+                    },
+                    {
+                      "attributeID": "92Zj7E5nA15B3laJ"
+                    }
                   ]
                 }
-              ],
-              "properties": {
-                "id": "dKlMnvf9fGjG-X2p",
-                "pt1": {
-                  "type": "point",
-                  "id": "dKlMnvf9fGjG-X2p-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "dKlMnvf9fGjG-X2p-point2"
-                }
               }
+            ],
+            "_idColors": {
+              "ExNfjZYSRxDVACRz": 0,
+              "92Zj7E5nA15B3laJ": 1
             },
-            {
-              "type": "point",
-              "parents": [
-                100,
-                1150
-              ],
-              "properties": {
-                "id": "n0pHZc6PcZ3jPh7b",
-                "name": "330"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                100,
-                820
-              ],
-              "properties": {
-                "id": "1PW_Pxkdg6zlk5Kf",
-                "name": ""
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "n0pHZc6PcZ3jPh7b",
-                "1PW_Pxkdg6zlk5Kf"
-              ],
-              "properties": {
-                "id": "DuWRMT5Bx5rWTimx"
-              }
-            }
-          ]
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Number of Cakes",
+            "yAttributeLabel": "Money"
+          }
         },
-        "layout": {
-          "height": 350
+        {
+          "id": "n6rdEMQlnmqWUv5d",
+          "title": "Bakery Income and Expenses",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "EkGafng8bp3M1P8y": 80,
+              "ExNfjZYSRxDVACRz": 80,
+              "92Zj7E5nA15B3laJ": 80
+            },
+            "name": "Table 1"
+          }
         }
-      },
+      ],
       {
         "id": "TILEsTGkpR30JJKf",
         "content": {
@@ -144,6 +108,15 @@
           "text": [
             "<p>Profit occurs when expenses are less than income, or when income is greater than expenses. Use the graph to show that the expenses exceed the income if Fabian makes and sells 100 cakes. Mark the difference with a vertical line segment between the point (100, 1150) on the graph of E and the point (100, 820) on the graph of I. Some students may be ready to interpret the vertical distance symbolically.</p>"
           ]
+        }
+      },
+      {
+        "id": "nhi7nlgutJ337u8y",
+        "title": "Expenses and Profit for 100 cakes",
+        "content": {
+          "type": "Image",
+          "url": "msa/images/tg-pic-20.png",
+          "filename": "msa/images/tg-pic-20.png"
         }
       },
       {
@@ -179,124 +152,12 @@
         }
       },
       {
-        "id": "am6mpA4uk_ygPDyA",
+        "id": "dLC5-9mKT6nxzjH4",
         "title": "Bakery Income and Expenses",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -71.6,
-                -330.2
-              ],
-              "axisRange": [
-                702.4,
-                2154.9
-              ],
-              "axisNames": [
-                "Number of Cakes",
-                "Money"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
-            }
-          },
-          "objects": [
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    400,
-                    3280
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "NAsvH63dKtY1VXOW",
-                "pt1": {
-                  "type": "point",
-                  "id": "NAsvH63dKtY1VXOW-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "NAsvH63dKtY1VXOW-point2"
-                }
-              }
-            },
-            {
-              "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    825
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    400,
-                    2125
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "GpLVqCCXuUxEBpT5",
-                "pt1": {
-                  "type": "point",
-                  "id": "GpLVqCCXuUxEBpT5-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "GpLVqCCXuUxEBpT5-point2"
-                }
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                100,
-                1150
-              ],
-              "properties": {
-                "id": "pyX7sb2hUd6B_yaF",
-                "name": "330"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                100,
-                820
-              ],
-              "properties": {
-                "id": "5QsKfNB6XQRa_tqf",
-                "name": ""
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "pyX7sb2hUd6B_yaF",
-                "5QsKfNB6XQRa_tqf"
-              ],
-              "properties": {
-                "id": "geLu6CcdstQVfCPI"
-              }
-            }
-          ]
+          "type": "Image",
+          "url": "msa/images/tg-pic-21.png",
+          "filename": "msa/images/tg-pic-21.png"
         }
       },
       {
@@ -349,6 +210,157 @@
             "<p><strong>Reflecting on Student Learning </strong></p><p>Use the following questions to assess student understanding at the end of the lesson.</p><ul><li>What evidence do I have that students understand the Now What Do You Know?</li><ol><li>Where did my students get stuck?</li><li>What strategies did they use?</li><li>What breakthroughs did my students have today?</li></ol><li>How will I use this to plan for tomorrow? For the next time I teach this lesson?</li><li>Where will I have the opportunity to reinforce these ideas as I continue through this Unit?The next Unit?<strong></strong></li></ul>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Tg_ViN0smvpkAJ1a",
+          "providerId": "n6rdEMQlnmqWUv5d",
+          "dataSet": {
+            "id": "GSMdnquIp3rD09TK",
+            "name": "Table 1",
+            "attributes": [
+              {
+                "id": "EkGafng8bp3M1P8y",
+                "clientKey": "",
+                "name": "Number of Cakes",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "20",
+                  "40",
+                  "60",
+                  "80",
+                  "100",
+                  "120",
+                  "140",
+                  "160",
+                  "180",
+                  "200"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ExNfjZYSRxDVACRz",
+                "clientKey": "",
+                "name": "Income",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "8.2*x",
+                  "canonical": "(8.2 * __x__)"
+                },
+                "values": [
+                  0,
+                  164,
+                  328,
+                  491.99999999999994,
+                  656,
+                  819.9999999999999,
+                  983.9999999999999,
+                  1148,
+                  1312,
+                  1475.9999999999998,
+                  1639.9999999999998
+                ],
+                "title": ""
+              },
+              {
+                "id": "92Zj7E5nA15B3laJ",
+                "clientKey": "",
+                "name": "Expenses",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "3.25*x+825",
+                  "canonical": "((3.25 * __x__) + 825)"
+                },
+                "values": [
+                  825,
+                  890,
+                  955,
+                  1020,
+                  1085,
+                  1150,
+                  1215,
+                  1280,
+                  1345,
+                  1410,
+                  1475
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "09kGcKM2OUQVKP9F"
+              },
+              {
+                "__id__": "PhKTS5afiCsNGjDo"
+              },
+              {
+                "__id__": "C-qk0bQX6eABZFdj"
+              },
+              {
+                "__id__": "Nkh7z2jY8eUxt1eQ"
+              },
+              {
+                "__id__": "DkpkNTGJkg-77BZx"
+              },
+              {
+                "__id__": "ohjUF8py3ypOmXf0"
+              },
+              {
+                "__id__": "bT0UHkACEueDsgQ5"
+              },
+              {
+                "__id__": "h-o8pQnm7H257xQU"
+              },
+              {
+                "__id__": "2f2jH5m1hy_2aJWK"
+              },
+              {
+                "__id__": "JY0PpItCEIFV6sgc"
+              },
+              {
+                "__id__": "ufDEF77Zd7cix1bd"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "n6rdEMQlnmqWUv5d",
+          "UgHgTsD7CQWCc1YH"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "taImn6UH-1wz3Fdx",
+          "data": "GSMdnquIp3rD09TK",
+          "collections": {},
+          "categories": {
+            "EkGafng8bp3M1P8y": {
+              "attribute": "EkGafng8bp3M1P8y",
+              "colors": {},
+              "moves": []
+            },
+            "ExNfjZYSRxDVACRz": {
+              "attribute": "ExNfjZYSRxDVACRz",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "UgHgTsD7CQWCc1YH"
+        ]
       }
     ]
   }

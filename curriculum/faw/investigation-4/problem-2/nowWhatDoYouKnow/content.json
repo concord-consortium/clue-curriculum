@@ -1,1 +1,89 @@
-{"type": "nowWhatDoYouKnow", "content": {"tiles": [], "supports": []}}
+{
+  "type": "nowWhatDoYouKnow",
+  "content": {
+    "tiles": [
+      {
+        "id": "NT_UCtzpNJOjvE9V",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>If a sphere and a cone have the same dimensions as a cylinder, how do the volumes compare? What formulas for the volume of a sphere and the volume of a cone can you write using these relationships?</p>"
+          ]
+        }
+      },
+      {
+        "id": "XaXu48gd9UhhNn7o",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To compare their volumes, it is important to make sure that they all have the same height and the same radius of circle. Let’s say r refers to the radius of a sphere.</p><p>For a cylinder: the radius of base circle = <em>r</em> and the height = 2<em>r</em></p><p>For a cone: the radius of base circle = <em>r</em> and the height = 2<em>r</em></p><p>Then, </p>"
+          ]
+        }
+      },
+      {
+        "id": "1-dy8wh2JGC1X6kO",
+        "title": "volume of a cylinder",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\left(\\pi\\times r\\times r\\right)\\times2r=2\\pi r^3"
+        }
+      },
+      {
+        "id": "1lnUfhbfHuW1VZHV",
+        "title": "volume of a cone",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "2\\pi r^3\\times\\frac13=\\frac23\\pi r^3"
+        }
+      },
+      {
+        "id": "yG4gBLoFTvzZai0K",
+        "title": "volume of a sphere",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "2\\pi r^3\\times\\frac23=\\frac43\\pi r^3"
+        }
+      },
+      {
+        "id": "VAK9YHXLFCPmbbEe",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Note: </em>In Grade 8, Say It with Symbols, students will look at the volume of cylinders with and without comparing them to spheres.</p>"
+          ]
+        }
+      },
+      {
+        "id": "oceHPSSoExYY5w0H",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Did You Know? </strong></p><p>To find the volume of three-dimensional objects that do not have regular shapes, we can use the concept of volume displacement. For this method, we submerge the object in a liquid and measure how much the liquid level raises. The increase in volume level of the liquid will represent the volume of the irregular solid using units like milliliters or gallons. You may have used this concept without even realizing it!  For example, we often fill a cup with ice before filling it with soda or water to avoid overflowing. Similarly, bathroom tubs often have a hole near the top. This helps so when we get in to take a bath water can drain out the hole rather than spilling out onto the floor. The rising water level when you take a bath is actually measuring the volume of your body.</p><p>According to legend, this phenomenon was known by Archimedes (ahr kuh MEE deez). He made an important discovery while taking a bath in the third century b.c. He noticed that the water level rose when he sat down in a tub. He determined that he could find the weight of any floating object by finding the weight of the water that the object displaced. It is said that Archimedes was so excited about his discovery that he jumped from his bath and, without dressing, ran into the streets shouting “Eureka!,” which means “I have found it!”</p>"
+          ]
+        }
+      },
+      {
+        "id": "QK1KxrpTaYvbCgzc",
+        "title": "Volume Displacement",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/beak.png",
+          "filename": "faw/images/beak.png"
+        }
+      }
+    ]
+  }
+}
