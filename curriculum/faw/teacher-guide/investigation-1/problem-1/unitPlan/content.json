@@ -746,15 +746,6 @@
       },
       [
         {
-          "id": "xfgVv2ZikL50w-zF",
-          "title": "Base area",
-          "content": {
-            "type": "Image",
-            "url": "faw/images/tg-unit-plan-pic-10.png",
-            "filename": "faw/images/tg-unit-plan-pic-10.png"
-          }
-        },
-        {
           "id": "5s6qC8eRpKxlnEzD",
           "title": "Text 33",
           "content": {
@@ -764,18 +755,18 @@
               "<p>Base area = πr<sup>2</sup></p>"
             ]
           }
+        },
+        {
+          "id": "xfgVv2ZikL50w-zF",
+          "title": "Base area",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-10.png",
+            "filename": "faw/images/tg-unit-plan-pic-10.png"
+          }
         }
       ],
       [
-        {
-          "id": "Y1tZoWXwa5LLltFG",
-          "title": "Volume",
-          "content": {
-            "type": "Image",
-            "url": "faw/images/tg-unit-plan-pic-11.png",
-            "filename": "faw/images/tg-unit-plan-pic-11.png"
-          }
-        },
         {
           "id": "o03wZnRFZI0gy6bZ",
           "title": "Text 34",
@@ -786,18 +777,18 @@
               "<p>Volume = Base area x height </p><p>= πr<sup>2</sup>h</p><p></p>"
             ]
           }
+        },
+        {
+          "id": "Y1tZoWXwa5LLltFG",
+          "title": "Volume",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-11.png",
+            "filename": "faw/images/tg-unit-plan-pic-11.png"
+          }
         }
       ],
       [
-        {
-          "id": "6ZJDK7y2ZXU9zhXX",
-          "title": "Lateral Area",
-          "content": {
-            "type": "Image",
-            "url": "faw/images/tg-unit-plan-pic-12.png",
-            "filename": "faw/images/tg-unit-plan-pic-12.png"
-          }
-        },
         {
           "id": "rNqecVWR99dsD_J5",
           "title": "Text 35",
@@ -807,6 +798,15 @@
             "text": [
               "<p>Surface Area = Lateral area + 2 base areas</p><p>= 2πrh + 2 πr<sup>2</sup></p><p></p>"
             ]
+          }
+        },
+        {
+          "id": "6ZJDK7y2ZXU9zhXX",
+          "title": "Lateral Area",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-12.png",
+            "filename": "faw/images/tg-unit-plan-pic-12.png"
           }
         }
       ],
@@ -822,8 +822,81 @@
         }
       },
       {
+        "id": "iQ9Dn0Recd7eQ-NV",
+        "title": "Example Cylinder",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/tg-unit-plan-pic-13.png",
+          "filename": "faw/images/tg-unit-plan-pic-13.png"
+        }
+      },
+      {
         "id": "cRXH9d40wweyhohp",
         "title": "Text 30",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>If the circumference of the base is 60 units, then the radius is 9.55 units and the base area, A, is 286.5 square units (See previous section &quot;Measuring Circles&quot;.) </p><p>V = Ah = 286.5h cubic units. </p><p>Surface area = 2(πr<sup>2</sup>) + Ch</p><p>= 2(286.5) + 60h square units</p><p> </p><p>If the height is 20 units, then the V = 5730 cubic units and S.A.surface area = 1773 square units.</p>"
+          ]
+        }
+      },
+      {
+        "id": "XxkZBA2LRXKAxttr",
+        "title": "Text 27",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Example:</u> Is possible to find another cylinder with the same volume, 5730 cubic units, as the above cylinder? Does it have the same surface area?</p><p>If V = 5730 and V = πr<sup>2</sup>h then h = 5730/( πr<sup>2</sup> ).</p><p>S.A.  = 2πr<sup>2</sup> + 2πrh. </p><p>Suppose r = 9, then h =  5730/( 81π)=22.5. </p><p>S.A. = 2π(81) + 2π(9)(22.5) = 1781.3. </p><p>This cylinder with a radius of 9 has the same volume but different surface area as the given cylinder.</p><p>The table below shows cylinders with radii less than and more than 9.55.  As radius increases, height decreases in order to keep the same volume, 5730 cubic units.</p>"
+          ]
+        }
+      },
+      {
+        "id": "f17ofgsoj_oL0JOQ",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "7PCMwn0Yqb91ktX5": 80,
+            "JnXTnDODNWwVuZzU": 80,
+            "IUftkwlgWmq7dfXV": 97.41796875
+          }
+        }
+      },
+      {
+        "id": "zxkq8ZKDEpC96WXd",
+        "title": "Text 37",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The surface areas vary. We see that as the radius increases beyond 9.55, the S.A. increases. </p><p>Below are sketches of nets for two cases, r = 10 and h = 18.44, and r = 20 and h = 4.55. We know they hold the same volume but the surface areas are dramatically different. </p>"
+          ]
+        }
+      },
+      {
+        "id": "_l076IT5utk3Nlc9",
+        "title": "Cylinders with same volume, different surface area",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/tg-unit-plan-pic-14.png",
+          "filename": "faw/images/tg-unit-plan-pic-14.png"
+        }
+      },
+      {
+        "id": "vq4hHIR-39p2pDtB",
+        "title": "Text 36",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Relationships among cylinders, cones, and spheres</strong></p><p>Using clay to make a sphere and paper filled with rice to make a cone, both with the same height and diameter as a given cylinder, students discover that the volumes are related.</p>"
+          ]
+        }
+      },
+      {
+        "id": "VBBeGBGPsXXBV3px",
+        "title": "Text 39",
         "content": {
           "type": "Text",
           "format": "html",
@@ -833,8 +906,8 @@
         }
       },
       {
-        "id": "XxkZBA2LRXKAxttr",
-        "title": "Text 27",
+        "id": "MlDa5Zj54K1J-Oql",
+        "title": "Text 38",
         "content": {
           "type": "Text",
           "format": "html",
@@ -908,6 +981,83 @@
             "<p><strong>Other Resources</strong></p><p>Click here to view the Family Letter for <em>Filling and Wrapping</em></p><p>Click here to view other CMP4 Field Test resources for <em>Filling and Wrapping</em> (including PDFs of curriculum, supporting Learning/Teaching Aids)</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "3inPkiG0n3OfcXwH",
+          "providerId": "f17ofgsoj_oL0JOQ",
+          "dataSet": {
+            "id": "DiZs_SRkS2OFP9j7",
+            "name": "Possible Cylinders",
+            "attributes": [
+              {
+                "id": "7PCMwn0Yqb91ktX5",
+                "clientKey": "",
+                "name": "Radius",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "9",
+                  "9.55",
+                  "10",
+                  "20"
+                ],
+                "title": ""
+              },
+              {
+                "id": "JnXTnDODNWwVuZzU",
+                "clientKey": "",
+                "name": "Height",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "22.5",
+                  "20",
+                  "18.24",
+                  "4.55"
+                ],
+                "title": ""
+              },
+              {
+                "id": "IUftkwlgWmq7dfXV",
+                "clientKey": "",
+                "name": "Surface Area",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1781.3",
+                  "1773",
+                  "1774.4",
+                  "3085"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "XD14MRHOzOKe5Y1V"
+              },
+              {
+                "__id__": "PJqtvUZdoPXio5Ef"
+              },
+              {
+                "__id__": "vxXOQM9p-__ThPLA"
+              },
+              {
+                "__id__": "ZsdOmdcBybn-E51u"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "f17ofgsoj_oL0JOQ"
+        ]
       }
     ]
   }
