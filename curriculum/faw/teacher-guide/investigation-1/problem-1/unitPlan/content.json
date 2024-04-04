@@ -1243,121 +1243,191 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Optimizing Volume or Surface Area</strong></p><p>In <em>Variables and Patterns</em> students explored the possible rectangular areas with a fixed perimeter. They found that a square surrounded more area than any rectangle with the same perimeter.</p><p><u>Example:</u> If regular prisms have the same perimeter, lateral area, and height, how do we maximize the volume? (See sketches in previous section for a perimeter of 60.)</p>"
+            "<p><strong>Optimizing Volume or Surface Area</strong></p><p>In <em>Variables and Patterns</em> students explored the possible rectangular areas with a fixed perimeter. They found that a square surrounded more area than any rectangle with the same perimeter.</p><p><u>Example:</u> If regular prisms have the same perimeter, lateral area, and height, how do we maximize the volume? (Recall the previous example for regular prisms with perimeter of 60.)</p>"
           ]
         }
       },
       {
-        "id": "8uBEeNXLDQNpXZWX",
-        "title": "Image 3",
+        "id": "syF3ozDJ9jDw_WcD",
+        "title": "Regular prism examples",
         "content": {
           "type": "Image",
-          "url": "faw/images/grid-paper-2.png",
-          "filename": "faw/images/grid-paper-2.png"
+          "url": "faw/images/tg-unit-plan-pic-4.png"
         }
       },
       {
-        "id": "tJqQw2FdqJ8fnJZl",
-        "title": "Base of triangular prism",
+        "id": "4ty0OzgUxtP42T-v",
+        "title": "Base area of triangular prism",
         "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "vector",
-              "id": "KZl_sTPqY5v8F0mC",
-              "x": 92.11631774902344,
-              "y": 165.7274169921875,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "dx": 48,
-              "dy": -75
-            },
-            {
-              "type": "image",
-              "id": "CNTYh-uoshS43Wwi",
-              "x": 0,
-              "y": 2,
-              "visible": true,
-              "url": "faw/images/grid-paper-2.png",
-              "filename": "grid-paper-2.png",
-              "width": 1352,
-              "height": 934
-            },
-            {
-              "type": "vector",
-              "id": "ostptMdLgnZSZN1N",
-              "x": 185.11631774902344,
-              "y": 164.7274169921875,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "dx": -46,
-              "dy": -74
-            },
-            {
-              "type": "vector",
-              "id": "rycBlqFWF3KRfeOt",
-              "x": 92.11631774902344,
-              "y": 165.7274169921875,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "dx": 93,
-              "dy": -1
-            }
+          "type": "Expression",
+          "latexStr": "BaseArea_{}=\\frac12\\left(20\\right)\\left(10\\sqrt3\\right)=173.2"
+        }
+      },
+      {
+        "id": "nRGEg9uZ8nQRSaUO",
+        "title": "Volume of triangular prism",
+        "content": {
+          "type": "Expression",
+          "latexStr": "V=173.2h"
+        }
+      },
+      {
+        "id": "zqQZS17q5mHIQ1E-",
+        "title": "Base area of rectangular prism",
+        "content": {
+          "type": "Expression",
+          "latexStr": "BaseArea=15^2=225"
+        }
+      },
+      {
+        "id": "I1iZ1PsrY_7IrhGC",
+        "title": "Volume of rectangular prism",
+        "content": {
+          "type": "Expression",
+          "latexStr": "V=225h"
+        }
+      },
+      {
+        "id": "mx5z6kP87OAnhh36",
+        "title": "Text 55",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>For the hexagonal prism, the base is made of 6 triangles which each have same area. So,</p>"
           ]
+        }
+      },
+      {
+        "id": "LhpV8QE6p7q-1wCD",
+        "title": "Base area of hexagonal prism",
+        "content": {
+          "type": "Expression",
+          "latexStr": "BaseArea=6\\left(\\frac12\\times10\\times5\\left.\\sqrt3\\right)\\right.=259.8"
+        }
+      },
+      {
+        "id": "2YuvJZsuW9bxrZhh",
+        "title": "Volume of hexagonal prism",
+        "content": {
+          "type": "Expression",
+          "latexStr": "V=259.8h"
+        }
+      },
+      {
+        "id": "k53pqIYfk2e32XKa",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Note:</u> To calculate the area of the triangle and hexagon we need the Pythagorean theorem. Estimates work.</p><p><em>In general, for the same perimeter, as the number of sides of the base increases the area increases, and so does the volume.</em></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "zVvU2OrtN0rsE6b2",
+          "title": "Text 53",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><u>Example:</u> Compare the volume of a cylinder with base perimeter 60 and height h to prisms with the same measurements.</p><p>We already calculated that if the circumference of a circle is 60 units, the radius will be 9.55 units. (See example in previous section)</p>"
+            ]
+          }
         },
-        "layout": {
-          "height": 236.00001525878906
+        {
+          "id": "16dWRJCxkOZOcMh6",
+          "title": "Circle with perimeter of 60 units",
+          "content": {
+            "type": "Drawing",
+            "objects": [
+              {
+                "type": "image",
+                "id": "VlOJbmseiZR17oAz",
+                "x": -1,
+                "y": -1,
+                "visible": true,
+                "url": "faw/images/grid-paper-2.png",
+                "filename": "grid-paper-2.png",
+                "width": 1352,
+                "height": 934
+              },
+              {
+                "type": "group",
+                "id": "GBGWTvA7fal_yTmh",
+                "x": -1,
+                "y": -71,
+                "visible": true,
+                "objects": [
+                  {
+                    "type": "vector",
+                    "id": "3w_WiG1h7JNKcwZV",
+                    "x": 137.77947998046875,
+                    "y": 140.7552032470703,
+                    "visible": true,
+                    "stroke": "#000000",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "dx": 70,
+                    "dy": 0
+                  },
+                  {
+                    "type": "text",
+                    "id": "2mAUt_uemywBAgaJ",
+                    "x": 136.77947998046875,
+                    "y": 100.75520324707031,
+                    "visible": true,
+                    "width": 53,
+                    "height": 30,
+                    "stroke": "#000000",
+                    "text": "r=9.55"
+                  },
+                  {
+                    "type": "ellipse",
+                    "id": "GrX7yUo8bEktNNoF",
+                    "x": 138.61631774902344,
+                    "y": 139.5416660308838,
+                    "visible": true,
+                    "stroke": "#eb0000",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "none",
+                    "rx": 69.5,
+                    "ry": 68.5
+                  }
+                ],
+                "objectExtents": {
+                  "3w_WiG1h7JNKcwZV": {
+                    "top": 0.5088579358845732,
+                    "right": 0.9975767067010454,
+                    "bottom": 0.5088579358845732,
+                    "left": 0.4939795843988871
+                  },
+                  "2mAUt_uemywBAgaJ": {
+                    "top": 0.21688713296486514,
+                    "right": 0.8680803038233476,
+                    "bottom": 0.43586523515464615,
+                    "left": 0.4867853397945706
+                  },
+                  "GrX7yUo8bEktNNoF": {
+                    "top": 0,
+                    "right": 1,
+                    "bottom": 1,
+                    "left": 0
+                  }
+                }
+              }
+            ]
+          },
+          "layout": {
+            "height": 258.9861145019531
+          }
         }
-      },
+      ],
       {
-        "id": "WrwCbB1Tv3V6fKTX",
-        "title": "Base of rectangular prism",
-        "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "image",
-              "id": "f1Fx7Pk8zutsDrtG",
-              "x": 0,
-              "y": 0,
-              "visible": true,
-              "url": "faw/images/grid-paper-2.png",
-              "filename": "grid-paper-2.png",
-              "width": 1352,
-              "height": 934
-            }
-          ]
-        }
-      },
-      {
-        "id": "1k93N4mlHF2SWHIQ",
-        "title": "Base of hexagonal prism",
-        "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "image",
-              "id": "0yH7e6fPo8QpdEAP",
-              "x": 0,
-              "y": 0,
-              "visible": true,
-              "url": "faw/images/grid-paper-2.png",
-              "filename": "grid-paper-2.png",
-              "width": 1352,
-              "height": 934
-            }
-          ]
-        }
-      },
-      {
-        "id": "zVvU2OrtN0rsE6b2",
-        "title": "Text 53",
+        "id": "Vit2-FkDgPHp5yZY",
+        "title": "Text 56",
         "content": {
           "type": "Text",
           "format": "html",
