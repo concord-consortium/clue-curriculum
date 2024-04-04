@@ -1075,23 +1075,25 @@
           ]
         }
       },
-      {
-        "id": "dnejlOrneH0VEr7F",
-        "title": "Original",
-        "content": {
-          "type": "Image",
-          "url": "faw/images/tg-unit-plan-pic-20.png",
-          "filename": "faw/images/tg-unit-plan-pic-20.png"
+      [
+        {
+          "id": "dnejlOrneH0VEr7F",
+          "title": "Original",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-20.png",
+            "filename": "faw/images/tg-unit-plan-pic-20.png"
+          }
+        },
+        {
+          "id": "-BlJ64McYnol5oql",
+          "title": "Original Cylinder Volume",
+          "content": {
+            "type": "Expression",
+            "latexStr": "V=\\pi r^2h"
+          }
         }
-      },
-      {
-        "id": "-BlJ64McYnol5oql",
-        "title": "Original Cylinder Volume",
-        "content": {
-          "type": "Expression",
-          "latexStr": "V=\\pi r^2h"
-        }
-      },
+      ],
       {
         "id": "_JbIfmHYYWA5DYZz",
         "title": "Double the height only",
@@ -1144,7 +1146,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>When you double the radius of the cylinder, the volume is multiplied by 4.</p>"
+            "<p>When you double the radius of the cylinder, the volume is multiplied by 4.</p><p><em>In general, scaling the height by a factor of n will change the volume of a cylinder by the same factor n. Scaling the radius by a factor of n will change the volume by a factor of n</em><sup><em>2</em></sup><em>.</em></p>"
           ]
         }
       },
@@ -1155,13 +1157,218 @@
           "type": "Text",
           "format": "html",
           "text": [
+            "<p><strong>Spatial visualization </strong></p><p>We know that if you slice a right prism horizontally then all the cross sections will be identical to the bases. That is, part of the definition of a right prism and the calculation of volume depends on this idea of identical layers. </p><p>But what if we slice the prism at another angle? A slice is like a plane intersecting the figure. </p><p><u>Example:</u> What are some shapes that are possible for a slice across a rectangular right prism? </p><p>It is important to note the number of faces intersected by the slice. Some possibilities are:</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "2-HN8dEj6MGEjTJP",
+          "title": "3 faces intersected",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-23.png",
+            "filename": "faw/images/tg-unit-plan-pic-23.png"
+          }
+        },
+        {
+          "id": "395D7Db8UhmgqymV",
+          "title": "4 faces intersected",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-24.png",
+            "filename": "faw/images/tg-unit-plan-pic-24.png"
+          }
+        },
+        {
+          "id": "RXAI2BFB7atlPURh",
+          "title": "5 faces intersected",
+          "content": {
+            "type": "Image",
+            "url": "faw/images/tg-unit-plan-pic-25.png",
+            "filename": "faw/images/tg-unit-plan-pic-25.png"
+          }
+        }
+      ],
+      [
+        {
+          "id": "k48ACH6_Gj-Qed3p",
+          "title": "Text 49",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Triangle</p><p>Scalene</p>"
+            ]
+          }
+        },
+        {
+          "id": "BixMbxnKhitvTfKa",
+          "title": "Text 50",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Quadrilateral</p><p>Opposite sides are parallel and angles are all right angles. This is a rectangle.</p>"
+            ]
+          }
+        },
+        {
+          "id": "8MzdIlzl3VPaeeDs",
+          "title": "Text 51",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Pentagon</p><p>Not regular</p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "CeIZA8Amp3ZDVKP6",
+        "title": "Text 26",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Note:</u> Other triangles, quadrilaterals (non-rectangular), pentagons, and hexagons are also possible.</p><p>You can find other examples of shapes that result from slicing a rectangular prism here: <a href=\"https://www.bgsu.edu/content/dam/BGSU/nwo/documents/camp/June10-2016/Slicing-a-Cube.pdf\">https://www.bgsu.edu/content/dam/BGSU/nwo/documents/camp/June10-2016/Slicing-a-Cube.pdf</a></p>"
+          ]
+        }
+      },
+      {
+        "id": "77LnhhVol1LWJdSn",
+        "title": "Text 54",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Optimizing Volume or Surface Area</strong></p><p>In <em>Variables and Patterns</em> students explored the possible rectangular areas with a fixed perimeter. They found that a square surrounded more area than any rectangle with the same perimeter.</p><p><u>Example:</u> If regular prisms have the same perimeter, lateral area, and height, how do we maximize the volume? (See sketches in previous section for a perimeter of 60.)</p>"
+          ]
+        }
+      },
+      {
+        "id": "8uBEeNXLDQNpXZWX",
+        "title": "Image 3",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/grid-paper-2.png",
+          "filename": "faw/images/grid-paper-2.png"
+        }
+      },
+      {
+        "id": "tJqQw2FdqJ8fnJZl",
+        "title": "Base of triangular prism",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "vector",
+              "id": "KZl_sTPqY5v8F0mC",
+              "x": 92.11631774902344,
+              "y": 165.7274169921875,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 48,
+              "dy": -75
+            },
+            {
+              "type": "image",
+              "id": "CNTYh-uoshS43Wwi",
+              "x": 0,
+              "y": 2,
+              "visible": true,
+              "url": "faw/images/grid-paper-2.png",
+              "filename": "grid-paper-2.png",
+              "width": 1352,
+              "height": 934
+            },
+            {
+              "type": "vector",
+              "id": "ostptMdLgnZSZN1N",
+              "x": 185.11631774902344,
+              "y": 164.7274169921875,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -46,
+              "dy": -74
+            },
+            {
+              "type": "vector",
+              "id": "rycBlqFWF3KRfeOt",
+              "x": 92.11631774902344,
+              "y": 165.7274169921875,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 93,
+              "dy": -1
+            }
+          ]
+        },
+        "layout": {
+          "height": 236.00001525878906
+        }
+      },
+      {
+        "id": "WrwCbB1Tv3V6fKTX",
+        "title": "Base of rectangular prism",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "f1Fx7Pk8zutsDrtG",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "url": "faw/images/grid-paper-2.png",
+              "filename": "grid-paper-2.png",
+              "width": 1352,
+              "height": 934
+            }
+          ]
+        }
+      },
+      {
+        "id": "1k93N4mlHF2SWHIQ",
+        "title": "Base of hexagonal prism",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "0yH7e6fPo8QpdEAP",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "url": "faw/images/grid-paper-2.png",
+              "filename": "grid-paper-2.png",
+              "width": 1352,
+              "height": 934
+            }
+          ]
+        }
+      },
+      {
+        "id": "zVvU2OrtN0rsE6b2",
+        "title": "Text 53",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
             "<p></p>"
           ]
         }
       },
       {
-        "id": "CeIZA8Amp3ZDVKP6",
-        "title": "Text 26",
+        "id": "YjdZUBIJ_jRqRgIg",
+        "title": "Text 52",
         "content": {
           "type": "Text",
           "format": "html",
