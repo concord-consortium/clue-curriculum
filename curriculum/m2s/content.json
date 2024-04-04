@@ -2223,8 +2223,12 @@
               "stamp",
               "stroke-color",
               "fill-color",
-              "textbox",
+              "text",
               "image-upload",
+              "|",
+              "group",
+              "ungroup",
+              "duplicate",
               "|",
               "new-variable",
               "insert-variable",
@@ -2238,10 +2242,7 @@
               "new-variable",
               "insert-variable",
               "edit-variable",
-              [
-                "data-set-view",
-                "graph"
-              ],
+              ["variables-link", "Graph"],
               "|",
               "zoom-in",
               "zoom-out",
@@ -2274,11 +2275,9 @@
           "table": {
             "numFormat": ".4~f",
             "tools": [
+              "set-expression",
               "merge-in",
-              [
-                "data-set-view",
-                "graph"
-              ],
+              "link-graph",
               "delete"
             ]
           }
