@@ -27,7 +27,7 @@
         "isTileTool": true
       },
       {
-        "id": "Geometry",
+        "id": "Graph",
         "title": "Graph",
         "isTileTool": true
       },
@@ -45,11 +45,6 @@
       {
         "id": "Image",
         "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "DataCard",
-        "title": "Data Cards",
         "isTileTool": true
       },
       {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
@@ -129,7 +124,27 @@
     "settings": {
       "table": {
         "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
+        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,

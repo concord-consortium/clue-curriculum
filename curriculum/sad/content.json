@@ -28,12 +28,12 @@
       },
       {
         "id": "Geometry",
-        "title": "Graph",
+        "title": "Coordinate Grid",
         "isTileTool": true
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -48,11 +48,6 @@
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
-      },
-      {
         "id": "sparrow",
         "title": "Sparrow",
         "iconId": "icon-sparrow-tool",
@@ -60,7 +55,7 @@
       },
       {
         "id": "hide-annotations",
-        "title": "Hide Annotations",
+        "title": "Hide Sparrows",
         "iconId": "icon-hide-annotations-tool",
         "isTileTool": false
       },
@@ -139,11 +134,7 @@
     "settings": {
       "table": {
         "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
-      },
-      "datacard": { 
-        "tools": ["duplicate", "link-tile", "merge-in",
-          ["data-set-view", "Table"], "image-upload", "delete-attribute"]
+        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
       }
     },
     "showCommentTag": true,
