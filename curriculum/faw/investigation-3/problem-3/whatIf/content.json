@@ -25,12 +25,122 @@
         }
       },
       {
-        "id": "G8Gc9ydKSxX-r_lt",
-        "title": "Sarah's Thinking",
+        "id": "KZR_aCIpMTw5C3Nv",
+        "title": "Sara's Thinking",
         "content": {
-          "type": "Image",
-          "url": "faw/images/image61.png",
-          "filename": "faw/images/image61.png"
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "o9MA2AXP5HzTuO0S",
+              "x": 30,
+              "y": 51,
+              "visible": true,
+              "url": "faw/images/image59.png",
+              "filename": "image59.png",
+              "width": 512,
+              "height": 181
+            },
+            {
+              "type": "group",
+              "id": "fJLRvIJMfGTP7DUR",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "text",
+                  "id": "0LdTYRYOnxh4UFIk",
+                  "x": 290.11631774902344,
+                  "y": 217.89929962158203,
+                  "visible": true,
+                  "width": 169,
+                  "height": 37,
+                  "stroke": "#000000",
+                  "text": "1/2 Circumference"
+                },
+                {
+                  "type": "vector",
+                  "id": "G2UuUB_sFrfrHhB_",
+                  "x": 236.11631774902344,
+                  "y": 201.34375190734863,
+                  "visible": true,
+                  "stroke": "#000000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "dx": 269,
+                  "dy": -1,
+                  "headShape": "triangle",
+                  "tailShape": "triangle"
+                }
+              ],
+              "objectExtents": {
+                "0LdTYRYOnxh4UFIk": {
+                  "top": 0.3217921632130036,
+                  "right": 0.828996282527881,
+                  "bottom": 1,
+                  "left": 0.20074349442379183
+                },
+                "G2UuUB_sFrfrHhB_": {
+                  "top": 0,
+                  "right": 1,
+                  "bottom": 0.01832994153478369,
+                  "left": 0
+                }
+              }
+            },
+            {
+              "type": "group",
+              "id": "ISkyF5mQUXN8voyf",
+              "x": 0,
+              "y": 0,
+              "visible": true,
+              "objects": [
+                {
+                  "type": "text",
+                  "id": "aiWQR_CIwxj9mZRl",
+                  "x": 560.1163177490234,
+                  "y": 115.89929962158203,
+                  "visible": true,
+                  "width": 60,
+                  "height": 39,
+                  "stroke": "#000000",
+                  "text": "Radius"
+                },
+                {
+                  "type": "vector",
+                  "id": "S5dExunkmfbzhbwD",
+                  "x": 547.1163177490234,
+                  "y": 99.34375190734863,
+                  "visible": true,
+                  "stroke": "#000000",
+                  "strokeDashArray": "",
+                  "strokeWidth": 2,
+                  "dx": 1,
+                  "dy": 81,
+                  "headShape": "triangle",
+                  "tailShape": "triangle"
+                }
+              ],
+              "objectExtents": {
+                "aiWQR_CIwxj9mZRl": {
+                  "top": 0.20438947795349874,
+                  "right": 1,
+                  "bottom": 0.6858709594349802,
+                  "left": 0.1780821917808219
+                },
+                "S5dExunkmfbzhbwD": {
+                  "top": 0,
+                  "right": 0.0136986301369863,
+                  "bottom": 1,
+                  "left": 0
+                }
+              }
+            }
+          ]
+        },
+        "layout": {
+          "height": 288.9895935058594
         }
       },
       {
@@ -52,8 +162,17 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Yes, give approximately 9.42 square centimeters.</p><p>Sara: 1⁄2 • π • 12 • 6 = 36 • π ≈ 9.42.</p>"
+            "<p>Yes, give approximately 9.42 square centimeters.</p>"
           ]
+        }
+      },
+      {
+        "id": "s-PQ9cTTob-7AKbW",
+        "title": "Sara's Area Formula",
+        "display": "teacher",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac12\\times\\pi\\times12\\times6=36\\times\\pi\\approx9.42"
         }
       },
       {
@@ -257,7 +376,7 @@
       },
       {
         "id": "Vq2y2Eu1qkQr-pUS",
-        "title": "Image 5",
+        "title": "Pizza Pricing Based on Size",
         "display": "teacher",
         "content": {
           "type": "Image",
@@ -278,7 +397,7 @@
       },
       {
         "id": "av9VEnjDvxSIqR9a",
-        "title": "Six Foot Diameter",
+        "title": "Park with Social Distance Circles",
         "content": {
           "type": "Image",
           "url": "faw/images/6ft.png",
