@@ -240,6 +240,23 @@
                 "teacher"
               ],
               "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
             }
           ]
         },
@@ -298,6 +315,24 @@
               "properties": [
                 "teacherSupport",
                 "!isDeleted"
+              ]
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
               ]
             }
           ]
