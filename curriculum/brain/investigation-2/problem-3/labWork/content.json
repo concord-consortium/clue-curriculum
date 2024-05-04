@@ -15,15 +15,117 @@
       },
       {
         "id": "fXr4dhoarK6Kk02g",
+        "title": "Program 1",
         "content": {
           "type": "Dataflow",
           "programDataRate": 1000,
           "programZoom": {
             "dx": 0.484039306640625,
             "dy": -0.00152587890625,
-            "scale": 0.47423311417881714
+            "scale": 0.37423311417881716
           },
-          "program": {}
+          "program": {
+            "values": {
+              "3": {
+                "currentValues": {
+                  "nodeValue": 1
+                }
+              },
+              "6": {
+                "currentValues": {
+                  "nodeValue": 403
+                }
+              },
+              "7": {
+                "currentValues": {}
+              },
+              "10": {
+                "currentValues": {
+                  "nodeValue": 0
+                }
+              }
+            },
+            "id": "dataflow@0.1.0",
+            "nodes": {
+              "3": {
+                "id": 3,
+                "name": "Number",
+                "x": 10.538104872315643,
+                "y": 227.72051069738455,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Number 1",
+                  "nodeValueUnits": ""
+                }
+              },
+              "6": {
+                "id": 6,
+                "name": "Sensor",
+                "x": 13.816700929226307,
+                "y": 74.77543672898062,
+                "inputs": {},
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 2",
+                  "type": "emg-reading",
+                  "sensor": "SIMemg_key",
+                  "virtual": false
+                }
+              },
+              "7": {
+                "id": 7,
+                "name": "Math",
+                "x": 242.2529663252481,
+                "y": 135.13033286019981,
+                "inputs": {
+                  "num1": {
+                    "connections": {}
+                  },
+                  "num2": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {
+                  "num": {
+                    "connections": {}
+                  }
+                },
+                "data": {
+                  "plot": false,
+                  "orderedDisplayName": "Math 3",
+                  "mathOperator": "Divide"
+                }
+              },
+              "10": {
+                "id": 10,
+                "name": "Demo Output",
+                "x": 764.575871289139,
+                "y": 122.64873253161873,
+                "inputs": {
+                  "nodeValue": {
+                    "connections": {}
+                  }
+                },
+                "outputs": {},
+                "data": {
+                  "orderedDisplayName": "Demo Output 4",
+                  "outputType": "Grabber",
+                  "demoOutput": 0
+                }
+              }
+            }
+          }
         }
       },
       {
@@ -90,7 +192,6 @@
           "providerId": "fXr4dhoarK6Kk02g",
           "dataSet": {
             "id": "Z5k_hPOSbDfKTbZU",
-            "name": "Program 1",
             "attributes": [],
             "cases": []
           }
@@ -156,15 +257,6 @@
           "8od0XSnf1qqURYMR",
           "4qXS3QDYXOCpe8dT",
           "OpA7t27RXurcLg-k"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedProgramData",
-          "id": "vtdHpPkFHUpVk4-b"
-        },
-        "tiles": [
-          "fXr4dhoarK6Kk02g"
         ]
       }
     ]
