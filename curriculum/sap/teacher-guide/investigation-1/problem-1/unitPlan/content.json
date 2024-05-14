@@ -245,13 +245,22 @@
         }
       },
       {
+        "id": "0ptQgrzxbGzw0izZ",
+        "title": "Boxplots of 4 samples",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/te-pic-7.png",
+          "filename": "sap/images/te-pic-7.png"
+        }
+      },
+      {
         "id": "ZIpdzl6DscHvhP7D",
         "title": "Text 21",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Samples 1 and 2 look different, though they come from the same population. Typical arrowhead lengths from sample 1 are between 38 and 50 mm (median 45mm), and from sample 2 are between 29 and 40 mm (median 33mm). Using IQRs from these two samples we would predict that a typical arrowhead from Population A would have a length between 29 and 50. Most of sample 3 (the “box) fits within these limits. Thus, the lengths typical of sample 3 are also typical of population A. A typical length for sample 4 is between 20 and 25. Almost all the lengths in sample 4 are outside of the limits of what we would predict for population A. We can deduce that Sample 3 probably comes from Population A. The difference between sample 4 and samples 1 and 2 is large enough that we deduce that sample 4 comes from a different population. </p><p><em>What measure could we use to determine if the difference between two samples is “large enough” to deduce that two samples come from two different populations? </em></p>"
           ]
         }
       },
@@ -262,7 +271,27 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>Samples from different populations</strong></p><p>When two samples are very different either the samples come from the same population and the difference is due to natural variability, or the samples come from underlying populations which differ on the attribute. We use the MAD to measure the difference.</p><p><u>Example:</u> Below are two dot plots showing large, random samples of basketball players. They look differe<em>nt. Is the difference large enough for us to conclude that they represent populations which differ on this attribute? </em>Is the population of female players different (with respect to height) from the population of male players?</p>"
+          ]
+        }
+      },
+      {
+        "id": "ZFyH8s8mCu_q8N1z",
+        "title": "Heights of Male and Female Basketball Players",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/te-pic-8.png",
+          "filename": "sap/images/te-pic-8.png"
+        }
+      },
+      {
+        "id": "2GHSRQ3qSVPZtpld",
+        "title": "Text 25",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Suppose that the populations for both male and female players are the same  height. For the sample of female players, 94% of the sample heights are within 2 MADs of the mean, 183.8cm. If this is representative of the heights of the underlying population of all players, then we would expect that the mean of all players would lie within these limits, and most samples would also have means within these limits. However, the mean player in the male sample has a height outside these limits. In fact most of the male sample lies outside these limits. So, the typical male player height from this sample would be very unlikely for the population represented by the female sample. It is unlikely that these two samples could represent the same population. That is, the difference, as measured by the MAD, leads us to the inference that the populations, male and female players, are different with respect to the attribute height.</p>"
           ]
         }
       },
