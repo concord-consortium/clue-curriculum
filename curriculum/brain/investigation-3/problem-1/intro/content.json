@@ -3,150 +3,34 @@
   "content": {
     "tiles": [
       {
-        "id": "dtLnPmJUgpuKpXMa",
+        "id": "srSM4bmgFX_I50tQ",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Target Understandings</strong></u></p><p>Electricity has to flow in a circuit to work.</p><ul><li>&nbsp;The flow of electricity is called electrical current</li><li>When electricity is slowed or kept apart, it creates an electrical voltage&nbsp;</li><li>&nbsp;One can control the flow of electricity</li><li>One way to do this is by controlling resistance.&nbsp;Resistors can be used to reduce the flow of electricity in circuits</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "p2bPTOAIKmErC0m-",
         "title": "Image 1",
         "content": {
           "type": "Image",
-          "url": "brain/images/18.jpg",
-          "filename": "brain/images/18.jpg"
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
         }
       },
       {
-        "id": "rJLPgcWDu1WlSDfh",
-        "title": "my Arduino drawing",
+        "id": "9ueLaxxIMWxBp9ci",
+        "title": "Text 2",
         "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "rectangle",
-              "id": "3rthK1g7n0mi0Y1H",
-              "x": 51.01171875,
-              "y": 82.01953125,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "none",
-              "width": 81,
-              "height": 68
-            },
-            {
-              "type": "ellipse",
-              "id": "SxPFOY_-c3_N8-Ey",
-              "x": 61.01171875,
-              "y": 104.01953125,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "none",
-              "rx": 6,
-              "ry": 5
-            },
-            {
-              "type": "ellipse",
-              "id": "r4pMFjg7k1VR8ycs",
-              "x": 60.01171875,
-              "y": 123.01953125,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "none",
-              "rx": 6,
-              "ry": 5
-            }
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Do Now</strong></u></p><p><em>Drag and drop this tile into your workspace and answer the following question:</em></p><p>Think of the light switches in your house.&nbsp; Do you have any guesses or knowledge about how they work?</p>"
           ]
-        },
-        "layout": {
-          "height": 184.98828125
         }
-      },
-      {
-        "id": "LFidI2i7lV8nKnvv",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "nSK6VgiQigaSR8ST": 80,
-            "pQIu-lagp9LL0qEV": 80
-          }
-        }
-      }
-    ],
-    "sharedModels": [
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "AUKdv2-Ko8o48-yL",
-          "providerId": "LFidI2i7lV8nKnvv",
-          "dataSet": {
-            "id": "Y7ZsgiB2PxOPoe0E",
-            "name": "Table Data 1",
-            "attributes": [
-              {
-                "id": "nSK6VgiQigaSR8ST",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "1"
-                ],
-                "title": ""
-              },
-              {
-                "id": "pQIu-lagp9LL0qEV",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "2"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "EsxMIZKq-mUV9J9o"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "LFidI2i7lV8nKnvv"
-        ]
-      }
-    ],
-    "annotations": [
-      {
-        "id": "ldqXaboOlez3WlGC",
-        "sourceObject": {
-          "tileId": "rJLPgcWDu1WlSDfh",
-          "objectId": "SxPFOY_-c3_N8-Ey",
-          "objectType": "ellipse"
-        },
-        "sourceOffset": {
-          "dx": 0,
-          "dy": 0
-        },
-        "targetObject": {
-          "tileId": "LFidI2i7lV8nKnvv",
-          "objectId": "cell:{EsxMIZKq-mUV9J9o}:{nSK6VgiQigaSR8ST}",
-          "objectType": "cell"
-        },
-        "targetOffset": {
-          "dx": 0,
-          "dy": -8
-        },
-        "text": "pin 1 gets analog resistance",
-        "textOffset": {
-          "dx": -82.240234375,
-          "dy": -2.755859375000005
-        },
-        "type": "arrowAnnotation"
       }
     ]
   }
