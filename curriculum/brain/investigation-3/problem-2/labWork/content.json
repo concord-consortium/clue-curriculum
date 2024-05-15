@@ -1,6 +1,222 @@
 {
   "type": "labWork",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "xfu0LEw7TvlnRkId",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 1: Get to know the parts we&#x27;ll be using to build electronic circuits</strong></u></p>"
+          ]
+        }
+      },
+      {
+        "id": "ezoTaudJM45cgjeb",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Right when you plug in a mouse, keyboard, headphones, or monitor, you are adding circuits to a system of interconnected circuits. &nbsp; We’ll get started by building a really simple circuit that is part of a system of circuits inside of a computer.&nbsp;&nbsp;It will be like one of those lights or fans that you plug into your usb port and they just turn on.&nbsp;Instead of a computer, we will use a microcontroller, called an Arduino, and get it to turn on a small light called an LED.</p>"
+          ]
+        }
+      },
+      {
+        "id": "MYl67xmP06vpy2Mu",
+        "title": "Microcontroller (Arduino)",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
+        "id": "RxOwL43GVi_6D_fe",
+        "title": "LED light",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      [
+        {
+          "id": "ysfhAQlQT4rLtl2G",
+          "title": "220k Ohm resistor",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        },
+        {
+          "id": "UZQuvZJMfcYZCn6n",
+          "title": "Text 3",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>This is  like the graphite inserts, it’s just that it provides a standardized resistance for our circuit.</p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "u7l8z_Kgyefcolt_",
+          "title": "Jumper Wires",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        },
+        {
+          "id": "DGa1QSGJPcGsVksj",
+          "title": "Text 4",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The red and black “jumper” wires are exactly the same inside, but we use different colors to help us reason about our circuit.&nbsp; The convention is to use red for “+” or “power”, and black for “-” or “ground”. We’ll see why they call them “jumpers” later. </p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "4ARXZWSYXSBwzgRi",
+          "title": "Breadboard",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        },
+        {
+          "id": "EVHwE4j1zU1NKmiB",
+          "title": "Text 5",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>A breadboard is a thing specially designed to help us make connections between electronic components.&nbsp;</p><p>You can’t see them, but under each numbered column is a short metal track that connects holes within the column.&nbsp; </p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "srAWzBzPlovPjNh-",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag and drop the following tile into your workspace and answer the questions:</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "HrWh0r12XCFDJQbo",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Activity 1: Questions</strong></p><p>Looking at example A and B,</p><ul><li>Why does the circuit on the left work and the one on the right not?</li><li>Can you find other ways to make a circuit that will power the lightbulb? If so, what do all of the solutions have in common?</li></ul>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "PMQM8j2qET5s-lFE",
+          "title": "A",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        },
+        {
+          "id": "AhfCprS0e9SxYP47",
+          "title": "B",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        }
+      ],
+      {
+        "id": "T0kZyrV5TUEcqYR3",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 2: Build and connect an external circuit</strong></u></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "DLgioCCMw-278BLh",
+          "title": "Text 9",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Now, let’s use our breadboard to construct a “light bulb”. .Without a resistor, we create a short circuit, meaning that the current is following a path with little or no resistance. To avoid this, we will use a standardized resistor like the one shown.</p>"
+            ]
+          }
+        },
+        {
+          "id": "q0GXXCBQLsxUelbQ",
+          "title": "Image 1",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        }
+      ],
+      [
+        {
+          "id": "CqU3KrQU1IXJ4MWJ",
+          "title": "Text 10",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Make sure you build your circuit with the following sequence of connections: </p><p>On row 1:&nbsp;The red jumper cable leads to the -&gt; resistor then -&gt;hops valley then leads to the -&gt; long leg of LED </p><p>On row 3:Shorter leg of LED leads to the&nbsp; -&gt; black jumper cable then -&gt; hops the valley</p>"
+            ]
+          }
+        },
+        {
+          "id": "mw2IulDfrNXvFp2e",
+          "title": "Image 2",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        }
+      ],
+      [
+        {
+          "id": "sS6_qtw61T1-f3jH",
+          "title": "Text 11",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Connect the Arduino to your breadboard setup..&nbsp; Trace the flow of electricity with your finger, naming each part as you go.&nbsp; Start with the wall outlet.</p>"
+            ]
+          }
+        },
+        {
+          "id": "5rzWisgrwSuuPOZL",
+          "title": "Image 3",
+          "content": {
+            "type": "Image",
+            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+          }
+        }
+      ]
+    ]
   }
 }
