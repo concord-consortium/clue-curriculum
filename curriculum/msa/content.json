@@ -153,9 +153,6 @@
               "documentTypes": [
                 "personal"
               ],
-              "properties": [
-                "!isDeleted"
-              ],
               "showStars": [
                 "student",
                 "teacher"
@@ -168,9 +165,6 @@
               "dataTestHeader": "learning-log-section",
               "documentTypes": [
                 "learningLog"
-              ],
-              "properties": [
-                "!isDeleted"
               ],
               "showStars": [
                 "student",
@@ -185,10 +179,6 @@
               "documentTypes": [
                 "personal",
                 "problem"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
               ],
               "showStars": [
                 "student",
@@ -252,10 +242,6 @@
               "documentTypes": [
                 "publication",
                 "personalPublication"
-              ],
-              "properties": [
-                "isTeacherDocument",
-                "!isDeleted"
               ]
             },
             {
@@ -264,11 +250,7 @@
               "type": "teacher-supports",
               "dataTestHeader": "supports-section-teacher-supports",
               "dataTestItem": "supports-list-items",
-              "documentTypes": ["supportPublication"],
-              "properties": [
-                "teacherSupport",
-                "!isDeleted"
-              ]
+              "documentTypes": ["supportPublication"]
             },
             {
               "className": "section problem starred",
