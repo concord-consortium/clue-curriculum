@@ -149,7 +149,14 @@
     "settings": {
       "table": {
         "numFormat": ".2~f",
-        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+        "tools": [
+          "set-expression", 
+          [
+            "data-set-view",
+            "graph"
+          ], 
+          "merge-in",
+          "delete"]
       },
       "graph": {
         "tools": [
