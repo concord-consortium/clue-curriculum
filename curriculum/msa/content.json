@@ -224,7 +224,8 @@
                 "teacher", "student"
               ],
               "properties": [
-                "!isTeacherDocument"
+                "!isTeacherDocument",
+                "!isDeleted"
               ]
             },
             {
@@ -240,7 +241,8 @@
                 "student"
               ],
               "properties": [
-                "!isTeacherDocument"
+                "!isTeacherDocument",
+                "!isDeleted"
               ]
             },
             {
@@ -279,7 +281,8 @@
                 "publication"
               ],
               "properties": [
-                "starred"
+                "starred",
+                "!isDeleted"
               ],
               "showStars": [
                 "teacher",
@@ -295,7 +298,8 @@
                 "publication"
               ],
               "properties": [
-                "starred"
+                "starred",
+                "!isDeleted"
               ],
               "showStars": [
                 "teacher",
