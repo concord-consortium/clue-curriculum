@@ -48,7 +48,6 @@
       },
       {
         "id": "6KX3DAoYZxCmoy6n",
-        "title": "Example Results",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -57,18 +56,69 @@
             "v3iCP4Cyxh_6gaPY": 97,
             "3XiQIajIPvved4uF": 104,
             "kjM_0M8p1t41-Hkj": 111
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
-        "id": "HvXpGxMpoCxPDP0k",
-        "title": "Example Results",
+        "id": "f6llPpajevYLp4jV",
+        "title": "Number of Red Cubes in the 10 Samples",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "sap/images/sp3.png",
-          "filename": "sap/images/sp3.png"
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYR8adu3lH-0uKs",
+              "config": {
+                "id": "DCON3Sxe_DuA_ySZ",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "og_KIXmqNBsvs-kR",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "v3iCP4Cyxh_6gaPY",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       },
       {
@@ -103,7 +153,7 @@
           "providerId": "6KX3DAoYZxCmoy6n",
           "dataSet": {
             "id": "OWAYJH_pRP9Azs92",
-            "name": "Table 1",
+            "name": "Example Results",
             "attributes": [
               {
                 "id": "kCEVrmlt45d4RDcG",
@@ -122,8 +172,7 @@
                   "Sample 7",
                   "Sample 8",
                   "Sample 9",
-                  "Sample 10",
-                  "Totals"
+                  "Sample 10"
                 ],
                 "title": ""
               },
@@ -144,8 +193,7 @@
                   "5",
                   "4",
                   "6",
-                  "3",
-                  "53"
+                  "3"
                 ],
                 "title": ""
               },
@@ -166,8 +214,7 @@
                   "2",
                   "2",
                   "2",
-                  "4",
-                  "21"
+                  "4"
                 ],
                 "title": ""
               },
@@ -188,8 +235,7 @@
                   "3",
                   "4",
                   "2",
-                  "3",
-                  "26"
+                  "3"
                 ],
                 "title": ""
               }
@@ -224,15 +270,38 @@
               },
               {
                 "__id__": "mW5zGOC-U0ESNBO-"
-              },
-              {
-                "__id__": "eY3IihaGZ7JXkX1P"
               }
             ]
           }
         },
         "tiles": [
-          "6KX3DAoYZxCmoy6n"
+          "6KX3DAoYZxCmoy6n",
+          "f6llPpajevYLp4jV"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "og_KIXmqNBsvs-kR",
+          "data": "OWAYJH_pRP9Azs92",
+          "collections": {},
+          "categories": {
+            "kCEVrmlt45d4RDcG": {
+              "attribute": "kCEVrmlt45d4RDcG",
+              "colors": {},
+              "moves": []
+            },
+            "v3iCP4Cyxh_6gaPY": {
+              "attribute": "v3iCP4Cyxh_6gaPY",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "f6llPpajevYLp4jV"
         ]
       }
     ]
