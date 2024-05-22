@@ -9,18 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><a href=\"https://drive.google.com/file/d/1GudTSgfuwC2-gjhbuWMFWjbaDCzcABre/view?usp=sharing\">Teacher Guide for 2.3</a> (video)</p><p><a href=\"https://drive.google.com/file/d/1K5w6F6-4cTKv7hxIDgYantREk4ex_OvN/view?usp=sharing\">Solution Explanation </a> (video)</p>"
-          ]
-        }
-      },
-      {
-        "id": "HG_H0rOI6Vcq_56u",
-        "title": "Text 5",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>You can share the following solution with you students by publishing it. Your solution will show in the &#x27;extensions&#x27; tab &gt;&gt; custom lessons. </p>"
+            "<p><a href=\"https://drive.google.com/file/d/1GudTSgfuwC2-gjhbuWMFWjbaDCzcABre/view?usp=sharing\">Teacher Guide for 2.3</a> (video)</p><p><strong></strong><a href=\"https://drive.google.com/file/d/1K5w6F6-4cTKv7hxIDgYantREk4ex_OvN/view?usp=sharing\"><strong></strong></a><strong>Instructional Sequence:</strong></p><p><strong><em>5 minutes</em></strong></p><p>Have students revisit their thoughts about how they would change the code from Lesson 2.2 as a warm-up.</p><p><strong><em>20 minutes</em></strong></p><p>Watch the video on the <a href=\"https://drive.google.com/file/d/1Ks2KyBwr62KOkQ7ipUbdj2e5zQYMk0H8/view?usp=drive_link\">Transform block and the ramp function</a> as a class. Have students explore the program provided, and the program explored in the video, to come to a consensus on how the ramp function works. </p><p>(In general, the ramp function acts to slow down whatever is input into it. For example, an EMG reading input into a Transform block set to the ramp function would produce the same values at a slower pace.)</p><p></p><p>Watch the video on the <a href=\"https://drive.google.com/file/d/1bafaMsWUr41P0WU5NxWPBDHnpS26PpgB/view?usp=drive_link\">Hold block.</a> Explore how this block works as a class using the provided program. </p><p>(The hold block is like a gatekeeper. It gets two inputs: the first, top input is your data, like an EMG reading. The second, bottom input is what determines if the block is on or off. If the block is off, nothing happens; the top input just passes through. If what is being sent to the bottom input signals to turn the hold block on, then something will happen depending on the setting. We will only be using the Hold Previous setting. This means that when the block is turned on, whatever was the last value to pass through the hold block will be frozen- nothing else gets through, and the block now has a continuous output of that value.)</p><p></p><p><strong><em>20 minutes</em></strong></p><p>Using the provided Dataflow tile and Sim tile, have your students create a program to pick up a fragile object. As a hint, they will need to use both a Hold block and a Transform block set to the ramp function to do this successfully. </p><p></p><p>You can share the following solution with you students by publishing it. Your solution will show in the &#x27;extensions&#x27; tab &gt;&gt; custom lessons. </p><p></p><p><a href=\"https://drive.google.com/file/d/1K5w6F6-4cTKv7hxIDgYantREk4ex_OvN/view?usp=drive_link\">This video will also walk you through the solution.</a></p><p></p><p></p>"
           ]
         }
       },
@@ -256,7 +245,8 @@
                 "data": {
                   "plot": false,
                   "orderedDisplayName": "Hold 5",
-                  "controlOperator": "Hold Prior"
+                  "controlOperator": "Hold Prior",
+                  "waitDuration": 0
                 }
               },
               "7": {
@@ -384,6 +374,17 @@
           "type": "Simulator",
           "simulation": "EMG_and_claw"
         }
+      },
+      {
+        "id": "HG_H0rOI6Vcq_56u",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong><em>20 minutes</em></strong></p><p>Once all students understand the program, have them change all simulated inputs and outputs to live inputs and outputs. Have students set up the physical gripper as they have done before (instructions are provided in the student-facing lesson), and test if they can pick up fragile objects without crushing them in real life. </p><p></p><p><strong><em>5 minutes</em></strong></p><p>Have students reflect on what else could be changed in this program and what other sensors Tilly’s arms might need.</p><p></p>"
+          ]
+        }
       }
     ],
     "sharedModels": [
@@ -422,7 +423,7 @@
               "name": "emg_key",
               "displayName": "EMG",
               "unit": "mV",
-              "value": 36,
+              "value": 38,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -453,7 +454,7 @@
               "name": "gripper_key",
               "displayName": "Gripper",
               "unit": "% closed",
-              "value": 10,
+              "value": 9,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://gripper_key",
@@ -468,7 +469,7 @@
               "id": "GS64JFfhLNp7FxBg",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 53,
+              "value": 59.5,
               "inputs": [],
               "color": "light-gray",
               "labels": []
