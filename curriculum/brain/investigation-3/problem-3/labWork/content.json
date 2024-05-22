@@ -1,6 +1,40 @@
 {
   "type": "labWork",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "ANgBPLQPNVjRpyN8",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 1: Create a circuit the Arduino can get “information” from</strong></u></p>"
+          ]
+        }
+      },
+      {
+        "id": "cUADzka6fm1aIege",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>We got a circuit connected, but it is not a “smart circuit”.&nbsp; Like a USB light, it just draws electricity through an LED, and then lets the electricity flow back into the machine without anything “fancy.”&nbsp;</p><p>But you probably notice other sockets on the arduino, that say ANALOG IN.&nbsp; These are pins numbered A1-A5.&nbsp; Electrical voltage arriving&nbsp; into these pins can be measured by the arduino, and turned into a number.&nbsp; More on that later.</p><p>We’re going to connect a circuit and try to send changing amounts of current into the arduino.</p><p>This changing amount will become “information” in our program.</p>"
+          ]
+        }
+      },
+      {
+        "id": "I64twlWLuy5exee2",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>A potentiometer is a variable <em>resistor</em>.&nbsp; Electricity comes in one side, and then goes across two paths before going out the other side.&nbsp; One path is through some portion of a resistor, and the other path is through the whole resistor.&nbsp;</p>"
+          ]
+        }
+      }
+    ]
   }
 }
