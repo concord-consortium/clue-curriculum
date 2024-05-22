@@ -108,13 +108,37 @@
           ]
         }
       },
+      [
+        {
+          "id": "ebtbcr7p7xS7ZuzR",
+          "title": "Text 7",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The arduino’s analog to digital converter&nbsp; is able to measure analog voltage and turn it into a digital number. Below is a description of how this is accomplished by the Arduino.</p><p>A1 on the Arduino is an Analog to Digital Converter (ADC.) ADCs are complex devices, but basically, their job is to take an analog signal, which is continuous in time and amplitude, and chop it up. This chopping takes place in time, a process called sampling, and amplitude, which is called quantization. The time chopping usually occurs at a set time jump, called a sampling period. Think of a signal that the Arduino only examines at set periods. At each of these points, the Arduino gets the value of the signal and assigns it to a digital level, which is an integer value that is meant to represent the real value.</p>"
+            ]
+          }
+        },
+        {
+          "id": "1frMQTPDCsP-bOfc",
+          "title": "Current Arriving at Pin A1",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/screenshot-2024-05-22-at-2.24.26 pm.png",
+            "filename": "brain/images/screenshot-2024-05-22-at-2.24.26 pm.png"
+          }
+        }
+      ],
       {
-        "id": "1frMQTPDCsP-bOfc",
-        "title": "Current Arriving at Pin A1",
+        "id": "cLNkbob54Qwb46QS",
+        "title": "Text 8",
         "content": {
-          "type": "Image",
-          "url": "brain/images/screenshot-2024-05-22-at-2.24.26 pm.png",
-          "filename": "brain/images/screenshot-2024-05-22-at-2.24.26 pm.png"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag and drop this tile into your workspace and answer the following questions</em></p><p><u><strong>Activity 2 Questions:</strong></u></p><ul><li>What part of the signal is analog, and why?</li><li>Why does the signal need to be converted to digital? Hint: Think about binary numbers and how computers store and process data.</li></ul>"
+          ]
         }
       }
     ]
