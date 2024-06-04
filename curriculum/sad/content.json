@@ -5,7 +5,7 @@
   "subtitle": "Generalizing and Using Properties of Geometric Shapes",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher", "student"
     ],
     "placeholderText": "Enter notes here",
     "toolbar": [
@@ -84,6 +84,214 @@
         "isTileTool": false
       }
     ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+           {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        },
+        {
+          "tab": "class-work",
+          "label": "Published Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [
+                "teacher", "student"
+              ],
+              "properties": [
+                "!isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "published-personal-documents",
+              "dataTestHeader": "class-work-section-personal",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "personalPublication"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ],
+              "properties": [
+                "!isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "className": "section teacher published-documents",
+              "title": "Teacher",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
+            },
+            {
+              "className": "section problem starred",
+              "title": "Bookmarks",
+              "type": "starred-personal-documents",
+              "dataTestHeader": "class-work-section-starred",
+              "documentTypes": [
+                "publication"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "teacher",
+                "student"
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "stamps": [
       {
         "url": "sad/stamps/black-chip.png",
@@ -134,7 +342,7 @@
     "settings": {
       "table": {
         "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+        "tools": ["set-expression", "link-tile-multiple", "merge-in", ["data-set-view", "Geometry"], "delete"]
       }
     },
     "showCommentTag": true,
@@ -148,7 +356,7 @@
       "other-proportional": "Other - Proportional",
       "other-nonproportional": "Other - Nonproportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {

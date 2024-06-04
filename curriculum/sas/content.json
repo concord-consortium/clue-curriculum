@@ -5,7 +5,7 @@
   "subtitle": "Understanding Similarity",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher", "student"
     ],
     "placeholderText": "Enter notes here",
     "toolbar": [
@@ -342,7 +342,7 @@
     "settings": {
       "table": {
         "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "Graph"], "delete"]
+        "tools": ["set-expression", "link-tile-multiple", "merge-in", ["data-set-view", "Geometry"], "delete"]
       }
     },
     "showCommentTag": true,
@@ -356,7 +356,7 @@
       "other-proportional": "Other - Proportional",
       "other-nonproportional": "Other - Nonproportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {
