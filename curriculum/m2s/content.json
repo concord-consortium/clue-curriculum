@@ -165,6 +165,16 @@
               "initials": "TM",
               "title": "Food Waste",
               "type": "problem-documents"
+            },
+            {
+              "initials": "A",
+              "title": "Challenge A",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "B",
+              "title": "Challenge B",
+              "type": "problem-documents"
             }
           ]
         },
@@ -407,9 +417,14 @@
       "title": "Food Waste",
       "placeholder": "Work on the task here"
     },
-    "questions": {
-      "initials": "Q",
-      "title": "Questions",
+    "challengea": {
+      "initials": "A",
+      "title": "Challenge A",
+      "placeholder": "Work on the task here"
+    },
+    "challengeb": {
+      "initials": "B",
+      "title": "Challenge B",
       "placeholder": "Work on the task here"
     }
   },
@@ -2277,7 +2292,7 @@
             "tools": [
               "set-expression",
               "merge-in",
-              "link-graph",
+              "link-tile-multiple",
               "delete"
             ]
           }
@@ -2338,7 +2353,7 @@
         {
           "description": "M2S Activity 6.2",
           "ordinal": 2,
-          "title": "Simplify - South City High School",
+          "title": "Time in School - South City HS",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -2390,7 +2405,7 @@
         {
           "description": "M2S Activity 6.3",
           "ordinal": 3,
-          "title": "Simplify - Clients and Their Goals",
+          "title": "Time in School - Clients and Their Goals",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -2444,7 +2459,7 @@
         {
           "description": "M2S Activity 6.4",
           "ordinal": 4,
-          "title": "Mathematize - NAME",
+          "title": "Salaries",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -2495,7 +2510,7 @@
         {
           "description": "M2S Activity 6.5",
           "ordinal": 5,
-          "title": "Mathematize - Fish Tanks",
+          "title": "Mathematize - Fish Tanks - Retired",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -2547,11 +2562,11 @@
         {
           "description": "M2S Activity 6.6",
           "ordinal": 6,
-          "title": "Interpret & Validate - Food Waste",
+          "title": "Food Waste",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-6/problem-6/task/content.json",
+            "investigation-6/problem-6/questions/content.json",
             "investigation-6/problem-6/resources/content.json",
             "investigation-4/problem-1/help/content.json"
           ],
@@ -2599,12 +2614,13 @@
         {
           "description": "M2S Activity 6.7",
           "ordinal": 7,
-          "title": "Project - Kenia's Model",
+          "title": "Kenia's Challenges",
           "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-6/problem-7/task/content.json", 
-            "investigation-6/problem-7/resources/content.json", 
+            "investigation-6/problem-7/challengea/content.json", 
+            "investigation-6/problem-7/challengeb/content.json", 
             "investigation-4/problem-1/help/content.json"
           ],
           "config": {
