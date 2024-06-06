@@ -13,22 +13,159 @@
           ]
         }
       },
+      [
+        {
+          "id": "LgrLZo_7iuw-eGUe",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "NcGeb91ZvVZpKgw0": 150.0868148803711,
+              "bcT3-Ocj-ghVcQAx": 120.84637451171875
+            }
+          }
+        },
+        {
+          "id": "qSJuxJ-u3TM7p065",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "JNTR--RUrOesfdOf": 150.0868148803711,
+              "YY_DSfTcVp0lI19E": 120.84637451171875
+            }
+          }
+        }
+      ],
       {
-        "id": "E6EDP4K38kcNgbli",
+        "id": "oqhfDkCAfsBmCci7",
         "title": "Heights of Female Professional Basketball Players",
         "content": {
-          "type": "Image",
-          "url": "sap/images/sp11.png",
-          "filename": "sap/images/sp11.png"
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 165,
+              "max": 230
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRhj6DUP0o8BBd",
+              "config": {
+                "id": "DCONNh2eM4TjYoc7",
+                "dataset": "S0rj_ionxI_yUZd5",
+                "metadata": "h-gUkS2tbpxEdOhp",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "bcT3-Ocj-ghVcQAx"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "bcT3-Ocj-ghVcQAx": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       },
       {
-        "id": "c3-8cTT47zlhZJFt",
+        "id": "aQy6CmzL-gPBhvAX",
         "title": "Heights of Male Professional Basketball Players",
         "content": {
-          "type": "Image",
-          "url": "sap/images/sp12.png",
-          "filename": "sap/images/sp12.png"
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 165,
+              "max": 230
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYR8Evh6FfF8sxe",
+              "config": {
+                "id": "DCONjKSVEtsEfDJ2",
+                "dataset": "7EP7Pf04ZLxLABM6",
+                "metadata": "E2zZAhMjvYpNsOZU",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "YY_DSfTcVp0lI19E"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "YY_DSfTcVp0lI19E": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
+        "id": "pxV7DVY2TOgrXfIe",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>For our sample of female professional basketball players:</p><ul><li>Mean: 183.8125</li><li>MAD: 7.0625</li></ul><p>For our sample of male professional basketball players:</p><ul><li>Mean: 199.9063</li><li>MAD: 8.7871</li></ul>"
+          ]
         }
       },
       {
@@ -73,6 +210,461 @@
           "url": "sap/images/sp14.png",
           "filename": "sap/images/sp14.png"
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "8LvJfFO_yQ-X1MJX",
+          "providerId": "LgrLZo_7iuw-eGUe",
+          "dataSet": {
+            "id": "S0rj_ionxI_yUZd5",
+            "name": "Heights of Female Professional Basketball Players",
+            "attributes": [
+              {
+                "id": "NcGeb91ZvVZpKgw0",
+                "clientKey": "",
+                "name": "Player Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32"
+                ],
+                "title": ""
+              },
+              {
+                "id": "bcT3-Ocj-ghVcQAx",
+                "clientKey": "",
+                "name": "Height (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "168",
+                  "172",
+                  "173",
+                  "173",
+                  "175",
+                  "175",
+                  "175",
+                  "175",
+                  "177",
+                  "178",
+                  "178",
+                  "180",
+                  "180",
+                  "183",
+                  "183",
+                  "183",
+                  "185",
+                  "185",
+                  "185",
+                  "185",
+                  "187",
+                  "188",
+                  "188",
+                  "191",
+                  "193",
+                  "193",
+                  "193",
+                  "195",
+                  "196",
+                  "196",
+                  "196",
+                  "198"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "KQ9RN2dgo-rmp-mh"
+              },
+              {
+                "__id__": "P3A_KTYiUzaQCFFE"
+              },
+              {
+                "__id__": "eFzd_IZuGGX-OZpO"
+              },
+              {
+                "__id__": "gY62d7AwLXfLpdh8"
+              },
+              {
+                "__id__": "NeLncX3WjEI_bDvl"
+              },
+              {
+                "__id__": "zeSS_pongcj2DTQM"
+              },
+              {
+                "__id__": "lLmJxJZ_GR4KKzD2"
+              },
+              {
+                "__id__": "8vzVwiv6JuqFc4Ft"
+              },
+              {
+                "__id__": "9QxLYvEFUNJgSi_V"
+              },
+              {
+                "__id__": "ZvjqlXu6CuWX3No1"
+              },
+              {
+                "__id__": "GcS8Z6b-KBmrEhsh"
+              },
+              {
+                "__id__": "K6Govz1MpzAMjcu5"
+              },
+              {
+                "__id__": "xtDAXDFAWCVtgzP5"
+              },
+              {
+                "__id__": "sMFpkZHGxziO2EKO"
+              },
+              {
+                "__id__": "8n4KATMIgulmCrkc"
+              },
+              {
+                "__id__": "BArJjefeWrMOtIsE"
+              },
+              {
+                "__id__": "nSlHdyMXg6T4E3FN"
+              },
+              {
+                "__id__": "jG78iTyDa11ydpEg"
+              },
+              {
+                "__id__": "5E4OJLq6grt9b0Sg"
+              },
+              {
+                "__id__": "_j3zIBVSpjjOerzp"
+              },
+              {
+                "__id__": "E8723omh6Ed_2Gm4"
+              },
+              {
+                "__id__": "zS_F3dBbjCiFoBJZ"
+              },
+              {
+                "__id__": "EwdM_jbUViMbN8yX"
+              },
+              {
+                "__id__": "jnXm4sUDMeOLje64"
+              },
+              {
+                "__id__": "Ebub-91bcNUW7vbd"
+              },
+              {
+                "__id__": "oLKQ51jzbVzpnu62"
+              },
+              {
+                "__id__": "_m5_ux7_FQXdQA0o"
+              },
+              {
+                "__id__": "K94eInrMVRB-Sr17"
+              },
+              {
+                "__id__": "RMZwiAsjCa78CD06"
+              },
+              {
+                "__id__": "blfTUvMbNRM8IyWy"
+              },
+              {
+                "__id__": "IYDSvl0emu8KxDGT"
+              },
+              {
+                "__id__": "r3rIygmwc8FmDTad"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "LgrLZo_7iuw-eGUe",
+          "oqhfDkCAfsBmCci7"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "ncmxfCGgvN8Jaovq",
+          "providerId": "qSJuxJ-u3TM7p065",
+          "dataSet": {
+            "id": "7EP7Pf04ZLxLABM6",
+            "name": "Heights of Male Professional Basketball Players 1",
+            "attributes": [
+              {
+                "id": "JNTR--RUrOesfdOf",
+                "clientKey": "",
+                "name": "Player Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32"
+                ],
+                "title": ""
+              },
+              {
+                "id": "YY_DSfTcVp0lI19E",
+                "clientKey": "",
+                "name": "Height (cm)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "178",
+                  "183",
+                  "185",
+                  "185",
+                  "188",
+                  "190",
+                  "191",
+                  "191",
+                  "191",
+                  "193",
+                  "193",
+                  "196",
+                  "198",
+                  "198",
+                  "198",
+                  "201",
+                  "201",
+                  "201",
+                  "203",
+                  "203",
+                  "203",
+                  "203",
+                  "206",
+                  "206",
+                  "208",
+                  "211",
+                  "211",
+                  "211",
+                  "211",
+                  "216",
+                  "218",
+                  "226"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6G"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6H"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6J"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6K"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6M"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6N"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6P"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6Q"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6R"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6S"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6T"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6V"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6W"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6X"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6Y"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA6Z"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA70"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA71"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA72"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA73"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA74"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA75"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA76"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA77"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA78"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA79"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA7A"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA7B"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA7C"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA7D"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA7E"
+              },
+              {
+                "__id__": "01HYEAAWM5K892M3ZC3X51HA7F"
+              }
+            ]
+          }
+        },
+        "provider": "qSJuxJ-u3TM7p065",
+        "tiles": [
+          "qSJuxJ-u3TM7p065",
+          "aQy6CmzL-gPBhvAX"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "h-gUkS2tbpxEdOhp",
+          "data": "S0rj_ionxI_yUZd5",
+          "collections": {},
+          "categories": {
+            "NcGeb91ZvVZpKgw0": {
+              "attribute": "NcGeb91ZvVZpKgw0",
+              "colors": {},
+              "moves": []
+            },
+            "bcT3-Ocj-ghVcQAx": {
+              "attribute": "bcT3-Ocj-ghVcQAx",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "oqhfDkCAfsBmCci7"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "E2zZAhMjvYpNsOZU",
+          "data": "7EP7Pf04ZLxLABM6",
+          "collections": {},
+          "categories": {
+            "JNTR--RUrOesfdOf": {
+              "attribute": "JNTR--RUrOesfdOf",
+              "colors": {},
+              "moves": []
+            },
+            "YY_DSfTcVp0lI19E": {
+              "attribute": "YY_DSfTcVp0lI19E",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "aQy6CmzL-gPBhvAX"
+        ]
       }
     ]
   },

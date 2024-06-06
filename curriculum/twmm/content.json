@@ -5,7 +5,7 @@
   "subtitle": "Linear Functions and Bivariate Data",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher", "student"
     ],
     "placeholderText": "Enter notes here",
     "toolbar": [
@@ -138,7 +138,7 @@
     "settings": {
       "table": {
         "numFormat": ".2~f",
-        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+        "tools": ["set-expression", "link-tile-multiple", "merge-in", "delete"]
       },
       "graph": {
         "tools": [
@@ -172,7 +172,7 @@
       "other-proportional": "Other - Proportional",
       "other-nonproportional": "Other - Nonproportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {

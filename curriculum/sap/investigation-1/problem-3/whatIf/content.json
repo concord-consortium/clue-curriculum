@@ -25,6 +25,77 @@
         }
       },
       {
+        "id": "6jn7HhGx1IM3yuIK",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "pH5ZTrYSdsmiwyB7": 111,
+            "58ztVv2IOunvv5uR": 101
+          }
+        }
+      },
+      {
+        "id": "Awl8J1GAbUsNOprb",
+        "title": "Sleep Hours for Whole Population",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 3.5,
+              "max": 12
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRJNG84czS2uS8",
+              "config": {
+                "id": "DCONXgB64qANh5kD",
+                "dataset": "aD2gkea863h7C4C-",
+                "metadata": "ieoptRg2vILwpVsf",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "58ztVv2IOunvv5uR"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "58ztVv2IOunvv5uR": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
         "id": "4nUFY7K5wxhwsZxv",
         "title": "Whole Population Distribution",
         "content": {
@@ -116,6 +187,575 @@
             "<ol><li> As the size of the random sample increases, the medians of the random samples are more dense around the value of 8 hours. 8 hours of sleep was the median in the population data.</li><li> Given evidence from samples of 5, 10, and 30 students, we would expect that medians for samples of 50 students would show greater increase of occurrence.</li></ol>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "y-ZHZG0rdclUkpBv",
+          "providerId": "6jn7HhGx1IM3yuIK",
+          "dataSet": {
+            "id": "aD2gkea863h7C4C-",
+            "name": "7th Grade Sleep Hours",
+            "attributes": [
+              {
+                "id": "pH5ZTrYSdsmiwyB7",
+                "clientKey": "",
+                "name": "Student Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "01",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49",
+                  "50",
+                  "51",
+                  "52",
+                  "53",
+                  "54",
+                  "55",
+                  "56",
+                  "57",
+                  "58",
+                  "59",
+                  "60",
+                  "61",
+                  "62",
+                  "63",
+                  "64",
+                  "65",
+                  "66",
+                  "67",
+                  "68",
+                  "69",
+                  "70",
+                  "71",
+                  "72",
+                  "73",
+                  "74",
+                  "75",
+                  "76",
+                  "77",
+                  "78",
+                  "79",
+                  "80",
+                  "81",
+                  "82",
+                  "83",
+                  "84",
+                  "85",
+                  "86",
+                  "87",
+                  "88",
+                  "89",
+                  "90",
+                  "91",
+                  "92",
+                  "93",
+                  "94",
+                  "95",
+                  "96",
+                  "97",
+                  "98",
+                  "99",
+                  "100"
+                ],
+                "title": ""
+              },
+              {
+                "id": "58ztVv2IOunvv5uR",
+                "clientKey": "",
+                "name": "Hours of Sleep",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "7",
+                  "8",
+                  "8.67",
+                  "8.75",
+                  "7.5",
+                  "6.5",
+                  "9",
+                  "7",
+                  "9.25",
+                  "8.3",
+                  "8",
+                  "8",
+                  "9.5",
+                  "8",
+                  "9",
+                  "9.15",
+                  "7",
+                  "8",
+                  "8",
+                  "7",
+                  "8.3",
+                  "7.5",
+                  "10",
+                  "8.5",
+                  "7",
+                  "9",
+                  "8.25",
+                  "7",
+                  "8",
+                  "9",
+                  "8.5",
+                  "8",
+                  "8.5",
+                  "10",
+                  "8",
+                  "8.75",
+                  "7",
+                  "7.5",
+                  "8.3",
+                  "8",
+                  "6.75",
+                  "9.5",
+                  "9",
+                  "4",
+                  "8.3",
+                  "6.67",
+                  "8.3",
+                  "8",
+                  "4.3",
+                  "8.75",
+                  "10",
+                  "8",
+                  "9.5",
+                  "7",
+                  "8.5",
+                  "6",
+                  "7",
+                  "8.3",
+                  "7",
+                  "9.5",
+                  "7",
+                  "7",
+                  "8",
+                  "7.5",
+                  "9",
+                  "8",
+                  "9",
+                  "8",
+                  "7.5",
+                  "7.5",
+                  "7.5",
+                  "8",
+                  "7",
+                  "6",
+                  "6",
+                  "7",
+                  "8.5",
+                  "9",
+                  "7",
+                  "11.25",
+                  "7.5",
+                  "7",
+                  "8.67",
+                  "9",
+                  "9",
+                  "9",
+                  "9.5",
+                  "4",
+                  "9",
+                  "10.5",
+                  "9",
+                  "8.75",
+                  "10",
+                  "8",
+                  "6",
+                  "5.3",
+                  "8.5",
+                  "6",
+                  "7.83",
+                  "9"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6P"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6Q"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6R"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6S"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6T"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6V"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6W"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6X"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6Y"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE6Z"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE70"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE71"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE72"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE73"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE74"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE75"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE76"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE77"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE78"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE79"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7A"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7B"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7C"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7D"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7E"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7F"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7G"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7H"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7J"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7K"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7M"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7N"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7P"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7Q"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7R"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7S"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7T"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7V"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7W"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7X"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7Y"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE7Z"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE80"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE81"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE82"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE83"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE84"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE85"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE86"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE87"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE88"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE89"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8A"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8B"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8C"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8D"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8E"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8F"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8G"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8H"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8J"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8K"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8M"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8N"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8P"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8Q"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8R"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8S"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8T"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8V"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8W"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8X"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8Y"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE8Z"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE90"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE91"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE92"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE93"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE94"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE95"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE96"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE97"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE98"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE99"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9A"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9B"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9C"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9D"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9E"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9F"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9G"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9H"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9J"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9K"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9M"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9N"
+              },
+              {
+                "__id__": "01HYE9R6XNAG0JJNMQHSDVBE9P"
+              },
+              {
+                "__id__": "01HYE9R6XP20NZ3HAA1RBZ8N4H"
+              },
+              {
+                "__id__": "01HYE9R6XP20NZ3HAA1RBZ8N4J"
+              },
+              {
+                "__id__": "01HYE9R6XP20NZ3HAA1RBZ8N4K"
+              }
+            ]
+          }
+        },
+        "provider": "6jn7HhGx1IM3yuIK",
+        "tiles": [
+          "6jn7HhGx1IM3yuIK",
+          "Awl8J1GAbUsNOprb"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "ieoptRg2vILwpVsf",
+          "data": "aD2gkea863h7C4C-",
+          "collections": {},
+          "categories": {
+            "pH5ZTrYSdsmiwyB7": {
+              "attribute": "pH5ZTrYSdsmiwyB7",
+              "colors": {},
+              "moves": []
+            },
+            "58ztVv2IOunvv5uR": {
+              "attribute": "58ztVv2IOunvv5uR",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "Awl8J1GAbUsNOprb"
+        ]
       }
     ]
   },

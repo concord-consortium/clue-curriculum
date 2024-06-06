@@ -15,14 +15,12 @@
       },
       {
         "id": "wfXQw_NfvfeY0boJ",
-        "title": "7th Grade Sleep Hours",
         "content": {
           "type": "Table",
           "columnWidths": {
             "KMIWzhEiqlZMvYsm": 111,
             "4BHNIghzKdyK7G2V": 101
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -60,6 +58,78 @@
         }
       },
       {
+        "id": "BzuxnFL8ux0cSNhD",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "oK_9Q_GEW6W_go75": 112.6953125,
+            "y8MX-ohEqpvQvxVG": 90.22567749023438
+          }
+        }
+      },
+      {
+        "id": "OAeJ3VOVHZ696Xzq",
+        "title": "Sleep Hours for Sample of 30 Students",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 4,
+              "max": 12
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRdLcsic_-mRFR",
+              "config": {
+                "id": "DCON2xY8k16LOX_E",
+                "dataset": "JgYhmVPv970esod9",
+                "metadata": "kEi3ZOOIDhwzt5Fr",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "y8MX-ohEqpvQvxVG"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "y8MX-ohEqpvQvxVG": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
         "id": "aqfsqiMb62zJzjdV",
         "title": "Initial Challenge Example",
         "display": "teacher",
@@ -88,7 +158,7 @@
           "providerId": "wfXQw_NfvfeY0boJ",
           "dataSet": {
             "id": "4-Z5qCdHDmzeJ96Q",
-            "name": "Table 1",
+            "name": "7th Grade Sleep Hours",
             "attributes": [
               {
                 "id": "KMIWzhEiqlZMvYsm",
@@ -619,6 +689,222 @@
         },
         "tiles": [
           "wfXQw_NfvfeY0boJ"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "n7ICJnjQ_ZtS3Lx9",
+          "providerId": "BzuxnFL8ux0cSNhD",
+          "dataSet": {
+            "id": "JgYhmVPv970esod9",
+            "name": "Sleep Hours for Sample of 30 Students",
+            "attributes": [
+              {
+                "id": "oK_9Q_GEW6W_go75",
+                "clientKey": "",
+                "name": "Student Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "70",
+                  "98",
+                  "30",
+                  "58",
+                  "92",
+                  "28",
+                  "80",
+                  "43",
+                  "24",
+                  "66",
+                  "26",
+                  "35",
+                  "90",
+                  "75",
+                  "38",
+                  "62",
+                  "60",
+                  "86",
+                  "66",
+                  "59",
+                  "80",
+                  "34",
+                  "14",
+                  "98",
+                  "81",
+                  "18",
+                  "22",
+                  "71",
+                  "45",
+                  "96"
+                ],
+                "title": ""
+              },
+              {
+                "id": "y8MX-ohEqpvQvxVG",
+                "clientKey": "",
+                "name": "Sleep (hours)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "7.5",
+                  "6",
+                  "9",
+                  "8.3",
+                  "8.75",
+                  "7",
+                  "11.25",
+                  "9",
+                  "8.5",
+                  "8",
+                  "9",
+                  "8",
+                  "10.5",
+                  "6",
+                  "7.5",
+                  "7",
+                  "9.5",
+                  "9",
+                  "8",
+                  "7",
+                  "11.25",
+                  "10",
+                  "8",
+                  "6",
+                  "7.5",
+                  "8",
+                  "7.5",
+                  "7.5",
+                  "8.3",
+                  "5.3"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "7R6eASTGdwoa54em"
+              },
+              {
+                "__id__": "y53At2LpuPhrTudi"
+              },
+              {
+                "__id__": "DXBIy_GW2GO-RjkJ"
+              },
+              {
+                "__id__": "OLhIJLPDybuS74UI"
+              },
+              {
+                "__id__": "1yEYw6yLZIYBWbyF"
+              },
+              {
+                "__id__": "LhT_TnLdA0mvu_XW"
+              },
+              {
+                "__id__": "gdQ6yek3SsB80H7G"
+              },
+              {
+                "__id__": "q9fCUDY2UFBxFheU"
+              },
+              {
+                "__id__": "VHU6QLf3hDt4LZMr"
+              },
+              {
+                "__id__": "jHBGr2oxV_R-avRk"
+              },
+              {
+                "__id__": "_7P_Klb8NegEBhab"
+              },
+              {
+                "__id__": "bUchD1rB0oarBiy6"
+              },
+              {
+                "__id__": "60bC0cWZhSPryFWv"
+              },
+              {
+                "__id__": "FnkuAfJvDAyJqy4Q"
+              },
+              {
+                "__id__": "kLpQSeD7-xdwzCx6"
+              },
+              {
+                "__id__": "mghOewbt5uO-tOOq"
+              },
+              {
+                "__id__": "F0exbr6TkDFQrrb8"
+              },
+              {
+                "__id__": "GF7TF8t31Gbg6O84"
+              },
+              {
+                "__id__": "zdxflUa0kOeyZkjX"
+              },
+              {
+                "__id__": "VwxZnPkDu1INa00s"
+              },
+              {
+                "__id__": "jy1u7nP5cFuBkINq"
+              },
+              {
+                "__id__": "UxQIDJ4kIr22fxE-"
+              },
+              {
+                "__id__": "iyD7rTMnNAvyEnVc"
+              },
+              {
+                "__id__": "N-fdmLaaBRBZ1yAK"
+              },
+              {
+                "__id__": "wtYxBWc51nzZS78x"
+              },
+              {
+                "__id__": "_zVfyCASkEgAy1gy"
+              },
+              {
+                "__id__": "m4NvcUUV-Bz9bZ0Z"
+              },
+              {
+                "__id__": "j-Y09R1ma2AUt6-8"
+              },
+              {
+                "__id__": "XrX0pLiCkCQZlOSO"
+              },
+              {
+                "__id__": "GY0KgL2Z0ENYlMiA"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "BzuxnFL8ux0cSNhD",
+          "OAeJ3VOVHZ696Xzq"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "kEi3ZOOIDhwzt5Fr",
+          "data": "JgYhmVPv970esod9",
+          "collections": {},
+          "categories": {
+            "oK_9Q_GEW6W_go75": {
+              "attribute": "oK_9Q_GEW6W_go75",
+              "colors": {},
+              "moves": []
+            },
+            "y8MX-ohEqpvQvxVG": {
+              "attribute": "y8MX-ohEqpvQvxVG",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "OAeJ3VOVHZ696Xzq"
         ]
       }
     ]
