@@ -1,6 +1,460 @@
 {
   "type": "labWork",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "V3efLqFDlQoL8JKr",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 1: Use a Virtual Potentiometer to Control a Simulated Servo Motor</strong></u></p><p>Servo motors are commonly used in robots. They are useful due to their small size, low power consumption, and high accuracy. They can be found, for example, in the steering control of a toy car or at the helm of a ship or aircraft. In this activity, we will use a virtual potentiometer to control a simulated servo motor.&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "qWnQzQ2J6Wvtq6F1",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
+        "id": "-luVZRWIA6LQ8Jef",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>Drag the following Dataflow tiles into your workspace.</li><li>To run the simulation, we will use a new tile type called “SIM.” Add a SIM tile to your workspace and place it next to your DataFlow tile (either side-by-site or one over the other).</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "RvJ_xDLvvFHwYQ5c",
+        "content": {
+          "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "O2Lsdr4gCBjP467E": {
+                "id": "O2Lsdr4gCBjP467E",
+                "name": "Sensor",
+                "x": 40,
+                "y": 5,
+                "data": {
+                  "type": "Sensor",
+                  "plot": false,
+                  "orderedDisplayName": "Input 1",
+                  "tickEntries": {
+                    "rT-8tQvOxFStawiH": {
+                      "nodeValue": "NaN"
+                    },
+                    "iAW3oxbIYAcc4p3V": {
+                      "nodeValue": "NaN"
+                    },
+                    "oZhAqcvE8cVOg9CB": {
+                      "nodeValue": "NaN"
+                    },
+                    "Hb_mJnnqsL9q3upG": {
+                      "nodeValue": "NaN"
+                    },
+                    "fva9nLUZX82do8bB": {
+                      "nodeValue": "NaN"
+                    },
+                    "9B2jBfaTwtAgQpVp": {
+                      "nodeValue": "NaN"
+                    },
+                    "9m_XhwO5BqTNBLjP": {
+                      "nodeValue": "NaN"
+                    },
+                    "RLt1EQSm3xUFSbV8": {
+                      "nodeValue": "NaN"
+                    },
+                    "SFYo3wiD96k1-lvl": {
+                      "nodeValue": "NaN"
+                    },
+                    "tIoVSGVPkjiNqTbT": {
+                      "nodeValue": "NaN"
+                    },
+                    "Nr1YP1pH3lMkguz8": {
+                      "nodeValue": "NaN"
+                    },
+                    "c0Yr6cWWxILzTYzQ": {
+                      "nodeValue": "NaN"
+                    },
+                    "YHyWcI4z4gZibvOP": {
+                      "nodeValue": "NaN"
+                    },
+                    "T2jNjj6pfADnNSi9": {
+                      "nodeValue": "NaN"
+                    },
+                    "YzDa1PgGaJ80dhcG": {
+                      "nodeValue": "NaN"
+                    },
+                    "QIPAF8bIN6JQ6RIx": {
+                      "nodeValue": "NaN"
+                    },
+                    "doR4hPKQYWU9BH6r": {
+                      "open": true,
+                      "nodeValue": "NaN"
+                    }
+                  },
+                  "sensorType": "pin-reading",
+                  "sensor": ""
+                }
+              },
+              "sLVuOaFxg0a5i7zc": {
+                "id": "sLVuOaFxg0a5i7zc",
+                "name": "Live Output",
+                "x": 307,
+                "y": 160,
+                "data": {
+                  "type": "Live Output",
+                  "plot": false,
+                  "orderedDisplayName": "Live Output 1",
+                  "tickEntries": {
+                    "rT-8tQvOxFStawiH": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "iAW3oxbIYAcc4p3V": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "oZhAqcvE8cVOg9CB": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "Hb_mJnnqsL9q3upG": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "fva9nLUZX82do8bB": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "9B2jBfaTwtAgQpVp": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "9m_XhwO5BqTNBLjP": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "RLt1EQSm3xUFSbV8": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "SFYo3wiD96k1-lvl": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "tIoVSGVPkjiNqTbT": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "Nr1YP1pH3lMkguz8": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "c0Yr6cWWxILzTYzQ": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "YHyWcI4z4gZibvOP": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "T2jNjj6pfADnNSi9": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "YzDa1PgGaJ80dhcG": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "QIPAF8bIN6JQ6RIx": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "doR4hPKQYWU9BH6r": {
+                      "open": true,
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    }
+                  },
+                  "liveOutputType": "Servo",
+                  "hubSelect": "Physical Servo"
+                }
+              }
+            },
+            "connections": {},
+            "recentTicks": [
+              "rT-8tQvOxFStawiH",
+              "iAW3oxbIYAcc4p3V",
+              "oZhAqcvE8cVOg9CB",
+              "Hb_mJnnqsL9q3upG",
+              "fva9nLUZX82do8bB",
+              "9B2jBfaTwtAgQpVp",
+              "9m_XhwO5BqTNBLjP",
+              "RLt1EQSm3xUFSbV8",
+              "SFYo3wiD96k1-lvl",
+              "tIoVSGVPkjiNqTbT",
+              "Nr1YP1pH3lMkguz8",
+              "c0Yr6cWWxILzTYzQ",
+              "YHyWcI4z4gZibvOP",
+              "T2jNjj6pfADnNSi9",
+              "YzDa1PgGaJ80dhcG",
+              "QIPAF8bIN6JQ6RIx",
+              "doR4hPKQYWU9BH6r"
+            ]
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 1
+          }
+        }
+      },
+      {
+        "id": "nz26wVu3K91auVhX",
+        "title": "Simulation 1",
+        "content": {
+          "type": "Simulator",
+          "simulation": "EMG_and_claw"
+        }
+      },
+      {
+        "id": "sV9IWHm80Mpp917J",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>3. Add an input block to your DataFlow program. Select ‘pin reading’ and ‘simulated pin’ from the drop    down menus.</p><p>4. Add a live output block. Select ‘servo’ and ‘simulated servo’ from the drop down menus.&nbsp;</p><p>5. As you add these blocks to your program, they should appear as inputs and outputs in the simulated Arduino board.&nbsp;</p><p>6. Add operation blocks to your DataFlow program to make the simulated servo move based on the value of the potentiometer.&nbsp;</p><p>7. To test your program, change the potentiometer value in the SIM tile from low to high. Does the simulated servo move?</p><p><em>Hint: if your program is laggy, try changing the sampling rate.&nbsp;Identify the “sparrow” button just above the DataFlow tile:</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "O7l7MrFXvLSqtvO0",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Identify the “sparrow” button just above the DataFlow tile:</p>"
+          ]
+        }
+      },
+      {
+        "id": "NCAOmAza91k2FXU8",
+        "title": "Image 2",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
+        "id": "Z8xscZSJAnH_dCW6",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Annotate your DataFlow program by connecting the DataFlow blocks to the simulated Arduino. Type in a brief description of each block.&nbsp;&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "OXPmPbUnEA7ekRXy",
+        "title": "Image 3",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
+        "id": "fdpyaV1rZ0hPWkW5",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 2: Use the Potentiometer to Control a Mechanical Output</strong></u></p><p>Let’s change our DataFlow program so that it can control a physical servo motor instead of a virtual one.&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "A7POy3ESiDQy8zBF",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You will need the following equipment: </p><p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "CsqB7hxrYVQ2xzgY",
+          "providerId": "RvJ_xDLvvFHwYQ5c",
+          "dataSet": {
+            "id": "2Yzrcn5kImnttFXW",
+            "name": "Program 1",
+            "attributes": [
+              {
+                "id": "ATTRcZ-fM4WJJRAh",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTR_IyemQuReYKj",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "RvJ_xDLvvFHwYQ5c"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "KjKskWqDvbYmuoXR"
+        },
+        "tiles": [
+          "RvJ_xDLvvFHwYQ5c",
+          "nz26wVu3K91auVhX"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "bhvy4kqtEQuflhS_",
+          "variables": [
+            {
+              "id": "ZjKUFd3cqA9_CnPW",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "oArGrxzqjtreoz2W",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 37,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "9J-eT3uZrHDoSiKL",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "shu_cCzUXxl6Uzeg",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "-_aEKi0BKCWxzthK",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 46,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "be7T6a2fYSBS1Kpk",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "dZGczxczx8NXsYnF",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "V3efLqFDlQoL8JKr",
+          "-luVZRWIA6LQ8Jef",
+          "RvJ_xDLvvFHwYQ5c",
+          "nz26wVu3K91auVhX",
+          "sV9IWHm80Mpp917J",
+          "Z8xscZSJAnH_dCW6",
+          "O7l7MrFXvLSqtvO0",
+          "fdpyaV1rZ0hPWkW5",
+          "A7POy3ESiDQy8zBF"
+        ]
+      }
+    ]
   }
 }
