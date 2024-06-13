@@ -24,14 +24,12 @@
       },
       {
         "id": "TILE_6QkhfA-CesC",
-        "title": "Pizza Price of Howdy's Pizza",
         "content": {
           "type": "Table",
           "columnWidths": {
             "RQ4oJYx08GSWCnaV": 150,
             "cAVQm1NtymyxhF8Q": 150
-          },
-          "name": "Pizza Price of Howdy's Pizza"
+          }
         }
       },
       {
@@ -55,236 +53,154 @@
           ]
         }
       },
-      [
-        {
-          "id": "TILEarANv_AclryV",
-          "title": "Royal Pizza",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -2.4,
-                  0
-                ],
-                "axisRange": [
-                  8.4,
-                  67.5
-                ],
-                "axisNames": [
-                  "Number of Pizzas",
-                  "Cost in Dollars"
-                ],
-                "axisLabels": [
-                  "Number of Pizzas",
-                  "Cost in Dollars"
-                ]
+      {
+        "id": "ZtbamQeUvalKAjUZ",
+        "title": "Royal Pizza",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRN1KTlTUIjl1BO",
+              "type": "Movable Line",
+              "isVisible": true,
+              "lines": {
+                "{}": {
+                  "equationCoords": {
+                    "x": null,
+                    "y": null
+                  },
+                  "intercept": -0.4610434218899755,
+                  "slope": 13.39803620082918
+                }
               }
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 6
             },
-            "objects": [
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  13
-                ],
-                "properties": {
-                  "id": "vdPP8NOTFYfI1GTg",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  26
-                ],
-                "properties": {
-                  "id": "LMzVgWMVEKmbF-kU",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  39.00000000000001
-                ],
-                "properties": {
-                  "id": "x22MrSCZPA0zRuho",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  4,
-                  52.000000000000014
-                ],
-                "properties": {
-                  "id": "Mo7aKsGENkhQjvgr",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5,
-                  64.99999999999996
-                ],
-                "properties": {
-                  "id": "ZegQZ7s9BlBHCsxX",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  10,
-                  130.00000000000003
-                ],
-                "properties": {
-                  "id": "Nr-yMYMwTJxK40aS",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
-                  "vdPP8NOTFYfI1GTg",
-                  "LMzVgWMVEKmbF-kU",
-                  "x22MrSCZPA0zRuho",
-                  "Mo7aKsGENkhQjvgr",
-                  "ZegQZ7s9BlBHCsxX",
-                  "Nr-yMYMwTJxK40aS"
-                ],
-                "properties": {
-                  "id": "iUcAVIQeavifTl1Y"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "TILEg_zbEaklUmrt",
-          "title": "Howdy Pizza",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1.1,
-                  0
-                ],
-                "axisRange": [
-                  11.1,
-                  90
-                ],
-                "axisNames": [
-                  "Number of Pizzas",
-                  "Cost in Dollars"
-                ],
-                "axisLabels": [
-                  "Number of Pizzas",
-                  "Cost in Dollars"
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 80
+            }
+          },
+          "lockAxes": true,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRUzU1-xGtmYyN",
+              "config": {
+                "id": "DCONovhMnQjbkurs",
+                "dataset": "moGatAjgW-aoIUOT",
+                "metadata": "6M-fKn0Z82_pEb_c",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "_tfRXBcAaYQv8lXM",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "hvGIwk1ptz5NAtUY",
+                    "type": "numeric"
+                  }
                 ]
-              }
-            },
-            "objects": [
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  42.00000000000001
-                ],
-                "properties": {
-                  "id": "ZfmEiftXc7XsDAyo",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
               },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  52
-                ],
-                "properties": {
-                  "id": "vo_WEMFMeo-Rt8SG",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  63
-                ],
-                "properties": {
-                  "id": "Wt7595slDPkbjGhC",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  4,
-                  74
-                ],
-                "properties": {
-                  "id": "zZRFMvBCkEAd5SXj",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5,
-                  85
-                ],
-                "properties": {
-                  "id": "zbDELqB1i_IMk32B",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
-                  "ZfmEiftXc7XsDAyo",
-                  "vo_WEMFMeo-Rt8SG",
-                  "Wt7595slDPkbjGhC",
-                  "zZRFMvBCkEAd5SXj",
-                  "zbDELqB1i_IMk32B"
-                ],
-                "properties": {
-                  "id": "Aw0ovQjdAqlVu8uF"
-                }
-              }
-            ]
-          }
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "hvGIwk1ptz5NAtUY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Pizzas",
+          "yAttributeLabel": "Cost in Dollars"
         }
-      ],
+      },
+      {
+        "id": "J7TO8BijQohPm9Sa",
+        "title": "Howdy Pizza",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 6
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 100
+            }
+          },
+          "lockAxes": true,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRERo8vT1F-YS4",
+              "config": {
+                "id": "DCONycFnH47Poz_d",
+                "dataset": "Ev_DW_bwbagOXQ4C",
+                "metadata": "lsaJj92l-QO3g2Iq",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "Zz4sorC0-ZbNj2ib",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "Q_sCEmAVxICAMMCa",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "Q_sCEmAVxICAMMCa": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Pizzas",
+          "yAttributeLabel": "Cost in Dollars"
+        }
+      },
       {
         "id": "TILEIvB8hXyVQEY4",
         "display": "teacher",
@@ -651,6 +567,203 @@
         },
         "tiles": [
           "TILE_6QkhfA-CesC"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "VLBZmucUY6hh8ohy",
+          "providerId": "",
+          "dataSet": {
+            "id": "moGatAjgW-aoIUOT",
+            "name": "Added by hand",
+            "attributes": [
+              {
+                "id": "_tfRXBcAaYQv8lXM",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  1.0070257611241213,
+                  1.9901065812741956,
+                  2.9934043875161285,
+                  4.021172871959089,
+                  5.024470678201029,
+                  5.0015963293982715,
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "hvGIwk1ptz5NAtUY",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  12.880184331797263,
+                  26.543778801843246,
+                  39.078341013824826,
+                  53.45622119815668,
+                  "",
+                  66.72811059907838,
+                  50.87557603686636
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01J08ZPWF15ACCPQD5E9CQ6E46"
+              },
+              {
+                "__id__": "01J08ZS9GMYTC40V1JCH7VGC5Z"
+              },
+              {
+                "__id__": "01J08ZSGTP3TJE6RY1QJKEJZP4"
+              },
+              {
+                "__id__": "01J08ZTVKQ35V72WD17E03PGS4"
+              },
+              {
+                "__id__": "01J0901FH8QK2AXE2MYG0GSVS5"
+              },
+              {
+                "__id__": "01J0902X2GYE75CWVFJ0DYQMNZ"
+              },
+              {
+                "__id__": "01J09034TAEE1P622X7KJMCWAJ"
+              }
+            ]
+          }
+        },
+        "provider": "ZtbamQeUvalKAjUZ",
+        "tiles": [
+          "ZtbamQeUvalKAjUZ"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "6M-fKn0Z82_pEb_c",
+          "data": "moGatAjgW-aoIUOT",
+          "collections": {},
+          "categories": {
+            "_tfRXBcAaYQv8lXM": {
+              "attribute": "_tfRXBcAaYQv8lXM",
+              "colors": {},
+              "moves": []
+            },
+            "hvGIwk1ptz5NAtUY": {
+              "attribute": "hvGIwk1ptz5NAtUY",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "ZtbamQeUvalKAjUZ"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "fYMELwIALMQQv2An",
+          "providerId": "",
+          "dataSet": {
+            "id": "Ev_DW_bwbagOXQ4C",
+            "name": "Howdy's Cost Data",
+            "attributes": [
+              {
+                "id": "Zz4sorC0-ZbNj2ib",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  1.00798164699135,
+                  2.0066290815168735,
+                  2.990106581274196,
+                  4.014819277693829,
+                  5.014872724269118,
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "Q_sCEmAVxICAMMCa",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  42.39631336405536,
+                  53.17972350230414,
+                  64.60829493087557,
+                  75.80645161290323,
+                  87.09677419354833,
+                  44.47004608294931
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01J090W569D093Y6B5VDX2RE0T"
+              },
+              {
+                "__id__": "01J090XNRDH3JFAWC873FFZXQ7"
+              },
+              {
+                "__id__": "01J090XSK0MN861XDGRDJM862P"
+              },
+              {
+                "__id__": "01J090YDDYSNJ0JDJ5RGBY48NW"
+              },
+              {
+                "__id__": "01J090YGWCPN4VXB8SFTNCBAFN"
+              },
+              {
+                "__id__": "01J0911T3M6FRNBE0GSG4AGWXE"
+              }
+            ]
+          }
+        },
+        "provider": "J7TO8BijQohPm9Sa",
+        "tiles": [
+          "J7TO8BijQohPm9Sa"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "lsaJj92l-QO3g2Iq",
+          "data": "Ev_DW_bwbagOXQ4C",
+          "collections": {},
+          "categories": {
+            "Zz4sorC0-ZbNj2ib": {
+              "attribute": "Zz4sorC0-ZbNj2ib",
+              "colors": {},
+              "moves": []
+            },
+            "Q_sCEmAVxICAMMCa": {
+              "attribute": "Q_sCEmAVxICAMMCa",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "J7TO8BijQohPm9Sa"
         ]
       }
     ],
