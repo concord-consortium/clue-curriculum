@@ -165,6 +165,16 @@
               "initials": "TM",
               "title": "Food Waste",
               "type": "problem-documents"
+            },
+            {
+              "initials": "A",
+              "title": "Challenge A",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "B",
+              "title": "Challenge B",
+              "type": "problem-documents"
             }
           ]
         },
@@ -298,7 +308,7 @@
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -407,9 +417,14 @@
       "title": "Food Waste",
       "placeholder": "Work on the task here"
     },
-    "questions": {
-      "initials": "Q",
-      "title": "Questions",
+    "challengea": {
+      "initials": "A",
+      "title": "Challenge A",
+      "placeholder": "Work on the task here"
+    },
+    "challengeb": {
+      "initials": "B",
+      "title": "Challenge B",
       "placeholder": "Work on the task here"
     }
   },
@@ -2194,9 +2209,95 @@
       ]
     },
     {
-      "description": "M2Studio Spring 2024",
+      "description": "M2Studio Fall 2024",
       "ordinal": 6,
-      "title": "M2Studio Spring 2024",
+      "title": "M2Studio Fall 2024",
+      "config": {
+        "settings": {
+          "text": {
+            "tools": [
+              "bold",
+              "italic",
+              "list-ul",
+              "subscript",
+              "superscript",
+              "link",
+              "|",
+              "new-variable",
+              "insert-variable",
+              "edit-variable"
+            ]
+          },
+          "drawing": {
+            "tools": [
+              "select",
+              "line",
+              "vector",
+              "rectangle",
+              "ellipse",
+              "stamp",
+              "stroke-color",
+              "fill-color",
+              "text",
+              "image-upload",
+              "|",
+              "group",
+              "ungroup",
+              "duplicate",
+              "|",
+              "new-variable",
+              "insert-variable",
+              "edit-variable",
+              "delete"
+            ]
+          },
+          "diagram": {
+            "maxTiles": 1,
+            "tools": [
+              "new-variable",
+              "insert-variable",
+              "edit-variable",
+              ["variables-link", "Graph"],
+              "|",
+              "zoom-in",
+              "zoom-out",
+              "fit-view",
+              "toggle-lock",
+              "toggle-navigator",
+              "|",
+              "delete"
+            ]
+          },
+          "graph": {
+            "tools": [
+              "link-tile-multiple",
+              "add-points-by-hand",
+              "fit-all",
+              "toggle-lock",
+              "movable-line",
+              "|",
+              "move-points",
+              "add-points",
+              "delete"
+            ],
+            "defaultAxisLabels": {
+              "bottom": "x axis label",
+              "left": "y axis label"
+            },
+            "emptyPlotIsNumeric": true,
+            "scalePlotOnValueChange": true
+          },
+          "table": {
+            "numFormat": ".4~f",
+            "tools": [
+              "set-expression",
+              "merge-in",
+              "link-tile-multiple",
+              "delete"
+            ]
+          }
+        }
+      },
       "problems": [
         {
           "description": "M2S Activity 6.1",
@@ -2234,6 +2335,370 @@
                 ],
                 {
                   "id": "TemplateDiagramTileQ6_1",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.2",
+          "ordinal": 2,
+          "title": "Time in School - South City HS",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-2/wordProblem/content.json",
+            "investigation-6/problem-2/questions/content.json",
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_2",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_2",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_2",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.3",
+          "ordinal": 3,
+          "title": "Time in School - Clients and Their Goals",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-3/questions/content.json",
+            "investigation-6/problem-3/taska/content.json",
+            "investigation-6/problem-3/taskb/content.json",
+            "investigation-6/problem-3/taskc/content.json",
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_3",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_3",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_3",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.4",
+          "ordinal": 4,
+          "title": "Salaries",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-4/questions/content.json",
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_4",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_4",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_4",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.5",
+          "ordinal": 5,
+          "title": "Mathematize - Fish Tanks - Retired",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-5/questions/content.json",
+            "investigation-6/problem-5/resources/content.json",
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ5_5",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ5_5",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ5_5",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.6",
+          "ordinal": 6,
+          "title": "Food Waste",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-6/questions/content.json",
+            "investigation-6/problem-6/resources/content.json",
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_6",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_6",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_6",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.7",
+          "ordinal": 7,
+          "title": "Kenia's Challenges",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-6/problem-7/questions/content.json", 
+            "investigation-6/problem-7/challengea/content.json", 
+            "investigation-6/problem-7/challengeb/content.json", 
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_7",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_7",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_7",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2S Activity 6.8",
+          "ordinal": 8,
+          "title": "Using M2Studio",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-4/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ6_8",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ6_8",
+                    "title": "Template Drawing Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ6_8",
                   "title": "Template Diagram Tile",
                   "content": {
                     "type": "Diagram",
