@@ -32,6 +32,11 @@
         "isTileTool": true
       },
       {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
         "id": "Drawing",
         "title": "Sketch",
         "isTileTool": true
@@ -346,18 +351,37 @@
       "table": {
         "numFormat": ".2~f", 
         "tools": ["set-expression", "link-tile-multiple", "merge-in", ["data-set-view", "Geometry"], "delete"]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
+      "non-proportional": "Non-Proportional",
+      "scaling-up-down": "Scaling Up and Down",
+      "unit-rate": "Unit Rates",
       "building-up": "Building Up",
-      "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
+      "other-proportional": "Other - Proportional"
     },
     "tagPrompt": "Student Strategy"
   },
