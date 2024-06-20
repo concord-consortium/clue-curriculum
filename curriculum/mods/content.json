@@ -169,6 +169,7 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
+          "merge-data-in",
           "delete"
         ]
       }
@@ -253,6 +254,34 @@
     ]
   },
   "investigations": [
+    {
+      "description": "Introduction to CLUE",
+      "ordinal": 0,
+      "title": "Introduction to CLUE",
+      "problems": [
+        {
+          "description": "Activity 1.1",
+          "ordinal": 1,
+          "title": "Collaborative Learning Environment",
+          "subtitle": "Get a CLUE",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-0/problem-1/introduction/content.json",
+            "sections/investigation-0/problem-1/activity/content.json",
+            "sections/investigation-0/problem-1/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-2/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-2/problem-1/exemplar-10/content.json",
+            "exemplars/investigation-2/problem-1/exemplar-15/content.json",
+            "exemplars/investigation-2/problem-1/exemplar-20/content.json",
+            "exemplars/investigation-2/problem-1/exemplar-25/content.json",
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+          ],
+          "config": {}
+        }
+      ]
+    },
     {
       "description": "Problem 1: Water Resources",
       "ordinal": 1,
