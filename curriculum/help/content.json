@@ -3,42 +3,371 @@
   "abbrevTitle": "HELP",
   "title": "CLUE Help",
   "subtitle": "Tips and Documentation",
-  "placeholderText": "Enter notes here",
+  "config": {
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Dataflow",
+        "title": "Dataflow",
+        "isTileTool": true
+      },
+      {
+        "id": "Simulator",
+        "title": "Simulation",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "tools": [
+      "Simulator"
+    ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Activities",
+          "sections": [
+            {
+              "initials": "IS",
+              "title": "Instructors",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            
+            {
+              "initials": "TO",
+              "title": "Tools",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "SH",
+              "title": "Sharing",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning",
+                "personal",
+                "learningLog"
+              ],
+              "order": "original",
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "iits/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "iits/stamps/red-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile-multiple",
+          "merge-in",
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "simulator": {
+        "defaultSimulation": "terrarium",
+        "maxTiles": 1
+      },
+      "dataflow": {
+        "maxTiles": 1
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+      "algorithm": "Algorithm",
+      "guess-and-check": "Guess and Check",
+      "inspection": "Inspection"
+    },
+    "tagPrompt": "Solution Strategy"
+  },
   "sections": {
-    "introduction": {"initials": "IN", "title": "Introduction", "placeholder": "Work area for\nIntroduction section"},
-    "tools": {"initials": "TO", "title": "Tools", "placeholder": "Work area for\nTools section"},
-    "sharing": {"initials": "SH", "title": "Sharing", "placeholder": "Work area for\nSharing section"},
-    "instructors": {"initials": "IS", "title": "Instructors", "placeholder": "Work area for\nInstructors section"}
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "tools": {
+      "initials": "TO",
+      "title": "Tools",
+      "placeholder": "Work area for\nTools section"
+    },
+    "sharing": {
+      "initials": "SH",
+      "title": "Sharing",
+      "placeholder": "Work area for\nSharing section"
+    },
+    "instructors": {
+      "initials": "IS",
+      "title": "Instructors",
+      "placeholder": "Work area for\nInstructors section"
+    }
   },
   "planningDocument": {
     "enable": "teacher",
     "default": true,
     "sectionInfo": {
-      "overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"},
-      "launch": {"initials": "LC", "title": "Launch", "placeholder": "Work area for\nLaunch section"},
-      "explore": {"initials": "EX", "title": "Explore", "placeholder": "Work area for\nExplore section"},
-      "summarize": {"initials": "SM", "title": "Summarize", "placeholder": "Work area for\nSummarize section"}
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
     },
-    "sections": [{"type": "overview"}, {"type": "launch"}, {"type": "explore"}, {"type": "summarize"}]
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
   },
   "investigations": [
     {
       "description": "Investigation 1",
       "ordinal": 1,
       "title": "Introduction to CLUE",
-      "introduction": {"tiles": []},
+      "introduction": {
+        "tiles": []
+      },
       "problems": [
         {
           "description": "CLUE Help",
           "ordinal": 1,
           "title": "Introduction to CLUE",
-          "subtitle": "Working in the Collaborative Learning User Environment (CLUE)",
-          "sections": ["investigation-1/problem-1/introduction/content.json", "investigation-1/problem-1/tools/content.json", "investigation-1/problem-1/sharing/content.json", "investigation-1/problem-1/instructors/content.json"],
-          "supports": []
+          "subtitle": "Collaborative STEM Learning",
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/tools/content.json",
+            "investigation-1/problem-1/sharing/content.json",
+            "investigation-1/problem-1/instructors/content.json"
+          ]
         }
-      ],
-      "supports": []
+      ]
     }
-  ],
-  "supports": []
+  ]
 }
