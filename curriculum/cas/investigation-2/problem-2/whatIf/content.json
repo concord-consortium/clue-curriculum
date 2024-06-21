@@ -64,88 +64,141 @@
           ]
         }
       },
-      {
-        "id": "ZtbamQeUvalKAjUZ",
-        "title": "Royal Pizza",
-        "content": {
-          "type": "Graph",
-          "adornments": [
-            {
-              "id": "ADRN1KTlTUIjl1BO",
-              "type": "Movable Line",
-              "isVisible": true,
-              "lines": {
-                "{}": {
-                  "equationCoords": {
-                    "x": null,
-                    "y": null
-                  },
-                  "intercept": -0.4610434218899755,
-                  "slope": 13.39803620082918
+      [
+        {
+          "id": "ZtbamQeUvalKAjUZ",
+          "title": "Royal Pizza",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRN1KTlTUIjl1BO",
+                "type": "Movable Line",
+                "isVisible": true,
+                "lines": {
+                  "{}": {
+                    "equationCoords": {
+                      "x": null,
+                      "y": null
+                    },
+                    "intercept": -0.4610434218899755,
+                    "slope": 13.39803620082918
+                  }
                 }
               }
-            }
-          ],
-          "axes": {
-            "bottom": {
-              "type": "numeric",
-              "place": "bottom",
-              "scale": "linear",
-              "min": 0,
-              "max": 6
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": 0,
-              "max": 80
-            }
-          },
-          "lockAxes": true,
-          "plotType": "scatterPlot",
-          "layers": [
-            {
-              "id": "LAYRUzU1-xGtmYyN",
-              "config": {
-                "id": "DCONovhMnQjbkurs",
-                "dataset": "moGatAjgW-aoIUOT",
-                "metadata": "6M-fKn0Z82_pEb_c",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "_tfRXBcAaYQv8lXM",
-                    "type": "numeric"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "hvGIwk1ptz5NAtUY",
-                    "type": "numeric"
-                  }
-                ]
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": 0,
+                "max": 6
               },
-              "editable": true
-            }
-          ],
-          "_idColors": {
-            "hvGIwk1ptz5NAtUY": 0
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "Number of Pizzas",
-          "yAttributeLabel": "Cost in Dollars"
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": 0,
+                "max": 80
+              }
+            },
+            "lockAxes": true,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRUzU1-xGtmYyN",
+                "config": {
+                  "id": "DCONovhMnQjbkurs",
+                  "dataset": "moGatAjgW-aoIUOT",
+                  "metadata": "6M-fKn0Z82_pEb_c",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "_tfRXBcAaYQv8lXM",
+                      "type": "numeric"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "hvGIwk1ptz5NAtUY",
+                      "type": "numeric"
+                    }
+                  ]
+                },
+                "editable": true
+              }
+            ],
+            "_idColors": {
+              "hvGIwk1ptz5NAtUY": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Number of Pizzas",
+            "yAttributeLabel": "Cost in Dollars"
+          }
+        },
+        {
+          "id": "PWoJnRL7zUYu5yWP",
+          "title": "Graph 1",
+          "content": {
+            "type": "Graph",
+            "adornments": [],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": 0,
+                "max": 10
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": 0,
+                "max": 10
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRCG4b0mQs_KCq",
+                "config": {
+                  "id": "DCONbIGNXPZBKdSM",
+                  "_attributeDescriptions": {},
+                  "_yAttributeDescriptions": []
+                },
+                "editable": false
+              }
+            ],
+            "_idColors": {},
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "x",
+            "yAttributeLabel": "y"
+          }
         }
-      },
+      ],
       {
         "id": "J7TO8BijQohPm9Sa",
         "title": "Howdy Pizza",
