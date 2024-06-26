@@ -188,25 +188,28 @@
               {
                 "type": "point",
                 "parents": [
-                  9.643532046256066,
-                  8.616786320599886
+                  2.583888832680759,
+                  6.449916763553436
                 ],
                 "properties": {
                   "id": "4LBSAZbwBSIZj8oe",
                   "snapToGrid": true,
-                  "colorScheme": 0
+                  "colorScheme": 0,
+                  "clientLabelOption": "none"
                 }
               },
               {
                 "type": "point",
                 "parents": [
-                  14.643532046256066,
-                  13.616786320599886
+                  7.583888832680759,
+                  11.449916763553437
                 ],
                 "properties": {
                   "id": "CwvkuSfF5kvTyumD",
+                  "name": "G",
                   "snapToGrid": true,
-                  "colorScheme": 0
+                  "colorScheme": 0,
+                  "clientLabelOption": "length"
                 }
               },
               {
@@ -218,18 +221,20 @@
                 "properties": {
                   "id": "1t6NY4AggtTSPW_H",
                   "snapToGrid": true,
-                  "colorScheme": 0
+                  "colorScheme": 0,
+                  "clientLabelOption": "none"
                 }
               },
               {
                 "type": "point",
                 "parents": [
-                  8.2299813588556,
-                  13.726808793731477
+                  1.2138701915363574,
+                  11.576725557284913
                 ],
                 "properties": {
                   "id": "MSFDr5b1dUAIMiXp",
-                  "colorScheme": 0
+                  "colorScheme": 0,
+                  "clientLabelOption": "none"
                 }
               },
               {
@@ -268,6 +273,17 @@
                 "properties": {
                   "id": "yWjEDhXMAE-X7BoB",
                   "colorScheme": 1
+                }
+              },
+              {
+                "type": "vertexAngle",
+                "parents": [
+                  "MSFDr5b1dUAIMiXp",
+                  "CwvkuSfF5kvTyumD",
+                  "4LBSAZbwBSIZj8oe"
+                ],
+                "properties": {
+                  "id": "IOW5EitQLK2wLSLz"
                 }
               }
             ]
