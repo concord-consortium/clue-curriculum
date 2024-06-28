@@ -55,7 +55,7 @@
           "stamp",
           "stroke-color",
           "fill-color",
-          "image-upload",
+          "upload",
           "new-variable",
           "insert-variable",
           "edit-variable",
@@ -248,7 +248,8 @@
                 "teacher"
               ],
               "properties": [
-                "!isTeacherDocument"
+                "!isTeacherDocument",
+                "!isDeleted"
               ]
             },
             {
@@ -260,7 +261,8 @@
                 "personalPublication"
               ],
               "properties": [
-                "!isTeacherDocument"
+                "!isTeacherDocument",
+                "!isDeleted"
               ]
             },
             {
@@ -2239,7 +2241,7 @@
               "stroke-color",
               "fill-color",
               "text",
-              "image-upload",
+              "upload",
               "|",
               "group",
               "ungroup",
