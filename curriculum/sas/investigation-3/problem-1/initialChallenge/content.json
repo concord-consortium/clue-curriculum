@@ -106,83 +106,91 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "name": "x",
-                "label": "x",
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "name": "y",
-                "label": "y",
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
               }
             },
-            "objects": {
-              "NyMfKNURvnTjaNAI": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "NyMfKNURvnTjaNAI",
-                "x": 1,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "NyMfKNURvnTjaNAI",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "VzRHMSkUkFOKRPMl": {
+              {
                 "type": "point",
-                "id": "VzRHMSkUkFOKRPMl",
-                "x": 6,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  6,
+                  1
+                ],
+                "properties": {
+                  "id": "VzRHMSkUkFOKRPMl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "Yz7eOPy4m1_ZJIzP": {
+              {
                 "type": "point",
-                "id": "Yz7eOPy4m1_ZJIzP",
-                "x": 6,
-                "y": 3,
-                "name": "superpoint",
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "label"
+                "parents": [
+                  6,
+                  3
+                ],
+                "properties": {
+                  "id": "Yz7eOPy4m1_ZJIzP",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "TmnbKgh42Oda-Erl": {
+              {
                 "type": "point",
-                "id": "TmnbKgh42Oda-Erl",
-                "x": 1,
-                "y": 3,
-                "name": "D",
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "length"
+                "parents": [
+                  1,
+                  3
+                ],
+                "properties": {
+                  "id": "TmnbKgh42Oda-Erl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "F2nHBtOWUcMEWR7x": {
+              {
                 "type": "polygon",
-                "id": "F2nHBtOWUcMEWR7x",
-                "points": [
+                "parents": [
                   "NyMfKNURvnTjaNAI",
                   "VzRHMSkUkFOKRPMl",
                   "Yz7eOPy4m1_ZJIzP",
                   "TmnbKgh42Oda-Erl"
                 ],
-                "colorScheme": 0
-              },
-              "9YujtYfBG4i6v7wI": {
-                "type": "vertexAngle",
-                "id": "9YujtYfBG4i6v7wI",
-                "points": [
-                  "TmnbKgh42Oda-Erl",
-                  "Yz7eOPy4m1_ZJIzP",
-                  "VzRHMSkUkFOKRPMl"
-                ]
+                "properties": {
+                  "id": "F2nHBtOWUcMEWR7x"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -194,72 +202,91 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "name": "x",
-                "label": "x",
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "name": "y",
-                "label": "y",
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
               }
             },
-            "objects": {
-              "NyMfKNURvnTjaNAI": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "NyMfKNURvnTjaNAI",
-                "x": 1,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "NyMfKNURvnTjaNAI",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "VzRHMSkUkFOKRPMl": {
+              {
                 "type": "point",
-                "id": "VzRHMSkUkFOKRPMl",
-                "x": 6,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  6,
+                  1
+                ],
+                "properties": {
+                  "id": "VzRHMSkUkFOKRPMl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "Yz7eOPy4m1_ZJIzP": {
+              {
                 "type": "point",
-                "id": "Yz7eOPy4m1_ZJIzP",
-                "x": 8,
-                "y": 3,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  8,
+                  3
+                ],
+                "properties": {
+                  "id": "Yz7eOPy4m1_ZJIzP",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "TmnbKgh42Oda-Erl": {
+              {
                 "type": "point",
-                "id": "TmnbKgh42Oda-Erl",
-                "x": 3,
-                "y": 3,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  3,
+                  3
+                ],
+                "properties": {
+                  "id": "TmnbKgh42Oda-Erl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "F2nHBtOWUcMEWR7x": {
+              {
                 "type": "polygon",
-                "id": "F2nHBtOWUcMEWR7x",
-                "points": [
+                "parents": [
                   "NyMfKNURvnTjaNAI",
                   "VzRHMSkUkFOKRPMl",
                   "Yz7eOPy4m1_ZJIzP",
                   "TmnbKgh42Oda-Erl"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "F2nHBtOWUcMEWR7x"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -273,58 +300,69 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ]
               }
             },
-            "objects": {
-              "_qIhAyIFKZbPgd_R": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "_qIhAyIFKZbPgd_R",
-                "x": 1,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "_qIhAyIFKZbPgd_R",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "6IeoETwRxwpFo490": {
+              {
                 "type": "point",
-                "id": "6IeoETwRxwpFo490",
-                "x": 5,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  5,
+                  1
+                ],
+                "properties": {
+                  "id": "6IeoETwRxwpFo490",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "QmLbiwWO0mwjVeZO": {
+              {
                 "type": "point",
-                "id": "QmLbiwWO0mwjVeZO",
-                "x": 0.9793842124834766,
-                "y": 3.018424358786303,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  0.9793842124834766,
+                  3.018424358786303
+                ],
+                "properties": {
+                  "id": "QmLbiwWO0mwjVeZO",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "liIh5cUOs1_Pjvja": {
+              {
                 "type": "polygon",
-                "id": "liIh5cUOs1_Pjvja",
-                "points": [
+                "parents": [
                   "_qIhAyIFKZbPgd_R",
                   "6IeoETwRxwpFo490",
                   "QmLbiwWO0mwjVeZO"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "liIh5cUOs1_Pjvja"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -336,62 +374,77 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "name": "x",
-                "label": "x",
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "name": "y",
-                "label": "y",
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
               }
             },
-            "objects": {
-              "0SMVSu8gZ1o0rjrm": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "0SMVSu8gZ1o0rjrm",
-                "x": -0.0383251857241928,
-                "y": 0.036793822798448034,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  -0.0383251857241928,
+                  0.036793822798448034
+                ],
+                "properties": {
+                  "id": "0SMVSu8gZ1o0rjrm",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "FhsB7IRFUZJZkFou": {
+              {
                 "type": "point",
-                "id": "FhsB7IRFUZJZkFou",
-                "x": 3.163236889078363,
-                "y": 0.036263553095354256,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  3.163236889078363,
+                  0.036263553095354256
+                ],
+                "properties": {
+                  "id": "FhsB7IRFUZJZkFou",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "sxtaZ-d2XxMnzbX6": {
+              {
                 "type": "point",
-                "id": "sxtaZ-d2XxMnzbX6",
-                "x": 1.6082061539704386,
-                "y": 2.813290634862781,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1.6082061539704386,
+                  2.813290634862781
+                ],
+                "properties": {
+                  "id": "sxtaZ-d2XxMnzbX6",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "laPvLjRmlbbMK3S_": {
+              {
                 "type": "polygon",
-                "id": "laPvLjRmlbbMK3S_",
-                "points": [
+                "parents": [
                   "0SMVSu8gZ1o0rjrm",
                   "FhsB7IRFUZJZkFou",
                   "sxtaZ-d2XxMnzbX6"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "laPvLjRmlbbMK3S_"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -416,72 +469,91 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "name": "x",
-                "label": "x",
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "name": "y",
-                "label": "y",
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
               }
             },
-            "objects": {
-              "NyMfKNURvnTjaNAI": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "NyMfKNURvnTjaNAI",
-                "x": 1,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "NyMfKNURvnTjaNAI",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "VzRHMSkUkFOKRPMl": {
+              {
                 "type": "point",
-                "id": "VzRHMSkUkFOKRPMl",
-                "x": 7,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  7,
+                  1
+                ],
+                "properties": {
+                  "id": "VzRHMSkUkFOKRPMl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "Yz7eOPy4m1_ZJIzP": {
+              {
                 "type": "point",
-                "id": "Yz7eOPy4m1_ZJIzP",
-                "x": 6,
-                "y": 3,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  6,
+                  3
+                ],
+                "properties": {
+                  "id": "Yz7eOPy4m1_ZJIzP",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "TmnbKgh42Oda-Erl": {
+              {
                 "type": "point",
-                "id": "TmnbKgh42Oda-Erl",
-                "x": 2,
-                "y": 3,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  2,
+                  3
+                ],
+                "properties": {
+                  "id": "TmnbKgh42Oda-Erl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "F2nHBtOWUcMEWR7x": {
+              {
                 "type": "polygon",
-                "id": "F2nHBtOWUcMEWR7x",
-                "points": [
+                "parents": [
                   "NyMfKNURvnTjaNAI",
                   "VzRHMSkUkFOKRPMl",
                   "Yz7eOPy4m1_ZJIzP",
                   "TmnbKgh42Oda-Erl"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "F2nHBtOWUcMEWR7x"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -493,72 +565,91 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "name": "x",
-                "label": "x",
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "name": "y",
-                "label": "y",
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ],
+                "axisNames": [
+                  "x",
+                  "y"
+                ],
+                "axisLabels": [
+                  "x",
+                  "y"
+                ]
               }
             },
-            "objects": {
-              "NyMfKNURvnTjaNAI": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "NyMfKNURvnTjaNAI",
-                "x": 1,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "NyMfKNURvnTjaNAI",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "VzRHMSkUkFOKRPMl": {
+              {
                 "type": "point",
-                "id": "VzRHMSkUkFOKRPMl",
-                "x": 7,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  7,
+                  1
+                ],
+                "properties": {
+                  "id": "VzRHMSkUkFOKRPMl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "Yz7eOPy4m1_ZJIzP": {
+              {
                 "type": "point",
-                "id": "Yz7eOPy4m1_ZJIzP",
-                "x": 4,
-                "y": 3,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  4,
+                  3
+                ],
+                "properties": {
+                  "id": "Yz7eOPy4m1_ZJIzP",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "TmnbKgh42Oda-Erl": {
+              {
                 "type": "point",
-                "id": "TmnbKgh42Oda-Erl",
-                "x": 1,
-                "y": 3,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  3
+                ],
+                "properties": {
+                  "id": "TmnbKgh42Oda-Erl",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "F2nHBtOWUcMEWR7x": {
+              {
                 "type": "polygon",
-                "id": "F2nHBtOWUcMEWR7x",
-                "points": [
+                "parents": [
                   "NyMfKNURvnTjaNAI",
                   "VzRHMSkUkFOKRPMl",
                   "Yz7eOPy4m1_ZJIzP",
                   "TmnbKgh42Oda-Erl"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "F2nHBtOWUcMEWR7x"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -572,58 +663,69 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ]
               }
             },
-            "objects": {
-              "_qIhAyIFKZbPgd_R": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "_qIhAyIFKZbPgd_R",
-                "x": 1,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  1
+                ],
+                "properties": {
+                  "id": "_qIhAyIFKZbPgd_R",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "6IeoETwRxwpFo490": {
+              {
                 "type": "point",
-                "id": "6IeoETwRxwpFo490",
-                "x": 5,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  5,
+                  1
+                ],
+                "properties": {
+                  "id": "6IeoETwRxwpFo490",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "QmLbiwWO0mwjVeZO": {
+              {
                 "type": "point",
-                "id": "QmLbiwWO0mwjVeZO",
-                "x": 3,
-                "y": 6,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  3,
+                  6
+                ],
+                "properties": {
+                  "id": "QmLbiwWO0mwjVeZO",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "liIh5cUOs1_Pjvja": {
+              {
                 "type": "polygon",
-                "id": "liIh5cUOs1_Pjvja",
-                "points": [
+                "parents": [
                   "_qIhAyIFKZbPgd_R",
                   "6IeoETwRxwpFo490",
                   "QmLbiwWO0mwjVeZO"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "liIh5cUOs1_Pjvja"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
@@ -635,58 +737,69 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "xAxis": {
-                "min": -2,
-                "unit": 18.299656881433474,
-                "range": 26.23
-              },
-              "yAxis": {
-                "min": -1,
-                "unit": 18.30035456936978,
-                "range": 17.486
+              "properties": {
+                "axisMin": [
+                  -2,
+                  -1
+                ],
+                "axisRange": [
+                  26.23,
+                  17.486
+                ]
               }
             },
-            "objects": {
-              "_qIhAyIFKZbPgd_R": {
+            "objects": [
+              {
                 "type": "point",
-                "id": "_qIhAyIFKZbPgd_R",
-                "x": 3,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  3,
+                  1
+                ],
+                "properties": {
+                  "id": "_qIhAyIFKZbPgd_R",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "6IeoETwRxwpFo490": {
+              {
                 "type": "point",
-                "id": "6IeoETwRxwpFo490",
-                "x": 6,
-                "y": 1,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  6,
+                  1
+                ],
+                "properties": {
+                  "id": "6IeoETwRxwpFo490",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "QmLbiwWO0mwjVeZO": {
+              {
                 "type": "point",
-                "id": "QmLbiwWO0mwjVeZO",
-                "x": 1,
-                "y": 5,
-                "snapToGrid": true,
-                "colorScheme": 0,
-                "labelOption": "none"
+                "parents": [
+                  1,
+                  5
+                ],
+                "properties": {
+                  "id": "QmLbiwWO0mwjVeZO",
+                  "snapToGrid": true,
+                  "snapSizeX": 0.1,
+                  "snapSizeY": 0.1
+                }
               },
-              "liIh5cUOs1_Pjvja": {
+              {
                 "type": "polygon",
-                "id": "liIh5cUOs1_Pjvja",
-                "points": [
+                "parents": [
                   "_qIhAyIFKZbPgd_R",
                   "6IeoETwRxwpFo490",
                   "QmLbiwWO0mwjVeZO"
                 ],
-                "colorScheme": 0
+                "properties": {
+                  "id": "liIh5cUOs1_Pjvja"
+                }
               }
-            },
-            "pointMetadata": {},
-            "linkedAttributeColors": {}
+            ]
           },
           "layout": {
             "height": 360
