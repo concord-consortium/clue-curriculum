@@ -1008,15 +1008,13 @@
       },
       {
         "id": "0sdgoSuD3bRJtfPY",
-        "title": "Avg. Temperature in Alaska",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "023Nr9WgbSgOZ6Jh": 114,
             "fV1dWuTq6rDXfLjp": 112
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1026,18 +1024,23 @@
         "content": {
           "type": "Geometry",
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -26
-              ],
-              "axisRange": [
-                14,
-                44
-              ]
+            "xAxis": {
+              "min": -1,
+              "unit": 34.285714285714285,
+              "range": 14
+            },
+            "yAxis": {
+              "min": -26,
+              "unit": 7.2727272727272725,
+              "range": 44
             }
           },
-          "objects": []
+          "objects": {},
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "023Nr9WgbSgOZ6Jh": 0,
+            "fV1dWuTq6rDXfLjp": 1
+          }
         },
         "layout": {
           "height": 400
@@ -1739,7 +1742,7 @@
           "providerId": "0sdgoSuD3bRJtfPY",
           "dataSet": {
             "id": "bjOxCdPyTO31sIZb",
-            "name": "Table 1",
+            "name": "Avg. Temperature in Alaska",
             "attributes": [
               {
                 "id": "023Nr9WgbSgOZ6Jh",
