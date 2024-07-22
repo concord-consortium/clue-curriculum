@@ -5,7 +5,8 @@
   "subtitle": "Three-Dimensional Measurement",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "placeholderText": "Enter notes here",
     "toolbar": [
@@ -46,14 +47,28 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
         "isTileTool": true
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Sparrows", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -87,7 +102,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -196,94 +211,6 @@
           "tab": "sort-work",
           "label": "Class Work",
           "teacherOnly": false
-        },
-        {
-          "tab": "class-work",
-          "label": "Published Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication"
-              ],
-              "showStars": [
-                "teacher", "student"
-              ],
-              "properties": [
-                "!isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "title": "Workspaces",
-              "type": "published-personal-documents",
-              "dataTestHeader": "class-work-section-personal",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "personalPublication"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ],
-              "properties": [
-                "!isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section teacher published-documents",
-              "title": "Teacher",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": [
-                "publication",
-                "personalPublication"
-              ],
-              "properties": [
-                "isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-problem-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-personal-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -338,9 +265,25 @@
       "table": {
         "numFormat": ".2~f"
       },
-      "datacard": { 
-        "tools": ["duplicate", "link-tile", "merge-in",
-          ["data-set-view", "Table"], "image-upload", "delete-attribute"]
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
@@ -534,17 +477,17 @@
               "summarize": {
                 "tiles": [
                   {
-                  "id": "pbckDthxkWQV-6uu",
-                  "title": "Text 4",
-                  "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Discuss the measurements needed for any of the items in the Initial Challenge that were generating the most discussion during the explore.  </p><p>Discuss the strategies students have for finding volume.  Assist students in making connections between the strategies that are shared.  </p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>When was length an important measurement in the Initial Challenge? Why? Width? Height? Diagonal? Surface Area? Volume?</li><li>How did you find the volume for the shipping containers in What If A?  </li><li>How did you decide the number of boxes of basketballs that would fit into the shipping container in What If Situation B?  </li><li>To go further with What If Situation B- If a large box held 25 cubical basketball boxes with no space left over, do you think you could get more balls in the box if you took them out of their packages?  Why or why not?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
-                    ]
+                    "id": "pbckDthxkWQV-6uu",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Discuss the measurements needed for any of the items in the Initial Challenge that were generating the most discussion during the explore.  </p><p>Discuss the strategies students have for finding volume.  Assist students in making connections between the strategies that are shared.  </p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>When was length an important measurement in the Initial Challenge? Why? Width? Height? Diagonal? Surface Area? Volume?</li><li>How did you find the volume for the shipping containers in What If A?  </li><li>How did you decide the number of boxes of basketballs that would fit into the shipping container in What If Situation B?  </li><li>To go further with What If Situation B- If a large box held 25 cubical basketball boxes with no space left over, do you think you could get more balls in the box if you took them out of their packages?  Why or why not?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
                   }
-                }
-              ]
+                ]
               }
             }
           }
@@ -884,7 +827,7 @@
                 ]
               },
               "explore": {
-                "tiles": [ 
+                "tiles": [
                   {
                     "id": "qD5IuOZIafk-ckIe",
                     "title": "Text 3",
@@ -911,7 +854,7 @@
                       ]
                     }
                   }
-                  ]
+                ]
               }
             }
           }

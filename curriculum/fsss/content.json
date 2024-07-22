@@ -5,7 +5,8 @@
   "subtitle": "Exploring Transformations",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "placeholderText": "Enter notes here",
     "toolbar": [
@@ -24,7 +25,6 @@
       {
         "id": "Graph",
         "title": "Graph",
-        "iconId": "icon-plot-tool",
         "isTileTool": true
       },
       {
@@ -52,8 +52,18 @@
         "title": "Drawing",
         "isTileTool": true
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Sparrows", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -87,7 +97,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -196,94 +206,6 @@
           "tab": "sort-work",
           "label": "Class Work",
           "teacherOnly": false
-        },
-        {
-          "tab": "class-work",
-          "label": "Published Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication"
-              ],
-              "showStars": [
-                "teacher", "student"
-              ],
-              "properties": [
-                "!isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "title": "Workspaces",
-              "type": "published-personal-documents",
-              "dataTestHeader": "class-work-section-personal",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "personalPublication"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ],
-              "properties": [
-                "!isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section teacher published-documents",
-              "title": "Teacher",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": [
-                "publication",
-                "personalPublication"
-              ],
-              "properties": [
-                "isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-problem-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-personal-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -337,7 +259,12 @@
     "settings": {
       "table": {
         "numFormat": ".2~f",
-        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          "delete"
+        ]
       },
       "graph": {
         "tools": [
@@ -351,8 +278,8 @@
           "delete"
         ],
         "defaultAxisLabels": {
-          "bottom": "x",
-          "left": "y"
+          "bottom": "Label x",
+          "left": "Label y"
         },
         "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true,
@@ -369,8 +296,8 @@
       "scaling-up-down": "Scaling Up or Down",
       "unit-rates": "Unit Rates",
       "other-proportional": "Other - Proportional"
-   },
-     "tagPrompt": "Student Strategy"
+    },
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -510,7 +437,7 @@
           "ordinal": 3,
           "title": "FSSS 1.3 Spinning Around: Rotations",
           "subtitle": "",
-          "sections": [ 
+          "sections": [
             "investigation-1/problem-3/introduction/content.json",
             "investigation-1/problem-3/initialChallenge/content.json",
             "investigation-1/problem-3/whatIf/content.json",
