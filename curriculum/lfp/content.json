@@ -5,8 +5,10 @@
   "subtitle": "The Pythagorean Theorem and the Real Numbers",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -101,7 +103,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -210,7 +212,7 @@
           "tab": "sort-work",
           "label": "Class Work",
           "teacherOnly": false
-        } 
+        }
       ]
     },
     "stamps": [
@@ -263,7 +265,16 @@
     "settings": {
       "table": {
         "numFormat": ".2~f",
-        "tools": ["set-expression", "link-tile-multiple", "merge-in", ["data-set-view", "Geometry"], "delete"]
+        "tools": [
+          "set-expression",
+          "link-tile-multiple",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          "delete"
+        ]
       },
       "graph": {
         "tools": [

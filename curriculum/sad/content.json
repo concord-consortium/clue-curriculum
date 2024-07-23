@@ -5,8 +5,10 @@
   "subtitle": "Generalizing and Using Properties of Geometric Shapes",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -45,7 +47,11 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
@@ -96,7 +102,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -257,8 +263,17 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile-multiple", "merge-in", ["data-set-view", "Geometry"], "delete"]
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile-multiple",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          "delete"
+        ]
       },
       "graph": {
         "tools": [
