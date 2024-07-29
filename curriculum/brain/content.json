@@ -18,11 +18,19 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
-          "link-tile",
+          [
+            "data-set-view",
+            "graph"
+          ],
           "delete"
         ]
       },
       "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
         "defaultAxisLabels": {
           "bottom": "time",
           "left": "Signal"
@@ -37,12 +45,21 @@
         "maxTiles": 1
       }
     },
+    "showCommentTag": true,
+    "commentTags": {
+      "diverging": "Decomposition",
+      "converging": "Pattern Recognition",
+      "materials": "Abstraction/Generalization",
+      "physical": "Algorithmic Thinking"
+    },
+    "tagPrompt": "Computational Thinking",
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
         "n": "Learning Journals"
       }
     },
+    "annotations": "all",
     "toolbar": [
       {
         "id": "select",
@@ -169,6 +186,19 @@
               ]
             },
             {
+              "title": "Custom Lessons",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            },
+            {
               "title": "Class Models and Data",
               "type": "published-problem-documents",
               "dataTestHeader": "class-work-section-published",
@@ -255,7 +285,48 @@
         }
       ]
     },
-    "stamps": []
+    "stamps": [
+      {
+        "url": "brain/stamps/cell_schematic.png",
+        "width": 22,
+        "height": 20
+      },
+      {
+        "url": "brain/stamps/switch_schematic.png",
+        "width": 36,
+        "height": 15
+      },
+      {
+        "url": "brain/stamps/resistor_schematic.png",
+        "width": 33,
+        "height": 17
+      },
+      {
+        "url": "brain/stamps/varresistor_schematic.png",
+        "width": 31,
+        "height": 21
+      },
+      {
+        "url": "brain/stamps/varresistor_wiper.png",
+        "width": 50,
+        "height": 31
+      },
+      {
+        "url": "brain/stamps/lamp_schematic.png",
+        "width": 39,
+        "height": 24
+      },
+      {
+        "url": "brain/stamps/bulb_art_on.png",
+        "width": 23,
+        "height": 35
+      },
+      {
+        "url": "brain/stamps/bulb_art.png",
+        "width": 26,
+        "height": 35
+      }
+    ]
   },
   "sections": {
     "intro": {
@@ -442,6 +513,68 @@
             "investigation-2/problem-4/intro/content.json",
             "investigation-2/problem-4/labWork/content.json",
             "investigation-2/problem-4/reflection/content.json"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Investigation 3",
+      "ordinal": 3,
+      "title": "Module 3: Microcontrollers",
+      "config": {
+        "settings": {
+          "simulator": {
+            "defaultSimulation": "potentiometer_chip_servo"
+          }
+        }
+      },
+      "problems": [
+        {
+          "description": "Lesson 3.1",
+          "ordinal": 1,
+          "title": "Lesson 3.1 - Electrical Circuits",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-1/intro/content.json",
+            "investigation-3/problem-1/labWork/content.json",
+            "investigation-3/problem-1/reflection/content.json"
+          ]
+        },
+        {
+          "description": "Lesson 3.2",
+          "ordinal": 2,
+          "title": "Lesson 3.2 - Systems of Circuits",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-2/intro/content.json",
+            "investigation-3/problem-2/labWork/content.json",
+            "investigation-3/problem-2/reflection/content.json"
+          ]
+        },
+        {
+          "description": "Lesson 3.3",
+          "ordinal": 3,
+          "title": "Lesson 3.3 - Turn Analog Changes into Program State",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-3/intro/content.json",
+            "investigation-3/problem-3/labWork/content.json",
+            "investigation-3/problem-3/reflection/content.json"
+          ]
+        },
+        {
+          "description": "Lesson 3.4",
+          "ordinal": 4,
+          "title": "Lesson 3.4 - Create Mechanical Output",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-3/problem-4/intro/content.json",
+            "investigation-3/problem-4/labWork/content.json",
+            "investigation-3/problem-4/reflection/content.json"
           ]
         }
       ]

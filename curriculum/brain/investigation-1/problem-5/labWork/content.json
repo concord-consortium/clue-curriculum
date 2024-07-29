@@ -27,7 +27,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Step 1: Create a Dataflow program that controls the gripper</strong></u></p><p>Follow the instructions in <a href=\"https://www.youtube.com/watch?v=N5n1KW-qGjQ\">this video tutorial</a> (the video instructions are also listed below). </p><p><strong>Set-Up</strong></p>"
+            "<p><u><strong>Step 1: Create a Dataflow program that controls the gripper</strong></u></p>"
           ]
         }
       },
@@ -47,7 +47,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>1. Connect the blue cable to the Arduino board and then connect the other end of the blue cable to your computer’s USB port.</p><p>2. Plug in Gripper (grey ribbon cord).</p><p>3. Plug in the battery.</p><p>5. Drag and drop a Dataflow Tile into your workspace. Connect DataFlow with the hardware using the same method as previous lessons. (click the lightning bolt and connect to the serial port)</p><p>6. To make the gripper open and close, you will need to add an input block (for example, a timer or a generator) and connect it to the output block. </p><p>8. Experiment with different input types (for example, if you used a timer, switch it to a generator). </p><p>9. When you&#x27;re done, delete the Dataflow tile and unplug the battery. </p>"
+            "<p><strong>Set-Up</strong></p><p>1. Connect the blue cable to the Arduino board and then connect the other end of the blue cable to your computer’s USB port.</p><p>2. Plug in Gripper (grey ribbon cord).</p><p>3. Plug in the battery.</p><p>5. Drag and drop a Dataflow Tile into your workspace. Connect DataFlow with the hardware using the same method as previous lessons. (click the lightning bolt and connect to the serial port)</p><p>6. To make the gripper open and close, you will need to add an input block (for example, a timer or a generator) and connect it to the output block. </p><p>8. Experiment with different input types (for example, if you used a timer, switch it to a generator). </p><p>9. When you&#x27;re done, delete the Dataflow tile and unplug the battery. </p>"
           ]
         }
       },
@@ -68,7 +68,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Step 2: Create a program that reads EMG data</strong></u></p><p>Follow the instructions in <a href=\"https://www.youtube.com/watch?v=cdQzBmlrJxA\">this video tutorial</a> (the video instructions are also listed below). </p><p>1. Stick two EMG surface electrodes on your forearm and one on your elbow.</p><p>2. Find the orange cord that ends in two red and one black alligator clips. </p><p>3. Connect the black alligator clip to the electrode on your elbow and the red alligator clips to the electrodes on your forearm. </p><p>4. Plug the end of the orange wire into the orange connection box on the Muscle SpikerShield.</p>"
+            "<p><u><strong>Step 2: Create a program that reads EMG data</strong></u></p><p>1. Stick two EMG surface electrodes on your forearm and one on your elbow.</p><p>2. Find the orange cord that ends in two red and one black alligator clips. </p><p>3. Connect the black alligator clip to the electrode on your elbow and the red alligator clips to the electrodes on your forearm. </p><p>4. Plug the end of the orange wire into the orange connection box on the Muscle SpikerShield.</p>"
           ]
         }
       },
@@ -87,7 +87,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>5. Create a new Dataflow tile and add a sensor block:</p><p>- In the &quot;Select a sensor type&quot; drop-down menu, select EMG</p><p>- In the &quot;Select a sensor&quot; drop-down menu, select &quot;connect for live EMG&quot;</p><p>6. Click on the button with the flashlight, where it says &quot;click to finish connection&quot;</p><p>- The browser may open a popup that says the site would like to connect to a Serial Port.  </p><p>- There should only be one choice.  Click on it and then hit the connect button. </p>"
+            "<p>5. Create a new Dataflow tile and add a sensor block:</p><p>- In the &quot;Select a sensor type&quot; drop-down menu, select EMG</p><p>- In the &quot;Select a sensor&quot; drop-down menu, select &quot;connect for live EMG&quot;</p><p>6. Click on the button with the lighting bolt, where it says &quot;click to finish connection&quot;</p><p>- The browser may open a popup that says the site would like to connect to a Serial Port.  </p><p>- There should only be one choice.  Click on it and then hit the connect button. </p>"
           ]
         }
       },
@@ -116,7 +116,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Step 3: Add a simulated output</strong></u></p><p>Follow the instructions in <a href=\"https://www.youtube.com/watch?v=6HoV5OCe9dY\">this video tutorial</a> (the video instructions are also listed below). </p><p>To make sure that the program reads your EMG data correctly, add a demo output. For example, try to make a program that turns on a virtual light bulb when the EMG reading is above a certain value. </p><p><strong>Tip</strong>: you will need to use Logic and Number blocks.</p><p>Next, instead of a light bulb choose a grabber demo. Can you make the simulated grabber open and close when you contract your arm muscles? </p>"
+            "<p><u><strong>Step 3: Add a simulated output</strong></u></p><p>To make sure that the program reads your EMG data correctly, add a demo output. For example, try to make a program that turns on a virtual light bulb when the EMG reading is above a certain value. </p><p><strong>Tip</strong>: you will need to use Logic and Number blocks.</p><p>Next, instead of a light bulb choose a grabber demo. Can you make the simulated grabber open and close when you contract your arm muscles? </p>"
           ]
         }
       },
@@ -126,7 +126,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><strong>Step 4: Control a real-life gripper with your muscles</strong></u></p><p>Follow the instructions in <a href=\"https://www.youtube.com/watch?v=dOBeM52KaCE\">this video tutorial</a> (the video instructions are also listed below). </p><p>Detailed instructions:</p><p>1. Replace the Demo Output block with a Live Output Block. In the drop-down menu, choose &quot;Gripper 2.0.&quot; </p><p>2. Power up the gripper by connecting a 9V battery to the Muscle SpikerShield (the yellow board). </p><p>Can you make the gripper open and close by contracting your arm muscles?</p><p>Congratulations! You just created a model of a bionic arm!</p>"
+            "<p><u><strong>Step 4: Control a real-life gripper with your muscles</strong></u></p><p>Detailed instructions:</p><p>1. Replace the Demo Output block with a Live Output Block. In the drop-down menu, choose &quot;Gripper 2.0.&quot; </p><p>2. Power up the gripper by connecting a 9V battery to the Muscle SpikerShield (the yellow board). </p><p>Can you make the gripper open and close by contracting your arm muscles?</p><p>Congratulations! You just created a model of a bionic arm!</p>"
           ]
         }
       },
@@ -149,17 +149,6 @@
           "format": "html",
           "text": [
             "<p><u><strong>Experiment</strong></u></p><p>Experiment with the following:</p><ul><li>Changing the locations of the EMG electrodes (can you control the gripper more effectively with different muscles?)</li><li>Grasping objects of different sizes/weights. </li><li>Stacking plastic cups (can you get quicker over time?)</li></ul><p>When you are done experimenting, unplug all of the accessories from the circuit board and place them back in their protective packaging.</p>"
-          ]
-        }
-      },
-      {
-        "id": "jQOchuUNfHUxsXLe",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><u><strong>What if the gripper doesn&#x27;t work?</strong></u></p><p>Watch <a href=\"https://www.youtube.com/watch?v=q6Z0djmhaOU\">this video</a> for some tips on how to troubleshoot the gripper. </p>"
           ]
         }
       },
@@ -175,14 +164,12 @@
       },
       {
         "id": "vx1OdFEV67VjXwQM",
-        "title": "Gripper analysis",
         "content": {
           "type": "Table",
           "columnWidths": {
             "mIL2k7BHwZ_OP_NH": 213.07188415527344,
             "9i46qsewEPs3YSKl": 231.73751831054688
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -215,7 +202,7 @@
           "providerId": "vx1OdFEV67VjXwQM",
           "dataSet": {
             "id": "sjCdybVmwF47MzMU",
-            "name": "Table 1",
+            "name": "Gripper analysis",
             "attributes": [
               {
                 "id": "mIL2k7BHwZ_OP_NH",

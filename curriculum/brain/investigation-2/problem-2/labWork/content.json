@@ -14,15 +14,6 @@
         }
       },
       {
-        "id": "iDWmMK1iIkd346G5",
-        "title": "Take these measurements for each student",
-        "content": {
-          "type": "Image",
-          "url": "brain/images/sensitivityMeasures.png",
-          "filename": "brain/images/sensitivityMeasures.png"
-        }
-      },
-      {
         "id": "5Xof-8AsxUpQjWzj",
         "title": "Text 4",
         "content": {
@@ -31,6 +22,15 @@
           "text": [
             "<p>Drag the table into your workspace so you can fill it out for each person you test:</p>"
           ]
+        }
+      },
+      {
+        "id": "-_Iy8GLo1QXFHm1_",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/real2.jpg",
+          "filename": "brain/images/real2.jpg"
         }
       },
       {
@@ -54,7 +54,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Answer the following questions in your workspace:</p><p>1. What is the most/least sensitive body part?</p><p>2. Why do different parts of the body have different sensitivity to touch?</p><p>3. How consistent were your results across test subjects? What can explain individual differences in touch sensitivity?</p>"
+            "<p>Answer the following questions in your workspace:</p><ol><li>What is the most/least sensitive body part?</li><li> Why do different parts of the body have different sensitivity to touch?</li><li>How consistent were your results across test subjects? What could explain individual differences in touch sensitivity?</li></ol>"
           ]
         }
       },
@@ -65,18 +65,153 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>How does the nervous system process touch?</strong></p><p>Touch information is processed by several components of the nervous system:</p><ul><li>Somatosensory cortex </li><li>Pressure receptors in the skin</li><li>Thalamus</li><li>Sensory nerves</li><li>Spinal cord</li></ul><p>Read online about each of these components and make an illustrated and annotated model that communicates how these components are connected to each other. When you&#x27;re done, take a picture of your model and upload it to your workspace as an image tile.  Can you explain why some parts of the body are more sensitive to touch than others based on this model?</p>"
+            "<p><strong>Simulating Pressure</strong></p><p>In Lesson 1.5, you controlled a physical gripper using your arm muscles. Drag the following Dataflow tile with the code you used in 1.5, and SIM tile into your workspace. Connect the blocks in the Dataflow tile. </p>"
           ]
         }
       },
+      [
+        {
+          "id": "blbWy0Vngbc-Sh27",
+          "title": "Program 1",
+          "content": {
+            "type": "Dataflow",
+            "programDataRate": 100,
+            "programZoom": {
+              "dx": 0,
+              "dy": 0,
+              "scale": 0.32550928021729286
+            },
+            "program": {
+              "values": {
+                "2": {
+                  "currentValues": {
+                    "nodeValue": 0
+                  }
+                },
+                "3": {
+                  "currentValues": {}
+                },
+                "11": {
+                  "currentValues": {}
+                },
+                "14": {
+                  "currentValues": {
+                    "nodeValue": 0
+                  }
+                }
+              },
+              "id": "dataflow@0.1.0",
+              "nodes": {
+                "2": {
+                  "id": 2,
+                  "name": "Number",
+                  "x": -8.018681711495006,
+                  "y": 426.20069272869216,
+                  "inputs": {},
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Number 1",
+                    "nodeValueUnits": ""
+                  }
+                },
+                "3": {
+                  "id": 3,
+                  "name": "Logic",
+                  "x": 212.42313160567997,
+                  "y": 321.53331891521026,
+                  "inputs": {
+                    "num1": {
+                      "connections": {}
+                    },
+                    "num2": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Logic 2",
+                    "logicOperator": "Greater Than"
+                  }
+                },
+                "11": {
+                  "id": 11,
+                  "name": "Sensor",
+                  "x": 0.846250827258153,
+                  "y": 180.17283496041227,
+                  "inputs": {},
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Sensor 3",
+                    "type": "emg-reading",
+                    "sensor": "SIMemg_key",
+                    "virtual": false
+                  }
+                },
+                "14": {
+                  "id": 14,
+                  "name": "Live Output",
+                  "x": 460.81630173196254,
+                  "y": 327.2258453379301,
+                  "inputs": {
+                    "nodeValue": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {},
+                  "data": {
+                    "orderedDisplayName": "Live Output 4",
+                    "outputType": "Grabber",
+                    "hubSelect": "Simulated Gripper",
+                    "liveOutputType": "Grabber"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "mD7ViHZShClJ0nZP",
+          "title": "Simulation 1",
+          "content": {
+            "type": "Simulator",
+            "simulation": "EMG_and_claw"
+          }
+        }
+      ],
       {
-        "id": "JFLeQp89Nk9jYdVh",
+        "id": "x04GXTPSLLK-OeiI",
         "title": "Text 9",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Reflection</strong></p><p>At the end of the activity, please record your current thinking and learning in your Learning journal (see Reflection tab). </p>"
+            "<p><em>Answer the following questions in your workspace:</em></p><p>Using the Sim tile, move the slider to increase the pressure. What happens to the cup? </p><p><em>Next, add a sensor to measure the pressure being applied to the cup.</em> How much pressure can the cup endure?&nbsp;</p><p>How would you change the program to prevent the cup from crushing?&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "KD2VaGFE9x45c1Fs",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Reflection:</strong></p><p>At the end of the activity, please record your current thinking and learning in your Learning journal (see Reflection tab).</p>"
           ]
         }
       }
@@ -105,7 +240,8 @@
                   "Leg",
                   "Back",
                   "Foot"
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "xc3WtUg3SduCQW-j",
@@ -121,7 +257,8 @@
                   "",
                   "",
                   ""
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "L0isuB4nOlDGhpSD",
@@ -137,7 +274,8 @@
                   "",
                   "",
                   ""
-                ]
+                ],
+                "title": ""
               },
               {
                 "id": "BRcKod94F4Cb6snr",
@@ -153,7 +291,8 @@
                   "",
                   "",
                   ""
-                ]
+                ],
+                "title": ""
               }
             ],
             "cases": [
@@ -180,6 +319,127 @@
         },
         "tiles": [
           "FaNtpxwaTSgUXW_9"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "tZxR54IIvlvcGWgR",
+          "providerId": "blbWy0Vngbc-Sh27",
+          "dataSet": {
+            "id": "CdlVmttiveJIyJDa",
+            "attributes": [],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "blbWy0Vngbc-Sh27"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "k6GW_rIEHF4abO_H",
+          "variables": [
+            {
+              "id": "a0ncwd0q0paMZuHa",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "EQPomup-Kxrs2Ycs",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 39,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "7vjZl7cgRFw8WfC0",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "npoe6ezgU0NjMsY9",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "v8nTW8TtmMlDPEic",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 86,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "0K-ANloz5NvrVQFm",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "GpIbpTHwUNFkSPIv",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "mD7ViHZShClJ0nZP",
+          "0SJCrZXuVeSNnnQ7",
+          "5Xof-8AsxUpQjWzj",
+          "A3KLxuEkPr0JYBvL",
+          "o8qTPdoabFBk7-hu",
+          "blbWy0Vngbc-Sh27",
+          "x04GXTPSLLK-OeiI",
+          "KD2VaGFE9x45c1Fs"
         ]
       }
     ]
