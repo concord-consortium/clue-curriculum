@@ -5,8 +5,10 @@
   "subtitle": "Quadratic Functions and Expressions",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -24,7 +26,6 @@
       {
         "id": "Graph",
         "title": "Graph",
-        "iconId": "icon-plot-tool",
         "isTileTool": true
       },
       {
@@ -52,8 +53,18 @@
         "title": "Sketch",
         "isTileTool": true
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Sparrows", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -128,8 +139,41 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
@@ -141,8 +185,8 @@
       "scaling-up-down": "Scaling Up or Down",
       "unit-rates": "Unit Rates",
       "other-proportional": "Other - Proportional"
-      },
-     "tagPrompt": "Select Student Strategy"
+    },
+    "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {

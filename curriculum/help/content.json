@@ -243,8 +243,16 @@
         "numFormat": ".2~f",
         "tools": [
           "set-expression",
-          "link-tile-multiple",
+          "link-tile",
           "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
           "delete"
         ]
       },

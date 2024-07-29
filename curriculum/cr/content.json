@@ -5,8 +5,10 @@
   "subtitle": "A Focus on Integers",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -28,6 +30,11 @@
       },
       {
         "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
         "title": "Graph",
         "isTileTool": true
       },
@@ -41,19 +48,28 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Sparrows", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -87,7 +103,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -196,94 +212,6 @@
           "tab": "sort-work",
           "label": "Class Work",
           "teacherOnly": false
-        },
-        {
-          "tab": "class-work",
-          "label": "Published Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication"
-              ],
-              "showStars": [
-                "teacher", "student"
-              ],
-              "properties": [
-                "!isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "title": "Workspaces",
-              "type": "published-personal-documents",
-              "dataTestHeader": "class-work-section-personal",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "personalPublication"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ],
-              "properties": [
-                "!isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section teacher published-documents",
-              "title": "Teacher",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": [
-                "publication",
-                "personalPublication"
-              ],
-              "properties": [
-                "isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-problem-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-personal-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -336,21 +264,54 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile-multiple", "merge-in", ["data-set-view", "Geometry"], "delete"]
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
     "commentTags": {
-       "part-to-part": "Part-to-Part",
-       "part-to-whole": "Part-to-Whole",
-       "non-proportional": "Non-Proportional",
+      "part-to-part": "Part-to-Part",
+      "part-to-whole": "Part-to-Whole",
+      "non-proportional": "Non-Proportional",
       "building-up": "Building Up or Down",
       "scaling-up-down": "Scaling Up or Down",
       "unit-rates": "Unit Rates",
       "other-proportional": "Other - Proportional"
     },
-     "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -575,32 +536,32 @@
               "explore": {
                 "tiles": [
                   {
-                  "id": "D2jGQHlbE8qrW-Of",
-                  "title": "Text 8",
-                  "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p><strong>Suggested Questions</strong></p><ul><li>Where is this number in relation to zero?  </li><li>Would a number line be helpful?  </li><li>Is the team earning points or losing points? </li><li>How can you indicate that the team is earning or losing points in your equation? </li></ul><p>Some students can be challenged to delve further into the content. Below are some additional questions you can ask about the Going Positive game:  </p><ul><li>What is the fewest number of questions that each team could have answered to get their current score?  </li><li>If the Rocket Scientists reached their score after answering ten questions, what is a possible sequence of questions they could have answered? Is that the only sequence? </li><li>If the Rocket Scientists get the next question wrong, will they have a positive or negative score? </li></ul><p><strong>Implementation Note:</strong> You may need to use Situation D at a later time in the unit.  If your students need more time to experiment with the positive and negative numbers. If using equations feels like a big leap at this time, use this when you feel your students are ready.</p><p><em>Teacher Moves: Language</em></p><p>PLANNING FOR THE SUMMARY</p><p>Answers will be informal and provide an opportunity to assess students understand.  Listen for how students are talking about the impact on the score when a team gets a question incorrect in the Going Positive Game.  Listen for how they describe taking away points or adding on a negative score.  Listen for ways that students will use zero as an “anchor point” for finding the final score.</p>"
-                    ]
+                    "id": "D2jGQHlbE8qrW-Of",
+                    "title": "Text 8",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p><strong>Suggested Questions</strong></p><ul><li>Where is this number in relation to zero?  </li><li>Would a number line be helpful?  </li><li>Is the team earning points or losing points? </li><li>How can you indicate that the team is earning or losing points in your equation? </li></ul><p>Some students can be challenged to delve further into the content. Below are some additional questions you can ask about the Going Positive game:  </p><ul><li>What is the fewest number of questions that each team could have answered to get their current score?  </li><li>If the Rocket Scientists reached their score after answering ten questions, what is a possible sequence of questions they could have answered? Is that the only sequence? </li><li>If the Rocket Scientists get the next question wrong, will they have a positive or negative score? </li></ul><p><strong>Implementation Note:</strong> You may need to use Situation D at a later time in the unit.  If your students need more time to experiment with the positive and negative numbers. If using equations feels like a big leap at this time, use this when you feel your students are ready.</p><p><em>Teacher Moves: Language</em></p><p>PLANNING FOR THE SUMMARY</p><p>Answers will be informal and provide an opportunity to assess students understand.  Listen for how students are talking about the impact on the score when a team gets a question incorrect in the Going Positive Game.  Listen for how they describe taking away points or adding on a negative score.  Listen for ways that students will use zero as an “anchor point” for finding the final score.</p>"
+                      ]
+                    }
                   }
-                }
-              ]
+                ]
               },
               "summarize": {
                 "tiles": [
                   {
-                  "id": "LySwUQg5eWrTXf3z",
-                  "title": "Text 9",
-                  "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>For the Initial Challenge ask the class how they found the difference between the teams’ scores. Have several pairs share their number sentences for the Initial Challenge. There are many ways each team could have arrived at their score. Take note of whether or not students offer different orders of scoring as different solutions.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Suggested Questions</p><ul><li>What strategy did you use to determine each team’s new score after the sequence of points?  </li><li>How did you determine the difference in points for each pair of teams?  </li><li>What would the number sentence be that reflects your reasoning?  </li></ul><p>For What If Situation A, ask students to explain how they found each team’s final score.  </p><p>This is a good opportunity to gather some formative assessment data on what the students understand about addition and subtraction relationships and about additive inverses. </p><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
-                    ]
+                    "id": "LySwUQg5eWrTXf3z",
+                    "title": "Text 9",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>For the Initial Challenge ask the class how they found the difference between the teams’ scores. Have several pairs share their number sentences for the Initial Challenge. There are many ways each team could have arrived at their score. Take note of whether or not students offer different orders of scoring as different solutions.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Suggested Questions</p><ul><li>What strategy did you use to determine each team’s new score after the sequence of points?  </li><li>How did you determine the difference in points for each pair of teams?  </li><li>What would the number sentence be that reflects your reasoning?  </li></ul><p>For What If Situation A, ask students to explain how they found each team’s final score.  </p><p>This is a good opportunity to gather some formative assessment data on what the students understand about addition and subtraction relationships and about additive inverses. </p><p></p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
                   }
-                }
-              ]
+                ]
               }
             }
           }
@@ -865,7 +826,7 @@
                 ]
               }
             }
-          } 
+          }
         }
       ]
     },
