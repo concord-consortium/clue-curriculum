@@ -270,13 +270,19 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
-          "set-expression", 
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
           [
             "data-set-view",
             "graph"
-          ], 
-          "merge-in",
-          "delete"]
+          ],
+          "delete"
+        ]
       },
       "graph": {
         "tools": [

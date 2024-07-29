@@ -291,7 +291,20 @@
     "settings": {
       "table": {
         "numFormat": ".2~f",
-        "tools": ["set-expression", "link-tile", "merge-in", "delete"]
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
       },
       "graph": {
         "tools": [
