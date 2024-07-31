@@ -396,15 +396,6 @@
         }
       },
       {
-        "id": "LGvO1OO8OokM9LZe",
-        "title": "3 + -2 on a numberline",
-        "content": {
-          "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-9.png",
-          "filename": "cr/images/tg-unit-plan-pic-9.png"
-        }
-      },
-      {
         "id": "dat2EE6wZmrk71cJ",
         "title": "Text 18",
         "content": {
@@ -424,12 +415,29 @@
         }
       },
       {
-        "id": "chOnVSa1WvrdZaD2",
-        "title": "3 + -5 on a numberline",
+        "id": "Ib3M9AFAPWg0-rhp",
+        "title": "3 + -5 on a number line",
         "content": {
-          "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-10.png",
-          "filename": "cr/images/tg-unit-plan-pic-10.png"
+          "type": "Numberline",
+          "points": {
+            "2MpcyHHoMPBVz-2n": {
+              "id": "2MpcyHHoMPBVz-2n",
+              "xValue": 0.007573159579332689,
+              "isOpen": false
+            },
+            "hCOZug--1JrNh1Be": {
+              "id": "hCOZug--1JrNh1Be",
+              "xValue": 2.9949226489864342,
+              "isOpen": false
+            },
+            "Sioez5b8aqpAjmaf": {
+              "id": "Sioez5b8aqpAjmaf",
+              "xValue": -1.9738321140070116,
+              "isOpen": false
+            }
+          },
+          "min": -5,
+          "max": 5
         }
       },
       {
@@ -456,8 +464,8 @@
         "title": "Addition with positive and negative fractions",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-11.png",
-          "filename": "cr/images/tg-unit-plan-pic-11.png"
+          "url": "cr/images/sail.jpg",
+          "filename": "cr/images/sail.jpg"
         }
       },
       {
@@ -483,7 +491,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Note: </strong>using the commutative property of addition 2 ¼ + - 7 ¾ is equivalent to -7 ¾ + 2 ¼  . Sometimes a switch in order makes an addition easier to understand.</p>"
+            "<p><u>Note:</u> using the commutative property of addition 2 ¼ + - 7 ¾ is equivalent to -7 ¾ + 2 ¼  . Sometimes a switch in order makes an addition easier to understand.</p>"
           ]
         }
       },
@@ -503,8 +511,8 @@
         "title": "+7 - +4 = -3 on a numberline",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-12.png",
-          "filename": "cr/images/tg-unit-plan-pic-12.png"
+          "url": "cr/images/col.jpg",
+          "filename": "cr/images/col.jpg"
         }
       },
       {
@@ -512,8 +520,8 @@
         "title": "+4 - +7 = -3 on a numberline",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-13.png",
-          "filename": "cr/images/tg-unit-plan-pic-13.png"
+          "url": "cr/images/blame.jpg",
+          "filename": "cr/images/blame.jpg"
         }
       },
       {
@@ -532,8 +540,8 @@
         "title": "7 - 4 = 3 on a chipboard",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-14.png",
-          "filename": "cr/images/tg-unit-plan-pic-14.png"
+          "url": "cr/images/reduce.jpg",
+          "filename": "cr/images/reduce.jpg"
         }
       },
       {
@@ -541,8 +549,8 @@
         "title": "7 + -4 = +3 on a chipboard",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-15.png",
-          "filename": "cr/images/tg-unit-plan-pic-15.png"
+          "url": "cr/images/result.jpg",
+          "filename": "cr/images/result.jpg"
         }
       },
       {
@@ -619,8 +627,8 @@
         "title": "-7 - +4 = -11",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-22.png",
-          "filename": "cr/images/tg-unit-plan-pic-22.png"
+          "url": "cr/images/goo.jpg",
+          "filename": "cr/images/goo.jpg"
         }
       },
       {
@@ -630,64 +638,69 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Generalizing the subtraction algorithm</strong></p><p>In all the above examples we have seen that we can rewrite a subtraction as an equivalent addition, and then apply an addition algorithm.</p><p>Thus, a - b = a + (-b), a –(-b) = a + b etc.</p><p>Below are some examples with fractions</p>"
+            "<p><strong>Generalizing the subtraction algorithm</strong></p><p>In all the above examples we have seen that we can rewrite a subtraction as an equivalent addition, and then apply an addition algorithm.</p><p>Thus, a - b = a + (-b), a –(-b) = a + b etc.</p><p>Below are some examples with fractions</p><p><strong>Example 1</strong></p>"
           ]
         }
       },
-      [
-        {
-          "id": "KNNTrjaNnoMOz6gJ",
-          "title": "Ex 1: Step 1",
-          "content": {
-            "type": "Expression",
-            "latexStr": "-5\\frac34-4\\frac34=-5\\frac34+-4\\frac34"
-          }
-        },
-        {
-          "id": "_tJxgH9ePztGP6XA",
-          "title": "Ex 2: Step 1",
-          "content": {
-            "type": "Expression",
-            "latexStr": "-2\\frac34--4\\frac34=-2\\frac34+4\\frac34"
-          }
+      {
+        "id": "KNNTrjaNnoMOz6gJ",
+        "title": "Ex 1: Step 1",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-5\\frac34-4\\frac34=-5\\frac34+-4\\frac34"
         }
-      ],
-      [
-        {
-          "id": "1E4NfYABwCkBda8_",
-          "title": "Ex 1: Step 2",
-          "content": {
-            "type": "Expression",
-            "latexStr": "-5\\frac34+-4\\frac34=-\\left(5\\frac34+4\\frac34\\right)"
-          }
-        },
-        {
-          "id": "4dTdHM2wwuUcJXEK",
-          "title": "Ex 2: Step 2",
-          "content": {
-            "type": "Expression",
-            "latexStr": "-2\\frac34+4\\frac34=4\\frac34-2\\frac34"
-          }
+      },
+      {
+        "id": "1E4NfYABwCkBda8_",
+        "title": "Ex 1: Step 2",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-5\\frac34+-4\\frac34=-\\left(5\\frac34+4\\frac34\\right)"
         }
-      ],
-      [
-        {
-          "id": "rbpWv1vUXgwzk6oY",
-          "title": "Ex 1: Step 3",
-          "content": {
-            "type": "Expression",
-            "latexStr": "-\\left(5\\frac34+4\\frac34\\right)=-10\\frac12"
-          }
-        },
-        {
-          "id": "OWN176lFv15jJHS2",
-          "title": "Ex 2: Step 3",
-          "content": {
-            "type": "Expression",
-            "latexStr": "4\\frac34-2\\frac34=2"
-          }
+      },
+      {
+        "id": "rbpWv1vUXgwzk6oY",
+        "title": "Ex 1: Step 3",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-\\left(5\\frac34+4\\frac34\\right)=-10\\frac12"
         }
-      ],
+      },
+      {
+        "id": "d_2Lp6kH4RZF30tf",
+        "title": "Text 61",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Example 2</strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "_tJxgH9ePztGP6XA",
+        "title": "Ex 2: Step 1",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-2\\frac34--4\\frac34=-2\\frac34+4\\frac34"
+        }
+      },
+      {
+        "id": "4dTdHM2wwuUcJXEK",
+        "title": "Ex 2: Step 2",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-2\\frac34+4\\frac34=4\\frac34-2\\frac34"
+        }
+      },
+      {
+        "id": "OWN176lFv15jJHS2",
+        "title": "Ex 2: Step 3",
+        "content": {
+          "type": "Expression",
+          "latexStr": "4\\frac34-2\\frac34=2"
+        }
+      },
       {
         "id": "Sk-wuSrh_zCZunRX",
         "title": "Text 27",
@@ -928,69 +941,63 @@
           "latexStr": "2\\frac13-n=-1\\frac12"
         }
       },
-      [
-        {
-          "id": "zK6UaVK5xQHHbvE6",
-          "title": "Text 45",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>This is equivalent to</p>"
-            ]
-          }
-        },
-        {
-          "id": "t8E8HWEESkBlf9mG",
-          "title": "Fraction Ex: Step 1",
-          "content": {
-            "type": "Expression",
-            "latexStr": "2\\frac13-\\left(-1\\frac12\\right)=n"
-          }
+      {
+        "id": "zK6UaVK5xQHHbvE6",
+        "title": "Text 45",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>This is equivalent to</p>"
+          ]
         }
-      ],
-      [
-        {
-          "id": "33xDOh-nDqUL6BHV",
-          "title": "Text 46",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Using the subtraction algorithm,</p>"
-            ]
-          }
-        },
-        {
-          "id": "D-b3C-_TtpkVjLmY",
-          "title": "Fraction Ex: Step 2",
-          "content": {
-            "type": "Expression",
-            "latexStr": "2\\frac13+1\\frac12=n"
-          }
+      },
+      {
+        "id": "t8E8HWEESkBlf9mG",
+        "title": "Fraction Ex: Step 1",
+        "content": {
+          "type": "Expression",
+          "latexStr": "2\\frac13-\\left(-1\\frac12\\right)=n"
         }
-      ],
-      [
-        {
-          "id": "HY9_XtbKukofpKOt",
-          "title": "Text 47",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>So</p>"
-            ]
-          }
-        },
-        {
-          "id": "dGUruW8AcJK1bksU",
-          "title": "Fraction Ex: Step 3",
-          "content": {
-            "type": "Expression",
-            "latexStr": "\\frac{14}{6}+\\frac96=\\frac{23}{6}=n"
-          }
+      },
+      {
+        "id": "33xDOh-nDqUL6BHV",
+        "title": "Text 46",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Using the subtraction algorithm,</p>"
+          ]
         }
-      ],
+      },
+      {
+        "id": "D-b3C-_TtpkVjLmY",
+        "title": "Fraction Ex: Step 2",
+        "content": {
+          "type": "Expression",
+          "latexStr": "2\\frac13+1\\frac12=n"
+        }
+      },
+      {
+        "id": "HY9_XtbKukofpKOt",
+        "title": "Text 47",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>So</p>"
+          ]
+        }
+      },
+      {
+        "id": "dGUruW8AcJK1bksU",
+        "title": "Fraction Ex: Step 3",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{14}{6}+\\frac96=\\frac{23}{6}=n"
+        }
+      },
       {
         "id": "Yo3oeBx8fS0yI7Np",
         "title": "Division Example",
@@ -999,69 +1006,63 @@
           "latexStr": "-\\frac23n=-4"
         }
       },
-      [
-        {
-          "id": "xFC3vOoFlIA-RNtO",
-          "title": "Text 48",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>This is equivalent to</p>"
-            ]
-          }
-        },
-        {
-          "id": "C3OIhP-t-dYPFYjD",
-          "title": "Division Ex: Step 1",
-          "content": {
-            "type": "Expression",
-            "latexStr": "n=\\left(-4\\right)\\div\\left(-\\frac23\\right)"
-          }
+      {
+        "id": "xFC3vOoFlIA-RNtO",
+        "title": "Text 48",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>This is equivalent to</p>"
+          ]
         }
-      ],
-      [
-        {
-          "id": "68W_Wqo4Wz4w_6db",
-          "title": "Text 49",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Using the division algorithm,</p>"
-            ]
-          }
-        },
-        {
-          "id": "JoqL0G8Ec42Yqpvx",
-          "title": "Division Ex: Step 2",
-          "content": {
-            "type": "Expression",
-            "latexStr": "n=+\\left(4\\right)\\div\\left(\\frac23\\right)"
-          }
+      },
+      {
+        "id": "C3OIhP-t-dYPFYjD",
+        "title": "Division Ex: Step 1",
+        "content": {
+          "type": "Expression",
+          "latexStr": "n=\\left(-4\\right)\\div\\left(-\\frac23\\right)"
         }
-      ],
-      [
-        {
-          "id": "RS6sLxJXUVZiBFNp",
-          "title": "Text 50",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>So</p>"
-            ]
-          }
-        },
-        {
-          "id": "B3Yi961IX67YsqkF",
-          "title": "Division Ex: Step 3",
-          "content": {
-            "type": "Expression",
-            "latexStr": "n=\\left(\\frac{12}{3}\\right)\\div\\left(\\frac23\\right)=6"
-          }
+      },
+      {
+        "id": "68W_Wqo4Wz4w_6db",
+        "title": "Text 49",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Using the division algorithm,</p>"
+          ]
         }
-      ],
+      },
+      {
+        "id": "JoqL0G8Ec42Yqpvx",
+        "title": "Division Ex: Step 2",
+        "content": {
+          "type": "Expression",
+          "latexStr": "n=+\\left(4\\right)\\div\\left(\\frac23\\right)"
+        }
+      },
+      {
+        "id": "RS6sLxJXUVZiBFNp",
+        "title": "Text 50",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>So</p>"
+          ]
+        }
+      },
+      {
+        "id": "B3Yi961IX67YsqkF",
+        "title": "Division Ex: Step 3",
+        "content": {
+          "type": "Expression",
+          "latexStr": "n=\\left(\\frac{12}{3}\\right)\\div\\left(\\frac23\\right)=6"
+        }
+      },
       {
         "id": "sEH74QBVlOPtZ012",
         "title": "Text 51",
@@ -1139,8 +1140,8 @@
         "title": "Solution to -(2/3)n < 4 on a numberline",
         "content": {
           "type": "Image",
-          "url": "cr/images/tg-unit-plan-pic-24.png",
-          "filename": "cr/images/tg-unit-plan-pic-24.png"
+          "url": "cr/images/fun.jpg",
+          "filename": "cr/images/fun.jpg"
         }
       },
       {
@@ -1484,6 +1485,60 @@
         "textOffset": {
           "dx": 4.999999999999988,
           "dy": 66.99999999999997
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "gJa-ZFiHhFLpxQB3",
+        "sourceObject": {
+          "tileId": "Ib3M9AFAPWg0-rhp",
+          "objectId": "2MpcyHHoMPBVz-2n",
+          "objectType": "point"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -5
+        },
+        "targetObject": {
+          "tileId": "Ib3M9AFAPWg0-rhp",
+          "objectId": "hCOZug--1JrNh1Be",
+          "objectType": "point"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -5
+        },
+        "text": "+3",
+        "textOffset": {
+          "dx": 7.999999999999982,
+          "dy": -41
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "StJsvlVIndd_wyjG",
+        "sourceObject": {
+          "tileId": "Ib3M9AFAPWg0-rhp",
+          "objectId": "hCOZug--1JrNh1Be",
+          "objectType": "point"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -5
+        },
+        "targetObject": {
+          "tileId": "Ib3M9AFAPWg0-rhp",
+          "objectId": "Sioez5b8aqpAjmaf",
+          "objectType": "point"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -5
+        },
+        "text": "-5",
+        "textOffset": {
+          "dx": -4.000000000000025,
+          "dy": 72.67249999999999
         },
         "type": "arrowAnnotation"
       }
