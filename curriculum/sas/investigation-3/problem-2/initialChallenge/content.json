@@ -19,7 +19,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>You can copy Rectangle A and Triangle B into your workspace as graphing tiles or use the images below:</p>"
+            "<p><u>Digital Note:</u> You can copy the Coordinate Grid tiles with Rectangle A and Triangle B into your workspace or create a Sketch tool and drag the images into it.</p>"
           ]
         }
       },
@@ -30,75 +30,69 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -1
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "WjQ02oIogntRuB-i": {
                 "type": "point",
-                "parents": [
-                  1,
-                  4
-                ],
-                "properties": {
-                  "id": "WjQ02oIogntRuB-i",
-                  "name": "A"
-                }
+                "id": "WjQ02oIogntRuB-i",
+                "x": 1,
+                "y": 4,
+                "name": "A",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "BmdyMh31a4U19mqX": {
                 "type": "point",
-                "parents": [
-                  1,
-                  0
-                ],
-                "properties": {
-                  "id": "BmdyMh31a4U19mqX",
-                  "name": "B"
-                }
+                "id": "BmdyMh31a4U19mqX",
+                "x": 1,
+                "y": 0,
+                "name": "B",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "VCK8RpOjr_v-YPlP": {
                 "type": "point",
-                "parents": [
-                  9,
-                  0
-                ],
-                "properties": {
-                  "id": "VCK8RpOjr_v-YPlP",
-                  "name": "C"
-                }
+                "id": "VCK8RpOjr_v-YPlP",
+                "x": 9,
+                "y": 0,
+                "name": "C",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "CDn77_ywb7SAv7aT": {
                 "type": "point",
-                "parents": [
-                  9,
-                  4
-                ],
-                "properties": {
-                  "id": "CDn77_ywb7SAv7aT",
-                  "name": "D"
-                }
+                "id": "CDn77_ywb7SAv7aT",
+                "x": 9,
+                "y": 4,
+                "name": "D",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "U_6MsOp424fI-7Ma": {
                 "type": "polygon",
-                "parents": [
+                "id": "U_6MsOp424fI-7Ma",
+                "points": [
                   "WjQ02oIogntRuB-i",
                   "BmdyMh31a4U19mqX",
                   "VCK8RpOjr_v-YPlP",
                   "CDn77_ywb7SAv7aT"
                 ],
-                "properties": {
-                  "id": "U_6MsOp424fI-7Ma"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           },
           "layout": {
             "height": 260
@@ -110,69 +104,59 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -1
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "tDAncf3x642zCUxk": {
                 "type": "point",
-                "parents": [
-                  0.9945318755196819,
-                  0.9846380417267472
-                ],
-                "properties": {
-                  "id": "tDAncf3x642zCUxk",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "tDAncf3x642zCUxk",
+                "x": 0.9945318755196819,
+                "y": 0.9846380417267472,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "Zm0GQJP3hTbUxCtc": {
                 "type": "point",
-                "parents": [
-                  7.966384247167985,
-                  0.9756372137100912
-                ],
-                "properties": {
-                  "id": "Zm0GQJP3hTbUxCtc",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "Zm0GQJP3hTbUxCtc",
+                "x": 7.966384247167985,
+                "y": 0.9756372137100912,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "2iNQG9sScjUbCANa": {
                 "type": "point",
-                "parents": [
-                  4,
-                  5
-                ],
-                "properties": {
-                  "id": "2iNQG9sScjUbCANa",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "2iNQG9sScjUbCANa",
+                "x": 4,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "EBEB4MkOAyuUCPVM": {
                 "type": "polygon",
-                "parents": [
+                "id": "EBEB4MkOAyuUCPVM",
+                "points": [
                   "tDAncf3x642zCUxk",
                   "Zm0GQJP3hTbUxCtc",
                   "2iNQG9sScjUbCANa"
                 ],
-                "properties": {
-                  "id": "EBEB4MkOAyuUCPVM"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           },
           "layout": {
             "height": 260
@@ -206,7 +190,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Criteria for Rectangles</strong></p><p><strong>Rectangle P:</strong></p><p>The scale factor from Rectangle A to Rectangle P is 2.5.</p>"
+            "<p><strong>Criteria for Rectangles</strong></p><p><em>Rectangle P</em></p><p>The scale factor from Rectangle A to Rectangle P is 2.5.</p>"
           ]
         }
       },
@@ -219,6 +203,178 @@
           "text": [
             "<p>To make the new Rectangle P that is similar to A, multiply the scale factor, 2.5, by each side length of rectangle A. The size of rectangle A is 4 x 8. So, you can get 4 x 2.5 = 10, 8 x 2.5 =20, which becomes a 10 x 20 rectangle. </p><p>The lengths are 2.5 times larger. The perimeter increases from 24 units to 60 units. This is an increase of 2.5 times. 24 • 2.5 = 60. The area increases from 32 square units to 200 square units. This is an increase of 6.25 times. 32 • 6.25 = 200. Using the Commutative Property, we can see that the area of P is (2.5 • 4) • (2.5 • 8) = 2.5 • 2.5 • 4 • 8 = 6.25 • 32.</p>"
           ]
+        }
+      },
+      {
+        "id": "OSqynBmQWrsh1-14",
+        "title": "Rectangle A & P",
+        "display": "teacher",
+        "content": {
+          "type": "Geometry",
+          "board": {
+            "xAxis": {
+              "min": -1,
+              "unit": 16.191965666423823,
+              "range": 38.846426243622446
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 16.191965666423823,
+              "range": 12.104768749999998
+            }
+          },
+          "objects": {
+            "WjQ02oIogntRuB-i": {
+              "type": "point",
+              "id": "WjQ02oIogntRuB-i",
+              "x": 1.0617590242346937,
+              "y": 4,
+              "name": "A",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "BmdyMh31a4U19mqX": {
+              "type": "point",
+              "id": "BmdyMh31a4U19mqX",
+              "x": 1.0617590242346937,
+              "y": 0,
+              "name": "B",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "VCK8RpOjr_v-YPlP": {
+              "type": "point",
+              "id": "VCK8RpOjr_v-YPlP",
+              "x": 9.061759024234693,
+              "y": 0,
+              "name": "C",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "CDn77_ywb7SAv7aT": {
+              "type": "point",
+              "id": "CDn77_ywb7SAv7aT",
+              "x": 9,
+              "y": 4,
+              "name": "D",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "U_6MsOp424fI-7Ma": {
+              "type": "polygon",
+              "id": "U_6MsOp424fI-7Ma",
+              "points": [
+                "WjQ02oIogntRuB-i",
+                "BmdyMh31a4U19mqX",
+                "VCK8RpOjr_v-YPlP",
+                "CDn77_ywb7SAv7aT"
+              ],
+              "labelOption": "label",
+              "name": "A",
+              "labels": [
+                {
+                  "id": "BmdyMh31a4U19mqX::VCK8RpOjr_v-YPlP",
+                  "option": "length",
+                  "name": "BC"
+                },
+                {
+                  "id": "WjQ02oIogntRuB-i::BmdyMh31a4U19mqX",
+                  "option": "length",
+                  "name": "AB"
+                }
+              ],
+              "colorScheme": 0
+            },
+            "eJi2zdiqE0oKBAGI": {
+              "type": "point",
+              "id": "eJi2zdiqE0oKBAGI",
+              "x": 11.03679790603742,
+              "y": 10.104768749999998,
+              "name": "A",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "30gFTmm3iLp1lGRo": {
+              "type": "point",
+              "id": "30gFTmm3iLp1lGRo",
+              "x": 10.9608125,
+              "y": 0.09395624999999974,
+              "name": "B",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "jcaMvZtWpXP6f2cu": {
+              "type": "point",
+              "id": "jcaMvZtWpXP6f2cu",
+              "x": 30.982895833333334,
+              "y": -0.06997499999999957,
+              "name": "C",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "EUBQIQKD8Eg1SvAY": {
+              "type": "point",
+              "id": "EUBQIQKD8Eg1SvAY",
+              "x": 31.01134859693878,
+              "y": 10.104768749999998,
+              "name": "D",
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "EdQz6aYB86QdYN5W": {
+              "type": "polygon",
+              "id": "EdQz6aYB86QdYN5W",
+              "points": [
+                "eJi2zdiqE0oKBAGI",
+                "30gFTmm3iLp1lGRo",
+                "jcaMvZtWpXP6f2cu",
+                "EUBQIQKD8Eg1SvAY"
+              ],
+              "labelOption": "label",
+              "name": "P",
+              "labels": [
+                {
+                  "id": "30gFTmm3iLp1lGRo::jcaMvZtWpXP6f2cu",
+                  "option": "length",
+                  "name": "BC"
+                },
+                {
+                  "id": "eJi2zdiqE0oKBAGI::30gFTmm3iLp1lGRo",
+                  "option": "length",
+                  "name": "AB"
+                },
+                {
+                  "id": "eJi2zdiqE0oKBAGI::EUBQIQKD8Eg1SvAY",
+                  "option": "length",
+                  "name": "AD"
+                }
+              ],
+              "colorScheme": 0
+            },
+            "ZRIhb65FBTbQSDuV": {
+              "type": "vertexAngle",
+              "id": "ZRIhb65FBTbQSDuV",
+              "points": [
+                "jcaMvZtWpXP6f2cu",
+                "30gFTmm3iLp1lGRo",
+                "eJi2zdiqE0oKBAGI"
+              ]
+            },
+            "wx9KAH4hXXFn5UFu": {
+              "type": "vertexAngle",
+              "id": "wx9KAH4hXXFn5UFu",
+              "points": [
+                "VCK8RpOjr_v-YPlP",
+                "BmdyMh31a4U19mqX",
+                "WjQ02oIogntRuB-i"
+              ]
+            }
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
+        },
+        "layout": {
+          "height": 260
         }
       },
       {
@@ -236,7 +392,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Rectangle Q:</strong></p><p>The perimeter of Rectangle Q is three times the perimeter of Rectangle A.</p>"
+            "<p><em>Rectangle Q</em></p><p>The perimeter of Rectangle Q is three times the perimeter of Rectangle A.</p>"
           ]
         }
       },
@@ -277,7 +433,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Rectangle R</strong>:</p><p>The area of Rectangle R is 1/4 the area of Rectangle A.</p>"
+            "<p><em>Rectangle R</em></p><p>The area of Rectangle R is 1/4 the area of Rectangle A.</p>"
           ]
         }
       },
@@ -318,7 +474,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Criteria for Triangles</h3><p>For each part, draw a triangle similar to Triangle B that fits the given description. Explain your reasoning.</p><p><strong>Triangle X:</strong></p><p>The area of the Triangle X is 16 times the area of Triangle B.</p>"
+            "<p><strong>Criteria for Triangles</strong></p><p>For each part, draw a triangle similar to Triangle B that fits the given description. Explain your reasoning.</p><p><em>Triangle X</em></p><p>The area of the Triangle X is 16 times the area of Triangle B.</p>"
           ]
         }
       },
@@ -348,7 +504,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Triangle Y:</strong></p><p> The scale factor from Triangle B to Triangle X is 1/2.</p>"
+            "<p><em>Triangle Y</em></p><p> The scale factor from Triangle B to Triangle X is 1/2.</p>"
           ]
         }
       },
@@ -378,7 +534,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Triangle Z:</strong></p><p>The ratio of corresponding side lengths of Triangle B to Triangle Z is 2:3.</p>"
+            "<p><em>Triangle Z</em></p><p>The ratio of corresponding side lengths of Triangle B to Triangle Z is 2:3.</p>"
           ]
         }
       },
@@ -409,215 +565,173 @@
         "content": {
           "type": "Geometry",
           "board": {
-            "properties": {
-              "axisMin": [
-                -2.186,
-                -1.093
-              ],
-              "axisRange": [
-                26.23,
-                17.486
-              ]
+            "xAxis": {
+              "min": -2.186,
+              "unit": 18.299656881433474,
+              "range": 26.23
+            },
+            "yAxis": {
+              "min": -1.093,
+              "unit": 18.30035456936978,
+              "range": 17.486
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "QoOAajSwGtewNljd": {
               "type": "point",
-              "parents": [
-                0,
-                1
-              ],
-              "properties": {
-                "id": "QoOAajSwGtewNljd",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "QoOAajSwGtewNljd",
+              "x": 0,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "E00UkT6YShwP1x7q": {
               "type": "point",
-              "parents": [
-                7,
-                1
-              ],
-              "properties": {
-                "id": "E00UkT6YShwP1x7q",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "E00UkT6YShwP1x7q",
+              "x": 7,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "6QU_u1IHGMOYAv2M": {
               "type": "point",
-              "parents": [
-                3,
-                5
-              ],
-              "properties": {
-                "id": "6QU_u1IHGMOYAv2M",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "6QU_u1IHGMOYAv2M",
+              "x": 3,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "ICTe18smsApCkgdg": {
               "type": "polygon",
-              "parents": [
+              "id": "ICTe18smsApCkgdg",
+              "points": [
                 "QoOAajSwGtewNljd",
                 "E00UkT6YShwP1x7q",
                 "6QU_u1IHGMOYAv2M"
               ],
-              "properties": {
-                "id": "ICTe18smsApCkgdg"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "F3X8bOdjJf4Rvvvj": {
               "type": "point",
-              "parents": [
-                3,
-                5
-              ],
-              "properties": {
-                "id": "F3X8bOdjJf4Rvvvj",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "F3X8bOdjJf4Rvvvj",
+              "x": 3,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "Ru3MItvlhpMzOH1p": {
               "type": "point",
-              "parents": [
-                3,
-                1
-              ],
-              "properties": {
-                "id": "Ru3MItvlhpMzOH1p",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "Ru3MItvlhpMzOH1p",
+              "x": 3,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "5DcUuvDmqMhSTEIb": {
               "type": "polygon",
-              "parents": [
+              "id": "5DcUuvDmqMhSTEIb",
+              "points": [
                 "F3X8bOdjJf4Rvvvj",
                 "Ru3MItvlhpMzOH1p"
               ],
-              "properties": {
-                "id": "5DcUuvDmqMhSTEIb"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "MS_KgxqRz4vcVZ9h": {
               "type": "point",
-              "parents": [
-                10,
-                1
-              ],
-              "properties": {
-                "id": "MS_KgxqRz4vcVZ9h",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "MS_KgxqRz4vcVZ9h",
+              "x": 10,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "DzrA2plNu4bFwCHX": {
               "type": "point",
-              "parents": [
-                20.5,
-                1
-              ],
-              "properties": {
-                "id": "DzrA2plNu4bFwCHX",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "DzrA2plNu4bFwCHX",
+              "x": 20.5,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "eIK-HXiWEtyYezVT": {
               "type": "point",
-              "parents": [
-                14,
-                7
-              ],
-              "properties": {
-                "id": "eIK-HXiWEtyYezVT",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "eIK-HXiWEtyYezVT",
+              "x": 14,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "_rY6pH8VyuAe2Q28": {
               "type": "polygon",
-              "parents": [
+              "id": "_rY6pH8VyuAe2Q28",
+              "points": [
                 "MS_KgxqRz4vcVZ9h",
                 "DzrA2plNu4bFwCHX",
                 "eIK-HXiWEtyYezVT"
               ],
-              "properties": {
-                "id": "_rY6pH8VyuAe2Q28"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "BGBYM4-gz88cDBDt": {
               "type": "point",
-              "parents": [
-                14,
-                7
-              ],
-              "properties": {
-                "id": "BGBYM4-gz88cDBDt",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "BGBYM4-gz88cDBDt",
+              "x": 14,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "jhGA1rxEmVpKmK9j": {
               "type": "point",
-              "parents": [
-                14,
-                1
-              ],
-              "properties": {
-                "id": "jhGA1rxEmVpKmK9j",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "jhGA1rxEmVpKmK9j",
+              "x": 14,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "n67iYfC51QOWzPHx": {
               "type": "polygon",
-              "parents": [
+              "id": "n67iYfC51QOWzPHx",
+              "points": [
                 "BGBYM4-gz88cDBDt",
                 "jhGA1rxEmVpKmK9j"
               ],
-              "properties": {
-                "id": "n67iYfC51QOWzPHx"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "KKFBBLX33FiutNQW": {
               "type": "comment",
-              "parents": [
-                2.383879781420765,
-                2.021857923497268
+              "id": "KKFBBLX33FiutNQW",
+              "x": 2.383879781420765,
+              "y": 2.021857923497268,
+              "anchors": [
+                "_rY6pH8VyuAe2Q28"
               ],
-              "properties": {
-                "id": "KKFBBLX33FiutNQW",
-                "text": "Z",
-                "anchor": "_rY6pH8VyuAe2Q28"
-              }
+              "text": "Z"
             },
-            {
+            "hcv6VkwAgO53mFDN": {
               "type": "comment",
-              "parents": [
-                2.1338797814207653,
-                1.196721311475411
+              "id": "hcv6VkwAgO53mFDN",
+              "x": 2.1338797814207653,
+              "y": 1.196721311475411,
+              "anchors": [
+                "ICTe18smsApCkgdg"
               ],
-              "properties": {
-                "id": "hcv6VkwAgO53mFDN",
-                "text": "B",
-                "anchor": "ICTe18smsApCkgdg"
-              }
+              "text": "B"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       }
     ]
