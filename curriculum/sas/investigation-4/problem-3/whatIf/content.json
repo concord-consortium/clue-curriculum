@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Situation A. More Claims</h3><p>Ms. Cho’s students also made the following claims. Do you agree? Explain why.</p><p><strong>Mitch’s Claim:</strong></p><p> All squares are similar.</p>"
+            "<p><strong>Situation A. More Claims</strong></p><p>Ms. Cho’s students also made the following claims. Do you agree? Explain why.</p><p><em>Mitch’s Claim</em></p><p> All squares are similar.</p>"
           ]
         }
       },
@@ -29,7 +29,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Freda’s Claim:</strong></p><p>All circles are similar.</p>"
+            "<p><em>Freda’s Claim</em></p><p>All circles are similar.</p>"
           ]
         }
       },
@@ -50,7 +50,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Juan’s Claim:</strong></p><p>All quadrilaterals are similar.</p>"
+            "<p><em>Juan’s Claim</em></p><p>All quadrilaterals are similar.</p>"
           ]
         }
       },
@@ -81,7 +81,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Sze’s Claim:</strong></p><p>All triangles are similar if their corresponding angles are equal.</p>"
+            "<p><em>Sze’s Claim</em></p><p>All triangles are similar if their corresponding angles are equal.</p>"
           ]
         }
       },
@@ -103,227 +103,177 @@
         "content": {
           "type": "Geometry",
           "board": {
-            "properties": {
-              "axisMin": [
-                -4.186,
-                -2.093
-              ],
-              "axisRange": [
-                26.23,
-                17.486
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -4.186,
+              "unit": 18.299656881433474,
+              "range": 26.23
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -2.093,
+              "unit": 18.30035456936978,
+              "range": 17.486
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "HqsyZzkT7qwKF1yI": {
               "type": "point",
-              "parents": [
-                7.87011612021858,
-                3.0850580601092896
-              ],
-              "properties": {
-                "id": "HqsyZzkT7qwKF1yI",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "HqsyZzkT7qwKF1yI",
+              "x": 7.87011612021858,
+              "y": 3.0850580601092896,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "v68Lgant-ZfThAcY": {
               "type": "point",
-              "parents": [
-                4.5701161202185805,
-                2.78505806010929
-              ],
-              "properties": {
-                "id": "v68Lgant-ZfThAcY",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "v68Lgant-ZfThAcY",
+              "x": 4.5701161202185805,
+              "y": 2.78505806010929,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "rJeg1GI3mWlxMCBO": {
               "type": "point",
-              "parents": [
-                6.5701161202185805,
-                0.9850580601092895
-              ],
-              "properties": {
-                "id": "rJeg1GI3mWlxMCBO",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "rJeg1GI3mWlxMCBO",
+              "x": 6.5701161202185805,
+              "y": 0.9850580601092895,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "v0Udd-Z4PVHwSsC6": {
               "type": "polygon",
-              "parents": [
+              "id": "v0Udd-Z4PVHwSsC6",
+              "points": [
                 "HqsyZzkT7qwKF1yI",
                 "v68Lgant-ZfThAcY",
                 "rJeg1GI3mWlxMCBO"
               ],
-              "properties": {
-                "id": "v0Udd-Z4PVHwSsC6"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "aU_R4N3Y2hRHGuF9": {
               "type": "point",
-              "parents": [
-                4.646217554644807,
-                2.7760416666666687
-              ],
-              "properties": {
-                "id": "aU_R4N3Y2hRHGuF9",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "aU_R4N3Y2hRHGuF9",
+              "x": 4.646217554644807,
+              "y": 2.7760416666666687,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "_zb662FuwMtcXoWj": {
               "type": "point",
-              "parents": [
-                1.3462175546448067,
-                2.476041666666669
-              ],
-              "properties": {
-                "id": "_zb662FuwMtcXoWj",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "_zb662FuwMtcXoWj",
+              "x": 1.3462175546448067,
+              "y": 2.476041666666669,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "xavRTiDZhKjte5tt": {
               "type": "point",
-              "parents": [
-                3.3462175546448076,
-                0.6760416666666687
-              ],
-              "properties": {
-                "id": "xavRTiDZhKjte5tt",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "xavRTiDZhKjte5tt",
+              "x": 3.3462175546448076,
+              "y": 0.6760416666666687,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "ZgS-32NV1YjgF7xA": {
               "type": "polygon",
-              "parents": [
+              "id": "ZgS-32NV1YjgF7xA",
+              "points": [
                 "aU_R4N3Y2hRHGuF9",
                 "_zb662FuwMtcXoWj",
                 "xavRTiDZhKjte5tt"
               ],
-              "properties": {
-                "id": "ZgS-32NV1YjgF7xA"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "QYyIzZ33bihqIkfy": {
               "type": "point",
-              "parents": [
-                5.778850751366122,
-                4.8958418715847
-              ],
-              "properties": {
-                "id": "QYyIzZ33bihqIkfy",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "QYyIzZ33bihqIkfy",
+              "x": 5.778850751366122,
+              "y": 4.8958418715847,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "yYE9PgzRNXCR6KC6": {
               "type": "point",
-              "parents": [
-                2.478850751366121,
-                4.5958418715847005
-              ],
-              "properties": {
-                "id": "yYE9PgzRNXCR6KC6",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "yYE9PgzRNXCR6KC6",
+              "x": 2.478850751366121,
+              "y": 4.5958418715847005,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "BJuAUiOi08f4gtm9": {
               "type": "point",
-              "parents": [
-                4.478850751366121,
-                2.8958418715847003
-              ],
-              "properties": {
-                "id": "BJuAUiOi08f4gtm9",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "BJuAUiOi08f4gtm9",
+              "x": 4.478850751366121,
+              "y": 2.8958418715847003,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "hKls22r5OqoE2QAI": {
               "type": "polygon",
-              "parents": [
+              "id": "hKls22r5OqoE2QAI",
+              "points": [
                 "QYyIzZ33bihqIkfy",
                 "yYE9PgzRNXCR6KC6",
                 "BJuAUiOi08f4gtm9"
               ],
-              "properties": {
-                "id": "hKls22r5OqoE2QAI"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "J9YuthiuorJOLLXz": {
               "type": "point",
-              "parents": [
-                0.2073742597390704,
-                0.49940912791490233
-              ],
-              "properties": {
-                "id": "J9YuthiuorJOLLXz",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "J9YuthiuorJOLLXz",
+              "x": 0.2073742597390704,
+              "y": 0.49940912791490233,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "T-Zgg1efvg_3d67S": {
               "type": "point",
-              "parents": [
-                10.586527138203499,
-                1.0508082760636899
-              ],
-              "properties": {
-                "id": "T-Zgg1efvg_3d67S",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "T-Zgg1efvg_3d67S",
+              "x": 10.586527138203499,
+              "y": 1.0508082760636899,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "LRYmAA0aTj1MnX_d": {
               "type": "point",
-              "parents": [
-                3.26973631919428,
-                6.775570965633871
-              ],
-              "properties": {
-                "id": "LRYmAA0aTj1MnX_d",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "LRYmAA0aTj1MnX_d",
+              "x": 3.26973631919428,
+              "y": 6.775570965633871,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "D078io5PeAJEXXWe": {
               "type": "polygon",
-              "parents": [
+              "id": "D078io5PeAJEXXWe",
+              "points": [
                 "J9YuthiuorJOLLXz",
                 "T-Zgg1efvg_3d67S",
                 "LRYmAA0aTj1MnX_d"
               ],
-              "properties": {
-                "id": "D078io5PeAJEXXWe"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -342,7 +292,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Matt’s Claim:</strong></p><p>Circles are not similar since the do not have angles or side lengths.</p>"
+            "<p><em>Matt’s Claim</em></p><p>Circles are not similar since the do not have angles or side lengths.</p>"
           ]
         }
       },
@@ -363,7 +313,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Situation B. Creating More Sets</h3><p>José challenges his group to create another set of shapes that contains an imposter. He suggests that they use coordinate rules to create the set. </p><p><strong>1.</strong> Is this possible? Show your reasoning with sketches of the shapes.</p><p><strong>2. </strong>Include enough information to show which shapes are similar and which one is the imposter.</p>"
+            "<p><strong>Situation B. Creating More Sets</strong></p><p>José challenges his group to create another set of shapes that contains an imposter. He suggests that they use coordinate rules to create the set. </p><p><strong>1.</strong>  Is this possible? Show your reasoning with sketches of the shapes.</p><p><strong>2.  </strong>Include enough information to show which shapes are similar and which one is the imposter.</p>"
           ]
         }
       },
