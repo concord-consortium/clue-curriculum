@@ -67,12 +67,16 @@
         }
       },
       {
-        "id": "21AUG20200151pm",
-        "title": "Scale factors for similar Triangles A, C, and D",
+        "id": "wxgO0QCrZSdQ0puU",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "sas/images/4-1_Initial_Challenge_2.png"
+          "type": "Table",
+          "columnWidths": {
+            "_JdB23LdKAfeKhsw": 80,
+            "UQTo1faF5SYKmhLZ": 80,
+            "LvmT21ZZkOIb7y5F": 80,
+            "y4mgTYpHvRSSxv6V": 80
+          }
         }
       },
       {
@@ -222,6 +226,248 @@
             "<p>This gives a side length of 120 feet for the short side of the larger triangle. To find the distance across the river, we have to subtract the 30 feet from Stake 1 to Stake 3. That gives us a distance of 90 feet across the river.</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "guzdcSPy31sp7x3L",
+          "providerId": "wxgO0QCrZSdQ0puU",
+          "dataSet": {
+            "id": "3rCr4I3IpVJcqZao",
+            "name": "Scale Factors for Similar Triangles A, C, and D",
+            "attributes": [
+              {
+                "id": "_JdB23LdKAfeKhsw",
+                "clientKey": "",
+                "name": "Side",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "\nShort Side",
+                  "Long Side"
+                ],
+                "title": ""
+              },
+              {
+                "id": "UQTo1faF5SYKmhLZ",
+                "clientKey": "",
+                "name": "A",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4",
+                  "8"
+                ],
+                "title": ""
+              },
+              {
+                "id": "LvmT21ZZkOIb7y5F",
+                "clientKey": "",
+                "name": "C",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "6",
+                  "12"
+                ],
+                "title": ""
+              },
+              {
+                "id": "y4mgTYpHvRSSxv6V",
+                "clientKey": "",
+                "name": "D",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "10",
+                  "20"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "KRJqhSiDEDBC2Ehb"
+              },
+              {
+                "__id__": "izTxp3utjyO9M-B1"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "wxgO0QCrZSdQ0puU"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "2tn-LJEAaQNU7viV",
+        "sourceObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{KRJqhSiDEDBC2Ehb}:{UQTo1faF5SYKmhLZ}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{KRJqhSiDEDBC2Ehb}:{y4mgTYpHvRSSxv6V}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 2.5",
+        "textOffset": {
+          "dx": 1.9999999999999853,
+          "dy": -79
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "sn8VQz5TvhmhSimw",
+        "sourceObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{KRJqhSiDEDBC2Ehb}:{LvmT21ZZkOIb7y5F}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{KRJqhSiDEDBC2Ehb}:{UQTo1faF5SYKmhLZ}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 2/3",
+        "textOffset": {
+          "dx": 5.999999999999993,
+          "dy": -22
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "rFncUasPMK89ZPtn",
+        "sourceObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{KRJqhSiDEDBC2Ehb}:{LvmT21ZZkOIb7y5F}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{KRJqhSiDEDBC2Ehb}:{y4mgTYpHvRSSxv6V}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 1(2/3)",
+        "textOffset": {
+          "dx": 3.9999999999999925,
+          "dy": -27
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "I4ufliA9Qru5lwXf",
+        "sourceObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{izTxp3utjyO9M-B1}:{UQTo1faF5SYKmhLZ}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{izTxp3utjyO9M-B1}:{LvmT21ZZkOIb7y5F}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 1.5",
+        "textOffset": {
+          "dx": 13.999999999999993,
+          "dy": 47
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "D2bjTeq3_THB2Yca",
+        "sourceObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{izTxp3utjyO9M-B1}:{y4mgTYpHvRSSxv6V}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{izTxp3utjyO9M-B1}:{LvmT21ZZkOIb7y5F}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 3/5",
+        "textOffset": {
+          "dx": -11.000000000000007,
+          "dy": 45
+        },
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "DmGZXQgt-eTZLwSP",
+        "sourceObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{izTxp3utjyO9M-B1}:{y4mgTYpHvRSSxv6V}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wxgO0QCrZSdQ0puU",
+          "objectId": "cell:{izTxp3utjyO9M-B1}:{UQTo1faF5SYKmhLZ}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x 2/5",
+        "textOffset": {
+          "dx": 8.999999999999986,
+          "dy": 85
+        },
+        "type": "arrowAnnotation"
       }
     ]
   },
