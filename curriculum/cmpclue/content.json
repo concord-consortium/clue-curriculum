@@ -1,0 +1,453 @@
+{
+  "code": "cmpclue",
+  "abbrevTitle": "CMP",
+  "title": "CMP CLUE Help",
+  "subtitle": "Using CLUE",
+  "config": {
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "disablePublish": true,
+    "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+            {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "sas/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "sas/stamps/red-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "dataset": {
+        "cellsSelectCases": false
+      },
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+      "part-to-part": "Part-to-Part",
+      "part-to-whole": "Part-to-Whole",
+      "non-proportional": "Non-Proportional",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Unit Rates",
+      "other-proportional": "Other - Proportional"
+    },
+    "tagPrompt": "Student Strategy"
+  },
+  "sections": {
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "MathReflection4": {
+      "initials": "R4",
+      "title": "Math Reflection 4",
+      "placeholder": "Work area for\nMathematical Reflection 4 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "unitPlan": {
+        "initials": "UP",
+        "title": "Unit Plan",
+        "placeholder": "Work area for\nUnit Plan section"
+      },
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
+    },
+    "sections": [
+      {
+        "type": "unitPlan"
+      },
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Introduction to CLUE",
+      "introduction": {
+        "tiles": []
+      },
+      "problems": [
+        {
+          "description": "Help 1.1",
+          "ordinal": 1,
+          "title": "Intro to CLUE",
+          "subtitle": "Working CMP Problems Digitally",
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Zack experiments with multiplying Mug’s coordinates by different whole numbers to make other characters. Marta asks her uncle how multiplying the coordinates by a decimal or adding numbers to or subtracting numbers from each coordinate will affect Mug’s shape. He gives her a sketch for a new shape (a hat for Mug) and some rules to investigate.</p>"
+            "<p><strong>Problem 2.2</strong></p><p><strong>Hats Off to the Wumps: Changing a Figure&#x27;s Size and Location</strong></p><p>Zack experiments with multiplying Mug’s coordinates by different whole numbers to make other characters. Marta asks her uncle how multiplying the coordinates by a decimal or adding numbers to or subtracting numbers from each coordinate will affect Mug’s shape. He gives her a sketch for a new shape (a hat for Mug) and some rules to investigate.</p>"
           ]
         }
       },
@@ -26,87 +26,76 @@
         "content": {
           "type": "Geometry",
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                15,
-                15
-              ]
+            "xAxis": {
+              "min": -1,
+              "unit": 32,
+              "range": 15
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 21.333333333333332,
+              "range": 15
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "EGFc0pZVbl1W73EH": {
               "type": "point",
-              "parents": [
-                1,
-                1
-              ],
-              "properties": {
-                "id": "EGFc0pZVbl1W73EH",
-                "name": "A"
-              }
+              "id": "EGFc0pZVbl1W73EH",
+              "x": 1,
+              "y": 1,
+              "name": "A, G",
+              "colorScheme": 0,
+              "labelOption": "label"
             },
-            {
+            "M-rhWI9zLlH9oGlF": {
               "type": "point",
-              "parents": [
-                9,
-                1
-              ],
-              "properties": {
-                "id": "M-rhWI9zLlH9oGlF",
-                "name": "B"
-              }
+              "id": "M-rhWI9zLlH9oGlF",
+              "x": 9,
+              "y": 1,
+              "name": "B",
+              "colorScheme": 0,
+              "labelOption": "label"
             },
-            {
+            "pgZCJYljrTuvgeRB": {
               "type": "point",
-              "parents": [
-                6,
-                2
-              ],
-              "properties": {
-                "id": "pgZCJYljrTuvgeRB",
-                "name": "C"
-              }
+              "id": "pgZCJYljrTuvgeRB",
+              "x": 6,
+              "y": 2,
+              "name": "C",
+              "colorScheme": 0,
+              "labelOption": "label"
             },
-            {
+            "ksUEna8DIUvtzF_4": {
               "type": "point",
-              "parents": [
-                6,
-                3
-              ],
-              "properties": {
-                "id": "ksUEna8DIUvtzF_4",
-                "name": "D"
-              }
+              "id": "ksUEna8DIUvtzF_4",
+              "x": 6,
+              "y": 3,
+              "name": "D",
+              "colorScheme": 0,
+              "labelOption": "label"
             },
-            {
+            "OY9DMG6Tiyu9esgS": {
               "type": "point",
-              "parents": [
-                4,
-                3
-              ],
-              "properties": {
-                "id": "OY9DMG6Tiyu9esgS",
-                "name": "E"
-              }
+              "id": "OY9DMG6Tiyu9esgS",
+              "x": 4,
+              "y": 3,
+              "name": "E",
+              "colorScheme": 0,
+              "labelOption": "label"
             },
-            {
+            "TIMhZN51s8rk9eXO": {
               "type": "point",
-              "parents": [
-                4,
-                2
-              ],
-              "properties": {
-                "id": "TIMhZN51s8rk9eXO",
-                "name": "F"
-              }
+              "id": "TIMhZN51s8rk9eXO",
+              "x": 4,
+              "y": 2,
+              "name": "F",
+              "colorScheme": 0,
+              "labelOption": "label"
             },
-            {
+            "gffOskuHHr36y71q": {
               "type": "polygon",
-              "parents": [
+              "id": "gffOskuHHr36y71q",
+              "points": [
                 "EGFc0pZVbl1W73EH",
                 "M-rhWI9zLlH9oGlF",
                 "pgZCJYljrTuvgeRB",
@@ -114,22 +103,29 @@
                 "OY9DMG6Tiyu9esgS",
                 "TIMhZN51s8rk9eXO"
               ],
-              "properties": {
-                "id": "gffOskuHHr36y71q"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         },
         "layout": {
           "height": 200
         }
       },
       {
-        "id": "-6wzAUG20220915AM",
-        "title": "Rules for transforming Mug’s hat",
+        "id": "kAUBHRbRTmPORAO_",
         "content": {
-          "type": "Image",
-          "url": "sas/images/SS_2_2_In_16_rules_mug_hat_500w.png"
+          "type": "Table",
+          "columnWidths": {
+            "tFF_3LjHDrk1hGvS": 109,
+            "Su7J3Zwbo2kSSasB": 97,
+            "COR_C0emA2314hb3": 80,
+            "hnsIfAPhXQxZihc0": 80,
+            "-l4V7vTNuGjFM1pP": 80,
+            "H387NqPt1pq71V9w": 80
+          }
         }
       },
       {
@@ -176,20 +172,18 @@
       },
       {
         "id": "bQsYeNjhqFcLo1bo",
-        "title": "Table of Coordinate Pairs",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "g0aVyWjfTyS_UXK2": 80,
             "JytAKm2jrL0tL-z-": 80,
-            "mJy8ALTAbLprxhLC": 80,
+            "mJy8ALTAbLprxhLC": 94,
             "K_bqLC6zrd6i2ANC": 80,
             "HyKJtaI8taYnWSWw": 80,
             "Pq_jSuXCcdda9ojo": 80,
             "AmzCfalHX8My_6dw": 80
-          },
-          "name": "Table of Coordinate Pairs"
+          }
         }
       },
       [
@@ -200,87 +194,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  15,
-                  15
-                ]
+              "xAxis": {
+                "min": -1,
+                "unit": 32,
+                "range": 15
+              },
+              "yAxis": {
+                "min": -1,
+                "unit": 21.333333333333332,
+                "range": 15
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "tsmOi1KNUt-1gb9A": {
                 "type": "point",
-                "parents": [
-                  1,
-                  1
-                ],
-                "properties": {
-                  "id": "tsmOi1KNUt-1gb9A",
-                  "name": "A"
-                }
+                "id": "tsmOi1KNUt-1gb9A",
+                "x": 1,
+                "y": 1,
+                "name": "A",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "WHYVJJcYENcLeQQy": {
                 "type": "point",
-                "parents": [
-                  9,
-                  1
-                ],
-                "properties": {
-                  "id": "WHYVJJcYENcLeQQy",
-                  "name": "B"
-                }
+                "id": "WHYVJJcYENcLeQQy",
+                "x": 9,
+                "y": 1,
+                "name": "B",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "E4Cun9QOl3GEXtn7": {
                 "type": "point",
-                "parents": [
-                  6,
-                  2
-                ],
-                "properties": {
-                  "id": "E4Cun9QOl3GEXtn7",
-                  "name": "C"
-                }
+                "id": "E4Cun9QOl3GEXtn7",
+                "x": 6,
+                "y": 2,
+                "name": "C",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "iMOfGU6wdr9GhmbC": {
                 "type": "point",
-                "parents": [
-                  6,
-                  3
-                ],
-                "properties": {
-                  "id": "iMOfGU6wdr9GhmbC",
-                  "name": "D"
-                }
+                "id": "iMOfGU6wdr9GhmbC",
+                "x": 6,
+                "y": 3,
+                "name": "D",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "G9RyhnI6Uzikaal7": {
                 "type": "point",
-                "parents": [
-                  4,
-                  3
-                ],
-                "properties": {
-                  "id": "G9RyhnI6Uzikaal7",
-                  "name": "E"
-                }
+                "id": "G9RyhnI6Uzikaal7",
+                "x": 4,
+                "y": 3,
+                "name": "E",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "TCCYHM0y0_BrrPed": {
                 "type": "point",
-                "parents": [
-                  4,
-                  2
-                ],
-                "properties": {
-                  "id": "TCCYHM0y0_BrrPed",
-                  "name": "F"
-                }
+                "id": "TCCYHM0y0_BrrPed",
+                "x": 4,
+                "y": 2,
+                "name": "F",
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "NHw7Hg7_UUQNI07m": {
                 "type": "polygon",
-                "parents": [
+                "id": "NHw7Hg7_UUQNI07m",
+                "points": [
                   "tsmOi1KNUt-1gb9A",
                   "WHYVJJcYENcLeQQy",
                   "E4Cun9QOl3GEXtn7",
@@ -288,11 +271,12 @@
                   "G9RyhnI6Uzikaal7",
                   "TCCYHM0y0_BrrPed"
                 ],
-                "properties": {
-                  "id": "NHw7Hg7_UUQNI07m"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           },
           "layout": {
             "height": 200
@@ -305,99 +289,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "CKZsETthyV76sI63": {
                 "type": "point",
-                "parents": [
-                  3,
-                  4.1000000000000005
-                ],
-                "properties": {
-                  "id": "CKZsETthyV76sI63",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "CKZsETthyV76sI63",
+                "x": 3,
+                "y": 4.1000000000000005,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "XVgLFUmtZZRp6XR7": {
                 "type": "point",
-                "parents": [
-                  11,
-                  4
-                ],
-                "properties": {
-                  "id": "XVgLFUmtZZRp6XR7",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "XVgLFUmtZZRp6XR7",
+                "x": 11,
+                "y": 4,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "1zt_o2C8_NO7jgdU": {
                 "type": "point",
-                "parents": [
-                  8,
-                  5
-                ],
-                "properties": {
-                  "id": "1zt_o2C8_NO7jgdU",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "1zt_o2C8_NO7jgdU",
+                "x": 8,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "sgL9jiY3sEHLTDLw": {
                 "type": "point",
-                "parents": [
-                  8,
-                  6
-                ],
-                "properties": {
-                  "id": "sgL9jiY3sEHLTDLw",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "sgL9jiY3sEHLTDLw",
+                "x": 8,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "CejYRi5zciQV1SsJ": {
                 "type": "point",
-                "parents": [
-                  6,
-                  6
-                ],
-                "properties": {
-                  "id": "CejYRi5zciQV1SsJ",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "CejYRi5zciQV1SsJ",
+                "x": 6,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "nfCP5Vs119FDWjK0": {
                 "type": "point",
-                "parents": [
-                  6,
-                  5
-                ],
-                "properties": {
-                  "id": "nfCP5Vs119FDWjK0",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "nfCP5Vs119FDWjK0",
+                "x": 6,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "UWTq-bMbU0dC2ud_": {
                 "type": "polygon",
-                "parents": [
+                "id": "UWTq-bMbU0dC2ud_",
+                "points": [
                   "CKZsETthyV76sI63",
                   "XVgLFUmtZZRp6XR7",
                   "1zt_o2C8_NO7jgdU",
@@ -405,11 +366,12 @@
                   "CejYRi5zciQV1SsJ",
                   "nfCP5Vs119FDWjK0"
                 ],
-                "properties": {
-                  "id": "UWTq-bMbU0dC2ud_"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           },
           "layout": {
             "height": 200
@@ -424,99 +386,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "EWwmGMykqI3EAfmJ": {
                 "type": "point",
-                "parents": [
-                  0,
-                  5
-                ],
-                "properties": {
-                  "id": "EWwmGMykqI3EAfmJ",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "EWwmGMykqI3EAfmJ",
+                "x": 0,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "SA5Uo1SRsw64HI-o": {
                 "type": "point",
-                "parents": [
-                  8,
-                  5
-                ],
-                "properties": {
-                  "id": "SA5Uo1SRsw64HI-o",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "SA5Uo1SRsw64HI-o",
+                "x": 8,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "NW3dnnZJt74VMb8_": {
                 "type": "point",
-                "parents": [
-                  5,
-                  6
-                ],
-                "properties": {
-                  "id": "NW3dnnZJt74VMb8_",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "NW3dnnZJt74VMb8_",
+                "x": 5,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "nflYISZovV1bWrYC": {
                 "type": "point",
-                "parents": [
-                  5,
-                  7
-                ],
-                "properties": {
-                  "id": "nflYISZovV1bWrYC",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "nflYISZovV1bWrYC",
+                "x": 5,
+                "y": 7,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "7PemD2FkWhS387Sr": {
                 "type": "point",
-                "parents": [
-                  3,
-                  7
-                ],
-                "properties": {
-                  "id": "7PemD2FkWhS387Sr",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "7PemD2FkWhS387Sr",
+                "x": 3,
+                "y": 7,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "RNvBCcnVQBdah8ue": {
                 "type": "point",
-                "parents": [
-                  3,
-                  6
-                ],
-                "properties": {
-                  "id": "RNvBCcnVQBdah8ue",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "RNvBCcnVQBdah8ue",
+                "x": 3,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "ugV7bOncUuZNn_WH": {
                 "type": "polygon",
-                "parents": [
+                "id": "ugV7bOncUuZNn_WH",
+                "points": [
                   "EWwmGMykqI3EAfmJ",
                   "SA5Uo1SRsw64HI-o",
                   "NW3dnnZJt74VMb8_",
@@ -524,11 +463,12 @@
                   "7PemD2FkWhS387Sr",
                   "RNvBCcnVQBdah8ue"
                 ],
-                "properties": {
-                  "id": "ugV7bOncUuZNn_WH"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -538,99 +478,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "OEly5WN6_YCdEJgj": {
                 "type": "point",
-                "parents": [
-                  2.9508196721311473,
-                  3.0054644808743194
-                ],
-                "properties": {
-                  "id": "OEly5WN6_YCdEJgj",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "OEly5WN6_YCdEJgj",
+                "x": 2.9508196721311473,
+                "y": 3.0054644808743194,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "Mqye7QHgnIRpgokl": {
                 "type": "point",
-                "parents": [
-                  11,
-                  3
-                ],
-                "properties": {
-                  "id": "Mqye7QHgnIRpgokl",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "Mqye7QHgnIRpgokl",
+                "x": 11,
+                "y": 3,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "hqajRtfZi5G3XId9": {
                 "type": "point",
-                "parents": [
-                  7.978142076502732,
-                  5.956284153005466
-                ],
-                "properties": {
-                  "id": "hqajRtfZi5G3XId9",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "hqajRtfZi5G3XId9",
+                "x": 7.978142076502732,
+                "y": 5.956284153005466,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "kXay8UaR7h4c5vZP": {
                 "type": "point",
-                "parents": [
-                  8,
-                  9
-                ],
-                "properties": {
-                  "id": "kXay8UaR7h4c5vZP",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "kXay8UaR7h4c5vZP",
+                "x": 8,
+                "y": 9,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "3_sBOLAQMamD60lk": {
                 "type": "point",
-                "parents": [
-                  6,
-                  9
-                ],
-                "properties": {
-                  "id": "3_sBOLAQMamD60lk",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "3_sBOLAQMamD60lk",
+                "x": 6,
+                "y": 9,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "k4Fy8YnkcfQN9VtX": {
                 "type": "point",
-                "parents": [
-                  6,
-                  6
-                ],
-                "properties": {
-                  "id": "k4Fy8YnkcfQN9VtX",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "k4Fy8YnkcfQN9VtX",
+                "x": 6,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "qu3-4pPyMgaN6U_H": {
                 "type": "polygon",
-                "parents": [
+                "id": "qu3-4pPyMgaN6U_H",
+                "points": [
                   "OEly5WN6_YCdEJgj",
                   "Mqye7QHgnIRpgokl",
                   "hqajRtfZi5G3XId9",
@@ -638,11 +555,12 @@
                   "3_sBOLAQMamD60lk",
                   "k4Fy8YnkcfQN9VtX"
                 ],
-                "properties": {
-                  "id": "qu3-4pPyMgaN6U_H"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         }
       ],
@@ -654,99 +572,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "D3diq-xIS8sWwPgN": {
                 "type": "point",
-                "parents": [
-                  0.5,
-                  0.5
-                ],
-                "properties": {
-                  "id": "D3diq-xIS8sWwPgN",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "D3diq-xIS8sWwPgN",
+                "x": 0.5,
+                "y": 0.5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "ITD9jGE5DKQBBZ05": {
                 "type": "point",
-                "parents": [
-                  4.48087431693989,
-                  0.5464480874316969
-                ],
-                "properties": {
-                  "id": "ITD9jGE5DKQBBZ05",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "ITD9jGE5DKQBBZ05",
+                "x": 4.48087431693989,
+                "y": 0.5464480874316969,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "hrg0GrlvJ5B3cdFW": {
                 "type": "point",
-                "parents": [
-                  3,
-                  1
-                ],
-                "properties": {
-                  "id": "hrg0GrlvJ5B3cdFW",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "hrg0GrlvJ5B3cdFW",
+                "x": 3,
+                "y": 1,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "_rmZutpv-I_TFPsE": {
                 "type": "point",
-                "parents": [
-                  3,
-                  1.5
-                ],
-                "properties": {
-                  "id": "_rmZutpv-I_TFPsE",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "_rmZutpv-I_TFPsE",
+                "x": 3,
+                "y": 1.5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "XLjFFqoXMQOeoXHe": {
                 "type": "point",
-                "parents": [
-                  2,
-                  1.5
-                ],
-                "properties": {
-                  "id": "XLjFFqoXMQOeoXHe",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "XLjFFqoXMQOeoXHe",
+                "x": 2,
+                "y": 1.5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "f0qh7hBuA8pj5ksD": {
                 "type": "point",
-                "parents": [
-                  2,
-                  1
-                ],
-                "properties": {
-                  "id": "f0qh7hBuA8pj5ksD",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "f0qh7hBuA8pj5ksD",
+                "x": 2,
+                "y": 1,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "m7LQmMcwz-y2AC_J": {
                 "type": "polygon",
-                "parents": [
+                "id": "m7LQmMcwz-y2AC_J",
+                "points": [
                   "D3diq-xIS8sWwPgN",
                   "ITD9jGE5DKQBBZ05",
                   "hrg0GrlvJ5B3cdFW",
@@ -754,11 +649,12 @@
                   "XLjFFqoXMQOeoXHe",
                   "f0qh7hBuA8pj5ksD"
                 ],
-                "properties": {
-                  "id": "m7LQmMcwz-y2AC_J"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -768,99 +664,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "CxvwoD441FDOurrq": {
                 "type": "point",
-                "parents": [
-                  2,
-                  3
-                ],
-                "properties": {
-                  "id": "CxvwoD441FDOurrq",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "CxvwoD441FDOurrq",
+                "x": 2,
+                "y": 3,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "l2cuZc5MkvZdbpua": {
                 "type": "point",
-                "parents": [
-                  17.97814207650273,
-                  3.0054644808743194
-                ],
-                "properties": {
-                  "id": "l2cuZc5MkvZdbpua",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "l2cuZc5MkvZdbpua",
+                "x": 17.97814207650273,
+                "y": 3.0054644808743194,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "PQ2v83foCQO-aUD6": {
                 "type": "point",
-                "parents": [
-                  12,
-                  6
-                ],
-                "properties": {
-                  "id": "PQ2v83foCQO-aUD6",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "PQ2v83foCQO-aUD6",
+                "x": 12,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "HlTMZnInmez7o57i": {
                 "type": "point",
-                "parents": [
-                  12,
-                  9
-                ],
-                "properties": {
-                  "id": "HlTMZnInmez7o57i",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "HlTMZnInmez7o57i",
+                "x": 12,
+                "y": 9,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "1W9MKKR3tdYI9VJV": {
                 "type": "point",
-                "parents": [
-                  7.978142076502732,
-                  9.016393442622952
-                ],
-                "properties": {
-                  "id": "1W9MKKR3tdYI9VJV",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "1W9MKKR3tdYI9VJV",
+                "x": 7.978142076502732,
+                "y": 9.016393442622952,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "oiPQtV7kirzjQMD9": {
                 "type": "point",
-                "parents": [
-                  8,
-                  6
-                ],
-                "properties": {
-                  "id": "oiPQtV7kirzjQMD9",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "oiPQtV7kirzjQMD9",
+                "x": 8,
+                "y": 6,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "e9gzLZ1M3pJ-h_pr": {
                 "type": "polygon",
-                "parents": [
+                "id": "e9gzLZ1M3pJ-h_pr",
+                "points": [
                   "CxvwoD441FDOurrq",
                   "l2cuZc5MkvZdbpua",
                   "PQ2v83foCQO-aUD6",
@@ -868,11 +741,12 @@
                   "1W9MKKR3tdYI9VJV",
                   "oiPQtV7kirzjQMD9"
                 ],
-                "properties": {
-                  "id": "e9gzLZ1M3pJ-h_pr"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         }
       ]
@@ -1051,6 +925,99 @@
         },
         "tiles": [
           "bQsYeNjhqFcLo1bo"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "umOYurtRy1YEOrG0",
+          "providerId": "kAUBHRbRTmPORAO_",
+          "dataSet": {
+            "id": "hHdQYo9RV1rOAcOj",
+            "name": "Rules for Transforming Mug's Hat",
+            "attributes": [
+              {
+                "id": "tFF_3LjHDrk1hGvS",
+                "clientKey": "",
+                "name": "Mug's Hat",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "(x, y)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Su7J3Zwbo2kSSasB",
+                "clientKey": "",
+                "name": "Hat 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "(x + 2, y + 3)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "COR_C0emA2314hb3",
+                "clientKey": "",
+                "name": "Hat 2",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "(x - 1, y + 4)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "hnsIfAPhXQxZihc0",
+                "clientKey": "",
+                "name": "Hat 3",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "(x + 2, 3y)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "-l4V7vTNuGjFM1pP",
+                "clientKey": "",
+                "name": "Hat 4",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "(0.5x, 0.5y)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "H387NqPt1pq71V9w",
+                "clientKey": "",
+                "name": "Hat 5",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "(2x, 3y)"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "auSHzQ4oIC4K2l4s"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "kAUBHRbRTmPORAO_"
         ]
       }
     ]
