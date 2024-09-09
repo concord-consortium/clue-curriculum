@@ -59,7 +59,7 @@
         }
       ],
       {
-        "id": "SdAECRFcuqGuQiw0",
+        "id": "Rg3-uLpk9F5jSEOj",
         "title": "Mia's Graph 1",
         "content": {
           "type": "Graph",
@@ -70,35 +70,35 @@
               "place": "bottom",
               "scale": "linear",
               "min": 0,
-              "max": 6
+              "max": 2.2
             },
             "left": {
               "type": "numeric",
               "place": "left",
               "scale": "linear",
               "min": 0,
-              "max": 2
+              "max": 13
             }
           },
-          "lockAxes": true,
+          "lockAxes": false,
           "plotType": "scatterPlot",
           "layers": [
             {
-              "id": "LAYRXL0KT5KzSIAA",
+              "id": "LAYRNyL2Xy1OlZyM",
               "config": {
-                "id": "DCONMzsN4RukeSOd",
-                "dataset": "aW760IemvIU7lRei",
-                "metadata": "clyi9MKErEwzlfV2",
+                "id": "DCONF7zxepFns6YN",
+                "dataset": "AwNehl5W7OpFAxxu",
+                "metadata": "MhPMkA-kzTG7643D",
                 "primaryRole": "x",
                 "_attributeDescriptions": {
                   "x": {
-                    "attributeID": "3EcsbGWM_IG5O1XN",
+                    "attributeID": "DtszMW2Qgd8Oaxsn",
                     "type": "numeric"
                   }
                 },
                 "_yAttributeDescriptions": [
                   {
-                    "attributeID": "2PHmNcckBwqPQnZW",
+                    "attributeID": "JFhghtRCRwuLePM_",
                     "type": "numeric"
                   }
                 ]
@@ -107,7 +107,7 @@
             }
           ],
           "_idColors": {
-            "2PHmNcckBwqPQnZW": 0
+            "JFhghtRCRwuLePM_": 0
           },
           "_pointColors": [
             "#E6805B"
@@ -120,12 +120,12 @@
           "plotBackgroundImageID": "",
           "showParentToggles": false,
           "showMeasuresForSelection": false,
-          "xAttributeLabel": "x",
-          "yAttributeLabel": "y"
+          "xAttributeLabel": "Total Cost in Dollars",
+          "yAttributeLabel": "Number of Oranges"
         }
       },
       {
-        "id": "WQZBSdoK2W1_CWaD",
+        "id": "dxWJ9gxIexc-oON5",
         "title": "Mia's Graph 2",
         "content": {
           "type": "Graph",
@@ -136,35 +136,35 @@
               "place": "bottom",
               "scale": "linear",
               "min": 0,
-              "max": 10
+              "max": 12
             },
             "left": {
               "type": "numeric",
               "place": "left",
               "scale": "linear",
               "min": 0,
-              "max": 12
+              "max": 2.5
             }
           },
-          "lockAxes": true,
+          "lockAxes": false,
           "plotType": "scatterPlot",
           "layers": [
             {
-              "id": "LAYR03kHU2h7eZbW",
+              "id": "LAYRcPvpwTHFTR2N",
               "config": {
-                "id": "DCONonNNmgJnisK-",
-                "dataset": "s4kxf-0KDzlSig2W",
-                "metadata": "Mgi4tJjX1LfZZUIi",
+                "id": "DCONcsvEb3hgQXA6",
+                "dataset": "gpJkTApCw7tJ5OWP",
+                "metadata": "bpkbaGnDtFBL8cNw",
                 "primaryRole": "x",
                 "_attributeDescriptions": {
                   "x": {
-                    "attributeID": "7qkIsYt-Qvw89rm2",
+                    "attributeID": "NQYbsv2MPsbe9aRo",
                     "type": "numeric"
                   }
                 },
                 "_yAttributeDescriptions": [
                   {
-                    "attributeID": "RhI2k9slD8N4TfYt",
+                    "attributeID": "zRJHL2sS-_iCiPPn",
                     "type": "numeric"
                   }
                 ]
@@ -173,7 +173,7 @@
             }
           ],
           "_idColors": {
-            "RhI2k9slD8N4TfYt": 0
+            "zRJHL2sS-_iCiPPn": 0
           },
           "_pointColors": [
             "#E6805B"
@@ -186,8 +186,8 @@
           "plotBackgroundImageID": "",
           "showParentToggles": false,
           "showMeasuresForSelection": false,
-          "xAttributeLabel": "x",
-          "yAttributeLabel": "y"
+          "xAttributeLabel": "Number of Oranges",
+          "yAttributeLabel": "Total Cost in Dollars"
         }
       },
       {
@@ -323,78 +323,113 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "3vtW3BqTXDNei8BK",
+          "id": "1g6bnoj-xTi_YERd",
           "providerId": "",
           "dataSet": {
-            "id": "aW760IemvIU7lRei",
-            "name": "Mia's Data",
+            "id": "AwNehl5W7OpFAxxu",
+            "name": "Added by hand",
             "attributes": [
               {
-                "id": "3EcsbGWM_IG5O1XN",
+                "id": "DtszMW2Qgd8Oaxsn",
                 "clientKey": "",
                 "name": "X Variable",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  1.0113288647523402,
-                  2.003141820424724,
-                  3.0097579545399786,
-                  4.993383865884745
+                  0.19857355348240904,
+                  0.3983656856216432,
+                  0.5946526926356276,
+                  0.8014550750253612,
+                  0.9977420820393457,
+                  1.1975342141785799,
+                  1.4008314714430636,
+                  1.6041287287075476,
+                  1.8039208608467818,
+                  1.9967027427355164,
+                  2.1894846246242508
                 ],
                 "title": ""
               },
               {
-                "id": "2PHmNcckBwqPQnZW",
+                "id": "JFhghtRCRwuLePM_",
                 "clientKey": "",
                 "name": "Y Variable 1",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  0.20276497695852624,
-                  0.4055299539170518,
-                  0.6082949308755763,
-                  1.023041474654378
+                  0.8986175115207378,
+                  2.0967741935483866,
+                  3.0552995391705067,
+                  4.073732718894009,
+                  5.032258064516129,
+                  6.050691244239631,
+                  7.0691244239631335,
+                  8.027649769585253,
+                  9.046082949308756,
+                  10.064516129032258,
+                  11.023041474654377
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "01J09169MCXTGGGWTQDRCZHAWQ"
+                "__id__": "01J7C30J9EG4YJGNCXNHCF8MXV"
               },
               {
-                "__id__": "01J09175G2NAY4XPQ52BMABEP2"
+                "__id__": "01J7C30SNPXK9ZT9EXS9CH799A"
               },
               {
-                "__id__": "01J0917C52Y8MDR8FKFGXVBNSB"
+                "__id__": "01J7C31047MV0XCFHZZM67MCG8"
               },
               {
-                "__id__": "01J0917TVTK9YY5HM1G11YDNSV"
+                "__id__": "01J7C314T8SR28EVBFTMFF5FKS"
+              },
+              {
+                "__id__": "01J7C318VVPXHYR9SD1RNGYQWT"
+              },
+              {
+                "__id__": "01J7C31JTMFJT88WVRN74KN8K8"
+              },
+              {
+                "__id__": "01J7C31MW44YFQFFGTP40NG0TA"
+              },
+              {
+                "__id__": "01J7C31QV0PANXSYWGQQKJPK4P"
+              },
+              {
+                "__id__": "01J7C31X23AN6DVYGWPY0S6KE6"
+              },
+              {
+                "__id__": "01J7C31ZKJNERBHSBEZ21ZZ95X"
+              },
+              {
+                "__id__": "01J7C3232CGG5MQ5PF9D9EAQCZ"
               }
             ]
           }
         },
-        "provider": "SdAECRFcuqGuQiw0",
+        "provider": "Rg3-uLpk9F5jSEOj",
         "tiles": [
-          "SdAECRFcuqGuQiw0"
+          "Rg3-uLpk9F5jSEOj"
         ]
       },
       {
         "sharedModel": {
           "type": "SharedCaseMetadata",
-          "id": "clyi9MKErEwzlfV2",
-          "data": "aW760IemvIU7lRei",
+          "id": "MhPMkA-kzTG7643D",
+          "data": "AwNehl5W7OpFAxxu",
           "collections": {},
           "categories": {
-            "3EcsbGWM_IG5O1XN": {
-              "attribute": "3EcsbGWM_IG5O1XN",
+            "DtszMW2Qgd8Oaxsn": {
+              "attribute": "DtszMW2Qgd8Oaxsn",
               "colors": {},
               "moves": []
             },
-            "2PHmNcckBwqPQnZW": {
-              "attribute": "2PHmNcckBwqPQnZW",
+            "JFhghtRCRwuLePM_": {
+              "attribute": "JFhghtRCRwuLePM_",
               "colors": {},
               "moves": []
             }
@@ -403,89 +438,119 @@
           "hidden": {}
         },
         "tiles": [
-          "SdAECRFcuqGuQiw0"
+          "Rg3-uLpk9F5jSEOj"
         ]
       },
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "Z5E7MWiabC7Mcfrr",
+          "id": "OZ53QJ-sYc8Cch_s",
           "providerId": "",
           "dataSet": {
-            "id": "s4kxf-0KDzlSig2W",
-            "name": "Mia's second data",
+            "id": "gpJkTApCw7tJ5OWP",
+            "name": "Added by hand 1",
             "attributes": [
               {
-                "id": "7qkIsYt-Qvw89rm2",
+                "id": "NQYbsv2MPsbe9aRo",
                 "clientKey": "",
                 "name": "X Variable",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  0.20130000477942872,
-                  0.40451178129331355,
-                  0.600277206901496,
-                  1.00159632939827,
-                  1.9980882282655452
+                  1.005609242580189,
+                  2.0050993114365356,
+                  3.004589380292882,
+                  3.9848584862866065,
+                  4.984348555142953,
+                  6.0222805497245435,
+                  7.02177061858089,
+                  8.021260687437238,
+                  9.020750756293582,
+                  10.001019862287308,
+                  11.019730894006276
                 ],
                 "title": ""
               },
               {
-                "id": "RhI2k9slD8N4TfYt",
+                "id": "zRJHL2sS-_iCiPPn",
                 "clientKey": "",
                 "name": "Y Variable 1",
                 "hidden": false,
                 "units": "",
                 "formula": {},
                 "values": [
-                  1.023041474654403,
-                  2.073732718894009,
-                  3.124423963133641,
-                  5.11520737327189,
-                  10.09216589861751
+                  0.19585253456221197,
+                  0.39170506912442393,
+                  0.5990783410138247,
+                  0.806451612903226,
+                  0.9907834101382487,
+                  1.2211981566820276,
+                  1.382488479262673,
+                  1.5898617511520738,
+                  1.8087557603686635,
+                  1.9930875576036866,
+                  2.2235023041474653
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "01J0919RG0FKG20WM3ZFMTGRV6"
+                "__id__": "01J7C3409HZH1NE6PFEFHBZCNK"
               },
               {
-                "__id__": "01J091AXK1S1D7HPS490TT21N3"
+                "__id__": "01J7C343K1CWHDQZHVTZ2MJ2W0"
               },
               {
-                "__id__": "01J091B23FZ0PR3QH6V2WH6MR1"
+                "__id__": "01J7C349EQ1NRW2PEY4FCC4SJH"
               },
               {
-                "__id__": "01J091C0DDYF85QZ6HEXQK3X07"
+                "__id__": "01J7C34AXKQH2RK92X79N6VR0F"
               },
               {
-                "__id__": "01J091CC24SN7QKN4YCNK0YG98"
+                "__id__": "01J7C34CFDZ2NQT5PF8HHXX220"
+              },
+              {
+                "__id__": "01J7C34ECX43EDEGAQ6AQHB9N1"
+              },
+              {
+                "__id__": "01J7C34FZZB9GW6NZSP2T4K67X"
+              },
+              {
+                "__id__": "01J7C34H892YGFCYJ674YN2AW0"
+              },
+              {
+                "__id__": "01J7C34JBC7H3TJTRT03PAD25P"
+              },
+              {
+                "__id__": "01J7C34KQQND9GYGKBFTAH7310"
+              },
+              {
+                "__id__": "01J7C34QXE67840XMZSP207NT3"
               }
             ]
           }
         },
-        "provider": "WQZBSdoK2W1_CWaD",
+        "provider": "dxWJ9gxIexc-oON5",
         "tiles": [
-          "WQZBSdoK2W1_CWaD"
+          "dxWJ9gxIexc-oON5"
         ]
       },
       {
         "sharedModel": {
           "type": "SharedCaseMetadata",
-          "id": "Mgi4tJjX1LfZZUIi",
-          "data": "s4kxf-0KDzlSig2W",
+          "id": "bpkbaGnDtFBL8cNw",
+          "data": "gpJkTApCw7tJ5OWP",
           "collections": {},
           "categories": {
-            "7qkIsYt-Qvw89rm2": {
-              "attribute": "7qkIsYt-Qvw89rm2",
+            "NQYbsv2MPsbe9aRo": {
+              "attribute": "NQYbsv2MPsbe9aRo",
               "colors": {},
               "moves": []
             },
-            "RhI2k9slD8N4TfYt": {
-              "attribute": "RhI2k9slD8N4TfYt",
+            "zRJHL2sS-_iCiPPn": {
+              "attribute": "zRJHL2sS-_iCiPPn",
               "colors": {},
               "moves": []
             }
@@ -494,7 +559,7 @@
           "hidden": {}
         },
         "tiles": [
-          "WQZBSdoK2W1_CWaD"
+          "dxWJ9gxIexc-oON5"
         ]
       }
     ]
