@@ -18,7 +18,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Amit’s Strategy</strong></p><p>I saw that at Royal, 5 pizzas cost $65. I wanted to compare the prices for 5 pizzas at each restaurant. So, I scaled down the pizza and price at Howdy’s by dividing each quantity by 3.</p>"
+            "<p><em>Amit’s Strategy</em></p><p>I saw that at Royal, 5 pizzas cost $65. I wanted to compare the prices for 5 pizzas at each restaurant. So, I scaled down the pizza and price at Howdy’s by dividing each quantity by 3.</p>"
           ]
         }
       },
@@ -44,181 +44,217 @@
         }
       },
       {
-        "id": "6PwStly6wJNzE0hG",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>your strategy</p>"
-          ]
-        }
-      },
-      {
         "id": "F0XeU_weVVjm8o0E",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Eun Mi’s Strategy</strong></p><p>I tried to use proportions, but that did not work. So, I used a graph to determine the costs. I noticed that the graph of Howdy’s Pizza did not go through the origin. I wonder if that is why proportions did not work.</p><p>Note: x-axis represents number of pizzas and y-axis represents total cost in dollars.</p>"
+            "<p><em>Eun Mi’s Strategy</em></p><p>I tried to use proportions, but that did not work. So, I used a graph to determine the costs. I noticed that the graph of Howdy’s Pizza did not go through the origin. I wonder if that is why proportions did not work.</p>"
           ]
         }
       },
-      [
-        {
-          "id": "ZtbamQeUvalKAjUZ",
-          "title": "Royal Pizza",
-          "content": {
-            "type": "Graph",
-            "adornments": [
-              {
-                "id": "ADRN1KTlTUIjl1BO",
-                "type": "Movable Line",
-                "isVisible": true,
-                "lines": {
-                  "{}": {
-                    "equationCoords": {
-                      "x": null,
-                      "y": null
-                    },
-                    "intercept": -0.4610434218899755,
-                    "slope": 13.39803620082918
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "bottom": {
-                "type": "numeric",
-                "place": "bottom",
-                "scale": "linear",
-                "min": 0,
-                "max": 6
-              },
-              "left": {
-                "type": "numeric",
-                "place": "left",
-                "scale": "linear",
-                "min": 0,
-                "max": 80
-              }
-            },
-            "lockAxes": true,
-            "plotType": "scatterPlot",
-            "layers": [
-              {
-                "id": "LAYRUzU1-xGtmYyN",
-                "config": {
-                  "id": "DCONovhMnQjbkurs",
-                  "dataset": "moGatAjgW-aoIUOT",
-                  "metadata": "6M-fKn0Z82_pEb_c",
-                  "primaryRole": "x",
-                  "_attributeDescriptions": {
-                    "x": {
-                      "attributeID": "_tfRXBcAaYQv8lXM",
-                      "type": "numeric"
-                    }
-                  },
-                  "_yAttributeDescriptions": [
-                    {
-                      "attributeID": "hvGIwk1ptz5NAtUY",
-                      "type": "numeric"
-                    }
-                  ]
-                },
-                "editable": true
-              }
-            ],
-            "_idColors": {
-              "hvGIwk1ptz5NAtUY": 0
-            },
-            "_pointColors": [
-              "#E6805B"
-            ],
-            "_pointStrokeColor": "#FFFFFF",
-            "pointStrokeSameAsFill": false,
-            "plotBackgroundColor": "#FFFFFF",
-            "pointSizeMultiplier": 1,
-            "isTransparent": false,
-            "plotBackgroundImageID": "",
-            "showParentToggles": false,
-            "showMeasuresForSelection": false,
-            "xAttributeLabel": "Number of Pizzas",
-            "yAttributeLabel": "Cost in Dollars"
-          }
-        },
-        {
-          "id": "PWoJnRL7zUYu5yWP",
-          "title": "Graph 1",
-          "content": {
-            "type": "Graph",
-            "adornments": [],
-            "axes": {
-              "bottom": {
-                "type": "numeric",
-                "place": "bottom",
-                "scale": "linear",
-                "min": 0,
-                "max": 10
-              },
-              "left": {
-                "type": "numeric",
-                "place": "left",
-                "scale": "linear",
-                "min": 0,
-                "max": 10
-              }
-            },
-            "lockAxes": false,
-            "plotType": "scatterPlot",
-            "layers": [
-              {
-                "id": "LAYRCG4b0mQs_KCq",
-                "config": {
-                  "id": "DCONbIGNXPZBKdSM",
-                  "_attributeDescriptions": {},
-                  "_yAttributeDescriptions": []
-                },
-                "editable": false
-              }
-            ],
-            "_idColors": {},
-            "_pointColors": [
-              "#E6805B"
-            ],
-            "_pointStrokeColor": "#FFFFFF",
-            "pointStrokeSameAsFill": false,
-            "plotBackgroundColor": "#FFFFFF",
-            "pointSizeMultiplier": 1,
-            "isTransparent": false,
-            "plotBackgroundImageID": "",
-            "showParentToggles": false,
-            "showMeasuresForSelection": false,
-            "xAttributeLabel": "x",
-            "yAttributeLabel": "y"
-          }
-        }
-      ],
       {
-        "id": "J7TO8BijQohPm9Sa",
-        "title": "Howdy Pizza",
+        "id": "0Dpc6k3gjBr82RrY",
+        "title": "Royal Pizza",
         "content": {
           "type": "Graph",
-          "adornments": [],
+          "adornments": [
+            {
+              "id": "ADRNfVsN0VCSkp_1",
+              "type": "Movable Line",
+              "isVisible": true,
+              "lines": {
+                "C8FCIRi4U1ttHRzq": {
+                  "equationCoords": {
+                    "x": 0.7488055960068063,
+                    "y": 1.3072836538461539
+                  },
+                  "intercept": 0.3186381943053078,
+                  "slope": 12.9101931317889
+                }
+              }
+            }
+          ],
           "axes": {
             "bottom": {
               "type": "numeric",
               "place": "bottom",
               "scale": "linear",
               "min": 0,
-              "max": 6
+              "max": 10
             },
             "left": {
               "type": "numeric",
               "place": "left",
               "scale": "linear",
               "min": 0,
-              "max": 100
+              "max": 101.88
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYR3vGPbZfqZdrO",
+              "config": {
+                "id": "DCONL_n3hhgz_Im5",
+                "dataset": "FQC8Q6X_C5GCrpZF",
+                "metadata": "0B5tLZFLgMDHWSe_",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "NoIlBOoExR67yO9w",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "DXexkO63q2CPEPS7",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "DXexkO63q2CPEPS7": 0,
+            "C8FCIRi4U1ttHRzq": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Pizzas",
+          "yAttributeLabel": "Total Cost in Dollars"
+        }
+      },
+      {
+        "id": "Xcv3sJfSbXeMJfLs",
+        "title": "Royal Pizza 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNfVsN0VCSkp_1",
+              "type": "Movable Line",
+              "isVisible": true,
+              "lines": {
+                "C8FCIRi4U1ttHRzq": {
+                  "equationCoords": {
+                    "x": 0.7488055960068063,
+                    "y": 1.3072836538461539
+                  },
+                  "intercept": 0.3186381943053078,
+                  "slope": 12.9101931317889
+                }
+              }
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 101.88
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYR3vGPbZfqZdrO",
+              "config": {
+                "id": "DCONL_n3hhgz_Im5",
+                "dataset": "UTZoDaBsjYwq5dZV",
+                "metadata": "5HQc1EEDI2dJn8TD",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "rLMBY2LGU3reCZV8",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "t_vidWV-ttTPwqUo",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "t_vidWV-ttTPwqUo": 0,
+            "C8FCIRi4U1ttHRzq": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Pizzas",
+          "yAttributeLabel": "Total Cost in Dollars"
+        }
+      },
+      {
+        "id": "J7TO8BijQohPm9Sa",
+        "title": "Howdy Pizza",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRNFBLCd1ymjS8d",
+              "type": "Movable Line",
+              "isVisible": true,
+              "lines": {
+                "QJyoXzIq1fhlxaSj": {
+                  "equationCoords": {
+                    "x": 0.6149442821152352,
+                    "y": 1.3575028801843319
+                  },
+                  "intercept": 31.005600206214783,
+                  "slope": 11.271224056084364
+                }
+              }
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 130.91
             }
           },
           "lockAxes": true,
@@ -248,7 +284,8 @@
             }
           ],
           "_idColors": {
-            "Q_sCEmAVxICAMMCa": 0
+            "Q_sCEmAVxICAMMCa": 0,
+            "QJyoXzIq1fhlxaSj": 1
           },
           "_pointColors": [
             "#E6805B"
@@ -262,7 +299,7 @@
           "showParentToggles": false,
           "showMeasuresForSelection": false,
           "xAttributeLabel": "Number of Pizzas",
-          "yAttributeLabel": "Cost in Dollars"
+          "yAttributeLabel": "Total Cost in Dollars"
         }
       },
       {
@@ -308,192 +345,17 @@
           ]
         }
       },
-      [
-        {
-          "id": "TILE6bWIvudzzcUN",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Note: These graphs relate to the <em>Stretching and Shrinking</em> Problem 2.2 about Mug Hats. Students saw that adding to the rules moved the hats. It did not stretch or shrink them. Adding does not create similar figures because similarity is proportional, which means it is multiplicative.</p><p>Here, adding the $30 delivery fee slides the line up.</p><p>If we removed the $30 delivery fee, the graph would slide down. (See the red points.) And the costs would be proportional 1/11 = 2/22 = 10/110.</p><p>Note: In the next Unit, we will revisit both proportional and non-proportional graphs.</p>"
-            ]
-          }
-        },
-        {
-          "id": "TILEkSK_KyU1G8mh",
-          "title": "Howdy Pizza",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -1.1,
-                  0
-                ],
-                "axisRange": [
-                  5.9,
-                  89.8
-                ],
-                "axisNames": [
-                  "Number of Pizzas",
-                  "Cost in Dollars"
-                ],
-                "axisLabels": [
-                  "Number of Pizzas",
-                  "Cost in Dollars"
-                ]
-              }
-            },
-            "objects": [
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  42
-                ],
-                "properties": {
-                  "id": "ZfmEiftXc7XsDAyo",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  52
-                ],
-                "properties": {
-                  "id": "vo_WEMFMeo-Rt8SG",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  63
-                ],
-                "properties": {
-                  "id": "Wt7595slDPkbjGhC",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  4,
-                  74
-                ],
-                "properties": {
-                  "id": "zZRFMvBCkEAd5SXj",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5,
-                  85
-                ],
-                "properties": {
-                  "id": "zbDELqB1i_IMk32B",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  12
-                ],
-                "properties": {
-                  "id": "A26NOV20220844pm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  22
-                ],
-                "properties": {
-                  "id": "B26NOV20220844pm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  33
-                ],
-                "properties": {
-                  "id": "C26NOV20220844pm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  4,
-                  44
-                ],
-                "properties": {
-                  "id": "D26NOV20220844pm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5,
-                  55
-                ],
-                "properties": {
-                  "id": "E26NOV20220844pm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
-                  "ZfmEiftXc7XsDAyo",
-                  "vo_WEMFMeo-Rt8SG",
-                  "Wt7595slDPkbjGhC",
-                  "zZRFMvBCkEAd5SXj",
-                  "zbDELqB1i_IMk32B"
-                ],
-                "properties": {
-                  "id": "Aw0ovQjdAqlVu8uF"
-                }
-              }
-            ]
-          }
+      {
+        "id": "TILE6bWIvudzzcUN",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u>Note</u>: These graphs relate to the <em>Stretching and Shrinking</em> Problem 2.2 about Mug Hats. Students saw that adding to the rules moved the hats. It did not stretch or shrink them. Adding does not create similar figures because similarity is proportional, which means it is multiplicative.</p><p>Here, adding the $30 delivery fee slides the line up.</p><p>If we removed the $30 delivery fee, the graph would slide down. (See the red points.) And the costs would be proportional 1/11 = 2/22 = 10/110.</p><p>Note: In the next Unit, we will revisit both proportional and non-proportional graphs.</p>"
+          ]
         }
-      ],
+      },
       {
         "id": "Bk5loIa2APnEbij3",
         "content": {
@@ -636,107 +498,6 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "VLBZmucUY6hh8ohy",
-          "providerId": "",
-          "dataSet": {
-            "id": "moGatAjgW-aoIUOT",
-            "name": "Added by hand",
-            "attributes": [
-              {
-                "id": "_tfRXBcAaYQv8lXM",
-                "clientKey": "",
-                "name": "X Variable",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  1.0070257611241213,
-                  1.9901065812741956,
-                  2.9934043875161285,
-                  4.021172871959089,
-                  5.024470678201029,
-                  5.0015963293982715,
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "hvGIwk1ptz5NAtUY",
-                "clientKey": "",
-                "name": "Y Variable 1",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  12.880184331797263,
-                  26.543778801843246,
-                  39.078341013824826,
-                  53.45622119815668,
-                  "",
-                  66.72811059907838,
-                  50.87557603686636
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01J08ZPWF15ACCPQD5E9CQ6E46"
-              },
-              {
-                "__id__": "01J08ZS9GMYTC40V1JCH7VGC5Z"
-              },
-              {
-                "__id__": "01J08ZSGTP3TJE6RY1QJKEJZP4"
-              },
-              {
-                "__id__": "01J08ZTVKQ35V72WD17E03PGS4"
-              },
-              {
-                "__id__": "01J0901FH8QK2AXE2MYG0GSVS5"
-              },
-              {
-                "__id__": "01J0902X2GYE75CWVFJ0DYQMNZ"
-              },
-              {
-                "__id__": "01J09034TAEE1P622X7KJMCWAJ"
-              }
-            ]
-          }
-        },
-        "provider": "ZtbamQeUvalKAjUZ",
-        "tiles": [
-          "ZtbamQeUvalKAjUZ"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "6M-fKn0Z82_pEb_c",
-          "data": "moGatAjgW-aoIUOT",
-          "collections": {},
-          "categories": {
-            "_tfRXBcAaYQv8lXM": {
-              "attribute": "_tfRXBcAaYQv8lXM",
-              "colors": {},
-              "moves": []
-            },
-            "hvGIwk1ptz5NAtUY": {
-              "attribute": "hvGIwk1ptz5NAtUY",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "ZtbamQeUvalKAjUZ"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
           "id": "fYMELwIALMQQv2An",
           "providerId": "",
           "dataSet": {
@@ -756,7 +517,8 @@
                   2.990106581274196,
                   4.014819277693829,
                   5.014872724269118,
-                  ""
+                  "",
+                  5.990199439518653
                 ],
                 "title": ""
               },
@@ -773,7 +535,8 @@
                   64.60829493087557,
                   75.80645161290323,
                   87.09677419354833,
-                  44.47004608294931
+                  44.47004608294931,
+                  98.33331797235023
                 ],
                 "title": ""
               }
@@ -796,6 +559,9 @@
               },
               {
                 "__id__": "01J0911T3M6FRNBE0GSG4AGWXE"
+              },
+              {
+                "__id__": "01J7C2CAPRA5DA6YB8NCYKPWJ5"
               }
             ]
           }
@@ -829,6 +595,208 @@
         "tiles": [
           "J7TO8BijQohPm9Sa"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Z8KRew7jamZ7MfMf",
+          "providerId": "",
+          "dataSet": {
+            "id": "FQC8Q6X_C5GCrpZF",
+            "name": "Added by hand",
+            "attributes": [
+              {
+                "id": "NoIlBOoExR67yO9w",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  0.9980782598029194,
+                  2.044813345872347,
+                  3.0110303483979735,
+                  3.993350967632359,
+                  5.007878820284266,
+                  6.022406672936175,
+                  6.988623675461799
+                ],
+                "title": ""
+              },
+              {
+                "id": "DXexkO63q2CPEPS7",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  13.16603076923077,
+                  26.018584615384633,
+                  38.87113846153846,
+                  52.03716923076923,
+                  65.2032,
+                  78.36923076923077,
+                  89.6544
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01J7C277AW6P43DH1D2YYHGKT0"
+              },
+              {
+                "__id__": "01J7C27DWVP63JXE650T2ZEFJ8"
+              },
+              {
+                "__id__": "01J7C27N5B13SQ1A6J9KFJWGBG"
+              },
+              {
+                "__id__": "01J7C27V5V4EDXP7J0TBX7QQV4"
+              },
+              {
+                "__id__": "01J7C28C075690Q17S85WQ7C0W"
+              },
+              {
+                "__id__": "01J7C28HB3HF3ZVJXHV0X22ERP"
+              },
+              {
+                "__id__": "01J7C28RVXPX2YCSZAF2GFP95P"
+              }
+            ]
+          }
+        },
+        "provider": "0Dpc6k3gjBr82RrY",
+        "tiles": [
+          "0Dpc6k3gjBr82RrY"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "0B5tLZFLgMDHWSe_",
+          "data": "FQC8Q6X_C5GCrpZF",
+          "collections": {},
+          "categories": {
+            "NoIlBOoExR67yO9w": {
+              "attribute": "NoIlBOoExR67yO9w",
+              "colors": {},
+              "moves": []
+            },
+            "DXexkO63q2CPEPS7": {
+              "attribute": "DXexkO63q2CPEPS7",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "0Dpc6k3gjBr82RrY"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "_nWby-Nu7PJ0CLas",
+          "providerId": "",
+          "dataSet": {
+            "id": "UTZoDaBsjYwq5dZV",
+            "name": "Added by hand 1",
+            "attributes": [
+              {
+                "id": "rLMBY2LGU3reCZV8",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  0.9980782598029194,
+                  2.044813345872347,
+                  3.0110303483979735,
+                  3.993350967632359,
+                  5.007878820284266,
+                  6.022406672936175,
+                  6.988623675461799
+                ],
+                "title": ""
+              },
+              {
+                "id": "t_vidWV-ttTPwqUo",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  13.16603076923077,
+                  26.018584615384633,
+                  38.87113846153846,
+                  52.03716923076923,
+                  65.2032,
+                  78.36923076923077,
+                  89.6544
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXES"
+              },
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXET"
+              },
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEV"
+              },
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEW"
+              },
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEX"
+              },
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEY"
+              },
+              {
+                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEZ"
+              }
+            ]
+          }
+        },
+        "provider": "",
+        "tiles": [
+          "Xcv3sJfSbXeMJfLs"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "5HQc1EEDI2dJn8TD",
+          "data": "UTZoDaBsjYwq5dZV",
+          "collections": {},
+          "categories": {
+            "rLMBY2LGU3reCZV8": {
+              "attribute": "rLMBY2LGU3reCZV8",
+              "colors": {},
+              "moves": []
+            },
+            "t_vidWV-ttTPwqUo": {
+              "attribute": "t_vidWV-ttTPwqUo",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "Xcv3sJfSbXeMJfLs"
+        ]
       }
     ],
     "annotations": [
@@ -840,8 +808,8 @@
           "objectType": "cell"
         },
         "sourceOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 27,
+          "dy": -1
         },
         "targetObject": {
           "tileId": "TILE_6QkhfA-CesC",
@@ -849,14 +817,15 @@
           "objectType": "cell"
         },
         "targetOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 18,
+          "dy": 4
         },
         "text": "divide by 3",
         "textOffset": {
-          "dx": -58,
-          "dy": -0.5
+          "dx": 57.63815789473682,
+          "dy": 0.29772727272725774
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -867,8 +836,8 @@
           "objectType": "cell"
         },
         "sourceOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 27,
+          "dy": -1
         },
         "targetObject": {
           "tileId": "TILE_6QkhfA-CesC",
@@ -876,14 +845,15 @@
           "objectType": "cell"
         },
         "targetOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 20,
+          "dy": 3
         },
         "text": "divide by 3",
         "textOffset": {
-          "dx": -60,
-          "dy": -4.5
+          "dx": 62.59166666666667,
+          "dy": -4.0909090909090935
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]
