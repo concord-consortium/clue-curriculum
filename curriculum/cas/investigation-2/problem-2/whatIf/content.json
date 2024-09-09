@@ -137,89 +137,6 @@
         }
       },
       {
-        "id": "Xcv3sJfSbXeMJfLs",
-        "title": "Royal Pizza 1",
-        "content": {
-          "type": "Graph",
-          "adornments": [
-            {
-              "id": "ADRNfVsN0VCSkp_1",
-              "type": "Movable Line",
-              "isVisible": true,
-              "lines": {
-                "C8FCIRi4U1ttHRzq": {
-                  "equationCoords": {
-                    "x": 0.7488055960068063,
-                    "y": 1.3072836538461539
-                  },
-                  "intercept": 0.3186381943053078,
-                  "slope": 12.9101931317889
-                }
-              }
-            }
-          ],
-          "axes": {
-            "bottom": {
-              "type": "numeric",
-              "place": "bottom",
-              "scale": "linear",
-              "min": 0,
-              "max": 10
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": 0,
-              "max": 101.88
-            }
-          },
-          "lockAxes": false,
-          "plotType": "scatterPlot",
-          "layers": [
-            {
-              "id": "LAYR3vGPbZfqZdrO",
-              "config": {
-                "id": "DCONL_n3hhgz_Im5",
-                "dataset": "UTZoDaBsjYwq5dZV",
-                "metadata": "5HQc1EEDI2dJn8TD",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "rLMBY2LGU3reCZV8",
-                    "type": "numeric"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "t_vidWV-ttTPwqUo",
-                    "type": "numeric"
-                  }
-                ]
-              },
-              "editable": true
-            }
-          ],
-          "_idColors": {
-            "t_vidWV-ttTPwqUo": 0,
-            "C8FCIRi4U1ttHRzq": 1
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "Number of Pizzas",
-          "yAttributeLabel": "Total Cost in Dollars"
-        }
-      },
-      {
         "id": "J7TO8BijQohPm9Sa",
         "title": "Howdy Pizza",
         "content": {
@@ -345,24 +262,118 @@
           ]
         }
       },
-      {
-        "id": "TILE6bWIvudzzcUN",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><u>Note</u>: These graphs relate to the <em>Stretching and Shrinking</em> Problem 2.2 about Mug Hats. Students saw that adding to the rules moved the hats. It did not stretch or shrink them. Adding does not create similar figures because similarity is proportional, which means it is multiplicative.</p><p>Here, adding the $30 delivery fee slides the line up.</p><p>If we removed the $30 delivery fee, the graph would slide down. (See the red points.) And the costs would be proportional 1/11 = 2/22 = 10/110.</p><p>Note: In the next Unit, we will revisit both proportional and non-proportional graphs.</p>"
-          ]
+      [
+        {
+          "id": "TILE6bWIvudzzcUN",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><u>Note</u>: These graphs relate to the <em>Stretching and Shrinking</em> Problem 2.2 about Mug Hats. Students saw that adding to the rules moved the hats. It did not stretch or shrink them. Adding does not create similar figures because similarity is proportional, which means it is multiplicative.</p><p>Here, adding the $30 delivery fee slides the line up.</p><p>If we removed the $30 delivery fee, the graph would slide down. (See the red points.) And the costs would be proportional 1/11 = 2/22 = 10/110.</p><p>Note: In the next Unit, we will revisit both proportional and non-proportional graphs.</p>"
+            ]
+          }
+        },
+        {
+          "id": "Xcv3sJfSbXeMJfLs",
+          "title": "Royal and Howdy",
+          "content": {
+            "type": "Graph",
+            "adornments": [
+              {
+                "id": "ADRNfVsN0VCSkp_1",
+                "type": "Movable Line",
+                "isVisible": true,
+                "lines": {
+                  "B4muvvjh-My5Fd5y": {
+                    "equationCoords": {
+                      "x": 0.3735221940671937,
+                      "y": 1.4371759792626728
+                    },
+                    "intercept": 30.37183927761609,
+                    "slope": 10.48162491504792
+                  },
+                  "C8FCIRi4U1ttHRzq": {
+                    "equationCoords": {
+                      "x": 0.7488055960068063,
+                      "y": 1.3072836538461539
+                    },
+                    "intercept": -0.09255690588216225,
+                    "slope": 10.130502360559179
+                  }
+                }
+              }
+            ],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": 0,
+                "max": 10
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": 0,
+                "max": 150.05
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYR3vGPbZfqZdrO",
+                "config": {
+                  "id": "DCONL_n3hhgz_Im5",
+                  "dataset": "UTZoDaBsjYwq5dZV",
+                  "metadata": "5HQc1EEDI2dJn8TD",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "rLMBY2LGU3reCZV8",
+                      "type": "numeric"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "t_vidWV-ttTPwqUo",
+                      "type": "numeric"
+                    }
+                  ]
+                },
+                "editable": true
+              }
+            ],
+            "_idColors": {
+              "t_vidWV-ttTPwqUo": 0,
+              "C8FCIRi4U1ttHRzq": 1,
+              "B4muvvjh-My5Fd5y": 2
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "Number of Pizzas",
+            "yAttributeLabel": "Total Cost in Dollars"
+          }
         }
-      },
+      ],
       {
         "id": "Bk5loIa2APnEbij3",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Meredith’s Strategy</strong></p><p>I found the unit rate of the cost for one pizza for each company. Then I scaled up to find the total cost for pizzas.</p><p>However, with Howdy’s, after finding the cost of one pizza, I had to add the $30 delivery charge.</p>"
+            "<p><em>Meredith’s Strategy</em></p><p>I found the unit rate of the cost for one pizza for each company. Then I scaled up to find the total cost for pizzas.</p><p>However, with Howdy’s, after finding the cost of one pizza, I had to add the $30 delivery charge.</p>"
           ]
         }
       },
@@ -383,7 +394,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Raffaele’s Strategy</strong></p><p>I used the unit rate to write equations.</p><p>C is the total cost of the pizza and n is the number of pizzas.</p><p>For Royal: C<sub>R</sub> = 13n</p><p>For Howdy’s: C<sub>H</sub> = 11n and then added $30 for delivery</p>"
+            "<p><em>Raffaele’s Strategy</em></p><p>I used the unit rate to write equations.</p><p>C is the total cost of the pizza and n is the number of pizzas.</p><p>For Royal: C<sub>R</sub> = 13n</p><p>For Howdy’s: C<sub>H</sub> = 11n and then added $30 for delivery</p>"
           ]
         }
       },
@@ -394,7 +405,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Raffaele’s strategy is correct.</p><p>The unit rate is shown as the multiplier (coefficient). At Royal’s for 1 pizza, you pay $13.</p><p>Note: This is an introduction to an equation that is not proportional. In the next Unit, we will look more closely at both proportional and non-proportional equations.</p>"
+            "<p>Raffaele’s strategy is correct.</p><p>The unit rate is shown as the multiplier (coefficient). At Royal’s for 1 pizza, you pay $13.</p><p><u>Note: </u>This is an introduction to an equation that is not proportional. In the next Unit, we will look more closely at both proportional and non-proportional equations.</p>"
           ]
         }
       }
@@ -714,13 +725,15 @@
                 "units": "",
                 "formula": {},
                 "values": [
-                  0.9980782598029194,
-                  2.044813345872347,
-                  3.0110303483979735,
-                  3.993350967632359,
-                  5.007878820284266,
-                  6.022406672936175,
-                  6.988623675461799
+                  3.822036501543595,
+                  4.991552380732181,
+                  6.367038693655005,
+                  6.489893761055273,
+                  6.931444579151098,
+                  7.33206846620721,
+                  8.461993192891715,
+                  0.9551482402219007,
+                  ""
                 ],
                 "title": ""
               },
@@ -732,13 +745,15 @@
                 "units": "",
                 "formula": {},
                 "values": [
-                  13.16603076923077,
-                  26.018584615384633,
-                  38.87113846153846,
-                  52.03716923076923,
-                  65.2032,
-                  78.36923076923077,
-                  89.6544
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  63.85105990783409
                 ],
                 "title": ""
               }
@@ -764,11 +779,16 @@
               },
               {
                 "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEZ"
+              },
+              {
+                "__id__": "01J7C2JBTWHXYS3RF2993TX139"
+              },
+              {
+                "__id__": "01J7C2JDZBEDC5NNZDRRFATBRE"
               }
             ]
           }
         },
-        "provider": "",
         "tiles": [
           "Xcv3sJfSbXeMJfLs"
         ]
