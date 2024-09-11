@@ -38,7 +38,7 @@
       },
       {
         "id": "DataCard",
-        "title": "Data Cards",
+        "title": "Cards",
         "isTileTool": true
       },
       {
@@ -169,15 +169,22 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
-          "merge-data-in",
+          [
+            "data-set-view",
+            "dataCard"
+          ],
           "delete"
         ]
       },
-      "dataCard": {
-        "numFormat": ".2~f",
+      "datacard": {
         "tools": [
-          "merge",
-          "delete"
+          "duplicate",
+          [
+            "data-set-view",
+            "Table"
+          ],
+          "image-upload",
+          "delete-attribute"
         ]
       }
     },
