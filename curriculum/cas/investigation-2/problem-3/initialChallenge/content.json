@@ -14,14 +14,12 @@
       },
       {
         "id": "AWlXAxQ9YoN4Eqfv",
-        "title": "Mia's Table",
         "content": {
           "type": "Table",
           "columnWidths": {
             "R6owuhZL2gzd9yRn": 150,
             "cfCMLXdkFUPJStj9": 150
-          },
-          "name": "Mia's Table"
+          }
         }
       },
       [
@@ -60,213 +58,138 @@
           }
         }
       ],
-      [
-        {
-          "id": "ICU9ok0vViqCLRGq",
-          "title": "Mia's Graph 1",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -2.2,
-                  -1.1
-                ],
-                "axisRange": [
-                  18.6,
-                  17.3
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "",
-                  ""
-                ]
-              }
+      {
+        "id": "SdAECRFcuqGuQiw0",
+        "title": "Mia's Graph 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 6
             },
-            "objects": [
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  0.19999999999999996
-                ],
-                "properties": {
-                  "id": "-AcHcoWyclD2qnyd",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  0.4
-                ],
-                "properties": {
-                  "id": "UglMrORVuaOHbAv5",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  0.6000000000000001
-                ],
-                "properties": {
-                  "id": "h96yZCoIYEZBA4fI",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5,
-                  1
-                ],
-                "properties": {
-                  "id": "VDW9cUQVNtNKWuyJ",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
-                  "-AcHcoWyclD2qnyd",
-                  "UglMrORVuaOHbAv5",
-                  "h96yZCoIYEZBA4fI",
-                  "VDW9cUQVNtNKWuyJ"
-                ],
-                "properties": {
-                  "id": "V7Dx__MeGCQ_YZ9f"
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  10.001655903295246,
-                  2.035321137245585
-                ],
-                "properties": {
-                  "id": "IWQ-OjbKWHUZHKqZ",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "FsbAd_dVFJLACSWJ",
-          "title": "Mia's Graph 2",
-          "content": {
-            "type": "Geometry",
-            "board": {
-              "properties": {
-                "axisMin": [
-                  -3.411,
-                  -2.344
-                ],
-                "axisRange": [
-                  32.974,
-                  22.922
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 2
+            }
+          },
+          "lockAxes": true,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRXL0KT5KzSIAA",
+              "config": {
+                "id": "DCONMzsN4RukeSOd",
+                "dataset": "aW760IemvIU7lRei",
+                "metadata": "clyi9MKErEwzlfV2",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "3EcsbGWM_IG5O1XN",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "2PHmNcckBwqPQnZW",
+                    "type": "numeric"
+                  }
                 ]
-              }
-            },
-            "objects": [
-              {
-                "type": "point",
-                "parents": [
-                  0.2,
-                  1
-                ],
-                "properties": {
-                  "id": "qgBfU-zoRh9RvZV2",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
               },
-              {
-                "type": "point",
-                "parents": [
-                  0.4,
-                  2
-                ],
-                "properties": {
-                  "id": "G3yeFOCF0NI3J3R0",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  0.6000000000000001,
-                  3
-                ],
-                "properties": {
-                  "id": "vuashVnxJgfvre3r",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  1,
-                  5
-                ],
-                "properties": {
-                  "id": "UjEq195QXrdAFTF3",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  1.9686948973089071,
-                  10.043263285598034
-                ],
-                "properties": {
-                  "id": "WdCUIH5tEsYfCB0x",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
-                  "qgBfU-zoRh9RvZV2",
-                  "G3yeFOCF0NI3J3R0",
-                  "vuashVnxJgfvre3r",
-                  "UjEq195QXrdAFTF3",
-                  "WdCUIH5tEsYfCB0x"
-                ],
-                "properties": {
-                  "id": "Yk5buYiqIGZ1gpIq"
-                }
-              }
-            ]
-          }
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "2PHmNcckBwqPQnZW": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
-      ],
+      },
+      {
+        "id": "WQZBSdoK2W1_CWaD",
+        "title": "Mia's Graph 2",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 12
+            }
+          },
+          "lockAxes": true,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYR03kHU2h7eZbW",
+              "config": {
+                "id": "DCONonNNmgJnisK-",
+                "dataset": "s4kxf-0KDzlSig2W",
+                "metadata": "Mgi4tJjX1LfZZUIi",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "7qkIsYt-Qvw89rm2",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "RhI2k9slD8N4TfYt",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "RhI2k9slD8N4TfYt": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
       {
         "id": "RbDSMo9NZdH9ZqwD",
         "content": {
@@ -395,6 +318,183 @@
         },
         "tiles": [
           "AWlXAxQ9YoN4Eqfv"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "3vtW3BqTXDNei8BK",
+          "providerId": "",
+          "dataSet": {
+            "id": "aW760IemvIU7lRei",
+            "name": "Mia's Data",
+            "attributes": [
+              {
+                "id": "3EcsbGWM_IG5O1XN",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  1.0113288647523402,
+                  2.003141820424724,
+                  3.0097579545399786,
+                  4.993383865884745
+                ],
+                "title": ""
+              },
+              {
+                "id": "2PHmNcckBwqPQnZW",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  0.20276497695852624,
+                  0.4055299539170518,
+                  0.6082949308755763,
+                  1.023041474654378
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01J09169MCXTGGGWTQDRCZHAWQ"
+              },
+              {
+                "__id__": "01J09175G2NAY4XPQ52BMABEP2"
+              },
+              {
+                "__id__": "01J0917C52Y8MDR8FKFGXVBNSB"
+              },
+              {
+                "__id__": "01J0917TVTK9YY5HM1G11YDNSV"
+              }
+            ]
+          }
+        },
+        "provider": "SdAECRFcuqGuQiw0",
+        "tiles": [
+          "SdAECRFcuqGuQiw0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "clyi9MKErEwzlfV2",
+          "data": "aW760IemvIU7lRei",
+          "collections": {},
+          "categories": {
+            "3EcsbGWM_IG5O1XN": {
+              "attribute": "3EcsbGWM_IG5O1XN",
+              "colors": {},
+              "moves": []
+            },
+            "2PHmNcckBwqPQnZW": {
+              "attribute": "2PHmNcckBwqPQnZW",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "SdAECRFcuqGuQiw0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Z5E7MWiabC7Mcfrr",
+          "providerId": "",
+          "dataSet": {
+            "id": "s4kxf-0KDzlSig2W",
+            "name": "Mia's second data",
+            "attributes": [
+              {
+                "id": "7qkIsYt-Qvw89rm2",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  0.20130000477942872,
+                  0.40451178129331355,
+                  0.600277206901496,
+                  1.00159632939827,
+                  1.9980882282655452
+                ],
+                "title": ""
+              },
+              {
+                "id": "RhI2k9slD8N4TfYt",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  1.023041474654403,
+                  2.073732718894009,
+                  3.124423963133641,
+                  5.11520737327189,
+                  10.09216589861751
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01J0919RG0FKG20WM3ZFMTGRV6"
+              },
+              {
+                "__id__": "01J091AXK1S1D7HPS490TT21N3"
+              },
+              {
+                "__id__": "01J091B23FZ0PR3QH6V2WH6MR1"
+              },
+              {
+                "__id__": "01J091C0DDYF85QZ6HEXQK3X07"
+              },
+              {
+                "__id__": "01J091CC24SN7QKN4YCNK0YG98"
+              }
+            ]
+          }
+        },
+        "provider": "WQZBSdoK2W1_CWaD",
+        "tiles": [
+          "WQZBSdoK2W1_CWaD"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "Mgi4tJjX1LfZZUIi",
+          "data": "s4kxf-0KDzlSig2W",
+          "collections": {},
+          "categories": {
+            "7qkIsYt-Qvw89rm2": {
+              "attribute": "7qkIsYt-Qvw89rm2",
+              "colors": {},
+              "moves": []
+            },
+            "RhI2k9slD8N4TfYt": {
+              "attribute": "RhI2k9slD8N4TfYt",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "WQZBSdoK2W1_CWaD"
         ]
       }
     ]

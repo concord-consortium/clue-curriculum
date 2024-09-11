@@ -24,22 +24,148 @@
           ]
         }
       },
+      [
+        {
+          "id": "04yTCRiOoD-wYF8M",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "pjTu2zzarXIVGyV9": 112.74739074707031,
+              "ZFqwNrDu8kA6ahFE": 126.09811401367188
+            }
+          }
+        },
+        {
+          "id": "kJV9_X80QjPhxWbe",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "zJcbpr65RJwvilwv": 112.74739074707031,
+              "FFWpBEb0dE3xAQfj": 126.09811401367188
+            }
+          }
+        }
+      ],
       {
-        "id": "4kyoWG5u-eY57mkZ",
-        "title": "Dot Plot 1",
+        "id": "kJ3moHfVB5iVnmAn",
+        "title": "Grade 6: Time Spent on Homework",
         "content": {
-          "type": "Image",
-          "url": "sap/images/sp29.png",
-          "filename": "sap/images/sp29.png"
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 90
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRBBeuQO0InC3O",
+              "config": {
+                "id": "DCONSPkJLGMFKBZ9",
+                "dataset": "WByYMmeElXhEvjSw",
+                "metadata": "gCBKWqhNUFirmroT",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "ZFqwNrDu8kA6ahFE"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "ZFqwNrDu8kA6ahFE": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       },
       {
-        "id": "odENeC0gHDnv89Ga",
-        "title": "Dot Plot 2",
+        "id": "6jsIoSpq3KAYHJml",
+        "title": "Grade 7: Time Spent on Homework",
         "content": {
-          "type": "Image",
-          "url": "sap/images/sp30.png",
-          "filename": "sap/images/sp30.png"
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 90
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYR4e7cNf59Th14",
+              "config": {
+                "id": "DCONq82TRk1OKocg",
+                "dataset": "1SpNCL7vDbFTHvY9",
+                "metadata": "cqhOs62NykzVnTAt",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "FFWpBEb0dE3xAQfj"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "FFWpBEb0dE3xAQfj": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       },
       {
@@ -66,7 +192,6 @@
       },
       {
         "id": "f1nYoOfjjb4Djdyo",
-        "title": "Time Spent on Homework (minutes)",
         "content": {
           "type": "Table",
           "columnWidths": {
@@ -74,13 +199,11 @@
             "xN5Nv37igbM9u1iF": 80,
             "wiChpq3tFQyS_TKw": 89,
             "aroAiEmp1C08lz7c": 80
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
         "id": "IDaPx6-WxhxvVcvQ",
-        "title": "Time Spent on Homework (minutes)",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -89,8 +212,7 @@
             "enG8yubAzfyDs7N0": 80,
             "Dl2MY91HrqXBNhj0": 89,
             "sokg-HpR55zUj7Cc": 80
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -742,7 +864,6 @@
       },
       {
         "id": "KZCcmmwY3qZAV9-M",
-        "title": "Student Measurement Data",
         "content": {
           "type": "Table",
           "columnWidths": {
@@ -750,8 +871,7 @@
             "FvU0cLrl2Tb4-HIY": 113,
             "aadjG0hG52VHyAx6": 133,
             "GFPfjPGt9Vg9zo4R": 151
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -960,7 +1080,7 @@
           "providerId": "f1nYoOfjjb4Djdyo",
           "dataSet": {
             "id": "ADrFVqpwS72reI9k",
-            "name": "Table 1",
+            "name": "Time Spent on Homework (minutes)",
             "attributes": [
               {
                 "id": "-LFmkSm4vfOJ9ViH",
@@ -1036,7 +1156,7 @@
           "providerId": "IDaPx6-WxhxvVcvQ",
           "dataSet": {
             "id": "XDrSRF54-p6WQtmg",
-            "name": "Table 1",
+            "name": "Time Spent on Homework (minutes)",
             "attributes": [
               {
                 "id": "Aki21Jd1QXJepUoG",
@@ -1112,7 +1232,7 @@
           "providerId": "KZCcmmwY3qZAV9-M",
           "dataSet": {
             "id": "c8rH3P8qXZYIVSRQ",
-            "name": "Table 1",
+            "name": "Student Measurement Data",
             "attributes": [
               {
                 "id": "ahpIoGrpbDOR_y4n",
@@ -1263,6 +1383,419 @@
         },
         "tiles": [
           "KZCcmmwY3qZAV9-M"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "8YZoBMvZ-SItuYWd",
+          "providerId": "04yTCRiOoD-wYF8M",
+          "dataSet": {
+            "id": "WByYMmeElXhEvjSw",
+            "name": "Grade 6",
+            "attributes": [
+              {
+                "id": "pjTu2zzarXIVGyV9",
+                "clientKey": "",
+                "name": "Student Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ZFqwNrDu8kA6ahFE",
+                "clientKey": "",
+                "name": "Minutes on Homework",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "0",
+                  "15",
+                  "15",
+                  "15",
+                  "15",
+                  "15",
+                  "15",
+                  "20",
+                  "20",
+                  "25",
+                  "35",
+                  "35",
+                  "35",
+                  "40",
+                  "45",
+                  "45",
+                  "50",
+                  "50",
+                  "70",
+                  "85"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "uuZkWqdQjgnsjYoO"
+              },
+              {
+                "__id__": "JR2LMqpD_Oe_y13L"
+              },
+              {
+                "__id__": "V230u84JHF9rzIVX"
+              },
+              {
+                "__id__": "oCl3xxBKs--J1WAV"
+              },
+              {
+                "__id__": "7oPm7pOhyucu7fLH"
+              },
+              {
+                "__id__": "APgI6CezETW9F6Ki"
+              },
+              {
+                "__id__": "rPoPDVgjme9hJvU6"
+              },
+              {
+                "__id__": "1YC6fCaINf7SM1_o"
+              },
+              {
+                "__id__": "0LFRhL87HnIGg8BP"
+              },
+              {
+                "__id__": "f7gnX6dkLOfvQgMH"
+              },
+              {
+                "__id__": "VoqhwqARUKkykwSm"
+              },
+              {
+                "__id__": "bD_VOwjkzOJwgMVj"
+              },
+              {
+                "__id__": "a45gW0Wdp5uunRro"
+              },
+              {
+                "__id__": "9Q9lNR6AHmYjRcmJ"
+              },
+              {
+                "__id__": "oQDgt6v_DOYtOLD9"
+              },
+              {
+                "__id__": "VVUYllxnLqLY8Pzv"
+              },
+              {
+                "__id__": "mcLXlmMi4ydgRpSY"
+              },
+              {
+                "__id__": "wd2wQGJE0koZ6NRh"
+              },
+              {
+                "__id__": "ip8xqHfdzLcg0zcZ"
+              },
+              {
+                "__id__": "iSGw25FM-zJJzOme"
+              },
+              {
+                "__id__": "vad2ZILoOTHAyM4D"
+              },
+              {
+                "__id__": "BOQ8Y5Y6Sy6EICJV"
+              },
+              {
+                "__id__": "OamgwztNFxPuY9iM"
+              },
+              {
+                "__id__": "PdKXxf6Hi2PwUmMu"
+              },
+              {
+                "__id__": "xNgJHmR7o51Rb6yP"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "04yTCRiOoD-wYF8M",
+          "kJ3moHfVB5iVnmAn"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "EXK9t28G9cKs6mPz",
+          "providerId": "kJV9_X80QjPhxWbe",
+          "dataSet": {
+            "id": "1SpNCL7vDbFTHvY9",
+            "name": "Grade 7",
+            "attributes": [
+              {
+                "id": "zJcbpr65RJwvilwv",
+                "clientKey": "",
+                "name": "Student Number",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14",
+                  "15",
+                  "16",
+                  "17",
+                  "18",
+                  "19",
+                  "20",
+                  "21",
+                  "22",
+                  "23",
+                  "24",
+                  "25",
+                  "26",
+                  "27",
+                  "28",
+                  "29",
+                  "30",
+                  "31"
+                ],
+                "title": ""
+              },
+              {
+                "id": "FFWpBEb0dE3xAQfj",
+                "clientKey": "",
+                "name": "Minutes on Homework",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "10",
+                  "15",
+                  "15",
+                  "20",
+                  "20",
+                  "20",
+                  "25",
+                  "25",
+                  "25",
+                  "25",
+                  "30",
+                  "30",
+                  "30",
+                  "30",
+                  "35",
+                  "35",
+                  "35",
+                  "40",
+                  "40",
+                  "40",
+                  "45",
+                  "45",
+                  "45",
+                  "50",
+                  "55",
+                  "60",
+                  "60",
+                  "60",
+                  "75",
+                  "80"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01HYNY7CWVE6E5W30RANRH41GM"
+              },
+              {
+                "__id__": "01HYNY7CWVE6E5W30RANRH41GN"
+              },
+              {
+                "__id__": "01HYNY7CWVE6E5W30RANRH41GP"
+              },
+              {
+                "__id__": "01HYNY7CWVE6E5W30RANRH41GQ"
+              },
+              {
+                "__id__": "01HYNY7CWVE6E5W30RANRH41GR"
+              },
+              {
+                "__id__": "01HYNY7CWVE6E5W30RANRH41GS"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75BW"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75BX"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75BY"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75BZ"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C0"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C1"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C2"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C3"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C4"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C5"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C6"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C7"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C8"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75C9"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75CA"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75CB"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75CC"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75CD"
+              },
+              {
+                "__id__": "01HYNY7CWWP6K3Q5F8SK2V75CE"
+              },
+              {
+                "__id__": "iGxAKAoaZzzloMep"
+              },
+              {
+                "__id__": "lnI7F06KpwjYd20N"
+              },
+              {
+                "__id__": "Zn4NupF2oM3XgLHL"
+              },
+              {
+                "__id__": "_TQlE-BrbY0CwquX"
+              },
+              {
+                "__id__": "AyEJuRIKNbF_kRRb"
+              },
+              {
+                "__id__": "Av0TllOqXmMKLWCR"
+              }
+            ]
+          }
+        },
+        "provider": "kJV9_X80QjPhxWbe",
+        "tiles": [
+          "kJV9_X80QjPhxWbe",
+          "6jsIoSpq3KAYHJml"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "gCBKWqhNUFirmroT",
+          "data": "WByYMmeElXhEvjSw",
+          "collections": {},
+          "categories": {
+            "pjTu2zzarXIVGyV9": {
+              "attribute": "pjTu2zzarXIVGyV9",
+              "colors": {},
+              "moves": []
+            },
+            "ZFqwNrDu8kA6ahFE": {
+              "attribute": "ZFqwNrDu8kA6ahFE",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "kJ3moHfVB5iVnmAn"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "cqhOs62NykzVnTAt",
+          "data": "1SpNCL7vDbFTHvY9",
+          "collections": {},
+          "categories": {
+            "zJcbpr65RJwvilwv": {
+              "attribute": "zJcbpr65RJwvilwv",
+              "colors": {},
+              "moves": []
+            },
+            "FFWpBEb0dE3xAQfj": {
+              "attribute": "FFWpBEb0dE3xAQfj",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "6jsIoSpq3KAYHJml"
         ]
       }
     ]

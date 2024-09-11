@@ -168,27 +168,27 @@
             },
             {
               "initials": "SUM",
-              "title": "Summary",
+              "title": "Summarize",
               "type": "problem-documents"
             },
             {
-              "initials": "START",
-              "title": "Start",
+              "initials": "INT",
+              "title": "Intro",
               "type": "problem-documents"
             },
             {
-              "initials": "TRAP",
-              "title": "Trap",
+              "initials": "DES",
+              "title": "Design",
               "type": "problem-documents"
             },
             {
-              "initials": "SORT",
-              "title": "Sort",
+              "initials": "COL",
+              "title": "Collect",
               "type": "problem-documents"
             },
             {
               "initials": "ID",
-              "title": "Analysis",
+              "title": "Analyze",
               "type": "problem-documents"
             }
           ]
@@ -206,29 +206,94 @@
           "sections": []
         },
         {
-          "tab": "class-work",
-          "label": "Class Work",
+          "tab": "my-work",
+          "label": "My Work",
           "sections": [
             {
               "title": "Workspaces",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
               "documentTypes": [
-                "publication"
+                "problem",
+                "planning"
               ],
-              "showStars": [],
-              "properties": [
-                "!isDeleted"
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
               ]
             },
             {
               "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            }
+          ]
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "sections": [
+            {
+              "title": "Student",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "properties": [
+                "!isDeleted",
+                "!isTeacherDocument"
+              ]
+            },
+            {
+              "title": "Teacher",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem":  "class-work-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Teacher",
               "type": "teacher-supports",
               "dataTestHeader": "supports-section-teacher-supports",
               "dataTestItem": "supports-list-items",
               "documentTypes": [
                 "supportPublication"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
               ],
               "properties": [
                 "teacherSupport",
@@ -350,27 +415,27 @@
     },
     "summary": {
       "initials": "SUM",
-      "title": "Summary",
+      "title": "Summarize",
       "placeholder": "Discuss your findings"
     },
-    "start": {
-      "initials": "START",
-      "title": "Start",
+    "start": { 
+      "initials": "INT",
+      "title": "Intro",
       "placeholder": "Record your ideas"
     },
     "trap": {
-      "initials": "TRAP",
-      "title": "Trap",
+      "initials": "DES",
+      "title": "Design",
       "placeholder": "Document your moth traps"
     },
     "sort": {
-      "initials": "SORT",
-      "title": "Sort",
+      "initials": "COL",
+      "title": "Collect",
       "placeholder": "Assemble your moth collection"
     },
     "analyze": {
-      "initials": "ID",
-      "title": "Analysis",
+      "initials": "ANLZ",
+      "title": "Analyze",
       "placeholder": "Document your collected moths"
     }
   },
@@ -501,7 +566,7 @@
         {
           "description": "Activity 3.1",
           "ordinal": 1,
-          "title": "Middle School 2023-24",
+          "title": "My Moths in CLUE 2023-2024",
           "subtitle": "",
           "disabled": [],
           "sections": [

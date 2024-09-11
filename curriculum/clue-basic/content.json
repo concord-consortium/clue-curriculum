@@ -148,7 +148,10 @@
                 "publication",
                 "personalPublication"
               ],
-              "showStars": [],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
               "properties": [
                 "!isTeacherDocument",
                 "!isDeleted"
@@ -191,23 +194,6 @@
                 "teacher"
               ],
               "addDocument": true
-            },
-            {
-              "title": "Starred",
-              "type": "starred-problem-documents",
-              "dataTestHeader": "my-work-section-starred",
-              "documentTypes": [
-                "personal",
-                "problem"
-              ],
-              "properties": [
-                "starred",
-                "!isDeleted"
-              ],
-              "showStars": [
-                "student",
-                "teacher"
-              ]
             }
           ]
         }

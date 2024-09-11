@@ -5,8 +5,10 @@
   "subtitle": "",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -28,12 +30,17 @@
       },
       {
         "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
         "title": "Graph",
         "isTileTool": true
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -41,15 +48,14 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
       {
-        "id": "Image",
-        "title": "Image",
+        "id": "Numberline",
+        "title": "Numberline",
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
+        "id": "Image",
+        "title": "Image",
         "isTileTool": true
       },
       {
@@ -60,7 +66,7 @@
       },
       {
         "id": "hide-annotations",
-        "title": "Hide Annotations",
+        "title": "Hide Sparrows",
         "iconId": "icon-hide-annotations-tool",
         "isTileTool": false
       },
@@ -89,6 +95,126 @@
         "isTileTool": false
       }
     ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+            {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        }
+      ]
+    },
     "stamps": [
       {
         "url": "sap/stamps/black-chip.png",
@@ -138,21 +264,50 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile",
+          "fit-all",
+          "toggle-lock",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": false,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": false,
+        "connectPointsByDefault": false
       }
     },
     "showCommentTag": true,
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
-      "building-up": "Building Up",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
+      "non-proportional": "Non-Proportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -270,85 +425,445 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "SAP Investigation 1 Making Sense of Samples",
+      "title": "SAP Investigation 1 Using Samples to Make Inferences About a Population",
       "problems": [
         {
           "description": "Problem 1.1",
           "ordinal": 1,
-          "title": "SAP 1.1 Creating and Using a Survey to Collect Data ",
+          "title": "SAP 1.1 Why do Samples Matter?",
           "subtitle": "",
           "sections": [
             "investigation-1/problem-1/introduction/content.json",
             "investigation-1/problem-1/initialChallenge/content.json",
             "investigation-1/problem-1/whatIf/content.json",
             "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "sFhy2fmE7h0Bw-0t",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.1 Why Do Samples Matter?</strong></p><p>In this problem students consider a variety of sampling methods. They analyze the advantages and disadvantages of each and determine which would produce a sample most representative of the population. The Initial Challenge used school clubs to look at samples for a population.  The What If Situations analyze sampling done for finding a population at a concert and to find the number of hours students spend sleeping.  </p><p><strong>NWDYK</strong></p><p>Why do we look at samples to describe or draw conclusions about a population? How can you be assured that a sample is representative of the population?</p><p><strong>Key Terms</strong></p><p>Population</p><p>Sample</p><p><strong>Materials</strong></p><p>Teaching Aid 1</p><p>Describing Data Distributions</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A </strong>#1-3</p><p><strong>B</strong> #9</p><p><strong>C </strong>#15</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "jy6608BZ1pf8C1Oj",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Three Reads</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Have students read the Introduction three times to generate some understanding and interest in the unit.  </p><p>Discuss the statistical problem solving process that they began using in the Grade 6 unit<em> Data About Us</em>.  Explain that in this problem we will look at ideas on collecting samples when we have a statistical question about an entire population.   </p><p><em>Teacher Moves: Think-Pair-Share;  Hold a brief discussion on the Initial Challenge before students begin the What If to get a sense of how they are thinking about the idea of sampling before looking at sampling methods in the What If Situations</em></p><p>PRESENTING THE CHALLENGE</p><p>Discuss the new vocabulary of population and sample.  Introduce the Initial Challenge that is looking at five different school clubs and scenarios that involve deciding if they are scenarios involving sampling.  Have students begin the work independently and then work with a partner.  </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "b3p6d11IHyUezHSS",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Non-Permanent Work Surfaces; Portrayal</em></p><p><u><em>Implementation Note:</em></u><em>  For Problem 1.2 students need to have some data collected to start the problem.  To save some time, have students come up in groups of 4 to collect samples and record the data while they are working on this problem.  (See Problem 2.2 for more information)</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Allowing students to use whiteboards, windows, desks, or laminated chart paper to try their ideas before writing it in their notes can alleviate student fears of being wrong.</p><p><strong>Suggested Questions:</strong></p><ul><li>For _______ club, what are they trying to find out with their sampling?. </li><li>For _______ club, would a sketch of the situation be helpful?  </li><li>Can you put into your own words the idea that Lucas or Quinn have for finding the population at the concert?</li></ul><p>Suggesting that the students draw a sketch or act out the scenarios in What If Situation B can help them make sense of each survey method.  They may want to make a list advantages and disadvantages that can be considered in a class discussion during the Summary.</p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore listen to how students are discussing what they believe makes a sample representative of the population.  Collect examples to have students share in the Summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "qLIU1LwPEqGXAKxO",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Discuss the clubs in the Initial Challenge and whether they believe they are representative samples for the given population.  </p><p>Discuss the sampling methods used to find the population of the concert in What If Situation A.</p><p>One way to summarize the sampling methods used by the four groups of students in What If Situation B is to post four large sheets of paper at the front of the classroom. Divide each sheet into two halves titled “Advantages” and “Disadvantages.” Add to the charts as students share their ideas about each sampling method. </p><p><em>Teacher Moves: Language</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>Will ________’s club plan result in a sample that is representative of their population? Explain. </li><li>How do Lucas and Quinn’s plans for finding the population at the concert compare?  </li><li>Which plan in What If Situation B gives the most <em>representative </em>sample?</li><li>For Group 1, is it possible that students have some common characteristic that is more usual for bus riders than for students in the whole school? </li><li>For Group 2, is it possible that this method systematically skips some groups of students? </li><li>For Group 3, is it possible that having surveys from only students who want to respond distorts the results? </li><li>For Group 4, is it possible that each student in the school has an equally likely chance of being included in the sample? </li><li>Which plan in What If Situation B gives the most <em>representative </em>sample?  Ask students to explain their ideas and to critique the ideas of the other students.</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.2",
           "ordinal": 2,
-          "title": "SAP 1.2 Candy-Sampling Task",
-          "subtitle": "Making Predictions about Samples from a Known Population",
+          "title": "SAP 1.2 Gee Whiz Everyone Wins!",
+          "subtitle": "Experiment: Using Random Samples to Estimate a Population",
           "sections": [
             "investigation-1/problem-2/introduction/content.json",
             "investigation-1/problem-2/initialChallenge/content.json",
             "investigation-1/problem-2/whatIf/content.json",
             "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "XL0SwEJQtvk8aU5-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.2 Gee Whiz Everyone Wins!  Experiment:  Using Random Samples to Estimate a Population</strong></p><p>Students revisit a setting from the <em>How Likely Is It?</em>  Unit.  They choose colored blocks from a bag to use random samples to estimate population. They analyze student strategies for using the sample to determine the population.  The students will then look at a data set of a mystery container to determine the number of blue cubes in the container.  </p><p><strong>NWDYK</strong></p><p>How can we use random sampling to estimate populations?</p><p><strong>Key Terms</strong></p><p>Random sampling</p><p><strong>Materials</strong></p><p>Teaching Aid 1.2: 100 Chart with Cube Colors</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A </strong>#4-6</p><p><strong>B</strong> #10-11</p><p><strong>C </strong>#16-17</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "nm2coW09SOqvTy4u",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Students will be asked about medians in this Problem. You may want to connect back to the unit Data About Us to make sure students know what a remember the measures of center – median and mean.</p><p><strong>Suggested Questions:</strong></p><ul><li>Imagine that I have a set of data that has 5 observations and the median is 6. What does mean? </li><li>What might a line plot of that data look like?</li></ul><p>If needed, you can also revisit the mean.</p><p><strong>Suggested Questions:</strong></p><ul><li>Would the mean of the data distributions be the same as the median? </li><li>How do we find the mean? </li><li>What are the means for the data sets that we just created?</li></ul><p><em>Teacher Moves: Problem Solving Environment</em></p><p>PRESENTING THE CHALLENGE</p><p>Connect to the unit <em>How Likely Is It?</em> by reviewing the Gee Whiz Everyone Wins Game. </p><p><strong>Suggested Questions:</strong></p><ul><li>What did we do when we played the game? </li><li>After finding the experimental probability, how did we find the theoretical probability of a red cube being chosen? </li></ul><p>Show students the 100 blocks in the container. Mix them up. </p><p><strong>Suggested Question:</strong></p><ul><li>If we select a random sample of blocks from the container, will the sample have the same proportions of colored cubes as the whole population? </li></ul><p>Have one large bucket with the 50 red, 20 yellow, and 30 green cubes.  Carry out the random sample as a whole group.  Then have groups of 4 students take turns getting their data.  A sample size is 10 and they repeat the sampling ten times.  (Students may have collected their samples the day before) Students will use their data as the proceed through the problem.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "ClDMlzV97c4ZNAxH",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Monitor how students are organizing their data from their samples. Listen to how they are making sense of the samples and how it helps them to see the entire population. </p><p><strong>Suggested Questions:</strong></p><ul><li>How are you making sure your samples are random?</li><li>How do you find the median?  </li><li>How have we looked at proportions this year? </li><li>What does the box in a box plot tell you? </li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore, listen to how students are making sense of using random samples.  Find examples of samples that mirror the distribution of the population and those that don’t to discuss in the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "Oq_p3LWAMFKa4I0K",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Display student sample data from the Initial Challenge.  Have groups share how they interpreted their data from the Initial Challenge.</p><p><em>Teacher Moves: Compare Thinking</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Choose some data samples from student groups to use in the discussion.  Look at some that mirror the distribution and some that do not.  </p><p><strong>Suggested Questions:</strong></p><ul><li>If we used this data set what would it tell us about the population? </li></ul><p>Repeat this question for several data sets.</p><p>Discuss each of the strategies in What If Situation A.  Have students use examples from their data set when deciding if the strategy makes sense. </p><ul><li>What did you notice about the distribution of blue cubes in the mystery container in What If Situation B?  </li><li>Using the data given, how did you decided how many “blue” cubes you would expect in a sample?</li><li>Why is random sampling important? </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.3",
           "ordinal": 3,
-          "title": "SAP 1.3 Pick Your Preference",
-          "subtitle": "Distinguishing Categorical and Numerical Data",
+          "title": "SAP 1.3 Comparing Samples of the Same Size Mathematical Reflection",
+          "subtitle": "",
           "sections": [
             "investigation-1/problem-3/introduction/content.json",
             "investigation-1/problem-3/initialChallenge/content.json",
             "investigation-1/problem-3/whatIf/content.json",
             "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "I-yN3Dr7JmKMRNKU",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.3 Making Inferences About a Population</strong></p><p>Students explore variability as it relates to sample data and statistics. They select random samples of 30 from a population of 100, and they analyze the samples to help them draw conclusions about the population. By comparing graphs and summary statistics of different samples, students learn about how random samples vary, how some may be more representative of the population than others, and how sampling is a good technique in general, but can occasionally lead to drawing poor conclusions. </p><p><strong>NWDYK</strong></p><p>How can we use statistics based on a random sample of data to describe or make predictions about a population?</p><p><strong>Materials</strong></p><p>Learning Aid 1.3A: Sleep Hours</p><p>Learning Aid 1.3B: 100 Chart or Spinner</p><p>Learning Aid 1.3C: Median Hours of 30 Samples for Sample Size of 5, 10, 30</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>3</p><p><strong>A </strong>#4-8</p><p><strong>B</strong> #12-14</p><p><strong>C </strong>#18</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "dKkoIxoRZM2W2FRb",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Problem 1.3 continues with the idea of random sampling. If needed, use the Introduction before the Problem to review a Five-Number Summary. </p><p><strong>Suggested Questions:</strong></p><ul><li>We have talked about a median, what is a quartile? </li><li>How can you explain Quartile 1 and Quartile 3? An Inner Quartile Range or IQR is related. </li><li>What is an IQR?   </li></ul><p>PRESENTING THE CHALLENGE</p><p>Talk about the idea of selecting a random sample of students to study rather than calculating statistics and making statistical representations for the entire set of data, or population. </p><p>Talk with students about the desirability of sampling plans that produce random samples, samples in which each member of a population has the same chance of being selected. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "YTcsyFaHeAvSYTnc",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Every student in each group of 3 should select a random sample of 30 students from the table of 100 7th-grade students found in the Student Edition. The fact that each sample will be different allows students to explore variability as it relates to sample data statistics. </p><p>Have available many options for student to use to find their random samples- spinners, dice, random number generators, <a href=\"https://www.random.org/integers/\">https://www.random.org/integers/</a> etc.  </p><p>You may need to offer suggestions to move conversations forward. </p><p><strong>Suggested Questions:</strong></p><ul><li>How could you organize the data from your sample to look for trends/insights? </li><li>Would thinking about a measure of center be helpful to analyze your data? </li><li>Would looking at the variability of your data be helpful to analyze your data? </li><li>Would finding the IQR be helpful to analyze your data? </li><li>Would finding the MAD be helpful to analyze your data? </li></ul><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore look for ways that students found their random samples and select students that you want to highlight in the summary.  Select student data displays that will help move the discussion on representative samples forward during the Summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "gq_ohdgtNXqUNOid",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Stop and Jot; Gallery Walk</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Before starting the summary have students take a moment and stop and jot down what they are currently thinking about collecting and using samples. Revisit this after the Summary discussion.</p><p>Using a Gallery Walk of the students data collections from the Initial Challenge can help move the conversations forward.  Give students time to look at the other groups samples with the lens of looking for how do other groups’ samples compare to their own. </p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions: </strong></p><ul><li>What insight did you conclude about sleep patterns based on your sample? </li><li>Did anyone’s data disagree with ________‘s findings?</li></ul><p>Have several groups/individuals share their findings and have students respond to if their samples agree or disagree with them. </p><ul><li>Would some samples give better estimates than others?  </li><li>Does a line plot or box plot of your sample help you make a better estimate? </li><li>Would any of the samples have given a very poor estimate?  </li><li>What patterns do you see in the measures of spread for the three different distributions in What If Situation B?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
     {
       "description": "Investigation 2",
       "ordinal": 2,
-      "title": "SAP Investigation 2 Choosing a Sample from a Population",
+      "title": "SAP Investigation 2 Using Samples to Compare Inferences Among Populations",
       "problems": [
         {
           "description": "Problem 2.1",
           "ordinal": 1,
-          "title": "SAP 2.1 Selecting Samples",
-          "subtitle": "Distinguishing Kinds of Samples",
+          "title": "SAP 2.1 Comparing Heights of Basketball Players",
+          "subtitle": "Using Means and MADS",
           "sections": [
             "investigation-2/problem-1/introduction/content.json",
             "investigation-2/problem-1/initialChallenge/content.json",
             "investigation-2/problem-1/whatIf/content.json",
             "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "eADYZAQdAqN0Yb18",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.1 Comparing Heights of Basketball Players: Using Means and MADS</strong></p><p>In this problem students focus on drawing comparative conclusions about two populations using samples.  Student informally assess how much two numerical data distributions with similar variability overlap.  In the Initial Challenge students examine the mean and the MAD of each distribution to identify whether or not the mean of one distribution is within one or two MADs of the other distribution. In the What If Situations students use this information to decide if the differences between samples are greater than expected from naturally occurring variability.</p><p><strong>NWDYK</strong></p><p>How can you use samples to make informal comparisons about two populations?</p><p><strong>Materials</strong></p><p>Learning Aid 2.1: Sample of Professional Basketball Players Heights</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A </strong>#1-3</p><p><strong>B</strong> #10-11</p><p><strong>C </strong>#16-17</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Ghyu7Df0FRkb_qzb",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p><strong>Suggested Questions:</strong></p><ul><li>How might you determine which values are unexpected for a distribution of data? </li><li>In this Problem, you will be comparing two distributions of data that have similar variabilities. How can you tell whether two distributions of data have similar variabilities?  </li></ul><p><em>Teacher Moves: Independent Think Time</em></p><p>PRESENTING THE CHALLENGE</p><p>Discuss heights of basketball players as a class.  The data values are given in centimeters.  Make sure your students can visualize the magnitude of these heights.  </p><p><strong>Suggested Questions:</strong></p><ul><li>Look at the two dot plots. What information does each dot plot give? </li><li>How much taller do you think these basketball players are than the students in our class? </li></ul><p>Have students begin the problem independently looking at the data on what do they notice and wonder about it.  Then continue working on the problem with a partner.  </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "n5WMQI74vlP-mRV2",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Language</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Students need to develop a sense of how tall these players are, especially since they may not be familiar with measurements taken with the metric system. Ask students about the conversion rate from centimeters to inches (2.5 cm ≈ 1 inch). </p><p><strong>Suggested Questions:</strong></p><ul><li>Where does the mean height of the male players fall on the dot plot of the heights of the female players?  </li><li>What does this tell you about the mean male player height in comparison to the female player heights? </li><li>Where does the mean height of the female players fall on the dot plot of the heights of the male players? </li><li>What does this tell you about the mean female player height in comparison to the male player heights?</li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore select student groups to share their noticing and wonderings about the data in the Initial Challenge.  Select student groups to share their decisions on the ideas of comparing the data sets using the questions in What If Situation A.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "uLVkU_KUsRTcD5NM",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Have students share their thoughts on the data sets in the Initial Challenge.  Have students share how they made their decisions for the questions in What If Situation A.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions: </strong></p><ul><li>Who is taller, the male basketball players or the female basketball players? How do you know? </li><li>When you compare these two samples, can you tell, for these samples, that the men are taller than the women? </li><li>Do you think this difference in means is due to the fact that heights vary from sample to sample? Or do you think that you can say that male basketball players are generally taller than female basketball players? </li><li>You compared the two sample distributions. The means are different. How did you measure this difference? </li><li>You drew conclusions about the heights of the populations of male and female basketball players. Why are you justified in doing this? </li><li>For What If Situation B, how did you determine whether the sample data were taken from a male professional basketball player population or a female professional basketball player population? </li><li>Do you think that the differences between the male basketball player sample heights and the female basketball player sample heights prove that there are meaningful height differences in those populations? </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.2",
           "ordinal": 2,
-          "title": "SAP 2.2 Choosing Random Samples",
-          "subtitle": "Comparing Using Center and Spread",
+          "title": "SAP 2.2 Roller Coasters",
+          "subtitle": "Using IQR to Compare Speeds",
           "sections": [
             "investigation-2/problem-2/initialChallenge/content.json",
             "investigation-2/problem-2/whatIf/content.json",
             "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "nHBbchk8n3kCz7LI",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.2 Roller Coasters: Using Medians and IQR to Compare Speeds</strong></p><p>This problem begins with a census table showing the counts of different kinds of roller coasters worldwide. Students use two samples selected from roller coasters listed as part of the census. Students use the data from these samples and a variety of strategies to make comparisons between speeds of steel-frame and wood-frame coasters. In the What If Situation students analyze other students’ conjectures.</p><p><strong>NWDYK</strong></p><p>How can you use measures of center and variability from sample distributions to compare two populations?</p><p><strong>Materials</strong></p><p>Learning Aid 2.2: Steel and Wood Roller Coaster Displays </p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2</p><p><strong>A </strong>#4-6</p><p><strong>B</strong> #12-13</p><p><strong>C </strong>#18</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Pu67h6UQmm1wV_qX",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>As with earlier Problems, looking at measures of spread may provide better insights into ways to answer the question posed. Students look at the IQR and are asked to represent data with box plots, in addition to line plots or histograms. Using the median as a measure of center is explored, as well as variability centered about the median. </p><p><em>Teacher Moves: Language</em></p><p>PRESENTING THE CHALLENGE</p><p>Discus roller coasters. Have students examine the data in the table in their student edition.   Have a discussion about how to read the tables and what information can be obtained from them.</p><p><strong>Suggested Questions:</strong></p><ul><li>Is there any information in the tables that surprises you? Why or why not? </li><li>What other information might you want to collect about roller coasters? </li><li>How might you go about collecting this information about several coasters? </li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "hEDdC_Lw46zqKXJm",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Going Vertical</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Having students stand up and work on a vertical surface during this problem can increase engagement and collaboration between students as they work through understanding using IQR and medians to compare the roller coaster speeds.</p><p><strong>Suggested Questions:</strong></p><ul><li>Look at the shapes of the distributions.  What do you notice?  </li><li>What statistics might you use to compare the two distributions?  </li><li>The measures of center differ about 2 to 3 miles per hour.  Do you think you would notice that difference if you were riding a roller coaster?  </li></ul><p>PLANNING FOR THE SUMMARY</p><p>Listen for how students are using the data sets to decide on the speed of the roller coasters.  Listen for how students are using shape of the data, measures of center, and variability to make sense of which roller coaster is faster.  Listen for how students are talking about this data as samples.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "X_Lo8D4w8uwCKsmP",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Claim, Support Question</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Have students share which roller coasters are faster.  Using the Claim, Support, Question teaching strategy have students discuss their findings.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions: </strong></p><ul><li>Do you have any What If  questions?  </li><li>How did the line plot help you decide which roller coaster was faster?</li><li>How did the box and whisker help you decide which roller coaster was faster? </li><li>For What If Situation A, do you agree with Charlie’s overall conclusion? </li><li>Do you agree with Rosa’s overall conclusion that steel-frame roller coasters are faster, but not all steel-frame roller coasters are faster? </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.3",
           "ordinal": 3,
-          "title": "SAP 2.3 Growing Samples: Does Sample Size Matter",
-          "subtitle": "",
+          "title": "SAP 2.3 Solving an Archeological Mystery",
+          "subtitle": "Comparing Samples Using Box Plots",
           "sections": [
             "investigation-2/problem-3/introduction/content.json",
             "investigation-2/problem-3/initialChallenge/content.json",
             "investigation-2/problem-3/whatIf/content.json",
             "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "ux9v7iCO6J3EByvA",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.3 Solving an Archeological Mystery:  Comparing Samples Using Box Plots</strong></p><p>In Problem 2.3, students examine tables that list the measurements of Native American arrowheads found at different archeological sites. Students are asked to use statistics to draw conclusions about when each of the unknown sites was settled. They compare the measurements of the arrowheads from the known sites, thus making comparative inferences about samples of populations. Then they compare data from the known sites to data from the two unknown sites in order to estimate the time period during which each unknown site was settled. </p><p><strong>NWDYK</strong></p><p>How might you analyze samples from known and unknown populations to determine whether the unknown population has one or more attributes in common with the known population?</p><p><strong>Materials</strong></p><p>Learning Aid 2.3: Arrowhead Data</p><p>Teaching Aid 2.3: Arrowhead Lengths</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-3</p><p><strong>A </strong>#7-9</p><p><strong>B</strong> #14-15</p><p><strong>C </strong>#19</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "D2RelkuaEmazAMja",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In Problem 2.3, students extend the understanding they have built. In particular, students explored using data collected with random sampling to make inferences about a population. It  extends this by asking students to draw conclusions by comparing more than one population. Students analyze data by calculating measures of center and variability. </p><p><em>Teacher Moves: Notice and Wonder</em></p><p>PRESENTING THE CHALLENGE</p><p>Introduce Problem 2.3 by discussing archeology with your students to provide context. Ask students what they know about the methods people use to gather information about ancient civilizations. </p><p>Discuss the archeological digs described in Problem 2.3. Have students examine the tables of data, which list lengths, widths, and neck widths of Native American arrowheads that were unearthed at each of the sites. Give students time to familiarize themselves with the tables. </p><p><strong>Suggested Questions:</strong></p><ul><li>What do you notice and what do you wonder? </li><li>What does this Problem ask you to figure out? </li><li>What do you know that can help you with this Problem?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "0wtKkYv0SJ5ehMvM",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Problem Solving Environment; Agency, Identity, Ownership</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>The Problem is stated in an open-ended way. Students can develop their own strategies for determining when each unknown site was settled.</p><p><strong>Suggested Questions:</strong></p><ul><li>Which of the known sites are the oldest? </li><li>How can you estimate the time period during which each of the two unknown sites was settled? </li><li>Do you have enough data to make good comparisons? </li><li>What different graphs could you use to display these data and make comparisons? </li><li>How can you use summary statistics to determine when the unknown sites were settled? The box plots? </li><li>Are the summary statistics for either of the unknown-site samples identical to the statistics for a known-site sample? </li></ul><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore select student work to use in the summary.  Select data where the samples chosen are different from each other to talk about the importance of a representative sample.  Select student work with different ways to organize the data to show how they highlight different information.  Select students to talk about how they made their decision about the unknown population.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "xoxMwn7fKQeOyZvT",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Ask students to discuss their conclusions and justify their answers. The box plots students have drawn will yield two distinct groups of data, one with generally higher medians than the other. These data provide a way to identify the time periods during which the new sites may have been settled. </p><p><strong>Suggested Questions:</strong></p><ul><li>How confident are you about your predictions?</li></ul><p><em>Teacher Moves: Claim, Support, Quesiton</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Have students support their answers with reasoning either from the summary statistics they calculated or the box plots they drew. It is important for students to understand that their answers need to be supported. </p><p><strong>Suggested Questions: </strong></p><ul><li>You compared data sets with different sample sizes in this Problem. Are you able to make comparisons among samples of different sizes? </li><li>For the known sites, which populations can you group together? What similarities do you see between these sites? </li><li>What inferences can you make about the two unknown sites by comparing their data? What inferences can you make about the two unknown sites by comparing their data to the data from the known sites?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -365,7 +880,67 @@
           "sections": [
             "investigation-3/problem-1/MathReflection1/content.json",
             "investigation-3/problem-1/MathReflection2/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "AGsOCPC1inzjeTjP",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Mathematical Reflection</strong></p><p>The Mathematical Reflection provides an opportunity to discuss the goals of the Investigation. Students can pull together their reasoning from the Now What Do You Know questions to summarize their learning over the time. </p><p><strong>Mathematical Reflection</strong></p><p>What do you know about the statistical problem-solving process?</p><p><strong>Key Terms</strong></p><p>Population</p><p>Sample</p><p>Random sample</p><p><strong>Pacing</strong></p><p>1/2 Day</p><p><strong>Groups</strong></p><p>Whole Class and Individual</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "paWZQhvdZcVoOBBx",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Time; Anchor Chart</em></p><p>After the class discussion, students can record their responses to the Mathematical Reflection to create a record of their current understandings of the big ideas of the Unit. You may want to keep an Anchor Chart of the conversation so it can be added to at the end of each investigation. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "-qOJT1hLNBTRzuGG",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Portrayal; Language</em></p><p>You can gain an understanding of student thinking during a discussion of the reflection question then, assess individual understanding based on each student’s written work.</p><p>Having students pull out their notes from the Now What Do You Know from each Problem in the Investigation can help them to synthesize all their ideas around the advantages and disadvantages of using different representations to show the relationship between two variables. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "EulPQyG2LKzUEgZT",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><strong>Reflecting on Student Learning:</strong></p><p>Use the following questions to assess student understanding at the end of the lesson.  </p><ul><li>What evidence in students’ work shows an understanding of the ideas in this Unit?</li><li>What mathematical ideas will still need emphasis?</li><li>What opportunities exist in the rest of the Unit, or in future Units, to extend and connect the students’ learning?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -382,7 +957,23 @@
           "sections": [
             "investigation-4/problem-1/ACE1/content.json",
             "investigation-4/problem-1/ACE2/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": []
+              },
+              "explore": {
+                "tiles": []
+              },
+              "summarize": {
+                "tiles": []
+              }
+            }
+          }
         }
       ]
     }

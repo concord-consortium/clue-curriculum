@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Situation A. Writing New Hat Rules</h3><p>Several members of the computer club wrote different design criteria that would produce hats similar to the original Mug hat.</p><p>What rule would you write for each design?</p><p><strong>Syrah’s Design:</strong> The side lengths are one third as long as Mug’s hat.</p>"
+            "<p><strong>Situation A. Writing New Hat Rules</strong></p><p>Several members of the computer club wrote different design criteria that would produce hats similar to the original Mug hat.</p><p>What rule would you write for each design?</p><p><em>Syrah’s Design</em></p><p>The side lengths are one third as long as Mug’s hat.</p>"
           ]
         }
       },
@@ -29,7 +29,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Joe’s Design: </strong>The side lengths are 1.5 times as long as Mug’s hat.</p>"
+            "<p><em>Joe’s Design</em></p><p>The side lengths are 1.5 times as long as Mug’s hat.</p>"
           ]
         }
       },
@@ -50,7 +50,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Viola’s Design:</strong> The hat is the same size as Mug’s hat but has moved right 1 unit and up 5 units.</p>"
+            "<p><em>Viola’s Design</em></p><p>The hat is the same size as Mug’s hat but has moved right 1 unit and up 5 units.</p>"
           ]
         }
       },
@@ -71,7 +71,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Kathy&#x27;s Design: </strong>The image is in another quadrant of the graph.</p>"
+            "<p><em>Kathy&#x27;s Design</em></p><p>The image is in another quadrant of the graph.</p>"
           ]
         }
       },
@@ -92,7 +92,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation B. Raymond&#x27;s Claim about Negative Numbers and Rules</strong></p><p>Raymond&#x27;s Claim:</p><p>If you multiply each coordinate by a negative number, the image is similar but smaller. Is he correct? Explain.</p>"
+            "<p><strong>Situation B. Raymond&#x27;s Claim about Negative Numbers and Rules</strong></p><p><em>Raymond&#x27;s Claim</em></p><p>If you multiply each coordinate by a negative number, the image is similar but smaller. </p><p>Is he correct? Explain.</p>"
           ]
         }
       },
@@ -110,15 +110,13 @@
       [
         {
           "id": "f0AfYBGFZvTA35",
-          "title": "Mug's Hat",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "-SGKvJzeVoCV4sFS": 80,
               "axZAdKRDoNu1QnTV": 80
-            },
-            "name": "Mug's Hat"
+            }
           }
         },
         {
@@ -128,107 +126,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "x",
-                  "y"
-                ]
+              "xAxis": {
+                "min": -1,
+                "unit": 23.818181818181817,
+                "range": 11
+              },
+              "yAxis": {
+                "min": -1,
+                "unit": 23.818181818181817,
+                "range": 11.16793893129771
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "D4U8qe_5HrzNU41J": {
                 "type": "point",
-                "parents": [
-                  1.007560381566389,
-                  1.016734972677595
-                ],
-                "properties": {
-                  "id": "D4U8qe_5HrzNU41J",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "D4U8qe_5HrzNU41J",
+                "x": 1.007560381566389,
+                "y": 1.016734972677595,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "TuaMquaQVvVeowpV": {
                 "type": "point",
-                "parents": [
-                  9,
-                  1
-                ],
-                "properties": {
-                  "id": "TuaMquaQVvVeowpV",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "TuaMquaQVvVeowpV",
+                "x": 9,
+                "y": 1,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "qz4DbQ5dskvYAxV-": {
                 "type": "point",
-                "parents": [
-                  6.014553467054895,
-                  2.0086663251366113
-                ],
-                "properties": {
-                  "id": "qz4DbQ5dskvYAxV-",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "qz4DbQ5dskvYAxV-",
+                "x": 6.014553467054895,
+                "y": 2.0086663251366113,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "2l728kCiExnl7Aho": {
                 "type": "point",
-                "parents": [
-                  6,
-                  3
-                ],
-                "properties": {
-                  "id": "2l728kCiExnl7Aho",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "2l728kCiExnl7Aho",
+                "x": 6,
+                "y": 3,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "yQt0c6binEZqz4_h": {
                 "type": "point",
-                "parents": [
-                  4,
-                  3
-                ],
-                "properties": {
-                  "id": "yQt0c6binEZqz4_h",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "yQt0c6binEZqz4_h",
+                "x": 4,
+                "y": 3,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "VMJXVG2nLV6XIlWC": {
                 "type": "point",
-                "parents": [
-                  4.000000000000001,
-                  2
-                ],
-                "properties": {
-                  "id": "VMJXVG2nLV6XIlWC",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "VMJXVG2nLV6XIlWC",
+                "x": 4.000000000000001,
+                "y": 2,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "KE8pozQFMjQ9apBB": {
                 "type": "polygon",
-                "parents": [
+                "id": "KE8pozQFMjQ9apBB",
+                "points": [
                   "D4U8qe_5HrzNU41J",
                   "TuaMquaQVvVeowpV",
                   "qz4DbQ5dskvYAxV-",
@@ -236,26 +203,25 @@
                   "yQt0c6binEZqz4_h",
                   "VMJXVG2nLV6XIlWC"
                 ],
-                "properties": {
-                  "id": "KE8pozQFMjQ9apBB"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         }
       ],
       [
         {
           "id": "LB20OCT20231100",
-          "title": "Negative Hat",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "6dSk-0tZ-SbcYIXZ": 80,
               "2gcdfAuIojaPLW7u": 80
-            },
-            "name": "Negative Hat"
+            }
           }
         },
         {
@@ -265,99 +231,76 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -10,
-                  -4.1
-                ],
-                "axisRange": [
-                  11,
-                  5.1
-                ]
+              "xAxis": {
+                "min": -10,
+                "unit": 23.818181818181817,
+                "range": 11
+              },
+              "yAxis": {
+                "min": -3,
+                "unit": 23.818181818181817,
+                "range": 11.16793893129771
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "8DvYJi-FdJ5RsMW9": {
                 "type": "point",
-                "parents": [
-                  -1,
-                  -1
-                ],
-                "properties": {
-                  "id": "8DvYJi-FdJ5RsMW9",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "8DvYJi-FdJ5RsMW9",
+                "x": -1,
+                "y": -1,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "5hamWrwS1_qwAZ-0": {
                 "type": "point",
-                "parents": [
-                  -9,
-                  -1
-                ],
-                "properties": {
-                  "id": "5hamWrwS1_qwAZ-0",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "5hamWrwS1_qwAZ-0",
+                "x": -9,
+                "y": -1,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "x5lDReicjeo10ELn": {
                 "type": "point",
-                "parents": [
-                  -6,
-                  -2
-                ],
-                "properties": {
-                  "id": "x5lDReicjeo10ELn",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "x5lDReicjeo10ELn",
+                "x": -6,
+                "y": -2,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "B_BKinRldfS8yvZ-": {
                 "type": "point",
-                "parents": [
-                  -6,
-                  -3.0000000000000004
-                ],
-                "properties": {
-                  "id": "B_BKinRldfS8yvZ-",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "B_BKinRldfS8yvZ-",
+                "x": -6,
+                "y": -3.0000000000000004,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "5wqPZkpmEmhj397m": {
                 "type": "point",
-                "parents": [
-                  -4.009211244541484,
-                  -3.0192871093749996
-                ],
-                "properties": {
-                  "id": "5wqPZkpmEmhj397m",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "5wqPZkpmEmhj397m",
+                "x": -4.009211244541484,
+                "y": -3.0192871093749996,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "uZMJD9pfPj8CPLwK": {
                 "type": "point",
-                "parents": [
-                  -4.000000000000001,
-                  -2
-                ],
-                "properties": {
-                  "id": "uZMJD9pfPj8CPLwK",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "uZMJD9pfPj8CPLwK",
+                "x": -4.000000000000001,
+                "y": -2,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "lTBYaAfEqGgXWeMb": {
                 "type": "polygon",
-                "parents": [
+                "id": "lTBYaAfEqGgXWeMb",
+                "points": [
                   "8DvYJi-FdJ5RsMW9",
                   "5hamWrwS1_qwAZ-0",
                   "x5lDReicjeo10ELn",
@@ -365,13 +308,13 @@
                   "5wqPZkpmEmhj397m",
                   "uZMJD9pfPj8CPLwK"
                 ],
-                "properties": {
-                  "id": "lTBYaAfEqGgXWeMb"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               },
-              {
+              "-uDMwOdirdca0T38": {
                 "type": "polygon",
-                "parents": [
+                "id": "-uDMwOdirdca0T38",
+                "points": [
                   "01HCSTYPMM2KP9EH95HTRZFK4V:2gcdfAuIojaPLW7u",
                   "01HCSTYPMM2KP9EH95HTRZFK4W:2gcdfAuIojaPLW7u",
                   "01HCSTYPMM2KP9EH95HTRZFK4X:2gcdfAuIojaPLW7u",
@@ -380,24 +323,15 @@
                   "01HCSTYPMM2KP9EH95HTRZFK50:2gcdfAuIojaPLW7u",
                   "01HCSTYPMM2KP9EH95HTRZFK51:2gcdfAuIojaPLW7u"
                 ],
-                "properties": {
-                  "id": "-uDMwOdirdca0T38"
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  -0.020833333333333332,
-                  -1.9322603383458647
-                ],
-                "properties": {
-                  "id": "P5QYmVbCmOvwcY4J",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {
+              "6dSk-0tZ-SbcYIXZ": 2,
+              "2gcdfAuIojaPLW7u": 1
+            }
           }
         }
       ],
@@ -407,7 +341,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation C. Isaiah’s Challenge: Putting the Hat on Mug</strong></p><p>Isaiah&#x27;s Challenge: </p><p>I think it is possible to write a rule that will put Mug’s hat on Mug. My group will work on finding the correct rule.</p><p>Is this possible? Why?</p>"
+            "<p><strong>Situation C. Isaiah’s Challenge: Putting the Hat on Mug</strong></p><p><em>Isaiah&#x27;s Challenge</em></p><p>I think it is possible to write a rule that will put Mug’s hat on Mug. My group will work on finding the correct rule.</p><p>Is this possible? Why?</p>"
           ]
         }
       },
@@ -423,39 +357,168 @@
         }
       },
       {
-        "id": "-6wzAUG20221115AM",
-        "title": "Mug Hat on Mug",
+        "id": "naLydbDJBoDMnfBK",
+        "title": "Mug's Hat on Mug",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "sas/images/SS_2_2_MughatOnMug.jpg"
+          "type": "Geometry",
+          "board": {
+            "xAxis": {
+              "min": -1,
+              "unit": 23.272727272727273,
+              "range": 27.02734375
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 23.272727272727273,
+              "range": 11
+            }
+          },
+          "objects": {
+            "-JVV8UqYXs8sqfCW": {
+              "type": "polygon",
+              "id": "-JVV8UqYXs8sqfCW",
+              "points": [
+                "01HCSTYPMZAAFA87P6BEWR5W5E:ItIVHcEapXdM-PKy",
+                "01HCSTYPMZAAFA87P6BEWR5W5F:ItIVHcEapXdM-PKy",
+                "01HCSTYPMZAAFA87P6BEWR5W5G:ItIVHcEapXdM-PKy",
+                "01HCSTYPMZAAFA87P6BEWR5W5H:ItIVHcEapXdM-PKy",
+                "01HCSTYPMZAAFA87P6BEWR5W5J:ItIVHcEapXdM-PKy",
+                "01HCSTYPMZAAFA87P6BEWR5W5D:ItIVHcEapXdM-PKy",
+                "01HCSTYPMZAAFA87P6BEWR5W5K:ItIVHcEapXdM-PKy"
+              ],
+              "labelOption": "none",
+              "colorScheme": 1
+            },
+            "As5CbieeU8BOIdoT": {
+              "type": "polygon",
+              "id": "As5CbieeU8BOIdoT",
+              "points": [
+                "hKftdk8b1e2Xc70q:CK2IuwJQVd3Fdv8u",
+                "qjPi0OAT7YUMkrVr:CK2IuwJQVd3Fdv8u",
+                "yedM9f8jH-lDbGyp:CK2IuwJQVd3Fdv8u",
+                "VIouYGqESVgbmx2B:CK2IuwJQVd3Fdv8u",
+                "M5v0ukGHq61jTroa:CK2IuwJQVd3Fdv8u",
+                "BXmO-0FyJTpQsxWd:CK2IuwJQVd3Fdv8u",
+                "VmDLgF0tvIFFU-7o:CK2IuwJQVd3Fdv8u",
+                "0aRxD-0v9KcRDx5k:CK2IuwJQVd3Fdv8u",
+                "BJE-3xIPQy6xlZwx:CK2IuwJQVd3Fdv8u",
+                "wvxSlaX2JFji5Evi:CK2IuwJQVd3Fdv8u",
+                "rIKIAOt3_k-Q-iRw:CK2IuwJQVd3Fdv8u",
+                "fo3Er3qDrAeA31kD:CK2IuwJQVd3Fdv8u",
+                "c93VPFQ7F-40aF6g:CK2IuwJQVd3Fdv8u"
+              ],
+              "labelOption": "none",
+              "colorScheme": 3
+            },
+            "rgskZRI6JEJ5zIT8": {
+              "type": "polygon",
+              "id": "rgskZRI6JEJ5zIT8",
+              "points": [
+                "V18k-9EMIfn9G0Dp:Gkx4Jpc06XWuWgr3",
+                "cOZ36pJY79lDLICq:Gkx4Jpc06XWuWgr3",
+                "YcwdXL-ltLXQLXP5:Gkx4Jpc06XWuWgr3",
+                "kLn9dg5V_fg9-eHK:Gkx4Jpc06XWuWgr3",
+                "_krNn3rzUlQkY72D:Gkx4Jpc06XWuWgr3"
+              ],
+              "labelOption": "none",
+              "colorScheme": 5
+            },
+            "N6feTfh2eejTzGeX": {
+              "type": "polygon",
+              "id": "N6feTfh2eejTzGeX",
+              "points": [
+                "t78Zk3iE0mRLOlv0:ZHPkpDpUyjVAXsIO",
+                "G49shlv42DnVTu1l:ZHPkpDpUyjVAXsIO",
+                "Iv7EhxZ-vUHZlp44:ZHPkpDpUyjVAXsIO",
+                "3w5sZWuMbzz-HpoH:ZHPkpDpUyjVAXsIO"
+              ],
+              "labelOption": "none",
+              "colorScheme": 0
+            }
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "kf1B1CNgMXv13T3q": 2,
+            "ItIVHcEapXdM-PKy": 1,
+            "TaooWpKN5-XR8rUo": 4,
+            "CK2IuwJQVd3Fdv8u": 3,
+            "ajbuKWlYxUx2yP6n": 6,
+            "Gkx4Jpc06XWuWgr3": 5,
+            "UH05OXHAaiGkVsRL": 1,
+            "ZHPkpDpUyjVAXsIO": 3,
+            "wBDUTcyn6wSX62Ly": 0,
+            "zELjBM6aeDTbbxiK": 2
+          }
         }
       },
       [
         {
           "id": "LB20OCT20231158",
-          "title": "Mug's Hat",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
-              "_Eu18yKE7d8bHcaG": 80,
-              "DumMLz6P9oYW0y7e": 80
-            },
-            "name": "Mug's Hat"
+              "sdrAh1HKchFovIFO": 80,
+              "GdogtatDERAZ-HIn": 80
+            }
           }
         },
         {
           "id": "LB20OCT20231200",
-          "title": "Mug's Hat on Mug",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "kf1B1CNgMXv13T3q": 80,
               "ItIVHcEapXdM-PKy": 80
-            },
-            "name": "Mug's Hat on Mug"
+            }
+          }
+        }
+      ],
+      [
+        {
+          "id": "r45nQP4f04uQv0Vc",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "TaooWpKN5-XR8rUo": 80,
+              "CK2IuwJQVd3Fdv8u": 80
+            }
+          }
+        },
+        {
+          "id": "KwKUDiO621LLSHJY",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "ajbuKWlYxUx2yP6n": 80,
+              "Gkx4Jpc06XWuWgr3": 80
+            }
+          }
+        },
+        {
+          "id": "02vIS9tl7O5F_poh",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "UH05OXHAaiGkVsRL": 80,
+              "ZHPkpDpUyjVAXsIO": 80
+            }
+          }
+        },
+        {
+          "id": "9oUYtQJ_VS9_HDVf",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "wBDUTcyn6wSX62Ly": 80,
+              "zELjBM6aeDTbbxiK": 80
+            }
           }
         }
       ]
@@ -615,81 +678,6 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "vwTKoI9PnQw0e-pg",
-          "providerId": "LB20OCT20231157",
-          "dataSet": {
-            "id": "m6aNVseOviv_EBkf",
-            "name": "Mug's Hat",
-            "attributes": [
-              {
-                "id": "_Eu18yKE7d8bHcaG",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "1",
-                  "9",
-                  "6",
-                  "6",
-                  "4",
-                  "4",
-                  "1"
-                ],
-                "title": ""
-              },
-              {
-                "id": "DumMLz6P9oYW0y7e",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "1",
-                  "1",
-                  "2",
-                  "3",
-                  "3",
-                  "2",
-                  "1"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81J"
-              },
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81K"
-              },
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81M"
-              },
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81N"
-              },
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81P"
-              },
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81Q"
-              },
-              {
-                "__id__": "01HCSTYPMW3BDXMWYQRFZZY81R"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "LB20OCT20231157"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
           "id": "oPQSOo-NVH9PWpGD",
           "providerId": "LB20OCT20231200",
           "dataSet": {
@@ -699,7 +687,7 @@
               {
                 "id": "kf1B1CNgMXv13T3q",
                 "clientKey": "",
-                "name": "x",
+                "name": "x - 1",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -717,7 +705,7 @@
               {
                 "id": "ItIVHcEapXdM-PKy",
                 "clientKey": "",
-                "name": "y",
+                "name": "y + 6",
                 "hidden": false,
                 "units": "",
                 "formula": {},
@@ -759,7 +747,370 @@
           }
         },
         "tiles": [
-          "LB20OCT20231200"
+          "LB20OCT20231200",
+          "naLydbDJBoDMnfBK"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "9vlXH-ilAcjYKuKm",
+          "providerId": "LB20OCT20231158",
+          "dataSet": {
+            "id": "ysxQ7ovmjXIYHOo9",
+            "name": "Mug's Hat",
+            "attributes": [
+              {
+                "id": "sdrAh1HKchFovIFO",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "9",
+                  "6",
+                  "\n\n6",
+                  "4",
+                  "4",
+                  "1"
+                ],
+                "title": ""
+              },
+              {
+                "id": "GdogtatDERAZ-HIn",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "1",
+                  "2",
+                  "3",
+                  "3",
+                  "2",
+                  "1"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "SHQVrDdiRQgTxtPA"
+              },
+              {
+                "__id__": "SZDTrzT56_1ZScNT"
+              },
+              {
+                "__id__": "VLG3EvZauyMP1R0n"
+              },
+              {
+                "__id__": "RZbcJ8PFFmLeRi9s"
+              },
+              {
+                "__id__": "XV59xj07Nep07rkX"
+              },
+              {
+                "__id__": "qJtlaakZip6N23Gp"
+              },
+              {
+                "__id__": "5br_EEN0GhicSKWu"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "LB20OCT20231158"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "6Ppre4ciV8fxnmi8",
+          "providerId": "r45nQP4f04uQv0Vc",
+          "dataSet": {
+            "id": "K5PAu2EvjT06kzEx",
+            "name": "Mug Body",
+            "attributes": [
+              {
+                "id": "TaooWpKN5-XR8rUo",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "2",
+                  "2",
+                  "3",
+                  "3",
+                  "5",
+                  "5",
+                  "6",
+                  "6",
+                  "8",
+                  "6",
+                  "2",
+                  "0"
+                ],
+                "title": ""
+              },
+              {
+                "id": "CK2IuwJQVd3Fdv8u",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "1",
+                  "0",
+                  "0",
+                  "1",
+                  "1",
+                  "0",
+                  "0",
+                  "1",
+                  "1",
+                  "7",
+                  "7",
+                  "1"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "wvxSlaX2JFji5Evi"
+              },
+              {
+                "__id__": "BJE-3xIPQy6xlZwx"
+              },
+              {
+                "__id__": "0aRxD-0v9KcRDx5k"
+              },
+              {
+                "__id__": "VmDLgF0tvIFFU-7o"
+              },
+              {
+                "__id__": "BXmO-0FyJTpQsxWd"
+              },
+              {
+                "__id__": "M5v0ukGHq61jTroa"
+              },
+              {
+                "__id__": "VIouYGqESVgbmx2B"
+              },
+              {
+                "__id__": "yedM9f8jH-lDbGyp"
+              },
+              {
+                "__id__": "qjPi0OAT7YUMkrVr"
+              },
+              {
+                "__id__": "hKftdk8b1e2Xc70q"
+              },
+              {
+                "__id__": "c93VPFQ7F-40aF6g"
+              },
+              {
+                "__id__": "fo3Er3qDrAeA31kD"
+              },
+              {
+                "__id__": "rIKIAOt3_k-Q-iRw"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "r45nQP4f04uQv0Vc",
+          "naLydbDJBoDMnfBK"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "x-PceB-t9OqloDRw",
+          "providerId": "KwKUDiO621LLSHJY",
+          "dataSet": {
+            "id": "iNZw6GvwsoXevrFl",
+            "name": "Mug Mouth",
+            "attributes": [
+              {
+                "id": "ajbuKWlYxUx2yP6n",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "6",
+                  "6",
+                  "2",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Gkx4Jpc06XWuWgr3",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "2",
+                  "3",
+                  "3",
+                  "2"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "cOZ36pJY79lDLICq"
+              },
+              {
+                "__id__": "kLn9dg5V_fg9-eHK"
+              },
+              {
+                "__id__": "_krNn3rzUlQkY72D"
+              },
+              {
+                "__id__": "V18k-9EMIfn9G0Dp"
+              },
+              {
+                "__id__": "YcwdXL-ltLXQLXP5"
+              }
+            ]
+          }
+        },
+        "provider": "KwKUDiO621LLSHJY",
+        "tiles": [
+          "KwKUDiO621LLSHJY",
+          "naLydbDJBoDMnfBK"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "WoSQw5rBxLlh_bB2",
+          "providerId": "02vIS9tl7O5F_poh",
+          "dataSet": {
+            "id": "xTiqG2lLzFnxboC-",
+            "name": "Mug Nose",
+            "attributes": [
+              {
+                "id": "UH05OXHAaiGkVsRL",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "3",
+                  "4",
+                  "5",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ZHPkpDpUyjVAXsIO",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "4",
+                  "5",
+                  "4",
+                  "4"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "Iv7EhxZ-vUHZlp44"
+              },
+              {
+                "__id__": "t78Zk3iE0mRLOlv0"
+              },
+              {
+                "__id__": "G49shlv42DnVTu1l"
+              },
+              {
+                "__id__": "3w5sZWuMbzz-HpoH"
+              }
+            ]
+          }
+        },
+        "provider": "02vIS9tl7O5F_poh",
+        "tiles": [
+          "02vIS9tl7O5F_poh",
+          "naLydbDJBoDMnfBK"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Jg4QMdZ5ua8CI5ev",
+          "providerId": "9oUYtQJ_VS9_HDVf",
+          "dataSet": {
+            "id": "Miu2mNvDXkfTJqQl",
+            "name": "Mug Eyes",
+            "attributes": [
+              {
+                "id": "wBDUTcyn6wSX62Ly",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "zELjBM6aeDTbbxiK",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "5",
+                  "5"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "gTphv4kXrVZUdW9U"
+              },
+              {
+                "__id__": "bm6sKY7X3KnF7xq6"
+              }
+            ]
+          }
+        },
+        "provider": "9oUYtQJ_VS9_HDVf",
+        "tiles": [
+          "9oUYtQJ_VS9_HDVf",
+          "naLydbDJBoDMnfBK"
         ]
       }
     ]

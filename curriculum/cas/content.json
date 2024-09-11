@@ -5,8 +5,9 @@
   "subtitle": "Developing Proportional Reasoning in the Context of Number (Quantities)",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher", "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -28,6 +29,11 @@
       },
       {
         "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
         "title": "Graph",
         "isTileTool": true
       },
@@ -45,11 +51,6 @@
       {
         "id": "Image",
         "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "DataCard",
-        "title": "Data Cards",
         "isTileTool": true
       },
       {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
@@ -79,6 +80,126 @@
         "isTileTool": false
       }
     ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+           {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        }
+      ]
+    },
     "stamps": [
       {
         "url": "cas/stamps/black-chip.png",
@@ -129,19 +250,47 @@
     "settings": {
       "table": {
         "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", ["data-set-view", "DataCard"], "delete"]
+        "tools": ["set-expression", "link-tile", "merge-in", 
+          [
+            "data-set-view",
+            "geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
-      "building-up": "Building Up",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
+      "non-proportional": "Non-Proportional"
    },
      "tagPrompt": "Select Student Strategy"
   },

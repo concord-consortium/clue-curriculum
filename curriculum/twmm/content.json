@@ -5,8 +5,9 @@
   "subtitle": "Linear Functions and Bivariate Data",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher", "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -19,6 +20,11 @@
       {
         "id": "Text",
         "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Coordinate Grid",
         "isTileTool": true
       },
       {
@@ -43,7 +49,7 @@
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -59,7 +65,7 @@
       },
       {
         "id": "hide-annotations",
-        "title": "Hide Annotations",
+        "title": "Hide Sparrows",
         "iconId": "icon-hide-annotations-tool",
         "isTileTool": false
       },
@@ -137,21 +143,54 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
-      "building-up": "Building Up",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
+      "non-proportional": "Non-Proportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {

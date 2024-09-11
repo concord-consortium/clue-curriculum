@@ -115,171 +115,263 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -1
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "x",
-                  "y"
-                ]
+              "xAxis": {
+                "name": "x",
+                "label": "x",
+                "min": -2,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "name": "y",
+                "label": "y",
+                "min": -1,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "fArt_p-xaGDaeAAi": {
                 "type": "point",
-                "parents": [
-                  3.0224565859482477,
-                  4.978973867963115
-                ],
-                "properties": {
-                  "id": "fArt_p-xaGDaeAAi",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "fArt_p-xaGDaeAAi",
+                "x": 3.0224565859482477,
+                "y": 4.978973867963115,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
-                "type": "point",
-                "parents": [
-                  11.968967338861546,
-                  5.010722090381233
-                ],
-                "properties": {
-                  "id": "1nB8OmrarKL3Dw-S",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
+              "1L5IpzTBc1iMUmbR": {
                 "type": "polygon",
-                "parents": [
+                "id": "1L5IpzTBc1iMUmbR",
+                "points": [
+                  "3vOzvLBHNqb9d2Kh",
+                  "xPPOxJ_kf54k4jKO"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "xPPOxJ_kf54k4jKO::3vOzvLBHNqb9d2Kh",
+                    "option": "label",
+                    "name": "B"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "Mku3Z_60GsYG0znr": {
+                "type": "point",
+                "id": "Mku3Z_60GsYG0znr",
+                "x": 11.388221629884155,
+                "y": 1.1041748720874687,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "t55pxwVZU104T6wz": {
+                "type": "point",
+                "id": "t55pxwVZU104T6wz",
+                "x": 12.00384492893286,
+                "y": 4.999172032178461,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "V6WK3WVJbVldQZSW": {
+                "type": "comment",
+                "id": "V6WK3WVJbVldQZSW",
+                "anchors": [
+                  "kMW4S4AsOmRTWPEc"
+                ],
+                "text": "a"
+              },
+              "Dick3SdNma3NXV36": {
+                "type": "point",
+                "id": "Dick3SdNma3NXV36",
+                "x": 3,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "ytVkbTWf8YTbSKAq": {
+                "type": "point",
+                "id": "ytVkbTWf8YTbSKAq",
+                "x": 12.54542943640955,
+                "y": 2.955725,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "kMW4S4AsOmRTWPEc": {
+                "type": "polygon",
+                "id": "kMW4S4AsOmRTWPEc",
+                "points": [
                   "fArt_p-xaGDaeAAi",
                   "1nB8OmrarKL3Dw-S"
                 ],
-                "properties": {
-                  "id": "kMW4S4AsOmRTWPEc"
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  5.9506296756574075,
-                  7.0274222198010925
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "fArt_p-xaGDaeAAi::1nB8OmrarKL3Dw-S",
+                    "option": "label",
+                    "name": "A"
+                  }
                 ],
-                "properties": {
-                  "id": "wRftGIG2CNi1yrTm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "colorScheme": 0
               },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  5
+              "WEyL0dKLvY2cxkh4": {
+                "type": "comment",
+                "id": "WEyL0dKLvY2cxkh4",
+                "x": -1.9277468051547504,
+                "y": 1.0757244003158224,
+                "anchors": [
+                  "n-p5eK_0to_GJLwd"
                 ],
-                "properties": {
-                  "id": "Dick3SdNma3NXV36",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "text": "b"
               },
-              {
+              "5dagvXhy4c_dciF0": {
                 "type": "polygon",
-                "parents": [
+                "id": "5dagvXhy4c_dciF0",
+                "points": [
+                  "cgfGYAHv5McOlKnn",
+                  "Mku3Z_60GsYG0znr"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "Mku3Z_60GsYG0znr::cgfGYAHv5McOlKnn",
+                    "option": "label",
+                    "name": "C"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "n-p5eK_0to_GJLwd": {
+                "type": "polygon",
+                "id": "n-p5eK_0to_GJLwd",
+                "points": [
                   "wRftGIG2CNi1yrTm",
                   "Dick3SdNma3NXV36"
                 ],
-                "properties": {
-                  "id": "n-p5eK_0to_GJLwd"
-                }
-              },
-              {
-                "type": "comment",
-                "parents": [
-                  null,
-                  null
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "Dick3SdNma3NXV36::wRftGIG2CNi1yrTm",
+                    "option": "label",
+                    "name": "B"
+                  }
                 ],
-                "properties": {
-                  "id": "V6WK3WVJbVldQZSW",
-                  "text": "a",
-                  "anchor": "kMW4S4AsOmRTWPEc"
-                }
+                "colorScheme": 0
               },
-              {
-                "type": "comment",
-                "parents": [
-                  -1.9277468051547504,
-                  1.0757244003158224
-                ],
-                "properties": {
-                  "id": "WEyL0dKLvY2cxkh4",
-                  "text": "b",
-                  "anchor": "n-p5eK_0to_GJLwd"
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  10,
-                  7.1000000000000005
-                ],
-                "properties": {
-                  "id": "iiONzHQHawznedlm",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  12.00384492893286,
-                  4.999172032178461
-                ],
-                "properties": {
-                  "id": "t55pxwVZU104T6wz",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
+              "X6DEl8lieq-GpYzp": {
                 "type": "polygon",
-                "parents": [
+                "id": "X6DEl8lieq-GpYzp",
+                "points": [
+                  "tdbH0hg_SOd1vf42",
+                  "ytVkbTWf8YTbSKAq"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "tdbH0hg_SOd1vf42::ytVkbTWf8YTbSKAq",
+                    "option": "label",
+                    "name": "A"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "iiONzHQHawznedlm": {
+                "type": "point",
+                "id": "iiONzHQHawznedlm",
+                "x": 10,
+                "y": 7.1000000000000005,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "-3NHZk77_H36LnuE": {
+                "type": "comment",
+                "id": "-3NHZk77_H36LnuE",
+                "x": 0.8782771990574219,
+                "y": 1.078497092314028,
+                "anchors": [
+                  "sjq1ysLQt0qEzqKI"
+                ],
+                "text": "c"
+              },
+              "3vOzvLBHNqb9d2Kh": {
+                "type": "point",
+                "id": "3vOzvLBHNqb9d2Kh",
+                "x": 8.466657418796274,
+                "y": 1.0792872060614385,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "xPPOxJ_kf54k4jKO": {
+                "type": "point",
+                "id": "xPPOxJ_kf54k4jKO",
+                "x": 4.861870760726216,
+                "y": 1.153537793938562,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "1nB8OmrarKL3Dw-S": {
+                "type": "point",
+                "id": "1nB8OmrarKL3Dw-S",
+                "x": 11.968967338861546,
+                "y": 5.010722090381233,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "sjq1ysLQt0qEzqKI": {
+                "type": "polygon",
+                "id": "sjq1ysLQt0qEzqKI",
+                "points": [
                   "iiONzHQHawznedlm",
                   "t55pxwVZU104T6wz"
                 ],
-                "properties": {
-                  "id": "sjq1ysLQt0qEzqKI"
-                }
-              },
-              {
-                "type": "comment",
-                "parents": [
-                  0.8782771990574219,
-                  1.078497092314028
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "t55pxwVZU104T6wz::iiONzHQHawznedlm",
+                    "option": "label",
+                    "name": "C"
+                  }
                 ],
-                "properties": {
-                  "id": "-3NHZk77_H36LnuE",
-                  "text": "c",
-                  "anchor": "sjq1ysLQt0qEzqKI"
-                }
+                "colorScheme": 0
+              },
+              "wRftGIG2CNi1yrTm": {
+                "type": "point",
+                "id": "wRftGIG2CNi1yrTm",
+                "x": 5.9506296756574075,
+                "y": 7.0274222198010925,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "tdbH0hg_SOd1vf42": {
+                "type": "point",
+                "id": "tdbH0hg_SOd1vf42",
+                "x": 3.5454294364095493,
+                "y": 2.955725,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "cgfGYAHv5McOlKnn": {
+                "type": "point",
+                "id": "cgfGYAHv5McOlKnn",
+                "x": 8.488221781502434,
+                "y": 1.1051126279125316,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -288,171 +380,263 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -1
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "x",
-                  "y"
-                ]
+              "xAxis": {
+                "name": "x",
+                "label": "x",
+                "min": -2,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "name": "y",
+                "label": "y",
+                "min": -1,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "O2Q7be3x3yA8Tp9P": {
                 "type": "point",
-                "parents": [
-                  3,
-                  5
-                ],
-                "properties": {
-                  "id": "O2Q7be3x3yA8Tp9P",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "O2Q7be3x3yA8Tp9P",
+                "x": 3,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "8NF1FSUD26ndAlMN": {
                 "type": "point",
-                "parents": [
-                  11.999996664651917,
-                  5.000712980161759
-                ],
-                "properties": {
-                  "id": "ahOrGU9nZsMPka2F",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "8NF1FSUD26ndAlMN",
+                "x": 7.65457056359045,
+                "y": 8.500000000000004,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "UPIzfRJaGlsEgbtv": {
+                "type": "point",
+                "id": "UPIzfRJaGlsEgbtv",
+                "x": 7.6000000000000005,
+                "y": 8.5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "hxf8zhkkkvS3OeyM": {
+                "type": "comment",
+                "id": "hxf8zhkkkvS3OeyM",
+                "x": -2.159159044008786,
+                "y": 1.1925261720602442,
+                "anchors": [
+                  "lShMG5Ol5PFE2NEF"
+                ],
+                "text": "b"
+              },
+              "8n_3IG-99NmQJuh6": {
+                "type": "comment",
+                "id": "8n_3IG-99NmQJuh6",
+                "anchors": [
+                  "SDKYGHjpgo7Dtg3W"
+                ],
+                "text": "a"
+              },
+              "_9WgbpwyX_nEB5kh": {
+                "type": "point",
+                "id": "_9WgbpwyX_nEB5kh",
+                "x": 7.66123075938078,
+                "y": 0.9773933085087974,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "9cAuxiw2ndajVHuD": {
+                "type": "point",
+                "id": "9cAuxiw2ndajVHuD",
+                "x": 12,
+                "y": 5,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "xj2xNenYU2jL-0H8": {
+                "type": "point",
+                "id": "xj2xNenYU2jL-0H8",
+                "x": 7.663727840023284,
+                "y": 0.9538565161603733,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "lShMG5Ol5PFE2NEF": {
                 "type": "polygon",
-                "parents": [
-                  "O2Q7be3x3yA8Tp9P",
-                  "ahOrGU9nZsMPka2F"
-                ],
-                "properties": {
-                  "id": "SDKYGHjpgo7Dtg3W"
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  7.61414538350103,
-                  8.548173898864121
-                ],
-                "properties": {
-                  "id": "8NF1FSUD26ndAlMN",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  3,
-                  5
-                ],
-                "properties": {
-                  "id": "tjIVPO8Q1X_JnaWT",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "polygon",
-                "parents": [
+                "id": "lShMG5Ol5PFE2NEF",
+                "points": [
                   "8NF1FSUD26ndAlMN",
                   "tjIVPO8Q1X_JnaWT"
                 ],
-                "properties": {
-                  "id": "lShMG5Ol5PFE2NEF"
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  12,
-                  5
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "8NF1FSUD26ndAlMN::tjIVPO8Q1X_JnaWT",
+                    "option": "label",
+                    "name": "B"
+                  }
                 ],
-                "properties": {
-                  "id": "9cAuxiw2ndajVHuD",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "colorScheme": 0
               },
-              {
-                "type": "point",
-                "parents": [
-                  7.6000000000000005,
-                  8.5
+              "4_4bUZoN_qdWPPiV": {
+                "type": "comment",
+                "id": "4_4bUZoN_qdWPPiV",
+                "x": 0.2139358968492875,
+                "y": 1.1334615325880169,
+                "anchors": [
+                  "FY4ewWotPFlr3-US"
                 ],
-                "properties": {
-                  "id": "UPIzfRJaGlsEgbtv",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "text": "c"
               },
-              {
+              "Mb21pwNCC-HoZfHJ": {
+                "type": "point",
+                "id": "Mb21pwNCC-HoZfHJ",
+                "x": 1.883634992850911,
+                "y": 0.9768059838396236,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "CJFqtaftmvNEz5Lu": {
+                "type": "point",
+                "id": "CJFqtaftmvNEz5Lu",
+                "x": 10.871471820477506,
+                "y": 2.5257000000000005,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "vvnfcFirmtkAzo_Z": {
+                "type": "point",
+                "id": "vvnfcFirmtkAzo_Z",
+                "x": 1.8714718204775043,
+                "y": 2.5257000000000005,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "I5BNN_uf1PVZCUOq": {
                 "type": "polygon",
-                "parents": [
+                "id": "I5BNN_uf1PVZCUOq",
+                "points": [
+                  "xj2xNenYU2jL-0H8",
+                  "Mb21pwNCC-HoZfHJ"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "xj2xNenYU2jL-0H8::Mb21pwNCC-HoZfHJ",
+                    "option": "label",
+                    "name": "B"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "SDKYGHjpgo7Dtg3W": {
+                "type": "polygon",
+                "id": "SDKYGHjpgo7Dtg3W",
+                "points": [
+                  "O2Q7be3x3yA8Tp9P",
+                  "ahOrGU9nZsMPka2F"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "O2Q7be3x3yA8Tp9P::ahOrGU9nZsMPka2F",
+                    "option": "label",
+                    "name": "A"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "ahOrGU9nZsMPka2F": {
+                "type": "point",
+                "id": "ahOrGU9nZsMPka2F",
+                "x": 11.999996664651917,
+                "y": 5.000712980161759,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "hlMPsQ4Fv7bYGmjL": {
+                "type": "polygon",
+                "id": "hlMPsQ4Fv7bYGmjL",
+                "points": [
+                  "TYDWXtx0YRPbsuKl",
+                  "_9WgbpwyX_nEB5kh"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "_9WgbpwyX_nEB5kh::TYDWXtx0YRPbsuKl",
+                    "option": "label",
+                    "name": "C"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "Kxpoj6fihhU6wWjh": {
+                "type": "polygon",
+                "id": "Kxpoj6fihhU6wWjh",
+                "points": [
+                  "vvnfcFirmtkAzo_Z",
+                  "CJFqtaftmvNEz5Lu"
+                ],
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "vvnfcFirmtkAzo_Z::CJFqtaftmvNEz5Lu",
+                    "option": "label",
+                    "name": "A"
+                  }
+                ],
+                "colorScheme": 0
+              },
+              "TYDWXtx0YRPbsuKl": {
+                "type": "point",
+                "id": "TYDWXtx0YRPbsuKl",
+                "x": 13.283370078543921,
+                "y": 1.0167566914912003,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "tjIVPO8Q1X_JnaWT": {
+                "type": "point",
+                "id": "tjIVPO8Q1X_JnaWT",
+                "x": 3.05457056359045,
+                "y": 5.0000000000000036,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "FY4ewWotPFlr3-US": {
+                "type": "polygon",
+                "id": "FY4ewWotPFlr3-US",
+                "points": [
                   "9cAuxiw2ndajVHuD",
                   "UPIzfRJaGlsEgbtv"
                 ],
-                "properties": {
-                  "id": "FY4ewWotPFlr3-US"
-                }
-              },
-              {
-                "type": "comment",
-                "parents": [
-                  null,
-                  null
+                "labelOption": "none",
+                "labels": [
+                  {
+                    "id": "UPIzfRJaGlsEgbtv::9cAuxiw2ndajVHuD",
+                    "option": "label",
+                    "name": "C"
+                  }
                 ],
-                "properties": {
-                  "id": "8n_3IG-99NmQJuh6",
-                  "text": "a",
-                  "anchor": "SDKYGHjpgo7Dtg3W"
-                }
-              },
-              {
-                "type": "comment",
-                "parents": [
-                  -2.159159044008786,
-                  1.1925261720602442
-                ],
-                "properties": {
-                  "id": "hxf8zhkkkvS3OeyM",
-                  "text": "b",
-                  "anchor": "lShMG5Ol5PFE2NEF"
-                }
-              },
-              {
-                "type": "comment",
-                "parents": [
-                  0.2139358968492875,
-                  1.1334615325880169
-                ],
-                "properties": {
-                  "id": "4_4bUZoN_qdWPPiV",
-                  "text": "c",
-                  "anchor": "FY4ewWotPFlr3-US"
-                }
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         }
       ],
@@ -472,340 +656,338 @@
         "title": "Inequality to make a quadrilateral",
         "content": {
           "type": "Expression",
-          "latexStr": "b+c+d<a"
+          "latexStr": "b+c+d>a"
         }
       },
       {
-        "id": "VCekM05a1SFj8GnC",
-        "title": "Quadrilateral with b+c+d<a",
+        "id": "-Qo0buKRQOIzd7lV",
+        "title": "Quadrilateral with b+c+d>a",
         "content": {
           "type": "Geometry",
           "board": {
-            "properties": {
-              "axisMin": [
-                -2,
-                -1
-              ],
-              "axisRange": [
-                26.23,
-                17.486
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -2,
+              "unit": 18.299656881433474,
+              "range": 26.23
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -1,
+              "unit": 18.30035456936978,
+              "range": 17.486
             }
           },
-          "objects": [
-            {
-              "type": "point",
-              "parents": [
-                2.052378860259852,
-                4.998930253854005
+          "objects": {
+            "pkVPPk5Kcysaz2Db": {
+              "type": "comment",
+              "id": "pkVPPk5Kcysaz2Db",
+              "anchors": [
+                "xkGKPa5A_h4xbMJ4"
               ],
-              "properties": {
-                "id": "U1BRnDbXs5rZexrQ",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "text": "c"
             },
-            {
+            "l2DPGKgxVfkGbCkz": {
               "type": "point",
-              "parents": [
-                12.052378860259852,
-                4.998930253854005
-              ],
-              "properties": {
-                "id": "zXfYcx0Ml7oFnRnX",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "l2DPGKgxVfkGbCkz",
+              "x": 23.400000000000002,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
-              "type": "point",
-              "parents": [
-                11.052378860259852,
-                8.998930253854006
-              ],
-              "properties": {
-                "id": "-GNe9DJ1fviutXqR",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                5.052378860259852,
-                7.998930253854005
-              ],
-              "properties": {
-                "id": "8A0PaVYqb3fX1ZWo",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
+            "igA70-CLRslBK5k3": {
               "type": "polygon",
-              "parents": [
+              "id": "igA70-CLRslBK5k3",
+              "points": [
+                "pTxK0nmbuv-nglbp",
+                "IolscJZwf_hEstNL"
+              ],
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "pTxK0nmbuv-nglbp::IolscJZwf_hEstNL",
+                  "option": "length",
+                  "name": "EF"
+                },
+                {
+                  "id": "IolscJZwf_hEstNL::pTxK0nmbuv-nglbp",
+                  "option": "label",
+                  "name": "A"
+                }
+              ],
+              "colorScheme": 0
+            },
+            "-GNe9DJ1fviutXqR": {
+              "type": "point",
+              "id": "-GNe9DJ1fviutXqR",
+              "x": 11.052378860259852,
+              "y": 8.998930253854006,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "lqTsu7DPVj-9QVTB": {
+              "type": "comment",
+              "id": "lqTsu7DPVj-9QVTB",
+              "x": 0.4764544638345569,
+              "y": -2.3868291360686467,
+              "anchors": [
+                "igA70-CLRslBK5k3"
+              ],
+              "text": ""
+            },
+            "nwPLnqlBfjieTPYe": {
+              "type": "comment",
+              "id": "nwPLnqlBfjieTPYe",
+              "anchors": [
+                "BosLPF8XehdX9r-u"
+              ],
+              "text": "d"
+            },
+            "IolscJZwf_hEstNL": {
+              "type": "point",
+              "id": "IolscJZwf_hEstNL",
+              "x": 28.976604838468827,
+              "y": 4.010131138958168,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "lFJV2dzo2Qd2okx2": {
+              "type": "point",
+              "id": "lFJV2dzo2Qd2okx2",
+              "x": 23.431645833333334,
+              "y": 7.054643749999999,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "JsCWIsgvwzvt9Aa3": {
+              "type": "polygon",
+              "id": "JsCWIsgvwzvt9Aa3",
+              "points": [
+                "qfHf8rKZJ18Miwvg",
+                "l2DPGKgxVfkGbCkz"
+              ],
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "qfHf8rKZJ18Miwvg::l2DPGKgxVfkGbCkz",
+                  "option": "length",
+                  "name": "GH"
+                },
+                {
+                  "id": "l2DPGKgxVfkGbCkz::qfHf8rKZJ18Miwvg",
+                  "option": "label",
+                  "name": "B"
+                }
+              ],
+              "colorScheme": 0
+            },
+            "Kn8heMy0avyxP0Lw": {
+              "type": "comment",
+              "id": "Kn8heMy0avyxP0Lw",
+              "x": 1.6527325144843594,
+              "y": 2.478427955673472,
+              "anchors": [
+                "zXfYcx0Ml7oFnRnX"
+              ],
+              "text": ""
+            },
+            "ZoQRe_vcCecBS4UH": {
+              "type": "comment",
+              "id": "ZoQRe_vcCecBS4UH",
+              "x": -2.955878976276614,
+              "y": -0.5305139132811458,
+              "anchors": [
+                "8A0PaVYqb3fX1ZWo"
+              ],
+              "text": ""
+            },
+            "TXpeDtQtOd0ea2Lx": {
+              "type": "polygon",
+              "id": "TXpeDtQtOd0ea2Lx",
+              "points": [
                 "U1BRnDbXs5rZexrQ",
                 "zXfYcx0Ml7oFnRnX",
                 "-GNe9DJ1fviutXqR",
                 "8A0PaVYqb3fX1ZWo"
               ],
-              "properties": {
-                "id": "TXpeDtQtOd0ea2Lx"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                18.984107364363286,
-                4.010604247110479
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "U1BRnDbXs5rZexrQ::8A0PaVYqb3fX1ZWo",
+                  "option": "label",
+                  "name": "B"
+                },
+                {
+                  "id": "U1BRnDbXs5rZexrQ::zXfYcx0Ml7oFnRnX",
+                  "option": "length",
+                  "name": "AB"
+                },
+                {
+                  "id": "zXfYcx0Ml7oFnRnX::-GNe9DJ1fviutXqR",
+                  "option": "length",
+                  "name": "BC"
+                },
+                {
+                  "id": "-GNe9DJ1fviutXqR::8A0PaVYqb3fX1ZWo",
+                  "option": "label",
+                  "name": "C"
+                },
+                {
+                  "id": "zXfYcx0Ml7oFnRnX::U1BRnDbXs5rZexrQ",
+                  "option": "label",
+                  "name": "A"
+                },
+                {
+                  "id": "-GNe9DJ1fviutXqR::zXfYcx0Ml7oFnRnX",
+                  "option": "label",
+                  "name": "D"
+                }
               ],
-              "properties": {
-                "id": "pTxK0nmbuv-nglbp",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "colorScheme": 0
             },
-            {
+            "zXfYcx0Ml7oFnRnX": {
               "type": "point",
-              "parents": [
-                28.976604838468827,
-                4.010131138958168
-              ],
-              "properties": {
-                "id": "IolscJZwf_hEstNL",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "zXfYcx0Ml7oFnRnX",
+              "x": 12.052378860259852,
+              "y": 4.998930253854005,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "8zmd-aP8ym9FqUtn": {
+              "type": "comment",
+              "id": "8zmd-aP8ym9FqUtn",
+              "x": 5.38632433410808,
+              "y": -0.9730692157693319,
+              "anchors": [
+                "U1BRnDbXs5rZexrQ"
+              ],
+              "text": ""
+            },
+            "U1BRnDbXs5rZexrQ": {
+              "type": "point",
+              "id": "U1BRnDbXs5rZexrQ",
+              "x": 2.052378860259852,
+              "y": 4.998930253854005,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "BosLPF8XehdX9r-u": {
               "type": "polygon",
-              "parents": [
-                "pTxK0nmbuv-nglbp",
-                "IolscJZwf_hEstNL"
-              ],
-              "properties": {
-                "id": "igA70-CLRslBK5k3"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                null,
-                null
-              ],
-              "properties": {
-                "id": "lqTsu7DPVj-9QVTB",
-                "text": "a",
-                "anchor": "igA70-CLRslBK5k3"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                3.207515694367931,
-                -1.0287827119153268
-              ],
-              "properties": {
-                "id": "8zmd-aP8ym9FqUtn",
-                "text": "a",
-                "anchor": "U1BRnDbXs5rZexrQ"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                -3.495312616016763,
-                -0.7501586594271403
-              ],
-              "properties": {
-                "id": "ZoQRe_vcCecBS4UH",
-                "text": "b",
-                "anchor": "8A0PaVYqb3fX1ZWo"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                -3.9518765194110497,
-                1.2802815968950512
-              ],
-              "properties": {
-                "id": "KrsPurqSzUGCQjGR",
-                "text": "c",
-                "anchor": "-GNe9DJ1fviutXqR"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                1.2225905414108773,
-                1.6577019595274765
-              ],
-              "properties": {
-                "id": "Kn8heMy0avyxP0Lw",
-                "text": "d",
-                "anchor": "zXfYcx0Ml7oFnRnX"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                19.200000000000003,
-                7
-              ],
-              "properties": {
-                "id": "qfHf8rKZJ18Miwvg",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                23.400000000000002,
-                7
-              ],
-              "properties": {
-                "id": "l2DPGKgxVfkGbCkz",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "qfHf8rKZJ18Miwvg",
-                "l2DPGKgxVfkGbCkz"
-              ],
-              "properties": {
-                "id": "JsCWIsgvwzvt9Aa3"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                null,
-                null
-              ],
-              "properties": {
-                "id": "Vp_efVifntEisfJu",
-                "text": "b",
-                "anchor": "JsCWIsgvwzvt9Aa3"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                26.041622535265525,
-                7.043532052149419
-              ],
-              "properties": {
-                "id": "lFJV2dzo2Qd2okx2",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                30.061989076091205,
-                7.01960344123464
-              ],
-              "properties": {
-                "id": "qCxlJvIiffn-Dijp",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
+              "id": "BosLPF8XehdX9r-u",
+              "points": [
                 "lFJV2dzo2Qd2okx2",
                 "qCxlJvIiffn-Dijp"
               ],
-              "properties": {
-                "id": "BosLPF8XehdX9r-u"
-              }
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "lFJV2dzo2Qd2okx2::qCxlJvIiffn-Dijp",
+                  "option": "label",
+                  "name": "C"
+                }
+              ],
+              "colorScheme": 0
             },
-            {
+            "Vp_efVifntEisfJu": {
               "type": "comment",
-              "parents": [
-                null,
-                null
+              "id": "Vp_efVifntEisfJu",
+              "anchors": [
+                "JsCWIsgvwzvt9Aa3"
               ],
-              "properties": {
-                "id": "nwPLnqlBfjieTPYe",
-                "text": "d",
-                "anchor": "BosLPF8XehdX9r-u"
-              }
+              "text": ""
             },
-            {
-              "type": "point",
-              "parents": [
-                18.900000000000002,
-                10
-              ],
-              "properties": {
-                "id": "0lCPZn9e2s8b7fcY",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                24.993065458796224,
-                10.01053487456343
-              ],
-              "properties": {
-                "id": "1ZZ8TlUcXXTfW57X",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
+            "xkGKPa5A_h4xbMJ4": {
               "type": "polygon",
-              "parents": [
+              "id": "xkGKPa5A_h4xbMJ4",
+              "points": [
                 "0lCPZn9e2s8b7fcY",
                 "1ZZ8TlUcXXTfW57X"
               ],
-              "properties": {
-                "id": "xkGKPa5A_h4xbMJ4"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                null,
-                null
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "0lCPZn9e2s8b7fcY::1ZZ8TlUcXXTfW57X",
+                  "option": "label",
+                  "name": "D"
+                }
               ],
-              "properties": {
-                "id": "pkVPPk5Kcysaz2Db",
-                "text": "c",
-                "anchor": "xkGKPa5A_h4xbMJ4"
-              }
+              "colorScheme": 0
+            },
+            "qfHf8rKZJ18Miwvg": {
+              "type": "point",
+              "id": "qfHf8rKZJ18Miwvg",
+              "x": 19.200000000000003,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "0lCPZn9e2s8b7fcY": {
+              "type": "point",
+              "id": "0lCPZn9e2s8b7fcY",
+              "x": 27.5263125,
+              "y": 7.121375,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "8A0PaVYqb3fX1ZWo": {
+              "type": "point",
+              "id": "8A0PaVYqb3fX1ZWo",
+              "x": 5.052378860259852,
+              "y": 7.998930253854005,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "qCxlJvIiffn-Dijp": {
+              "type": "point",
+              "id": "qCxlJvIiffn-Dijp",
+              "x": 27.531645833333336,
+              "y": 7.054643749999999,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "1ZZ8TlUcXXTfW57X": {
+              "type": "point",
+              "id": "1ZZ8TlUcXXTfW57X",
+              "x": 33.6263125,
+              "y": 7.121375,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "KrsPurqSzUGCQjGR": {
+              "type": "comment",
+              "id": "KrsPurqSzUGCQjGR",
+              "x": -2.7566928796709007,
+              "y": 1.1174200930410443,
+              "anchors": [
+                "-GNe9DJ1fviutXqR"
+              ],
+              "text": ""
+            },
+            "pTxK0nmbuv-nglbp": {
+              "type": "point",
+              "id": "pTxK0nmbuv-nglbp",
+              "x": 18.984107364363286,
+              "y": 4.010604247110479,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -820,348 +1002,331 @@
       },
       {
         "id": "dlQR_DIbRD7f9sl1",
-        "title": "Another quadrilateral with b+c+d<a",
+        "title": "Another quadrilateral with b+c+d>a",
         "content": {
           "type": "Geometry",
           "board": {
-            "properties": {
-              "axisMin": [
-                -2,
-                -1
-              ],
-              "axisRange": [
-                26.23,
-                17.486
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -2,
+              "unit": 18.299656881433474,
+              "range": 26.23
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -1,
+              "unit": 18.30035456936978,
+              "range": 17.486
             }
           },
-          "objects": [
-            {
-              "type": "point",
-              "parents": [
-                2.052378860259852,
-                4.998930253854005
+          "objects": {
+            "pkVPPk5Kcysaz2Db": {
+              "type": "comment",
+              "id": "pkVPPk5Kcysaz2Db",
+              "anchors": [
+                "xkGKPa5A_h4xbMJ4"
               ],
-              "properties": {
-                "id": "U1BRnDbXs5rZexrQ",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "text": "c"
             },
-            {
+            "l2DPGKgxVfkGbCkz": {
               "type": "point",
-              "parents": [
-                12.052378860259852,
-                4.998930253854005
-              ],
-              "properties": {
-                "id": "zXfYcx0Ml7oFnRnX",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "l2DPGKgxVfkGbCkz",
+              "x": 23.400000000000002,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
-              "type": "point",
-              "parents": [
-                11.052378860259852,
-                8.998930253854006
-              ],
-              "properties": {
-                "id": "-GNe9DJ1fviutXqR",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                6.300000000000001,
-                5.300000000000001
-              ],
-              "properties": {
-                "id": "8A0PaVYqb3fX1ZWo",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
+            "igA70-CLRslBK5k3": {
               "type": "polygon",
-              "parents": [
+              "id": "igA70-CLRslBK5k3",
+              "points": [
+                "pTxK0nmbuv-nglbp",
+                "IolscJZwf_hEstNL"
+              ],
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "pTxK0nmbuv-nglbp::IolscJZwf_hEstNL",
+                  "option": "length",
+                  "name": "EF"
+                },
+                {
+                  "id": "IolscJZwf_hEstNL::pTxK0nmbuv-nglbp",
+                  "option": "label",
+                  "name": "A"
+                }
+              ],
+              "colorScheme": 0
+            },
+            "-GNe9DJ1fviutXqR": {
+              "type": "point",
+              "id": "-GNe9DJ1fviutXqR",
+              "x": 11.052378860259852,
+              "y": 8.998930253854006,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "lqTsu7DPVj-9QVTB": {
+              "type": "comment",
+              "id": "lqTsu7DPVj-9QVTB",
+              "anchors": [
+                "igA70-CLRslBK5k3"
+              ],
+              "text": ""
+            },
+            "nwPLnqlBfjieTPYe": {
+              "type": "comment",
+              "id": "nwPLnqlBfjieTPYe",
+              "anchors": [
+                "BosLPF8XehdX9r-u"
+              ],
+              "text": "d"
+            },
+            "IolscJZwf_hEstNL": {
+              "type": "point",
+              "id": "IolscJZwf_hEstNL",
+              "x": 28.976604838468827,
+              "y": 4.010131138958168,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "lFJV2dzo2Qd2okx2": {
+              "type": "point",
+              "id": "lFJV2dzo2Qd2okx2",
+              "x": 23.431645833333334,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "JsCWIsgvwzvt9Aa3": {
+              "type": "polygon",
+              "id": "JsCWIsgvwzvt9Aa3",
+              "points": [
+                "qfHf8rKZJ18Miwvg",
+                "l2DPGKgxVfkGbCkz"
+              ],
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "qfHf8rKZJ18Miwvg::l2DPGKgxVfkGbCkz",
+                  "option": "length",
+                  "name": "GH"
+                },
+                {
+                  "id": "l2DPGKgxVfkGbCkz::qfHf8rKZJ18Miwvg",
+                  "option": "label",
+                  "name": "B"
+                }
+              ],
+              "colorScheme": 0
+            },
+            "Kn8heMy0avyxP0Lw": {
+              "type": "comment",
+              "id": "Kn8heMy0avyxP0Lw",
+              "x": 2.5200411542245096,
+              "y": -0.8537710481805343,
+              "anchors": [
+                "zXfYcx0Ml7oFnRnX"
+              ],
+              "text": ""
+            },
+            "ZoQRe_vcCecBS4UH": {
+              "type": "comment",
+              "id": "ZoQRe_vcCecBS4UH",
+              "x": -2.063611727477139,
+              "y": 1.4422996990246935,
+              "anchors": [
+                "8A0PaVYqb3fX1ZWo"
+              ],
+              "text": ""
+            },
+            "TXpeDtQtOd0ea2Lx": {
+              "type": "polygon",
+              "id": "TXpeDtQtOd0ea2Lx",
+              "points": [
                 "U1BRnDbXs5rZexrQ",
                 "zXfYcx0Ml7oFnRnX",
                 "-GNe9DJ1fviutXqR",
                 "8A0PaVYqb3fX1ZWo"
               ],
-              "properties": {
-                "id": "TXpeDtQtOd0ea2Lx"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                18.984107364363286,
-                4.010604247110479
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "-GNe9DJ1fviutXqR::8A0PaVYqb3fX1ZWo",
+                  "option": "label",
+                  "name": "C"
+                },
+                {
+                  "id": "zXfYcx0Ml7oFnRnX::-GNe9DJ1fviutXqR",
+                  "option": "length",
+                  "name": "BC"
+                },
+                {
+                  "id": "U1BRnDbXs5rZexrQ::zXfYcx0Ml7oFnRnX",
+                  "option": "length",
+                  "name": "AB"
+                },
+                {
+                  "id": "U1BRnDbXs5rZexrQ::8A0PaVYqb3fX1ZWo",
+                  "option": "label",
+                  "name": "B"
+                },
+                {
+                  "id": "zXfYcx0Ml7oFnRnX::U1BRnDbXs5rZexrQ",
+                  "option": "label",
+                  "name": "A"
+                },
+                {
+                  "id": "-GNe9DJ1fviutXqR::zXfYcx0Ml7oFnRnX",
+                  "option": "label",
+                  "name": "D"
+                }
               ],
-              "properties": {
-                "id": "pTxK0nmbuv-nglbp",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "colorScheme": 0
             },
-            {
+            "zXfYcx0Ml7oFnRnX": {
               "type": "point",
-              "parents": [
-                28.976604838468827,
-                4.010131138958168
-              ],
-              "properties": {
-                "id": "IolscJZwf_hEstNL",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "zXfYcx0Ml7oFnRnX",
+              "x": 12.052378860259852,
+              "y": 4.998930253854005,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "8zmd-aP8ym9FqUtn": {
+              "type": "comment",
+              "id": "8zmd-aP8ym9FqUtn",
+              "x": 5.277032667441414,
+              "y": -0.8091379657693318,
+              "anchors": [
+                "U1BRnDbXs5rZexrQ"
+              ],
+              "text": ""
+            },
+            "U1BRnDbXs5rZexrQ": {
+              "type": "point",
+              "id": "U1BRnDbXs5rZexrQ",
+              "x": 2.052378860259852,
+              "y": 4.998930253854005,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "BosLPF8XehdX9r-u": {
               "type": "polygon",
-              "parents": [
-                "pTxK0nmbuv-nglbp",
-                "IolscJZwf_hEstNL"
-              ],
-              "properties": {
-                "id": "igA70-CLRslBK5k3"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                null,
-                null
-              ],
-              "properties": {
-                "id": "lqTsu7DPVj-9QVTB",
-                "text": "a",
-                "anchor": "igA70-CLRslBK5k3"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                3.207515694367931,
-                -1.0287827119153268
-              ],
-              "properties": {
-                "id": "8zmd-aP8ym9FqUtn",
-                "text": "a",
-                "anchor": "U1BRnDbXs5rZexrQ"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                -2.9379450608104722,
-                1.1144371990246933
-              ],
-              "properties": {
-                "id": "ZoQRe_vcCecBS4UH",
-                "text": "b",
-                "anchor": "8A0PaVYqb3fX1ZWo"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                -4.030013436352952,
-                -0.5822949673586137
-              ],
-              "properties": {
-                "id": "KrsPurqSzUGCQjGR",
-                "text": "c",
-                "anchor": "-GNe9DJ1fviutXqR"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                1.2225905414108773,
-                1.6577019595274765
-              ],
-              "properties": {
-                "id": "Kn8heMy0avyxP0Lw",
-                "text": "d",
-                "anchor": "zXfYcx0Ml7oFnRnX"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                19.200000000000003,
-                7
-              ],
-              "properties": {
-                "id": "qfHf8rKZJ18Miwvg",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                23.400000000000002,
-                7
-              ],
-              "properties": {
-                "id": "l2DPGKgxVfkGbCkz",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "qfHf8rKZJ18Miwvg",
-                "l2DPGKgxVfkGbCkz"
-              ],
-              "properties": {
-                "id": "JsCWIsgvwzvt9Aa3"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                null,
-                null
-              ],
-              "properties": {
-                "id": "Vp_efVifntEisfJu",
-                "text": "b",
-                "anchor": "JsCWIsgvwzvt9Aa3"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                26.041622535265525,
-                7.043532052149419
-              ],
-              "properties": {
-                "id": "lFJV2dzo2Qd2okx2",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                30.061989076091205,
-                7.01960344123464
-              ],
-              "properties": {
-                "id": "qCxlJvIiffn-Dijp",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
+              "id": "BosLPF8XehdX9r-u",
+              "points": [
                 "lFJV2dzo2Qd2okx2",
                 "qCxlJvIiffn-Dijp"
               ],
-              "properties": {
-                "id": "BosLPF8XehdX9r-u"
-              }
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "lFJV2dzo2Qd2okx2::qCxlJvIiffn-Dijp",
+                  "option": "label",
+                  "name": "C"
+                }
+              ],
+              "colorScheme": 0
             },
-            {
+            "Vp_efVifntEisfJu": {
               "type": "comment",
-              "parents": [
-                null,
-                null
+              "id": "Vp_efVifntEisfJu",
+              "anchors": [
+                "JsCWIsgvwzvt9Aa3"
               ],
-              "properties": {
-                "id": "nwPLnqlBfjieTPYe",
-                "text": "d",
-                "anchor": "BosLPF8XehdX9r-u"
-              }
+              "text": ""
             },
-            {
-              "type": "point",
-              "parents": [
-                18.900000000000002,
-                10
-              ],
-              "properties": {
-                "id": "0lCPZn9e2s8b7fcY",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                24.993065458796224,
-                10.01053487456343
-              ],
-              "properties": {
-                "id": "1ZZ8TlUcXXTfW57X",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
+            "xkGKPa5A_h4xbMJ4": {
               "type": "polygon",
-              "parents": [
+              "id": "xkGKPa5A_h4xbMJ4",
+              "points": [
                 "0lCPZn9e2s8b7fcY",
                 "1ZZ8TlUcXXTfW57X"
               ],
-              "properties": {
-                "id": "xkGKPa5A_h4xbMJ4"
-              }
-            },
-            {
-              "type": "comment",
-              "parents": [
-                null,
-                null
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "0lCPZn9e2s8b7fcY::1ZZ8TlUcXXTfW57X",
+                  "option": "label",
+                  "name": "D"
+                }
               ],
-              "properties": {
-                "id": "pkVPPk5Kcysaz2Db",
-                "text": "c",
-                "anchor": "xkGKPa5A_h4xbMJ4"
-              }
+              "colorScheme": 0
             },
-            {
+            "qfHf8rKZJ18Miwvg": {
               "type": "point",
-              "parents": [
-                33.180140521825656,
-                12.84841498768268
+              "id": "qfHf8rKZJ18Miwvg",
+              "x": 19.200000000000003,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "0lCPZn9e2s8b7fcY": {
+              "type": "point",
+              "id": "0lCPZn9e2s8b7fcY",
+              "x": 27.479395833333335,
+              "y": 6.93995,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "8A0PaVYqb3fX1ZWo": {
+              "type": "point",
+              "id": "8A0PaVYqb3fX1ZWo",
+              "x": 6.300000000000001,
+              "y": 5.300000000000001,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "qCxlJvIiffn-Dijp": {
+              "type": "point",
+              "id": "qCxlJvIiffn-Dijp",
+              "x": 27.531645833333336,
+              "y": 7,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "1ZZ8TlUcXXTfW57X": {
+              "type": "point",
+              "id": "1ZZ8TlUcXXTfW57X",
+              "x": 33.579395833333336,
+              "y": 6.93995,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "KrsPurqSzUGCQjGR": {
+              "type": "comment",
+              "id": "KrsPurqSzUGCQjGR",
+              "x": -3.8184547966128024,
+              "y": -0.8544439712126195,
+              "anchors": [
+                "-GNe9DJ1fviutXqR"
               ],
-              "properties": {
-                "id": "dxm78i9yDwevGch8",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "text": ""
+            },
+            "pTxK0nmbuv-nglbp": {
+              "type": "point",
+              "id": "pTxK0nmbuv-nglbp",
+              "x": 18.984107364363286,
+              "y": 4.010604247110479,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -1180,8 +1345,8 @@
         "title": "Non-rigid trapezoids in folding chairs",
         "content": {
           "type": "Image",
-          "url": "sad/images/ss-1.1-nwdyk-pic-2.png",
-          "filename": "sad/images/ss-1.1-nwdyk-pic-2.png"
+          "url": "sad/images/chair.jpg",
+          "filename": "sad/images/chair.jpg"
         }
       },
       {
@@ -1745,7 +1910,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Other Resources</strong></p><p><a href=\"https://drive.google.com/file/d/17LrxD4F4_mKr8_dxaGo8oHAdztC7kDv6/view?usp=sharing\">Click here to view the Family Letter for <em>Shapes and Designs</em></a></p><p><a href=\"https://drive.google.com/drive/folders/1AYWMbMHWNtAFa7T_HUjIEHTUoV6eM8II?usp=drive_link\">Click here to view other CMP4 Field Test resources for <em>Shapes and Designs</em> (including PDFs of curriculum, supporting Learning/Teaching Aids)</a></p>"
+            "<p><strong>Other Resources</strong></p><p><a href=\"https://drive.google.com/file/d/17LrxD4F4_mKr8_dxaGo8oHAdztC7kDv6/view?usp=sharing\">Click here to view the Family Letter for <em>Shapes and Designs</em></a><a href=\"https://drive.google.com/drive/folders/1AYWMbMHWNtAFa7T_HUjIEHTUoV6eM8II?usp=drive_link\"></a></p>"
           ]
         }
       }

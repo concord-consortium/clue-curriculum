@@ -5,8 +5,9 @@
   "subtitle": "Linear Expressions, Equations, and Relationships",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher", "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -34,7 +35,7 @@
       },
       {
         "id": "Geometry",
-        "title": "Shapes",
+        "title": "Coordinate Grid",
         "isTileTool": true
       },
       {
@@ -51,11 +52,6 @@
       {
         "id": "Image",
         "title": "Image",
-        "isTileTool": true
-      },
-      {
-        "id": "DataCard",
-        "title": "Data Cards",
         "isTileTool": true
       },
       {
@@ -212,102 +208,6 @@
           "tab": "sort-work",
           "label": "Class Work",
           "teacherOnly": false
-        },
-        {
-          "tab": "class-work",
-          "label": "Published Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication"
-              ],
-              "showStars": [
-                "teacher", "student"
-              ],
-              "properties": [
-                "!isTeacherDocument"
-              ]
-            },
-            {
-              "title": "Workspaces",
-              "type": "published-personal-documents",
-              "dataTestHeader": "class-work-section-personal",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "personalPublication"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ],
-              "properties": [
-                "!isTeacherDocument"
-              ]
-            },
-            {
-              "className": "section teacher published-documents",
-              "title": "Teacher",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": [
-                "publication",
-                "personalPublication"
-              ],
-              "properties": [
-                "isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section teacher published-documents",
-              "title": "Teacher",
-              "type": "teacher-supports",
-              "dataTestHeader": "supports-section-teacher-supports",
-              "dataTestItem": "supports-list-items",
-              "documentTypes": ["supportPublication"],
-              "properties": [
-                "teacherSupport",
-                "!isDeleted"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-problem-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            },
-            {
-              "className": "section problem starred",
-              "title": "Bookmarks",
-              "type": "starred-personal-documents",
-              "dataTestHeader": "class-work-section-starred",
-              "documentTypes": [
-                "publication"
-              ],
-              "properties": [
-                "starred"
-              ],
-              "showStars": [
-                "teacher",
-                "student"
-              ]
-            }
-          ]
         }
       ]
     },
@@ -390,7 +290,21 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
       },
       "graph": {
         "tools": [
@@ -404,8 +318,8 @@
           "delete"
         ],
         "defaultAxisLabels": {
-          "bottom": "x",
-          "left": "y"
+          "bottom": "Label x",
+          "left": "Label y"
         },
         "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true,
@@ -417,12 +331,11 @@
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
-      "building-up": "Building Up",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
+      "non-proportional": "Non-Proportional"
     },
     "tagPrompt": "Student Strategy"
   },

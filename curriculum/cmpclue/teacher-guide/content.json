@@ -1,0 +1,63 @@
+{
+  "code": "cmpclue",
+  "abbrevTitle": "CMP",
+  "title": "CMP Help Teacher Guide",
+  "subtitle": "",
+  "placeholderText": "Enter notes here",
+  "settings": {
+    "table": {
+      "numFormat": ".2~f"
+    }
+  },
+  "sections": {
+    "unitPlan": {
+      "initials": "UP",
+      "title": "Unit Plan",
+      "placeholder": "Work area for\nUnit Plan section"
+    },
+    "overview": {
+      "initials": "OV",
+      "title": "Overview",
+      "placeholder": "Work area for\nOverview section"
+    },
+    "launch": {
+      "initials": "LC",
+      "title": "Launch",
+      "placeholder": "Work area for\nLaunch section"
+    },
+    "explore": {
+      "initials": "EX",
+      "title": "Explore",
+      "placeholder": "Work area for\nExplore section"
+    },
+    "summarize": {
+      "initials": "SM",
+      "title": "Summarize",
+      "placeholder": "Work area for\nSummarize section"
+    }
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Introduction to CLUE",
+      "introduction": {
+        "tiles": []
+      },
+      "problems": [
+        {
+          "description": "Help",
+          "ordinal": 1,
+          "title": "Intro to CLUE",
+          "subtitle": "Working in the Collaborative Learning User Environment",
+          "sections": [
+            "investigation-1/problem-1/overview/content.json",
+            "investigation-1/problem-1/launch/content.json",
+            "investigation-1/problem-1/explore/content.json",
+            "investigation-1/problem-1/summarize/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

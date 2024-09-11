@@ -5,8 +5,10 @@
   "subtitle": "Quadratic Functions and Expressions",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -23,13 +25,12 @@
       },
       {
         "id": "Graph",
-        "title": "Data Graph",
-        "iconId": "icon-plot-tool",
+        "title": "Graph",
         "isTileTool": true
       },
       {
         "id": "Geometry",
-        "title": "Geometry Graph",
+        "title": "Coordinate Grid",
         "isTileTool": true
       },
       {
@@ -49,16 +50,21 @@
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -133,21 +139,54 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
-      "building-up": "Building Up",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
-      },
-     "tagPrompt": "Select Student Strategy"
+      "non-proportional": "Non-Proportional"
+    },
+    "tagPrompt": "Select Student Strategy"
   },
   "sections": {
     "introduction": {

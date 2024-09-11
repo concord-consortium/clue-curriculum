@@ -5,8 +5,10 @@
   "subtitle": "Three-Dimensional Measurement",
   "config": {
     "enableHistoryRoles": [
-      "teacher"
+      "teacher",
+      "student"
     ],
+    "disablePublish": true,
     "placeholderText": "Enter notes here",
     "toolbar": [
       {
@@ -28,12 +30,17 @@
       },
       {
         "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
         "title": "Graph",
         "isTileTool": true
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -41,19 +48,28 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
-        "isTileTool": true
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "hide-annotations",
+        "title": "Hide Sparrows",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -79,6 +95,126 @@
         "isTileTool": false
       }
     ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+            {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        }
+      ]
+    },
     "stamps": [
       {
         "url": "faw/stamps/black-chip.png",
@@ -128,25 +264,54 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "Geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
       },
-      "datacard": { 
-        "tools": ["duplicate", "link-tile", "merge-in",
-          ["data-set-view", "Table"], "image-upload", "delete-attribute"]
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
       }
     },
     "showCommentTag": true,
     "commentTags": {
       "part-to-part": "Part-to-Part",
       "part-to-whole": "Part-to-Whole",
-      "unit-rate": "Unit Rate",
-      "ratios": "Ratios of Same Variable",
-      "common-parts": "Common Part or Whole",
-      "building-up": "Building Up",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
-      "other-nonproportional": "Other - Nonproportional"
+      "non-proportional": "Non-Proportional"
     },
-    "tagPrompt": "Select Student Strategy"
+    "tagPrompt": "Student Strategy"
   },
   "sections": {
     "introduction": {
@@ -277,19 +442,142 @@
             "investigation-1/problem-1/initialChallenge/content.json",
             "investigation-1/problem-1/whatIf/content.json",
             "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "phQ7dxmtMmoQHxGk",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.1 How Big Are Those Boxes? Finding Volume</strong></p><p>The goal of the first Problem of the Unit is to provide a setting for diagnosis and review of basic student understandings about surface area and volume, with a focus on right rectangular prisms.  In the Initial Challenge students will analyze measurements that you would use when working with rectangular shipping containers. In the What If Situations students will look at filling the shipping containers with boxes.  </p><p><strong>NWDYK</strong></p><p>Describe a strategy for finding the volume of a rectangular prism.  Explain why it works.</p><p><strong>Arc of Learning</strong></p><p>Introduction, Explore, Analysis</p><p><strong>Key Terms</strong></p><p>Rectangular Prism</p><p><strong>Materials</strong></p><p>Learning Aid 1.1: Measurement</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A </strong>#1-3</p><p><strong>C </strong>#13-19</p><p><strong>E </strong>#26-27</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "SkDLNKfzc0DeBZVN",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In earlier grades, students explored areas of polygons and volumes and surface areas of rectangular prisms.  Ask students to point to objects in the classroom with different shapes.  Ask them how they could calculate the surface areas or volumes of these figures.</p><p>PRESENTING THE CHALLENGE</p><p><strong>Suggested Questions:</strong></p><ul><li>Have you seen live or other pictures of container ships like in the student edition introduction? </li><li>What measurements would help you decide how you might use the container for shipping or storage?</li><li>Why would I want to think about these things? </li></ul><p>Explain that today they are going to look at shipping and packaging containers and think about surface area and volume.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "ydaOUczpMF2KZRZm",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Language</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Monitor student progress on the Problem, making sure to press students for explanations of their reasoning in every case. </p><p><strong>Suggested Questions:</strong></p><ul><li>For the Initial Challenge- how would you see this item going into or creating the shipping container?  Does this help you in thinking about the measurements needed?  </li><li>For the final item in the Initial Challenge- What if the box of textbooks was similar to the shipping container?  Not similar?  </li><li>For What It Situation A or B- Would having cubes be helpful? </li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR SUMMARY</p><p>As you are circulating during the Explore, observe how students are finding the volume of rectangular prisms - <em>l x w x h</em>; finding the area of the base and then multiplying it by the number of layers; counting the number of cubes to fill the prism; etc.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "pbckDthxkWQV-6uu",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES</p><p>Discuss the measurements needed for any of the items in the Initial Challenge that were generating the most discussion during the explore.  </p><p>Discuss the strategies students have for finding volume.  Assist students in making connections between the strategies that are shared.  </p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>When was length an important measurement in the Initial Challenge? Why? Width? Height? Diagonal? Surface Area? Volume?</li><li>How did you find the volume for the shipping containers in What If A?  </li><li>How did you decide the number of boxes of basketballs that would fit into the shipping container in What If Situation B?  </li><li>To go further with What If Situation B- If a large box held 25 cubical basketball boxes with no space left over, do you think you could get more balls in the box if you took them out of their packages?  Why or why not?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.2",
           "ordinal": 2,
-          "title": "FAW 1.2 Optimal Containers",
+          "title": "FAW 1.2 How Big are those Boxes",
           "subtitle": "Finding the Least Surface Area",
           "sections": [
             "investigation-1/problem-2/introduction/content.json",
             "investigation-1/problem-2/initialChallenge/content.json",
             "investigation-1/problem-2/whatIf/content.json",
             "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "FXxdt8htQzqJsVuz",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.2 How Big Are Those Boxes? Finding the Least Surface Area</strong></p><p>In the Initial Challenge students investigate a toy company packaging Mug Wump characters into large rectangular shaped prisms.  Each prism holds 24 cube shaped boxes.  The students investigate all the ways to arrange the boxes and analyze which arrangements take the most packaging material.  What If Situation A has students analyze more boxes to generalize which configurations take the least amount of packaging.  What If Situation B looks at expressions for finding volume and surface area of rectangular prisms.  </p><p><strong>NWDYK</strong></p><p>Describe the dimensions of the rectangular prism that has the least surface area for a given volume. </p><p><strong>Arc of Learning</strong></p><p>Introduction, Explore, Analysis</p><p><strong>Materials</strong></p><p>Learning Aid 1.2: Packing Cubes in a Rectangular Prism</p><p>Centimeter or inch cubes</p><p>Centimeter or inch grid paper (optional)</p><p><strong>Pacing</strong></p><p>1-2 Days</p><p><strong>Groups</strong></p><p>2</p><p><strong>A </strong>#4-8</p><p><strong>C </strong>#19-22</p><p><strong>E</strong> #28</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "nO0f1V85OTVsO6Cg",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Launch this Problem by building on the basketball packing in What If Situation B of Problem 1.1. The collector set box context is mathematically the same. This problem uses a smaller object so that the exploration can be supported by hands-on work with the blocks in the classroom.</p><p><em>Teacher Moves: This problem may take 2 days. If students need time to explore the Initial Challenge by building and/or sketching the boxes allow that time to deepen their understanding of the concept of surface area changing with a fixed volume.</em></p><p>PRESENTING THE CHALLENGE</p><p>Introduce the context of the toy company planning to market a Wump Family and Imposter Characters collector set. Explain that they will look at all the possible configurations for the 24 cube set. Sketching three-dimensional figures (and applying dimensions to the edges) can be a bit tricky, so you might give a sample sketch before students start on the Problem.</p><p><strong>Suggested Question:</strong></p><ul><li>What do you think are the dimensions of a box that will hold 24 of the cubes but be the least expensive to make?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "T1h1trqM7Lv9tuM2",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Language, Portrayal</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Observe how they are calculating surface area. As you listen to students talk and ask them questions, encourage the use of the vocabulary: surface area and volume. </p><p>Encourage students to find ways to ensure that they have found all the boxes with whole-number dimensions. </p><p><strong>Suggested Questions:</strong></p><ul><li>Have you considered all the faces of this arrangement of the cubes?  </li><li>How are you finding the area of each face of the arrangement of the cubes? </li><li>Do you have all the possible arrangements?  How do you know? </li><li>What is your strategy for sketching the arrangements?</li></ul><p>To move conversations in groups forward on Situation B, suggest that the students replace the letters with the words and talk through the suggested patterns to help them decide if they agree or disagree with the suggested patterns.</p><p><em>Teacher Moves: Selecting and Sequencing</em></p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "3M1UMpIuE8AqpzsD",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Collect the data students recorded in their tables.  </p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>What are the dimensions of a box that holds exactly 24 cubes and has an edge length of 1? </li><li>What is the length of the base of this box? Width? Height?</li><li>How much material will cover this box? </li></ul><p>Repeat the preceding questions for other possible boxes that hold 24 cubes and have different edge lengths.  </p><ul><li>How do you know when you have all the possibilities?</li><li>Which of the boxes with a volume of 24 cubic units has the greatest surface area? What does it look like?</li><li>Which of the boxes has the least surface area? What does it look like?</li></ul><p>Have students describe their processes for finding surface area. Students should be at a point at which it is appropriate for you to model a symbolic representation of their strategies.</p><ul><li>How did you find the dimensions of the boxes in What If Situation A?  </li><li>Do you agree with Malek’s Pattern in What If Situation B?  Why or Why not?  Becky’s? Kyla’s?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 1.3",
@@ -301,7 +589,67 @@
             "investigation-1/problem-3/initialChallenge/content.json",
             "investigation-1/problem-3/whatIf/content.json",
             "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "JMEJv7D18CGMvAD9",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 1.3 Compost Containers: Scaling Up Prisms Using Proportional Reasoning</strong></p><p>In the Initial Challenge students investigate a toy company packaging Mug Wump characters into large rectangular The Initial Challenge presents the context of a 1-2-3 worm box used to decompose 0.5 pounds of garbage. Students look at what size box would be needed to double the amount of garbage to compost.  In The What If Situations they look at what happens when they multiply the dimensions of a 1-2-3 box by various scale factors.</p><p><strong>NWDYK</strong></p><p>As you change the dimensions of a rectangular prism by a certain scale factor, how do the surface area and volume of the prism change? How is creating similar rectangular prisms like creating similar rectangles? How is it different?</p><p><strong>Arc of Learning</strong></p><p>Analysis</p><p><strong>Materials</strong></p><p>Learning Aid 1.3</p><p>Similar Compost Boxes</p><p>Centimeter or inch grid paper </p><p>Scissors</p><p>Tape</p><p>Wooden Blocks (optional)</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-4</p><p><strong>A </strong>#9-12</p><p><strong>C </strong>#23-25</p><p><strong>E</strong> #29-30</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "un2xUNETLWBVxyL9",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In the previous Problem, students investigated shapes of rectangular prisms that have a fixed volume and found that the one with the most cube-like shape has the least surface area. In this Problem, students will investigate the effects of doubling, tripling, etc., the dimensions on the volume and surface area of a rectangular prism.</p><p>PRESENTING THE CHALLENGE</p><p>Ask students to share their experiences with composting. Then review the directions for the 1-2-3 box given in the Introduction to the problem in the Student Edition. Tell the story of the Science Club’s compost box. Using <strong>Centimeter or Inch Grid paper</strong>, have students make a model of a 1-2-3 box.  Students can combine the models during the Explore or Summarize to see the effects of doubling or tripling dimensions.</p><p><strong>Suggested Question:</strong></p><ul><li>If you want to double the amount of garbage you can compost, what would be the dimensions of the new box?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "nV_T7uTcZpniDVac",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>It might help to have a supply of blocks with which students can experiment. In this case, you want blocks that are not cubes.</p><p>Be sure to monitor student calculations and give some help with sketching two‑dimensional diagrams of three‑dimensional figures. </p><p>It might be helpful to have students recall their earlier work with scaling of figures in the units<em> Stretching and Shrinking and Covering </em>and <em>Surrounding.</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore look for examples of how students are using their knowledge from <em>Stretching and Shrinking</em> to make decisions about the new compost boxes. If you change the dimensions of a rectangular prism by a scale factor f, the surface area will change by the scale factor squared f<sup>2</sup>, and the volume will change by the scale factor cubed f<sup>3</sup>.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "4ft4GGYE4cAhZ2gV",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>The goal of the Summary will be to answer the question, “If you scale a box by a factor of f, how will the surface area and volume change?” Students should be able to give at least informal reasoning supporting their answers. It is not expected that a formal algebraic proof using the surface area and volume formulas will be used by students at this time.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>What is the surface area of a 1-2-3 box? Volume? </li><li>To what feature of the box does the amount of garbage that is decomposed each day relate? </li><li>If you double the amount of garbage, what feature of the 1-2-3 box will you need to double?  </li><li>If you double the dimensions of the 1-2-3 box, will you also double the amount of garbage it can decompose? </li><li>What are the possible dimensions of a box that will double the amount of garbage of the 1-2-3 box? </li><li>Are the boxes that will double the amount of garbage similar to the 1-2-3 box? </li><li>In What If Situation C do you agree with Maxie, Stewart or Wong?  Why or why not?  </li><li>If you triple each dimension of a 1-2-3 box, what happens to the surface area? </li><li>How do you find the dimensions of a box similar to the 1-2-3 box when you know that the surface area is 1,024 ft2? </li><li>Suppose the scale factor is f.  How would you find the dimensions, surface area, and volume of a box similar to the 1-2-3 box?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -320,7 +668,67 @@
             "investigation-2/problem-1/initialChallenge/content.json",
             "investigation-2/problem-1/whatIf/content.json",
             "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "qIWEloszMP0WwMMq",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.1 Folding Paper Experiment:  Surface Area and Volume of Right Prisms</strong></p><p>In the Initial Challenge students build 5 different prisms from the same size sheet of paper.  They find the volume and surface area of each one.  In What If Situation A students will analyze a claim on how to generalize finding volume of rectangular prisms.   Students use their findings to find the volumes of other prisms in What If Situation B.  In What If Situation C students design a prism that would have a greater volume than those they looked at in the Initial Challenge. </p><p><strong>NWDYK</strong></p><p>For a right prism with fixed height and fixed lateral area, how do the volume and surface area of the prism change as the number of sides increases?</p><p><strong>Arc of Learning</strong></p><p>Introduction, Explore</p><p><strong>Key Terms</strong></p><p>Right Prism</p><p>Regular Prism</p><p><strong>Materials</strong></p><p>Learning Aid 2.1A: Surface Area and Volume of Prisms</p><p>Learning Aid 2.1B: Prism Bases on a Grid (index card) </p><p>Learning Aid 2.1C: Prism Bases on a grid (sheet of paper)</p><p>Learning Aid 2.1c Folder </p><p>Bases of prisms on 1 inch and ½ inch grid paper</p><p>Several large index cards or sheets of paper the same size (at least 4 per student)</p><p>Scissors, tape, unit cubes, rice, rice cereal, or sand, centimeter grid paper, rulers</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-4</p><p><strong>A </strong>#1-4</p><p><strong>C </strong>#15-18</p><p><strong>E</strong> #25-26</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "_xC_kuldRY2pXumg",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Remind students that in Investigation 1, they explored the volume and surface area of rectangular prisms. In this Problem, they will explore the volume and surface area of other prisms. </p><p><em>Teacher Moves: Each student does not need to make each prism. They will just need a set of the prisms for their groups. Have students work in pairs to create one prism. Then, as a larger group, combine the different prisms to have a whole set.</em></p><p>PRESENTING THE CHALLENGE</p><p>Draw students’ attention to the four prisms in the Student Edition.</p><p><strong>Suggested Questions:</strong></p><ul><li>How are the four drawings the same?</li></ul><p>Demonstrate the directions for constructing a triangular prism from a sheet of paper or index card.  Be sure to stress the importance of making and folding them so that the shortest dimension is the height of each prism. </p><ul><li>Make a conjecture about the volumes of the prisms.  Are they the same? </li><li>Make a conjecture about the surface areas of the prisms.  Are they the same?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "iHuTRC80sWfjFKq-",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Calculating the top and bottom areas for the various prisms can be a bit tricky (especially for the pentagonal, hexagonal, and octagonal figures). Encourage students to trace the figures on grid paper and measure as carefully as possible, since the differences in areas for progressive numbers of sides are not large.</p><p>Be prepared to live with experimental results that don’t exactly fit the theoretical progression.</p><p>If students need help folding the paper into a pentagonal prism, suggest that they mark off five equal segments on both of the long edges of the paper and use the marks to make the folds. </p><p>Allow the groups to compare the volumes using any method they want.</p><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>Observe how students are describing the changes in volume and surface area.  Select students to describe in the summary how as the number of sides increases the surface area and the volume also increase.  Listen for discussions in their groups on how the area of the base becomes greater when the number of sides increases.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "-tc9LA6YXql-BZS3",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Compare Thinking</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Have different groups demonstrate and share their strategies for comparing volumes. If you have transparent containers, students can use these in the summary. If they are filling the containers with cubes or something else, the difference in volumes will be noticeable. You may want to construct a few more paper or index card prisms to use during the summary.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>A key principle to be discovered from this experimentation is that prisms with the same height and same base perimeter can have different volumes, with more sides in the base implying greater volume (because the area of the base is greater for greater numbers of sides).  The lateral area is the same for all the prisms, but the base areas differ, so the surface areas will differ.  This is generally a surprising result. </p><p><strong>Suggested Questions</strong></p><p>How does the shape change as the number of sides of the base polygon increases?</p><ul><li>Do you agree with Gabriel’s Claim in What If Situation A?</li></ul><p>Discuss strategies students used to find the volume and surface area for the prisms in What If Situation B. </p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.2",
@@ -332,7 +740,67 @@
             "investigation-2/problem-2/initialChallenge/content.json",
             "investigation-2/problem-2/whatIf/content.json",
             "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "feVBqRVdksk9IAQL",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.2 Packing a Prism: Volume of Right Prisms</strong></p><p>In the Initial Challenge students will formalize their thinking on finding the volume of right prisms.   In What If Situation A students will begin with a net and find the volume of surface area of prisms.  </p><p><strong>NWDYK</strong></p><p>Describe a general strategy for finding the volume of any right prism—triangular, rectangular, pentagonal, and so on.</p><p><strong>Arc of Learning</strong></p><p>Explore, Analysis</p><p><strong>Materials</strong></p><p>Teaching Aid 2.2 Examples of Filling the Base of Prism with Unit Cubes</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A </strong>#5-9</p><p><strong>C </strong>#19-22</p><p><strong>E</strong> #27</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "kQmez9ZeBFAYPZyf",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Remind students that, in the last Problem, they compared volumes and surface areas of prisms.  Ask students for strategies.</p><p>PRESENTING THE CHALLENGE</p><p>Ask students what measurements of a prism they would need in order to find the volume- in cases other than the familiar rectangular prism for which they know a formula.  Collect some conjectures and then introduce the Initial Challenge where they will investigate various prisms.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "1ngjqB9cIaExrP7T",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Portrayal, Language</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Encourage students to make sketches that are variations on those shown in the text. Take this opportunity to again have them observe actual models of prisms and see how the sketch matches what is seen from certain perspectives. </p><p>The vocabulary related to triangular prisms may be a bit confusing to students because the words base and height can be used in two senses—the base of the prism (which is a triangle) and the base of that triangle; and the height of the prism and the height of its triangular base. Keep an eye out for student puzzlement about these terms. </p><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore, listen for students describing how to find the volume of any right prism.  Select students to describe it as the number of unit cubes in it and/or by finding the area of the base times the height.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "7VZ0hqkSdN6SqRsz",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>As students share their work make this the focus of the conversations. Begin by having students share their strategies and solutions for the Initial Challenge.</p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>What strategy did you use to find the volume of the prisms in the Initial Challenge?</li><li>Does the triangular prism hold half the rectangular prism?  Why or Why not?  </li><li>How did you find the surface area of each prism in What If Situation A? </li><li>How did you find the volume of each prism in What If Situation A?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 2.3",
@@ -344,7 +812,67 @@
             "investigation-2/problem-3/initialChallenge/content.json",
             "investigation-2/problem-3/whatIf/content.json",
             "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "OhfrMjC7EKe5ASW4",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 2.3 Slicing Prisms and Pyramids- An Experiment</strong></p><p>In the Initial Challenge students experiment with a clay prism made from clay that they cut with the minimum number of cuts to make other prisms.  In the What If Situations students use pictures to predict shapes that would result from cutting rectangular prisms and a pyramid. </p><p><strong>NWDYK</strong></p><p>What two-dimensional shapes and three-dimensional figures can be created by slicing a rectangular prism in various directions?</p><p><strong>Arc of Learning</strong></p><p>Explore, Analysis</p><p><strong>Key Terms</strong></p><p>Pyramid</p><p><strong>Materials</strong></p><p>Optional materials: </p><p>poster paper </p><p>pastry box or shoebox</p><p>blocks of clay </p><p>clay wire cutters </p><p>3-D models of sliced prisms</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2</p><p><strong>A </strong>#10-14</p><p><strong>C </strong>#23-24</p><p><strong>E</strong> #28</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Z4CRLzJ1Fsde39b-",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In the last two Problems, students explored interesting prisms and developed strategies for finding volume and surface area.  They created prisms by folding pieces of paper. In this Problem, they will create new shapes by slicing a prism with one or more cuts.  To describe these shapes, they will use the number of vertices and edges as well as the shapes of the faces of the new solid.  </p><p>PRESENTING THE CHALLENGE</p><p>Hold up a block of clay or another object.  </p><p><strong>Suggested Questions:</strong></p><ul><li>How could making cuts in this block generate other figures?  </li><li>How would you slice this brick to make a triangular prism?  Pentagonal prism? Hexagonal prism?  </li></ul><p>Have students try to visualize the shape they want to make and the cuts they would need to make the shape.  Then, have them experiment to see if their conjectures are correct.  </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "qD5IuOZIafk-ckIe",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership, Problem Solving</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>It is a good idea to have some material for students to work with, such as blocks of clay and a clay wire cutter. You might also use bricks of firm cheese, foam blocks, or blocks of floral foam. Foam blocks can be found at most craft stores, and they come in cylinders and cones as well as rectangular prisms. </p><p>You may have students make sketches of their work on poster paper.</p><p>Push students to do mental visualization first and then check their ideas by actually cutting materials or using premade models. </p><p><strong>Suggested Questions:</strong></p><ul><li>What shape are you trying to create? </li><li>How many vertices does it have on its top face? </li><li>How might this help you in cutting the square prism to create a triangular prism? </li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore select students to discuss how they cut their clay prism in the Initial Challenge to make the various other prisms.  Select students to share the shapes and cuts needed in the What If Situations.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "tKxsUIfrHBVViSXI",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Portrayal</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Have partners share their strategies for making the prisms.  Students can share their ideas on poster paper and/or on a 3-dimensional shape. </p><p><em>Teacher Moves: Language</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>There are many ways to slice a rectangular prism to produce the triangular, pentagonal, and hexagonal prisms that are called for in the Initial Challenge. </p><p><strong>Suggested Questions:</strong></p><ul><li>What shape are you trying to create? </li><li>How many vertices does it have on its top face? </li><li>How might this help you in cutting the square prism to create a triangular prism?  </li></ul><p>(Repeat for each prism in the Initial Challenge.)</p><p>For the What If Situations, it is useful to have a brick of clay, cheese, foam, or wood that has already been sliced as shown in the Student Edition. Students can inspect these as a check on their answers about the shapes that are formed by various slices. Ask students to name both the face shapes and the solid shapes that are created by the cuts and to explain how they know that the conditions for each are satisfied. </p><ul><li>Do you have any What If questions?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -363,7 +891,67 @@
             "investigation-3/problem-1/initialChallenge/content.json",
             "investigation-3/problem-1/whatIf/content.json",
             "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "gHmTuOcifMrWD3zg",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.1 Going Around in Circles:  Circumference</strong></p><p>In the Initial Challenge students will work on an experiment finding the circumference and diameter of various circular objects and look for patterns or relationships between the measurements.  In the What If Situations they will analyze student claims about circumference and diameter and apply their understanding to new objects.  </p><p><strong>NWDYK</strong></p><p>What is the relationship between the diameter or radius of a circle and its circumference?  Describe a strategy for finding the circumference of a circle.</p><p><strong>Arc of Learning</strong></p><p>Introduction, Explore</p><p><strong>Key Terms</strong></p><p>Circumference, Diameter, Radius</p><p><strong>Materials</strong></p><p>Learning Aid 3.1: Diameter and Circumference Data</p><p>Circular objects such as plates, frisbees, clocks, basketballs, pizza pans, rolls of tape, coins, etc.</p><p>Tape measure or string and ruler or ribbon and ruler</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-4</p><p><strong>A </strong>#1-3</p><p><strong>C </strong>#18-20</p><p><strong>E</strong> #34</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "j5K_CTFrazxnd9wO",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Area and circumference of circles were addressed in the 6th grade unit, Covering and Surrounding.  This may be a quick review and/or develop a deeper understanding in these new contexts.</em></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>You may want to review strategies for finding the areas of polygons, which students developed in earlier grades and applied to finding the areas of bases and faces of prisms in this Unit.</p><p><em>Teacher Moves: Divide the tasks for What If Situation B among the groups in the class. Agency, Identity, Ownership.</em></p><p>PRESENTING THE CHALLENGE</p><p>Supply students with several circular objects such as plates, frisbees, clocks, basketballs, pizza pans, coins, etc. or have them use objects they have brought from home. You might want to have sets of objects for groups of students to measure and share with other groups. Set aside a few extra circular objects for groups to test their ideas for finding circumference. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "-pg3RoZaK0bvaazx",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Observe students to make sure they are accurately measuring the circumference and the diameter. For students who struggle with the questions in the Initial Challenge, you might suggest they compare their actual lengths of string as well as the values in their tables. </p><p>Do not feel all students must complete everything before moving on to the Summarize. What you want students to notice is that the relationship between diameter and circumference is multiplicative, and that the circumference is always a bit more than three times the diameter. </p><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore listen to students as they describe the relationship they have found between the circumference and the diameter.  Select student groups to describe their findings during the summary.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "WlMWFypd0IeHFIXS",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Language</em></p><p>SOLUTIONS AND STRATEGIES </p><p>The goal of this problem is for students to see the relationship that the circumference is a little more than 3 times the diameter for any circle.  The discussion of their work should come back to this core idea for each item discussed. </p><p>For What if Situation B, have groups share the situation they looked at and have the other groups decide if they agree or disagree with the solutions and strategies.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>If you have collected string from the groups you can begin by showing strings of circumference and diameters. Tape the string lengths so they line up at the top and hang down. </p><p><strong>Suggested Questions:</strong></p><ul><li>Look at the string you cut for a circle and compare diameter and circumference lengths. What do you notice? How are they related? </li><li>What is the ratio of circumference/diameter? </li><li>If you know the diameter, can you predict the circumference? </li><li>Does this happen with all your circles? </li><li>If you know the length of the circumference, how can you predict the length of the diameter? </li><li>What patterns did you find when you compared the circumference and diameter? </li><li>Is Maren’s claim current?  </li></ul><p>As students share the problem they worked on for What If Situation B, encourage the class to ask questions of the other groups about the context, use of π, use of circumference, etc. Modeling some of these can start the conversation.</p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.2",
@@ -375,7 +963,67 @@
             "investigation-3/problem-2/initialChallenge/content.json",
             "investigation-3/problem-2/whatIf/content.json",
             "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "5LTY99e7Nv59aa0-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.2 Testing Absorbency of Paper Towels:  Area of a Circle</strong></p><p>In the Initial Challenge students conduct an experiment to determine the absorbency of paper towels.  They put water droplets on various paper towels and measure the area of the circle that it covers. In What If Situation A they analyze various student strategies for finding the area of circles. </p><p><strong>NWDYK</strong></p><p>What is the relationship between the area of a circle and its radius? Describe a strategy for finding the area of a circle.</p><p><strong>Arc of Learning</strong></p><p>Introduction, Explore</p><p><strong>Key Terms</strong></p><p>Pi (π)</p><p><strong>Materials</strong></p><p>Learning Aid 3.2: Paper Towel Absorbency</p><p>Several different brands of paper towel, eye dropper, water (colored water is optional), transparent centimeter grids</p><p>Teaching Aid 3.2 A-C: Paper Towel Experiment Examples</p><p><strong>Pacing</strong></p><p>2 Days</p><p><strong>Groups</strong></p><p>3-4</p><p><strong>A </strong>#4-8</p><p><strong>C </strong>#21-22</p><p><strong>E</strong> #35-37</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "D02BufVDGD9pDCDP",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In Problem 3.1 students made sense that the ratio of circumference/diameter is not exactly 3 but a bit larger. In the Did You Know there is a historical description of pi that you may want to share with your students. </p><p><em>Teacher Moves: For demonstration or for students who are not able to do the experiment, Teaching Aid 3.2 A-C shows examples of liquid drips from three different experiments. Making Predictions. Have student groups look at 1-2 strategies in What If Situation A to discuss in the Summary.</em></p><p>PRESENTING THE CHALLENGE</p><p>Describe the challenge of testing the absorbency of several different brands of paper towels.  Draw students’ attention to the samples in the student edition.  </p><p><strong>Suggested Questions:</strong></p><ul><li>Which one absorbed more?  </li><li>How can we decide which absorbed more?  </li></ul><p>Demonstrate Nate’s idea of using a transparent grid to find the area of one of the samples in the student edition.  </p><ul><li>What do you think we will find is the relationship between the area of a circle and its diameter or radius? </li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "uVeCDkEISh8iTcEH",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>The main goal of this problem is to provide a STEM experiment in gathering data to support students’ understanding of pi and area of a circle. </p><p><strong>Suggested Questions:</strong></p><ul><li>How are you maintaining the consistency of the samples? </li><li>What is a diameter of a circle?  </li><li>What is a radius of a circle? </li><li>What have we done in the past to find area of a circle?</li></ul><p><em>Teacher Moves: Selecting and Sequencing</em></p><p>PLANNING FOR THE SUMMARY</p><p>Collect examples of how students are finding the area of a circle: counting the unit squares in a circle; using the idea of a little over 3 “radius squares”; finding the diameter then cutting it in half to find the radius and using radius x radius x π; using A = r<sup>2</sup>π; etc.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "hMnAhgj31znVoDLL",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Have students share the areas they found for the various samples in the Initial Challenge.  Compare the findings.  </p><p>Discuss the strategies in What If Situation A. </p><p><em>Teacher Moves: Compare Thinking</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>Do you have any What If questions? </li><li>How did you find the area of the water dropped circles on your paper towels?  </li><li>Do you agree with Sam’s Strategy? Yolanda’s? Jayne’s? Evan’s?</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.3",
@@ -387,7 +1035,67 @@
             "investigation-3/problem-3/initialChallenge/content.json",
             "investigation-3/problem-3/whatIf/content.json",
             "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "CeNC_Zz67Ou0S0NA",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.3 Connecting Circumference and Area</strong></p><p>The Initial Challenge engages students in the useful geometric practice of dissecting one figure and reassembling its parts into another, more convenient shape. What If Situation A has students use this idea to find the area of a circle.  What If Situation B applies the strategies for finding area of circle to various contexts.  </p><p><strong>NWDYK</strong></p><p>What is the relationship between the circumference and area of a circle?</p><p><strong>Arc of Learning</strong></p><p>Analysis</p><p><strong>Materials</strong></p><p>Learning Aid 3.3: Circle and Parallelogram</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2</p><p><strong>A </strong>#9-12</p><p><strong>C </strong>#23-26</p><p><strong>E</strong> #38-41</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "YrM476utsw7X5oj9",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Problem 3.2 used an experiment to provide some informal strategies for developing a formula relating circle area to radius.  In this Problem, students will explore an interesting relationship between the circumference and area of a circle.</p><p><em>Teacher Moves: What If Situation B can be differentiated among the groups in the class and then discussed during the summary.  Having groups put their work on large paper can make this a gallery walk discussion in the summary.</em></p><p>PRESENTING THE CHALLENGE</p><p>Remind students of the task in the 6th grade unit <em>Covering and Surrounding </em>where they used radius squares.  It involved using squares that had the dimensions of the radius of the circle and cutting them to fit exactly on the circle. They found that it took a little more than 3 or π radius squares.  This problem will ask students to look at this dissection process in the opposite direction.  The problem will have the students study what happens when they rearrange sectors of a circle into the figure shown in the Initial Challenge that looks like a parallelogram. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "CowvGHUV7ay6yA5z",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>It is likely that some students will see that the radius is nearly the same as the height of that almost-parallelogram. It seems much less likely that they will see that the base of the almost-parallelogram is half the circumference of the circle.</p><p>Pay particular attention to the fact that in the collection of circle sectors that approximate a parallelogram, there are a number of radii that appear to be “slant heights” of a parallelogram. However, the correct vertical height is also approximately a circle radius, and this approximation gets better and better as the number of pieces increases. </p><p>You might suggest to some groups to cut the circle into smaller congruent parts. Perhaps ask one group to divide it into 16 parts and another into 32 parts. Let students do the calculations and compare their answers. As the number of parts increases, the estimation gets closer to the exact answer. Use these examples in the Summarize to show how smaller sections provide more accuracy.</p><p>PLANNING FOR THE SUMMARY</p><p>As you are circulating during the Explore, listen for ways students are talking about this relationship. A couple examples you may hear: both are related to the radius and the diameter of the circle; they can find the area of a circle when they know its circumference and vice versa- if the circumference is 10 inches you can find the diameter with is 10 ÷ π.  Then you can find the area using that diameter.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "9EWOilWKTW5iaJHz",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Gallery Walk</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Have students share their thoughts on the relationship between the area of the parallelogram and the circle in the Initial Challenge.  Have groups share their solutions and strategies for What If Situation B.  This could be done with a Gallery Walk to begin the conversation if during the Explore the students put their work on larger paper</p><p><em>Teacher Moves: During the Gallery Walk, as a teacher look for the sticky notes that will generate discussions around area and/or circumference of a circle.  Look for the situations that students are unsure of or in disagreement so that the discussion can work on misconceptions or errors. </em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Students should see that the circumference of the circle is approximately twice the length of the base of the parallelogram (or the base of the parallelogram is half the circumference of the circle) and the height of the parallelogram is the length of the radius of the circle.</p><p><strong>Suggested Question:</strong></p><ul><li>How does the area of the “parallelogram” compare to the area of the circle in the Initial Challenge?</li></ul><p>If groups put What If Situation B on large paper have students do a Gallery Walk.  Using sticky notes have students put sticky note questions on posters.  Using a sticky note decide if they agree or disagree with the group and why or why not.  </p><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 3.4",
@@ -399,7 +1107,67 @@
             "investigation-3/problem-4/initialChallenge/content.json",
             "investigation-3/problem-4/whatIf/content.json",
             "investigation-3/problem-4/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "wwhySyrHVwe6885H",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 3.4 Nate’s Conjecture: Connecting Circles to Cylinders</strong></p><p>In the Initial Challenge students investigate Nate’s conjecture about the volume of a cylinder having the most volume of all cylinders with the same height because the base is a circle.  In What If Situation A students will look at the volume of two cylinders made from an 8 x 11 inch sheet of paper that folded it differently.  What If Situation B has students start with a net for a cylinder and found the volume and surface area.  What If Situation C will formalize the claim on how to find the volume of a cylinder.</p><p><strong>NWDYK</strong></p><p>How does knowing the area and circumference of a circle help you find the volume and surface area of a cylinder?</p><p><strong>Arc of Learning</strong></p><p>Analysis</p><p><strong>Key Terms</strong></p><p>Cylinder</p><p><strong>Materials</strong></p><p>Learning Aid 3.4A: Filling Cylinders (index card)</p><p>Learning Aid 3.4B: Filling Cylinders (sheet of Paper)</p><p>Learning Aid 3.4C: New Smoothie Bar</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2</p><p><strong>A </strong>#13-17</p><p><strong>C </strong>#27-33</p><p><strong>E </strong>#42-44</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "ScSc-x9CXciVo4CZ",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Hold up a few prisms, or use Teaching Aid 3.4A:  Connecting Regular Prisms and Cylinders.  </p><p><strong>Suggested Question:</strong></p><ul><li>How does the shape of a prism change as the number of sides of the base increases?  </li></ul><p><em>Teacher Moves: Use the same materials you used for Problem 2.1, either rigid card stock or index cards, so that the shapes students make are easier to handle and fill to compare volumes.</em></p><p>PRESENTING THE CHALLENGE</p><p><strong>Suggested Questions:</strong></p><ul><li>Is there a way to find the volume of a cylinder without filling it with cubes or something else? (If students don’t bring up what they learned in their work with prisms, drop a few centimeter cubes in the cylinder.)</li><li>If you fill this container with centimeter cubes, will that help you find the volume? (Yes; it would give you an estimate of the volume but wouldn’t be very accurate.) </li><li>How can you make a better estimate of the volume of this cylinder</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "wHnn-1mjDjkcHTtc",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Time</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Pay attention to how students are solving What If Situation A.  Some students may still want to compare volumes in What If Situation A by filling the two cylinders with sand, rice, or cubes so have those materials available as an option.  </p><p><strong>Suggested Questions:</strong></p><ul><li>Why does it make sense to calculate the area of the base when you want to find volume?  </li></ul><p>This also, provides another opportunity for students to apply their understanding of the area of a circle. </p><p>What If Situation B will give students the opportunity to think about a cylinder by looking at a net.  Some students may need to cut it out and fold it into a cylinder to be convinced that it is a cylinder. </p><p>PLANNING FOR THE SUMMARY</p><p>Listen for students discussing finding the volume of a cylinder requires find the area of the base which is a circle.  Listen for student discussing finding the area of the circle for the top and bottom of the cylinder when finding the surface area.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "kGbxEYYajW6J2-0g",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>It can be helpful to focus attention on the key goal of developing a formula for calculating the volume of a cylinder by displaying a cylinder and asking questions about its dimensions.</p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>You found that the base of a cylinder is a circle. How did you find the number of cubes in the bottom layer? </li><li>How did you use this information to find the volume of your cylinder?  </li><li>Suppose you measured the volume of the cylinder using larger cubes.  How would the number of cubes that it takes to fill the cylinder change?  </li><li>Suppose you measured the volume using smaller cubes.  How would the number of cubes that it takes to fill the cylinder change?  How would the volume change?  </li><li>Sometimes you need to measure a cylinder to describe it or to compute other measures.  What ways can you measure a cylinder so that you can describe it to someone else?  </li><li>How much information would you need to have about a cylinder to be sure that someone else could duplicate the cylinder?  </li><li>In What If Situation C, is Zeke’s claim correct?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -411,14 +1179,74 @@
         {
           "description": "Problem 4.1",
           "ordinal": 1,
-          "title": "FAW 4.1 Comparing Juice Containers Using Surface Area",
-          "subtitle": "",
+          "title": "FAW 4.1 Designing Under Constraints",
+          "subtitle": "Comparing Juice Containers Using Surface Area",
           "sections": [
             "investigation-4/problem-1/introduction/content.json",
             "investigation-4/problem-1/initialChallenge/content.json",
             "investigation-4/problem-1/whatIf/content.json",
             "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "_z41FrfNoCBbNYvC",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 4.1 Designing Under Constraints:  Comparing Juice Containers Using Surface Area</strong></p><p>In the Initial Challenge students create a rectangular juice box that will hold the same amount of juice as a given cylindrical container.  In What If Situation A student create a triangular prism juice box that will hold the same about of juice as the given cylindrical container.  </p><p><strong>NWDYK</strong></p><p>How do the surface areas of a cylinder, a rectangular prism, and triangular prisms that have the same volume compare to each other?</p><p><strong>Arc of Learning</strong></p><p>Analysis, Synthesis</p><p><strong>Materials</strong></p><p>Centimeter grid paper</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>2-4</p><p><strong>A </strong>#1-3</p><p><strong>C </strong>#16-19</p><p><strong>E </strong>#26-27</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "9vTaOkrnObl1WmJ1",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Students have strategies for finding the surface areas of both prisms and cylinders, they can apply that knowledge to solve a problem that companies often have to answer. That is, <em>what shape and dimensions should you consider when designing a package with a given volume? </em></p><p>PRESENTING THE CHALLENGE</p><p>Have a conversation about the many possible sizes and shapes of juice boxes that will hold a given amount of juice. </p><p><strong>Suggested Questions:</strong></p><ul><li>What size and shape do you think work best for a juice box? </li><li>What information do you need to design the rectangular box?  </li><li>Can you use the same dimensions as the cylinder? Why or why not? </li></ul><p>Pose the challenge to the class of designing a rectangular box (prism) that has the same volume as the cylindrical can that is described.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "WkesjLGKmvN56cv0",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Students might get stuck by not realizing that they first have to find the volume of the cylindrical juice container. Since the volume is not a whole number, they might then be puzzled about how to choose dimensions of a rectangular prism that give the required volume product. Suggest that they try some possibilities in a guess/test/revise strategy. </p><p><strong>Suggested Questions:</strong></p><ul><li>How do you find the volume of a rectangular prism? ( </li><li>If you plan for a particular base, how can you find a height to go with it? </li><li>If you make a base that is 3 centimeters by 4 centimeters, what height would you need? </li></ul><p>Students will use different levels of accuracy. Some will be ready for the kind of thinking displayed above. Others will simply estimate their way to something close.</p><p>PLANNING FOR THE SUMMARY</p><p>As students are comparing their boxes listen for how they are finding relationships- they should see that for the same volume the surface area decreases as the number of sides increases.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "F32fH1eaLExXODxJ",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Portrayal</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Have groups share the boxes they created.  Have them report how their prisms compare to the original cylinder. </p><p><em>Teacher Moves: Compare Thinking</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p>Look for a variety of rectangular boxes. Ask students how they decided on the dimensions of their boxes. </p><p>Help the class compare the boxes they made. </p><p><strong>Suggested Questions:</strong></p><ul><li>Which of these boxes do you think would be easiest to drink from? </li><li>Which do you think would cost the least to manufacture?</li><li>Which would be the easiest to pack in a larger shipping box? </li></ul><p>By this time, students should have a general strategy for finding the volume and surface area of a rectangular prism and of a cylinder. </p><ul><li>Do any of your boxes use less material (have a smaller surface area) than the original cylinder? </li><li>If a cylinder and a rectangular prism have the same volume, will the cylinder always have less surface area? Explain your reasoning.</li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 4.2",
@@ -430,7 +1258,67 @@
             "investigation-4/problem-2/initialChallenge/content.json",
             "investigation-4/problem-2/whatIf/content.json",
             "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "_WDgEHhawrdT-C84",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 4.2 Connecting Circles to Cones and Spheres</strong></p><p>In the Initial Challenge students will conduct an experiment to find the relationships between the volume of a cylinder, cone, and sphere that have the same radius and height.  In What If Situation A students will apply this relationship to other cylinders, cones, and spheres.  In What If Situation B students will look at scaling up the figures.   </p><p><strong>NWDYK</strong></p><p>If a sphere and a cone have the same dimensions as a cylinder, how do the volumes compare? What formulas for the volume of a sphere and the volume of a cone can you write using these relationships?</p><p><strong>Arc of Learning</strong></p><p>Analysis, Synthesis</p><p><strong>Key Terms</strong></p><p>Cone</p><p>Sphere</p><p><strong>Materials</strong></p><p>Learning Aid 4.2A: Nets of Cones (accessibility) </p><p>Learning Aid 4.2B: Comparing Volumes of Cylinders, Spheres, and Cones</p><p>Centimeter Grid Paper, transparent plastic, stiff paper, or Learning Aid 4.2A, sand or rice, clay</p><p>Pouring and Filling: <a href=\"https://media.pk12ls.com/curriculum/math/cmp3/activities/A82404/index.html\">https://media.pk12ls.com/curriculum/math/cmp3/activities/A82404/index.html</a></p><p><strong>Pacing</strong></p><p>2 Days</p><p><strong>Groups</strong></p><p>2-4</p><p><strong>A </strong>#4-7</p><p><strong>C </strong>#20-21</p><p><strong>E </strong>#28-30</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "MZ-z5HVJg6h6Ifqx",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>In the first Problem of this Investigation, students explored the relationship between prisms and cylinders. In particular, they found that a strategy for finding the volume of a cylinder is similar to the one they used to find the volume of a prism. </p><p><strong>Suggested Question:</strong></p><ul><li>What is the strategy for finding volume of a prism or cylinder?</li></ul><p><em>Teacher Moves: Making Predictions. Have a brief summary after students have completed the Initial Challenge on Day 1.</em></p><p>PRESENTING THE CHALLENGE</p><p>Hold up a sample cylinder. </p><p><strong>Suggested Questions:</strong></p><ul><li>How might you find the volume of this cylinder? </li></ul><p>Hold up a sphere with a similar diameter. </p><ul><li>How do you think the volumes of these two solids compare? How do you know? </li><li>How much greater do you suppose the volume of the cylinder is than the volume of the sphere? Is it twice as much? More? Less? </li></ul><p>Hold up a cone that has the same dimensions as the cylinder. (Repeat some of the questions for the sphere.) </p><ul><li>What is your prediction for the relationship between a cylinder, cone, and sphere with the same diameter? </li></ul><p>After students have made their conjectures, briefly describe the STEM experiment they will be doing in groups of 2-4 students. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "EvQ5ump_1rOpOMMn",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>If students need help making the cylinder and the cone, distribute<em> Centimeter Grid Paper</em> so they can more easily make the cylinder and measure the height of the flattened sphere. If the diameters of the other shapes are 6 cm or 8 cm, they can also benefit from one of the nets in <em>Learning Aid 4.2A: Nets of Cones</em> to more quickly fit a cone to the cylinder. </p><p>As groups work on the Problem, make sure that the cylinders they make are very close in diameter to their spheres. </p><p>PLANNING FOR THE SUMMARY</p><p>As students are conducting the experiment in the Initial Challenge listen for the relationships they are seeing.  The cone is 1/3 the volume of the cylinder.  The sphere is 2/3 the volume of the cylinder.  Volume of a cylinder = r x r x π.  Volume of a cone (with the same height) = 1/3(r x r x π).  Volume of a sphere (with the same height) = 2/3(r x r x π)</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "H7k9HehxLmuq_pmw",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>SOLUTIONS AND STRATEGIES </p><p>Have groups share the relationships they found between the volumes of the cylinder, sphere and cone in the Initial Challenge. During the Summary get all groups to focus on the relationships of each shape to the cylinder.  </p><p>When the class has reached a conclusion on these relationships discuss how knowing these relationships was helpful in the What If Situations. </p><p><em>Teacher Moves: You can also use the </em><a href=\"https://media.pk12ls.com/curriculum/math/cmp3/activities/A82404/index.html\"><em>Pouring and Filling application</em></a><em> to reinforce the relationships, they found in the Initial Challenge</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>How could you write the formula for finding the volume of a cone with what you have learned about calculating the volume of a cylinder? </li><li>What did you discover about the relationship of the sphere’s volume to the cylinder’s volume? </li><li>How could you write the formula for finding the volume of a sphere with what you have learned about calculating the volume of a cylinder? </li><li>In What If Situation A, how did you find the Volume of the cylinder? Sphere? Cone? </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         },
         {
           "description": "Problem 4.3",
@@ -442,7 +1330,67 @@
             "investigation-4/problem-3/initialChallenge/content.json",
             "investigation-4/problem-3/whatIf/content.json",
             "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "rcEjc2orvzWCREfm",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Problem 4.3 Creating Ice Cream Containers:  Prisms, Cylinder or Cone?</strong></p><p>In the Initial Challenge students use the relationships they found for the volume of cylinders, cones, and spheres with the same height and radius to solve a situation about ice cream scoops.  In What if Situation A students look at a rectangular container for the same ice cream scoop in the Initial Challenge.  It What If Situation B students look at a cone, a cylinder and a rectangular prism for holding popcorn.   </p><p><strong>NWDYK</strong></p><p>What are some relationships among right prisms, cylinders, cones and spheres that are useful to solve problems?</p><p><strong>Arc of Learning</strong></p><p>Synthesis, Abstraction</p><p><strong>Pacing</strong></p><p>1 Day</p><p><strong>Groups</strong></p><p>Think-Pair-Share</p><p><strong>A </strong>#8-15</p><p><strong>C </strong>#22-25</p><p><strong>E </strong>#32-35</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "2ZnH9H7Wy-oLEvRe",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p>CONNECTING TO PRIOR KNOWLEDGE</p><p>Now that students have strategies for finding the volumes of cylinders, cones, and spheres, they can use these formulas to answer some interesting questions.</p><p>PRESENTING THE CHALLENGE</p><p>Tell the story of Esther and Jasmine’s trip to the ice cream parlor. Make sure students understand that the ice cream melts into the containers. </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "WRl3BL2JSuQtoEUj",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p>PROVIDING FOR INDIVIDUAL NEEDS</p><p>Remind students that they have previously compared the volume of a cone to the volume of a cylinder with the same dimensions. They also compared the volume of a sphere to the volume of a related cylinder. </p><p><strong>Suggested Questions:</strong></p><ul><li>How can the comparisons you made in Problem 4.2 help you compare the volume of a cone and the volume of a sphere?  </li><li>How many scoops fit inside a cone? </li><li>What other relationships can you write about these shapes?  </li></ul><p>PLANNING FOR THE SUMMARY</p><p>As you circulate during the Explore, listen for students solidifying their understanding of the volume relationships between cylinders, cones and spheres with the same height: If you compare their volumes, the volume of the cylinder is equal to the sum of the cone’s volume and the sphere’s volume. The cone’s volume is 1/3 of the cylinder’s and the sphere’s volume is 2/3 of the cylinder’s. You can also say that the volume of the sphere is twice the volume of the cone. A rectangular prism has greater volume than the others.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "-eWkjuNyVwprVrVw",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>SOLUTIONS AND STRATEGIES </p><p>Have students share their conclusions and reasoning.</p><p><em>Teacher Moves: Agency, Identity, Ownership</em></p><p>MAKING THE MATHEMATICS EXPLICIT</p><p><strong>Suggested Questions:</strong></p><ul><li>How did you decide how much ice cream would fill Esther’s cone and Jasmine’s cup? </li><li>How did you decide how much ice cream would fit into Stanley’s rectangular box in What If Situation A?   </li><li>How did you decide which is the best buy on popcorn in What If Situation B?  </li></ul><p>As you finish the mathematical discussions, have students reflect on the Now What Do You Know question(s).</p>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -461,7 +1409,67 @@
             "investigation-5/problem-1/MathReflection2/content.json",
             "investigation-5/problem-1/MathReflection3/content.json",
             "investigation-5/problem-1/MathReflection4/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "launch": {
+                "tiles": [
+                  {
+                    "id": "AqnwGxatNGYz5VkR",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong><em>Filling and Wrapping</em></strong><strong> Mathematical Reflection</strong></p><p>The Mathematical Reflection provides an opportunity to discuss the goals of the Investigation. Students can pull together their reasoning from the Now What Do You Know questions to summarize their learning over the time. </p><p><strong>Mathematical Reflection</strong></p><p>What do you know about measurements of two- and three-dimensional shapes?</p><p><strong>Arc of Learning</strong></p><p><u>Investigation 1</u></p><p>Surface Areas and Volumes of Three-Dimensional Shapes including Polygonal Prisms: <em>Analysis</em></p><p><u>Investigation 2</u></p><p>Surface Areas and Volumes of Three-Dimensional Shapes including Polygonal Prisms: <em>Analysis</em></p><p><u>Investigation 3</u></p><p>Surface Areas and Volumes of Three-Dimensional Shapes including Polygonal Prisms: <em>Analysis</em></p><p>Area and Circumference of Circles: <em>Analysis</em></p><p><u>Investigation 4</u></p><p>Surface Areas and Volumes of Three-Dimensional Shapes including Polygonal Prisms: <em>Synthesis, Abstraction</em></p><p>Area and Circumference of Circles: <em>Synthesis, Abstraction</em></p><p><strong>Pacing</strong></p><p>1/2 Day</p><p><strong>Groups</strong></p><p>Whole Class and Individual</p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "Cugp51MEQDUorjO6",
+                    "title": "Text 2",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Facilitating Discourse</strong></p><p><strong>LAUNCH</strong></p><p><em>Teacher Moves: Time, Anchor Chart</em></p><p>After the class discussion, students can record their responses to the Mathematical Reflection to create a record of their current understandings of the big ideas of the Unit. You may want to keep an Anchor Chart of the conversation so it can be added to at the end of each investigation.  </p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "explore": {
+                "tiles": [
+                  {
+                    "id": "3AoZVsaH1Bf_fehf",
+                    "title": "Text 3",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>EXPLORE</strong></p><p><em>Teacher Moves: Portrayal, Language</em></p><p>You can gain an understanding of student thinking during a discussion of the reflection question then, assess individual understanding based on each student’s written work.</p><p>Having students pull out their notes from the Now What Do You Know from each Problem in the Investigation can help them to synthesize all their ideas around measurements of two- and three-dimensional shapes.</p>"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "summarize": {
+                "tiles": [
+                  {
+                    "id": "6PIQWfL6_PGZs_kf",
+                    "title": "Text 4",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>SUMMARIZE</strong></p><p>Reflecting on Student Learning   </p><p>Use the following questions to assess student understanding at the end of the lesson.  </p><ul><li>What evidence in students’ work shows an understanding of the ideas in this Unit?</li><li>What mathematical ideas will still need emphasis?</li><li>What opportunities exist in the rest of the Unit, or in future Units, to extend and connect the students’ learning?</li></ul>"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -480,7 +1488,23 @@
             "investigation-6/problem-1/ACE2/content.json",
             "investigation-6/problem-1/ACE3/content.json",
             "investigation-6/problem-1/ACE4/content.json"
-          ]
+          ],
+          "config": {
+            "planningTemplate": {
+              "overview": {
+                "tiles": []
+              },
+              "launch": {
+                "tiles": []
+              },
+              "explore": {
+                "tiles": []
+              },
+              "summarize": {
+                "tiles": []
+              }
+            }
+          }
         }
       ]
     }

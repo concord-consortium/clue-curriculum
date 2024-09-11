@@ -101,118 +101,304 @@
         "id": "zidMDK6mlMedIEb2",
         "content": {
           "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "11@zidMDK6mlMedIEb2": {
+                "id": "11@zidMDK6mlMedIEb2",
+                "name": "Generator",
+                "x": 40,
+                "y": 5,
+                "data": {
+                  "type": "Generator",
+                  "plot": false,
+                  "orderedDisplayName": "Generator 1",
+                  "tickEntries": {
+                    "jX6owyg8BX1ZnfB6": {
+                      "nodeValue": "-0.95"
+                    },
+                    "uJblOFN4N8oLvuqu": {
+                      "nodeValue": "-0.92"
+                    },
+                    "cz8iskZOJjiS7k02": {
+                      "nodeValue": "-0.88"
+                    },
+                    "EDokWiZxaYeVeOG1": {
+                      "nodeValue": "-0.84"
+                    },
+                    "fM8ecKqBZgnl0ZJW": {
+                      "nodeValue": "-0.8"
+                    },
+                    "6i1dhBWoqXJPOHT0": {
+                      "nodeValue": "-0.75"
+                    },
+                    "dkoT3-o6IoFQiVMH": {
+                      "nodeValue": "-0.7"
+                    },
+                    "rN2ASRQwNnyP8odD": {
+                      "nodeValue": "-0.64"
+                    },
+                    "nGSErqCnlu7Wgzsb": {
+                      "nodeValue": "-0.58"
+                    },
+                    "0Kyx41klZdRXE-nS": {
+                      "nodeValue": "-0.51"
+                    },
+                    "1N_kuwVke2JTN_Nn": {
+                      "nodeValue": "-0.45"
+                    },
+                    "6e0jbLND1YJWrmrY": {
+                      "nodeValue": "-0.38"
+                    },
+                    "V-AdKgB4X9cvYsdH": {
+                      "nodeValue": "-0.3"
+                    },
+                    "VHDK3GCOEWFWyEpp": {
+                      "nodeValue": "-0.22"
+                    },
+                    "LbUDRtCwZgERtlxW": {
+                      "nodeValue": "-0.15"
+                    },
+                    "xuc5rpjvWvR02Aae": {
+                      "nodeValue": "-0.07"
+                    },
+                    "J_JZjZN3bLrDsgkp": {
+                      "open": true,
+                      "nodeValue": "-0.07"
+                    }
+                  },
+                  "generatorType": "Sine",
+                  "amplitude": 1,
+                  "period": 10,
+                  "periodUnits": "sec"
+                }
+              },
+              "12@zidMDK6mlMedIEb2": {
+                "id": "12@zidMDK6mlMedIEb2",
+                "name": "Control",
+                "x": 265.60894775390625,
+                "y": 114.529541015625,
+                "data": {
+                  "type": "Control",
+                  "plot": false,
+                  "orderedDisplayName": "Hold 2",
+                  "tickEntries": {
+                    "jX6owyg8BX1ZnfB6": {
+                      "nodeValue": "0"
+                    },
+                    "uJblOFN4N8oLvuqu": {
+                      "nodeValue": "0"
+                    },
+                    "cz8iskZOJjiS7k02": {
+                      "nodeValue": "0"
+                    },
+                    "EDokWiZxaYeVeOG1": {
+                      "nodeValue": "0"
+                    },
+                    "fM8ecKqBZgnl0ZJW": {
+                      "nodeValue": "0"
+                    },
+                    "6i1dhBWoqXJPOHT0": {
+                      "nodeValue": "0"
+                    },
+                    "dkoT3-o6IoFQiVMH": {
+                      "nodeValue": "0"
+                    },
+                    "rN2ASRQwNnyP8odD": {
+                      "nodeValue": "0"
+                    },
+                    "nGSErqCnlu7Wgzsb": {
+                      "nodeValue": "0"
+                    },
+                    "0Kyx41klZdRXE-nS": {
+                      "nodeValue": "0"
+                    },
+                    "1N_kuwVke2JTN_Nn": {
+                      "nodeValue": "0"
+                    },
+                    "6e0jbLND1YJWrmrY": {
+                      "nodeValue": "0"
+                    },
+                    "V-AdKgB4X9cvYsdH": {
+                      "nodeValue": "0"
+                    },
+                    "VHDK3GCOEWFWyEpp": {
+                      "nodeValue": "0"
+                    },
+                    "LbUDRtCwZgERtlxW": {
+                      "nodeValue": "0"
+                    },
+                    "xuc5rpjvWvR02Aae": {
+                      "nodeValue": "0"
+                    },
+                    "J_JZjZN3bLrDsgkp": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "controlOperator": "Hold Current",
+                  "waitDuration": 0
+                }
+              },
+              "13@zidMDK6mlMedIEb2": {
+                "id": "13@zidMDK6mlMedIEb2",
+                "name": "Demo Output",
+                "x": 492.73358154296875,
+                "y": 87.27716064453125,
+                "data": {
+                  "type": "Demo Output",
+                  "plot": false,
+                  "orderedDisplayName": "Demo Output 3",
+                  "tickEntries": {
+                    "jX6owyg8BX1ZnfB6": {
+                      "nodeValue": "0"
+                    },
+                    "uJblOFN4N8oLvuqu": {
+                      "nodeValue": "0"
+                    },
+                    "cz8iskZOJjiS7k02": {
+                      "nodeValue": "0"
+                    },
+                    "EDokWiZxaYeVeOG1": {
+                      "nodeValue": "0"
+                    },
+                    "fM8ecKqBZgnl0ZJW": {
+                      "nodeValue": "0"
+                    },
+                    "6i1dhBWoqXJPOHT0": {
+                      "nodeValue": "0"
+                    },
+                    "dkoT3-o6IoFQiVMH": {
+                      "nodeValue": "0"
+                    },
+                    "rN2ASRQwNnyP8odD": {
+                      "nodeValue": "0"
+                    },
+                    "nGSErqCnlu7Wgzsb": {
+                      "nodeValue": "0"
+                    },
+                    "0Kyx41klZdRXE-nS": {
+                      "nodeValue": "0"
+                    },
+                    "1N_kuwVke2JTN_Nn": {
+                      "nodeValue": "0"
+                    },
+                    "6e0jbLND1YJWrmrY": {
+                      "nodeValue": "0"
+                    },
+                    "V-AdKgB4X9cvYsdH": {
+                      "nodeValue": "0"
+                    },
+                    "VHDK3GCOEWFWyEpp": {
+                      "nodeValue": "0"
+                    },
+                    "LbUDRtCwZgERtlxW": {
+                      "nodeValue": "0"
+                    },
+                    "xuc5rpjvWvR02Aae": {
+                      "nodeValue": "0"
+                    },
+                    "J_JZjZN3bLrDsgkp": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "outputType": "Grabber"
+                }
+              },
+              "14@zidMDK6mlMedIEb2": {
+                "id": "14@zidMDK6mlMedIEb2",
+                "name": "Number",
+                "x": 28.83782958984375,
+                "y": 251.536865234375,
+                "data": {
+                  "type": "Number",
+                  "plot": false,
+                  "orderedDisplayName": "Number 4",
+                  "tickEntries": {
+                    "jX6owyg8BX1ZnfB6": {
+                      "nodeValue": "0"
+                    },
+                    "uJblOFN4N8oLvuqu": {
+                      "nodeValue": "0"
+                    },
+                    "cz8iskZOJjiS7k02": {
+                      "nodeValue": "0"
+                    },
+                    "EDokWiZxaYeVeOG1": {
+                      "nodeValue": "0"
+                    },
+                    "fM8ecKqBZgnl0ZJW": {
+                      "nodeValue": "0"
+                    },
+                    "6i1dhBWoqXJPOHT0": {
+                      "nodeValue": "0"
+                    },
+                    "dkoT3-o6IoFQiVMH": {
+                      "nodeValue": "0"
+                    },
+                    "rN2ASRQwNnyP8odD": {
+                      "nodeValue": "0"
+                    },
+                    "nGSErqCnlu7Wgzsb": {
+                      "nodeValue": "0"
+                    },
+                    "0Kyx41klZdRXE-nS": {
+                      "nodeValue": "0"
+                    },
+                    "1N_kuwVke2JTN_Nn": {
+                      "nodeValue": "0"
+                    },
+                    "6e0jbLND1YJWrmrY": {
+                      "nodeValue": "0"
+                    },
+                    "V-AdKgB4X9cvYsdH": {
+                      "nodeValue": "0"
+                    },
+                    "VHDK3GCOEWFWyEpp": {
+                      "nodeValue": "0"
+                    },
+                    "LbUDRtCwZgERtlxW": {
+                      "nodeValue": "0"
+                    },
+                    "xuc5rpjvWvR02Aae": {
+                      "nodeValue": "0"
+                    },
+                    "J_JZjZN3bLrDsgkp": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "value": 0
+                }
+              }
+            },
+            "connections": {},
+            "recentTicks": [
+              "jX6owyg8BX1ZnfB6",
+              "uJblOFN4N8oLvuqu",
+              "cz8iskZOJjiS7k02",
+              "EDokWiZxaYeVeOG1",
+              "fM8ecKqBZgnl0ZJW",
+              "6i1dhBWoqXJPOHT0",
+              "dkoT3-o6IoFQiVMH",
+              "rN2ASRQwNnyP8odD",
+              "nGSErqCnlu7Wgzsb",
+              "0Kyx41klZdRXE-nS",
+              "1N_kuwVke2JTN_Nn",
+              "6e0jbLND1YJWrmrY",
+              "V-AdKgB4X9cvYsdH",
+              "VHDK3GCOEWFWyEpp",
+              "LbUDRtCwZgERtlxW",
+              "xuc5rpjvWvR02Aae",
+              "J_JZjZN3bLrDsgkp"
+            ]
+          },
           "programDataRate": 100,
           "programZoom": {
             "dx": 0.032470703125,
             "dy": 0,
             "scale": 1
-          },
-          "program": {
-            "values": {
-              "11": {
-                "currentValues": {
-                  "nodeValue": 0.26
-                }
-              },
-              "12": {
-                "currentValues": {}
-              },
-              "13": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              },
-              "14": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              }
-            },
-            "id": "dataflow@0.1.0",
-            "nodes": {
-              "11": {
-                "id": 11,
-                "name": "Generator",
-                "x": 40,
-                "y": 5,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Generator 1",
-                  "generatorType": "Sine",
-                  "amplitudeUnits": "",
-                  "amplitude": 1,
-                  "periodUnits": "sec",
-                  "period": 10
-                }
-              },
-              "12": {
-                "id": 12,
-                "name": "Control",
-                "x": 265.60894775390625,
-                "y": 114.529541015625,
-                "inputs": {
-                  "num2": {
-                    "connections": {}
-                  },
-                  "num1": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Hold 2",
-                  "controlOperator": "Hold Current"
-                }
-              },
-              "13": {
-                "id": 13,
-                "name": "Demo Output",
-                "x": 492.73358154296875,
-                "y": 87.27716064453125,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {}
-                  },
-                  "tilt": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {},
-                "data": {
-                  "orderedDisplayName": "Demo Output 3",
-                  "outputType": "Grabber",
-                  "demoOutput": 0
-                }
-              },
-              "14": {
-                "id": 14,
-                "name": "Number",
-                "x": 28.83782958984375,
-                "y": 251.536865234375,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Number 4",
-                  "nodeValueUnits": ""
-                }
-              }
-            }
           }
         }
       },
@@ -231,112 +417,319 @@
         "id": "fXr4dhoarK6Kk02g",
         "content": {
           "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "3@fXr4dhoarK6Kk02g": {
+                "id": "3@fXr4dhoarK6Kk02g",
+                "name": "Number",
+                "x": 10.538104872315643,
+                "y": 227.72051069738455,
+                "data": {
+                  "type": "Number",
+                  "plot": false,
+                  "orderedDisplayName": "Number 1",
+                  "tickEntries": {
+                    "K7T1Kq0-XlZ1I_41": {
+                      "nodeValue": "400"
+                    },
+                    "csA2Ato6tzOfHTk2": {
+                      "nodeValue": "400"
+                    },
+                    "hKE4RERXifWzpYM8": {
+                      "nodeValue": "400"
+                    },
+                    "8Xclr5nXnDCRwPpj": {
+                      "nodeValue": "400"
+                    },
+                    "th67uXDqFhWspIrM": {
+                      "nodeValue": "400"
+                    },
+                    "HkC6JptKRMKxnQOv": {
+                      "nodeValue": "400"
+                    },
+                    "9tYBkiIRBX6iZpM0": {
+                      "nodeValue": "400"
+                    },
+                    "YYQwZ7UGuUp8m9Dh": {
+                      "nodeValue": "400"
+                    },
+                    "ddTot0r-FR0Fs2Nh": {
+                      "nodeValue": "400"
+                    },
+                    "ZfDChDOPxMelFxda": {
+                      "nodeValue": "400"
+                    },
+                    "CJjqbaVNMO1nqjFi": {
+                      "nodeValue": "400"
+                    },
+                    "2EQzbw3fhLPcmKkN": {
+                      "nodeValue": "400"
+                    },
+                    "_8jrr2b_-m06TGqi": {
+                      "nodeValue": "400"
+                    },
+                    "kNqXQHxgF7bSY_5G": {
+                      "nodeValue": "400"
+                    },
+                    "z-pvfd1L89rBhb3G": {
+                      "nodeValue": "400"
+                    },
+                    "ZrMpC3K3mTggMK61": {
+                      "nodeValue": "400"
+                    },
+                    "7bHv7QblboS6m2dM": {
+                      "open": true,
+                      "nodeValue": "400"
+                    }
+                  },
+                  "value": 400
+                }
+              },
+              "6@fXr4dhoarK6Kk02g": {
+                "id": "6@fXr4dhoarK6Kk02g",
+                "name": "Sensor",
+                "x": 13.816700929226307,
+                "y": 74.77543672898062,
+                "data": {
+                  "type": "Sensor",
+                  "plot": false,
+                  "orderedDisplayName": "Sensor 2",
+                  "tickEntries": {
+                    "K7T1Kq0-XlZ1I_41": {
+                      "nodeValue": "38"
+                    },
+                    "csA2Ato6tzOfHTk2": {
+                      "nodeValue": "39"
+                    },
+                    "hKE4RERXifWzpYM8": {
+                      "nodeValue": "37"
+                    },
+                    "8Xclr5nXnDCRwPpj": {
+                      "nodeValue": "37"
+                    },
+                    "th67uXDqFhWspIrM": {
+                      "nodeValue": "37"
+                    },
+                    "HkC6JptKRMKxnQOv": {
+                      "nodeValue": "39"
+                    },
+                    "9tYBkiIRBX6iZpM0": {
+                      "nodeValue": "39"
+                    },
+                    "YYQwZ7UGuUp8m9Dh": {
+                      "nodeValue": "40"
+                    },
+                    "ddTot0r-FR0Fs2Nh": {
+                      "nodeValue": "37"
+                    },
+                    "ZfDChDOPxMelFxda": {
+                      "nodeValue": "40"
+                    },
+                    "CJjqbaVNMO1nqjFi": {
+                      "nodeValue": "39"
+                    },
+                    "2EQzbw3fhLPcmKkN": {
+                      "nodeValue": "38"
+                    },
+                    "_8jrr2b_-m06TGqi": {
+                      "nodeValue": "39"
+                    },
+                    "kNqXQHxgF7bSY_5G": {
+                      "nodeValue": "36"
+                    },
+                    "z-pvfd1L89rBhb3G": {
+                      "nodeValue": "38"
+                    },
+                    "ZrMpC3K3mTggMK61": {
+                      "nodeValue": "40"
+                    },
+                    "7bHv7QblboS6m2dM": {
+                      "open": true,
+                      "nodeValue": "40"
+                    }
+                  },
+                  "sensorType": "emg-reading",
+                  "sensor": "SIMemg_key"
+                }
+              },
+              "7@fXr4dhoarK6Kk02g": {
+                "id": "7@fXr4dhoarK6Kk02g",
+                "name": "Math",
+                "x": 242.2529663252481,
+                "y": 135.13033286019981,
+                "data": {
+                  "type": "Math",
+                  "plot": false,
+                  "orderedDisplayName": "Math 3",
+                  "tickEntries": {
+                    "K7T1Kq0-XlZ1I_41": {
+                      "nodeValue": "NaN"
+                    },
+                    "csA2Ato6tzOfHTk2": {
+                      "nodeValue": "NaN"
+                    },
+                    "hKE4RERXifWzpYM8": {
+                      "nodeValue": "NaN"
+                    },
+                    "8Xclr5nXnDCRwPpj": {
+                      "nodeValue": "NaN"
+                    },
+                    "th67uXDqFhWspIrM": {
+                      "nodeValue": "NaN"
+                    },
+                    "HkC6JptKRMKxnQOv": {
+                      "nodeValue": "NaN"
+                    },
+                    "9tYBkiIRBX6iZpM0": {
+                      "nodeValue": "NaN"
+                    },
+                    "YYQwZ7UGuUp8m9Dh": {
+                      "nodeValue": "NaN"
+                    },
+                    "ddTot0r-FR0Fs2Nh": {
+                      "nodeValue": "NaN"
+                    },
+                    "ZfDChDOPxMelFxda": {
+                      "nodeValue": "NaN"
+                    },
+                    "CJjqbaVNMO1nqjFi": {
+                      "nodeValue": "NaN"
+                    },
+                    "2EQzbw3fhLPcmKkN": {
+                      "nodeValue": "NaN"
+                    },
+                    "_8jrr2b_-m06TGqi": {
+                      "nodeValue": "NaN"
+                    },
+                    "kNqXQHxgF7bSY_5G": {
+                      "nodeValue": "NaN"
+                    },
+                    "z-pvfd1L89rBhb3G": {
+                      "nodeValue": "NaN"
+                    },
+                    "ZrMpC3K3mTggMK61": {
+                      "nodeValue": "NaN"
+                    },
+                    "7bHv7QblboS6m2dM": {
+                      "open": true,
+                      "nodeValue": "NaN"
+                    }
+                  },
+                  "mathOperator": "Divide"
+                }
+              },
+              "15@fXr4dhoarK6Kk02g": {
+                "id": "15@fXr4dhoarK6Kk02g",
+                "name": "Live Output",
+                "x": 562.3839035645634,
+                "y": 147.69019086666086,
+                "data": {
+                  "type": "Live Output",
+                  "plot": false,
+                  "orderedDisplayName": "Live Output 4",
+                  "tickEntries": {
+                    "K7T1Kq0-XlZ1I_41": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "csA2Ato6tzOfHTk2": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "hKE4RERXifWzpYM8": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "8Xclr5nXnDCRwPpj": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "th67uXDqFhWspIrM": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "HkC6JptKRMKxnQOv": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "9tYBkiIRBX6iZpM0": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "YYQwZ7UGuUp8m9Dh": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "ddTot0r-FR0Fs2Nh": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "ZfDChDOPxMelFxda": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "CJjqbaVNMO1nqjFi": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "2EQzbw3fhLPcmKkN": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "_8jrr2b_-m06TGqi": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "kNqXQHxgF7bSY_5G": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "z-pvfd1L89rBhb3G": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "ZrMpC3K3mTggMK61": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "7bHv7QblboS6m2dM": {
+                      "open": true,
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    }
+                  },
+                  "liveOutputType": "Gripper 2.0",
+                  "hubSelect": "Simulated Gripper"
+                }
+              }
+            },
+            "connections": {},
+            "recentTicks": [
+              "K7T1Kq0-XlZ1I_41",
+              "csA2Ato6tzOfHTk2",
+              "hKE4RERXifWzpYM8",
+              "8Xclr5nXnDCRwPpj",
+              "th67uXDqFhWspIrM",
+              "HkC6JptKRMKxnQOv",
+              "9tYBkiIRBX6iZpM0",
+              "YYQwZ7UGuUp8m9Dh",
+              "ddTot0r-FR0Fs2Nh",
+              "ZfDChDOPxMelFxda",
+              "CJjqbaVNMO1nqjFi",
+              "2EQzbw3fhLPcmKkN",
+              "_8jrr2b_-m06TGqi",
+              "kNqXQHxgF7bSY_5G",
+              "z-pvfd1L89rBhb3G",
+              "ZrMpC3K3mTggMK61",
+              "7bHv7QblboS6m2dM"
+            ]
+          },
           "programDataRate": 100,
           "programZoom": {
             "dx": 0.484039306640625,
             "dy": -0.00152587890625,
             "scale": 0.37423311417881716
-          },
-          "program": {
-            "values": {
-              "3": {
-                "currentValues": {
-                  "nodeValue": 400
-                }
-              },
-              "6": {
-                "currentValues": {}
-              },
-              "7": {
-                "currentValues": {}
-              },
-              "15": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              }
-            },
-            "id": "dataflow@0.1.0",
-            "nodes": {
-              "3": {
-                "id": 3,
-                "name": "Number",
-                "x": 10.538104872315643,
-                "y": 227.72051069738455,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Number 1",
-                  "nodeValueUnits": ""
-                }
-              },
-              "6": {
-                "id": 6,
-                "name": "Sensor",
-                "x": 13.816700929226307,
-                "y": 74.77543672898062,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Sensor 2",
-                  "type": "emg-reading",
-                  "sensor": "SIMemg_key",
-                  "virtual": false
-                }
-              },
-              "7": {
-                "id": 7,
-                "name": "Math",
-                "x": 242.2529663252481,
-                "y": 135.13033286019981,
-                "inputs": {
-                  "num1": {
-                    "connections": {}
-                  },
-                  "num2": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Math 3",
-                  "mathOperator": "Divide"
-                }
-              },
-              "15": {
-                "id": 15,
-                "name": "Live Output",
-                "x": 562.3839035645634,
-                "y": 147.69019086666086,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {},
-                "data": {
-                  "orderedDisplayName": "Live Output 4",
-                  "outputType": "Gripper 2.0",
-                  "hubSelect": "Simulated Gripper",
-                  "liveOutputType": "Gripper 2.0"
-                }
-              }
-            }
           }
         }
       },
@@ -519,7 +912,7 @@
               "id": "QoUhLFHAy9x4vdlh",
               "name": "emg_key",
               "displayName": "EMG",
-              "value": 37,
+              "value": 38,
               "inputs": [],
               "color": "light-gray",
               "icon": "ccicon://emg_key",
@@ -570,7 +963,7 @@
               "id": "ikwLmHhsfhI2nu89",
               "name": "pan_temperature_key",
               "displayName": "Pan Temperature",
-              "value": 97.5,
+              "value": 58,
               "inputs": [],
               "color": "light-gray",
               "labels": []
@@ -637,6 +1030,25 @@
         },
         "tiles": [
           "zidMDK6mlMedIEb2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "XMCghUxecrHZFnbr"
+        },
+        "tiles": [
+          "zidMDK6mlMedIEb2",
+          "aExgfJ4xXNQHQAvW"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "USWQWRVsz1fFzPvo"
+        },
+        "tiles": [
+          "fXr4dhoarK6Kk02g"
         ]
       }
     ]
