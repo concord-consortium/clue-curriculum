@@ -169,8 +169,22 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
-          "merge-data-in",
+          [
+            "data-set-view",
+            "dataCard"
+          ],
           "delete"
+        ]
+      },
+      "dataCard": {
+        "tools": [
+          "duplicate",
+          [
+            "data-set-view",
+            "Table"
+          ],
+          "image-upload",
+          "delete-attribute"
         ]
       }
     },
