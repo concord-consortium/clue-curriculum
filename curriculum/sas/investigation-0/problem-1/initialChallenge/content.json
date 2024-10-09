@@ -9,7 +9,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Using CLUE’s Tools</strong></p><p></p><p>It’s time  to try out each of <strong>CLUE’s tools in authoring</strong>. </p><p>Here <u>are steps to do so:</u></p><ol><li>You’ll decide which tools to use to solve a problem. Knowing how the tools work will help you present your mathematical answers in a way that makes sense to you, whether that’s in words or a graph or table. </li><li>To use a tool, just click it. You can then move it to a particular section or above or below another tile. </li><li>Or to position it precisely, drag it from the toolbar into your workspace, moving to where you want it (the drop zone is indicated by a blue vertical bar), then let go.</li></ol><p></p><p></p>"
+              "<p><strong>Using CLUE’s Tools ⚒️</strong></p><p></p><p>It’s time  to try out each of <strong>CLUE’s tools in authoring</strong>. </p><p>Here <u>are steps to do so:</u></p><ol><li>You’ll decide which tools to use to solve a problem. Knowing how the tools work will help you present your mathematical answers in a way that makes sense to you, whether that’s in words or a graph or table. </li><li>To use a tool, just click it. You can then move it to a particular section or above or below another tile. </li><li>Or to position it precisely, drag it from the toolbar into your workspace, moving to where you want it (the drop zone is indicated by a blue vertical bar), then let go.</li></ol><p></p><p></p>"
             ]
           }
         },
@@ -37,110 +37,90 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -1
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "x",
-                  "y"
-                ]
+              "xAxis": {
+                "name": "x",
+                "label": "x",
+                "min": -2,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "name": "y",
+                "label": "y",
+                "min": -1,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "Xxb32kbAPp7tniwI": {
                 "type": "point",
-                "parents": [
-                  4.890795765027322,
-                  7.722464139344261
-                ],
-                "properties": {
-                  "id": "Xxb32kbAPp7tniwI",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "Xxb32kbAPp7tniwI",
+                "x": 4.890795765027322,
+                "y": 7.722464139344261,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "-WSLBRnhkgVjBz1P": {
                 "type": "point",
-                "parents": [
-                  1.3,
-                  3.9000000000000004
-                ],
-                "properties": {
-                  "id": "-WSLBRnhkgVjBz1P",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "-WSLBRnhkgVjBz1P",
+                "x": 1.3,
+                "y": 3.9000000000000004,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "0X-E19bMeBeadPjW": {
                 "type": "point",
-                "parents": [
-                  9.1,
-                  4.3
-                ],
-                "properties": {
-                  "id": "0X-E19bMeBeadPjW",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "0X-E19bMeBeadPjW",
+                "x": 9.1,
+                "y": 4.3,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "DGyPZUz7pq_gq7xE": {
                 "type": "polygon",
-                "parents": [
+                "id": "DGyPZUz7pq_gq7xE",
+                "points": [
                   "Xxb32kbAPp7tniwI",
                   "-WSLBRnhkgVjBz1P",
                   "0X-E19bMeBeadPjW"
                 ],
-                "properties": {
-                  "id": "DGyPZUz7pq_gq7xE"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               },
-              {
+              "2KZhtgUNApHhbLDG": {
                 "type": "vertexAngle",
-                "parents": [
+                "id": "2KZhtgUNApHhbLDG",
+                "points": [
                   "0X-E19bMeBeadPjW",
                   "-WSLBRnhkgVjBz1P",
                   "Xxb32kbAPp7tniwI"
-                ],
-                "properties": {
-                  "id": "2KZhtgUNApHhbLDG"
-                }
+                ]
               },
-              {
+              "awCOJ-9ufwUmg0Kz": {
                 "type": "vertexAngle",
-                "parents": [
+                "id": "awCOJ-9ufwUmg0Kz",
+                "points": [
                   "Xxb32kbAPp7tniwI",
                   "0X-E19bMeBeadPjW",
                   "-WSLBRnhkgVjBz1P"
-                ],
-                "properties": {
-                  "id": "awCOJ-9ufwUmg0Kz"
-                }
+                ]
               },
-              {
+              "efNzaT3Lsuxiig-c": {
                 "type": "vertexAngle",
-                "parents": [
+                "id": "efNzaT3Lsuxiig-c",
+                "points": [
                   "-WSLBRnhkgVjBz1P",
                   "Xxb32kbAPp7tniwI",
                   "0X-E19bMeBeadPjW"
-                ],
-                "properties": {
-                  "id": "efNzaT3Lsuxiig-c"
-                }
+                ]
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -154,6 +134,17 @@
           }
         }
       ],
+      {
+        "id": "QIpq3w0J-Qrq1mKb",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
       {
         "id": "t8ddzPOn-hp5nJ5S",
         "title": "Image 3",
@@ -194,14 +185,12 @@
         },
         {
           "id": "-ZoJoDESMoYPKL7H",
-          "title": "Dinosaur Characteristics",
           "content": {
             "type": "Table",
             "columnWidths": {
               "oL8904-UeH8QUNyq": 80,
               "M6sP5oZBCk-SbZQs": 80
-            },
-            "name": "Dinosaur Characteristics"
+            }
           }
         }
       ],
@@ -217,14 +206,12 @@
       },
       {
         "id": "JU_PfL7clLhi5YKm",
-        "title": "Connections Between Points",
         "content": {
           "type": "Table",
           "columnWidths": {
             "-cBMRgSOGh1iQler": 80,
             "HrCfjxgBhLOyac5_": 80
-          },
-          "name": "Connections Between Points"
+          }
         }
       },
       {
@@ -274,58 +261,48 @@
           "content": {
             "type": "Geometry",
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "4LBSAZbwBSIZj8oe": {
                 "type": "point",
-                "parents": [
-                  5.009165503307461,
-                  4.9969649184597
-                ],
-                "properties": {
-                  "id": "4LBSAZbwBSIZj8oe",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "4LBSAZbwBSIZj8oe",
+                "x": 5.009165503307461,
+                "y": 4.9969649184597,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "CwvkuSfF5kvTyumD": {
                 "type": "point",
-                "parents": [
-                  10,
-                  10.000000000000002
-                ],
-                "properties": {
-                  "id": "CwvkuSfF5kvTyumD",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "CwvkuSfF5kvTyumD",
+                "x": 10,
+                "y": 10.000000000000002,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "1t6NY4AggtTSPW_H": {
                 "type": "point",
-                "parents": [
-                  15,
-                  5.000000000000001
-                ],
-                "properties": {
-                  "id": "1t6NY4AggtTSPW_H",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "1t6NY4AggtTSPW_H",
+                "x": 15,
+                "y": 5.000000000000001,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -407,14 +384,12 @@
       },
       {
         "id": "xW3a8ImrCr37XGef",
-        "title": "Dog",
         "content": {
           "type": "Table",
           "columnWidths": {
             "hqIMDIT_BWE4oc1N": 80,
             "UoPdZLmsYfvefwiA": 80
-          },
-          "name": "Dog"
+          }
         }
       },
       [
