@@ -48,6 +48,11 @@
         "isTileTool": true
       },
       {
+        "id": "BarGraph",
+        "title": "Bar Graph",
+        "isTileTool": true
+      },
+      {
         "id": "sparrow",
         "title": "Sparrow",
         "iconId": "icon-sparrow-tool",
@@ -201,7 +206,44 @@
     },
     "settings": {
       "table": {
-        "numFormat": ".2~f"
+        "numFormat": ".2~f",
+        "tools": [
+          "expression",
+          "merge-in",
+          [
+            "data-set-view",
+            "DataCard"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          "merge-in",
+          [
+            "data-set-view",
+            "table"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "image-upload",
+          "delete-attribute"
+        ]
       },
       "graph": {
         "defaultAxisLabels": {
