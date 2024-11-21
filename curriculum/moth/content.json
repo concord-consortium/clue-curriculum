@@ -33,11 +33,15 @@
           "merge-in",
           [
             "data-set-view",
-            "graph"
+            "DataCard"
           ],
           [
             "data-set-view",
-            "DataCard"
+            "bargraph"
+          ],
+          [
+            "data-set-view",
+            "graph"
           ],
           "delete"
         ]
@@ -48,7 +52,11 @@
           "merge-in",
           [
             "data-set-view",
-            "Table"
+            "table"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
           ],
           [
             "data-set-view",
@@ -94,7 +102,7 @@
       },
       {
         "id": "Drawing",
-        "title": "Drawing",
+        "title": "Sketch",
         "isTileTool": true
       },
       {
@@ -104,8 +112,13 @@
       },
       {
         "id": "Graph",
-        "title": "XY Plot",
+        "title": "Graph",
         "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "BarGraph",
+        "title": "Bar Graph",
         "isTileTool": true
       },
       {
@@ -269,7 +282,7 @@
               "title": "Teacher",
               "type": "published-problem-documents",
               "dataTestHeader": "class-work-section-published",
-              "dataTestItem":  "class-work-list-items",
+              "dataTestItem": "class-work-list-items",
               "documentTypes": [
                 "publication",
                 "personalPublication"
@@ -349,41 +362,6 @@
         "url": "moth/stamps/R-HIND.png",
         "width": 100,
         "height": 102
-      },
-      {
-        "url": "moth/stamps/LIGHT.png",
-        "width": 96,
-        "height": 96
-      },
-      {
-        "url": "moth/stamps/STRINGS.png",
-        "width": 60,
-        "height": 106
-      },
-      {
-        "url": "moth/stamps/TIES.png",
-        "width": 100,
-        "height": 25
-      },
-      {
-        "url": "moth/stamps/BUCKET.png",
-        "width": 100,
-        "height": 155
-      },
-      {
-        "url": "moth/stamps/CAP.png",
-        "width": 100,
-        "height": 47
-      },
-      {
-        "url": "moth/stamps/FUNNEL.png",
-        "width": 100,
-        "height": 150
-      },
-      {
-        "url": "moth/stamps/VANES.png",
-        "width": 100,
-        "height": 148
       }
     ]
   },
@@ -418,7 +396,7 @@
       "title": "Summarize",
       "placeholder": "Discuss your findings"
     },
-    "start": { 
+    "start": {
       "initials": "INT",
       "title": "Intro",
       "placeholder": "Record your ideas"
@@ -566,7 +544,7 @@
         {
           "description": "Activity 3.1",
           "ordinal": 1,
-          "title": "My Moths in CLUE 2023-2024",
+          "title": "My Moths in CLUE",
           "subtitle": "",
           "disabled": [],
           "sections": [
