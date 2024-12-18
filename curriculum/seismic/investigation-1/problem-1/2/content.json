@@ -1,6 +1,398 @@
 {
   "type": "2",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "8KIxyjZ_5LcxV1mq",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Seismic signals can tell us when and what size earthquakes happened, but the signals are very noisy. We need systems capable of processing large volumes of data against particular filter patterns to sift the signal from the noise. Start by choosing the state data source and time range you want to examine.</p>"
+          ]
+        }
+      },
+      {
+        "id": "LKPGf8DSaPXHr8NA",
+        "content": {
+          "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "gBt76on3g72EBpm8": {
+                "id": "gBt76on3g72EBpm8",
+                "name": "Sensor",
+                "x": 75.61538461538464,
+                "y": 73.38461538461539,
+                "data": {
+                  "type": "Sensor",
+                  "plot": true,
+                  "orderedDisplayName": "Earthquake Data",
+                  "tickEntries": {
+                    "5bkjO0dtQGve-B7Y": {
+                      "nodeValue": "0"
+                    },
+                    "5ntp0I-z4INC-XnP": {
+                      "nodeValue": "0"
+                    },
+                    "ABAfxapPU7Cd2WTW": {
+                      "nodeValue": "0"
+                    },
+                    "KXDKsI4WCdpD6HEt": {
+                      "nodeValue": "0"
+                    },
+                    "iNFfvGQXgVpZJ8Re": {
+                      "nodeValue": "0"
+                    },
+                    "ww6lIY87IR6eX210": {
+                      "nodeValue": "0"
+                    },
+                    "OnkDLLlLQBbIvmbI": {
+                      "nodeValue": "0"
+                    },
+                    "AWhciSwbtZ80okQ_": {
+                      "nodeValue": "0"
+                    },
+                    "jqLC-t9YyFz5ZxRT": {
+                      "nodeValue": "0"
+                    },
+                    "5Eova5IGgokKpIqT": {
+                      "nodeValue": "0"
+                    },
+                    "LbSf2FfZ0kvmAqUQ": {
+                      "nodeValue": "0"
+                    },
+                    "8CTjCz9ZdQgZwod9": {
+                      "nodeValue": "0"
+                    },
+                    "_OCHRIeR8_JstKiC": {
+                      "nodeValue": "0"
+                    },
+                    "h95ajToZLEler7DU": {
+                      "nodeValue": "0"
+                    },
+                    "hV7L61H1938Iye7f": {
+                      "nodeValue": "0"
+                    },
+                    "tuSn-2gIlqfgIIfb": {
+                      "nodeValue": "0"
+                    },
+                    "VFZFZumD6pukpWaw": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "sensorType": "fsr-reading",
+                  "sensor": "fsr",
+                  "sensorDisplayName": "Arduino:fsr-reading"
+                }
+              },
+              "GrTYtQM5C8gwQl-C": {
+                "id": "GrTYtQM5C8gwQl-C",
+                "name": "Generator",
+                "x": 355.8461538461539,
+                "y": 65.69230769230768,
+                "data": {
+                  "type": "Generator",
+                  "plot": true,
+                  "orderedDisplayName": "Seismoscope",
+                  "tickEntries": {
+                    "5bkjO0dtQGve-B7Y": {
+                      "nodeValue": "0"
+                    },
+                    "5ntp0I-z4INC-XnP": {
+                      "nodeValue": "1"
+                    },
+                    "ABAfxapPU7Cd2WTW": {
+                      "nodeValue": "1"
+                    },
+                    "KXDKsI4WCdpD6HEt": {
+                      "nodeValue": "1"
+                    },
+                    "iNFfvGQXgVpZJ8Re": {
+                      "nodeValue": "1"
+                    },
+                    "ww6lIY87IR6eX210": {
+                      "nodeValue": "1"
+                    },
+                    "OnkDLLlLQBbIvmbI": {
+                      "nodeValue": "0"
+                    },
+                    "AWhciSwbtZ80okQ_": {
+                      "nodeValue": "0"
+                    },
+                    "jqLC-t9YyFz5ZxRT": {
+                      "nodeValue": "0"
+                    },
+                    "5Eova5IGgokKpIqT": {
+                      "nodeValue": "0"
+                    },
+                    "LbSf2FfZ0kvmAqUQ": {
+                      "nodeValue": "0"
+                    },
+                    "8CTjCz9ZdQgZwod9": {
+                      "nodeValue": "1"
+                    },
+                    "_OCHRIeR8_JstKiC": {
+                      "nodeValue": "1"
+                    },
+                    "h95ajToZLEler7DU": {
+                      "nodeValue": "1"
+                    },
+                    "hV7L61H1938Iye7f": {
+                      "nodeValue": "1"
+                    },
+                    "tuSn-2gIlqfgIIfb": {
+                      "nodeValue": "1"
+                    },
+                    "VFZFZumD6pukpWaw": {
+                      "open": true,
+                      "nodeValue": "1"
+                    }
+                  },
+                  "generatorType": "Square",
+                  "amplitude": 1,
+                  "period": 10,
+                  "periodUnits": "sec"
+                }
+              },
+              "bisHhDuLW2Z92DwB": {
+                "id": "bisHhDuLW2Z92DwB",
+                "name": "Math",
+                "x": 354.8461538461539,
+                "y": 148.38461538461536,
+                "data": {
+                  "type": "Math",
+                  "plot": false,
+                  "orderedDisplayName": "Math 1",
+                  "tickEntries": {
+                    "5bkjO0dtQGve-B7Y": {
+                      "nodeValue": "NaN"
+                    },
+                    "5ntp0I-z4INC-XnP": {
+                      "nodeValue": "NaN"
+                    },
+                    "ABAfxapPU7Cd2WTW": {
+                      "nodeValue": "NaN"
+                    },
+                    "KXDKsI4WCdpD6HEt": {
+                      "nodeValue": "NaN"
+                    },
+                    "iNFfvGQXgVpZJ8Re": {
+                      "nodeValue": "NaN"
+                    },
+                    "ww6lIY87IR6eX210": {
+                      "nodeValue": "NaN"
+                    },
+                    "OnkDLLlLQBbIvmbI": {
+                      "nodeValue": "NaN"
+                    },
+                    "AWhciSwbtZ80okQ_": {
+                      "nodeValue": "NaN"
+                    },
+                    "jqLC-t9YyFz5ZxRT": {
+                      "nodeValue": "NaN"
+                    },
+                    "5Eova5IGgokKpIqT": {
+                      "nodeValue": "NaN"
+                    },
+                    "LbSf2FfZ0kvmAqUQ": {
+                      "nodeValue": "NaN"
+                    },
+                    "8CTjCz9ZdQgZwod9": {
+                      "nodeValue": "NaN"
+                    },
+                    "_OCHRIeR8_JstKiC": {
+                      "nodeValue": "NaN"
+                    },
+                    "h95ajToZLEler7DU": {
+                      "nodeValue": "NaN"
+                    },
+                    "hV7L61H1938Iye7f": {
+                      "nodeValue": "NaN"
+                    },
+                    "tuSn-2gIlqfgIIfb": {
+                      "nodeValue": "NaN"
+                    },
+                    "VFZFZumD6pukpWaw": {
+                      "open": true,
+                      "nodeValue": "NaN"
+                    }
+                  },
+                  "mathOperator": "Add"
+                }
+              },
+              "RuHgnW2s_dbsnbDA": {
+                "id": "RuHgnW2s_dbsnbDA",
+                "name": "Demo Output",
+                "x": 188.1730769230769,
+                "y": 356.1813186813187,
+                "data": {
+                  "type": "Demo Output",
+                  "plot": false,
+                  "orderedDisplayName": "Seismic Map",
+                  "tickEntries": {
+                    "5bkjO0dtQGve-B7Y": {
+                      "nodeValue": "0"
+                    },
+                    "5ntp0I-z4INC-XnP": {
+                      "nodeValue": "1"
+                    },
+                    "ABAfxapPU7Cd2WTW": {
+                      "nodeValue": "1"
+                    },
+                    "KXDKsI4WCdpD6HEt": {
+                      "nodeValue": "1"
+                    },
+                    "iNFfvGQXgVpZJ8Re": {
+                      "nodeValue": "1"
+                    },
+                    "ww6lIY87IR6eX210": {
+                      "nodeValue": "1"
+                    },
+                    "OnkDLLlLQBbIvmbI": {
+                      "nodeValue": "0"
+                    },
+                    "AWhciSwbtZ80okQ_": {
+                      "nodeValue": "0"
+                    },
+                    "jqLC-t9YyFz5ZxRT": {
+                      "nodeValue": "0"
+                    },
+                    "5Eova5IGgokKpIqT": {
+                      "nodeValue": "0"
+                    },
+                    "LbSf2FfZ0kvmAqUQ": {
+                      "nodeValue": "0"
+                    },
+                    "8CTjCz9ZdQgZwod9": {
+                      "nodeValue": "1"
+                    },
+                    "_OCHRIeR8_JstKiC": {
+                      "nodeValue": "1"
+                    },
+                    "h95ajToZLEler7DU": {
+                      "nodeValue": "1"
+                    },
+                    "hV7L61H1938Iye7f": {
+                      "nodeValue": "1"
+                    },
+                    "tuSn-2gIlqfgIIfb": {
+                      "nodeValue": "1"
+                    },
+                    "VFZFZumD6pukpWaw": {
+                      "open": true,
+                      "nodeValue": "1"
+                    }
+                  },
+                  "outputType": "Fan"
+                }
+              }
+            },
+            "connections": {
+              "f39b38846cca0ca3": {
+                "id": "f39b38846cca0ca3",
+                "source": "gBt76on3g72EBpm8",
+                "sourceOutput": "value",
+                "target": "bisHhDuLW2Z92DwB",
+                "targetInput": "num1"
+              },
+              "e1e6a931ac3b369e": {
+                "id": "e1e6a931ac3b369e",
+                "source": "GrTYtQM5C8gwQl-C",
+                "sourceOutput": "value",
+                "target": "RuHgnW2s_dbsnbDA",
+                "targetInput": "nodeValue"
+              }
+            },
+            "recentTicks": [
+              "5bkjO0dtQGve-B7Y",
+              "5ntp0I-z4INC-XnP",
+              "ABAfxapPU7Cd2WTW",
+              "KXDKsI4WCdpD6HEt",
+              "iNFfvGQXgVpZJ8Re",
+              "ww6lIY87IR6eX210",
+              "OnkDLLlLQBbIvmbI",
+              "AWhciSwbtZ80okQ_",
+              "jqLC-t9YyFz5ZxRT",
+              "5Eova5IGgokKpIqT",
+              "LbSf2FfZ0kvmAqUQ",
+              "8CTjCz9ZdQgZwod9",
+              "_OCHRIeR8_JstKiC",
+              "h95ajToZLEler7DU",
+              "hV7L61H1938Iye7f",
+              "tuSn-2gIlqfgIIfb",
+              "VFZFZumD6pukpWaw"
+            ]
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 2,
+            "dy": 0,
+            "scale": 0.6499999999999997
+          }
+        }
+      },
+      {
+        "id": "w44-Eb4-NY08_5bf",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Create a program like this one, or drag this program into your document. Experiment with the filtering choices and describe which ones make earthquakes show up reliably on the map.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Jo9LcGyLashEU9C7",
+          "providerId": "LKPGf8DSaPXHr8NA",
+          "dataSet": {
+            "id": "4rqCf4la6iOIahpC",
+            "name": "Seismic Filtering Program",
+            "attributes": [
+              {
+                "id": "ATTRQ85Mw6kP7ZVe",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTRIaG0_Ht5LnPR",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "LKPGf8DSaPXHr8NA"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "JCxNnPgVVAyCStMD"
+        },
+        "tiles": [
+          "LKPGf8DSaPXHr8NA"
+        ]
+      }
+    ]
   }
 }
