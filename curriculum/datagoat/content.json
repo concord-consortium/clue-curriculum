@@ -64,18 +64,6 @@
         "isTileTool": false
       },
       {
-        "id": "undo",
-        "title": "Undo",
-        "iconId": "icon-undo-tool",
-        "isTileTool": false
-      },
-      {
-        "id": "redo",
-        "title": "Redo",
-        "iconId": "icon-redo-tool",
-        "isTileTool": false
-      },
-      {
         "id": "delete",
         "title": "Delete",
         "iconId": "icon-delete-tool",
@@ -102,7 +90,7 @@
             },
             {
               "initials": "SUM",
-              "title": "Reflection",
+              "title": "Summary",
               "type": "problem-documents"
             }
           ]
@@ -136,18 +124,6 @@
               ],
               "showStars": [],
               "addDocument": true
-            },
-            {
-              "title": "Workspaces",
-              "type": "learning-logs",
-              "dataTestHeader": "learning-log-section",
-              "documentTypes": [
-                "learningLog"
-              ],
-              "properties": [
-                "!isDeleted"
-              ],
-              "addDocument": true
             }
           ]
         },
@@ -174,6 +150,10 @@
           [
             "data-set-view",
             "graph"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
           ],
           [
             "data-set-view",
@@ -213,6 +193,10 @@
             "data-set-view",
             "graph"
           ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
           "image-upload",
           "delete-attribute"
         ]
@@ -246,6 +230,11 @@
       "initials": "DATA",
       "title": "Data Analysis",
       "placeholder": "Analyze the Data"
+    },
+    "reflection": {
+      "initials": "SUM",
+      "title": "Summary",
+      "placeholder": "Sum up data conclusions"
     }
   },
   "planningDocument": {
@@ -318,12 +307,12 @@
             "sections/investigation-1/problem-1/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-6/content.json"     
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
           ],
           "config": {
           }
@@ -340,12 +329,12 @@
             "sections/investigation-1/problem-2/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-6/content.json"     
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
           ],
           "config": {
             "planningTemplate": {
@@ -370,12 +359,12 @@
             "sections/investigation-1/problem-3/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-6/content.json"     
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
           ],
           "config": {
             "planningTemplate": {
@@ -400,12 +389,12 @@
             "sections/investigation-1/problem-4/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-6/content.json"     
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
           ],
           "config": {
             "planningTemplate": {
@@ -430,12 +419,12 @@
             "sections/investigation-1/problem-5/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-6/content.json"     
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
           ],
           "config": {
             "planningTemplate": {
@@ -460,12 +449,12 @@
             "sections/investigation-1/problem-6/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-6/content.json"     
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
           ],
           "config": {
             "planningTemplate": {
