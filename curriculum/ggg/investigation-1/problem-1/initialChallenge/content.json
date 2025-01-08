@@ -9,9 +9,117 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Problem 1.1 </strong></p><p><strong>Making Ballots: Linear or Non-Linear Relationship?</strong></p><p></p><p>Chen is the secretary of the Student Government Association. He is making ballots for a meeting. Chen starts by cutting a sheet of paper in half. Then, he stacks the two pieces and cuts them in half again. With four pieces now, he stacks them and cuts them in half. By repeating this process, he makes smaller and smaller paper ballots. </p><p></p>"
+            "<p><strong>Problem 1.1 </strong></p><p><strong>Making Ballots: Linear or Non-Linear Relationship?</strong></p><p>Chen is the secretary of the Student Government Association. He is making ballots for a meeting. </p><p>Chen starts by cutting a sheet of paper in half. Then, he stacks the two pieces and cuts them in half again. </p><p>With four pieces now, he stacks them and cuts them in half. By repeating this process, he makes smaller and smaller paper ballots.</p>"
           ]
         }
+      },
+      {
+        "id": "neDwrBcgxo6867tI",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "ggg/images/screenshot-2025-01-08-at-3.40.52 pm.png",
+          "filename": "ggg/images/screenshot-2025-01-08-at-3.40.52 pm.png"
+        }
+      },
+      {
+        "id": "djI1zlZm1tyUUAck",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>After each cut, Chen counts and records the number of ballots in a table. </p>"
+          ]
+        }
+      },
+      {
+        "id": "dADL_V6MTUlVaT_Q",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Lub_17VTTrC8GwZO": 153.79998779296875,
+            "LpCv-3-Vsj6wO2yB": 200.07810974121094
+          }
+        }
+      },
+      {
+        "id": "4mBZFDKQN1GPRIPF",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>He wants to predict the number of ballots after any number of cuts. So, he looks for a growth pattern that describes how the number of ballots changes with each cut. </p><ul><li>Describe a growth pattern Chen might have noticed.</li></ul><p></p><ul><li>How could he use this pattern to predict the number of ballots after 10 cuts?</li><p></p></ul>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "2tGG1cvx-fU5g7N5",
+          "providerId": "dADL_V6MTUlVaT_Q",
+          "dataSet": {
+            "id": "qHEL3CedKViAVZCj",
+            "name": "Number of Ballots for Each Cut",
+            "attributes": [
+              {
+                "id": "Lub_17VTTrC8GwZO",
+                "clientKey": "",
+                "name": "Number of Cuts",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "LpCv-3-Vsj6wO2yB",
+                "clientKey": "",
+                "name": "Number of Ballots",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2",
+                  "4",
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "07-ekM35PdLosNxc"
+              },
+              {
+                "__id__": "ZVqonTVnAdXX2xfF"
+              },
+              {
+                "__id__": "O8u5AqynW9JLEpaC"
+              },
+              {
+                "__id__": "DzdKaCAwyochX6CE"
+              },
+              {
+                "__id__": "xr98LaDI0NC1icHM"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "dADL_V6MTUlVaT_Q"
+        ]
       }
     ]
   },
