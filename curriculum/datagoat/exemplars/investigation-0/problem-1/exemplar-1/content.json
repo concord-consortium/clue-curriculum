@@ -1,7 +1,140 @@
 {
-  "title": "Exemplar 1: Diverging",
+  "title": "Exemplar 1: Data in Tables",
   "tag": "diverging",
   "content": {
-    "tiles": [ ]
+    "tiles": [
+      {
+        "id": "PS6B_Vo1G7OgwS0z",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Data comes in lots of shapes and sizes. Data tables are the classic way to enter, store and import data. Here are some things to watch out for </p><ul><li><strong>Empty cells</strong> - while an empty cell is easy for a human to interpret, it&#x27;s confusing for a computer. You may find strange behavior in plots or other data visualizations when there are missing data points.</li><li><strong>Nonuniform data types</strong> - look out for data that doesn&#x27;t fit the pattern. If a column is supposed to be full of dates or integers, and one cell has data that&#x27;s a phrase of text, or a decimal, or negative, it can throw your analysis off. When data gets longer than 10-15 rows, it can be hard to spot problems like this.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "YYGPzNlgZlYjSZ5a",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "sw69UrlSrSxPGa4G": 178.33984375,
+            "ZOX5aVfOTJ3lFBGr": 184.6484375,
+            "Yig_rv-86M1ZeZ4W": 80,
+            "H_2kofa8N4aqMI7A": 97.5830078125
+          }
+        }
+      },
+      {
+        "id": "YlgMaj5tAeriT-Vr",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Best practices</p><ul><li><strong>Label your data</strong> - it can be hard to remember what you&#x27;re looking at or why it was important even a day after you recorded it</li><li><strong>Leave notes </strong>(metadata) - document how you took the data, what else was going on, or take pictures of the scenario. These can all help you make sense of your data later.</li><li><strong>Check calculations </strong>- it&#x27;s easy to slip a term in a calculation. Double check that your numbers make sense.</li></ul>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "ACsfybkFs34CTC5m",
+          "providerId": "YYGPzNlgZlYjSZ5a",
+          "dataSet": {
+            "id": "Ot_iYP_WsTKm5lfJ",
+            "name": "This is data about A THING",
+            "attributes": [
+              {
+                "id": "sw69UrlSrSxPGa4G",
+                "clientKey": "",
+                "name": "First",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ZOX5aVfOTJ3lFBGr",
+                "clientKey": "",
+                "name": "Second Column",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "",
+                  "canonical": ""
+                },
+                "values": [
+                  "30.4",
+                  "29.6",
+                  null,
+                  "-590"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Yig_rv-86M1ZeZ4W",
+                "clientKey": "",
+                "name": "Notes",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "I was sick that day"
+                ],
+                "title": ""
+              },
+              {
+                "id": "H_2kofa8N4aqMI7A",
+                "clientKey": "",
+                "name": "Average",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "(First)/4",
+                  "canonical": "(__x__ / 4)"
+                },
+                "values": [
+                  0.25,
+                  0.5,
+                  0.75,
+                  1
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "ijE-AyLm9-H63YFc"
+              },
+              {
+                "__id__": "YgKsAEpWF8WfQXdW"
+              },
+              {
+                "__id__": "gxqTRbabPg6BbpC_"
+              },
+              {
+                "__id__": "EEQ_GABDaC8FA2ub"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "YYGPzNlgZlYjSZ5a"
+        ]
+      }
+    ]
   }
 }
