@@ -15,7 +15,6 @@
       },
       {
         "id": "x8YQxBfW5cPJziqm",
-        "title": "Data Cards: 10 Moths to Explore",
         "content": {
           "type": "DataCard"
         }
@@ -44,7 +43,6 @@
       },
       {
         "id": "G3J-Ja2CjI3JyqfW",
-        "title": "Data Cards: 10 Moths to Sort",
         "content": {
           "type": "DataCard"
         }
@@ -72,22 +70,120 @@
         }
       },
       {
+        "id": "MXig3aF3oKAJCoow",
+        "title": "Bar Graph 1",
+        "content": {
+          "type": "BarGraph",
+          "yAxisLabel": "Counts",
+          "dataSetId": "Cfxowv4GNxkRl8dL",
+          "primaryAttribute": "2wP4sJvJd5cpZyBx",
+          "primaryAttributeColor": "black",
+          "secondaryAttribute": "3bcPLVqwZMJ0QuVB",
+          "secondaryAttributeColorMap": {
+            "moth/images/BrownMoth1.png": "#0069ff",
+            "moth/images/WhiteMoth1.png": "#ff9617",
+            "moth/images/OrangeMoth1.png": "#19a90f",
+            "moth/images/BrownMoth2.png": "#e00",
+            "moth/images/BrownMoth3.png": "#cbd114",
+            "moth/images/BrownMoth4.png": "#d51eff",
+            "moth/images/GreenMoth1.png": "#6b00d2",
+            "moth/images/OrangeMoth2.png": "#fff",
+            "moth/images/OrangeMoth3.png": "#f1d9ae",
+            "moth/images/WhiteMoth2.png": "#a5a5a5"
+          }
+        }
+      },
+      {
         "id": "yqpxLNRAJwyRuitW",
         "title": "Drag these parts to make a moth!",
         "content": {
           "type": "Drawing",
           "objects": [
-            {"type": "image", "id": "oIdVTblCu-FvuTsJ", "x": 381, "y": 82, "url": "moth/images/1_hindwingl.png", "width": 154, "height": 111},
-            {"type": "image", "id": "H4EyVKr5grgsA_rW", "x": 104, "y": 34, "url": "moth/images/2_hindwingr.png", "width": 164, "height": 125},
-            {"type": "image", "id": "8LxYPcpKpjbN8ST1", "x": 221, "y": 189, "url": "moth/images/3_forewingl.png", "width": 311, "height": 121},
-            {"type": "image", "id": "MbC8m_aar6_mJXtI", "x": 227, "y": 0, "url": "moth/images/4_forewingr.png", "width": 332, "height": 115},
-            {"type": "image", "id": "t0putUiOAZSsmEBp", "x": 15, "y": 7, "url": "moth/images/5_abdomen.png", "width": 77, "height": 150},
-            {"type": "image", "id": "jrUAEJN2a-Sj5mHg", "x": 277, "y": 86, "url": "moth/images/6_thorax.png", "width": 76, "height": 106},
-            {"type": "image", "id": "GLvQ1gLfwqTCvgn0", "x": 56, "y": 171, "url": "moth/images/7_head.png", "width": 82, "height": 57},
-            {"type": "image", "id": "LMomsdzgHyvItenA", "x": 16, "y": 233, "url": "moth/images/8_antennae.png", "width": 155, "height": 48}
+            {
+              "type": "image",
+              "id": "oIdVTblCu-FvuTsJ",
+              "x": 381,
+              "y": 82,
+              "visible": true,
+              "url": "moth/images/1_hindwingl.png",
+              "width": 154,
+              "height": 111
+            },
+            {
+              "type": "image",
+              "id": "H4EyVKr5grgsA_rW",
+              "x": 104,
+              "y": 34,
+              "visible": true,
+              "url": "moth/images/2_hindwingr.png",
+              "width": 164,
+              "height": 125
+            },
+            {
+              "type": "image",
+              "id": "8LxYPcpKpjbN8ST1",
+              "x": 221,
+              "y": 189,
+              "visible": true,
+              "url": "moth/images/3_forewingl.png",
+              "width": 311,
+              "height": 121
+            },
+            {
+              "type": "image",
+              "id": "MbC8m_aar6_mJXtI",
+              "x": 227,
+              "y": 0,
+              "visible": true,
+              "url": "moth/images/4_forewingr.png",
+              "width": 332,
+              "height": 115
+            },
+            {
+              "type": "image",
+              "id": "t0putUiOAZSsmEBp",
+              "x": 15,
+              "y": 7,
+              "visible": true,
+              "url": "moth/images/5_abdomen.png",
+              "width": 77,
+              "height": 150
+            },
+            {
+              "type": "image",
+              "id": "jrUAEJN2a-Sj5mHg",
+              "x": 277,
+              "y": 86,
+              "visible": true,
+              "url": "moth/images/6_thorax.png",
+              "width": 76,
+              "height": 106
+            },
+            {
+              "type": "image",
+              "id": "GLvQ1gLfwqTCvgn0",
+              "x": 56,
+              "y": 171,
+              "visible": true,
+              "url": "moth/images/7_head.png",
+              "width": 82,
+              "height": 57
+            },
+            {
+              "type": "image",
+              "id": "LMomsdzgHyvItenA",
+              "x": 16,
+              "y": 233,
+              "visible": true,
+              "url": "moth/images/8_antennae.png",
+              "width": 155,
+              "height": 48
+            }
           ]
         },
-        "layout": { "height": 309 }
+        "layout": {
+          "height": 309
+        }
       },
       {
         "id": "OIHEOZsdffgHFldZzAgzP",
@@ -109,6 +205,7 @@
           "providerId": "G3J-Ja2CjI3JyqfW",
           "dataSet": {
             "id": "Cfxowv4GNxkRl8dL",
+            "name": "Data Cards: 10 Moths to Sort",
             "attributes": [
               {
                 "id": "3bcPLVqwZMJ0QuVB",
@@ -230,7 +327,8 @@
           }
         },
         "tiles": [
-          "G3J-Ja2CjI3JyqfW"
+          "G3J-Ja2CjI3JyqfW",
+          "MXig3aF3oKAJCoow"
         ]
       },
       {
@@ -240,6 +338,7 @@
           "providerId": "x8YQxBfW5cPJziqm",
           "dataSet": {
             "id": "SEngoQdIST_QFxXb",
+            "name": "Data Cards: 10 Moths to Explore",
             "attributes": [
               {
                 "id": "40002DW6DNgl09sN",
