@@ -1,0 +1,489 @@
+{
+  "code": "datagoat",
+  "abbrevTitle": "GOAT",
+  "title": "Greatest of All Time",
+  "subtitle": "Data Analysis", 
+  "config": {
+    "enableHistoryRoles": [
+      "teacher", "student"
+    ],
+    "placeholderText": "Space for Notes",
+    "autoSectionProblemDocuments": true,
+    "defaultDocumentType": "problem",
+    "disablePublish": true,
+    "initiallyHideExemplars": true,
+    "toolbar": [
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "XY-Graph",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "BarGraph",
+        "title": "Bar Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+    
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Activity",
+          "sections": [
+            {
+              "initials": "TIPS",
+              "title": "Tips",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "DATA",
+              "title": "Data Analysis",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "SUM",
+              "title": "Summary",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": []
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [],
+              "addDocument": true
+            }
+          ]
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        }
+      ]
+    },
+    "settings": {
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          [
+            "data-set-view",
+            "datacard"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          [
+            "data-set-view",
+            "Table"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          "image-upload",
+          "delete-attribute"
+        ]
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+      "nutrition": "Nutrition",
+      "training": "Training",
+      "sports_medicine": "Sports medicine",
+      "performance": "Performance",
+      "team_ops": "Team ops",
+      "academics": "Academics"
+    },
+    "tagPrompt": "Type of Stats",
+    "stamps": [
+      {
+        "url": "datagoat/stamps/pulling.png",
+        "width": 116,
+        "height": 114
+      }
+    ]
+  },
+  "sections": {
+    "introduction": {
+      "initials": "TIPS",
+      "title": "Tips",
+      "placeholder": "How did you measure the data"
+    },
+    "activity": {
+      "initials": "DATA",
+      "title": "Data Analysis",
+      "placeholder": "Analyze the Data"
+    },
+    "reflection": {
+      "initials": "SUM",
+      "title": "Summary",
+      "placeholder": "Sum up data conclusions"
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "objectives": {
+        "initials": "OB",
+        "title": "Objectives",
+        "placeholder": "Work area for\nObjectives section"
+      },
+      "sequence": {
+        "initials": "SQ",
+        "title": "Sequence",
+        "placeholder": "Work area for\nSequence section"
+      }
+    },
+    "sections": [
+      {
+        "type": "objectives"
+      },
+      {
+        "type": "sequence"
+      }
+    ]
+  },
+  "investigations": [
+    {
+      "description": "Introduction to CLUE",
+      "ordinal": 0,
+      "title": "Introduction to CLUE",
+      "problems": [
+        {
+          "description": "Activity 0: Getting Started",
+          "ordinal": 1,
+          "title": "Collaborative Learning Environment",
+          "subtitle": "Get a CLUE",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-0/problem-1/introduction/content.json",
+            "sections/investigation-0/problem-1/activity/content.json",
+            "sections/investigation-0/problem-1/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"            
+          ],
+          "config": {}
+        }
+      ]
+    },
+    {
+      "description": "Activity 1: Data Analysis",
+      "ordinal": 1,
+      "title": "Data Analysis",
+      "problems": [
+        {
+          "description": "Analysis 1.1",
+          "ordinal": 1,
+          "title": "Nutrition Data",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-1/introduction/content.json",
+            "sections/investigation-1/problem-1/activity/content.json",
+            "sections/investigation-1/problem-1/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
+          ],
+          "config": {
+          }
+        },
+        {
+          "description": "Analysis 1.2",
+          "ordinal": 2,
+          "title": "Training Data",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-2/introduction/content.json",
+            "sections/investigation-1/problem-2/activity/content.json",
+            "sections/investigation-1/problem-2/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        },
+        {
+          "description": "Analysis 1.3",
+          "ordinal": 3,
+          "title": "Sports Medicine",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-3/introduction/content.json",
+            "sections/investigation-1/problem-3/activity/content.json",
+            "sections/investigation-1/problem-3/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        },
+        {
+          "description": "Analysis 1.4",
+          "ordinal": 4,
+          "title": "Strategy Data",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-4/introduction/content.json",
+            "sections/investigation-1/problem-4/activity/content.json",
+            "sections/investigation-1/problem-4/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        },
+        {
+          "description": "Analysis 1.5",
+          "ordinal": 5,
+          "title": "Performance",
+          "subtitle": "Research",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-5/introduction/content.json",
+            "sections/investigation-1/problem-5/activity/content.json",
+            "sections/investigation-1/problem-5/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        },
+        {
+          "description": "Analysis 1.6",
+          "ordinal": 6,
+          "title": "Team Ops",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-6/introduction/content.json",
+            "sections/investigation-1/problem-6/activity/content.json",
+            "sections/investigation-1/problem-6/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-0/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-5/content.json",
+            "exemplars/investigation-0/problem-1/exemplar-6/content.json"     
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+        }
+        },
+        {
+          "description": "Activity 1.7",
+          "ordinal": 7,
+          "title": "Academics",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-7/introduction/content.json",
+            "sections/investigation-1/problem-7/activity/content.json",
+            "sections/investigation-1/problem-7/reflection/content.json"
+          ],
+          "exemplars": [
+          ],
+          "config": {
+          }
+        }
+      ]
+    }
+  ]
+}

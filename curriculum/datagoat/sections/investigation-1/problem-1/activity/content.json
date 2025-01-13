@@ -1,0 +1,288 @@
+{
+  "type": "activity",
+  "content": {
+    "tiles": [
+      {
+        "id": "CFA_LrETYDTrlReI",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>What kinds of things affect your ability to track Nutrition and Health data? Document some things that are issues.</p><p>What do you want to know as a result of recording your health data? Can you tell if you are eating correctly to support your play after a day? A week? What additional data might you need to record, or how would you best display that data in order to support reaching your goals?</p>"
+          ]
+        }
+      },
+      {
+        "id": "cnziNjpfTX_utkPO",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "KMd_VE_o8HWAbojh": 80,
+            "HQtJoofBnDggbtD2": 94.2822265625,
+            "7SKmQ2hDHtH_YXCQ": 111.767578125,
+            "2Ho4BSMTbmLHekj4": 80,
+            "3eZ0FkMKMTYGlFLa": 80,
+            "A8f3jUMEZldLjTLi": 141.2109375
+          }
+        }
+      },
+      {
+        "id": "3OEJSHeWq-ViA26L",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Graphing values with different units together on the same axis is confusing and can obscure the real meaning in the data, particularly if the values are very different in size. One thing data scientists do is to normalize data - put it all between a range of 0 and 1 - so that it&#x27;s both unitless and easily compared. Another technique is to view percentage of change in a value for each time period. This puts values on a scale from 0 - 100, or from 0 to 1 if you are using decimals.</p>"
+          ]
+        }
+      },
+      {
+        "id": "5N2-PvYapMNgFlBB",
+        "title": "Nutrition Graph",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 5.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 1
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRwbSrnLkdzvuK",
+              "config": {
+                "id": "DCONHAO1TxoiLpSZ",
+                "dataset": "TA0mLPsuIlVuH5KD",
+                "metadata": "Urb_uWAeSl06l2_V",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "KMd_VE_o8HWAbojh"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "A8f3jUMEZldLjTLi"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "HQtJoofBnDggbtD2": 0,
+            "A8f3jUMEZldLjTLi": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "day",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
+        "id": "uWhAMdSwx1xQ-MFZ",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Take the nutrition data you entered earlier and create some comparable values. Create a graph that shows you want you want to see to observe trends in the data.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "X2GcvALFDGwgSH_-",
+          "providerId": "cnziNjpfTX_utkPO",
+          "dataSet": {
+            "id": "TA0mLPsuIlVuH5KD",
+            "name": "Food",
+            "attributes": [
+              {
+                "id": "KMd_VE_o8HWAbojh",
+                "clientKey": "",
+                "name": "Day",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "HQtJoofBnDggbtD2",
+                "clientKey": "",
+                "name": "Calories",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "",
+                  "canonical": ""
+                },
+                "values": [
+                  "2450",
+                  "2367",
+                  "2287",
+                  "2340",
+                  "2500"
+                ],
+                "title": ""
+              },
+              {
+                "id": "7SKmQ2hDHtH_YXCQ",
+                "clientKey": "",
+                "name": "Protein (g)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "67",
+                  "87",
+                  "78",
+                  "75",
+                  "71"
+                ],
+                "title": ""
+              },
+              {
+                "id": "2Ho4BSMTbmLHekj4",
+                "clientKey": "",
+                "name": "Urine",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "2.3",
+                  "1.9",
+                  ".8",
+                  "1.8",
+                  ".9"
+                ],
+                "title": ""
+              },
+              {
+                "id": "3eZ0FkMKMTYGlFLa",
+                "clientKey": "",
+                "name": "Weight",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "185",
+                  "184",
+                  "183",
+                  "182",
+                  "181"
+                ],
+                "title": ""
+              },
+              {
+                "id": "A8f3jUMEZldLjTLi",
+                "clientKey": "",
+                "name": "Normalized Calories",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "2450/(2600*Day)",
+                  "canonical": "(2450 / (2600 * __x__))"
+                },
+                "values": [
+                  0.9423076923076923,
+                  0.47115384615384615,
+                  0.3141025641025641,
+                  0.23557692307692307,
+                  0.18846153846153846
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01JHET7YKQ39R5B3MPFD3ZR8ED"
+              },
+              {
+                "__id__": "01JHET7YKQ39R5B3MPFD3ZR8EE"
+              },
+              {
+                "__id__": "01JHET7YKQ39R5B3MPFD3ZR8EF"
+              },
+              {
+                "__id__": "01JHET7YKQ39R5B3MPFD3ZR8EG"
+              },
+              {
+                "__id__": "01JHET7YKQ39R5B3MPFD3ZR8EH"
+              }
+            ]
+          }
+        },
+        "provider": "cnziNjpfTX_utkPO",
+        "tiles": [
+          "cnziNjpfTX_utkPO",
+          "5N2-PvYapMNgFlBB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "Urb_uWAeSl06l2_V",
+          "data": "TA0mLPsuIlVuH5KD",
+          "collections": {},
+          "categories": {
+            "KMd_VE_o8HWAbojh": {
+              "attribute": "KMd_VE_o8HWAbojh",
+              "colors": {},
+              "moves": []
+            },
+            "HQtJoofBnDggbtD2": {
+              "attribute": "HQtJoofBnDggbtD2",
+              "colors": {},
+              "moves": []
+            },
+            "A8f3jUMEZldLjTLi": {
+              "attribute": "A8f3jUMEZldLjTLi",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "5N2-PvYapMNgFlBB"
+        ]
+      }
+    ]
+  }
+}

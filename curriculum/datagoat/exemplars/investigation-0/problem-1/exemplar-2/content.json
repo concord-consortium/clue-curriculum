@@ -1,0 +1,127 @@
+{
+  "title": "Data Categories",
+  "tag": "converging",
+  "content": {
+    "tiles": [
+      {
+        "id": "bIVcrRfQfFye9uAz",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Data Categories in Data Cards</strong></p><p>Some data needs to be viewed in a variety of ways to make sense out of it, or you may want a different organization on different days. Taking care to make useful sort categories on cards can be an effective way to look at data through different lenses. You will need to create the categories so that there is some overlap between data but not all in one bin.</p>"
+          ]
+        }
+      },
+      {
+        "id": "LKxH_LvHjMKDBrVX",
+        "layout": {
+          "height": 400
+        },
+        "content": {
+          "type": "DataCard"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Rvz1_yMdhjFNJT3W",
+          "providerId": "LKxH_LvHjMKDBrVX",
+          "dataSet": {
+            "id": "rl2NJ_gkYski_DOB",
+            "name": "Strategic Documentation",
+            "attributes": [
+              {
+                "id": "gQwNZZspOKTXFY7D",
+                "clientKey": "",
+                "name": "Source File",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "video1.mov",
+                  "video2.mov",
+                  "video2.mov"
+                ],
+                "title": ""
+              },
+              {
+                "id": "MAIcjWmvTdZF6OCn",
+                "clientKey": "",
+                "name": "Subject",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Terrapins",
+                  "Tar Heels",
+                  "Tar Heels"
+                ],
+                "title": ""
+              },
+              {
+                "id": "NF9xN-Va-hYoDR2k",
+                "clientKey": "",
+                "name": "Date",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "11/1/24",
+                  "11/1/24",
+                  "11/1/24"
+                ],
+                "title": ""
+              },
+              {
+                "id": "xyiaNCeqby_9j0_n",
+                "clientKey": "",
+                "name": "Topic",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Passing",
+                  "Running",
+                  "Passing"
+                ],
+                "title": ""
+              },
+              {
+                "id": "nHeECGsLD71MokAW",
+                "clientKey": "",
+                "name": "Still",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "curriculum/datagoat/images/terrapins.png",
+                  "curriculum/datagoat/images/terrapins.png",
+                  "curriculum/datagoat/images/terrapins.png"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01JH402K1K325X2JJNZ5FKJEW5"
+              },
+              {
+                "__id__": "01JH40NZN5902FQPSNPAAP9AP7"
+              },
+              {
+                "__id__": "01JH40REGPRM94RV5CJ0EF17AZ"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "LKxH_LvHjMKDBrVX"
+        ]
+      }
+    ]
+  }
+}

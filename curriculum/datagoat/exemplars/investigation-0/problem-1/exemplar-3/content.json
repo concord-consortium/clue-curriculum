@@ -1,0 +1,275 @@
+{
+  "title": "Time Series Graphs",
+  "tag": "performance",
+  "content": {
+    "tiles": [
+      {
+        "id": "R9km8rNQYiOiNeVQ",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Time series may have actual dates or they may just be values taken against a sequencial index or value like &#x27;day&#x27; here.  These are typically plotted on the x axis but that&#x27;s a convention. You can use time on either axis. Beware of interpreting dates that are encoded as indexes, as they may not be sequential, but in this data will be plotted as regular intervals.</p>"
+          ]
+        }
+      },
+      {
+        "id": "LsvzuZvdKEEJT2wt",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "ko7b_JlamhNeXZ2B": 80,
+            "WAwuoOLQUidY7dY1": 99.7705078125,
+            "_VwlgeivT3qixo81": 99.2138671875,
+            "tpn2BiygN1iGx-_I": 260.048828125
+          }
+        }
+      },
+      {
+        "id": "5NSoLr0x2PXsykfv",
+        "title": "Graph 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 9
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 240
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYR-WlFqS8BL_Av",
+              "config": {
+                "id": "DCONdC8p1OEoyIFg",
+                "dataset": "EqzDHHh20kIhPATK",
+                "metadata": "Bc5ay6tWRXjMJXho",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "ko7b_JlamhNeXZ2B"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "WAwuoOLQUidY7dY1"
+                  },
+                  {
+                    "attributeID": "_VwlgeivT3qixo81"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "WAwuoOLQUidY7dY1": 0,
+            "_VwlgeivT3qixo81": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Day index",
+          "yAttributeLabel": "protein and weight"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "KS3c6AbYPhWRRT-K",
+          "providerId": "LsvzuZvdKEEJT2wt",
+          "dataSet": {
+            "id": "EqzDHHh20kIhPATK",
+            "name": "Nutrition",
+            "attributes": [
+              {
+                "id": "ko7b_JlamhNeXZ2B",
+                "clientKey": "",
+                "name": "Day",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8"
+                ],
+                "title": ""
+              },
+              {
+                "id": "WAwuoOLQUidY7dY1",
+                "clientKey": "",
+                "name": "Protein (g)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "16",
+                  "15.8",
+                  "16.9",
+                  "15.8",
+                  "16",
+                  "17",
+                  "16.4",
+                  "15.6"
+                ],
+                "title": ""
+              },
+              {
+                "id": "_VwlgeivT3qixo81",
+                "clientKey": "",
+                "name": "Weight (lb)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "185",
+                  "184.9",
+                  "185",
+                  "185",
+                  "190",
+                  "195",
+                  "220",
+                  "225"
+                ],
+                "title": ""
+              },
+              {
+                "id": "tpn2BiygN1iGx-_I",
+                "clientKey": "",
+                "name": "Notes",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "sick this day",
+                  "",
+                  "",
+                  null,
+                  null,
+                  null,
+                  "4 Months later"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "aJfadmiD3OHjuibt"
+              },
+              {
+                "__id__": "FCiOjbF6WXuxws2c"
+              },
+              {
+                "__id__": "4nRvIxlQFiQUgcDY"
+              },
+              {
+                "__id__": "2j9wRshnerzuE7QU"
+              },
+              {
+                "__id__": "ckgkpPyq-UupgvAH"
+              },
+              {
+                "__id__": "GiqCUmrSVPuWdzC_"
+              },
+              {
+                "__id__": "BM2dw0EqI945xcxm"
+              },
+              {
+                "__id__": "sAE8Yi-Xwpu80thA"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "LsvzuZvdKEEJT2wt",
+          "5NSoLr0x2PXsykfv"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "Bc5ay6tWRXjMJXho",
+          "data": "EqzDHHh20kIhPATK",
+          "collections": {},
+          "categories": {
+            "ko7b_JlamhNeXZ2B": {
+              "attribute": "ko7b_JlamhNeXZ2B",
+              "colors": {},
+              "moves": []
+            },
+            "WAwuoOLQUidY7dY1": {
+              "attribute": "WAwuoOLQUidY7dY1",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "5NSoLr0x2PXsykfv"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "u_-NXk_RGSEzIpsh",
+        "sourceObject": {
+          "tileId": "LsvzuZvdKEEJT2wt",
+          "objectId": "cell:{BM2dw0EqI945xcxm}:{_VwlgeivT3qixo81}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5NSoLr0x2PXsykfv",
+          "objectId": "dot:{BM2dw0EqI945xcxm}:{ko7b_JlamhNeXZ2B}:{_VwlgeivT3qixo81}",
+          "objectType": "dot"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -7
+        },
+        "text": "Big weight gain",
+        "textOffset": {
+          "dx": 45.991356789076875,
+          "dy": -129.9952005754451
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      }
+    ]
+  }
+}
