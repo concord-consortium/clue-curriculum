@@ -12,12 +12,41 @@
         }
       },
       {
-        "id": "LTORa-KQcYItaA7J",
-        "title": "Image 2",
+        "id": "e_ooUZjOY6d_RRZt",
+        "title": "Text 1",
         "content": {
-          "type": "Image",
-          "url": "ggg/images/screenshot-2025-01-11-at-1.38.20 pm.png",
-          "filename": "ggg/images/screenshot-2025-01-11-at-1.38.20 pm.png"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>What does this say about the reasonableness of the equation? The growth factor 1.8 is the ratio of </p>"
+          ]
+        }
+      },
+      {
+        "id": "NVdJsjlYmQVogP6X",
+        "title": "Growth Factor",
+        "content": {
+          "type": "Expression",
+          "latexStr": "1.8=growthFactor=\\frac{Pop_{n+1}}{Pop_{n}}"
+        }
+      },
+      {
+        "id": "GoQnGhP0W0p3Y-Vg",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>and the population for year <em>n+1  </em>is 1.8 times the population for year <em>n</em>. </p><p>We can also think of the growth factor as a percent change. To find the percent change, compare the difference in population for two consecutive years, p<sub>n </sub>and p<sub>n+1</sub> with the population for year <em>n</em>.</p>"
+          ]
+        }
+      },
+      {
+        "id": "I5DR9NAu19tSdHsq",
+        "title": "Growth Rate",
+        "content": {
+          "type": "Expression",
+          "latexStr": "ChangeRatio=\\frac{Pop_{n+1}-Pop_{n}}{Pop_{n}}\\cdot100"
         }
       }
     ]
