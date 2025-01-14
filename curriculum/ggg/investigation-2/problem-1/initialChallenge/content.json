@@ -14,12 +14,13 @@
         }
       },
       {
-        "id": "sjMHdEvLhCLnR92j",
-        "title": "Image 1",
+        "id": "85-Kyp6XsS5b99Tq",
         "content": {
-          "type": "Image",
-          "url": "ggg/images/screenshot-2025-01-11-at-1.21.55 pm.png",
-          "filename": "ggg/images/screenshot-2025-01-11-at-1.21.55 pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "2sG2mMiDpNOajhjt": 157.9541015625,
+            "6isyhOqJbuA9Xn6Q": 145.537109375
+          }
         }
       },
       {
@@ -29,9 +30,76 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>An assistant to the biologists used the table to write an equation for the rabbit population <em>p</em> for any year <em>n</em> after the biologists first counted the rabbits. He used the equation to make predictions.</p><ul><li>What equation did he write? Explain what information you used to write the equation.</li><li>How many rabbits will there be after 10 years? 25 years? After 50 years? </li><li>In how many years will the rabbit population exceed 1 x 10<sup>9</sup></li><p></p></ul>"
+            "<p>An assistant to the biologists used the table to write an equation for the rabbit population <em>p</em>  for any year <em>n</em> after the biologists first counted the rabbits. He used the equation to make predictions.</p><ul><li>What equation did he write? Explain what information you used to write the equation.</li><li>How many rabbits will there be after 10 years? 25 years? After 50 years? </li><li>In how many years will the rabbit population exceed 1 x 10<sup>9</sup></li><p></p></ul>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "GU5Txs9AamtpkuX7",
+          "providerId": "85-Kyp6XsS5b99Tq",
+          "dataSet": {
+            "id": "EnYMlN15OBySCrMj",
+            "name": "Growth of Rabbit Population",
+            "attributes": [
+              {
+                "id": "2sG2mMiDpNOajhjt",
+                "clientKey": "",
+                "name": "Time (year)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "6isyhOqJbuA9Xn6Q",
+                "clientKey": "",
+                "name": "Population",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "100",
+                  "180",
+                  "325",
+                  "583",
+                  "1050"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "ySFCYTV7-SpLRxAh"
+              },
+              {
+                "__id__": "IDtlthBJXVWH9P4K"
+              },
+              {
+                "__id__": "4aRKG1LppdqIpeSX"
+              },
+              {
+                "__id__": "y_i8SnW4YGIfMBZ0"
+              },
+              {
+                "__id__": "1oCCiAuq_Kym3Yse"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "85-Kyp6XsS5b99Tq"
+        ]
       }
     ]
   },
