@@ -14,12 +14,13 @@
         }
       },
       {
-        "id": "thi4F4QAwXyBdFLE",
-        "title": "Image 1",
+        "id": "XXKsvvrY99X5mn94",
         "content": {
-          "type": "Image",
-          "url": "ggg/images/screenshot-2025-01-11-at-1.11.45 pm.png",
-          "filename": "ggg/images/screenshot-2025-01-11-at-1.11.45 pm.png"
+          "type": "Table",
+          "columnWidths": {
+            "EYNDQg_2IXt36po9": 80,
+            "4esTW_OOgfv0YNAQ": 182.3876953125
+          }
         }
       },
       {
@@ -43,6 +44,73 @@
             "<p><strong>Situation B. Working with Scientific Notation</strong></p><p>The Park Ranger was training her assistant to use scientific notation. She gave her the following task: </p><p>1.  Experiment with your calculator to figure out how to get these displays. Then write each number in scientific notation and standard form.</p><p>a.       1.7 E 12        or           1.7     12</p><p>b.         1.7 E 15      or            1.7     15</p><p>c.         2.35 E 12.      or           2.35   12</p><p>d.          3.69 E 10        or        3.69   10</p><p></p><p>2.  Arrange the numbers from least to greatest. </p><p></p><p></p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "vmBdGLZL66ZLhdEm",
+          "providerId": "XXKsvvrY99X5mn94",
+          "dataSet": {
+            "id": "zLZ95RPtlLtqXFdF",
+            "name": "Growth of Algae",
+            "attributes": [
+              {
+                "id": "EYNDQg_2IXt36po9",
+                "clientKey": "",
+                "name": "Day",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4esTW_OOgfv0YNAQ",
+                "clientKey": "",
+                "name": "Algae Area (mm2)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "25",
+                  "75",
+                  "225",
+                  "675",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "fJtIWx9JMruw_kHa"
+              },
+              {
+                "__id__": "-JXyUHCLQPlgJQqa"
+              },
+              {
+                "__id__": "eM_aBebSV1Wfulwa"
+              },
+              {
+                "__id__": "-qHtf79DoYGhAtbP"
+              },
+              {
+                "__id__": "XeSJbYLvRCYB4-Cy"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "XXKsvvrY99X5mn94"
+        ]
       }
     ]
   }
