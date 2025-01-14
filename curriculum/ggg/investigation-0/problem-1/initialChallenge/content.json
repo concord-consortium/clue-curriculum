@@ -89,6 +89,29 @@
           }
         }
       ],
+      [
+        {
+          "id": "LzvX8YN60ziJjKDH",
+          "title": "Text 9",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>Connections Between Points Table</strong></p><p>Tables can help you see patterns. Here is a table that shows the number of ways points (not on a line) can be connected with straight lines. Put this in the <strong>Initial Challenge </strong>workspace and add a row or two. Can you continue the pattern for 6 and 7 points or more? Add a text tile to describe how you solved it.</p>"
+            ]
+          }
+        },
+        {
+          "id": "UkObbmHqOiKhkQOn",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "9ra4-LeiuxbkuNuP": 116.671875,
+              "FJFUTc8iATZlHVOy": 131.3828125
+            }
+          }
+        }
+      ],
       {
         "id": "ICzfiFYv6CMRfqqj",
         "title": "Text 6",
@@ -108,6 +131,17 @@
           "format": "html",
           "text": [
             "<p><strong>Graph</strong></p><p>The Graph tool allows you to present number relationships in many different ways. You can change the axes of the graph independently so the lines of the grid are not always square. </p>"
+          ]
+        }
+      },
+      {
+        "id": "3v9Eocp9KBFxHVZ_",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Try different ways to represent number relationships on the Graph.</strong></p><p><strong>Adding points by hand.</strong> Drag a new Graph tile into into the <strong>Initial Challenge </strong>workspace, and click <em>Add points by hand </em>on the Graph tool tray.<em> </em>As you click on the graph, the points connect to show that you are forming a mathematical relationship between the points. Remove points by clicking <em>Select, </em>then highlight individual points and delete them. The lines will reconnect. Select multiple points with shift-click.</p><p><strong>Plot data from a table.</strong> Drag another Graph into your workspace, and select <em>Add Data</em>. The tables that you brought into your workspace are listed in a dialog box. (If you skipped that, drag those tables in now.) In the dialog box, select one of the data tables and the graph will plot it for you! </p>"
           ]
         }
       }
@@ -171,6 +205,71 @@
         },
         "tiles": [
           "9Cbt3wXXGp-LIpSj"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "kaqTZ_ZNYrecrTlc",
+          "providerId": "UkObbmHqOiKhkQOn",
+          "dataSet": {
+            "id": "oTBUo86HFIUDNNZM",
+            "name": "Connections Between Points",
+            "attributes": [
+              {
+                "id": "9ra4-LeiuxbkuNuP",
+                "clientKey": "",
+                "name": "Points",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "FJFUTc8iATZlHVOy",
+                "clientKey": "",
+                "name": "Connections",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "3",
+                  "6",
+                  "10"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "tAyQ0DQ7cBID2wLs"
+              },
+              {
+                "__id__": "BDFOhAIGthHOpRfX"
+              },
+              {
+                "__id__": "PRowrLoxNEKIca1V"
+              },
+              {
+                "__id__": "wqh38k7Re-HEc4-D"
+              },
+              {
+                "__id__": "V7Yetiyrpk1VbbJe"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "UkObbmHqOiKhkQOn"
         ]
       }
     ]
