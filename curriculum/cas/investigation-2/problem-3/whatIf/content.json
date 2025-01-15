@@ -15,14 +15,12 @@
       [
         {
           "id": "QPIw_hR9ye-iDU1G",
-          "title": "Cost of Tickets from the Box Office",
           "content": {
             "type": "Table",
             "columnWidths": {
               "5MPWY4_crEQalYzy": 132.2874755859375,
               "e7NFA5kBb3FZDb9w": 122.85546875
-            },
-            "name": "Cost of Tickets from the Box Office"
+            }
           }
         },
         {
@@ -30,7 +28,8 @@
           "title": "Cost Graph",
           "content": {
             "type": "Image",
-            "url": "cas/images/C&S_2-3_BoxOfficeTicketsGraph_350w.jpg"
+            "url": "cas/images/htg.jpg",
+            "filename": "cas/images/htg.jpg"
           }
         }
       ],
@@ -40,7 +39,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Cost of Ticket form the Box Office </strong></p><p><em>C</em> is the cost of the tickets</p><p><em>N</em> is the number of tickets</p><p><em>C = 30N</em></p><p><em>120 = 30N</em></p>"
+            "<p><em>Cost of Ticket form the Box Office </em></p><ul><li><em>C</em> is the cost of the tickets</li><li><em>N</em> is the number of tickets</li><li><em>C = 30N</em></li><li><em>120 = 30N</em></li></ul>"
           ]
         }
       },
@@ -130,7 +129,6 @@
       },
       {
         "id": "TILEiCXVeeYVjGb9",
-        "title": "Cost of Ticket from the Box Office",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -138,138 +136,77 @@
             "Ff0TnQM49N89X8A_": 120,
             "ZZAMtc5D-OI9nY2-": 120,
             "oCkNnfRlKJR6NpsG": 120
-          },
-          "name": "Cost of Ticket from the Box Office"
+          }
         }
       },
       {
-        "id": "TILE5nt1PLlyioyO",
-        "title": "Ticket Cost",
+        "id": "cL5f_WZ2_mPd2T7R",
+        "title": "Cost of Tickets from the Box Office",
         "display": "teacher",
         "content": {
-          "type": "Geometry",
-          "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                7.9,
-                80
-              ],
-              "axisNames": [
-                "N",
-                "C"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.2,
+              "max": 2.21
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -10,
+              "max": 80
             }
           },
-          "objects": [
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
             {
-              "type": "point",
-              "parents": [
-                0,
-                0
-              ],
-              "properties": {
-                "id": "Ihr5BjKOynTl0c2A",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                1,
-                30
-              ],
-              "properties": {
-                "id": "aS5Ew5Rwy5tdn8ch",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                2,
-                60
-              ],
-              "properties": {
-                "id": "GGcrdtotKoPYP-uP",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "Ihr5BjKOynTl0c2A",
-                "aS5Ew5Rwy5tdn8ch",
-                "GGcrdtotKoPYP-uP"
-              ],
-              "properties": {
-                "id": "g1vwVrUCfVpRRuke"
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                2,
-                70
-              ],
-              "properties": {
-                "id": "vn-OfinQf3FDj2yu",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                1,
-                40
-              ],
-              "properties": {
-                "id": "6E5sNTUokvEsW4-i",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "point",
-              "parents": [
-                0,
-                10
-              ],
-              "properties": {
-                "id": "ujmL3sAA0FcGouDh",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
-            },
-            {
-              "type": "polygon",
-              "parents": [
-                "vn-OfinQf3FDj2yu",
-                "6E5sNTUokvEsW4-i",
-                "ujmL3sAA0FcGouDh"
-              ],
-              "properties": {
-                "id": "5w8yzNODx5N45pNA"
-              }
+              "id": "LAYRWQN6uWObrgbN",
+              "config": {
+                "id": "DCONvQME4OiEA1U4",
+                "dataset": "w0SqLY-nKjg5NkD-",
+                "metadata": "EQU8D0EvJS-rrBLz",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "Ff0TnQM49N89X8A_"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "ZZAMtc5D-OI9nY2-"
+                  },
+                  {
+                    "attributeID": "oCkNnfRlKJR6NpsG"
+                  }
+                ]
+              },
+              "editable": false
             }
-          ]
+          ],
+          "_idColors": {
+            "GwfWKExKhn4qUbCr": 0,
+            "ZZAMtc5D-OI9nY2-": 1,
+            "oCkNnfRlKJR6NpsG": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Number of Tickets",
+          "yAttributeLabel": "Total Cost of Tickets"
         }
       },
       {
@@ -311,7 +248,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Little Giant Store</strong></p><p>7 boxes of pasta for $6</p>"
+              "<p><em>Little Giant Store</em></p><p>7 boxes of pasta for $6</p>"
             ]
           }
         },
@@ -321,7 +258,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Foodfresh Store</strong></p><p>6 boxes of pasta for $5</p>"
+              "<p><em>Foodfresh Store</em></p><p>6 boxes of pasta for $5</p>"
             ]
           }
         }
@@ -355,7 +292,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Little Giant Store</strong></p><p><em>7 boxes of pasta for $6</em></p><p>1 box of pasta about $0.86</p><p>OR</p><p>For $1 you get about 1.16 boxes</p><p></p>"
+              "<p><em>Little Giant Store</em></p><p><em>7 boxes of pasta for $6</em></p><p>1 box of pasta about $0.86</p><p>OR</p><p>For $1 you get about 1.16 boxes</p>"
             ]
           }
         },
@@ -366,7 +303,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Foodfresh Store</strong></p><p><em>6 boxes of pasta for $5</em></p><p>1 box of pasta about $0.83</p><p>OR</p><p>For $1 you get about 1.2 boxes</p>"
+              "<p><em>Foodfresh Store</em></p><p><em>6 boxes of pasta for $5</em></p><p>1 box of pasta about $0.83</p><p>OR</p><p>For $1 you get about 1.2 boxes</p>"
             ]
           }
         }
@@ -499,7 +436,58 @@
           }
         },
         "tiles": [
-          "TILEiCXVeeYVjGb9"
+          "TILEiCXVeeYVjGb9",
+          "cL5f_WZ2_mPd2T7R"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "gIcv5lxvEENnI4pC",
+          "data": "gOJhcEO9NykUc5b9",
+          "collections": {},
+          "categories": {
+            "vnzDmuPtUPFSfTym": {
+              "attribute": "vnzDmuPtUPFSfTym",
+              "colors": {},
+              "moves": []
+            },
+            "GwfWKExKhn4qUbCr": {
+              "attribute": "GwfWKExKhn4qUbCr",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "cL5f_WZ2_mPd2T7R"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "EQU8D0EvJS-rrBLz",
+          "data": "w0SqLY-nKjg5NkD-",
+          "collections": {},
+          "categories": {
+            "Ff0TnQM49N89X8A_": {
+              "attribute": "Ff0TnQM49N89X8A_",
+              "colors": {},
+              "moves": []
+            },
+            "ZZAMtc5D-OI9nY2-": {
+              "attribute": "ZZAMtc5D-OI9nY2-",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "cL5f_WZ2_mPd2T7R"
         ]
       }
     ],
@@ -512,8 +500,8 @@
           "objectType": "cell"
         },
         "sourceOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 22,
+          "dy": -2
         },
         "targetObject": {
           "tileId": "QPIw_hR9ye-iDU1G",
@@ -521,14 +509,15 @@
           "objectType": "cell"
         },
         "targetOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 18,
+          "dy": -2
         },
         "text": "x4",
         "textOffset": {
-          "dx": 22,
-          "dy": 0
+          "dx": 25.063883463541657,
+          "dy": -3.8138775510204255
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -539,8 +528,8 @@
           "objectType": "cell"
         },
         "sourceOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 19,
+          "dy": -2
         },
         "targetObject": {
           "tileId": "QPIw_hR9ye-iDU1G",
@@ -548,14 +537,15 @@
           "objectType": "cell"
         },
         "targetOffset": {
-          "dx": 0,
-          "dy": -8
+          "dx": 26,
+          "dy": 2
         },
         "text": "x4",
         "textOffset": {
-          "dx": 22,
-          "dy": 0
+          "dx": 41.27894736842106,
+          "dy": -7.470175438596499
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]

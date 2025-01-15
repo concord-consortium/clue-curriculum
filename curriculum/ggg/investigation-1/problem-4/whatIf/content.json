@@ -1,1 +1,117 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "5YUNk0eCQTTC_q_V",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Growing Algae in a Dish</strong></p><p>The Park Ranger wanted information about the algae growing on the lake shore. She collected a 25 millimeter square area of algae and transplanted it to a pan so she could observe its growth. She recorded the data in a table. </p>"
+          ]
+        }
+      },
+      {
+        "id": "XXKsvvrY99X5mn94",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "EYNDQg_2IXt36po9": 80,
+            "4esTW_OOgfv0YNAQ": 182.3876953125
+          }
+        }
+      },
+      {
+        "id": "TOyoeFLVwkmC2hPF",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>Write an equation for the algae area, <em>A</em>, after <em>d </em>days. How does it compare to one in the Initial Challenge?</li><li>On which day did the algae reach 1.476226 x 10<sup>6</sup> square mm?</li></ol><p></p>"
+          ]
+        }
+      },
+      {
+        "id": "bVlCZvz4ARLxbwiL",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Working with Scientific Notation</strong></p><p>The Park Ranger was training her assistant to use scientific notation. She gave her the following task: </p><p>1.  Experiment with your calculator to figure out how to get these displays. Then write each number in scientific notation and standard form.</p><p>a.       1.7 E 12        or           1.7     12</p><p>b.         1.7 E 15      or            1.7     15</p><p>c.         2.35 E 12.      or           2.35   12</p><p>d.          3.69 E 10        or        3.69   10</p><p></p><p>2.  Arrange the numbers from least to greatest. </p><p></p><p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "vmBdGLZL66ZLhdEm",
+          "providerId": "XXKsvvrY99X5mn94",
+          "dataSet": {
+            "id": "zLZ95RPtlLtqXFdF",
+            "name": "Growth of Algae",
+            "attributes": [
+              {
+                "id": "EYNDQg_2IXt36po9",
+                "clientKey": "",
+                "name": "Day",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4esTW_OOgfv0YNAQ",
+                "clientKey": "",
+                "name": "Algae Area (mm2)",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "25",
+                  "75",
+                  "225",
+                  "675",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "fJtIWx9JMruw_kHa"
+              },
+              {
+                "__id__": "-JXyUHCLQPlgJQqa"
+              },
+              {
+                "__id__": "eM_aBebSV1Wfulwa"
+              },
+              {
+                "__id__": "-qHtf79DoYGhAtbP"
+              },
+              {
+                "__id__": "XeSJbYLvRCYB4-Cy"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "XXKsvvrY99X5mn94"
+        ]
+      }
+    ]
+  }
+}

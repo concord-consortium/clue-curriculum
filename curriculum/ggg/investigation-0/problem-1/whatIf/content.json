@@ -1,1 +1,260 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "F8IOEeUNnOJFD3Bt",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Sparrows and Explaining Your Ideas</strong></p><p>When working on a math problem, it is important to show how you solved the problem and explain your thinking. Adding text can help, but showing connections with arrows between mathematical objects to explain the connection can be a huge help. </p><p>Sparrows have many uses. They come in two forms.</p><ul><li>Curved, two-ended Sparrows</li><li>Straight, one-ended Sparrows</li></ul><p>Sparrows connect mathematical objects. This includes points, lines, shapes on any graphs or cells in a table. </p>"
+          ]
+        }
+      },
+      {
+        "id": "alY5pKtNVlA8lS9z",
+        "title": "Sparrow Tools",
+        "content": {
+          "type": "Image",
+          "url": "ggg/images/screenshot-2025-01-14-at-9.55.46 am.png",
+          "filename": "ggg/images/screenshot-2025-01-14-at-9.55.46 am.png"
+        }
+      },
+      {
+        "id": "qS3xhUadxCwDs-V_",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>To Use Sparrows</strong></p><p>Select the sparrow button at the top of the your workspace. All tiles that accept sparrows become outlined in blue. </p><p>Click and release the start point of the sparrow. Move your mouse to the desired connection point and click. Enter text in the small textbox on the mid-point of the sparrow to explain why you have made that connection. When finished, click the sparrow button again or click the selection pointer. To edit, click the sparrow button again. When selected there is an &quot;x&quot; on the sparrow to delete it. You can drag curved sparrows by the text box to move the curve.</p><p>Two examples of sparrow use below. Create your own sparrows! You can drag these tiles into your workspace or go back to the tables and number lines in the <strong>Initial Challenge </strong>tab if you wish!</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "wmLf13uyVkINgGD4",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "gSOtHZWLSqV226cO": 80,
+              "tR5ws3a_FN6dnb54": 80
+            }
+          }
+        },
+        {
+          "id": "1Ep8jW_Sq03ZkkAz",
+          "title": "Multiplying Numbers by Themselves",
+          "content": {
+            "type": "Graph",
+            "adornments": [],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": 0,
+                "max": 4.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": 0,
+                "max": 18
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYR1Rt-Anqw4abj",
+                "config": {
+                  "id": "DCONHfgPph-ULjlo",
+                  "dataset": "W7qn-K0uoR1QSai-",
+                  "metadata": "LNORx2CN_YXrxiJG",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "gSOtHZWLSqV226cO"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "tR5ws3a_FN6dnb54"
+                    }
+                  ]
+                },
+                "editable": false
+              }
+            ],
+            "_idColors": {
+              "tR5ws3a_FN6dnb54": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "x",
+            "yAttributeLabel": "y"
+          }
+        }
+      ]
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "ITSINlE6UCQUDOA-",
+          "providerId": "wmLf13uyVkINgGD4",
+          "dataSet": {
+            "id": "W7qn-K0uoR1QSai-",
+            "name": "Number * Number",
+            "attributes": [
+              {
+                "id": "gSOtHZWLSqV226cO",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "tR5ws3a_FN6dnb54",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "16"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "GFs7xoNMmmhRYEwm"
+              },
+              {
+                "__id__": "JAFZOVVGGAMNUrwl"
+              },
+              {
+                "__id__": "hEZHWs79p-jdGiDW"
+              },
+              {
+                "__id__": "hoXHn8ys2F75oi7X"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "wmLf13uyVkINgGD4",
+          "1Ep8jW_Sq03ZkkAz"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "LNORx2CN_YXrxiJG",
+          "data": "W7qn-K0uoR1QSai-",
+          "collections": {},
+          "categories": {
+            "gSOtHZWLSqV226cO": {
+              "attribute": "gSOtHZWLSqV226cO",
+              "colors": {},
+              "moves": []
+            },
+            "tR5ws3a_FN6dnb54": {
+              "attribute": "tR5ws3a_FN6dnb54",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "1Ep8jW_Sq03ZkkAz"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "q60HA8w8ZGGzQDLW",
+        "sourceObject": {
+          "tileId": "wmLf13uyVkINgGD4",
+          "objectId": "cell:{JAFZOVVGGAMNUrwl}:{gSOtHZWLSqV226cO}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "wmLf13uyVkINgGD4",
+          "objectId": "cell:{JAFZOVVGGAMNUrwl}:{tR5ws3a_FN6dnb54}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x*x",
+        "textOffset": {
+          "dx": -7.000000000000007,
+          "dy": 53
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "tg8hfFsEP7iLw_PS",
+        "sourceObject": {
+          "tileId": "wmLf13uyVkINgGD4",
+          "objectId": "cell:{hoXHn8ys2F75oi7X}:{tR5ws3a_FN6dnb54}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "1Ep8jW_Sq03ZkkAz",
+          "objectId": "dot:{hoXHn8ys2F75oi7X}:{gSOtHZWLSqV226cO}:{tR5ws3a_FN6dnb54}",
+          "objectType": "dot"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -7
+        },
+        "text": "gets bigger really quickly",
+        "textOffset": {
+          "dx": -46.673132318591975,
+          "dy": 215.96451991189733
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      }
+    ]
+  }
+}

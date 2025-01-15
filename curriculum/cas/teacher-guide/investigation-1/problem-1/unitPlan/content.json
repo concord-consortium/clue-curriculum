@@ -177,14 +177,12 @@
       },
       {
         "id": "CtT_Jec9QyLEPqMp",
-        "title": "Data for Recipe A",
         "content": {
           "type": "Table",
           "columnWidths": {
             "4eYQXihAFFCEE3so": 116.82725524902344,
             "kYQ_fl1udSN1E6SO": 83.68923950195312
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -200,14 +198,12 @@
       },
       {
         "id": "srsuHOLLklkuf2fs",
-        "title": "Data for Recipe A",
         "content": {
           "type": "Table",
           "columnWidths": {
             "yjXx21NarStedtz0": 116.82725524902344,
             "Ez2lrCMmN8OV4iO8": 83.68923950195312
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -223,14 +219,12 @@
       },
       {
         "id": "53Csw9Sc30BfmB8F",
-        "title": "Data for Recipe A",
         "content": {
           "type": "Table",
           "columnWidths": {
             "vie7-qndKI929JFb": 116.82725524902344,
             "Jj_wH5R-R7b3HfZU": 83.68923950195312
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -249,50 +243,51 @@
         "title": "Graph for Recipe A",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                10,
-                22
-              ]
+            "xAxis": {
+              "min": -1,
+              "unit": 48,
+              "range": 10
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 14.545454545454545,
+              "range": 22
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "4fODWqOp1eMUX7Ba": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    -0.04737823840124328,
-                    -0.14428062043673548
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    1.946932694991868,
-                    4.873082714177335
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "4fODWqOp1eMUX7Ba",
-                "pt1": {
-                  "type": "point",
-                  "id": "4fODWqOp1eMUX7Ba-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "4fODWqOp1eMUX7Ba-point2"
-                }
-              }
+              "id": "4fODWqOp1eMUX7Ba",
+              "p1": {
+                "type": "point",
+                "id": "4fODWqOp1eMUX7Ba-point1",
+                "x": -0.04737823840124328,
+                "y": -0.14428062043673548,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "4fODWqOp1eMUX7Ba-point2",
+                "x": 1.946932694991868,
+                "y": 4.873082714177335,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "8jeO22dnWGlbFHLu": 2,
+            "ODVXNvF8e7w8kORO": 1
+          }
         }
       },
       {
@@ -329,14 +324,12 @@
       },
       {
         "id": "3gtyq3NPZfL0vebd",
-        "title": "Unit Rate Table",
         "content": {
           "type": "Table",
           "columnWidths": {
             "H_Fk5o2BfWs3inYq": 119.57899475097656,
             "EmgWtTU6HypCCdz2": 80
-          },
-          "name": "Table 2"
+          }
         }
       },
       {
@@ -352,26 +345,22 @@
       },
       {
         "id": "hbbAUw-wsFEr03Ha",
-        "title": "Unit rate per 1 cup concentrate",
         "content": {
           "type": "Table",
           "columnWidths": {
             "4K5OzcgPDvSYbftC": 133.59808349609375,
             "zI58z6Xn8Pq57X0v": 105.09115600585938
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
         "id": "lla59BrG4Sj53ZoD",
-        "title": "Unit rate per 1 cup juice",
         "content": {
           "type": "Table",
           "columnWidths": {
             "5Q-XO47ow63n70FA": 133.59808349609375,
             "tYGiCZFXAU7dGgxj": 105.09115600585938
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -390,132 +379,110 @@
         "title": "Unit rate per 1 cup concentrate",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -4.4,
-                -1
-              ],
-              "axisRange": [
-                19.4,
-                11
-              ],
-              "axisNames": [
-                "Cups of Concentrate",
-                "Cups of Juice"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "Cups of Concentrate",
+              "label": "x",
+              "min": -4.4,
+              "unit": 24.742268041237114,
+              "range": 19.4
+            },
+            "yAxis": {
+              "name": "Cups of Juice",
+              "label": "y",
+              "min": -1,
+              "unit": 29.09090909090909,
+              "range": 11
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "S4hTGuyF81Gtv9Xe": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    3.038840579710145,
-                    7.597101449275363
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "S4hTGuyF81Gtv9Xe",
-                "pt1": {
-                  "type": "point",
-                  "id": "S4hTGuyF81Gtv9Xe-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "S4hTGuyF81Gtv9Xe-point2"
-                }
-              }
+              "id": "S4hTGuyF81Gtv9Xe",
+              "p1": {
+                "type": "point",
+                "id": "S4hTGuyF81Gtv9Xe-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "S4hTGuyF81Gtv9Xe-point2",
+                "x": 3.038840579710145,
+                "y": 7.597101449275363,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "jLnvJvfpYYDRlOQj": {
               "type": "point",
-              "parents": [
-                2,
-                5
-              ],
-              "properties": {
-                "id": "jLnvJvfpYYDRlOQj",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "jLnvJvfpYYDRlOQj",
+              "x": 2,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "HuW6Au7EgGN9eRSm": {
               "type": "point",
-              "parents": [
-                3,
-                5
-              ],
-              "properties": {
-                "id": "HuW6Au7EgGN9eRSm",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "HuW6Au7EgGN9eRSm",
+              "x": 3,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "z8owk7bDcJIGn7ep": {
               "type": "point",
-              "parents": [
-                3,
-                7.5
-              ],
-              "properties": {
-                "id": "z8owk7bDcJIGn7ep",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "z8owk7bDcJIGn7ep",
+              "x": 3,
+              "y": 7.5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "sgPb7mst5ECzjLTB": {
               "type": "polygon",
-              "parents": [
+              "id": "sgPb7mst5ECzjLTB",
+              "points": [
                 "jLnvJvfpYYDRlOQj",
                 "HuW6Au7EgGN9eRSm",
                 "z8owk7bDcJIGn7ep"
               ],
-              "properties": {
-                "id": "sgPb7mst5ECzjLTB"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "eiIymv8x2voitr6J": {
               "type": "comment",
-              "parents": [
-                -0.9088818762531021,
-                -0.7772350368854442
+              "id": "eiIymv8x2voitr6J",
+              "x": -0.9088818762531021,
+              "y": -0.7772350368854442,
+              "anchors": [
+                "HuW6Au7EgGN9eRSm"
               ],
-              "properties": {
-                "id": "eiIymv8x2voitr6J",
-                "text": "+1",
-                "anchor": "HuW6Au7EgGN9eRSm"
-              }
+              "text": "+1"
             },
-            {
+            "c8S-ZezRFl2hPM9o": {
               "type": "comment",
-              "parents": [
-                0.1627258879821385,
-                -1.189656166791396
+              "id": "c8S-ZezRFl2hPM9o",
+              "x": 0.1627258879821385,
+              "y": -1.189656166791396,
+              "anchors": [
+                "z8owk7bDcJIGn7ep"
               ],
-              "properties": {
-                "id": "c8S-ZezRFl2hPM9o",
-                "text": "+2.5",
-                "anchor": "z8owk7bDcJIGn7ep"
-              }
+              "text": "+2.5"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -523,132 +490,110 @@
         "title": "Unit rate per 1 cup juice",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -4.4,
-                -1
-              ],
-              "axisRange": [
-                19.4,
-                11
-              ],
-              "axisNames": [
-                "Cups of Juice",
-                "Cups of Concentrate"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "Cups of Juice",
+              "label": "x",
+              "min": -4.4,
+              "unit": 24.742268041237114,
+              "range": 19.4
+            },
+            "yAxis": {
+              "name": "Cups of Concentrate",
+              "label": "y",
+              "min": -1,
+              "unit": 29.09090909090909,
+              "range": 11
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "S4hTGuyF81Gtv9Xe": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    17.145718432510893,
-                    6.858287373004358
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "S4hTGuyF81Gtv9Xe",
-                "pt1": {
-                  "type": "point",
-                  "id": "S4hTGuyF81Gtv9Xe-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "S4hTGuyF81Gtv9Xe-point2"
-                }
-              }
+              "id": "S4hTGuyF81Gtv9Xe",
+              "p1": {
+                "type": "point",
+                "id": "S4hTGuyF81Gtv9Xe-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "S4hTGuyF81Gtv9Xe-point2",
+                "x": 17.145718432510893,
+                "y": 6.858287373004358,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "jLnvJvfpYYDRlOQj": {
               "type": "point",
-              "parents": [
-                5,
-                2
-              ],
-              "properties": {
-                "id": "jLnvJvfpYYDRlOQj",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "jLnvJvfpYYDRlOQj",
+              "x": 5,
+              "y": 2,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "HuW6Au7EgGN9eRSm": {
               "type": "point",
-              "parents": [
-                6,
-                2
-              ],
-              "properties": {
-                "id": "HuW6Au7EgGN9eRSm",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "HuW6Au7EgGN9eRSm",
+              "x": 6,
+              "y": 2,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "z8owk7bDcJIGn7ep": {
               "type": "point",
-              "parents": [
-                6,
-                2.4000000000000004
-              ],
-              "properties": {
-                "id": "z8owk7bDcJIGn7ep",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "z8owk7bDcJIGn7ep",
+              "x": 6,
+              "y": 2.4000000000000004,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "sgPb7mst5ECzjLTB": {
               "type": "polygon",
-              "parents": [
+              "id": "sgPb7mst5ECzjLTB",
+              "points": [
                 "jLnvJvfpYYDRlOQj",
                 "HuW6Au7EgGN9eRSm",
                 "z8owk7bDcJIGn7ep"
               ],
-              "properties": {
-                "id": "sgPb7mst5ECzjLTB"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "eiIymv8x2voitr6J": {
               "type": "comment",
-              "parents": [
-                -0.9036028578897604,
-                -0.697779271451509
+              "id": "eiIymv8x2voitr6J",
+              "x": -0.9036028578897604,
+              "y": -0.697779271451509,
+              "anchors": [
+                "HuW6Au7EgGN9eRSm"
               ],
-              "properties": {
-                "id": "eiIymv8x2voitr6J",
-                "text": "+1",
-                "anchor": "HuW6Au7EgGN9eRSm"
-              }
+              "text": "+1"
             },
-            {
+            "c8S-ZezRFl2hPM9o": {
               "type": "comment",
-              "parents": [
-                0.40867191341528475,
-                -0.47737556164109063
+              "id": "c8S-ZezRFl2hPM9o",
+              "x": 0.40867191341528475,
+              "y": -0.47737556164109063,
+              "anchors": [
+                "z8owk7bDcJIGn7ep"
               ],
-              "properties": {
-                "id": "c8S-ZezRFl2hPM9o",
-                "text": "+0.4",
-                "anchor": "z8owk7bDcJIGn7ep"
-              }
+              "text": "+0.4"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -688,144 +633,120 @@
           "title": "Cost at Howdy's Pizza",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -4.4,
-                  -1
-                ],
-                "axisRange": [
-                  16.4,
-                  121
-                ],
-                "axisNames": [
-                  "# of Pizzas",
-                  "Cost in $"
-                ],
-                "axisLabels": [
-                  "x",
-                  "y"
-                ]
+              "xAxis": {
+                "name": "# of Pizzas",
+                "label": "x",
+                "min": -4.4,
+                "unit": 29.26829268292683,
+                "range": 16.4
+              },
+              "yAxis": {
+                "name": "Cost in $",
+                "label": "y",
+                "min": -1,
+                "unit": 2.644628099173554,
+                "range": 121
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "uYXxh_gAwGMoj-yA": {
                 "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      -2.3944921987559504,
-                      3.660585813684545
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      -1.8717769504164081,
-                      9.41045354541951
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "uYXxh_gAwGMoj-yA",
-                  "pt1": {
-                    "type": "point",
-                    "id": "uYXxh_gAwGMoj-yA-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "uYXxh_gAwGMoj-yA-point2"
-                  }
-                }
+                "id": "uYXxh_gAwGMoj-yA",
+                "p1": {
+                  "type": "point",
+                  "id": "uYXxh_gAwGMoj-yA-point1",
+                  "x": -2.3944921987559504,
+                  "y": 3.660585813684545,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "p2": {
+                  "type": "point",
+                  "id": "uYXxh_gAwGMoj-yA-point2",
+                  "x": -1.8717769504164081,
+                  "y": 9.41045354541951,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "colorScheme": 0
               },
-              {
+              "3xHXZ6orCdeubvIn": {
                 "type": "point",
-                "parents": [
-                  1,
-                  40.900000000000006
-                ],
-                "properties": {
-                  "id": "3xHXZ6orCdeubvIn",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "3xHXZ6orCdeubvIn",
+                "x": 1,
+                "y": 40.900000000000006,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "n1wAMwpuH8xNWKB5": {
                 "type": "point",
-                "parents": [
-                  2,
-                  40.900000000000006
-                ],
-                "properties": {
-                  "id": "n1wAMwpuH8xNWKB5",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "n1wAMwpuH8xNWKB5",
+                "x": 2,
+                "y": 40.900000000000006,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "bw7KPi58dXwFwtnF": {
                 "type": "point",
-                "parents": [
-                  2,
-                  52
-                ],
-                "properties": {
-                  "id": "bw7KPi58dXwFwtnF",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "bw7KPi58dXwFwtnF",
+                "x": 2,
+                "y": 52,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "v0lGCrTN3-hMbLr8": {
                 "type": "polygon",
-                "parents": [
+                "id": "v0lGCrTN3-hMbLr8",
+                "points": [
                   "3xHXZ6orCdeubvIn",
                   "n1wAMwpuH8xNWKB5",
                   "bw7KPi58dXwFwtnF"
                 ],
-                "properties": {
-                  "id": "v0lGCrTN3-hMbLr8"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               },
-              {
+              "JTQHQaksgaQLokLa": {
                 "type": "comment",
-                "parents": [
-                  -0.7850525522439684,
-                  -10.276173246079601
+                "id": "JTQHQaksgaQLokLa",
+                "x": -0.7850525522439684,
+                "y": -10.276173246079601,
+                "anchors": [
+                  "n1wAMwpuH8xNWKB5"
                 ],
-                "properties": {
-                  "id": "JTQHQaksgaQLokLa",
-                  "text": "+1",
-                  "anchor": "n1wAMwpuH8xNWKB5"
-                }
+                "text": "+1"
               },
-              {
+              "D2F7zs6YWFeLWc4z": {
                 "type": "comment",
-                "parents": [
-                  0.508285438305061,
-                  -4.238581007805422
+                "id": "D2F7zs6YWFeLWc4z",
+                "x": 0.508285438305061,
+                "y": -4.238581007805422,
+                "anchors": [
+                  "bw7KPi58dXwFwtnF"
                 ],
-                "properties": {
-                  "id": "D2F7zs6YWFeLWc4z",
-                  "text": "+11",
-                  "anchor": "bw7KPi58dXwFwtnF"
-                }
+                "text": "+11"
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
           "id": "JClrXL2vXJ1ZEB2m",
-          "title": "Cost at Howdy's Pizza",
           "content": {
             "type": "Table",
             "columnWidths": {
               "sdJ73thtTM_mRyco": 92.10504150390625,
               "v8rHBhwCbj05zKER": 90.1953125
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -879,14 +800,12 @@
       },
       {
         "id": "H1UFs2Vui2cc9lL2",
-        "title": "Cost at Howdy's Pizza",
         "content": {
           "type": "Table",
           "columnWidths": {
             "dSpt41Kxh_GjXNVS": 92.10504150390625,
             "CNJ3a1btqna1C1b1": 90.1953125
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -933,14 +852,12 @@
       },
       {
         "id": "HeH6nCZq72QGQ966",
-        "title": "Pizza for Campers at Large Tables",
         "content": {
           "type": "Table",
           "columnWidths": {
             "fqzZMdGvmlhOvZ27": 126.0242919921875,
             "0ctC_FGkPzYf0PfF": 140.71612548828125
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -956,14 +873,12 @@
       },
       {
         "id": "4iRWowJEMTZewjbL",
-        "title": "Pizza for Campers at Large Tables",
         "content": {
           "type": "Table",
           "columnWidths": {
             "OcdnJO1yh_aIYigV": 126.0242919921875,
             "ftJ8Hz8kHnOo4M0r": 140.71612548828125
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1240,7 +1155,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Other Resources</strong></p><p><a href=\"https://drive.google.com/file/d/1fvjo1JUzmKt16MoVAdzVTzhJr75WgoyD/view?usp=sharing\">Click here to view the Family Letter for <em>Comparing and Scaling</em>&nbsp;</a></p><p><a href=\"https://drive.google.com/drive/folders/1U2d2gCwzPxn83_F8TIQjBegPxaqndbTh?usp=drive_link\">Click here to view other CMP4 Field Test resources for <em>Comparing and Scaling</em> (including PDFs of curriculum, supporting Learning/Teaching Aids)</a></p>"
+            "<p><strong>Other Resources</strong></p><p><a href=\"https://drive.google.com/file/d/1fvjo1JUzmKt16MoVAdzVTzhJr75WgoyD/view?usp=sharing\">Click here to view the Family Letter for <em>Comparing and Scaling</em>&nbsp;</a><a href=\"https://drive.google.com/drive/folders/1U2d2gCwzPxn83_F8TIQjBegPxaqndbTh?usp=drive_link\"></a></p>"
           ]
         }
       }
@@ -1323,7 +1238,7 @@
           "providerId": "3gtyq3NPZfL0vebd",
           "dataSet": {
             "id": "Tm_tkun6kvO2-wqP",
-            "name": "Table 2",
+            "name": "Unit Rate Table",
             "attributes": [
               {
                 "id": "H_Fk5o2BfWs3inYq",
@@ -1388,7 +1303,7 @@
           "providerId": "CtT_Jec9QyLEPqMp",
           "dataSet": {
             "id": "5QctLiqqRDPlGi9D",
-            "name": "Table 1",
+            "name": "Data for Recipe A",
             "attributes": [
               {
                 "id": "4eYQXihAFFCEE3so",
@@ -1458,7 +1373,7 @@
           "providerId": "srsuHOLLklkuf2fs",
           "dataSet": {
             "id": "zpQM8hbK6qdV3Axz",
-            "name": "Table 1",
+            "name": "Data for Recipe A",
             "attributes": [
               {
                 "id": "yjXx21NarStedtz0",
@@ -1528,7 +1443,7 @@
           "providerId": "53Csw9Sc30BfmB8F",
           "dataSet": {
             "id": "m7_1YiXRtNLWQ01_",
-            "name": "Table 1",
+            "name": "Data for Recipe A",
             "attributes": [
               {
                 "id": "vie7-qndKI929JFb",
@@ -1598,7 +1513,7 @@
           "providerId": "hbbAUw-wsFEr03Ha",
           "dataSet": {
             "id": "ncUdudg7f2PaqAbF",
-            "name": "Table 1",
+            "name": "Unit rate per 1 cup concentrate",
             "attributes": [
               {
                 "id": "4K5OzcgPDvSYbftC",
@@ -1658,7 +1573,7 @@
           "providerId": "lla59BrG4Sj53ZoD",
           "dataSet": {
             "id": "1hl1FwU8v1n8fbtD",
-            "name": "Table 1",
+            "name": "Unit rate per 1 cup juice",
             "attributes": [
               {
                 "id": "5Q-XO47ow63n70FA",
@@ -1718,7 +1633,7 @@
           "providerId": "JClrXL2vXJ1ZEB2m",
           "dataSet": {
             "id": "W311-wSBR4LFBusB",
-            "name": "Table 1",
+            "name": "Cost at Howdy's Pizza",
             "attributes": [
               {
                 "id": "sdJ73thtTM_mRyco",
@@ -1783,7 +1698,7 @@
           "providerId": "H1UFs2Vui2cc9lL2",
           "dataSet": {
             "id": "ljoF0Y4ztPk0Tfxf",
-            "name": "Table 1",
+            "name": "Cost at Howdy's Pizza",
             "attributes": [
               {
                 "id": "dSpt41Kxh_GjXNVS",
@@ -1843,7 +1758,7 @@
           "providerId": "HeH6nCZq72QGQ966",
           "dataSet": {
             "id": "_bvgKFba7oAfXGaN",
-            "name": "Table 1",
+            "name": "Pizza for Campers at Large Tables",
             "attributes": [
               {
                 "id": "fqzZMdGvmlhOvZ27",
@@ -1898,7 +1813,7 @@
           "providerId": "4iRWowJEMTZewjbL",
           "dataSet": {
             "id": "LC6asiQT6KHQpQ09",
-            "name": "Table 1",
+            "name": "Pizza for Campers at Large Tables",
             "attributes": [
               {
                 "id": "OcdnJO1yh_aIYigV",
@@ -1973,6 +1888,7 @@
           "dx": 0.9999999999999908,
           "dy": -44.12912368774414
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2000,6 +1916,7 @@
           "dx": 4.999999999999991,
           "dy": 42.87087631225586
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2027,6 +1944,7 @@
           "dx": -51.41362762451172,
           "dy": 2
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2054,6 +1972,7 @@
           "dx": 55,
           "dy": 0
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2081,6 +2000,7 @@
           "dx": 70,
           "dy": -12
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2108,6 +2028,7 @@
           "dx": 85,
           "dy": 10
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2135,6 +2056,7 @@
           "dx": 61,
           "dy": -3
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2162,6 +2084,7 @@
           "dx": -41.299041748046875,
           "dy": -4
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2189,6 +2112,7 @@
           "dx": -41.799041748046875,
           "dy": 0
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2216,6 +2140,7 @@
           "dx": -59.799041748046875,
           "dy": 7
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2243,6 +2168,7 @@
           "dx": 70,
           "dy": -12
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2270,6 +2196,7 @@
           "dx": 85,
           "dy": 10
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2297,6 +2224,7 @@
           "dx": 61,
           "dy": -3
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2324,6 +2252,7 @@
           "dx": -41.299041748046875,
           "dy": -3
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2351,6 +2280,7 @@
           "dx": -41.799041748046875,
           "dy": 0
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2378,6 +2308,7 @@
           "dx": -40.799041748046875,
           "dy": 7
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2405,6 +2336,7 @@
           "dx": -39.052520751953125,
           "dy": -1
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2432,6 +2364,7 @@
           "dx": -39.052520751953125,
           "dy": -1
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2459,6 +2392,7 @@
           "dx": 47,
           "dy": 0
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2486,6 +2420,7 @@
           "dx": 49,
           "dy": 0
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2513,6 +2448,7 @@
           "dx": 20.98785400390625,
           "dy": 1
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2540,6 +2476,7 @@
           "dx": 55,
           "dy": 2
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2567,6 +2504,7 @@
           "dx": 58,
           "dy": -1
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2594,6 +2532,7 @@
           "dx": 89,
           "dy": -9
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2621,6 +2560,7 @@
           "dx": 48,
           "dy": 2
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -2648,6 +2588,7 @@
           "dx": 78,
           "dy": 2
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]

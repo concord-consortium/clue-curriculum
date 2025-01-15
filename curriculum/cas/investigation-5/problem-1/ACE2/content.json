@@ -139,14 +139,12 @@
       },
       {
         "id": "uMeHjAjwmuejD368",
-        "title": "Caloric Content of Franky's Trail Mix",
         "content": {
           "type": "Table",
           "columnWidths": {
             "e7Cb36P-T-nStxBZ": 152,
             "VqGpj6zvVsH75FDN": 118
-          },
-          "name": "Table 2"
+          }
         }
       },
       {
@@ -209,28 +207,24 @@
       [
         {
           "id": "FtFrKwPfG53yFRfy",
-          "title": "CardioPlus",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "Ukz9E_Y5NWzxLdY-": 89,
               "Hw-OIDQykeJwmlLL": 80
-            },
-            "name": "Table 1"
+            }
           }
         },
         {
           "id": "dxMiaBTWt2cBZTS6",
-          "title": "Run and Fun",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "doQqsnSDTHqb1e4a": 90,
               "quaHoBBqCP4DPo9X": 80
-            },
-            "name": "Table 2"
+            }
           }
         }
       ],
@@ -240,22 +234,28 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                15.151,
-                612.342
-              ]
+            "xAxis": {
+              "min": -1,
+              "unit": 31.681077156623324,
+              "range": 15.151
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 0.522583784878385,
+              "range": 612.342
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "NK5mlTd41opvI3wH": {
               "type": "polygon",
-              "parents": [
+              "id": "NK5mlTd41opvI3wH",
+              "points": [
                 "_MfZtW4JIQGLiXMJ:quaHoBBqCP4DPo9X",
                 "_xlLGtFW-Tik0YZU:quaHoBBqCP4DPo9X",
                 "hAnaIoa9R2m2ASfo:quaHoBBqCP4DPo9X",
@@ -263,13 +263,13 @@
                 "zmnlU_35iMztRTEJ:quaHoBBqCP4DPo9X",
                 "L03WtxKOlefWfFPd:quaHoBBqCP4DPo9X"
               ],
-              "properties": {
-                "id": "NK5mlTd41opvI3wH"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "tNHRJ9Ccc1zozp4s": {
               "type": "polygon",
-              "parents": [
+              "id": "tNHRJ9Ccc1zozp4s",
+              "points": [
                 "8fNG-0He-IkOIalT:Hw-OIDQykeJwmlLL",
                 "9op4qq0mijQx6JVM:Hw-OIDQykeJwmlLL",
                 "d33VP6Kk1m02Gt8M:Hw-OIDQykeJwmlLL",
@@ -277,23 +277,27 @@
                 "U1Ruae1tbEC3PwNl:Hw-OIDQykeJwmlLL",
                 "w3K2_GDo2OIt__tn:Hw-OIDQykeJwmlLL"
               ],
-              "properties": {
-                "id": "tNHRJ9Ccc1zozp4s"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "QtdoLr_AYI_1zrrE": {
               "type": "comment",
-              "parents": [
-                6.151196599410752,
-                280.3421195745468
+              "id": "QtdoLr_AYI_1zrrE",
+              "x": 6.151196599410752,
+              "y": 280.3421195745468,
+              "anchors": [
+                "L03WtxKOlefWfFPd:quaHoBBqCP4DPo9X"
               ],
-              "properties": {
-                "id": "QtdoLr_AYI_1zrrE",
-                "text": "Intersection at (6,330)",
-                "anchor": "L03WtxKOlefWfFPd:quaHoBBqCP4DPo9X"
-              }
+              "text": "Intersection at (6,330)"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "Ukz9E_Y5NWzxLdY-": 4,
+            "Hw-OIDQykeJwmlLL": 1,
+            "doQqsnSDTHqb1e4a": 2,
+            "quaHoBBqCP4DPo9X": 3
+          }
         }
       },
       {
@@ -374,15 +378,13 @@
       },
       {
         "id": "HoMkFMrQ4sxjtQpU",
-        "title": "Milk Needed to Make Cheddar Cheese",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "DtDE157apxzuIUYx": 138,
             "fLKDPprrYHpk0m0R": 136
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -402,134 +404,104 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                0,
-                0
-              ],
-              "axisRange": [
-                400,
-                45
-              ],
-              "axisNames": [
-                "Milk (pounds)",
-                "Cheddar (pounds)"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "Milk (pounds)",
+              "label": "x",
+              "min": 0,
+              "unit": 1.2,
+              "range": 400
+            },
+            "yAxis": {
+              "name": "Cheddar (pounds)",
+              "label": "y",
+              "min": 0,
+              "unit": 7.111111111111111,
+              "range": 45
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "uzu6Mn-ocAAjT2Vk": {
               "type": "point",
-              "parents": [
-                50,
-                5
-              ],
-              "properties": {
-                "id": "uzu6Mn-ocAAjT2Vk",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "uzu6Mn-ocAAjT2Vk",
+              "x": 50,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "F83opzlCuCAAC1gC": {
               "type": "point",
-              "parents": [
-                99.97254193088659,
-                9.954584094061367
-              ],
-              "properties": {
-                "id": "F83opzlCuCAAC1gC",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "F83opzlCuCAAC1gC",
+              "x": 99.97254193088659,
+              "y": 9.954584094061367,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "rdLhCH-bXIwObIrV": {
               "type": "point",
-              "parents": [
-                150,
-                15
-              ],
-              "properties": {
-                "id": "rdLhCH-bXIwObIrV",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "rdLhCH-bXIwObIrV",
+              "x": 150,
+              "y": 15,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "8GXQAWmotKa0XjXR": {
               "type": "point",
-              "parents": [
-                200,
-                20
-              ],
-              "properties": {
-                "id": "8GXQAWmotKa0XjXR",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "8GXQAWmotKa0XjXR",
+              "x": 200,
+              "y": 20,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "tC2qRLZDc5IC9YFU": {
               "type": "point",
-              "parents": [
-                250,
-                25
-              ],
-              "properties": {
-                "id": "tC2qRLZDc5IC9YFU",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "tC2qRLZDc5IC9YFU",
+              "x": 250,
+              "y": 25,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "U6OTBcPKn5ML33go": {
               "type": "point",
-              "parents": [
-                300,
-                30
-              ],
-              "properties": {
-                "id": "U6OTBcPKn5ML33go",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "U6OTBcPKn5ML33go",
+              "x": 300,
+              "y": 30,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "btQ9oDdgVzsm3KGw": {
               "type": "point",
-              "parents": [
-                350,
-                35
-              ],
-              "properties": {
-                "id": "btQ9oDdgVzsm3KGw",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "btQ9oDdgVzsm3KGw",
+              "x": 350,
+              "y": 35,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "bShFGuWg0kv6Kx9B": {
               "type": "point",
-              "parents": [
-                400,
-                40
-              ],
-              "properties": {
-                "id": "bShFGuWg0kv6Kx9B",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "bShFGuWg0kv6Kx9B",
+              "x": 400,
+              "y": 40,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "FhQlo5KT1RFAQoVr": {
               "type": "polygon",
-              "parents": [
+              "id": "FhQlo5KT1RFAQoVr",
+              "points": [
                 "uzu6Mn-ocAAjT2Vk",
                 "F83opzlCuCAAC1gC",
                 "rdLhCH-bXIwObIrV",
@@ -539,11 +511,12 @@
                 "btQ9oDdgVzsm3KGw",
                 "bShFGuWg0kv6Kx9B"
               ],
-              "properties": {
-                "id": "FhQlo5KT1RFAQoVr"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -630,7 +603,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a. </strong> Several students wonder which is a better buy, a 40-pack of pencil-top erasers for $2.82 or a 2-pack of pencil-top erasers for $0.12. They  use different methods to arrive at an answer. Which of these methods are correct? Which method do you prefer? Explain.</p><p><strong>b.  </strong>Describe another method you can use to determine whcurriculum/cas/images/wer.pngich is the better buy. </p>"
+            "<p><strong>a. </strong> Several students wonder which is a better buy, a 40-pack of pencil-top erasers for $2.82 or a 2-pack of pencil-top erasers for $0.12. They use different methods to arrive at an answer. Which of these methods are correct? Which method do you prefer? Explain.</p><p><strong>b.  </strong>Describe another method you can use to determine which is the better buy. </p>"
           ]
         }
       },
@@ -1033,7 +1006,6 @@
       },
       {
         "id": "M-iGLF4jYMRX9ddR",
-        "title": "Weekend Activities (hours)",
         "content": {
           "type": "Table",
           "columnWidths": {
@@ -1041,17 +1013,16 @@
             "fo9HLgBdgf5M70Bu": 80,
             "UMa_804F4FUrHHIp": 80,
             "rIY07-HI2B1uPDeS": 123
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
-        "id": "ZEMHFzpZ0DHOUpYx",
+        "id": "wT0D0VyZbPTKd2EK",
         "title": "Weekend Activities Graph",
         "content": {
           "type": "Image",
-          "url": "cas/images/wkend.png",
-          "filename": "cas/images/wkend.png"
+          "url": "cas/images/screenshot-2024-12-28-at-1.19.44 pm.png",
+          "filename": "cas/images/screenshot-2024-12-28-at-1.19.44 pm.png"
         }
       },
       {
@@ -1157,15 +1128,13 @@
       },
       {
         "id": "N8nBKmQ7Nw5AOcKY",
-        "title": "Contents of Rust",
         "content": {
           "type": "Table",
           "columnWidths": {
             "5PqAFeqfyrzXsH5f": 115,
             "fDM5-WlV8f-AP356": 107,
             "aXSjpUhMvVge63xT": 113
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1215,15 +1184,13 @@
       },
       {
         "id": "c9H4-Y22giQk0gqf",
-        "title": "Money Spent on Food",
         "content": {
           "type": "Table",
           "columnWidths": {
             "dX2oAk1_lEEQ1_L3": 194,
             "M7h4Een0p3VMLYdn": 154,
             "feszPOfoPUH3O5Fz": 135
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1273,15 +1240,13 @@
       },
       {
         "id": "N5CA91cp9DS9kA0b",
-        "title": "Gestation Times and Life Spans of Selected Mammals",
         "content": {
           "type": "Table",
           "columnWidths": {
             "2oOu1HVe8Pfvg0kl": 128,
             "SxuvH_Hva74T9J8C": 142,
             "2TzKsBeu4oZ8-L46": 145
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1309,7 +1274,6 @@
       },
       {
         "id": "QGZ9sq3OXUD5SEev",
-        "title": "Gestation Times and Life Spans of Selected Mammals",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -1319,8 +1283,7 @@
             "SC_a7s24HiPG-bCF": 97,
             "DZGU2uFqxDlYJuv_": 91,
             "3w2Ad5z7OV7Xbneb": 168
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1342,43 +1305,47 @@
           "display": "teacher",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  662,
-                  12777
-                ],
-                "axisNames": [
-                  "Gestation (days)",
-                  "Life span (days)"
-                ],
-                "axisLabels": [
-                  "",
-                  ""
-                ]
+              "xAxis": {
+                "name": "Gestation (days)",
+                "label": "",
+                "min": 67.95833333333334,
+                "unit": 0.7250755287009063,
+                "range": 662
+              },
+              "yAxis": {
+                "name": "Life span (days)",
+                "label": "",
+                "min": -1,
+                "unit": 0.025045002739297176,
+                "range": 12777
               }
             },
-            "objects": []
+            "objects": {},
+            "pointMetadata": {},
+            "linkedAttributeColors": {
+              "ImV6vcy9NKDx-Dhx": 2,
+              "1WkgrGowN56VHD3A": 1
+            }
           },
           "layout": {
-            "height": 394
+            "height": 398
           }
         },
         {
           "id": "Vej_d6kruUPAwFJI",
-          "title": "Gestation Times and Life Spans of Selected Mammals",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "ImV6vcy9NKDx-Dhx": 128,
               "1WkgrGowN56VHD3A": 99
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -1418,27 +1385,23 @@
       },
       {
         "id": "XVKVu9dQHkHeqyDY",
-        "title": "Containers Needed by Volume",
         "content": {
           "type": "Table",
           "columnWidths": {
             "wNWfovzADcgcYnnS": 155,
             "0PjaKxxp-Lgg5bBe": 163
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
         "id": "jAgQduUkGVOoseRm",
-        "title": "Containers Needed by Volume",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "wGmf3OaNUCVEB_fh": 155,
             "_eGIi-IeiLy7l7KN": 163
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1497,7 +1460,7 @@
           "providerId": "uMeHjAjwmuejD368",
           "dataSet": {
             "id": "uqYsJa-Kxgkfhyy4",
-            "name": "Table 2",
+            "name": "Caloric Content of Franky's Trail Mix",
             "attributes": [
               {
                 "id": "e7Cb36P-T-nStxBZ",
@@ -1557,7 +1520,7 @@
           "providerId": "FtFrKwPfG53yFRfy",
           "dataSet": {
             "id": "B5H_TGzAv9eVw2PW",
-            "name": "Table 1",
+            "name": "CardioPlus",
             "attributes": [
               {
                 "id": "Ukz9E_Y5NWzxLdY-",
@@ -1628,7 +1591,7 @@
           "providerId": "dxMiaBTWt2cBZTS6",
           "dataSet": {
             "id": "9BDWPBxJUAAfNE8n",
-            "name": "Table 2",
+            "name": "Run and Fun",
             "attributes": [
               {
                 "id": "doQqsnSDTHqb1e4a",
@@ -1699,7 +1662,7 @@
           "providerId": "HoMkFMrQ4sxjtQpU",
           "dataSet": {
             "id": "6PicbXJyvC6YSNtr",
-            "name": "Table 1",
+            "name": "Milk Needed to Make Cheddar Cheese",
             "attributes": [
               {
                 "id": "DtDE157apxzuIUYx",
@@ -1789,7 +1752,7 @@
           "providerId": "M-iGLF4jYMRX9ddR",
           "dataSet": {
             "id": "GynMyDvbzfITu4g1",
-            "name": "Table 1",
+            "name": "Weekend Activities (hours)",
             "attributes": [
               {
                 "id": "9uLjychci949XTFi",
@@ -1900,7 +1863,7 @@
           "providerId": "N8nBKmQ7Nw5AOcKY",
           "dataSet": {
             "id": "Y9pACZwUTmg3BcPk",
-            "name": "Table 1",
+            "name": "Contents of Rust",
             "attributes": [
               {
                 "id": "5PqAFeqfyrzXsH5f",
@@ -1975,7 +1938,7 @@
           "providerId": "c9H4-Y22giQk0gqf",
           "dataSet": {
             "id": "PzMqou-rKYFfeuP9",
-            "name": "Table 1",
+            "name": "Money Spent on Food",
             "attributes": [
               {
                 "id": "dX2oAk1_lEEQ1_L3",
@@ -2038,7 +2001,7 @@
           "providerId": "N5CA91cp9DS9kA0b",
           "dataSet": {
             "id": "MIS6JEs-kMaU962G",
-            "name": "Table 1",
+            "name": "Gestation Times and Life Spans of Selected Mammals",
             "attributes": [
               {
                 "id": "2oOu1HVe8Pfvg0kl",
@@ -2143,7 +2106,7 @@
           "providerId": "QGZ9sq3OXUD5SEev",
           "dataSet": {
             "id": "4K94INlXe4ihadmD",
-            "name": "Table 1",
+            "name": "Gestation Times and Life Spans of Selected Mammals",
             "attributes": [
               {
                 "id": "_voBL_K55nHXwL-z",
@@ -2288,7 +2251,7 @@
           "providerId": "Vej_d6kruUPAwFJI",
           "dataSet": {
             "id": "4wfHA9HXWw_3V0Ra",
-            "name": "Table 1",
+            "name": "Gestation Times and Life Spans of Selected Mammals",
             "attributes": [
               {
                 "id": "ImV6vcy9NKDx-Dhx",
@@ -2374,7 +2337,7 @@
           "providerId": "XVKVu9dQHkHeqyDY",
           "dataSet": {
             "id": "yaicPyCn4w0bbt8v",
-            "name": "Table 1",
+            "name": "Containers Needed by Volume",
             "attributes": [
               {
                 "id": "wNWfovzADcgcYnnS",
@@ -2449,7 +2412,7 @@
           "providerId": "jAgQduUkGVOoseRm",
           "dataSet": {
             "id": "cP_I-3tYvpPJS8RQ",
-            "name": "Table 1",
+            "name": "Containers Needed by Volume",
             "attributes": [
               {
                 "id": "wGmf3OaNUCVEB_fh",
@@ -2544,6 +2507,7 @@
           "dx": -7.000000000000027,
           "dy": 78.205625
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]
