@@ -30,6 +30,12 @@
       {
         "id": "Graph",
         "title": "Graph",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Coordinate Grid",
         "isTileTool": true
       },
       {
@@ -282,8 +288,8 @@
           "delete"
         ],
         "defaultAxisLabels": {
-          "bottom": "x",
-          "left": "y"
+          "bottom": "Label x",
+          "left": "Label y"
         },
         "emptyPlotIsNumeric": true,
         "scalePlotOnValueChange": true,
