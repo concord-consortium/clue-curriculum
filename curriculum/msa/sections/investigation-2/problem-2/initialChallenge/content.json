@@ -43,13 +43,7 @@
           "display": "teacher",
           "content": {
             "type": "Graph",
-            "adornments": [
-              {
-                "id": "ADRNQ1lMTQdLTQEW",
-                "type": "Connecting Lines",
-                "isVisible": true
-              }
-            ],
+            "adornments": [],
             "axes": {
               "bottom": {
                 "type": "numeric",
@@ -89,7 +83,8 @@
                       "attributeID": "UZaUYf4gEvrMijVY"
                     }
                   ]
-                }
+                },
+                "editable": false
               }
             ],
             "_idColors": {
@@ -113,7 +108,6 @@
         },
         {
           "id": "Y_BlvAcLQHYqGew9",
-          "title": "T-shirt Costs",
           "display": "teacher",
           "content": {
             "type": "Table",
@@ -121,8 +115,7 @@
               "o23_ryPkHpRCOYHW": 80,
               "gSldrGdq-N9wyRGV": 80,
               "UZaUYf4gEvrMijVY": 94.80078125
-            },
-            "name": "T-shirt Costs"
+            }
           }
         }
       ],
@@ -157,7 +150,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In the graph, we can find where the two lines intersect. This shows the point when both companies have the same cost for the same number of shirts. </p><p>Before that point, we can see that No-Shrink is cheaper, because the y-values are below the y-values of Mighty. After that point, we can see that the y-values of Might are less that No-Shrink. </p>"
+            "<p>In the graph, we can find where the two lines intersect. This shows the point when both companies have the same cost for the same number of shirts. </p><p>Before that point, we can see that No-Shrink is cheaper, because the y-values are below the y-values of Mighty. After that point, we can see that the y-values of Mighty are less that No-Shrink. </p>"
           ]
         }
       },
@@ -167,22 +160,28 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                19.017,
-                74
-              ]
+            "xAxis": {
+              "min": -1,
+              "unit": 25.240574223063575,
+              "range": 19.017
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 4.324324324324325,
+              "range": 74
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "Tx9pSEQQsOtbCfbT": {
               "type": "polygon",
-              "parents": [
+              "id": "Tx9pSEQQsOtbCfbT",
+              "points": [
                 "01HEXJH9B1G1W3GFPW8CQ5KZX8:gSldrGdq-N9wyRGV",
                 "01HEXJH9B1G1W3GFPW8CQ5KZX9:gSldrGdq-N9wyRGV",
                 "01HEXJH9B1G1W3GFPW8CQ5KZXA:gSldrGdq-N9wyRGV",
@@ -193,13 +192,13 @@
                 "01HEXJH9B1G1W3GFPW8CQ5KZXF:gSldrGdq-N9wyRGV",
                 "01HEXJH9B1G1W3GFPW8CQ5KZXG:gSldrGdq-N9wyRGV"
               ],
-              "properties": {
-                "id": "Tx9pSEQQsOtbCfbT"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "J_rArWOqD6PkjBjI": {
               "type": "polygon",
-              "parents": [
+              "id": "J_rArWOqD6PkjBjI",
+              "points": [
                 "01HEXJH9B1G1W3GFPW8CQ5KZX8:UZaUYf4gEvrMijVY",
                 "01HEXJH9B1G1W3GFPW8CQ5KZX9:UZaUYf4gEvrMijVY",
                 "01HEXJH9B1G1W3GFPW8CQ5KZXA:UZaUYf4gEvrMijVY",
@@ -210,88 +209,70 @@
                 "01HEXJH9B1G1W3GFPW8CQ5KZXF:UZaUYf4gEvrMijVY",
                 "01HEXJH9B1G1W3GFPW8CQ5KZXG:UZaUYf4gEvrMijVY"
               ],
-              "properties": {
-                "id": "J_rArWOqD6PkjBjI"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "Q2qvz8CC8Y5Qibw4": {
               "type": "point",
-              "parents": [
-                7.995241340505325,
-                36.047224498604194
-              ],
-              "properties": {
-                "id": "Q2qvz8CC8Y5Qibw4",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "Q2qvz8CC8Y5Qibw4",
+              "x": 7.995241340505325,
+              "y": 36.047224498604194,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "-vvj_IJz-nVwrlyt": {
               "type": "point",
-              "parents": [
-                14,
-                63
-              ],
-              "properties": {
-                "id": "-vvj_IJz-nVwrlyt",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "-vvj_IJz-nVwrlyt",
+              "x": 14,
+              "y": 63,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "XQsaYoONEtg1Sun4": {
               "type": "comment",
-              "parents": [
-                -1.9790723185664572,
-                -23.986399299192954
+              "id": "XQsaYoONEtg1Sun4",
+              "x": -1.9790723185664572,
+              "y": -23.986399299192954,
+              "anchors": [
+                "-vvj_IJz-nVwrlyt"
               ],
-              "properties": {
-                "id": "XQsaYoONEtg1Sun4",
-                "text": "Same cost at this point",
-                "anchor": "-vvj_IJz-nVwrlyt"
-              }
+              "text": "Same cost at this point"
             },
-            {
+            "WPmKNeLPDkPxSO5V": {
               "type": "point",
-              "parents": [
-                16,
-                65
-              ],
-              "properties": {
-                "id": "WPmKNeLPDkPxSO5V",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "WPmKNeLPDkPxSO5V",
+              "x": 16,
+              "y": 65,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "yg6v7NtZGHFisc2_": {
               "type": "comment",
-              "parents": [
-                0.01723514183066044,
-                -17.138073759225243
+              "id": "yg6v7NtZGHFisc2_",
+              "x": 0.01723514183066044,
+              "y": -17.138073759225243,
+              "anchors": [
+                "WPmKNeLPDkPxSO5V"
               ],
-              "properties": {
-                "id": "yg6v7NtZGHFisc2_",
-                "text": "Mighty Tee is cheaper in this range",
-                "anchor": "WPmKNeLPDkPxSO5V"
-              }
+              "text": "Mighty Tee is cheaper in this range"
             },
-            {
+            "-t4yLzd0ncZ2iUa3": {
               "type": "comment",
-              "parents": [
-                -1.4200831881017217,
-                -21.739867629046792
+              "id": "-t4yLzd0ncZ2iUa3",
+              "x": -1.4200831881017217,
+              "y": -21.739867629046792,
+              "anchors": [
+                "Q2qvz8CC8Y5Qibw4"
               ],
-              "properties": {
-                "id": "-t4yLzd0ncZ2iUa3",
-                "text": "No-Shrink is cheaper in this range",
-                "anchor": "Q2qvz8CC8Y5Qibw4"
-              }
+              "text": "No-Shrink is cheaper in this range"
             },
-            {
+            "a-O5MZxf6Vmuq-g9": {
               "type": "polygon",
-              "parents": [
+              "id": "a-O5MZxf6Vmuq-g9",
+              "points": [
                 "01HEXJH9BA8RD06SDZZH5QSGBZ:V5m67FeeE8jwUFbC",
                 "01HEXJH9BA8RD06SDZZH5QSGC0:V5m67FeeE8jwUFbC",
                 "01HEXJH9BA8RD06SDZZH5QSGC1:V5m67FeeE8jwUFbC",
@@ -302,13 +283,13 @@
                 "01HEXJH9BA8RD06SDZZH5QSGC6:V5m67FeeE8jwUFbC",
                 "01HEXJH9BA8RD06SDZZH5QSGC7:V5m67FeeE8jwUFbC"
               ],
-              "properties": {
-                "id": "a-O5MZxf6Vmuq-g9"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "kGo7555d5WDAXNuL": {
               "type": "polygon",
-              "parents": [
+              "id": "kGo7555d5WDAXNuL",
+              "points": [
                 "01HEXJH9BA8RD06SDZZH5QSGBZ:X5b5URktmKdxz8hJ",
                 "01HEXJH9BA8RD06SDZZH5QSGC0:X5b5URktmKdxz8hJ",
                 "01HEXJH9BA8RD06SDZZH5QSGC1:X5b5URktmKdxz8hJ",
@@ -319,11 +300,17 @@
                 "01HEXJH9BA8RD06SDZZH5QSGC6:X5b5URktmKdxz8hJ",
                 "01HEXJH9BA8RD06SDZZH5QSGC7:X5b5URktmKdxz8hJ"
               ],
-              "properties": {
-                "id": "kGo7555d5WDAXNuL"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "TkFNLZY462tpFtjS": 4,
+            "V5m67FeeE8jwUFbC": 1,
+            "X5b5URktmKdxz8hJ": 2,
+            "xlz0HI5ehVHxtx65": 3
+          }
         },
         "layout": {
           "height": 411.9930725097656
@@ -349,13 +336,12 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In the table, we can find where we have the same cost for the same number of shirts. </p><p>Before that, we can see that No-Shrink is cheaper, because the y-values are less than the y-values of Mighty. After that point, we can see that the y-values of Might are less that No-Shrink. </p>"
+            "<p>In the table, we can find where we have the same cost for the same number of shirts. </p><p>Before that, we can see that No-Shrink is cheaper, because the y-values are less than the y-values of Mighty. After that point, we can see that the y-values of Mighty are less that No-Shrink. </p>"
           ]
         }
       },
       {
         "id": "uxl0DDbVkvxTRLWr",
-        "title": "Mighty and No-Shrink",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -364,8 +350,7 @@
             "V5m67FeeE8jwUFbC": 80,
             "X5b5URktmKdxz8hJ": 94.80078125,
             "xlz0HI5ehVHxtx65": 93.4140625
-          },
-          "name": "T-shirt Costs"
+          }
         }
       },
       {
@@ -495,7 +480,7 @@
           "providerId": "uxl0DDbVkvxTRLWr",
           "dataSet": {
             "id": "SMvS166nN5-q2xZJ",
-            "name": "T-shirt Costs",
+            "name": "Mighty and No-Shrink",
             "attributes": [
               {
                 "id": "TkFNLZY462tpFtjS",
