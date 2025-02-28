@@ -94,27 +94,6 @@
       "lazyLoadTabContents": true,
       "tabSpecs": [
         {
-          "tab": "problems",
-          "label": "Activity",
-          "sections": [
-            {
-              "initials": "1",
-              "title": "Section 1",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "2",
-              "title": "Section 2",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "3",
-              "title": "Section 3",
-              "type": "problem-documents"
-            }
-          ]
-        },
-        {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
@@ -142,7 +121,8 @@
               "properties": [
                 "isTeacherDocument",
                 "!isDeleted"
-              ]
+              ],
+              "openFirstDocumentAutomatically": true
             },
             {
               "title": "Student Published Work",

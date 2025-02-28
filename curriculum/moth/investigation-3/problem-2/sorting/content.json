@@ -3,50 +3,14 @@
   "content": {
     "tiles": [
       {
-        "id": "QE1BFHtxWLSwnQw1",
-        "title": "Text 3",
+        "id": "OIHEOZsdffgHFldZzAgzP",
+        "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong></strong></p><p><strong>Explore 10 Moth data cards </strong></p><p><strong></strong></p>"
+            "<p><strong> Sorting Moths for analysis - what do we have here?</strong></p><p>On days when you or students bring in moths, you will want to organize your students into groups to sort insects (more than moths find their way into moth traps!). </p><p>The activities below  can be useful while you distribute insects for sorting to stations or groups, or while groups wait their turn to work with insects.</p><p>Suggest students sort insects captured into categories of their choosing.  Then have them explain why they chose those categories (size? similarities? etc.).</p><p>To sort, empty each trap onto a white piece of paper. You can use the <a href=\"https://drive.google.com/file/d/1-7ZTilR08DJwln3e_InYH-utciNHxxPZ/view?usp=sharing\">sorting template</a>  or make your own.</p><p>Have the students sort their insects into 2 categories: <strong>moth &amp; not moth </strong></p><p>Then sort moths into <strong>micro</strong> and <strong>macro </strong></p><p>They can also sort by <strong>color</strong></p><p>When students are ready or notice on their own, increase the sorting categories to include patterns.</p><p></p>"
           ]
-        }
-      },
-      {
-        "id": "x8YQxBfW5cPJziqm",
-        "title": "Data Cards: 10 Moths to Explore",
-        "content": {
-          "type": "DataCard"
-        }
-      },
-      {
-        "id": "4v1lttZmX32NoRIj",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p><p><strong>Think about and discuss: </strong></p><p>What do you notice? Share your favorite with your group. Why is it your favorite? </p>"
-          ]
-        }
-      },
-      {
-        "id": "0dFW99EnLfUmdhnP",
-        "title": "Text 7",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong></strong></p><p><strong>Sort 10 new data cards </strong></p><p><strong></strong></p>"
-          ]
-        }
-      },
-      {
-        "id": "G3J-Ja2CjI3JyqfW",
-        "title": "Data Cards: 10 Moths to Sort",
-        "content": {
-          "type": "DataCard"
         }
       },
       {
@@ -56,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong></strong></p><p><strong>At your table:</strong></p><p>Now you can sort and count the  insects <strong><em>you</em></strong> collected!</p><p></p>"
+            "<p><strong></strong></p><p><strong>At your table or station:</strong></p><p>Sort and count insects we collected!</p><p></p>"
           ]
         }
       },
@@ -77,27 +41,159 @@
         "content": {
           "type": "Drawing",
           "objects": [
-            {"type": "image", "id": "oIdVTblCu-FvuTsJ", "x": 381, "y": 82, "url": "moth/images/1_hindwingl.png", "width": 154, "height": 111},
-            {"type": "image", "id": "H4EyVKr5grgsA_rW", "x": 104, "y": 34, "url": "moth/images/2_hindwingr.png", "width": 164, "height": 125},
-            {"type": "image", "id": "8LxYPcpKpjbN8ST1", "x": 221, "y": 189, "url": "moth/images/3_forewingl.png", "width": 311, "height": 121},
-            {"type": "image", "id": "MbC8m_aar6_mJXtI", "x": 227, "y": 0, "url": "moth/images/4_forewingr.png", "width": 332, "height": 115},
-            {"type": "image", "id": "t0putUiOAZSsmEBp", "x": 15, "y": 7, "url": "moth/images/5_abdomen.png", "width": 77, "height": 150},
-            {"type": "image", "id": "jrUAEJN2a-Sj5mHg", "x": 277, "y": 86, "url": "moth/images/6_thorax.png", "width": 76, "height": 106},
-            {"type": "image", "id": "GLvQ1gLfwqTCvgn0", "x": 56, "y": 171, "url": "moth/images/7_head.png", "width": 82, "height": 57},
-            {"type": "image", "id": "LMomsdzgHyvItenA", "x": 16, "y": 233, "url": "moth/images/8_antennae.png", "width": 155, "height": 48}
+            {
+              "type": "image",
+              "id": "oIdVTblCu-FvuTsJ",
+              "x": 381,
+              "y": 82,
+              "visible": true,
+              "url": "moth/images/1_hindwingl.png",
+              "width": 154,
+              "height": 111
+            },
+            {
+              "type": "image",
+              "id": "H4EyVKr5grgsA_rW",
+              "x": 104,
+              "y": 34,
+              "visible": true,
+              "url": "moth/images/2_hindwingr.png",
+              "width": 164,
+              "height": 125
+            },
+            {
+              "type": "image",
+              "id": "8LxYPcpKpjbN8ST1",
+              "x": 221,
+              "y": 189,
+              "visible": true,
+              "url": "moth/images/3_forewingl.png",
+              "width": 311,
+              "height": 121
+            },
+            {
+              "type": "image",
+              "id": "MbC8m_aar6_mJXtI",
+              "x": 227,
+              "y": 0,
+              "visible": true,
+              "url": "moth/images/4_forewingr.png",
+              "width": 332,
+              "height": 115
+            },
+            {
+              "type": "image",
+              "id": "t0putUiOAZSsmEBp",
+              "x": 15,
+              "y": 7,
+              "visible": true,
+              "url": "moth/images/5_abdomen.png",
+              "width": 77,
+              "height": 150
+            },
+            {
+              "type": "image",
+              "id": "jrUAEJN2a-Sj5mHg",
+              "x": 277,
+              "y": 86,
+              "visible": true,
+              "url": "moth/images/6_thorax.png",
+              "width": 76,
+              "height": 106
+            },
+            {
+              "type": "image",
+              "id": "GLvQ1gLfwqTCvgn0",
+              "x": 56,
+              "y": 171,
+              "visible": true,
+              "url": "moth/images/7_head.png",
+              "width": 82,
+              "height": 57
+            },
+            {
+              "type": "image",
+              "id": "LMomsdzgHyvItenA",
+              "x": 16,
+              "y": 233,
+              "visible": true,
+              "url": "moth/images/8_antennae.png",
+              "width": 155,
+              "height": 48
+            }
           ]
         },
-        "layout": { "height": 309 }
+        "layout": {
+          "height": 309
+        }
       },
       {
-        "id": "OIHEOZsdffgHFldZzAgzP",
+        "id": "srEf-4RFJ2cXuelz",
+        "title": "Text 9",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong> Sorting Moths (Analyzing) </strong></p><p>*Sorting</p><p>*Using the binder</p><p>*Laminate the Moth/Not a Moth cards</p><p>*Have the students sort their discoveries into these 2 categories </p><p>*Then take the moths and sort into micro and macro</p><p>*Take all of the moths and have the students sort them into categories of their choosing.  Then have them explain why they chose those categories.</p><p>*Next give them the color categories and have them sort by color</p><p>*For the spring, increase the sorting categories to include patterns</p><p></p>"
+            "<p>Data cards are ... explains what they are and how they can work in future tabs.  (Frieda)</p><p>Sort into piles based on color, spots, or other pattern features. </p>"
           ]
+        }
+      },
+      {
+        "id": "QE1BFHtxWLSwnQw1",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong></strong></p><p><strong>Explore 10 Moth data cards </strong></p><p><strong></strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "H4S8TaSdiUWx5ZTd",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You may want to introduce data cards with a hands-on activity. Students can create their own data cards later, after sorting and pinning moths. For now, these pre-made cards can help your class begin to notice specific types of features on moths.  If your students would enjoy a more hands-on alternative to the online activities suggested on this tab, you can access <a href=\"https://docs.google.com/document/d/1LYq59ditR0LiqIGp0P3xOZai-pGohOBU2xxfEgyjH9c/edit?usp=sharing\"> 10 printable data card</a> pages of different moths to print, laminate and distribute for exploring and sorting. <a href=\"https://docs.google.com/document/d/1ajvWlIe2SbdzIcI-Kf3IGvUtgQb6sLPqovfLAPRbxao/edit?usp=sharing\">Go here</a> for an alternate set of smaller cards on fewer pages.</p>"
+          ]
+        }
+      },
+      {
+        "id": "x8YQxBfW5cPJziqm",
+        "content": {
+          "type": "DataCard"
+        }
+      },
+      {
+        "id": "4v1lttZmX32NoRIj",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Drag the data card tile below to your workspace by grabbing the gray triangle with dots on the top right corner and pulling across.</p><p><strong>Think about and discuss: </strong></p><p>What do you notice? Share your favorite moth with your group. Why is it your favorite ? </p>"
+          ]
+        }
+      },
+      {
+        "id": "0dFW99EnLfUmdhnP",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Explore another 10 data cards , write in features you notice and new categories you want to the cards.</strong></p><p>Drag the data card tile below to your workspace by grabbing the gray triangle with dots on the top right corner and pulling across.</p><p>These are already labeled for color (sort by &quot;color&quot; to see the variety). What about &quot;spots&quot; or &quot;fur&quot;? You decide! You can type in &quot;yes&quot; or &quot;no&quot; for each moth.</p><p>Add any new categories you notice to your deck. You can make up your own too. </p><p>Share with your group and class.</p><p><strong></strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "G3J-Ja2CjI3JyqfW",
+        "content": {
+          "type": "DataCard"
         }
       }
     ],
@@ -109,6 +205,7 @@
           "providerId": "G3J-Ja2CjI3JyqfW",
           "dataSet": {
             "id": "Cfxowv4GNxkRl8dL",
+            "name": "Data Cards: 10 Moths to Sort",
             "attributes": [
               {
                 "id": "3bcPLVqwZMJ0QuVB",
@@ -240,6 +337,7 @@
           "providerId": "x8YQxBfW5cPJziqm",
           "dataSet": {
             "id": "SEngoQdIST_QFxXb",
+            "name": "Data Cards: 10 Moths to Explore",
             "attributes": [
               {
                 "id": "40002DW6DNgl09sN",
@@ -291,37 +389,16 @@
                 "units": "",
                 "formula": {},
                 "values": [
-                  "",
-                  "",
-                  "",
-                  "",
+                  "yes",
+                  "yes",
+                  "yes",
+                  "no",
                   "yes",
                   "yes",
                   "yes",
                   "yes",
                   "yes",
                   "yes"
-                ],
-                "title": ""
-              },
-              {
-                "id": "q7fW1u2hXDYiRnl8",
-                "clientKey": "",
-                "name": "Fur",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "yes",
-                  "yes",
-                  "",
-                  "",
-                  "yes",
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
                 ],
                 "title": ""
               },
@@ -338,10 +415,10 @@
                   "yes",
                   "yes",
                   "yes",
-                  "",
+                  "no",
                   "yes",
                   "yes",
-                  "",
+                  "no",
                   "yes"
                 ],
                 "title": ""
