@@ -43,7 +43,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The movie company will “break even” if there are 40 students in attendance.</p><p>Student answers will vary. </p><p>Sample response finding when Expenses equal Income.</p><p>We can find when the expenses and incomes are equal.</p><p>4.50n = 130 + 1.25n</p><p>3.25n = 130</p><p>          n = 40</p><p></p><p>Sample response using the Profit equation.</p><p>We can write equations for the movie company’s income I, expenses E, and model profit P as income – expenses. For some number of students n,</p><p>P = I – E </p><p>P = 4.50n – (130 + 1.25n) </p><p>P = 3.25n – 130</p><p>The point at which the movie company will “break even” is the point at which their profit equals zero, so we can solve for which value of n makes P=0.</p><p>      0 = 3.25n – 130</p><p>130 = 3.25n  </p><p>  40 = n</p><p></p><p>Sample response using a graph.</p><p>Graph both equations on the same axes. y = 4.50n and y = 130 + 1.25n</p><p>Then find where the graphs intersect (using a tracing or some other strategy.) We see that the lines intersect when the number of students is 40.</p>"
+            "<p>The movie company will “break even” if there are 40 students in attendance.</p><p>Student answers will vary. </p><p>Sample response finding when Expenses equal Income.</p><p>We can find when the expenses and incomes are equal.</p><p>4.50n = 130 + 1.25n</p><p>3.25n = 130</p><p>          n = 40</p><p></p><p>Sample response using the Profit equation.</p><p>We can write equations for the movie company’s income <em>I</em>, expenses <em>E</em>, and model profit <em>P</em> as income – expenses. For some number of students n,</p><p>P = I – E </p><p>P = 4.50n – (130 + 1.25n) </p><p>P = 3.25n – 130</p><p>The point at which the movie company will “break even” is the point at which their profit equals zero, so we can solve for which value of n makes P=0.</p><p>      0 = 3.25n – 130</p><p>130 = 3.25n  </p><p>  40 = n</p><p></p><p>Sample response using a graph.</p><p>Graph both equations on the same axes. y = 4.50n and y = 130 + 1.25n</p><p>Then find where the graphs intersect (using a tracing or some other strategy.) We see that the lines intersect when the number of students is 40.</p>"
           ]
         }
       },
@@ -53,13 +53,7 @@
         "display": "teacher",
         "content": {
           "type": "Graph",
-          "adornments": [
-            {
-              "id": "ADRNixJ3FDuhAoVV",
-              "type": "Connecting Lines",
-              "isVisible": true
-            }
-          ],
+          "adornments": [],
           "axes": {
             "bottom": {
               "type": "numeric",
@@ -99,7 +93,8 @@
                     "attributeID": "CXpMuQdshYBgTNQ-"
                   }
                 ]
-              }
+              },
+              "editable": false
             }
           ],
           "_idColors": {
@@ -135,7 +130,6 @@
       },
       {
         "id": "1B7kAFcHDu4U_gJl",
-        "title": "Movie Theatre Income and Expenses",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -143,8 +137,7 @@
             "PYcJyZI9PIoaImVH": 118.79341125488281,
             "n_BO8sFQhz5C-dtC": 146.74044799804688,
             "CXpMuQdshYBgTNQ-": 139.9609375
-          },
-          "name": "Table 1"
+          }
         }
       }
     ],
@@ -156,7 +149,7 @@
           "providerId": "1B7kAFcHDu4U_gJl",
           "dataSet": {
             "id": "EaqnJbUqmo1aYfK4",
-            "name": "Table 1",
+            "name": "Movie Theatre Income and Expenses",
             "attributes": [
               {
                 "id": "PYcJyZI9PIoaImVH",
