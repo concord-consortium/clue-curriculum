@@ -45,118 +45,305 @@
       },
       {
         "id": "gX3nceoKGZrxqjmR",
-        "title": "Monitor Temperature",
         "content": {
           "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "3322@gX3nceoKGZrxqjmR": {
+                "id": "3322@gX3nceoKGZrxqjmR",
+                "name": "Logic",
+                "x": 291.7448738557753,
+                "y": 110.95676741266041,
+                "data": {
+                  "type": "Logic",
+                  "plot": false,
+                  "orderedDisplayName": "Logic 1",
+                  "tickEntries": {
+                    "5n_-z94AzePVpIFd": {
+                      "nodeValue": "NaN"
+                    },
+                    "NNIGa0l4ijDsHHmW": {
+                      "nodeValue": "NaN"
+                    },
+                    "r6jKsxRiZjjuvV__": {
+                      "nodeValue": "NaN"
+                    },
+                    "Or0iJYai9WLOrQv6": {
+                      "nodeValue": "NaN"
+                    },
+                    "s1HiL7OgEYCUyNI0": {
+                      "nodeValue": "NaN"
+                    },
+                    "QrtCbnTuO0BrDi0D": {
+                      "nodeValue": "NaN"
+                    },
+                    "nj2aFdiaAlBJtmVQ": {
+                      "nodeValue": "NaN"
+                    },
+                    "i81NWzfG4JRDkLkj": {
+                      "nodeValue": "NaN"
+                    },
+                    "Z9JMy3KGkjIZTU_I": {
+                      "nodeValue": "NaN"
+                    },
+                    "E6gU22RV2OvoNk7o": {
+                      "nodeValue": "NaN"
+                    },
+                    "fHiPArrhYPqbpTCg": {
+                      "nodeValue": "NaN"
+                    },
+                    "Ks_eLTDKUn-CKkJS": {
+                      "nodeValue": "NaN"
+                    },
+                    "NJKgIme3EiSaDIht": {
+                      "nodeValue": "NaN"
+                    },
+                    "5441OVduTySsLYd5": {
+                      "nodeValue": "NaN"
+                    },
+                    "z-VCfsLma7bbAb-q": {
+                      "nodeValue": "NaN"
+                    },
+                    "kxsKHi69RXP_NVSJ": {
+                      "nodeValue": "NaN"
+                    },
+                    "aO2MdjUMLbPsOst7": {
+                      "open": true,
+                      "nodeValue": "NaN"
+                    }
+                  },
+                  "logicOperator": "Greater Than"
+                }
+              },
+              "3337@gX3nceoKGZrxqjmR": {
+                "id": "3337@gX3nceoKGZrxqjmR",
+                "name": "Demo Output",
+                "x": 551.8805820907344,
+                "y": 140.5773811102751,
+                "data": {
+                  "type": "Demo Output",
+                  "plot": false,
+                  "orderedDisplayName": "Demo Output 2",
+                  "tickEntries": {
+                    "5n_-z94AzePVpIFd": {
+                      "nodeValue": "0"
+                    },
+                    "NNIGa0l4ijDsHHmW": {
+                      "nodeValue": "0"
+                    },
+                    "r6jKsxRiZjjuvV__": {
+                      "nodeValue": "0"
+                    },
+                    "Or0iJYai9WLOrQv6": {
+                      "nodeValue": "0"
+                    },
+                    "s1HiL7OgEYCUyNI0": {
+                      "nodeValue": "0"
+                    },
+                    "QrtCbnTuO0BrDi0D": {
+                      "nodeValue": "0"
+                    },
+                    "nj2aFdiaAlBJtmVQ": {
+                      "nodeValue": "0"
+                    },
+                    "i81NWzfG4JRDkLkj": {
+                      "nodeValue": "0"
+                    },
+                    "Z9JMy3KGkjIZTU_I": {
+                      "nodeValue": "0"
+                    },
+                    "E6gU22RV2OvoNk7o": {
+                      "nodeValue": "0"
+                    },
+                    "fHiPArrhYPqbpTCg": {
+                      "nodeValue": "0"
+                    },
+                    "Ks_eLTDKUn-CKkJS": {
+                      "nodeValue": "0"
+                    },
+                    "NJKgIme3EiSaDIht": {
+                      "nodeValue": "0"
+                    },
+                    "5441OVduTySsLYd5": {
+                      "nodeValue": "0"
+                    },
+                    "z-VCfsLma7bbAb-q": {
+                      "nodeValue": "0"
+                    },
+                    "kxsKHi69RXP_NVSJ": {
+                      "nodeValue": "0"
+                    },
+                    "aO2MdjUMLbPsOst7": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "outputType": "Light Bulb"
+                }
+              },
+              "3338@gX3nceoKGZrxqjmR": {
+                "id": "3338@gX3nceoKGZrxqjmR",
+                "name": "Generator",
+                "x": 42.95312952716057,
+                "y": 57.922324251974615,
+                "data": {
+                  "type": "Generator",
+                  "plot": false,
+                  "orderedDisplayName": "Generator 3",
+                  "tickEntries": {
+                    "5n_-z94AzePVpIFd": {
+                      "nodeValue": "-0.29"
+                    },
+                    "NNIGa0l4ijDsHHmW": {
+                      "nodeValue": "-0.8"
+                    },
+                    "r6jKsxRiZjjuvV__": {
+                      "nodeValue": "-1"
+                    },
+                    "Or0iJYai9WLOrQv6": {
+                      "nodeValue": "-0.82"
+                    },
+                    "s1HiL7OgEYCUyNI0": {
+                      "nodeValue": "-0.33"
+                    },
+                    "QrtCbnTuO0BrDi0D": {
+                      "nodeValue": "0.29"
+                    },
+                    "nj2aFdiaAlBJtmVQ": {
+                      "nodeValue": "0.8"
+                    },
+                    "i81NWzfG4JRDkLkj": {
+                      "nodeValue": "1"
+                    },
+                    "Z9JMy3KGkjIZTU_I": {
+                      "nodeValue": "0.82"
+                    },
+                    "E6gU22RV2OvoNk7o": {
+                      "nodeValue": "0.33"
+                    },
+                    "fHiPArrhYPqbpTCg": {
+                      "nodeValue": "-0.29"
+                    },
+                    "Ks_eLTDKUn-CKkJS": {
+                      "nodeValue": "-0.8"
+                    },
+                    "NJKgIme3EiSaDIht": {
+                      "nodeValue": "-1"
+                    },
+                    "5441OVduTySsLYd5": {
+                      "nodeValue": "-0.82"
+                    },
+                    "z-VCfsLma7bbAb-q": {
+                      "nodeValue": "-0.31"
+                    },
+                    "kxsKHi69RXP_NVSJ": {
+                      "nodeValue": "0.29"
+                    },
+                    "aO2MdjUMLbPsOst7": {
+                      "open": true,
+                      "nodeValue": "0.29"
+                    }
+                  },
+                  "generatorType": "Sine",
+                  "amplitude": 1,
+                  "period": 10,
+                  "periodUnits": "sec"
+                }
+              },
+              "3339@gX3nceoKGZrxqjmR": {
+                "id": "3339@gX3nceoKGZrxqjmR",
+                "name": "Number",
+                "x": 43.136365625588255,
+                "y": 281.10634943713586,
+                "data": {
+                  "type": "Number",
+                  "plot": false,
+                  "orderedDisplayName": "Number 4",
+                  "tickEntries": {
+                    "5n_-z94AzePVpIFd": {
+                      "nodeValue": "0"
+                    },
+                    "NNIGa0l4ijDsHHmW": {
+                      "nodeValue": "0"
+                    },
+                    "r6jKsxRiZjjuvV__": {
+                      "nodeValue": "0"
+                    },
+                    "Or0iJYai9WLOrQv6": {
+                      "nodeValue": "0"
+                    },
+                    "s1HiL7OgEYCUyNI0": {
+                      "nodeValue": "0"
+                    },
+                    "QrtCbnTuO0BrDi0D": {
+                      "nodeValue": "0"
+                    },
+                    "nj2aFdiaAlBJtmVQ": {
+                      "nodeValue": "0"
+                    },
+                    "i81NWzfG4JRDkLkj": {
+                      "nodeValue": "0"
+                    },
+                    "Z9JMy3KGkjIZTU_I": {
+                      "nodeValue": "0"
+                    },
+                    "E6gU22RV2OvoNk7o": {
+                      "nodeValue": "0"
+                    },
+                    "fHiPArrhYPqbpTCg": {
+                      "nodeValue": "0"
+                    },
+                    "Ks_eLTDKUn-CKkJS": {
+                      "nodeValue": "0"
+                    },
+                    "NJKgIme3EiSaDIht": {
+                      "nodeValue": "0"
+                    },
+                    "5441OVduTySsLYd5": {
+                      "nodeValue": "0"
+                    },
+                    "z-VCfsLma7bbAb-q": {
+                      "nodeValue": "0"
+                    },
+                    "kxsKHi69RXP_NVSJ": {
+                      "nodeValue": "0"
+                    },
+                    "aO2MdjUMLbPsOst7": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "value": 0
+                }
+              }
+            },
+            "connections": {},
+            "recentTicks": [
+              "5n_-z94AzePVpIFd",
+              "NNIGa0l4ijDsHHmW",
+              "r6jKsxRiZjjuvV__",
+              "Or0iJYai9WLOrQv6",
+              "s1HiL7OgEYCUyNI0",
+              "QrtCbnTuO0BrDi0D",
+              "nj2aFdiaAlBJtmVQ",
+              "i81NWzfG4JRDkLkj",
+              "Z9JMy3KGkjIZTU_I",
+              "E6gU22RV2OvoNk7o",
+              "fHiPArrhYPqbpTCg",
+              "Ks_eLTDKUn-CKkJS",
+              "NJKgIme3EiSaDIht",
+              "5441OVduTySsLYd5",
+              "z-VCfsLma7bbAb-q",
+              "kxsKHi69RXP_NVSJ",
+              "aO2MdjUMLbPsOst7"
+            ]
+          },
           "programDataRate": 1000,
           "programZoom": {
             "dx": -0.0162353515625,
             "dy": 0,
             "scale": 0.6058285767831006
-          },
-          "program": {
-            "values": {
-              "3322": {
-                "currentValues": {}
-              },
-              "3337": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              },
-              "3338": {
-                "currentValues": {
-                  "nodeValue": 0.97
-                }
-              },
-              "3339": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              }
-            },
-            "id": "dataflow@0.1.0",
-            "nodes": {
-              "3322": {
-                "id": 3322,
-                "name": "Logic",
-                "x": 291.7448738557753,
-                "y": 110.95676741266041,
-                "inputs": {
-                  "num1": {
-                    "connections": {}
-                  },
-                  "num2": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Logic 1",
-                  "logicOperator": "Greater Than"
-                }
-              },
-              "3337": {
-                "id": 3337,
-                "name": "Demo Output",
-                "x": 551.8805820907344,
-                "y": 140.5773811102751,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {},
-                "data": {
-                  "orderedDisplayName": "Demo Output 2",
-                  "outputType": "Light Bulb",
-                  "demoOutput": 0
-                }
-              },
-              "3338": {
-                "id": 3338,
-                "name": "Generator",
-                "x": 42.95312952716057,
-                "y": 57.922324251974615,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Generator 3",
-                  "generatorType": "Sine",
-                  "amplitudeUnits": "",
-                  "amplitude": 1,
-                  "periodUnits": "sec",
-                  "period": 10
-                }
-              },
-              "3339": {
-                "id": 3339,
-                "name": "Number",
-                "x": 43.136365625588255,
-                "y": 281.10634943713586,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Number 4",
-                  "nodeValueUnits": ""
-                }
-              }
-            }
           }
         }
       },
@@ -178,15 +365,19 @@
           "objects": [
             {
               "type": "image",
+              "id": "fooTKS2FYKqHdGnXl",
+              "x": -127.38964843749996,
+              "y": -82.70493861607142,
+              "visible": true,
               "url": "tinker/images/UIbuttons.jpg",
               "filename": "UIbuttons.jpg",
-              "id": "fooTKS2FYKqHdGnXl",
-              "x": 12,
-              "y": 12,
-              "width": 512,
-              "height": 272
+              "width": 917.4889787946429,
+              "height": 615.6439732142856
             }
           ]
+        },
+        "layout": {
+          "height": 397.984375
         }
       },
       {
@@ -195,7 +386,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Publishing your workspace </h3><p>When you&#x27;re done with today&#x27;s activities, try publishing your workspace. To do so, click on &quot;Publish Workspace&quot; at the top of your workspace.</p><p>When you publish, your workspace will appear under the pink &quot;Extension&quot; tab above. Student work will go under the Class Models and Data tab. Teacher work will go under the Custom Lessons tab. </p><p>Check if any of your classmates has published their workspace yet. </p><p> </p>"
+            "<h3>Class Work Sorting: Sharing your workspace </h3><p>When you&#x27;re done with today&#x27;s activities, try sharing your workspace with the Share toggle at the top of your workspace.</p><p>When you share, your workspace will appear for other students in the Class Work tab.  </p><p>Check if any of your classmates has shared their workspace yet. You&#x27;ll find there&#x27;s an extra student in your class. Their name is Ivan Idea. Ivan&#x27;s documents are not shared until you&#x27;ve done enough work in yours to reveal them.</p>"
           ]
         }
       },
@@ -205,7 +396,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Reflection</h3><p>At the end of each lesson, you will be asked to post a brief reflection. Click on the &quot;Reflection&quot; tab to learn more. </p>"
+            "<h3>Reflection</h3><p>At the end of each lesson, you will be asked to share your work with a brief reflection. Click on the &quot;Reflection&quot; tab to learn more. </p>"
           ]
         }
       }
@@ -218,6 +409,7 @@
           "providerId": "gX3nceoKGZrxqjmR",
           "dataSet": {
             "id": "6kSQZE-7EYROKoS5",
+            "name": "Let there be light!",
             "attributes": [
               {
                 "id": "VKzRoWtusWLUziyg",
@@ -341,6 +533,15 @@
           "Vgc6qoEDt_gV8hAb",
           "FFsWGlSrLofqnz1h",
           "9R8Pq1QLUzthSal0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "PR_KoYyId_B0cLku"
+        },
+        "tiles": [
+          "gX3nceoKGZrxqjmR"
         ]
       }
     ]
