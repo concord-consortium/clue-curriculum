@@ -1,0 +1,383 @@
+{
+  "code": "tinker",
+  "abbrevTitle": "CODE",
+  "title": "Computer Science",
+  "subtitle": "Logic and Flow Programming",
+  "placeholderText": "Enter notes here",
+  "config": {
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "placeholderText": "Write a program or record some data",
+    "autoSectionProblemDocuments": true,
+    "defaultDocumentType": "problem",
+    "disablePublish": true,
+    "initiallyHideExemplars": true,
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Dataflow",
+        "title": "Dataflow",
+        "isTileTool": true
+      },
+      {
+        "id": "Simulator",
+        "title": "EMG Simulator",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Activity",
+          "sections": [
+            {
+              "initials": "INT",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "ACT",
+              "title": "Activity",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "REF",
+              "title": "Reflection",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": []
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Journal",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
+            }
+          ]
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        }
+      ]
+    },
+    "settings": {
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "time",
+          "left": "Signal"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "dataflow": {
+        "maxTiles": 1
+      },
+      "simulator": {
+        "defaultSimulation": "potentiometer_chip_servo",
+        "maxTiles": 1
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+      "logic": "Logic",
+      "loops": "Loops",
+      "algorithms": "Algorithms",
+      "debug": "Debug"
+    },
+    "tagPrompt": "Programming Skill",
+    "aiEvaluation": "categorize-code",
+    "stamps": []
+  },
+  "sections": {
+    "introduction": {
+      "initials": "INT",
+      "title": "Introduction",
+      "placeholder": "Design a Solution"
+    },
+    "activity": {
+      "initials": "ACT",
+      "title": "Activity",
+      "placeholder": "Write and Debug Code"
+    },
+    "reflection": {
+      "initials": "REF",
+      "title": "Reflection",
+      "placeholder": "What did you learn?"
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "objectives": {
+        "initials": "OB",
+        "title": "Objectives",
+        "placeholder": "Work area for\nObjectives section"
+      },
+      "sequence": {
+        "initials": "SQ",
+        "title": "Sequence",
+        "placeholder": "Work area for\nSequence section"
+      }
+    },
+    "sections": [
+      {
+        "type": "objectives"
+      },
+      {
+        "type": "sequence"
+      }
+    ]
+  },
+  "investigations": [
+    {
+      "description": "Introduction to CLUE",
+      "ordinal": 0,
+      "title": "Introduction to CLUE",
+      "problems": [
+        {
+          "description": "Activity 1: Getting Started",
+          "ordinal": 1,
+          "title": "Collaborative Programming",
+          "subtitle": "Get a CLUE",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-0/problem-1/introduction/content.json",
+            "sections/investigation-0/problem-1/activity/content.json",
+            "sections/investigation-0/problem-1/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json"
+          ],
+          "config": {}
+        }
+      ]
+    },
+    {
+      "description": "Investigation 1: Programming",
+      "ordinal": 1,
+      "title": "Programming Dataflow",
+      "problems": [
+        {
+          "description": "Activity 1.1",
+          "ordinal": 1,
+          "title": "1.1: Logic and Flow",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-1/introduction/content.json",
+            "sections/investigation-1/problem-1/activity/content.json",
+            "sections/investigation-1/problem-1/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "Activity 1.2",
+          "ordinal": 2,
+          "title": "1.2: Control",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-2/introduction/content.json",
+            "sections/investigation-1/problem-2/activity/content.json",
+            "sections/investigation-1/problem-2/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-2/exemplar-1/content.json",     
+            "exemplars/investigation-1/problem-2/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-2/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-2/exemplar-4/content.json"
+          ],
+          "config": {
+          }
+        },
+        {
+          "description": "Activity 1.3",
+          "ordinal": 3,
+          "title": "1.3: Algorithms",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-3/introduction/content.json",
+            "sections/investigation-1/problem-3/activity/content.json",
+            "sections/investigation-1/problem-3/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-3/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-3/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-3/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-3/exemplar-4/content.json"
+          ],
+          "config": {
+            "planningTemplate": {
+              "objectives": {
+                "tiles": []
+              },
+              "sequence": {
+                "tiles": []
+              }
+            }
+          }
+        },
+        {
+          "description": "Activity 1.4",
+          "ordinal": 4,
+          "title": "1.4: Data and Versions",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-4/introduction/content.json",
+            "sections/investigation-1/problem-4/activity/content.json",
+            "sections/investigation-1/problem-4/reflection/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-4/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-4/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-4/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-4/exemplar-4/content.json"
+          ],
+          "config": {
+          }
+        }
+      ]
+    }
+  ]
+}
