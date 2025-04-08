@@ -9,39 +9,188 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Let&#x27;s Talk About Water</strong></p><p><strong>Water is Important in Our Lives</strong></p>"
+            "<p><strong>Let&#x27;s Talk About Programming</strong></p>"
           ]
         }
       },
-      [
-        {
-          "id": "8RO1z4oQ-736KLh4",
-          "title": "Image 1",
-          "content": {
-            "type": "Image",
-            "url": "mods/images/jos-speetjens-b2p4_i9g_ma-unsplash.jpg",
-            "filename": "mods/images/jos-speetjens-b2p4_i9g_ma-unsplash.jpg"
-          }
-        },
-        {
-          "id": "5giS8KBkSROkS-dk",
-          "title": "Image 2",
-          "content": {
-            "type": "Image",
-            "url": "mods/images/aaron-burden-arya3uminia-unsplash.jpg",
-            "filename": "mods/images/aaron-burden-arya3uminia-unsplash.jpg"
-          }
-        }
-      ],
       {
-        "id": "_Y3H6wrp_qCmThqw",
-        "title": "Text 8",
+        "id": "_suzYZwNxbUR97Wq",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>List at least 5 ways that people use water (&quot;drinking&quot; for example). List as many as you can!</p>"
-          ]
+          "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "ZX-qjjqqdLIAAswS": {
+                "id": "ZX-qjjqqdLIAAswS",
+                "name": "Demo Output",
+                "x": 393.310546875,
+                "y": 66.455078125,
+                "data": {
+                  "type": "Demo Output",
+                  "plot": false,
+                  "orderedDisplayName": "Demo Output 1",
+                  "tickEntries": {
+                    "q5wqPSi3qnBAhzcU": {
+                      "nodeValue": "0"
+                    },
+                    "T9hedf279BHkTlMr": {
+                      "nodeValue": "0"
+                    },
+                    "nx9_utnckNOQOnWb": {
+                      "nodeValue": "1"
+                    },
+                    "RPQSgjPsT6WAeRXO": {
+                      "nodeValue": "1"
+                    },
+                    "umscTrG7dIkoYzn-": {
+                      "nodeValue": "1"
+                    },
+                    "_GbDkyMZmbL3-eC3": {
+                      "nodeValue": "1"
+                    },
+                    "edhqHatxO1dDXLje": {
+                      "nodeValue": "1"
+                    },
+                    "E8DzuCCX8AjYuTY4": {
+                      "nodeValue": "0"
+                    },
+                    "9w7zweyFXoUqrHi5": {
+                      "nodeValue": "0"
+                    },
+                    "4GFwR97aORncOvij": {
+                      "nodeValue": "0"
+                    },
+                    "MaLhoZ8BnXHz3UU2": {
+                      "nodeValue": "0"
+                    },
+                    "4ARm3pjQRccTemKu": {
+                      "nodeValue": "0"
+                    },
+                    "VjSLA0vicolnKxFC": {
+                      "nodeValue": "1"
+                    },
+                    "v4LvLL6YZCX2VNbB": {
+                      "nodeValue": "1"
+                    },
+                    "_o-gpVksOv0x8oN6": {
+                      "nodeValue": "1"
+                    },
+                    "341lad_I-Rou5LcM": {
+                      "nodeValue": "1"
+                    },
+                    "L2_UZjGFkm-TcLQR": {
+                      "open": true,
+                      "nodeValue": "1"
+                    }
+                  },
+                  "outputType": "Light Bulb"
+                }
+              },
+              "0x0CxcXIsR0DioK8": {
+                "id": "0x0CxcXIsR0DioK8",
+                "name": "Generator",
+                "x": 42.5390625,
+                "y": 68.6083984375,
+                "data": {
+                  "type": "Generator",
+                  "plot": true,
+                  "orderedDisplayName": "Generator 1",
+                  "tickEntries": {
+                    "q5wqPSi3qnBAhzcU": {
+                      "nodeValue": "0"
+                    },
+                    "T9hedf279BHkTlMr": {
+                      "nodeValue": "0"
+                    },
+                    "nx9_utnckNOQOnWb": {
+                      "nodeValue": "1"
+                    },
+                    "RPQSgjPsT6WAeRXO": {
+                      "nodeValue": "1"
+                    },
+                    "umscTrG7dIkoYzn-": {
+                      "nodeValue": "1"
+                    },
+                    "_GbDkyMZmbL3-eC3": {
+                      "nodeValue": "1"
+                    },
+                    "edhqHatxO1dDXLje": {
+                      "nodeValue": "1"
+                    },
+                    "E8DzuCCX8AjYuTY4": {
+                      "nodeValue": "0"
+                    },
+                    "9w7zweyFXoUqrHi5": {
+                      "nodeValue": "0"
+                    },
+                    "4GFwR97aORncOvij": {
+                      "nodeValue": "0"
+                    },
+                    "MaLhoZ8BnXHz3UU2": {
+                      "nodeValue": "0"
+                    },
+                    "4ARm3pjQRccTemKu": {
+                      "nodeValue": "0"
+                    },
+                    "VjSLA0vicolnKxFC": {
+                      "nodeValue": "1"
+                    },
+                    "v4LvLL6YZCX2VNbB": {
+                      "nodeValue": "1"
+                    },
+                    "_o-gpVksOv0x8oN6": {
+                      "nodeValue": "1"
+                    },
+                    "341lad_I-Rou5LcM": {
+                      "nodeValue": "1"
+                    },
+                    "L2_UZjGFkm-TcLQR": {
+                      "open": true,
+                      "nodeValue": "1"
+                    }
+                  },
+                  "generatorType": "Square",
+                  "amplitude": 1,
+                  "period": 5,
+                  "periodUnits": "sec"
+                }
+              }
+            },
+            "connections": {
+              "45318c27c48be536": {
+                "id": "45318c27c48be536",
+                "source": "0x0CxcXIsR0DioK8",
+                "sourceOutput": "value",
+                "target": "ZX-qjjqqdLIAAswS",
+                "targetInput": "nodeValue"
+              }
+            },
+            "recentTicks": [
+              "q5wqPSi3qnBAhzcU",
+              "T9hedf279BHkTlMr",
+              "nx9_utnckNOQOnWb",
+              "RPQSgjPsT6WAeRXO",
+              "umscTrG7dIkoYzn-",
+              "_GbDkyMZmbL3-eC3",
+              "edhqHatxO1dDXLje",
+              "E8DzuCCX8AjYuTY4",
+              "9w7zweyFXoUqrHi5",
+              "4GFwR97aORncOvij",
+              "MaLhoZ8BnXHz3UU2",
+              "4ARm3pjQRccTemKu",
+              "VjSLA0vicolnKxFC",
+              "v4LvLL6YZCX2VNbB",
+              "_o-gpVksOv0x8oN6",
+              "341lad_I-Rou5LcM",
+              "L2_UZjGFkm-TcLQR"
+            ]
+          },
+          "programDataRate": 500,
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 1
+          }
         }
       },
       {
@@ -51,72 +200,65 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Ways people use water</strong></p><p>1. </p><p>2. </p><p>3.</p><p>4.</p><p>5.</p>"
-          ]
-        }
-      },
-      {
-        "id": "bb1LvcxgOkSHaK3N",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Why is water important to you? </strong></p><p>Drag the box below into your workspace to answer the question.</p>"
-          ]
-        }
-      },
-      {
-        "id": "eDyxtDfaUjFOQpeQ",
-        "title": "Text 9",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Why is water important to you? </p>"
-          ]
-        }
-      },
-      {
-        "id": "KWE1zVF-nguKENHm",
-        "title": "Text 10",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Opening Questions</strong></p><p>Fill out <a href=\"https://water.usgs.gov/edu/activity-percapita.html\">this questionnaire from the United States Geological Survey</a> to estimate how much water you use in a typical day. <a href=\"https://water.usgs.gov/edu/activity-percapita.html\"></a></p><p>Then answer the two questions in the text box below.</p>"
-          ]
-        }
-      },
-      {
-        "id": "f93bDhfG_K6KbxKU",
-        "title": "Text 11",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>What did you learn after taking the questionnaire and reading the results page? Explain anything that was interesting or surprising to you.</strong></p><p></p><p></p><p></p><p><strong>Explain any new ideas you have about designing a water conservation solution after taking the questionnaire. </strong></p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p>"
-          ]
-        }
-      },
-      {
-        "id": "F-n_7WnC9cL4aHxZ",
-        "title": "Text 7",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Extension</strong></p><p>Make a sketch (using the sketch box below or using pencil and paper). Sketch one way that people use water in their lives. </p>"
+            "<p><strong>Ways people use programs</strong></p><p>1. </p><p>2. </p><p>3.</p><p>4.</p><p>5.</p>"
           ]
         }
       },
       {
         "id": "tuPaOc0FCSBKQXKt",
-        "title": "How people use water in their lives",
+        "title": "How people use programs",
         "content": {
           "type": "Drawing",
           "objects": []
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "w40aku-AfFXL2UmD",
+          "providerId": "_suzYZwNxbUR97Wq",
+          "dataSet": {
+            "id": "oUDJdZZFbXYDKnjz",
+            "name": "Program 1",
+            "attributes": [
+              {
+                "id": "ATTRwMn1ZhXWNauf",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTR79VuFp_zZY8L",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "_suzYZwNxbUR97Wq"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "2wazaDAdCzbvpsO8"
+        },
+        "tiles": [
+          "_suzYZwNxbUR97Wq"
+        ]
       }
     ]
   }
