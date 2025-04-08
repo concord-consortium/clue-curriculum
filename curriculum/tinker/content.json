@@ -170,15 +170,35 @@
       "table": {
         "numFormat": ".2~f",
         "tools": [
+          "set-expression",
           [
             "data-set-view",
-            "dataCard"
+            "graph"
           ],
           "delete"
         ]
       },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "time",
+          "left": "Signal"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "dataflow": {
+        "maxTiles": 1
+      },
       "simulator": {
-        "defaultSimulation": "potentiometer_chip_servo"
+        "defaultSimulation": "potentiometer_chip_servo",
+        "maxTiles": 1
       }
     },
     "showCommentTag": true,
