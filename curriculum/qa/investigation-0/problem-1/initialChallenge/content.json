@@ -2,26 +2,45 @@
   "type": "initialChallenge",
   "content": {
     "tiles": [
-      [
-        {
-          "id": "IubDD3qrjJw8Uhb9",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>Using CLUE’s Tools</strong></p><p></p><p>It’s time  to try out each of CLUE’s tools. You’ll decide which tools to use to solve a problem. Knowing how the tools work will help you present your mathematical answers in a way that makes sense to you, whether that’s in words or a graph or table. To use a tool, just click it. You can then move it to a particular section or above or below another tile. Or to position it precisely, drag it from the toolbar into your workspace, moving to where you want it (the drop zone is indicated by a blue vertical bar), then let go.</p>"
-            ]
-          }
-        },
-        {
-          "id": "_acGcUoGuBg5sXvL",
-          "title": "Tool Tiles on the CLUE Toolbar",
-          "content": {
-            "type": "Image",
-            "url": "qa/images/AllToolsToolBar-labeled.png"
-          }
+      {
+        "id": "48M41UOGtT7dD7x6",
+        "title": "Question 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>This is a test for Question 1 as an author. Please answer Question 1.</p>"
+                ]
+              }
+            }
+          ]
         }
-      ],
+      },
+      {
+        "id": "IubDD3qrjJw8Uhb9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Using CLUE’s Tools</strong></p><p></p><p>It’s time  to try out each of CLUE’s tools. You’ll decide which tools to use to solve a problem. Knowing how the tools work will help you present your mathematical answers in a way that makes sense to you, whether that’s in words or a graph or table. To use a tool, just click it. You can then move it to a particular section or above or below another tile. Or to position it precisely, drag it from the toolbar into your workspace, moving to where you want it (the drop zone is indicated by a blue vertical bar), then let go.</p>"
+          ]
+        }
+      },
+      {
+        "id": "_acGcUoGuBg5sXvL",
+        "title": "Tool Tiles on the CLUE Toolbar",
+        "content": {
+          "type": "Image",
+          "url": "qa/images/AllToolsToolBar-labeled.png"
+        }
+      },
       [
         {
           "id": "jVu0lyX6VmWRgOhY",
@@ -97,14 +116,12 @@
         },
         {
           "id": "-ZoJoDESMoYPKL7H",
-          "title": "Dinosaur Characteristics",
           "content": {
             "type": "Table",
             "columnWidths": {
               "VHrBIe2ExSenF893": 110,
               "kEz4oI4phLeH9Sp5": 106
-            },
-            "name": "Dinosaur Characteristics"
+            }
           }
         }
       ],
@@ -120,14 +137,12 @@
       },
       {
         "id": "JU_PfL7clLhi5YKm",
-        "title": "Connections Between Points",
         "content": {
           "type": "Table",
           "columnWidths": {
             "Ick9zjVzfkrijAbd": 120,
             "-3FtVwbEuThWIE1m": 115
-          },
-          "name": "Connections Between Points"
+          }
         }
       },
       {
@@ -176,59 +191,54 @@
           "title": "Graph Play",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2.186,
-                  -1.093
-                ],
-                "axisRange": [
-                  26.23,
-                  17.486
-                ]
+              "xAxis": {
+                "min": -2.186,
+                "unit": 18.299656881433474,
+                "range": 26.23
+              },
+              "yAxis": {
+                "min": -1.093,
+                "unit": 18.30035456936978,
+                "range": 17.486
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "4LBSAZbwBSIZj8oe": {
                 "type": "point",
-                "parents": [
-                  5.009165503307461,
-                  4.9969649184597
-                ],
-                "properties": {
-                  "id": "4LBSAZbwBSIZj8oe",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "4LBSAZbwBSIZj8oe",
+                "x": 5.009165503307461,
+                "y": 4.9969649184597,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "CwvkuSfF5kvTyumD": {
                 "type": "point",
-                "parents": [
-                  10,
-                  10.000000000000002
-                ],
-                "properties": {
-                  "id": "CwvkuSfF5kvTyumD",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "CwvkuSfF5kvTyumD",
+                "x": 10,
+                "y": 10.000000000000002,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "1t6NY4AggtTSPW_H": {
                 "type": "point",
-                "parents": [
-                  15,
-                  5.000000000000001
-                ],
-                "properties": {
-                  "id": "1t6NY4AggtTSPW_H",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "1t6NY4AggtTSPW_H",
+                "x": 15,
+                "y": 5.000000000000001,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -310,14 +320,12 @@
       },
       {
         "id": "xW3a8ImrCr37XGef",
-        "title": "Dog",
         "content": {
           "type": "Table",
           "columnWidths": {
             "Df3p2Xe--hsJyPSs": 80,
             "Ieh72IaVTyU6HSpA": 80
-          },
-          "name": "Dog"
+          }
         }
       },
       [
