@@ -3,14 +3,59 @@
   "content": {
     "tiles": [
       {
+        "id": "TILEYPgzVeBBAPWO",
         "content": {
           "type": "Text",
           "format": "html",
-          "text": ["<p><strong>Problem Exploration</strong></p>", "<p>This Problem is intended to help both educators and students to learn how software features work in CLUE. There is no extended teacher guide. You will find teacher guides in other problems.</p>"]
-        },
-        "id": "TILEYPgzVeBBAPWO"
+          "text": [
+            "<p><strong>Problem Exploration</strong></p><p>This Problem is intended to help both educators and students to learn how software features work in CLUE. There is no extended teacher guide. You will find teacher guides in other problems.</p>"
+          ]
+        }
+      },
+      {
+        "id": "qsQ20kIum9NUe-iw",
+        "title": "Question 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>This test question is for CLUE purposes. The text should not move around at all. Please drag tiles.</p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "SgDC30cGnoK0vkGq",
+        "title": "Question 2",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>This is another CLUE question, question 2</p>"
+                ]
+              }
+            }
+          ]
+        }
       }
-    ],
-    "supports": []
+    ]
   }
 }
