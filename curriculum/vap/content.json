@@ -1,0 +1,601 @@
+{
+  "code": "vap",
+  "abbrevTitle": "VAP",
+  "title": "Variables and Patterns",
+  "subtitle": "",
+  "config": {
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "disablePublish": true,
+    "placeholderText": "Enter notes here",
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Drawing",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "lazyLoadTabContents": true,
+      "showNavPanel": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Problems",
+          "sections": [
+            {
+              "initials": "IN",
+              "title": "Introduction",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "IC",
+              "title": "Initial Challenge",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "WI",
+              "title": "What If...?",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NW",
+              "title": "Now What Do You Know?",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Learning Log",
+              "type": "learning-logs",
+              "dataTestHeader": "learning-log-section",
+              "documentTypes": [
+                "learningLog"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Bookmarks",
+              "type": "starred-problem-documents",
+              "dataTestHeader": "my-work-section-starred",
+              "documentTypes": [
+                "personal",
+                "problem"
+              ],
+              "properties": [
+                "starred",
+                "!isDeleted"
+              ],
+              "showStars": [
+                "student",
+                "teacher"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Work",
+          "teacherOnly": false
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "cas/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/red-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      }
+    },
+    "showCommentTag": true,
+    "commentTags": {
+      "part-to-part": "Part-to-Part",
+      "part-to-whole": "Part-to-Whole",
+      "building-up": "Building Up or Down",
+      "scaling-up-down": "Scaling Up or Down",
+      "unit-rates": "Scaling with Unit Rates",
+      "other-proportional": "Other - Proportional",
+      "non-proportional": "Non-Proportional"
+    },
+    "tagPrompt": "Select Student Strategy"
+  },
+  "sections": {
+    "introduction": {
+      "initials": "IN",
+      "title": "Introduction",
+      "placeholder": "Work area for\nIntroduction section"
+    },
+    "initialChallenge": {
+      "initials": "IC",
+      "title": "Initial Challenge",
+      "placeholder": "Work area for\nInitial Challenge section"
+    },
+    "whatIf": {
+      "initials": "WI",
+      "title": "What If...?",
+      "placeholder": "Work area for\nWhat If...? section"
+    },
+    "nowWhatDoYouKnow": {
+      "initials": "NW",
+      "title": "Now What Do You Know?",
+      "placeholder": "Work area for\nNow What Do You Know? section"
+    },
+    "didYouKnow": {
+      "initials": "DY",
+      "title": "Did You Know?",
+      "placeholder": "Work area for\nDid You Know? section"
+    },
+    "MathReflection1": {
+      "initials": "R1",
+      "title": "Math Reflection 1",
+      "placeholder": "Work area for\nMathematical Reflection 1 section"
+    },
+    "MathReflection2": {
+      "initials": "R2",
+      "title": "Math Reflection 2",
+      "placeholder": "Work area for\nMathematical Reflection 2 section"
+    },
+    "MathReflection3": {
+      "initials": "R3",
+      "title": "Math Reflection 3",
+      "placeholder": "Work area for\nMathematical Reflection 3 section"
+    },
+    "ACE1": {
+      "initials": "ACE1",
+      "title": "ACE Inv. 1",
+      "placeholder": "Work area for\nACE 1 section"
+    },
+    "ACE2": {
+      "initials": "ACE2",
+      "title": "ACE Inv. 2",
+      "placeholder": "Work area for\nACE 2 section"
+    },
+    "ACE3": {
+      "initials": "ACE3",
+      "title": "ACE Inv. 3",
+      "placeholder": "Work area for\nACE 3 section"
+    },
+    "ACE4": {
+      "initials": "ACE4",
+      "title": "ACE Inv. 4",
+      "placeholder": "Work area for\nACE 4 section"
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "unitPlan": {
+        "initials": "UP",
+        "title": "Unit Plan",
+        "placeholder": "Work area for\nUnit Plan section"
+      },
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Work area for\nOverview section"
+      },
+      "launch": {
+        "initials": "LC",
+        "title": "Launch",
+        "placeholder": "Work area for\nLaunch section"
+      },
+      "explore": {
+        "initials": "EX",
+        "title": "Explore",
+        "placeholder": "Work area for\nExplore section"
+      },
+      "summarize": {
+        "initials": "SM",
+        "title": "Summarize",
+        "placeholder": "Work area for\nSummarize section"
+      }
+    },
+    "sections": [
+      {
+        "type": "overview"
+      },
+      {
+        "type": "launch"
+      },
+      {
+        "type": "explore"
+      },
+      {
+        "type": "summarize"
+      }
+    ]
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Investigation 1",
+      "problems": [
+        {
+          "description": "VAP Problem 1.1 Organizing a Bike Tour Experiment",
+          "ordinal": 1,
+          "title": "VAP Problem 1.1 Organizing a Bike Tour Experiment",
+          "subtitle": "Variables and Tables",
+          "sections": [
+            "investigation-1/problem-1/introduction/content.json",
+            "investigation-1/problem-1/initialChallenge/content.json",
+            "investigation-1/problem-1/whatIf/content.json",
+            "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "VAP Problem 1.2 Organizing a Bike Tour",
+          "ordinal": 2,
+          "title": "VAP Problem 1.2 Organizing a Bike Tour",
+          "subtitle": "Variables, Tables, and Graphs",
+          "sections": [
+            "investigation-1/problem-2/introduction/content.json",
+            "investigation-1/problem-2/initialChallenge/content.json",
+            "investigation-1/problem-2/whatIf/content.json",
+            "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "VAP Problem 1.3 Atlantic City to Lewes to Chincoteague",
+          "ordinal": 3,
+          "title": "VAP Problem 1.3 Atlantic City to Lewes to Chincoteague",
+          "subtitle": "Time, Rate, and Distance",
+          "sections": [
+            "investigation-1/problem-3/introduction/content.json",
+            "investigation-1/problem-3/initialChallenge/content.json",
+            "investigation-1/problem-3/whatIf/content.json",
+            "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        }
+      ]
+    },
+    {
+      "description": "Investigation 2",
+      "ordinal": 2,
+      "title": "Investigation 2",
+      "problems": [
+        {
+          "description": "VAP Problem 2.1 Renting Bicycles",
+          "ordinal": 1,
+          "title": "VAP Problem 2.1 Renting Bicycles",
+          "subtitle": "Independent and Dependent Variables",
+          "sections": [
+            "investigation-2/problem-1/introduction/content.json",
+            "investigation-2/problem-1/initialChallenge/content.json",
+            "investigation-2/problem-1/whatIf/content.json",
+            "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "VAP Problem 2.2 Finding Customers",
+          "ordinal": 2,
+          "title": "VAP Problem 2.2 Finding Customers",
+          "subtitle": "More Variables",
+          "sections": [
+            "investigation-2/problem-2/introduction/content.json",
+            "investigation-2/problem-2/initialChallenge/content.json",
+            "investigation-2/problem-2/whatIf/content.json",
+            "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "VAP Problem 2.3 What's the Story?",
+          "ordinal": 3,
+          "title": "VAP Problem 2.3 What's the Story?",
+          "subtitle": "Interpreting Graphs",
+          "sections": [
+            "investigation-2/problem-3/introduction/content.json",
+            "investigation-2/problem-3/initialChallenge/content.json",
+            "investigation-2/problem-3/whatIf/content.json",
+            "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        }
+      ]
+    },
+    {
+      "description": "Investigation 3",
+      "ordinal": 3,
+      "title": "Investigation 3",
+      "problems": [
+        {
+          "description": "VAP Problem 3.1 Returning Home",
+          "ordinal": 1,
+          "title": "VAP Problem 3.1 Returning Home",
+          "subtitle": "Equations with One Operation",
+          "sections": [
+            "investigation-3/problem-1/introduction/content.json",
+            "investigation-3/problem-1/initialChallenge/content.json",
+            "investigation-3/problem-1/whatIf/content.json",
+            "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "VAP Problem 3.2 Planning the Next Tour",
+          "ordinal": 2,
+          "title": "VAP Problem 3.2 Planning the Next Tour",
+          "subtitle": "More Equations with One Operation",
+          "sections": [
+            "investigation-3/problem-2/introduction/content.json",
+            "investigation-3/problem-2/initialChallenge/content.json",
+            "investigation-3/problem-2/whatIf/content.json",
+            "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        },
+        {
+          "description": "VAP Problem 3.3 Planning Ahead",
+          "ordinal": 3,
+          "title": "VAP Problem 3.3 Planning Ahead",
+          "subtitle": "Connecting Equations with Tables and Graphs",
+          "sections": [
+            "investigation-3/problem-3/introduction/content.json",
+            "investigation-3/problem-3/initialChallenge/content.json",
+            "investigation-3/problem-3/whatIf/content.json",
+            "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
+          ],
+          "config": {}
+        }
+      ]
+    },
+    {
+      "description": "Mathematical Reflections",
+      "ordinal": 4,
+      "title": "Mathematical Reflections",
+      "problems": [
+        {
+          "description": "VAP Variables and Patterns Mathematical Reflections",
+          "ordinal": 1,
+          "title": "VAP Variables and Patterns Mathematical Reflections",
+          "subtitle": "",
+          "sections": [
+            "investigation-4/problem-1/MathReflection1/content.json",
+            "investigation-4/problem-1/MathReflection2/content.json",
+            "investigation-4/problem-1/MathReflection3/content.json"
+          ],
+          "config": {}
+        }
+      ]
+    },
+    {
+      "description": "ACE Question Banks",
+      "ordinal": 5,
+      "title": "ACE Question Banks",
+      "problems": [
+        {
+          "description": "VAP Variables and Patterns ACE Question Banks",
+          "ordinal": 1,
+          "title": "VAP Variables and Patterns ACE Question Banks",
+          "subtitle": "",
+          "sections": [
+            "investigation-5/problem-1/ACE1/content.json",
+            "investigation-5/problem-1/ACE2/content.json",
+            "investigation-5/problem-1/ACE3/content.json"
+          ],
+          "config": {}
+        }
+      ]
+    }
+  ]
+}
