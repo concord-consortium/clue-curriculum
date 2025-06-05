@@ -48,125 +48,103 @@
           "title": "Ticket Cost",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -0.5,
-                  -5
-                ],
-                "axisRange": [
-                  6.3,
-                  172.5
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "Number of Tickets",
-                  "Cost"
-                ]
+              "xAxis": {
+                "name": "x",
+                "label": "Number of Tickets",
+                "min": -0.5,
+                "unit": 76.19047619047619,
+                "range": 6.3
+              },
+              "yAxis": {
+                "name": "y",
+                "label": "Cost",
+                "min": -5,
+                "unit": 1.855072463768116,
+                "range": 172.5
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "VZcS9PetlmRLtU_h": {
                 "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      0,
-                      0
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      2,
-                      60
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "VZcS9PetlmRLtU_h",
-                  "pt1": {
-                    "type": "point",
-                    "id": "VZcS9PetlmRLtU_h-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "VZcS9PetlmRLtU_h-point2"
-                  }
-                }
+                "id": "VZcS9PetlmRLtU_h",
+                "p1": {
+                  "type": "point",
+                  "id": "VZcS9PetlmRLtU_h-point1",
+                  "x": 0,
+                  "y": 0,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "p2": {
+                  "type": "point",
+                  "id": "VZcS9PetlmRLtU_h-point2",
+                  "x": 2,
+                  "y": 60,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "colorScheme": 0
               },
-              {
+              "LONWZEBPQSlYw4bS": {
                 "type": "point",
-                "parents": [
-                  1,
-                  30
-                ],
-                "properties": {
-                  "id": "LONWZEBPQSlYw4bS",
-                  "name": "(1, 30)",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "LONWZEBPQSlYw4bS",
+                "x": 1,
+                "y": 30,
+                "name": "(1, 30)",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "myvertex1": {
                 "type": "point",
-                "parents": [
-                  2,
-                  60
-                ],
-                "properties": {
-                  "id": "myvertex1",
-                  "name": "(2, 60)",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "myvertex1",
+                "x": 2,
+                "y": 60,
+                "name": "(2, 60)",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "myvertex2": {
                 "type": "point",
-                "parents": [
-                  2,
-                  0
-                ],
-                "properties": {
-                  "id": "myvertex2",
-                  "name": "",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "myvertex2",
+                "x": 2,
+                "y": 0,
+                "name": "",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "myvertex3": {
                 "type": "point",
-                "parents": [
-                  0,
-                  0
-                ],
-                "properties": {
-                  "id": "myvertex3",
-                  "name": "(0, 0)",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "myvertex3",
+                "x": 0,
+                "y": 0,
+                "name": "(0, 0)",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "RzDRwOXZcBunyfdG": {
                 "type": "polygon",
-                "parents": [
+                "id": "RzDRwOXZcBunyfdG",
+                "points": [
                   "myvertex1",
                   "myvertex2",
                   "myvertex3"
                 ],
-                "properties": {
-                  "id": "RzDRwOXZcBunyfdG"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         },
         {
@@ -174,164 +152,134 @@
           "title": "Ticket Cost 2",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -0.5,
-                  -5
-                ],
-                "axisRange": [
-                  10,
-                  200
-                ],
-                "axisNames": [
-                  "x",
-                  "y"
-                ],
-                "axisLabels": [
-                  "Number of Tickets",
-                  "Total Cost of Tickets"
-                ]
+              "xAxis": {
+                "name": "x",
+                "label": "Number of Tickets",
+                "min": -0.5,
+                "unit": 48,
+                "range": 10
+              },
+              "yAxis": {
+                "name": "y",
+                "label": "Total Cost of Tickets",
+                "min": -5,
+                "unit": 1.6,
+                "range": 200
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "ps3v8Dw5qO-hBHD9": {
                 "type": "point",
-                "parents": [
-                  2,
-                  60
-                ],
-                "properties": {
-                  "id": "htshVg-g-9oyuH-2",
-                  "name": "(2, 60)",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "ps3v8Dw5qO-hBHD9",
+                "x": 4,
+                "y": 0,
+                "name": "",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
-                "type": "point",
-                "parents": [
-                  2,
-                  0
-                ],
-                "properties": {
-                  "id": "wZWVSjdEdNMJL0LX",
-                  "name": "",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
-                "type": "point",
-                "parents": [
-                  0,
-                  0
-                ],
-                "properties": {
-                  "id": "N_VPhTYvkf4Jn2wK",
-                  "name": "(0, 0)",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
+              "MLYdUp1BzA6QkYdD": {
                 "type": "polygon",
-                "parents": [
+                "id": "MLYdUp1BzA6QkYdD",
+                "points": [
                   "htshVg-g-9oyuH-2",
                   "wZWVSjdEdNMJL0LX",
                   "N_VPhTYvkf4Jn2wK"
                 ],
-                "properties": {
-                  "id": "MLYdUp1BzA6QkYdD"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               },
-              {
+              "00xdez3uyHEDwEl8": {
                 "type": "point",
-                "parents": [
-                  4,
-                  120
-                ],
-                "properties": {
-                  "id": "nT9wRK-ENMZGOUeW",
-                  "name": "(4, 120)",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "00xdez3uyHEDwEl8",
+                "x": 0,
+                "y": 0,
+                "name": "",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
+              "CUglZNyyWEFktb3v": {
+                "type": "movableLine",
+                "id": "CUglZNyyWEFktb3v",
+                "p1": {
+                  "type": "point",
+                  "id": "CUglZNyyWEFktb3v-point1",
+                  "x": 0,
+                  "y": 0,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "p2": {
+                  "type": "point",
+                  "id": "CUglZNyyWEFktb3v-point2",
+                  "x": 3,
+                  "y": 90,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "colorScheme": 0
+              },
+              "wZWVSjdEdNMJL0LX": {
                 "type": "point",
-                "parents": [
-                  4,
-                  0
-                ],
-                "properties": {
-                  "id": "ps3v8Dw5qO-hBHD9",
-                  "name": "",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "wZWVSjdEdNMJL0LX",
+                "x": 2,
+                "y": 0,
+                "name": "",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               },
-              {
-                "type": "point",
-                "parents": [
-                  0,
-                  0
-                ],
-                "properties": {
-                  "id": "00xdez3uyHEDwEl8",
-                  "name": "",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
-              },
-              {
+              "6joamvcLbnXD6kwg": {
                 "type": "polygon",
-                "parents": [
+                "id": "6joamvcLbnXD6kwg",
+                "points": [
                   "nT9wRK-ENMZGOUeW",
                   "ps3v8Dw5qO-hBHD9",
                   "00xdez3uyHEDwEl8"
                 ],
-                "properties": {
-                  "id": "6joamvcLbnXD6kwg"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               },
-              {
-                "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      0,
-                      0
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      3,
-                      90
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "CUglZNyyWEFktb3v",
-                  "pt1": {
-                    "type": "point",
-                    "id": "CUglZNyyWEFktb3v-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "CUglZNyyWEFktb3v-point2"
-                  }
-                }
+              "nT9wRK-ENMZGOUeW": {
+                "type": "point",
+                "id": "nT9wRK-ENMZGOUeW",
+                "x": 4,
+                "y": 120,
+                "name": "(4, 120)",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "htshVg-g-9oyuH-2": {
+                "type": "point",
+                "id": "htshVg-g-9oyuH-2",
+                "x": 2,
+                "y": 60,
+                "name": "(2, 60)",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "N_VPhTYvkf4Jn2wK": {
+                "type": "point",
+                "id": "N_VPhTYvkf4Jn2wK",
+                "x": 0,
+                "y": 0,
+                "name": "(0, 0)",
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           }
         }
       ],
@@ -357,15 +305,13 @@
       },
       {
         "id": "TILE9bVyEerF72fC",
-        "title": "Cost of Ticket from Box Office",
         "content": {
           "type": "Table",
           "columnWidths": {
             "BLrvdVsrJmonfHD2": 80,
             "3fce6Hwgb3ECc3RH": 80,
             "R3coiRNcm3tee7xa": 100
-          },
-          "name": "Cost of Ticket from Box Office"
+          }
         }
       },
       {
@@ -383,154 +329,123 @@
         "title": "Cost of Tickets from Box Office",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -0.5,
-                -5
-              ],
-              "axisRange": [
-                8.5,
-                145
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "Number of Tickets",
-                "Cost"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "Number of Tickets",
+              "min": -0.5,
+              "unit": 56.470588235294116,
+              "range": 8.5
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "Cost",
+              "min": -5,
+              "unit": 2.206896551724138,
+              "range": 145
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "CoHfUHot7WXIJmLy": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    60
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "CoHfUHot7WXIJmLy",
-                "pt1": {
-                  "type": "point",
-                  "id": "CoHfUHot7WXIJmLy-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "CoHfUHot7WXIJmLy-point2"
-                }
-              }
+              "id": "CoHfUHot7WXIJmLy",
+              "p1": {
+                "type": "point",
+                "id": "CoHfUHot7WXIJmLy-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "CoHfUHot7WXIJmLy-point2",
+                "x": 2,
+                "y": 60,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "r-IQhXBhfEdAxNdj": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    10
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    70
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "r-IQhXBhfEdAxNdj",
-                "pt1": {
-                  "type": "point",
-                  "id": "r-IQhXBhfEdAxNdj-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "r-IQhXBhfEdAxNdj-point2"
-                }
-              }
+              "id": "r-IQhXBhfEdAxNdj",
+              "p1": {
+                "type": "point",
+                "id": "r-IQhXBhfEdAxNdj-point1",
+                "x": 0,
+                "y": 10,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "r-IQhXBhfEdAxNdj-point2",
+                "x": 2,
+                "y": 70,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "3bLAZT5qBJJrXdDs": {
               "type": "point",
-              "parents": [
-                0,
-                0
-              ],
-              "properties": {
-                "id": "3bLAZT5qBJJrXdDs",
-                "name": "(0, 0)",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "3bLAZT5qBJJrXdDs",
+              "x": 0,
+              "y": 0,
+              "name": "(0, 0)",
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "peUSNU92ssK4Glj9": {
               "type": "point",
-              "parents": [
-                1,
-                30
-              ],
-              "properties": {
-                "id": "peUSNU92ssK4Glj9",
-                "name": "(1, 30)",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "peUSNU92ssK4Glj9",
+              "x": 1,
+              "y": 30,
+              "name": "(1, 30)",
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "1r6ZiB2G03Nr7Z1-": {
               "type": "point",
-              "parents": [
-                2,
-                60
-              ],
-              "properties": {
-                "id": "1r6ZiB2G03Nr7Z1-",
-                "name": "(2, 60)",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "1r6ZiB2G03Nr7Z1-",
+              "x": 2,
+              "y": 60,
+              "name": "(2, 60)",
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "6GNDYG3ymb81ul6J": {
               "type": "comment",
-              "parents": [
-                -1.6920330953661662,
-                7.996003284665157
+              "id": "6GNDYG3ymb81ul6J",
+              "x": -1.6920330953661662,
+              "y": 7.996003284665157,
+              "anchors": [
+                "r-IQhXBhfEdAxNdj"
               ],
-              "properties": {
-                "id": "6GNDYG3ymb81ul6J",
-                "text": "Cost with Fee",
-                "anchor": "r-IQhXBhfEdAxNdj"
-              }
+              "text": "Cost with Fee"
             },
-            {
+            "tWuiDcgax3XHEUx1": {
               "type": "comment",
-              "parents": [
-                0.9563200417356621,
-                -6.650260758823471
+              "id": "tWuiDcgax3XHEUx1",
+              "x": 0.9563200417356621,
+              "y": -6.650260758823471,
+              "anchors": [
+                "CoHfUHot7WXIJmLy"
               ],
-              "properties": {
-                "id": "tWuiDcgax3XHEUx1",
-                "text": "Cost of Tickets",
-                "anchor": "CoHfUHot7WXIJmLy"
-              }
+              "text": "Cost of Tickets"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -554,23 +469,13 @@
         }
       },
       {
-        "id": "tZIbjzd9TpG8VgjQ",
-        "title": "Table Reasoning",
-        "content": {
-          "type": "Image",
-          "url": "cas/images/TG_2-3_TableReasoning.png"
-        }
-      },
-      {
         "id": "BoqnQvRsN3b2F2ZO",
-        "title": "Table Reasoning",
         "content": {
           "type": "Table",
           "columnWidths": {
             "Ew3oKE3lL4cR9iuW": 116,
             "7PpMIEIZkkD0keCm": 162
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -606,154 +511,123 @@
         "title": "Cost of Tickets from Box Office",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -0.5,
-                -5
-              ],
-              "axisRange": [
-                8.5,
-                145
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "Number of Tickets",
-                "Cost"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "Number of Tickets",
+              "min": -0.5,
+              "unit": 56.470588235294116,
+              "range": 8.5
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "Cost",
+              "min": -5,
+              "unit": 2.206896551724138,
+              "range": 145
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "CoHfUHot7WXIJmLy": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    60
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "CoHfUHot7WXIJmLy",
-                "pt1": {
-                  "type": "point",
-                  "id": "CoHfUHot7WXIJmLy-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "CoHfUHot7WXIJmLy-point2"
-                }
-              }
+              "id": "CoHfUHot7WXIJmLy",
+              "p1": {
+                "type": "point",
+                "id": "CoHfUHot7WXIJmLy-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "CoHfUHot7WXIJmLy-point2",
+                "x": 2,
+                "y": 60,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "r-IQhXBhfEdAxNdj": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    10
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    2,
-                    70
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "r-IQhXBhfEdAxNdj",
-                "pt1": {
-                  "type": "point",
-                  "id": "r-IQhXBhfEdAxNdj-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "r-IQhXBhfEdAxNdj-point2"
-                }
-              }
+              "id": "r-IQhXBhfEdAxNdj",
+              "p1": {
+                "type": "point",
+                "id": "r-IQhXBhfEdAxNdj-point1",
+                "x": 0,
+                "y": 10,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "r-IQhXBhfEdAxNdj-point2",
+                "x": 2,
+                "y": 70,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "3bLAZT5qBJJrXdDs": {
               "type": "point",
-              "parents": [
-                0,
-                0
-              ],
-              "properties": {
-                "id": "3bLAZT5qBJJrXdDs",
-                "name": "(0, 0)",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "3bLAZT5qBJJrXdDs",
+              "x": 0,
+              "y": 0,
+              "name": "(0, 0)",
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "peUSNU92ssK4Glj9": {
               "type": "point",
-              "parents": [
-                1,
-                30
-              ],
-              "properties": {
-                "id": "peUSNU92ssK4Glj9",
-                "name": "(1, 30)",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "peUSNU92ssK4Glj9",
+              "x": 1,
+              "y": 30,
+              "name": "(1, 30)",
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "1r6ZiB2G03Nr7Z1-": {
               "type": "point",
-              "parents": [
-                2,
-                60
-              ],
-              "properties": {
-                "id": "1r6ZiB2G03Nr7Z1-",
-                "name": "(2, 60)",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "1r6ZiB2G03Nr7Z1-",
+              "x": 2,
+              "y": 60,
+              "name": "(2, 60)",
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "6GNDYG3ymb81ul6J": {
               "type": "comment",
-              "parents": [
-                -1.6920330953661662,
-                7.996003284665157
+              "id": "6GNDYG3ymb81ul6J",
+              "x": -1.6920330953661662,
+              "y": 7.996003284665157,
+              "anchors": [
+                "r-IQhXBhfEdAxNdj"
               ],
-              "properties": {
-                "id": "6GNDYG3ymb81ul6J",
-                "text": "Cost with Fee",
-                "anchor": "r-IQhXBhfEdAxNdj"
-              }
+              "text": "Cost with Fee"
             },
-            {
+            "tWuiDcgax3XHEUx1": {
               "type": "comment",
-              "parents": [
-                0.9563200417356621,
-                -6.650260758823471
+              "id": "tWuiDcgax3XHEUx1",
+              "x": 0.9563200417356621,
+              "y": -6.650260758823471,
+              "anchors": [
+                "CoHfUHot7WXIJmLy"
               ],
-              "properties": {
-                "id": "tWuiDcgax3XHEUx1",
-                "text": "Cost of Tickets",
-                "anchor": "CoHfUHot7WXIJmLy"
-              }
+              "text": "Cost of Tickets"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -787,21 +661,21 @@
         }
       },
       {
-        "id": "gwdfmTPHIgFEVakg",
+        "id": "2UKtzi8rHPn3EB7q",
         "title": "Examples from Little Giant Store",
         "content": {
           "type": "Image",
-          "url": "cas/images/cas-12.png",
-          "filename": "cas/images/cas-12.png"
+          "url": "sad/images/screenshot-2025-01-26-at-6.31.10 pm.png",
+          "filename": "sad/images/screenshot-2025-01-26-at-6.31.10 pm.png"
         }
       },
       {
-        "id": "H4HYbqIbSQI5kZgs",
+        "id": "UB-0mCmn3jSwqkPs",
         "title": "Examples from Food Fresh Store",
         "content": {
           "type": "Image",
-          "url": "cas/images/cas-12.png",
-          "filename": "cas/images/cas-12.png"
+          "url": "sad/images/screenshot-2025-01-26-at-6.31.28 pm.png",
+          "filename": "sad/images/screenshot-2025-01-26-at-6.31.28 pm.png"
         }
       },
       {
@@ -903,7 +777,7 @@
           "providerId": "BoqnQvRsN3b2F2ZO",
           "dataSet": {
             "id": "lHykXapUjFLry5Lc",
-            "name": "Table 1",
+            "name": "Table Reasoning",
             "attributes": [
               {
                 "id": "Ew3oKE3lL4cR9iuW",
@@ -988,6 +862,7 @@
           "dx": 36,
           "dy": -1.5
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       },
       {
@@ -1015,6 +890,7 @@
           "dx": 84,
           "dy": -0.5
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]

@@ -52,58 +52,52 @@
           "title": "Henri",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -2,
-                  -1.2
-                ],
-                "axisRange": [
-                  62,
-                  61.2
-                ],
-                "axisNames": [
-                  "t",
-                  "d"
-                ],
-                "axisLabels": [
-                  "t",
-                  "d"
-                ]
+              "xAxis": {
+                "name": "t",
+                "label": "t",
+                "min": -2,
+                "unit": 7.741935483870968,
+                "range": 62
+              },
+              "yAxis": {
+                "name": "d",
+                "label": "d",
+                "min": -1.2,
+                "unit": 5.228758169934641,
+                "range": 61.2
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "mGow_86RA0YeihFY": {
                 "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      0,
-                      45
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      9.305309734513273,
-                      54.30530973451327
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "mGow_86RA0YeihFY",
-                  "pt1": {
-                    "type": "point",
-                    "id": "mGow_86RA0YeihFY-point1"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "mGow_86RA0YeihFY-point2"
-                  }
-                }
+                "id": "mGow_86RA0YeihFY",
+                "p1": {
+                  "type": "point",
+                  "id": "mGow_86RA0YeihFY-point1",
+                  "x": 0,
+                  "y": 45,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "p2": {
+                  "type": "point",
+                  "id": "mGow_86RA0YeihFY-point2",
+                  "x": 9.305309734513273,
+                  "y": 54.30530973451327,
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           },
           "layout": {
             "height": 383
@@ -111,14 +105,12 @@
         },
         {
           "id": "LXftOd808yytZsmF",
-          "title": "Henri",
           "content": {
             "type": "Table",
             "columnWidths": {
               "G5Yht2iJ9NA0M9rq": 133.15625,
               "uDIv28Zkv3mlM0b9": 168.9375
-            },
-            "name": "Points on Henri's line"
+            }
           }
         }
       ],
@@ -142,7 +134,7 @@
           "providerId": "LXftOd808yytZsmF",
           "dataSet": {
             "id": "cTELP6tElbdV8Aew",
-            "name": "Points on Henri's line",
+            "name": "Henri",
             "attributes": [
               {
                 "id": "G5Yht2iJ9NA0M9rq",
@@ -227,6 +219,7 @@
           "dx": 8.999999999999986,
           "dy": -76.5234375
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]

@@ -41,73 +41,63 @@
           "title": "Walkathon Earnings",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -11.5,
-                  -1.5
-                ],
-                "axisRange": [
-                  71.4,
-                  23.1
-                ],
-                "axisNames": [
-                  "d",
-                  "A"
-                ],
-                "axisLabels": [
-                  "Distance (km)",
-                  "Amount Earned ($)"
-                ]
+              "xAxis": {
+                "name": "d",
+                "label": "Distance (km)",
+                "min": -11.5,
+                "unit": 6.722689075630251,
+                "range": 71.4
+              },
+              "yAxis": {
+                "name": "A",
+                "label": "Amount Earned ($)",
+                "min": -1.5,
+                "unit": 13.852813852813853,
+                "range": 23.1
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "Y3iF65RE-6Gc3hkn": {
                 "type": "movableLine",
-                "parents": [
-                  {
-                    "type": "point",
-                    "parents": [
-                      3,
-                      6.5
-                    ]
-                  },
-                  {
-                    "type": "point",
-                    "parents": [
-                      30,
-                      20
-                    ]
-                  }
-                ],
-                "properties": {
-                  "id": "Y3iF65RE-6Gc3hkn",
-                  "pt1": {
-                    "type": "point",
-                    "id": "Y3iF65RE-6Gc3hkn-point1",
-                    "name": "(3, 6.5)"
-                  },
-                  "pt2": {
-                    "type": "point",
-                    "id": "Y3iF65RE-6Gc3hkn-point2",
-                    "name": "(30, 20)"
-                  }
-                }
+                "id": "Y3iF65RE-6Gc3hkn",
+                "p1": {
+                  "type": "point",
+                  "id": "Y3iF65RE-6Gc3hkn-point1",
+                  "x": 3,
+                  "y": 6.5,
+                  "name": "(3, 6.5)",
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "p2": {
+                  "type": "point",
+                  "id": "Y3iF65RE-6Gc3hkn-point2",
+                  "x": 30,
+                  "y": 20,
+                  "name": "(30, 20)",
+                  "colorScheme": 0,
+                  "labelOption": "none"
+                },
+                "colorScheme": 0
               },
-              {
+              "Hu0RD4k63AUKH3w9": {
                 "type": "point",
-                "parents": [
-                  -2.7575000000000003,
-                  49.79171842650103
-                ],
-                "properties": {
-                  "id": "Hu0RD4k63AUKH3w9",
-                  "snapToGrid": true,
-                  "snapSizeX": 0.1,
-                  "snapSizeY": 0.1
-                }
+                "id": "Hu0RD4k63AUKH3w9",
+                "x": -2.7575000000000003,
+                "y": 49.79171842650103,
+                "snapToGrid": true,
+                "colorScheme": 0,
+                "labelOption": "none"
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {}
           },
           "layout": {
             "height": 413
@@ -127,14 +117,12 @@
         },
         {
           "id": "kEZwo8OpANVqVmLL",
-          "title": "Walkathon Earnings",
           "content": {
             "type": "Table",
             "columnWidths": {
               "PiM8g7UbheyNaKrZ": 112,
               "aWKnDIpk9T9Kx7GI": 151
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -419,7 +407,7 @@
           "providerId": "kEZwo8OpANVqVmLL",
           "dataSet": {
             "id": "hFEZrlawJfQWfGtg",
-            "name": "Table 1",
+            "name": "Walkathon Earnings",
             "attributes": [
               {
                 "id": "PiM8g7UbheyNaKrZ",

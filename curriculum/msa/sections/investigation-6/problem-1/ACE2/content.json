@@ -65,7 +65,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>It will take Allie 100 s or 1 min and 40 s. Since Allie’s walking rate is 2 m/s, if she travels 200 m, it will take her 200 ÷ 2 = 100 s.</p><p><strong>b.  </strong>Grace will reach the fountain first. Since Grace is traveling at 1.5 m/s and she has to go 90 m, it will take Grace 90 ÷ 1.5 = 60 s to reach the fountain, which is less time than it took Allie (100 s).</p>"
+            "<p><strong>a.  </strong>It will take Allie 100s or 1 min and 40s. Since Allie’s walking rate is 2 m/s, if she travels 200m, it will take her 200 ÷ 2 = 100s.</p><p><strong>b.  </strong>Grace will reach the fountain first. Since Grace is traveling at 1.5 m/s and she has to go 90 m, it will take Grace 90 ÷ 1.5 = 60 s to reach the fountain, which is less time than it took Allie (100 s).</p>"
           ]
         }
       },
@@ -136,28 +136,24 @@
       [
         {
           "id": "2Xrg-noCnTUY3FD4",
-          "title": "Tara's  Walk to School",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "1O5M9qU16rsDQK4R": 132,
               "qJx04vxTKxIxYIJ4": 178
-            },
-            "name": "Table 1"
+            }
           }
         },
         {
           "id": "sBUnw_UijwXllhYw",
-          "title": "Ingrid's Walk to School",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "RWDmSmia8szlDfnV": 132,
               "4ff6l-0zG80N3GF0": 181
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -166,74 +162,78 @@
         "title": "Tara's and Ingrid's Walk to School",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                6,
-                1566.5
-              ],
-              "axisNames": [
-                "Time (minutes)",
-                "Distance (feet)"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
+            "xAxis": {
+              "name": "Time (minutes)",
+              "label": "",
+              "min": -1,
+              "unit": 80,
+              "range": 6
+            },
+            "yAxis": {
+              "name": "Distance (feet)",
+              "label": "",
+              "min": -1,
+              "unit": 0.2042770507500798,
+              "range": 1566.5
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "LMgGSsrHvlDDOHHt": {
               "type": "polygon",
-              "parents": [
+              "id": "LMgGSsrHvlDDOHHt",
+              "points": [
                 "W1URm5I_WE0FUzGJ:qJx04vxTKxIxYIJ4",
                 "sWdRH8kHS0Y-Egdk:qJx04vxTKxIxYIJ4",
                 "-OiYCMaJIIlXy4ET:qJx04vxTKxIxYIJ4"
               ],
-              "properties": {
-                "id": "LMgGSsrHvlDDOHHt"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "VFX90fKf4MSDeQQK": {
               "type": "polygon",
-              "parents": [
+              "id": "VFX90fKf4MSDeQQK",
+              "points": [
                 "01HKD2RK0YJCBNTYEYC9BNPEKH:4ff6l-0zG80N3GF0",
                 "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0",
                 "01HKD2RK0YJCBNTYEYC9BNPEKK:4ff6l-0zG80N3GF0"
               ],
-              "properties": {
-                "id": "VFX90fKf4MSDeQQK"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "jRV35eXB_K5Oscb2": {
               "type": "comment",
-              "parents": [
-                1.1659561576172015,
-                814.517648384344
+              "id": "jRV35eXB_K5Oscb2",
+              "x": 1.1659561576172015,
+              "y": 814.517648384344,
+              "anchors": [
+                "sWdRH8kHS0Y-Egdk:qJx04vxTKxIxYIJ4"
               ],
-              "properties": {
-                "id": "jRV35eXB_K5Oscb2",
-                "text": "Tara",
-                "anchor": "sWdRH8kHS0Y-Egdk:qJx04vxTKxIxYIJ4"
-              }
+              "text": "Tara"
             },
-            {
+            "--wiXX3CaTmTn1zv": {
               "type": "comment",
-              "parents": [
-                1.2740527646186455,
-                208.46244345824084
+              "id": "--wiXX3CaTmTn1zv",
+              "x": 1.2740527646186455,
+              "y": 208.46244345824084,
+              "anchors": [
+                "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0"
               ],
-              "properties": {
-                "id": "--wiXX3CaTmTn1zv",
-                "text": "Ingrid",
-                "anchor": "01HKD2RK0YJCBNTYEYC9BNPEKJ:4ff6l-0zG80N3GF0"
-              }
+              "text": "Ingrid"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "1O5M9qU16rsDQK4R": 4,
+            "qJx04vxTKxIxYIJ4": 1,
+            "RWDmSmia8szlDfnV": 2,
+            "4ff6l-0zG80N3GF0": 3
+          }
         }
       },
       {
@@ -284,28 +284,24 @@
       [
         {
           "id": "OnUyc0WgdJ4uTEQF",
-          "title": "Cost for Protein Bars",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "EHr9OZXNFvXwdYZV": 116,
               "lUPVFk474KmHWUqi": 117
-            },
-            "name": "Table 1"
+            }
           }
         },
         {
           "id": "z_eb5aCEIIcWOEQ1",
-          "title": "Income from Protein Bar Sale",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "hVnhSxTPICaL_lDE": 116,
               "1H85G8-bsCHodsP8": 132
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -314,76 +310,80 @@
         "title": "Cost and Income from the Protein Bar Sale",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                312.2,
-                234.8
-              ],
-              "axisNames": [
-                "Number of Bars Sold",
-                "Total Dollars"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
+            "xAxis": {
+              "name": "Number of Bars Sold",
+              "label": "",
+              "min": -1,
+              "unit": 1.5374759769378603,
+              "range": 312.2
+            },
+            "yAxis": {
+              "name": "Total Dollars",
+              "label": "",
+              "min": -1,
+              "unit": 1.362862010221465,
+              "range": 234.8
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "HVp5xCkpRlVBOLs3": {
               "type": "polygon",
-              "parents": [
+              "id": "HVp5xCkpRlVBOLs3",
+              "points": [
                 "hEICnOhk6PQp2tbH:lUPVFk474KmHWUqi",
                 "Wx_WITxBhYlsTQ-A:lUPVFk474KmHWUqi",
                 "subJp4w3N4H6sxQy:lUPVFk474KmHWUqi",
                 "NunDAxayZMagViX5:lUPVFk474KmHWUqi"
               ],
-              "properties": {
-                "id": "HVp5xCkpRlVBOLs3"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "5QmqVyPwUGJk73SC": {
               "type": "polygon",
-              "parents": [
+              "id": "5QmqVyPwUGJk73SC",
+              "points": [
                 "01HKD393PTBZ5ND6C9MYSEHPGM:1H85G8-bsCHodsP8",
                 "01HKD393PTBZ5ND6C9MYSEHPGN:1H85G8-bsCHodsP8",
                 "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8",
                 "01HKD393PTBZ5ND6C9MYSEHPGQ:1H85G8-bsCHodsP8"
               ],
-              "properties": {
-                "id": "5QmqVyPwUGJk73SC"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "K4VT7CNdcDvoXdb6": {
               "type": "comment",
-              "parents": [
-                159.22481595552887,
-                62.89467344422272
+              "id": "K4VT7CNdcDvoXdb6",
+              "x": 159.22481595552887,
+              "y": 62.89467344422272,
+              "anchors": [
+                "subJp4w3N4H6sxQy:lUPVFk474KmHWUqi"
               ],
-              "properties": {
-                "id": "K4VT7CNdcDvoXdb6",
-                "text": "Cost",
-                "anchor": "subJp4w3N4H6sxQy:lUPVFk474KmHWUqi"
-              }
+              "text": "Cost"
             },
-            {
+            "JR53qcj4uujmJlmY": {
               "type": "comment",
-              "parents": [
-                145.1317157274753,
-                132.8210484601449
+              "id": "JR53qcj4uujmJlmY",
+              "x": 145.1317157274753,
+              "y": 132.8210484601449,
+              "anchors": [
+                "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8"
               ],
-              "properties": {
-                "id": "JR53qcj4uujmJlmY",
-                "text": "Income",
-                "anchor": "01HKD393PTBZ5ND6C9MYSEHPGP:1H85G8-bsCHodsP8"
-              }
+              "text": "Income"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "EHr9OZXNFvXwdYZV": 4,
+            "lUPVFk474KmHWUqi": 1,
+            "hVnhSxTPICaL_lDE": 2,
+            "1H85G8-bsCHodsP8": 3
+          }
         }
       },
       {
@@ -434,26 +434,22 @@
       [
         {
           "id": "ii6-zsj1c8JmC7P3",
-          "title": "Rollaway Skates",
           "content": {
             "type": "Table",
             "columnWidths": {
               "lCf05ZIGyONtf4eg": 104,
               "SpIvJlJZwbLmpZLw": 80
-            },
-            "name": "Table 1"
+            }
           }
         },
         {
           "id": "Nr0o1ZjbazKtzqnh",
-          "title": "Wheelie's Skates and Stuff",
           "content": {
             "type": "Table",
             "columnWidths": {
               "luyYqp9A66LCkk2G": 115,
               "UB16CaNofdaQjJ3o": 80
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -464,7 +460,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>For each company, is the relationship between the number of people and cost a linear relationship? Explain.</p><p><strong>b.  </strong>For each company, write an equation that represents the relationship between the cost and the number of people. What is the dependent variable? What is the independent variable?</p><p><strong>c.  </strong>Describe how you can use the table or a graph to find when the costs of the two plans are equal. How can this information help the student council decide which company to choose?</p><p><strong>d.  </strong>A third company, Wheels to Go, gives their quote in the form of the equation CW = 35 + 4n, where CW is the cost in dollars for n students. What information do the numbers 35 and 4 represent in this situation?</p><p><strong>e.  </strong>For 60 students, which of the three companies is the cheapest? Explain how you could determine the answer using tables, graphs, or equations.</p><p><strong>f.  </strong>Suppose the student council wants to keep the cost of the skating party to $500. How many people can they invite under each of the three plans?</p>"
+            "<p><strong>a.  </strong>For each company, is the relationship between the number of people and cost a linear relationship? Explain.</p><p><strong>b.  </strong>For each company, write an equation that represents the relationship between the cost and the number of people. What is the dependent variable? What is the independent variable?</p><p><strong>c.  </strong>Describe how you can use the table or a graph to find when the costs of the two plans are equal. How can this information help the student council decide which company to choose?</p><p><strong>d.  </strong>A third company, Wheels to Go, gives their quote in the form of the equation CW = 35 + 4n, where CW is the cost in dollars for <em>n</em> students. What information do the numbers 35 and 4 represent in this situation?</p><p><strong>e.  </strong>For 60 students, which of the three companies is the cheapest? Explain how you could determine the answer using tables, graphs, or equations.</p><p><strong>f.  </strong>Suppose the student council wants to keep the cost of the skating party to $500. How many people can they invite under each of the three plans?</p>"
           ]
         }
       },
@@ -505,52 +501,44 @@
       [
         {
           "id": "9aC2k96FCHMRepzn",
-          "title": "A.",
           "content": {
             "type": "Table",
             "columnWidths": {
               "cjLEgr6E_ucgQl_d": 80,
               "FghB6NWUFO07GQkU": 80
-            },
-            "name": "Table 1"
+            }
           }
         },
         {
           "id": "AJYVFrQGVNX-aQ1s",
-          "title": "B.",
           "content": {
             "type": "Table",
             "columnWidths": {
               "X04mPfnz8K953BPv": 80,
               "PfL3441HNXkVrsRL": 80
-            },
-            "name": "Table 2"
+            }
           }
         }
       ],
       [
         {
           "id": "rkPg2wCpvQA-Aeui",
-          "title": "C.",
           "content": {
             "type": "Table",
             "columnWidths": {
               "Tx0nUr9SKpNgAtji": 80,
               "UehKPVtjzgWc050l": 80
-            },
-            "name": "Table 3"
+            }
           }
         },
         {
           "id": "8pH5iZzb-QM9Voql",
-          "title": "D.",
           "content": {
             "type": "Table",
             "columnWidths": {
               "-9RgoYDkWs_jJlAc": 80,
               "lUGQ3lPoU_r2BmdD": 80
-            },
-            "name": "Table 4"
+            }
           }
         }
       ],
@@ -711,44 +699,52 @@
           "display": "teacher",
           "content": {
             "type": "Geometry",
+            "isNavigatorVisible": true,
+            "navigatorPosition": "bottom",
+            "offsetX": 0,
+            "offsetY": 0,
+            "zoom": 1,
             "board": {
-              "properties": {
-                "axisMin": [
-                  -1,
-                  -1
-                ],
-                "axisRange": [
-                  10,
-                  62
-                ]
+              "xAxis": {
+                "min": -1,
+                "unit": 48,
+                "range": 10
+              },
+              "yAxis": {
+                "min": -1,
+                "unit": 5.161290322580645,
+                "range": 62
               }
             },
-            "objects": [
-              {
+            "objects": {
+              "OLm3pxkLpFyFW7Gq": {
                 "type": "polygon",
-                "parents": [
+                "id": "OLm3pxkLpFyFW7Gq",
+                "points": [
                   "rmaEIWqRd9nlm-w5:jNxN2sIUN9SC4jKv",
                   "TY0lkylT0IQskaU7:jNxN2sIUN9SC4jKv",
                   "Wr7PajRUNCWVin0A:jNxN2sIUN9SC4jKv"
                 ],
-                "properties": {
-                  "id": "OLm3pxkLpFyFW7Gq"
-                }
+                "labelOption": "none",
+                "colorScheme": 0
               }
-            ]
+            },
+            "pointMetadata": {},
+            "linkedAttributeColors": {
+              "s3FiweF0p12D9com": 2,
+              "jNxN2sIUN9SC4jKv": 1
+            }
           }
         },
         {
           "id": "8Tvh6-R0hRXxdThI",
-          "title": "Dani's Babysitting",
           "display": "teacher",
           "content": {
             "type": "Table",
             "columnWidths": {
               "s3FiweF0p12D9com": 103,
               "jNxN2sIUN9SC4jKv": 103
-            },
-            "name": "Table 1"
+            }
           }
         }
       ],
@@ -1267,15 +1263,13 @@
       },
       {
         "id": "7dTuQvGTlEx67dPy",
-        "title": "Paying for a TV on an Installment Plan",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "wyoDUSYrS9Ebh5DY": 104,
             "f6uve3mxopS2nXsy": 164
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1283,32 +1277,42 @@
         "title": "Paying for a TV on an Installment Plan",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -1,
-                -1
-              ],
-              "axisRange": [
-                14,
-                182
-              ]
+            "xAxis": {
+              "min": -1,
+              "unit": 34.285714285714285,
+              "range": 14
+            },
+            "yAxis": {
+              "min": -1,
+              "unit": 1.7582417582417582,
+              "range": 182
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "JFC8OKQABxQo7I0_": {
               "type": "polygon",
-              "parents": [
+              "id": "JFC8OKQABxQo7I0_",
+              "points": [
                 "qrCIOjPgAAE9YIvA:f6uve3mxopS2nXsy",
                 "9obv_rnvXWzqfg5Z:f6uve3mxopS2nXsy",
                 "swB_84YN_YghYHlv:f6uve3mxopS2nXsy",
                 "KHf3u2g40VhLlclq:f6uve3mxopS2nXsy"
               ],
-              "properties": {
-                "id": "JFC8OKQABxQo7I0_"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {
+            "wyoDUSYrS9Ebh5DY": 2,
+            "f6uve3mxopS2nXsy": 1
+          }
         }
       },
       {
@@ -1425,14 +1429,12 @@
       },
       {
         "id": "ERDg4tsk0TUrB_kx",
-        "title": "The Cost of Apples",
         "content": {
           "type": "Table",
           "columnWidths": {
             "R7K22co_SBCWAi84": 162,
             "v5vXZSpQKGcz_jJG": 91
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1460,15 +1462,13 @@
       },
       {
         "id": "oZ12eeYoV3LlktYa",
-        "title": "The Cost of Apples",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "-Ol5xPhkx36MqYjl": 162,
             "Bh-zDf3JdGldiFUY": 91
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -1741,178 +1741,145 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -4.4,
-                -1
-              ],
-              "axisRange": [
-                64.4,
-                27
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -4.4,
+              "unit": 7.453416149068322,
+              "range": 64.4
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -1,
+              "unit": 11.851851851851851,
+              "range": 27
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "a0IH-JKX_Kf0e9mk": {
               "type": "point",
-              "parents": [
-                7.9977544023120934,
-                5.961025616312272
-              ],
-              "properties": {
-                "id": "a0IH-JKX_Kf0e9mk",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "a0IH-JKX_Kf0e9mk",
+              "x": 7.9977544023120934,
+              "y": 5.961025616312272,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "KqBQ5Pjebibpinz9": {
               "type": "point",
-              "parents": [
-                8,
-                22
-              ],
-              "properties": {
-                "id": "KqBQ5Pjebibpinz9",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "KqBQ5Pjebibpinz9",
+              "x": 8,
+              "y": 22,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "iJkEmTEB1MB7Bb61": {
               "type": "point",
-              "parents": [
-                24,
-                14
-              ],
-              "properties": {
-                "id": "iJkEmTEB1MB7Bb61",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "iJkEmTEB1MB7Bb61",
+              "x": 24,
+              "y": 14,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "FHHib3SOLyOwc4uh": {
               "type": "polygon",
-              "parents": [
+              "id": "FHHib3SOLyOwc4uh",
+              "points": [
                 "a0IH-JKX_Kf0e9mk",
                 "KqBQ5Pjebibpinz9",
                 "iJkEmTEB1MB7Bb61"
               ],
-              "properties": {
-                "id": "FHHib3SOLyOwc4uh"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "rk2m0GBIGClfFVqA": {
               "type": "point",
-              "parents": [
-                4,
-                3
-              ],
-              "properties": {
-                "id": "rk2m0GBIGClfFVqA",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "rk2m0GBIGClfFVqA",
+              "x": 4,
+              "y": 3,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "HvnJAU4AOydl395R": {
               "type": "point",
-              "parents": [
-                3.9963488751814222,
-                10.99940656579059
-              ],
-              "properties": {
-                "id": "HvnJAU4AOydl395R",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "HvnJAU4AOydl395R",
+              "x": 3.9963488751814222,
+              "y": 10.99940656579059,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "kpVQZBnCj6tFWJlE": {
               "type": "point",
-              "parents": [
-                11.99592430435867,
-                7.004159015157947
-              ],
-              "properties": {
-                "id": "kpVQZBnCj6tFWJlE",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "kpVQZBnCj6tFWJlE",
+              "x": 11.99592430435867,
+              "y": 7.004159015157947,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "L_FQb9HG5uc7DyM6": {
               "type": "polygon",
-              "parents": [
+              "id": "L_FQb9HG5uc7DyM6",
+              "points": [
                 "rk2m0GBIGClfFVqA",
                 "HvnJAU4AOydl395R",
                 "kpVQZBnCj6tFWJlE"
               ],
-              "properties": {
-                "id": "L_FQb9HG5uc7DyM6"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "Ceq2ZJUdZe7Otd9A": {
               "type": "point",
-              "parents": [
-                2.015432422565963,
-                1.5472951142684268
-              ],
-              "properties": {
-                "id": "Ceq2ZJUdZe7Otd9A",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "Ceq2ZJUdZe7Otd9A",
+              "x": 2.015432422565963,
+              "y": 1.5472951142684268,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "VRnS8EmytXcWB5_4": {
               "type": "point",
-              "parents": [
-                1.973647010482101,
-                5.538890838623047
-              ],
-              "properties": {
-                "id": "VRnS8EmytXcWB5_4",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "VRnS8EmytXcWB5_4",
+              "x": 1.973647010482101,
+              "y": 5.538890838623047,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "6oWGv1BfnHgyjhbN": {
               "type": "point",
-              "parents": [
-                6,
-                3.5
-              ],
-              "properties": {
-                "id": "6oWGv1BfnHgyjhbN",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "6oWGv1BfnHgyjhbN",
+              "x": 6,
+              "y": 3.5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "dZ_-rDG_ebzRr2jS": {
               "type": "polygon",
-              "parents": [
+              "id": "dZ_-rDG_ebzRr2jS",
+              "points": [
                 "Ceq2ZJUdZe7Otd9A",
                 "VRnS8EmytXcWB5_4",
                 "6oWGv1BfnHgyjhbN"
               ],
-              "properties": {
-                "id": "dZ_-rDG_ebzRr2jS"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -1939,15 +1906,13 @@
       },
       {
         "id": "ZmWLx9pm3zmNj5td",
-        "title": "Rectangles with Perimeters of 20 m",
         "display": "teacher",
         "content": {
           "type": "Table",
           "columnWidths": {
             "Thmi1bSMnojFU-H4": 140,
             "tKAiOItqD_mI38Fb": 135
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -2163,204 +2128,162 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -4.4,
-                -1
-              ],
-              "axisRange": [
-                74.4,
-                121
-              ],
-              "axisNames": [
-                "x",
-                "y"
-              ],
-              "axisLabels": [
-                "x",
-                "y"
-              ]
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -4.4,
+              "unit": 6.451612903225806,
+              "range": 74.4
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -1,
+              "unit": 2.644628099173554,
+              "range": 121
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "wZvzL_CSeDCvhYAM": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    32.19202898550724,
-                    64.38405797101449
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "wZvzL_CSeDCvhYAM",
-                "pt1": {
-                  "type": "point",
-                  "id": "wZvzL_CSeDCvhYAM-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "wZvzL_CSeDCvhYAM-point2"
-                }
-              }
+              "id": "wZvzL_CSeDCvhYAM",
+              "p1": {
+                "type": "point",
+                "id": "wZvzL_CSeDCvhYAM-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "wZvzL_CSeDCvhYAM-point2",
+                "x": 32.19202898550724,
+                "y": 64.38405797101449,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "dAZOGt2hX4PtVrIK": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    50
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    36.07982583454282,
-                    50
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "dAZOGt2hX4PtVrIK",
-                "pt1": {
-                  "type": "point",
-                  "id": "dAZOGt2hX4PtVrIK-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "dAZOGt2hX4PtVrIK-point2"
-                }
-              }
+              "id": "dAZOGt2hX4PtVrIK",
+              "p1": {
+                "type": "point",
+                "id": "dAZOGt2hX4PtVrIK-point1",
+                "x": 0,
+                "y": 50,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "dAZOGt2hX4PtVrIK-point2",
+                "x": 36.07982583454282,
+                "y": 50,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "wgjAoZ0-Lz3t2a2x": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    36.07982583454282,
-                    36.07982583454282
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "wgjAoZ0-Lz3t2a2x",
-                "pt1": {
-                  "type": "point",
-                  "id": "wgjAoZ0-Lz3t2a2x-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "wgjAoZ0-Lz3t2a2x-point2"
-                }
-              }
+              "id": "wgjAoZ0-Lz3t2a2x",
+              "p1": {
+                "type": "point",
+                "id": "wgjAoZ0-Lz3t2a2x-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "wgjAoZ0-Lz3t2a2x-point2",
+                "x": 36.07982583454282,
+                "y": 36.07982583454282,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             },
-            {
+            "rl6Kn-90e_k0xlNS": {
               "type": "point",
-              "parents": [
-                0,
-                0
-              ],
-              "properties": {
-                "id": "rl6Kn-90e_k0xlNS",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "rl6Kn-90e_k0xlNS",
+              "x": 0,
+              "y": 0,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "hj_-5IN0IU9B67Vl": {
               "type": "point",
-              "parents": [
-                25,
-                50
-              ],
-              "properties": {
-                "id": "hj_-5IN0IU9B67Vl",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "hj_-5IN0IU9B67Vl",
+              "x": 25,
+              "y": 50,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "yleg7Di23MF06PlN": {
               "type": "point",
-              "parents": [
-                50,
-                50
-              ],
-              "properties": {
-                "id": "yleg7Di23MF06PlN",
-                "snapToGrid": true,
-                "snapSizeX": 0.1,
-                "snapSizeY": 0.1
-              }
+              "id": "yleg7Di23MF06PlN",
+              "x": 50,
+              "y": 50,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             },
-            {
+            "oXvlMG2ET5f-wIjU": {
               "type": "polygon",
-              "parents": [
+              "id": "oXvlMG2ET5f-wIjU",
+              "points": [
                 "rl6Kn-90e_k0xlNS",
                 "hj_-5IN0IU9B67Vl",
                 "yleg7Di23MF06PlN"
               ],
-              "properties": {
-                "id": "oXvlMG2ET5f-wIjU"
-              }
+              "labelOption": "none",
+              "colorScheme": 0
             },
-            {
+            "vZerbbpZWoRcHd3P": {
               "type": "comment",
-              "parents": [
-                -3.1068422801954827,
-                11.297812420388917
+              "id": "vZerbbpZWoRcHd3P",
+              "x": -3.1068422801954827,
+              "y": 11.297812420388917,
+              "anchors": [
+                "rl6Kn-90e_k0xlNS"
               ],
-              "properties": {
-                "id": "vZerbbpZWoRcHd3P",
-                "text": "(0,0)",
-                "anchor": "rl6Kn-90e_k0xlNS"
-              }
+              "text": "(0,0)"
             },
-            {
+            "k15L9GNRZHoG-Hb2": {
               "type": "comment",
-              "parents": [
-                -2.975614178440221,
-                11.685993139294617
+              "id": "k15L9GNRZHoG-Hb2",
+              "x": -2.975614178440221,
+              "y": 11.685993139294617,
+              "anchors": [
+                "hj_-5IN0IU9B67Vl"
               ],
-              "properties": {
-                "id": "k15L9GNRZHoG-Hb2",
-                "text": "(25,50)",
-                "anchor": "hj_-5IN0IU9B67Vl"
-              }
+              "text": "(25,50)"
             },
-            {
+            "3Y1cY80HNXxPUsxa": {
               "type": "comment",
-              "parents": [
-                -1.819859794539184,
-                -11.145746756291047
+              "id": "3Y1cY80HNXxPUsxa",
+              "x": -1.819859794539184,
+              "y": -11.145746756291047,
+              "anchors": [
+                "yleg7Di23MF06PlN"
               ],
-              "properties": {
-                "id": "3Y1cY80HNXxPUsxa",
-                "text": "(100,50)",
-                "anchor": "yleg7Di23MF06PlN"
-              }
+              "text": "(100,50)"
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       }
     ],
@@ -2372,7 +2295,7 @@
           "providerId": "2Xrg-noCnTUY3FD4",
           "dataSet": {
             "id": "XNM41M1wlsCBVmhd",
-            "name": "Table 1",
+            "name": "Tara's  Walk to School",
             "attributes": [
               {
                 "id": "1O5M9qU16rsDQK4R",
@@ -2428,7 +2351,7 @@
           "providerId": "OnUyc0WgdJ4uTEQF",
           "dataSet": {
             "id": "wgqccU8iN4tyDfK9",
-            "name": "Table 1",
+            "name": "Cost for Protein Bars",
             "attributes": [
               {
                 "id": "EHr9OZXNFvXwdYZV",
@@ -2489,7 +2412,7 @@
           "providerId": "ii6-zsj1c8JmC7P3",
           "dataSet": {
             "id": "fbnqtOPrJN-6cOtj",
-            "name": "Table 1",
+            "name": "Rollaway Skates",
             "attributes": [
               {
                 "id": "lCf05ZIGyONtf4eg",
@@ -2574,7 +2497,7 @@
           "providerId": "Nr0o1ZjbazKtzqnh",
           "dataSet": {
             "id": "T-ymM4fJcw8YvNrC",
-            "name": "Table 1",
+            "name": "Wheelie's Skates and Stuff",
             "attributes": [
               {
                 "id": "luyYqp9A66LCkk2G",
@@ -2659,7 +2582,7 @@
           "providerId": "9aC2k96FCHMRepzn",
           "dataSet": {
             "id": "3IV6pDCKQYo0OeX9",
-            "name": "Table 1",
+            "name": "A.",
             "attributes": [
               {
                 "id": "cjLEgr6E_ucgQl_d",
@@ -2724,7 +2647,7 @@
           "providerId": "AJYVFrQGVNX-aQ1s",
           "dataSet": {
             "id": "kMqv3hDmIHoWXmhQ",
-            "name": "Table 2",
+            "name": "B.",
             "attributes": [
               {
                 "id": "X04mPfnz8K953BPv",
@@ -2789,7 +2712,7 @@
           "providerId": "rkPg2wCpvQA-Aeui",
           "dataSet": {
             "id": "VjaDVjLM7FYZyYBG",
-            "name": "Table 3",
+            "name": "C.",
             "attributes": [
               {
                 "id": "Tx0nUr9SKpNgAtji",
@@ -2854,7 +2777,7 @@
           "providerId": "8pH5iZzb-QM9Voql",
           "dataSet": {
             "id": "zkgBsySKhhXcAVHJ",
-            "name": "Table 4",
+            "name": "D.",
             "attributes": [
               {
                 "id": "-9RgoYDkWs_jJlAc",
@@ -2919,7 +2842,7 @@
           "providerId": "8Tvh6-R0hRXxdThI",
           "dataSet": {
             "id": "_5ExUbC62mDuAmPo",
-            "name": "Table 1",
+            "name": "Dani's Babysitting",
             "attributes": [
               {
                 "id": "s3FiweF0p12D9com",
@@ -2975,7 +2898,7 @@
           "providerId": "7dTuQvGTlEx67dPy",
           "dataSet": {
             "id": "GNSUpxXMCK8jIJ1f",
-            "name": "Table 1",
+            "name": "Paying for a TV on an Installment Plan",
             "attributes": [
               {
                 "id": "wyoDUSYrS9Ebh5DY",
@@ -3036,7 +2959,7 @@
           "providerId": "ERDg4tsk0TUrB_kx",
           "dataSet": {
             "id": "_m6mDSoZEKNJY8sQ",
-            "name": "Table 1",
+            "name": "The Cost of Apples",
             "attributes": [
               {
                 "id": "R7K22co_SBCWAi84",
@@ -3106,7 +3029,7 @@
           "providerId": "oZ12eeYoV3LlktYa",
           "dataSet": {
             "id": "I8KskWUQJ19lEV__",
-            "name": "Table 1",
+            "name": "The Cost of Apples",
             "attributes": [
               {
                 "id": "-Ol5xPhkx36MqYjl",
@@ -3176,7 +3099,7 @@
           "providerId": "ZmWLx9pm3zmNj5td",
           "dataSet": {
             "id": "wcytP2UPxFx6npaT",
-            "name": "Table 1",
+            "name": "Rectangles with Perimeters of 20 m",
             "attributes": [
               {
                 "id": "Thmi1bSMnojFU-H4",
@@ -3241,7 +3164,7 @@
           "providerId": "sBUnw_UijwXllhYw",
           "dataSet": {
             "id": "aDMCP3xjSbD6j6GD",
-            "name": "Table 1",
+            "name": "Ingrid's Walk to School",
             "attributes": [
               {
                 "id": "RWDmSmia8szlDfnV",
@@ -3297,7 +3220,7 @@
           "providerId": "z_eb5aCEIIcWOEQ1",
           "dataSet": {
             "id": "y4kgZNaNNyXrJyDV",
-            "name": "Table 1",
+            "name": "Income from Protein Bar Sale",
             "attributes": [
               {
                 "id": "hVnhSxTPICaL_lDE",
