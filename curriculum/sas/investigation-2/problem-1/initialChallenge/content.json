@@ -24,6 +24,17 @@
         }
       },
       {
+        "id": "kfGgld8N2Kc0YGP4",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Make a Prediction</strong></p><p>What coordinate rules will make similar shapes?</p>"
+          ]
+        }
+      },
+      {
         "id": "document_Text_2",
         "content": {
           "type": "Text",
@@ -33,14 +44,48 @@
           ]
         }
       },
+      [
+        {
+          "id": "document_Text_3",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Instructions for Plotting the Wumps</p><p><strong>1. </strong> Plot Mug – Use the coordinate pairs in the “Mug Wump” column to draw Mug on grid paper. For Parts 1-3 of the figure, plot the points in order. Connect them as you go along. For Part 4, plot the two points, but do not connect them.</p><p><strong>2.  </strong>Find Coordinates for the other Wump characters – Use the given rules to find the new coordinates for each shape. Record the coordinates in the columns Zug, Lug, Bug, and Glug. For example, the rule for Zug is (2x, 2y). This means that you multiply each of Mug’s coordinates by 2. Point A on Mug is (0, 1), so the corresponding point A on Zug is (0, 2). Point B on Mug is (2, 1), so the corresponding point B on Zug is (4, 2).</p><p><strong>3.  </strong>Plot the other Wump characters – Plot and connect the points from A to X for each Wump character, just as you did for Mug. Put each shape on separate axes.</p><p><u>Digital Note:</u> Pull over a Coordinate Grid tile. Copy all of the provided Mug tables to your workspace. Drag one of the tables into the coordinate grid tile and connect the points in order using the polygon tool. Repeat for all other tables.</p>"
+            ]
+          }
+        },
+        {
+          "id": "LB20OCT20231159",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "jdUpl7lwAC7kG7hS": 80,
+              "n1b-j-MlwIXpe98K": 80
+            }
+          }
+        },
+        {
+          "id": "document_Text_4",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<ul><li>Mug Wump: <em>(x, y)</em></li><li>Zug: <em>(2x, 2y)</em></li><li>Lug: <em>(3x, y)</em></li><li>Bug: <em>(3x, 3y)</em></li><li>Glug: <em>(x, 3y)</em></li></ul>"
+            ]
+          }
+        }
+      ],
       {
-        "id": "document_Text_3",
+        "id": "document_Table_5",
+        "display": "teacher",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Instructions for Plotting the Wumps</p><p><strong>1. </strong> Plot Mug – Use the coordinate pairs in the “Mug Wump” column to draw Mug on grid paper. For Parts 1-3 of the figure, plot the points in order. Connect them as you go along. For Part 4, plot the two points, but do not connect them.</p><p><strong>2.  </strong>Find Coordinates for the other Wump characters – Use the given rules to find the new coordinates for each shape. Record the coordinates in the columns Zug, Lug, Bug, and Glug. For example, the rule for Zug is (2x, 2y). This means that you multiply each of Mug’s coordinates by 2. Point A on Mug is (0, 1), so the corresponding point A on Zug is (0, 2). Point B on Mug is (2, 1), so the corresponding point B on Zug is (4, 2).</p><p><strong>3.  </strong>Plot the other Wump characters – Plot and connect the points from A to X for each Wump character, just as you did for Mug. Put each shape on separate axes.</p><p><u>Digital Note:</u> Pull over a Coordinate Grid tile. Copy all of the provided Mug tables to your workspace. Drag one of the tables into the coordinate grid tile and connect the points in order using the polygon tool. Repeat for all other tables.</p>"
-          ]
+          "type": "Table",
+          "columnWidths": {
+            "U6k47DZlFZKHBHW3": 80,
+            "d__bwnistM_BABGq": 80
+          }
         }
       },
       [
@@ -78,36 +123,17 @@
           }
         }
       ],
-      [
-        {
-          "id": "LB20OCT20231159",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "jdUpl7lwAC7kG7hS": 80,
-              "n1b-j-MlwIXpe98K": 80
-            }
-          }
-        },
-        {
-          "id": "document_Table_5",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "U6k47DZlFZKHBHW3": 80,
-              "d__bwnistM_BABGq": 80
-            }
-          }
-        }
-      ],
       {
         "id": "21AUG20220528PM",
         "title": "Mug",
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -2.186,
@@ -359,21 +385,16 @@
         }
       },
       {
-        "id": "document_Text_4",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>Mug Wump: <em>(x, y)</em></li><li>Zug: <em>(2x, 2y)</em></li><li>Lug: <em>(3x, y)</em></li><li>Bug: <em>(3x, 3y)</em></li><li>Glug: <em>(x, 3y)</em></li></ul>"
-          ]
-        }
-      },
-      {
         "id": "21AUG20220527PM",
         "title": "Zug",
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -2.186,
@@ -630,6 +651,11 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -2.186,
@@ -886,6 +912,11 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -2.186,
@@ -1142,6 +1173,11 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -2.186,
@@ -1431,7 +1467,7 @@
           "providerId": "bq9p0V6LmnYwvF",
           "dataSet": {
             "id": "xJ5nqYenHjp_YURk",
-            "name": "Mug Wump",
+            "name": "Mug Wump (all parts)",
             "attributes": [
               {
                 "id": "-HVU3mwYw46aOoPc",
@@ -1591,7 +1627,7 @@
           "providerId": "LB20OCT20231059",
           "dataSet": {
             "id": "cF1Gpa66sxAT0CBq",
-            "name": "Zug",
+            "name": "Zug (all parts)",
             "attributes": [
               {
                 "id": "ktTptxIbLx1KXgTc",
@@ -1751,7 +1787,7 @@
           "providerId": "LB20OCT20231157",
           "dataSet": {
             "id": "4dj-yWyx8Ll7KBLH",
-            "name": "Lug",
+            "name": "Lug (all parts)",
             "attributes": [
               {
                 "id": "EvU6EG06fXaQbvKw",
@@ -1911,7 +1947,7 @@
           "providerId": "LB20OCT20231159",
           "dataSet": {
             "id": "dfMRpKfqRIk8dyfe",
-            "name": "Bug",
+            "name": "Bug (all parts)",
             "attributes": [
               {
                 "id": "jdUpl7lwAC7kG7hS",
@@ -2071,7 +2107,7 @@
           "providerId": "document_Table_5",
           "dataSet": {
             "id": "lqmk_kMo7D1K2TWY",
-            "name": "Glug",
+            "name": "Glug (all parts)",
             "attributes": [
               {
                 "id": "U6k47DZlFZKHBHW3",
