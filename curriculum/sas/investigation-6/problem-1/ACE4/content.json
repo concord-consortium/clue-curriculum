@@ -163,6 +163,11 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "name": "x",
@@ -180,24 +185,6 @@
             }
           },
           "objects": {
-            "rvEudR4gxtjwduHR": {
-              "type": "point",
-              "id": "rvEudR4gxtjwduHR",
-              "x": 1,
-              "y": 1,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
-            "IHBU0ZrNEKBM74I5": {
-              "type": "point",
-              "id": "IHBU0ZrNEKBM74I5",
-              "x": 4,
-              "y": 1,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
             "4iwf1j_hHgSTkhRw": {
               "type": "point",
               "id": "4iwf1j_hHgSTkhRw",
@@ -206,27 +193,6 @@
               "snapToGrid": true,
               "colorScheme": 0,
               "labelOption": "none"
-            },
-            "mkYlV7Q9WZ-RWVw-": {
-              "type": "point",
-              "id": "mkYlV7Q9WZ-RWVw-",
-              "x": 1,
-              "y": 3,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
-            "ofzMWPbOp3fVt0v-": {
-              "type": "polygon",
-              "id": "ofzMWPbOp3fVt0v-",
-              "points": [
-                "rvEudR4gxtjwduHR",
-                "IHBU0ZrNEKBM74I5",
-                "4iwf1j_hHgSTkhRw",
-                "mkYlV7Q9WZ-RWVw-"
-              ],
-              "labelOption": "none",
-              "colorScheme": 0
             },
             "rKCylc6eX3rNQRTp": {
               "type": "point",
@@ -237,11 +203,44 @@
               "colorScheme": 0,
               "labelOption": "none"
             },
+            "GOSVeYCgrvToBepu": {
+              "type": "polygon",
+              "id": "GOSVeYCgrvToBepu",
+              "points": [
+                "rKCylc6eX3rNQRTp",
+                "00erl6k0_omzebxN",
+                "64n0xtwyiRWAtc-_",
+                "EFMx2RdQqj4Ef-h2"
+              ],
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "00erl6k0_omzebxN::64n0xtwyiRWAtc-_",
+                  "option": "length",
+                  "name": "CE"
+                },
+                {
+                  "id": "rKCylc6eX3rNQRTp::00erl6k0_omzebxN",
+                  "option": "length",
+                  "name": "BC"
+                }
+              ],
+              "colorScheme": 0
+            },
             "00erl6k0_omzebxN": {
               "type": "point",
               "id": "00erl6k0_omzebxN",
               "x": 13.511634485721784,
               "y": 1.0047958678249767,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "IHBU0ZrNEKBM74I5": {
+              "type": "point",
+              "id": "IHBU0ZrNEKBM74I5",
+              "x": 4,
+              "y": 1,
               "snapToGrid": true,
               "colorScheme": 0,
               "labelOption": "none"
@@ -264,17 +263,47 @@
               "colorScheme": 0,
               "labelOption": "none"
             },
-            "GOSVeYCgrvToBepu": {
+            "ofzMWPbOp3fVt0v-": {
               "type": "polygon",
-              "id": "GOSVeYCgrvToBepu",
+              "id": "ofzMWPbOp3fVt0v-",
               "points": [
-                "rKCylc6eX3rNQRTp",
-                "00erl6k0_omzebxN",
-                "64n0xtwyiRWAtc-_",
-                "EFMx2RdQqj4Ef-h2"
+                "rvEudR4gxtjwduHR",
+                "IHBU0ZrNEKBM74I5",
+                "4iwf1j_hHgSTkhRw",
+                "mkYlV7Q9WZ-RWVw-"
               ],
               "labelOption": "none",
+              "labels": [
+                {
+                  "id": "4iwf1j_hHgSTkhRw::IHBU0ZrNEKBM74I5",
+                  "option": "length",
+                  "name": "AD"
+                },
+                {
+                  "id": "IHBU0ZrNEKBM74I5::rvEudR4gxtjwduHR",
+                  "option": "length",
+                  "name": "DH"
+                }
+              ],
               "colorScheme": 0
+            },
+            "mkYlV7Q9WZ-RWVw-": {
+              "type": "point",
+              "id": "mkYlV7Q9WZ-RWVw-",
+              "x": 1,
+              "y": 3,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "rvEudR4gxtjwduHR": {
+              "type": "point",
+              "id": "rvEudR4gxtjwduHR",
+              "x": 1,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             }
           },
           "pointMetadata": {},
@@ -2984,6 +3013,64 @@
             "<p>Vernon is right. In and isosceles right triangles, the equal sides make the right angle and they have the ratio 1:1. All isosceles right triangles are similar because any isosceles right triangle has the same 45°, 45°, and 90° angles, and the sides have the ratio 1:1:√2</p>"
           ]
         }
+      }
+    ],
+    "annotations": [
+      {
+        "id": "75Jox-GXrA708VfU",
+        "sourceObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "IHBU0ZrNEKBM74I5::4iwf1j_hHgSTkhRw",
+          "objectType": "segment"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "00erl6k0_omzebxN::64n0xtwyiRWAtc-_",
+          "objectType": "segment"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "text": "x2.5",
+        "textOffset": {
+          "dx": -13.733930073838057,
+          "dy": -86.8995279832673
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "pV_B22qpRR2q8t2d",
+        "sourceObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "rvEudR4gxtjwduHR::IHBU0ZrNEKBM74I5",
+          "objectType": "segment"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "rKCylc6eX3rNQRTp::00erl6k0_omzebxN",
+          "objectType": "segment"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "text": "x2.5",
+        "textOffset": {
+          "dx": 17.99999999999999,
+          "dy": 33.681939170664435
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
       }
     ]
   }
