@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Summarize (Orchestrating the Discussion)</strong></p><p><em>Solutions and Strategies </em></p><p>Discuss the questions. Ask students to explain their reasoning. This will give you insight into their understanding of percent. Be sure to discuss angle measures, side lengths, and area.</p><p>Students may use addition strategies rather than multiplying by a scale factor. For example, they may divide the side lengths of the original figure by four equal segments and then subtract one of the segments to get the side length of the figure that has been reduced to 75%.</p><p>To get the side length of the figure that is increased to 150% students may divide the side lengths of the original figure into two equal segments and then add one of the segments to the original.</p>"
+            "<p><strong>Summarize (Orchestrating the Discussion)</strong></p><p><em>Discussing Solutions and Strategies </em></p><p>Discuss the questions. Ask students to explain their reasoning. This will give you insight into their understanding of percent. Be sure to discuss angle measures, side lengths, and area.</p><p>Students may use addition strategies rather than multiplying by a scale factor. For example, they may divide the side lengths of the original figure by four equal segments and then subtract one of the segments to get the side length of the figure that has been reduced to 75%.</p><p>To get the side length of the figure that is increased to 150% students may divide the side lengths of the original figure into two equal segments and then add one of the segments to the original.</p>"
           ]
         }
       },
@@ -55,6 +55,11 @@
         "title": "Enlarging a shape",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -4.372,
@@ -68,24 +73,6 @@
             }
           },
           "objects": {
-            "zxnw1S3P_6RRxSJ9": {
-              "type": "point",
-              "id": "zxnw1S3P_6RRxSJ9",
-              "x": 5,
-              "y": 1,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
-            "jm-9QT1wWia976W_": {
-              "type": "point",
-              "id": "jm-9QT1wWia976W_",
-              "x": 1,
-              "y": 1,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
             "3fqjb2eArXfmU2WX": {
               "type": "point",
               "id": "3fqjb2eArXfmU2WX",
@@ -95,14 +82,15 @@
               "colorScheme": 0,
               "labelOption": "none"
             },
-            "qv9KBFiipADCs3tZ": {
-              "type": "point",
-              "id": "qv9KBFiipADCs3tZ",
-              "x": 5,
-              "y": 5,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
+            "y0EYZP0gMnaqBU-5": {
+              "type": "comment",
+              "id": "y0EYZP0gMnaqBU-5",
+              "x": 5.320825633067438,
+              "y": -0.31061568583503885,
+              "anchors": [
+                "tE4SBJpvY9LAPTAs"
+              ],
+              "text": "x 1.25 of the original box"
             },
             "XrAtOscgQutMyDnx": {
               "type": "polygon",
@@ -116,11 +104,11 @@
               "labelOption": "none",
               "colorScheme": 0
             },
-            "V_CLC7VUpqVQNaxx": {
+            "zxnw1S3P_6RRxSJ9": {
               "type": "point",
-              "id": "V_CLC7VUpqVQNaxx",
-              "x": 6.1000000000000005,
-              "y": 7.000000000000001,
+              "id": "zxnw1S3P_6RRxSJ9",
+              "x": 5,
+              "y": 1,
               "snapToGrid": true,
               "colorScheme": 0,
               "labelOption": "none"
@@ -134,20 +122,11 @@
               "colorScheme": 0,
               "labelOption": "none"
             },
-            "KnuZnKztH3bj5OgH": {
+            "jm-9QT1wWia976W_": {
               "type": "point",
-              "id": "KnuZnKztH3bj5OgH",
+              "id": "jm-9QT1wWia976W_",
               "x": 1,
-              "y": 12,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
-            "K4IpL6Wqs7weDEdt": {
-              "type": "point",
-              "id": "K4IpL6Wqs7weDEdt",
-              "x": 6.1000000000000005,
-              "y": 12,
+              "y": 1,
               "snapToGrid": true,
               "colorScheme": 0,
               "labelOption": "none"
@@ -164,15 +143,41 @@
               "labelOption": "none",
               "colorScheme": 0
             },
-            "y0EYZP0gMnaqBU-5": {
-              "type": "comment",
-              "id": "y0EYZP0gMnaqBU-5",
-              "x": 5.320825633067438,
-              "y": -0.31061568583503885,
-              "anchors": [
-                "tE4SBJpvY9LAPTAs"
-              ],
-              "text": "x 1.25 of the original box"
+            "KnuZnKztH3bj5OgH": {
+              "type": "point",
+              "id": "KnuZnKztH3bj5OgH",
+              "x": 1,
+              "y": 12,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "qv9KBFiipADCs3tZ": {
+              "type": "point",
+              "id": "qv9KBFiipADCs3tZ",
+              "x": 5,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "V_CLC7VUpqVQNaxx": {
+              "type": "point",
+              "id": "V_CLC7VUpqVQNaxx",
+              "x": 6.1000000000000005,
+              "y": 7.000000000000001,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "K4IpL6Wqs7weDEdt": {
+              "type": "point",
+              "id": "K4IpL6Wqs7weDEdt",
+              "x": 6.1000000000000005,
+              "y": 12,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             }
           },
           "pointMetadata": {},
@@ -185,7 +190,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Repeat this demonstration on a unit square with a decrease of 25%. In this case the scale factor is 0.75</p>"
+            "<p>Repeat this demonstration on a unit square with a decrease of 25%. In this case the scale factor is 0.75.</p>"
           ]
         }
       },
@@ -254,6 +259,7 @@
           "dx": -59.51369698663153,
           "dy": -5.031029079836207
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]
