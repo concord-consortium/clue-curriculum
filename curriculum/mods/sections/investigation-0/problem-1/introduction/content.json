@@ -5250,7 +5250,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>On the right is <strong>your</strong> workspace. To edit your workspace, you must first add a <strong>tile</strong>. You get a tile in your workspace by either</p><ul><li><strong>dragging a tile from the problem  or any other document on the left pane (Resources) into your workspace on the right.</strong></li><li><strong>or clicking or dragging a new (empty) tile from the menu of tools.</strong></li><p></p></ul><p>All tiles have a <strong>waffle</strong> (gray box with six dots) in the upper right corner if you hover over it. To drag the tile, click the waffle and hold it down as you drag it to your workspace. As you drag the tile into the workspace, a blue line shows where the tile will go when you let go.</p>"
+            "<p>On the right is <strong>your</strong> workspace. To edit your workspace, you must first add a <strong>tile</strong>. You get a tile in your workspace by either</p><ul><li><strong>dragging a tile from the problem  or any other document on the left pane (Resources) into your workspace on the right.</strong></li><li><strong>or clicking or dragging a new (empty) tile tool from the menu of tools on the left of your workspace.</strong></li><p></p></ul><p>All tiles have a <strong>waffle</strong> (gray box with six dots) in the upper right corner if you hover over it. To drag the tile, click the waffle and hold it down as you drag it to your workspace. As you drag the tile into the workspace, a blue line shows where the tile will go when you let go.</p><p>You can also select tiles and copy them y into your workspace using the tools on the far left of this pane. </p>"
           ]
         }
       },
@@ -5261,6 +5261,38 @@
           "format": "html",
           "text": [
             "<p>Drag or create the tiles that you need to help you into the your workspace. Drag them around to arrange them as you like. Once a tile is in your workspace, you can edit it, use it&#x27;s special tools, delete it, or move it around.</p>"
+          ]
+        }
+      },
+      {
+        "id": "tKPMWZRiKi3igFwy",
+        "title": "This is a Question Tile",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Sometimes questions will be posed in this curriculum as question tiles. They may have some sample tiles in them to start you off, or they may be open ended. Either way you can answer question tiles with any other tile types you like.</p><p>Copy this question tile into your workspace and fill in the three things you&#x27;d like to learn in this course.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li>A thing I want to learn is...</li><li>A second thing...</li><li>A third thing...</li></ol>"
+                ]
+              }
+            }
           ]
         }
       },
