@@ -2538,7 +2538,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Copy and complete the table. Sort the quadrilaterals from the Shapes Set into groups by name and description.</p>"
+            "<p>Copy and complete the table. Sort the quadrilaterals from the Shape Set into groups by name and description.</p>"
           ]
         }
       },
@@ -2605,7 +2605,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>D.</strong></p>"
+            "<p>Answer: D</p>"
           ]
         }
       },
@@ -2653,13 +2653,26 @@
         }
       },
       {
-        "id": "KbRwCVY8NQGT5lVT",
-        "title": "ACE 3-40 Solution",
+        "id": "t-7pKvFyfDAhWWci",
+        "title": "Text 255",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "sad/images/picture353.png",
-          "filename": "sad/images/picture353.png"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answer: even-sided polygons</p><p><strong>a.</strong> Following the pattern, the measure of an interior angle of a regular decagon would be 4/5 of 180°, or 144°. For dodecagons (12 sides), the pattern predicts 5/6 of 180°, or 150°. These entries are correct according to results from Problems 2.1 and 2.2. </p><p>Also, one could do an algebraic derivation from the formula (<em>n</em>-2)•180/ <em>n</em>, but this is beyond what is reasonable to expect for even very capable CMP students at the start of Grade 7. Realizing that this pattern is observed for the even numbers <em>n</em> = 2<em>k,</em> we get:</p><p>(<em>n</em>-2)•180/2<em>k = </em>(2<em>k</em>-2)•180/ 2<em>k</em></p><p><em>= 2</em>(<em>k</em>-1)•180/ 2<em>k </em>= (<em>k</em>-1)•180/ <em>k</em></p><p><strong>b.</strong> In the case of odd numbers <em>n</em>= 2<em>k</em> + 1, we get:</p><p>(<em>n </em>- 2) • 180 /<em>n</em> - (2<em>k</em> + 1 - 2) • 180/ 2<em>k</em> + 1 = 2(<em>k</em> - 1) • 180/ 2<em>k</em> + 1</p><p>This leads to the pattern in the following table:</p>"
+          ]
+        }
+      },
+      {
+        "id": "MggHjQeA84XkYxJ5",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "GH0F2aI_sfAsclCV": 256.2002716064453,
+            "UjAVoRF65cpqlYKq": 273.93821716308594
+          }
         }
       },
       {
@@ -2712,7 +2725,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Any quadrilateral has two diagonals; any pentagon has five diagonals.</p>"
+            "<p>Any quadrilateral has 2 diagonals; any pentagon has 5 diagonals.</p>"
           ]
         }
       },
@@ -2735,7 +2748,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Any hexagon has nine diagonals; any  heptagon has 14 diagonals.</p>"
+            "<p>Any hexagon has 9 diagonals; any heptagon has 14 diagonals.</p>"
           ]
         }
       },
@@ -3796,6 +3809,70 @@
         },
         "tiles": [
           "Px_w69YW1Gor-rZB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "2DIvGdTsdEoeGvmF",
+          "providerId": "MggHjQeA84XkYxJ5",
+          "dataSet": {
+            "id": "x0oS3pr1feV-9_3t",
+            "name": "Regular Polygons",
+            "attributes": [
+              {
+                "id": "GH0F2aI_sfAsclCV",
+                "clientKey": "",
+                "name": "Number of Sides",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "3",
+                  "5",
+                  "7",
+                  "9"
+                ],
+                "title": ""
+              },
+              {
+                "id": "UjAVoRF65cpqlYKq",
+                "clientKey": "",
+                "name": "Measures of Interior Angle",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1/3 of 180° = 60°",
+                  "3/5 of 180° = 108°",
+                  "5/7 of 180° ≈ 128.57°",
+                  "7/9 of 180° = 140° "
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "QHpcBngVODNPu230"
+              },
+              {
+                "__id__": "L2O9NakrheM5aMwc"
+              },
+              {
+                "__id__": "u7MqKJhWKP7Q4ThI"
+              },
+              {
+                "__id__": "2hIuPQe3KVZYNGKC"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "MggHjQeA84XkYxJ5"
         ]
       }
     ]
