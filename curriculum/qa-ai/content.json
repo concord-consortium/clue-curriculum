@@ -84,7 +84,7 @@
     "tagPrompt": "Select QA Strategy",
     "aiEvaluation": "custom",
     "aiPrompt": {
-      "mainPrompt": "This is a picture of a student document.\nThey are working on a math problem. Please tell me which of the following strategies the student is using:\n - part-to-part: comparing parts of a whole\n - part-to-whole: relating a part to the whole\n - unit-rate: using unit rates\n - ratios: comparing ratios of the same variable\nExplain your reasoning. If the document doesn't include enough content to identify a strategy, set \"success\" to \"false\" and \"category\" to \"unknown\".\nYour answer should be a JSON document in the given format.",
+      "mainPrompt": "This is a picture of a student document.\nThey are working on a math problem. Please tell me which of the following strategies the student is using:\n - part-to-part: comparing parts of a whole\n - part-to-whole: relating a part to the whole\n - unit-rate: using unit rates\n - ratios: comparing ratios of the same variable\nExplain your reasoning. If the document doesn't include enough content to identify a strategy, set \"category\" to \"unknown\".\nYour answer should be a JSON document in the given format.",
       "categorizationDescription": "The mathematical strategy used in the document",
       "categories": ["part-to-part", "part-to-whole", "unit-rate", "ratios"],
       "keyIndicatorsPrompt": "List the main features or elements that support your categorization",
