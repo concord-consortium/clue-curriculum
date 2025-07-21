@@ -312,11 +312,12 @@
       "non-proportional": "Non-Proportional"
     },
     "tagPrompt": "Select Student Strategy",
+    "enableCommentRoles": ["student", "teacher", "researcher"],
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master 7th grade teacher.",
       "mainPrompt": "This is a picture of a student mathematics document. Please evaluate and categorize it.",
-      "categorizationDescription": "Categorize the document based on its content.",
+      "categorizationDescription": "Categorize the document based on its content and the general proportional reasoning curriculum found in 7th grade mathematics.",
       "categories": [
         "part-to-part",
         "part-to-whole",
