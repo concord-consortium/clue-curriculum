@@ -183,7 +183,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Julia thinks a bit more about how to use red and black chips to model operations with integers. She draws the following chip board. She decides it represents 8・(-5) = -40 and -40 ÷ 8 = -5. Explain why Julia’s reasoning makes sense.</p>"
+            "<p>Julia thinks a bit more about how to use chips to model operations with integers. She draws the following chip board. She decides it represents 8・(-5) = -40 and -40 ÷ 8 = -5. Explain why Julia’s reasoning makes sense.</p>"
           ]
         }
       },
@@ -204,7 +204,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>There are eight red chips each with a value of -5. Thus, the total value of the board, by adding, is -40. This means 8 × (-5) = -40 or -40 ÷ 8 = -5</p>"
+            "<p>There are 8 red chips, each with a value of -5. Thus, the total value of the board, by adding, is -40. This means 8 × (-5) = -40 or -40 ÷ 8 = -5</p>"
           ]
         }
       },
@@ -457,7 +457,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>&lt; 0 (A negative number divided by a positive number will always be a negative number.)</p><p><strong>b.  </strong>= 0 (Any number multiplied by 0 is 0.</p><p><strong>c.  </strong>&gt; 0 (A negative multiplied by a negative results in a positive.)</p><p><strong>d.  </strong>= 0 (0 divided by any nonzero number, regardless of sign, is 0.)</p><p><strong>e.  </strong>&gt; 0 (A negative divided by a negative results in a positive.)</p><p><strong>f.  </strong>&lt; 0 (The product of a negative and a positive is a negative.)</p>"
+            "<p><strong>a.  </strong>&lt; 0 (A negative number divided by a positive number will always be a negative number.)</p><p><strong>b.  </strong>= 0 (Any number multiplied by 0 is 0.)</p><p><strong>c.  </strong>&gt; 0 (A negative multiplied by a negative results in a positive.)</p><p><strong>d.  </strong>= 0 (0 divided by any nonzero number, regardless of sign, is 0.)</p><p><strong>e.  </strong>&gt; 0 (A negative divided by a negative results in a positive.)</p><p><strong>f.  </strong>&lt; 0 (The product of a negative and a positive is a negative.)</p>"
           ]
         }
       },
@@ -479,7 +479,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>You have located fractions such as -(5/7) on a number line. You have also used fractions to show division: (-5)/7 = -5 ÷ 7 and 5/(-7) = 5 ÷ (-7). Tell whether each statement is true or false. Explain.</p>"
+            "<p>You have located fractions such as -(5/7) on a number line. You have also used fractions to show division: (-5)/7 = -5 ÷ 7 and 5/(-7) = 5 ÷ (-7). Tell whether each statement is <em>true </em>or <em>false</em>. Explain.</p>"
           ]
         }
       },
@@ -662,7 +662,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For each number sentence, find a value for n that makes the sentence true.</p><p><strong>a. </strong> 24 ÷ 2 = n</p><p><strong>b. </strong> -24 ÷ (-2) = n</p><p><strong>c.  </strong>24 ÷ n = -12</p><p><strong>d. </strong> n ÷ 2 = -12</p><p><strong>e. </strong> 5 ÷ 2.5 = n</p><p><strong>f. </strong> -12 ÷ n = 3</p><p><strong>g.</strong>  n ÷ (-3) = -4</p><p><strong>h.  </strong>(-16) ÷ ¼  = n</p>"
+            "<p>For each number sentence, find a value for <em>n </em>that makes the sentence true.</p><p><strong>a. </strong> 24 ÷ 2 = n</p><p><strong>b. </strong> -24 ÷ (-2) = n</p><p><strong>c.  </strong>24 ÷ n = -12</p><p><strong>d. </strong> n ÷ 2 = -12</p><p><strong>e. </strong> 5 ÷ 2.5 = n</p><p><strong>f. </strong> -12 ÷ n = 3</p><p><strong>g.</strong>  n ÷ (-3) = -4</p><p><strong>h.  </strong>(-16) ÷ ¼  = n</p>"
           ]
         }
       },
@@ -696,7 +696,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Chris and Elizabeth are making a version of the Integer Product Game in which players need three products in a row to win.</p><p>What six factors do they need for their game? Explain your reasoning.</p>"
+            "<p>Chris and Elizabeth are making a version of the <em>Integer Product</em> Game in which players need three products in a row to win.</p><p>What six factors do they need for their game? Explain your reasoning.</p>"
           ]
         }
       },
@@ -705,8 +705,8 @@
         "title": "Chris and Elizabeth's Product Game",
         "content": {
           "type": "Image",
-          "url": "cr/images/product.png",
-          "filename": "cr/images/product.png"
+          "url": "cr/images/chris-and-elizabeth-product-game.png",
+          "filename": "cr/images/chris-and-elizabeth-product-game.png"
         }
       },
       {
@@ -1023,6 +1023,11 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "min": -1,
@@ -1038,7 +1043,7 @@
           "objects": {},
           "pointMetadata": {},
           "linkedAttributeColors": {
-            "023Nr9WgbSgOZ6Jh": 0,
+            "023Nr9WgbSgOZ6Jh": 2,
             "fV1dWuTq6rDXfLjp": 1
           }
         },
@@ -1159,100 +1164,130 @@
                 "id": "mZv-0x9H4Sj_Z2Er",
                 "x": 56.69999694824219,
                 "y": 52.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "0EM01i4P_9dJYepX",
                 "x": 57.69999694824219,
                 "y": 79.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "TrzcZNfee-U7x-1U",
                 "x": 52.69999694824219,
                 "y": 108.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "hTvj3rbjtLcfhQMD",
                 "x": 84.69999694824219,
                 "y": 73.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "87HhPD5ev6nMdDOK",
                 "x": 85.69999694824219,
                 "y": 106.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "UXH8WBcOAORNGpvS",
                 "x": 155.6999969482422,
                 "y": 63.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "CEVhw1H96KxJuUJZ",
                 "x": 156.6999969482422,
                 "y": 90.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "2Wr3Go3SGD9-9xig",
                 "x": 153.6999969482422,
                 "y": 116.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "nrVNmzhgBZrxMu2S",
                 "x": 187.6999969482422,
                 "y": 60.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "JPzZwTaADUn_I7Pz",
                 "x": 189.6999969482422,
                 "y": 100.29999923706055,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               }
             ]
           },
@@ -1282,62 +1317,83 @@
                 "id": "Cnke66gLZVg9vUGh",
                 "x": 70.69999694824219,
                 "y": 66.30000305175781,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "0lq6cm9qil8WD1dp",
                 "x": 113.69999694824219,
                 "y": 68.30000305175781,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "G-DfByZkd0BJd7EU",
                 "x": 160.6999969482422,
                 "y": 75.30000305175781,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "hEDtzy4Y6QCosEFn",
                 "x": 66.69999694824219,
                 "y": 111.30000305175781,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "GukJLxLYo90jvFNM",
                 "x": 116.69999694824219,
                 "y": 109.30000305175781,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "1E4ZhKHZVZrrCeF2",
                 "x": 159.6999969482422,
                 "y": 115.30000305175781,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               }
             ]
+          },
+          "layout": {
+            "height": 178
           }
         }
       ],
@@ -1397,152 +1453,200 @@
                 "id": "_O0BhmBRupQAu_aD",
                 "x": 104.69999694824219,
                 "y": 69.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "VL5cFOov18DaHZJi",
                 "x": 103.69999694824219,
                 "y": 96.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "zecSb3lFUtboRi-i",
                 "x": 103.69999694824219,
                 "y": 123.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "Sdve97z19FO9OZHG",
                 "x": 104.69999694824219,
                 "y": 149.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "RO_ABiHW8GxHJBMc",
                 "x": 104.69999694824219,
                 "y": 40.900001525878906,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "x9ksn8diVGMPh2sA",
                 "x": 135.6999969482422,
                 "y": 40.900001525878906,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "ZpecEGFIVVh1SvGp",
                 "x": 135.6999969482422,
                 "y": 69.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "PoqQcxfzOIqXrpui",
                 "x": 136.6999969482422,
                 "y": 96.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "icf92CuHpJ2N60MZ",
                 "x": 137.6999969482422,
                 "y": 122.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "u_0UXUtN79wTF5rK",
                 "x": 140.6999969482422,
                 "y": 149.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "xqNTHLXRc1jC19t4",
                 "x": 173.6999969482422,
                 "y": 149.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "CEvplS8ocIF0hqra",
                 "x": 174.6999969482422,
                 "y": 122.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "O4CaGLW3K5FHqGHO",
                 "x": 174.6999969482422,
                 "y": 94.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "z3yIzQZbbnmPPOoJ",
                 "x": 174.6999969482422,
                 "y": 66.9000015258789,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               },
               {
                 "type": "image",
                 "id": "xwuzs0D-3KNIRyGJ",
                 "x": 174.6999969482422,
                 "y": 38.900001525878906,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
                 "visible": true,
-                "url": "cr/stamps/red-chip.png",
                 "width": 25,
-                "height": 25
+                "height": 25,
+                "url": "cr/stamps/red-chip.png"
               }
             ]
+          },
+          "layout": {
+            "height": 161
           }
         },
         {
@@ -1610,16 +1714,22 @@
               "id": "IsEBESmqQF18TGDf",
               "x": 28,
               "y": 48,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
-              "url": "cr/images/ace-pic-1.png",
               "width": 638,
-              "height": 97
+              "height": 97,
+              "url": "cr/images/ace-pic-1.png"
             },
             {
               "type": "text",
               "id": "EdvVKuypL8pEkrV1",
               "x": 56.19999694824219,
               "y": 115,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 59,
               "height": 38,
@@ -1631,6 +1741,9 @@
               "id": "vcvVShHPWnUo4xLh",
               "x": 575.1999969482422,
               "y": 113,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 59,
               "height": 38,
@@ -1642,6 +1755,9 @@
               "id": "X3bdI9dJJepiPYxs",
               "x": 107.19999694824219,
               "y": 36,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1653,6 +1769,9 @@
               "id": "HEq0sCBqsG_7wq_k",
               "x": 160.1999969482422,
               "y": 111,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1664,6 +1783,9 @@
               "id": "9gUmO9-DLyUJXVfe",
               "x": 213.1999969482422,
               "y": 39,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1675,6 +1797,9 @@
               "id": "XLRxP-moaPAOik7n",
               "x": 264.1999969482422,
               "y": 114,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1686,6 +1811,9 @@
               "id": "Y53Y2_vo9abgNDOV",
               "x": 312.1999969482422,
               "y": 43,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1697,6 +1825,9 @@
               "id": "Uai2YmO8cRLQsWil",
               "x": 363.1999969482422,
               "y": 109,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1708,6 +1839,9 @@
               "id": "3gDCPVMYtxLAfIyD",
               "x": 415.1999969482422,
               "y": 40,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1719,6 +1853,9 @@
               "id": "lN7tWCWOj6xGeYUI",
               "x": 463.1999969482422,
               "y": 111,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1730,6 +1867,9 @@
               "id": "BUvtlh3ZTyP04wby",
               "x": 519.1999969482422,
               "y": 41,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 64,
               "height": 34,
@@ -1751,16 +1891,22 @@
               "id": "FyiIy3Z35a5_dID1",
               "x": 23,
               "y": 56,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
-              "url": "cr/images/ace-pic-1.png",
               "width": 638,
-              "height": 97
+              "height": 97,
+              "url": "cr/images/ace-pic-1.png"
             },
             {
               "type": "text",
               "id": "Cy579pZH6dcoA9jB",
               "x": 62.19999694824219,
               "y": 123,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1772,6 +1918,9 @@
               "id": "d5oVdB2Dn3hJKDo3",
               "x": 110.19999694824219,
               "y": 38,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1783,6 +1932,9 @@
               "id": "YBStV3UiYABxtb5l",
               "x": 163.1999969482422,
               "y": 124,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1794,6 +1946,9 @@
               "id": "xCgwYO4Ph6pQ6tx7",
               "x": 211.1999969482422,
               "y": 37,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1805,6 +1960,9 @@
               "id": "PuFH70r5disS1EaJ",
               "x": 268.1999969482422,
               "y": 127,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1816,6 +1974,9 @@
               "id": "nMEybo6TiMIB0uZx",
               "x": 315.1999969482422,
               "y": 41,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1827,6 +1988,9 @@
               "id": "pchqernd46pWeAK_",
               "x": 367.1999969482422,
               "y": 122,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1838,6 +2002,9 @@
               "id": "ZMLspAmDbRAkuv9k",
               "x": 415.1999969482422,
               "y": 36,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1849,6 +2016,9 @@
               "id": "N-4nQDMWiCnaQ6ps",
               "x": 475.1999969482422,
               "y": 125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1860,6 +2030,9 @@
               "id": "pMogX6PqjLcwGP6d",
               "x": 516.1999969482422,
               "y": 35,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -1871,6 +2044,9 @@
               "id": "GaCD3gYCn7J-vSDM",
               "x": 575.1999969482422,
               "y": 121,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
               "visible": true,
               "width": 45,
               "height": 42,
@@ -2328,7 +2504,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -2351,7 +2529,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "-25",
                   "-20",
@@ -2406,7 +2586,8 @@
               {
                 "__id__": "P__7ytCSaO0SHoPa"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
