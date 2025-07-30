@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation A. Another Three Strategies</strong></p><p>Students in Ms. Bennett’s classroom used a variety of strategies to determine the price of pizzas. Examine each strategy. Are they correct? Explain why or why not. ARSGOIASFLKJASLKJAS</p>"
+            "<p><strong>Situation A. Students&#x27; Strategies</strong></p><p>Students in Ms. Bennett’s classroom used a variety of strategies to determine the price of pizzas. Examine each strategy. Are they correct? Explain why or why not. </p>"
           ]
         }
       },
@@ -18,7 +18,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Amit’s Strategy</em></p><p>I saw that at Royal, 5 pizzas cost $65. I wanted to compare the prices for 5 pizzas at each restaurant. So, I scaled down the pizza and price at Howdy’s by dividing each quantity by 3.</p>"
+            "<p><em>Amit’s Strategy</em></p><p>I saw that at Royal Pizza, 5 pizzas cost $65. I wanted to compare the prices for 5 pizzas at each restaurant. So, I scaled down the pizza and price at Howdy’s by dividing each quantity by 3.</p>"
           ]
         }
       },
@@ -39,7 +39,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Amit’s strategy is not correct. He forgot that part of the $195 is the $30 delivery charge. He needs to subtract the delivery charge before he scales the pizzas.</p>"
+            "<p>Amit’s strategy is not correct. He forgot that part of the $195 is the $30 delivery charge. He needs to subtract the delivery charge before he scales the pizzas.</p><p>Royal’s pricing is multiplicative, which makes it proportional. Howdy’s pricing involves both multiplication and addition. So you cannot scale Howdy’s pricing in the same way you would a proportional relationship.</p>"
           ]
         }
       },
@@ -49,174 +49,24 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Eun Mi’s Strategy</em></p><p>I tried to use proportions, but that did not work. So, I used a graph to determine the costs. I noticed that the graph of Howdy’s Pizza did not go through the origin. I wonder if that is why proportions did not work.</p>"
+            "<p><em>Carlos’s Proportions</em></p><p> I used the information from the tables to write proportions. I noticed that the prices for Royal Pizza are proportional. Howdy’s Pizza pricing is not proportional. So I cannot use a proportion to find the price of pizza at Howdy’s Pizza.</p>"
           ]
         }
       },
       {
-        "id": "0Dpc6k3gjBr82RrY",
+        "id": "kkLEAhXoZOwN8hTB",
         "title": "Royal Pizza",
         "content": {
-          "type": "Graph",
-          "adornments": [
-            {
-              "id": "ADRNfVsN0VCSkp_1",
-              "type": "Movable Line",
-              "isVisible": true,
-              "lines": {
-                "C8FCIRi4U1ttHRzq": {
-                  "equationCoords": {
-                    "x": 0.7488055960068063,
-                    "y": 1.3072836538461539
-                  },
-                  "intercept": 0.3186381943053078,
-                  "slope": 12.9101931317889
-                }
-              }
-            }
-          ],
-          "axes": {
-            "bottom": {
-              "type": "numeric",
-              "place": "bottom",
-              "scale": "linear",
-              "min": 0,
-              "max": 10
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": 0,
-              "max": 101.88
-            }
-          },
-          "lockAxes": false,
-          "plotType": "scatterPlot",
-          "layers": [
-            {
-              "id": "LAYR3vGPbZfqZdrO",
-              "config": {
-                "id": "DCONL_n3hhgz_Im5",
-                "dataset": "FQC8Q6X_C5GCrpZF",
-                "metadata": "0B5tLZFLgMDHWSe_",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "NoIlBOoExR67yO9w",
-                    "type": "numeric"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "DXexkO63q2CPEPS7",
-                    "type": "numeric"
-                  }
-                ]
-              },
-              "editable": true
-            }
-          ],
-          "_idColors": {
-            "DXexkO63q2CPEPS7": 0,
-            "C8FCIRi4U1ttHRzq": 1
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "Number of Pizzas",
-          "yAttributeLabel": "Total Cost in Dollars"
+          "type": "Expression",
+          "latexStr": "\\frac{5pizzas}{65dollars}=\\frac{15pizzas}{195dollars}=\\frac{1pizza}{13dollars}"
         }
       },
       {
-        "id": "J7TO8BijQohPm9Sa",
-        "title": "Howdy Pizza",
+        "id": "2W48_qPL7CuHwQeX",
+        "title": "Howdy's Pizza",
         "content": {
-          "type": "Graph",
-          "adornments": [
-            {
-              "id": "ADRNFBLCd1ymjS8d",
-              "type": "Movable Line",
-              "isVisible": true,
-              "lines": {
-                "QJyoXzIq1fhlxaSj": {
-                  "equationCoords": {
-                    "x": 0.6149442821152352,
-                    "y": 1.3575028801843319
-                  },
-                  "intercept": 31.005600206214783,
-                  "slope": 11.271224056084364
-                }
-              }
-            }
-          ],
-          "axes": {
-            "bottom": {
-              "type": "numeric",
-              "place": "bottom",
-              "scale": "linear",
-              "min": 0,
-              "max": 10
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": 0,
-              "max": 130.91
-            }
-          },
-          "lockAxes": true,
-          "plotType": "scatterPlot",
-          "layers": [
-            {
-              "id": "LAYRERo8vT1F-YS4",
-              "config": {
-                "id": "DCONycFnH47Poz_d",
-                "dataset": "Ev_DW_bwbagOXQ4C",
-                "metadata": "lsaJj92l-QO3g2Iq",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "Zz4sorC0-ZbNj2ib",
-                    "type": "numeric"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "Q_sCEmAVxICAMMCa",
-                    "type": "numeric"
-                  }
-                ]
-              },
-              "editable": true
-            }
-          ],
-          "_idColors": {
-            "Q_sCEmAVxICAMMCa": 0,
-            "QJyoXzIq1fhlxaSj": 1
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "Number of Pizzas",
-          "yAttributeLabel": "Total Cost in Dollars"
+          "type": "Expression",
+          "latexStr": "\\frac{15pizzas}{195dollars}\\ne\\frac{5pizzas}{85dollars}"
         }
       },
       {
@@ -226,147 +76,10 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Eun Mi is correct. The costs for Howdy’s Pizza are not proportional. We can take two points from Royal Pizza and write a proportion. We cannot take two points from the graph of Howdy’s and write a proportion.</p>"
+            "<p>Carlos is correct. </p><p>Royal Pizza</p><p>You can use proportions to find pizza pricing for Royal Pizza. The relationship between the two quantities of pizza and cost is multiplicative. For every 1 pizza, it costs $13, or for every $1, you get 1/13 of a pizza. This relationship remains the same for all of Royal Pizza’s prices.</p><p>Howdy’s Pizza</p><p>The relationship between the pizza and cost is not purely multiplicative. There is a delivery fee added into the pricing. This means that you cannot use proportions to find the pricing. </p><p>We can adjust the quantities by not including the delivery fee. Then, we can use proportional thinking and scale the quantities and then add the delivery fee.</p><p> 15 pizzas for $165 + $30 delivery → 15 pizzas for $195</p><p>    ÷ 3                    ÷ 3</p><p> 5 pizzas for $55 + $30 delivery → 5 pizzas for $85</p><p>   ÷ 5                    ÷ 5</p><p> 1 pizza for $11 + $30 delivery → 1 pizza for $41</p>"
           ]
         }
       },
-      [
-        {
-          "id": "8y0WB6SON_cEZvqg",
-          "title": "Royal Pizza Proportion",
-          "display": "teacher",
-          "content": {
-            "type": "Expression",
-            "latexStr": "\\frac{1}{13}=\\frac{10}{130}"
-          }
-        },
-        {
-          "id": "lANQU54bhbtlfdyX",
-          "title": "Howdy Pizza Proportion",
-          "display": "teacher",
-          "content": {
-            "type": "Expression",
-            "latexStr": "\\frac{1}{41}\\ne\\frac{10}{140}"
-          }
-        }
-      ],
-      {
-        "id": "9vW3Q5SJNvxZRSwU",
-        "title": "Text 1",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>The graph of Howdy’s Pizza costs does not go through (0,0). Proportional situations will have graphs that go through the origin. Also, with a proportional situation, the point (1, ?) will identify the unit rate.</p>"
-          ]
-        }
-      },
-      [
-        {
-          "id": "TILE6bWIvudzzcUN",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><u>Note</u>: These graphs relate to the <em>Stretching and Shrinking</em> Problem 2.2 about Mug Hats. Students saw that adding to the rules moved the hats. It did not stretch or shrink them. Adding does not create similar figures because similarity is proportional, which means it is multiplicative.</p><p>Here, adding the $30 delivery fee slides the line up.</p><p>If we removed the $30 delivery fee, the graph would slide down. (See the red points.) And the costs would be proportional 1/11 = 2/22 = 10/110.</p><p>Note: In the next Unit, we will revisit both proportional and non-proportional graphs.</p>"
-            ]
-          }
-        },
-        {
-          "id": "Xcv3sJfSbXeMJfLs",
-          "title": "Royal and Howdy",
-          "content": {
-            "type": "Graph",
-            "adornments": [
-              {
-                "id": "ADRNfVsN0VCSkp_1",
-                "type": "Movable Line",
-                "isVisible": true,
-                "lines": {
-                  "B4muvvjh-My5Fd5y": {
-                    "equationCoords": {
-                      "x": 0.3735221940671937,
-                      "y": 1.4371759792626728
-                    },
-                    "intercept": 30.37183927761609,
-                    "slope": 10.48162491504792
-                  },
-                  "C8FCIRi4U1ttHRzq": {
-                    "equationCoords": {
-                      "x": 0.7488055960068063,
-                      "y": 1.3072836538461539
-                    },
-                    "intercept": -0.09255690588216225,
-                    "slope": 10.130502360559179
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "bottom": {
-                "type": "numeric",
-                "place": "bottom",
-                "scale": "linear",
-                "min": 0,
-                "max": 10
-              },
-              "left": {
-                "type": "numeric",
-                "place": "left",
-                "scale": "linear",
-                "min": 0,
-                "max": 150.05
-              }
-            },
-            "lockAxes": false,
-            "plotType": "scatterPlot",
-            "layers": [
-              {
-                "id": "LAYR3vGPbZfqZdrO",
-                "config": {
-                  "id": "DCONL_n3hhgz_Im5",
-                  "dataset": "UTZoDaBsjYwq5dZV",
-                  "metadata": "5HQc1EEDI2dJn8TD",
-                  "primaryRole": "x",
-                  "_attributeDescriptions": {
-                    "x": {
-                      "attributeID": "rLMBY2LGU3reCZV8",
-                      "type": "numeric"
-                    }
-                  },
-                  "_yAttributeDescriptions": [
-                    {
-                      "attributeID": "t_vidWV-ttTPwqUo",
-                      "type": "numeric"
-                    }
-                  ]
-                },
-                "editable": true
-              }
-            ],
-            "_idColors": {
-              "t_vidWV-ttTPwqUo": 0,
-              "C8FCIRi4U1ttHRzq": 1,
-              "B4muvvjh-My5Fd5y": 2
-            },
-            "_pointColors": [
-              "#E6805B"
-            ],
-            "_pointStrokeColor": "#FFFFFF",
-            "pointStrokeSameAsFill": false,
-            "plotBackgroundColor": "#FFFFFF",
-            "pointSizeMultiplier": 1,
-            "isTransparent": false,
-            "plotBackgroundImageID": "",
-            "showParentToggles": false,
-            "showMeasuresForSelection": false,
-            "xAttributeLabel": "Number of Pizzas",
-            "yAttributeLabel": "Total Cost in Dollars"
-          }
-        }
-      ],
       {
         "id": "Bk5loIa2APnEbij3",
         "content": {
@@ -405,8 +118,18 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Raffaele’s strategy is correct.</p><p>The unit rate is shown as the multiplier (coefficient). At Royal’s for 1 pizza, you pay $13.</p><p><u>Note: </u>This is an introduction to an equation that is not proportional. In the next Unit, we will look more closely at both proportional and non-proportional equations.</p>"
+            "<p>Raffaele’s strategy is correct.</p><p>The unit rate is shown as the multiplier (coefficient). At Royal’s for 1 pizza, you pay $13.</p><p><u>Note: </u>This is an introduction to an equation that is not proportional. In the next Unit, we will look more closely at both proportional and non-proportional equations.</p><p>If we use the equations to find costs for 5 and 10 pizzas, we can see Howdy&#x27;s is not proportional.</p>"
           ]
+        }
+      },
+      {
+        "id": "izcdCkym4ZmG1wDY",
+        "title": "Table of Equations",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "cas/images/rela.jpg",
+          "filename": "cas/images/rela.jpg"
         }
       }
     ],
@@ -426,7 +149,9 @@
                 "name": "Number of Pizzas",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -448,7 +173,9 @@
                 "name": "Total Cost ($)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -499,323 +226,12 @@
               {
                 "__id__": "01HE0R6GWBJDEJ53SJTF1F6G63"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
           "TILE_6QkhfA-CesC"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "fYMELwIALMQQv2An",
-          "providerId": "",
-          "dataSet": {
-            "id": "Ev_DW_bwbagOXQ4C",
-            "name": "Howdy's Cost Data",
-            "attributes": [
-              {
-                "id": "Zz4sorC0-ZbNj2ib",
-                "clientKey": "",
-                "name": "X Variable",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  1.00798164699135,
-                  2.0066290815168735,
-                  2.990106581274196,
-                  4.014819277693829,
-                  5.014872724269118,
-                  "",
-                  5.990199439518653
-                ],
-                "title": ""
-              },
-              {
-                "id": "Q_sCEmAVxICAMMCa",
-                "clientKey": "",
-                "name": "Y Variable 1",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  42.39631336405536,
-                  53.17972350230414,
-                  64.60829493087557,
-                  75.80645161290323,
-                  87.09677419354833,
-                  44.47004608294931,
-                  98.33331797235023
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01J090W569D093Y6B5VDX2RE0T"
-              },
-              {
-                "__id__": "01J090XNRDH3JFAWC873FFZXQ7"
-              },
-              {
-                "__id__": "01J090XSK0MN861XDGRDJM862P"
-              },
-              {
-                "__id__": "01J090YDDYSNJ0JDJ5RGBY48NW"
-              },
-              {
-                "__id__": "01J090YGWCPN4VXB8SFTNCBAFN"
-              },
-              {
-                "__id__": "01J0911T3M6FRNBE0GSG4AGWXE"
-              },
-              {
-                "__id__": "01J7C2CAPRA5DA6YB8NCYKPWJ5"
-              }
-            ]
-          }
-        },
-        "provider": "J7TO8BijQohPm9Sa",
-        "tiles": [
-          "J7TO8BijQohPm9Sa"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "lsaJj92l-QO3g2Iq",
-          "data": "Ev_DW_bwbagOXQ4C",
-          "collections": {},
-          "categories": {
-            "Zz4sorC0-ZbNj2ib": {
-              "attribute": "Zz4sorC0-ZbNj2ib",
-              "colors": {},
-              "moves": []
-            },
-            "Q_sCEmAVxICAMMCa": {
-              "attribute": "Q_sCEmAVxICAMMCa",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "J7TO8BijQohPm9Sa"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "Z8KRew7jamZ7MfMf",
-          "providerId": "",
-          "dataSet": {
-            "id": "FQC8Q6X_C5GCrpZF",
-            "name": "Added by hand",
-            "attributes": [
-              {
-                "id": "NoIlBOoExR67yO9w",
-                "clientKey": "",
-                "name": "X Variable",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  0.9980782598029194,
-                  2.044813345872347,
-                  3.0110303483979735,
-                  3.993350967632359,
-                  5.007878820284266,
-                  6.022406672936175,
-                  6.988623675461799
-                ],
-                "title": ""
-              },
-              {
-                "id": "DXexkO63q2CPEPS7",
-                "clientKey": "",
-                "name": "Y Variable 1",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  13.16603076923077,
-                  26.018584615384633,
-                  38.87113846153846,
-                  52.03716923076923,
-                  65.2032,
-                  78.36923076923077,
-                  89.6544
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01J7C277AW6P43DH1D2YYHGKT0"
-              },
-              {
-                "__id__": "01J7C27DWVP63JXE650T2ZEFJ8"
-              },
-              {
-                "__id__": "01J7C27N5B13SQ1A6J9KFJWGBG"
-              },
-              {
-                "__id__": "01J7C27V5V4EDXP7J0TBX7QQV4"
-              },
-              {
-                "__id__": "01J7C28C075690Q17S85WQ7C0W"
-              },
-              {
-                "__id__": "01J7C28HB3HF3ZVJXHV0X22ERP"
-              },
-              {
-                "__id__": "01J7C28RVXPX2YCSZAF2GFP95P"
-              }
-            ]
-          }
-        },
-        "provider": "0Dpc6k3gjBr82RrY",
-        "tiles": [
-          "0Dpc6k3gjBr82RrY"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "0B5tLZFLgMDHWSe_",
-          "data": "FQC8Q6X_C5GCrpZF",
-          "collections": {},
-          "categories": {
-            "NoIlBOoExR67yO9w": {
-              "attribute": "NoIlBOoExR67yO9w",
-              "colors": {},
-              "moves": []
-            },
-            "DXexkO63q2CPEPS7": {
-              "attribute": "DXexkO63q2CPEPS7",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "0Dpc6k3gjBr82RrY"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "_nWby-Nu7PJ0CLas",
-          "providerId": "",
-          "dataSet": {
-            "id": "UTZoDaBsjYwq5dZV",
-            "name": "Added by hand 1",
-            "attributes": [
-              {
-                "id": "rLMBY2LGU3reCZV8",
-                "clientKey": "",
-                "name": "X Variable",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  3.822036501543595,
-                  4.991552380732181,
-                  6.367038693655005,
-                  6.489893761055273,
-                  6.931444579151098,
-                  7.33206846620721,
-                  8.461993192891715,
-                  0.9551482402219007,
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "t_vidWV-ttTPwqUo",
-                "clientKey": "",
-                "name": "Y Variable 1",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  "",
-                  "",
-                  "",
-                  "",
-                  63.85105990783409
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXES"
-              },
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXET"
-              },
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEV"
-              },
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEW"
-              },
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEX"
-              },
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEY"
-              },
-              {
-                "__id__": "01J7C2EPZ1TJRPGS6BHAB0QXEZ"
-              },
-              {
-                "__id__": "01J7C2JBTWHXYS3RF2993TX139"
-              },
-              {
-                "__id__": "01J7C2JDZBEDC5NNZDRRFATBRE"
-              }
-            ]
-          }
-        },
-        "tiles": [
-          "Xcv3sJfSbXeMJfLs"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "5HQc1EEDI2dJn8TD",
-          "data": "UTZoDaBsjYwq5dZV",
-          "collections": {},
-          "categories": {
-            "rLMBY2LGU3reCZV8": {
-              "attribute": "rLMBY2LGU3reCZV8",
-              "colors": {},
-              "moves": []
-            },
-            "t_vidWV-ttTPwqUo": {
-              "attribute": "t_vidWV-ttTPwqUo",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "Xcv3sJfSbXeMJfLs"
         ]
       }
     ],
