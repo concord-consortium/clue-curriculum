@@ -1215,7 +1215,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 2-20</strong></p>"
+            "<p><strong>ACE 2-21</strong></p>"
           ]
         }
       },
@@ -1260,7 +1260,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 2-21</strong></p>"
+            "<p><strong>ACE 2-22</strong></p>"
           ]
         }
       },
@@ -1271,7 +1271,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Chemistry students analyzed the contents of rust. They found that it is made up of iron and oxygen. Tests on samples of rust gave the data in the table below.  </p>"
+            "<p>Chemistry students analyzed the contents of rust. They found that it is made up of iron and oxygen. Tests on samples of rust gave the data in the following table.  </p>"
           ]
         }
       },
@@ -1316,7 +1316,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 2-22</strong></p>"
+            "<p><strong>ACE 2-23</strong></p>"
           ]
         }
       },
@@ -1349,7 +1349,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Compare money spent on food eaten at home and food eaten away from home to the total amount spent on food each year.  Write statements for each year.</p><p><strong>b.  </strong>Explain how the statements you wrote in part (a) show the money spent on food away from home increasing or decreasing in relation to the total spent on food.  </p>"
+            "<p><strong>a.  </strong>Compare money spent on food eaten at home and food eaten away from home to the total amount spent on food each year.  Write statements for each year.</p><p><strong>b.  </strong>Explain how the statements you wrote in part (<strong>a</strong>) show the money spent on food away from home increasing or decreasing in relation to the total spent on food.  </p>"
           ]
         }
       },
@@ -1372,7 +1372,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 2-23</strong></p>"
+            "<p><strong>ACE 2-24</strong></p>"
           ]
         }
       },
@@ -1392,9 +1392,9 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "2oOu1HVe8Pfvg0kl": 128,
-            "SxuvH_Hva74T9J8C": 142,
-            "2TzKsBeu4oZ8-L46": 145
+            "2oOu1HVe8Pfvg0kl": 153,
+            "SxuvH_Hva74T9J8C": 184,
+            "2TzKsBeu4oZ8-L46": 196
           }
         }
       },
@@ -1417,7 +1417,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Answers may vary. Sample answer: You first need to change life span, which is measured by years, to be measured by days. This can be done by multiplying the number of years for life span by 365 (or you can convert the number of gestation days into years). You can then compare the magnitude of the multiplicative increase by converting the ratio into a decimal (See Figure 2).</p><p><strong>Note: </strong>Students may also use strategies such as fractions or percentages to make this comparison. For any of these strategies, the life span does not have to be converted to days to make a comparison.</p>"
+            "<p><strong>a.  </strong> Answers may vary. Sample answer: You first need to change life span, which is measured by years, to be measured by days. This can be done by multiplying the number of years for life span by 365 (or you can convert the number of gestation days into years). You can then compare the magnitude of the multiplicative increase by converting the ratio into a decimal. </p><p><strong>Note:</strong> Students may also use strategies such as fractions or percentages to make this comparison. For any of these strategies, the life span does not have to be converted to days to make a comparison.</p>"
           ]
         }
       },
@@ -1447,57 +1447,81 @@
           ]
         }
       },
-      [
-        {
-          "id": "5ts5vAHzRDg_TTD9",
-          "title": "Gestations and Life Spans of Selected Mammals",
-          "display": "teacher",
-          "content": {
-            "type": "Geometry",
-            "isNavigatorVisible": true,
-            "navigatorPosition": "bottom",
-            "offsetX": 0,
-            "offsetY": 0,
-            "zoom": 1,
-            "board": {
-              "xAxis": {
-                "name": "Gestation (days)",
-                "label": "",
-                "min": 67.95833333333334,
-                "unit": 0.7250755287009063,
-                "range": 662
-              },
-              "yAxis": {
-                "name": "Life span (days)",
-                "label": "",
-                "min": -1,
-                "unit": 0.025045002739297176,
-                "range": 12777
-              }
-            },
-            "objects": {},
-            "pointMetadata": {},
-            "linkedAttributeColors": {
-              "ImV6vcy9NKDx-Dhx": 2,
-              "1WkgrGowN56VHD3A": 1
-            }
-          },
-          "layout": {
-            "height": 398
-          }
-        },
-        {
-          "id": "Vej_d6kruUPAwFJI",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "ImV6vcy9NKDx-Dhx": 128,
-              "1WkgrGowN56VHD3A": 99
-            }
+      {
+        "id": "Vej_d6kruUPAwFJI",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "ImV6vcy9NKDx-Dhx": 128,
+            "1WkgrGowN56VHD3A": 99
           }
         }
-      ],
+      },
+      {
+        "id": "wNVSh-HN7y59SY54",
+        "title": "Gestation Times and Life Spans of Selected Mammals",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 14000
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRm-Ew03n_6Q6T",
+              "config": {
+                "id": "DCONtW_adxPdUu0K",
+                "dataset": "4wfHA9HXWw_3V0Ra",
+                "metadata": "64RfhMzrgv_qUAs8",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "ImV6vcy9NKDx-Dhx",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "1WkgrGowN56VHD3A"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "1WkgrGowN56VHD3A": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Gestation (days)",
+          "yAttributeLabel": "Life Span (days)"
+        }
+      },
       {
         "id": "9vGpcHuVTKeu3V6G",
         "title": "Text 57",
@@ -1517,7 +1541,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 2-24</strong></p>"
+            "<p><strong>ACE 2-25</strong></p>"
           ]
         }
       },
@@ -1566,7 +1590,7 @@
       },
       {
         "id": "yqDggKL8bSIDe8l6",
-        "title": "ACE 2-24 B Answer #1",
+        "title": "ACE 2-25 B Answer #1",
         "display": "teacher",
         "content": {
           "type": "Expression",
@@ -1575,7 +1599,7 @@
       },
       {
         "id": "jKYLhUV45YYACTVS",
-        "title": "ACE 2-24 B Answer #2",
+        "title": "ACE 2-25 B Answer #2",
         "display": "teacher",
         "content": {
           "type": "Expression",
@@ -1584,7 +1608,7 @@
       },
       {
         "id": "-7QaiaqfryktIi6z",
-        "title": "ACE 2-24 B Answer #3",
+        "title": "ACE 2-25 B Answer #3",
         "display": "teacher",
         "content": {
           "type": "Expression",
@@ -1593,41 +1617,11 @@
       },
       {
         "id": "YVVdHWeOHidIIMmW",
-        "title": "ACE 2-24 B Answer #4",
+        "title": "ACE 2-25 B Answer #4",
         "display": "teacher",
         "content": {
           "type": "Expression",
           "latexStr": "V=\\frac{240}{n}"
-        }
-      },
-      {
-        "id": "50dNGrKv9lHTpTVf",
-        "title": "Image 1",
-        "content": {
-          "type": "Image",
-          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
-        }
-      },
-      {
-        "id": "GaEnsmLi7tL3-FGN",
-        "title": "Text 63",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
-        }
-      },
-      {
-        "id": "6PnylM6DzN8Tn8jX",
-        "title": "Text 66",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
         }
       }
     ],
@@ -2572,7 +2566,7 @@
         },
         "tiles": [
           "Vej_d6kruUPAwFJI",
-          "5ts5vAHzRDg_TTD9"
+          "wNVSh-HN7y59SY54"
         ]
       },
       {
@@ -2772,6 +2766,31 @@
         },
         "tiles": [
           "8wVAldECkgZAliVC"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "64RfhMzrgv_qUAs8",
+          "data": "4wfHA9HXWw_3V0Ra",
+          "collections": {},
+          "categories": {
+            "ImV6vcy9NKDx-Dhx": {
+              "attribute": "ImV6vcy9NKDx-Dhx",
+              "colors": {},
+              "moves": []
+            },
+            "1WkgrGowN56VHD3A": {
+              "attribute": "1WkgrGowN56VHD3A",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "wNVSh-HN7y59SY54"
         ]
       }
     ],
