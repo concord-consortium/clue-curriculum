@@ -31,7 +31,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Find the sales tax</p><p><strong>a.  </strong>A sweater for $36.00 at 7% sales tax.</p><p><strong>b.  </strong>A skateboard for $62.80 at 6% sales tax.</p><p><strong>c.  </strong>A baseball hat for $22.90 at 5% sales tax.</p><p><strong>d.  </strong>A digital camera for $249.99 at 4% sales tax.</p><p><strong>e.  </strong>A board game for $29.95 at 8% sales tax.</p>"
+            "<p>Find the sales tax for each situation.</p><p><strong>a.  </strong>A sweater for $36.00 at 7% sales tax.</p><p><strong>b.  </strong>A skateboard for $62.80 at 6% sales tax.</p><p><strong>c.  </strong>A baseball hat for $22.90 at 5% sales tax.</p><p><strong>d.  </strong>A digital camera for $249.99 at 4% sales tax.</p><p><strong>e.  </strong>A board game for $29.95 at 8% sales tax.</p>"
           ]
         }
       },
@@ -212,7 +212,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Jeffrey ate dinner at his favorite restaurant.  The cost of the meal was $22.75 before tax and tip.  What would the total cost be if the tax was 5% and then he left a 15% tip on top of that? </p>"
+            "<p>Jamar ate dinner at his favorite restaurant.  The cost of the meal was $22.75 before tax and tip.  What would the total cost be if the tax was 5% and then he left a 15% tip on top of that? </p>"
           ]
         }
       },
@@ -246,7 +246,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Frida went to Joseph’s Neighborhood Restaurant.  She ordered tableside guacamole, fajitas, a side of sour cream, and a beverage.  What is the total bill if the tax is 6% and she leaves a 15% tip on top of that?  </p>"
+            "<p>Noelle went to Joseph’s Neighborhood Restaurant.  She ordered tableside guacamole, fajitas, a side of sour cream, and a beverage.  What is the total bill if the tax is 6% and she leaves a 15% tip on top of that?  </p>"
           ]
         }
       },
@@ -324,17 +324,81 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Alicia, Brandon, and Charlene wanted to solve the proportion x/4.24 = 6.82/2.2.  Which of the students used a correct method?</p><p><strong>b.  </strong>Of the correct methods, which makes the most sense to you?  Explain your choice.</p>"
+            "<p><strong>a.  </strong>Alicia, Brandon, and Serena wanted to solve the proportion x/4.24 = 6.82/2.2.  Which of the students used a correct method?</p><p><strong>b.  </strong>Of the correct methods, which makes the most sense to you?  Explain your choice.</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "bdZrIrmfXYiEJUBq",
+          "title": "Text 78",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Alicia</em></p><p>First, I simplified the fraction on the right.</p><p> x/424  = 3.1</p><p>Then, I multiplied 3.1 by 4.24 to find x.</p>"
+            ]
+          }
+        },
+        {
+          "id": "bABMbYXE6V3nzGHL",
+          "title": "Text 79",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Serena</em></p><p>I figured out that 6.82 − 2.2  = 4.62. So the numerator  in the right fraction was  4.62 greater than the denominator. This means  that x = 4.24 + 4.62, or 8.86.</p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "dg7RVxik2qTSrG3x",
+        "title": "Text 80",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Brandon</em></p><p>I multiplied all the values by 100 to eliminate the decimals.</p>"
           ]
         }
       },
       {
-        "id": "mJ09a_DrdbwYtDRs",
-        "title": "Alicia, Brandon, and Charlene's Methods",
+        "id": "cZPeT0GnAR_aACu6",
+        "title": "Brandon Equation 1",
         "content": {
-          "type": "Image",
-          "url": "cas/images/abc.png",
-          "filename": "cas/images/abc.png"
+          "type": "Expression",
+          "latexStr": "\\frac{100x}{424}=\\frac{682}{220}"
+        }
+      },
+      {
+        "id": "O44ysDLInO5TxUk_",
+        "title": "Text 81",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Then, I multiplied both sides by 424.</p>"
+          ]
+        }
+      },
+      {
+        "id": "eoRPGMsVv7g2Ar-q",
+        "title": "Brandon Equation 2",
+        "content": {
+          "type": "Expression",
+          "latexStr": "100x=424\\times\\frac{682}{220}"
+        }
+      },
+      {
+        "id": "rNEJUbyhLyjxd_RQ",
+        "title": "Text 82",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>I simplified the fraction on the right.</p><p>100x = 1,314.4</p><p>Then, I divided both sides by 100.</p><p>x = 1,314.4/100</p>"
+          ]
         }
       },
       {
@@ -345,7 +409,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Both Alicia’s and Brandon’s methods are correct. In Alicia’s method, simplifying one side allows you to solve the problem by “undoing” the division on the left side. Brandon’s method works because he simply scales each of the values by 100, which does not change the multiplicative relationship between quantities in the proportion. </p><p><strong>Note:</strong> There is nothing special about 100. Any nonzero quantity will work the same way. Charlene’s method does not work because the proportion has a multiplicative, not additive, relationship.</p><p><strong>b.  </strong>Answers will vary</p>"
+            "<p><strong>a.  </strong>Both Alicia’s and Brandon’s methods are correct. In Alicia’s method, simplifying one side allows you to solve the problem by “undoing” the division on the left side. Brandon’s method works because he simply scales each of the values by 100, which does not change the multiplicative relationship between quantities in the proportion.</p><p><strong>Note: </strong>There is nothing special about 100. Any nonzero quantity will work the same way. Serena’s method does not work because the proportion has a multiplicative, not additive, relationship.</p><p><strong>b.  </strong>Answers will vary</p>"
           ]
         }
       },
@@ -456,7 +520,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>What is the rate of water dripping in mL per minute?</p><p><strong>b.  </strong>At this rate how much water is lost in a day? A year?</p>"
+            "<p><strong>a.  </strong>What is the rate of water dripping in milliliters per minute?</p><p><strong>b.  </strong>At this rate how much water is lost in a day? A year?</p>"
           ]
         }
       },
@@ -473,13 +537,13 @@
         }
       },
       {
-        "id": "0_XucBADMt3DabuR",
-        "title": "Image 1",
+        "id": "_awhvlPpja6ygtCk",
+        "title": "Leaky Faucet Experiment",
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "cas/images/screenshot-2024-12-30-at-10.41.28 pm.png",
-          "filename": "cas/images/screenshot-2024-12-30-at-10.41.28 pm.png"
+          "url": "cas/images/leaku.jpg",
+          "filename": "cas/images/leaku.jpg"
         }
       },
       {
@@ -539,7 +603,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Rachael’s watch can check her pulse rate.  It told her that her pulse rate was 17 beats in 15 seconds.  What is her pulse rate in one minute?</p>"
+            "<p>Fernanda’s watch can check her pulse rate.  It told her that her pulse rate was 17 beats in 15 seconds.  What is her pulse rate in one minute?</p>"
           ]
         }
       },
@@ -613,9 +677,9 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "Cg0v-4KD3W4Lzqfh": 80,
-            "-ECafwJr1YeCICXh": 105,
-            "Wj6YxL4GpCgxTCOm": 94
+            "Cg0v-4KD3W4Lzqfh": 118,
+            "-ECafwJr1YeCICXh": 121,
+            "Wj6YxL4GpCgxTCOm": 125
           }
         }
       },
@@ -660,7 +724,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Erin is buying a shirt that costs $21 and has a 5% sales tax.  She calculates the tax as $0.05 x 21 = 1.05, or $1.05</p><p>Erin notices that she can add 21 + 1.05 = 22.05 to find the total cost, $22.05.  She used the Distributive Property to write (1 x 21) + (0.05 x 21) = 1.05 x 21.</p><p>For each item below, write the total cost of the item as the product of two numbers.  </p>"
+            "<p>Jun is buying a shirt that costs $21 and has a 5% sales tax.  She calculates the tax as $0.05 x 21 = 1.05, or $1.05</p><p>Jun notices that she can add 21 + 1.05 = 22.05 to find the total cost, $22.05.  She used the Distributive Property to write (1 x 21) + (0.05 x 21) = 1.05 x 21.</p><p>For each item below, write the total cost of the item as the product of two numbers.  </p>"
           ]
         }
       },
@@ -669,8 +733,8 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "aDr5pkD9ajXscXGl": 80,
-            "1hN0rBKVoxTh1KOf": 80,
+            "aDr5pkD9ajXscXGl": 104,
+            "1hN0rBKVoxTh1KOf": 92,
             "WQTi9-vNpKaoT7cJ": 80,
             "sIeh4sbWeQWQrpKu": 80
           }
@@ -753,7 +817,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>No, Bill’s method will not work. Students may provide an example, such as a $100 item. The discount on a $100 item would be $6. The tax would then be calculated from the $94 discounted price, not on the original $100. So, the final sale price would be $99.64.</p><p><strong>b. </strong> It does not matter which is applied first, the discount or the tax. Take an item with a starting price of P. If you take the discount before the tax, the equation is 1.06 × (0.94P) = 0.9964P. If you calculate the tax and then the discount, the equation is 0.94 × (1.06P) = 0.9964P. This is because the expression is the product of three values. The values  can commute.</p>"
+            "<p><strong>a.  </strong>No, Bill’s method will not work. Students may provide an example, such as a $100 item. The discount on a $100 item would be $6. The tax would then be calculated from the $94 discounted price, not on the original $100. So, the final sale price would be $99.64.</p><p><strong>b. </strong> It does not matter which is applied first, the discount or the tax. Take an item with a starting price of P. If you take the discount before the tax, the equation is 1.06 × (0.94P) = 0.9964P. If you calculate the tax and then the discount, the equation is 0.94 × (1.06P) = 0.9964P. This is because the expression is the product of three values. The values can commute.</p>"
           ]
         }
       },
@@ -818,7 +882,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Hannah is making her own circular spinner. She makes the ratio of green to yellow 2 : 1, the ratio of red to yellow 3 : 1, and the ratio of blue to green 2 : 1. Make a sketch of her spinner.</p>"
+            "<p>Nevaeh is making her own circular spinner. She makes the ratio of green to yellow 2 : 1, the ratio of red to yellow 3 : 1, and the ratio of blue to green 2 : 1. Make a sketch of her spinner.</p>"
           ]
         }
       },
@@ -851,7 +915,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 3-21 to 3-23 are about ways to mix food for different primates at the zoo.  </strong></p>"
+            "<p><strong>ACE 3-21 to 3-23 are about ways to mix food for different primates at a chimpanzee sanctuary.  </strong></p>"
           ]
         }
       },
@@ -1167,7 +1231,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Mackenzie was given the following graph of the mix ratio for adult baboon food at the zoo.</p>"
+            "<p>Mackenzie was given the following graph of the mix ratio for adult baboon food at a chimpanzee sanctuary.</p>"
           ]
         }
       },
@@ -1268,7 +1332,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Paula hears the water dripping in a faucet. She counts one drip every 5 seconds. How many drips are there in an hour? </p><p><strong>b.  </strong>If there are 120 drips of water in 1 ounce, how many ounces of water is dripping out of the faucet in an hour?</p><p><strong>c.  </strong> How many drips in a gallon? </p><p><strong>d.  </strong> How long does it take for a gallon of water to drip out of the sink?  </p><p><strong>e.   </strong>How much water drips out in one week (7 days)? </p>"
+            "<p><strong>a.  </strong>Ana hears the water dripping in a faucet. She counts one drip every 5 seconds. How many drips are there in an hour? </p><p><strong>b.  </strong>If there are 120 drips of water in 1 ounce, how many ounces of water is dripping out of the faucet in an hour?</p><p><strong>c.  </strong> How many drips in a gallon? </p><p><strong>d.  </strong> How long does it take for a gallon of water to drip out of the faucet?  </p><p><strong>e.   </strong>How much water drips out in one week (7 days)? </p>"
           ]
         }
       },
@@ -1341,6 +1405,15 @@
         }
       },
       {
+        "id": "cqb9nTPCxHvh2Gx9",
+        "title": "Avocado",
+        "content": {
+          "type": "Image",
+          "url": "cas/images/avo.jpg",
+          "filename": "cas/images/avo.jpg"
+        }
+      },
+      {
         "id": "Rk0woor9OvFFdLXW",
         "title": "Text 62",
         "display": "teacher",
@@ -1372,6 +1445,15 @@
           "text": [
             "<p>There are about 1.5 grams of fat in 1 tablespoon of hummus.  How many grams of fat are in 2½ cups of hummus?  (Note:  16 tablespoons = 1 cup)</p>"
           ]
+        }
+      },
+      {
+        "id": "SGcWQ_6l5Af0uwJb",
+        "title": "Hummus",
+        "content": {
+          "type": "Image",
+          "url": "cas/images/hummus.jpg",
+          "filename": "cas/images/hummus.jpg"
         }
       },
       {
@@ -1437,7 +1519,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Use differences to compare the two centers’ camp programs for boys and girls.  Which center seems to offer a program that appeals more to girls?</p><p><strong>b.  </strong>Use fractions to compare the two centers camp programs for boys and girls. Which center seems to offer a program that appeals more to girls?  </p><p><strong>c.  </strong>Use percents to compare the two centers’ camp programs for boys and girls.  Which center seems to offer a program that appeals more to girls?</p><p><strong>d.  </strong>Use ratios to compare the appeal of the two centers’ camp programs for boys and girls.  Which center seems to offer a program that appeals more to girls?  </p>"
+            "<p><strong>a.  </strong>Use differences to compare the two centers’ camp programs for 7th graders and 8th graders.  Which center seems to offer a program that appeals more to 8th graders?</p><p><strong>b.  </strong>Use fractions to compare the two centers camp programs for 7th graders and 8th graders. Which center seems to offer a program that appeals more to 8th graders?  </p><p><strong>c.  </strong>Use percents to compare the two centers’ camp programs for 7th graders and 8th graders.  Which center seems to offer a program that appeals more to 8th graders?</p><p><strong>d.  </strong>Use ratios to compare the appeal of the two centers’ camp programs for 7th graders and 8th graders.  Which center seems to offer a program that appeals more to 8th graders?  </p>"
           ]
         }
       },
@@ -1449,7 +1531,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>Answers will vary. Sample answer: The camps were relatively close in terms of the difference between boys and girls. 45 more girls attended Camp Green than Camp Blue. 55 more boys attended Camp Green than Camp Blue. There were 50 more boys than girls at Camp Green and 40 more boys than girls at Camp Blue. Since 45 more girls attended Camp Green than Camp Blue, Camp Green must appeal more to girls.</p><p><strong>b.  </strong>Answers will vary. Sample answer: The total number of campers at Camp Green is 125 + 75 = 200. The fraction of boys at Camp Green is then 125/200 = 5/8. The fraction for girls at Camp Green is 75/200 = 3/8. The total for Camp Blue is 70 + 30 = 100. The fraction of boys at Camp Blue is 70/100 = 7/10 and the fraction of girls at Camp Blue is  30/100 = 3/10. You can then compare fractions with like denominators, for example, compare 5/8 = 25/40 for boys at Camp Green to 3/8 = 15/40 for girls at Camp Green. 7/10 and 3/10 for Camp Blue become 28/40 boys and 12/40 girls for Camp Blue. Since 15/40 of the campers at Camp Green were girls, and only 12/40 of the campers at Camp Blue were girls, then Camp Green must appeal more to girls than Camp Blue.</p><p><strong>c.  </strong>Answers will vary. Sample answer: 62.5% of campers at Camp Green were boys, and 70% of campers at Camp Blue were boys. 37.5% of campers at Camp Green were girls and 30% at Camp Blue were girls. The percentage of campers who were girls is greater for Camp Green than Camp Blue, so Camp Green must appeal more to girls.</p><p><strong>d.  </strong>Answers will vary. Sample answer: The ratio of 5 to 3 describes boys to girls at Camp Green. A ratio of 7 to 3 describes boys to girls at Camp Blue. The ratio of boys to girls is greater at Camp Blue than Camp Green, so Camp Green must appeal more to girls than Camp Blue.</p>"
+            "<p><strong>a.  </strong>Answers will vary. Sample answer: The camps were relatively close in terms of the difference between 7th graders and 8th graders. 45 more 8th graders attended Camp Green than Camp Blue. 55 more 7th graders attended Camp Green than Camp Blue. There were 50 more 7th graders than 8th graders at Camp Green and 40 more 7th graders than 8th graders at Camp Blue. Since 45 more 8th graders attended Camp Green than Camp Blue, Camp Green must appeal more to 8th graders.</p><p><strong>b.  </strong>Answers will vary. Sample answer: The total number of campers at Camp Green is 125 += 200. The fraction of 7th graders at Camp Green is then 125/200 = 5/8. The fraction for 8th graders at Camp Green is 75/200 = 3/8. The total for Camp Blue is 70 + 30 = 100. The fraction of 7th graders at Camp Blue is 70/100 = 7/10 and the fraction of 8th graders at Camp Blue is  30/100 = 3/10. You can then compare fractions with like denominators, for example, compare 5/8 = 25/40 for 7th graders at Camp Green to 3/8 = 15/40 for 8th graders at Camp Green. 7/10 and 3/10 for Camp Blue become 28/40 7th graders and 12/40 8th graders for Camp Blue. Since 15/40 of the campers at Camp Green were 8th graders, and only 12/40 of the campers at Camp Blue were 8th graders, then Camp Green must appeal more to 8th graders than Camp Blue.</p><p><strong>c.  </strong>Answers will vary. Sample answer: 62.5% of campers at Camp Green were  7th graders, and 70% of campers at Camp Blue were 7th graders. 37.5% of campers at Camp Green were 8th graders and 30% at Camp Blue were 8th graders. The percentage of campers who were 8th graders is greater for Camp Green than Camp Blue, so Camp Green must appeal more to 8th graders.</p><p><strong>d.  </strong>Answers will vary. Sample answer: The ratio of 5 to 3 describes 7th graders to 8th graders at Camp Green. A ratio of 7 to 3 describes 7th graders to 8th graders at Camp Blue. The ratio of 7th graders to 8th graders is greater at Camp Blue than Camp Green, so Camp Green must appeal more to 8th graders than Camp Blue.</p>"
           ]
         }
       },
@@ -1460,7 +1542,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>For ACE 3-29 to 3-32 use the following information.  </strong></p><p><strong>Bill’s Bikes sells used bikes. Bill buys used bikes, fixes them, and marks up the prices by 80%. The salesperson selling the bikes gets a 25% commission on the markup.</strong></p>"
+            "<p><strong>For ACE 3-29 to 3-32 use the following information.  </strong></p><p><strong>Barney’s Bikes sells used bikes. Barney buys used bikes, fixes them, and marks up the prices by 80%. The salesperson selling the bikes gets a 25% commission on the markup.</strong></p>"
           ]
         }
       },
@@ -1482,7 +1564,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Roberto is a salesperson at Bill’s Bikes. Find the missing values in the table for Roberto’s sales.  </p>"
+            "<p>Roberto is a salesperson at Barney’s Bikes. Find the missing values in the table for Roberto’s sales.  </p>"
           ]
         }
       },
@@ -1531,7 +1613,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Linda is a salesperson at Bill’s Bikes. Find the missing values in the table for Linda’s sales.  </p>"
+            "<p>Linda is a salesperson at Barney’s Bikes. Find the missing values in the table for Linda’s sales.  </p>"
           ]
         }
       },
@@ -1621,7 +1703,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For each part in the diagram in ACE 3-33, write two equations for the listed relationship.  </p><p><strong>a.  </strong>The markup amount and the buying price</p><p><strong>b.  </strong>The buying price and the selling price</p><p><strong>c.  </strong>The commission and the markup amount</p><p><strong>d.  </strong>The profit and the commission</p>"
+            "<p>For each part in the diagram in ACE 3-31, write two equations for the listed relationship.  </p><p><strong>a.  </strong>The markup amount and the buying price</p><p><strong>b.  </strong>The buying price and the selling price</p><p><strong>c.  </strong>The commission and the markup amount</p><p><strong>d.  </strong>The profit and the commission</p>"
           ]
         }
       },
@@ -1677,7 +1759,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>In which sport do boys most outnumber girls?</p><p><strong>b.  </strong>In which sport do girls most outnumber boys?</p><p><strong>c.  </strong>The participation in these team sports is about the same for students at Key Middle School. </p><ul><li>Suppose 250 boys at Key Middle School play sports. How many boys would you expect to play each of the three sports?</li><li>Suppose 240 girls at Key Middle School play sports.  How many girls would you expect to play each of the three sports?  </li></ul>"
+            "<p><strong>a.  </strong>In which sport do 6th grader most outnumber 7th graders?</p><p><strong>b.  </strong>In which sport do 7th graders most outnumber 6th graders?</p><p><strong>c.  </strong>The participation in these team sports is about the same for students at Key Middle School. </p><ul><li>Suppose 250 6th graders at Key Middle School play sports. How many 6th graders would you expect to play each of the three sports?</li><li>Suppose 240 7th graders at Key Middle School play sports.  How many 7th graders would you expect to play each of the three sports?  </li></ul>"
           ]
         }
       },
@@ -1689,7 +1771,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>football; The ratio of boys to girls is 6 : 1, the most extreme ratio of all the sports</p><p><strong>b.  </strong>soccer</p><p><strong>c.  </strong></p><ul><li>rounded to the nearest whole number, basketball = 89, football = 67, soccer = 94</li><li>rounded to the nearest whole number, basketball = 45, football = 15, soccer = 180</li></ul>"
+            "<p><strong>a.  </strong>football; The ratio of 6th graders to 7th graders is 1 : 6, the most extreme ratio of all the sports</p><p><strong>b.  </strong>soccer</p><p><strong>c.  </strong></p><ul><li>rounded to the nearest whole number, basketball = 89, football = 67, soccer = 94</li><li>rounded to the nearest whole number, basketball = 45, football = 15, soccer = 180</li></ul>"
           ]
         }
       },
@@ -1744,7 +1826,9 @@
                 "name": "Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Tableside Guacamole",
                   "Queso Dip and Chips",
@@ -1763,7 +1847,9 @@
                 "name": "Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$11",
                   "$7.25",
@@ -1802,7 +1888,8 @@
               {
                 "__id__": "s5epml1Ikpv3uMI-"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -1824,7 +1911,9 @@
                 "name": "Number of Seconds",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "5",
@@ -1848,7 +1937,9 @@
                 "name": "Amount of Water (mL)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "8",
                   "17",
@@ -1907,7 +1998,8 @@
               {
                 "__id__": "rc1ZYICU31pqq255"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -1929,7 +2021,9 @@
                 "name": "Player",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Denzel",
                   "Mitchell",
@@ -1944,7 +2038,9 @@
                 "name": "Attempts",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "15",
                   "10",
@@ -1959,7 +2055,9 @@
                 "name": "Baskets",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "10",
                   "5",
@@ -1982,7 +2080,8 @@
               {
                 "__id__": "d2Q0CuauMXN-koll"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2004,7 +2103,9 @@
                 "name": "Item Name",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "shirt",
                   "bicycle",
@@ -2021,7 +2122,9 @@
                 "name": "Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$21.00",
                   "$45.90",
@@ -2038,7 +2141,9 @@
                 "name": "Tax Rate",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5%",
                   "7%",
@@ -2055,7 +2160,9 @@
                 "name": "Tax",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1.05x21",
                   null,
@@ -2086,7 +2193,8 @@
               {
                 "__id__": "m6eVQMU4SlY_B7rH"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2108,7 +2216,9 @@
                 "name": "Item Name",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "shirt",
                   "bicycle",
@@ -2125,7 +2235,9 @@
                 "name": "Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$21.00",
                   "$45.90",
@@ -2142,7 +2254,9 @@
                 "name": "Tax Rate",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5%",
                   "7%",
@@ -2159,7 +2273,9 @@
                 "name": "Tax",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1.05x21",
                   "1.07x45.90",
@@ -2190,7 +2306,8 @@
               {
                 "__id__": "01HEHBTAWJD3GFAVC0R59BCRHS"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2212,7 +2329,9 @@
                 "name": "Scoops of High-Protein Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "21",
                   "24",
@@ -2228,7 +2347,9 @@
                 "name": "Scoops of High-Fiber Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "7",
                   "8",
@@ -2255,7 +2376,8 @@
               {
                 "__id__": "ur7uWddaD-Tfzcsz"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2277,7 +2399,9 @@
                 "name": "Scoops of High-Protein Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   "14",
@@ -2293,7 +2417,9 @@
                 "name": "Scoops of High-Fiber Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "3",
                   null,
@@ -2320,7 +2446,8 @@
               {
                 "__id__": "TGv4mY_HRctyYSag"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2342,7 +2469,9 @@
                 "name": "Scoops of High-Protein Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "7",
                   "14",
@@ -2358,7 +2487,9 @@
                 "name": "Scoops of High-Fiber Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "3",
                   "6",
@@ -2385,7 +2516,8 @@
               {
                 "__id__": "01HEHCKM2ZVZ552VE94ZR0MBYT"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2407,7 +2539,9 @@
                 "name": "Scoops of High-Fiber Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "6",
                   "12",
@@ -2422,7 +2556,9 @@
                 "name": "Scoops of High-Protein Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5",
                   "10",
@@ -2445,7 +2581,8 @@
               {
                 "__id__": "vuWqAaW-09PXFPaP"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2468,10 +2605,12 @@
                 "name": "Students",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
-                  "Boys",
-                  "Girls"
+                  "7th Graders",
+                  "8th Graders"
                 ],
                 "title": ""
               },
@@ -2481,7 +2620,9 @@
                 "name": "Green",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "125",
                   "75"
@@ -2494,7 +2635,9 @@
                 "name": "Blue",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "70",
                   "30"
@@ -2509,7 +2652,8 @@
               {
                 "__id__": "TLmEYKUszpsr_qcL"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2531,7 +2675,9 @@
                 "name": "Buying Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$100",
                   "$10",
@@ -2546,7 +2692,9 @@
                 "name": "Markup (80% of buying price)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$80",
                   null,
@@ -2561,7 +2709,9 @@
                 "name": "Selling Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$180",
                   null,
@@ -2576,7 +2726,9 @@
                 "name": "Commission (25% of markup)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$20",
                   null,
@@ -2591,7 +2743,9 @@
                 "name": "Profit (money the shop makes on the sale)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$60",
                   null,
@@ -2614,7 +2768,8 @@
               {
                 "__id__": "Xl877TH5078Cx2vv"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2636,7 +2791,9 @@
                 "name": "Buying Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$100",
                   "$10",
@@ -2651,7 +2808,9 @@
                 "name": "Markup (80% of buying price)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$80",
                   "$8",
@@ -2666,7 +2825,9 @@
                 "name": "Selling Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$180",
                   "$18",
@@ -2681,7 +2842,9 @@
                 "name": "Commission (25% of markup)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$20",
                   "$2",
@@ -2696,7 +2859,9 @@
                 "name": "Profit (money the shop makes on the sale)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$60",
                   "$6",
@@ -2719,7 +2884,8 @@
               {
                 "__id__": "01HEHEB0C1JZFDGZWV7DVEZ31M"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2741,7 +2907,9 @@
                 "name": "Buying Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -2757,7 +2925,9 @@
                 "name": "Markup (80% of buying price)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$48",
                   null,
@@ -2773,7 +2943,9 @@
                 "name": "Selling Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "$252",
@@ -2789,7 +2961,9 @@
                 "name": "Commission (25% of markup)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   null,
@@ -2805,7 +2979,9 @@
                 "name": "Profit (money the shop makes on the sale)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   null,
@@ -2832,7 +3008,8 @@
               {
                 "__id__": "Wmdji7ltqkxNeBWY"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2854,7 +3031,9 @@
                 "name": "Buying Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$60",
                   "$140",
@@ -2870,7 +3049,9 @@
                 "name": "Markup (80% of buying price)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$48",
                   "$112",
@@ -2886,7 +3067,9 @@
                 "name": "Selling Price",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$108",
                   "$252",
@@ -2902,7 +3085,9 @@
                 "name": "Commission (25% of markup)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$12",
                   "$28",
@@ -2918,7 +3103,9 @@
                 "name": "Profit (money the shop makes on the sale)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$36",
                   "$84",
@@ -2945,7 +3132,8 @@
               {
                 "__id__": "01HEHEF97FMHYDZ0VTQX77GC5D"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -2967,7 +3155,9 @@
                 "name": "Sport",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Basketball",
                   "Football",
@@ -2979,10 +3169,12 @@
               {
                 "id": "RBnttP4gzJV-nbAA",
                 "clientKey": "",
-                "name": "Girls",
+                "name": "6th graders",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "30",
                   "10",
@@ -2994,10 +3186,12 @@
               {
                 "id": "_NyLwDnvn1HvSHoJ",
                 "clientKey": "",
-                "name": "Boys",
+                "name": "7th graders",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "80",
                   "60",
@@ -3020,7 +3214,8 @@
               {
                 "__id__": "e0VxvANdpJY1lO4J"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -3042,7 +3237,9 @@
                 "name": "Scoops of High-Fiber Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "7",
                   "8",
@@ -3059,7 +3256,9 @@
                 "name": "Scoops of High-Protein Food",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "21",
                   "24",
@@ -3090,7 +3289,8 @@
               {
                 "__id__": "VZVE0U_9HhmYQIa0"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
