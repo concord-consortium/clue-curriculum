@@ -3,13 +3,79 @@
   "content": {
     "tiles": [
       {
-        "id": "Jo0gbe98EJwgKnhm",
+        "id": "v3IkehRoGgjIBHzp",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Suppose you and your classmates did jumping jacks as fast as possible for a 2-minute test period. </p><p><strong>Make a Prediction</strong></p><ul><li>How many jumping jacks do you think you could do in 2 minutes?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "dJ0hrvXVwTnsUQ0x",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Student predictions will vary.</p>"
+          ]
+        }
+      },
+      {
+        "id": "EH5Yp0E_sv87pykm",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong> Conduct the Experiment</strong></p><p><em>Equipment</em></p><ul><li>timer, such as a clock or smartphone</li><li>a copy of the table below to record results</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "Qxm0PRpf8q7j9M8J",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "ykz3x8WUO2chvQ2L": 144,
+            "NJK40czPQIHSpaLZ": 162
+          }
+        }
+      },
+      {
+        "id": "leJqRX1cw2embCQ5",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Directions</em></p><p>There are four roles: </p><ul><li>A jumper to do the jumping jacks</li><li>A timer to keep track of time in seconds</li><li>A counter to count the jumping jacks</li><li>A recorder to write down the number of jumping jacks in a table</li></ul><p>Collecting the Data:</p><ul><li>The timer says “go,” and the jumper begins jumping. </li><li>The jumper continues jumping for 2 minutes. </li><li>The counter counts the jumping jacks out loud. </li><li>Every 10 seconds, the timer says “time,” and the recorder records the  number of jumping jacks the jumper has done.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "Qtn_DyU3Y79Dk8W3",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Analyze the Data</strong></p><ol><li>For the jumper in your group, how did the number of jumping jacks change as time passed? How is this shown in your table?</li></ol><ul><li>What does this pattern of jumping jacks per second suggest about how bike-riding speed would change over a day’s time on the bicycle tour?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "gttzPO76Oe_dtoTn",
         "title": "Question 1",
         "content": {
           "type": "Question",
           "version": 1,
           "locked": false,
-          "questionId": "dGGyU6",
+          "questionId": "rmZEk2",
           "tiles": [
             {
               "title": "Question Prompt",
@@ -18,35 +84,277 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p>How would they share the smoothie bar?</p>"
+                  "<ol><li>For the jumper in your group, how did the number of jumping jacks change as time passed? How is this shown in your table?</li></ol>"
                 ]
               }
-            }
+            },
+            [
+              {
+                "content": {
+                  "type": "Table",
+                  "columnWidths": {
+                    "2y_l_i0hviclqCgT": 144,
+                    "ja2dofJe0rwOl3cD": 162
+                  }
+                }
+              },
+              {
+                "title": "Text 9",
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p></p>"
+                  ]
+                }
+              }
+            ]
           ]
         }
       },
       {
-        "id": "ykhPstgjPAzTmnQj",
-        "title": "Question 2",
+        "id": "WPS9A2coGdFKqsU4",
+        "title": "Text 6",
+        "display": "teacher",
         "content": {
-          "type": "Question",
-          "version": 1,
-          "locked": false,
-          "questionId": "kxESoU",
-          "tiles": [
-            {
-              "title": "Question Prompt",
-              "fixedPosition": true,
-              "content": {
-                "type": "Text",
-                "format": "html",
-                "text": [
-                  "<p></p>"
-                ]
-              }
-            }
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p> Students’ experiment data will vary. One possible table:</p>"
           ]
         }
+      },
+      {
+        "id": "UHaPlaaAsgKlu4pv",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "wbonOoJ2cPY-4lDD": 144,
+            "c1geJ-ip_xuVAHmg": 162
+          }
+        }
+      },
+      {
+        "id": "6iJFpvtTUS1jvV0r",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Student answers will vary. </p><p>Many students make general statements like “The number of jumping jacks increased over time.” Some students may need help looking at how the number of jumping jacks increases from one cell on the table to the next one. For example, in the table shown here, we can see that the jumper did 12 jumping jacks between 10 and 20 seconds. You may need to model how to look specifically at the amount of change between adjacent cells.  </p><p>Students may discuss the experiment rather than the table. For example, students might say, “Our jumper was really fast” or “Our jumper got faster at the end.” Help them connect how that pattern shows up in the table. </p><p>Make sure that students are discussing both variables (not just the number of jumping jacks) so they are looking at the pattern of change between the variables.</p>"
+          ]
+        }
+      },
+      {
+        "id": "zQwZktRoggdxZqGk",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>What does this pattern of jumping jacks per second suggest about how </p><p>bike-riding speed would change over a day’s time on the bicycle tour?</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "LSF6YgX1B0i5OSi_",
+          "providerId": "Qxm0PRpf8q7j9M8J",
+          "dataSet": {
+            "id": "uFC5ARZ6uq79arEz",
+            "name": "Jumping Jack Experiment",
+            "attributes": [
+              {
+                "id": "ykz3x8WUO2chvQ2L",
+                "clientKey": "",
+                "name": "Time (seconds)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "60",
+                  "70"
+                ],
+                "title": ""
+              },
+              {
+                "id": "NJK40czPQIHSpaLZ",
+                "clientKey": "",
+                "name": "Total Number of Jumping Jacks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "I5Xcp8f7Zox03uTh"
+              },
+              {
+                "__id__": "1HnwdC3IPT93kM23"
+              },
+              {
+                "__id__": "Gndr8l85BBp4i2pA"
+              },
+              {
+                "__id__": "q45HftndGTQHbre_"
+              },
+              {
+                "__id__": "IETQINRrfmO1mWmD"
+              },
+              {
+                "__id__": "bdOVpmy9ODaYQ0ci"
+              },
+              {
+                "__id__": "B-8HhZb-8_bcxhJq"
+              },
+              {
+                "__id__": "q8CaJCV6GqRQHpAK"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "Qxm0PRpf8q7j9M8J"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "IdfbDvI67AfpPzSm",
+          "providerId": "UHaPlaaAsgKlu4pv",
+          "dataSet": {
+            "id": "w_u4fT80RnhM-fr0",
+            "name": "Jumping Jack Experiment",
+            "attributes": [
+              {
+                "id": "wbonOoJ2cPY-4lDD",
+                "clientKey": "",
+                "name": "Time (seconds)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "60",
+                  "70",
+                  "80",
+                  "90",
+                  "100",
+                  "110",
+                  "120"
+                ],
+                "title": ""
+              },
+              {
+                "id": "c1geJ-ip_xuVAHmg",
+                "clientKey": "",
+                "name": "Total Number of Jumping Jacks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "14",
+                  "26",
+                  "38",
+                  "49",
+                  "58",
+                  "70",
+                  "80",
+                  "93",
+                  "102",
+                  "112",
+                  "123",
+                  "134"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01K22D12RQ82N3WM17ZNZS1P0G"
+              },
+              {
+                "__id__": "01K22D12RR09J3GYYW7D39SAMD"
+              },
+              {
+                "__id__": "01K22D12RR09J3GYYW7D39SAME"
+              },
+              {
+                "__id__": "01K22D12RR09J3GYYW7D39SAMF"
+              },
+              {
+                "__id__": "01K22D12RR09J3GYYW7D39SAMG"
+              },
+              {
+                "__id__": "01K22D12RR09J3GYYW7D39SAMH"
+              },
+              {
+                "__id__": "01K22D12RR09J3GYYW7D39SAMJ"
+              },
+              {
+                "__id__": "D8Bnuj3F0qBfXYoi"
+              },
+              {
+                "__id__": "nOu2DyqBHwRjgPNt"
+              },
+              {
+                "__id__": "pjUYBAs933EG-mzc"
+              },
+              {
+                "__id__": "2wrku6WYqrNqrN1v"
+              },
+              {
+                "__id__": "YXaRiyabYIn3-Ueu"
+              },
+              {
+                "__id__": "7rfVuu-ee6OE7SgY"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "UHaPlaaAsgKlu4pv",
+        "tiles": [
+          "UHaPlaaAsgKlu4pv"
+        ]
       }
     ]
   },
