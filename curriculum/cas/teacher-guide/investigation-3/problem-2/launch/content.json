@@ -8,37 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The goal of this Problem is to give students more practice in solving the standard family of percent problems. The context is calculating tax, tips (or service charges), and discounts on restaurant meals.</p>"
-          ]
-        }
-      },
-      {
-        "id": "yNuRc-2LumP9yJJY",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>AoL: </strong>Synthesis</p>"
-          ]
-        }
-      },
-      {
-        "id": "2ul3hzkap27To3UR",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Emerging Mathematical Ideas</strong></p><p>Expand understanding of proportions to include sale prices and taxes.</p><ul><li>Find the percent of a number</li><li>Find the base when given the percent and percent of a number</li></ul><p>Use percents, fractions, decimals, ratios, proportions, unit rate, and /or rate tables to solve problems.</p>"
-          ]
-        }
-      },
-      {
-        "id": "TILEYHWVwALTrDXa",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>NWDYK</strong></p><p>Describe some strategies you used to solve percent problems.</p>"
+            "<p><u><strong>Problem Overview</strong></u></p><p>The goal of this problem is to give students more practice in solving the standard family of percent problems. The context is calculating tax, tips (or service charges), and discounts on restaurant meals.</p>"
           ]
         }
       },
@@ -128,42 +98,37 @@
           ]
         }
       },
-      [
-        {
-          "id": "y1CxnzUTuqEqn0dB",
-          "title": "Porportion for 10% Tip",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/cas-26.png",
-            "filename": "cas/images/cas-26.png"
-          }
-        },
-        {
-          "id": "j2bGG9MLGEUw8Mu_",
-          "title": "Proportion for 20% Tip",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/cas-27.png",
-            "filename": "cas/images/cas-27.png"
-          }
-        },
-        {
-          "id": "2B6xLsyk8b7Cy1Xo",
-          "title": "Proportion for 15% Tip",
-          "content": {
-            "type": "Image",
-            "url": "cas/images/cas-28.png",
-            "filename": "cas/images/cas-28.png"
-          }
+      {
+        "id": "qvAs5ohworjOjgrx",
+        "title": "10% Tip Proportion",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{14dollars}{100\\%}=\\frac{1.40dollars}{10\\%}"
         }
-      ],
+      },
+      {
+        "id": "3rEsJ28oRRVj8G-2",
+        "title": "20% Tip Proportion",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{14dollars}{100\\%}=\\frac{2.80}{20\\%}"
+        }
+      },
+      {
+        "id": "Q6QFtbaghWvYGNye",
+        "title": "15% Tip Proportion",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{14dollars}{100\\%}=\\frac{0.14dollars}{1\\%}=\\frac{2.10dollars}{15\\%}"
+        }
+      },
       {
         "id": "dpcbktYb5AefJCVR",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u>Presenting the Challenge</u></p><p>Alert students that the questions here are about tips and discounts, but the same kind of reasoning as in Problem 3.1 will apply. Encourage them to use tape diagrams, rate tables, or proportions.</p><p>To optimize the use of class time, Learning Aid 3.2: Larry’s Lunch Place Menu provides a menu and workspace for students to do the Initial Challenge. Have students work in groups of 3-4 students to complete this Problem. The openness of the Initial Challenge is an inviting opportunity for students to make their own choices. Time will be a factor in when sharing their work in the summary. You may want to have groups do a Gallery Walk. Have each group put their work on large chart paper to use in a Gallery Walk in the Summary.</p><p><strong>Implementation Note: </strong>You may want to use a menu from a local restaurant instead of Larry&#x27;s Lunch Place.</p>"
+            "<p><u>Presenting the Challenge</u></p><p>Alert students that the questions here are about tips and discounts, but the same kind of reasoning as in Problem 3.1 will apply. Encourage them to use tape diagrams, rate tables, or proportions.</p><p>To optimize the use of class time, <strong>Learning Aid 3.2: Larry’s Lunch Place Menu</strong> provides a menu and workspace for students to do the Initial Challenge. Have students work in groups of 3-4 students to complete this problem. </p><p>The openness of the Initial Challenge is an inviting opportunity for students to make their own choices. Time will be a factor in when sharing their work in the summary. You may want to have groups do a Gallery Walk. Have each group put their work on large chart paper to use in a Gallery Walk in the Summary.</p><p><strong>Implementation Note: </strong>You may want to use a menu from a local restaurant instead of Larry&#x27;s Lunch Place.</p>"
           ]
         }
       }
@@ -184,7 +149,9 @@
                 "name": "Amount",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$14",
                   "$1.40",
@@ -200,7 +167,9 @@
                 "name": "Percent",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "100%",
                   "10%",
@@ -227,7 +196,8 @@
               {
                 "__id__": "01HEC6R56924AS0DAP5R9BY7C7"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
