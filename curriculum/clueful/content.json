@@ -8,6 +8,7 @@
     "placeholderText": "Drag or create tiles here.",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
+    "disablePublish": ["student"],
     "enableHistoryRoles": [
       "teacher", "student"
     ],
@@ -30,7 +31,7 @@
         "isTileTool": true
       },
       {
-        "id": "Sketch",
+        "id": "Drawing",
         "title": "Sketch",
         "isTileTool": true
       },
@@ -131,12 +132,12 @@
           "label": "Lessons",
           "sections": [
             {
-              "initials": "THINK",
+              "initials": "TRY",
               "title": "Warmup",
               "type": "problem-documents"
             },
             {
-              "initials": "TRY",
+              "initials": "WORK",
               "title": "Experiment",
               "type": "problem-documents"
             },
@@ -162,24 +163,6 @@
               ],
               "properties": [
                 "isTeacherDocument",
-                "!isDeleted"
-              ]
-            },
-            {
-              "title": "Student Published Work",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication",
-                "personalPublication"
-              ],
-              "showStars": [
-                "student",
-                "teacher"
-              ],
-              "properties": [
-                "!isTeacherDocument",
                 "!isDeleted"
               ]
             }
@@ -368,12 +351,12 @@
   },
   "sections": {
     "warmup": {
-      "initials": "THINK",
+      "initials": "TRY",
       "title": "Warmup",
       "placeholder": "Explore some tools and ideas to warm up."
     },
     "experiment": {
-      "initials": "TRY",
+      "initials": "WORK",
       "title": "Experiment",
       "placeholder": "Do your experiments here."
     },
