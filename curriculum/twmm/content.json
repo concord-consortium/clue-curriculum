@@ -178,6 +178,11 @@
         "isTileTool": true
       },
       {
+        "id": "Diagram",
+        "title": "Math Diagram",
+        "isTileTool": true
+      },
+      {
         "id": "Question",
         "title": "Question",
         "isTileTool": true
@@ -282,6 +287,23 @@
             "graph"
           ],
           "delete"
+        ]
+      },
+      "diagram": {
+        "maxTiles": 1
+      },
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "subscript",
+          "superscript",
+          "highlight",
+          "link",
+          "new-variable",
+          "insert-variable",
+          "edit-variable"
         ]
       },
       "graph": {
