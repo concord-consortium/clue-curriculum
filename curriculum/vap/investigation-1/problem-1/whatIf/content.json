@@ -1,1 +1,237 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "4RrV6lNjIEjI9b9e",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Matching Descriptions and Tables</strong></p><p>Ms. Park’s class collected some interesting jumping jack data. The following are descriptions and tables from several groups. These describe the story told by the pattern of change from their experiments.</p><ol><li>Match each group’s description with the correct table. </li><li>Describe how you decided that the table matches the story about the variables.</li></ol>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "a7SIT5MO788s9rtY",
+          "title": "Text 2",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Sam’s Group</em></p><p>Sam started out really fast. She did lots of jumps in the first few seconds. As time went on, her number of jumps for every 10 seconds was less and less. She was almost not jumping at the end of the 120 seconds.</p>"
+            ]
+          }
+        },
+        {
+          "id": "ZMLdO0wOAeG9pywg",
+          "title": "Text 3",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Paula’s Group</em></p><p>Paula’s jumping was very consistent. She did about 10 jumps in every 10 seconds. She was able to keep this pace for 2 minutes.</p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "eVMwse9-aqtLWOHF",
+          "title": "Text 4",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Li Wei’s Group</em></p><p>Li Wei kept a consistent pace. As time increased by 10 seconds, he did 6 more jumps for each time interval.</p>"
+            ]
+          }
+        },
+        {
+          "id": "6Fn9PxIu0jMrxcQD",
+          "title": "Text 5",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Ana’s Group</em></p><p>Ana had a consistent pace for the first 20 seconds. Then the pace slowed down, increased, slowed down, and finally in the last 30 seconds increased a lot.</p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "2eX_jcVak8WUEe_x",
+          "title": "Text 6",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Tori’s Group</em></p><p>Tori started with consistent jumping. As time increased by 10 seconds, he did about 10 jumps. Near the end of the time, his shoe came untied. So he stopped jumping.</p>"
+            ]
+          }
+        },
+        {
+          "id": "wlO3RDmDuiz8O4TO",
+          "title": "Text 7",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><em>Jackson’s Group</em></p><p>Jackson started with a consistent pace. Then, as time went on, his total number of jumps grew more and more.</p>"
+            ]
+          }
+        }
+      ],
+      {
+        "id": "d8aZkd0pIfL_Vri5",
+        "title": "Text 9",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Paula’s Group</em></p><p>The rates of jumping jacks for every 10 seconds: 10, 10, 10, 10, 10, 9, 10, 11, 10, 10, 10, 10. This rate change matches Paula because she kept the pace of 10 jumps per 10 seconds. Students may interpret that a steady pace means no variation in the number of jumping in an interval. They may need help in considering that 9−11 jumps every 10 seconds is considered a fairly steady pace.</p>"
+          ]
+        }
+      },
+      {
+        "id": "8ZiG5aExlj1BS8iH",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "I5lGIYeNwR8zt6ZY": 143,
+            "kgj54VEvWy8RMGym": 141
+          }
+        }
+      },
+      {
+        "id": "5wgJ004rWWV6A6Qs",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "mpZPkPTqG4yiSytK",
+          "providerId": "8ZiG5aExlj1BS8iH",
+          "dataSet": {
+            "id": "0JEQgb3vPPUdI_Nc",
+            "name": "Paula's Group",
+            "attributes": [
+              {
+                "id": "I5lGIYeNwR8zt6ZY",
+                "clientKey": "",
+                "name": "Time (seconds)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "60",
+                  "70",
+                  "80",
+                  "90",
+                  "100",
+                  "110",
+                  "120"
+                ],
+                "title": ""
+              },
+              {
+                "id": "kgj54VEvWy8RMGym",
+                "clientKey": "",
+                "name": "Total Number of Jumping Jacks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "59",
+                  "69",
+                  "80",
+                  "90",
+                  "100",
+                  "110",
+                  "120"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "KJ9X85Yid5qdqi6a"
+              },
+              {
+                "__id__": "UtfW4qjHmKiIAVK9"
+              },
+              {
+                "__id__": "3-PMzPg3iiR6X_ww"
+              },
+              {
+                "__id__": "GQojHdH9-BG4NtAs"
+              },
+              {
+                "__id__": "49R5xt4EvdUr-WSG"
+              },
+              {
+                "__id__": "o_EvvhCUG86kq5_c"
+              },
+              {
+                "__id__": "S5GOClGGT_0ShWkB"
+              },
+              {
+                "__id__": "ULjsi0NMHEvR6RRM"
+              },
+              {
+                "__id__": "WLnq97rI_PC3guDK"
+              },
+              {
+                "__id__": "xfPsshW04Gh5zka3"
+              },
+              {
+                "__id__": "4pTiddTaBktCQF3B"
+              },
+              {
+                "__id__": "xcWtAb7Afl4As5rc"
+              },
+              {
+                "__id__": "kUi7w-iE9TCrzg1U"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "8ZiG5aExlj1BS8iH"
+        ]
+      }
+    ]
+  }
+}
