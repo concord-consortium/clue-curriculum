@@ -1,0 +1,174 @@
+{
+  "type": "launch",
+  "content": {
+    "tiles": [
+      {
+        "id": "Z0xs98UKVcYAQUKT",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem Overview</strong></p><p>In this problem, students use similar triangles to measure distances on the ground that cannot be measured directly. The Student Edition provides a diagram to illustrate this idea. However, if possible, you can reenact the problem in a  real‑life setting.</p><p>Students revisit what it means for triangles to be similar. They recall that they can use similar triangles, and the scale factor between the triangles, to find unknown corresponding lengths. They apply these ideas in finding an inaccessible distance across a river that involves nested triangles.</p>"
+          ]
+        }
+      },
+      {
+        "id": "YepDxNovHZqWtEhq",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Launch (Getting Started)</strong></p><p><em>Connecting to Prior Knowledge</em></p><p>Describe the Problem to the class. Ask students to compare the ideas to Problem 3.2. Have the class identify the similar triangles and find the corresponding angles and sides. You may want to introduce the term nested in the Launch for this Problem to describe the two triangles pictured in Problem 3.3 in the Student Edition. It is a handy, though nontechnical, way to describe a smaller triangle within a larger triangle, where the triangles share an angle. <em> (Language)</em></p><p>In the two previous Problems, we used the fact that if two triangles have congruent corresponding angles, then the triangles are similar. This is not generally true for other polygons. Explain why this is not true for parallelograms or rectangles. (All rectangles have four 90° angles, yet not all rectangles are similar. Corresponding side lengths in two rectangles can have different scale factors. Likewise, for any parallelogram, we can stretch just one pair of sides, as in the diagram below. The parallelogram maintains the same angles but results in a figure that is not similar to the original.) </p>"
+          ]
+        }
+      },
+      {
+        "id": "XaQzwanwb_Qorb9z",
+        "title": "Nonsimilar parallelograph with similar triangles",
+        "content": {
+          "type": "Image",
+          "url": "sas/images/cana.jpg",
+          "filename": "sas/images/cana.jpg"
+        }
+      },
+      {
+        "id": "OT9zY5ryC79Qxuvp",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Suggested Questions:</strong></p><ul><li>What shapes do you see on the diagram?</li><li>What measurements do you need? </li></ul><p>Refer to Problem 3.1 and the Rep-tiling with triangles. Do you see nested triangles in this rep-tile? Where?</p>"
+          ]
+        }
+      },
+      {
+        "id": "RC3UieLB15VxqHaO",
+        "title": "Rep-tiled triangle",
+        "content": {
+          "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
+          "board": {
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -4.186,
+              "unit": 18.299656881433474,
+              "range": 26.23
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -2.093,
+              "unit": 18.30035456936978,
+              "range": 17.486
+            }
+          },
+          "objects": {
+            "IMav4NSL51yAx2cW": {
+              "type": "point",
+              "id": "IMav4NSL51yAx2cW",
+              "x": 1,
+              "y": 10.008111338797814,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "WaQmRcXAjS6as7VI": {
+              "type": "point",
+              "id": "WaQmRcXAjS6as7VI",
+              "x": 1.006617144808743,
+              "y": -0.011740095628415048,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "fqFFfArr0yCYZJ3K": {
+              "type": "point",
+              "id": "fqFFfArr0yCYZJ3K",
+              "x": 9,
+              "y": 10.008111338797814,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "6XU2YDR00D7gA--b": {
+              "type": "polygon",
+              "id": "6XU2YDR00D7gA--b",
+              "points": [
+                "IMav4NSL51yAx2cW",
+                "WaQmRcXAjS6as7VI",
+                "fqFFfArr0yCYZJ3K"
+              ],
+              "labelOption": "none",
+              "colorScheme": 0
+            },
+            "ibra8nKjqADwKLiq": {
+              "type": "point",
+              "id": "ibra8nKjqADwKLiq",
+              "x": 5,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "4QncjKswHDWPVSnP": {
+              "type": "point",
+              "id": "4QncjKswHDWPVSnP",
+              "x": 5,
+              "y": 10,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "2YPLz3SsOv5QwWCR": {
+              "type": "point",
+              "id": "2YPLz3SsOv5QwWCR",
+              "x": 1,
+              "y": 5,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "YqqUEnzvRliI6dmb": {
+              "type": "polygon",
+              "id": "YqqUEnzvRliI6dmb",
+              "points": [
+                "ibra8nKjqADwKLiq",
+                "4QncjKswHDWPVSnP",
+                "2YPLz3SsOv5QwWCR"
+              ],
+              "labelOption": "none",
+              "colorScheme": 0
+            }
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
+        }
+      },
+      {
+        "id": "YJ6oeERZMx9HX5Oa",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Note:</strong> In general, it is true that if the corresponding angles of two triangles are congruent, then the triangles are similar. In this Unit, we assume that this theorem is true. A proof for the theorem is developed in 8th grade.  </p>"
+          ]
+        }
+      },
+      {
+        "id": "kyy53dkYjEjn3hb-",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Presenting the Challenge</em></p><p>Have the students use the diagram to find the distance across the river.  Make sure they provide explanations for their methods. Have students work with a partner on this problem.  </p>"
+          ]
+        }
+      }
+    ]
+  }
+}

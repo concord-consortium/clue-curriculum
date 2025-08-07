@@ -23,6 +23,11 @@
         "isTileTool": true
       },
       {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
         "id": "Geometry",
         "title": "Coordinate Grid",
         "isTileTool": true
@@ -33,8 +38,8 @@
         "isTileTool": true
       },
       {
-        "id": "Table",
-        "title": "Table",
+        "id": "Drawing",
+        "title": "Drawing",
         "isTileTool": true
       },
       {
@@ -43,18 +48,18 @@
         "isTileTool": true
       },
       {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
+      {
         "id": "Image",
         "title": "Image",
         "isTileTool": true
       },
       {
-        "id": "Drawing",
-        "title": "Sketch",
-        "isTileTool": true
-      },
-      {
-        "id": "DataCard",
-        "title": "Data Cards",
+        "id": "Question",
+        "title": "Question",
         "isTileTool": true
       },
       {
@@ -190,7 +195,25 @@
       "other-proportional": "Other - Proportional",
       "non-proportional": "Non-Proportional"
     },
-    "tagPrompt": "Student Strategy"
+    "tagPrompt": "Select Student Strategy",
+    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master 8th grade math teacher.",
+      "mainPrompt": "This is a picture of a student mathematics document. Please evaluate and categorize it.",
+      "categorizationDescription": "Categorize the document based on its content and the general proportional reasoning curriculum found in 7th grade mathematics.",
+      "categories": [
+        "part-to-part",
+        "part-to-whole",
+        "building-up",
+        "scaling-up-down",
+        "unit-rates",
+        "other-proportional",
+        "non-proportional"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Please provide any concise feedback about things this student could try next."
+    }
   },
   "sections": {
     "introduction": {
@@ -214,22 +237,22 @@
       "placeholder": "Work area for\nNow What Do You Know? section"
     },
     "MathReflection1": {
-      "initials": "R1",
+      "initials": "MR1",
       "title": "Math Reflection 1",
       "placeholder": "Work area for\nMathematical Reflection 1 section"
     },
     "MathReflection2": {
-      "initials": "R2",
+      "initials": "MR2",
       "title": "Math Reflection 2",
       "placeholder": "Work area for\nMathematical Reflection 2 section"
     },
     "MathReflection3": {
-      "initials": "R3",
+      "initials": "MR3",
       "title": "Math Reflection 3",
       "placeholder": "Work area for\nMathematical Reflection 3 section"
     },
     "MathReflection4": {
-      "initials": "R4",
+      "initials": "MR4",
       "title": "Math Reflection 4",
       "placeholder": "Work area for\nMathematical Reflection 4 section"
     },
@@ -299,41 +322,36 @@
       "description": "Investigation 1",
       "ordinal": 1,
       "title": "TWMM Investigation 1 Exploring Data Patterns in Building Bridges",
-      "introduction": {
-        "tiles": []
-      },
       "problems": [
         {
           "description": "Problem 1.1",
           "ordinal": 1,
-          "title": "TWMM 1.1 Bridge Thickness and Strength",
-          "subtitle": "",
+          "title": "TWMM 1.1 Bridge Thickness and Strength Experiment",
+          "subtitle": "Linear or Nonlinear?",
           "sections": [
             "investigation-1/problem-1/introduction/content.json",
             "investigation-1/problem-1/initialChallenge/content.json",
             "investigation-1/problem-1/whatIf/content.json",
             "investigation-1/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "TWMM Problem 1.2",
           "ordinal": 2,
-          "title": "TWMM 1.2 Bridge Length and Strength",
-          "subtitle": "",
+          "title": "TWMM 1.2 Bridge Length and Strength Experiment",
+          "subtitle": "Linear or Nonlinear?",
           "sections": [
             "investigation-1/problem-2/introduction/content.json",
             "investigation-1/problem-2/initialChallenge/content.json",
             "investigation-1/problem-2/whatIf/content.json",
             "investigation-1/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 1.3",
           "ordinal": 3,
-          "title": "TWMM 1.3 Custom Construction Parts: More Patterns",
-          "subtitle": "",
+          "title": "TWMM 1.3 Custom Construction Parts",
+          "subtitle": "More Patterns",
           "sections": [
             "investigation-1/problem-3/introduction/content.json",
             "investigation-1/problem-3/initialChallenge/content.json",
@@ -341,8 +359,7 @@
             "investigation-1/problem-3/nowWhatDoYouKnow/content.json"
           ]
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Investigation 2",
@@ -361,21 +378,19 @@
             "investigation-2/problem-1/initialChallenge/content.json",
             "investigation-2/problem-1/whatIf/content.json",
             "investigation-2/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 2.2",
           "ordinal": 2,
           "title": "TWMM 2.2 Boat Rental",
-          "subtitle": "Solving Linear Equations",
+          "subtitle": "Finding Solutions Using Tables, Graphs, and Symbols",
           "sections": [
             "investigation-2/problem-2/introduction/content.json",
             "investigation-2/problem-2/initialChallenge/content.json",
             "investigation-2/problem-2/whatIf/content.json",
             "investigation-2/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 2.3",
@@ -387,8 +402,7 @@
             "investigation-2/problem-3/initialChallenge/content.json",
             "investigation-2/problem-3/whatIf/content.json",
             "investigation-2/problem-3/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 2.4",
@@ -402,8 +416,7 @@
             "investigation-2/problem-4/nowWhatDoYouKnow/content.json"
           ]
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Investigation 3",
@@ -413,15 +426,14 @@
         {
           "description": "Problem 3.1",
           "ordinal": 1,
-          "title": "TWMM 3.1 Rectangles with Fixed Area",
+          "title": "TWMM 3.1 Rectangles and Fixed Area",
           "subtitle": "",
           "sections": [
             "investigation-3/problem-1/introduction/content.json",
             "investigation-3/problem-1/initialChallenge/content.json",
             "investigation-3/problem-1/whatIf/content.json",
             "investigation-3/problem-1/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 3.2",
@@ -433,13 +445,12 @@
             "investigation-3/problem-2/initialChallenge/content.json",
             "investigation-3/problem-2/whatIf/content.json",
             "investigation-3/problem-2/nowWhatDoYouKnow/content.json"
-          ],
-          "supports": []
+          ]
         },
         {
           "description": "Problem 3.3",
           "ordinal": 3,
-          "title": "TWMM 3.3 Planning a Field Trip",
+          "title": "TWMM 3.3 Planning a Fundraising Event",
           "subtitle": "Finding Individual Costs",
           "sections": [
             "investigation-3/problem-3/introduction/content.json",
@@ -448,8 +459,7 @@
             "investigation-3/problem-3/nowWhatDoYouKnow/content.json"
           ]
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Investigation 4",
@@ -461,33 +471,50 @@
           "ordinal": 1,
           "title": "TWMM 4.1 Lines of Best Fit",
           "subtitle": "",
-          "sections": [],
-          "supports": []
+          "sections": [
+            "investigation-4/problem-1/introduction/content.json",
+            "investigation-4/problem-1/initialChallenge/content.json",
+            "investigation-4/problem-1/whatIf/content.json",
+            "investigation-4/problem-1/nowWhatDoYouKnow/content.json"
+          ]
         },
         {
           "description": "Problem 4.2",
           "ordinal": 2,
-          "title": "TWMM 4.2Wood or Steel? Relationships in Categorical Data",
+          "title": "TWMM 4.2 Wood or Steel? Relationships in Categorical Data",
           "subtitle": "",
-          "sections": [],
-          "supports": []
+          "sections": [
+            "investigation-4/problem-2/introduction/content.json",
+            "investigation-4/problem-2/initialChallenge/content.json",
+            "investigation-4/problem-2/whatIf/content.json",
+            "investigation-4/problem-2/nowWhatDoYouKnow/content.json"
+          ]
         },
         {
           "description": "Problem 4.3",
           "ordinal": 3,
-          "title": "TWMM 4.3 After-School Sports and Band Enrollments",
-          "subtitle": "Working Backwards: Setting up a Two-way Table",
-          "sections": []
+          "title": "TWMM 4.3 School Team-Building Activity",
+          "subtitle": "Setting up a Two-way Table",
+          "sections": [
+            "investigation-4/problem-3/introduction/content.json",
+            "investigation-4/problem-3/initialChallenge/content.json",
+            "investigation-4/problem-3/whatIf/content.json",
+            "investigation-4/problem-3/nowWhatDoYouKnow/content.json"
+          ]
         },
         {
           "description": "Problem 4.4",
           "ordinal": 3,
           "title": "TWMM 4.4 Linear, Bivariate, and Categorical Data",
           "subtitle": "",
-          "sections": []
+          "sections": [
+            "investigation-4/problem-4/introduction/content.json",
+            "investigation-4/problem-4/initialChallenge/content.json",
+            "investigation-4/problem-4/whatIf/content.json",
+            "investigation-4/problem-4/nowWhatDoYouKnow/content.json"
+          ]
         }
-      ],
-      "supports": []
+      ]
     },
     {
       "description": "Mathematical Reflections",
@@ -502,12 +529,11 @@
           "sections": [
             "investigation-5/problem-1/MathReflection1/content.json",
             "investigation-5/problem-1/MathReflection2/content.json",
-            "investigation-5/problem-1/MathReflection3/content.json"
+            "investigation-5/problem-1/MathReflection3/content.json",
+            "investigation-5/problem-1/MathReflection4/content.json"
           ]
         }
-      ],
-      "supports": []
+      ]
     }
-  ],
-  "supports": []
+  ]
 }
