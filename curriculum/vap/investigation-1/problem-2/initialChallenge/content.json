@@ -1,1 +1,70 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "nPoVVjnhRmqndcmj",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Ms. Park’s students were curious about what information they might get from a graph of their jumping jack data. They labeled a grid to graph their data. </p><ul><li> Make a graph of the jumping jack data for your group’s jumper.</li><li> Describe the relationship between the number of jumping jacks the jumper did over time that is represented in the graph.</li><li> How does this relationship compare to the relationship displayed in your table?</li><li> How does your graph compare to other graphs in your class?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "6UvVD1MRfptXbLUs",
+        "title": "Jumping Jacks Over Time",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10.04
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRxcR63-KOD-G8",
+              "config": {
+                "id": "DCONYFy-1J-sQkKm",
+                "_attributeDescriptions": {},
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {},
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (seconds)",
+          "yAttributeLabel": "Total Number of Jumping Jacks"
+        }
+      }
+    ]
+  },
+  "supports": []
+}
