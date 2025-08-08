@@ -1,1 +1,406 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "szDEUwQFvgY6dLz3",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Every half hour, Sidney records the distances the cyclists have traveled from Atlantic City in a table. The business partners examine Sidney’s (time, distance) data. They look for patterns to help them improve the Ocean Bike Tours route and schedule. Malcolm writes a report of the trip and incudes a graph to illustrate the story of their journey. Use the table or graph to answer the following questions.</p><ol><li>Make a graph of the data. </li><li>How far did the group travel in the day? How much time did it take them?</li><li>What patterns do you see in the (time, distance) data? </li><li>Pick a point on the graph. What are its coordinates? What information do the coordinates represent about the situation? Where is this information shown in the table?</li><li>Pick an entry in the table. What are its coordinates on the graph? What information does it represent about the situation?</li><li>During which interval(s) did the riders make the most progress? The least progress?</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "5zRkRPnplNS_DVY9",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "VH8nSFjlX7W2rbZO": 80,
+            "YKGvIqMJ9RVS_bwg": 111
+          }
+        }
+      },
+      {
+        "id": "cjObyzn77KoXtHZz",
+        "title": "Atlantic City to Cape May",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -5,
+              "max": 50
+            }
+          },
+          "lockAxes": true,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRAbwuF4gsBv6J",
+              "config": {
+                "id": "DCONTuyRabmxF-6j",
+                "dataset": "KDOJyMBj8y0M59cs",
+                "metadata": "AaFtofRO0RstFB5w",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "VH8nSFjlX7W2rbZO",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "YKGvIqMJ9RVS_bwg"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "YKGvIqMJ9RVS_bwg": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (hours)",
+          "yAttributeLabel": "Distance (miles)"
+        }
+      },
+      {
+        "id": "HSyqKqG2A8-GDMoy",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>1.  See graph above.</p><p>2.  They traveled about 51 miles for Day 1, and it took 5 hours. </p><p>From hour 0 to 3.0, they traveled 34 miles.</p><p>From 3.0 to 3.5, they traveled 3 miles.</p><p>From 3.5 to 5.0, they traveled 14 miles.</p>"
+          ]
+        }
+      },
+      {
+        "id": "CsjScEwBqTzbZvFS",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>3. Students will have a variety of observations about the pattern of travel shown in the table and the graph. </p><p>They will probably notice that the cyclists went faster in some time periods than others. For example, they might point out that the speed from hour 0.5 to 1.0 is the same as that from hour 2.5 to 3.0, which is faster than the speed from hour 1.0 to 1.5 or from hour 2.0 to 2.5. </p><p>They might notice that there is a “dip” in the graph between hour 3.0 and hour 4.0 and wonder what this could mean. One possible explanation would be that the cyclists made a wrong turn and had to back to get on course. Or one of the cyclists might have dropped something and had to turn back to retrieve it.  </p><p>4.  See the table that follows.</p><p>5.   Answer will vary depending on which entry a student picks. For all entries, from left to right, possible answers are as follows.</p><p>6.   They made the most progress for the first half hour because they went  8 miles from hour 0 to hour 0.5. For the time period from hour 0.5 to 1.0 and from 2.5 to 3.0, they went 7 miles, which was also good progress. The least progress was between hour 3.0 and 3.5 because the distance decreased during the period. Students may say the least progress was made between 2.0 and 2.5 and between 4.0 and 4.5 because they only rode 2 miles during those half-hour periods.</p>"
+          ]
+        }
+      },
+      {
+        "id": "BX5lGALL1fnKAd96",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "6SzoB1ja4G9aQIL4": 80,
+            "ES-BxgLj_CnLohD_": 133,
+            "3c5uEz1fB_-A2o4_": 239,
+            "Kws-uzxqwHRW1kSn": 144
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5c3ugzrOb_g0Ie9w",
+          "providerId": "5zRkRPnplNS_DVY9",
+          "dataSet": {
+            "id": "KDOJyMBj8y0M59cs",
+            "name": "Atlantic City to Cape May",
+            "attributes": [
+              {
+                "id": "VH8nSFjlX7W2rbZO",
+                "clientKey": "",
+                "name": "Time (hours)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "0.5",
+                  "1",
+                  "1.5",
+                  "2",
+                  "2.5",
+                  "3",
+                  "3.5",
+                  "4",
+                  "4.5",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "YKGvIqMJ9RVS_bwg",
+                "clientKey": "",
+                "name": "Distance (miles)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "8",
+                  "15",
+                  "19",
+                  "25",
+                  "27",
+                  "34",
+                  "31",
+                  "38",
+                  "40",
+                  "45"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "LP_dGzxz_ZNaNsAY"
+              },
+              {
+                "__id__": "z6Xg2k2gNFqfGvK3"
+              },
+              {
+                "__id__": "tM3TV9jfibP7jQQ0"
+              },
+              {
+                "__id__": "Om8vbjoqJhP-2D6k"
+              },
+              {
+                "__id__": "4kIAEnD7jMuTlTkT"
+              },
+              {
+                "__id__": "rRUX00KzPkSl14RO"
+              },
+              {
+                "__id__": "W8-oy0VB6wRIFWOm"
+              },
+              {
+                "__id__": "Qfvh50jaydwsWVHr"
+              },
+              {
+                "__id__": "VsRMCCnLzMMhYlwi"
+              },
+              {
+                "__id__": "Hodl0R_4keii6aw-"
+              },
+              {
+                "__id__": "aeElAp3-rGKPt2fJ"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "5zRkRPnplNS_DVY9",
+          "cjObyzn77KoXtHZz"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "AaFtofRO0RstFB5w",
+          "data": "KDOJyMBj8y0M59cs",
+          "collections": {},
+          "categories": {
+            "VH8nSFjlX7W2rbZO": {
+              "attribute": "VH8nSFjlX7W2rbZO",
+              "colors": {},
+              "moves": []
+            },
+            "YKGvIqMJ9RVS_bwg": {
+              "attribute": "YKGvIqMJ9RVS_bwg",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "cjObyzn77KoXtHZz"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5y0ag1SELpSEV-2I",
+          "providerId": "BX5lGALL1fnKAd96",
+          "dataSet": {
+            "id": "kZaXv7RPSq8gAYsd",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "6SzoB1ja4G9aQIL4",
+                "clientKey": "",
+                "name": "Entry",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ES-BxgLj_CnLohD_",
+                "clientKey": "",
+                "name": "Coordinates",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(0, 0)",
+                  "(0.5, 8)",
+                  "(1, 15)",
+                  "(1.5, 19)",
+                  "(2, 25)",
+                  "(2.5, 27)",
+                  "(3, 34)",
+                  "(3.5, 31)",
+                  "(4, 38)",
+                  "(4.5, 40)",
+                  "(5, 45)"
+                ],
+                "title": ""
+              },
+              {
+                "id": "3c5uEz1fB_-A2o4_",
+                "clientKey": "",
+                "name": "Information",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "They were at the starting point in  \nAtlantic City.",
+                  " After 0.5 hours, they were 8 miles \naway from the starting point.",
+                  " After 1.0 hours, they were 15 miles \naway from the starting point.",
+                  "After 1.5 hours, they were 19 miles \naway from the starting point.",
+                  " After 2.0 hours, they were 25 miles \naway from the starting point.",
+                  "After 2.5 hours, they were 27 miles \naway from the starting point.",
+                  "After 3.0 hours, they were 34 miles \naway from the starting point.",
+                  " After 3.5 hours, they were 31 miles \naway from the starting point.",
+                  "After 4.0 hours, they were 38 miles \naway from the starting point.",
+                  "After 4.5 hours, they were 40 miles \naway from the starting point.",
+                  " After 5.0 hours, they were 45 miles \naway from the starting point."
+                ],
+                "title": ""
+              },
+              {
+                "id": "Kws-uzxqwHRW1kSn",
+                "clientKey": "",
+                "name": "In the Table",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "In the 1st row of the table",
+                  "2nd row",
+                  "3rd row",
+                  "4th row",
+                  "5th row",
+                  "6th row",
+                  "7th row",
+                  "8th row",
+                  "9th row",
+                  "10th row",
+                  "11th row"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "Ne_ZmkZ1RZO_enqi"
+              },
+              {
+                "__id__": "5OfnJjinbaw0XCth"
+              },
+              {
+                "__id__": "l3ijOCioY-x146_w"
+              },
+              {
+                "__id__": "pUhMo1fBhwCAl2ca"
+              },
+              {
+                "__id__": "wNTTv40oNpvyYqFL"
+              },
+              {
+                "__id__": "N3hjKpkR8xrSnPOz"
+              },
+              {
+                "__id__": "YBpvcD0o_xliyGgf"
+              },
+              {
+                "__id__": "qRXIagQKNX38YNwv"
+              },
+              {
+                "__id__": "A7Bou_jNT93rGsUJ"
+              },
+              {
+                "__id__": "U9eI1F1ViR2cgk0a"
+              },
+              {
+                "__id__": "KMstaNk-x9cDisa6"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "BX5lGALL1fnKAd96"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
