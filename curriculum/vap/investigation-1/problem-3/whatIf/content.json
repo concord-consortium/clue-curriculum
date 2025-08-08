@@ -285,6 +285,29 @@
             "<p> Note: Some students may want to represent the data as a table to answer the progress question.</p><p> Possible approximations of the data from the graph:</p>"
           ]
         }
+      },
+      {
+        "id": "cyjOMjkJO8-F0DzU",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "3NwsJk97qTHYjaef": 160,
+            "WhPZTDFoWdPM7Ux8": 128
+          }
+        }
+      },
+      {
+        "id": "L3FpfBBa0Wpg0rIl",
+        "title": "Text 13",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>4.  Answers will vary. Possible explanations include:</p><p>Between hour 2 and 4, the riders needed to make a detour that brought them closer to Lewes. They may have forgotten something and had to go back to get it. After the detour, they continued to Chincoteague Island. Between hours 1.5 and 2, the riders may have taken a rest break for sightseeing.</p><p>5.  Assuming they only backtracked to mile 22, the total distance traveled for the day is the distance the riders are from Lewes at the end of the day plus the distance they traveled when they had to backtrack: 81 + 8 + 8 = 97 miles.</p>"
+          ]
+        }
       }
     ],
     "sharedModels": [
@@ -438,6 +461,245 @@
         "tiles": [
           "wnE_vjBVNHxzRDw4"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "IcDa9BQooZDjqyU7",
+          "providerId": "cyjOMjkJO8-F0DzU",
+          "dataSet": {
+            "id": "f2w4zkzaiNwz_TM7",
+            "name": "Example data approximations from graph",
+            "attributes": [
+              {
+                "id": "3NwsJk97qTHYjaef",
+                "clientKey": "",
+                "name": "Time (hours)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "0.5",
+                  "1",
+                  "1.5",
+                  "2",
+                  "2.5",
+                  "3",
+                  "3.5",
+                  "4",
+                  "4.5",
+                  "5",
+                  "5.5",
+                  "6",
+                  "6.5",
+                  "7",
+                  "7.5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "WhPZTDFoWdPM7Ux8",
+                "clientKey": "",
+                "name": "Distance  (miles)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "7",
+                  "12",
+                  "22",
+                  "22",
+                  "30",
+                  "22",
+                  "31",
+                  "36",
+                  "48",
+                  "48",
+                  "57",
+                  "62",
+                  "71",
+                  "74",
+                  "81"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "o0V6G4ZAq3ClLa8q"
+              },
+              {
+                "__id__": "0gKSXvz7p2Ljr7vr"
+              },
+              {
+                "__id__": "gv-FBBlUv-N0bmGA"
+              },
+              {
+                "__id__": "c5V93D-Zs-k44Jl7"
+              },
+              {
+                "__id__": "UUQ0aEKaVYn4eewl"
+              },
+              {
+                "__id__": "XC0YZ8bd9ioFgbC6"
+              },
+              {
+                "__id__": "ryzmiZ6b0WwL2l1m"
+              },
+              {
+                "__id__": "ECDsken8Sg-74UYx"
+              },
+              {
+                "__id__": "3BqAwlPlFsLd6OBC"
+              },
+              {
+                "__id__": "gfBZ3H7ahEeWXW1o"
+              },
+              {
+                "__id__": "maXSQEYNZCk30MPp"
+              },
+              {
+                "__id__": "qE5XAkUJv1g47vjC"
+              },
+              {
+                "__id__": "SHXYc_BXsEbB0lpz"
+              },
+              {
+                "__id__": "iCygp3-sjS22TTvt"
+              },
+              {
+                "__id__": "NIiP9A2J5ISF16Wx"
+              },
+              {
+                "__id__": "A837u1gweNfTrrJm"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "cyjOMjkJO8-F0DzU"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "s_JOZKgMw0bvq_3a",
+        "sourceObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{o0V6G4ZAq3ClLa8q}:{3NwsJk97qTHYjaef}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{0gKSXvz7p2Ljr7vr}:{3NwsJk97qTHYjaef}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+.5",
+        "textOffset": {
+          "dx": 11,
+          "dy": 0
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "wksS3UaYL2l8JtqM",
+        "sourceObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{c5V93D-Zs-k44Jl7}:{3NwsJk97qTHYjaef}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{UUQ0aEKaVYn4eewl}:{3NwsJk97qTHYjaef}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+.5",
+        "textOffset": {
+          "dx": 11,
+          "dy": 0
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "rrsMjlukJLmfnn_f",
+        "sourceObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{o0V6G4ZAq3ClLa8q}:{WhPZTDFoWdPM7Ux8}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{0gKSXvz7p2Ljr7vr}:{WhPZTDFoWdPM7Ux8}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+7",
+        "textOffset": {
+          "dx": 11,
+          "dy": 0
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "EAVYMsZeCghdLhd0",
+        "sourceObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{c5V93D-Zs-k44Jl7}:{WhPZTDFoWdPM7Ux8}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "cyjOMjkJO8-F0DzU",
+          "objectId": "cell:{UUQ0aEKaVYn4eewl}:{WhPZTDFoWdPM7Ux8}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "+0",
+        "textOffset": {
+          "dx": 11,
+          "dy": 0
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
       }
     ]
   }
