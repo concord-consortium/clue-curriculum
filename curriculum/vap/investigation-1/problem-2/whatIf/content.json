@@ -607,7 +607,193 @@
             ]
           }
         }
-      ]
+      ],
+      {
+        "id": "0Jgv_aUhNuyYvPWR",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Making Sense of Coordinates on Tables and Graphs</strong></p><p>Pick a point on a graph from Situation A and answer the following questions.</p><ol><li>What information do the coordinates of the point represent? </li><li>Where on the corresponding table is this information?</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "elYQaPISTzcykPoD",
+        "title": "Text 9",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li> Answers will vary. Possible answer: In Graph 5, there is a point at  (20, 10). This point represents that at 20 seconds (the variable on the x-axis), the jumper had done 10 jumping jacks (the variable on the y-axis).</li><li> Answers will vary. Possible answer to match the coordinate pair (20, 10). If we look at the time of 20 seconds, we can see the jumps of 10.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "LRhXn6a2hSLr6FOH",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "ndmmQK7wf7BcVKdT": 110,
+            "eZ9Jw2Voo3pZqGEF": 155
+          }
+        }
+      },
+      {
+        "id": "ORbyy17aMJ9EUxVS",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation C. Lashawn Uses a Graph</strong></p><p><em>Lashawn’s Suggestion</em></p><p>I made a table for my data in Problem 1.1. I also think the graph could be used to answer questions about the jumping jack experiment.</p>"
+          ]
+        }
+      },
+      {
+        "id": "UhsWxTg8Q36UEfJQ",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "kzRT4FeQqpqEqARJ": 125,
+            "JtIWr4KVQ1mMw2I5": 184
+          }
+        }
+      },
+      {
+        "id": "Idw7Lsi7Xey4MmMI",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li> Make a graph of Lashawn’s data.</li><li> What patterns do you notice on the graph? How are they shown in the table?</li><li> Which point on the graph represents 32 jumping jacks after 40 seconds?</li><li> How can you use a graph to find the time it takes to do 20 jumping jacks? </li><li>How many jumping jacks were done at the end of 45 seconds? Explain your strategy. </li><li>Do you agree with Lashawn? Is it possible to use the graph to answer questions about the experiment?</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "iiUK5H5eG8TMawjm",
+        "title": "Lashawn's Group Jumping Jack Experiment",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -5,
+              "max": 55
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYR7hI4v1xfwLaf",
+              "config": {
+                "id": "DCON8JL_MvWzggU4",
+                "dataset": "R_45uuaer5vb6FsL",
+                "metadata": "Orka7AyvabjvvboS",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "kzRT4FeQqpqEqARJ",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "JtIWr4KVQ1mMw2I5"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "JtIWr4KVQ1mMw2I5": 3
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (seconds)",
+          "yAttributeLabel": "Total Number of Jumping Jacks"
+        }
+      },
+      {
+        "id": "eQkarLPcpPT6Ne4T",
+        "title": "Text 12",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li> Graphs can vary depending on the scales on x-axis and y-axis that students choose. One possible graph might include (see above):</li><li> A plot of the points corresponding to (Time, Total Number of Jumping Jacks) numbers in the table would produce a consistent (linear) pattern with the points rising up as you move from left to right 8 jumps for every 10 seconds. With the consistent pattern, the points create a straight line. The points on the graph go up at the same “steepness” and are the same distance apart as you read the graph from left to right.</li><li>The 5th point from the left on the graph.</li><li> In the graph, the total number of jumping jacks is shown on the y-axis. You can point out the number 20 on the y-axis and draw a horizontal line from the scale of 20. But there is no data point that matches 20 jumping jacks. Since 20 is right in the middle of two numbers, 16 and 24, you can assume that the point that you are looking for might be also in the middle of these two points (20, 16) and (30, 24), which is (25, 20). So you may say it would take 25 seconds to do 20 jumping jacks.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "h0P5X4pqTN6jXNIq",
+        "title": "Using Y-value to determine X-value",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "vap/images/howdo.jpg",
+          "filename": "vap/images/howdo.jpg"
+        }
+      },
+      {
+        "id": "oiDNvXjvjpLRuY21",
+        "title": "Text 13",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>5.  About 36 jumping jacks were done at the end of 45 seconds. You have two data points, (40, 32) and (50, 40). To get the data point (45, ?), you can assume the pattern is linear since the total number constantly increases by 8 as time increase by 10 seconds. Since 45 (seconds) is in the middle of 40 and 50, you can find that the number of jumping jacks for 45 seconds is in the middle of 32 and 40, which is 36.</p>"
+          ]
+        }
+      },
+      {
+        "id": "dZDu6-UGwvCBTEZp",
+        "title": "Using X-value to determine Y-value",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "vap/images/patt.jpg",
+          "filename": "vap/images/patt.jpg"
+        }
+      },
+      {
+        "id": "WJ0wyLXuRZNEsr3s",
+        "title": "Text 14",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Yes. You can answer questions from the graph. The coordinate pair of a point on the graph tells the value of the variables, which answers the questions. For example, if we have (40, 32), we look at the variable on the x-axis for the 40. So time is 40 seconds. We look at the variable on the y-axis for the 32. So the number of jumping jacks is 32.</p>"
+          ]
+        }
+      }
     ],
     "sharedModels": [
       {
@@ -2119,6 +2305,222 @@
         },
         "tiles": [
           "zMTJOeg0BaCLiFCr"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-Js7UeHb9HubkSMW",
+          "providerId": "LRhXn6a2hSLr6FOH",
+          "dataSet": {
+            "id": "Mz8IH_aQeXOkRuzq",
+            "name": "Jumping Jacks Over Time",
+            "attributes": [
+              {
+                "id": "ndmmQK7wf7BcVKdT",
+                "clientKey": "",
+                "name": "Time (seconds)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "60",
+                  "70",
+                  "80",
+                  "90",
+                  "100",
+                  "110",
+                  "120"
+                ],
+                "title": ""
+              },
+              {
+                "id": "eZ9Jw2Voo3pZqGEF",
+                "clientKey": "",
+                "name": "Total Number of Jumping Jacks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "26",
+                  "32",
+                  "39",
+                  "48",
+                  "58",
+                  "68",
+                  "80",
+                  "93."
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "Y2l045RN1tOJkymZ"
+              },
+              {
+                "__id__": "mpDDiq2TNKm6KkbJ"
+              },
+              {
+                "__id__": "zqCZOORT5lT2EWwd"
+              },
+              {
+                "__id__": "BsxQiXEwB4ipC8en"
+              },
+              {
+                "__id__": "N9n4I7vLlnERusg1"
+              },
+              {
+                "__id__": "LMGMh8j4x5cP6yyM"
+              },
+              {
+                "__id__": "TXbMwsqMqNZNJtbO"
+              },
+              {
+                "__id__": "zYPSJ6L6olwwThA9"
+              },
+              {
+                "__id__": "DCdDXWp2lJk8YuSp"
+              },
+              {
+                "__id__": "4tLBmgMM00tX29h2"
+              },
+              {
+                "__id__": "1b_wsBv8xpG-VVYd"
+              },
+              {
+                "__id__": "ML4GW38_J1MRQMeu"
+              },
+              {
+                "__id__": "LjgRIuePhAaSK46e"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "LRhXn6a2hSLr6FOH"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "2lyFWoFx1zAXjWHf",
+          "providerId": "UhsWxTg8Q36UEfJQ",
+          "dataSet": {
+            "id": "R_45uuaer5vb6FsL",
+            "name": "Lashawn's Group Jumping Jack Experiment",
+            "attributes": [
+              {
+                "id": "kzRT4FeQqpqEqARJ",
+                "clientKey": "",
+                "name": "Time (seconds)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50",
+                  "60"
+                ],
+                "title": ""
+              },
+              {
+                "id": "JtIWr4KVQ1mMw2I5",
+                "clientKey": "",
+                "name": "Total Number of Jumping Jacks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "8",
+                  "16",
+                  "24",
+                  "32",
+                  "40",
+                  "48"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "7BaCC6_h7Z2c8HFN"
+              },
+              {
+                "__id__": "0HuHOrT7oMNiNghu"
+              },
+              {
+                "__id__": "Ds1H_l4eoQ8urd8j"
+              },
+              {
+                "__id__": "doeD4HKkXLMI3-jc"
+              },
+              {
+                "__id__": "W7quFC3iERSMZLtv"
+              },
+              {
+                "__id__": "1Apj8FeRy-Q4uR5F"
+              },
+              {
+                "__id__": "t5HiLDGX2cJtQoc7"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "UhsWxTg8Q36UEfJQ",
+          "iiUK5H5eG8TMawjm"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "Orka7AyvabjvvboS",
+          "data": "R_45uuaer5vb6FsL",
+          "collections": {},
+          "categories": {
+            "kzRT4FeQqpqEqARJ": {
+              "attribute": "kzRT4FeQqpqEqARJ",
+              "colors": {},
+              "moves": []
+            },
+            "JtIWr4KVQ1mMw2I5": {
+              "attribute": "JtIWr4KVQ1mMw2I5",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "iiUK5H5eG8TMawjm"
         ]
       }
     ]
