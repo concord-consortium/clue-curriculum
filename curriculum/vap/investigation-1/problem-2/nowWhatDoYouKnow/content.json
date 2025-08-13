@@ -3,36 +3,68 @@
   "content": {
     "tiles": [
       {
-        "id": "kd9iw2Q5hJtneYQN",
-        "title": "Text 1",
+        "id": "lst8AtAior_0F--k",
+        "title": "Now What Do You Know?",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Describe how the pattern of change relationship between the variables— time and number of jumping jacks—is represented in a table and in a graph.</p>"
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "WYAwiO",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Describe how the pattern of change relationship between the variables— time and number of jumping jacks—is represented in a table and in a graph.</p>"
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "id": "pi7V15Mws8PqIgaZ",
-        "title": "Text 2",
+        "id": "c6qVsZvgYJVycSdZ",
+        "title": "Now What Do You Know? Answer",
         "display": "teacher",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>In a table, you can find the rate of jumping jacks by checking the difference between two adjacent entries. In a graph, on the other hand, you can see the rate of jumping jacks by checking the gaps between two points. The greater the difference in the rates, the steeper the changes between two points you would see in the graph.</p><p>The graphs might look different depending on the assignment of numbers on the axis even if they show the same data set. If you set short intervals for the y-axis, your graph might show steeper increase compared to other graphs that have greater intervals for the y-axis. The following graphs show the difference.</p><p>The scale used to label the axes makes a difference in the way the graph looks, in particular how fast the points look like they are moving up. Two graphs can have different scales on the y-axis, and the patterns of data points will look different.</p>"
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "LQ9-f-",
+          "tiles": [
+            {
+              "title": "Question Prompt 1",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Describe how the pattern of change relationship between the variables— time and number of jumping jacks—is represented in a table and in a graph.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>In a table, you can find the rate of jumping jacks by checking the difference between two adjacent entries. In a graph, on the other hand, you can see the rate of jumping jacks by checking the gaps between two points. The greater the difference in the rates, the steeper the changes between two points you would see in the graph.</p><p>The graphs might look different depending on the assignment of numbers on the axis even if they show the same data set. If you set short intervals for the y-axis, your graph might show steeper increase compared to other graphs that have greater intervals for the y-axis. The following graphs show the difference.</p><p>The scale used to label the axes makes a difference in the way the graph looks, in particular how fast the points look like they are moving up. Two graphs can have different scales on the y-axis, and the patterns of data points will look different.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Same Graph with Different Scale",
+              "content": {
+                "type": "Image",
+                "url": "vap/images/secre.jpg",
+                "filename": "vap/images/secre.jpg"
+              }
+            }
           ]
-        }
-      },
-      {
-        "id": "GKbMUVr03czRbds4",
-        "title": "Same Graph with Different Scale",
-        "display": "teacher",
-        "content": {
-          "type": "Image",
-          "url": "vap/images/secre.jpg",
-          "filename": "vap/images/secre.jpg"
         }
       }
     ]
