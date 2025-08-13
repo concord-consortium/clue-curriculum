@@ -8,7 +8,7 @@
     "placeholderText": "Drag or create tiles here.",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
-    "disablePublish": ["student"],
+    "disablePublish": "student",
     "enableHistoryRoles": [
       "teacher", "student"
     ],
@@ -137,21 +137,21 @@
               "type": "problem-documents"
             },
             {
-              "initials": "EXP",
-              "title": "Experiment",
+              "initials": "ACT",
+              "title": "Activity",
               "type": "problem-documents"
             },
             {
               "initials": "NWL",
-              "title": "Reflect",
+              "title": "Reflection",
               "type": "problem-documents"
             }
           ]
         },
         {
           "tab": "my-work",
-          "label": "Lesson Planner",
-          "teacherOnly": true,
+          "label": "My Work",
+          "teacherOnly": false,
           "sections": [
             {
               "title": "Workspaces",
@@ -183,10 +183,10 @@
         },
         {
           "tab": "class-work",
-          "label": "Class Work",
+          "label": "Custom Lessons",
           "sections": [
             {
-              "title": "Custom Activities",
+              "title": "Custom Lessons",
               "type": "published-problem-documents",
               "dataTestHeader": "class-work-section-published",
               "dataTestItem": "class-work-list-items",
@@ -209,7 +209,7 @@
         },
         {
           "tab": "sort-work",
-          "label": "Gallery",
+          "label": "Class Gallery",
           "teacherOnly": false
         }
       ]
@@ -392,13 +392,13 @@
       "placeholder": "Explore some tools and ideas to warm up."
     },
     "experiment": {
-      "initials": "EXP",
-      "title": "Experiment",
+      "initials": "ACT",
+      "title": "Activity",
       "placeholder": "Do your experiments here."
     },
     "reflect": {
       "initials": "NWL",
-      "title": "Reflect",
+      "title": "Reflection",
       "placeholder": "I notice... I wonder... I learned..."
     }
   },
