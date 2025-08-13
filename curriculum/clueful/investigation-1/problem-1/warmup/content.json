@@ -22,7 +22,7 @@
         },
         {
           "id": "fzp3CIlK1e8WDd43",
-          "title": "Bar Graph 1",
+          "title": "Compare catch locations",
           "content": {
             "type": "BarGraph",
             "yAxisLabel": "Counts",
@@ -40,26 +40,12 @@
         }
       ],
       {
-        "id": "-Mbo0NRr5QfHu3yS",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "Fe1JrtkPoTMdNqFH": 80,
-            "SJwZIeyWuCpatLyf": 80,
-            "kV2zuP2G4pfT2IRC": 80,
-            "IPzZpUSGxl_hjOWw": 80,
-            "XwsZ3fdNstIco2iU": 80,
-            "6mHj1AsjjJjD2lyL": 80
-          }
-        }
-      },
-      {
         "id": "OkkXiVtHacUC32p1",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Your workspaces (and this content) are made of little chunks called <strong><em>tiles</em></strong>. Whenever you choose a tool from the toolbar on the left side of your workspace, you will get a tile with that tool in it. Tools let express your ideas in different ways: </p><ul><li>text</li><li>tables</li><li>sketches</li><li>data cards</li><li>graphs</li><li>equations</li><li>programs</li></ul><p>Try hovering your mouse over the text or other tiles in this tab. You’ll see a gray box around each tool tile.</p>"
+            "<p><strong>Tiles and Workspaces</strong></p><p>Your workspaces (and this content) are made of <strong><em>tiles</em></strong>. Whenever you choose a tool from the toolbar on the left side of your workspace, you will get a tile with that tool in it. Tools let express your ideas in different ways, as text, tables, graphs, equations, programs and other STEM tools.</p><p>Try <strong>hovering your mouse </strong>over the tiles in this tab. You’ll see a gray box around each tool tile.</p>"
           ]
         }
       },
@@ -83,7 +69,7 @@
               "type": "image",
               "id": "Ico6UuLYigMoJPdZ",
               "x": 42.98828125,
-              "y": 53.71484375,
+              "y": 53.31640625,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -140,6 +126,96 @@
               "fill": "none",
               "width": 35.61328125,
               "height": 29.22265625
+            },
+            {
+              "type": "text",
+              "id": "x7l8Q0BnhQQkZ2Xa",
+              "x": 10.74609375,
+              "y": 251.40625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 125.75,
+              "height": 105.30859375,
+              "stroke": "#eb0000",
+              "text": "These tools can select all tiles or paste them with a single click."
+            },
+            {
+              "type": "vector",
+              "id": "tuOoc7meEiY9UchZ",
+              "x": 69.4296875,
+              "y": 252.046875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -14.6640625,
+              "dy": -36.07421875,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "R8PpiwCQGMTRP7ny",
+              "x": 537,
+              "y": 195.81640625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 125.2421875,
+              "height": 141.42578125,
+              "stroke": "#eb0000",
+              "text": "The waffle on the corner can be used to drag selected tiles to rearrange or copy them into a workspace."
+            },
+            {
+              "type": "vector",
+              "id": "UgBUPxTTeYXr0cfA",
+              "x": 616.01171875,
+              "y": 194.70703125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -1,
+              "dy": -73.73046875,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "_2oqG48FfzVX2KjB",
+              "x": 468.078125,
+              "y": 45.43359375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 94.77734375,
+              "height": 80.5390625,
+              "stroke": "#eb0000",
+              "text": "Use the x to close a workspace."
+            },
+            {
+              "type": "vector",
+              "id": "TBN3YngzAJ_AzHWq",
+              "x": 563.84765625,
+              "y": 88.16796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 43.5703125,
+              "dy": -16.5234375,
+              "headShape": "triangle"
             }
           ]
         },
@@ -228,6 +304,10 @@
                   "8/19/25",
                   "8/19/25",
                   "8/19/25",
+                  "8/21/25",
+                  "8/19/25",
+                  "8/19/25",
+                  "8/19/25",
                   "8/19/25",
                   "8/19/25",
                   "8/21/25"
@@ -249,6 +329,10 @@
                   "forest",
                   "backyard",
                   "backyard",
+                  "backyard",
+                  "backyard",
+                  "backyard",
+                  "forest",
                   "backyard"
                 ],
                 "title": ""
@@ -267,6 +351,10 @@
                   "1",
                   "1",
                   "1",
+                  "1",
+                  "2",
+                  "2",
+                  "2",
                   "2",
                   "2"
                 ],
@@ -285,7 +373,11 @@
                   "",
                   "curriculum/clueful/images/bristly-cutworm-moth-.png",
                   "curriculum/clueful/images/GreenMoth1.png",
+                  "curriculum/clueful/images/GreenMoth1.png",
                   "curriculum/clueful/images/bristly-cutworm-moth-.png",
+                  "curriculum/clueful/images/close-banded-yellowhorn-moth.png",
+                  "curriculum/clueful/images/close-banded-yellowhorn-moth.png",
+                  "curriculum/clueful/images/close-banded-yellowhorn-moth.png",
                   "curriculum/clueful/images/close-banded-yellowhorn-moth.png",
                   "curriculum/clueful/images/close-banded-yellowhorn-moth.png"
                 ],
@@ -302,6 +394,10 @@
                 },
                 "values": [
                   "fly",
+                  "moth",
+                  "moth",
+                  "moth",
+                  "moth",
                   "moth",
                   "moth",
                   "moth",
@@ -323,7 +419,11 @@
                   "brown",
                   "brown",
                   "green",
+                  "green",
                   "brown",
+                  "gray",
+                  "gray",
+                  "gray",
                   "gray",
                   "gray"
                 ],
@@ -341,10 +441,22 @@
                 "__id__": "01K2J5D0CD6EF69471XR1ZXYKN"
               },
               {
+                "__id__": "01K2J5H88JYMZZGAS87ADVQYCC"
+              },
+              {
                 "__id__": "01K2J56D2SQN4K6YPXFKMSZRRA"
               },
               {
                 "__id__": "01K2J51QS621PAT6KCK4CNC0GJ"
+              },
+              {
+                "__id__": "01K2J5JFB085JDCTRA569Z23RN"
+              },
+              {
+                "__id__": "01K2J5JFVZ2YWBWBVMZHK9S15E"
+              },
+              {
+                "__id__": "01K2J5JGGN6A0TWQGE3WK66H78"
               },
               {
                 "__id__": "01K2J59S065FYREWS6P5SECTEG"
@@ -356,7 +468,6 @@
         "provider": "EGXbXkRMG8ZZgdRa",
         "tiles": [
           "EGXbXkRMG8ZZgdRa",
-          "-Mbo0NRr5QfHu3yS",
           "fzp3CIlK1e8WDd43"
         ]
       }
