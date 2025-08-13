@@ -1,7 +1,761 @@
 {
   "type": "initialChallenge",
   "content": {
-    "tiles": [ ],
-    "sharedModels": [ ]
+    "tiles": [
+      {
+        "id": "s_dkZnxZeQgyx4vj",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem 1.4</strong></p><p><strong>Chincoteague Island to Norfolk: Stories, Tables, and Graphs</strong></p><p>On Day 3, the group travels from Chincoteague Island to Norfolk, VA. </p><p>Malcolm and Liz drove the tour van on the way. They forgot to record the time and distance data. Fortunately, they wrote some notes about the trip. </p>"
+          ]
+        }
+      },
+      {
+        "id": "X_Klgpuli4WNbOYr",
+        "title": "Trip Notes",
+        "content": {
+          "type": "Image",
+          "url": "vap/images/cru.jpg",
+          "filename": "vap/images/cru.jpg"
+        }
+      },
+      {
+        "id": "KS2EvuRoRnyGzjUm",
+        "title": "Initial Challenge",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "hlFyhq",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li>What are the variables in this situation?</li><li>Make a table and graph of the data. How does your table and graph show the pattern of change in distance over time?</li><li>Are your table and graph the same as those of your classmates? Explain.</li></ol>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "8Y50kh4wGzw2Eon5",
+        "title": "Initial Challenge Answers",
+        "display": "teacher",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "5gmMr4",
+          "tiles": [
+            {
+              "title": "Question Prompt 1",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li>What are the variables in this situation?</li><li>Make a table and graph of the data. How does your table and graph show the pattern of change in distance over time?</li><li>Are your table and graph the same as those of your classmates? Explain.</li></ol>"
+                ]
+              }
+            },
+            {
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li> Variables in this situation are time (hours) and distance (miles).</li><li>Since the story does not include all the data, students’ tables and graphs will vary. Some students begin with a table and move to a graph. Other students begin with a graph then move to a table. Possible Answers in tables below. Graphs will vary. Possible Graphs are shown below.  Students might sketch the pattern between the variables at various points of time and distance or students might plot points that seem to represent the pattern between the variables at various points of time and distance.</li><li> Possible answer: Some points are the same; some points are different. We have different scales for the time. We have different estimates of the progress in distance. A few points that students might agree should be close to the same: </li></ol><ul><li> For (0, 0), at 8:00 a.m., they started the trip.</li><li>For (9, 100), they completed the trip.</li><li>At noon, they had traveled about halfway, so about (4, 50).</li><li>The last hour from 4 p.m. to 5 p.m., they stopped to watch the ships passing and then drove 25 miles in the van, so about (8.5, 75).</li></ul>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "vtDOfcL-uO54iHjI",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "PEZsi8ELJDnDOlvf": 80,
+            "jKbIsI9AZF-SHEmX": 80,
+            "L6UFan0A2D2As6qx": 80,
+            "BqsdekFwiSx7NKXR": 132,
+            "iwIMwNSFMIOn5Qos": 120.800048828125,
+            "lQeEneA7sjt6P_VR": 88,
+            "WsqqTgAxzAO4nANc": 80
+          }
+        }
+      },
+      {
+        "id": "Bd8OHapzsATtiUsZ",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "BAybB24a7BlVmDgr": 80,
+            "yVSm2Zgz-mwVnEtR": 80,
+            "4XHqFmBWcly0HBPR": 80,
+            "1mGFhxF5cXNmthqC": 80,
+            "QFaxd-UF0j2ZcNol": 80,
+            "i6ecSrE7XtsVLAMp": 88,
+            "AkEvsr9pTZz4M8ZY": 80,
+            "SUwEU6Duu_jTZmkA": 80,
+            "PEXIizuI5NUafwaH": 80,
+            "mSNEWrB8L2FNW7V7": 80,
+            "oCL_DPLAf275E27s": 80
+          }
+        }
+      },
+      {
+        "id": "Fda3gummLohzz_5T",
+        "title": "Example Graph of Situation",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "vap/images/nur.jpg",
+          "filename": "vap/images/nur.jpg"
+        }
+      },
+      {
+        "id": "rJV-zt4FXeRswLy9",
+        "title": "Situation Data",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -10,
+              "max": 110
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRzY04DicQe6Pd",
+              "config": {
+                "id": "DCONboT2QB9BZm33",
+                "dataset": "wZ-qMfaNJiKSHbEu",
+                "metadata": "ZLngeWn_N3Nf4Ik0",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "teZkEDsyYWsXtolI",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "U-5gvzjQNOt4I7hA"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "yVSm2Zgz-mwVnEtR": 0,
+            "U-5gvzjQNOt4I7hA": 1
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (hours)",
+          "yAttributeLabel": "Distance (miles)"
+        }
+      },
+      {
+        "id": "5vDQFAusky5nNcfs",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "teZkEDsyYWsXtolI": 80,
+            "U-5gvzjQNOt4I7hA": 80
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "atKjvdvYZSYLx9F6",
+          "providerId": "vtDOfcL-uO54iHjI",
+          "dataSet": {
+            "id": "rw5wgjkBTiOS4KST",
+            "name": "Table of Situation Example 1",
+            "attributes": [
+              {
+                "id": "PEZsi8ELJDnDOlvf",
+                "clientKey": "",
+                "name": "Time of Day",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Time (hours)",
+                  "Distance (miles"
+                ],
+                "title": ""
+              },
+              {
+                "id": "jKbIsI9AZF-SHEmX",
+                "clientKey": "",
+                "name": "8:00 am",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "0"
+                ],
+                "title": ""
+              },
+              {
+                "id": "L6UFan0A2D2As6qx",
+                "clientKey": "",
+                "name": "Midmorning, about 10:00 am",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "20"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BqsdekFwiSx7NKXR",
+                "clientKey": "",
+                "name": "12 pm (spend some time eating-no distance added during lunch)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "4",
+                  "50"
+                ],
+                "title": ""
+              },
+              {
+                "id": "iwIMwNSFMIOn5Qos",
+                "clientKey": "",
+                "name": "3 pm (maybe 1/2 hour for a swim-no distance added in)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "7",
+                  "65"
+                ],
+                "title": ""
+              },
+              {
+                "id": "lQeEneA7sjt6P_VR",
+                "clientKey": "",
+                "name": "4 pm (watch ships then get in van)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8",
+                  "75"
+                ],
+                "title": ""
+              },
+              {
+                "id": "WsqqTgAxzAO4nANc",
+                "clientKey": "",
+                "name": "5 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9",
+                  "100"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "qkK1hriKJLocEb-X"
+              },
+              {
+                "__id__": "8goQl_U0NQ_8VOZa"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "vtDOfcL-uO54iHjI"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "q4-HQfEZEnARgLRP",
+          "providerId": "Bd8OHapzsATtiUsZ",
+          "dataSet": {
+            "id": "QlMZVCDdJqFqZyVU",
+            "name": "Table of Situation Example 2",
+            "attributes": [
+              {
+                "id": "BAybB24a7BlVmDgr",
+                "clientKey": "",
+                "name": "Time of Day",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Time (hours)",
+                  "Distance (miles"
+                ],
+                "title": ""
+              },
+              {
+                "id": "yVSm2Zgz-mwVnEtR",
+                "clientKey": "",
+                "name": "8 am",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "0"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4XHqFmBWcly0HBPR",
+                "clientKey": "",
+                "name": "9 am",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1mGFhxF5cXNmthqC",
+                "clientKey": "",
+                "name": "10 am",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "18"
+                ],
+                "title": ""
+              },
+              {
+                "id": "QFaxd-UF0j2ZcNol",
+                "clientKey": "",
+                "name": "11 am",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "3",
+                  "33"
+                ],
+                "title": ""
+              },
+              {
+                "id": "i6ecSrE7XtsVLAMp",
+                "clientKey": "",
+                "name": "12 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "4",
+                  "50"
+                ],
+                "title": ""
+              },
+              {
+                "id": "AkEvsr9pTZz4M8ZY",
+                "clientKey": "",
+                "name": "1 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "50"
+                ],
+                "title": ""
+              },
+              {
+                "id": "SUwEU6Duu_jTZmkA",
+                "clientKey": "",
+                "name": "2 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "6",
+                  "60"
+                ],
+                "title": ""
+              },
+              {
+                "id": "PEXIizuI5NUafwaH",
+                "clientKey": "",
+                "name": "3 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "7",
+                  "70"
+                ],
+                "title": ""
+              },
+              {
+                "id": "mSNEWrB8L2FNW7V7",
+                "clientKey": "",
+                "name": "4 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8",
+                  "75"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oCL_DPLAf275E27s",
+                "clientKey": "",
+                "name": "5 pm",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9",
+                  "100"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01K2GEBKY7HKKS0GE076K255RH"
+              },
+              {
+                "__id__": "01K2GEBKY7HKKS0GE076K255RJ"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "Bd8OHapzsATtiUsZ",
+        "tiles": [
+          "Bd8OHapzsATtiUsZ"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "FJyl5aEVLSr95SM_",
+          "data": "QlMZVCDdJqFqZyVU",
+          "collections": {},
+          "categories": {
+            "BAybB24a7BlVmDgr": {
+              "attribute": "BAybB24a7BlVmDgr",
+              "colors": {},
+              "moves": []
+            },
+            "yVSm2Zgz-mwVnEtR": {
+              "attribute": "yVSm2Zgz-mwVnEtR",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "rJV-zt4FXeRswLy9"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Q3v5sBfvGEb6sa4S",
+          "providerId": "5vDQFAusky5nNcfs",
+          "dataSet": {
+            "id": "wZ-qMfaNJiKSHbEu",
+            "name": "Situation Data",
+            "attributes": [
+              {
+                "id": "teZkEDsyYWsXtolI",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "title": ""
+              },
+              {
+                "id": "U-5gvzjQNOt4I7hA",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "5",
+                  "18",
+                  "33",
+                  "50",
+                  "50",
+                  "60",
+                  "70",
+                  "75",
+                  "100"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "y0wqyS6dEHJLAGz4"
+              },
+              {
+                "__id__": "JmVuk0ouORtd2owZ"
+              },
+              {
+                "__id__": "wr6iWGAVNsIwuLbM"
+              },
+              {
+                "__id__": "fDej8WMy37VFP6r3"
+              },
+              {
+                "__id__": "uqHVN_7P3jsNcVLd"
+              },
+              {
+                "__id__": "iUOJxvI5j2gkXD25"
+              },
+              {
+                "__id__": "ou0nFdYDfZkhD8f2"
+              },
+              {
+                "__id__": "ZJXpvruXkhJRi2xx"
+              },
+              {
+                "__id__": "Yb9b-7dTwo2waFm6"
+              },
+              {
+                "__id__": "m8upwcS-KzLrzF22"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "5vDQFAusky5nNcfs",
+          "rJV-zt4FXeRswLy9"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "ZLngeWn_N3Nf4Ik0",
+          "data": "wZ-qMfaNJiKSHbEu",
+          "collections": {},
+          "categories": {
+            "teZkEDsyYWsXtolI": {
+              "attribute": "teZkEDsyYWsXtolI",
+              "colors": {},
+              "moves": []
+            },
+            "U-5gvzjQNOt4I7hA": {
+              "attribute": "U-5gvzjQNOt4I7hA",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "rJV-zt4FXeRswLy9"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "JkgJH5mom17byp9g",
+        "sourceObject": {
+          "tileId": "vtDOfcL-uO54iHjI",
+          "objectId": "cell:{8goQl_U0NQ_8VOZa}:{jKbIsI9AZF-SHEmX}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 10,
+          "dy": 6
+        },
+        "targetObject": {
+          "tileId": "vtDOfcL-uO54iHjI",
+          "objectId": "cell:{8goQl_U0NQ_8VOZa}:{L6UFan0A2D2As6qx}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 10
+        },
+        "text": "wind against",
+        "textOffset": {
+          "dx": -21.360849056603797,
+          "dy": 37.60200668896323
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "sAzb9REdqAOn1XHB",
+        "sourceObject": {
+          "tileId": "vtDOfcL-uO54iHjI",
+          "objectId": "cell:{8goQl_U0NQ_8VOZa}:{L6UFan0A2D2As6qx}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 29,
+          "dy": 6
+        },
+        "targetObject": {
+          "tileId": "vtDOfcL-uO54iHjI",
+          "objectId": "cell:{8goQl_U0NQ_8VOZa}:{BqsdekFwiSx7NKXR}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": -1,
+          "dy": 5
+        },
+        "text": "wind with",
+        "textOffset": {
+          "dx": -14.345207694144847,
+          "dy": 19.649999999999977
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "AMe9CrrPm1y7_f7l",
+        "sourceObject": {
+          "tileId": "vtDOfcL-uO54iHjI",
+          "objectId": "cell:{8goQl_U0NQ_8VOZa}:{iwIMwNSFMIOn5Qos}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 20,
+          "dy": 11
+        },
+        "targetObject": {
+          "tileId": "vtDOfcL-uO54iHjI",
+          "objectId": "cell:{8goQl_U0NQ_8VOZa}:{lQeEneA7sjt6P_VR}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 1
+        },
+        "text": "25 miles in van",
+        "textOffset": {
+          "dx": -5.3409958549889325,
+          "dy": 51.642852783203125
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      }
+    ]
   }
 }
