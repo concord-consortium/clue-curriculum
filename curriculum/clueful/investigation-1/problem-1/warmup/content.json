@@ -9,17 +9,47 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Welcome to CLUE! CLUE is a shared environment where you and your peers can collaboratively design STEM solutions. CLUE supports the creation and sharing of graphs, text, images, drawings, mathematical models, sensor-based coding, and more. This first activity will introduce you to CLUE tools for problem-solving and give you opportunities to try things out on your own. </p>"
+            "<p><strong>Welcome to CLUE! Let&#x27;s Collaborate!</strong></p><p>CLUE is a shared environment where you and your peers can collaboratively design STEM solutions. CLUE supports the creation and sharing of graphs, text, images, drawings, mathematical models, sensor-based coding, and more. This first activity will introduce you to CLUE tools for problem-solving and give you opportunities to try things out on your own. </p>"
           ]
         }
       },
+      [
+        {
+          "id": "EGXbXkRMG8ZZgdRa",
+          "content": {
+            "type": "DataCard"
+          }
+        },
+        {
+          "id": "fzp3CIlK1e8WDd43",
+          "title": "Bar Graph 1",
+          "content": {
+            "type": "BarGraph",
+            "yAxisLabel": "Counts",
+            "dataSetId": "rzHEOSJY9HZonufD",
+            "primaryAttribute": "SJwZIeyWuCpatLyf",
+            "secondaryAttribute": "6mHj1AsjjJjD2lyL",
+            "attributeColorMap": {
+              "6mHj1AsjjJjD2lyL": {
+                "brown": 10,
+                "gray": 9,
+                "green": 2
+              }
+            }
+          }
+        }
+      ],
       {
-        "id": "1MTkBUnZwlJwEwGT",
+        "id": "-Mbo0NRr5QfHu3yS",
         "content": {
           "type": "Table",
           "columnWidths": {
-            "kdKC5QoS5B2jVs_J": 80,
-            "yfA6LkjXXkp6M0Zb": 80
+            "Fe1JrtkPoTMdNqFH": 80,
+            "SJwZIeyWuCpatLyf": 80,
+            "kV2zuP2G4pfT2IRC": 80,
+            "IPzZpUSGxl_hjOWw": 80,
+            "XwsZ3fdNstIco2iU": 80,
+            "6mHj1AsjjJjD2lyL": 80
           }
         }
       },
@@ -160,7 +190,7 @@
           ]
         },
         "layout": {
-          "height": 211
+          "height": 428
         }
       },
       {
@@ -179,43 +209,155 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "xmtactnTNSYS-WYF",
-          "providerId": "1MTkBUnZwlJwEwGT",
+          "id": "lcOUXMZFnVWNYTl5",
+          "providerId": "EGXbXkRMG8ZZgdRa",
           "dataSet": {
-            "id": "2HTWU2Eu4ZkyA4vb",
-            "name": "Table Data 1",
+            "id": "rzHEOSJY9HZonufD",
+            "name": "My Moths",
             "attributes": [
               {
-                "id": "kdKC5QoS5B2jVs_J",
+                "id": "Fe1JrtkPoTMdNqFH",
                 "clientKey": "",
-                "name": "roll",
+                "name": "Date",
                 "hidden": false,
                 "units": "",
                 "formula": {
                   "display": ""
                 },
-                "values": [],
+                "values": [
+                  "8/19/25",
+                  "8/19/25",
+                  "8/19/25",
+                  "8/19/25",
+                  "8/19/25",
+                  "8/21/25"
+                ],
                 "title": ""
               },
               {
-                "id": "yfA6LkjXXkp6M0Zb",
+                "id": "SJwZIeyWuCpatLyf",
                 "clientKey": "",
-                "name": "y",
+                "name": "Location",
                 "hidden": false,
                 "units": "",
                 "formula": {
                   "display": ""
                 },
-                "values": [],
+                "values": [
+                  "backyard",
+                  "forest",
+                  "forest",
+                  "backyard",
+                  "backyard",
+                  "backyard"
+                ],
+                "title": ""
+              },
+              {
+                "id": "kV2zuP2G4pfT2IRC",
+                "clientKey": "",
+                "name": "Trap ID",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "2",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "IPzZpUSGxl_hjOWw",
+                "clientKey": "",
+                "name": "Image ",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "",
+                  "curriculum/clueful/images/bristly-cutworm-moth-.png",
+                  "curriculum/clueful/images/GreenMoth1.png",
+                  "curriculum/clueful/images/bristly-cutworm-moth-.png",
+                  "curriculum/clueful/images/close-banded-yellowhorn-moth.png",
+                  "curriculum/clueful/images/close-banded-yellowhorn-moth.png"
+                ],
+                "title": ""
+              },
+              {
+                "id": "XwsZ3fdNstIco2iU",
+                "clientKey": "",
+                "name": "type",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "fly",
+                  "moth",
+                  "moth",
+                  "moth",
+                  "moth",
+                  "moth"
+                ],
+                "title": ""
+              },
+              {
+                "id": "6mHj1AsjjJjD2lyL",
+                "clientKey": "",
+                "name": "color",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "brown",
+                  "brown",
+                  "green",
+                  "brown",
+                  "gray",
+                  "gray"
+                ],
                 "title": ""
               }
             ],
-            "cases": [],
+            "cases": [
+              {
+                "__id__": "01K2J51QS621PAT6KCK4CNC0GG"
+              },
+              {
+                "__id__": "01K2J51QS621PAT6KCK4CNC0GH"
+              },
+              {
+                "__id__": "01K2J5D0CD6EF69471XR1ZXYKN"
+              },
+              {
+                "__id__": "01K2J56D2SQN4K6YPXFKMSZRRA"
+              },
+              {
+                "__id__": "01K2J51QS621PAT6KCK4CNC0GJ"
+              },
+              {
+                "__id__": "01K2J59S065FYREWS6P5SECTEG"
+              }
+            ],
             "sortDirection": "NONE"
           }
         },
+        "provider": "EGXbXkRMG8ZZgdRa",
         "tiles": [
-          "1MTkBUnZwlJwEwGT"
+          "EGXbXkRMG8ZZgdRa",
+          "-Mbo0NRr5QfHu3yS",
+          "fzp3CIlK1e8WDd43"
         ]
       }
     ]
