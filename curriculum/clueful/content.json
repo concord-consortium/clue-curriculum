@@ -8,6 +8,7 @@
     "placeholderText": "Drag or create tiles here.",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
+    "disablePublish": ["student"],
     "enableHistoryRoles": [
       "teacher", "student"
     ],
@@ -72,7 +73,7 @@
       },
       {
         "id": "Dataflow",
-        "title": "Dataflow",
+        "title": "Program",
         "isTileTool": true
       },
       {
@@ -136,7 +137,7 @@
               "type": "problem-documents"
             },
             {
-              "initials": "WORK",
+              "initials": "EXP",
               "title": "Experiment",
               "type": "problem-documents"
             },
@@ -148,8 +149,41 @@
           ]
         },
         {
+          "tab": "my-work",
+          "label": "Lesson Planner",
+          "teacherOnly": true,
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": []
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [],
+              "addDocument": true
+            }
+          ]
+        },
+        {
           "tab": "class-work",
-          "label": "Your Class",
+          "label": "Class Work",
           "sections": [
             {
               "title": "Custom Activities",
@@ -175,7 +209,7 @@
         },
         {
           "tab": "sort-work",
-          "label": "Class Work",
+          "label": "Gallery",
           "teacherOnly": false
         }
       ]
@@ -318,6 +352,9 @@
       },
       "diagram": {
         "maxTiles": 1
+      },
+      "dataflow": {
+        "maxTiles": 1
       }
     },
     "enableCommentRoles": [
@@ -355,7 +392,7 @@
       "placeholder": "Explore some tools and ideas to warm up."
     },
     "experiment": {
-      "initials": "WORK",
+      "initials": "EXP",
       "title": "Experiment",
       "placeholder": "Do your experiments here."
     },
