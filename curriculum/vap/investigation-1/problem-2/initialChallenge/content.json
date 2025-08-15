@@ -155,50 +155,38 @@
           ]
         }
       },
-      [
-        {
-          "id": "Gi0-YdCUtbx0Lpq5",
-          "title": "Question 1",
-          "content": {
-            "type": "Question",
-            "version": 1,
-            "locked": false,
-            "questionId": "GQRgge",
-            "tiles": [
-              {
-                "title": "Question Prompt",
-                "fixedPosition": true,
-                "content": {
-                  "type": "Text",
-                  "format": "html",
-                  "text": [
-                    "<p></p>"
-                  ]
-                }
-              },
-              {
-                "content": {
-                  "type": "Table",
-                  "columnWidths": {
-                    "y9Qpu3IjibUo_0Dj": 80,
-                    "zj80WpZy5CAKDBn7": 80
-                  }
+      {
+        "id": "Gi0-YdCUtbx0Lpq5",
+        "title": "and a question name",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "GQRgge",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>it now has a prompt. Test the table.</p>"
+                ]
+              }
+            },
+            {
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "DW7JuvPI91jSQgh8": 80,
+                  "oc82BYTvbot3XFZ8": 120.18359375
                 }
               }
-            ]
-          }
-        },
-        {
-          "id": "5TIdILWJIbaWur_r",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "w0niya8CgVfE8Cuc": 80,
-              "-w-eyHtvAA_xMn0S": 80
             }
-          }
+          ]
         }
-      ]
+      }
     ],
     "sharedModels": [
       {
@@ -335,62 +323,6 @@
         },
         "tiles": [
           "QHT9kg5CDEYiINuB"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "hQzWwPTgdWsANQ83",
-          "providerId": "5TIdILWJIbaWur_r",
-          "dataSet": {
-            "id": "PhWkN6BhPD9rEmAE",
-            "name": "test data 1",
-            "attributes": [
-              {
-                "id": "w0niya8CgVfE8Cuc",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "1",
-                  "3"
-                ],
-                "title": ""
-              },
-              {
-                "id": "-w-eyHtvAA_xMn0S",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "2",
-                  "4"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01K2PZRDD7TKDB2Y3YD4GD0QJ0"
-              },
-              {
-                "__id__": "01K2PZRDD8XCBK0NQMMQQVZDCA"
-              }
-            ],
-            "sortDirection": "NONE"
-          }
-        },
-        "provider": "5TIdILWJIbaWur_r",
-        "tiles": [
-          "5TIdILWJIbaWur_r"
         ]
       }
     ]
