@@ -154,7 +154,51 @@
             "<p>2. The graph shows that the total number of jumping jacks increases over time and that for most intervals, the number of jumps in a 10-second interval decreases over time.</p><p>Be sure students understand the graph shows this because the vertical distance between adjacent points becomes smaller as time passes. This may be hard for students now, but they will see the same concept in future problems, when they look at how distance changes over time. Students may talk about the “steepness” or “how high up” it is from one point to another. When there is a greater increase, the line between consecutive points will “be steeper, be longer, and have a larger angle.”</p><p>3. The graph shows that the total number of jumping jacks tends to increase as times goes on. The rate of jumping jacks in each time interval is the distance of two data points. On a graph, you can see that the greater rate is shown by bigger steps upward from one data point to the next. Students might note that they can see the exact numbers in the table and therefore more easily see that the jumper is slowing down. Other students might prefer the visual image of the graph. The graph gives the whole picture of the data in a glance so that changes can easily be seen.</p><p>4. Graphs will vary depending on the experiment. Students might find that the patterns tend to increase as time passes, even if different groups have different rates of jumping jacks. (All or most graphs will have a general increasing pattern.) By looking at other groups’ graphs, students can imagine the stories of other groups’ experiments like they matched descriptions with tables in Problem 1.1, What If . . . ?</p>"
           ]
         }
-      }
+      },
+      [
+        {
+          "id": "Gi0-YdCUtbx0Lpq5",
+          "title": "Question 1",
+          "content": {
+            "type": "Question",
+            "version": 1,
+            "locked": false,
+            "questionId": "GQRgge",
+            "tiles": [
+              {
+                "title": "Question Prompt",
+                "fixedPosition": true,
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p></p>"
+                  ]
+                }
+              },
+              {
+                "content": {
+                  "type": "Table",
+                  "columnWidths": {
+                    "y9Qpu3IjibUo_0Dj": 80,
+                    "zj80WpZy5CAKDBn7": 80
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "5TIdILWJIbaWur_r",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "w0niya8CgVfE8Cuc": 80,
+              "-w-eyHtvAA_xMn0S": 80
+            }
+          }
+        }
+      ]
     ],
     "sharedModels": [
       {
@@ -291,6 +335,62 @@
         },
         "tiles": [
           "QHT9kg5CDEYiINuB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "hQzWwPTgdWsANQ83",
+          "providerId": "5TIdILWJIbaWur_r",
+          "dataSet": {
+            "id": "PhWkN6BhPD9rEmAE",
+            "name": "test data 1",
+            "attributes": [
+              {
+                "id": "w0niya8CgVfE8Cuc",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "3"
+                ],
+                "title": ""
+              },
+              {
+                "id": "-w-eyHtvAA_xMn0S",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "4"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01K2PZRDD7TKDB2Y3YD4GD0QJ0"
+              },
+              {
+                "__id__": "01K2PZRDD8XCBK0NQMMQQVZDCA"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "5TIdILWJIbaWur_r",
+        "tiles": [
+          "5TIdILWJIbaWur_r"
         ]
       }
     ]
