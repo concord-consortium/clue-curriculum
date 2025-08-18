@@ -1,1 +1,281 @@
-{"type": "whatIf", "content": {"tiles": [], "supports": []}}
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "ibVM0BrccxuI04pV",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Which Strategy?</strong></p><p>Some of the tour organizers used different strategies to find the final price a customer paid with the $50 discount. They are like the strategies they used in Problem 3.1.</p><ul><li>Lisa used an equation. </li><li>Xavier used a table. </li><li>Mikala used a graph. </li><li>Pat used guess and check.</li></ul><p><strong>1.  </strong>Describe how Lisa, Xavier, Mikala, and Pat could use their strategies to solve this problem.</p><p><strong>2.  </strong>When would it make sense to use an equation, table, graph, or guess and check?</p><p><strong>3.  </strong>Sidney notices that if the cost of the tour is $50, the customer would pay $0. Does this make sense?</p>"
+          ]
+        }
+      },
+      {
+        "id": "XCK3DrW6g8NGW_c9",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>1.  </strong> Answers will vary.</p><p> A table, graph, or equation might help students see the pattern between the two variables. The representations would also have values that might answer questions. The equation can be used to insert the value for one variable to figure out the value for the other variable. Guess and check can be used to make sense of the numerical relationships when certain values are known for a variable.</p><p><em>Example Equation</em></p><p> D = C − 50</p><p>Where the original price is (C) and the discounted price is (D).</p><p><em>Example Guess and Check</em></p><p>If we know the amount they paid is $275, we can check for original prices that would result in that amount after subtracting 50.</p><p>350 − 50 = 300 (too much)</p><p>300 − 50 = 250 (not enough)</p><p>325 − 50 = 275 (the amount we were looking for)</p>"
+          ]
+        }
+      },
+      {
+        "id": "DxFSY8BWAkYK80HA",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Dd52WJzIHi0MD74W": 115.20004272460938,
+            "ZEdFvDD4iDRKC680": 126.4000244140625
+          }
+        }
+      },
+      {
+        "id": "3LOFWT30oToKZ_ZK",
+        "title": "Example Graph",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 500
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRK28x8mH9sTze",
+              "config": {
+                "id": "DCON0jAyQAxA33wj",
+                "dataset": "mk84JWdmmcaWCbAq",
+                "metadata": "2iZ0goSH5RITHZWN",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "Dd52WJzIHi0MD74W",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "ZEdFvDD4iDRKC680"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "ZEdFvDD4iDRKC680": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Original Cost ($)",
+          "yAttributeLabel": "Discounted Cost ($)"
+        }
+      },
+      {
+        "id": "Qiz1NsqfEJOvY0-3",
+        "title": "Text 6",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>2.  </strong> Answers will vary.</p><p>For the costs that are given in a table, you can simply check the table for values you are interested in.</p><p>With an equation, you can calculate the cost when it is not listed in a table.</p><p>When you want to see the pattern and predict the cost, you would use a graph.</p><p>With guess and check, you can keep guessing until you find quantities that match what is asked in the question.</p><p><strong>3.  </strong>The numbers make sense. If the tour price is $50, using a discount, you will pay 50 − 50, which is 0.</p><p>However, it does not seem likely that the tour operators would let you go on the tour  for free.</p>"
+          ]
+        }
+      },
+      {
+        "id": "N9H7_4KxFdB5WQYx",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Advertising Posters</strong></p><p>Celia goes shopping for art supplies to make posters to advertise the new tour. The Green Box store is offering a certain amount off the original purchase price. Celia writes the sentence:</p><p><em>The final price T is the purchase price P minus $20. </em></p><p>Therefore, the equation is: T = P − 20.</p><p><strong>1.  </strong>How much is the final price T if the purchase price was $305?</p><p><strong>2. </strong> How much was her purchase price P if the final price was $225? </p><p><strong>3.  </strong>What question is she trying to answer with this equation? </p><p>T = 500 − 20</p><p><strong>4. </strong> What question is she trying to answer with this equation?</p><p>370 = P − 20</p>"
+          ]
+        }
+      },
+      {
+        "id": "396NICu0f2OpRWil",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>1.  </strong>T = 305 - 20</p><p><u>T = 285</u></p><p><strong>2.  </strong>225 = P - 20</p><p>225 = <u>245</u> - 20</p><p><strong>3.  </strong>T = 500 - 20</p><p>She wants to know the discounted price when the purchase price is $500.</p><p><strong>4.  </strong>370 = P − 20</p><p>She wants to know the purchase price when the final discounted price is $370.</p>"
+          ]
+        }
+      },
+      {
+        "id": "ZIPA_IPi5XYEp24e",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation C. Buying Tickets Online</strong></p><p>Malcolm considers selling the bike tour tickets online. If he does, then the customer pays a $10 handling fee. (A handling fee is a charge for making or delivering the ticket.)</p><p><strong>1.  </strong>How does the handling fee affect the cost of admission?</p><p><strong>2.</strong>  Write an equation that represents the cost with the handling fee. Let P represent the price of the tour and T represent the total cost after the handling fee has been paid. </p>"
+          ]
+        }
+      },
+      {
+        "id": "mpXKjII5C10vO80I",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>1.  </strong> The customer should pay $10 more on top of the tour price.</p><p><strong>2.  </strong> Price of Tour + $10 = Total Cost</p><p>P + 10 = T</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-z7MosiQPuH8ODg9",
+          "providerId": "DxFSY8BWAkYK80HA",
+          "dataSet": {
+            "id": "mk84JWdmmcaWCbAq",
+            "name": "Example Table",
+            "attributes": [
+              {
+                "id": "Dd52WJzIHi0MD74W",
+                "clientKey": "",
+                "name": "Original Cost ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "100",
+                  "150",
+                  "200",
+                  "250",
+                  "300",
+                  "350",
+                  "400",
+                  "450",
+                  "500"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ZEdFvDD4iDRKC680",
+                "clientKey": "",
+                "name": "Discounted Cost ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "50",
+                  "100",
+                  "150",
+                  "200",
+                  "250",
+                  "300",
+                  "350",
+                  "400",
+                  "450"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "7mENMBbohPfn3CRK"
+              },
+              {
+                "__id__": "a3-OKzgsRZZR3Dv_"
+              },
+              {
+                "__id__": "kCxlS5lRx9RPTFeR"
+              },
+              {
+                "__id__": "mcWE-645wFYSU120"
+              },
+              {
+                "__id__": "vURkQFBbUTHVMarD"
+              },
+              {
+                "__id__": "TY-Z5LXG4Q_nE6yg"
+              },
+              {
+                "__id__": "o7awX7oLvJjJMeVu"
+              },
+              {
+                "__id__": "YdjmVXhJSoT4BPb9"
+              },
+              {
+                "__id__": "sFNd5YyuQTnrC7_0"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "DxFSY8BWAkYK80HA",
+          "3LOFWT30oToKZ_ZK"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "2iZ0goSH5RITHZWN",
+          "data": "mk84JWdmmcaWCbAq",
+          "collections": {},
+          "categories": {
+            "Dd52WJzIHi0MD74W": {
+              "attribute": "Dd52WJzIHi0MD74W",
+              "colors": {},
+              "moves": []
+            },
+            "ZEdFvDD4iDRKC680": {
+              "attribute": "ZEdFvDD4iDRKC680",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "3LOFWT30oToKZ_ZK"
+        ]
+      }
+    ]
+  }
+}
