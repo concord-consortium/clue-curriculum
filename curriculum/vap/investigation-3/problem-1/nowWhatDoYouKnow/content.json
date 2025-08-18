@@ -1,1 +1,120 @@
-{"type": "nowWhatDoYouKnow", "content": {"tiles": [], "supports": []}}
+{
+  "type": "nowWhatDoYouKnow",
+  "content": {
+    "tiles": [
+      {
+        "id": "hFfRt6LTuUvAO0u_",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Describe how an equation might be useful to answer questions about the situation. What are the advantages of using a table, graph, or equation to make a prediction and solve a problem?</p>"
+          ]
+        }
+      },
+      {
+        "id": "qzo87_roEEHBlJLm",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To write an equation like in the problems, you need to have two variables that are related to each other. The dependent variable can be increasing/ decreasing as the independent variable increases. And also you need to know how much the dependent variable changes as the independent variable increases by 1. For example, in the equation d = 50t, 50 means the distance for 1 hour, and in the equation C = 3.50n, 3.50 means the price for 1 person. An equation might be useful when you consider various possibilities, such as: “How long would it take to go 600 miles?”, “What about 1,000 miles?”, “How far can I go for 10 hours?”, “What about 15 hours?”, “How many snack packs can I get with $300?”, “What about $1,000?”, or “How much would it cost to buy snack packs for 100 people?”</p>"
+          ]
+        }
+      },
+      {
+        "id": "kwA86lGO_lCNp3bN",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "WNHDfwXMkarasusz": 136.800048828125,
+            "BexsjObCL2v4htG4": 152.78756713867188,
+            "EUztpp9u7xN3nMRy": 153.60000610351562
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "IlH8hqKkp4aDbC1c",
+          "providerId": "kwA86lGO_lCNp3bN",
+          "dataSet": {
+            "id": "8X9_NE2lI4oz8EZk",
+            "name": "Possible Answers",
+            "attributes": [
+              {
+                "id": "WNHDfwXMkarasusz",
+                "clientKey": "",
+                "name": "Representation",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Table",
+                  "Graph",
+                  "Equation"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BexsjObCL2v4htG4",
+                "clientKey": "",
+                "name": "Advantages",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Sometimes it gives the exact \nvalue that you need.",
+                  "You can estimate the answer \n(or sometimes find the exact \nanswer) by looking at the \npattern between the variables.",
+                  " It is really easy to use if you \nare given the quantity for the \nindependent variable and have \nto find the dependent variable."
+                ],
+                "title": ""
+              },
+              {
+                "id": "EUztpp9u7xN3nMRy",
+                "clientKey": "",
+                "name": "Disadvanatages",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Sometimes you have to do \ncalculations to see data that is \nnot already on the table.",
+                  "You need to estimate some \nvalues from a graph, rather than \nknowing exact values.",
+                  " Sometimes it takes longer \nbecause you have to make a \ntable first (or do some examples) \nto see the rule pattern."
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "Lggm0ShXDxKNEVUY"
+              },
+              {
+                "__id__": "VDfeCgvb8gvlRHzO"
+              },
+              {
+                "__id__": "w_6Au7-E2V96Dzq9"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "kwA86lGO_lCNp3bN"
+        ]
+      }
+    ]
+  }
+}
