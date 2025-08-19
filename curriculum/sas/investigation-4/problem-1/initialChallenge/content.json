@@ -17,7 +17,8 @@
         "title": "Rectangles A, B, C, and D",
         "content": {
           "type": "Image",
-          "url": "sas/images/SS_4_1_IC_32_rectangles_350w.png"
+          "url": "sas/images/4-1_initial_challenge_1-se.png",
+          "filename": "sas/images/4-1_initial_challenge_1-se.png"
         }
       },
       {
@@ -26,7 +27,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>For the set of rectangles, which are similar? Why?</li></ul>"
+            "<ul><li>Which rectangles are similar? Why?</li></ul>"
           ]
         }
       },
@@ -90,12 +91,15 @@
         }
       },
       {
-        "id": "21AUG20200149pm",
-        "title": "Scale factors for similar Rectangles A, B, and C",
+        "id": "5e3neqTWs-TPslHb",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "sas/images/4-1_Initial_Challenge_1.png"
+          "type": "Table",
+          "columnWidths": {
+            "UI1ObAe5AKChFRKb": 165.59999084472656,
+            "YKU1ajyjS2orjX4V": 196.80001831054688,
+            "nMjOw92WKbkVlVdI": 140.79998779296875
+          }
         }
       },
       {
@@ -144,6 +148,248 @@
             "<p>The ratios of adjacent sides of similar figures are equivalent. </p><p>See some examples of ratios above.</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "59xnQUVVIy7rhtAY",
+          "providerId": "5e3neqTWs-TPslHb",
+          "dataSet": {
+            "id": "l7CkxoX4ms95OeYv",
+            "name": "Scale Factors for Similar Rectangles A, B, and C",
+            "attributes": [
+              {
+                "id": "UI1ObAe5AKChFRKb",
+                "clientKey": "",
+                "name": "A",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "12",
+                  "20"
+                ],
+                "title": ""
+              },
+              {
+                "id": "YKU1ajyjS2orjX4V",
+                "clientKey": "",
+                "name": "B",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "6",
+                  "10"
+                ],
+                "title": ""
+              },
+              {
+                "id": "nMjOw92WKbkVlVdI",
+                "clientKey": "",
+                "name": "C",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9",
+                  "15"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "zRR934ixHEbSpBy5"
+              },
+              {
+                "__id__": "xGZH86J8SH33noq6"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "5e3neqTWs-TPslHb"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "yrg_Mh54JCAyw6Oc",
+        "sourceObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{zRR934ixHEbSpBy5}:{UI1ObAe5AKChFRKb}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{zRR934ixHEbSpBy5}:{nMjOw92WKbkVlVdI}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x3/4",
+        "textOffset": {
+          "dx": 18.999999999999986,
+          "dy": -109
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "BvPZjSRReZf7Cys3",
+        "sourceObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{zRR934ixHEbSpBy5}:{YKU1ajyjS2orjX4V}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{zRR934ixHEbSpBy5}:{UI1ObAe5AKChFRKb}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x2",
+        "textOffset": {
+          "dx": 28.999999999999993,
+          "dy": -61
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "YfCrD2gbQsIJBMLZ",
+        "sourceObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{zRR934ixHEbSpBy5}:{YKU1ajyjS2orjX4V}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{zRR934ixHEbSpBy5}:{nMjOw92WKbkVlVdI}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x1.5",
+        "textOffset": {
+          "dx": -22.000000000000007,
+          "dy": -60
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "m-qi6DQVW7jAsL56",
+        "sourceObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{xGZH86J8SH33noq6}:{YKU1ajyjS2orjX4V}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{xGZH86J8SH33noq6}:{UI1ObAe5AKChFRKb}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x1/2",
+        "textOffset": {
+          "dx": 40.99999999999999,
+          "dy": 55
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "ot1gLuAJDXMvL7LM",
+        "sourceObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{xGZH86J8SH33noq6}:{YKU1ajyjS2orjX4V}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{xGZH86J8SH33noq6}:{nMjOw92WKbkVlVdI}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x2/3",
+        "textOffset": {
+          "dx": -50.00000000000001,
+          "dy": 63
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "D5sS7qUphcxdtG66",
+        "sourceObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{xGZH86J8SH33noq6}:{nMjOw92WKbkVlVdI}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "5e3neqTWs-TPslHb",
+          "objectId": "cell:{xGZH86J8SH33noq6}:{UI1ObAe5AKChFRKb}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x1.333",
+        "textOffset": {
+          "dx": 4.999999999999986,
+          "dy": 102
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
       }
     ]
   },

@@ -5,7 +5,8 @@
   "subtitle": "Developing Proportional Reasoning in the Context of Number (Quantities)",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "disablePublish": true,
     "placeholderText": "Enter notes here",
@@ -47,14 +48,28 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
         "isTileTool": true
       },
-      {"id": "sparrow", "title": "Sparrow", "iconId": "icon-sparrow-tool", "isTileTool": false},
-      {"id": "hide-annotations", "title": "Hide Annotations", "iconId": "icon-hide-annotations-tool", "isTileTool": false},
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
       {
         "id": "duplicate",
         "title": "Duplicate Tile",
@@ -88,7 +103,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -249,8 +264,11 @@
     ],
     "settings": {
       "table": {
-        "numFormat": ".2~f", 
-        "tools": ["set-expression", "link-tile", "merge-in", 
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
           [
             "data-set-view",
             "geometry"
@@ -259,7 +277,8 @@
             "data-set-view",
             "graph"
           ],
-          "delete"]
+          "delete"
+        ]
       },
       "graph": {
         "tools": [
@@ -291,8 +310,26 @@
       "unit-rates": "Scaling with Unit Rates",
       "other-proportional": "Other - Proportional",
       "non-proportional": "Non-Proportional"
-   },
-     "tagPrompt": "Select Student Strategy"
+    },
+    "tagPrompt": "Select Student Strategy",
+    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master 7th grade teacher.",
+      "mainPrompt": "This is a picture of a student mathematics document. Please evaluate and categorize it.",
+      "categorizationDescription": "Categorize the document based on its content and the general proportional reasoning curriculum found in 7th grade mathematics.",
+      "categories": [
+        "part-to-part",
+        "part-to-whole",
+        "building-up",
+        "scaling-up-down",
+        "unit-rates",
+        "other-proportional",
+        "non-proportional"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Please provide any additional information."
+    }
   },
   "sections": {
     "introduction": {

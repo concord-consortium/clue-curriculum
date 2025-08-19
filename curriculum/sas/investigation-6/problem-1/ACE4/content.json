@@ -14,24 +14,13 @@
         }
       },
       {
-        "id": "J_6uwOrmVYcqnasp",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-1</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "9eyxuyzRHdAgaofU",
         "title": "Text 3",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For parts <strong>a. - c.</strong>, use the parallelograms below.</p>"
+            "<p>1. For parts ACE1a-c, use the parallelograms below.</p>"
           ]
         }
       },
@@ -114,24 +103,13 @@
         }
       },
       {
-        "id": "8toFD1jCiZMzIVyY",
-        "title": "Text 10",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-2</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "AWDd3vDO2NfzOaTn",
         "title": "Text 11",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>a.  </strong>On grid paper or in a graphing tool, draw two similar rectangles where the scale factor from one rectangle to the other is 2.5. Label the length and width of each rectangle.</p>"
+            "<p>2. <strong>a.  </strong>On the following grid, draw two similar rectangles where the scale factor from one rectangle to the other is 2.5. Label the length and width of each rectangle.</p>"
           ]
         }
       },
@@ -163,6 +141,11 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "name": "x",
@@ -180,24 +163,6 @@
             }
           },
           "objects": {
-            "rvEudR4gxtjwduHR": {
-              "type": "point",
-              "id": "rvEudR4gxtjwduHR",
-              "x": 1,
-              "y": 1,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
-            "IHBU0ZrNEKBM74I5": {
-              "type": "point",
-              "id": "IHBU0ZrNEKBM74I5",
-              "x": 4,
-              "y": 1,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
             "4iwf1j_hHgSTkhRw": {
               "type": "point",
               "id": "4iwf1j_hHgSTkhRw",
@@ -206,27 +171,6 @@
               "snapToGrid": true,
               "colorScheme": 0,
               "labelOption": "none"
-            },
-            "mkYlV7Q9WZ-RWVw-": {
-              "type": "point",
-              "id": "mkYlV7Q9WZ-RWVw-",
-              "x": 1,
-              "y": 3,
-              "snapToGrid": true,
-              "colorScheme": 0,
-              "labelOption": "none"
-            },
-            "ofzMWPbOp3fVt0v-": {
-              "type": "polygon",
-              "id": "ofzMWPbOp3fVt0v-",
-              "points": [
-                "rvEudR4gxtjwduHR",
-                "IHBU0ZrNEKBM74I5",
-                "4iwf1j_hHgSTkhRw",
-                "mkYlV7Q9WZ-RWVw-"
-              ],
-              "labelOption": "none",
-              "colorScheme": 0
             },
             "rKCylc6eX3rNQRTp": {
               "type": "point",
@@ -237,11 +181,44 @@
               "colorScheme": 0,
               "labelOption": "none"
             },
+            "GOSVeYCgrvToBepu": {
+              "type": "polygon",
+              "id": "GOSVeYCgrvToBepu",
+              "points": [
+                "rKCylc6eX3rNQRTp",
+                "00erl6k0_omzebxN",
+                "64n0xtwyiRWAtc-_",
+                "EFMx2RdQqj4Ef-h2"
+              ],
+              "labelOption": "none",
+              "labels": [
+                {
+                  "id": "00erl6k0_omzebxN::64n0xtwyiRWAtc-_",
+                  "option": "length",
+                  "name": "CE"
+                },
+                {
+                  "id": "rKCylc6eX3rNQRTp::00erl6k0_omzebxN",
+                  "option": "length",
+                  "name": "BC"
+                }
+              ],
+              "colorScheme": 0
+            },
             "00erl6k0_omzebxN": {
               "type": "point",
               "id": "00erl6k0_omzebxN",
               "x": 13.511634485721784,
               "y": 1.0047958678249767,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "IHBU0ZrNEKBM74I5": {
+              "type": "point",
+              "id": "IHBU0ZrNEKBM74I5",
+              "x": 4,
+              "y": 1,
               "snapToGrid": true,
               "colorScheme": 0,
               "labelOption": "none"
@@ -264,19 +241,80 @@
               "colorScheme": 0,
               "labelOption": "none"
             },
-            "GOSVeYCgrvToBepu": {
+            "ofzMWPbOp3fVt0v-": {
               "type": "polygon",
-              "id": "GOSVeYCgrvToBepu",
+              "id": "ofzMWPbOp3fVt0v-",
               "points": [
-                "rKCylc6eX3rNQRTp",
-                "00erl6k0_omzebxN",
-                "64n0xtwyiRWAtc-_",
-                "EFMx2RdQqj4Ef-h2"
+                "rvEudR4gxtjwduHR",
+                "IHBU0ZrNEKBM74I5",
+                "4iwf1j_hHgSTkhRw",
+                "mkYlV7Q9WZ-RWVw-"
               ],
               "labelOption": "none",
+              "labels": [
+                {
+                  "id": "4iwf1j_hHgSTkhRw::IHBU0ZrNEKBM74I5",
+                  "option": "length",
+                  "name": "AD"
+                },
+                {
+                  "id": "IHBU0ZrNEKBM74I5::rvEudR4gxtjwduHR",
+                  "option": "length",
+                  "name": "DH"
+                }
+              ],
               "colorScheme": 0
+            },
+            "mkYlV7Q9WZ-RWVw-": {
+              "type": "point",
+              "id": "mkYlV7Q9WZ-RWVw-",
+              "x": 1,
+              "y": 3,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
+            },
+            "rvEudR4gxtjwduHR": {
+              "type": "point",
+              "id": "rvEudR4gxtjwduHR",
+              "x": 1,
+              "y": 1,
+              "snapToGrid": true,
+              "colorScheme": 0,
+              "labelOption": "none"
             }
           },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
+        }
+      },
+      {
+        "id": "AEayYkXuKJ3tqVXr",
+        "title": "Grid for ACE2a & 2c",
+        "content": {
+          "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
+          "board": {
+            "xAxis": {
+              "name": "x",
+              "label": "x",
+              "min": -2,
+              "unit": 18.3,
+              "range": 26.229508196721312
+            },
+            "yAxis": {
+              "name": "y",
+              "label": "y",
+              "min": -1,
+              "unit": 18.3,
+              "range": 17.486338797814206
+            }
+          },
+          "objects": {},
           "pointMetadata": {},
           "linkedAttributeColors": {}
         }
@@ -311,7 +349,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>c.  </strong>Draw a third rectangle that is similar to one of the rectangles in part (a). Find the scale factor from the new rectangle to the one from part (a). </p>"
+            "<p><strong>c.  </strong>Draw a third rectangle that is similar to one of the rectangles in ACE2a<strong>.</strong> Find the scale factor from the new rectangle to the one from ACE2a.</p>"
           ]
         }
       },
@@ -384,24 +422,13 @@
         }
       },
       {
-        "id": "EUMQy2HqxWDRYR9x",
-        "title": "Text 21",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-3</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "bsrXqk-nXM6nqGbn",
         "title": "Text 22",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>For part <strong>a. - d.</strong>, use the triangles below.</p><p><u>Note:</u> The drawings are not to scale.</p>"
+            "<p>3. For part ACE3a-d, use the following triangles. The drawings are not to scale.</p>"
           ]
         }
       },
@@ -467,7 +494,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>c.  </strong>For each pair of similar triangles, find the scale factor from one shape to the other. Explain how the information given by the scale factors is different than the information given by the ratios of side lengths.</p>"
+            "<p><strong>c.  </strong>For each pair of similar triangles, find the scale factor from one shape to the other. Explain how the information given by the scale factors is different from the information given by the ratios of side lengths.</p>"
           ]
         }
       },
@@ -507,24 +534,13 @@
         }
       },
       {
-        "id": "kBA7XXNFAm3C9q4m",
-        "title": "Text 31",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-4</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "6OcKdN-E-oUC2Slm",
         "title": "Text 32",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Each pair of figures is similar. Find the missing measurement. Explain your reasoning. (<u>Note:</u> The figures are not drawn to scale.)</p>"
+            "<p>4. Each pair of figures is similar. Find the missing measurement. Explain your reasoning. (<u>Note:</u> The figures are not drawn to scale.)</p>"
           ]
         }
       },
@@ -657,13 +673,13 @@
         }
       },
       {
-        "id": "-lEadA5RNuG6xRIT",
-        "title": "Text 41",
+        "id": "veYPuyJtxjY8emLd",
+        "title": "Text 43",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>For ACE 4-5 through ACE 4-7, Rectangles A and B are similar.</strong></p>"
+            "<p>5.</p><p><strong>Multiple Choice</strong></p><p>What is the value of x?</p><p><strong>A. </strong>4</p><p><strong>B.</strong> 12</p><p><strong>C. </strong>15</p><p><strong>D.</strong> 33 ⅓</p>"
           ]
         }
       },
@@ -674,28 +690,6 @@
           "type": "Image",
           "url": "sas/images/pl.jpg",
           "filename": "sas/images/pl.jpg"
-        }
-      },
-      {
-        "id": "6DsRmvrwEGGG6l3I",
-        "title": "Text 42",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-5</strong></p>"
-          ]
-        }
-      },
-      {
-        "id": "veYPuyJtxjY8emLd",
-        "title": "Text 43",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Multiple Choice </strong></p><p>What is the value of x?</p><p><strong>A. </strong>4</p><p><strong>B.</strong> 12</p><p><strong>C. </strong>15</p><p><strong>D.</strong> 33 ⅓</p>"
-          ]
         }
       },
       {
@@ -711,24 +705,13 @@
         }
       },
       {
-        "id": "uoct8lh6tz8SDi_Q",
-        "title": "Text 45",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-6</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "RZQee1fBHNDppbSW",
         "title": "Text 46",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>What is the scale factor from Rectangle B to Rectangle A?</p>"
+            "<p>6. What is the scale factor from Rectangle B to Rectangle A in ACE 5?</p>"
           ]
         }
       },
@@ -745,24 +728,13 @@
         }
       },
       {
-        "id": "DkqlbE0mekOGAvvz",
-        "title": "Text 48",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-7</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "XU8VA7nJ19G9ZnM6",
         "title": "Text 49",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Find the area of the rectangle. How are the areas related?</p>"
+            "<p>7. Find the area of each rectangle in ACE 5. How are the areas related?</p>"
           ]
         }
       },
@@ -779,24 +751,13 @@
         }
       },
       {
-        "id": "ke9g-lPGqT0Gd8H-",
-        "title": "Text 51",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 4-8</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "E2xfkVCRGVoQ9AN4",
         "title": "Text 52",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The Washington Monument is the tallest structure in Washington D.C. At a certain time, the monument casts a shadow that is about 500 feet long. At the same time, a 40-foot flagpole nearby casts a shadow that is about 36 feet long. About how tall is the monument? Sketch a diagram.</p>"
+            "<p>8. The Washington Monument is the tallest structure in Washington D.C. At a certain time, the monument casts a shadow that is about 500 feet long. At the same time, a 40-foot flagpole nearby casts a shadow that is about 36 feet long. Sketch the diagram. About how tall is the monument? Show your work.</p>"
           ]
         }
       },
@@ -843,6 +804,14 @@
           "text": [
             "<p><strong>ACE 4-9</strong></p>"
           ]
+        }
+      },
+      {
+        "id": "RW5FU5rKc_mhQmAB",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
         }
       },
       {
@@ -1344,6 +1313,17 @@
         }
       },
       {
+        "id": "lmvX-o6CyKModiNV",
+        "title": "Text 231",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>ACE 4-15</strong></p>"
+          ]
+        }
+      },
+      {
         "id": "6m4RF2YeVyaPW0NF",
         "title": "Text 98",
         "content": {
@@ -1355,12 +1335,12 @@
         }
       },
       {
-        "id": "uoCgrwB3amG-1SSv",
-        "title": "Duke the dog",
+        "id": "gs3KrGWYdJe8G2zf",
+        "title": "Duke",
         "content": {
           "type": "Image",
-          "url": "sas/images/duke.jpg",
-          "filename": "sas/images/duke.jpg"
+          "url": "sas/images/notduke.jpg",
+          "filename": "sas/images/notduke.jpg"
         }
       },
       {
@@ -1393,7 +1373,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>40 in. Explanations will vary. Possible answer: The dog in the picture is 5 inches long. Since the picture of the dog is 12.5% of the real dog&#x27;s size, then 0.125 x the real length = the picture&#x27;s length, or 5 inches. You can rewrite this as L = 5 ÷ 0.125, or 40 in.</p>"
+            "<p>40 in.; Explanations will vary. Possible answers:</p><p>The dog is 5 inches for every 12.5%. If we scale 8 times to 100%, the dog is 40 inches for 100%. The dog in the picture is 5 inches long. Since the picture of the dog is 12.5% of the real dog’s size, then 0.125 × the real length = the picture’s length, or 5 inches. You can rewrite this as L = 5 ÷ 0.125, or 40 in.</p>"
           ]
         }
       },
@@ -1416,7 +1396,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>23 in. The dog in the picture is 2⅞ in. tall. 2 7/8 is 0.125 times the real dog&#x27;s height, so you can divide 2⅞ by the scale factor, 0.125, to find the real height of the dog.</p>"
+            "<p>26 in.; The dog in the picture is 3¼ in. tall. 3¼ is 0.125 times the real dog’s height, so you can divide 3¼ by the scale factor, 0.125, to find the real height of the dog.</p>"
           ]
         }
       },
@@ -1897,7 +1877,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Triangle A has sides that measure 4 inches, 5 inches, and 6 inches. Triangle B has sides that measure 8 feet, 10 feet, and 12 feet. Taylor and Landon are discussing whether the two triangles are similar. Do you agree with Taylor or with Landon? Explain.</p>"
+            "<p>Triangle A has sides that measure 4 inches, 5 inches, and 6 inches. Triangle B has sides that measure 8 feet, 10 feet, and 12 feet. Taylor and Kenan are discussing whether the two triangles are similar. Do you agree with Taylor or with Kenan? Explain.</p>"
           ]
         }
       },
@@ -1920,7 +1900,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Landon&#x27;s Explanation</em></p><p>The triangles are not similar. Taylor&#x27;s method works when two measures have the same units. However, the sides of Triangle A are measured in inches, and the sides of Triangle B are measured in feet. So, they cannot be similar</p>"
+              "<p><em>Kenan&#x27;s Explanation</em></p><p>The triangles are not similar. Taylor&#x27;s method works when two measures have the same units. However, the sides of Triangle A are measured in inches, and the sides of Triangle B are measured in feet. So, they cannot be similar.</p>"
             ]
           }
         }
@@ -2005,13 +1985,73 @@
         }
       },
       {
+        "id": "YTq8TbhucTbVhOh0",
+        "title": "Text 232",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>ACE 4-24</strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "RYg5B6FbtryJ0LEd",
+        "title": "Text 233",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The students in Ms. Neuse’s class used the shadow method to find the height of the flagpole in the front of their school. The measurements from different groups were as follows:</p>"
+          ]
+        }
+      },
+      {
+        "id": "pqSyOpPJztYw6AlA",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "37rkxB1eoAF0IABl": 87.20001220703125,
+            "p8TYph_r-2Nfcpc7": 87.20005798339844,
+            "nda_LSZKhYgciTux": 86.39999389648438,
+            "rQn-UFeuJ7G_WNqf": 84,
+            "lnOhW7ih1DY808sL": 84.79998779296875,
+            "xoIAlnUPZAefOWdo": 84.79998779296875,
+            "BDFa5-T4Msekbt8u": 84.800048828125
+          }
+        }
+      },
+      {
+        "id": "yAKMShlUWXwiF-mq",
+        "title": "Text 234",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To arrive at the height of the flagpole, they decide to find the mean of the distances. What did they decide was the height of the flagpole?</p>"
+          ]
+        }
+      },
+      {
+        "id": "DpH33CAabc9DluSM",
+        "title": "Text 235",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>9.07 m</p>"
+          ]
+        }
+      },
+      {
         "id": "cmmK95Cedo8jhKF_",
         "title": "Text 152",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Extensions</strong></p>"
+            "<p><strong>Extensions </strong></p>"
           ]
         }
       },
@@ -2022,7 +2062,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-24</strong></p>"
+            "<p><strong>ACE 4-25</strong></p>"
           ]
         }
       },
@@ -2168,7 +2208,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-25</strong></p>"
+            "<p><strong>ACE 4-26</strong></p>"
           ]
         }
       },
@@ -2268,7 +2308,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-26</strong></p>"
+            "<p><strong>ACE 4-27</strong></p>"
           ]
         }
       },
@@ -2374,7 +2414,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-27</strong></p>"
+            "<p><strong>ACE 4-28</strong></p>"
           ]
         }
       },
@@ -2451,7 +2491,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>For ACE 4-28 through 4-32, suppose a photographer for the school newspaper took this picture. The editors want to resize the photo to fit in a specific space on a page.</strong></p>"
+            "<p><strong>For ACE 4-29 through 4-33, suppose a photographer for the school newspaper took this picture. The editors want to resize the photo to fit in a specific space on a page.</strong></p>"
           ]
         }
       },
@@ -2471,7 +2511,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-28</strong></p>"
+            "<p><strong>ACE 4-29</strong></p>"
           ]
         }
       },
@@ -2585,7 +2625,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-29</strong></p>"
+            "<p><strong>ACE 4-30</strong></p>"
           ]
         }
       },
@@ -2596,7 +2636,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Suppose that the school copier only has three paper sizes (in inches): 8 1/2 by 11, 11 by 14, 11 by 17. You can enlarge or reduce documents by specifying a percent from 50% to 200%. Can you make copies of the photo that fit exactly on any of the three paper sizes? Explain your reasoning. </p>"
+            "<p>Suppose that the school copier only has three paper sizes (in inches): 8½ by 11, 11 by 14, 11 by 17. You can enlarge or reduce documents by specifying a percent from 50% to 200%. Can you make copies of the photo that fit exactly on any of the three paper sizes? Explain your reasoning. </p>"
           ]
         }
       },
@@ -2619,7 +2659,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-30</strong></p>"
+            "<p><strong>ACE 4-31</strong></p>"
           ]
         }
       },
@@ -2653,7 +2693,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-31</strong></p>"
+            "<p><strong>ACE 4-32</strong></p>"
           ]
         }
       },
@@ -2687,7 +2727,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-32</strong></p>"
+            "<p><strong>ACE 4-33</strong></p>"
           ]
         }
       },
@@ -2721,7 +2761,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-33</strong></p>"
+            "<p><strong>ACE 4-34</strong></p>"
           ]
         }
       },
@@ -2847,7 +2887,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-34</strong></p>"
+            "<p><strong>ACE 4-35</strong></p>"
           ]
         }
       },
@@ -2881,7 +2921,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Each number in he sequence is found by adding the previous two numbers. The following four numbers in the sequence will be: 610, 987, 1597, 2584.</p>"
+            "<p>Each number in the sequence is found by adding the previous two numbers. The following four numbers in the sequence will be: 610, 987, 1597, 2584.</p>"
           ]
         }
       },
@@ -2904,7 +2944,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The approximate decimal equivalents of the fractions in order are: 1, 2, 1.5, 1.67, 1.6, 1.625, 1.615, 1.619, 1.618, 1.618, 1.618,... (1.618 repeats). The sequence approaches a number that is very close to the estimation of the golden ratio in Exercise 44. (In fact, the &quot;limit&quot; of this sequence will be equal to the golden ratio.)</p>"
+            "<p>The approximate decimal equivalents of the fractions in order are: 1, 2, 1.5, 1.67, 1.6, 1.625, 1.615, 1.619, 1.618, 1.618, 1.618,... (1.618 repeats). The sequence approaches a number that is very close to the estimation of the golden ratio in  ACE 4-27. (In fact, the &quot;limit&quot; of this sequence will be equal to the golden ratio.)</p>"
           ]
         }
       },
@@ -2915,7 +2955,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-35</strong></p>"
+            "<p><strong>ACE 4-36</strong></p>"
           ]
         }
       },
@@ -2958,7 +2998,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 4-36</strong></p>"
+            "<p><strong>ACE 4-37</strong></p>"
           ]
         }
       },
@@ -2969,7 +3009,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Ernie and Vernon are having a discussion about <em>all-similar</em> shapes. Ernie says that regular polygons and circles are the only types of <em>all-similar</em> shapes. Vernon claims isosceles right triangles are <em>all-similar, </em>but they are not regular polygons. Who is correct? Explain</p>"
+            "<p>Ernie and Rohan are having a discussion about <em>all-similar</em> shapes. Ernie says that regular polygons and circles are the only types of <em>all-similar</em> shapes. Rohan claims isosceles right triangles are <em>all-similar, </em>but they are not regular polygons. Who is correct? Explain</p>"
           ]
         }
       },
@@ -2981,9 +3021,189 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Vernon is right. In and isosceles right triangles, the equal sides make the right angle and they have the ratio 1:1. All isosceles right triangles are similar because any isosceles right triangle has the same 45°, 45°, and 90° angles, and the sides have the ratio 1:1:√2</p>"
+            "<p>Rohan is right. In and isosceles right triangles, the equal sides make the right angle and they have the ratio 1:1. All isosceles right triangles are similar because any isosceles right triangle has the same 45°, 45°, and 90° angles, and the sides have the ratio 1:1:√2</p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "_c0mXvuzJn9jQgHR",
+          "providerId": "pqSyOpPJztYw6AlA",
+          "dataSet": {
+            "id": "a27MI3TQ19eme2zy",
+            "name": "Flagpole Heights",
+            "attributes": [
+              {
+                "id": "37rkxB1eoAF0IABl",
+                "clientKey": "",
+                "name": "Group 1",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9.1 m"
+                ],
+                "title": ""
+              },
+              {
+                "id": "p8TYph_r-2Nfcpc7",
+                "clientKey": "",
+                "name": "Group 2",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8.8 m"
+                ],
+                "title": ""
+              },
+              {
+                "id": "nda_LSZKhYgciTux",
+                "clientKey": "",
+                "name": "Group 3",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9.35 m"
+                ],
+                "title": ""
+              },
+              {
+                "id": "rQn-UFeuJ7G_WNqf",
+                "clientKey": "",
+                "name": "Group 4",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8.75 m"
+                ],
+                "title": ""
+              },
+              {
+                "id": "lnOhW7ih1DY808sL",
+                "clientKey": "",
+                "name": "Group 5",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9.4 m"
+                ],
+                "title": ""
+              },
+              {
+                "id": "xoIAlnUPZAefOWdo",
+                "clientKey": "",
+                "name": "Group 6",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8.5 m"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BDFa5-T4Msekbt8u",
+                "clientKey": "",
+                "name": "Group 7",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "9.6 m"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "h7oDOdRGHQc3csFI"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "pqSyOpPJztYw6AlA"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "75Jox-GXrA708VfU",
+        "sourceObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "IHBU0ZrNEKBM74I5::4iwf1j_hHgSTkhRw",
+          "objectType": "segment"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "00erl6k0_omzebxN::64n0xtwyiRWAtc-_",
+          "objectType": "segment"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "text": "x2.5",
+        "textOffset": {
+          "dx": -13.733930073838057,
+          "dy": -86.8995279832673
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "pV_B22qpRR2q8t2d",
+        "sourceObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "rvEudR4gxtjwduHR::IHBU0ZrNEKBM74I5",
+          "objectType": "segment"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "targetObject": {
+          "tileId": "mZ711noIPY9OMcLy",
+          "objectId": "rKCylc6eX3rNQRTp::00erl6k0_omzebxN",
+          "objectType": "segment"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": 0
+        },
+        "text": "x2.5",
+        "textOffset": {
+          "dx": 17.99999999999999,
+          "dy": 33.681939170664435
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
       }
     ]
   }

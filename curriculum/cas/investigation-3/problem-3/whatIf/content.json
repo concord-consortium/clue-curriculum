@@ -60,7 +60,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Michelle’s Strategy: Equations</em></p><p>She writes two equations.</p><ol><li>relating the Total amount of food to the amount of Protein, and</li><li>relating the Total amount of food to the amount of Fiber.</li></ol><p>What equations did she write? How do these equations use unit rates?</p>"
+            "<p><em>Mariana’s Strategy: Equations</em></p><p>She writes two equations.</p><p>One equation relates the total amount of food to the amount of protein.</p><p>One equation relates the total amount of food to the amount of fiber.</p><p>What equations did she write? How do these equations use unit rates?</p>"
           ]
         }
       },
@@ -71,7 +71,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Michelle’s Strategy</em></p><p>0.4 x total amount of food = amount of high fiber</p><p>  0.4<em>T=F</em></p><p>0.6 x total amount of food = amount of high protein</p><p>  0.6<em>T=P</em></p><p>The unit rates are what is multiplied by the total amount of food in each equation.</p>"
+            "<p><em>Mariana’s Strategy</em></p><p>0.4 x total amount of food = amount of high fiber</p><p>0.4<em>T=F</em></p><p>0.6 x total amount of food = amount of high protein</p><p>0.6<em>T=P</em></p><p>The unit rates are what is multiplied by the total amount of food in each equation.</p>"
           ]
         }
       },
@@ -104,7 +104,7 @@
               "place": "left",
               "scale": "linear",
               "min": 0,
-              "max": 2.8
+              "max": 10
             }
           },
           "lockAxes": false,
@@ -119,13 +119,13 @@
                 "primaryRole": "x",
                 "_attributeDescriptions": {
                   "x": {
-                    "attributeID": "1raQ5u7UEWmcRyDn",
+                    "attributeID": "zubAH3q8PiHv4kPT",
                     "type": "numeric"
                   }
                 },
                 "_yAttributeDescriptions": [
                   {
-                    "attributeID": "zubAH3q8PiHv4kPT",
+                    "attributeID": "1raQ5u7UEWmcRyDn",
                     "type": "numeric"
                   }
                 ]
@@ -134,7 +134,8 @@
             }
           ],
           "_idColors": {
-            "zubAH3q8PiHv4kPT": 0
+            "zubAH3q8PiHv4kPT": 0,
+            "1raQ5u7UEWmcRyDn": 1
           },
           "_pointColors": [
             "#E6805B"
@@ -170,7 +171,7 @@
               "place": "left",
               "scale": "linear",
               "min": 0,
-              "max": 2.8
+              "max": 2.6
             }
           },
           "lockAxes": false,
@@ -182,10 +183,10 @@
                 "id": "DCON065f1n1dCtDK",
                 "dataset": "OLb_oyeJye64ofEa",
                 "metadata": "ga_5od-7jYrK0k7e",
-                "primaryRole": "x",
+                "primaryRole": "y",
                 "_attributeDescriptions": {
                   "x": {
-                    "attributeID": "nm4fN1g0TP3SrAfd",
+                    "attributeID": "iR-tUqoWFr2rZ7Cc",
                     "type": "numeric"
                   }
                 },
@@ -254,13 +255,13 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Sze’s Strategy</em></p><p>He says you can use a proportion.</p><p>He wrote two proportions, sating you can use either.</p><p><u>Note:</u> SF = scoops of high fiber, SP = scoops of high protein, and TM = total mix:</p>"
+            "<p><em>Kabir’s Strategy</em></p><p>He says you can use a proportion.</p><p>He wrote,</p><p><u>Note:</u> SF = scoops of high fiber, SP = scoops of high protein, and TM = total mix:</p>"
           ]
         }
       },
       {
         "id": "L-ju-3Qc7q7u1mKz",
-        "title": "Sze's Strategy #1",
+        "title": "Kabir's Strategy #1",
         "content": {
           "type": "Expression",
           "latexStr": "\\frac{xSF}{30SP}=\\frac{60\\%}{40\\%}"
@@ -268,10 +269,21 @@
       },
       {
         "id": "2U1uQenE96N9IplM",
-        "title": "Sze's Strategy #2",
+        "title": "Kabir's Strategy #2",
         "content": {
           "type": "Expression",
           "latexStr": "\\frac{tTM}{30SP}=\\frac{100\\%}{40\\%}"
+        }
+      },
+      {
+        "id": "_jRecHIc4w-ovteb",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>He says you can use either proportion.</p>"
+          ]
         }
       },
       {
@@ -281,7 +293,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Sze’s Strategy</em></p><p>Sze is looking at the ratios in two ways as a percent ratio or as a scoops ratio.  His way of thinking about it is similar to the rate table that Ahmed used.</p>"
+            "<p><em>Kabir’s Strategy</em></p><p>Kabir is looking at the ratios in two ways: as a percent ratio or as a scoops ratio. His way of thinking about it is similar to the rate table that Ahmed used. </p>"
           ]
         }
       },
@@ -449,7 +461,9 @@
                 "name": "Fiber",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "40",
                   "?"
@@ -462,7 +476,9 @@
                 "name": "Protein",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "60",
                   "?"
@@ -475,7 +491,9 @@
                 "name": "Total",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "100",
                   1
@@ -490,7 +508,8 @@
               {
                 "__id__": "01HE3AWEYW4259J9TQSVBJ0SGS"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -512,7 +531,9 @@
                 "name": "X Variable",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   1.014199861724193,
                   1.9912654739074802,
@@ -527,7 +548,9 @@
                 "name": "Y Variable 1",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   0.6110599078341014,
                   1.19815668202765,
@@ -550,7 +573,8 @@
               {
                 "__id__": "01J7C40KD4KHHZYVDNMT19HYB8"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "5J2lS53ARLmGYgdp",
@@ -598,7 +622,9 @@
                 "name": "X Variable",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   1.014199861724193,
                   2.0072829429596664,
@@ -615,7 +641,9 @@
                 "name": "Y Variable 1",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   0.3788018433179744,
                   0.7723502304147489,
@@ -646,10 +674,10 @@
               {
                 "__id__": "01J7C446YZPXZN7PR5DJY7ESAH"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
-        "provider": "",
         "tiles": [
           "7ny-Jw8v7OyZUJ_Q"
         ]
@@ -694,7 +722,9 @@
                 "name": "X Variable",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   5.150330783736519,
                   10.089370732952036,
@@ -713,7 +743,9 @@
                 "name": "Y Variable 1",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   1.8248847926267269,
                   3.751152073732724,
@@ -752,7 +784,8 @@
               {
                 "__id__": "01J7C48R1EMRKNS2GSM7ESC55J"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "tMobU2GwXwCUqpM4",

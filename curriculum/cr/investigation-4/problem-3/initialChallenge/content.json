@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Water Towers hold supplies of water that get distributed to homes, apartments, and businesses. Clean water is pumped into the tower. It stays in the tower until someone needs to use the water. When someone turns on a faucet, water will leave the tower. The movement of water in and out is called water flow. The average water flow could be positive or negative depending on whether more water is flowing in or out.</p><p>The water tower starts empty. For the first 4 hours, 5,000 gallons of water flowed into the tower each hour. The table shows what happened to the water in a tower in 21 hours.</p>"
+            "<p>Water Towers hold supplies of water that get distributed to homes, apartments, and businesses. Clean water is pumped into the tower. It stays in the tower until someone needs to use the water. When someone turns on a faucet, water will leave the tower. The movement of water in and out is called water flow. The average water flow could be positive or negative depending on whether more water is flowing in or out.</p><p>The water tower starts empty. For the first 4 hours, 5,000 gallons of water flows into the tower each hour. The table shows what happens to the water in a tower in 21 hours.</p>"
           ]
         }
       },
@@ -27,9 +27,9 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "Vv65CSWh5lkwxDV0": 120.28646850585938,
-            "bWo6PRwEqB_dSd4j": 217.63888549804688,
-            "OZZpSzebFSUk_U4L": 215.05642700195312
+            "Vv65CSWh5lkwxDV0": 135.83657836914062,
+            "bWo6PRwEqB_dSd4j": 253.62591552734375,
+            "OZZpSzebFSUk_U4L": 287.29608154296875
           }
         }
       },
@@ -52,7 +52,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>How much water is in the tower at the end of this 21-hour period? What equation shows your reasoning?</li></ul><p>34750 gallons</p><p>Equations will vary. </p><p>Possible answer: 4(5000) + 7(4000) – 3.5(7500) + 6.5(5000) – 6.5(3000) = 38500</p><p>OR</p><p>4(5000) + 7(4000) + 3.5(–7500) + 6.5(5000) + 6.5(–3000) = 38500</p>"
+            "<ul><li>How much water is in the tower at the end of this 21-hour period? What equation shows your reasoning?</li></ul><p>34750 gallons</p><p>Equations will vary. </p><p>Possible answer: 4(5000) + 7(4000) – 3.5(7500) + 6.5(5000) – 6.5(3000) = 34750</p><p>OR</p><p>4(5000) + 7(4000) + 3.5(–7500) + 6.5(5000) + 6.5(–3000) = 34750</p>"
           ]
         }
       },
@@ -109,7 +109,9 @@
                 "name": "Length of Time (hours)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "4",
@@ -125,7 +127,9 @@
                 "name": "Water Flow into the Tower (average number of gallons every hour)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "5000",
@@ -141,7 +145,9 @@
                 "name": "Water Flow out of the Tower (average number of gallons every hour)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "0",
@@ -168,7 +174,8 @@
               {
                 "__id__": "Lg_zRXWfiBsjK1tO"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [

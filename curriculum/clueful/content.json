@@ -1,0 +1,459 @@
+{
+  "code": "clueful",
+  "abbrevTitle": "CLUE",
+  "appName": "CLUE",
+  "title": "Collaborative Learning",
+  "subtitle": "Concord Consortium",
+  "config": {
+    "placeholderText": "Drag or create tiles here.",
+    "autoSectionProblemDocuments": true,
+    "defaultDocumentType": "problem",
+    "disablePublish": ["student"],
+    "enableHistoryRoles": ["teacher", "student"],
+    "toolbar": [
+      {
+        "id": "select",
+        "title": "Select",
+        "iconId": "icon-select-tool",
+        "isTileTool": false,
+        "isDefault": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Geometry",
+        "title": "Coordinate Grid",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "XY Graph",
+        "iconId": "icon-plot-tool",
+        "isTileTool": true
+      },
+      {
+        "id": "BarGraph",
+        "title": "Bar Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Expression",
+        "title": "Expression",
+        "isTileTool": true
+      },
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
+      {
+        "id": "Diagram",
+        "title": "Diagram",
+        "isTileTool": true
+      },
+      {
+        "id": "Dataflow",
+        "title": "Program",
+        "isTileTool": true
+      },
+      {
+        "id": "Simulator",
+        "title": "Terrarium Simulator",
+        "isTileTool": true
+      },
+      {
+        "id": "Question",
+        "title": "Question",
+        "isTileTool": true
+      },
+      {
+        "id": "sparrow",
+        "title": "Sparrow",
+        "iconId": "icon-sparrow-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "hide-annotations",
+        "title": "Hide Annotations",
+        "iconId": "icon-hide-annotations-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Lessons",
+          "sections": [
+            {
+              "initials": "TRY",
+              "title": "Warmup",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "ACT",
+              "title": "Activity",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "NWL",
+              "title": "Reflection",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "teacherOnly": false,
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-investigations",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem",
+                "planning"
+              ],
+              "order": "original",
+              "showStars": []
+            },
+            {
+              "title": "Workspaces",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "showStars": [],
+              "addDocument": true
+            }
+          ]
+        },
+        {
+          "tab": "class-work",
+          "label": "Custom Lessons",
+          "sections": [
+            {
+              "title": "Custom Lessons",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Gallery",
+          "teacherOnly": false
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "cas/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/blue-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/gray-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/green-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/orange-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/purple-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/white-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/yellow-chip.png",
+        "width": 25,
+        "height": 25
+      },
+      {
+        "url": "cas/stamps/red-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "highlight",
+          "subscript",
+          "superscript",
+          "link",
+          "|",
+          "new-variable",
+          "insert-variable",
+          "edit-variable"
+        ]
+      },
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          "import-data",
+          "|",
+          [
+            "data-set-view",
+            "geometry"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "datacard"
+          ],
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "Label x",
+          "left": "Label y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "stamp",
+          "text",
+          "upload",
+          "stroke-color",
+          "fill-color",
+          "|",
+          "align",
+          "rotate-right",
+          "flip-horizontal",
+          "flip-vertical",
+          "duplicate",
+          "|",
+          "new-variable",
+          "insert-variable",
+          "edit-variable",
+          "|",
+          "zoom-in",
+          "zoom-out",
+          "fit-all",
+          "navigator",
+          "delete"
+        ]
+      },
+      "diagram": {
+        "maxTiles": 1
+      },
+      "dataflow": {
+        "maxTiles": 1
+      }
+    },
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
+    "showCommentTag": true,
+    "commentTags": {
+      "exploring": "Exploring",
+      "solving": "Solving",
+      "applying": "Applying",
+      "analyzing": "Analyzing"
+    },
+    "tagPrompt": "Learning Journey",
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master teacher of 7th grade STEM subjects.",
+      "mainPrompt": "This is a picture of a student document. Please evaluate and categorize it.",
+      "categorizationDescription": "Categorize the document according to the kind of student activity based on its content.",
+      "categories": [
+        "exploring",
+        "solving",
+        "applying",
+        "analyzing"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'."
+    }
+  },
+  "sections": {
+    "warmup": {
+      "initials": "TRY",
+      "title": "Warmup",
+      "placeholder": "Explore some tools and ideas to warm up."
+    },
+    "activity": {
+      "initials": "ACT",
+      "title": "Activity",
+      "placeholder": "Do your experiments here."
+    },
+    "reflect": {
+      "initials": "NWL",
+      "title": "Reflection",
+      "placeholder": "I notice... I wonder... I learned..."
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Add some tiles here"
+      }
+    }
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Investigation",
+      "problems": [
+        {
+          "description": "Activity 1.1",
+          "ordinal": 1,
+          "title": "CLUEs to Collaborative Work",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-1/warmup/content.json",
+            "investigation-1/problem-1/activity/content.json",
+            "investigation-1/problem-1/reflect/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.2",
+          "ordinal": 2,
+          "title": "Graphs and Tables",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-2/warmup/content.json",
+            "investigation-1/problem-2/activity/content.json",
+            "investigation-1/problem-2/reflect/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.3",
+          "ordinal": 3,
+          "title": "Computational Thinking",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-3/warmup/content.json",
+            "investigation-1/problem-3/activity/content.json",
+            "investigation-1/problem-3/reflect/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
