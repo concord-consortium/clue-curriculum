@@ -18,7 +18,7 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "9OhreIjTkUVmS7Gj": 80,
+            "9OhreIjTkUVmS7Gj": 95.1204833984375,
             "R2li3UJmpNAg8gIr": 235
           }
         }
@@ -58,15 +58,15 @@
               "type": "numeric",
               "place": "bottom",
               "scale": "linear",
-              "min": -0.5,
-              "max": 7.5
+              "min": -1.96,
+              "max": 12
             },
             "left": {
               "type": "numeric",
               "place": "left",
               "scale": "linear",
-              "min": -1,
-              "max": 15
+              "min": -2,
+              "max": 24
             }
           },
           "lockAxes": false,
@@ -125,10 +125,10 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "vJ5HIMwnd-bXlxeA": 94.38671875,
-            "uGEfCfBNAQ2G-EO2": 96.73046875,
-            "wppZiiePQTlzZMxB": 101.20703125,
-            "6H35830pReHmbOlw": 93.7734375
+            "vJ5HIMwnd-bXlxeA": 148.90225219726562,
+            "uGEfCfBNAQ2G-EO2": 161.96966552734375,
+            "wppZiiePQTlzZMxB": 165.4615478515625,
+            "6H35830pReHmbOlw": 156.56512451171875
           }
         }
       },
@@ -151,7 +151,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>They are linear relationships because the students all raise a constant rate of money for each kilometer walked. Leanne raises $0 per kilometer, Gilberto raises $2 per kilometer, and Alana raises $0.50 per kilometer. This will form a straight line as each increase in 1 km leads to a constant increase in the donation monies.</p>"
+            "<p>They are linear relationships because the students all raise a constant rate of money for each kilometer walked. Leanne raises $0 per kilometer, Gilberto raises $2 per kilometer, and Alana raises $0.50 per kilometer. This will form a straight line, as each increase in 1 km leads to a constant increase in the donation monies.</p>"
           ]
         }
       }
@@ -172,7 +172,9 @@
                 "name": "Name",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Leanne",
                   "Gilberto",
@@ -186,7 +188,9 @@
                 "name": "Pledge Plan",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "$10 regardless of how far she walks",
                   "$2 per kilometer (km)",
@@ -205,7 +209,8 @@
               {
                 "__id__": "01HEXGCWFE4X3SA416A8D7172Z"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -227,7 +232,9 @@
                 "name": "Distance (km)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   0,
                   1,
@@ -235,7 +242,12 @@
                   3,
                   4,
                   5,
-                  6
+                  6,
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11"
                 ],
                 "title": ""
               },
@@ -245,7 +257,9 @@
                 "name": "Leanne's ($)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   10,
                   10,
@@ -253,6 +267,11 @@
                   10,
                   10,
                   10,
+                  "10",
+                  "10",
+                  "10",
+                  "10",
+                  "10",
                   "10"
                 ],
                 "title": ""
@@ -263,7 +282,9 @@
                 "name": "Gilberto's ($)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   0,
                   2,
@@ -271,7 +292,12 @@
                   6,
                   8,
                   10,
-                  "12"
+                  "12",
+                  "14",
+                  "16",
+                  "18",
+                  "20",
+                  "22"
                 ],
                 "title": ""
               },
@@ -281,7 +307,9 @@
                 "name": "Alana's ($)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5",
                   "5.50",
@@ -289,7 +317,12 @@
                   "6.50",
                   "7",
                   "7.50",
-                  "8"
+                  "8",
+                  "8.5",
+                  "9",
+                  "9.5",
+                  "10",
+                  "10.5"
                 ],
                 "title": ""
               }
@@ -315,8 +348,24 @@
               },
               {
                 "__id__": "01HEXGCWFJXFHG8XMGAGY6HDZV"
+              },
+              {
+                "__id__": "k97bAvYDzT9W_N0g"
+              },
+              {
+                "__id__": "ax_1Sp4Nbq025WSW"
+              },
+              {
+                "__id__": "3L3WNQWrANEXhXx1"
+              },
+              {
+                "__id__": "A5nH6UNsOcJU7jic"
+              },
+              {
+                "__id__": "90gpaMM1DG55gfrP"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
