@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>How can you predict where the graph of a linear relationship intersects the y-axis from a context, table, or equation that represents the relationship?</p>"
+            "<p>How can you predict where the graph of a linear relationship intersects the y-axis from a context, table, or equation that represents the relationship? What are the advantages of using a table, graph, or equation to solve a problem?</p>"
           ]
         }
       },
@@ -27,27 +27,25 @@
       },
       [
         {
-          "id": "Dr7CbkRkUYikQ1Pe",
-          "title": "Variables",
-          "display": "teacher",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "Jze9RBCLUdKKvY7g": 114.6484375,
-              "LIpQ1cs6AL5iezI9": 109.94140625
-            },
-            "name": "Variables"
-          }
-        },
-        {
           "id": "uPncf54i6hZ7CDWs",
           "display": "teacher",
           "content": {
             "type": "Text",
             "format": "html",
             "text": [
-              "<p>Table:</p><p>On a table, when the independent variable is 0, the y-intercept will be the value of the dependent variable. </p><p></p>"
+              "<p>Table:</p><p>When the independent variable is 0, the y - intercept will be the value of the dependent variable. </p>"
             ]
+          }
+        },
+        {
+          "id": "Dr7CbkRkUYikQ1Pe",
+          "display": "teacher",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "Jze9RBCLUdKKvY7g": 114.6484375,
+              "LIpQ1cs6AL5iezI9": 109.94140625
+            }
           }
         }
       ],
@@ -94,7 +92,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Graph: </p><p>The graph makes it easy to see the patterns of change.</p><p>So to answer a question, you can find the point on the graph that answers the question. If you know the x-value, you can</p><ul><li> follow the x-axis to that amount</li><li>see where that value &quot;hits the line&quot;</li><li>find the y-value of that point</li></ul><p>Sometimes you cannot tell the exact amount of a point so you have to estimate.</p>"
+            "<p>Graph: </p><p>The graph makes it easy to see the patterns of change.</p><p>So to answer a question, you can find the point on the graph that answers the question. If you know the x-value, you can</p><ul><li> follow the x-axis to that amount</li><li>see where that value &quot;hits the line&quot;</li><li>find the y-value of that point</li></ul><p>Sometimes, you cannot tell the exact amount of a point, so you have to estimate.</p>"
           ]
         }
       },
@@ -127,7 +125,9 @@
                 "name": "Independent",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "1",
@@ -141,7 +141,9 @@
                 "name": "Dependent",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5",
                   "6",
@@ -160,7 +162,8 @@
               {
                 "__id__": "01HDS35VEYPQ896K3PYEPKQT2S"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -194,6 +197,7 @@
           "dx": 11.99999999999999,
           "dy": 31.8525390625
         },
+        "shape": "curved",
         "type": "arrowAnnotation"
       }
     ]
