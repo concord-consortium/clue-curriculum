@@ -27,6 +27,11 @@
         "isTileTool": true
       },
       {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      },
+      {
         "id": "Drawing",
         "title": "Sketch",
         "isTileTool": true
@@ -49,11 +54,6 @@
       {
         "id": "Table",
         "title": "Table",
-        "isTileTool": true
-      },
-      {
-        "id": "AI",
-        "title": "AI",
         "isTileTool": true
       },
       {
@@ -182,6 +182,9 @@
       ]
     },
     "settings": {
+      "ai": {
+        "systemPrompt": "You are a smart and collaborative student in a 6th-grade engineering design class talking to other students. Use simple, clear, concise language, and a straightforward tone without embellishment."
+      },
       "table": {
         "numFormat": ".2~f",
         "tools": [
