@@ -18,7 +18,7 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "RpgyyFQjL4ERGyUd": 80,
+            "RpgyyFQjL4ERGyUd": 171.96737670898438,
             "y9qej4jUSxkWGY06": 214.08203125
           }
         }
@@ -41,7 +41,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Make a table showing the distance walked by each student for the first ten seconds.</li></ul>"
+            "<ul><li>Make a table showing the distance walked by each student for the first 10 seconds.</li></ul>"
           ]
         }
       },
@@ -51,10 +51,10 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "Q3pZ7KwcbM9BZjxX": 95,
-            "IU1NgyX2WuPgvMF5": 103,
-            "m-D23ppeOXkfc70d": 116,
-            "xQTDki1fmPtTpqJq": 109
+            "Q3pZ7KwcbM9BZjxX": 119.5848388671875,
+            "IU1NgyX2WuPgvMF5": 141.213134765625,
+            "m-D23ppeOXkfc70d": 156.14031982421875,
+            "xQTDki1fmPtTpqJq": 179.81097412109375
           }
         }
       },
@@ -65,7 +65,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Graph the times and distances on the same coordinate axes. Label each student.</li></ul>"
+            "<ul><li>Graph the times and distances on the same coordinate axes. Use different colors for each student.</li></ul>"
           ]
         }
       },
@@ -139,7 +139,7 @@
           "showParentToggles": false,
           "showMeasuresForSelection": false,
           "xAttributeLabel": "Time (seconds)",
-          "yAttributeLabel": "Distance (meters)"
+          "yAttributeLabel": "Distance (m)"
         }
       },
       {
@@ -149,7 +149,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Write an equation that represents the relationship between the time t and distance d walked by each student.</li></ul>"
+            "<ul><li>Write an equation that represents the relationship between the time <em>t</em> and distance <em>d</em> walked by each student.</li></ul>"
           ]
         }
       },
@@ -172,7 +172,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>How are the walking rates represented in the different representations? </li></ul>"
+            "<ul><li>How are the different walking rates represented in the different representations? </li></ul>"
           ]
         }
       },
@@ -184,7 +184,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In the equation the walking rate is represented as the number that you multiply by the time to get distance. (Note that students will learn later that the multiplier is called the coefficient.) </p><p>In the table, the walking rate is represented as the difference between values for distance in consecutive rows (1 second apart). So, as the x-values increase by 1, the y values will increase by the walking rate. (Note that students will learn later that this is called the rate of change.)</p><p>In the graph, the walking rate is represented as the steepness of the graph – the greater the walking rate, the steeper the line on the graph. (Note that students will learn later that this is called the slope.)</p>"
+            "<p>In the equation, the walking rate is represented as the number that you multiply by the time to get distance. (Note that students will learn later that the multiplier is called the coefficient.) </p><p>In the table, the walking rate is represented as the difference between values for distance in consecutive rows (1 second apart). So, as the x-values increase by 1, the y-values will increase by the walking rate. (Note that students will learn later that this is called the rate of change.)</p><p>In the graph, the walking rate is represented as the steepness of the graph – the greater the walking rate, the steeper the line on the graph. (Note that students will learn later that this is called the slope.)</p>"
           ]
         }
       },
@@ -230,7 +230,7 @@
           "providerId": "60HTS9AMp3MffHdZ",
           "dataSet": {
             "id": "zbpDHV0n2yEfRwsi",
-            "name": "Walking Experiment",
+            "name": "Student Walking Rates",
             "attributes": [
               {
                 "id": "RpgyyFQjL4ERGyUd",
@@ -238,7 +238,9 @@
                 "name": "Name",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Alana",
                   "Gilberto",
@@ -252,7 +254,9 @@
                 "name": "Walking Rate",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1 meter per second",
                   "2 meters per second",
@@ -271,7 +275,8 @@
               {
                 "__id__": "01HEXFP0NJK6H60T3TQPWSMKEY"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -293,7 +298,9 @@
                 "name": "Time (s)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "1",
@@ -314,7 +321,9 @@
                 "name": "Alana (m)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "1",
@@ -335,7 +344,9 @@
                 "name": "Gilberto (m)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "2",
@@ -356,7 +367,9 @@
                 "name": "Leanne (m)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "2.5",
@@ -403,7 +416,8 @@
               {
                 "__id__": "01HEXFP0NPRAWT2789KH7KJKQR"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
