@@ -9,65 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation A. Walking at a Consistent Rate</strong></p><p>Assume you continue to walk at the rate determined in the Initial Challenge</p>"
-          ]
-        }
-      },
-      {
-        "id": "Y58VNP_NyC1Fs--y",
-        "title": "Text 15",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Answers will vary depending on the student’s walking rate. Sample answers are provided for a walking rate of 2 meters per second, and for a student who walks <em>r</em> meters per second.</p>"
-          ]
-        }
-      },
-      {
-        "id": "DP79vXw_ASo5sPfK",
-        "title": "Text 16",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>How long would it take you to walk 500 meters?</li></ul>"
-          ]
-        }
-      },
-      {
-        "id": "6pi8vuPNcVNLTh8q",
-        "title": "Text 17",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>A student who walks 2 meters per second will walk 500 meters in 250 seconds, or 4 minutes and 10 seconds.</li><li>A student who walks <em>r</em> meters per second will walk 500 meters in 500/<em>r</em> seconds.</li></ul>"
-          ]
-        }
-      },
-      {
-        "id": "m4P30Y_MoDy2UkrS",
-        "title": "Text 18",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>How far could you walk in 5 seconds, 10 seconds, 30 seconds? In 60 seconds? In 1 hour?</li></ul>"
-          ]
-        }
-      },
-      {
-        "id": "ApJTjVnFM-HnEfn_",
-        "title": "Text 19",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>A student who walks 2 meters per second will walk 10 meters in 5 seconds, 20 meters in 10 seconds, 60 meters in 30 seconds, 120 meters in 60 seconds, and 7200 meters in 1 hour.</li><li>A student who walks <em>r</em> meters per second will walk 5<em>r</em> meters in 5 seconds, 10<em>r</em> meters in 10 seconds, 30<em>r</em> meters in 30 seconds, 60<em>r</em> meters in 60 seconds, and 3600<em>r</em> meters in 1 hour.</li></ul>"
+            "<p><strong>Situation A. Walking at a Constant Rate</strong></p><p>Assume you continue to walk at the rate determined in the Initial Challenge</p>"
           ]
         }
       },
@@ -113,7 +55,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Possible answer: For a walking rate of 2 meters per second: The graph would be a line starting at (0,0). For every one second walked, the distance increases by 2.</p>"
+            "<p>Possible answer: For a walking rate of 2 meters per second: The graph would be a line starting at (0,0). For every 1 second walked, the distance increases by 2.</p>"
           ]
         }
       },
@@ -123,58 +65,52 @@
         "display": "teacher",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
-            "properties": {
-              "axisMin": [
-                -0.5,
-                -1.9
-              ],
-              "axisRange": [
-                13.2,
-                12
-              ],
-              "axisNames": [
-                "Time (seconds)",
-                "Distance (meters)"
-              ],
-              "axisLabels": [
-                "",
-                ""
-              ]
+            "xAxis": {
+              "name": "Time (seconds)",
+              "label": "",
+              "min": -0.5,
+              "unit": 36.36363636363637,
+              "range": 13.2
+            },
+            "yAxis": {
+              "name": "Distance (meters)",
+              "label": "",
+              "min": -1.9,
+              "unit": 26.666666666666668,
+              "range": 12
             }
           },
-          "objects": [
-            {
+          "objects": {
+            "hS9En_gWFrJLpvCo": {
               "type": "movableLine",
-              "parents": [
-                {
-                  "type": "point",
-                  "parents": [
-                    0,
-                    0
-                  ]
-                },
-                {
-                  "type": "point",
-                  "parents": [
-                    4.055,
-                    7.9625
-                  ]
-                }
-              ],
-              "properties": {
-                "id": "hS9En_gWFrJLpvCo",
-                "pt1": {
-                  "type": "point",
-                  "id": "hS9En_gWFrJLpvCo-point1"
-                },
-                "pt2": {
-                  "type": "point",
-                  "id": "hS9En_gWFrJLpvCo-point2"
-                }
-              }
+              "id": "hS9En_gWFrJLpvCo",
+              "p1": {
+                "type": "point",
+                "id": "hS9En_gWFrJLpvCo-point1",
+                "x": 0,
+                "y": 0,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "p2": {
+                "type": "point",
+                "id": "hS9En_gWFrJLpvCo-point2",
+                "x": 4.055,
+                "y": 7.9625,
+                "colorScheme": 0,
+                "labelOption": "none"
+              },
+              "colorScheme": 0
             }
-          ]
+          },
+          "pointMetadata": {},
+          "linkedAttributeColors": {}
         }
       },
       {
@@ -186,6 +122,29 @@
           "format": "html",
           "text": [
             "<p>For a walking rate of r meters per second: The graph would be a line starting at (0,0). For every one second walked, the distance increases by r.</p>"
+          ]
+        }
+      },
+      {
+        "id": "JtJWjga6jef0WpfH",
+        "title": "Text 30",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How do your equation and graph compare to those of your classmates?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "U2BG9Kq1cztELLHf",
+        "title": "Text 31",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Students answers will vary.</p><p>Students should be able to talk about seeing the rate in each equation and graph. They may not use words like <em>coefficient</em> or <em>slope</em>, but they know unit rates. </p><p>Students might discuss that anyone with the same walking rate has the same equation and graph. </p><p>Anyone with faster walking rates will have a larger multiplier (coefficient of the independent variable) in their equation and a steeper/faster-growing line on their graph. The faster the rate, the closer the line is the y-axis. </p><p>Anyone with slower walking rates will have a lesser multiplier in their equation and a less steep/ slower-growing line on their graph. The slower the rate, the closer the line is to the x- axis. </p><p>Students may mention rate is indicated in the equation by the multiplier/coefficient of the independent variable. The equations will have a common form, d = rt, where d is the distance in meters and t is the time in seconds. In this situation, the rate is a unit rate and the constant of proportionality. </p><p></p><p><strong>Note: </strong>This can be a formative assessment to see if students have held onto these comparison ideas from <em>Comparing and Scaling</em>. </p><p><strong>Note: </strong>Students were first introduced to the key word <em>coefficient </em>in grade 6 <em>Variables and Patterns</em>. Students will be reintroduced to the keyword in Problem 2.2 of this unit. Students are introduced to <em>slope</em> as a ratio/rate in Problem 4.2. </p>"
           ]
         }
       },
@@ -219,7 +178,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Sample answer: She is correct. The ratio of meters walked to seconds always stays the same, so, for example, (1.5 meters)/(1 second) = (7.5 meters)/(5 seconds) = (15 meters)/(10 seconds). So you can always predict how long it will take to walk a specific distance based on this constant ratio.</p>"
+            "<p>Sample answer: She is correct. The ratio of meters walked to seconds always stays the same, so, for example, (1.5 meters)/(1 second) = (7.5 meters)/(5 seconds) = (15 meters)/(10 seconds). You can always predict how long it will take to walk a specific distance based on this constant ratio.</p>"
           ]
         }
       }

@@ -1,1 +1,147 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "nW2ca65Cl9O7tsbQ",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The Ocean Bike Tours partners need to choose a bike rental shop. Suppose they ask for your advice.</p><ul><li>Which shop would you recommend? How would you justify your choice?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "oPKu3ebg1D7brNvj",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "MNiStZ8GfEXuo3wD": 104,
+            "1xiPN9_vRWCvGoq4": 94
+          }
+        }
+      },
+      {
+        "id": "JmfdA_WUtfYwQ9dO",
+        "title": "Adrian's Weekly Rental Rates for Bikes",
+        "content": {
+          "type": "Image",
+          "url": "vap/images/adr.jpg",
+          "filename": "vap/images/adr.jpg"
+        }
+      },
+      {
+        "id": "X0gtdgp70T6dc9ov",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary. One possible answer:</p><p>I would ask them how many bikes they would need. If they need 50 bikes, I would recommend Rocky’s because it will cost $1,200 whereas it is about $1,500 at Adrian’s. If they need 10 bikes, I would recommend Adrian’s because it is about $300 whereas it is $535 at Rocky’s. I plotted data points of Rocky’s on the Adrian’s graph to compare the costs. Then I found that Adrian’s is cheaper than Rocky’s when you need 35 or fewer bikes and more expensive when you need 40 or more bikes. </p><p>Students may also realize that Adrian’s weekly rental rate is constant based on the linear pattern of the graph. The point at (20, 600) is easy to see. Renting 20 bikes costs $600. The total $600 divided by 20 is $30 per bike to rent. This data is easily added on as another row to Rocky’s table: 5 bikes × 30, 10 bikes × 30, and so on. When both sets of data are on either the graph or the table, it is easy to see where one or the other becomes more inexpensive.  </p><p><strong>Note: </strong>Some students will put the Rocky’s data onto Adrian’s graph. Some students will put the Adrian’s data onto an extra row on the table. Other students will compare coordinate pair by coordinate pair.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "cn8D6eGpDdpHRuTO",
+          "providerId": "oPKu3ebg1D7brNvj",
+          "dataSet": {
+            "id": "zkKDWV1p50zoXmZ8",
+            "name": "Bike Rental at Rocky's",
+            "attributes": [
+              {
+                "id": "MNiStZ8GfEXuo3wD",
+                "clientKey": "",
+                "name": "Number of Bikes",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "25",
+                  "30",
+                  "35",
+                  "40",
+                  "45",
+                  "50"
+                ],
+                "title": ""
+              },
+              {
+                "id": "1xiPN9_vRWCvGoq4",
+                "clientKey": "",
+                "name": "Rental Cost ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "400",
+                  "535",
+                  "655",
+                  "770",
+                  "875",
+                  "975",
+                  "1070",
+                  "1140",
+                  "1180",
+                  "1200"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "VJJAXvvqV8-hKq_u"
+              },
+              {
+                "__id__": "fQX-fTvoOmelCc1Y"
+              },
+              {
+                "__id__": "34sWIU1ptNAUCC-1"
+              },
+              {
+                "__id__": "SN2JU7pm6k9pWffQ"
+              },
+              {
+                "__id__": "hrr79DBY6eZeHhg1"
+              },
+              {
+                "__id__": "nxreVD4J1xLdjFgf"
+              },
+              {
+                "__id__": "84T5Hwij1WPKugcw"
+              },
+              {
+                "__id__": "e-7uxCO0lJUNy2dt"
+              },
+              {
+                "__id__": "gEUaOfzsfKYN4W7A"
+              },
+              {
+                "__id__": "E0qemUjPOVHfNyMO"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "oPKu3ebg1D7brNvj"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

@@ -1,1 +1,311 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "uuAzTUAQHjpMZMon",
+        "title": "Initial Challenge",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "LsbomY",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Ms. Park’s students were curious about what information they might get from a graph of their jumping jack data. They labeled a grid to graph their data. </p><ol><li> Make a graph of the jumping jack data for your group’s jumper.</li><li>Describe the relationship between the number of jumping jacks the jumper did over time that is represented in the graph.</li><li>How does this relationship compare to the relationship displayed in your table?</li><li>How does your graph compare to other graphs in your class?</li></ol>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "6UvVD1MRfptXbLUs",
+        "title": "Jumping Jacks Over Time",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 120
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRxcR63-KOD-G8",
+              "config": {
+                "id": "DCONYFy-1J-sQkKm",
+                "_attributeDescriptions": {},
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {},
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (seconds)",
+          "yAttributeLabel": "Total Number of Jumping Jacks"
+        }
+      },
+      {
+        "id": "11JAVOFAkiNUvX1Y",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>1.   Student data will vary. One possible graph might look like this:</p>"
+          ]
+        }
+      },
+      {
+        "id": "QHT9kg5CDEYiINuB",
+        "title": "Jumping Jacks Over Time",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 120
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 100
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRbPkSixHbtSm3",
+              "config": {
+                "id": "DCON3E1uDGXBUOZT",
+                "dataset": "tCqI5mkA81Z4VpPT",
+                "metadata": "qGErlw_6fXu-y53V",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "a-8apk7mi2Lygb5j",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "8FBaYz7NYzpOF3rW",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "8FBaYz7NYzpOF3rW": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Time (seconds)",
+          "yAttributeLabel": "Total Number of Jumping Jacks"
+        }
+      },
+      {
+        "id": "Ui1GyHToW7wodwuV",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>2. The graph shows that the total number of jumping jacks increases over time and that for most intervals, the number of jumps in a 10-second interval decreases over time.</p><p>Be sure students understand the graph shows this because the vertical distance between adjacent points becomes smaller as time passes. This may be hard for students now, but they will see the same concept in future problems, when they look at how distance changes over time. Students may talk about the “steepness” or “how high up” it is from one point to another. When there is a greater increase, the line between consecutive points will “be steeper, be longer, and have a larger angle.”</p><p>3. The graph shows that the total number of jumping jacks tends to increase as times goes on. The rate of jumping jacks in each time interval is the distance of two data points. On a graph, you can see that the greater rate is shown by bigger steps upward from one data point to the next. Students might note that they can see the exact numbers in the table and therefore more easily see that the jumper is slowing down. Other students might prefer the visual image of the graph. The graph gives the whole picture of the data in a glance so that changes can easily be seen.</p><p>4. Graphs will vary depending on the experiment. Students might find that the patterns tend to increase as time passes, even if different groups have different rates of jumping jacks. (All or most graphs will have a general increasing pattern.) By looking at other groups’ graphs, students can imagine the stories of other groups’ experiments like they matched descriptions with tables in Problem 1.1, What If . . . ?</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Vn3yIEtaX1Kc4fmZ",
+          "providerId": "",
+          "dataSet": {
+            "id": "tCqI5mkA81Z4VpPT",
+            "name": "Added by hand",
+            "attributes": [
+              {
+                "id": "a-8apk7mi2Lygb5j",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  10.116418622945528,
+                  20.237274802411072,
+                  30.1515828965814,
+                  39.859342905456515,
+                  49.980199084922056,
+                  59.68795909379717,
+                  69.80881527326271,
+                  79.72312336743303,
+                  90.05052763219379,
+                  99.96483572636413,
+                  110.29223999112489,
+                  119.65556829298626,
+                  59.9645038852957
+                ],
+                "title": ""
+              },
+              {
+                "id": "8FBaYz7NYzpOF3rW",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  17.41293532338308,
+                  23.383084577114463,
+                  34.82587064676616,
+                  40.29850746268657,
+                  49.25373134328358,
+                  60.19900497512438,
+                  63.18407960199005,
+                  70.64676616915423,
+                  79.10447761194031,
+                  84.07960199004975,
+                  89.55223880597015,
+                  94.52736318407965,
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01K25C5WB9H6JFQ3G3SD5H4RY6"
+              },
+              {
+                "__id__": "01K25C639JVH5PB4XW69NXAV2C"
+              },
+              {
+                "__id__": "01K25C72B1KG66447T0WWTD8W4"
+              },
+              {
+                "__id__": "01K25C79E3P8WB4FEKPF1CH27Y"
+              },
+              {
+                "__id__": "01K25C7F33PNNYACYK24AK7SVW"
+              },
+              {
+                "__id__": "01K25C7M4XDWREK0AP82P0GEC2"
+              },
+              {
+                "__id__": "01K25C7TR1TJC6XW5GTVK98KE2"
+              },
+              {
+                "__id__": "01K25C815F8Q0FKEBR2N06FASY"
+              },
+              {
+                "__id__": "01K25C88QS5ZVBDWD6ZWYGF812"
+              },
+              {
+                "__id__": "01K25C8F0SZY7G19BEP7V3P69E"
+              },
+              {
+                "__id__": "01K25C8QM18E50SWXYP852Z6GX"
+              },
+              {
+                "__id__": "01K25C93BHAWFJJW2V79JBCX05"
+              },
+              {
+                "__id__": "01K25CB105B5DGC35PZD6TMMPG"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "QHT9kg5CDEYiINuB",
+        "tiles": [
+          "QHT9kg5CDEYiINuB"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "qGErlw_6fXu-y53V",
+          "data": "tCqI5mkA81Z4VpPT",
+          "collections": {},
+          "categories": {
+            "a-8apk7mi2Lygb5j": {
+              "attribute": "a-8apk7mi2Lygb5j",
+              "colors": {},
+              "moves": []
+            },
+            "8FBaYz7NYzpOF3rW": {
+              "attribute": "8FBaYz7NYzpOF3rW",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "QHT9kg5CDEYiINuB"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

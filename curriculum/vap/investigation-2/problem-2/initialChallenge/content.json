@@ -1,1 +1,281 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "DKKIDoI5j36NjanF",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The partners conduct a survey to help set the price. They ask people who have taken other bicycle tours what they would pay for the planned bike tour. They ask questions like:</p><p><em>If we set the price of the trip at $500, would you take the trip?  What about $200?</em></p><p>They arrange the survey data in a table.</p><ul><li>What price do you think the tour operators should charge? Explain why.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "wcLiqXbS-JcKBHxe",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "U-MwiAjvYJBuCWSs": 117,
+            "_oD20xGx0D7YB8We": 138
+          }
+        }
+      },
+      {
+        "id": "qra7t-cBS1gmBhOq",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary. Possible answers include:</p><ul><li>$150, because the number of customers who want the price is the greatest.  </li><li>$250, because many people selected between $150 and $350 and they might compromise their choice if the operator set the price in the middle. </li><li>Less than $400, because the number of customers decreases a lot after $400.</li></ul><p>Some students may want to make a table showing the revenue for each price, like the one shown here. The revenue is the number of customers times the price. The most revenue is projected for a price of $350.</p>"
+          ]
+        }
+      },
+      {
+        "id": "eaQG7zvBfiU2l1-1",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "lI35fB96QwYq1O68": 117,
+            "ntp8YnJcJ0GzW9Na": 138,
+            "4kJ43KLcweEWe7wi": 236
+          }
+        }
+      },
+      {
+        "id": "xipvACKSW989rzfr",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Students may also think of other real-world considerations. For example, the tour might be more successful if the number of customers is less, since people may not want to go on a crowded tour. On the other hand, people will expect more if they pay more, so they might have more dissatisfied customers if they charge too much.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "rO8dtw5L8QpvZiAY",
+          "providerId": "wcLiqXbS-JcKBHxe",
+          "dataSet": {
+            "id": "HaPFX7dQpk6yz5tX",
+            "name": "Price Customers Are Willing to Pay",
+            "attributes": [
+              {
+                "id": "U-MwiAjvYJBuCWSs",
+                "clientKey": "",
+                "name": "Total Price ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "150",
+                  "200",
+                  "250",
+                  "300",
+                  "350",
+                  "400",
+                  "450",
+                  "500",
+                  "550",
+                  "600"
+                ],
+                "title": ""
+              },
+              {
+                "id": "_oD20xGx0D7YB8We",
+                "clientKey": "",
+                "name": "Number of Customers",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "76",
+                  "74",
+                  "71",
+                  "65",
+                  "59",
+                  "49",
+                  "38",
+                  "26",
+                  "14",
+                  "0"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "SbP85VFuvSsJMU_c"
+              },
+              {
+                "__id__": "BwIHlScZo2aqpo0X"
+              },
+              {
+                "__id__": "iwNmWb7Z5QjGAhjC"
+              },
+              {
+                "__id__": "dchZwyvj3mDkQDF7"
+              },
+              {
+                "__id__": "-oHjaoydY6KPRm0_"
+              },
+              {
+                "__id__": "d1xmgIRpwzA5WOqy"
+              },
+              {
+                "__id__": "4X2duZVbpSrQ2nJI"
+              },
+              {
+                "__id__": "nWWrDEom9mT6eDDJ"
+              },
+              {
+                "__id__": "ledmsQmb_cwFIYM0"
+              },
+              {
+                "__id__": "7U7i0U43XZGDO9uh"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "wcLiqXbS-JcKBHxe"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "YPtac1BV0uWhCjkd",
+          "providerId": "eaQG7zvBfiU2l1-1",
+          "dataSet": {
+            "id": "0VIPqz79rp9x5sP_",
+            "name": "Price Customers Are Willing to Pay",
+            "attributes": [
+              {
+                "id": "lI35fB96QwYq1O68",
+                "clientKey": "",
+                "name": "Total Price ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "150",
+                  "200",
+                  "250",
+                  "300",
+                  "350",
+                  "400",
+                  "450",
+                  "500",
+                  "550",
+                  "600"
+                ],
+                "title": ""
+              },
+              {
+                "id": "ntp8YnJcJ0GzW9Na",
+                "clientKey": "",
+                "name": "Number of Customers",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "76",
+                  "74",
+                  "71",
+                  "65",
+                  "59",
+                  "49",
+                  "38",
+                  "26",
+                  "14",
+                  "0"
+                ],
+                "title": ""
+              },
+              {
+                "id": "4kJ43KLcweEWe7wi",
+                "clientKey": "",
+                "name": "Revenue ($) (money brought in) (Total price times the number of customers)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "11400",
+                  "14800",
+                  "17750",
+                  "19500",
+                  "25650",
+                  "19600",
+                  "17100",
+                  "13000",
+                  "7700",
+                  "0"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBD"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBE"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBF"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBG"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBH"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBJ"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBK"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBM"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBN"
+              },
+              {
+                "__id__": "01K2JS6Y0KTDVN5M68T674TSBP"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "eaQG7zvBfiU2l1-1",
+        "tiles": [
+          "eaQG7zvBfiU2l1-1"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

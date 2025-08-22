@@ -1,1 +1,140 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "T0SVZU9EOupg049Q",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The Ocean Bike Tour trial run is over. Now, the partners have to make some business decisions. They plan to charge each customer $350 to go on the tour. Liz suggests that they make a table or graph relating the total amount of money they collect and the number of people going. Malcolm builds on the suggestion.</p>"
+          ]
+        }
+      },
+      {
+        "id": "yxWLfm-yw0wa7uQn",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Malcolm’s Strategy</em></p><ul><li>I made a table of some examples of how to calculate the costs.</li><li>I used the information to write an<strong> expression </strong>to represent the total amount of money. I let n represent the number of people and T represent the amount of money collected.</li><li>I looked for patterns in the table to help write a rule or <strong>equation</strong> that relates the two variables.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "RiXJ49l97cXxqkZl",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>1.  </strong>What is the independent variable? What expression did Malcolm use to represent this variable?</p><p><strong>2.  </strong>What is the dependent variable? What expression did Malcolm use to represent this variable? </p><p><strong>3.  </strong>What is the cost if</p><ul><li>5 people go on the trip?</li><li>10 people go on the trip?</li><li>20 people go on the trip?</li><li>35 people go on the trip?</li><li>42 people go on the trip?</li><li> n people go on the trip?</li></ul><p><strong>4.  </strong>How can Malcolm find the total amount of money collected for any number of people going on the trip?</p><p><strong>5.  </strong>What equation can Malcolm write that represents the relationship between the two variables?</p>"
+          ]
+        }
+      },
+      {
+        "id": "4PNFvFH7yS0TrLL4",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "MD6pARhtDyr7MHUy": 117,
+            "3IcrlSfyzVITmEIe": 174
+          }
+        }
+      },
+      {
+        "id": "HrFhEvytismTA7Ga",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>1.  </strong>Number of people, n.</p><p><strong>2.  </strong>Total amount of money in dollars, T.</p><p><strong>3.  </strong></p><ul><li>5 people go on the trip? $350 more or $350 • 5 = $1,750</li><li>10 people go on the trip? $350 • 10 = $3,500</li><li>20 people go on the trip? $350 • 20 = $7,000</li><li>35 people go on the trip? $350 • 35 = $12,250</li><li>42 people go on the trip? $350 • 35 = $14,700</li><li>n people go on the trip? $350 times the number of people will equal the total amount of money or $350 • n = T</li></ul><p><strong>4.  </strong>350 times the number of people will equal the total amount of money.</p><p><strong>5.  </strong> 350 n = T</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "UEcqAInPRhG_HW9H",
+          "providerId": "4PNFvFH7yS0TrLL4",
+          "dataSet": {
+            "id": "ndDHTFYoPfVrLJIA",
+            "name": "Total Money Collected",
+            "attributes": [
+              {
+                "id": "MD6pARhtDyr7MHUy",
+                "clientKey": "",
+                "name": "Number of People (n)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "..."
+                ],
+                "title": ""
+              },
+              {
+                "id": "3IcrlSfyzVITmEIe",
+                "clientKey": "",
+                "name": "Total Amount of Money in Dollars (T)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "$350 x 1 = $350",
+                  "$350 x 2 = $700",
+                  "$350 x 3 = $1050",
+                  "$350 x 4 = $1400",
+                  "..."
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "C4RurTPq_vjF_5Mu"
+              },
+              {
+                "__id__": "-oHvcVOVftYJ08v2"
+              },
+              {
+                "__id__": "KOM7rTdtPkzVeBJU"
+              },
+              {
+                "__id__": "J1oEi155-zKordGW"
+              },
+              {
+                "__id__": "dniGfz6ZWhw-BP2F"
+              },
+              {
+                "__id__": "2MqsOcptuq5uKaEU"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "4PNFvFH7yS0TrLL4"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
