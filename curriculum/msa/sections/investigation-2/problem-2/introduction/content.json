@@ -42,7 +42,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>A <strong>solution of an equation</strong> is an ordered pair that makes the equation true and lies on the graph of the line. For example, in the equation that represents the distance Henri walks </p><p>d<sub>Henri </sub>= 45 +<em> t</em>,</p><p>(0, 45) is a solution to the equation.</p><p>When the coordinate values are substituted into the equation it is a true statement; </p><p>(45) = 45 + (0)</p>"
+            "<p>A <strong>solution of an equation</strong> is an ordered pair that makes the equation true,  lies on the graph of the line, and is a set of values in the table. For example, in the equation that represents the distance Henri walks </p><p>d<sub>Henri </sub>= 45 +<em> t</em>,</p><p>(0, 45) is a solution to the equation.</p><p>When the coordinate values are substituted into the equation it is a true statement:</p><p>(45) = 45 + (0)</p>"
           ]
         }
       },
@@ -80,16 +80,16 @@
                 "p1": {
                   "type": "point",
                   "id": "mGow_86RA0YeihFY-point1",
-                  "x": 0,
-                  "y": 45,
+                  "x": -0.00882581075032552,
+                  "y": 44.99014801025391,
                   "colorScheme": 0,
                   "labelOption": "none"
                 },
                 "p2": {
                   "type": "point",
                   "id": "mGow_86RA0YeihFY-point2",
-                  "x": 9.305309734513273,
-                  "y": 54.30530973451327,
+                  "x": 11.229374999999997,
+                  "y": 56.229375,
                   "colorScheme": 0,
                   "labelOption": "none"
                 },
@@ -100,7 +100,7 @@
             "linkedAttributeColors": {}
           },
           "layout": {
-            "height": 383
+            "height": 430
           }
         },
         {
@@ -142,7 +142,9 @@
                 "name": "Time (seconds)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "10",
@@ -158,7 +160,9 @@
                 "name": "Henri's Distance (meters)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "45",
                   "55",
@@ -185,7 +189,8 @@
               {
                 "__id__": "01HEXJBZ8CW54MS2P5CKR00699"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
