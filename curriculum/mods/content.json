@@ -88,6 +88,19 @@
         "isTileTool": false
       }
     ],
+    "authorTools": [
+      {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      },
+      {
+        "id": "solution",
+        "title": "Toggle Solution Tile",
+        "iconId": "icon-solution-tool",
+        "isTileTool": false
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -171,6 +184,9 @@
       ]
     },
     "settings": {
+      "ai": {
+        "systemPrompt": "You are a smart and collaborative student in a 6th-grade engineering design class talking to other students. Use simple, clear, concise language, and a straightforward tone without embellishment. Address your fellow students as 'You'."
+      },
       "table": {
         "numFormat": ".2~f",
         "tools": [
