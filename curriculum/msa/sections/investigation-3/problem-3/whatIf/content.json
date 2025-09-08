@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation A. The Two Variable Connection</strong></p><ol><li> If 3x – 7 = y, find y when x = – 2/3   </li><li> If 3x – 7 = y, find x when y = – 5</li><li> Mary thinks you could solve these equations with a graph or table. Is she correct? Explain why?</li><li> Could you solve the equations in the Initial Challenge with a graph or table? Explain why.</li></ol>"
+            "<p><strong>Situation A. The Two Variable Connection</strong></p><ol><li> If 3x – 7 = y, find y when x = – 2/3   </li><li> If 3x – 7 = y, find x when y = – 5</li><li> Mari thinks you could solve these equations with a graph or table. Is she correct? Explain why.</li><li> Could you solve the equations in the Initial Challenge with a graph or table? Explain why.</li></ol>"
           ]
         }
       },
@@ -21,7 +21,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>1.  Using substitution, y = 3(–2/3) – 7 = –9.</p><p>2.  Using substitution, –5 = 3x – 7 </p><p>                                                    2 = 3x </p><p>                                                    x = 2/3.</p><p>3.  Yes, if you had a graph of these equations, you would find the point on the line with the x-value that you are looking for (by looking at the x-axis), and then get the corresponding y-value by looking at the y-axis. If you had a table of these equations, you would find the entry with the x-value that you are looking for, and then get the corresponding y-value by looking at the other column of the table. You could also start either of these methods with a y-value and get the corresponding x-value.</p><p>4.  You could solve these equations by using tables or graphs if you consider the expression on each side of the equation to be its own equation. So, you’d set y1 equal to the left side of the equation and y2 equal to the right side of the equation. Then to find the solution, you’d need to find the point where y1=y2. You could do this by making tables for each equation and looking for the points where y1=y2, or by graphing lines for each equation and looking for the points of intersection. For most cases in the Initial Challenge, y2 is equal to a constant value, but this method would also work when both y1 and y2 are equal to expressions involving x.</p>"
+            "<p>1.  Using substitution, y = 3(–2/3) – 7 = –9.</p><p>2.  Using substitution, –5 = 3x – 7 </p><p>                                                    2 = 3x </p><p>                                                    x = 2/3.</p><p>3.  Yes, if you had a graph of these equations, you would find the point on the line with the x-value that you are looking for (by looking at the x-axis), and then get the corresponding y-value by looking at the y-axis. If you had a table of these equations, you would find the entry with the x-value that you are looking for and then get the corresponding y-value by looking at the other column of the table. You could also start either of these methods with a y-value and get the corresponding x-value.</p><p>4.  You could solve these equations by using tables or graphs if you consider the expression on each side of the equation to be its own equation. So, you’d set y1 equal to the left side of the equation and y2 equal to the right side of the equation. Then to find the solution, you’d need to find the point where y1=y2. You could do this by making tables for each equation and looking for the points where y1=y2, or by graphing lines for each equation and looking for the points of intersection. For most cases in the Initial Challenge, y2 is equal to a constant value, but this method would also work when both y1 and y2 are equal to expressions involving x.</p>"
           ]
         }
       },
@@ -33,7 +33,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Situation B. Equations Solve a Mystery </strong></p><p>Forensic scientists can estimate a person’s height by measuring the length of certain bones, including the femur, the tibia, the humerus, and the radius. The table below gives the equations for the relationships between the length of each bone and the estimated height of males and females. These relationships were found by scientists after much study and data collection. In the table, F represents the length of the femur, T the length of the tibia, H the length of the humerus, R the length of the radius, and h the person’s height. All measurements are in centimeters. </p>"
+              "<p><strong>Situation B. Equations Solve a Mystery </strong></p><p>Forensic scientists can estimate a person’s height by measuring the length of certain bones, including the femur, the tibia, the humerus, and the radius. The table below gives the equations for the relationships between the length of each bone and the estimated height of males and females. These relationships were found by scientists after much study and data collection. In the table, <em>F</em> represents the length of the femur, <em>T </em>the length of the tibia, <em>H </em>the length of the humerus, <em>R</em> the length of the radius, and <em>h</em> the person’s height. All measurements are in centimeters. </p>"
             ]
           }
         },
@@ -42,7 +42,8 @@
           "title": "Skeleton with bone locations",
           "content": {
             "type": "Image",
-            "url": "msa/images/MSA_3_3_WI_skeleton_350w.png"
+            "url": "msa/images/skeleton-with-bone-locations.png",
+            "filename": "msa/images/skeleton-with-bone-locations.png"
           }
         }
       ],
@@ -133,7 +134,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>What does the solution to the inequality 61.412 + 2.317<em>F</em> &lt; 150 tell you?</li></ul>"
+            "<ul><li>What information does the solution to the inequality 61.412 + 2.317<em>F</em> &lt; 150 tell you?</li></ul>"
           ]
         }
       },
@@ -166,7 +167,9 @@
                 "name": "Bone",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Femur",
                   "Tibia",
@@ -181,7 +184,9 @@
                 "name": "Male",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "h = 69.089 + 2.238F",
                   "h = 81.688 + 2.392T",
@@ -196,7 +201,9 @@
                 "name": "Female",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "h = 61.412 + 2.317F",
                   "h = 72.572 + 2.533T",
@@ -219,7 +226,8 @@
               {
                 "__id__": "01HEXVQM89X39MKA737R6A9YDG"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
