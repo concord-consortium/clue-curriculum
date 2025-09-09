@@ -58,36 +58,14 @@
         }
       },
       {
-        "id": "vG1_NPNxUQE0DY4l",
-        "title": "Question 1",
+        "id": "SC74pCqJW8cIYKMP",
         "content": {
-          "type": "Question",
-          "version": 1,
-          "locked": false,
-          "questionId": "Tu-VvU",
-          "tiles": [
-            {
-              "title": "Question Prompt",
-              "fixedPosition": true,
-              "content": {
-                "type": "Text",
-                "format": "html",
-                "text": [
-                  "<p></p>"
-                ]
-              }
-            },
-            {
-              "content": {
-                "type": "Table",
-                "columnWidths": {
-                  "HAsLT29MJOYqHF1o": 221,
-                  "nY0kRZe8vSa47FRk": 210,
-                  "trE4c_HM3wPxfurE": 223
-                }
-              }
-            }
-          ]
+          "type": "Table",
+          "columnWidths": {
+            "AQalYarVy4FoRbSW": 190,
+            "CKSPxWj-xVNy3PQD": 212,
+            "aO3Ek0py8dQge4Gd": 210
+          }
         }
       },
       {
@@ -142,6 +120,72 @@
             }
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "gqWtWLbdCD4B7IzP",
+          "providerId": "SC74pCqJW8cIYKMP",
+          "dataSet": {
+            "id": "o6iT6YO8wZZ9u_KJ",
+            "name": "Scoping Table",
+            "attributes": [
+              {
+                "id": "AQalYarVy4FoRbSW",
+                "clientKey": "",
+                "name": "Natural Questions",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Would it be wasteful if I were to use water to make an experiment of my idea before actually committing to my idea?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "CKSPxWj-xVNy3PQD",
+                "clientKey": "",
+                "name": "Social Questions",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "If we need to save water and many are aware of this, how come we do nothing to prevent it?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "aO3Ek0py8dQge4Gd",
+                "clientKey": "",
+                "name": "Design Questions",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "What material would be most effective to my plan?"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "w8Xdr-p1TXXFZCxy"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "SC74pCqJW8cIYKMP"
+        ]
       }
     ]
   }
