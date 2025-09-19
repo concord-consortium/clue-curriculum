@@ -44,6 +44,16 @@
             }
           ]
         }
+      },
+      {
+        "id": "jvjNS_fqXTzIMkfM",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "mq7TU4OByXgdak3S": 323,
+            "01YskI60Bix3RgIg": 338
+          }
+        }
       }
     ],
     "sharedModels": [
@@ -86,6 +96,56 @@
         },
         "tiles": [
           "document_Table_1"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "dlr6SPXt3LP5egpv",
+          "providerId": "jvjNS_fqXTzIMkfM",
+          "dataSet": {
+            "id": "j7DBr9rzWCEUVGCK",
+            "name": "What did I learn about front-end design?",
+            "attributes": [
+              {
+                "id": "mq7TU4OByXgdak3S",
+                "clientKey": "",
+                "name": "I learned...",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(Example) I learned that if you want to design something for someone you have to think about their life in detail. "
+                ],
+                "title": ""
+              },
+              {
+                "id": "01YskI60Bix3RgIg",
+                "clientKey": "",
+                "name": "My evidence is...",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(Example) My evidence is that in my stakeholder profile I wrote down different ways that my school principal uses water. I tried to remember what she does every day to find all the ways she uses water.  "
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "UI4RCAq0D8FbavGz"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "jvjNS_fqXTzIMkfM"
         ]
       }
     ]
