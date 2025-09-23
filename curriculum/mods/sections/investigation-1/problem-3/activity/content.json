@@ -302,6 +302,17 @@
         }
       },
       {
+        "id": "document_Table_1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "KAE37YNFpApabpUb": 178.078125,
+            "ig8bNyscFAIWeqxV": 217.234375,
+            "-Vlwx5JvPm1TnpTI": 245.84375
+          }
+        }
+      },
+      {
         "id": "EIc9mJOyfPswTcKY",
         "title": "Question 2",
         "content": {
@@ -325,8 +336,9 @@
               "content": {
                 "type": "Table",
                 "columnWidths": {
-                  "KAE37YNFpApabpUb": 175.73046875,
-                  "ig8bNyscFAIWeqxV": 217.234375
+                  "Y3GlRNXf9Hgc32PS": 178.078125,
+                  "KsR6BUFLYcDm_K43": 217.234375,
+                  "43M7pb7cOwl3-csm": 245.84375
                 }
               }
             },
@@ -352,33 +364,47 @@
           "providerId": "document_Table_1",
           "dataSet": {
             "id": "QKNUPlOw8w0vtQoz",
-            "name": "This is the title of the table",
+            "name": "Notes: Water Conservation Solutions in My Community 1",
             "attributes": [
               {
                 "id": "KAE37YNFpApabpUb",
                 "clientKey": "",
-                "name": "Reference",
+                "name": "Source",
                 "hidden": false,
                 "units": "",
                 "formula": {
                   "display": ""
                 },
                 "values": [
-                  "this is some sample text Articles about Water Conservation in Buffalo, NY: \n http://www.amazon.com"
+                  "(Example Answer) Niagara Corp Low Flow Showerhead https://niagaracorp.com/resource-library/technology/uhet/#showerhead"
                 ],
                 "title": ""
               },
               {
                 "id": "ig8bNyscFAIWeqxV",
                 "clientKey": "",
-                "name": "Quality",
+                "name": "What is the water conservation solution?",
                 "hidden": false,
                 "units": "",
                 "formula": {
                   "display": ""
                 },
                 "values": [
-                  "And an explanation of the text."
+                  "(Example Answer) This water conservation solution is a low flow shower head. A shower head is the part of the shower where the water comes out and low flow means that the flow of water coming out is less than normal. If you install a low flow shower head you will use less water when you shower.  "
+                ],
+                "title": ""
+              },
+              {
+                "id": "-Vlwx5JvPm1TnpTI",
+                "clientKey": "",
+                "name": "What did you think was interesting about it?",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(Example Answer) I thought it was interesting that this company sells kits that include multiple products to reduce water use in the bathroom and other areas of the home. I also thought it was interesting because this company is located downtown near the library and I go there a lot and I never knew it was there. "
                 ],
                 "title": ""
               }
@@ -393,6 +419,71 @@
         },
         "tiles": [
           "document_Table_1"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "bzUgrCT6ZkKBIDWR",
+          "providerId": "QOsZWJ7QqkpQ8ssG",
+          "dataSet": {
+            "id": "6y_1novhF1dI_7He",
+            "name": "Notes: Water Conservation Solutions in My Community 2",
+            "attributes": [
+              {
+                "id": "Y3GlRNXf9Hgc32PS",
+                "clientKey": "",
+                "name": "Source",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(Example Answer) Niagara Corp Low Flow Showerhead https://niagaracorp.com/resource-library/technology/uhet/#showerhead"
+                ],
+                "title": ""
+              },
+              {
+                "id": "KsR6BUFLYcDm_K43",
+                "clientKey": "",
+                "name": "What is the water conservation solution?",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(Example Answer) This water conservation solution is a low flow shower head. A shower head is the part of the shower where the water comes out and low flow means that the flow of water coming out is less than normal. If you install a low flow shower head you will use less water when you shower.  "
+                ],
+                "title": ""
+              },
+              {
+                "id": "43M7pb7cOwl3-csm",
+                "clientKey": "",
+                "name": "What did you think was interesting about it?",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "(Example Answer) I thought it was interesting that this company sells kits that include multiple products to reduce water use in the bathroom and other areas of the home. I also thought it was interesting because this company is located downtown near the library and I go there a lot and I never knew it was there. "
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01K5VHJNFKZTHVM56W97MHFMBY"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "QOsZWJ7QqkpQ8ssG",
+        "tiles": [
+          "QOsZWJ7QqkpQ8ssG"
         ]
       }
     ]
