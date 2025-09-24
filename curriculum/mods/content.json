@@ -218,7 +218,20 @@
       "function": "What's it do?"
     },
     "tagPrompt": "Design Focus",
-    "aiEvaluation": "categorize-design",
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master front end design teacher for middle school students.",
+      "mainPrompt": "This is a picture of a student design document. Your goal is to comment on the designs based on what is known about the stakeholders and their needs, and to encourage divergent (multiple) solutions.",
+      "categorizationDescription": "Categorize the document based on its content and the rubric around stage in the discovery and design process.",
+      "categories": [
+        "social need",
+        "stakeholder discovery",
+        "ideation",
+        "alignment"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a middle school reading level."
+    },
     "stamps": [
       {
         "url": "mods/stamps/jumping.png",
