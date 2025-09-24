@@ -54,15 +54,15 @@
     "aiPrompt": {
       "systemPrompt": "You are a master computer science teacher for high school students. You are teaching with a flow programming language and are emphasizing computational thinking and sensor control of systems.",
       "mainPrompt": "This is a picture of a student document that is programming using sensor inputs and measuring the transformations in the program. Your goal is to comment on the program based on what is known about the goal of the code and the logical correctness and function of the code.",
-      "categorizationDescription": "Categorize the document based on its content and a rubric around coputational thinking.",
+      "categorizationDescription": "Categorize the flow program in the document, if any, based on its content and a rubric around coputational thinking.",
       "categories": [
         "decomposition",
         "pattern recognition",
         "abstration",
         "algorithmic thinking"
       ],
-      "keyIndicatorsPrompt": "What are the key indicators in the student work that support this categorization?",
-      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a high school reading level."
+      "keyIndicatorsPrompt": "What are the key indicators in the student work that support this categorization? Speak directly to the student who made the document.",
+      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a high school reading level. Address the student as 'You'."
     },
     "showCommentTag": true,
     "commentTags": {
@@ -203,77 +203,6 @@
                 "isTeacherDocument",
                 "!isDeleted"
               ]
-            },
-            {
-              "title": "Class Models and Data",
-              "type": "published-problem-documents",
-              "dataTestHeader": "class-work-section-published",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "publication"
-              ],
-              "showStars": [
-                "teacher"
-              ],
-              "properties": [
-                "!isTeacherDocument"
-              ]
-            },
-            {
-              "title": "Class Models and Data",
-              "type": "published-personal-documents",
-              "dataTestHeader": "class-work-section-personal",
-              "dataTestItem": "class-work-list-items",
-              "documentTypes": [
-                "personalPublication"
-              ],
-              "properties": [
-                "!isTeacherDocument"
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "my-work",
-          "label": "My Work",
-          "sections": [
-            {
-              "title": "Workspaces",
-              "type": "problem-documents",
-              "dataTestHeader": "my-work-section-investigations",
-              "dataTestItem": "my-work-list-items",
-              "documentTypes": [
-                "problem",
-                "planning"
-              ],
-              "order": "original",
-              "showStars": []
-            },
-            {
-              "title": "Workspaces",
-              "type": "personal-documents",
-              "dataTestHeader": "my-work-section-workspaces",
-              "dataTestItem": "my-work-list-items",
-              "documentTypes": [
-                "personal"
-              ],
-              "properties": [
-                "!isDeleted"
-              ],
-              "showStars": [],
-              "addDocument": true
-            },
-            {
-              "title": "Learning Journal",
-              "type": "learning-logs",
-              "dataTestHeader": "learning-log-section",
-              "documentTypes": [
-                "learningLog"
-              ],
-              "properties": [
-                "!isDeleted"
-              ],
-              "addDocument": true
             }
           ]
         },
