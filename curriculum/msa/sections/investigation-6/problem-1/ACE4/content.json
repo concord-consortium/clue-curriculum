@@ -993,8 +993,8 @@
         "title": "ACE 4-11",
         "content": {
           "type": "Image",
-          "url": "msa/images/ace-2.png",
-          "filename": "msa/images/ace-2.png"
+          "url": "msa/images/msa-ace-4-11.png",
+          "filename": "msa/images/msa-ace-4-11.png"
         }
       },
       {
@@ -1276,7 +1276,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The graph below shows the height of a rocket from 10 seconds before liftoff through 7 seconds after liftoff.</p>"
+            "<p>The following graph shows the height of a rocket from 10 seconds before liftoff through 7 seconds after liftoff.</p>"
           ]
         }
       },
@@ -1364,20 +1364,18 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Multiple Choice </strong></p><p>Which equation has a graph that contains the point (−2, 7)?</p><p><strong>A. </strong> y = 4x + 1</p><p><strong>B. </strong> y = −x + 5</p><p><strong>C.  </strong>y = 3x−11</p><p><strong>D.  </strong>y = −3x + 11</p>"
+            "<p>Belita enjoyed finding the steepness of the stairs. She measured the stairs in the homes and businesses in her neighborhood. </p><p><strong>a</strong>. Create a box plot to show the slope of the stairs in Belita&#x27;s neighborhood. </p><p><strong>b. </strong>What does this box plot tell you about the stairs in Belita&#x27;s neighborhood?</p>"
           ]
         }
       },
       {
-        "id": "CWC0PIy9MD7XUXz6",
-        "title": "Text 42",
-        "display": "teacher",
+        "id": "MW8LlIsS7sO0BMU7",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>B</p>"
-          ]
+          "type": "Table",
+          "columnWidths": {
+            "nL9qXOw6fq9L7ZGb": 144.6279296875,
+            "hbT4h3FqVKmG0hPM": 159.61126708984375
+          }
         }
       },
       {
@@ -2561,6 +2559,111 @@
         },
         "tiles": [
           "vvhS9_PiDTDuBIJi"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "8Xa9P0Bhr8W7ELnj",
+          "providerId": "MW8LlIsS7sO0BMU7",
+          "dataSet": {
+            "id": "-OD2lKf7hM9I7ciq",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "nL9qXOw6fq9L7ZGb",
+                "clientKey": "",
+                "name": "Building",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "House A ",
+                  "House B",
+                  "House C",
+                  "House D",
+                  "General Store",
+                  "Theater ",
+                  "House E ",
+                  "Deli ",
+                  "Ice Cream Shop",
+                  "House F",
+                  "Library ",
+                  "Department Store "
+                ],
+                "title": ""
+              },
+              {
+                "id": "hbT4h3FqVKmG0hPM",
+                "clientKey": "",
+                "name": "Rise (in.)/Run (in.)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8/13",
+                  "6/12",
+                  "8/9",
+                  "8/13",
+                  "7/12",
+                  "5/12",
+                  "8/9",
+                  "5/9",
+                  "6/11",
+                  "8/13",
+                  "11/15",
+                  "7/11"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "y19BTrF_tpdr_qcf"
+              },
+              {
+                "__id__": "wgewLckD1Hczzhww"
+              },
+              {
+                "__id__": "oqVlkbaadOlfLEOg"
+              },
+              {
+                "__id__": "vW4eZGdMbX_J86R3"
+              },
+              {
+                "__id__": "EAXURB9pWQfJHAmX"
+              },
+              {
+                "__id__": "CJjDWobxzEXotUn2"
+              },
+              {
+                "__id__": "SSd7X_1ioeBde-or"
+              },
+              {
+                "__id__": "pIPN_Ol9soTBQiCJ"
+              },
+              {
+                "__id__": "1ccecFzBIfgnVjiT"
+              },
+              {
+                "__id__": "muwOQul4FRSCrAqU"
+              },
+              {
+                "__id__": "Xlzi2RqmgrUTHlcz"
+              },
+              {
+                "__id__": "2xxBtVhz9dhkzN47"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "MW8LlIsS7sO0BMU7"
         ]
       }
     ]
