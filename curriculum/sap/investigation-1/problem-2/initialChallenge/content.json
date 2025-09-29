@@ -37,24 +37,24 @@
         }
       },
       {
-        "id": "O9RFH8YmPdqRSXCx",
-        "title": "Line Plot for Red Chips",
-        "content": {
-          "type": "Numberline",
-          "points": {},
-          "min": 0,
-          "max": 10
-        }
-      },
-      {
         "id": "-Lg8qbScUzFZxlmu",
         "title": "Text 6",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u>Digital Note:</u> You can drag the Blank Data Table into your own workspace to record your data. You can make a line plot in the digital platform two ways:</p><ol><li>Drag the Blank Number Line image into a Sketch tool and then add your data by drawing or using the stamp tool.</li><li>Link the data from your filled out table to a Graph tool, with Number of Red cubes on the x-axis. Click on the label for the y-axis and &quot;Remove Y&quot; to create a line plot.</li></ol>"
+            "<p><u>Digital Note:</u> You can drag the Blank Data Table or the Blank Line Plot into your own workspace to record your data. You can make a line plot in the digital platform two ways:</p><ol><li>Drag the Blank Line Plot into the workspace and then add your data by adding dots manually above each number.</li><li>Link the data from your filled out table to a Graph tool, with Number of Red cubes on the x-axis. Click on the label for the y-axis and &quot;Remove Y&quot; to create a line plot.</li></ol>"
           ]
+        }
+      },
+      {
+        "id": "O9RFH8YmPdqRSXCx",
+        "title": "Blank Line Plot",
+        "content": {
+          "type": "Numberline",
+          "points": {},
+          "min": 0,
+          "max": 10
         }
       },
       {
@@ -67,15 +67,6 @@
             "0Z421qBxlVyXDSn7": 104,
             "bIFRGfYTfiTpDkq4": 111
           }
-        }
-      },
-      {
-        "id": "COlXGfK5nWpJy1J9",
-        "title": "Blank Number Line",
-        "content": {
-          "type": "Image",
-          "url": "sap/images/se-pic-1.png",
-          "filename": "sap/images/se-pic-1.png"
         }
       },
       {
@@ -114,7 +105,7 @@
               "max": 0
             }
           },
-          "lockAxes": false,
+          "lockAxes": true,
           "plotType": "dotPlot",
           "layers": [
             {
@@ -154,13 +145,137 @@
         }
       },
       {
+        "id": "TNo1DV6UX3ykJirN",
+        "title": "Example 2: Number of Yellow Chips in 10 Samples",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": true,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRRrFbiFIZ4ZCq",
+              "config": {
+                "id": "DCONORU_1iyuraIA",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "og_KIXmqNBsvs-kR",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "3XiQIajIPvved4uF",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
+        "id": "IjNJl6buwp7z5ehA",
+        "title": "Example 3: Number of Blue Chips in 10 Samples",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": true,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRBoktAloDNYuj",
+              "config": {
+                "id": "DCONDK4L4DLhxpHd",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "og_KIXmqNBsvs-kR",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "kjM_0M8p1t41-Hkj",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
         "id": "RQ19GU65wL9V64I7",
         "title": "Text 4",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Making Sense of the Data</strong></p><ol><li> How did your samples vary in terms of the red cubes?</li><li> Did any of your samples match your prediction? </li><li> If you repeated the experiment so that you had 100 samples, where will most of the red block fall on the line plots? Why?</li></ol>"
+            "<p><strong>Analyze the Data</strong></p><ol><li> Did any of your samples match your prediction? </li><li>Consider all 10 of your samples. How could you use the samples to describe how many of each color are in the container?</li><li> If you repeated the experiment so that you had 100 samples, where will most of the blue, yellow, and red chips fall on the line plots? Why?</li></ol>"
           ]
         }
       },
@@ -172,136 +287,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ol><li> Answers will vary. Looking at the samples from various groups, students will see that the random samples vary. Some will mirror the populations and others will not.</li><li> Answers will vary.  For some the answer will be “yes”, for others the answer will be “no”. Some students might be surprised that each sample is not exactly 3 greens, 2 yellows, and 5 reds. </li><li> Answers will vary. From 4 to 6 reds in samples of 10.  Many of the random samples will closely mirror the actual population. Since there are 50 red cubes for every 100 cubes in the population, many random samples will be close to that ratio of 50% red.</li></ol>"
+            "<ol><li>Answers will vary. For some the answer will be “yes”; for others the answer will be “no.” Some students might be surprised that each sample or most of the samples do not mirror the population in the container with 3 blues, 2 yellows, and 5 reds.</li><li>Answers will vary. Looking at the samples, students will see that the random samples vary. Some will mirror the populations, and others will not. With the variation of the individual samples, students may look to analyzing the data in ways they explored in Data About Us. Some students may use measures of center (mean, median, mode), the shape (cluster, gaps) of the data, or the spread (range, IQR, MAD) of the data to analyze the results of the 10 samples.</li><li>Answers will vary. Many of the random samples will closely mirror the actual population. Red: From 4 to 6 in samples of 10. Since there are 50 red chips for every 100 chips in the population, many random samples will be close to that ratio of 50% red. Yellow: From 1 to 3 yellows in samples of 10. Since there are 20 yellow chips for every 100 cubes in the population, many random samples will be close to that ratio of 20% yellow. Blue: From 2 to 4 blues in samples of 10. Since there are 30 blue chips for every 100 cubes in the population, many random samples will be close to that ratio of 30% blue.</li></ol>"
           ]
-        }
-      },
-      {
-        "id": "fpxKreORE78cz09h",
-        "title": "Graph 1",
-        "content": {
-          "type": "Graph",
-          "adornments": [],
-          "axes": {
-            "bottom": {
-              "type": "categorical",
-              "place": "bottom",
-              "scale": "band"
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": 0,
-              "max": 10
-            }
-          },
-          "lockAxes": false,
-          "plotType": "dotPlot",
-          "layers": [
-            {
-              "id": "LAYRGJg63srq1ZKn",
-              "config": {
-                "id": "DCONqNwVNaVWXr5k",
-                "dataset": "OWAYJH_pRP9Azs92",
-                "metadata": "A14EZJYVC2pBlVpw",
-                "primaryRole": "y",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "kCEVrmlt45d4RDcG",
-                    "type": "categorical"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "v3iCP4Cyxh_6gaPY",
-                    "type": "numeric"
-                  }
-                ]
-              },
-              "editable": false
-            }
-          ],
-          "_idColors": {
-            "v3iCP4Cyxh_6gaPY": 0
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "x",
-          "yAttributeLabel": "y"
-        }
-      },
-      {
-        "id": "YqyOVI98JtyqjqmP",
-        "title": "Graph 2",
-        "content": {
-          "type": "Graph",
-          "adornments": [],
-          "axes": {
-            "bottom": {
-              "type": "categorical",
-              "place": "bottom",
-              "scale": "band"
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": 0,
-              "max": 10
-            }
-          },
-          "lockAxes": false,
-          "plotType": "dotPlot",
-          "layers": [
-            {
-              "id": "LAYR08lNrBPZMQCL",
-              "config": {
-                "id": "DCONjzVZm5ThmHL5",
-                "dataset": "OWAYJH_pRP9Azs92",
-                "metadata": "JdBxvrdPoRo_hht8",
-                "primaryRole": "y",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "kCEVrmlt45d4RDcG",
-                    "type": "categorical"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "v3iCP4Cyxh_6gaPY",
-                    "type": "numeric"
-                  }
-                ]
-              },
-              "editable": false
-            }
-          ],
-          "_idColors": {
-            "v3iCP4Cyxh_6gaPY": 0
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "x",
-          "yAttributeLabel": "y"
         }
       }
     ],
@@ -387,7 +374,7 @@
               {
                 "id": "kjM_0M8p1t41-Hkj",
                 "clientKey": "",
-                "name": "Number of Green",
+                "name": "Number of Blue",
                 "hidden": false,
                 "units": "",
                 "formula": {
@@ -446,8 +433,8 @@
         "tiles": [
           "6KX3DAoYZxCmoy6n",
           "f6llPpajevYLp4jV",
-          "fpxKreORE78cz09h",
-          "YqyOVI98JtyqjqmP"
+          "TNo1DV6UX3ykJirN",
+          "IjNJl6buwp7z5ehA"
         ]
       },
       {
@@ -471,13 +458,20 @@
               "attribute": "3XiQIajIPvved4uF",
               "colors": {},
               "moves": []
+            },
+            "kjM_0M8p1t41-Hkj": {
+              "attribute": "kjM_0M8p1t41-Hkj",
+              "colors": {},
+              "moves": []
             }
           },
           "columnWidths": {},
           "hidden": {}
         },
         "tiles": [
-          "f6llPpajevYLp4jV"
+          "f6llPpajevYLp4jV",
+          "TNo1DV6UX3ykJirN",
+          "IjNJl6buwp7z5ehA"
         ]
       },
       {
@@ -561,7 +555,7 @@
               {
                 "id": "bIFRGfYTfiTpDkq4",
                 "clientKey": "",
-                "name": "Number of Green",
+                "name": "Number of Blue",
                 "hidden": false,
                 "units": "",
                 "formula": {
@@ -620,56 +614,6 @@
         "provider": "0HN69tC0b2cexXgq",
         "tiles": [
           "0HN69tC0b2cexXgq"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "A14EZJYVC2pBlVpw",
-          "data": "OWAYJH_pRP9Azs92",
-          "collections": {},
-          "categories": {
-            "kCEVrmlt45d4RDcG": {
-              "attribute": "kCEVrmlt45d4RDcG",
-              "colors": {},
-              "moves": []
-            },
-            "v3iCP4Cyxh_6gaPY": {
-              "attribute": "v3iCP4Cyxh_6gaPY",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "fpxKreORE78cz09h"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedCaseMetadata",
-          "id": "JdBxvrdPoRo_hht8",
-          "data": "OWAYJH_pRP9Azs92",
-          "collections": {},
-          "categories": {
-            "kCEVrmlt45d4RDcG": {
-              "attribute": "kCEVrmlt45d4RDcG",
-              "colors": {},
-              "moves": []
-            },
-            "v3iCP4Cyxh_6gaPY": {
-              "attribute": "v3iCP4Cyxh_6gaPY",
-              "colors": {},
-              "moves": []
-            }
-          },
-          "columnWidths": {},
-          "hidden": {}
-        },
-        "tiles": [
-          "YqyOVI98JtyqjqmP"
         ]
       }
     ]
