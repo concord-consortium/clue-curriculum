@@ -93,7 +93,7 @@
       },
       {
         "id": "f6llPpajevYLp4jV",
-        "title": "Number of Red Cubes in the 10 Samples",
+        "title": "Example 1: Number of Red Chips in 10 Samples",
         "display": "teacher",
         "content": {
           "type": "Graph",
@@ -174,6 +174,134 @@
           "text": [
             "<ol><li> Answers will vary. Looking at the samples from various groups, students will see that the random samples vary. Some will mirror the populations and others will not.</li><li> Answers will vary.  For some the answer will be “yes”, for others the answer will be “no”. Some students might be surprised that each sample is not exactly 3 greens, 2 yellows, and 5 reds. </li><li> Answers will vary. From 4 to 6 reds in samples of 10.  Many of the random samples will closely mirror the actual population. Since there are 50 red cubes for every 100 cubes in the population, many random samples will be close to that ratio of 50% red.</li></ol>"
           ]
+        }
+      },
+      {
+        "id": "fpxKreORE78cz09h",
+        "title": "Graph 1",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRGJg63srq1ZKn",
+              "config": {
+                "id": "DCONqNwVNaVWXr5k",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "A14EZJYVC2pBlVpw",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "kCEVrmlt45d4RDcG",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "v3iCP4Cyxh_6gaPY",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
+        "id": "YqyOVI98JtyqjqmP",
+        "title": "Graph 2",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            }
+          },
+          "lockAxes": false,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYR08lNrBPZMQCL",
+              "config": {
+                "id": "DCONjzVZm5ThmHL5",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "JdBxvrdPoRo_hht8",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "kCEVrmlt45d4RDcG",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "v3iCP4Cyxh_6gaPY",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
         }
       }
     ],
@@ -317,7 +445,9 @@
         },
         "tiles": [
           "6KX3DAoYZxCmoy6n",
-          "f6llPpajevYLp4jV"
+          "f6llPpajevYLp4jV",
+          "fpxKreORE78cz09h",
+          "YqyOVI98JtyqjqmP"
         ]
       },
       {
@@ -490,6 +620,56 @@
         "provider": "0HN69tC0b2cexXgq",
         "tiles": [
           "0HN69tC0b2cexXgq"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "A14EZJYVC2pBlVpw",
+          "data": "OWAYJH_pRP9Azs92",
+          "collections": {},
+          "categories": {
+            "kCEVrmlt45d4RDcG": {
+              "attribute": "kCEVrmlt45d4RDcG",
+              "colors": {},
+              "moves": []
+            },
+            "v3iCP4Cyxh_6gaPY": {
+              "attribute": "v3iCP4Cyxh_6gaPY",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "fpxKreORE78cz09h"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "JdBxvrdPoRo_hht8",
+          "data": "OWAYJH_pRP9Azs92",
+          "collections": {},
+          "categories": {
+            "kCEVrmlt45d4RDcG": {
+              "attribute": "kCEVrmlt45d4RDcG",
+              "colors": {},
+              "moves": []
+            },
+            "v3iCP4Cyxh_6gaPY": {
+              "attribute": "v3iCP4Cyxh_6gaPY",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "YqyOVI98JtyqjqmP"
         ]
       }
     ]
