@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>How does your sample distribution in the <em>Initial Challenge </em>compare to the distribution of the whole population?</p>"
+            "<p>Following is a dot plot and box plot representing the distribution of the 100 students. A <strong>distribution </strong>is the entire set of collected data values, organized to show their frequency of occurrence. A distribution can be described by using summary statistics, referring to its shape, or both.</p><p>How does your sample distribution in the Initial Challenge compare to the distribution of the whole population?</p>"
           ]
         }
       },
@@ -37,7 +37,7 @@
       },
       {
         "id": "Awl8J1GAbUsNOprb",
-        "title": "Sleep Hours for Whole Population",
+        "title": "Exercise Hours for Whole Population",
         "content": {
           "type": "Graph",
           "adornments": [],
@@ -100,8 +100,8 @@
         "title": "Whole Population Distribution",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp.png",
-          "filename": "sap/images/sp.png"
+          "url": "sap/images/whole-population-distribution.png",
+          "filename": "sap/images/whole-population-distribution.png"
         }
       },
       {
@@ -134,7 +134,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Cassie’s class wondered about the size of random samples. Each of the 30 students in the class found a random sample of 5 students, 10 students, and 30 students. They calculated the median for each sample. Cassie’s class created line plots of the medians for each sample size.</p>"
+            "<p>Shayna’s class wondered about the size of random samples. Each of the 30 students in her class found a random sample of 5 students, 10 students, and 30 students. They calculated the median for each sample. Cassie’s class created line plots of the medians for each sample size.</p>"
           ]
         }
       },
@@ -205,7 +205,9 @@
                 "name": "Student Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "01",
                   "2",
@@ -313,10 +315,12 @@
               {
                 "id": "58ztVv2IOunvv5uR",
                 "clientKey": "",
-                "name": "Hours of Sleep",
+                "name": "Hours of Exercise",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "7",
                   "8",
@@ -723,7 +727,8 @@
               {
                 "__id__": "01HYE9R6XP20NZ3HAA1RBZ8N4K"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "6jn7HhGx1IM3yuIK",
