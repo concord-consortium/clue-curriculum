@@ -9,7 +9,28 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Comparing Samples of the Same Size</strong></p><p>Samples from the same population can vary from each other. In Problem 1.2, we used the random sampling method by drawing a random cube from a container. There are other methods for generating random outcomes. In <em>How Likely Is It,</em> we used spinners, dice, and flipping coins so that each outcome has the same chance of being chosen. Computer programs and calculators can also generate random numbers or tables of random numbers.</p><p>Recall in Data About Us, we used a five number summary to describe the distribution of the data.</p><p>Five-Number Summary</p><ul><li>Minimum Value</li><li>Quartile 1 (Q1)</li><li>Median (Q2)</li><li>Quartile 3 (Q3)</li><li>Maximum Value</li></ul><p>The five number summary uses five statistical measures: the minimum data value, the lower quartile, the median, the upper quartile, and the maximum data value. These values separate a set of data into four groups with the same number of data values in each group.</p><p>The example below shows how these five statistics form a box plot.</p>"
+            "<p><strong>Comparing Samples of the Same Size Experiment</strong></p><p>Samples from the same population can vary from each other. In Problem 1.2, we used the random sampling method by drawing random chips from a container. There are other methods for generating random outcomes. In <em>How Likely Is It?,</em> we used spinners, number cubes, and coins so that each outcome has the same chance of being chosen. Computer programs and calculators can also generate random numbers or tables of random numbers.</p><p>Recall in <em>Data About Us</em>, we used a five-number summary to describe a data set. The five-number summary contains five statistical measures: the minimum data value, the lower quartile, the median, the upper quartile, and the maximum data value. The quartiles values separate a set of data into four groups with the same number of data values in each group.</p>"
+          ]
+        }
+      },
+      {
+        "id": "vvZiFmuxXJetqNpF",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "BeJZT258I5QZHpSj": 189,
+            "43xa50BCAZ2rJxwZ": 152.5
+          }
+        }
+      },
+      {
+        "id": "Capt458cDFb5IyRf",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The following example shows how these five statistics form a box plot, also called a <em>box-and-whisker </em>plot.</p>"
           ]
         }
       },
@@ -18,9 +39,81 @@
         "title": "Box Plot",
         "content": {
           "type": "Image",
-          "url": "sap/images/ps5.png",
-          "filename": "sap/images/ps5.png"
+          "url": "sap/images/box-plot.png",
+          "filename": "sap/images/box-plot.png"
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "zKo-MY5jnrZQdKhV",
+          "providerId": "vvZiFmuxXJetqNpF",
+          "dataSet": {
+            "id": "4NKe3RugSwd-Ar6Y",
+            "name": "Five-Number Summary",
+            "attributes": [
+              {
+                "id": "BeJZT258I5QZHpSj",
+                "clientKey": "",
+                "name": "Statistical Measure",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Minimum Value",
+                  "Quartile 1 (Q1)",
+                  "Median (Q2)",
+                  "Quartile 3 (Q3)",
+                  "Maximum Value"
+                ],
+                "title": ""
+              },
+              {
+                "id": "43xa50BCAZ2rJxwZ",
+                "clientKey": "",
+                "name": "Value",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "tT_vJQZvvDmKj39h"
+              },
+              {
+                "__id__": "_FOaJR1XySlc6n61"
+              },
+              {
+                "__id__": "ZvXSNpO998ZD95EE"
+              },
+              {
+                "__id__": "MpbXW98nkDjQDcmY"
+              },
+              {
+                "__id__": "m0D8zeEYoNUtb90W"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "vvZiFmuxXJetqNpF"
+        ]
       }
     ]
   },
