@@ -1,51 +1,61 @@
 {
   "title": "Robotics",
   "tag": "abstraction",
-    "content": {
-      "tiles": [
-        {
-          "id": "zyoT6wp_c7IxjDmS",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "Bionics is the science of integrating engineering with living organisms. Scientists and engineers in this field have a strong background in electronics engineering and biological systems, along with other specialized training such as interface design. </p>"
-            ]
-          }
-        },
-        {
-          "id": "bj5dqEB0okmYf9qy",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>To start off, please drag the following tile into your workspace and answer these questions. You can use any available tool tiles to answer the question.</p>"
-            ]
-          }
-        },
-        {
-          "id": "vyjX6xCHPxxdvt8E",
-          "title": "Robotics Knowledge Questions",
-          "content": {
-            "type": "Question",
-            "version": 1,
-            "locked": false,
-            "questionId": "ks7MWN",
-            "tiles": [
-              {
-                "title": "Question Prompt",
-                "fixedPosition": true,
-                "content": {
-                  "type": "Text",
-                  "format": "html",
-                  "text": [
-                    "<p>1) What do you know about bionic arms? (e.g., what they look like, why people might use them, in what ways are they connected to the person’s body, how they work)</p><p>2) If you were tasked to design a bionic arm, what do you think the people who use them would like in terms of appearance and function?</p>"
-                  ]
-                }
-              }
-            ]
-          }
+  "content": {
+    "tiles": [
+      {
+        "id": "zyoT6wp_c7IxjDmS",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Bionics is the science of integrating engineering with living organisms. Scientists and engineers in this field have a strong background in electronics engineering and biological systems, along with other specialized training such as interface design. </p><p></p>"
+          ]
         }
-      ]
-    }
-  }
+      },
+      {
+        "id": "bj5dqEB0okmYf9qy",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To start off, please drag the following tile into your workspace and answer these questions. You can use any available tool tiles to answer the question.</p>"
+          ]
+        }
+      },
+      {
+        "id": "vyjX6xCHPxxdvt8E",
+        "title": "Robotics Knowledge Questions",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "ks7MWN",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>1) What do you know about bionic arms? (e.g., what they look like, why people might use them, in what ways are they connected to the person’s body, how they work)</p><p>2) If you were tasked to design a bionic arm, what do you think the people who use them would like in terms of appearance and function?</p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "tU0C9EAwFFz1ISIg",
+        "title": "AI 1",
+        "content": {
+          "type": "AI",
+          "prompt": "You are a helpful high school student of computer science in a class learning about flow programming and computational thinking. Looking at the summary of work so far in the class, please provide some ideas for ways that your classmate can talk about bionics in a way that takes the class context into account, and also extends it in new ways. Please address your responses directly to the student reading this as 'You'.",
+          "text": "This is where the dynamically generated AI response will appear."
+        }
+      }
+    ]
+  },
+  "type": "abstraction"
+}
