@@ -1,0 +1,263 @@
+{
+  "type": "labWork",
+  "content": {
+    "tiles": [
+      {
+        "id": "ANgBPLQPNVjRpyN8",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 1: Create a circuit the Arduino can get “information” from the Outside World</strong></u></p>"
+          ]
+        }
+      },
+      {
+        "id": "cUADzka6fm1aIege",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>We got a circuit connected in the previous module, but it is not a “smart circuit”.&nbsp; Like the light bulb circuit we made in the last module, it just draws electricity through an LED, and then lets the electricity flow back into the machine without anything “fancy.”&nbsp;</p><p>But you probably notice other sockets on the Arduino, that say ANALOG IN.&nbsp; These are pins numbered A1-A5.&nbsp; Electrical voltage arriving into these pins can be measured by the Arduino and turned into a number.&nbsp; More on that later.</p><p>We’re going to connect a circuit and try to send changing amounts of current into the Arduino.</p><p>This changing amount will become “information” in our program.</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "I64twlWLuy5exee2",
+          "title": "Text 3",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Recall that we used various lengths of graphite stripes to control the performance of an LED by manipulating resistance to the current.</p><p>A potentiometer is a variable <em>resistor</em>.&nbsp; Electricity comes in one side, and then goes across two paths before going out the other side.&nbsp; One path is through some portion of a resistor, and the other path is through the whole resistor.&nbsp;</p>"
+            ]
+          }
+        },
+        {
+          "id": "RGcL79d_ogdhmDtv",
+          "title": "Variable Resistor Sign",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/screenshot-2024-05-22-at-2.05.38 pm.png",
+            "filename": "brain/images/screenshot-2024-05-22-at-2.05.38 pm.png"
+          }
+        }
+      ],
+      [
+        {
+          "id": "p1dIeZl1C1tDUi-4",
+          "title": "Pote",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/screenshot-2024-05-22-at-2.05.17 pm.png",
+            "filename": "brain/images/screenshot-2024-05-22-at-2.05.17 pm.png"
+          }
+        },
+        {
+          "id": "gN8BDBGd45oF4oG3",
+          "title": "Image 2",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/screenshot-2024-05-22-at-2.10.40 pm.png",
+            "filename": "brain/images/screenshot-2024-05-22-at-2.10.40 pm.png"
+          }
+        }
+      ],
+      {
+        "id": "_GdogvYqB3uTHSFO",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>When you turn the dial to the right, you are moving the “blue line” (wiper) above, so that more of the signal has to go through more of the resistive material (the gray semi circle). The potentiometers we are using today use graphite as the resistive material, just like we used for our first potentiometer.</p>"
+          ]
+        }
+      },
+      {
+        "id": "lcxzYWYguw4wYB2L",
+        "title": "Text 15",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag this tile into your workspace and answer the following questions</em></p><p><strong> Questions:</strong></p><ul><li>Thinking back to the potentiometer we created using a graphite strip, how do you think the current will change as the wiper is moved to the right? Why do you think so?</li></ul><p></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "01iHK9xKuiFsTgxH",
+          "title": "Text 5",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>As we turn toward ground, less and less current is available to A1. This is the first of the ANALOG IN pins that can turn the amount of current being received into a number. Because the current had to travel through more of the “ graphite in a circle shape”, less current arrives at pin A1.&nbsp; The digital reading is smaller, (resistance has gone up).</p>"
+            ]
+          }
+        },
+        {
+          "id": "Ok6CGm8ICqhpwEYm",
+          "title": "Current Flow",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/screenshot-2024-05-22-at-2.12.52 pm.png",
+            "filename": "brain/images/screenshot-2024-05-22-at-2.12.52 pm.png"
+          }
+        }
+      ],
+      {
+        "id": "F0iW1okVZ8_b0Op4",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 2: Read the potentiometer value, and use it to turn on a virtual lightbulb&nbsp;</strong></u></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "ebtbcr7p7xS7ZuzR",
+          "title": "Text 7",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The arduino’s analog to digital converter&nbsp; is able to measure analog voltage and turn it into a digital number. Below is a description of how this is accomplished by the Arduino.</p><p>A1 on the Arduino is an Analog to Digital Converter (ADC.) ADCs are complex devices, but basically, their job is to take an analog signal, which is continuous in time and amplitude, and chop it up. This chopping takes place in time, a process called sampling, and amplitude, which is called quantization. The time chopping usually occurs at a set time jump, called a sampling period. Think of a signal that the Arduino only examines at set periods. At each of these points, the Arduino gets the value of the signal and assigns it to a digital level, which is an integer value that is meant to represent the real value.</p>"
+            ]
+          }
+        },
+        {
+          "id": "1frMQTPDCsP-bOfc",
+          "title": "Current Arriving at Pin A1",
+          "content": {
+            "type": "Image",
+            "url": "brain/images/screenshot-2024-05-22-at-2.24.26 pm.png",
+            "filename": "brain/images/screenshot-2024-05-22-at-2.24.26 pm.png"
+          }
+        }
+      ],
+      {
+        "id": "cLNkbob54Qwb46QS",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag and drop this tile into your workspace and answer the following questions</em></p><p><strong> Questions:</strong></p><ul><li>What part of the circuit is analog, and why?</li><li>Which part of the system is digital, and why?</li><li>Why does the signal need to be converted to digital?<em> Hint: Think about binary numbers and how computers store and process data.</em></li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "RNkdo_RhatBWRVai",
+        "title": "A1",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-05-22-at-2.24.35 pm.png",
+          "filename": "brain/images/screenshot-2024-05-22-at-2.24.35 pm.png"
+        }
+      },
+      {
+        "id": "fz5KeGEd9m1SYYKK",
+        "title": "Text 9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Let’s use the number we just created with the ADC converter in a computer program.</p><p><em>Set-Up</em></p><ol><li>Connect the blue cable to the Arduino board and then connect the other end of the blue cable to your computer’s USB port.</li><li>Make sure your breadboard circuit with potentiometer is set up like this.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "Om7EwRUoruHo8yIr",
+        "title": "Breadboard Circuit Set Up",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-05-22-at-2.24.47 pm.png",
+          "filename": "brain/images/screenshot-2024-05-22-at-2.24.47 pm.png"
+        }
+      },
+      {
+        "id": "07R1YGnyTOsx2Rap",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>3.  Add a Data Flow tile to your work space. Click the lightning bolt tile and wait until it turns green. A dialog box will open in your browser asking you which port to connect to. There should only be one choice, but if there is more, select the choice that says Arduino</p><p>4. Add a sensor tile. From the drop down menu, select Arduino and A1 so the computer knows what signal to listen to.</p>"
+          ]
+        }
+      },
+      {
+        "id": "GgUfdk995aZlru0e",
+        "title": "Image 3",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-05-22-at-2.24.56 pm.png",
+          "filename": "brain/images/screenshot-2024-05-22-at-2.24.56 pm.png"
+        }
+      },
+      {
+        "id": "-5KkLxtSPeb1DE_e",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag this tile into your workspace and answer the following questions:</em></p><p><strong>Questions:</strong></p><p>What happens as you change the resistance in the circuit using the potentiometer?</p><ul><li>As resistance increases, the signal…</li><li>As resistance decreases, the signal…</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "Lgygig2U6m_C1Fwd",
+        "title": "Text 12",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>So now we have a number in our program, but what can we do with it?</p><p>The signal is now digital and our microprocessors&nbsp; can sense and process it now. In DataFlow, we have access to logic blocks such as greater than, less than, equal to, and so on.</p><p></p>"
+          ]
+        }
+      },
+      {
+        "id": "vpKIsBt1gm-3SZKH",
+        "title": "Text 16",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag this tile into your workspace and answer the following questions.</em></p><p><strong>Questions:</strong></p><p>Do you think we can use logic blocks to manipulate our digital signal? How so?</p>"
+          ]
+        }
+      },
+      {
+        "id": "RwJaGQIBl8mDfTbS",
+        "title": "Text 13",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Just like the Arduino, our logic chunks have inputs and outputs.&nbsp; Numbers come in, they’re evaluated by the logic statement, and numbers come out.</p><ol><li>Add a number block and a logic block to your Data Flow tile alongside your sensor block.</li><li>Add a Demo Output and select a lightbulb.</li><li>Click the graph icon under the sensor tile so it’s easy to visualize the current flow.</li><li>Try to connect the tiles in such a way that you can turn a light bulb on and off using the physical potentiometer.</li></ol><p><strong>Questions:</strong></p><p>What did you have to do to make this circuit work? Explain the program you developed in words. How did it turn the light bulb turn on and off?</p><ul><li>What did you have to do to make this circuit work?</li><li>Which parts of this circuit were analog, and which were digital?  Support your answer.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "QbBIA7ula6_ZDObg",
+        "title": "Text 14",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag the following tile into your workspace and answer the questions:</em></p><p><strong>Questions:</strong></p><ul><li>What did you have to do to make this circuit work?</li><li>Which parts of this circuit were analog, and which were digital?  Support your answer.</li></ul>"
+          ]
+        }
+      }
+    ]
+  }
+}

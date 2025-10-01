@@ -45,12 +45,13 @@
         "maxTiles": 1
       }
     },
+    "enableCommentRoles": ["student", "teacher", "researcher"],
     "showCommentTag": true,
     "commentTags": {
-      "diverging": "Decomposition",
-      "converging": "Pattern Recognition",
-      "materials": "Abstraction/Generalization",
-      "physical": "Algorithmic Thinking"
+      "decomposition": "Decomposition",
+      "pattern_recognition": "Pattern Recognition",
+      "abstraction": "Abstraction/Generalization",
+      "algorithms": "Algorithmic Thinking"
     },
     "tagPrompt": "Computational Thinking",
     "learningLog": {
@@ -282,6 +283,11 @@
           "label": "Student Work",
           "teacherOnly": true,
           "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Gallery",
+          "teacherOnly": false
         }
       ]
     },
