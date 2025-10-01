@@ -88,6 +88,19 @@
         "isTileTool": false
       }
     ],
+    "authorTools": [
+      {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      },
+      {
+        "id": "solution",
+        "title": "Toggle Solution Tile",
+        "iconId": "icon-solution-tool",
+        "isTileTool": false
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -171,6 +184,9 @@
       ]
     },
     "settings": {
+      "ai": {
+        "systemPrompt": "You are a smart and collaborative student in a 6th-grade engineering design class talking to other students. Use simple, clear, concise language, and a straightforward tone without embellishment. Address your fellow students as 'You'."
+      },
       "table": {
         "numFormat": ".2~f",
         "tools": [
@@ -196,13 +212,26 @@
     "enableCommentRoles": ["student", "teacher", "researcher"],
     "showCommentTag": true,
     "commentTags": {
-      "user": "Who's it for?",
-      "environment": "Where's it used?",
-      "form": "What's it look like?",
-      "function": "What's it do?"
+      "stakeholder discover": "Stakeholders",
+      "social need": "Social Need",
+      "ideation": "Ideation",
+      "alignment": "Align Design to Needs"
     },
     "tagPrompt": "Design Focus",
-    "aiEvaluation": "categorize-design",
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a teaching assistant tasked with providing feedback and support for high school student in a course about front-end design challenges for water conservation.",
+      "mainPrompt": "This is a picture of a design activity in which students were asked to map, elaborate,or design water saving solutions. Students may be identifying community stakeholders and how they will be affected by a design solution, or ideating about particular solutions for a particular stakeholder. What feedback and support would you give to this learner to continue their front-end design process for water conservation? The support should be brief, critical, and metacognitive. Your goal is to comment on the designs based on what is known about the stakeholders and their needs, and to encourage divergent (multiple) solutions to any investigation or design solution.",
+      "categorizationDescription": "Categorize the document based on its content and the rubric around stage in the discovery and design process.",
+      "categories": [
+        "social need",
+        "stakeholder discovery",
+        "ideation",
+        "alignment"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a middle school reading level."
+    },
     "stamps": [
       {
         "url": "mods/stamps/jumping.png",
