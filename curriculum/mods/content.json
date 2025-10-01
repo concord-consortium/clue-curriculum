@@ -212,16 +212,16 @@
     "enableCommentRoles": ["student", "teacher", "researcher"],
     "showCommentTag": true,
     "commentTags": {
-      "user": "Who's it for?",
-      "environment": "Where's it used?",
-      "form": "What's it look like?",
-      "function": "What's it do?"
+      "stakeholder discover": "Stakeholders",
+      "social need": "Social Need",
+      "ideation": "Ideation",
+      "alignment": "Align Design to Needs"
     },
     "tagPrompt": "Design Focus",
     "aiEvaluation": "custom",
     "aiPrompt": {
-      "systemPrompt": "You are a master front end design teacher for middle school students.",
-      "mainPrompt": "This is a picture of a student design document. Your goal is to comment on the designs based on what is known about the stakeholders and their needs, and to encourage divergent (multiple) solutions.",
+      "systemPrompt": "You are a teaching assistant tasked with providing feedback and support for high school student in a course about front-end design challenges for water conservation.",
+      "mainPrompt": "This is a picture of a design activity in which students were asked to map, elaborate,or design water saving solutions. Students may be identifying community stakeholders and how they will be affected by a design solution, or ideating about particular solutions for a particular stakeholder. What feedback and support would you give to this learner to continue their front-end design process for water conservation? The support should be brief, critical, and metacognitive. Your goal is to comment on the designs based on what is known about the stakeholders and their needs, and to encourage divergent (multiple) solutions to any investigation or design solution.",
       "categorizationDescription": "Categorize the document based on its content and the rubric around stage in the discovery and design process.",
       "categories": [
         "social need",
