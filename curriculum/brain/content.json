@@ -45,6 +45,7 @@
         "maxTiles": 1
       }
     },
+    "enableCommentRoles": ["student", "teacher", "researcher"],
     "showCommentTag": true,
     "commentTags": {
       "diverging": "Decomposition",
@@ -269,6 +270,11 @@
           "label": "Student Work",
           "teacherOnly": true,
           "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Gallery",
+          "teacherOnly": false
         }
       ]
     },
