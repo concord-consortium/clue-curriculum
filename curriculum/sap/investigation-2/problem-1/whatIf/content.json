@@ -30,8 +30,8 @@
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp15.png",
-          "filename": "sap/images/sp15.png"
+          "url": "sap/images/situation-a-1-answer.png",
+          "filename": "sap/images/situation-a-1-answer.png"
         }
       },
       {
@@ -40,8 +40,8 @@
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp16.png",
-          "filename": "sap/images/sp16.png"
+          "url": "sap/images/situation-a-2-answer.png",
+          "filename": "sap/images/situation-a-2-answer.png"
         }
       },
       {
@@ -189,7 +189,9 @@
                 "name": "Player Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -227,7 +229,9 @@
                 "name": "Height (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "173",
                   "183",
@@ -342,7 +346,8 @@
               {
                 "__id__": "Ruh1EZXv1Sra_c7I"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
