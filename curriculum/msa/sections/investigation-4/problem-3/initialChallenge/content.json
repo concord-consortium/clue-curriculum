@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The cards contain graphs, equations, contexts that represent various situations, or tables. </p><ul><li>Sort the cards into groups. Each group should represent the same relationships. For example, you may have a graph, context, and a table that “tell the same story” of the relationship between the variables.</li><li>Explain how each group is the same or different from other groups.</li><li>Are any of the relationships linear? Explain why. Are any of the linear relationships proportional? Explain why.</li></ul>"
+            "<p>The cards contain graphs, equations, contexts or tables that represent various situations.</p><ul><li>Sort the cards into groups. Each group should represent the same relationships. For example, you may have a graph, a context, and a table that “tell the same story” of the relationship between the variables.</li><li>Explain how each group is the same or different from other groups.</li><li>Are any of the relationships linear? Explain why. Are any of the linear relationships proportional? Explain why.</li></ul>"
           ]
         }
       },
@@ -185,7 +185,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Context P</em></p><p>You can estimate Fahrenheit from Celsius temperature. Multiply the Celsius temperature by 2 and add 30. What equation will estimate the temperature from one temperature system to the other? </p>"
+              "<p><em>Context P</em></p><p>You can estimate Fahrenheit from Celsius temperature. Multiply the Celsius temperature by 2, and add 30. What equation will estimate the temperature from one temperature system to the other? </p>"
             ]
           }
         }
@@ -277,7 +277,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Graph A</em></p><p><em>Equation H</em></p><p><em>Context L</em></p><p><em>Table Q</em></p><p>Linear – decreasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 3.</p>"
+              "<p><em>Graph A</em></p><p><em>Equation H</em></p><p><em>Context L</em></p><p><em>Table Q</em></p><p>Linear, decreasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 3.</p>"
             ]
           }
         },
@@ -289,7 +289,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Graph C</em></p><p><em>Equation J</em></p><p><em>Context K</em></p><p>Linear – increasing</p><p>Proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 0.5.</p><p></p>"
+              "<p><em>Graph C</em></p><p><em>Equation J</em></p><p><em>Context K</em></p><p>Linear, increasing</p><p>Proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 0.5.</p><p></p>"
             ]
           }
         }
@@ -315,7 +315,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Graph F</em></p><p><em>Context O</em></p><p>Piece-wise linear</p><p>Pattern of Change: There are two patterns of change. For x-values of 0-20, the rate of change is 10. For x-values larger than 20, the rate of change is 3.</p>"
+              "<p><em>Graph F</em></p><p><em>Context O</em></p><p>Piecewise linear</p><p>Pattern of Change: There are two patterns of change. For x-values of 0-20, the rate of change is 10. For x-values larger than 20, the rate of change is 3.</p>"
             ]
           }
         }
@@ -329,7 +329,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Equation I</em></p><p><em>Context P</em></p><p><em>Table V</em></p><p>Linear – increasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 2.</p>"
+              "<p><em>Equation I</em></p><p><em>Context P</em></p><p><em>Table V</em></p><p>Linear, increasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 2.</p>"
             ]
           }
         },
@@ -367,7 +367,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Equation G</em></p><p>Linear – increasing</p><p>Non-proportional </p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 1.</p>"
+              "<p><em>Equation G</em></p><p>Linear, increasing</p><p>Non-proportional </p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values increase by 1.</p>"
             ]
           }
         },
@@ -393,7 +393,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><em>Table S</em></p><p>y = –0.5x + 5</p><p>Linear – decreasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 0.5.</p>"
+              "<p><em>Table S</em></p><p>y = –0.5x + 5</p><p>Linear, decreasing</p><p>Non-proportional</p><p>Pattern of Change: As the x-values increase in increments of 1, the y-values decrease by 0.5.</p>"
             ]
           }
         },
@@ -439,7 +439,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "1",
@@ -456,7 +458,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "20",
                   "17",
@@ -487,7 +491,8 @@
               {
                 "__id__": "01HEXX4XXTRTJVABH7M5QSQN5V"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -509,7 +514,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -526,7 +533,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "4",
@@ -557,7 +566,8 @@
               {
                 "__id__": "01HEXX4XXVGG5WP1Y21VYPQGEN"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -579,7 +589,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -596,7 +608,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "4.5",
                   "4",
@@ -627,7 +641,8 @@
               {
                 "__id__": "01HEXX4XXXWGY9YX1XHD0K5D1A"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -649,7 +664,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -666,7 +683,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -697,7 +716,8 @@
               {
                 "__id__": "01HEXX4XXYW16N763FJKKWXXG5"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -719,7 +739,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -735,7 +757,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "79",
                   "79",
@@ -762,7 +786,8 @@
               {
                 "__id__": "01HEXX4XXZE7VDAEPXEAB1NEVD"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -784,7 +809,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -801,7 +828,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "32",
                   "34",
@@ -832,7 +861,8 @@
               {
                 "__id__": "01HEXX4XY19Z5Q0MHSSPJ1WNX1"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [

@@ -30,8 +30,8 @@
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp15.png",
-          "filename": "sap/images/sp15.png"
+          "url": "sap/images/situation-a-1-answer.png",
+          "filename": "sap/images/situation-a-1-answer.png"
         }
       },
       {
@@ -40,8 +40,8 @@
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp16.png",
-          "filename": "sap/images/sp16.png"
+          "url": "sap/images/situation-a-2-answer.png",
+          "filename": "sap/images/situation-a-2-answer.png"
         }
       },
       {
@@ -74,7 +74,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The dot plot below shows a distribution of heights for a sample of professional basketball players. Do you think this distribution shows a random sample of male professional players or a random sample of female professional players? Explain.</p>"
+            "<p>The following dot plot shows a distribution of heights for a sample of professional basketball players. Do you think this distribution shows a random sample of male professional players or a random sample of female professional players? Explain.</p>"
           ]
         }
       },
@@ -168,7 +168,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>This distribution has a mean of 197.9259 and a MAD of 7.6488. Because of the mean, this distribution is more likely a sample of male professional basketball players than a sample of female professional basketball players.</p><p>If you mark the mean of 197.9259 on the female professional basketball players’ distribution of heights, it is just slightly within the 2 MADs mark, so it probably not a distribution of female professional basketball players. </p><p>If you mark the mean of 197.9259 on the distribution of male professional basketball player heights, it is located very close to the mean of the male professional basketball player distribution, and it is clearly less than one MAD from the mean. It is likely that this data value would occur in the male professional basketball player distribution.</p>"
+            "<p>This distribution has a mean of 197.9259 cm and a MAD of 7.6488 cm. Because of the mean, this distribution is more likely a sample of male professional basketball players than a sample of female professional basketball players.</p><p>If you mark the mean of 197.9259 cm on the female professional basketball players’ distribution of heights, it is just slightly within the 2 MADs mark, so it probably not a distribution of female professional basketball players. </p><p>If you mark the mean of 197.9259 cm on the distribution of male professional basketball player heights, it is located very close to the mean of the male professional basketball player distribution, and it is clearly less than one MAD from the mean. It is likely that this data value would occur in the male professional basketball player distribution.</p>"
           ]
         }
       }
@@ -189,7 +189,9 @@
                 "name": "Player Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -227,7 +229,9 @@
                 "name": "Height (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "173",
                   "183",
@@ -342,7 +346,8 @@
               {
                 "__id__": "Ruh1EZXv1Sra_c7I"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [

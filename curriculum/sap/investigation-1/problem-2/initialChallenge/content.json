@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In the Gee Whiz Everyone Wins game, a container has 100 colored unit cubes: 30 green cubes, 20 yellow cubes, and 50 red cubes. </p><p><strong>Random Sampling Experiment</strong></p><p><u>Predict</u></p><ul><li>If we select a random sample of cubes from the container, will the sample have the same proportions of colored cubes as the whole population?</li></ul>"
+            "<p>In the <em>Gee Whiz Everyone Wins! </em>Game, a contestant predicts the color of a chip that the contestant will pick from a container. The members of the school’s Game Club create a new version of the game. They were curious about how samples might help them predict what is in the container. A container contains some blue, yellow, and red chips.</p><p><strong>Random Sampling Experiment</strong></p><p><u>Make a Prediction</u></p><ul><li>If we select a random sample of 10 chips from the container, predict the number of blue, yellow, and red chips that are in the sample.</li></ul>"
           ]
         }
       },
@@ -21,7 +21,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Based on earlier experiences with the game in How Likely Is It?, we might anticipate that students would indicate some combination of colors with, possibly, red dominating. </p><p>Students might also reason that the sample of 10 is ten times smaller than the container, and so the proportions might look similar to a sample of 3 greens, 2 yellows, and 5 reds.</p>"
+            "<p>Based on earlier experiences with the game in <em>How Likely Is It?</em>, we might anticipate that students would indicate some combination of colors with, possibly, red dominating. </p><p>Students might also reason that the sample of 10 is ten times smaller than the container, and so the proportions might look similar to a sample of 3 blues, 2 yellows, and 5 reds.</p>"
           ]
         }
       },
@@ -32,7 +32,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u>Experiment</u></p><p><em>Equipment</em></p><ul><li>30 green cubes, 20 yellow cubes, and 50 red cubes </li><li>Container large enough to easily mix the cubes and shaded enough so you cannot see the cubes.</li></ul><p><em>Experiment Procedure</em></p><ul><li>Pick a random sample of 10 cubes.</li><li>Record the number of each color.</li><li>Return the cubes to the container and mix-up the cubes.</li><li>Repeat the sampling until you have a total of 10 samples.</li><li>Make a line plot to represent the number of red cubes in each sample.</li></ul>"
+            "<p><u>Conduct and Experiment</u></p><p><em>Equipment</em></p><ul><li>30 blue chips, 20 yellow chips, and 50 red cubes </li><li>container large enough to easily mix the cubes and shaded enough so you cannot see the cubes.</li></ul><p><em>Directions</em></p><ul><li>Pick a random sample of 10 chips.</li><li>Record the number of each color.</li><li>Return the chips to the container, and mix-up the cubes.</li><li>Repeat the sampling until you have a total of 10 samples.</li><li>Make a line plot to represent the number of chips of each color in each sample.</li></ul>"
           ]
         }
       },
@@ -43,8 +43,17 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u>Digital Note:</u> You can drag the Blank Data Table into your own workspace to record your data. You can make a line plot in the digital platform two ways:</p><ol><li>Drag the Blank Number Line image into a Sketch tool and then add your data by drawing or using the stamp tool.</li><li>Link the data from your filled out table to a Graph tool, with Number of Red cubes on the x-axis. Click on the label for the y-axis and &quot;Remove Y&quot; to create a line plot.</li></ol>"
+            "<p><u>Digital Note:</u> You can drag the Blank Data Table or the Blank Line Plot into your own workspace to record your data. You can make a line plot in the digital platform two ways:</p><ol><li>Drag the Blank Line Plot into a Drawing Tool in the workspace and then add your data by adding dots or using the stamp tool.</li><li>Link the data from your filled out table to a Graph tool, with Number of Red cubes on the x-axis. Click on the label for the y-axis and &quot;Remove Y&quot; to create a line plot.</li></ol>"
           ]
+        }
+      },
+      {
+        "id": "HjzJVGeEBUx_oXcv",
+        "title": "Blank Line Plot",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/blank-line-plot.png",
+          "filename": "sap/images/blank-line-plot.png"
         }
       },
       {
@@ -57,15 +66,6 @@
             "0Z421qBxlVyXDSn7": 104,
             "bIFRGfYTfiTpDkq4": 111
           }
-        }
-      },
-      {
-        "id": "COlXGfK5nWpJy1J9",
-        "title": "Blank Number Line",
-        "content": {
-          "type": "Image",
-          "url": "sap/images/se-pic-1.png",
-          "filename": "sap/images/se-pic-1.png"
         }
       },
       {
@@ -83,7 +83,7 @@
       },
       {
         "id": "f6llPpajevYLp4jV",
-        "title": "Number of Red Cubes in the 10 Samples",
+        "title": "Example 1: Number of Red Chips in 10 Samples",
         "display": "teacher",
         "content": {
           "type": "Graph",
@@ -104,7 +104,7 @@
               "max": 0
             }
           },
-          "lockAxes": false,
+          "lockAxes": true,
           "plotType": "dotPlot",
           "layers": [
             {
@@ -144,13 +144,137 @@
         }
       },
       {
+        "id": "TNo1DV6UX3ykJirN",
+        "title": "Example 2: Number of Yellow Chips in 10 Samples",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": true,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRRrFbiFIZ4ZCq",
+              "config": {
+                "id": "DCONORU_1iyuraIA",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "og_KIXmqNBsvs-kR",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "3XiQIajIPvved4uF",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
+        "id": "IjNJl6buwp7z5ehA",
+        "title": "Example 3: Number of Blue Chips in 10 Samples",
+        "display": "teacher",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "empty",
+              "place": "left",
+              "scale": "ordinal",
+              "min": 0,
+              "max": 0
+            }
+          },
+          "lockAxes": true,
+          "plotType": "dotPlot",
+          "layers": [
+            {
+              "id": "LAYRBoktAloDNYuj",
+              "config": {
+                "id": "DCONDK4L4DLhxpHd",
+                "dataset": "OWAYJH_pRP9Azs92",
+                "metadata": "og_KIXmqNBsvs-kR",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "kjM_0M8p1t41-Hkj",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": []
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "v3iCP4Cyxh_6gaPY": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "x",
+          "yAttributeLabel": "y"
+        }
+      },
+      {
         "id": "RQ19GU65wL9V64I7",
         "title": "Text 4",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Making Sense of the Data</strong></p><ol><li> How did your samples vary in terms of the red cubes?</li><li> Did any of your samples match your prediction? </li><li> If you repeated the experiment so that you had 100 samples, where will most of the red block fall on the line plots? Why?</li></ol>"
+            "<p><strong>Analyze the Data</strong></p><ol><li> Did any of your samples match your prediction? </li><li>Consider all 10 of your samples. How could you use the samples to describe how many of each color are in the container?</li><li> If you repeated the experiment so that you had 100 samples, where will most of the blue, yellow, and red chips fall on the line plots? Why?</li></ol>"
           ]
         }
       },
@@ -162,7 +286,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ol><li> Answers will vary. Looking at the samples from various groups, students will see that the random samples vary. Some will mirror the populations and others will not.</li><li> Answers will vary.  For some the answer will be “yes”, for others the answer will be “no”. Some students might be surprised that each sample is not exactly 3 greens, 2 yellows, and 5 reds. </li><li> Answers will vary. From 4 to 6 reds in samples of 10.  Many of the random samples will closely mirror the actual population. Since there are 50 red cubes for every 100 cubes in the population, many random samples will be close to that ratio of 50% red.</li></ol>"
+            "<ol><li>Answers will vary. For some the answer will be “yes”; for others the answer will be “no.” Some students might be surprised that each sample or most of the samples do not mirror the population in the container with 3 blues, 2 yellows, and 5 reds.</li><li>Answers will vary. Looking at the samples, students will see that the random samples vary. Some will mirror the populations, and others will not. With the variation of the individual samples, students may look to analyzing the data in ways they explored in Data About Us. Some students may use measures of center (mean, median, mode), the shape (cluster, gaps) of the data, or the spread (range, IQR, MAD) of the data to analyze the results of the 10 samples.</li><li>Answers will vary. Many of the random samples will closely mirror the actual population. Red: From 4 to 6 in samples of 10. Since there are 50 red chips for every 100 chips in the population, many random samples will be close to that ratio of 50% red. Yellow: From 1 to 3 yellows in samples of 10. Since there are 20 yellow chips for every 100 cubes in the population, many random samples will be close to that ratio of 20% yellow. Blue: From 2 to 4 blues in samples of 10. Since there are 30 blue chips for every 100 cubes in the population, many random samples will be close to that ratio of 30% blue.</li></ol>"
           ]
         }
       }
@@ -183,7 +307,9 @@
                 "name": "Collection of Samples",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Sample 1",
                   "Sample 2",
@@ -204,7 +330,9 @@
                 "name": "Number of Red",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5",
                   "5",
@@ -225,7 +353,9 @@
                 "name": "Number of Yellow",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "2",
                   "2",
@@ -243,10 +373,12 @@
               {
                 "id": "kjM_0M8p1t41-Hkj",
                 "clientKey": "",
-                "name": "Number of Green",
+                "name": "Number of Blue",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "3",
                   "3",
@@ -293,12 +425,15 @@
               {
                 "__id__": "mW5zGOC-U0ESNBO-"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
           "6KX3DAoYZxCmoy6n",
-          "f6llPpajevYLp4jV"
+          "f6llPpajevYLp4jV",
+          "TNo1DV6UX3ykJirN",
+          "IjNJl6buwp7z5ehA"
         ]
       },
       {
@@ -322,13 +457,20 @@
               "attribute": "3XiQIajIPvved4uF",
               "colors": {},
               "moves": []
+            },
+            "kjM_0M8p1t41-Hkj": {
+              "attribute": "kjM_0M8p1t41-Hkj",
+              "colors": {},
+              "moves": []
             }
           },
           "columnWidths": {},
           "hidden": {}
         },
         "tiles": [
-          "f6llPpajevYLp4jV"
+          "f6llPpajevYLp4jV",
+          "TNo1DV6UX3ykJirN",
+          "IjNJl6buwp7z5ehA"
         ]
       },
       {
@@ -346,7 +488,9 @@
                 "name": "Collection of Samples",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Sample 1",
                   "Sample 2",
@@ -367,7 +511,9 @@
                 "name": "Number of Red",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -388,7 +534,9 @@
                 "name": "Number of Yellow",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -406,10 +554,12 @@
               {
                 "id": "bIFRGfYTfiTpDkq4",
                 "clientKey": "",
-                "name": "Number of Green",
+                "name": "Number of Blue",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -456,7 +606,8 @@
               {
                 "__id__": "01HYE8ADX48T2VW3KGHH87J49Y"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "0HN69tC0b2cexXgq",
