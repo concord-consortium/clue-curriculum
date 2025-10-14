@@ -6,7 +6,8 @@
   "placeholderText": "Enter notes here",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
@@ -32,8 +33,8 @@
         "isTileTool": true
       },
       {
-        "id": "Question", 
-        "title": "Question", 
+        "id": "Question",
+        "title": "Question",
         "isTileTool": true
       },
       {
@@ -111,7 +112,9 @@
               "title": "Reflection",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -155,18 +158,34 @@
               ],
               "addDocument": true
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": true
         },
         {
           "tab": "sort-work",
           "label": "Class Work",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -193,7 +212,11 @@
         ]
       }
     },
-    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
     "showCommentTag": true,
     "commentTags": {
       "user": "Who's it for?",
@@ -295,7 +318,7 @@
             "exemplars/investigation-2/problem-1/exemplar-15/content.json",
             "exemplars/investigation-2/problem-1/exemplar-20/content.json",
             "exemplars/investigation-2/problem-1/exemplar-25/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {}
         }
@@ -318,17 +341,16 @@
             "sections/investigation-1/problem-1/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",     
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
             "exemplars/investigation-1/problem-1/exemplar-2/content.json",
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",     
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
             "exemplars/investigation-1/problem-1/exemplar-6/content.json",
             "exemplars/investigation-1/problem-1/exemplar-7/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-8/content.json"      
+            "exemplars/investigation-1/problem-1/exemplar-8/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 1.2",
@@ -350,7 +372,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.3",
@@ -364,14 +386,14 @@
             "sections/investigation-1/problem-3/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-3/exemplar-1/content.json",     
+            "exemplars/investigation-1/problem-3/exemplar-1/content.json",
             "exemplars/investigation-1/problem-3/exemplar-2/content.json",
             "exemplars/investigation-1/problem-3/exemplar-3/content.json",
             "exemplars/investigation-1/problem-3/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-3/exemplar-5/content.json",     
+            "exemplars/investigation-1/problem-3/exemplar-5/content.json",
             "exemplars/investigation-1/problem-3/exemplar-6/content.json",
             "exemplars/investigation-1/problem-3/exemplar-7/content.json",
-            "exemplars/investigation-1/problem-3/exemplar-8/content.json"      
+            "exemplars/investigation-1/problem-3/exemplar-8/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -382,7 +404,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.4",
@@ -404,7 +426,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.5",
@@ -426,7 +448,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.6",
@@ -466,7 +488,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -477,7 +499,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.7",
@@ -518,8 +540,7 @@
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 1.8",
@@ -531,7 +552,6 @@
             "sections/investigation-1/problem-8/introduction/content.json",
             "sections/investigation-1/problem-8/activity/content.json",
             "sections/investigation-1/problem-8/reflection/content.json"
-
           ],
           "exemplars": [
             "exemplars/investigation-2/problem-1/exemplar-3/content.json",
@@ -560,7 +580,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {}
         }
@@ -614,15 +634,15 @@
             "settings": {
               "drawing": {
                 "tools": [
-                  "select", 
-                  "line", 
-                  "stamp", 
-                  "stroke-color", 
-                  "text", 
-                  "image-upload", 
-                  "group", 
-                  "ungroup", 
-                  "duplicate", 
+                  "select",
+                  "line",
+                  "stamp",
+                  "stroke-color",
+                  "text",
+                  "image-upload",
+                  "group",
+                  "ungroup",
+                  "duplicate",
                   "delete"
                 ]
               }
@@ -647,8 +667,7 @@
             "sections/investigation-3/problem-1/activity/content.json",
             "sections/investigation-3/problem-1/reflection/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 3.2",
@@ -670,7 +689,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.3",
@@ -692,7 +711,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.4",
@@ -714,7 +733,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.5",
@@ -736,7 +755,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.6",
@@ -776,7 +795,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -787,7 +806,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.7",
@@ -828,8 +847,7 @@
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 3.8",
@@ -841,7 +859,6 @@
             "sections/investigation-3/problem-8/introduction/content.json",
             "sections/investigation-3/problem-8/activity/content.json",
             "sections/investigation-3/problem-8/reflection/content.json"
-
           ],
           "exemplars": [
             "exemplars/investigation-2/problem-1/exemplar-3/content.json",
@@ -870,7 +887,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {}
         }
