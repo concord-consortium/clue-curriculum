@@ -8,7 +8,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Summarize (Orchestrating the Discussion)</strong></p><p><em>Solutions and Strategies </em></p><p>Go over each part of the Problem. Call on different students to discuss their methods. (Agency, Identity, Ownership) After a group has presented their solutions, ask the class if they have any questions they want to ask the group. For example, encourage them to ask questions like the following: </p><p>For What If…? Situation A, use the graph of the two equations to determine whether Fabian made a profit.</p>"
+            "<p><strong>Summarize (Orchestrating the Discussion)</strong></p><p><em>Discussing Solutions and Strategies </em></p><p>Go over each part of the problem. Call on different students to discuss their methods. (Agency, Identity, Ownership) After a group has presented their solutions, ask the class if they have any questions they want to ask the group.</p><p>For What If…? Situation A, use Jelani&#x27;s of the two equations to determine whether the bakery made a profit.</p>"
           ]
         }
       },
@@ -24,15 +24,15 @@
                 "type": "numeric",
                 "place": "bottom",
                 "scale": "linear",
-                "min": -10,
-                "max": 230
+                "min": -20,
+                "max": 220
               },
               "left": {
                 "type": "numeric",
                 "place": "left",
                 "scale": "linear",
-                "min": -100,
-                "max": 1900
+                "min": -200,
+                "max": 1800
               }
             },
             "lockAxes": false,
@@ -87,7 +87,7 @@
             "type": "Table",
             "columnWidths": {
               "EkGafng8bp3M1P8y": 80,
-              "ExNfjZYSRxDVACRz": 80,
+              "ExNfjZYSRxDVACRz": 110.8770751953125,
               "92Zj7E5nA15B3laJ": 80
             }
           }
@@ -99,7 +99,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Profit occurs when expenses are less than income, or when income is greater than expenses. Use the graph to show that the expenses exceed the income if Fabian makes and sells 100 cakes. Mark the difference with a vertical line segment between the point (100, 1150) on the graph of <em>E </em>and the point (100, 820) on the graph of <em>I</em>. Some students may be ready to interpret the vertical distance symbolically.</p>"
+            "<p>Profit occurs when expenses are less than income, or when income is greater than expenses. Use the graph to show that the expenses exceed the income if the bakery makes and sells 100 cakes. Mark the difference with a vertical line segment between the point (100, 1150) on the graph of <em>E </em>and the point (100, 820) on the graph of <em>I</em>. Some students may be ready to interpret the vertical distance symbolically.</p>"
           ]
         }
       },
@@ -118,7 +118,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Suggested Questions </strong></p><ul><li>How can the vertical distance be interpreted as a symbolic expression? What would this expression mean? (Instead of thinking of 825 + 3.25<em>x</em> = 8.2<em>x</em>, we think of Income - Expenses, or 8.2<em>x</em> - (825 + 3.25<em>x</em>), and note when this expression is positive. When it is positive, Income is greater than Expenses, and there is a profit.)</li></ul>"
+            "<p><strong>Suggested Questions </strong></p><ul><li>How can the vertical distance be interpreted as a symbolic expression? What would this expression mean? (Instead of thinking of 825 + 3.25<em>x</em> = 8.2<em>x</em>, we think of income - expenses, or 8.2<em>x</em> - (825 + 3.25<em>x</em>), and note when this expression is positive. When it is positive, income is greater than expenses, and there is a profit.)</li></ul>"
           ]
         }
       },
@@ -213,15 +213,17 @@
           "providerId": "n6rdEMQlnmqWUv5d",
           "dataSet": {
             "id": "GSMdnquIp3rD09TK",
-            "name": "Bakery Income and Expenses",
+            "name": "Bakery Income and Expenses ( x = number of cakes)",
             "attributes": [
               {
                 "id": "EkGafng8bp3M1P8y",
                 "clientKey": "",
-                "name": "Number of Cakes",
+                "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "20",
@@ -244,8 +246,7 @@
                 "hidden": false,
                 "units": "",
                 "formula": {
-                  "display": "8.2*x",
-                  "canonical": "(8.2 * __x__)"
+                  "display": "8.2x"
                 },
                 "values": [
                   0,
@@ -269,8 +270,7 @@
                 "hidden": false,
                 "units": "",
                 "formula": {
-                  "display": "3.25*x+825",
-                  "canonical": "((3.25 * __x__) + 825)"
+                  "display": "3.25x+825"
                 },
                 "values": [
                   825,
@@ -322,7 +322,8 @@
               {
                 "__id__": "ufDEF77Zd7cix1bd"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
