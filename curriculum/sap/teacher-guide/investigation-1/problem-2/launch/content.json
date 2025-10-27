@@ -9,41 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Problem Overview</strong></p><p>Students revisit a setting from the <em>How Likely Is It? </em>unit.  They choose colored blocks from a bag to use random samples to estimate population. They analyze student strategies for using the sample to determine the population.  The students will then look at a data set of a mystery container to determine the number of blue cubes in the container.  </p>"
-          ]
-        }
-      },
-      {
-        "id": "BVbuiS5f_iKkkxyy",
-        "title": "Text 6",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Arc of Learning</strong></p><p>Reasoning About Samples and Populations: <em>Introduction, Exploration</em></p><p>Proportional Relationships: <em>Analysis</em></p>"
-          ]
-        }
-      },
-      {
-        "id": "f1E1BfjPFub141Lh",
-        "title": "Text 2",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>NWDYK</strong></p><p>How can we use random sampling to estimate populations?</p>"
-          ]
-        }
-      },
-      {
-        "id": "MOox1HRLUiajGA75",
-        "title": "Text 7",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Emerging Mathematical Ideas</strong></p><p>Students investigate using random samples. </p><p>They will:</p><ul><li>conduct an experiment that takes several samples of the same size to determine a population</li><li>use line plots of samples to describe an entire population</li><li>use proportional reasoning and scaling up samples to determine an entire population</li><li>use median of samples to predict the total population</li><li>analyze sample data given in box and whisker plot and line plot to generalize characteristics of a population</li></ul>"
+            "<p><strong>Problem Overview</strong></p><p>Students revisit a setting from the <em>How Likely Is It?  </em>unit. They choose transparent colored chips from a bag to use random samples to estimate population. They analyze student strategies for using the sample to determine the population.  The students will then look at a data set of a mystery container to determine the number of blue transparent colored chips in the container.  </p>"
           ]
         }
       },
@@ -54,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Launch (Getting Started)</strong></p><p><em>Connecting to Prior Knowledge</em></p><p>You may want to connect back to the unit <em>Data About Us</em> to make sure students know what a remember the measures of center – median and mean.</p><p><strong>Suggested Questions:</strong></p><ul><li>Imagine that I have a set of data that has 5 observations and the median is 6. What does mean? (You have 5 data values. If you put the data values in order, the middle value would be 6.)</li><li>What might a line plot of that data look like? (Many possibilities. There would be five quantities in order from smallest to largest. The middle value would be 6. The first two values can be any number from 0 to 6. The last two values can be any number ≥ 6. See a couple of possible data sets below.)</li></ul>"
+            "<p><strong>Launch (Getting Started)</strong></p><p><em>Connecting to Prior Knowledge</em></p><p>You may want to connect back to the grade 6 unit<em> Data About Us</em> to make sure students remember the measures of center—median, mean and mode. The mean value is found when all the data are combined and the redistributed evenly. The median value marks the midpoint of an ordered set of data. At least half of the values lie at or above the median, and at least half lie at or below the median. The mode value appears most frequently in the data.</p><p><strong>Suggested Questions:</strong></p><ul><li>Imagine that I have a set of data that has 5 observations and the median is 6. What does this mean? <em>(You have 5 data values. If you put the data values in order, the middle value would be 6.)</em></li><li>What might a line plot of that data look like? <em>(There are many possibilities. There would be five quantities in order from smallest to largest. The middle value would be 6. The first two values can be any number from 0 to 6. The last two values can be any number ≥ 6. The following are some possible data sets.)</em></li></ul>"
           ]
         }
       },
@@ -105,7 +71,7 @@
               "place": "bottom",
               "scale": "linear",
               "min": 0,
-              "max": 11
+              "max": 10
             },
             "left": {
               "type": "empty",
@@ -165,7 +131,7 @@
               "place": "bottom",
               "scale": "linear",
               "min": 0,
-              "max": 11
+              "max": 10
             },
             "left": {
               "type": "empty",
@@ -225,7 +191,7 @@
               "place": "bottom",
               "scale": "linear",
               "min": 0,
-              "max": 11
+              "max": 10
             },
             "left": {
               "type": "empty",
@@ -280,7 +246,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>If needed, you can also revisit the mean.</p><p><strong>Suggested Questions:</strong></p><ul><li>Would the mean of the data distributions be the same as the median? (Usually it is a different value. With mean, we distribute the quantities. It is like each data observation shares and balances out their values with the other data observations.)</li><li>How do we find the mean? (Add up the data values and divide by how many values that we have.)</li><li>What are the means for the data sets that we just created? (Answers will vary based on your data sets.)</li></ul><p>For the examples above, </p>"
+            "<li>Would the mean of the data distributions be the same as the median? (Usually it is a different value. With mean, we distribute the quantities. It is like each data observation shares and balances out their values with the other data observations.)</li><ul><li>How do we find the mean? (Add up the data values and divide by how many values that we have.)</li><li>What are the means for the data sets that we just created? (Answers will vary based on your data sets.)</li></ul><p>For the examples above, </p>"
           ]
         }
       },
@@ -339,7 +305,9 @@
                 "name": "Sample Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -355,7 +323,9 @@
                 "name": "Number of Red Chips",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -382,7 +352,8 @@
               {
                 "__id__": "jHpkjsOV3FnM73sk"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -405,7 +376,9 @@
                 "name": "Sample Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -421,7 +394,9 @@
                 "name": "Number of Red Chips",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "2",
                   "6",
@@ -448,7 +423,8 @@
               {
                 "__id__": "01HYNZMA3BVFP6PMQD1REM7QMR"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "Id-BhwS8NWzfjrYU",
@@ -472,7 +448,9 @@
                 "name": "Sample Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -488,7 +466,9 @@
                 "name": "Number of Red Chips",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "6",
                   "6",
@@ -515,7 +495,8 @@
               {
                 "__id__": "01HYNZMF2AAV6NYSTFA0SWNQVP"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "5QXJTvlMfRwHCOpJ",
