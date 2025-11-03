@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Problem 1.1 </strong></p><p><strong>Negotiating Screen Time: Tossing Coins and Cups to Find Probability</strong></p>"
+            "<p><strong>Problem 1.1 </strong></p><p><strong>Negotiating Screen Time: Tossing Coins and Cups Experiment</strong></p>"
           ]
         }
       },
@@ -31,50 +31,54 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Kaleb and his mother each have a suggestion for an experiment.</p>"
+            "<p><strong>Initial Challenge</strong></p><p>Kaleb and his mother each have a suggestion for an experiment.</p>"
           ]
         }
       },
-      {
-        "id": "bpJtv8xK7lhL4xUW",
-        "title": "Text 8",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><u><em>Kaleb’s Mother’s Experiment</em></u></p><p>Each morning, toss a coin.</p><p>If the coin lands on heads, Kaleb gets 1 hour of screen time that day. </p><p>If it lands on tails, then he gets 2 hours of screen time. </p>"
-          ]
+      [
+        {
+          "id": "bpJtv8xK7lhL4xUW",
+          "title": "Text 8",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><u><em>Kaleb’s Mother’s Experiment</em></u></p><p>Each morning, toss a coin.</p><p>If the coin lands on heads, Kaleb gets 1 hour of screen time that day. </p><p>If it lands on tails, then he gets 2 hours of screen time. </p>"
+            ]
+          }
+        },
+        {
+          "id": "mS8NFd1CZbIsSPbt",
+          "title": "Penny head and tail",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/penny.png",
+            "filename": "hlit/images/penny.png"
+          }
         }
-      },
-      {
-        "id": "mS8NFd1CZbIsSPbt",
-        "title": "Penny head and tail",
-        "content": {
-          "type": "Image",
-          "url": "hlit/images/1.1_IC_1.png",
-          "filename": "hlit/images/1.1_IC_1.png"
+      ],
+      [
+        {
+          "id": "8WODcfG7SidSp5Yp",
+          "title": "Text 9",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><u><em>Kaleb’s Experiment</em></u></p><p>Each morning, toss a paper cup.</p><p>If the cup lands on its end, Kaleb gets 1 hour of screen time. If the cup lands on its side, he gets 2 hours of screen time. </p>"
+            ]
+          }
+        },
+        {
+          "id": "ZoLm8jYbZVf53wtz",
+          "title": "Cups on their ends and sides",
+          "content": {
+            "type": "Image",
+            "url": "hlit/images/cups.png",
+            "filename": "hlit/images/cups.png"
+          }
         }
-      },
-      {
-        "id": "8WODcfG7SidSp5Yp",
-        "title": "Text 9",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><u><em>Kaleb’s Experiment</em></u></p><p>Each morning, toss a paper cup.</p><p>If the cup lands on its end, Kaleb gets 1 hour of screen time. If the cup lands on its side, he gets 2 hours of screen time. </p>"
-          ]
-        }
-      },
-      {
-        "id": "ZoLm8jYbZVf53wtz",
-        "title": "Cups on their ends and sides",
-        "content": {
-          "type": "Image",
-          "url": "hlit/images/1.1_IC_2.png",
-          "filename": "hlit/images/1.1_IC_2.png"
-        }
-      },
+      ],
       {
         "id": "5u_R4gdJI_fvcibJ",
         "title": "Text 12",
@@ -429,7 +433,9 @@
                 "name": "Toss",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -447,7 +453,9 @@
                 "name": "Head",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -465,7 +473,9 @@
                 "name": "Tail",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -500,7 +510,8 @@
               {
                 "__id__": "of3XeB89XZGq0h3B"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -522,7 +533,9 @@
                 "name": "Toss",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -540,7 +553,9 @@
                 "name": "Side",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "",
                   "",
@@ -558,7 +573,9 @@
                 "name": "End",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -593,7 +610,8 @@
               {
                 "__id__": "bupYTkwlR0zS0yY-"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
