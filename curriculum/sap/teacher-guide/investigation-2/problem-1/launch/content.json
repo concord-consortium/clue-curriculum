@@ -9,40 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Problem Overview</strong></p><p>In this problem students focus on drawing comparative conclusions about two populations using samples.  Student informally assess how much two numerical data distributions with similar variability overlap.  </p><p>Students examine the mean and the MAD of each distribution to identify whether or not the mean of one distribution is within one or two MADs of the other distribution. Students use this information to decide if the differences between samples are greater than expected from naturally occurring variability.</p>"
-          ]
-        }
-      },
-      {
-        "id": "qTIwo395g_BWnLXL",
-        "title": "Text 4",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Arc of Learning</strong></p><p>Reasoning About Samples and Populations: <em>Introduction, Exploration</em></p><p>Proportional Relationships: <em>Analysis</em></p>"
-          ]
-        }
-      },
-      {
-        "id": "yv_aD4z9H56h7Q2X",
-        "title": "Text 5",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>NWDYK</strong></p><p>How can you use samples to make informal comparisons about two populations?</p>"
-          ]
-        }
-      },
-      {
-        "id": "yFvpWilCQlRa5eMr",
-        "title": "Text 6",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Emerging Mathematical Ideas</strong></p><p>Students investigate using samples to compare inferences among populations </p><p>They will:</p><ul><li>examine line plots from two populations (female professional basketball players heights and male professional basketball players heights)</li><li>compare the two populations (female professional basketball players heights and male professional basketball players heights)</li><li>determine where the typical female professional basketball player height would lie of the distribution of the sample of male heights and vice versa.</li><li>examine a mystery line plot sample to determine if it is a male or female data set</li></ul>"
+            "<p><strong>Problem Overview</strong></p><p>In this problem students focus on drawing comparative conclusions about two populations using samples.  Students informally assess how much two numerical data distributions with similar variability overlap.  </p><p>Students examine the mean and the Mean Absolute Deviation (MAD) of each distribution to identify whether or not the mean of one distribution is within one or two MADs of the other distribution. Students use this information to decide if the differences between samples are greater than expected from naturally occurring variability.</p>"
           ]
         }
       },
@@ -53,7 +20,53 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Launch (Getting Started)</strong></p><p><em>Connecting to Prior Knowledge</em></p><p><strong>Suggested Questions:</strong></p><ul><li>How might you determine which values are unexpected for a distribution of data? (Find the MAD of the distribution. Identify the values that are within one and two MADs from the mean. Any values that are outside of two MADs from the mean can be considered unexpected values.) </li><li>In this Problem, you will be comparing two distributions of data that have similar variabilities. How can you tell whether two distributions of data have similar variabilities? (Find the MAD or IQR for each distribution. If the distributions have similar MADs or IQRs, they have similar variabilities.) </li></ul>"
+            "<p><strong>Launch (Getting Started)</strong></p><p><em>Connecting to Prior Knowledge</em></p><p>Students studied Mean Absolute Deviation (MAD) in grade 6 Data About Us. MAD is the average distance of all of the data values in a data set from the mean of the distribution. An example from grade 6 involved looking at wait times for a scenic trolley:</p><li>Ilyas calculates the MAD: 7.2 minutes</li>"
+          ]
+        }
+      },
+      {
+        "id": "ps1F_n82VWrWcjy3",
+        "title": "MAD Calculation",
+        "content": {
+          "type": "Expression",
+          "latexStr": "\\frac{0+3+3+5+5+6+10+10+15+15}{10}=7.2"
+        }
+      },
+      {
+        "id": "CgZOC7mvkgD7q1rl",
+        "title": "Dot Plot Wait Times for Scenic Trolley",
+        "content": {
+          "type": "Image",
+          "url": "sap/images/dot-plot-wait-times-for-senic-trolley.png",
+          "filename": "sap/images/dot-plot-wait-times-for-senic-trolley.png"
+        }
+      },
+      [
+        {
+          "id": "N4Q722m6iR7nfFko",
+          "title": "Sum of the distances on the left of the mean",
+          "content": {
+            "type": "Expression",
+            "latexStr": "15+10+5+3+3=36"
+          }
+        },
+        {
+          "id": "J5RnHon-j07FJCeO",
+          "title": "Sum of the distances on the right of the mean",
+          "content": {
+            "type": "Expression",
+            "latexStr": "15+10+6+5=36"
+          }
+        }
+      ],
+      {
+        "id": "CWSWDGMl_QjQV5e8",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Suggested Questions:</strong></p><ul><li>How might you determine which values are unexpected for a distribution of data? <em>(Find the MAD of the distribution. Identify the values that are within one and two MADs from the mean. Any values that are outside of two MADs from the mean can be considered unexpected values.) </em></li><li>In this problem, you will be comparing two distributions of data that have similar variabilities. How can you tell whether two distributions of data have similar variabilities?<em> (Find the MAD or IQR for each distribution. If the distributions have similar MADs or IQRs, they have similar variabilities.) </em></li></ul>"
           ]
         }
       },
@@ -64,7 +77,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Presenting the Challenge</em></p><p>Make sure your students can visualize the magnitude of these heights.  </p><p><strong>Suggested Questions:</strong></p><ul><li>Look at the two dot plots. What information does each dot plot give? (One dot plot gives the heights of 32 male professional basketball players measured in centimeters. The other gives the heights of 32 female professional basketball players in centimeters.) </li><li>How much taller do you think these basketball players are than the students in our class? </li></ul><p>Distribute <strong>Learning Aid 2.1: Sample of Professional Basketball Players Heights</strong>.  Have students begin the problem independently looking at the data on what do they notice and wonder about it.  Then continue working on the problem with a partner.  </p>"
+            "<p><em>Presenting the Challenge</em></p><p>Discuss heights of basketball players as a class. The data values are given in centimeters. Make sure your students can visualize the magnitude of these heights.</p><p><strong>Suggested Questions:</strong></p><ul><li>Look at the two dot plots. What information does each dot plot give? (<em>One dot plot gives the heights of 32 male professional basketball players measured in centimeters. The other gives the heights of 32 female professional basketball players in centimeters.) </em></li><li>How much taller do you think these basketball players are than the students in our class? <em>(Answers will vary.)</em></li></ul><p>Distribute <strong>Learning Aid 2.1: Sample of Professional Basketball Players&#x27; Heights</strong>.  Have students begin the problem independently, looking at the data and what they notice and wonder about it, and then continue working on the problem with a partner.  </p>"
           ]
         }
       }

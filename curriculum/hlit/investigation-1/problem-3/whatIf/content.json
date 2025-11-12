@@ -9,26 +9,23 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation A. Equally Likely?</strong></p><p>The list below gives several actions and possible results. In each case, </p><ol><li>Decide whether the possible outcomes are equally likely and explain why.</li><li>For those that are equally likely, is the probability ½ (or 50%)? Explain your reasoning.</li></ol>"
+            "<p><strong>Situation A. Equally Likely?</strong></p><p>The following list gives several actions and possible results. In each case, do the following:</p><ol><li>Decide whether the possible outcomes are equally likely and explain why.</li><li>For those that are equally likely, is the probability ½ (or 50%)? Explain your reasoning.</li></ol>"
           ]
         }
       },
       {
         "id": "-CpDv-9ybADgxJ-U",
-        "title": "Situation A: Which Outcomes are Equally Likely?",
         "content": {
           "type": "Table",
           "columnWidths": {
             "IKUxZAtF8Pk46zq6": 143.47265625,
             "pM-IvqQRDQlSrTWO": 182.94921875,
             "oaXz9wVbfYYUaWr9": 182.66796875
-          },
-          "name": "Situation A: Which Outcomes are Equally Likely?"
+          }
         }
       },
       {
         "id": "LNuQrlipEpROl6Qs",
-        "title": "Situation A: Which Outcomes are Equally Likely",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -36,8 +33,7 @@
             "PPN2fZqRP0aAX7NN": 149.9140625,
             "IcpSJEjz-JuUQEQs": 157.6328125,
             "xLT0e5Fdw0Y3lYa2": 194.9964599609375
-          },
-          "name": "Situation A: Which Outcomes are Equally Likely"
+          }
         }
       },
       {
@@ -103,7 +99,9 @@
                 "name": "Action",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   "You toss an empty juice can.",
@@ -112,8 +110,7 @@
                   "A baby is born.",
                   "A high school soccer teams plays a game.",
                   "You guess an answer on a true or false test.",
-                  "You randomly pick a marker out of a box.",
-                  ""
+                  "You randomly pick a marker out of a box."
                 ],
                 "title": ""
               },
@@ -123,17 +120,18 @@
                 "name": "Possible Outcomes",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   "The can lands on its side, the can lands upside down, or the can lands right side up.",
-                  "It snows or it does not snow.",
-                  "The light goes on or the light goes off.",
+                  "It snows, or it does not snow.",
+                  "The light goes on, or the light goes off.",
                   "The baby is right-handed, or the baby is left-handed.",
-                  "The team wins or the team loses.",
-                  "You randomly mark true or you mark false.",
-                  "There are 8 markers, one of each color. You get a black, brown, blue, purple, red, orange, yellow, or green.",
-                  null
+                  "The team wins, or the team loses.",
+                  "You randomly mark true, or you mark false.",
+                  "There are 8 markers, one of each color. You get a black, brown, blue, purple, red, orange, yellow, or green."
                 ],
                 "title": ""
               },
@@ -143,7 +141,9 @@
                 "name": "Equally Likely?",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "SOLUTIONS",
                   "The results are not equally likely. An empty juice can is more likely to land on its side than on either of its ends. ",
@@ -152,8 +152,7 @@
                   "The results are not equally likely. More people are right-handed than left-handed. ",
                   "The results are not equally likely, as the team and its opponent are probably not evenly matched. However, if sports analysts are saying the game is an even match, then winning or losing might be considered equally likely. ",
                   "The results are equally likely. There is a 50% chance of guessing the correct answer. ",
-                  "Choosing each marker is equally likely. There is not a 50% probability. There is a 1 out of 8 chance of selecting each color. ",
-                  ""
+                  "Choosing each marker is equally likely. There is not a 50% probability. There is a 1 out of 8 chance of selecting each color. "
                 ],
                 "title": ""
               }
@@ -182,11 +181,9 @@
               },
               {
                 "__id__": "5U55qi0zLD7bXbmK"
-              },
-              {
-                "__id__": "i9ZviXR7pT4qaR84"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -208,14 +205,16 @@
                 "name": "Action",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "You toss an empty juice can.",
                   "If it snows tomorrow, school will closed. ",
                   "You flip a light switch.",
                   "A baby is born.",
                   "A high school soccer teams plays a game.",
-                  "You guess an answer on a true or false test.",
+                  "You guess an answer on a true-or-false test.",
                   "You randomly pick a marker out of a box."
                 ],
                 "title": ""
@@ -226,14 +225,16 @@
                 "name": "Possible Outcomes ",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "The can lands on its side, the can lands upside down, or the can lands right side up.",
                   "It snows or it does not snow.",
                   "The light goes on or the light goes off.",
                   "The baby is right-handed, or the baby is left-handed.",
-                  "The team wins or the team loses.",
-                  "You randomly mark true or you mark false.",
+                  "The team wins, or the team loses.",
+                  "You randomly mark true, or you mark false.",
                   "There are 8 markers, one of each color. You get a black, brown, blue, purple, red, orange, yellow, or green."
                 ],
                 "title": ""
@@ -244,7 +245,9 @@
                 "name": "Equally Likely",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -279,7 +282,8 @@
               {
                 "__id__": "K6cIiLKeKLqVE7eL"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
