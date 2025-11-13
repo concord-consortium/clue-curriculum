@@ -1789,7 +1789,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>1 + 2 + 4 + 5 + 10 + 20 + 25 + 50 = 117</p>"
           ]
         }
       },
@@ -1812,7 +1812,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>1 + 3 + 9 + 11 + 33 = 57</p>"
           ]
         }
       },
@@ -1835,7 +1835,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>97, because it is the largest prime less than 100.</p>"
           ]
         }
       },
@@ -1878,8 +1878,10 @@
         "content": {
           "type": "Table",
           "columnWidths": {
-            "wrK9bOmEkOck05eU": 80,
-            "trv-dERt_JnvucFE": 80
+            "wrK9bOmEkOck05eU": 119.52769470214844,
+            "trv-dERt_JnvucFE": 145.34799194335938,
+            "XyrFo9jev4yVYIFG": 107.49288940429688,
+            "OMGjWQM-cCNna6aY": 162.75567626953125
           }
         }
       },
@@ -2452,34 +2454,196 @@
           "providerId": "HXf9QpJUmI2xd0eU",
           "dataSet": {
             "id": "oSxxBmFrRGgxlxT5",
-            "name": "Table Data 1",
+            "name": "Factor Game 49 board",
             "attributes": [
               {
                 "id": "wrK9bOmEkOck05eU",
                 "clientKey": "",
-                "name": "x",
+                "name": "First Move",
                 "hidden": false,
                 "units": "",
                 "formula": {
                   "display": ""
                 },
-                "values": [],
+                "values": [
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49"
+                ],
                 "title": ""
               },
               {
                 "id": "trv-dERt_JnvucFE",
                 "clientKey": "",
-                "name": "y",
+                "name": "Proper Factors",
                 "hidden": false,
                 "units": "",
                 "formula": {
                   "display": ""
                 },
-                "values": [],
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "XyrFo9jev4yVYIFG",
+                "clientKey": "",
+                "name": "My Score",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "31",
+                  "32",
+                  "33",
+                  "34",
+                  "35",
+                  "36",
+                  "37",
+                  "38",
+                  "39",
+                  "40",
+                  "41",
+                  "42",
+                  "43",
+                  "44",
+                  "45",
+                  "46",
+                  "47",
+                  "48",
+                  "49"
+                ],
+                "title": ""
+              },
+              {
+                "id": "OMGjWQM-cCNna6aY",
+                "clientKey": "",
+                "name": "Opponent's Score",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "31",
+                  "15",
+                  "20",
+                  "13",
+                  "55",
+                  "1",
+                  "22",
+                  "17",
+                  "50",
+                  "1",
+                  "54",
+                  "1",
+                  "40",
+                  "33",
+                  "26",
+                  "1",
+                  "76",
+                  "8"
+                ],
                 "title": ""
               }
             ],
-            "cases": [],
+            "cases": [
+              {
+                "__id__": "GH61kXOuzFZ4SFBo"
+              },
+              {
+                "__id__": "zlgciCJlvdOiadXB"
+              },
+              {
+                "__id__": "ew3SfYVgxp5vXHBw"
+              },
+              {
+                "__id__": "RjThjoguehmU63yD"
+              },
+              {
+                "__id__": "WwJBLARhuRW-36Ky"
+              },
+              {
+                "__id__": "6XLvJFEsX6dtipEY"
+              },
+              {
+                "__id__": "FMrPX9iZlwRVydnq"
+              },
+              {
+                "__id__": "NbrdQqdL8Lsvc9dr"
+              },
+              {
+                "__id__": "EW1VrZReKn2qQ11L"
+              },
+              {
+                "__id__": "RLhVjsyaW1l_Vics"
+              },
+              {
+                "__id__": "JBZSOBXn0iyn07Iz"
+              },
+              {
+                "__id__": "QJ1BC6wAX33a3Sb8"
+              },
+              {
+                "__id__": "iaH_7cPuAzKmNNiy"
+              },
+              {
+                "__id__": "gfCaWXov_n9kadEj"
+              },
+              {
+                "__id__": "HZLe_KMUKuv7H7Np"
+              },
+              {
+                "__id__": "R2td8q3mEg2WLN0z"
+              },
+              {
+                "__id__": "Ob-jN0pPxmbQkPXA"
+              },
+              {
+                "__id__": "7-Oh1b67_1_SIYKu"
+              },
+              {
+                "__id__": "JWYApPe5LBK7Lmuy"
+              }
+            ],
             "sortDirection": "NONE"
           }
         },
