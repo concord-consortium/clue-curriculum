@@ -2,14 +2,20 @@
   "code": "aplus",
   "abbrevTitle": "CLUE",
   "appName": "CLUE",
-  "title": "Collaborative Learning",
+  "title": "Hurricane Risk",
   "subtitle": "Concord Consortium",
   "config": {
     "placeholderText": "Drag content tiles here.",
     "autoSectionProblemDocuments": false,
     "defaultDocumentType": "problem",
-    "disablePublish": ["student","teacher"],
-    "enableHistoryRoles": ["teacher", "student"],
+    "disablePublish": [
+      "student",
+      "teacher"
+    ],
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
     "toolbar": [
       {
         "id": "Text",
@@ -153,8 +159,8 @@
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
-      "mainPrompt": "This is a picture of a weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate and categorize it.",
-      "categorizationDescription": "Categorize the document according to the kind of student activity based on its content.",
+      "mainPrompt": "This is a picture of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
+      "categorizationDescription": "Categorize the model according to the tags: Severity, Timing, Path, and Personal Risk.",
       "categories": [
         "severity",
         "timing",
@@ -162,8 +168,17 @@
         "personal_risk"
       ],
       "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
-      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'."
-    }
+      "discussionPrompt": "Return a concise description of the kinds of model features and discussions you observe in this model, and suggest what other kinds of interpretation the model author could pursue.",
+      "summarizer": "image"
+    },
+    "authorTools": [
+      {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      }
+    ],
+    "showIdeasButton": true
   },
   "sections": {
     "storm": {
@@ -196,7 +211,7 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/storm/content.json" 
+            "investigation-1/problem-1/storm/content.json"
           ]
         },
         {
