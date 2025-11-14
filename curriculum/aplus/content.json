@@ -1,0 +1,215 @@
+{
+  "code": "aplus",
+  "abbrevTitle": "CLUE",
+  "appName": "CLUE",
+  "title": "Collaborative Learning",
+  "subtitle": "Concord Consortium",
+  "config": {
+    "placeholderText": "Drag content tiles here.",
+    "autoSectionProblemDocuments": false,
+    "defaultDocumentType": "problem",
+    "disablePublish": ["student","teacher"],
+    "enableHistoryRoles": ["teacher", "student"],
+    "toolbar": [
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Data Cards",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Simulator",
+        "title": "Terrarium Simulator",
+        "isTileTool": true
+      },
+      {
+        "id": "Question",
+        "title": "Question",
+        "isTileTool": true
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Hurricane Simulation",
+          "sections": [
+            {
+              "initials": "SIM",
+              "title": "Simulation",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "sort-work",
+          "label": "Model Gallery",
+          "teacherOnly": false
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "cas/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "highlight",
+          "subscript",
+          "superscript",
+          "link"
+        ]
+      },
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          "import-data",
+          "|",
+          [
+            "data-set-view",
+            "datacard"
+          ],
+          "delete"
+        ]
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "stamp",
+          "text",
+          "upload",
+          "stroke-color",
+          "fill-color",
+          "|",
+          "align",
+          "rotate-right",
+          "flip-horizontal",
+          "flip-vertical",
+          "duplicate",
+          "|",
+          "zoom-in",
+          "zoom-out",
+          "fit-all",
+          "navigator",
+          "delete"
+        ]
+      },
+      "diagram": {
+        "maxTiles": 1
+      },
+      "dataflow": {
+        "maxTiles": 1
+      }
+    },
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
+    "showCommentTag": true,
+    "commentTags": {
+      "severity": "Severity",
+      "timing": "Timing",
+      "path": "Path",
+      "personal_risk": "Personal Risk"
+    },
+    "tagPrompt": "Model Features",
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master researcher of hurricane science.",
+      "mainPrompt": "This is a picture of a weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate and categorize it.",
+      "categorizationDescription": "Categorize the document according to the kind of student activity based on its content.",
+      "categories": [
+        "severity",
+        "timing",
+        "path",
+        "personal_risk"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'."
+    }
+  },
+  "sections": {
+    "storm": {
+      "initials": "STORM",
+      "title": "Storm Prediction",
+      "placeholder": "Simulate the conditions of the present storm and document it."
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": true,
+    "sectionInfo": {
+      "overview": {
+        "initials": "OV",
+        "title": "Overview",
+        "placeholder": "Add some tiles here"
+      }
+    }
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Hurrican Map Interpretation",
+      "problems": [
+        {
+          "description": "Activity 1.1",
+          "ordinal": 1,
+          "title": "Cones and Spaghetti",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-1/storm/content.json" 
+          ]
+        },
+        {
+          "description": "Activity 1.2",
+          "ordinal": 2,
+          "title": "Personal Risk",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-2/storm/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
