@@ -215,48 +215,89 @@
           ],
           "config": {
             "defaultDocumentTemplate": {
-              "storm": {
-                "tiles": [
-                  {
-                    "id": "8pKl3_OI-jz7hR8-",
-                    "title": "Text 1",
-                    "content": {
-                      "type": "Text",
-                      "format": "html",
-                      "text": [
-                        "<p><strong>Hurricane Simulator</strong></p>",
-                        "<p>Use the model below to simulate hurricanes.</p>"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "KFeSYPhEDYLB111425",
-                    "title": "Hurricane Explorer",
-                    "content": {
-                      "type": "Drawing",
-                      "objects": [
-                        {
-                          "type": "image",
-                          "id": "pcoXAM3a7VKlMQds",
-                          "x": 6.3125,
-                          "y": 4.5,
-                          "hFlip": false,
-                          "vFlip": false,
-                          "rotation": 0,
-                          "visible": true,
-                          "width": 760.09765625,
-                          "height": 530.00390625,
-                          "url": "aplus/images/hurricaneSim.png",
-                          "filename": "hurricaneSim.png"
-                        }
-                      ]
-                    },
-                    "layout": {
-                      "height": 535
-                    }
+              "tiles": [
+                {
+                  "id": "8pKl3_OI-jz7hR8-",
+                  "title": "Text 1",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>Hurricane Simulator</strong></p>",
+                      "<p>Use the model below to simulate hurricanes.</p>"
+                    ]
                   }
-                ]
-              }
+                },
+                {
+                  "id": "KFeSYPhEDYLB111425",
+                  "title": "Hurricane Explorer",
+                  "content": {
+                    "type": "Drawing",
+                    "objects": [
+                      {
+                        "type": "image",
+                        "id": "pcoXAM3a7VKlMQds",
+                        "x": 6.3125,
+                        "y": 4.5,
+                        "hFlip": false,
+                        "vFlip": false,
+                        "rotation": 0,
+                        "visible": true,
+                        "width": 760.09765625,
+                        "height": 530.00390625,
+                        "url": "aplus/images/hurricaneSim.png",
+                        "filename": "hurricaneSim.png"
+                      }
+                    ]
+                  },
+                  "layout": {
+                    "height": 535
+                  }
+                },
+                {
+                  "id": "LB11172025_0137",
+                  "title": "Estimating Cone of Uncertainty",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "ViKoJH",
+                    "tiles": [
+                      {
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What do you believe are the potential paths of hurricanes in this simulation. Take a snapshot of the model state, paste it into the sketch below and draw your own cone of uncertainty. Discuss how you arrived at this conclusion.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Text 3",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>[Supply Evidence here]</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "title": "My Cone of Uncertainty",
+                        "content": {
+                          "type": "Drawing",
+                          "objects": []
+                        },
+                        "layout": {
+                          "height": 280
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           }
         },
@@ -274,3 +315,4 @@
     }
   ]
 }
+
