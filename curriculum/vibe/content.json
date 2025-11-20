@@ -6,7 +6,8 @@
   "placeholderText": "Add your thoughts here.",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
@@ -49,12 +50,16 @@
         "systemPrompt": "You are a smart and collaborative student in 9th-grade who has learned to write flow programs and think about solving logical problems. You are trying to help your fellow students who are struggling with programming. Using a straightforward tone without embellishment, Address your fellow students as 'You'."
       }
     },
-    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master computer science teacher for high school students. You are teaching with a flow programming language and are emphasizing computational thinking and sensor control of systems.",
-      "mainPrompt": "This is a picture of a student document that is programming using sensor inputs and measuring the transformations in the program. Your goal is to comment on the program based on what is known about the goal of the code and the logical correctness and function of the code.",
-      "categorizationDescription": "Categorize the flow program in the document, if any, based on its content and a rubric around coputational thinking.",
+      "mainPrompt": "This is a picture of a student document that is describing solutions and designs for prosthetic arms. These descriptions may include programming using sensor inputs, drawings of human/hardware interfaces, descriptions of biological electrical processes, and other related concepts. Your goal is to comment on the quality of the document contents and to encourage more specific and evidence-based thinking if none is supplied.",
+      "categorizationDescription": "Categorize the flow program and any problem descriptions or solutions in the document, if any, based their content and a rubric which distinguishes between user, design, model and biological focus.",
       "categories": [
         "decomposition",
         "pattern recognition",
@@ -62,16 +67,17 @@
         "algorithmic thinking"
       ],
       "keyIndicatorsPrompt": "What are the key indicators in the student work that support this categorization? Speak directly to the student who made the document.",
-      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a high school reading level. Address the student as 'You'."
+      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a high school reading level. Address the student as 'You'.",
+      "summarizer": "image"
     },
     "showCommentTag": true,
     "commentTags": {
-      "decomposition": "Decomposition",
-      "pattern_recognition": "Pattern Recognition",
-      "abstration": "Abstraction/Generalization",
-      "algorithm": "Algorithmic Thinking"
+      "user": "User focus",
+      "engineering": "Design focus",
+      "algorithm": "Model focus",
+      "biology": "Biology focus"
     },
-    "tagPrompt": "Computational Thinking",
+    "tagPrompt": "Point of View",
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
@@ -278,7 +284,8 @@
         "width": 26,
         "height": 35
       }
-    ]
+    ],
+    "showIdeasButton": true
   },
   "sections": {
     "intro": {
