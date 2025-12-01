@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>When the 1,000 students are finished opening and closing 1,000 lockers,</p><ul><li>Which lockers remain open?</li></ul>"
+            "<p>When the 1,000 students are finished opening and closing 1,000 lockers,</p><ul><li>Which lockers remain open? Explain why it makes sense that these doors are open.</li></ul>"
           ]
         }
       },
@@ -21,7 +21,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>The locker numbers that are perfect squares are open. Perfect squares have an odd number of factors (because in their factor pairs, one factor is used twice), so their doors will be [opened, closed] some number of times and then left open on the last pass through. The locker&#x27;s state is changed every time one of its factors touches it. </p><p>For example, Locker 15 will get touched by the Students 1, 3, 5, and 15.</p><p>Student 1 will open it, Student 3 will close it, Student 5 will open it, and Student 15 will close it. Locker 15 will not be open in the end because no one will touch it after Student 15.</p><p>Because square numbers have an odd number of factors, the doors will be left open.</p><p>For example, Locker 25 (a square number) will be touched by Student 1, Student 5, and Student 25. Student 1 will open the locker, Student 5 will close the locker, and Student 25 will open it. It will remain open because no other students will touch Locker 25 after Student 25.</p><p>Students may relate this pattern to the rectangles in Problem 1.3. The odd count leaves the locker open because there is no pairing of &quot;open, close&quot; with all of the factors.</p>"
           ]
         }
       },
