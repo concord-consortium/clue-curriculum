@@ -45,15 +45,19 @@
         "maxTiles": 1
       }
     },
-    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
     "showCommentTag": true,
     "commentTags": {
-      "decomposition": "Decomposition",
-      "pattern_recognition": "Pattern Recognition",
-      "abstraction": "Abstraction/Generalization",
-      "algorithms": "Algorithmic Thinking"
+      "user": "User",
+      "design": "Design ",
+      "model": "Model",
+      "biology": "Biology"
     },
-    "tagPrompt": "Computational Thinking",
+    "tagPrompt": "Work Focus",
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
@@ -319,7 +323,17 @@
         "width": 26,
         "height": 35
       }
-    ]
+    ],
+    "aiPrompt": {
+      "systemPrompt": "",
+      "mainPrompt": "",
+      "categorizationDescription": "",
+      "keyIndicatorsPrompt": "",
+      "discussionPrompt": "",
+      "summarizer": "image",
+      "categories": []
+    },
+    "showIdeasButton": false
   },
   "sections": {
     "intro": {
