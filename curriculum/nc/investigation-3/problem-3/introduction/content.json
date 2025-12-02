@@ -1,0 +1,79 @@
+{
+  "type": "introduction",
+  "content": {
+    "tiles": [
+      {
+        "id": "-rD2TSYjSJhIrLPt",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem 3.3</strong></p><p><strong>The Locker Problem: Putting It All Together</strong></p><p>There are 1,000 lockers along a long hall of Westfalls High. The lockers are numbered from 1 to 1,000. When the 1,000 Westfalls High students return from summer vacation, they decide to celebrate the beginning of the school year by working off some energy. </p>"
+          ]
+        }
+      },
+      {
+        "id": "ji2xnQV26HMI7CRK",
+        "title": "Numbered Lockers",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/closed-lockers.png",
+          "filename": "cq/images/closed-lockers.png"
+        }
+      },
+      {
+        "id": "D-rWc7SPW49xPnn8",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>The first student, Student 1, runs down the row of lockers and opens every locker door.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "pVZDTRdPUaSX7Gce",
+        "title": "Open Lockers",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/open-lockers.png",
+          "filename": "cq/images/open-lockers.png"
+        }
+      },
+      {
+        "id": "qdcBN3LPFs8SdrC3",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Student 2 closes the doors of Lockers 2, 4, 6, 8, and so on, to the end of the line</li><li>Student 3 <em>changes the state</em> of the doors of Lockers 3, 6, 9, 12, and so on, to the end of the line. (<em>Changes the state </em>means the student opens the locker door if it is closed and closes the door if it is open.)</li><li>Student 4 changes the state of the doors of Lockers 4, 8, 12, 16, and so on.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "5fzDbAe9LBdwW5WD",
+        "title": "Changed Lockers",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/changed-lockers.png",
+          "filename": "cq/images/changed-lockers.png"
+        }
+      },
+      {
+        "id": "DySfwmrWwQKZFaUb",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Student 5 changes the state of every fifth door.</li><li>Student 6 changes the state of every sixth door.</li><li>This pattern continues until all 1,000 students have had a turn.</li></ul>"
+          ]
+        }
+      }
+    ]
+  },
+  "supports": []
+}

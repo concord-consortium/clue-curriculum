@@ -1,0 +1,76 @@
+{
+  "type": "whatIf",
+  "content": {
+    "tiles": [
+      {
+        "id": "-2UI4vJdiMTEHqXy",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation A. Finding the Longest Factor String</strong></p><ol><li>How can you use one factor string to find another factor string?</li><li>What is the longest string you found for 840? Can you find a different string that has the same number of factors but at least one different factor?</li><li>How do you know when you have found the longest string of factors for a number? </li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "Ndu8DQehtFbVR6h1",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>Say you have the factor string 2 x 420. Then you can find a factor string for 420 and affix it to a 2 to get a new factor string for 840. For example, another factor string could then be 2 x 60 x 7 or 6 x 7 x 10 as we decompose the factors down into two or three factors that equal that number. </li><li>840 = 2 x 2 x 2 x 3 x 5 x 7. If we only use primes, there is no other string of six factos that would multiply to 840. Each number has exactly one string of primes. This is called a prime factorization.</li><li>You have found the longest string of factors for a number when you cannot decompose any of the elements into another factor string, that is, when all the factors are prime. Students may use 1 in their strings. You will need to have a conversation about how this means that strings could go on forever; so mathematicians do not use 1 as a factors in the strings. Also, the longest strings are strings of prime numbers, and 1 is not prime. </li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "E_mEMNn1zoLjYrxY",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Expressing the Longest Factor String</strong></p><ol><li>Eshe&#x27;s group found three factor strings equivalent to 360. The group disagrees about which string to report as the longest string. What would you advise them? The strings are:</li><p>2<sup>3 </sup>× 3<sup>2</sup> × 5</p><p>6 × 6 × 2 × 5</p><p>2 × 2 × 2 × 3 × 3 × 5</p><li>Find the longest factor string for 84 and for 1,000,000. In which of these is exponential notation useful? Explain why.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "DLM6rHMf9-wMNOnl",
+        "title": "Text 4",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>The first and third strings are equivalent and considered to be the &quot;longest string,&quot; or prime factorization. The third string is longest by the number of numbers being multiplied together visually, but both represent the same number of numbers being multiplied together.</li><li>84</li></ol><p>2 × 2 × 3 × 7 or 2<sup>2</sup> × 3 × 7 </p><p>Note that some students ay use the string for 840 and factor out the 10, or 2 × 5.</p><p> 840 = 2 × 2 × 2 × 3 × 5 × 7, so 84 = 2 × 2 × 3 × 7</p><p>               1,000,000</p><p>10 ⋅ 10 ⋅ 10 ⋅ 10 ⋅ 10 ⋅ 10 = </p><p>(2 ⋅ 5) ⋅ (2 ⋅ 5) ⋅ (2 ⋅ 5) ⋅ (2 ⋅ 5) ⋅ (2 ⋅ 5) ⋅ (2 ⋅ 5) =</p><p>2<sup>6</sup> ⋅ 5<sup>6</sup></p><p>Exponential notation is especially useful when there is a long dtring of factors, like the string for 1,000,000.</p>"
+          ]
+        }
+      },
+      {
+        "id": "w9t9Ax_t4vrw7IXO",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation C. True, False, or Sometimes True?</strong></p><p>Which statements are true? False? Sometimes true? Explain why.</p><ol><li>If 3<sup><em>N</em></sup> = 81, then <em>N</em> = 4.</li><li>If 9<sup>N</sup> = 81, then <em>N</em> = 2.</li><li>5<em>N</em> = 5<sup><em>N</em></sup>.</li><li>If 7<sup><em>N</em></sup> = 14, then <em>N</em> = 2.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "_BWKOsRrfBiW6zLL",
+        "title": "Text 6",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>True.  3<sup>4</sup> = </li><p>3<sup>4</sup> = 3 ⋅ 3 ⋅ 3 ⋅ 3 = 3<sup>2</sup> ⋅ 3<sup>2</sup> =</p><p>9 ⋅ 9 = </p><p>81=</p><li>True. 9<sup>2</sup> = 9 ⋅ 9 =81 </li><p>Note that some students may connect this result to the one above by grouping the factors (3 ⋅ 3) ⋅ (3 ⋅ 3) = 9 ⋅ 9 = 81. This is like reversing what was done to create the longest string.</p><li>Sometimes true when <em>N</em> = 1.</li><p>If <em>N</em> = 1, then 5(1) = 5, and 5<sup>1</sup> = 5. For any other value of<em> N</em> , 5<em>N</em> = 5<sup><em>N</em></sup> is false. For example, if <em>N</em> = 2, then 5(2) = 10, and 5<sup>2</sup> = 25.</p><li>False.</li><p>There is no power of 7 equal to 14.</p><p>Also, 7<sup>2</sup> = 7 ⋅ 7 = 49.</p></ol>"
+          ]
+        }
+      }
+    ]
+  }
+}
