@@ -6,7 +6,8 @@
   "placeholderText": "Enter notes here",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
@@ -32,8 +33,8 @@
         "isTileTool": true
       },
       {
-        "id": "Question", 
-        "title": "Question", 
+        "id": "Question",
+        "title": "Question",
         "isTileTool": true
       },
       {
@@ -124,7 +125,9 @@
               "title": "Reflection",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -168,18 +171,34 @@
               ],
               "addDocument": true
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "sort-work",
           "label": "Class Work",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -209,28 +228,33 @@
         ]
       }
     },
-    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
     "showCommentTag": true,
     "commentTags": {
-      "stakeholder discover": "Stakeholders",
-      "social need": "Social Need",
-      "ideation": "Ideation",
-      "alignment": "Align Design to Needs"
+      "user": "Stakeholder",
+      "environment": "Environment/Context",
+      "form": "Design",
+      "function": "Function"
     },
     "tagPrompt": "Design Focus",
     "aiEvaluation": "custom",
     "aiPrompt": {
-      "systemPrompt": "You are a teaching assistant tasked with providing feedback and support for high school student in a course about front-end design challenges for water conservation.",
-      "mainPrompt": "This is a picture of a design activity in which students were asked to map, elaborate,or design water saving solutions. Students may be identifying community stakeholders and how they will be affected by a design solution, or ideating about particular solutions for a particular stakeholder. What feedback and support would you give to this learner to continue their front-end design process for water conservation? The support should be brief, critical, and metacognitive. Your goal is to comment on the designs based on what is known about the stakeholders and their needs, and to encourage divergent (multiple) solutions to any investigation or design solution.",
-      "categorizationDescription": "Categorize the document based on its content and the rubric around stage in the discovery and design process.",
+      "systemPrompt": "You are an experienced middle school STEM educator specializing in water conservation and front-end design. You provide warm, encouraging, and constructive feedback that is ALWAYS grounded in the student's specific words and ideas—never generic. You must directly quote or paraphrase something the student wrote before offering guidance. You are familiar with divergent-convergent thinking, where divergent thinking involves generating many different ideas and possibilities, and convergent thinking involves narrowing down and focusing on specific ideas and possibilities.\nYour middle school students are completing an online module aimed at teaching them about front-end design and water conservation. The module has eight lessons: L1: Importance of Water Conservation, L2: Stakeholder Mapping, L3: Stakeholder Profile and Community Research, L4: Scoping, L5: Research, L6: Concept Generation, Drawing Ideas, L7: Idea Generation Part 2, and L8: Presentation and Reflection.",
+      "mainPrompt": "This is a picture of the student's work. Review the student's work carefully. Identify ONE specific idea, phrase, or detail the student mentioned. Provide feedback in one to two sentences that directly references that specific detail and helps the student think more critically about their front-end design process and how it connects to water conservation. Do NOT give generic praise or vague suggestions. Your feedback must prove you read their work by naming something only they wrote.",
+      "categorizationDescription": "Based on the student's work, categorize their thinking as focusing on the Stakeholder, Environment, Design, or Function of their description. State your categorization in one sentence, then explain in one sentence WHY by pointing to specific evidence from the student's response—for example, \"You focused on the Design by discussing the size of a water reservoir.\" or \"You chose to focus specifically on farmers and their irrigation needs.\"",
       "categories": [
         "social need",
         "stakeholder discovery",
         "ideation",
         "alignment"
       ],
-      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
-      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a middle school reading level."
+      "keyIndicatorsPrompt": "List 2-3 specific phrases, ideas, or details FROM THE STUDENT'S ACTUAL RESPONSE that support your categorization. Use quotation marks or direct paraphrasing. Do not describe general behaviors—cite their actual words. For example: \"The student wrote 'taking a shower saves more water than a bath,' showing they are processing new information\" or \"The student mentioned 'a scale that shows how much water you're using,' indicating an emerging design idea.\"",
+      "discussionPrompt": "In one to two sentences written for a middle school student, connect something SPECIFIC the student said to a next step in their thinking. You MUST reference their actual words (quote or paraphrase) before asking your question. Keep language simple and encouraging. End with ONE clear question that builds on their idea.\nExample format: \"You said [specific thing they wrote]—that's interesting because [brief connection]. [One guiding question]?\"\nDo NOT use phrases like \"great job exploring\" or \"keep thinking about your community\" without tying them to the student's specific words.",
+      "summarizer": "image"
     },
     "stamps": [
       {
@@ -258,7 +282,8 @@
         "width": 162,
         "height": 110
       }
-    ]
+    ],
+    "showIdeasButton": true
   },
   "sections": {
     "introduction": {
@@ -324,7 +349,7 @@
             "exemplars/investigation-2/problem-1/exemplar-15/content.json",
             "exemplars/investigation-2/problem-1/exemplar-20/content.json",
             "exemplars/investigation-2/problem-1/exemplar-25/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {}
         }
@@ -347,17 +372,16 @@
             "sections/investigation-1/problem-1/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-1/exemplar-1/content.json",     
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
             "exemplars/investigation-1/problem-1/exemplar-2/content.json",
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-5/content.json",     
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json",
             "exemplars/investigation-1/problem-1/exemplar-6/content.json",
             "exemplars/investigation-1/problem-1/exemplar-7/content.json",
-            "exemplars/investigation-1/problem-1/exemplar-8/content.json"      
+            "exemplars/investigation-1/problem-1/exemplar-8/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 1.2",
@@ -379,7 +403,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.3",
@@ -393,14 +417,14 @@
             "sections/investigation-1/problem-3/reflection/content.json"
           ],
           "exemplars": [
-            "exemplars/investigation-1/problem-3/exemplar-1/content.json",     
+            "exemplars/investigation-1/problem-3/exemplar-1/content.json",
             "exemplars/investigation-1/problem-3/exemplar-2/content.json",
             "exemplars/investigation-1/problem-3/exemplar-3/content.json",
             "exemplars/investigation-1/problem-3/exemplar-4/content.json",
-            "exemplars/investigation-1/problem-3/exemplar-5/content.json",     
+            "exemplars/investigation-1/problem-3/exemplar-5/content.json",
             "exemplars/investigation-1/problem-3/exemplar-6/content.json",
             "exemplars/investigation-1/problem-3/exemplar-7/content.json",
-            "exemplars/investigation-1/problem-3/exemplar-8/content.json"      
+            "exemplars/investigation-1/problem-3/exemplar-8/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -411,7 +435,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.4",
@@ -433,7 +457,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.5",
@@ -455,7 +479,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.6",
@@ -495,7 +519,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -506,7 +530,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 1.7",
@@ -547,8 +571,7 @@
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 1.8",
@@ -560,7 +583,6 @@
             "sections/investigation-1/problem-8/introduction/content.json",
             "sections/investigation-1/problem-8/activity/content.json",
             "sections/investigation-1/problem-8/reflection/content.json"
-
           ],
           "exemplars": [
             "exemplars/investigation-2/problem-1/exemplar-3/content.json",
@@ -589,7 +611,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {}
         }
@@ -643,15 +665,15 @@
             "settings": {
               "drawing": {
                 "tools": [
-                  "select", 
-                  "line", 
-                  "stamp", 
-                  "stroke-color", 
-                  "text", 
-                  "image-upload", 
-                  "group", 
-                  "ungroup", 
-                  "duplicate", 
+                  "select",
+                  "line",
+                  "stamp",
+                  "stroke-color",
+                  "text",
+                  "image-upload",
+                  "group",
+                  "ungroup",
+                  "duplicate",
                   "delete"
                 ]
               }
@@ -676,8 +698,7 @@
             "sections/investigation-3/problem-1/activity/content.json",
             "sections/investigation-3/problem-1/reflection/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 3.2",
@@ -699,7 +720,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.3",
@@ -721,7 +742,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.4",
@@ -743,7 +764,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.5",
@@ -765,7 +786,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.6",
@@ -805,7 +826,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {
             "planningTemplate": {
@@ -816,7 +837,7 @@
                 "tiles": []
               }
             }
-        }
+          }
         },
         {
           "description": "Activity 3.7",
@@ -857,8 +878,7 @@
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
-          "config": {
-          }
+          "config": {}
         },
         {
           "description": "Activity 3.8",
@@ -870,7 +890,6 @@
             "sections/investigation-3/problem-8/introduction/content.json",
             "sections/investigation-3/problem-8/activity/content.json",
             "sections/investigation-3/problem-8/reflection/content.json"
-
           ],
           "exemplars": [
             "exemplars/investigation-2/problem-1/exemplar-3/content.json",
@@ -899,7 +918,7 @@
             "exemplars/investigation-2/problem-1/exemplar-26/content.json",
             "exemplars/investigation-2/problem-1/exemplar-27/content.json",
             "exemplars/investigation-2/problem-1/exemplar-28/content.json",
-            "exemplars/investigation-2/problem-1/exemplar-28/content.json"            
+            "exemplars/investigation-2/problem-1/exemplar-28/content.json"
           ],
           "config": {}
         }
