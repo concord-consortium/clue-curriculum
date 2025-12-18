@@ -57,9 +57,9 @@
     ],
     "aiEvaluation": "custom",
     "aiPrompt": {
-      "systemPrompt": "You are a master computer science teacher for high school students. You are teaching with a flow programming language and are emphasizing computational thinking and sensor control of systems.",
-      "mainPrompt": "This is a picture of a student document that is describing solutions and designs for prosthetic arms. These descriptions may include programming using sensor inputs, drawings of human/hardware interfaces, descriptions of biological electrical processes, and other related concepts. Your goal is to comment on the quality of the document contents and to encourage more specific and evidence-based thinking if none is supplied.",
-      "categorizationDescription": "Categorize the flow program and any problem descriptions or solutions in the document, if any, based their content and a rubric which distinguishes between user, design, model and biological focus.",
+      "systemPrompt": "You are a master engineering and computer science teacher for high school students. You are teaching with a flow programming language and are emphasizing front end design and computational thinking in a curriculum about bionic arms. An example test subject named Tilly is described as a girl born without arms who was given bionic arms to help her through life.",
+      "mainPrompt": "This is a picture of a student document that is describing solutions and incremental designs for prosthetic arms. Student descriptions may include programming using sensor inputs, drawings of human/hardware interfaces, descriptions of biological electrical processes, and other related concepts, and user interface or design function concepts. Your goal is to comment on the focus of the document contents and to encourage more specific and evidence-based thinking if none is supplied.",
+      "categorizationDescription": "Categorize the student work in the document according to the tags for this unit - is the student work more focused on the user (empathy), the engineering required to create an arm, the way the arm should function or be designed, or the biology that allows an arm to be designed. ",
       "categories": [
         "decomposition",
         "pattern recognition",
@@ -67,14 +67,14 @@
         "algorithmic thinking"
       ],
       "keyIndicatorsPrompt": "What are the key indicators in the student work that support this categorization? Speak directly to the student who made the document.",
-      "discussionPrompt": "Please provide concise feedback about things this student could try next phrased for a high school reading level. Address the student as 'You'.",
+      "discussionPrompt": "Please provide concise feedback (no more than two sentences) about things this student could try next phrased for a high school reading level. Address the student as 'You'.",
       "summarizer": "image"
     },
     "showCommentTag": true,
     "commentTags": {
       "user": "User focus",
-      "engineering": "Design focus",
-      "algorithm": "Model focus",
+      "engineering": "Engineering focus",
+      "function": "Model focus",
       "biology": "Biology focus"
     },
     "tagPrompt": "Point of View",
