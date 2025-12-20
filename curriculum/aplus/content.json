@@ -5,9 +5,25 @@
   "title": "Storm Explorer",
   "subtitle": "Uncertainty and Risk",
   "config": {
-    "placeholderText": "Drag content tiles here.",
-    "autoSectionProblemDocuments": false,
+    "placeholderText": "Drag text, models, or sketches here.",
+    "autoAssignStudentsToIndividualGroups": true,
+    "autoSectionProblemDocuments": true,
+    "defaultDocumentTitle": "Storm Name and Time",
     "defaultDocumentType": "problem",
+    "documentLabels": {
+      "personal": {
+        "labels": {
+          "1": "Storm Analysis",
+          "n": "Storm Analyses"
+        }
+      },
+      "problem": {
+        "labels": {
+          "1": "Storm Analysis",
+          "n": "Storm Analyses"
+        }
+      }
+    },
     "disablePublish": [
       "student"
     ],
