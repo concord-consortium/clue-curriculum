@@ -1,16 +1,15 @@
 {
   "code": "aplus",
-  "abbrevTitle": "CLUE",
-  "appName": "CLUE",
-  "title": "Hurricane Risk",
-  "subtitle": "Concord Consortium",
+  "abbrevTitle": "STORM",
+  "appName": "STORM",
+  "title": "Storm Explorer",
+  "subtitle": "Uncertainty and Risk",
   "config": {
     "placeholderText": "Drag content tiles here.",
     "autoSectionProblemDocuments": false,
     "defaultDocumentType": "problem",
     "disablePublish": [
-      "student",
-      "teacher"
+      "student"
     ],
     "enableHistoryRoles": [
       "teacher",
@@ -23,8 +22,8 @@
         "isTileTool": true
       },
       {
-        "id": "DataCard",
-        "title": "Data Cards",
+        "id": "Simulator",
+        "title": "Storm Simulator",
         "isTileTool": true
       },
       {
@@ -38,14 +37,15 @@
         "isTileTool": true
       },
       {
-        "id": "Simulator",
-        "title": "Terrarium Simulator",
-        "isTileTool": true
-      },
-      {
         "id": "Question",
         "title": "Question",
         "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
       },
       {
         "id": "delete",
@@ -60,18 +60,28 @@
       "tabSpecs": [
         {
           "tab": "problems",
-          "label": "Hurricane Simulation",
+          "label": "Storm Resources",
           "sections": [
             {
-              "initials": "SIM",
-              "title": "Simulation",
+              "initials": "CONE",
+              "title": "Cone of Uncertainty",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "PLOT",
+              "title": "Spaghetti Plots",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "MODEL",
+              "title": "Storm Model",
               "type": "problem-documents"
             }
           ]
         },
         {
           "tab": "sort-work",
-          "label": "Model Gallery",
+          "label": "Storm Chat",
           "teacherOnly": false
         }
       ]
@@ -102,11 +112,6 @@
           "link-tile",
           "merge-in",
           "import-data",
-          "|",
-          [
-            "data-set-view",
-            "datacard"
-          ],
           "delete"
         ]
       },
@@ -136,10 +141,7 @@
           "delete"
         ]
       },
-      "diagram": {
-        "maxTiles": 1
-      },
-      "dataflow": {
+      "simulation": {
         "maxTiles": 1
       }
     },
@@ -153,22 +155,24 @@
       "severity": "Severity",
       "timing": "Timing",
       "path": "Path",
-      "personal_risk": "Personal Risk"
+      "uncertainty": "Uncertainty",
+      "temperature": "Temperature"
     },
-    "tagPrompt": "Model Features",
+    "tagPrompt": "Chat focus",
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
-      "mainPrompt": "This is a picture of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
-      "categorizationDescription": "Categorize the model according to the tags: Severity, Timing, Path, and Personal Risk.",
+      "mainPrompt": "This is a discussion of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
+      "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
       "categories": [
         "severity",
         "timing",
         "path",
-        "personal_risk"
+        "uncertainty",
+        "temperature"
       ],
-      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
-      "discussionPrompt": "Return a concise description of the kinds of model features and discussions you observe in this model, and suggest what other kinds of interpretation the model author could pursue.",
+      "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization?",
+      "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
       "summarizer": "image"
     },
     "authorTools": [
@@ -178,40 +182,41 @@
         "isTileTool": true
       }
     ],
-    "showIdeasButton": true
+    "showIdeasButton": false
   },
   "sections": {
-    "storm": {
-      "initials": "STORM",
-      "title": "Storm Prediction",
+    "cone": {
+      "initials": "CONE",
+      "title": "Cone of Uncertainty",
+      "placeholder": "Discuss or paste images of your cone of uncertainty here."
+    },
+    "plot": {
+      "initials": "PLOT",
+      "title": "Spaghetti Plot",
+      "placeholder": "Discuss or paste images of your spaghetti plots here."
+    },
+    "model": {
+      "initials": "MODEL",
+      "title": "Storm Model",
       "placeholder": "Simulate the conditions of the present storm and document it."
-    }
-  },
-  "planningDocument": {
-    "enable": "teacher",
-    "default": true,
-    "sectionInfo": {
-      "overview": {
-        "initials": "OV",
-        "title": "Overview",
-        "placeholder": "Add some tiles here"
-      }
     }
   },
   "investigations": [
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "Hurrican Map Interpretation",
+      "title": "Storms 2026",
       "problems": [
         {
           "description": "Activity 1.1",
           "ordinal": 1,
-          "title": "Cones and Spaghetti",
-          "subtitle": "",
+          "title": "A Storm",
+          "subtitle": "2026",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/storm/content.json"
+            "investigation-1/problem-1/cone/content.json",
+            "investigation-1/problem-1/plot/content.json",
+            "investigation-1/problem-1/model/content.json"
           ],
           "config": {
             "defaultDocumentTemplate": {
@@ -223,14 +228,14 @@
                     "type": "Text",
                     "format": "html",
                     "text": [
-                      "<p><strong>Hurricane Simulator</strong></p>",
+                      "<p><strong>Storm Explorer</strong></p>",
                       "<p>Use the model below to simulate hurricanes.</p>"
                     ]
                   }
                 },
                 {
                   "id": "KFeSYPhEDYLB111425",
-                  "title": "Hurricane Explorer",
+                  "title": "Storm Explorer",
                   "content": {
                     "type": "Drawing",
                     "objects": [
@@ -253,49 +258,6 @@
                   "layout": {
                     "height": 535
                   }
-                },
-                {
-                  "id": "LB11172025_0137",
-                  "title": "Estimating Cone of Uncertainty",
-                  "content": {
-                    "type": "Question",
-                    "version": 1,
-                    "locked": false,
-                    "questionId": "ViKoJH",
-                    "tiles": [
-                      {
-                        "title": "Question Prompt",
-                        "fixedPosition": true,
-                        "content": {
-                          "type": "Text",
-                          "format": "html",
-                          "text": [
-                            "<p>What do you believe are the potential paths of hurricanes in this simulation. Take a snapshot of the model state, paste it into the sketch below and draw your own cone of uncertainty. Discuss how you arrived at this conclusion.</p>"
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Text 3",
-                        "content": {
-                          "type": "Text",
-                          "format": "html",
-                          "text": [
-                            "<p>[Supply Evidence here]</p>"
-                          ]
-                        }
-                      },
-                      {
-                        "title": "My Cone of Uncertainty",
-                        "content": {
-                          "type": "Drawing",
-                          "objects": []
-                        },
-                        "layout": {
-                          "height": 280
-                        }
-                      }
-                    ]
-                  }
                 }
               ]
             }
@@ -304,11 +266,13 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "Personal Risk",
+          "title": "B Storm",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-2/storm/content.json"
+            "investigation-1/problem-2/cone/content.json",
+            "investigation-1/problem-2/plot/content.json",
+            "investigation-1/problem-2/model/content.json"
           ]
         }
       ]
