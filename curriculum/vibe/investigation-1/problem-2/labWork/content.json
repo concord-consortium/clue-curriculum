@@ -92,92 +92,214 @@
         }
       },
       {
-        "id": "KTt3F0BDHQIy_q9o",
-        "title": "Timer Controlled Lightbulb",
+        "id": "L-DjQOiU-iReuLn4",
+        "title": "Turn the light on and off",
         "content": {
-          "type": "Dataflow",
-          "programDataRate": 1000,
-          "programZoom": {
-            "dx": 0,
-            "dy": 0,
-            "scale": 1.3973154362416127
-          },
-          "program": {
-            "values": {
-              "3": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              },
-              "5": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "KDzTeu",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Drag this program to your workspace and change it to use a generator to control the light bulb.  Add some logic to make the light bulb only turn on when the generated signal is over 0.5. </p><p>Watch <a href=\"https://www.youtube.com/watch?v=F6VOnUuPv1k\">this brief video</a><a href=\"https://www.youtube.com/watch?v=F6VOnUuPv1k\"> </a><a href=\"https://www.youtube.com/watch?v=F6VOnUuPv1k\">tutorial</a> for additional guidance. </p>"
+                ]
               }
             },
-            "id": "dataflow@0.1.0",
-            "nodes": {
-              "3": {
-                "id": 3,
-                "name": "Timer",
-                "x": 13.327721929811837,
-                "y": 78.80637617101036,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {
-                      "5-undefined-nodeValue": {
-                        "node": 5,
-                        "input": "nodeValue",
-                        "data": {}
+            {
+              "content": {
+                "type": "Dataflow",
+                "program": {
+                  "id": "dataflow@1",
+                  "nodes": {
+                    "3@KTt3F0BDHQIy_q9o": {
+                      "id": "3@KTt3F0BDHQIy_q9o",
+                      "name": "Timer",
+                      "x": 13.327721929811837,
+                      "y": 78.80637617101036,
+                      "data": {
+                        "type": "Timer",
+                        "plot": false,
+                        "orderedDisplayName": "Timer (on/off) 1",
+                        "tickEntries": {
+                          "_8hCSHK2dDk91X_n": {
+                            "nodeValue": "0"
+                          },
+                          "A9Yp6cvz3WyC6ZTL": {
+                            "nodeValue": "0"
+                          },
+                          "9d9k8x72E3bW2wGm": {
+                            "nodeValue": "1"
+                          },
+                          "HDCWRBrxZDkmGMz9": {
+                            "nodeValue": "1"
+                          },
+                          "bLJwxV1qxXhfhSCN": {
+                            "nodeValue": "1"
+                          },
+                          "JQ2MtqwtrM4VxRG_": {
+                            "nodeValue": "1"
+                          },
+                          "QFT_OF5_cguY8zYu": {
+                            "nodeValue": "1"
+                          },
+                          "LPTSlwHJb1UF5KcT": {
+                            "nodeValue": "0"
+                          },
+                          "gbH3jNeY6KVsoPpw": {
+                            "nodeValue": "0"
+                          },
+                          "ST-FfAYnHcz-oySK": {
+                            "nodeValue": "1"
+                          },
+                          "I3ehDFyCzSxJ-Rvg": {
+                            "nodeValue": "1"
+                          },
+                          "GBUHAQr6Cf7IC1RY": {
+                            "nodeValue": "1"
+                          },
+                          "oNTrAy952VSVqlwY": {
+                            "nodeValue": "1"
+                          },
+                          "opd0StOENkTvJ84k": {
+                            "nodeValue": "1"
+                          },
+                          "kgTwpY6zV7pBUGM5": {
+                            "nodeValue": "0"
+                          },
+                          "3PgdQxI8tfr_pTyn": {
+                            "nodeValue": "0"
+                          },
+                          "vwBWj0z0fhl01QWV": {
+                            "open": true,
+                            "nodeValue": "0"
+                          }
+                        },
+                        "timeOn": 5,
+                        "timeOnUnits": "sec",
+                        "timeOff": 5,
+                        "timeOffUnits": "sec"
+                      }
+                    },
+                    "5@KTt3F0BDHQIy_q9o": {
+                      "id": "5@KTt3F0BDHQIy_q9o",
+                      "name": "Demo Output",
+                      "x": 308.8563084366732,
+                      "y": 117.96238923739458,
+                      "data": {
+                        "type": "Demo Output",
+                        "plot": false,
+                        "orderedDisplayName": "Demo Output 2",
+                        "tickEntries": {
+                          "_8hCSHK2dDk91X_n": {
+                            "nodeValue": "0"
+                          },
+                          "A9Yp6cvz3WyC6ZTL": {
+                            "nodeValue": "0"
+                          },
+                          "9d9k8x72E3bW2wGm": {
+                            "nodeValue": "1"
+                          },
+                          "HDCWRBrxZDkmGMz9": {
+                            "nodeValue": "1"
+                          },
+                          "bLJwxV1qxXhfhSCN": {
+                            "nodeValue": "1"
+                          },
+                          "JQ2MtqwtrM4VxRG_": {
+                            "nodeValue": "1"
+                          },
+                          "QFT_OF5_cguY8zYu": {
+                            "nodeValue": "1"
+                          },
+                          "LPTSlwHJb1UF5KcT": {
+                            "nodeValue": "0"
+                          },
+                          "gbH3jNeY6KVsoPpw": {
+                            "nodeValue": "0"
+                          },
+                          "ST-FfAYnHcz-oySK": {
+                            "nodeValue": "1"
+                          },
+                          "I3ehDFyCzSxJ-Rvg": {
+                            "nodeValue": "1"
+                          },
+                          "GBUHAQr6Cf7IC1RY": {
+                            "nodeValue": "1"
+                          },
+                          "oNTrAy952VSVqlwY": {
+                            "nodeValue": "1"
+                          },
+                          "opd0StOENkTvJ84k": {
+                            "nodeValue": "1"
+                          },
+                          "kgTwpY6zV7pBUGM5": {
+                            "nodeValue": "0"
+                          },
+                          "3PgdQxI8tfr_pTyn": {
+                            "nodeValue": "0"
+                          },
+                          "vwBWj0z0fhl01QWV": {
+                            "open": true,
+                            "nodeValue": "0"
+                          }
+                        },
+                        "outputType": "Light Bulb"
                       }
                     }
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Timer (on/off) 1",
-                  "timeOnUnits": "sec",
-                  "timeOn": 5,
-                  "timeOffUnits": "sec",
-                  "timeOff": 5
-                }
-              },
-              "5": {
-                "id": 5,
-                "name": "Demo Output",
-                "x": 308.8563084366732,
-                "y": 117.96238923739458,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {
-                      "3-num-undefined": {
-                        "node": 3,
-                        "output": "num",
-                        "data": {}
-                      }
+                  },
+                  "connections": {
+                    "l29A4PfOsqY2jN91": {
+                      "id": "l29A4PfOsqY2jN91",
+                      "source": "3@KTt3F0BDHQIy_q9o",
+                      "sourceOutput": "value",
+                      "target": "5@KTt3F0BDHQIy_q9o",
+                      "targetInput": "nodeValue"
                     }
-                  }
+                  },
+                  "recentTicks": [
+                    "_8hCSHK2dDk91X_n",
+                    "A9Yp6cvz3WyC6ZTL",
+                    "9d9k8x72E3bW2wGm",
+                    "HDCWRBrxZDkmGMz9",
+                    "bLJwxV1qxXhfhSCN",
+                    "JQ2MtqwtrM4VxRG_",
+                    "QFT_OF5_cguY8zYu",
+                    "LPTSlwHJb1UF5KcT",
+                    "gbH3jNeY6KVsoPpw",
+                    "ST-FfAYnHcz-oySK",
+                    "I3ehDFyCzSxJ-Rvg",
+                    "GBUHAQr6Cf7IC1RY",
+                    "oNTrAy952VSVqlwY",
+                    "opd0StOENkTvJ84k",
+                    "kgTwpY6zV7pBUGM5",
+                    "3PgdQxI8tfr_pTyn",
+                    "vwBWj0z0fhl01QWV"
+                  ]
                 },
-                "outputs": {},
-                "data": {
-                  "orderedDisplayName": "Demo Output 2",
-                  "outputType": "Light Bulb",
-                  "demoOutput": 0
+                "programDataRate": 1000,
+                "programZoom": {
+                  "dx": 0,
+                  "dy": 0,
+                  "scale": 1.1973154362416125
                 }
               }
             }
-          }
+          ]
         }
       },
       {
-        "id": "E_FBVtB8YmRI-PrO",
+        "id": "LP1hezbKjVDL6PUu",
+        "title": "AI 1",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Drag this program to your workspace and modify it in the following way: instead of a timer, use a generator to control the light bulb. To do so, delete the timer and add a generator. Select the &quot;Square&quot; option and add some logic to make the light bulb only turn on when the generated signal is over 0.5. </p><p>Watch <a href=\"https://www.youtube.com/watch?v=F6VOnUuPv1k\">this brief video</a><a href=\"https://www.youtube.com/watch?v=F6VOnUuPv1k\"> </a><a href=\"https://www.youtube.com/watch?v=F6VOnUuPv1k\">tutorial</a> for additional guidance. </p>"
-          ]
+          "type": "AI",
+          "prompt": "This workspace contains a program that turns a lightbulb on and off. Comment on how well the program works and how frequently you expect the light to turn on and off every second.",
+          "text": "This is where the dynamically generated AI response will appear."
         }
       },
       {
@@ -187,7 +309,73 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Developing a step-by-step solution to problems</strong></p><p>To better understand how Tilly&#x27;s bionic arm works, we need to practice developing step-by-step solutions to problems. As <a href=\"https://www.youtube.com/watch?v=cDA3_5982h8\">this video</a> demonstrates, this is not always an easy process. </p><p>After watching the video, choose an activity you perform every day (for example, brushing your teeth) and write it out step-by-step. </p><p>Finally, try to come up with a step-by-step explanation to how Tilly controls how bionic arm. </p>"
+            "<p><strong>Developing a step-by-step solution to problems</strong></p><p>To better understand how Tilly&#x27;s bionic arm works, we need to practice developing step-by-step solutions to problems. As <a href=\"https://www.youtube.com/watch?v=cDA3_5982h8\">this video</a> demonstrates, this is not always an easy process.  Next, drag both of the questions below into your workspace and answer them.</p><p></p>"
+          ]
+        }
+      },
+      {
+        "id": "FTkPNYVwEHWeYtHW",
+        "title": "Procedures 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "48XWBH",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>After watching the video, choose an activity you perform every day (for example, brushing your teeth) and write it out step-by-step. </p>"
+                ]
+              }
+            },
+            {
+              "title": "Question Prompt 1",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "BsMtnxiYZT3TAik2",
+        "title": "Procedures 2",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "gLcAv1",
+          "tiles": [
+            {
+              "title": "Question Prompt 2",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Now try to come up with a step-by-step explanation of how Tilly controls her bionic arm. </p>"
+                ]
+              }
+            },
+            {
+              "title": "Question Prompt 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            }
           ]
         }
       },
@@ -206,27 +394,51 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "_z643gNsoyoWRG4m",
-          "providerId": "KTt3F0BDHQIy_q9o",
+          "id": "yhAhWRfxWgqkPa9J",
+          "providerId": "document_Dataflow_1",
           "dataSet": {
-            "id": "LVd2puiFgefbSytl",
+            "id": "tvkHHufMNpkRgM6H",
             "attributes": [
               {
-                "id": "gFhMf8wA6OmkTBvx",
+                "id": "ATTR_RaeJTyNYcA8",
                 "clientKey": "",
-                "name": "Dataflow Node",
+                "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTRsJMpC14D73_6",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
                 "values": [],
                 "title": ""
               }
             ],
-            "cases": []
+            "cases": [],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
-          "KTt3F0BDHQIy_q9o"
+          "document_Dataflow_1"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "ge7RfzlB66XqbOHb"
+        },
+        "tiles": [
+          "document_Dataflow_1"
         ]
       }
     ]
