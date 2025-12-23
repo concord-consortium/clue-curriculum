@@ -9,7 +9,7 @@
     "autoAssignStudentsToIndividualGroups": true,
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Storm Name and Time",
-    "defaultDocumentType": "problem",
+    "defaultDocumentType": "personal",
     "documentLabels": {
       "personal": {
         "labels": {
@@ -269,46 +269,54 @@
           ],
           "config": {
             "defaultDocumentTemplate": {
-              "tiles": [
-                {
-                  "id": "8pKl3_OI-jz7hR8-",
-                  "title": "Text 1",
-                  "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>Storm Explorer</strong></p>",
-                      "<p>Use the model below to simulate hurricanes.</p>"
-                    ]
-                  }
-                },
-                {
-                  "id": "KFeSYPhEDYLB111425",
-                  "title": "Storm Explorer",
-                  "content": {
-                    "type": "Drawing",
-                    "objects": [
-                      {
-                        "type": "image",
-                        "id": "pcoXAM3a7VKlMQds",
-                        "x": 6.3125,
-                        "y": 4.5,
-                        "hFlip": false,
-                        "vFlip": false,
-                        "rotation": 0,
-                        "visible": true,
-                        "width": 760.09765625,
-                        "height": 530.00390625,
-                        "url": "aplus/images/hurricaneSim.png",
-                        "filename": "hurricaneSim.png"
-                      }
-                    ]
+              "cone": {
+
+              },
+              "plot": {
+
+              },
+              "model": {
+                "tiles": [
+                  {
+                    "id": "8pKl3_OI-jz7hR8-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Storm Explorer</strong></p>",
+                        "<p>Use the model below to simulate hurricanes. Document your analysis in the text and Sketch areas.</p>"
+                      ]
+                    }
                   },
-                  "layout": {
-                    "height": 535
+                  {
+                    "id": "KFeSYPhEDYLB111425",
+                    "title": "Storm Explorer",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": [
+                        {
+                          "type": "image",
+                          "id": "pcoXAM3a7VKlMQds",
+                          "x": 6.3125,
+                          "y": 4.5,
+                          "hFlip": false,
+                          "vFlip": false,
+                          "rotation": 0,
+                          "visible": true,
+                          "width": 760.09765625,
+                          "height": 530.00390625,
+                          "url": "aplus/images/hurricaneSim.png",
+                          "filename": "hurricaneSim.png"
+                        }
+                      ]
+                    },
+                    "layout": {
+                      "height": 535
+                    }
                   }
-                }
-              ]
+                ]
+              }
             }
           }
         },
