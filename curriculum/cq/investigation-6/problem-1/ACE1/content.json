@@ -346,7 +346,30 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>There could be any multiple of 3:2. Possible answers can be seen in the following table: </p>"
+          ]
+        }
+      },
+      {
+        "id": "4R0pr35BEA9kq8dB",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "WNlSpPRcBD5cFlOU": 80,
+            "P06JZtNePPia8A_z": 80
+          }
+        }
+      },
+      {
+        "id": "52ehY8HrKvG01Hlf",
+        "title": "Text 239",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>There are many possible answers as long as the ratio of 3:2 is held to. The total pens and pencils can be any multiple of 5. </p>"
           ]
         }
       },
@@ -2740,6 +2763,81 @@
         },
         "tiles": [
           "0c0bxaxJ07rOSNi-"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "zqEne_LGV7X1oT1-",
+          "providerId": "4R0pr35BEA9kq8dB",
+          "dataSet": {
+            "id": "qjF1vZDghK_Y1FZd",
+            "name": "Pens and Pencils",
+            "attributes": [
+              {
+                "id": "WNlSpPRcBD5cFlOU",
+                "clientKey": "",
+                "name": "Pens",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "3",
+                  "6",
+                  "9",
+                  "12",
+                  "...",
+                  "30"
+                ],
+                "title": ""
+              },
+              {
+                "id": "P06JZtNePPia8A_z",
+                "clientKey": "",
+                "name": "Pencils",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "...",
+                  "20"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "OwaO7wW-6MBRLeNP"
+              },
+              {
+                "__id__": "zft8GYbZ8jEJsBHh"
+              },
+              {
+                "__id__": "6sK1LfnY8KaHF0HU"
+              },
+              {
+                "__id__": "7iUWwrbpRnOUsKCI"
+              },
+              {
+                "__id__": "ElwFeaz_d-6MPwus"
+              },
+              {
+                "__id__": "Oh_jTD49Rk_KSC-Z"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "4R0pr35BEA9kq8dB"
         ]
       }
     ]
