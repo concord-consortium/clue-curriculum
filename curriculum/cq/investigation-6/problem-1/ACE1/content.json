@@ -131,8 +131,19 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Yes, I agree with this statement. Students may multiply the 2 by 6 and the 4 by 6 to get 12 pens and 24 pencils. Others mat start with &quot;For every 2 pens, there are 4 pencils.&quot; We can show this is equivalent to &quot;12 pens and 24 pencils&quot; by finding the multiples of 2 pens and 4 pencils. This can be observed in the following table: </p>"
           ]
+        }
+      },
+      {
+        "id": "0c0bxaxJ07rOSNi-",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "agKwNILlAp48nPFT": 80,
+            "bl7NfrRhiuFiwt35": 101.40267944335938
+          }
         }
       },
       {
@@ -2654,6 +2665,81 @@
         },
         "tiles": [
           "HXf9QpJUmI2xd0eU"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Umf25S3VypSRoAlE",
+          "providerId": "0c0bxaxJ07rOSNi-",
+          "dataSet": {
+            "id": "8rtKgacrvNh0a90l",
+            "name": "Pens and Pencils",
+            "attributes": [
+              {
+                "id": "agKwNILlAp48nPFT",
+                "clientKey": "",
+                "name": "Pens",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "4",
+                  "6",
+                  "8",
+                  "10",
+                  "12"
+                ],
+                "title": ""
+              },
+              {
+                "id": "bl7NfrRhiuFiwt35",
+                "clientKey": "",
+                "name": "Pencils",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "4",
+                  "8",
+                  "12",
+                  "16",
+                  "20",
+                  "24"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "4vdIs59r8m-a2iVL"
+              },
+              {
+                "__id__": "o85KCgsMxK2-U4Rc"
+              },
+              {
+                "__id__": "kh5eJ_Kgn4jXo2HG"
+              },
+              {
+                "__id__": "23Stb_3YQgpMhx5B"
+              },
+              {
+                "__id__": "7elLBgyk7HDr6MOL"
+              },
+              {
+                "__id__": "vp5bhT__O7FI4Led"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "0c0bxaxJ07rOSNi-"
         ]
       }
     ]
