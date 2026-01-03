@@ -8,28 +8,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Explore (Digging In)</strong></p><p><em>Providing for Individual Needs</em></p><p>Students should each make their own tables and graphs, but they can discuss the questions in pairs. This will give you an opportunity to examine students’ abilities to make tables and graphs. If a student is having trouble getting started, you can pair the student temporarily with another student who seems to be on target to get started. Some students may need to see the tables separately rather than collapsed into one table. Seeing the table collapsed helps some students to see the variable time as independent. Students may need to see the tables separately to understand that the time column is the same for all three students. (Portrayal) </p>"
+            "<p><strong>Explore (Digging In)</strong></p><p><em>Providing for Individual Needs</em></p><p></p>"
           ]
-        }
-      },
-      {
-        "id": "TILEFXcaqhAMIAda",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "HIT0YLvfQ5uhxhEs": 100,
-            "L3uo_LvE13NVJbeY": 100
-          }
-        }
-      },
-      {
-        "id": "TILEhpfWlvewGj3_",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "dk070aVjeDIvrWkI": 100,
-            "dhcHNUD3XcEYQg1W": 100
-          }
         }
       },
       {
@@ -88,80 +68,6 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "BzHjcUv6TFbmO8E5",
-          "providerId": "TILEFXcaqhAMIAda",
-          "dataSet": {
-            "id": "rFVI8YJ1jdSPuRiL",
-            "name": "Table 1",
-            "attributes": [
-              {
-                "id": "HIT0YLvfQ5uhxhEs",
-                "clientKey": "",
-                "name": "Time (seconds)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              },
-              {
-                "id": "L3uo_LvE13NVJbeY",
-                "clientKey": "",
-                "name": "Alana's Distance (meters)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              }
-            ],
-            "cases": []
-          }
-        },
-        "tiles": [
-          "TILEFXcaqhAMIAda"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "IfUIU1ZZ93z3Kt3u",
-          "providerId": "TILEhpfWlvewGj3_",
-          "dataSet": {
-            "id": "bXCfGvIoxaAXDNDG",
-            "name": "Table 2",
-            "attributes": [
-              {
-                "id": "dk070aVjeDIvrWkI",
-                "clientKey": "",
-                "name": "Time (seconds)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              },
-              {
-                "id": "dhcHNUD3XcEYQg1W",
-                "clientKey": "",
-                "name": "Gilberto's Distance (meters)",
-                "hidden": false,
-                "units": "",
-                "formula": {},
-                "values": [],
-                "title": ""
-              }
-            ],
-            "cases": []
-          }
-        },
-        "tiles": [
-          "TILEhpfWlvewGj3_"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
           "id": "6IR6jOG8-X3pps_H",
           "providerId": "TILELwabNERmU3Ub",
           "dataSet": {
@@ -174,7 +80,9 @@
                 "name": "Time (seconds)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [],
                 "title": ""
               },
@@ -184,12 +92,15 @@
                 "name": "Leanne's Distance (meters)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [],
                 "title": ""
               }
             ],
-            "cases": []
+            "cases": [],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
