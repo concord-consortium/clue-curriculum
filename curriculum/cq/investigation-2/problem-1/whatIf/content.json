@@ -98,36 +98,152 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation B. </strong></p>"
+            "<p>Gwen&#x27;s Strategy</p><p>I used tables to find the number of green and white cupcakes I needed for various sizes starting with 1 large box. I stopped when I got to 40 white cupcakes. </p>"
+          ]
+        }
+      },
+      {
+        "id": "mgHHQi2Tup4ekAOb",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "9GoKWKlQJqF_Hcl_": 183.3416290283203,
+            "MjwleO_Byog67yLW": 210.3515625,
+            "WUceQBczYhzWMb3m": 208.66831970214844
+          }
+        }
+      },
+      {
+        "id": "2K4idaWVfTKktV3l",
+        "title": "Text 9",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "dT-ARY3dBnr5yjck",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Situation B. Changing the Packaging</strong></p><p>Examine each packaging idea, and answer the question.</p>"
           ]
         }
       },
       [
         {
-          "id": "2K4idaWVfTKktV3l",
-          "title": "Text 9",
-          "display": "teacher",
+          "id": "ltr5Fdy9EA0Roxc1",
+          "title": "Text 11",
           "content": {
             "type": "Text",
             "format": "html",
             "text": [
-              "<p></p>"
+              "<p>Changing the Ratio in a Box</p><p>Some of the students suggested that the ratio of green to white cupcakes should be changed to 2 to 1 for each box.</p><p>If the total cupcake sin the large and small boxes are still 18 and 12, how many green and white cupcakes would there be in each box?</p>"
             ]
           }
         },
         {
-          "id": "dT-ARY3dBnr5yjck",
-          "title": "Text 10",
-          "display": "teacher",
+          "id": "7wfB_gusszotRGpj",
+          "title": "Text 12",
           "content": {
             "type": "Text",
             "format": "html",
             "text": [
-              "<p></p>"
+              "<p>Changing the Size of a Box</p><p>The school is considering a grande box that holds 24 cupcakes. The ratio of green to total cupcakes is 2 green for every total of 3.</p><p>How many green and white cupcakes are needed?</p>"
             ]
           }
         }
       ]
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "OPGPQ4nnW6lzPMJe",
+          "providerId": "mgHHQi2Tup4ekAOb",
+          "dataSet": {
+            "id": "4kc2rvL8eO74nda2",
+            "name": "Gwen's Table for Number of Cupcakes in Large Boxes",
+            "attributes": [
+              {
+                "id": "9GoKWKlQJqF_Hcl_",
+                "clientKey": "",
+                "name": "Number of Large Boxes",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "MjwleO_Byog67yLW",
+                "clientKey": "",
+                "name": "Number of Green Cupcakes",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8",
+                  "16",
+                  "24",
+                  "32"
+                ],
+                "title": ""
+              },
+              {
+                "id": "WUceQBczYhzWMb3m",
+                "clientKey": "",
+                "name": "Number of White Cupcakes",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "10",
+                  "20",
+                  "30",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "KMt915-aIa0D0dVq"
+              },
+              {
+                "__id__": "pr69jwuQ5-Utf_XZ"
+              },
+              {
+                "__id__": "tsmisKjyDzbyQY8c"
+              },
+              {
+                "__id__": "aLM0KTPdh4mUzqIG"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "mgHHQi2Tup4ekAOb"
+        ]
+      }
     ]
   }
 }
