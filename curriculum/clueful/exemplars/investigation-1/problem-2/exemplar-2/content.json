@@ -2,6 +2,175 @@
   "title": "Hitting the Ground",
   "tag": "solving",
   "content": {
-    "tiles": [ ]
+    "tiles": [
+      {
+        "id": "muvYGi0iy08_9_Ql",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "ma8zVboyOY6F1XZI": 133.83203125,
+            "KMp5WDKlWYHPPFWu": 211.39453125,
+            "veRiQRsY70Dj3cqI": 80,
+            "qmb_6CuNqpUFXXEB": 80
+          }
+        }
+      },
+      {
+        "id": "tf-lLzPj4kGOvK9t",
+        "title": "Eq. 1 : falling under gravity",
+        "content": {
+          "type": "Expression",
+          "latexStr": "h\\left(t)=-0.5\\times g\\times t_{}^2+v0\\times t+p0\\right."
+        }
+      },
+      {
+        "id": "IP6SwfBvd_s1XRzT",
+        "title": "substitute values, drop 0",
+        "content": {
+          "type": "Expression",
+          "latexStr": "0=-0.5\\times32.17\\times t^2+5"
+        }
+      },
+      {
+        "id": "dITeA5LNidOQHB0w",
+        "title": "subtract 5 from both sides",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-5=-16.085\\times t^2"
+        }
+      },
+      {
+        "id": "5dYxgYE0WtUMV9G2",
+        "title": "divide both sides -16.085",
+        "content": {
+          "type": "Expression",
+          "latexStr": "-\\frac{5}{-16.085}=t^2=0.31"
+        }
+      },
+      {
+        "id": "cnU7nvhdFwiBCHYK",
+        "title": "calculate",
+        "content": {
+          "type": "Expression",
+          "latexStr": "0.55=t^{}"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "KGh5cLkoh8KWGYUp",
+          "providerId": "muvYGi0iy08_9_Ql",
+          "dataSet": {
+            "id": "0RE5X7Vii3d46xg6",
+            "name": "falling data",
+            "attributes": [
+              {
+                "id": "ma8zVboyOY6F1XZI",
+                "clientKey": "",
+                "name": "time",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  ".1",
+                  ".2",
+                  ".3",
+                  ".4",
+                  ".5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "KMp5WDKlWYHPPFWu",
+                "clientKey": "",
+                "name": "position",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "-0.5*g*time^2+p0"
+                },
+                "values": [
+                  5,
+                  4.83915,
+                  4.3566,
+                  3.5523499999999997,
+                  2.4263999999999992,
+                  0.9787499999999998
+                ],
+                "title": ""
+              },
+              {
+                "id": "veRiQRsY70Dj3cqI",
+                "clientKey": "",
+                "name": "p0",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "qmb_6CuNqpUFXXEB",
+                "clientKey": "",
+                "name": "g",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "32.174",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KF1KP8MBXH9YZV3SMCM7DSBP"
+              },
+              {
+                "__id__": "01KF1KP8MBXH9YZV3SMCM7DSBQ"
+              },
+              {
+                "__id__": "01KF1KP8MBXH9YZV3SMCM7DSBR"
+              },
+              {
+                "__id__": "01KF1KP8MBXH9YZV3SMCM7DSBS"
+              },
+              {
+                "__id__": "01KF1KP8MBXH9YZV3SMCM7DSBT"
+              },
+              {
+                "__id__": "0cM48wG9Y0nxJcdF"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "muvYGi0iy08_9_Ql",
+        "tiles": [
+          "muvYGi0iy08_9_Ql"
+        ]
+      }
+    ]
   }
 }

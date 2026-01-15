@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Here&#x27;s the complete equation of motion for a falling object. Drag or copy the question tile below into your workspace and answer it. You can answer questions with any kind of tiles tools you want.</p>"
+            "<p><strong>Different ways of solving with Data and Graphs</strong></p><p>Here&#x27;s the complete equation of motion for a falling object. Drag or copy the question tile below into your workspace and answer it. You can answer questions with any kind of tiles tools you want.</p>"
           ]
         }
       },
@@ -18,7 +18,7 @@
         "title": "Eq. 1 : falling under gravity",
         "content": {
           "type": "Expression",
-          "latexStr": "h\\left(t)=-0.5\\times g\\times t_{}^2+v0\\times t+s0\\right."
+          "latexStr": "h\\left(t)=-0.5\\times g\\times t_{}^2+v0\\times t+p0\\right."
         }
       },
       {
@@ -37,7 +37,7 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p>Using the table that calculates the position of a ball dropped from a height of 5 feet i your document, and the equation of motion, what do the negative numbers in the table mean? Is the calculation correct? What would you do to change it to better reflect a realistic scenario?</p>"
+                  "<p>Using the table that calculates the position of a ball dropped from a height of 5 feet in your document, and the equation of motion, what do the negative numbers in the table mean? Is the calculation correct? What would you do to change it to better reflect a realistic scenario? </p>"
                 ]
               }
             }
@@ -64,6 +64,27 @@
           "text": [
             "<p>You can also try to get help from Ada Insight using the<strong> Ideas?</strong> button. </p><ul><li>What kind of results did you get from that? </li><li>Were they useful to you as a student? </li><li>Would they be useful to you as a teacher?</li></ul>"
           ]
+        }
+      },
+      {
+        "id": "648T36R08pUUkdvD",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Topic Specific AI Feedback</strong></p><p>Below is an additional kind of AI feedback. The analysis below will examine the table data and suggest ways in which the table is supporting reasoning about gravity and objects. If you drag or copy this tile into your own document, it will analyze the work you have done.</p>"
+          ]
+        }
+      },
+      {
+        "id": "uDi9XZa3dUv4j9Fk",
+        "title": "AI 1",
+        "content": {
+          "type": "AI",
+          "hidePrompt": false,
+          "prompt": "You are a master teacher of physics and math in middle school. Comment on any data, equations and graphs in this document and how they might help predict when a ball will hit the floor. Pay attention to things that match equations of motion and those that don't, but don't give away the exact answer. Your feedback should be no more than 5 sentences and written at a middle school level. Address the student as 'you'.",
+          "text": "This is where the dynamically generated AI response will appear."
         }
       }
     ]
