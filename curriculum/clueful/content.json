@@ -15,6 +15,7 @@
       "teacher",
       "student"
     ],
+    "initiallyHideExemplars": true,
     "toolbar": [
       {
         "id": "select",
@@ -296,6 +297,7 @@
           "bold",
           "italic",
           "list-ul",
+          "list-ol",
           "highlight",
           "subscript",
           "superscript",
@@ -384,6 +386,10 @@
       },
       "dataflow": {
         "maxTiles": 1
+      },
+      "simulator": {
+        "defaultSimulation": "terrarium",
+        "maxTiles": 1
       }
     },
     "enableCommentRoles": [
@@ -457,9 +463,9 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/warmup/content.json",
-            "investigation-1/problem-1/activity/content.json",
-            "investigation-1/problem-1/reflect/content.json"
+            "sections/investigation-1/problem-1/warmup/content.json",
+            "sections/investigation-1/problem-1/activity/content.json",
+            "sections/investigation-1/problem-1/reflect/content.json"
           ]
         },
         {
@@ -469,9 +475,9 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-2/warmup/content.json",
-            "investigation-1/problem-2/activity/content.json",
-            "investigation-1/problem-2/reflect/content.json"
+            "sections/investigation-1/problem-2/warmup/content.json",
+            "sections/investigation-1/problem-2/activity/content.json",
+            "sections/investigation-1/problem-2/reflect/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -486,9 +492,9 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-3/warmup/content.json",
-            "investigation-1/problem-3/activity/content.json",
-            "investigation-1/problem-3/reflect/content.json"
+            "sections/investigation-1/problem-3/warmup/content.json",
+            "sections/investigation-1/problem-3/activity/content.json",
+            "sections/investigation-1/problem-3/reflect/content.json"
           ]
         }
       ]
