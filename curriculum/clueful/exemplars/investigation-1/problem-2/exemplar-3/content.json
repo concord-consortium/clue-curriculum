@@ -1,0 +1,254 @@
+{
+  "title": "Observations on the data",
+  "tag": "analyzing",
+  "content": {
+    "tiles": [
+      {
+        "id": "EoQIjYJoDzxzp3K8",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "15CzCXKSNfR_ASA0": 133.83203125,
+            "uEMrPKC_Sy7CV72B": 211.39453125,
+            "PIqyxu5lWzGtIlaA": 80,
+            "i3OAiNXUd69W0oVW": 80
+          }
+        }
+      },
+      {
+        "id": "W3U8fyWBCZaizVdK",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>I am guessing and checking values to see what kind of numbers I can produce. Basically the ball falls to the floor just over a half second</p><p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "6geZGSecdVwx-Wlx",
+          "providerId": "EoQIjYJoDzxzp3K8",
+          "dataSet": {
+            "id": "7SD_S9YVAI9gLA0i",
+            "name": "falling data",
+            "attributes": [
+              {
+                "id": "15CzCXKSNfR_ASA0",
+                "clientKey": "",
+                "name": "time",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "10",
+                  "150",
+                  "0",
+                  ".1",
+                  ".005",
+                  ".6",
+                  ".5",
+                  "0.56"
+                ],
+                "title": ""
+              },
+              {
+                "id": "uEMrPKC_Sy7CV72B",
+                "clientKey": "",
+                "name": "position",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "-0.5*g*time^2+p0"
+                },
+                "values": [
+                  -11.087,
+                  -59.34,
+                  -139.76500000000001,
+                  -252.36,
+                  -397.125,
+                  -1596.5,
+                  -361900.5,
+                  5,
+                  4.83915,
+                  4.999597875,
+                  -0.7906000000000004,
+                  0.9787499999999998,
+                  -0.04425600000000074
+                ],
+                "title": ""
+              },
+              {
+                "id": "PIqyxu5lWzGtIlaA",
+                "clientKey": "",
+                "name": "p0",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "12",
+                  "12",
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "i3OAiNXUd69W0oVW",
+                "clientKey": "",
+                "name": "g",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "32.174",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYA"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYB"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYC"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYD"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYE"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYF"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYG"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYH"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYJ"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYK"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYM"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYN"
+              },
+              {
+                "__id__": "01KF1M3PP7SMJBX7ZDRPZ2JCYP"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "EoQIjYJoDzxzp3K8",
+        "tiles": [
+          "EoQIjYJoDzxzp3K8"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "fDtb-YX-641FqI3P",
+        "sourceObject": {
+          "tileId": "EoQIjYJoDzxzp3K8",
+          "objectId": "cell:{01KF1M3PP7SMJBX7ZDRPZ2JCYK}:{uEMrPKC_Sy7CV72B}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "EoQIjYJoDzxzp3K8",
+          "objectId": "cell:{01KF1M3PP7SMJBX7ZDRPZ2JCYK}:{PIqyxu5lWzGtIlaA}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "the same, has not moved",
+        "textOffset": {
+          "dx": -1.3382076749413345e-14,
+          "dy": -72.8486328125
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "d65ZWRNsK-yN_9gb",
+        "sourceObject": {
+          "tileId": "EoQIjYJoDzxzp3K8",
+          "objectId": "cell:{01KF1M3PP7SMJBX7ZDRPZ2JCYP}:{15CzCXKSNfR_ASA0}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "EoQIjYJoDzxzp3K8",
+          "objectId": "cell:{01KF1M3PP7SMJBX7ZDRPZ2JCYP}:{uEMrPKC_Sy7CV72B}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "hits floor just before .56 sec",
+        "textOffset": {
+          "dx": -1.5854272677985073e-14,
+          "dy": -86.306640625
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      }
+    ]
+  }
+}
