@@ -9,9 +9,559 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Choose the Lessons tab to get started, and the Class Work tab to compare work with your peers.</p>"
+            "<p>Here&#x27;s a table. It shows the beginning of setup to calculate positions of an object dropped from a height p0. First, notice that these tables can have any header you want, as many columns and rows as you want, can use expressions to calculate column numbers, can import data, and can even have text or images as data. They can also display data from other representations, for example, if you record data in a Dataflow program or capture data in data cards you can display it in a table. Drag or copy the table tile into your workspace, then select the table tile to try it&#x27;s controls and edit the data and headings.</p>"
           ]
         }
+      },
+      {
+        "id": "abcusY07D54xBlZH",
+        "title": "Table tile controls",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "SNQ90O0n8wdkQppc",
+              "x": 253.60546875,
+              "y": 47.02734375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 309,
+              "height": 46,
+              "url": "clueful/images/tableTools.png",
+              "filename": "tableTools.png"
+            },
+            {
+              "type": "text",
+              "id": "Nnb5VALQ60VZTkWT",
+              "x": 98.13671875,
+              "y": 73.14453125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 89.05078125,
+              "height": 40.93359375,
+              "stroke": "#eb0000",
+              "text": "Calculations"
+            },
+            {
+              "type": "vector",
+              "id": "EHTX1m5LGW3JO6SQ",
+              "x": 188.12109375,
+              "y": 97.9765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 63.6171875,
+              "dy": -23.75390625
+            },
+            {
+              "type": "text",
+              "id": "K_CA2w4uJ9gx6GNC",
+              "x": 80.3125,
+              "y": 132.33203125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 164.921875,
+              "height": 53.453125,
+              "stroke": "#eb0000",
+              "text": "Link table data to a different tile, e.g. a graph"
+            },
+            {
+              "type": "text",
+              "id": "TFMgvXdFULj4e430",
+              "x": 259.375,
+              "y": 114.97265625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 159.9765625,
+              "height": 59.1484375,
+              "stroke": "#eb0000",
+              "text": "Display data in this table from a different tile."
+            },
+            {
+              "type": "vector",
+              "id": "Jno76x1iAcekwh2M",
+              "x": 234.921875,
+              "y": 133.08203125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 73.11328125,
+              "dy": -51.13671875
+            },
+            {
+              "type": "vector",
+              "id": "WYITBOqNF8cFyG_-",
+              "x": 348.9375,
+              "y": 85.13671875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 1,
+              "dy": 29.37109375
+            },
+            {
+              "type": "text",
+              "id": "17so6W-FqjTIQ7sh",
+              "x": 424.23046875,
+              "y": 143.109375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 89.9765625,
+              "height": 41.921875,
+              "stroke": "#eb0000",
+              "text": "import data"
+            },
+            {
+              "type": "vector",
+              "id": "3OYaYUTZ1ZybiGY_",
+              "x": 392.4765625,
+              "y": 83.5703125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 47.71484375,
+              "dy": 60.14453125
+            },
+            {
+              "type": "text",
+              "id": "VNN05vLrqja_jgJE",
+              "x": 526.6015625,
+              "y": 98.34765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 100,
+              "height": 100,
+              "stroke": "#eb0000",
+              "text": "QuickView data in a grid, graph, or datacard"
+            },
+            {
+              "type": "vector",
+              "id": "yCUOmpikKBIHuLJS",
+              "x": 465.16796875,
+              "y": 88.46875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 62.28125,
+              "dy": 32.46875
+            },
+            {
+              "type": "rectangle",
+              "id": "lWyU7ZHiPLxMBCIv",
+              "x": 404.28515625,
+              "y": 41.5390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 118.46875,
+              "height": 47.65234375
+            },
+            {
+              "type": "text",
+              "id": "xWdqP5IZM9POIg_k",
+              "x": 568.8671875,
+              "y": 22.05078125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 126.66796875,
+              "height": 58.1484375,
+              "stroke": "#eb0000",
+              "text": "delete what's in the selected cell"
+            },
+            {
+              "type": "vector",
+              "id": "xzI9_5WRXsCnjJ9W",
+              "x": 570.57421875,
+              "y": 58.39453125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -18.578125,
+              "dy": 8.8828125
+            }
+          ]
+        },
+        "layout": {
+          "height": 209
+        }
+      },
+      {
+        "id": "YyxDiOlJa2JPGJzG",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "HYeOx5bVPTDx5OfF": 133.83203125,
+            "DmyXljfpRZ1msEEu": 211.39453125,
+            "lCJHwq9Y08pu30gw": 80,
+            "01HYoKWpmYdjqVCO": 80
+          }
+        }
+      },
+      {
+        "id": "4bV2Fl-eS9yVAa9x",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Here&#x27;s a graph of the table data made by choosing the Graph It! control. Then a set of hand-entered predicted data are added. Try to recreate this graph in your worksheet using your copy of the table.</p>"
+          ]
+        }
+      },
+      {
+        "id": "iHVxz8LNj9Z8hQif",
+        "title": "Graph of position data",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 5.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -450,
+              "max": 100
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRSoz60y4Vh7O7",
+              "config": {
+                "id": "DCONz3RrWOgBSC8S",
+                "dataset": "gtP5zPsFzKo7brX9",
+                "metadata": "p0iaaE_hnScU3YSb",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "HYeOx5bVPTDx5OfF"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "DmyXljfpRZ1msEEu"
+                  },
+                  {
+                    "attributeID": "01HYoKWpmYdjqVCO"
+                  }
+                ]
+              },
+              "editable": false
+            },
+            {
+              "id": "LAYRN4lCmtOr7iaL",
+              "config": {
+                "id": "DCONOhaYAYfiywfg",
+                "dataset": "BdvCeBBJeaMQgg9d",
+                "metadata": "CD4GmxNNjmWnZmQV",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "Tq2kcDlgFEFKO2IA",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "huqNIk921B686JLn",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "DmyXljfpRZ1msEEu": 0,
+            "lCJHwq9Y08pu30gw": 1,
+            "01HYoKWpmYdjqVCO": 2,
+            "huqNIk921B686JLn": 3
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "time (seconds)",
+          "yAttributeLabel": "position"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "n_ez1tw1HyHEMtxz",
+          "providerId": "YyxDiOlJa2JPGJzG",
+          "dataSet": {
+            "id": "gtP5zPsFzKo7brX9",
+            "name": "falling data",
+            "attributes": [
+              {
+                "id": "HYeOx5bVPTDx5OfF",
+                "clientKey": "",
+                "name": "time",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "DmyXljfpRZ1msEEu",
+                "clientKey": "",
+                "name": "position",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "-0.5*g*time^2+p0"
+                },
+                "values": [
+                  -11.087,
+                  -59.34,
+                  -139.76500000000001,
+                  -252.36,
+                  -397.125
+                ],
+                "title": ""
+              },
+              {
+                "id": "lCJHwq9Y08pu30gw",
+                "clientKey": "",
+                "name": "p0",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "01HYoKWpmYdjqVCO",
+                "clientKey": "",
+                "name": "g",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "32.174",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KF15YCZQBYFH9WZ5KS9S9FAC"
+              },
+              {
+                "__id__": "01KF15YCZQBYFH9WZ5KS9S9FAD"
+              },
+              {
+                "__id__": "01KF15YCZQBYFH9WZ5KS9S9FAE"
+              },
+              {
+                "__id__": "01KF15YCZQBYFH9WZ5KS9S9FAF"
+              },
+              {
+                "__id__": "01KF15YCZRHBZ4R9ZAMT6MCVAC"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "YyxDiOlJa2JPGJzG",
+        "tiles": [
+          "YyxDiOlJa2JPGJzG",
+          "iHVxz8LNj9Z8hQif"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "p0iaaE_hnScU3YSb",
+          "data": "gtP5zPsFzKo7brX9",
+          "collections": {},
+          "categories": {
+            "HYeOx5bVPTDx5OfF": {
+              "attribute": "HYeOx5bVPTDx5OfF",
+              "colors": {},
+              "moves": []
+            },
+            "DmyXljfpRZ1msEEu": {
+              "attribute": "DmyXljfpRZ1msEEu",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "iHVxz8LNj9Z8hQif"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Fij_wP9D8JWmBJOX",
+          "providerId": "",
+          "dataSet": {
+            "id": "BdvCeBBJeaMQgg9d",
+            "name": "predicted data",
+            "attributes": [
+              {
+                "id": "Tq2kcDlgFEFKO2IA",
+                "clientKey": "",
+                "name": "X Variable",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  1.0024669128493098,
+                  2.0108310190130316,
+                  2.9962777591275778,
+                  4.010371206803593,
+                  5.001547288430433
+                ],
+                "title": ""
+              },
+              {
+                "id": "huqNIk921B686JLn",
+                "clientKey": "",
+                "name": "Y Variable 1",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  8.755760368663601,
+                  -105.29953917050692,
+                  -204.14746543778807,
+                  -310.5990783410138,
+                  -371.4285714285714
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KF17BEGXP0AFXN1J254CWE8E"
+              },
+              {
+                "__id__": "01KF17BGEBZJ097XEHR5KZSXK4"
+              },
+              {
+                "__id__": "01KF17BHTZE8SSZNW8X8E0BBSD"
+              },
+              {
+                "__id__": "01KF17BKHJ115PZVVWRVWQNZV4"
+              },
+              {
+                "__id__": "01KF17BRYW5ZM9DNZWF5KSQM3M"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "iHVxz8LNj9Z8hQif",
+        "tiles": [
+          "iHVxz8LNj9Z8hQif"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "CD4GmxNNjmWnZmQV",
+          "data": "BdvCeBBJeaMQgg9d",
+          "collections": {},
+          "categories": {},
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "iHVxz8LNj9Z8hQif"
+        ]
       }
     ]
   }
