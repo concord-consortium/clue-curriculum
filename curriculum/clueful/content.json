@@ -2,14 +2,19 @@
   "code": "clueful",
   "abbrevTitle": "CLUE",
   "appName": "CLUE",
-  "title": "Collaborative Learning",
+  "title": "Collaborative CLUEs",
   "subtitle": "Concord Consortium",
   "config": {
     "placeholderText": "Drag or create tiles here.",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
-    "disablePublish": ["student"],
-    "enableHistoryRoles": ["teacher", "student"],
+    "disablePublish": [
+      "student"
+    ],
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
     "toolbar": [
       {
         "id": "select",
@@ -144,7 +149,9 @@
               "title": "Reflection",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -177,7 +184,8 @@
               "showStars": [],
               "addDocument": true
             }
-          ]
+          ],
+          "hidden": true
         },
         {
           "tab": "class-work",
@@ -197,18 +205,28 @@
                 "!isDeleted"
               ]
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
         },
         {
           "tab": "sort-work",
           "label": "Class Gallery",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -380,8 +398,10 @@
         "analyzing"
       ],
       "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
-      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'."
-    }
+      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'.",
+      "summarizer": "text"
+    },
+    "showIdeasButton": true
   },
   "sections": {
     "warmup": {
