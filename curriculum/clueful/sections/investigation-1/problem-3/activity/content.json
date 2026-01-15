@@ -1,6 +1,855 @@
 {
   "type": "activity",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "kpdMFKCPqfW7zK2_",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Control Loop Programming</strong></p><p>The program below is used to control a simulated terrarium with a gecko. To keep the gecko happy he can&#x27;t be too cold and he can&#x27;t be too dry. </p>"
+          ]
+        }
+      },
+      {
+        "id": "elU0T295Apb4Xcu0",
+        "title": "Gecko love",
+        "content": {
+          "type": "Simulator",
+          "simulation": "terrarium"
+        }
+      },
+      {
+        "id": "U9aDPSDfRUV-eiSL",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Debugging</strong></p><p>Unfortunately, the program above has some problems.  You can tell when the gecko is happy because he moves around. When the conditions are wrong he&#x27;s listless and still. Copy this question into your document along with the program and the simulator, and suggest or experiment with some fixes to make the gecko happy. </p>"
+          ]
+        }
+      },
+      {
+        "id": "7I7nQDOcBGog5E3I",
+        "title": "Keep the Gecko Happy",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "QGaC6M",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Adapt this program to create the optimal conditions for the gecko. What approaches can you take. How do you think the logic for these controls should work?</p>"
+                ]
+              }
+            },
+            {
+              "content": {
+                "type": "Dataflow",
+                "program": {
+                  "id": "dataflow@1",
+                  "nodes": {
+                    "MIgLI7ll6GVjIs70": {
+                      "id": "MIgLI7ll6GVjIs70",
+                      "name": "Sensor",
+                      "x": 27.3515625,
+                      "y": 61.34765625,
+                      "data": {
+                        "type": "Sensor",
+                        "plot": true,
+                        "orderedDisplayName": "Measure Temperature",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "27.022397534487045"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "26.982788955354387"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "26.987599498541318"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "26.951848402202245"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "27.031619187632835"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "26.952419600751355"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "27.01069589022691"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "26.96485021986672"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "27.0407424131949"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "26.98108797678096"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "26.9831769937285"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "27.033867440269454"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "27.005467987788553"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "27.02175081879294"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "27.017082674145477"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "27.04884587382521"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "27.04884587382521"
+                          }
+                        },
+                        "sensorType": "temperature",
+                        "sensor": "SIMtemperature_key",
+                        "sensorDisplayName": "Simulated Temperature"
+                      }
+                    },
+                    "89hei8zg1aZfkQ19": {
+                      "id": "89hei8zg1aZfkQ19",
+                      "name": "Number",
+                      "x": 26.40060763888889,
+                      "y": 341.43663194444446,
+                      "data": {
+                        "type": "Number",
+                        "plot": false,
+                        "orderedDisplayName": "Threshold for sad gecko",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "20"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "20"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "20"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "20"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "20"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "20"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "20"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "20"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "20"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "20"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "20"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "20"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "20"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "20"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "20"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "20"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "20"
+                          }
+                        },
+                        "value": 20
+                      }
+                    },
+                    "PjzjR5h7m9VRAk0w": {
+                      "id": "PjzjR5h7m9VRAk0w",
+                      "name": "Logic",
+                      "x": 309.3828125,
+                      "y": 157.046875,
+                      "data": {
+                        "type": "Logic",
+                        "plot": false,
+                        "orderedDisplayName": "Test temperature",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "1"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "1"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "1"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "1"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "1"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "1"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "1"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "1"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "1"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "1"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "1"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "1"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "1"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "1"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "1"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "1"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "1"
+                          }
+                        },
+                        "logicOperator": "Greater Than"
+                      }
+                    },
+                    "AOkYP1pKrtc0baDj": {
+                      "id": "AOkYP1pKrtc0baDj",
+                      "name": "Live Output",
+                      "x": 563.0859375,
+                      "y": 120.44921875,
+                      "data": {
+                        "type": "Live Output",
+                        "plot": false,
+                        "orderedDisplayName": "Warm up the terrarium",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          }
+                        },
+                        "liveOutputType": "Heat Lamp",
+                        "hubSelect": "Simulated Heat Lamp"
+                      }
+                    },
+                    "oPjPk7v2f--B17-h": {
+                      "id": "oPjPk7v2f--B17-h",
+                      "name": "Sensor",
+                      "x": 769.3741319444445,
+                      "y": 55.55946180555555,
+                      "data": {
+                        "type": "Sensor",
+                        "plot": true,
+                        "orderedDisplayName": "Measure Moisture",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "19.150000000000293"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "19.133333333333628"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "19.116666666666962"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "19.100000000000296"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "19.08333333333363"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "19.066666666666965"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "19.0500000000003"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "19.033333333333633"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "19.016666666666968"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "19.000000000000302"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "18.983333333333636"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "19.21666666666697"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "19.200000000000305"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "19.18333333333364"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "19.166666666666973"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "19.150000000000308"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "19.150000000000308"
+                          }
+                        },
+                        "sensorType": "humidity",
+                        "sensor": "SIMhumidity_key",
+                        "sensorDisplayName": "Simulated Humidity"
+                      }
+                    },
+                    "B8XrhZ3Zb7h0LP8d": {
+                      "id": "B8XrhZ3Zb7h0LP8d",
+                      "name": "Number",
+                      "x": 769.4227430555557,
+                      "y": 329.4791666666667,
+                      "data": {
+                        "type": "Number",
+                        "plot": false,
+                        "orderedDisplayName": "Humidity Threshold",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "19"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "19"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "19"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "19"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "19"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "19"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "19"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "19"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "19"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "19"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "19"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "19"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "19"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "19"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "19"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "19"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "19"
+                          }
+                        },
+                        "value": 19
+                      }
+                    },
+                    "nkOsaKHDZu6R00eL": {
+                      "id": "nkOsaKHDZu6R00eL",
+                      "name": "Logic",
+                      "x": 1009.7005208333334,
+                      "y": 187.45659722222223,
+                      "data": {
+                        "type": "Logic",
+                        "plot": true,
+                        "orderedDisplayName": "Test Moisture",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "0"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "0"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "0"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "0"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "0"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "0"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "0"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "0"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "0"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "0"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "1"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "0"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "0"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "0"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "0"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "0"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "0"
+                          }
+                        },
+                        "logicOperator": "Less Than"
+                      }
+                    },
+                    "GI6xCyUhAAipqAUq": {
+                      "id": "GI6xCyUhAAipqAUq",
+                      "name": "Live Output",
+                      "x": 1249.418402777778,
+                      "y": 161.44097222222223,
+                      "data": {
+                        "type": "Live Output",
+                        "plot": false,
+                        "orderedDisplayName": "raise humidity",
+                        "tickEntries": {
+                          "3LbBxtwXUNKWgWsp": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "H9A6JW0ibIKBWXVD": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "1-YnneYpz2wxC3l6": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "TcQ4A370vuqRfP7F": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "z93VtuGfY3EhPSkt": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "2h31Y_E2lLF8bHlH": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "lGO4BqzOWQDEz8iY": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "etHteb2RjJ3FdjRg": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "nJ4N_uEUvX_Q7xLt": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "SuWXsRAokrrdF1IU": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "qW01DJwvAxKmYKB5": {
+                            "nodeValue": "1",
+                            "outputStatus": "no hub"
+                          },
+                          "Tz0rZEA6XrVnDP8c": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "NSqV3THgYTsV1BJx": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "9VOWzxduDpaDBDTP": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "70HIhXCusF_EeO4X": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "DRE1RFvMD-l-eygr": {
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          },
+                          "07m1ax4sJRrLdBYv": {
+                            "open": true,
+                            "nodeValue": "0",
+                            "outputStatus": "no hub"
+                          }
+                        },
+                        "liveOutputType": "Humidifier",
+                        "hubSelect": "Simulated Humidifier"
+                      }
+                    }
+                  },
+                  "connections": {
+                    "3e7b5f41b5aa1061": {
+                      "id": "3e7b5f41b5aa1061",
+                      "source": "MIgLI7ll6GVjIs70",
+                      "sourceOutput": "value",
+                      "target": "PjzjR5h7m9VRAk0w",
+                      "targetInput": "num1"
+                    },
+                    "751f2a9addf8dfd9": {
+                      "id": "751f2a9addf8dfd9",
+                      "source": "89hei8zg1aZfkQ19",
+                      "sourceOutput": "value",
+                      "target": "PjzjR5h7m9VRAk0w",
+                      "targetInput": "num2"
+                    },
+                    "08efbc81670207f5": {
+                      "id": "08efbc81670207f5",
+                      "source": "PjzjR5h7m9VRAk0w",
+                      "sourceOutput": "value",
+                      "target": "AOkYP1pKrtc0baDj",
+                      "targetInput": "nodeValue"
+                    },
+                    "375202ecc9a84631": {
+                      "id": "375202ecc9a84631",
+                      "source": "B8XrhZ3Zb7h0LP8d",
+                      "sourceOutput": "value",
+                      "target": "nkOsaKHDZu6R00eL",
+                      "targetInput": "num2"
+                    },
+                    "1c797d1db8510ba1": {
+                      "id": "1c797d1db8510ba1",
+                      "source": "oPjPk7v2f--B17-h",
+                      "sourceOutput": "value",
+                      "target": "nkOsaKHDZu6R00eL",
+                      "targetInput": "num1"
+                    },
+                    "c2811c9ea8bc8dfc": {
+                      "id": "c2811c9ea8bc8dfc",
+                      "source": "nkOsaKHDZu6R00eL",
+                      "sourceOutput": "value",
+                      "target": "GI6xCyUhAAipqAUq",
+                      "targetInput": "nodeValue"
+                    }
+                  },
+                  "recentTicks": [
+                    "3LbBxtwXUNKWgWsp",
+                    "H9A6JW0ibIKBWXVD",
+                    "1-YnneYpz2wxC3l6",
+                    "TcQ4A370vuqRfP7F",
+                    "z93VtuGfY3EhPSkt",
+                    "2h31Y_E2lLF8bHlH",
+                    "lGO4BqzOWQDEz8iY",
+                    "etHteb2RjJ3FdjRg",
+                    "nJ4N_uEUvX_Q7xLt",
+                    "SuWXsRAokrrdF1IU",
+                    "qW01DJwvAxKmYKB5",
+                    "Tz0rZEA6XrVnDP8c",
+                    "NSqV3THgYTsV1BJx",
+                    "9VOWzxduDpaDBDTP",
+                    "70HIhXCusF_EeO4X",
+                    "DRE1RFvMD-l-eygr",
+                    "07m1ax4sJRrLdBYv"
+                  ]
+                },
+                "programDataRate": 1000,
+                "programZoom": {
+                  "dx": -0.00390625,
+                  "dy": 0.8359375,
+                  "scale": 0.8999999999999999
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-7NUbb0MW76KGhA4",
+          "providerId": "Mssk5m-n-Hx6qFki",
+          "dataSet": {
+            "id": "pTf2HszKhVNuYoBD",
+            "name": "Gecko optimization",
+            "attributes": [
+              {
+                "id": "ATTRU-BTl0mYMSNU",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTRT_V4pinb50i7",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "Mssk5m-n-Hx6qFki"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "Ds804PLoF-nWvuA3"
+        },
+        "tiles": [
+          "Mssk5m-n-Hx6qFki",
+          "elU0T295Apb4Xcu0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "akafr790iXcKWzrm",
+          "variables": [
+            {
+              "id": "q9c3EWjKLFPStStU",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 26.960446929141625,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "MV1vR2JRS3rArj5D",
+              "name": "humidity_key",
+              "displayName": "Humidity",
+              "unit": "%",
+              "value": 19.133333333333642,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://humidity_key",
+              "labels": [
+                "input",
+                "sensor:humidity"
+              ]
+            },
+            {
+              "id": "bgn9b4f5f2T7Zndd",
+              "name": "raw_temperature_key",
+              "displayName": "Raw Temperature",
+              "value": 27,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "TiljyxAb7K-MiZv_",
+              "name": "fan_key",
+              "displayName": "Fan",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://fan_key",
+              "labels": [
+                "output",
+                "live-output:Fan",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "FPMcQTKFezEZHOZ-",
+              "name": "heat_lamp_key",
+              "displayName": "Heat Lamp",
+              "value": 1,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://heat_lamp_key",
+              "labels": [
+                "output",
+                "live-output:Heat Lamp",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "ZBuQ9jYsF2UsWtrQ",
+              "name": "humidifier_key",
+              "displayName": "Humidifier",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://humidifier_key",
+              "labels": [
+                "output",
+                "live-output:Humidifier",
+                "decimalPlaces:0"
+              ]
+            }
+          ]
+        },
+        "tiles": [
+          "elU0T295Apb4Xcu0",
+          "kpdMFKCPqfW7zK2_",
+          "Mssk5m-n-Hx6qFki",
+          "y9EiKWLPJcCr2Hut",
+          "U9aDPSDfRUV-eiSL"
+        ]
+      }
+    ]
   }
 }
