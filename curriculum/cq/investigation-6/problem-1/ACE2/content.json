@@ -310,14 +310,35 @@
         }
       },
       {
+        "id": "4MzCZIpeY9mfzTRI",
+        "title": "Text 39",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>ACE 2-5</strong></p>"
+          ]
+        }
+      },
+      {
         "id": "0hqNsFxqtFbblBXW",
         "title": "Text 28",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Steph makes 10 of his first 15 shots in a basketball free-throw contest. His success rate stays about the same for his next 100 free throws. Use the table to answer the following questions</p>"
           ]
+        }
+      },
+      {
+        "id": "oQEgRb655pzl_CfU",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Q0O13h9Flidncff3": 139.93252563476562,
+            "BDW86c6TyssLl67r": 146.65838623046875
+          }
         }
       },
       {
@@ -327,7 +348,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>a.</strong> About how many baskets do you expect Steph to make in his next 60 attempts?</p>"
           ]
         }
       },
@@ -350,7 +371,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>b.</strong> About how many free throws do you expect him to make in his next 75 attempts?</p>"
           ]
         }
       },
@@ -373,7 +394,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>c.</strong> About how many attempts do you expect Steph to take to make 30 free throws? </p>"
           ]
         }
       },
@@ -390,24 +411,13 @@
         }
       },
       {
-        "id": "4MzCZIpeY9mfzTRI",
-        "title": "Text 39",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 2-5</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "QsIi7m22LpaZQqHC",
         "title": "Text 40",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>d.</strong> About how many attempts do you expect him to take to make 45 free throws? </p>"
           ]
         }
       },
@@ -2377,6 +2387,83 @@
             "<p></p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-gq_320tbKqFxntI",
+          "providerId": "oQEgRb655pzl_CfU",
+          "dataSet": {
+            "id": "SCp1yPCmpdGQjrJZ",
+            "name": "Steph's Free-Throws",
+            "attributes": [
+              {
+                "id": "Q0O13h9Flidncff3",
+                "clientKey": "",
+                "name": "Attempts",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "15",
+                  "?",
+                  "?",
+                  "?",
+                  "?",
+                  "?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "BDW86c6TyssLl67r",
+                "clientKey": "",
+                "name": "Baskets",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "10",
+                  "?",
+                  "?",
+                  "?",
+                  "?",
+                  "?"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "JLFDjaldQg2HLX9M"
+              },
+              {
+                "__id__": "xB4rHaSTZCwJBjnS"
+              },
+              {
+                "__id__": "uardSo5dqvAca4rr"
+              },
+              {
+                "__id__": "5X1KTwOipueoOeXv"
+              },
+              {
+                "__id__": "qk0OAqOCIA_gJ4RW"
+              },
+              {
+                "__id__": "TWVgvzJX4rC5GNlr"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "oQEgRb655pzl_CfU"
+        ]
       }
     ]
   }
