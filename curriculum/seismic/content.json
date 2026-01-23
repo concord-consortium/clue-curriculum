@@ -59,6 +59,16 @@
         "isTileTool": true
       },
       {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "BarGraph",
+        "title": "Bar Graph",
+        "isTileTool": true
+      },
+      {
         "id": "Question",
         "title": "Question",
         "isTileTool": true
@@ -131,9 +141,16 @@
         "numFormat": ".2~f",
         "tools": [
           "set-expression",
-          "link-tile",
-          "merge-in",
+          "link-tile", 
           "import-data",
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
           "delete"
         ]
       },
@@ -168,22 +185,42 @@
       },
       "dataflow": {
         "maxTiles": 1
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "time",
+          "left": "Signal"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "bargraph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ]
       }
     },
     "enableCommentRoles": [
-      "student",
       "teacher",
       "researcher"
     ],
-    "showCommentTag": false,
+    "showCommentTag": true,
     "commentTags": {
-      "severity": "Severity",
-      "timing": "Timing",
-      "path": "Path",
-      "uncertainty": "Uncertainty",
-      "temperature": "Temperature"
+      "severity": "Earthquake",
+      "timing": "Human",
+      "path": "Vehicle",
+      "uncertainty": "Uncertain"
     },
-    "tagPrompt": "Chat focus",
+    "tagPrompt": "Seismic Source",
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master geologist and data scientist who writes machine learning code to distinguish signal from noise in seismic data.",
@@ -201,11 +238,7 @@
       "summarizer": "image"
     },
     "authorTools": [
-      {
-        "id": "AI",
-        "title": "AI",
-        "isTileTool": true
-      }
+      
     ],
     "showIdeasButton": false
   },
@@ -239,7 +272,7 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/geo/content.json"
+            "sections/investigation-1/problem-1/geo/content.json"
           ],
           "config": {
             "defaultDocumentTemplate": {
@@ -267,7 +300,14 @@
                 }
               ]
             }
-          }
+          },
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
+          ]
         },
         {
           "description": "Activity 1.2",
@@ -276,7 +316,14 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-2/geo/content.json"
+            "sections/investigation-1/problem-2/geo/content.json"
+          ],
+           "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
           ]
         },
         {
@@ -286,7 +333,14 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-3/geo/content.json"
+            "sections/investigation-1/problem-3/geo/content.json"
+          ],
+           "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
           ]
         },
         {
@@ -296,7 +350,14 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-4/geo/content.json"
+            "sections/investigation-1/problem-4/geo/content.json"
+          ],
+           "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
           ]
         },
         {
@@ -306,7 +367,14 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-5/geo/content.json"
+            "sections/investigation-1/problem-5/geo/content.json"
+          ],
+           "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
           ]
         }
       ]
