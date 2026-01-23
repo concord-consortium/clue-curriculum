@@ -218,7 +218,7 @@
     "geo": {
       "initials": "GEO",
       "title": "Geology",
-      "placeholder": "Discuss or paste images of your geology ideas here."
+      "placeholder": "Discuss, program or paste images of your geology ideas here."
     },
     "help": {
       "initials": "REF",
@@ -239,9 +239,7 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/help/content.json",
-            "investigation-1/problem-1/geo/content.json",
-            "investigation-1/problem-1/ml/content.json"
+            "investigation-1/problem-1/geo/content.json"
           ],
           "config": {
             "defaultDocumentTemplate": {
@@ -253,35 +251,18 @@
                     "type": "Text",
                     "format": "html",
                     "text": [
-                      "<p><strong>Storm Explorer</strong></p>",
-                      "<p>Use the model below to simulate hurricanes.</p>"
+                      "<p><strong>Listening to Motion</strong></p>",
+                      "<p>Use the model below to read in some seismic data and observe its format.</p>"
                     ]
                   }
                 },
                 {
-                  "id": "KFeSYPhEDYLB111425",
-                  "title": "Storm Explorer",
+                  "id": "KFeSYqePhEDYU",
+                  "title": "Seismic Dataflow",
                   "content": {
-                    "type": "Drawing",
-                    "objects": [
-                      {
-                        "type": "image",
-                        "id": "pcoXAM3a7VKlMQds",
-                        "x": 6.3125,
-                        "y": 4.5,
-                        "hFlip": false,
-                        "vFlip": false,
-                        "rotation": 0,
-                        "visible": true,
-                        "width": 760.09765625,
-                        "height": 530.00390625,
-                        "url": "aplus/images/hurricaneSim.png",
-                        "filename": "hurricaneSim.png"
-                      }
-                    ]
-                  },
-                  "layout": {
-                    "height": 535
+                    "type": "Dataflow",
+                    "nodes": [],
+                    "connections": []
                   }
                 }
               ]
@@ -291,17 +272,44 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "B Storm",
+          "title": "Profiles in Noise",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-2/help/content.json",
-            "investigation-1/problem-2/geo/content.json",
-            "investigation-1/problem-2/ml/content.json"
+            "investigation-1/problem-2/geo/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.3",
+          "ordinal": 3,
+          "title": "Tagging Seismic Signals",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-3/geo/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.4",
+          "ordinal": 4,
+          "title": "Identifying with Machine Learning",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-4/geo/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.5",
+          "ordinal": 5,
+          "title": "Adjusting the Model",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-5/geo/content.json"
           ]
         }
       ]
     }
   ]
 }
-
