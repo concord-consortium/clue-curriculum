@@ -360,7 +360,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>About 40 baskets</p>"
           ]
         }
       },
@@ -383,7 +383,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>ABout 50 baskets</p>"
           ]
         }
       },
@@ -406,7 +406,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>About 45 attempts</p>"
           ]
         }
       },
@@ -429,8 +429,19 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>About 30 attempts</p>"
           ]
+        }
+      },
+      {
+        "id": "JBdQIWD9CLHV8xn0",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "U2zM99JgYCRx-d8O": 129.26492309570312,
+            "leaeMMR7ibpeeGrA": 135.32315063476562
+          }
         }
       },
       {
@@ -456,15 +467,14 @@
         }
       },
       {
-        "id": "qamTgK-mI7Zn5zl6",
-        "title": "Text 46",
+        "id": "WJcGUG7PQKU3mDzN",
         "display": "teacher",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
+          "type": "Table",
+          "columnWidths": {
+            "SqZbVXGZDpu1Z6kR": 151.8394775390625,
+            "uisXUprlTzozGvEb": 143.8707275390625
+          }
         }
       },
       {
@@ -1524,6 +1534,161 @@
         },
         "tiles": [
           "q-8w3sLobJrlm6W2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-fHJVWlbdQBZSSyT",
+          "providerId": "JBdQIWD9CLHV8xn0",
+          "dataSet": {
+            "id": "Y1F9DeKnhvrxLllN",
+            "name": "Steph's Free-Throws",
+            "attributes": [
+              {
+                "id": "U2zM99JgYCRx-d8O",
+                "clientKey": "",
+                "name": "Attempts",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "15",
+                  "30",
+                  "45",
+                  "60",
+                  "75"
+                ],
+                "title": ""
+              },
+              {
+                "id": "leaeMMR7ibpeeGrA",
+                "clientKey": "",
+                "name": "Free Throws",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "10",
+                  "20",
+                  "30",
+                  "40",
+                  "50"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "GchScgwTjcDUnW9W"
+              },
+              {
+                "__id__": "tVRVGxE0eGvT_3eF"
+              },
+              {
+                "__id__": "xn4cZc0QGyggIB18"
+              },
+              {
+                "__id__": "D-0B-YzEAmabCW6O"
+              },
+              {
+                "__id__": "8LtglxtnOpxcTp6o"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "JBdQIWD9CLHV8xn0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "d0FQBM6Qz-mKKzDg",
+          "providerId": "WJcGUG7PQKU3mDzN",
+          "dataSet": {
+            "id": "MPiQBYPq6J64LByB",
+            "name": "Ingredients",
+            "attributes": [
+              {
+                "id": "SqZbVXGZDpu1Z6kR",
+                "clientKey": "",
+                "name": "Macaroni (ounces)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "8",
+                  "16",
+                  "24",
+                  "32",
+                  "40",
+                  "48",
+                  "56",
+                  "80"
+                ],
+                "title": ""
+              },
+              {
+                "id": "uisXUprlTzozGvEb",
+                "clientKey": "",
+                "name": "Cheese (cups)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "10"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "0cLxR_913OagJU2t"
+              },
+              {
+                "__id__": "Gtr8YB1FIbO6oJ9r"
+              },
+              {
+                "__id__": "y-l1U7oHuS1TnEOj"
+              },
+              {
+                "__id__": "ZsMdrkENgGmtR7nf"
+              },
+              {
+                "__id__": "lpSp4idlS7CAemBY"
+              },
+              {
+                "__id__": "X4KCorLKkqEzrc9-"
+              },
+              {
+                "__id__": "7iCibMNKZyLGwEve"
+              },
+              {
+                "__id__": "apncIbX-X63aCe69"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "WJcGUG7PQKU3mDzN"
         ]
       }
     ]
