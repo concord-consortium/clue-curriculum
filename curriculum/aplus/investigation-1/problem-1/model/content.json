@@ -19,22 +19,38 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Discuss Models with your fellow Stormchasers</strong></p><p>You can learn from other weather enthusiasts by checking out the models in the <strong>Model Gallery</strong>. </p>"
+            "<p><strong>Discuss Models with your fellow Stormchasers</strong></p><p>You can learn from other weather enthusiasts by checking out their models in the <strong>Storm Chat</strong>. </p>"
           ]
         }
       },
       {
-        "id": "8pKl3_OI-jz7hR8-",
-        "title": "Storm Explorer",
-        "fixedPosition": false,
+        "id": "mI5nXF-jaWyTgCKv",
+        "title": "Cone of Uncertainty",
         "content": {
-          "type": "iframeInteractive",
-          "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
-          "interactiveState": {},
-          "authoredState": {},
-          "allowedPermissions": "geolocation; microphone; camera; bluetooth",
-          "maxHeight": 0,
-          "enableScroll": false
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "NoDNcC",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>What do you expect the Cone to be like for your storm model? Take a screen shot and paste it into the sketch below. Mark up the model to comment on it.</p>"
+                ]
+              }
+            },
+            {
+              "title": "My Model for Storm A",
+              "content": {
+                "type": "Drawing",
+                "objects": []
+              }
+            }
+          ]
         }
       }
     ]
