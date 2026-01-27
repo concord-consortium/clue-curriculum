@@ -10,6 +10,7 @@
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Storm Name and Time",
     "defaultDocumentType": "personal",
+    "defaultLearningLogDocument": false,
     "documentLabels": {
       "personal": {
         "labels": {
@@ -191,9 +192,14 @@
           "delete"
         ]
       },
-      "iframeInteractive": {
+      "IframeInteractive": {
         "maxTiles": 1,
-        "url":"https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false"
+        "url":"https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+        "interactiveState": {},
+        "authoredState": {},
+        "allowedPermissions": "geolocation; microphone; camera; bluetooth",
+        "maxHeight": 0,
+        "enableScroll": false
       }
     },
     "enableCommentRoles": [
