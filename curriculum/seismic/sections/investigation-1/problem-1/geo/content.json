@@ -9,9 +9,406 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Welcome to the Seismic ML Explorer!</strong></p><p> We are going to learn about how to convert vibrations into signals you can graph, then identify their source with Machine Learning (mockup)</p>"
+            "<p><strong>Welcome to the Seismic ML Explorer!</strong></p><p> We are going to learn about how to convert vibrations into signals you can graph, then identify their source with Machine Learning (mockup). The first thing to understand is that there are instruments, sensors, that can measure vibrations and turn them into digital numbers that we can graph. The program below allows you to read data from a special network of sensors called Rasberry Shakes. 🥤These are tiny computers that have a sensor that listens for vibrations, and turns them into values that can be read on the <a href=\"https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ\">Rasberry Shake Web site</a>.</p><p>If you open up your school&#x27;s Rasberry Shake and jump on the floor next to it, you&#x27;ll see the graphs on the page wiggle around. Try this now. </p><p>Scientists care about measuring vibrations digitally because it allows us to work with them more easily. Use the program below to load in the last 24 hours of seismic data from your school&#x27;s Shake. Take a look at the graph of that data. It&#x27;s pretty complicated. How would you know if some of the wiggles were you jumping up and down, and which were an earthquake? Or a car driving by?</p>"
           ]
         }
+      },
+      {
+        "id": "ml2p6vmUnRCLnQF0",
+        "content": {
+          "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "e0QfXjQil3aS0Rmp": {
+                "id": "e0QfXjQil3aS0Rmp",
+                "name": "Sensor",
+                "x": 86.25,
+                "y": 71.12027138157896,
+                "data": {
+                  "type": "Sensor",
+                  "plot": true,
+                  "orderedDisplayName": "Seismic Wave",
+                  "tickEntries": {
+                    "-2Uab74L-WhAThZW": {
+                      "nodeValue": "67"
+                    },
+                    "5PobNw4KqXbxpwco": {
+                      "nodeValue": "67.5"
+                    },
+                    "UQQ-XMfqqbXTBSry": {
+                      "nodeValue": "68"
+                    },
+                    "nX4yvaqsB93r4xaX": {
+                      "nodeValue": "68.5"
+                    },
+                    "ygrA2sJcmzRHVFIS": {
+                      "nodeValue": "69"
+                    },
+                    "R04pPXTdVBOKs8mu": {
+                      "nodeValue": "69.5"
+                    },
+                    "X0tWmEZ08SgOf1r3": {
+                      "nodeValue": "70"
+                    },
+                    "IDK9VDWEUOZ7rg3N": {
+                      "nodeValue": "70.5"
+                    },
+                    "ZJXBwZskVgHVWOgL": {
+                      "nodeValue": "71"
+                    },
+                    "bO33B4uJlFCIYGPU": {
+                      "nodeValue": "71.5"
+                    },
+                    "LZl7WcYneHT2j_C2": {
+                      "nodeValue": "72"
+                    },
+                    "hRlNn3GFOBv8L4LS": {
+                      "nodeValue": "72.5"
+                    },
+                    "rtoBI8UoPUYbIYKs": {
+                      "nodeValue": "73"
+                    },
+                    "YW3lP6W4G5WAmt4w": {
+                      "nodeValue": "73.5"
+                    },
+                    "TiQCjHf7_LCAREhM": {
+                      "nodeValue": "74"
+                    },
+                    "-HaWIoy3ZwMrypxI": {
+                      "nodeValue": "74.5"
+                    },
+                    "RGb0d1onQ0GeRstv": {
+                      "open": true,
+                      "nodeValue": "74.5"
+                    }
+                  },
+                  "sensorType": "temperature",
+                  "sensor": "00001-VIR",
+                  "sensorDisplayName": "Temperature Demo Data"
+                }
+              },
+              "ILdaNISPKIC9cXmu": {
+                "id": "ILdaNISPKIC9cXmu",
+                "name": "Demo Output",
+                "x": 756.09375,
+                "y": 61.28700657894736,
+                "data": {
+                  "type": "Demo Output",
+                  "plot": false,
+                  "orderedDisplayName": "Demo Output 1",
+                  "tickEntries": {
+                    "-2Uab74L-WhAThZW": {
+                      "nodeValue": "1"
+                    },
+                    "5PobNw4KqXbxpwco": {
+                      "nodeValue": "1"
+                    },
+                    "UQQ-XMfqqbXTBSry": {
+                      "nodeValue": "1"
+                    },
+                    "nX4yvaqsB93r4xaX": {
+                      "nodeValue": "1"
+                    },
+                    "ygrA2sJcmzRHVFIS": {
+                      "nodeValue": "1"
+                    },
+                    "R04pPXTdVBOKs8mu": {
+                      "nodeValue": "1"
+                    },
+                    "X0tWmEZ08SgOf1r3": {
+                      "nodeValue": "1"
+                    },
+                    "IDK9VDWEUOZ7rg3N": {
+                      "nodeValue": "1"
+                    },
+                    "ZJXBwZskVgHVWOgL": {
+                      "nodeValue": "1"
+                    },
+                    "bO33B4uJlFCIYGPU": {
+                      "nodeValue": "1"
+                    },
+                    "LZl7WcYneHT2j_C2": {
+                      "nodeValue": "1"
+                    },
+                    "hRlNn3GFOBv8L4LS": {
+                      "nodeValue": "1"
+                    },
+                    "rtoBI8UoPUYbIYKs": {
+                      "nodeValue": "1"
+                    },
+                    "YW3lP6W4G5WAmt4w": {
+                      "nodeValue": "1"
+                    },
+                    "TiQCjHf7_LCAREhM": {
+                      "nodeValue": "1"
+                    },
+                    "-HaWIoy3ZwMrypxI": {
+                      "nodeValue": "1"
+                    },
+                    "RGb0d1onQ0GeRstv": {
+                      "open": true,
+                      "nodeValue": "1"
+                    }
+                  },
+                  "outputType": "Fan"
+                }
+              },
+              "4WFSgh_wAMriM1VL": {
+                "id": "4WFSgh_wAMriM1VL",
+                "name": "Transform",
+                "x": 413.1044407894737,
+                "y": 155.62088815789474,
+                "data": {
+                  "type": "Transform",
+                  "plot": false,
+                  "orderedDisplayName": "Noise Detection",
+                  "tickEntries": {
+                    "-2Uab74L-WhAThZW": {
+                      "nodeValue": "67"
+                    },
+                    "5PobNw4KqXbxpwco": {
+                      "nodeValue": "67.5"
+                    },
+                    "UQQ-XMfqqbXTBSry": {
+                      "nodeValue": "68"
+                    },
+                    "nX4yvaqsB93r4xaX": {
+                      "nodeValue": "68.5"
+                    },
+                    "ygrA2sJcmzRHVFIS": {
+                      "nodeValue": "69"
+                    },
+                    "R04pPXTdVBOKs8mu": {
+                      "nodeValue": "69.5"
+                    },
+                    "X0tWmEZ08SgOf1r3": {
+                      "nodeValue": "70"
+                    },
+                    "IDK9VDWEUOZ7rg3N": {
+                      "nodeValue": "70.5"
+                    },
+                    "ZJXBwZskVgHVWOgL": {
+                      "nodeValue": "71"
+                    },
+                    "bO33B4uJlFCIYGPU": {
+                      "nodeValue": "71.5"
+                    },
+                    "LZl7WcYneHT2j_C2": {
+                      "nodeValue": "72"
+                    },
+                    "hRlNn3GFOBv8L4LS": {
+                      "nodeValue": "72.5"
+                    },
+                    "rtoBI8UoPUYbIYKs": {
+                      "nodeValue": "73"
+                    },
+                    "YW3lP6W4G5WAmt4w": {
+                      "nodeValue": "73.5"
+                    },
+                    "TiQCjHf7_LCAREhM": {
+                      "nodeValue": "74"
+                    },
+                    "-HaWIoy3ZwMrypxI": {
+                      "nodeValue": "74.5"
+                    },
+                    "RGb0d1onQ0GeRstv": {
+                      "open": true,
+                      "nodeValue": "74.5"
+                    }
+                  },
+                  "transformOperator": "Absolute Value"
+                }
+              }
+            },
+            "connections": {
+              "06a3317c1ce0984b": {
+                "id": "06a3317c1ce0984b",
+                "source": "e0QfXjQil3aS0Rmp",
+                "sourceOutput": "value",
+                "target": "4WFSgh_wAMriM1VL",
+                "targetInput": "num1"
+              },
+              "26b670642520a45e": {
+                "id": "26b670642520a45e",
+                "source": "4WFSgh_wAMriM1VL",
+                "sourceOutput": "value",
+                "target": "ILdaNISPKIC9cXmu",
+                "targetInput": "nodeValue"
+              }
+            },
+            "recentTicks": [
+              "-2Uab74L-WhAThZW",
+              "5PobNw4KqXbxpwco",
+              "UQQ-XMfqqbXTBSry",
+              "nX4yvaqsB93r4xaX",
+              "ygrA2sJcmzRHVFIS",
+              "R04pPXTdVBOKs8mu",
+              "X0tWmEZ08SgOf1r3",
+              "IDK9VDWEUOZ7rg3N",
+              "ZJXBwZskVgHVWOgL",
+              "bO33B4uJlFCIYGPU",
+              "LZl7WcYneHT2j_C2",
+              "hRlNn3GFOBv8L4LS",
+              "rtoBI8UoPUYbIYKs",
+              "YW3lP6W4G5WAmt4w",
+              "TiQCjHf7_LCAREhM",
+              "-HaWIoy3ZwMrypxI",
+              "RGb0d1onQ0GeRstv"
+            ]
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 0.95
+          }
+        }
+      },
+      {
+        "id": "QlXKTy8hn6cSNQ8l",
+        "title": "Monday, January 26, 2026",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": 0,
+              "max": 10
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRZ8JaatpVVr1y",
+              "config": {
+                "id": "DCONMP-GvIiWrwnM",
+                "dataset": "VHo14Y1hFKMZLoDx",
+                "metadata": "66wGWq_rjKXHo_9C",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "R5DjP0Wi0Q33b4qy"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "mpzF9UM-Lf5HtIYg"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "ATTRGBAKjcjmrjEG": 0,
+            "VLojSgoKCkZyQMh8*e0QfXjQil3aS0Rmp": 1,
+            "mpzF9UM-Lf5HtIYg": 2
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "time",
+          "yAttributeLabel": "Signal"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "s_rRCk1R97JWwJFU",
+          "providerId": "ml2p6vmUnRCLnQF0",
+          "dataSet": {
+            "id": "VHo14Y1hFKMZLoDx",
+            "name": "My School's Data",
+            "attributes": [
+              {
+                "id": "R5DjP0Wi0Q33b4qy",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "mpzF9UM-Lf5HtIYg",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "ml2p6vmUnRCLnQF0",
+          "QlXKTy8hn6cSNQ8l"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "3aYXVbML783c5-U1"
+        },
+        "tiles": [
+          "ml2p6vmUnRCLnQF0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "66wGWq_rjKXHo_9C",
+          "data": "VHo14Y1hFKMZLoDx",
+          "collections": {},
+          "categories": {
+            "R5DjP0Wi0Q33b4qy": {
+              "attribute": "R5DjP0Wi0Q33b4qy",
+              "colors": {},
+              "moves": []
+            },
+            "mpzF9UM-Lf5HtIYg": {
+              "attribute": "mpzF9UM-Lf5HtIYg",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "QlXKTy8hn6cSNQ8l"
+        ]
       }
     ]
   }

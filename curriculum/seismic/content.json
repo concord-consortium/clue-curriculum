@@ -11,6 +11,7 @@
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Seismic Wave (type)",
     "defaultDocumentType": "problem",
+    "defaultLearningLogDocument": false,
     "documentLabels": {
       "personal": {
         "labels": {
@@ -25,9 +26,8 @@
         }
       }
     },
-    "disablePublish": [
-      "student"
-    ],
+    "disablePublish": true,
+    "initiallyHideExemplars": false,
     "enableHistoryRoles": [
       "teacher",
       "student"
@@ -92,7 +92,7 @@
       "tabSpecs": [
         {
           "tab": "problems",
-          "label": "ML Resources",
+          "label": "Lessons",
           "sections": [
             {
               "initials": "ML",
