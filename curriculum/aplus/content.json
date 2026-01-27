@@ -191,8 +191,9 @@
           "delete"
         ]
       },
-      "simulation": {
-        "maxTiles": 1
+      "iframeInteractive": {
+        "maxTiles": 1,
+        "url":"https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false"
       }
     },
     "enableCommentRoles": [
@@ -275,34 +276,8 @@
                       "format": "html",
                       "text": [
                         "<p><strong>Storm Explorer</strong></p>",
-                        "<p>Use the model below to simulate hurricanes. Document your analysis in the text and Sketch areas.</p>"
+                        "<p>Make a new model with the Web Window icon or drag in a model from a post on the left. Document your analysis using text and Sketches.</p>"
                       ]
-                    }
-                  },
-                  {
-                    "id": "KFeSYPhEDYLB111425",
-                    "title": "Storm Explorer",
-                    "content": {
-                      "type": "Drawing",
-                      "objects": [
-                        {
-                          "type": "image",
-                          "id": "pcoXAM3a7VKlMQds",
-                          "x": 6.3125,
-                          "y": 4.5,
-                          "hFlip": false,
-                          "vFlip": false,
-                          "rotation": 0,
-                          "visible": true,
-                          "width": 760.09765625,
-                          "height": 530.00390625,
-                          "url": "aplus/images/hurricaneSim.png",
-                          "filename": "hurricaneSim.png"
-                        }
-                      ]
-                    },
-                    "layout": {
-                      "height": 535
                     }
                   }
                 ]
