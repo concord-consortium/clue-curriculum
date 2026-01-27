@@ -9,7 +9,7 @@
     "autoAssignStudentsToIndividualGroups": false,
     "hide4up": true,
     "autoSectionProblemDocuments": true,
-    "defaultDocumentTitle": "Storm Name and Time",
+    "defaultDocumentTitle": "Seismic Wave (type)",
     "defaultDocumentType": "problem",
     "documentLabels": {
       "personal": {
@@ -109,12 +109,39 @@
               "title": "CLUE Help",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "sort-work",
-          "label": "Storm Chat",
-          "teacherOnly": false
+          "label": "Seismic Library",
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -141,7 +168,7 @@
         "numFormat": ".2~f",
         "tools": [
           "set-expression",
-          "link-tile", 
+          "link-tile",
           "import-data",
           [
             "data-set-view",
@@ -181,7 +208,8 @@
         ]
       },
       "simulation": {
-        "maxTiles": 1
+        "maxTiles": 1,
+        "defaultSimulation": "potentiometer_chip_servo"
       },
       "dataflow": {
         "maxTiles": 1
@@ -237,9 +265,7 @@
       "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
       "summarizer": "image"
     },
-    "authorTools": [
-      
-    ],
+    "authorTools": [],
     "showIdeasButton": false
   },
   "sections": {
@@ -288,15 +314,6 @@
                       "<p>Use the model below to read in some seismic data and observe its format.</p>"
                     ]
                   }
-                },
-                {
-                  "id": "KFeSYqePhEDYU",
-                  "title": "Seismic Dataflow",
-                  "content": {
-                    "type": "Dataflow",
-                    "nodes": [],
-                    "connections": []
-                  }
                 }
               ]
             }
@@ -318,7 +335,7 @@
           "sections": [
             "sections/investigation-1/problem-2/geo/content.json"
           ],
-           "exemplars": [
+          "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
             "exemplars/investigation-1/problem-1/exemplar-2/content.json",
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
@@ -335,7 +352,7 @@
           "sections": [
             "sections/investigation-1/problem-3/geo/content.json"
           ],
-           "exemplars": [
+          "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
             "exemplars/investigation-1/problem-1/exemplar-2/content.json",
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
@@ -352,7 +369,7 @@
           "sections": [
             "sections/investigation-1/problem-4/geo/content.json"
           ],
-           "exemplars": [
+          "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
             "exemplars/investigation-1/problem-1/exemplar-2/content.json",
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
@@ -369,7 +386,7 @@
           "sections": [
             "sections/investigation-1/problem-5/geo/content.json"
           ],
-           "exemplars": [
+          "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
             "exemplars/investigation-1/problem-1/exemplar-2/content.json",
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
