@@ -9,7 +9,7 @@
     "autoAssignStudentsToIndividualGroups": true,
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Storm Name and Time",
-    "defaultDocumentType": "problem",
+    "defaultDocumentType": "personal",
     "documentLabels": {
       "personal": {
         "labels": {
@@ -35,11 +35,6 @@
       {
         "id": "Text",
         "title": "Text",
-        "isTileTool": true
-      },
-      {
-        "id": "Simulator",
-        "title": "Storm Simulator",
         "isTileTool": true
       },
       {
@@ -70,6 +65,13 @@
         "isTileTool": false
       }
     ],
+    "authorTools": [
+      {
+        "id": "iframeInteractive",
+        "title": "Storm Explorer",
+        "isTileTool": true
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -92,6 +94,39 @@
               "initials": "MODEL",
               "title": "Storm Model",
               "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "class-work",
+          "label": "Storms 2026",
+          "sections": [
+            {
+              "title": "Storms 2026",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Storms 2026",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
             }
           ]
         },
@@ -191,13 +226,6 @@
       "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
       "summarizer": "image"
     },
-    "authorTools": [
-      {
-        "id": "AI",
-        "title": "AI",
-        "isTileTool": true
-      }
-    ],
     "showIdeasButton": false
   },
   "sections": {
@@ -227,7 +255,7 @@
           "description": "Activity 1.1",
           "ordinal": 1,
           "title": "A Storm",
-          "subtitle": "2026",
+          "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-1/problem-1/cone/content.json",
@@ -236,46 +264,50 @@
           ],
           "config": {
             "defaultDocumentTemplate": {
-              "tiles": [
-                {
-                  "id": "8pKl3_OI-jz7hR8-",
-                  "title": "Text 1",
-                  "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>Storm Explorer</strong></p>",
-                      "<p>Use the model below to simulate hurricanes.</p>"
-                    ]
-                  }
-                },
-                {
-                  "id": "KFeSYPhEDYLB111425",
-                  "title": "Storm Explorer",
-                  "content": {
-                    "type": "Drawing",
-                    "objects": [
-                      {
-                        "type": "image",
-                        "id": "pcoXAM3a7VKlMQds",
-                        "x": 6.3125,
-                        "y": 4.5,
-                        "hFlip": false,
-                        "vFlip": false,
-                        "rotation": 0,
-                        "visible": true,
-                        "width": 760.09765625,
-                        "height": 530.00390625,
-                        "url": "aplus/images/hurricaneSim.png",
-                        "filename": "hurricaneSim.png"
-                      }
-                    ]
+              "cone": {},
+              "plot": {},
+              "model": {
+                "tiles": [
+                  {
+                    "id": "8pKl3_OI-jz7hR8-",
+                    "title": "Text 1",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p><strong>Storm Explorer</strong></p>",
+                        "<p>Use the model below to simulate hurricanes. Document your analysis in the text and Sketch areas.</p>"
+                      ]
+                    }
                   },
-                  "layout": {
-                    "height": 535
+                  {
+                    "id": "KFeSYPhEDYLB111425",
+                    "title": "Storm Explorer",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": [
+                        {
+                          "type": "image",
+                          "id": "pcoXAM3a7VKlMQds",
+                          "x": 6.3125,
+                          "y": 4.5,
+                          "hFlip": false,
+                          "vFlip": false,
+                          "rotation": 0,
+                          "visible": true,
+                          "width": 760.09765625,
+                          "height": 530.00390625,
+                          "url": "aplus/images/hurricaneSim.png",
+                          "filename": "hurricaneSim.png"
+                        }
+                      ]
+                    },
+                    "layout": {
+                      "height": 535
+                    }
                   }
-                }
-              ]
+                ]
+              }
             }
           }
         },
@@ -295,4 +327,3 @@
     }
   ]
 }
-
