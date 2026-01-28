@@ -13,6 +13,139 @@
             "<p><strong>Example of a Seismic Wave</strong></p><p>See the characteristics of this wave. To load this wave into your model, use the Dataflow program to pull in the location and time shown here.</p>"
           ]
         }
+      },
+      {
+        "id": "Xx42AtDQ_jiI9vVn",
+        "title": "Earthquake",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "1AFJ8VfPXjmHfrXU",
+              "x": 0,
+              "y": 0,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 1635,
+              "height": 291,
+              "url": "seismic/images/Train.png",
+              "filename": "Train.png"
+            }
+          ]
+        },
+        "layout": {
+          "height": 320
+        }
+      },
+      [
+        {
+          "id": "gT85rWtXDWJ6A0_v",
+          "title": "Graph 1",
+          "content": {
+            "type": "Graph",
+            "adornments": [],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": 0,
+                "max": 10
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": 0,
+                "max": 10
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRpCsQKS7kLNMe",
+                "config": {
+                  "id": "DCONIfepc18mPq7L",
+                  "_attributeDescriptions": {},
+                  "_yAttributeDescriptions": []
+                },
+                "editable": false
+              }
+            ],
+            "_idColors": {},
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "time",
+            "yAttributeLabel": "Signal"
+          }
+        },
+        {
+          "id": "dOTi9aQZdHVaurhF",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "jBnuHWuYq4R6HiHx": 80,
+              "SRcTOFokpBrFs4ga": 80
+            }
+          }
+        }
+      ]
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "hAmiw817tZhVM7Nz",
+          "providerId": "dOTi9aQZdHVaurhF",
+          "dataSet": {
+            "id": "d_vXLs5kDiZIB_GI",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "jBnuHWuYq4R6HiHx",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "SRcTOFokpBrFs4ga",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "dOTi9aQZdHVaurhF"
+        ]
       }
     ]
   }

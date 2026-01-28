@@ -243,10 +243,10 @@
     ],
     "showCommentTag": true,
     "commentTags": {
-      "earthquake": "Earthquake",
-      "human": "Human",
-      "vehicle": "Vehicle",
-      "uncertain": "Uncertain"
+      "severity": "Earthquake",
+      "timing": "Human",
+      "path": "Vehicle",
+      "uncertainty": "Uncertain"
     },
     "tagPrompt": "Seismic Source",
     "aiEvaluation": "custom",
@@ -255,10 +255,11 @@
       "mainPrompt": "This is a discussion of Seismic data by a seventh grade student. Please evaluate the quality of the model interpretation.",
       "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
       "categories": [
-        "earthquake",
-        "human",
-        "vehicle",
-        "uncertain"
+        "severity",
+        "timing",
+        "path",
+        "uncertainty",
+        "temperature"
       ],
       "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization?",
       "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
