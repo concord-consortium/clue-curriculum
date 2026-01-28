@@ -25,9 +25,7 @@
         }
       }
     },
-    "disablePublish": [
-      "student"
-    ],
+    "disablePublish": true,
     "enableHistoryRoles": [
       "teacher",
       "student"
@@ -95,7 +93,9 @@
               "title": "Storm Model",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "class-work",
@@ -128,12 +128,33 @@
                 "!isDeleted"
               ]
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": true
         },
         {
           "tab": "sort-work",
           "label": "Storm Chat",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -194,7 +215,7 @@
       },
       "IframeInteractive": {
         "maxTiles": 1,
-        "url":"https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+        "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
         "interactiveState": {},
         "authoredState": {},
         "allowedPermissions": "geolocation; microphone; camera; bluetooth",
@@ -232,7 +253,26 @@
       "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
       "summarizer": "image"
     },
-    "showIdeasButton": false
+    "showIdeasButton": false,
+    "sortWorkConfig": {
+      "sortOptions": [
+        {
+          "type": "Date"
+        },
+        {
+          "type": "Name"
+        },
+        {
+          "type": "Strategy"
+        }
+      ],
+      "defaultPrimarySort": "Date",
+      "showContextFilter": false
+    },
+    "termOverrides": {
+      "Name": "Scientist",
+      "Problem": "Post"
+    }
   },
   "sections": {
     "cone": {
