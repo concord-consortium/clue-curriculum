@@ -7,7 +7,8 @@
   "config": {
     "placeholderText": "Drag text, models, or sketches here.",
     "autoAssignStudentsToIndividualGroups": true,
-    "autoSectionProblemDocuments": true,
+    "autoSectionProblemDocuments": false,
+    "groupDocumentsEnabled": false,
     "defaultDocumentTitle": "Storm Name and Time",
     "defaultDocumentType": "personal",
     "defaultLearningLogDocument": false,
@@ -25,7 +26,9 @@
         }
       }
     },
-    "disablePublish": true,
+    "disablePublish": [
+      "student"
+    ],
     "enableHistoryRoles": [
       "teacher",
       "student"
@@ -76,7 +79,7 @@
       "tabSpecs": [
         {
           "tab": "problems",
-          "label": "Storm Resources",
+          "label": "Help",
           "sections": [
             {
               "initials": "CONE",
@@ -90,7 +93,7 @@
             },
             {
               "initials": "MODEL",
-              "title": "Storm Model",
+              "title": "Storm Model Help",
               "type": "problem-documents"
             }
           ],
@@ -99,7 +102,7 @@
         },
         {
           "tab": "class-work",
-          "label": "Storms 2026",
+          "label": "Storm Forcast",
           "sections": [
             {
               "title": "Storms 2026",
@@ -130,11 +133,11 @@
             }
           ],
           "teacherOnly": false,
-          "hidden": true
+          "hidden": false
         },
         {
           "tab": "sort-work",
-          "label": "Storm Chat",
+          "label": "Model Gallery",
           "teacherOnly": false,
           "hidden": false
         },
@@ -194,7 +197,6 @@
           "vector",
           "rectangle",
           "ellipse",
-          "stamp",
           "text",
           "upload",
           "stroke-color",
@@ -231,10 +233,9 @@
     "showCommentTag": true,
     "commentTags": {
       "severity": "Severity",
-      "timing": "Timing",
-      "path": "Path",
-      "uncertainty": "Uncertainty",
-      "temperature": "Temperature"
+      "coneofuncertainty": "Cone of Uncertainty",
+      "spaghetti": "Spaghetti Models",
+      "landfall": "Landfall"
     },
     "tagPrompt": "Chat focus",
     "aiEvaluation": "custom",
@@ -244,13 +245,12 @@
       "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
       "categories": [
         "severity",
-        "timing",
-        "path",
-        "uncertainty",
-        "temperature"
+        "coneofuncertainty",
+        "spaghetti",
+        "landfall"
       ],
-      "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization?",
-      "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
+      "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization? ",
+      "discussionPrompt": "In no more than 1 sentence, suggest what other kinds of modeling the document author could pursue to better understand the storm path and uncertainty.",
       "summarizer": "image"
     },
     "showIdeasButton": false,
@@ -270,8 +270,9 @@
       "showContextFilter": false
     },
     "termOverrides": {
-      "Name": "Scientist",
-      "Problem": "Post"
+      "sortLabel.sortByOwner": "User",
+      "Strategy": "Model focus",
+      "Problem": "Model"
     }
   },
   "sections": {
@@ -286,8 +287,8 @@
       "placeholder": "Discuss or paste images of your spaghetti plots here."
     },
     "model": {
-      "initials": "MODEL",
-      "title": "Storm Model",
+      "initials": "HELP",
+      "title": "Storm Explorer Help",
       "placeholder": "Simulate the conditions of the present storm and document it."
     }
   },
@@ -300,12 +301,10 @@
         {
           "description": "Activity 1.1",
           "ordinal": 1,
-          "title": "A Storm",
+          "title": "Storm Forcasts",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/cone/content.json",
-            "investigation-1/problem-1/plot/content.json",
             "investigation-1/problem-1/model/content.json"
           ],
           "config": {
@@ -322,8 +321,17 @@
                       "format": "html",
                       "text": [
                         "<p><strong>Storm Explorer</strong></p>",
-                        "<p>Make a new model with the Web Window icon or drag in a model from a post on the left. Document your analysis using text and Sketches.</p>"
+                        "<p>Make a new model that helps explain the current storm. Document your analysis using text and Sketches.</p>"
                       ]
+                    }
+                  },
+                  {
+                    "id": "document_IframeInteractive_1",
+                    "title": "My Model for Storm A",
+                    "content": {
+                      "type": "IframeInteractive",
+                      "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+                      "access": []
                     }
                   }
                 ]
