@@ -1,0 +1,877 @@
+{
+  "code": "m2sAI",
+  "abbrevTitle": "M2SAI",
+  "title": "M2Studio AI",
+  "subtitle": "Multiple Representations",
+  "config": {
+    "autoAssignStudentsToIndividualGroups": true,
+    "autoSectionProblemDocuments": false,
+    "disablePublish": [
+      {
+        "documentType": "learningLog"
+      }
+    ],
+    "placeholderText": "Enter notes here",
+    "defaultDocumentType": "problem",
+    "defaultDocumentTitle": "Untitled",
+    "documentLabels": {
+      "personal": {
+        "labels": {
+          "1": "Document",
+          "n": "Documents"
+        }
+      },
+      "problem": {
+        "labels": {
+          "1": "Document",
+          "n": "Documents"
+        }
+      }
+    },
+    "settings": {
+      "table": {
+        "numFormat": ".4~f",
+        "tools": [
+          "set-expression",
+          "merge-in",
+          "link-tile-multiple",
+          "delete"
+        ]
+      },
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "subscript",
+          "superscript",
+          "link",
+          "|",
+          "new-variable",
+          "insert-variable",
+          "edit-variable"
+        ]
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "stamp",
+          "stroke-color",
+          "fill-color",
+          "text",
+          "upload",
+          "|",
+          "group",
+          "ungroup",
+          "duplicate",
+          "|",
+          "new-variable",
+          "insert-variable",
+          "edit-variable",
+          "delete"
+        ]
+      },
+      "diagram": {
+        "maxTiles": 1,
+        "tools": [
+          "new-variable",
+          "insert-variable",
+          "edit-variable",
+          ["variables-link", "Graph"],
+          "|",
+          "zoom-in",
+          "zoom-out",
+          "fit-view",
+          "toggle-lock",
+          "toggle-navigator",
+          "|",
+          "delete"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "add-points-by-hand",
+          "fit-all",
+          "toggle-lock",
+          "movable-line",
+          "|",
+          "move-points",
+          "add-points",
+          "delete"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "x axis label",
+          "left": "y axis label"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true
+      }
+    },
+    "defaultStamps": [],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Activities",
+          "sections": [
+            {
+              "initials": "HELP",
+              "title": "Help",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "START",
+              "title": "Welcome",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "QS",
+              "title": "Questions",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "TASK",
+              "title": "Task",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "A",
+              "title": "Board",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "B",
+              "title": "Council",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "C",
+              "title": "Researcher",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "D",
+              "title": "Task D",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "TOOL",
+              "title": "Toolbars",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "STA",
+              "title": "Stations",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "Resources",
+              "title": "Resources",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "TM",
+              "title": "Time & Money",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "TM",
+              "title": "Food Waste",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "A",
+              "title": "Challenge A",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "B",
+              "title": "Challenge B",
+              "type": "problem-documents"
+            }
+          ]
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true,
+          "sections": [
+          ]
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Workspaces",
+          "teacherOnly": true,
+          "groupsDisplay": true,
+          "sections": [
+            {
+              "title": "Group Workspaces",
+              "type": "problem-documents",
+              "dataTestHeader": "group-workspaces",
+              "dataTestItem": "group-list-items",
+              "showGroupWorkspaces": true
+            }
+          ]
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Documents",
+              "type": "problem-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "problem"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
+            },
+            {
+              "title": "Documents",
+              "type": "personal-documents",
+              "dataTestHeader": "my-work-section-workspaces",
+              "dataTestItem": "my-work-list-items",
+              "documentTypes": [
+                "personal"
+              ],
+              "properties": [
+                "!isDeleted"
+              ],
+              "addDocument": true
+            }
+          ]
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication"
+              ],
+              "showStars": [
+                "teacher"
+              ],
+              "properties": [
+                "!isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "published-personal-documents",
+              "dataTestHeader": "class-work-section-personal",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "personalPublication"
+              ],
+              "properties": [
+                "!isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "className": "section teacher published-documents",
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Workspaces",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "toolbar": [
+      {
+        "id": "Diagram",
+        "title": "Diagram",
+        "isTileTool": true
+      },
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Image",
+        "title": "Image",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "XY Plot",
+        "isTileTool": true
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ]
+  },
+  "sections": {
+    "help": {
+      "initials": "HELP",
+      "title": "Help",
+      "placeholder": "Notes on Help"
+    },
+    "welcome": {
+      "initials": "START",
+      "title": "Welcome",
+      "placeholder": "Work on the task here"
+    },
+    "questions": {
+      "initials": "QS",
+      "title": "Questions",
+      "placeholder": "Work on the task here"
+    },
+    "task": {
+      "initials": "TASK",
+      "title": "Task",
+      "placeholder": "Work on the task here"
+    },
+    "taska": {
+      "initials": "A",
+      "title": "Board",
+      "placeholder": "Work on the task here"
+    },
+    "taskb": {
+      "initials": "B",
+      "title": "Council",
+      "placeholder": "Work on the task here"
+    },
+    "taskc": {
+      "initials": "C",
+      "title": "Researcher",
+      "placeholder": "Work on the task here"
+    },
+    "taskd": {
+      "initials": "D",
+      "title": "Task D",
+      "placeholder": "Work on the task here"
+    },
+    "toolbars": {
+      "initials": "TOOL",
+      "title": "Toolbars",
+      "placeholder": "Work on the task here"
+    },
+    "stations": {
+      "initials": "STA",
+      "title": "Stations",
+      "placeholder": "Work on the task here"
+    },
+    "resources": {
+      "initials": "RES",
+      "title": "Resources",
+      "placeholder": "Work on the task here"
+    },
+    "timeMoney": {
+      "initials": "TM",
+      "title": "Time & Money",
+      "placeholder": "Work on the task here"
+    },
+    "wordProblem": {
+      "initials": "WP",
+      "title": "Word Problem",
+      "placeholder": "Work on the task here"
+    },
+    "foodWaste": {
+      "initials": "TM",
+      "title": "Food Waste",
+      "placeholder": "Work on the task here"
+    },
+    "challengea": {
+      "initials": "A",
+      "title": "Challenge A",
+      "placeholder": "Work on the task here"
+    },
+    "challengeb": {
+      "initials": "B",
+      "title": "Challenge B",
+      "placeholder": "Work on the task here"
+    }
+  },
+  "investigations": [
+    {
+      "description": "M2Studio AI Activities",
+      "ordinal": 1,
+      "title": "M2Studio AI Activities",
+      "problems": [
+        {
+          "description": "M2SAI Activity 1.1",
+          "ordinal": 1,
+          "title": "Introduction to Math Modeling",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-1/resources/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_1",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_1",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_1",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.2",
+          "ordinal": 2,
+          "title": "Time in School - South City HS",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-2/wordProblem/content.json",
+            "investigation-1/problem-2/questions/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_2",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_2",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_2",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.3",
+          "ordinal": 3,
+          "title": "Time in School - Clients and Their Goals",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-3/questions/content.json",
+            "investigation-1/problem-3/taska/content.json",
+            "investigation-1/problem-3/taskb/content.json",
+            "investigation-1/problem-3/taskc/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_3",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_3",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_3",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.4",
+          "ordinal": 4,
+          "title": "Salaries",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-4/questions/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_4",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_4",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_4",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.5",
+          "ordinal": 5,
+          "title": "Mathematize - Fish Tanks - Retired",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-5/questions/content.json",
+            "investigation-1/problem-5/resources/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_5",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_5",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_5",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.6",
+          "ordinal": 6,
+          "title": "Food Waste",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-6/questions/content.json",
+            "investigation-1/problem-6/resources/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_6",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_6",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_6",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.7",
+          "ordinal": 7,
+          "title": "Kenia's Challenges",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-7/questions/content.json",
+            "investigation-1/problem-7/challengea/content.json",
+            "investigation-1/problem-7/challengeb/content.json",
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_7",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_7",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_7",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "description": "M2SAI Activity 1.8",
+          "ordinal": 8,
+          "title": "Using M2Studio",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-1/help/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                [
+                  {
+                    "id": "TemplateTextTileQ1_8",
+                    "title": "TemplateTextTile",
+                    "content": {
+                      "type": "Text",
+                      "format": "html",
+                      "text": [
+                        "<p></p>"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "TemplateDrawTileQ1_8",
+                    "title": "Template Sketch Tile",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "TemplateDiagramTileQ1_8",
+                  "title": "Template Diagram Tile",
+                  "content": {
+                    "type": "Diagram",
+                    "nodes": {},
+                    "flowTransform": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
