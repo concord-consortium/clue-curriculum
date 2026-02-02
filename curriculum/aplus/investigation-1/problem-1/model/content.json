@@ -9,23 +9,13 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Welcome to the APlus Hurricane Explorer!</strong></p><p>You can drag this model into your document to run your own storm models. The Storm Explorer model shown here has high pressure systems that drive the storm out to sea. It never gets to be more than a tropical storm. If you want to rerun this model drag the model into your workspace on the right. You can make a brand new model by pressing the New Model tool in the toolbar 🖥️ .</p>"
-          ]
-        }
-      },
-      {
-        "id": "SMMvliWhR7a4p8e2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Discuss Models with your fellow Stormchasers</strong></p><p>You can learn from other weather enthusiasts by checking out their models in the <strong>Storm Chat</strong>. </p>"
+            "<p><strong>Welcome to the APlus Hurricane Explorer!</strong></p><p>Over the next few months we&#x27;ll be exploring weather forcasting together with tools for storm modeling and discussion. Here are a few tips for using this environment. </p><ul><li>The library of resources is on the left, your live modeling area is on the right. Each new model file you make will start with a basic model, but you can drag models (or anything else) in from the library either from this page, the Storm Forecast pages, or any of the other storm enthusiasts posting models. </li><li>New models can be made using the <strong>File</strong> menu above your workspace. </li><li>There are other tools for describing your model including text blocks, tables, and sketches that allow you to paste snapshots of model features or weather reports in and then annotate them. </li><li>Share your models in the <strong>Model Gallery</strong> using the control at the top right.</li></ul>"
           ]
         }
       },
       {
         "id": "document_IframeInteractive_1",
-        "title": "My Model for Storm A",
+        "title": "A sample model to reuse",
         "content": {
           "type": "IframeInteractive",
           "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
@@ -6584,15 +6574,15 @@
             },
             "ui": {
               "baseMap": "satellite",
-              "overlay": "sst",
-              "windArrows": true,
+              "overlay": "precipitation",
+              "windArrows": false,
               "hurricaneImage": false,
               "accessibleSSTScale": false,
               "categoryChangeMarkers": true,
               "thermometerActive": false,
               "thermometerPositionSaved": {
-                "lat": 37.020098201368114,
-                "lng": -13.886718750000002
+                "lat": 31.80289258670676,
+                "lng": -132.53906250000003
               },
               "zoomedInView": false
             }
@@ -6600,29 +6590,6 @@
           "authoredState": {},
           "maxHeight": 0,
           "enableScroll": false
-        }
-      },
-      {
-        "id": "mI5nXF-jaWyTgCKv",
-        "title": "Cone of Uncertainty",
-        "content": {
-          "type": "Question",
-          "version": 1,
-          "locked": false,
-          "questionId": "NoDNcC",
-          "tiles": [
-            {
-              "title": "Question Prompt",
-              "fixedPosition": true,
-              "content": {
-                "type": "Text",
-                "format": "html",
-                "text": [
-                  "<p>What do you expect the Cone to be like for your storm model? Take a screen shot and paste it into the sketch below. Mark up the model to comment on it.</p>"
-                ]
-              }
-            }
-          ]
         }
       }
     ]
