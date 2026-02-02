@@ -11,16 +11,6 @@
     "groupDocumentsEnabled": false,
     "defaultDocumentTitle": "Storm Name and Time",
     "defaultDocumentType": "personal",
-    "defaultDocumentTemplate": {
-      "tiles": [
-        {
-          "content": {
-            "type": "Text",
-            "text": "Welcome to Storm Explorer."
-          }
-        }
-      ]
-    },
     "defaultLearningLogDocument": false,
     "documentLabels": {
       "personal": {
@@ -88,29 +78,6 @@
       "lazyLoadTabContents": true,
       "tabSpecs": [
         {
-          "tab": "problems",
-          "label": "Help",
-          "sections": [
-            {
-              "initials": "CONE",
-              "title": "Cone of Uncertainty",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "PLOT",
-              "title": "Spaghetti Plots",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "MODEL",
-              "title": "Storm Model Help",
-              "type": "problem-documents"
-            }
-          ],
-          "teacherOnly": false,
-          "hidden": false
-        },
-        {
           "tab": "class-work",
           "label": "Storm Forcast",
           "sections": [
@@ -152,20 +119,43 @@
           "hidden": false
         },
         {
+          "tab": "problems",
+          "label": "Help",
+          "sections": [
+            {
+              "initials": "CONE",
+              "title": "Cone of Uncertainty",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "PLOT",
+              "title": "Spaghetti Plots",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "MODEL",
+              "title": "Storm Model Help",
+              "type": "problem-documents"
+            }
+          ],
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
           "tab": "teacher-guide",
-          "label": "Teacher Guide",
+          "label": "Moderator Guide",
+          "teacherOnly": true,
+          "hidden": false
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
           "teacherOnly": false,
           "hidden": true
         },
         {
           "tab": "student-work",
           "label": "Student Work",
-          "teacherOnly": false,
-          "hidden": true
-        },
-        {
-          "tab": "my-work",
-          "label": "My Work",
           "teacherOnly": false,
           "hidden": true
         }
@@ -311,7 +301,7 @@
         {
           "description": "Activity 1.1",
           "ordinal": 1,
-          "title": "Storm Forcasts",
+          "title": "Summer 2026",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -319,36 +309,43 @@
           ],
           "config": {
             "defaultDocumentTemplate": {
-              "help": {
-                "tiles": [
-                  {
-                    "id": "8pKl3_OI-jz7hR8-",
-                    "title": "Text 1",
-                    "content": {
-                      "type": "Text",
-                      "format": "html",
-                      "text": [
-                        "<p><strong>Storm Explorer</strong></p>",
-                        "<p>Make a new model that helps explain the current storm. Document your analysis using text and Sketches.</p>"
-                      ]
-                    }
-                  },
-                  {
-                    "id": "document_IframeInteractive_1",
-                    "title": "My Model for Storm A",
-                    "content": {
-                      "type": "IframeInteractive",
-                      "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
-                      "interactiveState": {},
-                      "authoredState": {},
-                      "maxHeight": 1000,
-                      "enableScroll": false
-                    }
+              "tiles": [
+                {
+                  "id": "8pKl3_OI-jz7hR8-",
+                  "title": "Text 1",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>Storm Explorer</strong></p>",
+                      "<p>Make a new model that helps explain the current storm. Document your analysis using text and Sketches.</p>"
+                    ]
                   }
-                ]
-              }
+                },
+                {
+                  "id": "document_IframeInteractive_1",
+                  "title": "My Model for Storm A",
+                  "content": {
+                    "type": "IframeInteractive",
+                    "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+                    "interactiveState": {},
+                    "authoredState": {},
+                    "maxHeight": 1000,
+                    "enableScroll": false
+                  }
+                }
+              ]
             }
           }
+        },
+        {
+          "title": "Fall 2026",
+          "ordinal": 2,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-2/model/content.json"
+          ]
         }
       ]
     }
