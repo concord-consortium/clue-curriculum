@@ -69,6 +69,15 @@
           "ungroup",
           "duplicate",
           "|",
+          "rotate-right",
+          "flip-horizontal",
+          "flip-vertical",
+          "|",
+          "zoom-in",
+          "zoom-out",
+          "fit-all",
+          "navigator",
+          "|",
           "new-variable",
           "insert-variable",
           "edit-variable",
@@ -362,6 +371,11 @@
       {
         "id": "Graph",
         "title": "XY Plot",
+        "isTileTool": true
+      },
+      {
+        "id": "Question",
+        "title": "Question",
         "isTileTool": true
       },
       {
