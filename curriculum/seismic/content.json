@@ -183,7 +183,9 @@
       "uncertainty": "Uncertainty",
       "temperature": "Temperature"
     },
-    "tagPrompt": "Chat focus",
+    "termOverrides": {
+      "Strategy": "Chat focus"
+    },
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master geologist and data scientist who writes machine learning code to distinguish signal from noise in seismic data.",
