@@ -398,7 +398,7 @@
       }
     ],
     "termOverrides": {
-      "Strategy": "Model Features"
+      "strategy": "Model Features"
     },
     "aiEvaluation": "custom",
     "commentTags": {
@@ -434,18 +434,10 @@
     "showIdeasButton": true,
     "sortWorkConfig": {
       "sortOptions": [
-        {
-          "type": "Name"
-        },
-        {
-          "type": "Date"
-        },
-        {
-          "type": "Strategy"
-        },
-        {
-          "type": "Tools"
-        }
+        "Name",
+        "Date",
+        "Strategy",
+        "Tools"
       ],
       "defaultPrimarySort": "Name"
     }
