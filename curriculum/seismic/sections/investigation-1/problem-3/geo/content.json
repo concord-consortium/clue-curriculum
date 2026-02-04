@@ -3,30 +3,170 @@
   "content": {
     "tiles": [
       {
+        "id": "_jfI4tpfKjab9e9Z",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>As you saw in the previous lesson, even combing through a few minutes of seismic data can be unclear about what kind of signal you are looking at. To truly be useful, you&#x27;re going to want to look at hours or days of data and get a summary of what kind of signals you find. That&#x27;s where machine learning can really speed things up. A machine learning model looks at data in chunks and compares profiles to those it&#x27;s been trained on before, similar to the signals you see posted by Ivan Idea in the library. Take a look at those different kinds of signals on the left pane in the <strong>Seismic Library </strong>tab.</p><p>Next, Try loading some data in your Seismic Explorer. You can drag any of these tiles over to your workspace </p>"
+          ]
+        }
+      },
+      {
         "id": "V4m0ZJ2aaIrC4Axq",
-        "title": "Sketch 1",
+        "title": "Mock UI of SeismicML Analyzer (cutesy name welcome)",
         "content": {
           "type": "Drawing",
           "objects": [
             {
               "type": "image",
-              "id": "eeIwgA7w74_QV-4t",
-              "x": 0,
-              "y": 0,
+              "id": "ShM30or3sPSRQxOQ",
+              "x": 37.62109375,
+              "y": 61.00390625,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 1168,
-              "height": 1026,
-              "url": "seismic/images/MLmock.png",
-              "filename": "MLmock.png"
+              "width": 493.25,
+              "height": 349.09375,
+              "url": "seismic/images/SeismicExplorer.png",
+              "filename": "SeismicExplorer.png"
             }
           ]
         },
         "layout": {
-          "height": 1005
+          "height": 566
         }
+      },
+      [
+        {
+          "id": "4NK_CyH1_JNM_9Dv",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "mxt6tc436hlWkqTe": 108.98046875,
+              "NHOtbu4PDke0bZwB": 108.3828125,
+              "lWYSu3UAMplCcgvR": 119.21484375
+            }
+          }
+        },
+        {
+          "id": "aMMGVK8wXwPgTOmk",
+          "title": "Events in ANK1 and ANK2",
+          "content": {
+            "type": "BarGraph",
+            "yAxisLabel": "Counts",
+            "dataSetId": "ha2Kw5VbwKzAFsdf",
+            "primaryAttribute": "lWYSu3UAMplCcgvR",
+            "secondaryAttribute": "NHOtbu4PDke0bZwB",
+            "attributeColorMap": {
+              "NHOtbu4PDke0bZwB": {
+                "ANK1": 0,
+                "ANK2": 1,
+                "(no value)": 2,
+                "ANK": 3
+              }
+            }
+          }
+        }
+      ]
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "vOFcbNdkFTfQ7mcL",
+          "providerId": "4NK_CyH1_JNM_9Dv",
+          "dataSet": {
+            "id": "ha2Kw5VbwKzAFsdf",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "mxt6tc436hlWkqTe",
+                "clientKey": "",
+                "name": "Event",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "12:42",
+                  "13:35",
+                  "07:15",
+                  "12:43",
+                  "1:15",
+                  "08:15"
+                ],
+                "title": ""
+              },
+              {
+                "id": "NHOtbu4PDke0bZwB",
+                "clientKey": "",
+                "name": "Station",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "ANK1",
+                  "ANK1",
+                  "ANK2",
+                  "ANK2",
+                  "ANK2",
+                  "ANK2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "lWYSu3UAMplCcgvR",
+                "clientKey": "",
+                "name": "Category",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Earthquake",
+                  "Vehicle",
+                  "Unknown",
+                  "Earthquake",
+                  "Human",
+                  "Human"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "eBT1rKcCF9aGM4tQ"
+              },
+              {
+                "__id__": "zoxltwx4sg3W_eyR"
+              },
+              {
+                "__id__": "WgL829zePAYlTYAq"
+              },
+              {
+                "__id__": "eupBC6Njlw4cQj8Z"
+              },
+              {
+                "__id__": "Z2bZQY7JT_EQrHWB"
+              },
+              {
+                "__id__": "HnG12_hIvUDUmVcx"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "4NK_CyH1_JNM_9Dv",
+          "aMMGVK8wXwPgTOmk"
+        ]
       }
     ]
   }

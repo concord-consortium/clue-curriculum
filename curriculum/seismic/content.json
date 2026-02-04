@@ -59,6 +59,11 @@
         "isTileTool": true
       },
       {
+        "id": "Data Card",
+        "title": "Datacard",
+        "isTileTool": true
+      },
+      {
         "id": "Graph",
         "title": "Graph",
         "isTileTool": true
@@ -239,7 +244,8 @@
     },
     "enableCommentRoles": [
       "teacher",
-      "researcher"
+      "researcher",
+      "student"
     ],
     "showCommentTag": true,
     "commentTags": {
@@ -252,20 +258,37 @@
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master geologist and data scientist who writes machine learning code to distinguish signal from noise in seismic data.",
-      "mainPrompt": "This is a discussion of Seismic data by a seventh grade student. Please evaluate the quality of the model interpretation.",
-      "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
+      "mainPrompt": "This is a discussion of Seismic data by a seventh grade student. Please evaluate the quality of the model interpretation either of an individual signal or a suite of data over many hours.",
+      "categorizationDescription": "Categorize the discussion in the document according to seismic source if identified: human, earthquake, vehicle, unknown.",
       "categories": [
         "earthquake",
         "human",
         "vehicle",
         "uncertain"
       ],
-      "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization?",
-      "discussionPrompt": "Suggest what other kinds of modeling the document author could pursue to better understand the storm path.",
+      "keyIndicatorsPrompt": "Did the student justify any seismic source choices they made?",
+      "discussionPrompt": "Suggest what other kinds of modeling the student could pursue to better understand the seismic signal. Address the student as You.",
       "summarizer": "image"
     },
     "authorTools": [],
-    "showIdeasButton": false
+    "showIdeasButton": false,
+    "sortWorkConfig": {
+      "sortOptions": [
+        {
+          "type": "Strategy"
+        },
+        {
+          "type": "Date"
+        },
+        {
+          "type": "Group"
+        },
+        {
+          "type": "Name"
+        }
+      ],
+      "defaultPrimarySort": "Strategy"
+    }
   },
   "sections": {
     "ml": {
