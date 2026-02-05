@@ -20,15 +20,24 @@
         "numFormat": ".2~f",
         "tools": [
           "set-expression",
-          ["data-set-view", "graph"],
+          [
+            "data-set-view",
+            "graph"
+          ],
           "import-data",
           "delete"
         ]
       },
       "dataflow": {
         "tools": [
-          ["data-set-view", "Table"],
-          ["data-set-view", "Graph"],
+          [
+            "data-set-view",
+            "Table"
+          ],
+          [
+            "data-set-view",
+            "Graph"
+          ],
           "delete"
         ]
       },
@@ -310,7 +319,27 @@
         "height": 35
       }
     ],
-    "showIdeasButton": true
+    "showIdeasButton": true,
+    "sortWorkConfig": {
+      "sortOptions": [
+        {
+          "type": "Date"
+        },
+        {
+          "type": "Group"
+        },
+        {
+          "type": "Name"
+        },
+        {
+          "type": "Strategy"
+        },
+        {
+          "type": "Tools"
+        }
+      ],
+      "defaultPrimarySort": "Date"
+    }
   },
   "sections": {
     "intro": {
