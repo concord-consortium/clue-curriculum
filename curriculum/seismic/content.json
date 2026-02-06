@@ -44,11 +44,6 @@
         "isTileTool": true
       },
       {
-        "id": "Simulator",
-        "title": "Rasberry Shake Simulator",
-        "isTileTool": true
-      },
-      {
         "id": "Drawing",
         "title": "Sketch",
         "isTileTool": true
@@ -82,6 +77,18 @@
         "id": "IframeInteractive",
         "title": "Raspberry Shake",
         "isTileTool": true
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
       },
       {
         "id": "duplicate",
@@ -211,10 +218,6 @@
           "navigator",
           "delete"
         ]
-      },
-      "simulation": {
-        "maxTiles": 1,
-        "defaultSimulation": "potentiometer_chip_servo"
       },
       "datacard": {
         "tools": [
