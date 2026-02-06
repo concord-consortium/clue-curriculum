@@ -108,24 +108,7 @@
       "tabSpecs": [
         {
           "tab": "problems",
-          "label": "Activity",
-          "sections": [
-            {
-              "initials": "INT",
-              "title": "Introduction",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "ACT",
-              "title": "Activity",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "REF",
-              "title": "Reflection",
-              "type": "problem-documents"
-            }
-          ],
+          "label": "Lesson",
           "teacherOnly": false,
           "hidden": false
         },
@@ -283,7 +266,33 @@
         "height": 110
       }
     ],
-    "showIdeasButton": true
+    "showIdeasButton": true,
+    "termOverrides": {
+      "studentGroup": "Grop",
+      "sortLabel.sortByDate": "Day"
+    },
+    "sortWorkConfig": {
+      "sortOptions": [
+        {
+          "type": "Date"
+        },
+        {
+          "type": "Group"
+        },
+        {
+          "type": "Name"
+        },
+        {
+          "type": "Strategy"
+        },
+        {
+          "type": "Tools"
+        },
+        {
+          "type": "Bookmarked"
+        }
+      ]
+    }
   },
   "sections": {
     "introduction": {
