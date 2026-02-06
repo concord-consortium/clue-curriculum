@@ -59,7 +59,7 @@
         "isTileTool": true
       },
       {
-        "id": "Data Card",
+        "id": "DataCard",
         "title": "Datacard",
         "isTileTool": true
       },
@@ -76,6 +76,11 @@
       {
         "id": "Question",
         "title": "Question",
+        "isTileTool": true
+      },
+      {
+        "id": "IframeInteractive",
+        "title": "Raspberry Shake",
         "isTileTool": true
       },
       {
@@ -175,14 +180,9 @@
           "set-expression",
           "link-tile",
           "import-data",
-          [
-            "data-set-view",
-            "bargraph"
-          ],
-          [
-            "data-set-view",
-            "graph"
-          ],
+          ["data-set-view", "bargraph"],
+          ["data-set-view", "graph"],
+          ["data-set-view", "datacard"],
           "delete"
         ]
       },
@@ -216,8 +216,24 @@
         "maxTiles": 1,
         "defaultSimulation": "potentiometer_chip_servo"
       },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          ["data-set-view", "Table"],
+          ["data-set-view", "graph"],
+          ["data-set-view", "bargraph"],
+          "image-upload",
+          "delete-attribute"
+        ]
+      },
       "dataflow": {
         "maxTiles": 1
+      },
+      "iframeInteractive": {
+        "maxTiles": 1,
+        "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
+        "interactiveState": {},
+        "authoredState": {}
       },
       "graph": {
         "tools": [
