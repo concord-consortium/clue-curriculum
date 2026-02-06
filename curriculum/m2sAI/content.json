@@ -397,7 +397,9 @@
         "isTileTool": false
       }
     ],
-    "tagPrompt": "Model Features",
+    "termOverrides": {
+      "strategy": "Model Features"
+    },
     "aiEvaluation": "custom",
     "commentTags": {
       "accuracy": "Accuracy",
@@ -432,18 +434,10 @@
     "showIdeasButton": true,
     "sortWorkConfig": {
       "sortOptions": [
-        {
-          "type": "Name"
-        },
-        {
-          "type": "Date"
-        },
-        {
-          "type": "Strategy"
-        },
-        {
-          "type": "Tools"
-        }
+        "Name",
+        "Date",
+        "Strategy",
+        "Tools"
       ],
       "defaultPrimarySort": "Name"
     }
