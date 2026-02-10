@@ -421,7 +421,27 @@
       "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'.",
       "summarizer": "text"
     },
-    "showIdeasButton": true
+    "showIdeasButton": true,
+    "sortWorkConfig": {
+      "sortOptions": [
+        {
+          "type": "Date"
+        },
+        {
+          "type": "Name"
+        },
+        {
+          "type": "Group"
+        },
+        {
+          "type": "Strategy"
+        },
+        {
+          "type": "Tools"
+        }
+      ],
+      "defaultPrimarySort": "Name"
+    }
   },
   "sections": {
     "warmup": {
