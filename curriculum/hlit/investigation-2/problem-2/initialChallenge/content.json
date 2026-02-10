@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Santo and Tevy make up a new <em>Match, No-Match</em> game. Players toss three coins. Player A wins if exactly two coins match. Player B wins if three coins match.</p><p><u>Make a prediction</u></p><ul><li>Is this a fair game? </li></ul>"
+            "<p>In the <em>Match, No-Match</em> game players toss three coins. Player A wins if exactly two coins match. Player B wins if three coins match.</p><p><u>Make a prediction</u></p><ul><li>Is this a fair game? </li></ul>"
           ]
         }
       },
@@ -42,7 +42,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><em>Directions (with a partner)</em></p><ul><li>Each player tosses the coins 16 times.</li><li>Player A wins if exactly two coins match.</li><li>Player B wins if three coins match.</li><li>Record how many times each player wins.</li></ul>"
+            "<p><em>Directions (with a partner)</em></p><ul><li>Each player takes 8 turns tossing the coins.</li><li>You will have a total of 16 tosses.</li><li>Player A wins if exactly two coins match.</li><li>Player B wins if three coins match.</li><li>Record how many times each player wins.</li></ul>"
           ]
         }
       },
@@ -54,6 +54,18 @@
           "format": "html",
           "text": [
             "<p><u>Analyze: Experimental Probabilities</u></p><ul><li>What is the experimental probability that each player will win? Is this a fair game?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "edTszhW2h8oGSnQI",
+        "title": "Text 38",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answers will vary based on the experimental outcomes.</p>"
           ]
         }
       },
@@ -70,7 +82,6 @@
       },
       {
         "id": "_z4_K1ZlzbjWSxE3",
-        "title": "Sample Space for the New Game",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -79,8 +90,7 @@
             "x9fSyp56PhV9rHGI": 100,
             "9ByKo91UhoY4kyBw": 103.98748016357422,
             "lCuuRN-zd46WvPfK": 112.00003051757812
-          },
-          "name": "Sample Space for the New Game"
+          }
         }
       },
       {
@@ -131,7 +141,6 @@
       },
       {
         "id": "GZb_jT_CxGY2cdlZ",
-        "title": "Sample Space for the New Game",
         "display": "teacher",
         "content": {
           "type": "Table",
@@ -140,8 +149,7 @@
             "-vMvr6pb7UEV-NK7": 100,
             "LMFSAQDfIiLjIzgj": 103.98748016357422,
             "23HNxOBlSK4RXenA": 112.00003051757812
-          },
-          "name": "Sample Space for the New Game"
+          }
         }
       },
       {
@@ -163,7 +171,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Based on the theoretical probabilities is this a fair game? If so, explain why. If not, explain how to make it fair. </li></ul>"
+            "<ul><li>Based on the theoretical probabilities is this a fair game? Explain why or why not.</li></ul>"
           ]
         }
       },
@@ -186,7 +194,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Suppose you toss the coins for 24 trials. How many times would you expect two coins to match? Three coins to match?</li></ul>"
+            "<ul><li>Suppose you toss the coins 24 times. How many times would you expect two coins to match? Three coins to match?</li></ul>"
           ]
         }
       },
@@ -219,7 +227,9 @@
                 "name": "All Heads",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HHH",
                   "",
@@ -233,7 +243,9 @@
                 "name": "One Tail",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HHT",
                   "HTH",
@@ -247,7 +259,9 @@
                 "name": "Two Tails",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HTT",
                   "THT",
@@ -261,7 +275,9 @@
                 "name": "All Tails",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "TTT",
                   "",
@@ -280,7 +296,8 @@
               {
                 "__id__": "E3mEH6NWHAYDIUKh"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -302,7 +319,9 @@
                 "name": "All Heads (Player B)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HHH",
                   "",
@@ -316,7 +335,9 @@
                 "name": "One Tail (Player A)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HHT",
                   "HTH",
@@ -330,7 +351,9 @@
                 "name": "Two Tails (Player A)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HTT",
                   "THT",
@@ -344,7 +367,9 @@
                 "name": "All Tails (Player B)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "TTT",
                   "",
@@ -363,7 +388,8 @@
               {
                 "__id__": "01HHADMTQ48DDMSTKJS4MA6XS5"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
