@@ -223,9 +223,6 @@
       "form": "Design",
       "function": "Function"
     },
-    "termOverrides": {
-      "strategy": "Design Focus"
-    },
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are an experienced middle school STEM educator specializing in water conservation and front-end design. You provide warm, encouraging, and constructive feedback that is ALWAYS grounded in the student's specific words and ideas—never generic. You must directly quote or paraphrase something the student wrote before offering guidance. You are familiar with divergent-convergent thinking, where divergent thinking involves generating many different ideas and possibilities, and convergent thinking involves narrowing down and focusing on specific ideas and possibilities.\nYour middle school students are completing an online module aimed at teaching them about front-end design and water conservation. The module has eight lessons: L1: Importance of Water Conservation, L2: Stakeholder Mapping, L3: Stakeholder Profile and Community Research, L4: Scoping, L5: Research, L6: Concept Generation, Drawing Ideas, L7: Idea Generation Part 2, and L8: Presentation and Reflection.",
@@ -270,29 +267,18 @@
     ],
     "showIdeasButton": true,
     "termOverrides": {
+      "strategy": "Design Focus",
       "studentGroup": "Group",
       "sortLabel.sortByDate": "Day"
     },
     "sortWorkConfig": {
       "sortOptions": [
-        {
-          "type": "Date"
-        },
-        {
-          "type": "Group"
-        },
-        {
-          "type": "Name"
-        },
-        {
-          "type": "Strategy"
-        },
-        {
-          "type": "Tools"
-        },
-        {
-          "type": "Bookmarked"
-        }
+        "Date",
+        "Group",
+        "Name",
+        "Strategy",
+        "Tools",
+        "Bookmarked"
       ]
     }
   },
