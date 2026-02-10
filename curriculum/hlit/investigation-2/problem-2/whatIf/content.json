@@ -98,7 +98,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation B. Possible or Probable?</strong></p><p>Santo and Tevy were analyzing the probabilities of the Match, No-Match game and came up with the following comments.</p><p>What do you think each person meant?</p>"
+            "<p><strong>Situation B. Possible or Probable?</strong></p><p>Santo and Tevy were analyzing the probabilities of the <em>Match, No-Match</em> game and came up with the following comments.</p><p>What do you think each person meant?</p>"
           ]
         }
       },
@@ -132,7 +132,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation C. Winning the Bonus Prize for Gee Whiz Everyone Wins! </strong></p><p>Brelynn and Akimi make up a new game. All the winners from the <em>Gee Whiz Everyone Wins! </em>game show have the opportunity to compete for a bonus prize. There are two bags. </p><ul><li>Each bag contains one red, one yellow, and one blue block. </li><li>The person will pick one block from each bag.</li><li>The person must predict the color they will pick from each bag.</li><li>If the prediction is correct, they win a bonus prize! </li></ul>"
+            "<p><strong>Situation C. Winning the Bonus Prize for Gee Whiz Everyone Wins! </strong></p><p>Brelynn and Akimi make up a new game. All the winners from the <em>Gee Whiz Everyone Wins! </em>game show can compete for a bonus prize. There are two bags. </p><ul><li>Each bag contains one red, one yellow, and one blue block. </li><li>The person will pick one block from each bag.</li><li>The person must predict the color they will pick from each bag.</li><li>If the prediction is correct, they win a bonus prize! </li></ul>"
           ]
         }
       },
@@ -211,7 +211,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Brelynn and Akimi each make a prediction about the color combination before choosing a block from each bag. Does each person have an equal chance of winning the prize? Explain.</li></ul>"
+            "<ul><li>Akimi and Brelynn make predictions about the color combination before choosing a block from each bag. Does each person have an equal chance of winning the prize? Explain.</li></ul>"
           ]
         }
       },
@@ -234,7 +234,7 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><u><em>Brelynn</em></u></p><p>I predict 1 blue and 1 red or 1 blue and 1 red. </p>"
+              "<p><u><em>Brelynn</em></u></p><p>I predict 1 blue and 1 red or 1 red and 1 blue. </p>"
             ]
           }
         }
@@ -294,7 +294,9 @@
                 "name": "Three H",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HHH",
                   null,
@@ -308,7 +310,9 @@
                 "name": "Two H",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HHT",
                   "HTH",
@@ -322,7 +326,9 @@
                 "name": "One H",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "HTT",
                   "THT",
@@ -336,7 +342,9 @@
                 "name": "No H",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "TTT",
                   null,
@@ -355,7 +363,8 @@
               {
                 "__id__": "85enYxgNzb68Z3Ee"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
