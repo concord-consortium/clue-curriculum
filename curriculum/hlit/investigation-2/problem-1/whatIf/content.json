@@ -114,6 +114,18 @@
         }
       ],
       {
+        "id": "AVpQgh8ZpBpu195H",
+        "title": "Text 109",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Note: These claims represent a special rule of addition for probability. The events are mutually exclusive. That is, there is no overlap in choosing a color.</p><p>So P(red or blue or yellow) = P(red) + P(blue) + P(yellow).</p><p>The general addition rule for probability subtracts the probability of both events occurring:</p><p>P(A or B) = P(A) + P(B) − P(A and B).</p>"
+          ]
+        }
+      },
+      {
         "id": "je2StUZ28tlgXA07",
         "title": "Text 50",
         "content": {
@@ -176,7 +188,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>What is the sum of the probabilities? Does it agree with the sum of the theoretical probabilities conjecture? </li></ul>"
+            "<ul><li>What is the sum of the probabilities? Does it agree with the conjecture? </li></ul>"
           ]
         }
       },
@@ -197,7 +209,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Yes. It makes sense that the sum of the probabilities is 1. You would want to account for all of the possible outcomes. So, all the parts should equal the whole in the ratios.</p>"
+            "<p>Yes. It makes sense that the sum of the probabilities is 1. You would want to account for all of the possible outcomes. So all the parts should equal the whole in the ratios.</p>"
           ]
         }
       },
@@ -208,122 +220,99 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Situation C. Another Bag of Marbles</strong></p><p>Ms. Tsao suggests one more experiment. A different bag contains several marbles. Each marble is red or white or blue. The probability of choosing a red marble is 1/3 and the probability of choosing a white marble is 1/6. </p>"
+            "<p><strong>Situation C. Rodney&#x27;s Conjectures</strong></p><p>Rodney’s group made some conjectures about drawing blocks in Situation B. Are their conjectures correct? Explain why.</p>"
           ]
         }
       },
       {
-        "id": "YcA8mAA3DMjA_Dn2",
-        "title": "Text 82",
+        "id": "bDXt_oXPfEzEX7px",
+        "title": "Text 110",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>What is the probability of choosing a blue marble? Explain. </li></ul>"
+            "<p><u>Conjecture 1</u></p><p>If we add 2 blue blocks to the bucket, then the probability of drawing a blue block is 1/2.</p>"
           ]
         }
       },
       {
-        "id": "oPuGCj9jaWt_C0bv",
-        "title": "Text 84",
+        "id": "1zhhxEnK-oYbyv9k",
+        "title": "Text 112",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>P(blue) = 3/6. Total probability is 1. </p><p>P(red or white) = 1/6 + 1/3 = 3/6, so P(blue) = 1 - (3/6) = 3/6</p>"
+            "<p>Incorrect.</p><p>There would now by 14 blocks, and 6 would be blue. P(blue) is 6/14.</p><p>6/14 ≠ 1/2</p>"
           ]
         }
       },
       {
-        "id": "wVNRvLXKiYjWu_cD",
-        "title": "Text 86",
+        "id": "MvjvBP9-lqNdWM9l",
+        "title": "Text 111",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>What is the least number of marbles that can be in the bag? </li></ul>"
+            "<p><u>Conjecture 2</u></p><p>Jakayla says the probability of drawing a blue is 12/4</p>"
           ]
         }
       },
       {
-        "id": "RnE1rWDE6kgqWJ6E",
-        "title": "Text 88",
+        "id": "S0JIEbtV5krGZX4d",
+        "title": "Text 113",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>6 marbles. </p><p>1 white, 2 red, 3 blue</p>"
+            "<p>Incorrect.</p><p>The correct probability for drawing a blue is 4/12 or 1/3. The number of favorable events can never be greater than the total number of events, so a probability can never be greater than 1 (although a probability can be equal to 1).</p>"
           ]
         }
       },
       {
-        "id": "Ck1HZCjBXuTgu3Qi",
-        "title": "Text 90",
+        "id": "uY2qrmj_p4XiA5Qe",
+        "title": "Text 115",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Suppose the bag contains the least number of marbles. How many of each color does the bag contain? </li></ul>"
+            "<p><u>Conjecture 3</u></p><p>If we triple the number of each color, the probability of drawing each color is the same as adding 3 of each color.</p>"
           ]
         }
       },
       {
-        "id": "pfFqwqkPasLBvwNz",
-        "title": "Text 92",
+        "id": "lxvEvzbIQ7WbGQLh",
+        "title": "Text 114",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>1 white, 2 red, 3 blue</p>"
+            "<p>Incorrect.</p><p>When you triple the amount of each color, the ratios remain equivalent.</p><p>P(yellow) = 6/36 or 1/6</p><p>P(blue) = 12/36 or 1/3</p><p>P(red) = 18/36 or 1/2</p><p>When you add 3 more of each color, the ratios change and are not equivalent.</p><p>P(yellow) = 5/21</p><p>P(blue) = 7/21 or 1/3</p><p>P(red) = 9/21 or 3/7</p><p>Note: Probabilities are ratios, so they have multiplicative relationships, not additive relationships.</p>"
           ]
         }
       },
       {
-        "id": "enoBPPCvNsvbMDZI",
-        "title": "Text 94",
+        "id": "gh94MPMpCFTdsugh",
+        "title": "Text 116",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Can the bag contain 48 marbles? If so, how many of each color does it contain? </li></ul>"
+            "<p><strong>Situation D. A Bag of Marbles</strong></p><p>Mr. Tsao suggests one more experiment. A bag contains several marbles. Each marble is red or white or blue. The P(red = 1/3, and P(white) = 1/6.</p><ol><li>What is the probability of choosing a blue marble? Explain.</li><li>What is the least number of marbles that can be in the bag?</li><li>Suppose the bag contains the least number of marbles. How many of each color does the bag contain?</li><li>Can the bag contain 48 marbles? If so, how many of each color does it contain?</li><li>Suppose the bag contains 8 red marbles and 4 white marbles. How many blue marbles does it contain?</li></ol>"
           ]
         }
       },
       {
-        "id": "QO7VIB-FQuHyQFkB",
-        "title": "Text 101",
+        "id": "SUQAc96Ir8RcKfYf",
+        "title": "Text 117",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Yes. 8 white, 16 red, 24 blue </p>"
-          ]
-        }
-      },
-      {
-        "id": "Fp3DIl54hBUcPTai",
-        "title": "Text 99",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<ul><li>Suppose the bag contains 8 red marbles and 4 white marbles. How many blue marbles does it contain? </li></ul>"
-          ]
-        }
-      },
-      {
-        "id": "vqvC_B11XHo02c4-",
-        "title": "Text 97",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>12</p>"
+            "<ol><li>P(blue) = 3/6. Total probability is 1. P(red or white) = 1/6 + 1/3 = 3/6, so P(blue) = 1 - 3/6 = 3/6.</li><li>6 marbles: 1 white, 2 red, 3 blue</li><li>1 white, 2 red, 3 blue</li><li>Yes. 8 white, 16 red, 24 blue.</li><li>12</li></ol>"
           ]
         }
       }
