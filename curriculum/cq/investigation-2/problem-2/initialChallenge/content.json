@@ -1,1 +1,192 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "nwJs6ArSa5r1I2NX",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Students at Washington like Gwen&#x27;s tables. They decide to use a table to represent the number of boxes sold and the amount of money collected. Part of the table is shown here. </p>"
+          ]
+        }
+      },
+      {
+        "id": "xvQuDzBsoJrPX2z6",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "QTctBqNrrk7pe2dy": 223.99856567382812,
+            "3NgfwQVcno708p6b": 287.4573669433594
+          }
+        }
+      },
+      {
+        "id": "9N7LovctrYOgZUOC",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>What is the cost for 20 boxes? 60 boxes? 12 boxes? 1 box? Explain your reasoning.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "TvW8ibC1JEGG4Hn4",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Student reasoning will vary. Example below: </p>"
+          ]
+        }
+      },
+      {
+        "id": "_5GO5B5YIYuxzMhm",
+        "title": "Student reasoning example",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/student-reasoning-example.png",
+          "filename": "cq/images/student-reasoning-example.png"
+        }
+      },
+      {
+        "id": "-YrNiueTo1aiL6mx",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Note: </strong>Some student may wonder why you can divide in a multiplicative situation. It may be time to have a conversation that dividing by 2 and multiplying by 1/2 yields the same result. For example, 10 boxes get $120. If we take 1/2 of 10 or divide by 2, we get 5 boxes. And if we take 1/2 of 120 or divide by 2, we get $60. This can be extended to other numerical relationships. In the table, we could express the division as multiplication. However, students typically prefer to write division. </p>"
+          ]
+        }
+      },
+      {
+        "id": "wLXqFq5gN5WhP5co",
+        "title": "Additional student reasoning example",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/additional-student-reasoning-example.png",
+          "filename": "cq/images/additional-student-reasoning-example.png"
+        }
+      },
+      {
+        "id": "nMwVkEqAjn1881zd",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Henry thinks knowing the cost of 1 box of cupcakes is helpful. Do you agree with Henry? Explain why.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "wIZJlMfDjerD_FGm",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Yes. It tells us what one box will cost. If we know the price for one box, we can find the price for any number of boxes.</p>"
+          ]
+        }
+      },
+      {
+        "id": "NPfqFF_JZnNA3hSb",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How are the entries in the table like ratios? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "5MieJ6uFryZSvKtt",
+        "title": "Text 7",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>From the table, we can make many comparisons of two quantities. These ratios might include: </p><ul><p>They collect $60 for every 5 boxes sold.</p><p>They collect $120 for every 10 boxes sold.</p><p>They collect $180 for every 15 boxes sold.</p><p></p><p>1 box will get them $12</p><p>20 boxes will get then $240</p><p>60 boxes will get them $720</p></ul>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "SizOAQo-3vYZ-hhC",
+          "providerId": "xvQuDzBsoJrPX2z6",
+          "dataSet": {
+            "id": "SR2fNaAtrl3ItAmS",
+            "name": "Money Collected for the Number of Large Boxes Sold",
+            "attributes": [
+              {
+                "id": "QTctBqNrrk7pe2dy",
+                "clientKey": "",
+                "name": "Numberof Large Boxes Sold",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "10",
+                  "15"
+                ],
+                "title": ""
+              },
+              {
+                "id": "3NgfwQVcno708p6b",
+                "clientKey": "",
+                "name": "Total Amount of Money Collected",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "$60",
+                  "$120",
+                  "$180"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "tq4889OcXm1ls1EP"
+              },
+              {
+                "__id__": "KeYR6-CbVP4GDCay"
+              },
+              {
+                "__id__": "QfgQ85MZnWQbkMmS"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "xvQuDzBsoJrPX2z6"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}

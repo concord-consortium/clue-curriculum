@@ -1,0 +1,43 @@
+{
+  "code": "brain",
+  "abbrevTitle": "BRAIN",
+  "title": "Neural Engineering Teacher Guide",
+  "subtitle": "",
+  "placeholderText": "Enter notes here",
+  "settings": {"table": {"numFormat": ".2~f"}},
+  "sections": {"overview": {"initials": "OV", "title": "Overview", "placeholder": "Work area for\nOverview section"}, "teach": {"initials": "IS", "title": "Instructional Sequence", "placeholder": "Work area for\nInstructional Sequence section"}},
+  "investigations": [
+    {
+      "description": "Investigation 0",
+      "ordinal": 0,
+      "title": "Introduction to CLUE",
+      "overview": {"tiles": []},
+      "problems": [{"description": "Problem 0.1", "ordinal": 1, "title": "Introduction to CLUE", "subtitle": "", "sections": ["investigation-0/problem-1/overview/content.json", "investigation-0/problem-1/teach/content.json"]}]
+    },
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Module 1",
+      "overview": {"tiles": []},
+      "problems": [
+        {"description": "Problem 1.1", "ordinal": 1, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-1/problem-1/overview/content.json", "investigation-1/problem-1/teach/content.json"]},
+        {"description": "Problem 1.2", "ordinal": 2, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-1/problem-2/overview/content.json", "investigation-1/problem-2/teach/content.json"]},
+        {"description": "Problem 1.3", "ordinal": 3, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-1/problem-3/overview/content.json", "investigation-1/problem-3/teach/content.json"]},
+        {"description": "Problem 1.4", "ordinal": 4, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-1/problem-4/overview/content.json", "investigation-1/problem-4/teach/content.json"]},
+        {"description": "Problem 1.5", "ordinal": 5, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-1/problem-5/overview/content.json", "investigation-1/problem-5/teach/content.json"]}
+      ]
+    },
+    {
+      "description": "Investigation 2",
+      "ordinal": 2,
+      "title": "Module 2",
+      "overview": {"tiles": []},
+      "problems": [
+        {"description": "Problem 2.1", "ordinal": 1, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-2/problem-1/overview/content.json", "investigation-2/problem-1/teach/content.json"]},
+        {"description": "Problem 2.2", "ordinal": 2, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-2/problem-2/overview/content.json", "investigation-2/problem-2/teach/content.json"]},
+        {"description": "Problem 2.3", "ordinal": 3, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-2/problem-3/overview/content.json", "investigation-2/problem-3/teach/content.json"]},
+        {"description": "Problem 2.4", "ordinal": 4, "title": "Introduction to Teaching Neural Engineering", "subtitle": "", "sections": ["investigation-2/problem-4/overview/content.json", "investigation-2/problem-4/teach/content.json"]}
+      ]
+    }
+  ]
+}

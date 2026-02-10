@@ -45,14 +45,21 @@
         "maxTiles": 1
       }
     },
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
     "showCommentTag": true,
     "commentTags": {
-      "diverging": "Decomposition",
-      "converging": "Pattern Recognition",
-      "materials": "Abstraction/Generalization",
-      "physical": "Algorithmic Thinking"
+      "user": "User",
+      "design": "Design ",
+      "model": "Model",
+      "biology": "Biology"
     },
-    "tagPrompt": "Computational Thinking",
+    "termOverrides": {
+      "strategy": "Work Focus"
+    },
     "learningLog": {
       "labels": {
         "1": "Learning Journal",
@@ -282,6 +289,11 @@
           "label": "Student Work",
           "teacherOnly": true,
           "sections": []
+        },
+        {
+          "tab": "sort-work",
+          "label": "Class Gallery",
+          "teacherOnly": false
         }
       ]
     },
@@ -326,7 +338,17 @@
         "width": 26,
         "height": 35
       }
-    ]
+    ],
+    "aiPrompt": {
+      "systemPrompt": "",
+      "mainPrompt": "",
+      "categorizationDescription": "",
+      "keyIndicatorsPrompt": "",
+      "discussionPrompt": "",
+      "summarizer": "image",
+      "categories": []
+    },
+    "showIdeasButton": false
   },
   "sections": {
     "intro": {

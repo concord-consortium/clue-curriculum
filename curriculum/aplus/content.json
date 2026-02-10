@@ -1,0 +1,342 @@
+{
+  "code": "aplus",
+  "abbrevTitle": "STORM",
+  "appName": "STORM",
+  "title": "Storm Explorer",
+  "subtitle": "Uncertainty and Risk",
+  "config": {
+    "placeholderText": "Drag text, models, or sketches here.",
+    "autoAssignStudentsToIndividualGroups": true,
+    "autoSectionProblemDocuments": false,
+    "groupDocumentsEnabled": false,
+    "defaultDocumentTitle": "Storm Name and Time",
+    "defaultDocumentType": "personal",
+    "defaultLearningLogDocument": false,
+    "documentLabels": {
+      "personal": {
+        "labels": {
+          "1": "Storm Analysis",
+          "n": "Storm Analyses"
+        }
+      },
+      "problem": {
+        "labels": {
+          "1": "Storm Analysis",
+          "n": "Storm Analyses"
+        }
+      }
+    },
+    "disablePublish": [
+      "student"
+    ],
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "toolbar": [
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "IframeInteractive",
+        "title": "Storm Explorer",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "authorTools": [],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "class-work",
+          "label": "Storm Forcast",
+          "sections": [
+            {
+              "title": "Storms 2026",
+              "type": "published-problem-documents",
+              "dataTestHeader": "class-work-section-published",
+              "dataTestItem": "class-work-list-items",
+              "documentTypes": [
+                "publication",
+                "personalPublication"
+              ],
+              "properties": [
+                "isTeacherDocument",
+                "!isDeleted"
+              ]
+            },
+            {
+              "title": "Storms 2026",
+              "type": "teacher-supports",
+              "dataTestHeader": "supports-section-teacher-supports",
+              "dataTestItem": "supports-list-items",
+              "documentTypes": [
+                "supportPublication"
+              ],
+              "properties": [
+                "teacherSupport",
+                "!isDeleted"
+              ]
+            }
+          ],
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "sort-work",
+          "label": "Model Gallery",
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "problems",
+          "label": "User Guide",
+          "sections": [
+            {
+              "initials": "CONE",
+              "title": "Cone of Uncertainty",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "PLOT",
+              "title": "Spaghetti Plots",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "MODEL",
+              "title": "Storm Model Help",
+              "type": "problem-documents"
+            }
+          ],
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Moderator Guide",
+          "teacherOnly": true,
+          "hidden": false
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "cas/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "list-ol",
+          "highlight",
+          "subscript",
+          "superscript",
+          "link"
+        ]
+      },
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "merge-in",
+          "import-data",
+          "delete"
+        ]
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "text",
+          "upload",
+          "stroke-color",
+          "fill-color",
+          "|",
+          "align",
+          "rotate-right",
+          "flip-horizontal",
+          "flip-vertical",
+          "duplicate",
+          "|",
+          "zoom-in",
+          "zoom-out",
+          "fit-all",
+          "navigator",
+          "delete"
+        ]
+      },
+      "iframeInteractive": {
+        "maxTiles": 1,
+        "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+        "interactiveState": {},
+        "authoredState": {},
+        "allowedPermissions": "geolocation; microphone; camera; bluetooth",
+        "maxHeight": 0,
+        "enableScroll": false
+      }
+    },
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
+    "showCommentTag": true,
+    "commentTags": {
+      "severity": "Severity",
+      "coneofuncertainty": "Cone of Uncertainty",
+      "spaghetti": "Spaghetti Models",
+      "landfall": "Landfall"
+    },
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master researcher of hurricane science.",
+      "mainPrompt": "This is a discussion of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
+      "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
+      "categories": [
+        "severity",
+        "coneofuncertainty",
+        "spaghetti",
+        "landfall"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization? ",
+      "discussionPrompt": "In no more than 1 sentence, suggest what other kinds of modeling the document author could pursue to better understand the storm path and uncertainty.",
+      "summarizer": "image"
+    },
+    "showIdeasButton": false,
+    "sortWorkConfig": {
+      "sortOptions": [
+        "Date",
+        "Name",
+        "Strategy"
+      ],
+      "defaultPrimarySort": "Date",
+      "showContextFilter": false
+    },
+    "termOverrides": {
+      "sortLabel.sortByOwner": "User",
+      "strategy": "Model focus",
+      "contentLevel.problem": "Model"
+    }
+  },
+  "sections": {
+    "cone": {
+      "initials": "CONE",
+      "title": "Cone of Uncertainty",
+      "placeholder": "Discuss or paste images of your cone of uncertainty here."
+    },
+    "plot": {
+      "initials": "PLOT",
+      "title": "Spaghetti Plot",
+      "placeholder": "Discuss or paste images of your spaghetti plots here."
+    },
+    "model": {
+      "initials": "HELP",
+      "title": "Storm Explorer Help",
+      "placeholder": "Simulate the conditions of the present storm and document it."
+    }
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Storms 2026",
+      "problems": [
+        {
+          "description": "Activity 1.1",
+          "ordinal": 1,
+          "title": "Summer 2026",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-1/problem-1/model/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "id": "8pKl3_OI-jz7hR8-",
+                  "title": "Text 1",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>Storm Explorer</strong></p>",
+                      "<p>Make a new model that helps explain the current storm. Document your analysis using text and Sketches.</p>"
+                    ]
+                  }
+                },
+                {
+                  "id": "document_IframeInteractive_1",
+                  "title": "My Model for Storm A",
+                  "content": {
+                    "type": "IframeInteractive",
+                    "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+                    "interactiveState": {},
+                    "authoredState": {},
+                    "maxHeight": 1000,
+                    "enableScroll": false
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Fall 2026",
+          "ordinal": 2,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-2/model/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

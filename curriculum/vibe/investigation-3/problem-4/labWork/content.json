@@ -1,0 +1,541 @@
+{
+  "type": "labWork",
+  "content": {
+    "tiles": [
+      {
+        "id": "V3efLqFDlQoL8JKr",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 1: Use a Virtual Potentiometer to Control a Simulated Servo Motor</strong></u></p><p>Servo motors are commonly used in robots. They are useful due to their small size, low power consumption, and high accuracy. They can be found, for example, in the steering control of a toy car or at the helm of a ship or aircraft. In this activity, we will use a virtual potentiometer to control a simulated servo motor.&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "qWnQzQ2J6Wvtq6F1",
+        "title": "illustration of a servo motor",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-06-10-at-7.48.21 am.png",
+          "filename": "brain/images/screenshot-2024-06-10-at-7.48.21 am.png"
+        }
+      },
+      {
+        "id": "-luVZRWIA6LQ8Jef",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>Drag the following Dataflow tiles into your workspace.</li><li>To run the simulation, we will use a new tile type called “SIM.” Add a SIM tile to your workspace and place it next to your DataFlow tile (either side-by-site or one over the other).</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "RvJ_xDLvvFHwYQ5c",
+        "content": {
+          "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "O2Lsdr4gCBjP467E": {
+                "id": "O2Lsdr4gCBjP467E",
+                "name": "Sensor",
+                "x": 40,
+                "y": 5,
+                "data": {
+                  "type": "Sensor",
+                  "plot": false,
+                  "orderedDisplayName": "Input 1",
+                  "tickEntries": {
+                    "sNyHMiagogvkx1CQ": {
+                      "nodeValue": "NaN"
+                    },
+                    "Vlm4oloivWArtLKr": {
+                      "nodeValue": "NaN"
+                    },
+                    "7yUfNtzmHVItu969": {
+                      "nodeValue": "NaN"
+                    },
+                    "pGsyvxBwLAIaxVXI": {
+                      "nodeValue": "NaN"
+                    },
+                    "bSX-8QndFm9r_KWG": {
+                      "nodeValue": "NaN"
+                    },
+                    "OYObaOtIMCQ6mkG-": {
+                      "nodeValue": "NaN"
+                    },
+                    "V8-aK3FriOChytDV": {
+                      "nodeValue": "NaN"
+                    },
+                    "MrIiCmgSbTKZvAbt": {
+                      "nodeValue": "NaN"
+                    },
+                    "JRfLYkdGAf78IRgn": {
+                      "nodeValue": "NaN"
+                    },
+                    "Kh5lTcHbQhO1Gl49": {
+                      "nodeValue": "NaN"
+                    },
+                    "5q6_7ztUmWeSXrcp": {
+                      "nodeValue": "NaN"
+                    },
+                    "89R68_rNlkcXZW7o": {
+                      "nodeValue": "NaN"
+                    },
+                    "VROip-V6x8WK1i_b": {
+                      "nodeValue": "NaN"
+                    },
+                    "s2Rsxaa_X9xZHsAM": {
+                      "nodeValue": "NaN"
+                    },
+                    "d5JDTKNlnqLQpRdu": {
+                      "nodeValue": "NaN"
+                    },
+                    "GFGrEAZoXmh59LM7": {
+                      "nodeValue": "NaN"
+                    },
+                    "lvCijkKurwJg6g9v": {
+                      "open": true,
+                      "nodeValue": "NaN"
+                    }
+                  },
+                  "sensorType": "pin-reading",
+                  "sensor": ""
+                }
+              },
+              "sLVuOaFxg0a5i7zc": {
+                "id": "sLVuOaFxg0a5i7zc",
+                "name": "Live Output",
+                "x": 307,
+                "y": 160,
+                "data": {
+                  "type": "Live Output",
+                  "plot": false,
+                  "orderedDisplayName": "Live Output 1",
+                  "tickEntries": {
+                    "sNyHMiagogvkx1CQ": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "Vlm4oloivWArtLKr": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "7yUfNtzmHVItu969": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "pGsyvxBwLAIaxVXI": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "bSX-8QndFm9r_KWG": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "OYObaOtIMCQ6mkG-": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "V8-aK3FriOChytDV": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "MrIiCmgSbTKZvAbt": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "JRfLYkdGAf78IRgn": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "Kh5lTcHbQhO1Gl49": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "5q6_7ztUmWeSXrcp": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "89R68_rNlkcXZW7o": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "VROip-V6x8WK1i_b": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "s2Rsxaa_X9xZHsAM": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "d5JDTKNlnqLQpRdu": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "GFGrEAZoXmh59LM7": {
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    },
+                    "lvCijkKurwJg6g9v": {
+                      "open": true,
+                      "nodeValue": "0",
+                      "outputStatus": ""
+                    }
+                  },
+                  "liveOutputType": "Servo",
+                  "hubSelect": "Physical Servo"
+                }
+              }
+            },
+            "connections": {},
+            "recentTicks": [
+              "7yUfNtzmHVItu969",
+              "sNyHMiagogvkx1CQ",
+              "pGsyvxBwLAIaxVXI",
+              "bSX-8QndFm9r_KWG",
+              "OYObaOtIMCQ6mkG-",
+              "Vlm4oloivWArtLKr",
+              "V8-aK3FriOChytDV",
+              "MrIiCmgSbTKZvAbt",
+              "JRfLYkdGAf78IRgn",
+              "Kh5lTcHbQhO1Gl49",
+              "5q6_7ztUmWeSXrcp",
+              "89R68_rNlkcXZW7o",
+              "VROip-V6x8WK1i_b",
+              "s2Rsxaa_X9xZHsAM",
+              "d5JDTKNlnqLQpRdu",
+              "GFGrEAZoXmh59LM7",
+              "lvCijkKurwJg6g9v"
+            ]
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 1
+          }
+        }
+      },
+      {
+        "id": "nz26wVu3K91auVhX",
+        "title": "Simulation 1",
+        "content": {
+          "type": "Simulator",
+          "simulation": "EMG_and_claw"
+        }
+      },
+      {
+        "id": "sV9IWHm80Mpp917J",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>3. Add an input block to your DataFlow program. Select ‘pin reading’ and ‘simulated pin’ from the drop    down menus.</p><p>4. Add a live output block. Select ‘servo’ and ‘simulated servo’ from the drop down menus.&nbsp;</p><p>5. As you add these blocks to your program, they should appear as inputs and outputs in the simulated Arduino board.&nbsp;</p><p>6. Add operation blocks to your DataFlow program to make the simulated servo move based on the value of the potentiometer.&nbsp;</p><p>7. To test your program, change the potentiometer value in the SIM tile from low to high. Does the simulated servo move?</p><p><em>Hint: if your program is laggy, try changing the sampling rate.&nbsp;Identify the “sparrow” button just above the DataFlow tile:</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "O7l7MrFXvLSqtvO0",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Identify the “sparrow” button just above the DataFlow tile:</p>"
+          ]
+        }
+      },
+      {
+        "id": "NCAOmAza91k2FXU8",
+        "title": "Sparrow Feature",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-06-10-at-7.59.59 am.png",
+          "filename": "brain/images/screenshot-2024-06-10-at-7.59.59 am.png"
+        }
+      },
+      {
+        "id": "Z8xscZSJAnH_dCW6",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Annotate your DataFlow program by connecting the DataFlow blocks to the simulated Arduino. Type in a brief description of each block.&nbsp;&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "OXPmPbUnEA7ekRXy",
+        "title": "Annotation with Sparrow Feature",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-06-10-at-8.10.51 am.png",
+          "filename": "brain/images/screenshot-2024-06-10-at-8.10.51 am.png"
+        }
+      },
+      {
+        "id": "fdpyaV1rZ0hPWkW5",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 2: Use the Potentiometer to Control a Mechanical Output</strong></u></p><p>Let’s change our DataFlow program so that it can control a physical servo motor instead of a virtual one.&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "A7POy3ESiDQy8zBF",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You will need the following equipment: </p><p></p>"
+          ]
+        }
+      },
+      {
+        "id": "3Ll9so1CcIxnrKzS",
+        "title": "Equipment Set-up",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-06-10-at-8.00.11 am.png",
+          "filename": "brain/images/screenshot-2024-06-10-at-8.00.11 am.png"
+        }
+      },
+      {
+        "id": "NcLH0Soud8vH5LV9",
+        "title": "Text 9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ol><li>Connect the Arduino board to your computer via the blue USB.&nbsp;</li><li>Click the lighting bolt to pair your Arduino device to your program.</li><li>Select connect device from the drop down menus of both the input and live output blocks.</li><li>&nbsp;On the right side of your Arduino, there are more pins with tiny labels. These pins are capable of outputting a signal to a mechanical device, which is a small servo motor in this case.</li><li>We need to do three things to allow the motor to function.</li></ol><ul><li>Provide a source of power.</li><li>Ground the servo’s own circuit in addition to the potentiometer’s circuit.</li><li>Send a signal out of the arduino and into the servo motor.</li></ul><ol><li>Insert the brown wire into the pin that says GND on the right side of the Arduino to ground it.</li><li>Insert the orange wire into the pin that says 2 on the right side of the Arduino. </li><li>This wire sends the signal to the servo.</li><li>Insert the red wire into the 5V pin on the LEFT side of the Arduino.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "4MANco6SpJKnrxBU",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Are you able to control the motor with the servo? Hooray!</em></p>"
+          ]
+        }
+      },
+      {
+        "id": "aZpP_Rsf5SJ23Q0R",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Drag this text tile over to your workspace to answer the questions.</strong></p><ol><li>How does this activity relate to the light bulb demo we used in modules 1 and 2?</li><li>How does a mechanical input at the potentiometer become a mechanical output at the servo? Be as detailed as possible. </li></ol><ul><li>If you need a hint or a model for your response, consider this flow chart.World → Mechanical Input → Electrical Signal → Computer Logic → Electrical Signal → Mechanical Output → World</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "RI-YBXG0w2Dc0Sx1",
+        "title": "Servo Graphic",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/screenshot-2024-06-10-at-8.00.29 am.png",
+          "filename": "brain/images/screenshot-2024-06-10-at-8.00.29 am.png"
+        }
+      },
+      {
+        "id": "1xXX8SVcq3jPKvbQ",
+        "title": "Text 12",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Activity 3: What could this servo do?</strong></u></p><p>How can you modify the servo to make it do something useful? </p><p>Drag the following text tile into your workspace to answer the questions.</p>"
+          ]
+        }
+      },
+      {
+        "id": "YHbg5sSODCYUDx3I",
+        "title": "Text 13",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Drag the following text tile into your workspace to answer the questions.</em></p><p>Brainstorm at least three things your servo motor could be used for in real life. It could be something practical or entertaining.</p><ul><li>Idea 1:</li><li>Idea 2:</li><li>Idea 3:</li></ul><p>Now, choose one of your ideas and classroom materials to modify your physical servo.</p><p>Take a photo of your customized machine and upload it to your workspace in an image tile. Alternatively, you could make a detailed diagram using a drawing tile.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "CsqB7hxrYVQ2xzgY",
+          "providerId": "RvJ_xDLvvFHwYQ5c",
+          "dataSet": {
+            "id": "2Yzrcn5kImnttFXW",
+            "name": "Program 1",
+            "attributes": [
+              {
+                "id": "ATTRcZ-fM4WJJRAh",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTR_IyemQuReYKj",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "RvJ_xDLvvFHwYQ5c"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "KjKskWqDvbYmuoXR"
+        },
+        "tiles": [
+          "RvJ_xDLvvFHwYQ5c",
+          "nz26wVu3K91auVhX"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "bhvy4kqtEQuflhS_",
+          "variables": [
+            {
+              "id": "ZjKUFd3cqA9_CnPW",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "oArGrxzqjtreoz2W",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 38,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "9J-eT3uZrHDoSiKL",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "shu_cCzUXxl6Uzeg",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "-_aEKi0BKCWxzthK",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 96.5,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "be7T6a2fYSBS1Kpk",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "dZGczxczx8NXsYnF",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "V3efLqFDlQoL8JKr",
+          "-luVZRWIA6LQ8Jef",
+          "RvJ_xDLvvFHwYQ5c",
+          "nz26wVu3K91auVhX",
+          "sV9IWHm80Mpp917J",
+          "Z8xscZSJAnH_dCW6",
+          "O7l7MrFXvLSqtvO0",
+          "fdpyaV1rZ0hPWkW5",
+          "A7POy3ESiDQy8zBF",
+          "NcLH0Soud8vH5LV9",
+          "4MANco6SpJKnrxBU",
+          "aZpP_Rsf5SJ23Q0R",
+          "1xXX8SVcq3jPKvbQ",
+          "YHbg5sSODCYUDx3I"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "type": "geo",
+  "content": {
+    "tiles": [
+      {
+        "id": "4Mx40OzVGUuP3zRU",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Earth is noisy</strong></p><p>Digital recordings of vibrations have particular shapes depending on what made the noise. The wave amplitude graph from you and all your classmates running from class to class in the hallway looks very different from a cruise ship docking in the local harbor, and different from an Earthquake.</p>"
+          ]
+        }
+      },
+      {
+        "id": "2hnwe7gWIqPqsxLx",
+        "title": "Different Noise Profiles",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "S6ribvHleIMeAhZH",
+              "x": 986.34765625,
+              "y": 119.06640625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 374.2265625,
+              "height": 93.82421875,
+              "url": "seismic/images/Train.png",
+              "filename": "Train.png"
+            },
+            {
+              "type": "image",
+              "id": "HdMPelWz2SGBpssw",
+              "x": 381.33203125,
+              "y": 106.19921875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 381,
+              "height": 40,
+              "url": "seismic/images/wind-noise.jpg",
+              "filename": "wind-noise.jpg"
+            },
+            {
+              "type": "image",
+              "id": "Id6Eu4U6VNEpEnCk",
+              "x": 44.17578125,
+              "y": 63.0078125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 230,
+              "height": 290,
+              "url": "seismic/images/earthquakes.jpg",
+              "filename": "earthquakes.jpg"
+            },
+            {
+              "type": "text",
+              "id": "AsSAhwea7NXYsUNo",
+              "x": 54.83984375,
+              "y": 10.6015625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 241.98828125,
+              "height": 40.20703125,
+              "stroke": "#000000",
+              "text": "Earthquake at different stations."
+            },
+            {
+              "type": "text",
+              "id": "IOPHiDXmqxxG3L4o",
+              "x": 471.02734375,
+              "y": 48.265625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 241.98828125,
+              "height": 40.20703125,
+              "stroke": "#000000",
+              "text": "Wind noise at the top of a mountain."
+            },
+            {
+              "type": "text",
+              "id": "HsitFItz0iGhoPIi",
+              "x": 1090.68359375,
+              "y": 55.63671875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 166.15625,
+              "height": 38.6796875,
+              "stroke": "#000000",
+              "text": "Train approach and stop."
+            },
+            {
+              "type": "text",
+              "id": "7Z2RrY3ztboDtmz2",
+              "x": 1029.765625,
+              "y": 247.84375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 312.36328125,
+              "height": 62.19140625,
+              "stroke": "#000000",
+              "text": "Oncoming train gets louder as it gets closer and then the breaks shake the ground as it stops."
+            },
+            {
+              "type": "vector",
+              "id": "lQOUToxBAu7XPhuy",
+              "x": 1128.2734375,
+              "y": 266.203125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 45.27734375,
+              "dy": -94.5234375,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "D5mXTNmOmU6r10nI",
+              "x": 1181.23046875,
+              "y": 282.96484375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 32.67578125,
+              "dy": -100.15234375,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 368
+        }
+      },
+      {
+        "id": "A6TyyenXXGka1xIk",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Here is a viewer for the Rasberry Shake data from your school and others. Look at the data for stations &lt;ERK&gt;, &lt;###&gt; and &lt;###&gt;. What do you notice. Can you identify any of the sources of the noise in this data? Drag this tile (or make a new one with the button that looks like a rectangle) into your workspace and explore data. Once you have some stations and times identified, you can pull them into your Seismic Toolbox to make graphs and compare traces.</p>"
+          ]
+        }
+      },
+      {
+        "id": "r8_5gK_R0RGWGjKy",
+        "title": "Interactive 1",
+        "content": {
+          "type": "IframeInteractive",
+          "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
+          "interactiveState": {},
+          "authoredState": {},
+          "maxHeight": 0,
+          "enableScroll": false
+        }
+      }
+    ]
+  }
+}

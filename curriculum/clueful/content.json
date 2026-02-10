@@ -2,14 +2,21 @@
   "code": "clueful",
   "abbrevTitle": "CLUE",
   "appName": "CLUE",
-  "title": "Collaborative Learning",
+  "title": "Collaborative CLUEs",
   "subtitle": "Concord Consortium",
   "config": {
     "placeholderText": "Drag or create tiles here.",
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
-    "disablePublish": ["student"],
-    "enableHistoryRoles": ["teacher", "student"],
+    "defaultLearningLogDocument": false,
+    "disablePublish": [
+      "student"
+    ],
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "initiallyHideExemplars": true,
     "toolbar": [
       {
         "id": "select",
@@ -121,6 +128,19 @@
         "isTileTool": false
       }
     ],
+    "authorTools": [
+      {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      },
+      {
+        "id": "solution",
+        "title": "Toggle Solution Tile",
+        "iconId": "icon-solution-tool",
+        "isTileTool": false
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -144,7 +164,9 @@
               "title": "Reflection",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -177,7 +199,8 @@
               "showStars": [],
               "addDocument": true
             }
-          ]
+          ],
+          "hidden": true
         },
         {
           "tab": "class-work",
@@ -197,18 +220,28 @@
                 "!isDeleted"
               ]
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
         },
         {
           "tab": "sort-work",
           "label": "Class Gallery",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -265,6 +298,7 @@
           "bold",
           "italic",
           "list-ul",
+          "list-ol",
           "highlight",
           "subscript",
           "superscript",
@@ -353,6 +387,10 @@
       },
       "dataflow": {
         "maxTiles": 1
+      },
+      "simulator": {
+        "defaultSimulation": "terrarium",
+        "maxTiles": 1
       }
     },
     "enableCommentRoles": [
@@ -367,7 +405,9 @@
       "applying": "Applying",
       "analyzing": "Analyzing"
     },
-    "tagPrompt": "Learning Journey",
+    "termOverrides": {
+      "strategy": "Learning Journey"
+    },
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master teacher of 7th grade STEM subjects.",
@@ -380,7 +420,19 @@
         "analyzing"
       ],
       "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
-      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'."
+      "discussionPrompt": "Return a concise description of the kinds of skills a student is showing in their work, and a suggestion for another activity to try so they get more proficient. Use the problems or topics in the document to motivate new exercises. This description should address the student directly as 'You'.",
+      "summarizer": "text"
+    },
+    "showIdeasButton": true,
+    "sortWorkConfig": {
+      "sortOptions": [
+        "Date",
+        "Name",
+        "Group",
+        "Strategy",
+        "Tools"
+      ],
+      "defaultPrimarySort": "Name"
     }
   },
   "sections": {
@@ -415,7 +467,7 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "Investigation",
+      "title": "STEM Inquiry",
       "problems": [
         {
           "description": "Activity 1.1",
@@ -424,21 +476,26 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-1/warmup/content.json",
-            "investigation-1/problem-1/activity/content.json",
-            "investigation-1/problem-1/reflect/content.json"
+            "sections/investigation-1/problem-1/warmup/content.json",
+            "sections/investigation-1/problem-1/activity/content.json",
+            "sections/investigation-1/problem-1/reflect/content.json"
           ]
         },
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "Graphs and Tables",
+          "title": "Graphs and Tables and Data",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-2/warmup/content.json",
-            "investigation-1/problem-2/activity/content.json",
-            "investigation-1/problem-2/reflect/content.json"
+            "sections/investigation-1/problem-2/warmup/content.json",
+            "sections/investigation-1/problem-2/activity/content.json",
+            "sections/investigation-1/problem-2/reflect/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-2/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-2/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-2/exemplar-3/content.json"
           ]
         },
         {
@@ -448,9 +505,14 @@
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "investigation-1/problem-3/warmup/content.json",
-            "investigation-1/problem-3/activity/content.json",
-            "investigation-1/problem-3/reflect/content.json"
+            "sections/investigation-1/problem-3/warmup/content.json",
+            "sections/investigation-1/problem-3/activity/content.json",
+            "sections/investigation-1/problem-3/reflect/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-3/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-3/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-3/exemplar-3/content.json"
           ]
         }
       ]

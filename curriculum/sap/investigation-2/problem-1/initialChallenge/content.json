@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The line plots below show the heights of a random sample of 32 male professional basketball players and the heights of a random sample of 32 female professional basketball players. The mean and the mean absolute deviation (MAD) are given for each sample. </p>"
+            "<p>The following line plots below show the heights of a random sample of 32 male professional basketball players and the heights of a random sample of 32 female professional basketball players. The mean and the mean absolute deviation (MAD) are given for each sample. </p>"
           ]
         }
       },
@@ -187,7 +187,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>There are 32 data observations (dots) on each line plot that represent professional players.</p><p>The mean for the male player heights is larger than the mean for the female player heights. The means differ by about 16 centimeters, which is a noticeable difference in height. </p><p><strong>Note</strong>: This difference is unusual when comparing samples unless the samples are from different populations like they are here.</p><p>The MADs of the two distributions are similar. They are only about 2 units away from one another. So, the variabilities are similar in terms of MAD. </p><p>There is slightly more variability in the heights of the male professional players. </p><p>The MAD is larger – approximately 8.8 vs 7.1. </p><p>The range is larger - approximately 49cm vs 30cm.</p><p>Female professional basketball player distribution: 93.75% (30 of the 32 data values) are within two MADs of the mean.</p><p>Male professional basketball player distribution: 90.625% (29 of the 32 data values) are within two MADs of the mean.</p><p><strong>Note</strong>: The MAD tells us how far, on average (i.e., mean), all values are from the distribution mean. If the MAD is small, there is less variability in the data; if it is large, there is more variability in the data. When there is more variability, the mean may not be as good a descriptor of what is typical in the data set.</p><p>The line (dot) plots have slight variations in shape. </p><p>The heights of the Female Players clusters. Most data observations seem to cluster from 175cm to 185 cm with another cluster just shorter and taller than 195cm. </p><p>The heights of the Male Players has gaps with a cluster of data from just taller than 190 cm to just taller than 210.</p><p>The plots below show, for each distribution, the locations of three MADs less than the mean and three MADs greater than the mean </p>"
+            "<p>There are 32 data observations (dots) on each line plot that represent professional players.</p><p>The mean for the male player heights is larger than the mean for the female player heights. The means differ by about 16 centimeters, which is a noticeable difference in height. </p><p><strong>Note</strong>: This difference is unusual when comparing samples unless the samples are from different populations like they are here.</p><p>The MADs of the two distributions are similar. They are only about 2 units away from one another. So, the variabilities are similar in terms of MAD. </p><p>There is slightly more variability in the heights of the male professional players. </p><p>The MAD is larger, approximately 8.8 cm versus 7.1 cm. </p><p>The range is larger, approximately 49 cm vs 30 cm.</p><p>Female professional basketball player distribution: 93.75% (30 of the 32 data values) are within two MADs of the mean.</p><p>Male professional basketball player distribution: 90.625% (29 of the 32 data values) are within two MADs of the mean.</p><p><strong>Note</strong>: The MAD tells us how far, on average (i.e., mean), all values are from the distribution mean. If the MAD is small, there is less variability in the data; if it is large, there is more variability in the data. When there is more variability, the mean may not be as good a descriptor of what is typical in the data set.</p><p>The line (dot) plots have slight variations in shape. </p><p>The heights of the female players cluster. Most data observations seem to cluster from 175 cm to 185 cm with another cluster just shorter and taller than 195cm. </p><p>The heights of the male players has gaps, with a cluster of data from just taller than 190 cm to just taller than 210 cm.</p><p><strong>Note: </strong>The following plots show, for each distribution, the locations of two MADs less than the mean and three MADs greater than the mean </p>"
           ]
         }
       },
@@ -197,8 +197,8 @@
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp13.png",
-          "filename": "sap/images/sp13.png"
+          "url": "sap/images/heights-of-female-professional-basketball-players.png",
+          "filename": "sap/images/heights-of-female-professional-basketball-players.png"
         }
       },
       {
@@ -207,8 +207,8 @@
         "display": "teacher",
         "content": {
           "type": "Image",
-          "url": "sap/images/sp14.png",
-          "filename": "sap/images/sp14.png"
+          "url": "sap/images/heights-of-male-professional-basketball-players.png",
+          "filename": "sap/images/heights-of-male-professional-basketball-players.png"
         }
       }
     ],
@@ -228,7 +228,9 @@
                 "name": "Player Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -271,7 +273,9 @@
                 "name": "Height (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "168",
                   "172",
@@ -406,7 +410,8 @@
               {
                 "__id__": "r3rIygmwc8FmDTad"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -429,7 +434,9 @@
                 "name": "Player Number",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -472,7 +479,9 @@
                 "name": "Height (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "178",
                   "183",
@@ -607,7 +616,8 @@
               {
                 "__id__": "01HYEAAWM5K892M3ZC3X51HA7F"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "provider": "qSJuxJ-u3TM7p065",

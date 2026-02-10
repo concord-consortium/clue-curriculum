@@ -1,0 +1,96 @@
+{
+  "code": "m2sAI",
+  "abbrevTitle": "M2SAI",
+  "title": "M2Studio AI Teacher Guide",
+  "subtitle": "",
+  "config": {
+    "autoAssignStudentsToIndividualGroups": true,
+    "autoSectionProblemDocuments": false,
+    "disablePublish": [
+      {
+        "documentType": "learningLog"
+      }
+    ],
+    "placeholderText": "Enter notes here",
+    "defaultDocumentType": "problem",
+    "defaultDocumentTitle": "Untitled",
+    "settings": {
+      "table": {
+        "numFormat": ".3~f"
+      },
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "subscript",
+          "superscript",
+          "link",
+          "new-variable",
+          "insert-variable",
+          "edit-variable"
+        ]
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "stamp",
+          "stroke-color",
+          "fill-color",
+          "image-upload",
+          "new-variable",
+          "insert-variable",
+          "edit-variable",
+          "group",
+          "ungroup",
+          "delete"
+        ]
+      },
+      "diagram": {
+        "maxTiles": 1
+      },
+      "graph": {
+        "defaultAxisLabels": {
+          "bottom": "x",
+          "left": "y"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true
+      }
+    }
+  },
+  "sections": {
+    "sequence": {
+      "initials": "SEQ",
+      "title": "Sequence",
+      "placeholder": "Notes on Sequence"
+    },
+    "tips": {
+      "initials": "TIPS",
+      "title": "Tips",
+      "placeholder": "Tips for Teaching"
+    }
+  },
+  "investigations": [
+    {
+      "description": "M2Studio AI Activities",
+      "ordinal": 1,
+      "title": "M2Studio AI Activities",
+      "problems": [
+        {
+          "description": "M2SAI Activity 1.1",
+          "ordinal": 1,
+          "title": "Introduction to Math Modeling",
+          "sections": [
+            "investigation-1/problem-1/sequence/content.json",
+            "investigation-1/problem-1/tips/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

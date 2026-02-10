@@ -1,0 +1,286 @@
+{
+  "title": "Exploring and graphing the data",
+  "tag": "exploring",
+  "content": {
+    "tiles": [
+      {
+        "id": "mqXTXly-Dyuote2p",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "3H4N-_2jWPp_Fx81": 133.83203125,
+            "Fo9sEOr8RC-JzumY": 211.39453125,
+            "9km9x0A3p8exqvkU": 80,
+            "fRkt9yKRRaAdV13z": 80,
+            "VLEjEtgZ5psLIk8d": 171.11328125
+          }
+        }
+      },
+      {
+        "id": "bKc0xHU8uJsBY07l",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The relationship has a squared term, so I am going to get a parabola.</p>"
+          ]
+        }
+      },
+      {
+        "id": "No39xyRymE5PL-j9",
+        "title": "position vs. time falling data",
+        "content": {
+          "type": "Graph",
+          "adornments": [
+            {
+              "id": "ADRN4SEkJIgfGbju",
+              "type": "Movable Line",
+              "isVisible": true,
+              "lines": {}
+            }
+          ],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": -0.1,
+              "max": 0.7
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -2,
+              "max": 16
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYR6NR86ZeMH5ob",
+              "config": {
+                "id": "DCON9KCzxRAQgirl",
+                "dataset": "sv7ssU1NWqqjnHWQ",
+                "metadata": "YO7HbhgnSajKnB5J",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "3H4N-_2jWPp_Fx81"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "Fo9sEOr8RC-JzumY"
+                  },
+                  {
+                    "attributeID": "VLEjEtgZ5psLIk8d"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "Fo9sEOr8RC-JzumY": 0,
+            "3H4N-_2jWPp_Fx81": 1,
+            "9km9x0A3p8exqvkU": 2,
+            "dtlRjbMrgXdJ2YTw": 3,
+            "VLEjEtgZ5psLIk8d": 4,
+            "{}": 5,
+            "G3Hnn9Hgpny2IEQ6": 6
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "position",
+          "yAttributeLabel": "time"
+        }
+      },
+      {
+        "id": "NHDH5nGplMFmApgG",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>I </p>"
+          ]
+        }
+      },
+      {
+        "id": "1BMBvjkP2gNsSr3i",
+        "title": "AI 1",
+        "content": {
+          "type": "AI",
+          "hidePrompt": false,
+          "prompt": "You are an expert physics and mathematics teacher for middle school. You compare the solutions for a study of falling objects under earth's gravity across the class for style and comment on whether they are using guess and check, some graphing support, prediction, algebra, or other techniques. Summarize in a few sentences what techniques you see and how this one compares.",
+          "text": "This is where the dynamically generated AI response will appear."
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "XsOKcnSW34ugFIy8",
+          "providerId": "mqXTXly-Dyuote2p",
+          "dataSet": {
+            "id": "sv7ssU1NWqqjnHWQ",
+            "name": "falling data",
+            "attributes": [
+              {
+                "id": "3H4N-_2jWPp_Fx81",
+                "clientKey": "",
+                "name": "time",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  ".1",
+                  ".2",
+                  ".5",
+                  "0.56"
+                ],
+                "title": ""
+              },
+              {
+                "id": "Fo9sEOr8RC-JzumY",
+                "clientKey": "",
+                "name": "position",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "-0.5*g*time^2+p0"
+                },
+                "values": [
+                  5,
+                  4.83915,
+                  4.3566,
+                  0.9787499999999998,
+                  -0.04425600000000074
+                ],
+                "title": ""
+              },
+              {
+                "id": "9km9x0A3p8exqvkU",
+                "clientKey": "",
+                "name": "p0",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "5",
+                  "5",
+                  "5",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "fRkt9yKRRaAdV13z",
+                "clientKey": "",
+                "name": "g",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17",
+                  "32.17"
+                ],
+                "title": ""
+              },
+              {
+                "id": "VLEjEtgZ5psLIk8d",
+                "clientKey": "",
+                "name": "v",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": "0.5*g*time+p0"
+                },
+                "values": [
+                  5,
+                  6.6085,
+                  8.217,
+                  13.0425,
+                  14.007600000000002
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "pzG8OZM3cZGxHhNE"
+              },
+              {
+                "__id__": "2eOTuPEanaZqqg-6"
+              },
+              {
+                "__id__": "dr0AgpI-plzPnwK7"
+              },
+              {
+                "__id__": "INGeploqyXcWmR6u"
+              },
+              {
+                "__id__": "Scj8vJWxWjRaxAG7"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "mqXTXly-Dyuote2p",
+        "tiles": [
+          "mqXTXly-Dyuote2p",
+          "No39xyRymE5PL-j9"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "YO7HbhgnSajKnB5J",
+          "data": "sv7ssU1NWqqjnHWQ",
+          "collections": {},
+          "categories": {
+            "3H4N-_2jWPp_Fx81": {
+              "attribute": "3H4N-_2jWPp_Fx81",
+              "colors": {},
+              "moves": []
+            },
+            "Fo9sEOr8RC-JzumY": {
+              "attribute": "Fo9sEOr8RC-JzumY",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "No39xyRymE5PL-j9"
+        ]
+      }
+    ]
+  }
+}

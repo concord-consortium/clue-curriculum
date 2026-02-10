@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>A movie theatre offers a discounted rate of $4.50 per student to the school. However, at this low price, the movie theatre worries about losing money. The theatre’s operating expenses include $130 for the staff and a film rental fee of $1.25 per student. </p>"
+            "<p>A theatre company offers a discounted rate of $4.50 per student to the school. However, at this low price, the movie theatre worries about losing money. The theatre’s operating expenses include $130 for the staff and a film rental fee of $1.25 per student. </p>"
           ]
         }
       },
@@ -43,13 +43,60 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The movie company will “break even” if there are 40 students in attendance.</p><p>Student answers will vary. </p><p>Sample response finding when Expenses equal Income.</p><p>We can find when the expenses and incomes are equal.</p><p>4.50n = 130 + 1.25n</p><p>3.25n = 130</p><p>          n = 40</p><p></p><p>Sample response using the Profit equation.</p><p>We can write equations for the movie company’s income <em>I</em>, expenses <em>E</em>, and model profit <em>P</em> as income – expenses. For some number of students n,</p><p>P = I – E </p><p>P = 4.50n – (130 + 1.25n) </p><p>P = 3.25n – 130</p><p>The point at which the movie company will “break even” is the point at which their profit equals zero, so we can solve for which value of n makes P=0.</p><p>      0 = 3.25n – 130</p><p>130 = 3.25n  </p><p>  40 = n</p><p></p><p>Sample response using a graph.</p><p>Graph both equations on the same axes. y = 4.50n and y = 130 + 1.25n</p><p>Then find where the graphs intersect (using a tracing or some other strategy.) We see that the lines intersect when the number of students is 40.</p>"
+            "<p>The movie company will “break even” if there are 40 students in attendance. So when number of students &gt; 40, the company will make a profit. </p><p>Student answers will vary. </p>"
           ]
         }
       },
       {
-        "id": "nsgtL2s50YpWaovv",
-        "title": "Movie Theater Income and Expenses",
+        "id": "MFM5hs3Pd0RytFM2",
+        "title": "Text 11",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Sample response using a table:</strong></p><p>Find the income made with the price for every student as the number of students increases.</p><p>Find the expenses as the number of students increase.</p><p>Look for the amount when the income and the expenses are the same ($180). This happens at 40 students. Any entries beyond this number of students will yield a profit. </p>"
+          ]
+        }
+      },
+      {
+        "id": "23K0Det_rM2ZUXP4",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "NyKzQc5EHnOTa5cl": 80,
+            "bEcetF5x6t0ymaB_": 295.98077392578125,
+            "dD_uZX0wYGCXZ0rL": 306.159912109375
+          }
+        }
+      },
+      {
+        "id": "iVN-qgnBzkrlAGEF",
+        "title": "Text 12",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Sample response finding when expenses equal income and then using this to reason about the inequality expenses &lt; income: </strong></p><p>We can find when the expenses and income are equal.</p><p>4.50n = 130 + 1.25n</p><p>3.25n = 130</p><p>          n = 40</p><p>So if we want expenses &lt; income, we can reason from the equation to find when the inequality is 130 + 1.25n &lt; 4.50n, so when 40&lt; n, the company will begin to make a profit.</p>"
+          ]
+        }
+      },
+      {
+        "id": "6I5PZ6nvcMYWKW8D",
+        "title": "Text 13",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Sample response using a graph:</strong></p><p>Graph both equations on the same axes. y = 4.50n and y = 130 + 1.25n</p><p>Then find where the graphs intersect (using a tracing or some other strategy.) We see that the lines intersect when the number of students is 40, so the company will begin to make a profit when the blue income line is above the orange expenses line. </p>"
+          ]
+        }
+      },
+      {
+        "id": "cD7kTrhFc3IrLn8Z",
+        "title": "Graph 1",
         "display": "teacher",
         "content": {
           "type": "Graph",
@@ -59,38 +106,38 @@
               "type": "numeric",
               "place": "bottom",
               "scale": "linear",
-              "min": -5,
-              "max": 75
+              "min": -10,
+              "max": 80
             },
             "left": {
               "type": "numeric",
               "place": "left",
               "scale": "linear",
-              "min": -25,
-              "max": 325
+              "min": -50,
+              "max": 350
             }
           },
           "lockAxes": false,
           "plotType": "scatterPlot",
           "layers": [
             {
-              "id": "LAYRAeg_tgsGNvRB",
+              "id": "LAYRsCqiMm05s8yV",
               "config": {
-                "id": "DCON9aQzZNSNHCh7",
-                "dataset": "EaqnJbUqmo1aYfK4",
-                "metadata": "86o8BRlaI8Iv492D",
+                "id": "DCONBcO2OB-4Ac_l",
+                "dataset": "pV3eHS5gP-GN4Amh",
+                "metadata": "kXYJFweyuvE3Ilxz",
                 "primaryRole": "x",
                 "_attributeDescriptions": {
                   "x": {
-                    "attributeID": "PYcJyZI9PIoaImVH"
+                    "attributeID": "NyKzQc5EHnOTa5cl"
                   }
                 },
                 "_yAttributeDescriptions": [
                   {
-                    "attributeID": "n_BO8sFQhz5C-dtC"
+                    "attributeID": "bEcetF5x6t0ymaB_"
                   },
                   {
-                    "attributeID": "CXpMuQdshYBgTNQ-"
+                    "attributeID": "dD_uZX0wYGCXZ0rL"
                   }
                 ]
               },
@@ -98,8 +145,8 @@
             }
           ],
           "_idColors": {
-            "n_BO8sFQhz5C-dtC": 0,
-            "CXpMuQdshYBgTNQ-": 1
+            "bEcetF5x6t0ymaB_": 1,
+            "dD_uZX0wYGCXZ0rL": 0
           },
           "_pointColors": [
             "#E6805B"
@@ -112,32 +159,20 @@
           "plotBackgroundImageID": "",
           "showParentToggles": false,
           "showMeasuresForSelection": false,
-          "xAttributeLabel": "x",
-          "yAttributeLabel": "y"
+          "xAttributeLabel": "Label x",
+          "yAttributeLabel": "Label y"
         }
       },
       {
-        "id": "MFM5hs3Pd0RytFM2",
-        "title": "Text 11",
+        "id": "-sRn4gE4lN7UKgsg",
+        "title": "Text 14",
         "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Sample response using a table.</p><p>Find the income made with the price for every student as the number of students increase.</p><p>Find the expenses as the number of students increase.</p><p>Look for the amount when the income and the expenses are the same ($180). This happens at 40 students.</p>"
+            "<p><strong>Sample response using the profit equation:</strong></p><p>We can write equations for the movie company’s income <em>I</em>, expenses <em>E</em>, and model profit <em>P</em> as income – expenses. For some number of students n,</p><p>P = I – E </p><p>P = 4.50n – (130 + 1.25n) </p><p>P = 3.25n – 130</p><p>The point at which the movie company will “break even” is the point at which their profit equals zero, so we can solve for which value of n makes P=0.</p><p>      0 = 3.25n – 130</p><p>130 = 3.25n  </p><p>  40 = n</p><p>So when n&gt; 40, the company will begin to make a profit. </p>"
           ]
-        }
-      },
-      {
-        "id": "1B7kAFcHDu4U_gJl",
-        "display": "teacher",
-        "content": {
-          "type": "Table",
-          "columnWidths": {
-            "PYcJyZI9PIoaImVH": 118.79341125488281,
-            "n_BO8sFQhz5C-dtC": 146.74044799804688,
-            "CXpMuQdshYBgTNQ-": 139.9609375
-          }
         }
       }
     ],
@@ -145,19 +180,21 @@
       {
         "sharedModel": {
           "type": "SharedDataSet",
-          "id": "FSkhjqbarc-eIkdf",
-          "providerId": "1B7kAFcHDu4U_gJl",
+          "id": "I5zsFzST74nVgFT5",
+          "providerId": "23K0Det_rM2ZUXP4",
           "dataSet": {
-            "id": "EaqnJbUqmo1aYfK4",
+            "id": "pV3eHS5gP-GN4Amh",
             "name": "Movie Theatre Income and Expenses",
             "attributes": [
               {
-                "id": "PYcJyZI9PIoaImVH",
+                "id": "NyKzQc5EHnOTa5cl",
                 "clientKey": "",
-                "name": "Number of students",
+                "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "10",
@@ -165,19 +202,19 @@
                   "30",
                   "40",
                   "50",
-                  "60"
+                  "60",
+                  "70"
                 ],
                 "title": ""
               },
               {
-                "id": "n_BO8sFQhz5C-dtC",
+                "id": "bEcetF5x6t0ymaB_",
                 "clientKey": "",
-                "name": "Expenses",
+                "name": "Income, I ($)",
                 "hidden": false,
                 "units": "",
                 "formula": {
-                  "display": "1.25*x+130",
-                  "canonical": "((1.25 * __x__) + 130)"
+                  "display": "1.25x+130"
                 },
                 "values": [
                   130,
@@ -186,19 +223,19 @@
                   167.5,
                   180,
                   192.5,
-                  205
+                  205,
+                  217.5
                 ],
                 "title": ""
               },
               {
-                "id": "CXpMuQdshYBgTNQ-",
+                "id": "dD_uZX0wYGCXZ0rL",
                 "clientKey": "",
-                "name": "Income",
+                "name": "Expenses, E ($)",
                 "hidden": false,
                 "units": "",
                 "formula": {
-                  "display": "4.5*x",
-                  "canonical": "(4.5 * __x__)"
+                  "display": "4.5x"
                 },
                 "values": [
                   0,
@@ -207,55 +244,60 @@
                   135,
                   180,
                   225,
-                  270
+                  270,
+                  315
                 ],
                 "title": ""
               }
             ],
             "cases": [
               {
-                "__id__": "YJnryhCwFLOrX_1q"
+                "__id__": "HqeKJWwTs0AZVasN"
               },
               {
-                "__id__": "rKCXaIS1NmHuUocY"
+                "__id__": "bOm2oSdsAv5tE5aG"
               },
               {
-                "__id__": "J-Tewz2RhZGzLLBm"
+                "__id__": "0yy1PbYWh2RtSzTu"
               },
               {
-                "__id__": "XbC1EY63HwgHqaLH"
+                "__id__": "Abv7qw2YXjNk6OwT"
               },
               {
-                "__id__": "7Xj3mCOvfSclVSiz"
+                "__id__": "jX1I_J-BNhFnBTxH"
               },
               {
-                "__id__": "ay9LtlideLqDZ1P-"
+                "__id__": "z0n_m6bd44HWXG2-"
               },
               {
-                "__id__": "CEdNEZxIXdVn9VlG"
+                "__id__": "jXUSAqzBSaDT--a0"
+              },
+              {
+                "__id__": "_tl5y5e21zkegEPf"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
-          "1B7kAFcHDu4U_gJl",
-          "nsgtL2s50YpWaovv"
+          "23K0Det_rM2ZUXP4",
+          "cD7kTrhFc3IrLn8Z"
         ]
       },
       {
         "sharedModel": {
           "type": "SharedCaseMetadata",
-          "id": "86o8BRlaI8Iv492D",
-          "data": "EaqnJbUqmo1aYfK4",
+          "id": "kXYJFweyuvE3Ilxz",
+          "data": "pV3eHS5gP-GN4Amh",
           "collections": {},
           "categories": {
-            "PYcJyZI9PIoaImVH": {
-              "attribute": "PYcJyZI9PIoaImVH",
+            "NyKzQc5EHnOTa5cl": {
+              "attribute": "NyKzQc5EHnOTa5cl",
               "colors": {},
               "moves": []
             },
-            "n_BO8sFQhz5C-dtC": {
-              "attribute": "n_BO8sFQhz5C-dtC",
+            "bEcetF5x6t0ymaB_": {
+              "attribute": "bEcetF5x6t0ymaB_",
               "colors": {},
               "moves": []
             }
@@ -264,7 +306,7 @@
           "hidden": {}
         },
         "tiles": [
-          "nsgtL2s50YpWaovv"
+          "cD7kTrhFc3IrLn8Z"
         ]
       }
     ]

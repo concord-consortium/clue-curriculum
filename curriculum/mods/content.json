@@ -89,6 +89,19 @@
         "isTileTool": false
       }
     ],
+    "authorTools": [
+      {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      },
+      {
+        "id": "solution",
+        "title": "Toggle Solution Tile",
+        "iconId": "icon-solution-tool",
+        "isTileTool": false
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -190,6 +203,9 @@
       ]
     },
     "settings": {
+      "ai": {
+        "systemPrompt": "You are a smart and collaborative student in a 6th-grade engineering design class talking to other students. Use simple, clear, concise language, and a straightforward tone without embellishment. Address your fellow students as 'You'."
+      },
       "table": {
         "numFormat": ".2~f",
         "tools": [
@@ -219,13 +235,26 @@
     ],
     "showCommentTag": true,
     "commentTags": {
-      "user": "Who's it for?",
-      "environment": "Where's it used?",
-      "form": "What's it look like?",
-      "function": "What's it do?"
+      "user": "Stakeholder",
+      "environment": "Environment/Context",
+      "form": "Design",
+      "function": "Function"
     },
-    "tagPrompt": "Design Focus",
-    "aiEvaluation": "categorize-design",
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are an experienced middle school STEM educator specializing in water conservation and front-end design. You provide warm, encouraging, and constructive feedback that is ALWAYS grounded in the student's specific words and ideas—never generic. You must directly quote or paraphrase something the student wrote before offering guidance. You are familiar with divergent-convergent thinking, where divergent thinking involves generating many different ideas and possibilities, and convergent thinking involves narrowing down and focusing on specific ideas and possibilities.\nYour middle school students are completing an online module aimed at teaching them about front-end design and water conservation. The module has eight lessons: L1: Importance of Water Conservation, L2: Stakeholder Mapping, L3: Stakeholder Profile and Community Research, L4: Scoping, L5: Research, L6: Concept Generation, Drawing Ideas, L7: Idea Generation Part 2, and L8: Presentation and Reflection.",
+      "mainPrompt": "This is a picture of the student's work. Review the student's work carefully. Identify ONE specific idea, phrase, or detail the student mentioned. Provide feedback in one to two sentences that directly references that specific detail and helps the student think more critically about their front-end design process and how it connects to water conservation. Do NOT give generic praise or vague suggestions. Your feedback must prove you read their work by naming something only they wrote.",
+      "categorizationDescription": "Based on the student's work, categorize their thinking as focusing on the Stakeholder, Environment, Design, or Function of their description. State your categorization in one sentence, then explain in one sentence WHY by pointing to specific evidence from the student's response—for example, \"You focused on the Design by discussing the size of a water reservoir.\" or \"You chose to focus specifically on farmers and their irrigation needs.\"",
+      "categories": [
+        "user",
+        "environment",
+        "form",
+        "function"
+      ],
+      "keyIndicatorsPrompt": "List 2-3 specific phrases, ideas, or details FROM THE STUDENT'S ACTUAL RESPONSE that support your categorization. Use quotation marks or direct paraphrasing. Do not describe general behaviors—cite their actual words. For example: \"The student wrote 'taking a shower saves more water than a bath,' showing they are processing new information\" or \"The student mentioned 'a scale that shows how much water you're using,' indicating an emerging design idea.\"",
+      "discussionPrompt": "In one to two sentences written for a middle school student, connect something SPECIFIC the student said to a next step in their thinking. You MUST reference their actual words (quote or paraphrase) before asking your question. Keep language simple and encouraging. End with ONE clear question that builds on their idea.\nExample format: \"You said [specific thing they wrote]—that's interesting because [brief connection]. [One guiding question]?\"\nDo NOT use phrases like \"great job exploring\" or \"keep thinking about your community\" without tying them to the student's specific words.",
+      "summarizer": "image"
+    },
     "stamps": [
       {
         "url": "mods/stamps/jumping.png",
@@ -252,7 +281,23 @@
         "width": 162,
         "height": 110
       }
-    ]
+    ],
+    "showIdeasButton": true,
+    "termOverrides": {
+      "strategy": "Design Focus",
+      "studentGroup": "Group",
+      "sortLabel.sortByDate": "Day"
+    },
+    "sortWorkConfig": {
+      "sortOptions": [
+        "Date",
+        "Group",
+        "Name",
+        "Strategy",
+        "Tools",
+        "Bookmarked"
+      ]
+    }
   },
   "sections": {
     "introduction": {

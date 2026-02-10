@@ -1,0 +1,447 @@
+{
+  "type": "labWork",
+  "content": {
+    "tiles": [
+      {
+        "id": "0SJCrZXuVeSNnnQ7",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Measuring touch sensitivity</strong></p><p>Decide who is going to be the experimenter and who will be the test subject (you should take turns such that all team members will be a test subject once). </p><ol><li>The test subject should close their eyes.</li><li>The experimenter should gently press the caliper’s jaws against the skin of the test subject, and ask them if they feel one point or two points of contact (the two points need to touch the skin at the same time).</li><li>Set the caliper’s jaw at a distance of 60mm and keep testing smaller and smaller distances (30mm, 15mm, 7.5mm, 3.75mm) until the subject indicates that they feel one point only.</li><li>Test the forehead, back, arm, palm of the hand, leg, and feet as shown in the picture below in any order.</li><li>Record the first distance that the subject felt as one point (or the last distance that was tested) in the table below.</li><li>Enter the numbers from your table <a href=\"https://brainmapper.org/experiment/\">here</a>.</li><li>Take a screenshot of the resulting homunculus. You can then upload your homunculus into your workspace by creating an image tile and dragging or uploading the image from your desktop into the tile. </li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "5Xof-8AsxUpQjWzj",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Drag the table into your workspace so you can fill it out for each person you test:</p>"
+          ]
+        }
+      },
+      {
+        "id": "-_Iy8GLo1QXFHm1_",
+        "title": "Image 1",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/real2.jpg",
+          "filename": "brain/images/real2.jpg"
+        }
+      },
+      {
+        "id": "FaNtpxwaTSgUXW_9",
+        "title": "Table 1",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "H4MxVbSjYyeUNuwV": 124.4375,
+            "xc3WtUg3SduCQW-j": 114.2000732421875,
+            "L0isuB4nOlDGhpSD": 120.6500244140625,
+            "BRcKod94F4Cb6snr": 117.921875
+          },
+          "name": "Homunculus Mapping"
+        }
+      },
+      {
+        "id": "A3KLxuEkPr0JYBvL",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Answer the following questions in your workspace:</p><ol><li>What is the most/least sensitive body part?</li><li> Why do different parts of the body have different sensitivity to touch?</li><li>How consistent were your results across test subjects? What could explain individual differences in touch sensitivity?</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "o8qTPdoabFBk7-hu",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Simulating Pressure</strong></p><p>In Lesson 1.5, you controlled a physical gripper using your arm muscles. Drag the following Dataflow tile with the code you used in 1.5, and SIM tile into your workspace. Connect the blocks in the Dataflow tile. </p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "blbWy0Vngbc-Sh27",
+          "title": "Program 1",
+          "content": {
+            "type": "Dataflow",
+            "programDataRate": 100,
+            "programZoom": {
+              "dx": 0,
+              "dy": 0,
+              "scale": 0.32550928021729286
+            },
+            "program": {
+              "values": {
+                "2": {
+                  "currentValues": {
+                    "nodeValue": 0
+                  }
+                },
+                "3": {
+                  "currentValues": {}
+                },
+                "11": {
+                  "currentValues": {}
+                },
+                "14": {
+                  "currentValues": {
+                    "nodeValue": 0
+                  }
+                }
+              },
+              "id": "dataflow@0.1.0",
+              "nodes": {
+                "2": {
+                  "id": 2,
+                  "name": "Number",
+                  "x": -8.018681711495006,
+                  "y": 426.20069272869216,
+                  "inputs": {},
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Number 1",
+                    "nodeValueUnits": ""
+                  }
+                },
+                "3": {
+                  "id": 3,
+                  "name": "Logic",
+                  "x": 212.42313160567997,
+                  "y": 321.53331891521026,
+                  "inputs": {
+                    "num1": {
+                      "connections": {}
+                    },
+                    "num2": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Logic 2",
+                    "logicOperator": "Greater Than"
+                  }
+                },
+                "11": {
+                  "id": 11,
+                  "name": "Sensor",
+                  "x": 0.846250827258153,
+                  "y": 180.17283496041227,
+                  "inputs": {},
+                  "outputs": {
+                    "num": {
+                      "connections": {}
+                    }
+                  },
+                  "data": {
+                    "plot": false,
+                    "orderedDisplayName": "Sensor 3",
+                    "type": "emg-reading",
+                    "sensor": "SIMemg_key",
+                    "virtual": false
+                  }
+                },
+                "14": {
+                  "id": 14,
+                  "name": "Live Output",
+                  "x": 460.81630173196254,
+                  "y": 327.2258453379301,
+                  "inputs": {
+                    "nodeValue": {
+                      "connections": {}
+                    }
+                  },
+                  "outputs": {},
+                  "data": {
+                    "orderedDisplayName": "Live Output 4",
+                    "outputType": "Grabber",
+                    "hubSelect": "Simulated Gripper",
+                    "liveOutputType": "Grabber"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "mD7ViHZShClJ0nZP",
+          "title": "Simulation 1",
+          "content": {
+            "type": "Simulator",
+            "simulation": "EMG_and_claw"
+          }
+        }
+      ],
+      {
+        "id": "x04GXTPSLLK-OeiI",
+        "title": "Text 9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>Answer the following questions in your workspace:</em></p><p>Using the Sim tile, move the slider to increase the pressure. What happens to the cup? </p><p><em>Next, add a sensor to measure the pressure being applied to the cup.</em> How much pressure can the cup endure?&nbsp;</p><p>How would you change the program to prevent the cup from crushing?&nbsp;</p>"
+          ]
+        }
+      },
+      {
+        "id": "KD2VaGFE9x45c1Fs",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Reflection:</strong></p><p>At the end of the activity, please record your current thinking and learning in your Learning journal (see Reflection tab).</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "_vTcvurPI8w2rjOf",
+          "providerId": "FaNtpxwaTSgUXW_9",
+          "dataSet": {
+            "id": "JQKanUSjQ0-e3ZUV",
+            "name": "Homunculus Mapping",
+            "attributes": [
+              {
+                "id": "H4MxVbSjYyeUNuwV",
+                "clientKey": "",
+                "name": "Body Part",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "Palm of hand",
+                  "Arm",
+                  "Forehead",
+                  "Leg",
+                  "Back",
+                  "Foot"
+                ],
+                "title": ""
+              },
+              {
+                "id": "xc3WtUg3SduCQW-j",
+                "clientKey": "",
+                "name": "Subject 1",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "L0isuB4nOlDGhpSD",
+                "clientKey": "",
+                "name": "Subject 2",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "BRcKod94F4Cb6snr",
+                "clientKey": "",
+                "name": "Subject 3",
+                "hidden": false,
+                "units": "",
+                "formula": {},
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01GZPR7SR29VP6719KX90E08CA"
+              },
+              {
+                "__id__": "01GZPR7SR29VP6719KX90E08CB"
+              },
+              {
+                "__id__": "01GZPR7SR29VP6719KX90E08CC"
+              },
+              {
+                "__id__": "01GZPR7SR29VP6719KX90E08CD"
+              },
+              {
+                "__id__": "01GZPR7SR29VP6719KX90E08CE"
+              },
+              {
+                "__id__": "01GZPR7SR29VP6719KX90E08CF"
+              }
+            ]
+          }
+        },
+        "tiles": [
+          "FaNtpxwaTSgUXW_9"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "tZxR54IIvlvcGWgR",
+          "providerId": "blbWy0Vngbc-Sh27",
+          "dataSet": {
+            "id": "CdlVmttiveJIyJDa",
+            "attributes": [],
+            "cases": []
+          }
+        },
+        "tiles": [
+          "blbWy0Vngbc-Sh27"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "k6GW_rIEHF4abO_H",
+          "variables": [
+            {
+              "id": "a0ncwd0q0paMZuHa",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "EQPomup-Kxrs2Ycs",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 39,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "7vjZl7cgRFw8WfC0",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "npoe6ezgU0NjMsY9",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "v8nTW8TtmMlDPEic",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 86,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "0K-ANloz5NvrVQFm",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "GpIbpTHwUNFkSPIv",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "mD7ViHZShClJ0nZP",
+          "0SJCrZXuVeSNnnQ7",
+          "5Xof-8AsxUpQjWzj",
+          "A3KLxuEkPr0JYBvL",
+          "o8qTPdoabFBk7-hu",
+          "blbWy0Vngbc-Sh27",
+          "x04GXTPSLLK-OeiI",
+          "KD2VaGFE9x45c1Fs"
+        ]
+      }
+    ]
+  }
+}

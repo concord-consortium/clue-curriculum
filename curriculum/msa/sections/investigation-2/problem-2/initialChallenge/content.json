@@ -138,7 +138,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>A graph or table would tell you how much you would spend on<em> n</em> t-shirts from each company. </p><p>A graph would give a visual of the inequality that No-Shrink is cheaper until 14 shirts. Then after more than 14 shirts, Mighty would be cheaper with a line below the other company’s.</p>"
+            "<p>A graph or table would tell you how much you would spend on<em> n</em> t-shirts from each company. </p><p>A graph would give a visual of the inequality that No-Shrink is cheaper until 14 shirts. Then after more than 14 shirts, Mighty would be cheaper, with a line below the other company’s.</p>"
           ]
         }
       },
@@ -150,7 +150,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In the graph, we can find where the two lines intersect. This shows the point when both companies have the same cost for the same number of shirts. </p><p>Before that point, we can see that No-Shrink is cheaper, because the y-values are below the y-values of Mighty. After that point, we can see that the y-values of Mighty are less that No-Shrink. </p>"
+            "<p>In the graph, we can find where the two lines intersect. This shows the point when the two companies have the same cost for the same number of shirts. </p><p>Before that point, we can see that No-Shrink is cheaper, because the y-values are below the y-values of Mighty. After that point, we can see that the y-values of Mighty are less that No-Shrink. </p>"
           ]
         }
       },
@@ -347,9 +347,9 @@
           "type": "Table",
           "columnWidths": {
             "TkFNLZY462tpFtjS": 80,
-            "V5m67FeeE8jwUFbC": 80,
-            "X5b5URktmKdxz8hJ": 94.80078125,
-            "xlz0HI5ehVHxtx65": 93.4140625
+            "V5m67FeeE8jwUFbC": 190.494140625,
+            "X5b5URktmKdxz8hJ": 187.71343994140625,
+            "xlz0HI5ehVHxtx65": 186.90673828125
           }
         }
       },
@@ -361,7 +361,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Note: This informal comparison of two linear equations will be formalized in Grade 8. Students will learn that when you find the point at which the costs are the same for the same number of shirts, it is solving a system of linear equations. These informal experiences lay the foundation for connecting ideas in more formal learning later on.</p>"
+            "<p>Note: This informal comparison of two linear equations will be formalized in grade 8. Students will learn that when you find the costs are the same for the same number of shirts, it is solving a system of linear equations. These informal experiences lay the foundation for connecting ideas in more formal learning later in the unit. </p>"
           ]
         }
       }
@@ -382,7 +382,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   0,
                   2,
@@ -402,7 +404,9 @@
                 "name": "Mighty",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "49",
                   "51",
@@ -422,7 +426,9 @@
                 "name": "NoShrink",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "9",
@@ -465,7 +471,8 @@
               {
                 "__id__": "01HEXJH9B1G1W3GFPW8CQ5KZXG"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -488,7 +495,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   0,
                   2,
@@ -505,10 +514,12 @@
               {
                 "id": "V5m67FeeE8jwUFbC",
                 "clientKey": "",
-                "name": "Mighty",
+                "name": "Mighty (49 + x)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "49",
                   "51",
@@ -525,10 +536,12 @@
               {
                 "id": "X5b5URktmKdxz8hJ",
                 "clientKey": "",
-                "name": "No-Shrink",
+                "name": "No-Shrink (4.5x)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0",
                   "9",
@@ -548,7 +561,9 @@
                 "name": "Which is cheaper?",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "No-Shrink",
                   "No-Shrink",
@@ -591,7 +606,8 @@
               {
                 "__id__": "01HEXJH9BA8RD06SDZZH5QSGC7"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [

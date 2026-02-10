@@ -1,0 +1,435 @@
+{
+  "code": "seismic",
+  "abbrevTitle": "QUAKE",
+  "appName": "QUAKE",
+  "title": "Seismic ML",
+  "subtitle": "Trains or Plates",
+  "config": {
+    "placeholderText": "Drag text, models, or sketches here.",
+    "autoAssignStudentsToIndividualGroups": false,
+    "hide4up": true,
+    "autoSectionProblemDocuments": true,
+    "defaultDocumentTitle": "Seismic Wave (type)",
+    "defaultDocumentType": "problem",
+    "defaultLearningLogDocument": false,
+    "documentLabels": {
+      "personal": {
+        "labels": {
+          "1": "Filter Shake Data",
+          "n": "Filter Shake Data"
+        }
+      },
+      "problem": {
+        "labels": {
+          "1": "Filter Shake Data",
+          "n": "Filter Shake Data"
+        }
+      }
+    },
+    "disablePublish": true,
+    "initiallyHideExemplars": false,
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "toolbar": [
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Dataflow",
+        "title": "Program",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "DataCard",
+        "title": "Datacard",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "BarGraph",
+        "title": "Bar Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Question",
+        "title": "Question",
+        "isTileTool": true
+      },
+      {
+        "id": "IframeInteractive",
+        "title": "Raspberry Shake",
+        "isTileTool": true
+      },
+      {
+        "id": "undo",
+        "title": "Undo",
+        "iconId": "icon-undo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "redo",
+        "title": "Redo",
+        "iconId": "icon-redo-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "duplicate",
+        "title": "Duplicate Tile",
+        "iconId": "icon-duplicate-tool",
+        "isTileTool": false
+      },
+      {
+        "id": "delete",
+        "title": "Delete",
+        "iconId": "icon-delete-tool",
+        "isTileTool": false
+      }
+    ],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Lessons",
+          "sections": [
+            {
+              "initials": "ML",
+              "title": "Machine Learning",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "GEO",
+              "title": "Geology",
+              "type": "problem-documents"
+            },
+            {
+              "initials": "HELP",
+              "title": "CLUE Help",
+              "type": "problem-documents"
+            }
+          ],
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "sort-work",
+          "label": "Seismic Library",
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "student-work",
+          "label": "Student Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "teacherOnly": false,
+          "hidden": true
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
+        }
+      ]
+    },
+    "stamps": [
+      {
+        "url": "cas/stamps/black-chip.png",
+        "width": 25,
+        "height": 25
+      }
+    ],
+    "settings": {
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "list-ul",
+          "highlight",
+          "subscript",
+          "superscript",
+          "link"
+        ]
+      },
+      "table": {
+        "numFormat": ".2~f",
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "import-data",
+          ["data-set-view", "bargraph"],
+          ["data-set-view", "graph"],
+          ["data-set-view", "datacard"],
+          "delete"
+        ]
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "vector",
+          "rectangle",
+          "ellipse",
+          "stamp",
+          "text",
+          "upload",
+          "stroke-color",
+          "fill-color",
+          "|",
+          "align",
+          "rotate-right",
+          "flip-horizontal",
+          "flip-vertical",
+          "duplicate",
+          "|",
+          "zoom-in",
+          "zoom-out",
+          "fit-all",
+          "navigator",
+          "delete"
+        ]
+      },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          ["data-set-view", "Table"],
+          ["data-set-view", "graph"],
+          ["data-set-view", "bargraph"],
+          "image-upload",
+          "delete-attribute"
+        ]
+      },
+      "dataflow": {
+        "maxTiles": 1
+      },
+      "iframeInteractive": {
+        "maxTiles": 1,
+        "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
+        "interactiveState": {},
+        "authoredState": {}
+      },
+      "graph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ],
+        "defaultAxisLabels": {
+          "bottom": "time",
+          "left": "Signal"
+        },
+        "emptyPlotIsNumeric": true,
+        "scalePlotOnValueChange": true,
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "bargraph": {
+        "tools": [
+          "link-tile-multiple",
+          "fit-all",
+          "toggle-lock"
+        ]
+      }
+    },
+    "enableCommentRoles": [
+      "teacher",
+      "researcher",
+      "student"
+    ],
+    "showCommentTag": true,
+    "commentTags": {
+      "earthquake": "Earthquake",
+      "human": "Human",
+      "vehicle": "Vehicle",
+      "uncertain": "Uncertain"
+    },
+    "termOverrides": {
+      "strategy": "Seismic Source"
+    },
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master geologist and data scientist who writes machine learning code to distinguish signal from noise in seismic data.",
+      "mainPrompt": "This is a discussion of Seismic data by a seventh grade student. Please evaluate the quality of the model interpretation either of an individual signal or a suite of data over many hours.",
+      "categorizationDescription": "Categorize the discussion in the document according to seismic source if identified: human, earthquake, vehicle, unknown.",
+      "categories": [
+        "earthquake",
+        "human",
+        "vehicle",
+        "uncertain"
+      ],
+      "keyIndicatorsPrompt": "Did the student justify any seismic source choices they made?",
+      "discussionPrompt": "Suggest what other kinds of modeling the student could pursue to better understand the seismic signal. Address the student as You.",
+      "summarizer": "image"
+    },
+    "authorTools": [],
+    "showIdeasButton": false,
+    "sortWorkConfig": {
+      "sortOptions": [
+        "Strategy",
+        "Date",
+        "Group",
+        "Name"
+      ],
+      "defaultPrimarySort": "Strategy"
+    }
+  },
+  "sections": {
+    "ml": {
+      "initials": "ML",
+      "title": "Machine Learning",
+      "placeholder": "Discuss or program your machine learning models here."
+    },
+    "geo": {
+      "initials": "GEO",
+      "title": "Geology",
+      "placeholder": "Discuss, program or paste images of your geology ideas here."
+    },
+    "help": {
+      "initials": "REF",
+      "title": "CLUE Help",
+      "placeholder": "Any notes about the program or library."
+    }
+  },
+  "investigations": [
+    {
+      "description": "Investigation 1",
+      "ordinal": 1,
+      "title": "Seismic Waves",
+      "problems": [
+        {
+          "description": "Activity 1.1",
+          "ordinal": 1,
+          "title": "Hearing the Ground",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-1/geo/content.json"
+          ],
+          "config": {
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "id": "8pKl3_OI-jz7hR8-",
+                  "title": "Text 1",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p><strong>Listening to Motion</strong></p>",
+                      "<p>Use the model below to read in some seismic data and observe its format.</p>"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.2",
+          "ordinal": 2,
+          "title": "Profiles in Noise",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-2/geo/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.3",
+          "ordinal": 3,
+          "title": "Tagging Seismic Signals",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-3/geo/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.4",
+          "ordinal": 4,
+          "title": "Identifying with Machine Learning",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-4/geo/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
+          ]
+        },
+        {
+          "description": "Activity 1.5",
+          "ordinal": 5,
+          "title": "Adjusting the Model",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "sections/investigation-1/problem-5/geo/content.json"
+          ],
+          "exemplars": [
+            "exemplars/investigation-1/problem-1/exemplar-1/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-2/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-3/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-4/content.json",
+            "exemplars/investigation-1/problem-1/exemplar-5/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
