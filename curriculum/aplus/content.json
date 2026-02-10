@@ -233,7 +233,6 @@
       "spaghetti": "Spaghetti Models",
       "landfall": "Landfall"
     },
-    "tagPrompt": "Chat focus",
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
@@ -252,23 +251,17 @@
     "showIdeasButton": false,
     "sortWorkConfig": {
       "sortOptions": [
-        {
-          "type": "Date"
-        },
-        {
-          "type": "Name"
-        },
-        {
-          "type": "Strategy"
-        }
+        "Date",
+        "Name",
+        "Strategy"
       ],
       "defaultPrimarySort": "Date",
       "showContextFilter": false
     },
     "termOverrides": {
       "sortLabel.sortByOwner": "User",
-      "Strategy": "Model focus",
-      "Problem": "Model"
+      "strategy": "Model focus",
+      "contentLevel.problem": "Model"
     }
   },
   "sections": {

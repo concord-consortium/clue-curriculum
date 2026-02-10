@@ -405,7 +405,9 @@
       "applying": "Applying",
       "analyzing": "Analyzing"
     },
-    "tagPrompt": "Learning Journey",
+    "termOverrides": {
+      "strategy": "Learning Journey"
+    },
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master teacher of 7th grade STEM subjects.",
@@ -424,21 +426,11 @@
     "showIdeasButton": true,
     "sortWorkConfig": {
       "sortOptions": [
-        {
-          "type": "Date"
-        },
-        {
-          "type": "Name"
-        },
-        {
-          "type": "Group"
-        },
-        {
-          "type": "Strategy"
-        },
-        {
-          "type": "Tools"
-        }
+        "Date",
+        "Name",
+        "Group",
+        "Strategy",
+        "Tools"
       ],
       "defaultPrimarySort": "Name"
     }

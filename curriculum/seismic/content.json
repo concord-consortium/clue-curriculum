@@ -273,7 +273,9 @@
       "vehicle": "Vehicle",
       "uncertain": "Uncertain"
     },
-    "tagPrompt": "Seismic Source",
+    "termOverrides": {
+      "strategy": "Seismic Source"
+    },
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master geologist and data scientist who writes machine learning code to distinguish signal from noise in seismic data.",
@@ -293,18 +295,10 @@
     "showIdeasButton": false,
     "sortWorkConfig": {
       "sortOptions": [
-        {
-          "type": "Strategy"
-        },
-        {
-          "type": "Date"
-        },
-        {
-          "type": "Group"
-        },
-        {
-          "type": "Name"
-        }
+        "Strategy",
+        "Date",
+        "Group",
+        "Name"
       ],
       "defaultPrimarySort": "Strategy"
     }
