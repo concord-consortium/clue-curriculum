@@ -5,7 +5,8 @@
   "subtitle": "Proportional Relationships in the Context of Probability",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "placeholderText": "Enter notes here",
     "toolbar": [
@@ -46,7 +47,11 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
@@ -97,7 +102,7 @@
           "tab": "problems",
           "label": "Problems",
           "sections": [
-           {
+            {
               "initials": "IN",
               "title": "Introduction",
               "type": "problem-documents"
@@ -426,12 +431,12 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "HL Investigation 1 A First Look at Chance",
+      "title": "HL Investigation 1 A First Look at Probability",
       "problems": [
         {
           "description": "Problem 1.1",
           "ordinal": 1,
-          "title": "HL 1.1 Negotiating Screen Time",
+          "title": "HL 1.1 Negotiating Screen Time: Tossing Coins and Cups Experiment",
           "subtitle": "Tossing Coins and Cups to Find Probability",
           "disabled": [],
           "sections": [
@@ -563,7 +568,7 @@
         {
           "description": "Problem 1.2",
           "ordinal": 2,
-          "title": "HL 1.2 Match, No Match",
+          "title": "HL 1.2 Match, No Match Experiment: Finding Experimental Probabilities",
           "subtitle": "Finding Experimental Probabilities",
           "sections": [
             "investigation-1/problem-2/introduction/content.json",
@@ -694,7 +699,7 @@
         {
           "description": "Problem 1.3",
           "ordinal": 3,
-          "title": "HL 1.3 Analyzing Events",
+          "title": "HL 1.3 Tossing a Number Cube Experiment: Analyzing Equally Likely Events",
           "subtitle": "Equally Likely",
           "sections": [
             "investigation-1/problem-3/introduction/content.json",
@@ -832,7 +837,7 @@
         {
           "description": "Problem 2.1",
           "ordinal": 1,
-          "title": "HL 2.1 Gee Whiz Everyone Wins",
+          "title": "HL 2.1 Gee Whiz Everyone Wins! Game Experiment: Finding Theoretical Probabilities",
           "subtitle": "Finding Theoretical Probabilities",
           "sections": [
             "investigation-2/problem-1/introduction/content.json",
@@ -963,7 +968,7 @@
         {
           "description": "Problem 2.2",
           "ordinal": 2,
-          "title": "HL 2.2 Designing a Fair Game",
+          "title": "HL 2.2 Designing a Fair Game Experiment: Pondering Possible and Probable",
           "subtitle": "Pondering Possible and Probable",
           "sections": [
             "investigation-2/problem-2/introduction/content.json",
@@ -1094,7 +1099,7 @@
         {
           "description": "Problem 2.3",
           "ordinal": 3,
-          "title": "HL 2.3 Designing a Spinner to find Probabilities",
+          "title": "HL 2.3 Designing a Spinner to Find Probabilities",
           "subtitle": "",
           "sections": [
             "investigation-2/problem-3/introduction/content.json",
@@ -1227,7 +1232,7 @@
     {
       "description": "Investigation 3",
       "ordinal": 3,
-      "title": "HL Investigation 3 Making Decisions with Probabilities",
+      "title": "HL Investigation 3 Fair or Unfair Games: Making Decisions with Probabilities",
       "problems": [
         {
           "description": "Problem 3.1",
@@ -1363,7 +1368,7 @@
         {
           "description": "Problem 3.2",
           "ordinal": 2,
-          "title": "HL 3.2 Roller Derby: Analyzing a Game",
+          "title": "HL 3.2 Roller Derby Game Experiment: Analyzing a Game",
           "subtitle": "",
           "sections": [
             "investigation-3/problem-2/introduction/content.json",
@@ -1494,7 +1499,7 @@
         {
           "description": "Problem 3.3",
           "ordinal": 3,
-          "title": "HL 3.3 Scratching Spots",
+          "title": "HL 3.3 Scratching Spots Game: Designing and Using a Simulation",
           "subtitle": "Designing and Using a Simulation",
           "sections": [
             "investigation-3/problem-3/introduction/content.json",
@@ -1632,7 +1637,7 @@
         {
           "description": "Problem 4.1",
           "ordinal": 1,
-          "title": "HL 4.1 Making Purple Game",
+          "title": "HL 4.1 Making Purple Game: Using Area Models to Find the Sample Space",
           "subtitle": "Using Area Models to Find Sample Spaces",
           "sections": [
             "investigation-4/problem-1/introduction/content.json",
@@ -1763,7 +1768,7 @@
         {
           "description": "Problem 4.2",
           "ordinal": 2,
-          "title": "HL 4.2 One-and-One Free Throw",
+          "title": "HL 4.2 One-and-One Free Throws Experiment: Simulating a Probability Situation",
           "subtitle": "Simulating a Probability Situation",
           "sections": [
             "investigation-4/problem-2/introduction/content.json",
@@ -2025,7 +2030,7 @@
         {
           "description": "Problem 4.4",
           "ordinal": 4,
-          "title": "HL 4.4 Binomial Situations",
+          "title": "HL 4.4 True-False, Robots, Baseball, and Cubes Experiments: Binomial Situations",
           "subtitle": "",
           "sections": [
             "investigation-4/problem-4/introduction/content.json",
@@ -2265,7 +2270,7 @@
                     "<p><strong>SUMMARIZE</strong></p><p><strong>Student Responses</strong></p><p>At the beginning of the year, students will need more collaboration to outline and summarize the important ideas. They may need examples of writing, diagrams, and/or justifications from other students to help build their vision of what is expected when answering a Mathematical Reflection. Early in the year you may want to start writing Mathematical Reflections as a whole group. Then as the year progresses, move to small groups, pairs, and finally individuals.</p><p>Each Investigation contributes to students’ conceptual understandings of the ideas in the Unit. Students’ explanations at the beginning of a Unit might be just forming. As you progress through the Unit, students can use the contexts, representation, and connections to express a more solid understanding. By the end of the Unit, students can create a complete picture of understanding.</p>"
                   ]
                 }
-              } 
+              }
             ]
           }
         }
