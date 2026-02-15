@@ -172,18 +172,6 @@
         }
       },
       {
-        "id": "DLM6rHMf9-wMNOnl",
-        "title": "Text 4",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
-        }
-      },
-      {
         "id": "w9t9Ax_t4vrw7IXO",
         "title": "Text 5",
         "content": {
@@ -194,6 +182,80 @@
           ]
         }
       },
+      [
+        {
+          "id": "DLM6rHMf9-wMNOnl",
+          "title": "Text 4",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Unit Rates</p><p>The ratio is 30 bars for $12 is equivalent to 1 bar for $0.40.</p><p>30 bars for $12</p><p>↓÷ 30             ↓÷ 30</p><p>1 bar for $0.40</p><p>$0.40 is the unit rate for 1 bar.</p><p>$0.40 is the multiplier in the equation to find the cost for any number of bars.</p>"
+            ]
+          }
+        },
+        {
+          "id": "w6kSeCVLVPSi3V9z",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "3v0n4O-e2Op6TDnl": 95.3480224609375,
+              "KsPOpG9xwgc8YwS9": 80
+            }
+          }
+        },
+        {
+          "id": "QIzfVGhDT10HvVFt",
+          "title": "Text 18",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Equation</p><p>$0.40 ⋅ number of bars = Cost</p><p>$0.40<em>N</em> = <em>C</em></p>"
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "gQIcVqFMEkzCPWac",
+          "title": "Text 19",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Once you know the unit rate, you can scale up to any amount.</p>"
+            ]
+          }
+        },
+        {
+          "id": "4LrdoIDNmf1jqrjt",
+          "title": "Text 20",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The table could be helpful for calculating how much it would cost to buy different numbers of bars. </p>"
+            ]
+          }
+        },
+        {
+          "id": "pT34B6fdeaDbng6B",
+          "title": "Text 17",
+          "display": "teacher",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>The equation could be helpful for calculating how much ti would cost to buy ant number of bars. </p>"
+            ]
+          }
+        }
+      ],
       {
         "id": "_BWKOsRrfBiW6zLL",
         "title": "Text 6",
@@ -276,6 +338,91 @@
         },
         "tiles": [
           "bd8mY16zUKZF6ne0"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "-WtnQv5iE4o5j0tJ",
+          "providerId": "w6kSeCVLVPSi3V9z",
+          "dataSet": {
+            "id": "5NHcAQblJ02UphwE",
+            "name": "Table",
+            "attributes": [
+              {
+                "id": "3v0n4O-e2Op6TDnl",
+                "clientKey": "",
+                "name": "Number of Smoothie Bars",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "5",
+                  "10",
+                  "15",
+                  "30",
+                  "90",
+                  "150",
+                  "180"
+                ],
+                "title": ""
+              },
+              {
+                "id": "KsPOpG9xwgc8YwS9",
+                "clientKey": "",
+                "name": "Cost ($)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0.40",
+                  "2",
+                  "4",
+                  "6",
+                  "12",
+                  "36",
+                  "60",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "1qqftfpjl9-Tk19k"
+              },
+              {
+                "__id__": "HjVgKou3inpyQd6r"
+              },
+              {
+                "__id__": "F6l3NiSTIsNInbTK"
+              },
+              {
+                "__id__": "fao3f7DrWvz4ILSK"
+              },
+              {
+                "__id__": "eZKZGUrgVJTb33rt"
+              },
+              {
+                "__id__": "hsp7_bfLhExQ8lBW"
+              },
+              {
+                "__id__": "aUKRhcIfRwGtTkVo"
+              },
+              {
+                "__id__": "6iBHgMzoSuiZfuls"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "w6kSeCVLVPSi3V9z"
         ]
       }
     ]
