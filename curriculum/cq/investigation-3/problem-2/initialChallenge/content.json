@@ -58,25 +58,34 @@
         }
       ],
       {
-        "id": "nF9rOvx5mf-_qeM7",
-        "title": "Text 5",
-        "display": "teacher",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
-        }
-      },
-      {
         "id": "Zxjo6BP3_hAbj1U5",
         "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Molada creates a rate table to find how the number of ounces of popcorn kernels determines the number of cups of popcorn. She made the following entries. </p>"
+          ]
+        }
+      },
+      {
+        "id": "pthBlmoWnA1DOf45",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "vV8H-7iDas-fBoCb": 182.20880126953125,
+            "8MO2gat2FaBhnOLB": 211.1328125
+          }
+        }
+      },
+      {
+        "id": "nF9rOvx5mf-_qeM7",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How many cups of popcorn can she made from 12 ounces of popcorn kernels? From 30 ounces of popcorn kernels?</li></ul>"
           ]
         }
       },
@@ -91,6 +100,182 @@
             "<p></p>"
           ]
         }
+      },
+      {
+        "id": "F576PfiXAZ1q-qH5",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How many ounces of popcorn kernels are needed to make 40 cups of popcorn? To make 100 cups of popcorn? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "QzJ31c66vn5iJk_Y",
+        "title": "Text 8",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "kuJCuZ0FdiYm8hzc",
+        "title": "Text 9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>How many cups are needed for 100 servings? How many ounces of kernels are needs to make 100 servings? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "Y8Jh-anuhkF_rIVQ",
+        "title": "Text 10",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "KdmvXsZSdAY_naV3",
+        "title": "Text 11",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>Molada writes the expression 4<em>C</em> to find the number of ounces of kernels she needs to make <em>C</em> cups of popcorn. Is her expression correct? Why? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "wN6mkJehPrRc1txz",
+        "title": "Text 12",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "G4OqMyQTsMYfoQtH",
+          "providerId": "pthBlmoWnA1DOf45",
+          "dataSet": {
+            "id": "T2aReH5vcKDub4OE",
+            "name": "Cups of Popcorn from Ounces of Kernels",
+            "attributes": [
+              {
+                "id": "vV8H-7iDas-fBoCb",
+                "clientKey": "",
+                "name": "Number of Cups of Popcorn",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "4",
+                  "",
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "8MO2gat2FaBhnOLB",
+                "clientKey": "",
+                "name": "Number of Ounces of Popcorn Kernels",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "f3UH-zZiYARKkQi6"
+              },
+              {
+                "__id__": "QLE58nMEa79ptOJA"
+              },
+              {
+                "__id__": "HafSemS3HA8izqVk"
+              },
+              {
+                "__id__": "xgAV5c5muIl1rr-5"
+              },
+              {
+                "__id__": "SKGelffj7LjINap9"
+              },
+              {
+                "__id__": "kLAm7IGByTdOjg20"
+              },
+              {
+                "__id__": "jB7bnZ6FVKQmeWFj"
+              },
+              {
+                "__id__": "dWIOSbw2l1UFV0Xg"
+              },
+              {
+                "__id__": "Ly76SAqBrUsuwJ5C"
+              },
+              {
+                "__id__": "b2hCTj-Uz8JrDtg7"
+              },
+              {
+                "__id__": "3Ce_fCghzZwsTdXd"
+              },
+              {
+                "__id__": "tQKcbeKTq-VKOpbE"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "pthBlmoWnA1DOf45"
+        ]
       }
     ]
   },
