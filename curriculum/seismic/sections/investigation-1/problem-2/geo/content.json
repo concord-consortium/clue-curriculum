@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Earth is noisy</strong></p><p>Digital recordings of vibrations have particular shapes depending on what made the noise. The wave amplitude graph from you and all your classmates running from class to class in the hallway looks very different from a cruise ship docking in the local harbor, and different from an Earthquake.</p>"
+            "<p><strong>Earth is noisy</strong></p><p>Digital recordings of vibrations have particular shapes depending on what made the noise. The wave amplitude graph from you and all your classmates running from class to class in the hallway looks very different from a cruise ship docking in the local harbor, and different from an earthquake.</p>"
           ]
         }
       },
@@ -162,7 +162,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Here is a viewer for the Rasberry Shake data from your school and others. Look at the data for stations &lt;ERK&gt;, &lt;###&gt; and &lt;###&gt;. What do you notice. Can you identify any of the sources of the noise in this data? Drag this tile (or make a new one with the button that looks like a rectangle) into your workspace and explore data. Once you have some stations and times identified, you can pull them into your Seismic Toolbox to make graphs and compare traces.</p>"
+            "<p>Here is a viewer for the Raspberry Shake data from your school and others. Look at the data for stations &lt;RF528&gt; and &lt;R2A1A&gt;. What do you notice? Can you identify any of the sources of the noise in this data? To copy this tile into your workspace and search through the data:</p><p><strong>1) Select the Raspberry Shake tile below by clicking on it.</strong></p><p><strong>2) Use the buttons on the toolbar at the left and click Copy to Workspace (the second button from the top). </strong></p><p><strong>3) Once in your workspace, go ahead and explore!</strong></p>"
           ]
         }
       },
@@ -177,6 +177,176 @@
           "maxHeight": 0,
           "enableScroll": false
         }
+      },
+      {
+        "id": "d6mPDWDZpZoaEkv5",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Once you have viewed the stations at your schools and identified some signals in the data, record the results in the data table below. <strong>Drag the data table below to your own workspace and fill out the columns with the signals you found!</strong></p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "6ZjPicL1rzDeCDbG",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "Rh1VjeStFUOsVuG-": 108.7890625,
+              "aGr-86fUzVD9xecH": 171.66015625,
+              "kNisOsne_ZobDRvZ": 162.1640625,
+              "ERp7Gqrj_6RIhgGy": 93.87890625,
+              "b5cebmM6IAJrZhI_": 161.67578125
+            }
+          }
+        },
+        {
+          "id": "DgqXqvczQFNBK0XT",
+          "content": {
+            "type": "DataCard"
+          }
+        }
+      ],
+      {
+        "id": "h7DR2EV7mmTcRANS",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Next, we want to be able to annotate the seismic signals you see. To do this, take a screenshot of one of the signals in the Raspberry Shake data. In the &quot;Data Cards&quot; tile, go to the bottom toolbar and select &quot;Upload Image&quot;. Select the screenshot of the wave and upload it into the Data Card. Update your description based on the image (amplitude and frequency). </p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5vn_jgJDzYTfHXb4",
+          "providerId": "6ZjPicL1rzDeCDbG",
+          "dataSet": {
+            "id": "EhUe76oDeKYAqafV",
+            "name": "Identified Seismic Signals",
+            "attributes": [
+              {
+                "id": "Rh1VjeStFUOsVuG-",
+                "clientKey": "",
+                "name": "Instance",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "aGr-86fUzVD9xecH",
+                "clientKey": "",
+                "name": "Time of signal (AKST)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "kNisOsne_ZobDRvZ",
+                "clientKey": "",
+                "name": "Date of Signal",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "ERp7Gqrj_6RIhgGy",
+                "clientKey": "",
+                "name": "Station",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "b5cebmM6IAJrZhI_",
+                "clientKey": "",
+                "name": "Description of station",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "t-9lOu-wdsFx8jar"
+              },
+              {
+                "__id__": "3qhWFnJ18GRWGGiQ"
+              },
+              {
+                "__id__": "HRsFL4QJjSwH2RHj"
+              },
+              {
+                "__id__": "GwZWYsubC6RH5xD_"
+              },
+              {
+                "__id__": "_61IvI3wwNRRmdQw"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "6ZjPicL1rzDeCDbG",
+          "DgqXqvczQFNBK0XT"
+        ]
       }
     ]
   }

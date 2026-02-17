@@ -139,8 +139,8 @@
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
-          "teacherOnly": false,
-          "hidden": true
+          "teacherOnly": true,
+          "hidden": false
         },
         {
           "tab": "student-work",
@@ -187,9 +187,18 @@
           "set-expression",
           "link-tile",
           "import-data",
-          ["data-set-view", "bargraph"],
-          ["data-set-view", "graph"],
-          ["data-set-view", "datacard"],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "datacard"
+          ],
           "delete"
         ]
       },
@@ -222,9 +231,18 @@
       "datacard": {
         "tools": [
           "duplicate",
-          ["data-set-view", "Table"],
-          ["data-set-view", "graph"],
-          ["data-set-view", "bargraph"],
+          [
+            "data-set-view",
+            "Table"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
           "image-upload",
           "delete-attribute"
         ]
@@ -274,7 +292,10 @@
       "uncertain": "Uncertain"
     },
     "termOverrides": {
-      "strategy": "Seismic Source"
+      "sortLabel.sortByOwner": "Name",
+      "strategy": "Seismic Source",
+      "contentLevel.problem": "Activity",
+      "contentLevel.problems": "Activities"
     },
     "aiEvaluation": "custom",
     "aiPrompt": {
