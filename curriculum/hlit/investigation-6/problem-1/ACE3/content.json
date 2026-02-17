@@ -913,13 +913,14 @@
         }
       },
       {
-        "id": "KDmgaEGsH8NQsFdP",
-        "title": "ACE 3-19i. Probabilities",
+        "id": "mMjHrbsL7jaABADu",
         "display": "teacher",
         "content": {
-          "type": "Image",
-          "url": "hlit/images/tablez.png",
-          "filename": "hlit/images/tablez.png"
+          "type": "Table",
+          "columnWidths": {
+            "5BjG7xnC2SCrdwQO": 310.5,
+            "LaEHODbyMnORkSOG": 296.5
+          }
         }
       },
       {
@@ -946,7 +947,7 @@
       },
       {
         "id": "Ril8tNIisD_5xjqs",
-        "title": "ACE 3-20 a. ",
+        "title": "ACE 3-20 a.",
         "content": {
           "type": "Expression",
           "latexStr": "\\frac18=\\frac{\\placeholder{}}{32}=\\frac{5}{\\placeholder{}}"
@@ -1589,6 +1590,71 @@
         },
         "tiles": [
           "5OGF2fRMnmovyW1M"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "gFfjumLFbt64KgSS",
+          "providerId": "mMjHrbsL7jaABADu",
+          "dataSet": {
+            "id": "-bWKd_mIFQ1jN63h",
+            "name": "ACE 3-19i. Probabilities",
+            "attributes": [
+              {
+                "id": "5BjG7xnC2SCrdwQO",
+                "clientKey": "",
+                "name": "Before Adding the Blue Blocks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "P(green, green) = 2/12 = 1/6",
+                  "P(not green, green) = 10/12 = 5/6",
+                  "P(at least one green) = 9/12 = 3/4",
+                  "P(2 of same color: red, red or green, green) = 3/12 = 1/4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "LaEHODbyMnORkSOG",
+                "clientKey": "",
+                "name": "After Adding the Blue Blocks",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "P(green, green) = 2/20 = 1/10",
+                  "P(not green, green) = 18/20 = 9/10",
+                  "P(at least one green) = 12/20 = 3/5",
+                  "P(2 of same color: red, red or green, green or blue, blue) = 5/20 = 1/4"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "AsFo1pU3PKaf_KE1"
+              },
+              {
+                "__id__": "f-GpsRMcvcSiUufW"
+              },
+              {
+                "__id__": "R_mPLVro1FB5x0DS"
+              },
+              {
+                "__id__": "OjsmLcdofPnCSD5x"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "mMjHrbsL7jaABADu"
         ]
       }
     ]
