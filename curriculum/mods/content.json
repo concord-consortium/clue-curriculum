@@ -267,19 +267,27 @@
     ],
     "showIdeasButton": true,
     "termOverrides": {
-      "strategy": "Design Focus",
       "studentGroup": "Group",
-      "sortLabel.sortByDate": "Day"
+      "sortLabel.sortByOwner": "Name",
+      "strategy": "Design Focus",
+      "sortLabel.sortByDate": "Day",
+      "contentLevel.problem": "Lesson",
+      "contentLevel.problems": "Lessons"
     },
     "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "Investigation",
+        "Unit"
+      ],
       "sortOptions": [
         "Date",
         "Group",
         "Name",
         "Strategy",
-        "Tools",
-        "Bookmarked"
-      ]
+        "Tools"
+      ],
+      "defaultPrimarySort": "Name"
     }
   },
   "sections": {
