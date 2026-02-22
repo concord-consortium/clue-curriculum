@@ -144,8 +144,19 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><sup><strong></strong></sup></p>"
+            "<ol><li>See table below.</li><li>Possible answers:</li><p>For every ounce of kernels, you multiply by 2 to find the number of servings.</p><p>The servings are found by multiplying the number of ounces by 4 (the number of popped popcorn cups made from 1 ounce) then dividing by 2 for the 2 cups in a serving.</p><li>Various equivalent equation forms include the following:</li><p><em>S</em> = 2<em>K         S</em> = 4<em>K</em> ÷ 2</p><li></li><li></li><li></li><li></li><li></li></ol>"
           ]
+        }
+      },
+      {
+        "id": "5yjVp2q0fQ8Yfbhu",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "j19M9m5TMQs4RSqo": 80,
+            "J7LlMdG1nBp_wBmo": 80
+          }
         }
       },
       {
@@ -499,6 +510,48 @@
         },
         "tiles": [
           "7g81xcdByKEHjFpg"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Ma6FmnAeEy-Ay5Jb",
+          "providerId": "5yjVp2q0fQ8Yfbhu",
+          "dataSet": {
+            "id": "NgS8_2bb7crONJki",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "j19M9m5TMQs4RSqo",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "J7LlMdG1nBp_wBmo",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "5yjVp2q0fQ8Yfbhu"
         ]
       }
     ]
