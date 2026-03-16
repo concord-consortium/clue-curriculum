@@ -121,14 +121,36 @@
         }
       },
       {
+        "id": "qguby2VEL1DnaUJn",
+        "title": "Text 13",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>ACE 3-4</strong></p>"
+          ]
+        }
+      },
+      {
         "id": "pTDQzgH_uJfKtOsD",
         "title": "Text 6",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Emma recorded how many students plan to bring lunch and how many plan to buy lunch when the classes visit the local college. </p><p>Complete each ratio comparison statement to describe the data.</p>"
           ]
+        }
+      },
+      {
+        "id": "l72WYYwZgMBYCtLF",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "-3cL4yYG9ecKReL8": 202.68820190429688,
+            "UUuK7uCUx-30UJS4": 202.10581970214844,
+            "pB5XrE_VOXaJ1baR": 189.22943115234375
+          }
         }
       },
       {
@@ -138,7 +160,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>a. </strong></p>"
           ]
         }
       },
@@ -161,7 +183,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<li></li>"
+            "<li><strong>b.</strong> </li>"
           ]
         }
       },
@@ -178,19 +200,20 @@
         }
       },
       {
-        "id": "qguby2VEL1DnaUJn",
-        "title": "Text 13",
+        "id": "j9JjjrOTMI413vF9",
+        "title": "Text 14",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>ACE 3-4</strong></p>"
+            "<p><strong>c.</strong> </p>"
           ]
         }
       },
       {
-        "id": "j9JjjrOTMI413vF9",
-        "title": "Text 14",
+        "id": "Ews32n71ZX6X01TU",
+        "title": "Text 16",
+        "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
@@ -202,18 +225,6 @@
       {
         "id": "CdkUS3G8IfvrddYl",
         "title": "Text 15",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
-        }
-      },
-      {
-        "id": "Ews32n71ZX6X01TU",
-        "title": "Text 16",
-        "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
@@ -2014,6 +2025,84 @@
             "<p></p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "p9XucTgvqUxcd9rM",
+          "providerId": "l72WYYwZgMBYCtLF",
+          "dataSet": {
+            "id": "MubgIPejqDGmwIth",
+            "name": "Students Bringing Lunch vs Buying Lunch",
+            "attributes": [
+              {
+                "id": "-3cL4yYG9ecKReL8",
+                "clientKey": "",
+                "name": "Class",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Ms. Bloom",
+                  "Mr. Henry",
+                  "Ms. Park"
+                ],
+                "title": ""
+              },
+              {
+                "id": "UUuK7uCUx-30UJS4",
+                "clientKey": "",
+                "name": "Bringing Lunch",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "15",
+                  "20",
+                  "15"
+                ],
+                "title": ""
+              },
+              {
+                "id": "pB5XrE_VOXaJ1baR",
+                "clientKey": "",
+                "name": "Buying Lunch",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "15",
+                  "12",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "jh268hj2oRUmEgQP"
+              },
+              {
+                "__id__": "GRdDWze9gVu3ld_a"
+              },
+              {
+                "__id__": "51j7ELpWTxnB6DQz"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "l72WYYwZgMBYCtLF"
+        ]
       }
     ]
   }
