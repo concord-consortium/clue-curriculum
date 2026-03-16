@@ -1955,25 +1955,25 @@
         }
       },
       {
-        "id": "Ak2fyncplRDqYzjs",
-        "title": "Text 151",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACE 3-33</strong></p>"
-          ]
-        }
-      },
-      {
         "id": "9NmOyOmr1ZKbMrz-",
         "title": "Text 170",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Students are working on a chemistry experiment. The experiment is about electrolysis—where they decompose water into hydrogen and oxygen by using an electric current. They measured the amount of each chemical over the course of several experiments, which resulted in the data in the following table.</p>"
           ]
+        }
+      },
+      {
+        "id": "hBXxG3bBVvUIBq32",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "CYo-Ok5m9Mxw78p3": 184.53123474121094,
+            "r4PuWV1xv2e8qRZb": 187.78054809570312,
+            "V1ieazTbkz72Lqg1": 183.093017578125
+          }
         }
       },
       {
@@ -1983,7 +1983,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>a.</strong> Is the ratio of hydrogen to oxygen the same in each sample? Explain.</p>"
           ]
         }
       },
@@ -2006,7 +2006,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>b.</strong> Is the ratio of hydrogen to total water the same in each sample? Explain.</p>"
           ]
         }
       },
@@ -2029,7 +2029,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>c.</strong> The students run the experiment with 250 grams of water. How much hydrogen and oxygen should they get?</p>"
           ]
         }
       },
@@ -2046,13 +2046,24 @@
         }
       },
       {
+        "id": "Ak2fyncplRDqYzjs",
+        "title": "Text 151",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>ACE 3-33</strong></p>"
+          ]
+        }
+      },
+      {
         "id": "9tvBoHjCPo4g6LXM",
         "title": "Text 178",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>a. </strong>Paula hears the water dripping in a faucet. She counts 1 drip every 5 seconds. How many drips are there in an hour? </p>"
           ]
         }
       },
@@ -2075,13 +2086,82 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><strong>b.</strong> If there are 120 drips of water in 1 ounce, how many ounces of water are dripping out of the faucet in an hour? </p>"
           ]
         }
       },
       {
         "id": "Pz3RpRRn8tGaxp0M",
         "title": "Text 181",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "o0WL6qPQzxe6iXls",
+        "title": "Text 187",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>c.</strong> How many drips in a gallon?</p>"
+          ]
+        }
+      },
+      {
+        "id": "QRKcE9Na_8jyGOpg",
+        "title": "Text 188",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "9mS_d5_XUtqQAxs8",
+        "title": "Text 189",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>d.</strong> How long does it take for a gallon of water to drip out of the faucet? </p>"
+          ]
+        }
+      },
+      {
+        "id": "VHQIm3rZ2pmNiKzC",
+        "title": "Text 190",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "Z2V_yP0WYVi3FVYA",
+        "title": "Text 191",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>e.</strong> How much water drips out in 1 week (7 days)? </p>"
+          ]
+        }
+      },
+      {
+        "id": "KX8nqPp7TbCUGKln",
+        "title": "Text 192",
         "display": "teacher",
         "content": {
           "type": "Text",
@@ -2396,6 +2476,88 @@
         },
         "tiles": [
           "eR-6E7fls8m5V0MS"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "9ssVvBo5T33Br6hs",
+          "providerId": "hBXxG3bBVvUIBq32",
+          "dataSet": {
+            "id": "AA2hyO5UqAuCkAB0",
+            "name": "Electrolysis of Water",
+            "attributes": [
+              {
+                "id": "CYo-Ok5m9Mxw78p3",
+                "clientKey": "",
+                "name": "Amount of Water (g)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "15",
+                  "10",
+                  "30",
+                  "24"
+                ],
+                "title": ""
+              },
+              {
+                "id": "r4PuWV1xv2e8qRZb",
+                "clientKey": "",
+                "name": "Amount of Hydrogen (g) ",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "10.0",
+                  "6.66",
+                  "20",
+                  "16"
+                ],
+                "title": ""
+              },
+              {
+                "id": "V1ieazTbkz72Lqg1",
+                "clientKey": "",
+                "name": "Amount of Oxygen (g)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5.0",
+                  "3.33",
+                  "10",
+                  "8"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "5NOb5s_3LOPWHzir"
+              },
+              {
+                "__id__": "hpt6zqF8lJNJJXwl"
+              },
+              {
+                "__id__": "24O43dV6NgXjYce1"
+              },
+              {
+                "__id__": "POSPM_x-6f2X50d9"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "hBXxG3bBVvUIBq32"
         ]
       }
     ]
