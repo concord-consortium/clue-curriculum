@@ -1432,15 +1432,14 @@
         }
       },
       {
-        "id": "TO0e3skIJu9PcqAw",
-        "title": "Text 111",
+        "id": "w18eJhntLgCWyjxV",
         "display": "teacher",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
+          "type": "Table",
+          "columnWidths": {
+            "5TVd8fc8efACBa3J": 204.74786376953125,
+            "qElX1SOD7OLudmyG": 206.36007690429688
+          }
         }
       },
       {
@@ -3283,6 +3282,81 @@
         },
         "tiles": [
           "sea9eBOlWSOlKbO6"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "JG39Ozj06OJbbEUW",
+          "providerId": "w18eJhntLgCWyjxV",
+          "dataSet": {
+            "id": "UK9nHjwaPXqECviv",
+            "name": "Milk to Cheese Rates",
+            "attributes": [
+              {
+                "id": "5TVd8fc8efACBa3J",
+                "clientKey": "",
+                "name": "Milk (lbs)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "50",
+                  "100",
+                  "150",
+                  "200",
+                  "...",
+                  "500"
+                ],
+                "title": ""
+              },
+              {
+                "id": "qElX1SOD7OLudmyG",
+                "clientKey": "",
+                "name": "Cheese (lbs)",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "...",
+                  "50"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "NG6WoF0jWfygv07T"
+              },
+              {
+                "__id__": "7L4H5Sj-CmJDsL--"
+              },
+              {
+                "__id__": "FcWjTXiHlk7umhwm"
+              },
+              {
+                "__id__": "r0Idwigjt8_SH1-9"
+              },
+              {
+                "__id__": "j20s7TkGZY15xdHp"
+              },
+              {
+                "__id__": "-WUNZRt05M9tommR"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "w18eJhntLgCWyjxV"
         ]
       }
     ]
