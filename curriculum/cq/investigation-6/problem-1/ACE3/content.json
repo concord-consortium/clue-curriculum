@@ -1454,15 +1454,66 @@
         }
       },
       {
-        "id": "Z3IGFpI7u5oDHmUi",
-        "title": "Text 115",
+        "id": "nUnIdgsvgfJoZpQl",
+        "title": "Milk and Cheese",
         "display": "teacher",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p></p>"
-          ]
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "categorical",
+              "place": "bottom",
+              "scale": "band"
+            },
+            "left": {
+              "type": "categorical",
+              "place": "left",
+              "scale": "band"
+            }
+          },
+          "lockAxes": true,
+          "plotType": "dotChart",
+          "layers": [
+            {
+              "id": "LAYRf61HZfhFG8Gl",
+              "config": {
+                "id": "DCONmruzcbG_MNXc",
+                "dataset": "UK9nHjwaPXqECviv",
+                "metadata": "I5cV3rdUidQvzmF0",
+                "primaryRole": "y",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "qElX1SOD7OLudmyG",
+                    "type": "categorical"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "5TVd8fc8efACBa3J"
+                  }
+                ]
+              },
+              "editable": false
+            }
+          ],
+          "_idColors": {
+            "qElX1SOD7OLudmyG": 0,
+            "5TVd8fc8efACBa3J": 0
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "Cheese",
+          "yAttributeLabel": "Milk"
         }
       },
       {
@@ -1484,7 +1535,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p><em>M</em> = 10<em>C</em></p>"
           ]
         }
       },
@@ -1507,7 +1558,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p></p>"
+            "<p>Answers may vary. Possible explanations: in the table, the relationship between milk and cheese increases by multiples of 50 and 5; in the graph, the relationship between cheese and milk is that for every 5 pounds of cheese there are 50 pounds of milk; in the equation, we can use the equation to find any value. </p>"
           ]
         }
       },
@@ -3356,7 +3407,33 @@
           }
         },
         "tiles": [
-          "w18eJhntLgCWyjxV"
+          "w18eJhntLgCWyjxV",
+          "nUnIdgsvgfJoZpQl"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "I5cV3rdUidQvzmF0",
+          "data": "UK9nHjwaPXqECviv",
+          "collections": {},
+          "categories": {
+            "5TVd8fc8efACBa3J": {
+              "attribute": "5TVd8fc8efACBa3J",
+              "colors": {},
+              "moves": []
+            },
+            "qElX1SOD7OLudmyG": {
+              "attribute": "qElX1SOD7OLudmyG",
+              "colors": {},
+              "moves": []
+            }
+          },
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "nUnIdgsvgfJoZpQl"
         ]
       }
     ]
