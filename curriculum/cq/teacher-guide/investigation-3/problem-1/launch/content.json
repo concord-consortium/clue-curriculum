@@ -77,6 +77,38 @@
         }
       },
       {
+        "id": "O6S3mlc_wg3vu2sH",
+        "title": "Text 9",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The idea of a unit rate may not have come up explicitly in Investigation 2. (Time) Every rate table has two unit rates. For example, the table in Problem 2.2 showing how amount collected related to number of boxes sold is an example of a rate table. From the table, we can scale down to find the amount collected for 1 box or, not very realistically, the part of a box you get for $1.</p>"
+          ]
+        }
+      },
+      {
+        "id": "V3eTwtbnSLdigPVK",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "eRkH1gFNFXPoRRtf": 226.6690216064453,
+            "zMzE2nMMP5CDop6g": 238.89205932617188
+          }
+        }
+      },
+      {
+        "id": "e9Gquvwi3fp8_Sf-",
+        "title": "Text 10",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
         "id": "TILEuEhfV21W4jsP",
         "content": {
           "type": "Text",
@@ -85,6 +117,78 @@
             "<p><em>Presenting the Challenge</em></p><p></p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "hFe6L_xZDqDRGXfU",
+          "providerId": "V3eTwtbnSLdigPVK",
+          "dataSet": {
+            "id": "_o8Qi_cQhv53VxMV",
+            "name": "Boxes Sold",
+            "attributes": [
+              {
+                "id": "eRkH1gFNFXPoRRtf",
+                "clientKey": "",
+                "name": "Number of Large Boxes Sold",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "1",
+                  "About 0.08"
+                ],
+                "title": ""
+              },
+              {
+                "id": "zMzE2nMMP5CDop6g",
+                "clientKey": "",
+                "name": "Total Amount of Money Collected",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "$60",
+                  "$120",
+                  "$180",
+                  "$12",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "2mY166aBzMSUkMvI"
+              },
+              {
+                "__id__": "SEURYl9Ttsv5tYQ5"
+              },
+              {
+                "__id__": "2iNZ-bHNWFPKILlU"
+              },
+              {
+                "__id__": "SNNbT2IUicxPGPwd"
+              },
+              {
+                "__id__": "ztPqVjv3afMjW1Ue"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "V3eTwtbnSLdigPVK"
+        ]
       }
     ]
   }
