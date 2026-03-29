@@ -1,1 +1,126 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "acvS3Ewfx1bsm-io",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Baruti wondered wha his science grade would be. He only got one wrong on each of his assignments. His final science grade is the total points received on each assignment.</p><ul><li>What is the ratio of points correct to total points for each assignment?</li><li>Find the percent of points correct to the total points possible for each assignment.</li><li>In his final grade is based on total points for all the assignments, what is his overall percent grade in science? Explain how you calculated this. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "wqg57vJoLOe8LbxX",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "X_IxRKtEjM39Wanv": 181.10794067382812,
+            "5lrgDtZHhcjzfwSy": 144.13351440429688,
+            "oVGsJMORx22U5G4z": 138.86715698242188
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "fXGda_AnzYGwniXF",
+          "providerId": "wqg57vJoLOe8LbxX",
+          "dataSet": {
+            "id": "Gm9h7hd3fw-DjawR",
+            "name": "Baruti's Science Grade",
+            "attributes": [
+              {
+                "id": "X_IxRKtEjM39Wanv",
+                "clientKey": "",
+                "name": "Science Assignment",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Homework 1",
+                  "Checkup 1",
+                  "Partner Quiz",
+                  "Homework 2",
+                  "Homework 3",
+                  "Test"
+                ],
+                "title": ""
+              },
+              {
+                "id": "5lrgDtZHhcjzfwSy",
+                "clientKey": "",
+                "name": "Points Correct",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "4",
+                  "2",
+                  "24"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oVGsJMORx22U5G4z",
+                "clientKey": "",
+                "name": "Points Possible",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "5",
+                  "10",
+                  "5",
+                  "3",
+                  "25"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "GLVQlD62JdS6P04-"
+              },
+              {
+                "__id__": "ZXJaOT-8qtcnyI7m"
+              },
+              {
+                "__id__": "pCEGpSHaKrH55xE4"
+              },
+              {
+                "__id__": "frNw2ARuPN4c3BQ9"
+              },
+              {
+                "__id__": "SRtn9mekWW0rRn4m"
+              },
+              {
+                "__id__": "SoWgcLnBGPl9Srs9"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "wqg57vJoLOe8LbxX"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
