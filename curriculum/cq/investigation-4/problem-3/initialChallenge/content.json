@@ -1,1 +1,143 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "jmWYhjEn2IqEo4iN",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The data came from a Central Middle School classroom.</p><ul><li>What percent of the students in this Central classroom have each trait? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "v97GdYzFfDLnTDCs",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>If this percent is typical for the whole school, how many of the 250 students in school have these traits? </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "lMSe4ZkJVWzuSN-F",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "NTAYFK-9_HYh5Y_B": 190.0568084716797,
+            "mAyJnUVeAkJdZtMA": 80,
+            "GbfCDfl2ho1itTvK": 80,
+            "RGklel4FIcDnyuX0": 80
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "e1DlysYphkPwzIW3",
+          "providerId": "lMSe4ZkJVWzuSN-F",
+          "dataSet": {
+            "id": "qU2hYl87OX8RP6-A",
+            "name": "Central Middle School Traits",
+            "attributes": [
+              {
+                "id": "NTAYFK-9_HYh5Y_B",
+                "clientKey": "",
+                "name": "Trait",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Attached Earlobes",
+                  "Dimples",
+                  "Straight Hair",
+                  "Widow's Peak"
+                ],
+                "title": ""
+              },
+              {
+                "id": "mAyJnUVeAkJdZtMA",
+                "clientKey": "",
+                "name": "Yes",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "12",
+                  "6",
+                  "24",
+                  "18"
+                ],
+                "title": ""
+              },
+              {
+                "id": "GbfCDfl2ho1itTvK",
+                "clientKey": "",
+                "name": "No",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "RGklel4FIcDnyuX0",
+                "clientKey": "",
+                "name": "Total",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "30",
+                  "30",
+                  "30",
+                  "30"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "pQgoIB90pDvNF1Sb"
+              },
+              {
+                "__id__": "N8G_mdu1GzpzcjTt"
+              },
+              {
+                "__id__": "cbrRfAxMKTgDUe1y"
+              },
+              {
+                "__id__": "GKW17a-b3XtsTPgj"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "lMSe4ZkJVWzuSN-F"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
