@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u><em>Luis’s Strategy</em></u></p><p>Suppose a player has an 80% free throw percentage. If fouled during a three-point basket attempt, the player gets three free throws. So, a score of 0, 1, 2, or 3 is possible.</p><p>To find out which score is most likely to occur I can draw a three-dimensional figure to analyze the probability of getting 0 points, 1 point, 2 points, or 3 points.</p>"
+            "<p><u><em>Luis’s Strategy</em></u></p><p>Suppose a player has an 80% free throw percentage. If fouled during a three-point basket attempt, the player gets three free throws. So, a score of 0, 1, 2, and 3 are possible.</p><p>To find out which score is most likely to occur I can draw a three-dimensional figure to analyze the probability of getting 0 points, 1 point, 2 points, or 3 points.</p>"
           ]
         }
       },
@@ -52,7 +52,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>0 points would be missing all shots</p><p>1 point would be from hitting one basket and missing two</p><p>2 points would be from hitting two baskets and missing one</p><p>3 points would be from hitting all baskets</p>"
+            "<p>0 points would be missing all shots.</p><p>1 point would be from making one basket and missing two.</p><p>2 points would be from making two baskets and missing one.</p><p>3 points would be from making all baskets.</p>"
           ]
         }
       },
@@ -63,7 +63,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<ul><li>Which parts of the lettered shapes represents Luis in making all three baskets? Two baskets? 1 basket? Missing all three baskets?</li></ul>"
+            "<ul><li>Which parts of the lettered shapes represent Luis in making all three baskets? Two baskets? One basket? Missing all three baskets?</li></ul>"
           ]
         }
       },
@@ -175,7 +175,9 @@
                 "name": "Player",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Luis (80% shooter)"
                 ],
@@ -187,7 +189,9 @@
                 "name": "0 points",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0 pts x 1% of the time 0 x 1 = 0 points"
                 ],
@@ -199,7 +203,9 @@
                 "name": "1 point",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1 pt x 10% of the time 1 x 10 = 10 pts"
                 ],
@@ -211,7 +217,9 @@
                 "name": "2 points",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "2 pts x 38% of the time 2 x 38 = 76 pts"
                 ],
@@ -223,7 +231,9 @@
                 "name": "3 points",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "3 pts x 51% of the time 3 x 51 = 153 pts"
                 ],
@@ -235,7 +245,9 @@
                 "name": "Long-term average",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "0 + 10 +76 +153 = 239 239/100 = 2.39 for a long-term average"
                 ],
@@ -246,7 +258,8 @@
               {
                 "__id__": "-7vh1sh9OvzVDvHf"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [

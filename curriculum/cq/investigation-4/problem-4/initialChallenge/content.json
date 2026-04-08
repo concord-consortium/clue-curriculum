@@ -1,1 +1,339 @@
-{"type": "initialChallenge", "content": {"tiles": []}, "supports": []}
+{
+  "type": "initialChallenge",
+  "content": {
+    "tiles": [
+      {
+        "id": "acvS3Ewfx1bsm-io",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Baruti wondered wha his science grade would be. He only got one wrong on each of his assignments. His final science grade is the total points received on each assignment.</p><ul><li>What is the ratio of points correct to total points for each assignment?</li><li>Find the percent of points correct to the total points possible for each assignment.</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "wqg57vJoLOe8LbxX",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "X_IxRKtEjM39Wanv": 181.10794067382812,
+            "5lrgDtZHhcjzfwSy": 144.13351440429688,
+            "oVGsJMORx22U5G4z": 153.77488708496094
+          }
+        }
+      },
+      {
+        "id": "AGgfoOk3hp9Z8GcE",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "rZi4SH7PbUX7Ymbl": 121.48435974121094,
+            "rL_rRY_9632UneId": 95.44390869140625,
+            "RIoQOEOW20cVzkvl": 93.35226440429688,
+            "cscLbiutv-ZCx1GF": 94.4105224609375,
+            "se05akO0IvQokhNN": 127.60295867919922
+          }
+        }
+      },
+      {
+        "id": "dy3X0EE0R2F0TAxg",
+        "title": "Text 2",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>For finding the percent for Homework 3, students will need to estimate since they do not learn repeating decimals unit Grade 7.</p>"
+          ]
+        }
+      },
+      {
+        "id": "-3GLZZ-J9jcJSaLE",
+        "title": "Percent for HW 3",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/percent-for-hw-3.png",
+          "filename": "cq/images/percent-for-hw-3.png"
+        }
+      },
+      {
+        "id": "Uol_M6su3pRBc-7l",
+        "title": "Text 3",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Baruti missed 1 point on every assignment. This additively, this sounds very good.</p><p>However, a ratio or percent compares the quantities multiplicatively, which means that the quantities are compared to each other. </p><p>So missing 1 for every 25 points is very different than missing 1 for every 2 points.</p><p>Students might think of it as 1 point spread out over 2 points makes each point very &quot;powerful&quot; whereas 1 point spread out over 25 points make each point &quot;weaker.&quot;</p>"
+          ]
+        }
+      },
+      {
+        "id": "wsjzaXwDtsa1Yc_b",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<ul><li>In his final grade is based on total points for all the assignments, what is his overall percent grade in science? Explain how you calculated this. </li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "WncKoaG-8IT5m8VK",
+        "title": "Baruti Final Grade",
+        "display": "teacher",
+        "content": {
+          "type": "Image",
+          "url": "cq/images/baruit-final-grade.png",
+          "filename": "cq/images/baruit-final-grade.png"
+        }
+      },
+      {
+        "id": "gnuO0UI9tEmZTxCd",
+        "title": "Text 5",
+        "display": "teacher",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>or <strong>88%</strong></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "fXGda_AnzYGwniXF",
+          "providerId": "wqg57vJoLOe8LbxX",
+          "dataSet": {
+            "id": "Gm9h7hd3fw-DjawR",
+            "name": "Baruti's Science Grade",
+            "attributes": [
+              {
+                "id": "X_IxRKtEjM39Wanv",
+                "clientKey": "",
+                "name": "Science Assignment",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Homework 1",
+                  "Checkup 1",
+                  "Partner Quiz",
+                  "Homework 2",
+                  "Homework 3",
+                  "Test"
+                ],
+                "title": ""
+              },
+              {
+                "id": "5lrgDtZHhcjzfwSy",
+                "clientKey": "",
+                "name": "Points Correct",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "4",
+                  "2",
+                  "24"
+                ],
+                "title": ""
+              },
+              {
+                "id": "oVGsJMORx22U5G4z",
+                "clientKey": "",
+                "name": "Points Possible",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "5",
+                  "10",
+                  "5",
+                  "3",
+                  "25"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "GLVQlD62JdS6P04-"
+              },
+              {
+                "__id__": "ZXJaOT-8qtcnyI7m"
+              },
+              {
+                "__id__": "pCEGpSHaKrH55xE4"
+              },
+              {
+                "__id__": "frNw2ARuPN4c3BQ9"
+              },
+              {
+                "__id__": "SRtn9mekWW0rRn4m"
+              },
+              {
+                "__id__": "SoWgcLnBGPl9Srs9"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "wqg57vJoLOe8LbxX"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "E0zVgNhEt-vUhq7w",
+          "providerId": "AGgfoOk3hp9Z8GcE",
+          "dataSet": {
+            "id": "eKdyXa8vv4A1N24b",
+            "name": "Baruti's Science Grade",
+            "attributes": [
+              {
+                "id": "rZi4SH7PbUX7Ymbl",
+                "clientKey": "",
+                "name": "Science Assignment",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Homework 1",
+                  "Checkup 1",
+                  "Partner Quiz",
+                  "Homework 2",
+                  "Homework 3",
+                  "Test"
+                ],
+                "title": ""
+              },
+              {
+                "id": "rL_rRY_9632UneId",
+                "clientKey": "",
+                "name": "Points Correct",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "4",
+                  "2",
+                  "24"
+                ],
+                "title": ""
+              },
+              {
+                "id": "RIoQOEOW20cVzkvl",
+                "clientKey": "",
+                "name": "Possible Points",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "2",
+                  "5",
+                  "10",
+                  "5",
+                  "3",
+                  "25"
+                ],
+                "title": ""
+              },
+              {
+                "id": "cscLbiutv-ZCx1GF",
+                "clientKey": "",
+                "name": "Ratio of Points Correct to Total Points",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1 out of 2",
+                  "4 out of 5",
+                  "9 out of 10",
+                  "4 out of 5",
+                  "2 out of 3",
+                  "24 out of 25"
+                ],
+                "title": ""
+              },
+              {
+                "id": "se05akO0IvQokhNN",
+                "clientKey": "",
+                "name": "Percent of Points Correct to the Total Points Possible",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "50%",
+                  "80%",
+                  "90%",
+                  "80%",
+                  "about 66% or 67%",
+                  "96%"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "ZokPXhPWh9avVrw5"
+              },
+              {
+                "__id__": "nQeMYwGWntkWwzeX"
+              },
+              {
+                "__id__": "mwbAHUqUqku5ru2G"
+              },
+              {
+                "__id__": "mjDrCDw3wqgVhCsv"
+              },
+              {
+                "__id__": "P_2B5TWEVlthtro7"
+              },
+              {
+                "__id__": "1Pipu4hjpPlCY6I-"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "AGgfoOk3hp9Z8GcE"
+        ]
+      }
+    ]
+  },
+  "supports": []
+}
