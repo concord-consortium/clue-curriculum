@@ -9,31 +9,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Welcome to the Seismic ML Explorer!</strong></p><p> We are going to learn about how to represent vibrations as digital signals you can graph. There are instruments, sensors, that can measure vibrations and turn them into digital numbers. The window below allows you to read data from a special network of sensors called Raspberry Shakes. 🥤These are computers that have a sensor that listens for vibrations, and turns them into values that can be read on the <a href=\"https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ\">Raspberry Shake Web site</a>.</p><p>There are similar sensors right on your computer. Your microphone picks up your voice and it also works on vibrations.  Scientists care about measuring vibrations digitally because it allows us to figure things out about the data more easily. </p>"
+            "<p><strong>Welcome to the SeismicML Mini Activity!</strong></p><p>This first round of development produced two new CLUE tiles, the WaveRunner tile and the Timeline tile. In the WaveRunner tile, users choose which seismic data to visualize by selecting a seismic station and a date range. Users can also use this tile to run the ML model to identify seismic events. With the Timeline tile, users can visualize the seismic data and navigate through it by panning and zooming. The Timeline tile also shows labeled events identified by the ML model in the WaveRunner tile. </p><p>This activity will serve as a quick proof of concept test for the WaveRunner and Timeline tiles in CLUE, as well as for the activities we would hope to do with students during the full SeismicML curriculum.</p>"
           ]
-        }
-      },
-      {
-        "id": "0diNJGy7C1zWY7BX",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Here is a viewer for the Raspberry Shake data from your school and others. Look at the data for stations &lt;RF528&gt; and &lt;R2A1A&gt;. What do you notice? Can you identify any of the sources of the noise in this data? To copy this tile into your workspace and search through the data:</p><p><strong>1) Select the Raspberry Shake tile below by clicking on it.</strong></p><p><strong>2) Choose stations and time ranges. Go ahead and explore!</strong></p>"
-          ]
-        }
-      },
-      {
-        "id": "iDcxBlqQ627geYDO",
-        "title": "Interactive 1",
-        "content": {
-          "type": "IframeInteractive",
-          "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
-          "interactiveState": {},
-          "authoredState": {},
-          "maxHeight": 0,
-          "enableScroll": false
         }
       },
       {
@@ -47,12 +24,6 @@
             "7khSY-fqeqo1YJEg": 93.87890625,
             "fhk_6qV-3gL-sfhW": 161.67578125
           }
-        }
-      },
-      {
-        "id": "SQDGCJIRJckmR5o-",
-        "content": {
-          "type": "DataCard"
         }
       },
       {
@@ -191,130 +162,6 @@
         "provider": "drPmXkRDGy0BjBK3",
         "tiles": [
           "drPmXkRDGy0BjBK3"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "hp2974ftrVgeHKyp",
-          "providerId": "",
-          "dataSet": {
-            "id": "u4BzFgtI_JcLPFth",
-            "name": "Identified Seismic Signals",
-            "attributes": [
-              {
-                "id": "I9273fMfGQ5CHwAu",
-                "clientKey": "",
-                "name": "Instance",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "1",
-                  "2",
-                  "3",
-                  "4",
-                  "5"
-                ],
-                "title": ""
-              },
-              {
-                "id": "7AKJFlODF3f-hhr_",
-                "clientKey": "",
-                "name": "Time of signal (AKST)",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "BVTYsG5FF10IoRz2",
-                "clientKey": "",
-                "name": "Date of Signal",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "nnLb3FDmEUBrf1r0",
-                "clientKey": "",
-                "name": "Station",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "lhRWL069-S3CdnCA",
-                "clientKey": "",
-                "name": "Waveform",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01KJXFSYXHFQZW0SG68EXBMT4K"
-              },
-              {
-                "__id__": "01KJXFSYXHFQZW0SG68EXBMT4M"
-              },
-              {
-                "__id__": "01KJXFSYXHFQZW0SG68EXBMT4N"
-              },
-              {
-                "__id__": "01KJXFSYXHFQZW0SG68EXBMT4P"
-              },
-              {
-                "__id__": "01KJXFSYXHFQZW0SG68EXBMT4Q"
-              }
-            ],
-            "sortDirection": "NONE"
-          }
-        },
-        "tiles": [
-          "SQDGCJIRJckmR5o-"
         ]
       }
     ]

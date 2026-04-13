@@ -130,15 +130,15 @@
         },
         {
           "tab": "sort-work",
-          "label": "Seismic Library",
+          "label": "Sort Work",
           "teacherOnly": false,
-          "hidden": false
+          "hidden": true
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "hidden": false
+          "hidden": true
         },
         {
           "tab": "student-work",
@@ -176,6 +176,7 @@
           "highlight",
           "subscript",
           "superscript",
+          "heading",
           "link"
         ]
       },
@@ -236,9 +237,6 @@
           "image-upload",
           "delete-attribute"
         ]
-      },
-      "dataflow": {
-        "maxTiles": 1
       },
       "iframeInteractive": {
         "maxTiles": 1,
@@ -336,7 +334,7 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "Seismic Waves",
+      "title": "SeismicWaves",
       "problems": [
         {
           "description": "Activity 1.1",
