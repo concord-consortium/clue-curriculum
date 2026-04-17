@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Data in the Broadest Terms</strong></p><p>Here&#x27;s a <strong>Table tile</strong>. It shows the beginning of setup to calculate positions of an object dropped from a height <em>p0</em>. First, notice that these tables can have any header you want, as many columns and rows as you want, can use expressions to calculate column numbers, can import data, and can even have text or images as data. Tables can also display data from other representations, for example, if you record data in a Dataflow program or capture data in data cards you can display it in a table. Drag or copy the table tile into your workspace, then select the table tile to try it&#x27;s controls and edit the data and headings.</p>"
+            "<p><strong>Data with Gravity</strong></p><p>Here&#x27;s a <strong>Table tile</strong>. It calculates positions of an object dropped from a height <em>p0</em>. </p><ol><li>Drag or click the top right corner to pickup and place the table nto your workspace.</li><li>Add some new time points. </li><li>Try sorting times into different orders. </li><li>Write a description in a text tile of some of the things you noticed or wondered about table features.</li></ol>"
           ]
         }
       },
@@ -23,6 +23,108 @@
             "lCJHwq9Y08pu30gw": 80,
             "01HYoKWpmYdjqVCO": 80
           }
+        }
+      },
+      {
+        "id": "4bV2Fl-eS9yVAa9x",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Here&#x27;s a graph of the table data made by choosing the <strong>Graph It!</strong> control then adding predicted data by hand. Try to recreate this graph in your worksheet using your copy of the table. Write a new text blurb about what you wonder or notice about the graph.</p>"
+          ]
+        }
+      },
+      {
+        "id": "iHVxz8LNj9Z8hQif",
+        "title": "Graph of position data",
+        "content": {
+          "type": "Graph",
+          "adornments": [],
+          "axes": {
+            "bottom": {
+              "type": "numeric",
+              "place": "bottom",
+              "scale": "linear",
+              "min": 0,
+              "max": 5.5
+            },
+            "left": {
+              "type": "numeric",
+              "place": "left",
+              "scale": "linear",
+              "min": -450,
+              "max": 100
+            }
+          },
+          "lockAxes": false,
+          "plotType": "scatterPlot",
+          "layers": [
+            {
+              "id": "LAYRSoz60y4Vh7O7",
+              "config": {
+                "id": "DCONz3RrWOgBSC8S",
+                "dataset": "gtP5zPsFzKo7brX9",
+                "metadata": "p0iaaE_hnScU3YSb",
+                "primaryRole": "x",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "HYeOx5bVPTDx5OfF"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "DmyXljfpRZ1msEEu"
+                  },
+                  {
+                    "attributeID": "01HYoKWpmYdjqVCO"
+                  }
+                ]
+              },
+              "editable": false
+            },
+            {
+              "id": "LAYRN4lCmtOr7iaL",
+              "config": {
+                "id": "DCONOhaYAYfiywfg",
+                "dataset": "BdvCeBBJeaMQgg9d",
+                "metadata": "CD4GmxNNjmWnZmQV",
+                "_attributeDescriptions": {
+                  "x": {
+                    "attributeID": "Tq2kcDlgFEFKO2IA",
+                    "type": "numeric"
+                  }
+                },
+                "_yAttributeDescriptions": [
+                  {
+                    "attributeID": "huqNIk921B686JLn",
+                    "type": "numeric"
+                  }
+                ]
+              },
+              "editable": true
+            }
+          ],
+          "_idColors": {
+            "DmyXljfpRZ1msEEu": 0,
+            "lCJHwq9Y08pu30gw": 1,
+            "01HYoKWpmYdjqVCO": 2,
+            "huqNIk921B686JLn": 3
+          },
+          "_pointColors": [
+            "#E6805B"
+          ],
+          "_pointStrokeColor": "#FFFFFF",
+          "pointStrokeSameAsFill": false,
+          "plotBackgroundColor": "#FFFFFF",
+          "pointSizeMultiplier": 1,
+          "isTransparent": false,
+          "plotBackgroundImageID": "",
+          "showParentToggles": false,
+          "showMeasuresForSelection": false,
+          "xAttributeLabel": "time (seconds)",
+          "yAttributeLabel": "position"
         }
       },
       {
@@ -238,109 +340,7 @@
           ]
         },
         "layout": {
-          "height": 209
-        }
-      },
-      {
-        "id": "4bV2Fl-eS9yVAa9x",
-        "title": "Text 2",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Here&#x27;s a graph of the table data made by choosing the Graph It! control. Then a set of hand-entered predicted data are added. Try to recreate this graph in your worksheet using your copy of the table.</p>"
-          ]
-        }
-      },
-      {
-        "id": "iHVxz8LNj9Z8hQif",
-        "title": "Graph of position data",
-        "content": {
-          "type": "Graph",
-          "adornments": [],
-          "axes": {
-            "bottom": {
-              "type": "numeric",
-              "place": "bottom",
-              "scale": "linear",
-              "min": 0,
-              "max": 5.5
-            },
-            "left": {
-              "type": "numeric",
-              "place": "left",
-              "scale": "linear",
-              "min": -450,
-              "max": 100
-            }
-          },
-          "lockAxes": false,
-          "plotType": "scatterPlot",
-          "layers": [
-            {
-              "id": "LAYRSoz60y4Vh7O7",
-              "config": {
-                "id": "DCONz3RrWOgBSC8S",
-                "dataset": "gtP5zPsFzKo7brX9",
-                "metadata": "p0iaaE_hnScU3YSb",
-                "primaryRole": "x",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "HYeOx5bVPTDx5OfF"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "DmyXljfpRZ1msEEu"
-                  },
-                  {
-                    "attributeID": "01HYoKWpmYdjqVCO"
-                  }
-                ]
-              },
-              "editable": false
-            },
-            {
-              "id": "LAYRN4lCmtOr7iaL",
-              "config": {
-                "id": "DCONOhaYAYfiywfg",
-                "dataset": "BdvCeBBJeaMQgg9d",
-                "metadata": "CD4GmxNNjmWnZmQV",
-                "_attributeDescriptions": {
-                  "x": {
-                    "attributeID": "Tq2kcDlgFEFKO2IA",
-                    "type": "numeric"
-                  }
-                },
-                "_yAttributeDescriptions": [
-                  {
-                    "attributeID": "huqNIk921B686JLn",
-                    "type": "numeric"
-                  }
-                ]
-              },
-              "editable": true
-            }
-          ],
-          "_idColors": {
-            "DmyXljfpRZ1msEEu": 0,
-            "lCJHwq9Y08pu30gw": 1,
-            "01HYoKWpmYdjqVCO": 2,
-            "huqNIk921B686JLn": 3
-          },
-          "_pointColors": [
-            "#E6805B"
-          ],
-          "_pointStrokeColor": "#FFFFFF",
-          "pointStrokeSameAsFill": false,
-          "plotBackgroundColor": "#FFFFFF",
-          "pointSizeMultiplier": 1,
-          "isTransparent": false,
-          "plotBackgroundImageID": "",
-          "showParentToggles": false,
-          "showMeasuresForSelection": false,
-          "xAttributeLabel": "time (seconds)",
-          "yAttributeLabel": "position"
+          "height": 592
         }
       }
     ],
