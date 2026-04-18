@@ -381,13 +381,15 @@
       "analyzing": "Analyzing"
     },
     "termOverrides": {
-      "strategy": "Learning Journey"
+      "sortLabel.sortByOwner": "Name",
+      "strategy": "Learning Journey",
+      "tools": "STEM tools"
     },
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master teacher of 7th grade STEM subjects.",
       "mainPrompt": "This is a solution from a seventh grade student in an inquiry science class. We will be evaluating the effort and techniques the student is using to allow them to reflect on the way they approach science learning.",
-      "categorizationDescription": "Categorize the document according to the sophistication and solving techniques found in the document.",
+      "categorizationDescription": "Categorize the document according to the sophistication and solving techniques found in the document as one of exploring, solving, applying or analyzing.",
       "categories": [
         "exploring",
         "solving",
@@ -400,15 +402,20 @@
     },
     "showIdeasButton": true,
     "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "Unit"
+      ],
       "sortOptions": [
+        "Strategy",
         "Date",
         "Name",
         "Group",
-        "Strategy",
         "Tools"
       ],
-      "defaultPrimarySort": "Name"
-    }
+      "defaultPrimarySort": "Strategy"
+    },
+    "defaultSharedDocuments": true
   },
   "sections": {
     "warmup": {
@@ -474,15 +481,8 @@
           ]
         },
         {
-          "title": "Data and Categories - Experiments",
-          "ordinal": 3,
-          "description": "",
-          "subtitle": "",
-          "sections": []
-        },
-        {
           "description": "Activity 1.3",
-          "ordinal": 4,
+          "ordinal": 3,
           "title": "Computational Thinking - Modeling",
           "subtitle": "",
           "disabled": [],
@@ -496,6 +496,13 @@
             "exemplars/investigation-1/problem-3/exemplar-2/content.json",
             "exemplars/investigation-1/problem-3/exemplar-3/content.json"
           ]
+        },
+        {
+          "title": "Data and Categories - Experiments",
+          "ordinal": 4,
+          "description": "",
+          "subtitle": "",
+          "sections": []
         },
         {
           "title": "Geometry and Scaling",
