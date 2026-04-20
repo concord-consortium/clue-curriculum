@@ -3,13 +3,44 @@
   "content": {
     "tiles": [
       {
+        "id": "yXtq5i03tR4VyzyB",
+        "title": "Text 26",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Problem 1.1</strong></p><p><strong>How Big Are Those Boxes? Finding Volume</strong></p><p>In this globalized world, people enjoy products from many different countries. The most economical way to transport goods is by water on large container ships. </p>"
+          ]
+        }
+      },
+      {
+        "id": "adNM8yx-JXm9kds-",
+        "title": "Large Container Ship",
+        "content": {
+          "type": "Image",
+          "url": "faw/images/Large-Container-Ship-FAW.png",
+          "filename": "faw/images/Large-Container-Ship-FAW.png"
+        }
+      },
+      {
+        "id": "u8y4SpuGh63oKCQf",
+        "title": "Text 27",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The ships are loaded with individual shipping containers. The containers can be easily loaded and unloaded and then transferred to trucks for delivery. </p>"
+          ]
+        }
+      },
+      {
         "id": "bn3sBdWYBy4JbhBy",
         "title": "Text 1",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The shipping containers themselves are also used for temporary storage or even repurposed as homes, classrooms, or restaurants in many places.</p>"
+            "<p><strong>Initial Challenge</strong></p><p>The shipping containers themselves are also used for temporary storage or even repurposed as homes, classrooms, or restaurants in many places.</p>"
           ]
         }
       },
@@ -19,8 +50,8 @@
           "title": "Original Shipping Container",
           "content": {
             "type": "Image",
-            "url": "faw/images/green.png",
-            "filename": "faw/images/green.png"
+            "url": "faw/images/Original-Shipping-Container-FAW.png",
+            "filename": "faw/images/Original-Shipping-Container-FAW.png"
           }
         },
         {
@@ -28,8 +59,8 @@
           "title": "Repurposed as a Restaurant",
           "content": {
             "type": "Image",
-            "url": "faw/images/image3.jpeg",
-            "filename": "faw/images/image3.jpeg"
+            "url": "faw/images/Repurposed-as-a-Restraunt-FAW.png",
+            "filename": "faw/images/Repurposed-as-a-Restraunt-FAW.png"
           }
         }
       ],
@@ -55,246 +86,180 @@
           ]
         }
       },
-      [
-        {
-          "id": "mcsx3xyH6rCzvm1h",
-          "title": "Text 4",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>Questions </strong></p><p><strong></strong></p>"
-            ]
-          }
-        },
-        {
-          "id": "wZRNC_BxkHGLOeb8",
-          "title": "Text 5",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>Measurement(s)</strong></p><p>Width, Length, Height, Diagonal, Surface Area, Volume</p>"
-            ]
+      {
+        "id": "8dLxB7QUn0KDXxPT",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "W8hwQ-lB3yV084Y6": 525.5,
+            "VHplJ6900doJYIAy": 503
           }
         }
-      ],
-      [
-        {
-          "id": "W2bS6z2D--nnYh2N",
-          "title": "Text 6",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>How much metal would it take to build the container?</p>"
-            ]
-          }
-        },
-        {
-          "id": "fFga6QMbGPQ85kDo",
-          "title": "Text 20",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p></p>"
-            ]
-          }
-        },
-        {
-          "id": "p3PvMCiNRWb1fucb",
-          "title": "Text 7",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Surface Area- you would need length, width, height to find the SA</p>"
-            ]
+      },
+      {
+        "id": "81IM1HGD5-JsICrR",
+        "display": "teacher",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "3SJQJorcOfDKGWEe": 525.5,
+            "TOz5P3LezTR66e-P": 503
           }
         }
-      ],
-      [
-        {
-          "id": "rMH1DppJVkmX_wOd",
-          "title": "Text 8",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Could you store a small car in the container?</p>"
-            ]
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "P_1a1474u92XkF0C",
+          "providerId": "8dLxB7QUn0KDXxPT",
+          "dataSet": {
+            "id": "aSb-J8sKtO4jqrYg",
+            "name": "Ways to Measure a Shipping Container",
+            "attributes": [
+              {
+                "id": "W8hwQ-lB3yV084Y6",
+                "clientKey": "",
+                "name": "Questions",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "How much metal would it take to build the container?",
+                  "Could you store a small car in the container?",
+                  "How many sacks of rice, corn, or beans could you store in the container?",
+                  "Could you store pipes for a farm sprinkler in the container?",
+                  "Could you store a life size giraffe statue in the container?",
+                  "How many rectangular boxes of textbooks could fit in the container?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "VHplJ6900doJYIAy",
+                "clientKey": "",
+                "name": "Measurement(s): Width, Length, Height, Diagonal, Surface Area, Volume",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "EElE99l-PmGLY7WP"
+              },
+              {
+                "__id__": "ySdTs5uXkxC3XjvU"
+              },
+              {
+                "__id__": "FBrCUBK8XgceWIJn"
+              },
+              {
+                "__id__": "RoWxztAqVDtHXswh"
+              },
+              {
+                "__id__": "nQWgxiihW53daIza"
+              },
+              {
+                "__id__": "W5W7wUEk7vP0kJiR"
+              }
+            ],
+            "sortDirection": "NONE"
           }
         },
-        {
-          "id": "I3K4tltmjROpFX4U",
-          "title": "Text 21",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p></p>"
-            ]
+        "tiles": [
+          "8dLxB7QUn0KDXxPT"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "xv3jr8wU_muAml9n",
+          "providerId": "81IM1HGD5-JsICrR",
+          "dataSet": {
+            "id": "IlxcRV9joRpp7bVT",
+            "name": "Ways to Measure a Shipping Container",
+            "attributes": [
+              {
+                "id": "3SJQJorcOfDKGWEe",
+                "clientKey": "",
+                "name": "Questions",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "How much metal would it take to build the container?",
+                  "Could you store a small car in the container?",
+                  "How many sacks of rice, corn, or beans could you store in the container?",
+                  "Could you store pipes for a farm sprinkler in the container?",
+                  "Could you store a life size giraffe statue in the container?",
+                  "How many rectangular boxes of textbooks could fit in the container?"
+                ],
+                "title": ""
+              },
+              {
+                "id": "TOz5P3LezTR66e-P",
+                "clientKey": "",
+                "name": "Measurement(s): Width, Length, Height, Diagonal, Surface Area, Volume",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "Surface Area- you would need length, width, height to find the SA",
+                  "Width, Length, and Height",
+                  "Volume - you would need length, width, height to find the Volume          ",
+                  "Length and/or Diagonal",
+                  "Width, Length, and Height ",
+                  "Volume, you would need length, width, height to find the Volume "
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KN53RK1RWS3W2HWA0Y3DW3WB"
+              },
+              {
+                "__id__": "01KN53RK1RWS3W2HWA0Y3DW3WC"
+              },
+              {
+                "__id__": "01KN53RK1RWS3W2HWA0Y3DW3WD"
+              },
+              {
+                "__id__": "01KN53RK1RWS3W2HWA0Y3DW3WE"
+              },
+              {
+                "__id__": "01KN53RK1RWS3W2HWA0Y3DW3WF"
+              },
+              {
+                "__id__": "01KN53RK1RWS3W2HWA0Y3DW3WG"
+              }
+            ],
+            "sortDirection": "NONE"
           }
         },
-        {
-          "id": "IItf_s4skQTvKR-0",
-          "title": "Text 9",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Width, Length, and Height</p>"
-            ]
-          }
-        }
-      ],
-      [
-        {
-          "id": "q6Z3b_L3qJwMUfOh",
-          "title": "Text 10",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>How many sacks of rice, corn, or beans could you store in the container?</p>"
-            ]
-          }
-        },
-        {
-          "id": "1ks4gs-Xgeb8Avbw",
-          "title": "Text 22",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p></p>"
-            ]
-          }
-        },
-        {
-          "id": "zTNk_NgtFYT_sbej",
-          "title": "Text 11",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Volume - you would need length, width, height to find the Volume                                                                                                                                         </p>"
-            ]
-          }
-        }
-      ],
-      [
-        {
-          "id": "3aSLU4tQHyN2Osn-",
-          "title": "Text 12",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Could you store pipes for a farm sprinkler in the container?</p>"
-            ]
-          }
-        },
-        {
-          "id": "qFx9hs9occdaenfI",
-          "title": "Text 23",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p></p>"
-            ]
-          }
-        },
-        {
-          "id": "YrmNYvz9rqP-KP2B",
-          "title": "Text 13",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Length and/or Diagonal</p>"
-            ]
-          }
-        }
-      ],
-      [
-        {
-          "id": "N2p7IiifWpcmdKbg",
-          "title": "Text 14",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Could you store a life size giraffe statue in the container?</p>"
-            ]
-          }
-        },
-        {
-          "id": "HMYsQjqTvsaMDKQ7",
-          "title": "Text 24",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p></p>"
-            ]
-          }
-        },
-        {
-          "id": "Ad5JNpmJPIP2_2qA",
-          "title": "Text 15",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Width, Length, and Height </p>"
-            ]
-          }
-        }
-      ],
-      [
-        {
-          "id": "zrd9ueyhA_7Z_4yb",
-          "title": "Text 16",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>How many rectangular boxes of textbooks could fit in the container?</p>"
-            ]
-          }
-        },
-        {
-          "id": "R4hemCMIzNHB7u2I",
-          "title": "Text 25",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p></p>"
-            ]
-          }
-        },
-        {
-          "id": "8G6AQZPDVPkyIvRR",
-          "title": "Text 17",
-          "display": "teacher",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p>Volume, you would need length, width, height to find the Volume </p>"
-            ]
-          }
-        }
-      ]
+        "provider": "81IM1HGD5-JsICrR",
+        "tiles": [
+          "81IM1HGD5-JsICrR"
+        ]
+      }
     ]
   },
   "supports": []
