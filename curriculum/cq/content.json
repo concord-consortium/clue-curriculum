@@ -64,7 +64,11 @@
         "iconId": "icon-sparrow-tool",
         "isTileTool": false
       },
-      {"id": "Question", "title": "Question", "isTileTool": true},
+      {
+        "id": "Question",
+        "title": "Question",
+        "isTileTool": true
+      },
       {
         "id": "hide-annotations",
         "title": "Hide Annotations",
@@ -124,13 +128,16 @@
               "title": "Now What Do You Know?",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -201,18 +208,28 @@
                 "teacher"
               ]
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "student-work",
           "label": "Student Work",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
         },
         {
           "tab": "sort-work",
           "label": "Class Work",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
