@@ -18,19 +18,17 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3><strong>Introduction to Dataflow</strong></h3><p>Because these lessons involve engineering and robotics, you will also need a programming tool that can read sensor data and control outputs. In this unit, the programming tool is called Dataflow, and it can be launched from the button with two connected boxes. </p><p>Watch <a href=\"https://www.youtube.com/watch?v=YwZ4JX5B3Lw\">this video</a> to learn more about how to use Dataflow. </p>"
+            "<h3><strong>Introduction to Dataflow</strong></h3><p>Because these lessons involve engineering and robotics, you will also need a programming tool that can read sensor data and control outputs. In this unit, the programming tool is called Dataflow, and it can be launched from the button with two connected boxes, like this one:</p>"
           ]
         }
       },
       {
-        "id": "758mGzn3UXzxTTSB",
-        "title": "Text 3",
+        "id": "B9YQy8ea0dREkpPm",
+        "title": "Dataflow Tile",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>After watching the video, try to make your own Dataflow program that adds two numbers. What are the different ways that you see the result of the program?</p>"
-          ]
+          "type": "Image",
+          "url": "vibe/images/Image2.png",
+          "filename": "vibe/images/Image2.png"
         }
       },
       {
@@ -39,125 +37,370 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The following Dataflow program is supposed to turn on a light bulb whenever the input from the number generator is positive.  However, the program is not working. Can you drag it into your workspace and fix it? </p>"
+            "<p>The following Dataflow program is supposed to subtract one number from another, but the blocks aren&#x27;t connected.</p><p>Right now the math tile says  ___ - ___ = ___</p><p>Drag the program to your workspace and connect the blocks so that the equation is filled in.</p>"
           ]
         }
       },
       {
         "id": "gX3nceoKGZrxqjmR",
-        "title": "Monitor Temperature",
         "content": {
           "type": "Dataflow",
-          "programDataRate": 1000,
-          "programZoom": {
-            "dx": -0.0162353515625,
-            "dy": 0,
-            "scale": 0.6058285767831006
-          },
           "program": {
-            "values": {
-              "3322": {
-                "currentValues": {}
-              },
-              "3337": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              },
-              "3338": {
-                "currentValues": {
-                  "nodeValue": 0.97
-                }
-              },
-              "3339": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              }
-            },
-            "id": "dataflow@0.1.0",
+            "id": "dataflow@1",
             "nodes": {
-              "3322": {
-                "id": 3322,
-                "name": "Logic",
-                "x": 291.7448738557753,
-                "y": 110.95676741266041,
-                "inputs": {
-                  "num1": {
-                    "connections": {}
-                  },
-                  "num2": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Logic 1",
-                  "logicOperator": "Greater Than"
-                }
-              },
-              "3337": {
-                "id": 3337,
-                "name": "Demo Output",
-                "x": 551.8805820907344,
-                "y": 140.5773811102751,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {},
-                "data": {
-                  "orderedDisplayName": "Demo Output 2",
-                  "outputType": "Light Bulb",
-                  "demoOutput": 0
-                }
-              },
-              "3338": {
-                "id": 3338,
-                "name": "Generator",
-                "x": 42.95312952716057,
-                "y": 57.922324251974615,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
-                "data": {
-                  "plot": false,
-                  "orderedDisplayName": "Generator 3",
-                  "generatorType": "Sine",
-                  "amplitudeUnits": "",
-                  "amplitude": 1,
-                  "periodUnits": "sec",
-                  "period": 10
-                }
-              },
-              "3339": {
-                "id": 3339,
+              "3339@gX3nceoKGZrxqjmR": {
+                "id": "3339@gX3nceoKGZrxqjmR",
                 "name": "Number",
                 "x": 43.136365625588255,
                 "y": 281.10634943713586,
-                "inputs": {},
-                "outputs": {
-                  "num": {
-                    "connections": {}
-                  }
-                },
                 "data": {
+                  "type": "Number",
                   "plot": false,
-                  "orderedDisplayName": "Number 4",
-                  "nodeValueUnits": ""
+                  "orderedDisplayName": "Number 2",
+                  "tickEntries": {
+                    "51bU8KsEpdr-Y8_y": {
+                      "nodeValue": "4.5"
+                    },
+                    "nrsw0SkdtgjFaJlN": {
+                      "nodeValue": "4.5"
+                    },
+                    "f4Xdsa0Oike6_i2E": {
+                      "nodeValue": "4.5"
+                    },
+                    "_e9eFhhJcethkmUO": {
+                      "nodeValue": "4.5"
+                    },
+                    "cNrKc-KeBklTt5bZ": {
+                      "nodeValue": "4.5"
+                    },
+                    "cpLXCYwgEQRreYvu": {
+                      "nodeValue": "4.5"
+                    },
+                    "157isw4P6NYDrd2u": {
+                      "nodeValue": "4.5"
+                    },
+                    "g-30KoCYmmeCMVR1": {
+                      "nodeValue": "4.5"
+                    },
+                    "jKe10wkbcY6qG5F8": {
+                      "nodeValue": "4.5"
+                    },
+                    "sd5eKu38miD0j6tN": {
+                      "nodeValue": "4.5"
+                    },
+                    "JNBd1ocXnBfviDQD": {
+                      "nodeValue": "4.5"
+                    },
+                    "KAF-8PSL27KXs7HK": {
+                      "nodeValue": "4.5"
+                    },
+                    "pInU9GTVZ6zYfLrO": {
+                      "nodeValue": "4.5"
+                    },
+                    "eud3ssC_iz2_Mvrz": {
+                      "nodeValue": "4.5"
+                    },
+                    "zFVvKYcqJ6xuRuXR": {
+                      "nodeValue": "4.5"
+                    },
+                    "a49F1Lv2aO0arIMa": {
+                      "nodeValue": "4.5"
+                    },
+                    "LzwhksYqiAY8bFbF": {
+                      "open": true,
+                      "nodeValue": "4.5"
+                    }
+                  },
+                  "value": 4.5
+                }
+              },
+              "7zQrsy3Vjqp1oPuP": {
+                "id": "7zQrsy3Vjqp1oPuP",
+                "name": "Number",
+                "x": 44.01680979948026,
+                "y": 89.02884321898111,
+                "data": {
+                  "type": "Number",
+                  "plot": false,
+                  "orderedDisplayName": "Number 1",
+                  "tickEntries": {
+                    "51bU8KsEpdr-Y8_y": {
+                      "nodeValue": "10"
+                    },
+                    "nrsw0SkdtgjFaJlN": {
+                      "nodeValue": "10"
+                    },
+                    "f4Xdsa0Oike6_i2E": {
+                      "nodeValue": "10"
+                    },
+                    "_e9eFhhJcethkmUO": {
+                      "nodeValue": "10"
+                    },
+                    "cNrKc-KeBklTt5bZ": {
+                      "nodeValue": "10"
+                    },
+                    "cpLXCYwgEQRreYvu": {
+                      "nodeValue": "10"
+                    },
+                    "157isw4P6NYDrd2u": {
+                      "nodeValue": "10"
+                    },
+                    "g-30KoCYmmeCMVR1": {
+                      "nodeValue": "10"
+                    },
+                    "jKe10wkbcY6qG5F8": {
+                      "nodeValue": "10"
+                    },
+                    "sd5eKu38miD0j6tN": {
+                      "nodeValue": "10"
+                    },
+                    "JNBd1ocXnBfviDQD": {
+                      "nodeValue": "10"
+                    },
+                    "KAF-8PSL27KXs7HK": {
+                      "nodeValue": "10"
+                    },
+                    "pInU9GTVZ6zYfLrO": {
+                      "nodeValue": "10"
+                    },
+                    "eud3ssC_iz2_Mvrz": {
+                      "nodeValue": "10"
+                    },
+                    "zFVvKYcqJ6xuRuXR": {
+                      "nodeValue": "10"
+                    },
+                    "a49F1Lv2aO0arIMa": {
+                      "nodeValue": "10"
+                    },
+                    "LzwhksYqiAY8bFbF": {
+                      "open": true,
+                      "nodeValue": "10"
+                    }
+                  },
+                  "value": 10
+                }
+              },
+              "N14evRg1gOOSb5qE": {
+                "id": "N14evRg1gOOSb5qE",
+                "name": "Math",
+                "x": 360.93811740882893,
+                "y": 140.98316501387512,
+                "data": {
+                  "type": "Math",
+                  "plot": false,
+                  "orderedDisplayName": "Math Equation",
+                  "tickEntries": {
+                    "51bU8KsEpdr-Y8_y": {
+                      "nodeValue": "NaN"
+                    },
+                    "nrsw0SkdtgjFaJlN": {
+                      "nodeValue": "NaN"
+                    },
+                    "f4Xdsa0Oike6_i2E": {
+                      "nodeValue": "NaN"
+                    },
+                    "_e9eFhhJcethkmUO": {
+                      "nodeValue": "NaN"
+                    },
+                    "cNrKc-KeBklTt5bZ": {
+                      "nodeValue": "NaN"
+                    },
+                    "cpLXCYwgEQRreYvu": {
+                      "nodeValue": "NaN"
+                    },
+                    "157isw4P6NYDrd2u": {
+                      "nodeValue": "NaN"
+                    },
+                    "g-30KoCYmmeCMVR1": {
+                      "nodeValue": "NaN"
+                    },
+                    "jKe10wkbcY6qG5F8": {
+                      "nodeValue": "NaN"
+                    },
+                    "sd5eKu38miD0j6tN": {
+                      "nodeValue": "NaN"
+                    },
+                    "JNBd1ocXnBfviDQD": {
+                      "nodeValue": "NaN"
+                    },
+                    "KAF-8PSL27KXs7HK": {
+                      "nodeValue": "NaN"
+                    },
+                    "pInU9GTVZ6zYfLrO": {
+                      "nodeValue": "NaN"
+                    },
+                    "eud3ssC_iz2_Mvrz": {
+                      "nodeValue": "NaN"
+                    },
+                    "zFVvKYcqJ6xuRuXR": {
+                      "nodeValue": "NaN"
+                    },
+                    "a49F1Lv2aO0arIMa": {
+                      "nodeValue": "NaN"
+                    },
+                    "LzwhksYqiAY8bFbF": {
+                      "open": true,
+                      "nodeValue": "NaN"
+                    }
+                  },
+                  "mathOperator": "Subtract"
                 }
               }
-            }
+            },
+            "connections": {},
+            "recentTicks": [
+              "51bU8KsEpdr-Y8_y",
+              "nrsw0SkdtgjFaJlN",
+              "f4Xdsa0Oike6_i2E",
+              "_e9eFhhJcethkmUO",
+              "cNrKc-KeBklTt5bZ",
+              "cpLXCYwgEQRreYvu",
+              "157isw4P6NYDrd2u",
+              "g-30KoCYmmeCMVR1",
+              "jKe10wkbcY6qG5F8",
+              "sd5eKu38miD0j6tN",
+              "JNBd1ocXnBfviDQD",
+              "KAF-8PSL27KXs7HK",
+              "pInU9GTVZ6zYfLrO",
+              "eud3ssC_iz2_Mvrz",
+              "zFVvKYcqJ6xuRuXR",
+              "a49F1Lv2aO0arIMa",
+              "LzwhksYqiAY8bFbF"
+            ]
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 31.9837646484375,
+            "dy": -5.33331298828125,
+            "scale": 0.8558285767831009
           }
+        }
+      },
+      {
+        "id": "C3id_NW768-YQXNd",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h3>Making Changes</h3><p>Now that you got the program to calculate 10 - 4.5, can you get it to calculate the opposite: 4.5 - 10?</p>"
+          ]
+        }
+      },
+      {
+        "id": "N81bnLxqCG4TSmjA",
+        "title": "Finding Different Ways",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "2hjmYU",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Once you figured out a way to calculate 4.5 - 10, find a group who figured out a different way.</p><p>Drag this question tile over and explain what your group figured out and what their group figured out.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 8",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "1uotwJO7vc1RiVeu",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h3>Adding Outputs</h3><p>Did you notice the blocks come in three different colors?</p><ul><li>The purple blocks are called “inputs.” They bring numbers into the program.</li><li>The blue blocks are called “processors.” They do something with those numbers inside the program.</li></ul><p>Now we can add a yellow block. This is called an output. Outputs use numbers to make something happen in real life, or in simulations.</p><p>Click the “demo output” to add a tile to your workspace. Use the dropdown menu to change it into a gripper.</p>"
+          ]
+        }
+      },
+      {
+        "id": "Iu1Z36SaKih4UmdN",
+        "title": "Gripper with dropdown",
+        "content": {
+          "type": "Image",
+          "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
+        }
+      },
+      {
+        "id": "fFbg3GAPJKvshVU_",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Right now the gripper is 0% closed. We want to figure out how it works: can we make it fully closed or partially closed?</p><p></p><p>Connect the gripper to your program (or to a different program you design!) and try to figure out:</p><ol><li>How do you make the gripper close 100%?</li><li>Can you make the gripper partially closed? (e.g., 25% closed, 50% closed, 90% closed) If yes, how? Is there a percent closed that it <em>can&#x27;t</em> do?</li></ol><p></p><p>You might ask &quot;But what do I connect it to?&quot; As you saw earlier, there isn&#x27;t just one way to make things work in programming!</p><p>Throughout this unit, you will be developing strategies for designing and making new programs!</p><p>Try to think: what is a way to connect this to figure out the problem? If you&#x27;re not sure, try one way you can think of to connect it, even if you&#x27;re not sure it&#x27;s the best way. If it doesn&#x27;t help you, you can think about a better way later!</p><p></p><p>Drag the table below to your workspace and fill as many rows as you need to help you keep track of what you have tried and to notice any patterns.</p>"
+          ]
+        }
+      },
+      {
+        "id": "lPa1Ieo7nV-yYQk4",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "C6gQsA4izXFWHC8o": 238,
+            "9Rr45TV5X9UpGHSI": 234
+          }
+        }
+      },
+      {
+        "id": "Vc46EZlPhDDKA0dB",
+        "title": "Documenting the Gripper",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "m7GTcP",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>An important part of writing programs is documenting what you figure out so that others can use the new ideas, and so that you remember what you did next time you want to use the program! Explain to someone who has never used the gripper how it works.</p><p>We are also trying to develop some strategies for figuring out how to make programs work. Maybe you used a good strategy, and maybe you think you can improve your strategy. In the second space, explain to someone who is getting started with Dataflow what you suggest they do to figure out what a new block does.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 9",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>How the gripper works:</strong> </p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 10",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>Strategy for figuring out what blocks do:</strong> </p>"
+                ]
+              }
+            }
+          ]
         }
       },
       {
@@ -180,12 +423,45 @@
         }
       },
       {
+        "id": "muWZ2shXQUjLh0Hz",
+        "title": "Noticing Differences",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "bIswUY",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<li>Look through the other programs your peers made.</li><li>Find one group that connected the gripper to the program differently than your group OR one group who suggested a different strategy for figuring out what blocks do.</li>"
+                ]
+              }
+            },
+            {
+              "title": "Text 7",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>Which group:</strong></p><p><strong>What was different about how they connected their gripper, or about their strategy?</strong></p><p><strong>Do you think your way or their way is better for figuring out what blocks do, or were they both equally good? Why?</strong></p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
         "id": "FFsWGlSrLofqnz1h",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<h3>Publishing your workspace </h3><p>When you&#x27;re done with today&#x27;s activities, try publishing your workspace. To do so, click on &quot;Publish Workspace&quot; at the top of your workspace.</p><p>When you publish, your workspace will appear under the pink &quot;Extension&quot; tab above. Student work will go under the Class Models and Data tab. Teacher work will go under the Custom Lessons tab. </p><p>Check if any of your classmates has published their workspace yet. </p><p> </p>"
+            "<h3>Publishing your workspace </h3><p>When you&#x27;re done with today&#x27;s activities, try publishing your workspace. To do so, click on &quot;Publish Workspace&quot; at the top of your workspace.</p><p>When you publish, your workspace will appear under the pink &quot;Extension&quot; tab above. Student work will go under the Class Models and Data tab. Teacher work will go under the Custom Lessons tab. </p><p>Check if any of your classmates has published their workspace yet. </p><p></p>"
           ]
         }
       },
@@ -208,6 +484,7 @@
           "providerId": "gX3nceoKGZrxqjmR",
           "dataSet": {
             "id": "6kSQZE-7EYROKoS5",
+            "name": "Subtracting Program",
             "attributes": [
               {
                 "id": "VKzRoWtusWLUziyg",
@@ -215,12 +492,15 @@
                 "name": "Dataflow Node",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [],
                 "title": ""
               }
             ],
-            "cases": []
+            "cases": [],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -326,11 +606,79 @@
           "gX3nceoKGZrxqjmR",
           "nktXKxeXTDkfpIkB",
           "f_KkdkpBCqi9KRxk",
-          "758mGzn3UXzxTTSB",
           "qp3ALL5BqFvvnji8",
           "Vgc6qoEDt_gV8hAb",
           "FFsWGlSrLofqnz1h",
-          "9R8Pq1QLUzthSal0"
+          "9R8Pq1QLUzthSal0",
+          "C3id_NW768-YQXNd",
+          "1uotwJO7vc1RiVeu",
+          "document_Text_1",
+          "document_Text_2",
+          "fFbg3GAPJKvshVU_",
+          "document_Text_3",
+          "document_Text_4",
+          "document_Text_5",
+          "document_Text_6",
+          "document_Text_7"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "CTSi8PpbHRVDMq9l"
+        },
+        "tiles": [
+          "gX3nceoKGZrxqjmR"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "iedIh05ojue5zeET",
+          "providerId": "lPa1Ieo7nV-yYQk4",
+          "dataSet": {
+            "id": "GQIcMhUSB_-_-7oQ",
+            "name": "Figuring out how the gripper works",
+            "attributes": [
+              {
+                "id": "C6gQsA4izXFWHC8o",
+                "clientKey": "",
+                "name": "What number is going into the gripper?",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  ""
+                ],
+                "title": ""
+              },
+              {
+                "id": "9Rr45TV5X9UpGHSI",
+                "clientKey": "",
+                "name": "% closed",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "e1P8DsBJmZ4zYNuj"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "lPa1Ieo7nV-yYQk4"
         ]
       }
     ]

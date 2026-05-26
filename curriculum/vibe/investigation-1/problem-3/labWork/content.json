@@ -57,28 +57,24 @@
       [
         {
           "id": "ol3oNA-h9QHGUOEX",
-          "title": "Dominant hand",
           "content": {
             "type": "Table",
             "columnWidths": {
               "rVatt5CYaqE72skS": 80,
               "QwK5ItCoLZnJxioD": 80,
               "ELbTQ2b01LIDT8t-": 80
-            },
-            "name": "Table 1"
+            }
           }
         },
         {
           "id": "4fMztbW5A-Ns3pdP",
-          "title": "Non-dominant hand",
           "content": {
             "type": "Table",
             "columnWidths": {
               "Yrn2STrok3q61CCH": 80,
               "ypJLWXd5oyODY4Kw": 80,
               "EMxthiVrboRhcjuX": 80
-            },
-            "name": "Table 2"
+            }
           }
         }
       ],
@@ -95,14 +91,12 @@
       },
       {
         "id": "rNi2FefUJedMWujx",
-        "title": "Look up table",
         "content": {
           "type": "Table",
           "columnWidths": {
             "U_PdnJzTnz2cb7Xj": 132.64913940429688,
             "8JORYABMoZ8ZiIUi": 152.265625
-          },
-          "name": "Table 1"
+          }
         }
       },
       {
@@ -128,46 +122,104 @@
       },
       {
         "id": "jm9bx6l797gF47ZA",
-        "title": "Dataflow 1",
         "content": {
           "type": "Dataflow",
-          "programDataRate": 1000,
-          "programZoom": {
-            "dx": 0,
-            "dy": 0,
-            "scale": 1
-          },
           "program": {
-            "values": {
-              "6": {
-                "currentValues": {
-                  "nodeValue": 0
-                }
-              }
-            },
-            "id": "dataflow@0.1.0",
+            "id": "dataflow@1",
             "nodes": {
-              "6": {
-                "id": 6,
+              "6@jm9bx6l797gF47ZA": {
+                "id": "6@jm9bx6l797gF47ZA",
                 "name": "Demo Output",
                 "x": 590.078125,
                 "y": 51.61328125,
-                "inputs": {
-                  "nodeValue": {
-                    "connections": {}
-                  },
-                  "tilt": {
-                    "connections": {}
-                  }
-                },
-                "outputs": {},
                 "data": {
+                  "type": "Demo Output",
+                  "plot": false,
                   "orderedDisplayName": "Demo Output 1",
-                  "outputType": "Grabber",
-                  "demoOutput": 0
+                  "tickEntries": {
+                    "PtZSEJSwGjjIBZvZ": {
+                      "nodeValue": "0"
+                    },
+                    "Ts8f3k9A1ba31Gb6": {
+                      "nodeValue": "0"
+                    },
+                    "7ZuWX8d7rE-8y6X3": {
+                      "nodeValue": "0"
+                    },
+                    "b0YGEexth-_m-mSx": {
+                      "nodeValue": "0"
+                    },
+                    "I0YxXnT_550yrdA_": {
+                      "nodeValue": "0"
+                    },
+                    "Tw1KpLhAmCXd6_nJ": {
+                      "nodeValue": "0"
+                    },
+                    "A5n5ggDRpaNMEcSC": {
+                      "nodeValue": "0"
+                    },
+                    "bZPwkuaOCzKZmXnt": {
+                      "nodeValue": "0"
+                    },
+                    "6HKuLvWNuV8hkTeK": {
+                      "nodeValue": "0"
+                    },
+                    "-12wNuofmIql46NP": {
+                      "nodeValue": "0"
+                    },
+                    "T13WwTkP-5yt6_CW": {
+                      "nodeValue": "0"
+                    },
+                    "fa7upVgjkjvrcCIk": {
+                      "nodeValue": "0"
+                    },
+                    "CBE42v9YCfTwMYJ8": {
+                      "nodeValue": "0"
+                    },
+                    "mXNGmAtR3OfF6gxt": {
+                      "nodeValue": "0"
+                    },
+                    "8IEwEr-83ffgxq45": {
+                      "nodeValue": "0"
+                    },
+                    "joAeFbCqDRVge4_G": {
+                      "nodeValue": "0"
+                    },
+                    "NdkV2BdoxHJXoXQa": {
+                      "open": true,
+                      "nodeValue": "0"
+                    }
+                  },
+                  "outputType": "Grabber"
                 }
               }
-            }
+            },
+            "connections": {},
+            "recentTicks": [
+              "PtZSEJSwGjjIBZvZ",
+              "Ts8f3k9A1ba31Gb6",
+              "7ZuWX8d7rE-8y6X3",
+              "b0YGEexth-_m-mSx",
+              "I0YxXnT_550yrdA_",
+              "Tw1KpLhAmCXd6_nJ",
+              "A5n5ggDRpaNMEcSC",
+              "bZPwkuaOCzKZmXnt",
+              "6HKuLvWNuV8hkTeK",
+              "-12wNuofmIql46NP",
+              "T13WwTkP-5yt6_CW",
+              "fa7upVgjkjvrcCIk",
+              "CBE42v9YCfTwMYJ8",
+              "mXNGmAtR3OfF6gxt",
+              "8IEwEr-83ffgxq45",
+              "joAeFbCqDRVge4_G",
+              "NdkV2BdoxHJXoXQa"
+            ]
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": -347.65482456140353,
+            "dy": -50.99089912280702,
+            "scale": 1.3754385964912281
           }
         }
       },
@@ -191,6 +243,7 @@
           "providerId": "jm9bx6l797gF47ZA",
           "dataSet": {
             "id": "QEKmZwDQc3TpI0N_",
+            "name": "Dataflow 1",
             "attributes": [
               {
                 "id": "f481GQrkMzdIm3je",
@@ -198,12 +251,15 @@
                 "name": "Dataflow Node",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [],
                 "title": ""
               }
             ],
-            "cases": []
+            "cases": [],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -217,7 +273,7 @@
           "providerId": "ol3oNA-h9QHGUOEX",
           "dataSet": {
             "id": "JgnUIla6RT0ZdnA3",
-            "name": "Table 1",
+            "name": "Dominant hand",
             "attributes": [
               {
                 "id": "rVatt5CYaqE72skS",
@@ -225,7 +281,9 @@
                 "name": "Result",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -242,7 +300,9 @@
                 "name": "Distance (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -259,7 +319,9 @@
                 "name": "Time (millisecond)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -290,7 +352,8 @@
               {
                 "__id__": "9sHuRsjzAISO4mFJ"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -304,7 +367,7 @@
           "providerId": "4fMztbW5A-Ns3pdP",
           "dataSet": {
             "id": "GFP876hCUioQkX0a",
-            "name": "Table 2",
+            "name": "Non-dominant hand",
             "attributes": [
               {
                 "id": "Yrn2STrok3q61CCH",
@@ -312,7 +375,9 @@
                 "name": "Result",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -329,7 +394,9 @@
                 "name": "Distance (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -346,7 +413,9 @@
                 "name": "Time (millisecond)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   null,
                   null,
@@ -377,7 +446,8 @@
               {
                 "__id__": "XNrhAFAI681SRcoW"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -391,7 +461,7 @@
           "providerId": "rNi2FefUJedMWujx",
           "dataSet": {
             "id": "hicxSX64Gbc41m9L",
-            "name": "Table 1",
+            "name": "Look up table",
             "attributes": [
               {
                 "id": "U_PdnJzTnz2cb7Xj",
@@ -399,7 +469,9 @@
                 "name": "Distance (cm)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "5",
                   "6",
@@ -436,7 +508,9 @@
                 "name": "Time (millisecond)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "101",
                   "111",
@@ -547,11 +621,21 @@
               {
                 "__id__": "feiGNRt7kFr2vJ_Q"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
           "rNi2FefUJedMWujx"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "iGrUV--WGFiVSNxG"
+        },
+        "tiles": [
+          "jm9bx6l797gF47ZA"
         ]
       }
     ]

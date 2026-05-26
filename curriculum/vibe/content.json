@@ -11,6 +11,7 @@
     ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
+    "groupDocumentsEnabled": true,
     "defaultDocumentTemplate": {
       "tiles": []
     },
@@ -20,15 +21,24 @@
         "numFormat": ".2~f",
         "tools": [
           "set-expression",
-          ["data-set-view", "graph"],
+          [
+            "data-set-view",
+            "graph"
+          ],
           "import-data",
           "delete"
         ]
       },
       "dataflow": {
         "tools": [
-          ["data-set-view", "Table"],
-          ["data-set-view", "Graph"],
+          [
+            "data-set-view",
+            "Table"
+          ],
+          [
+            "data-set-view",
+            "Graph"
+          ],
           "delete"
         ]
       },
@@ -312,7 +322,23 @@
         "height": 35
       }
     ],
-    "showIdeasButton": true
+    "showIdeasButton": true,
+    "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "Investigation",
+        "Unit",
+        "All"
+      ],
+      "sortOptions": [
+        "Date",
+        "Group",
+        "Name",
+        "Strategy"
+      ],
+      "defaultPrimarySort": "Date"
+    },
+    "defaultSharedDocuments": true
   },
   "sections": {
     "intro": {
@@ -380,6 +406,17 @@
           ],
           "exemplars": [
             "exemplars/investigation-0/problem-1/exemplar-1/content.json"
+          ]
+        },
+        {
+          "title": "Lesson 0.5 Mini Classroom Activity",
+          "ordinal": 2,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-0/problem-2/intro/content.json",
+            "investigation-0/problem-2/labWork/content.json",
+            "investigation-0/problem-2/reflection/content.json"
           ]
         }
       ]
@@ -564,6 +601,24 @@
             "investigation-3/problem-4/intro/content.json",
             "investigation-3/problem-4/labWork/content.json",
             "investigation-3/problem-4/reflection/content.json"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Sample Lessons",
+      "ordinal": 4,
+      "description": "",
+      "problems": [
+        {
+          "title": "Sample Lesson 1",
+          "ordinal": 1,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-4/problem-1/intro/content.json",
+            "investigation-4/problem-1/labWork/content.json",
+            "investigation-4/problem-1/reflection/content.json"
           ]
         }
       ]
