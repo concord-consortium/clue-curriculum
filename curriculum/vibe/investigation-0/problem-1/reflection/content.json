@@ -13,12 +13,65 @@
         }
       },
       {
-        "id": "wM4PL8x9C83NYIRR",
+        "id": "vf6N5RGUewrf7bVK",
+        "title": "Reflecting",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>My First Reflection</strong></p><p>Today&#x27;s date:</p><p>Who did you work with?</p><p>What do you like about CLUE and Dataflow?</p><p>What can be improved?</p><p>What questions do you have?</p>"
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "N1BHYP",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>Today&#x27;s date:</strong> </p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 5",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>Who did you work with?</strong> </p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 4",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>What do you think about CLUE and Dataflow?</strong> What do you like about it? What questions do you have?</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 3",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>Did anything interest or surprise you about what you and your classmates figured out?</strong></p>"
+                ]
+              }
+            }
           ]
         }
       },
@@ -29,76 +82,431 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Extension</strong></p><p>If you have extra time, try these challenges!</p><p></p><p>We only used a few blocks in dataflow today, but you can see that there are a lot more.</p><p>Can you figure out what these two blocks do?</p><p>Can you make a program using one or both of these blocks that opens and closes the gripper?</p>"
+            "<h2><strong>Extension</strong></h2><p>If you have extra time, try these challenges!</p><p></p><p>We only used a few blocks in dataflow today, but you can see that there are a lot more.</p><p>Can you figure out what these two blocks do?</p><p>Can you make a program using one or both of these blocks that opens and closes the gripper?</p>"
           ]
         }
       },
-      [
-        {
-          "id": "7m5NYUoaK2ucM4h3",
-          "title": "Generator Block",
-          "content": {
-            "type": "Image",
-            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
-          }
+      {
+        "id": "qS4ldDH1S2pGamiD",
+        "title": "Generator Block",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "fs2w-MZWUJY6dMrb",
+              "x": 782.9999694824219,
+              "y": 54.00006103515625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 196,
+              "height": 286,
+              "url": "vibe/images/Generator.png",
+              "filename": "Generator.png"
+            },
+            {
+              "type": "text",
+              "id": "AXpW3z5FF1IU76fM",
+              "x": 457.00006103515625,
+              "y": 228.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 258,
+              "height": 61,
+              "stroke": "#000000",
+              "text": "Hint: You can always see a graph below by clicking this button"
+            },
+            {
+              "type": "image",
+              "id": "5DQJ4q_1p95SdXWs",
+              "x": 429.5,
+              "y": 205.296875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 23,
+              "height": 35,
+              "url": "brain/stamps/bulb_art_on.png"
+            },
+            {
+              "type": "vector",
+              "id": "f4-pxyXfSZGLxOoG",
+              "x": 715,
+              "y": 243.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 82,
+              "dy": -17,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "hR7Clw7dk3eQSRld",
+              "x": 449.0001220703125,
+              "y": 77.79678344726562,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 247,
+              "height": 57.000030517578125,
+              "stroke": "#d100d1",
+              "text": "Try tinkering with these three settings. What happens?"
+            },
+            {
+              "type": "vector",
+              "id": "4jg_O-DXx25t6edJ",
+              "x": 695.0000610351562,
+              "y": 104.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 107.00006103515625,
+              "dy": 17,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "GP84qrbji2O8Vg7k",
+              "x": 695.0000610351562,
+              "y": 105.79690551757812,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 107.00006103515625,
+              "dy": 46.999969482421875,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "gCC8fiVwM5CoSfea",
+              "x": 696.0001220703125,
+              "y": 107.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 108.99993896484375,
+              "dy": 74,
+              "headShape": "triangle"
+            }
+          ]
         },
-        {
-          "id": "LV7vJ_0pJK7CQoBK",
-          "title": "Logic Block",
-          "content": {
-            "type": "Image",
-            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
-          }
+        "layout": {
+          "height": 365
         }
-      ],
-      [
-        {
-          "id": "ui36WYcFk6F-PIG2",
-          "title": "Generator Block",
-          "content": {
-            "type": "Question",
-            "version": 1,
-            "locked": false,
-            "questionId": "paU0Ii",
-            "tiles": [
-              {
-                "title": "Question Prompt",
-                "fixedPosition": true,
-                "content": {
-                  "type": "Text",
-                  "format": "html",
-                  "text": [
-                    "<p>What does the generator block do?</p><p><strong>Hint:</strong> you can use this button on the side to see a graph!</p>"
-                  ]
+      },
+      {
+        "id": "ui36WYcFk6F-PIG2",
+        "title": "Generator Block",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "paU0Ii",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>What does the generator block do?</strong></p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 6",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "UT-IdmdPZ6ma2h7x",
+        "title": "Logic Block",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "H-Bfk0sOjXSMTJVH",
+              "x": 705,
+              "y": 57,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 139,
+              "height": 102,
+              "url": "vibe/images/Logic-Block.png",
+              "filename": "Logic-Block.png"
+            },
+            {
+              "type": "text",
+              "id": "J_yjWIg7cJ2sIs12",
+              "x": 369,
+              "y": 90.79689025878906,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 256.0001220703125,
+              "height": 67.00007629394531,
+              "stroke": "#000000",
+              "text": "Hint: It might help to connect some numbers and see what changes!"
+            },
+            {
+              "type": "image",
+              "id": "EN0NrDxXCM5xBSq6",
+              "x": 340.5,
+              "y": 70.296875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 23,
+              "height": 35,
+              "url": "brain/stamps/bulb_art_on.png"
+            },
+            {
+              "type": "ellipse",
+              "id": "By38iSyNkCX1njlC",
+              "x": 714.9999084472656,
+              "y": 129.29681396484375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "rx": 16.000030517578125,
+              "ry": 27.5
+            },
+            {
+              "type": "vector",
+              "id": "FmMMJr3COYoSpca2",
+              "x": 626,
+              "y": 128.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 69,
+              "dy": 1,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "4evAUaD2dD61_Lsp",
+              "x": 956,
+              "y": 48.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 244,
+              "height": 96.00003051757812,
+              "stroke": "#0000ff",
+              "text": "Super Challenge: If you figure out what this \"> Greater Than\" setting does, try to figure out what other settings do!"
+            },
+            {
+              "type": "vector",
+              "id": "6nO5e5Yi7OoM8Vgw",
+              "x": 955,
+              "y": 74.796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -148,
+              "dy": 26,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 207
+        }
+      },
+      {
+        "id": "jAIe13x8mCuZrOKU",
+        "title": "Logic Block",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "cs4fAp",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>What does the logic block do in the &quot;&gt; Greater Than&quot; setting?</strong></p><p><strong>Hint: </strong>Think about it like this</p><p>If ______, then _____</p><p>If not, then _____</p><p></p><p>It might help to try different numbers and see what changes. If you want, you can use the table below to track what you tried.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 7",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            },
+            {
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "1Z57w_PQUcirYAzb": 146,
+                  "EtQs2EIufYZRfeDu": 129,
+                  "E18tTWzVy5lySYEV": 143
                 }
               }
-            ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "sabMvWsW-9urCcvp",
+        "title": "Logic Block: Super Challenge",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "g5KkvH",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>If you&#x27;re trying the challenge in blue (figuring out what other logic block settings do), write what you figured out here. You might want to add another graph to help you out.</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 8",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>Which setting did you try?</strong> </p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 9",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>What does the logic block do on that setting?</strong> </p>"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "1Hkup8wHG4UC2PDO",
+          "providerId": "document_Table_1",
+          "dataSet": {
+            "id": "wf8VnMmEdxv3D-Pk",
+            "name": "Figuring out what the logic block does",
+            "attributes": [
+              {
+                "id": "1Z57w_PQUcirYAzb",
+                "clientKey": "",
+                "name": "Number 1",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "EtQs2EIufYZRfeDu",
+                "clientKey": "",
+                "name": "Number 2",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "E18tTWzVy5lySYEV",
+                "clientKey": "",
+                "name": "Outcome",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
           }
         },
-        {
-          "id": "jAIe13x8mCuZrOKU",
-          "title": "Logic Block",
-          "content": {
-            "type": "Question",
-            "version": 1,
-            "locked": false,
-            "questionId": "cs4fAp",
-            "tiles": [
-              {
-                "title": "Question Prompt",
-                "fixedPosition": true,
-                "content": {
-                  "type": "Text",
-                  "format": "html",
-                  "text": [
-                    "<p>What does the logic block do?</p><p><strong>Hint: </strong>Think about it like this</p><p>If ______, then _____</p><p>If not, then _____</p>"
-                  ]
-                }
-              }
-            ]
-          }
-        }
-      ]
+        "tiles": [
+          "document_Table_1"
+        ]
+      }
     ]
   }
 }

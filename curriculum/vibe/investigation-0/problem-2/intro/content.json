@@ -13,72 +13,195 @@
           ]
         }
       },
-      [
-        {
-          "id": "aJ_7oongb1radhmy",
-          "title": "Image 1",
-          "content": {
-            "type": "Image",
-            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
-          }
+      {
+        "id": "spi3TNMuEXMWxQsn",
+        "title": "Connecting the Math Block One Way",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "fmfeP5i9vhPOrUmu",
+              "x": 601,
+              "y": 42,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 334,
+              "height": 184,
+              "url": "vibe/images/Subtraction-Example.png",
+              "filename": "Subtraction-Example.png"
+            },
+            {
+              "type": "vector",
+              "id": "bfIDTpYwCfUoOZFn",
+              "x": 724,
+              "y": 92.5,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 83,
+              "dy": 42
+            },
+            {
+              "type": "vector",
+              "id": "bWdxD5Y7ZkJCDaL_",
+              "x": 720,
+              "y": 202.5,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 86,
+              "dy": -47
+            }
+          ]
         },
-        {
-          "id": "Mw0_Dkwy47m9rE3-",
-          "title": "Image 2",
-          "content": {
-            "type": "Image",
-            "url": "https://collaborative-learning.concord.org/branch/master/assets/images/image_placeholder.png"
-          }
+        "layout": {
+          "height": 244
         }
-      ],
-      [
-        {
-          "id": "yQx_kqiDfGaHpCpr",
-          "title": "Subtract 1",
-          "content": {
-            "type": "Question",
-            "version": 1,
-            "locked": false,
-            "questionId": "lEYGoW",
-            "tiles": [
-              {
-                "title": "Question Prompt",
-                "fixedPosition": true,
-                "content": {
-                  "type": "Text",
-                  "format": "html",
-                  "text": [
-                    "<p>If &quot;Number 1&quot; connects into the <strong>top </strong>circle and &quot;Number 2&quot; connects into the <strong>bottom</strong> circle, the math block will say:</p><p>__ - __ = __</p>"
-                  ]
-                }
+      },
+      {
+        "id": "yQx_kqiDfGaHpCpr",
+        "title": "Subtract 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "lEYGoW",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>If &quot;Number 1&quot; connects into the <strong>top </strong>circle and &quot;Number 2&quot; connects into the <strong>bottom</strong> circle, the math block will say:</p>"
+                ]
               }
-            ]
-          }
+            },
+            {
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>__ - __ = __</p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Rj5glxToltHMK_-U",
+        "title": "Connecting the Math Block A Different Way",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "fmfeP5i9vhPOrUmu",
+              "x": 601,
+              "y": 42,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 334,
+              "height": 184,
+              "url": "vibe/images/Subtraction-Example.png",
+              "filename": "Subtraction-Example.png"
+            },
+            {
+              "type": "vector",
+              "id": "R0qCFXQdXUDXKuV2",
+              "x": 722,
+              "y": 90.5,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 84,
+              "dy": 63
+            },
+            {
+              "type": "vector",
+              "id": "2PbnIv1xsFamvhss",
+              "x": 722,
+              "y": 205.5,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 84,
+              "dy": -73.99996948242188
+            }
+          ]
         },
-        {
-          "id": "xtId8TqCcYx_wrVH",
-          "title": "Question 2",
-          "content": {
-            "type": "Question",
-            "version": 1,
-            "locked": false,
-            "questionId": "wPyYJo",
-            "tiles": [
-              {
-                "title": "Question Prompt",
-                "fixedPosition": true,
-                "content": {
-                  "type": "Text",
-                  "format": "html",
-                  "text": [
-                    "<p>If you connect them the opposite where, where &quot;Number 1&quot; connects into the <strong>bottom</strong> circle and &quot;Number 2&quot; connects into the <strong>top </strong>circle, the math block will say:</p><p>__ - __ = __</p>"
-                  ]
-                }
-              }
-            ]
-          }
+        "layout": {
+          "height": 244
         }
-      ]
+      },
+      {
+        "id": "xtId8TqCcYx_wrVH",
+        "title": "Question 2",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "wPyYJo",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>If you connect them the opposite where, where &quot;Number 1&quot; connects into the <strong>bottom</strong> circle and &quot;Number 2&quot; connects into the <strong>top </strong>circle, the math block will say:</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 3",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>__ - __ = __</p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "qBDOIR0mirUjTQe7",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You&#x27;re done with the introduction!</p><p>Click on the &quot;Activities&quot; tab to continue. </p>"
+          ]
+        }
+      }
     ]
   }
 }

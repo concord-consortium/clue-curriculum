@@ -1,6 +1,1043 @@
 {
   "type": "labWork",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "kIqMQvcB3KnE4sm_",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Simulating your Muscles</strong></p><p>Did you know that your muscles work because of electrical signals?</p><p>When there are high electrical signals your muscles become flexed. When there are lower electrical signals, your muscles become relaxed.</p><p>Your muscle activity can be measured using electromyography (EMG).</p><p></p><p>We can simulate this with a generator: when the number is high, it’s like the person is gripping really hard, and when the number is low, it’s like they are relaxed.</p>"
+          ]
+        }
+      },
+      {
+        "id": "6Tlsxlpl0pfRtXCj",
+        "title": "Simulating Muslce Activity with the Generator",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "qwoAGf-gUTEXY-YE",
+              "x": 341.629642062717,
+              "y": 31.77784050835503,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 195,
+              "height": 289,
+              "url": "vibe/images/Generator-Triangle.png",
+              "filename": "Generator-Triangle.png"
+            },
+            {
+              "type": "text",
+              "id": "hTfI5sZNwYf-1nUP",
+              "x": 15.185332404242615,
+              "y": 127.74089728461371,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 250.6667251586914,
+              "height": 34.666778564453125,
+              "stroke": "#d100d1",
+              "text": "high electrical signals = muscle is flexed"
+            },
+            {
+              "type": "text",
+              "id": "5J_7IAooauHkhSLH",
+              "x": 9.851912604437928,
+              "y": 262.40758429633246,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 258.0000991821289,
+              "height": 36.0001220703125,
+              "stroke": "#d100d1",
+              "text": "low electrical signals = muscle is relaxed"
+            },
+            {
+              "type": "vector",
+              "id": "P9JY9QiA_HLv5ESg",
+              "x": 265.18521796332465,
+              "y": 145.74079047309027,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 144.66665649414062,
+              "dy": 84,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "gZEqR21l_I8Gw3nF",
+              "x": 267.25930447048614,
+              "y": 281.7407972547743,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 176.29631890190967,
+              "dy": -20,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "kbNlfICwUX7igMPX",
+              "x": 641.3333333333334,
+              "y": 66.18520779079863,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 305.1852077907987,
+              "height": 74.8147922092014,
+              "stroke": "#000000",
+              "text": "Tip: the generator is set to \"triangle.\" When you use a generator later, try it on different settings. What changes?"
+            },
+            {
+              "type": "image",
+              "id": "UceP_63lE7ieMoVb",
+              "x": 608.3518744574652,
+              "y": 49.425903320312514,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 30.40743001302087,
+              "height": 40.92592027452254,
+              "url": "brain/stamps/bulb_art_on.png"
+            },
+            {
+              "type": "vector",
+              "id": "j5ap8H6L3ND2TNGU",
+              "x": 641.3333333333334,
+              "y": 112.85187445746529,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -134.07402886284723,
+              "dy": -9.629652235243057,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 325
+        }
+      },
+      {
+        "id": "AIXTCdcaarcU5oIo",
+        "title": "Making the Gripper Work",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "gbh60d",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>In the simulation below you see a hand connected to a gripper (the orange thing that looks like it can open and close.)</p><p>Do you see the grey block that connects the hand to the gripper? That&#x27;s a computer chip. You will program the computer chip in the dataflow program underneath the simulation.</p><p></p><p>First, we just want to make the gripper work.</p><p>In the dataflow program you can see a block that controls the gripper.</p><p>Can you connect a generator to the program to make the gripper open and close?</p>"
+                ]
+              }
+            },
+            {
+              "title": "Simulation",
+              "content": {
+                "type": "Simulator",
+                "simulation": "EMG_and_claw"
+              }
+            },
+            {
+              "content": {
+                "type": "Dataflow",
+                "program": {
+                  "id": "dataflow@1",
+                  "nodes": {
+                    "8qFLTRw5cZd8wQ7X": {
+                      "id": "8qFLTRw5cZd8wQ7X",
+                      "name": "Live Output",
+                      "x": 492.59269229949496,
+                      "y": 146.00533718532986,
+                      "data": {
+                        "type": "Live Output",
+                        "plot": false,
+                        "orderedDisplayName": "Gripper",
+                        "tickEntries": {
+                          "1xp0AWN5xS8Ue9Al": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "ZHCNJPyD_vcnc103": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "LilNpcX4vnXr5VVX": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "cx7myILbyenVTMLH": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "08wuLKQKUJIfNgg4": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "-RPCzc4F3hcSPjqv": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "NvAdUnbCkK9VEDsA": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "ybynFlQiolCuCzZ2": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "K_l-ss6Leb3jIEt1": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "3h8-zfqwOl6U9Esr": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "4dol89xCUA3PoRdm": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "A_Ysoq0WOTGGC2Zg": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "5LdPbolnODHBmCIz": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "DigNB7m3DzMQhWPA": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "VP1Qx8RvAC12NdDL": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "gqAGILRRB1sqKzNm": {
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          },
+                          "OtXeUsJgZwgvv60V": {
+                            "open": true,
+                            "nodeValue": "0",
+                            "outputStatus": ""
+                          }
+                        },
+                        "liveOutputType": "Grabber",
+                        "hubSelect": "Simulated Gripper"
+                      }
+                    }
+                  },
+                  "connections": {},
+                  "recentTicks": [
+                    "1xp0AWN5xS8Ue9Al",
+                    "ZHCNJPyD_vcnc103",
+                    "LilNpcX4vnXr5VVX",
+                    "cx7myILbyenVTMLH",
+                    "08wuLKQKUJIfNgg4",
+                    "-RPCzc4F3hcSPjqv",
+                    "NvAdUnbCkK9VEDsA",
+                    "ybynFlQiolCuCzZ2",
+                    "K_l-ss6Leb3jIEt1",
+                    "3h8-zfqwOl6U9Esr",
+                    "4dol89xCUA3PoRdm",
+                    "A_Ysoq0WOTGGC2Zg",
+                    "5LdPbolnODHBmCIz",
+                    "DigNB7m3DzMQhWPA",
+                    "VP1Qx8RvAC12NdDL",
+                    "gqAGILRRB1sqKzNm",
+                    "OtXeUsJgZwgvv60V"
+                  ]
+                },
+                "programDataRate": 1000,
+                "programZoom": {
+                  "dx": 9.166641235351562,
+                  "dy": 4.9999847412109375,
+                  "scale": 0.899999999999999
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "udUR9YfHAzmfQzgl",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2>Did you get it to work?</h2><p>If not, try asking another group or looking at the class gallery to see what other groups did.</p>"
+          ]
+        }
+      },
+      {
+        "id": "axcxQ7HP1CBwsW8L",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2>Now let’s try to make the hand control the gripper</h2><p>This person’s hand is currently hooked up to an EMG machine.</p><p>You can see what the machine &quot;reads&quot; in two ways:</p><ul><li>Using the EMG sensor reader</li><li>Using an input block</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "ep0Pce_MCJc_URiD",
+        "title": "Sketch 1",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "ZDez04EEmql7pokn",
+              "x": 502.6666259765625,
+              "y": 47.44444274902344,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 450,
+              "height": 465,
+              "url": "vibe/images/EMG-Input-View.png",
+              "filename": "EMG-Input-View.png"
+            },
+            {
+              "type": "text",
+              "id": "YXXA4Zabrz-8Z8lf",
+              "x": 296.6667022705078,
+              "y": 196.9166259765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 233.33328247070312,
+              "height": 78,
+              "stroke": "#d100d1",
+              "text": "You can see what the EMG machine reads in the simulation and using an \"input\" block in Dataflow"
+            },
+            {
+              "type": "text",
+              "id": "jMu_pDHVym708X_x",
+              "x": 980.6668090820312,
+              "y": 237.5833625793457,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 197.7777099609375,
+              "height": 60.66673278808594,
+              "stroke": "#000000",
+              "text": "Tip: You can use this slider to change how flexed the hand is"
+            },
+            {
+              "type": "vector",
+              "id": "JkOMeL5VpPmAsKP-",
+              "x": 381.3333435058594,
+              "y": 196.25001525878906,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 120,
+              "dy": -95.33332824707031,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "j1w4etNeM0UigGFY",
+              "x": 375.3333435058594,
+              "y": 274.91667556762695,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 309.3333435058594,
+              "dy": 168.66671752929688,
+              "headShape": "triangle"
+            },
+            {
+              "type": "image",
+              "id": "hhAXHvDFfBot7XBJ",
+              "x": 959.6111297607422,
+              "y": 215.97222900390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 23,
+              "height": 35,
+              "url": "brain/stamps/bulb_art_on.png"
+            },
+            {
+              "type": "vector",
+              "id": "Zg3wcUcdO0dzGUbi",
+              "x": 979.9999847412109,
+              "y": 281.47222900390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -140.44439697265625,
+              "dy": -56,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "VKehMMgNJ1cQrCO1",
+              "x": 279.22225189208984,
+              "y": 443.36108016967773,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 294.0001220703125,
+              "height": 63.777984619140625,
+              "stroke": "#000000",
+              "text": "Tip: Click here to open the graph. You can use the graph to see changes over time."
+            },
+            {
+              "type": "image",
+              "id": "5cPylvsQWRjeyeZj",
+              "x": 251.3888702392578,
+              "y": 426.8610496520996,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 23,
+              "height": 35,
+              "url": "brain/stamps/bulb_art_on.png"
+            },
+            {
+              "type": "vector",
+              "id": "g0Ljtl7A6qNrfXKb",
+              "x": 573,
+              "y": 472.09381103515625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 72,
+              "dy": -24,
+              "headShape": "triangle"
+            },
+            {
+              "type": "rectangle",
+              "id": "yGTOrj8l0M41w9lS",
+              "x": 645,
+              "y": 431.09375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 25.00006103515625,
+              "height": 21
+            },
+            {
+              "type": "rectangle",
+              "id": "stN-FqIb1ePT0U-w",
+              "x": 715,
+              "y": 210.09378051757812,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 127,
+              "height": 33.999969482421875
+            },
+            {
+              "type": "rectangle",
+              "id": "rbEGRJweBmz64P5k",
+              "x": 698,
+              "y": 425.09375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 50,
+              "height": 29.00006103515625
+            },
+            {
+              "type": "rectangle",
+              "id": "gonCdgKjLITZz5Sq",
+              "x": 504.99993896484375,
+              "y": 69.09378051757812,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 54,
+              "height": 34.999969482421875
+            }
+          ]
+        },
+        "layout": {
+          "height": 533
+        }
+      },
+      {
+        "id": "uanhUXceYl55gg56",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Use the slider to change whether the hand is relaxed or flexed. What do you notice?</p><p>How is this realistic data similar or different from the data from the generator?</p>"
+          ]
+        }
+      },
+      {
+        "id": "CjZjjncXh0_CjvqD",
+        "title": "Using EMG data to controlthe gripper",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "6Kf1HW",
+          "tiles": [
+            {
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Instead of using generated data, we want to use the EMG sensor data to make the gripper open and close.</p><p>If we just connect it to the gripper instead of the generator it won’t work. (You can try it out yourself if you want!)</p><p>Can you figure out why not?</p>"
+                ]
+              }
+            },
+            {
+              "title": "Text 4",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>If you connect the EMG sensor directly to the gripper, the gripper will _________________________________________ because _________________________________________.</p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "_zyD3CKk7jfXwhop",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2>Planning a Solution</h2><p>How could you <strong>use</strong> or <strong>change</strong> the EMG sensor data to make the gripper understand it?</p><p>You can start by writing out what you want to do, even if you don’t know what blocks you would use yet.</p><p>You can use this sketch function. Drag the one below or open a new one by clicking the grey icon with the pencil.</p>"
+          ]
+        }
+      },
+      {
+        "id": "7elOnfstBnXlmkDk",
+        "title": "Planning a Solution: Sketch",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "y_XsWkefiqnLa9CO",
+              "x": 990,
+              "y": 42.000030517578125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 164,
+              "height": 147.00003051757812,
+              "url": "vibe/images/Gripper-Sim-Block.png",
+              "filename": "Gripper-Sim-Block.png"
+            },
+            {
+              "type": "image",
+              "id": "kS8AH1h73NZEMzGz",
+              "x": 243,
+              "y": 47,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 163,
+              "height": 147,
+              "url": "vibe/images/EMG-Sim-Block.png",
+              "filename": "EMG-Sim-Block.png"
+            },
+            {
+              "type": "text",
+              "id": "Nh88lbKOHmpZNaa0",
+              "x": 594.0000915527344,
+              "y": 76.20831298828125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 214,
+              "height": 99.33334350585938,
+              "stroke": "#000000",
+              "text": "Replace this with your idea: How would you use or change the EMG sensor data to make the gripper understand it?"
+            },
+            {
+              "type": "vector",
+              "id": "YG12L7EwsS9XzlHl",
+              "x": 396,
+              "y": 164.390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 198,
+              "dy": -30.99993896484375
+            },
+            {
+              "type": "vector",
+              "id": "oT-xnp1Bk4K-ZOV6",
+              "x": 808,
+              "y": 130.39068603515625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 189,
+              "dy": 30.99993896484375
+            }
+          ]
+        },
+        "layout": {
+          "height": 243
+        }
+      },
+      {
+        "id": "Kg-TnKnarkoiVf3b",
+        "title": "Text 7",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Do you know what block or blocks you would use to do what you want to do?</strong></p><p>Can you make your program work?</p><p>If you&#x27;re not sure how to do it, try these things:</p><ul><li>Talk with another group: do they have ideas about how to make your plan work?</li><li>Look at the class gallery: is any other group trying to do the same thing as you? Maybe you can figure it out together!</li><li>Thinking back to the blocks that you tried last class or earlier today: do any of them do what you want?</li><li>Talk with your teacher or a researcher: what ideas do they have?</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "0T1QB3-9Ggf5-jV0",
+        "title": "Planning a Solution: Hint",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "y_XsWkefiqnLa9CO",
+              "x": 1054.4444444444446,
+              "y": 6.444474962022582,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 164,
+              "height": 147.00003051757812,
+              "url": "vibe/images/Gripper-Sim-Block.png",
+              "filename": "Gripper-Sim-Block.png"
+            },
+            {
+              "type": "image",
+              "id": "kS8AH1h73NZEMzGz",
+              "x": 307.44444444444457,
+              "y": 11.444444444444457,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 163,
+              "height": 147,
+              "url": "vibe/images/EMG-Sim-Block.png",
+              "filename": "EMG-Sim-Block.png"
+            },
+            {
+              "type": "text",
+              "id": "Nh88lbKOHmpZNaa0",
+              "x": 658.444535997179,
+              "y": 38.43053521050348,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 215.1111111111112,
+              "height": 113.77778795030383,
+              "stroke": "#000000",
+              "text": "Your block idea"
+            },
+            {
+              "type": "vector",
+              "id": "YG12L7EwsS9XzlHl",
+              "x": 460.44444444444457,
+              "y": 128.83506944444446,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 198,
+              "dy": -30.99993896484375
+            },
+            {
+              "type": "vector",
+              "id": "oT-xnp1Bk4K-ZOV6",
+              "x": 872.4444444444446,
+              "y": 94.8351304796007,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 189,
+              "dy": 30.99993896484375
+            },
+            {
+              "type": "text",
+              "id": "qv3TLBN4zLirvNc1",
+              "x": 316.2223137749568,
+              "y": 200.6526896158854,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 144,
+              "height": 92.66667683919272,
+              "stroke": "#000000",
+              "text": "If your block needs more inputs, you might need another block here!"
+            },
+            {
+              "type": "ellipse",
+              "id": "iRzAxv8sLIZoo_kc",
+              "x": 659.6111111111112,
+              "y": 96.04513888888889,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#bfbfbf",
+              "rx": 11.1111789279513,
+              "ry": 11.111111111111114
+            },
+            {
+              "type": "ellipse",
+              "id": "13Kx2Snc2yyhi_vf",
+              "x": 659.6111111111113,
+              "y": 134.93402777777777,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#bfbfbf",
+              "rx": 11.1111789279513,
+              "ry": 11.111111111111114
+            },
+            {
+              "type": "ellipse",
+              "id": "DeN-CR4RCJNcvev0",
+              "x": 460.72229003906256,
+              "y": 264.37840440538196,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#bfbfbf",
+              "rx": 10,
+              "ry": 10.555555555555515
+            },
+            {
+              "type": "vector",
+              "id": "0abf5IoCnMzYHwaO",
+              "x": 465.1666666666667,
+              "y": 260.4895833333333,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 187.77777777777777,
+              "dy": -123.33333333333331
+            },
+            {
+              "type": "ellipse",
+              "id": "bN38CJsqBHL-WwPy",
+              "x": 875.1666666666666,
+              "y": 92.71180555555554,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#bfbfbf",
+              "rx": 12.222222222222285,
+              "ry": 11.111111111111114
+            }
+          ]
+        },
+        "layout": {
+          "height": 308
+        }
+      },
+      {
+        "id": "9cjuN3rHLHUicZEn",
+        "title": "Text 8",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2>Reflection</h2><p>You&#x27;re done with the activities! Move on to the reflection tab.</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "F6Eg0hdIPxl3BsK3",
+          "variables": [
+            {
+              "id": "kAXWKlIBbF7NN03m",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "LXgoQV-eF1T7jeq-",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "rEGPUkSYVnCCxrT1",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "ai1G8Ix_Wtmehkpq",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "voe9xLvBesEB1j_o",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 80,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "ozFMwqlkOXJFAS4q",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "sdlLti-TKEAXVsmd",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "kIqMQvcB3KnE4sm_",
+          "document_Dataflow_1",
+          "document_Simulator_1",
+          "document_Text_1",
+          "udUR9YfHAzmfQzgl",
+          "axcxQ7HP1CBwsW8L",
+          "document_Text_2",
+          "uanhUXceYl55gg56",
+          "document_Text_3",
+          "_zyD3CKk7jfXwhop",
+          "Kg-TnKnarkoiVf3b",
+          "9cjuN3rHLHUicZEn"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "jduMY_c7ZsBVnQyB",
+          "providerId": "document_Dataflow_1",
+          "dataSet": {
+            "id": "ji7F44_8WdyFuXoU",
+            "name": "Programming the Computer Chip",
+            "attributes": [
+              {
+                "id": "ATTRwIYpnLHTT4JA",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTRWD0BdrqHhOIi",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "document_Dataflow_1"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "JVZHjQT750sBQMin"
+        },
+        "tiles": [
+          "document_Dataflow_1",
+          "document_Simulator_1"
+        ]
+      }
+    ]
   }
 }
