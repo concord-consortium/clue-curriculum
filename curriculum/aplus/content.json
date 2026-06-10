@@ -74,7 +74,7 @@
       "tabSpecs": [
         {
           "tab": "class-work",
-          "label": "Storm Forcast",
+          "label": "Daily Updates",
           "sections": [
             {
               "title": "Storms 2026",
@@ -116,23 +116,6 @@
         {
           "tab": "problems",
           "label": "User Guide",
-          "sections": [
-            {
-              "initials": "CONE",
-              "title": "Cone of Uncertainty",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "PLOT",
-              "title": "Spaghetti Plots",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "MODEL",
-              "title": "Storm Model Help",
-              "type": "problem-documents"
-            }
-          ],
           "teacherOnly": false,
           "hidden": false
         },
@@ -213,7 +196,7 @@
       },
       "iframeInteractive": {
         "maxTiles": 1,
-        "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+        "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
         "interactiveState": {},
         "authoredState": {},
         "allowedPermissions": "geolocation; microphone; camera; bluetooth",
@@ -233,7 +216,6 @@
       "spaghetti": "Spaghetti Models",
       "landfall": "Landfall"
     },
-    "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
       "mainPrompt": "This is a discussion of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
@@ -250,24 +232,30 @@
     },
     "showIdeasButton": false,
     "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "All"
+      ],
       "sortOptions": [
         "Date",
         "Name",
         "Strategy"
       ],
-      "defaultPrimarySort": "Date",
-      "showContextFilter": false
+      "defaultPrimarySort": "Date"
     },
     "termOverrides": {
       "sortLabel.sortByOwner": "User",
       "strategy": "Model focus",
-      "contentLevel.problem": "Model"
-    }
+      "contentLevel.problem": "Model",
+      "contentLevel.problems": "Storms",
+      "resourcesPanel": "Models and Forcasts"
+    },
+    "showCommentRating": false
   },
   "sections": {
     "cone": {
-      "initials": "CONE",
-      "title": "Cone of Uncertainty",
+      "initials": "GUIDE",
+      "title": "Stormcaster Model Guide",
       "placeholder": "Discuss or paste images of your cone of uncertainty here."
     },
     "plot": {
@@ -283,57 +271,44 @@
   },
   "investigations": [
     {
-      "description": "Investigation 1",
+      "title": "Stormcaster 2026",
       "ordinal": 1,
-      "title": "Storms 2026",
+      "description": "",
       "problems": [
         {
-          "description": "Activity 1.1",
+          "title": "Storm \"A\"",
           "ordinal": 1,
-          "title": "Summer 2026",
+          "description": "",
           "subtitle": "",
-          "disabled": [],
           "sections": [
-            "investigation-1/problem-1/model/content.json"
-          ],
-          "config": {
-            "defaultDocumentTemplate": {
-              "tiles": [
-                {
-                  "id": "8pKl3_OI-jz7hR8-",
-                  "title": "Text 1",
-                  "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>Storm Explorer</strong></p>",
-                      "<p>Make a new model that helps explain the current storm. Document your analysis using text and Sketches.</p>"
-                    ]
-                  }
-                },
-                {
-                  "id": "document_IframeInteractive_1",
-                  "title": "My Model for Storm A",
-                  "content": {
-                    "type": "IframeInteractive",
-                    "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
-                    "interactiveState": {},
-                    "authoredState": {},
-                    "maxHeight": 1000,
-                    "enableScroll": false
-                  }
-                }
-              ]
-            }
-          }
+            "investigation-1/problem-1/cone/content.json"
+          ]
         },
         {
-          "title": "Fall 2026",
+          "title": "Storm \"B\"",
           "ordinal": 2,
           "description": "",
           "subtitle": "",
           "sections": [
-            "investigation-1/problem-2/model/content.json"
+            "investigation-1/problem-2/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm \"C\"",
+          "ordinal": 3,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-3/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm \"D\"",
+          "ordinal": 4,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-4/cone/content.json"
           ]
         }
       ]
