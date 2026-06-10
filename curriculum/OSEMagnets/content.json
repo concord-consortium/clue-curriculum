@@ -1,0 +1,193 @@
+{
+  "code": "OSEMagnets",
+  "abbrevTitle": "OSEMagnets",
+  "appName": "CLUE",
+  "title": "How can a magnet move another object without touching it?",
+  "subtitle": "OpenSciEd",
+  "config": {
+    "placeholderText": "Add tiles here to record your work.",
+    "autoSectionProblemDocuments": true,
+    "defaultDocumentType": "problem",
+    "defaultLearningLogDocument": false,
+    "disablePublish": [
+      "student"
+    ],
+    "enableHistoryRoles": [
+      "teacher",
+      "student"
+    ],
+    "defaultSharedDocuments": true,
+    "groupDocumentsEnabled": true,
+    "toolbar": [
+      {
+        "id": "Text",
+        "title": "Text",
+        "isTileTool": true
+      },
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      },
+      {
+        "id": "Graph",
+        "title": "Graph",
+        "isTileTool": true
+      },
+      {
+        "id": "Drawing",
+        "title": "Sketch",
+        "isTileTool": true
+      },
+      {
+        "id": "IframeInteractive",
+        "title": "Simulation",
+        "isTileTool": true
+      }
+    ],
+    "authorTools": [
+      {
+        "id": "AI",
+        "title": "AI",
+        "isTileTool": true
+      }
+    ],
+    "navTabs": {
+      "showNavPanel": true,
+      "lazyLoadTabContents": true,
+      "tabSpecs": [
+        {
+          "tab": "problems",
+          "label": "Lessons",
+          "sections": [],
+          "teacherOnly": false
+        },
+        {
+          "tab": "my-work",
+          "label": "My Work",
+          "sections": [
+            {
+              "title": "Workspaces",
+              "type": "problem-documents",
+              "documentTypes": [
+                "problem"
+              ],
+              "order": "original"
+            }
+          ]
+        },
+        {
+          "tab": "sort-work",
+          "label": "Sort Work",
+          "teacherOnly": false
+        },
+        {
+          "tab": "teacher-guide",
+          "label": "Teacher Guide",
+          "teacherOnly": true
+        }
+      ]
+    },
+    "settings": {
+      "text": {
+        "tools": [
+          "bold",
+          "italic",
+          "underline",
+          "subscript",
+          "superscript",
+          "heading",
+          "list-ol",
+          "list-ul",
+          "link"
+        ]
+      },
+      "table": {
+        "tools": [
+          "set-expression",
+          "link-tile",
+          "import-data"
+        ]
+      },
+      "graph": {
+        "tools": [
+          "link-tile",
+          "fit-all",
+          "toggle-lock"
+        ],
+        "defaultSeriesLegend": true,
+        "connectPointsByDefault": true
+      },
+      "drawing": {
+        "tools": [
+          "select",
+          "line",
+          "rectangle",
+          "ellipse",
+          "text",
+          "upload",
+          "stroke-color",
+          "fill-color",
+          "duplicate",
+          "delete"
+        ]
+      },
+      "iframeInteractive": {
+        "url": "https://magnets.concord.org",
+        "interactiveState": {},
+        "authoredState": {},
+        "allowedPermissions": "geolocation; microphone; camera; bluetooth"
+      }
+    },
+    "enableCommentRoles": [
+      "student",
+      "teacher"
+    ],
+    "termOverrides": {
+      "contentLevel.problem": "Lesson",
+      "contentLevel.problems": "Lessons"
+    }
+  },
+  "sections": {
+    "whatsgoingon": {
+      "initials": "WHAT?",
+      "title": "What's Going On?",
+      "placeholder": "Record your observations and ideas here."
+    },
+    "modelmaking": {
+      "initials": "MODEL",
+      "title": "Model Making",
+      "placeholder": "Develop and refine your models here."
+    },
+    "scientistscircle": {
+      "initials": "SCI",
+      "title": "Scientists Circle",
+      "placeholder": "Share and discuss ideas with your class."
+    }
+  },
+  "planningDocument": {
+    "enable": "teacher",
+    "default": false
+  },
+  "investigations": [
+    {
+      "description": "Forces at a Distance",
+      "ordinal": 1,
+      "title": "Forces at a Distance",
+      "problems": [
+        {
+          "description": "Lesson 1: What causes a speaker to vibrate?",
+          "ordinal": 1,
+          "title": "Lesson 1: What causes a speaker to vibrate?",
+          "subtitle": "",
+          "disabled": [],
+          "sections": [
+            "investigation-0/problem-1/whatsgoingon/content.json",
+            "investigation-0/problem-1/modelmaking/content.json",
+            "investigation-0/problem-1/scientistscircle/content.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
