@@ -27,6 +27,15 @@ const ICON_ALT_TEXTS = new Set(["turnandtalk", "notebook", "class", "group", "se
 const MODEL_KEYWORDS = ["model", "modeling", "draw", "build", "construct", "develop a model"];
 const SCI_KEYWORDS = ["scientist", "circle", "consensus", "share", "public record"];
 
+// Activity-type markers that, in some lessons, appear as plain paragraphs
+// rather than headings. Treated as section boundaries so a lesson with few
+// headings doesn't collapse into a single giant tile.
+const ACTIVITY_MARKERS = [
+  "turn and talk", "in your notebook", "with your class", "with your group",
+  "on your own", "stop and jot", "scientists circle", "individually",
+  "as a class", "navigation", "building understandings"
+];
+
 const SECTION_DIRS = {
   "whatsgoingon": "whatsgoingon",
   "modelmaking": "modelmaking",
@@ -80,13 +89,72 @@ async function fetchDocHtml(docId) {
   return resp.text();
 }
 
+// List the files/subfolders in a public Google Drive folder by scraping the
+// folder's HTML. Each item appears as:
+//   data-id="<ID>" jsname="vtaz5c" data-tooltip="<NAME> Google Docs|Slides|..."
+// Returns [{ id, name }] where name has the trailing app-type suffix stripped.
 async function listFolderFiles(folderId) {
-  // Use Google Drive's public folder listing (works for publicly shared folders)
   const url = `https://drive.google.com/drive/folders/${folderId}`;
-  console.log(`  Listing folder ${folderId}...`);
-  console.log("  NOTE: Folder traversal requires manual doc ID entry for now.");
-  console.log("  Use --docs <id1>,<id2>,... to provide doc IDs directly.");
-  return [];
+  const resp = await fetch(url, { redirect: "follow" });
+  if (!resp.ok) throw new Error(`Failed to list folder ${folderId}: ${resp.status}`);
+  const html = await resp.text();
+
+  const pat = /data-id="([a-zA-Z0-9_-]+)" jsname="vtaz5c" data-tooltip="([^"]*)"/g;
+  const items = [];
+  const seen = new Set();
+  let m;
+  while ((m = pat.exec(html)) !== null) {
+    const id = m[1];
+    if (seen.has(id)) continue;
+    seen.add(id);
+    // Strip the trailing app-type label Drive appends to the tooltip
+    const name = m[2]
+      .replace(/\s+(Google Docs|Google Slides|Google Sheets|PDF|Google Drive Folder)$/i, "")
+      .trim();
+    items.push({ id, name });
+  }
+  return items;
+}
+
+// Given the top-level unit folder, discover each lesson's Student Procedure
+// and Teacher Edition doc IDs. Returns [{ lessonNum, docId, teacherDocId }]
+// ordered by lesson number.
+async function discoverLessonDocs(folderId) {
+  console.log(`  Listing unit folder ${folderId}...`);
+  const topItems = await listFolderFiles(folderId);
+
+  // Lesson subfolders are named "Lesson N - ..."
+  const lessonFolders = [];
+  for (const item of topItems) {
+    const lm = /^Lesson\s+(\d+)\b/i.exec(item.name);
+    if (lm) lessonFolders.push({ lessonNum: parseInt(lm[1]), folderId: item.id });
+  }
+  lessonFolders.sort((a, b) => a.lessonNum - b.lessonNum);
+  console.log(`  Found ${lessonFolders.length} lesson folders`);
+
+  const entries = [];
+  for (const { lessonNum, folderId: lessonFolderId } of lessonFolders) {
+    const files = await listFolderFiles(lessonFolderId);
+
+    // Student Procedure (English, not Spanish)
+    const student = files.find(f =>
+      /student procedure/i.test(f.name) && !/spanish|lecci[oó]n/i.test(f.name));
+    // Teacher Edition
+    const teacher = files.find(f =>
+      /teacher edition/i.test(f.name) && !/spanish|lecci[oó]n/i.test(f.name));
+
+    if (!student) {
+      console.log(`  Lesson ${lessonNum}: no Student Procedure found, skipping`);
+      continue;
+    }
+    entries.push({
+      lessonNum,
+      docId: student.id,
+      teacherDocId: teacher ? teacher.id : null,
+    });
+    console.log(`  Lesson ${lessonNum}: student=${student.id} teacher=${teacher ? teacher.id : "(none)"}`);
+  }
+  return entries;
 }
 
 // --- Parsing ---
@@ -113,7 +181,11 @@ function parseStudentProcedure(html, lessonNum, unitCode) {
 
   // Extract lesson title from H1
   const h1 = body.find("h1").first();
-  const lessonTitle = cleanHtml(h1.text()) || `Lesson ${lessonNum}`;
+  // Strip a redundant leading "Lesson N:" / "Lesson N -" prefix; CLUE already
+  // renders the ordinal as "Lesson N" via the termOverrides.
+  const lessonTitle = (cleanHtml(h1.text()) || `Lesson ${lessonNum}`)
+    .replace(/^Lesson\s+\d+\s*[:\-–—]\s*/i, "")
+    .trim() || `Lesson ${lessonNum}`;
 
   let currentTab = "whatsgoingon";
   const tiles = { whatsgoingon: [], modelmaking: [], scientistscircle: [] };
@@ -288,6 +360,21 @@ function parseStudentProcedure(html, lessonNum, unitCode) {
       if (insideDataTable.has(el)) continue;
       const text = $el.text().trim();
       if (!text) continue;
+      // Some lessons (e.g. Lesson 3) express activity markers as plain
+      // paragraphs rather than headings. Treat a short paragraph beginning with
+      // a known activity marker as a section boundary so the lesson doesn't
+      // collapse into a single tile. Only re-tab when the marker itself carries
+      // a MODEL/SCI keyword; otherwise stay in the current tab.
+      const lowerText = text.toLowerCase();
+      const isActivityMarker = text.length < 60 &&
+        ACTIVITY_MARKERS.some(m => lowerText.startsWith(m));
+      if (isActivityMarker) {
+        flushTextBuffer();
+        const classified = classifySection(text);
+        if (classified !== "whatsgoingon") currentTab = classified;
+        currentTextBuffer.push("<p><strong>" + cleanHtml($el.html()) + "</strong></p>");
+        continue;
+      }
       const innerHtml = cleanHtml($el.html());
       if (innerHtml) currentTextBuffer.push("<p>" + innerHtml + "</p>");
       continue;
@@ -689,12 +776,17 @@ async function main() {
       teacherDocId: teacherIds[i] ? teacherIds[i].trim() : null
     }));
   } else if (flags.folder) {
-    console.log("Folder traversal not yet implemented. Use --docs or --doc.");
-    process.exit(1);
+    console.log("Discovering lesson docs by traversing the Drive folder...");
+    docEntries = await discoverLessonDocs(flags.folder);
+    if (docEntries.length === 0) {
+      console.log("No lesson documents found in folder. Check that it is link-shared.");
+      process.exit(1);
+    }
   } else {
     console.log("Usage:");
     console.log("  node scripts/import-openscied.js --unit OSEMagnets --doc <docId> --lesson 1 [--teacherDoc <id>]");
     console.log("  node scripts/import-openscied.js --unit OSEMagnets --docs <id1>,<id2>,... [--teacherDocs <id1>,<id2>,...]");
+    console.log("  node scripts/import-openscied.js --unit OSEMagnets --folder <folderId>");
     process.exit(1);
   }
 
