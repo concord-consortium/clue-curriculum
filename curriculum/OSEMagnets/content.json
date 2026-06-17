@@ -43,6 +43,11 @@
         "id": "IframeInteractive",
         "title": "Simulation",
         "isTileTool": true
+      },
+      {
+        "id": "Question",
+        "title": "Tile Group",
+        "isTileTool": true
       }
     ],
     "authorTools": [
@@ -146,6 +151,20 @@
     "termOverrides": {
       "contentLevel.problem": "Lesson",
       "contentLevel.problems": "Lessons"
+    },
+    "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "Unit",
+        "All"
+      ],
+      "sortOptions": [
+        "Date",
+        "Group",
+        "Name",
+        "Strategy"
+      ],
+      "defaultPrimarySort": "Date"
     }
   },
   "sections": {
