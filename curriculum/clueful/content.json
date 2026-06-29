@@ -9,6 +9,7 @@
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
     "defaultLearningLogDocument": false,
+    "groupDocumentsEnabled": true,
     "disablePublish": [
       "student"
     ],
@@ -383,7 +384,8 @@
     "termOverrides": {
       "sortLabel.sortByOwner": "Name",
       "strategy": "Learning Journey",
-      "tools": "STEM tools"
+      "tools": "STEM tools",
+      "resourcesPanel": "Lessons and References"
     },
     "aiEvaluation": "custom",
     "aiPrompt": {
@@ -415,7 +417,8 @@
       ],
       "defaultPrimarySort": "Strategy"
     },
-    "defaultSharedDocuments": true
+    "defaultSharedDocuments": true,
+    "showCommentRating": false
   },
   "sections": {
     "warmup": {
@@ -498,18 +501,26 @@
           ]
         },
         {
-          "title": "Data and Categories - Experiments",
+          "title": "Gathering Data from Experiments",
           "ordinal": 4,
           "description": "",
           "subtitle": "",
-          "sections": []
+          "sections": [
+            "sections/investigation-1/problem-4/warmup/content.json",
+            "sections/investigation-1/problem-4/activity/content.json",
+            "sections/investigation-1/problem-4/reflect/content.json"
+          ]
         },
         {
-          "title": "Geometry and Scaling",
+          "title": "Electromagnetism and Simulations",
           "ordinal": 5,
           "description": "",
           "subtitle": "",
-          "sections": []
+          "sections": [
+            "sections/investigation-1/problem-5/warmup/content.json",
+            "sections/investigation-1/problem-5/activity/content.json",
+            "sections/investigation-1/problem-5/reflect/content.json"
+          ]
         },
         {
           "title": "Sketching and Design",

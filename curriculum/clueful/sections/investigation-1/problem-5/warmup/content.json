@@ -1,0 +1,265 @@
+{
+  "type": "warmup",
+  "content": {
+    "tiles": [
+      {
+        "id": "Z0BGFuN-Ch1XS52v",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Welcome to MothEd!</strong></p><p>This is part of a curriculum developed with Michegan State University that lets students become naturalists in their own neighborhood, and think about the ways that scientists study and catalog creatures and plants. Begin by copying the question below into your workspace and answering the questions inside it.</p>"
+          ]
+        }
+      },
+      {
+        "id": "1kD632NtjVbI82bQ",
+        "title": "Biodiversity for insects, moths and birds",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "3xptnP",
+          "tiles": [
+            {
+              "id": "Rm6zjtWh97H5Xo2d",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Let&#x27;s start by researching biodiversity in our own environment. Where can you find information about the insects and birds in your state? Who catalogs these things? Could you share information with them if you find something new? Can you find photos or drawings of some of these creatures to add to the collection in the sketch below? Can you label things you notice about them? </p>"
+                ]
+              }
+            },
+            {
+              "id": "4_blRP6WTTJJhezz",
+              "title": "Text 1",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li>How many different species (or types) of insects are there in the entire world?</li><li>How many different species of insects are there in your state?</li><li>How many different species (or types) of moths are there in the entire world?</li><li>How many different species of moths are there in your state?</li><li>How many different species (or types) of birds are there in the entire world?</li><li>How many different species of birds are there in your state?</li></ol>"
+                ]
+              }
+            },
+            {
+              "id": "JWBU-Ovd1WORDz_v",
+              "title": "Moth vs. Butterfly",
+              "content": {
+                "type": "Drawing",
+                "objects": [
+                  {
+                    "type": "image",
+                    "id": "k--lrxrWvJWfTbsb",
+                    "x": 219.4921875,
+                    "y": 6.75390625,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 345.79296875,
+                    "height": 228.703125,
+                    "url": "clueful/images/GreenMoth1.png",
+                    "filename": "GreenMoth1.png"
+                  },
+                  {
+                    "type": "image",
+                    "id": "qaAKNymB7R6FKvFp",
+                    "x": 587.078125,
+                    "y": 5.203125,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 194,
+                    "height": 259,
+                    "url": "clueful/images/tigerMoth.jpg",
+                    "filename": "tigerMoth.jpg"
+                  }
+                ]
+              },
+              "layout": {
+                "height": 236
+              }
+            }
+          ]
+        }
+      },
+      [
+        {
+          "id": "-BEJV5IoFfMSl6yS",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Now share your answers with your group and come to a consensus answer for each question.</p><p>Enter your numbers in a table, and decide on some driving questions you would like to answer about moths and insects. Decide as a group on a table format. in the class Group Document (you can find this in the Class Gallery tab in Group Sorts - Whole Class).</p>"
+            ]
+          }
+        },
+        {
+          "id": "LzYGBLW_g5NxQwe-",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "ujmu0LJVY1fD2aLn": 185.64453125,
+              "uEtbeF1m5KMoo_bD": 181.9921875
+            }
+          }
+        }
+      ],
+      {
+        "id": "Tqz_E7UYQPiP9c6c",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "jLxtkbmzC9FwPvjD",
+          "variables": [
+            {
+              "id": "s8fPM77XjunVZcST",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 21.049555810414166,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "rKN8N1sY2IQ2fu82",
+              "name": "humidity_key",
+              "displayName": "Humidity",
+              "unit": "%",
+              "value": 19.583333333333357,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://humidity_key",
+              "labels": [
+                "input",
+                "sensor:humidity"
+              ]
+            },
+            {
+              "id": "szrr1UiYsR4pKpvs",
+              "name": "raw_temperature_key",
+              "displayName": "Raw Temperature",
+              "value": 21,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "lCv2uXMAFMfa6LIY",
+              "name": "fan_key",
+              "displayName": "Fan",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://fan_key",
+              "labels": [
+                "output",
+                "live-output:Fan",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "lDG9lbiK7X9WWS9H",
+              "name": "heat_lamp_key",
+              "displayName": "Heat Lamp",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://heat_lamp_key",
+              "labels": [
+                "output",
+                "live-output:Heat Lamp",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "bIlI2ycAci13l-WL",
+              "name": "humidifier_key",
+              "displayName": "Humidifier",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://humidifier_key",
+              "labels": [
+                "output",
+                "live-output:Humidifier",
+                "decimalPlaces:0"
+              ]
+            }
+          ]
+        },
+        "tiles": [
+          "-BEJV5IoFfMSl6yS",
+          "Rm6zjtWh97H5Xo2d",
+          "4_blRP6WTTJJhezz",
+          "Z0BGFuN-Ch1XS52v",
+          "Tqz_E7UYQPiP9c6c",
+          "JWBU-Ovd1WORDz_v"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "dHsPTyTWMo9FvvWm",
+          "providerId": "LzYGBLW_g5NxQwe-",
+          "dataSet": {
+            "id": "ma6XC5Te_oEdHSnR",
+            "name": "Critter Counts in My State",
+            "attributes": [
+              {
+                "id": "ujmu0LJVY1fD2aLn",
+                "clientKey": "",
+                "name": "<name column>",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "uEtbeF1m5KMoo_bD",
+                "clientKey": "",
+                "name": "<name column 2>",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "LzYGBLW_g5NxQwe-"
+        ]
+      }
+    ]
+  }
+}
