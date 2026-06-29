@@ -12,6 +12,29 @@
     "defaultDocumentTitle": "Storm Name and Time",
     "defaultDocumentType": "personal",
     "defaultLearningLogDocument": false,
+    "defaultDocumentTemplate": {
+      "tiles": [
+        {
+          "content": {
+            "type": "IframeInteractive",
+            "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
+            "interactiveState": {},
+            "authoredState": {},
+            "maxHeight": 0,
+            "enableScroll": false
+          }
+        },
+        {
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Describe your model and questions.</p>"
+            ]
+          }
+        }
+      ]
+    },
     "documentLabels": {
       "personal": {
         "labels": {
