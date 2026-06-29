@@ -1,6 +1,93 @@
 {
   "type": "warmup",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "chc6-qa8B4tUdUiB",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Welcome to MothEd!</p><p>This Lesson is modified from a curriculum developed by the University of Michigan. </p>"
+          ]
+        }
+      },
+      {
+        "id": "sRocwlF4pAGS_syh",
+        "title": "Biodiversity in Your State",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "gAMi2d",
+          "tiles": [
+            {
+              "id": "A7U_67QUw-BTHv9R",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>What do you know about insects in your state? How could you find out more. Use the questions below as a place to get started, then work with your group to develop some questions you&#x27;d like to answer about moths. Can you find and comment on some insect images? How would you contribute to these ideas if you found something new?</p>"
+                ]
+              }
+            },
+            {
+              "id": "ymWcoP-hTUWqoGWQ",
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li>How many different species (or types) of insects are there in the entire world?</li><li>How many different species of insects are there in your state?</li><li>How many different species (or types) of moths are there in the entire world?</li><li>How many different species of moths are there in your state?</li></ol>"
+                ]
+              }
+            },
+            {
+              "id": "iJVnfRsLz-Z3rY9e",
+              "title": "Moth? Not Moth?",
+              "content": {
+                "type": "Drawing",
+                "objects": [
+                  {
+                    "type": "image",
+                    "id": "3NzpfToqAeluwx0E",
+                    "x": 477.78515625,
+                    "y": 55.265625,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 180.80859375,
+                    "height": 231.0546875,
+                    "url": "clueful/images/tigerMoth.jpg",
+                    "filename": "tigerMoth.jpg"
+                  },
+                  {
+                    "type": "image",
+                    "id": "rfX_j1f5DOeHCEy5",
+                    "x": 18.77734375,
+                    "y": 15.47265625,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 441.5,
+                    "height": 276.6015625,
+                    "url": "clueful/images/GreenMoth1.png",
+                    "filename": "GreenMoth1.png"
+                  }
+                ]
+              },
+              "layout": {
+                "height": 310
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
 }
