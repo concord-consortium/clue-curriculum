@@ -9,138 +9,31 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As you saw in the previous lesson, even combing through a few minutes of seismic data can be unclear about what kind of signal you are looking at. To truly be useful, you&#x27;re going to want to look at hours or days of data and get a summary of what kind of signals you find. That&#x27;s where machine learning can really speed things up. A machine learning model looks at data in chunks and compares profiles to those it&#x27;s been trained on before, similar to the signals you see posted by Ivan Idea in the library. Take a look at those different kinds of signals on the left pane in the <strong>Seismic Library </strong>tab.</p><p>Next, Try loading some data in your Seismic Explorer. You can drag any of these tiles over to your workspace </p>"
+            "<p>As you saw in the previous lesson, even combing through a few minutes of seismic data can be unclear about what kind of signal you are looking at. To truly be useful, you&#x27;re going to want to look at hours or days of data and get a summary of what kind of signals you find. That&#x27;s where machine learning can really speed things up. A machine learning model looks at data in chunks and compares profiles to those it&#x27;s been trained on before, similar to the signals you saw yesterday.</p><p>In this activity, you will use a machine learning model to do much the same activity as you did by hand yesterday- find seismic signals in the noise of all the seismic data!</p>"
           ]
         }
       },
-      [
-        {
-          "id": "4NK_CyH1_JNM_9Dv",
-          "content": {
-            "type": "Table",
-            "columnWidths": {
-              "mxt6tc436hlWkqTe": 108.98046875,
-              "NHOtbu4PDke0bZwB": 108.3828125,
-              "lWYSu3UAMplCcgvR": 119.21484375
-            }
-          }
-        },
-        {
-          "id": "aMMGVK8wXwPgTOmk",
-          "title": "Events in ANK1 and ANK2",
-          "content": {
-            "type": "BarGraph",
-            "yAxisLabel": "Counts",
-            "dataSetId": "ha2Kw5VbwKzAFsdf",
-            "primaryAttribute": "lWYSu3UAMplCcgvR",
-            "secondaryAttribute": "NHOtbu4PDke0bZwB",
-            "attributeColorMap": {
-              "NHOtbu4PDke0bZwB": {
-                "ANK1": 0,
-                "ANK2": 1,
-                "(no value)": 2,
-                "ANK": 3
-              }
-            }
-          }
-        }
-      ]
-    ],
-    "sharedModels": [
       {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "vOFcbNdkFTfQ7mcL",
-          "providerId": "4NK_CyH1_JNM_9Dv",
-          "dataSet": {
-            "id": "ha2Kw5VbwKzAFsdf",
-            "name": "Table Data 1",
-            "attributes": [
-              {
-                "id": "mxt6tc436hlWkqTe",
-                "clientKey": "",
-                "name": "Event",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "12:42",
-                  "13:35",
-                  "07:15",
-                  "12:43",
-                  "1:15",
-                  "08:15"
-                ],
-                "title": ""
-              },
-              {
-                "id": "NHOtbu4PDke0bZwB",
-                "clientKey": "",
-                "name": "Station",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "ANK1",
-                  "ANK1",
-                  "ANK2",
-                  "ANK2",
-                  "ANK2",
-                  "ANK2"
-                ],
-                "title": ""
-              },
-              {
-                "id": "lWYSu3UAMplCcgvR",
-                "clientKey": "",
-                "name": "Category",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "Earthquake",
-                  "Vehicle",
-                  "Unknown",
-                  "Earthquake",
-                  "Human",
-                  "Human"
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "eBT1rKcCF9aGM4tQ"
-              },
-              {
-                "__id__": "zoxltwx4sg3W_eyR"
-              },
-              {
-                "__id__": "WgL829zePAYlTYAq"
-              },
-              {
-                "__id__": "eupBC6Njlw4cQj8Z"
-              },
-              {
-                "__id__": "Z2bZQY7JT_EQrHWB"
-              },
-              {
-                "__id__": "HnG12_hIvUDUmVcx"
-              }
-            ],
-            "sortDirection": "NONE"
-          }
-        },
-        "tiles": [
-          "4NK_CyH1_JNM_9Dv",
-          "aMMGVK8wXwPgTOmk"
-        ]
+        "id": "GWLX378mIkQuw-cw",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>INSTRUCTIONS</strong></p><p>1) In the &quot;File&quot; menu in the top left of the right side of CLUE, click &quot;Open&quot;. Then, select your document from yesterday, probably called &quot;____&quot;. Once that is open, click the &quot;File&quot; menu again and select &quot;Make a Copy&quot;. This will make sure your work from yesterday is copied!</p><p>2) In your WaveRunner tile from yesterday, we will now run the ML model on the same data. Select &quot;Natural events&quot; from the model dropdown list.</p><p>3) Click the &quot;Play&quot; button in the bottom toolbar of the model menu. </p><p>4) When it is finished running, click the &quot;Timeline It!&quot; and &quot;Data Table&quot; buttons in the bottom control bar of the WaveRunner Tile. </p>"
+          ]
+        }
+      },
+      {
+        "id": "YFacr1XEUPwvtTbn",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Questions</strong></p><p>Drag this tile to your document, on the right side of CLUE.  Answer each of the questions below.</p><p>1) How many natural events did the ML model find? Compare this number to the number of events you found yesterday looking through the same data!</p><p>2) Why do you think the model found such a different number of events than you did looking at the same data?</p><p>3) Did you find any of the same events as the ML model? Look closely at the timestamps of your events and the model events. Were any the same? Record them below!</p>"
+          ]
+        }
       }
     ]
   }

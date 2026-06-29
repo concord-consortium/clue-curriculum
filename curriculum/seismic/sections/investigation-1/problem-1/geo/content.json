@@ -9,21 +9,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Welcome to the SeismicML Mini Activity!</strong></p><p>This first round of development produced two new CLUE tiles, the WaveRunner tile and the Timeline tile. In the WaveRunner tile, users choose which seismic data to visualize by selecting a seismic station and a date range. Users can also use this tile to run the ML model to identify seismic events. With the Timeline tile, users can visualize the seismic data and navigate through it by panning and zooming. The Timeline tile also shows labeled events identified by the ML model in the WaveRunner tile. </p><p>This activity will serve as a quick proof of concept test for the WaveRunner and Timeline tiles in CLUE, as well as for the activities we would hope to do with students during the full SeismicML curriculum.</p>"
+            "<p><strong>Welcome to the SeismicML Activity!</strong></p><p>In this activity, you will work with data from the Raspberry Shake in your classroom! Follow the instructions below to idenitfy earthquakes in the data!</p><p></p><p><strong>Instructions!!</strong></p><p>Below is the data from a Raspberry Shake. To see the data from your classroom:</p><p>1) Drag the Raspberry Shake graph to the right side of the CLUE environment. Grab the tab in the top right and drag it over to the right side of the screen. </p><p>2) Go to the search bar in the top right, and type in the station name that your teacher tells you.</p><p>3) Press enter.</p>"
           ]
         }
       },
       {
-        "id": "drPmXkRDGy0BjBK3",
+        "id": "GoPLnMy1lcO-zrgc",
+        "title": "Interactive 1",
         "content": {
-          "type": "Table",
-          "columnWidths": {
-            "HS99n2jeNfIEALIG": 108.7890625,
-            "HS-rMkHZCLdkjNX5": 171.66015625,
-            "dLVRW-FrQ2BoDyvo": 162.1640625,
-            "7khSY-fqeqo1YJEg": 93.87890625,
-            "fhk_6qV-3gL-sfhW": 161.67578125
-          }
+          "type": "IframeInteractive",
+          "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
+          "interactiveState": {},
+          "authoredState": {},
+          "maxHeight": 0,
+          "enableScroll": false
         }
       },
       {
@@ -33,136 +32,20 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Next, we want to be able to annotate the seismic signals you see. To do this, </p><ul><li>Drag or click to place the &quot;Data Cards&quot; tile above. </li><li>Take a screenshot of one of the signals in the Raspberry Shake data. </li><li>Put your cursor in the Waveform row, then paste your screenshot using Ctrl-V.  </li><li>Update your description based on the image (station, dates and time). </li><li>Make new cards with new waveforms. You can also paste waveform screenshots into sketch tiles and draw on them to point out features.</li></ul>"
+            "<p>Here is an image of an earthquake signal. Scroll through the data to find a signal that matches this one. It may be on a different day!</p><p></p><p>[Insert image of earthquake signal in RS data]</p>"
           ]
         }
-      }
-    ],
-    "sharedModels": [
+      },
       {
-        "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "CmZcBKLgspkABuQR",
-          "providerId": "drPmXkRDGy0BjBK3",
-          "dataSet": {
-            "id": "Fy28vlzr3NT7FACu",
-            "name": "Identified Seismic Signals",
-            "attributes": [
-              {
-                "id": "HS99n2jeNfIEALIG",
-                "clientKey": "",
-                "name": "Instance",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "1",
-                  "2",
-                  "3",
-                  "4",
-                  "5"
-                ],
-                "title": ""
-              },
-              {
-                "id": "HS-rMkHZCLdkjNX5",
-                "clientKey": "",
-                "name": "Time of signal (AKST)",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "dLVRW-FrQ2BoDyvo",
-                "clientKey": "",
-                "name": "Date of Signal",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "7khSY-fqeqo1YJEg",
-                "clientKey": "",
-                "name": "Station",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              },
-              {
-                "id": "fhk_6qV-3gL-sfhW",
-                "clientKey": "",
-                "name": "Description of station",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-                ],
-                "title": ""
-              }
-            ],
-            "cases": [
-              {
-                "__id__": "01KJXFS793A7EKGFASBK3N2SZN"
-              },
-              {
-                "__id__": "01KJXFS793A7EKGFASBK3N2SZP"
-              },
-              {
-                "__id__": "01KJXFS793A7EKGFASBK3N2SZQ"
-              },
-              {
-                "__id__": "01KJXFS793A7EKGFASBK3N2SZR"
-              },
-              {
-                "__id__": "01KJXFS793A7EKGFASBK3N2SZS"
-              }
-            ],
-            "sortDirection": "NONE"
-          }
-        },
-        "provider": "drPmXkRDGy0BjBK3",
-        "tiles": [
-          "drPmXkRDGy0BjBK3"
-        ]
+        "id": "mHaM53NDQgpSdNTw",
+        "title": "Text 6",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>QUESTIONS TO ANSWER</strong></p><p>Drag this text tile to the right side of CLUE. Type answers to the questions below!</p><p>Question 1: What is the date and time of the earthquake signal that you found?</p><p></p><p>Question 2: Describe how the shape of the signal you found makes you think it is an earthquake. </p><p></p>"
+          ]
+        }
       }
     ]
   }

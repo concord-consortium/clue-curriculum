@@ -9,50 +9,8 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Earth is noisy</strong></p><p>Digital recordings of vibrations have particular shapes depending on what made the noise. The wave amplitude graph from you and all your classmates running from class to class in the hallway looks very different from a cruise ship docking in the local harbor, and different from an earthquake.</p>"
+            "<p><strong>Seismic signals are unique</strong></p><p>Digital recordings of vibrations have particular shapes depending on what made the noise. The wave amplitude graph from you and all your classmates running from class to class in the hallway looks very different from a cruise ship docking in the local harbor, and different from an earthquake. Below are some more examples of the waves produced from different sources. Today, you will look through many days of seismic data to find signals from these different sources!</p><p>[insert images of earthquake, avalanche, plane landing]</p>"
           ]
-        }
-      },
-      {
-        "id": "KMu3o8CmvOBYVKcn",
-        "title": "Waverunner tile",
-        "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "rectangle",
-              "id": "kvgRys9G5j7YjOwa",
-              "x": 76.578125,
-              "y": 52.5625,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "none",
-              "width": 427.28515625,
-              "height": 90.93359375
-            },
-            {
-              "type": "text",
-              "id": "ZBK9Jd11KnMuzJ4I",
-              "x": 240.69140625,
-              "y": 86.45703125,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 110.44921875,
-              "height": 32.23046875,
-              "stroke": "#000000",
-              "text": "waves yay"
-            }
-          ]
-        },
-        "layout": {
-          "height": 187
         }
       },
       {
@@ -62,9 +20,210 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Once you have viewed the stations at your schools and found some times with interesting signals, make a timeline tile to display that data. Identify some events on the timeline. You can make new Files with different kinds of events.  You can also look at that data as a bar graph or table that summarizes what you found.</p>"
+            "<p><strong>INSTRUCTIONS</strong></p><p>1) Click the {} button in the toolbar on the right side to create a WaveRunner Tile. This tile allows you to select data to use. </p><p>2) Set the station to ______</p><p>3) Set the Start Date and Time to_____</p><p>4) Set the end Date and Time to ____</p><p>5) At the bottom of the WaveRunner tile, click the Timeline It! button (the last one in the row of buttons).</p>"
           ]
         }
+      },
+      {
+        "id": "2F-_GzxLNKIaW4r5",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>ACTIVITY</strong></p><p>Use the Timeline tile to search through the seismic data for signals of earthquakes, plane takeoffs, and avalanches. Be sure to check that each signal you choose matches the shape of the ones above! </p><p>Drag the table below into your workspace. When you have found a signal, record its characteristics in the table.</p>"
+          ]
+        }
+      },
+      {
+        "id": "WTqj0S2Cu8zOwAux",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "Tkxhwoo5PYvFfsl8": 200.90106201171875,
+            "gX5jpn8oqnNK6qza": 267.3072967529297,
+            "VAeMfIn82HLuEaTR": 244.6041259765625,
+            "GVdPEMPEwFIxeCPS": 314.9427490234375,
+            "vmPPWLf1Qg_qxQH5": 368.203125
+          }
+        }
+      },
+      {
+        "id": "eKvUGb0g9dIigV2y",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>QUESTIONS TO ANSWER</strong></p><p>Drag this text tile to the right side of CLUE. Type answers to the questions below!</p><p>Question 1: What makes it difficult to find these signals? </p><p></p><p>Question 2: Describe your process for finding a signal. How long does it take to find one?</p><p></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "O2iWyQuEY-vt8Vss",
+          "providerId": "WTqj0S2Cu8zOwAux",
+          "dataSet": {
+            "id": "My9Ww5mDG7dWuDjb",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "Tkxhwoo5PYvFfsl8",
+                "clientKey": "",
+                "name": "Instance",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10"
+                ],
+                "title": ""
+              },
+              {
+                "id": "gX5jpn8oqnNK6qza",
+                "clientKey": "",
+                "name": "Date of signal",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "VAeMfIn82HLuEaTR",
+                "clientKey": "",
+                "name": "Time of signal",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "GVdPEMPEwFIxeCPS",
+                "clientKey": "",
+                "name": "Station",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              },
+              {
+                "id": "vmPPWLf1Qg_qxQH5",
+                "clientKey": "",
+                "name": "Suspected Event",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "EvCkMH8SDHKu-_Vd"
+              },
+              {
+                "__id__": "VcLbw9trCWzVJC2A"
+              },
+              {
+                "__id__": "jsqFxTeZj7zjtB26"
+              },
+              {
+                "__id__": "QToernKAbr0aLJK3"
+              },
+              {
+                "__id__": "olXlwk7l3P60-esg"
+              },
+              {
+                "__id__": "KfmwF9v5bdWROhUo"
+              },
+              {
+                "__id__": "4BprmHN68I2rqltG"
+              },
+              {
+                "__id__": "6UIhd2-QxyvDJbMw"
+              },
+              {
+                "__id__": "YYbZGGyI_r1cTbGR"
+              },
+              {
+                "__id__": "TP9ewYGA0wSDsgu3"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "WTqj0S2Cu8zOwAux"
+        ]
       }
     ]
   }
