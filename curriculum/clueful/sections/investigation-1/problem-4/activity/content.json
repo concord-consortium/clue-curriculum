@@ -1,6 +1,150 @@
 {
   "type": "activity",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "cQ1P58CF9CZfOr3U",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To find out more about moths and other insects in your area, you are going to design an experiment, build a moth trap, and analyze your data. To help you design an experiment to answer your group&#x27;s questions from the Warmup, take a look at some data that Frieda took when she did her moth experiment. Copy this data into your Workspace and think about what you can learn from this data and what you can&#x27;t. How would you tell Frieda to change it? Can you graph it? How else could you look at it?</p>"
+          ]
+        }
+      },
+      {
+        "id": "2tHAmBMyc1Uc_04V",
+        "content": {
+          "type": "DataCard"
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "f9-KSoI3clcSH7ZF",
+          "providerId": "2tHAmBMyc1Uc_04V",
+          "dataSet": {
+            "id": "0zVIJV1x0b86HX4C",
+            "name": "Frieda's Moth Data",
+            "attributes": [
+              {
+                "id": "Knh9oslJSWw2a2dq",
+                "clientKey": "",
+                "name": "Color",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "brown",
+                  "brown",
+                  "brown",
+                  "white",
+                  "white"
+                ],
+                "title": ""
+              },
+              {
+                "id": "GU2Jejng2QYV6QVJ",
+                "clientKey": "",
+                "name": "Size",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "micro",
+                  "micro",
+                  "macro",
+                  "micro",
+                  "micro"
+                ],
+                "title": ""
+              },
+              {
+                "id": "d9T1s6Mj16TwB_pK",
+                "clientKey": "",
+                "name": "location",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "porch",
+                  "porch",
+                  "porch",
+                  "woods",
+                  "woods"
+                ],
+                "title": ""
+              },
+              {
+                "id": "iH9xbOvnt5UwjWXU",
+                "clientKey": "",
+                "name": "Day",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "1",
+                  "2",
+                  "2",
+                  "2"
+                ],
+                "title": ""
+              },
+              {
+                "id": "8IzKTSa7In0yOqdi",
+                "clientKey": "",
+                "name": "Photo",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "",
+                  "",
+                  "curriculum/clueful/images/bristly-cutworm-moth-.png",
+                  "",
+                  "curriculum/clueful/images/moth3.jpg"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KW9SMTS0KDVTS7X37GDYW5TN"
+              },
+              {
+                "__id__": "01KW9SS79HHPTF6S8F827QFZ7K"
+              },
+              {
+                "__id__": "01KW9SSFGFSJSC46NF2VYN813Y"
+              },
+              {
+                "__id__": "01KW9STV2RBM9QYEW7A766VAZ5"
+              },
+              {
+                "__id__": "01KW9SVJXFACGZJNGTVW52TA3H"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "2tHAmBMyc1Uc_04V"
+        ]
+      }
+    ]
   }
 }
