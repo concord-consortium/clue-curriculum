@@ -3,13 +3,13 @@
   "content": {
     "tiles": [
       {
-        "id": "chc6-qa8B4tUdUiB",
-        "title": "Text 1",
+        "id": "6PECEg9MXhhQZJUV",
+        "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Welcome to MothEd!</strong></p><p>This Lesson is modified from a curriculum developed by the University of Michigan. </p>"
+            "<p><strong>Welcome to MothEd!</strong></p><p>This is part of a curriculum developed with Michegan State University that lets students become naturalists in their own neighborhood, and think about the ways that scientists study and catalog creatures and plants. Begin by copying the question below into your workspace and answering the questions inside it.</p>"
           ]
         }
       },
@@ -87,6 +87,71 @@
             }
           ]
         }
+      },
+      {
+        "id": "9a27jZwK30H-G21G",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Now share your answers with your group and come to a consensus answer for each question.</p><p>Enter your numbers in a table, and decide on some driving questions you would like to answer about moths and insects. Decide as a group on a table format. in the class Group Document (you can find this in the Class Gallery tab in Group Sorts - Whole Class).</p>"
+          ]
+        }
+      },
+      {
+        "id": "blMVrxtW44ASAcfH",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "POgBpWzEftm1oLKN": 185.64453125,
+            "NYFhfqEx9g_XllEJ": 181.9921875
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5BLWTm2M08ljPOr5",
+          "providerId": "blMVrxtW44ASAcfH",
+          "dataSet": {
+            "id": "ZRy-MGpt1fvZcHpM",
+            "name": "Critter Counts in My State",
+            "attributes": [
+              {
+                "id": "POgBpWzEftm1oLKN",
+                "clientKey": "",
+                "name": "<name column>",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "NYFhfqEx9g_XllEJ",
+                "clientKey": "",
+                "name": "<name column 2>",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "blMVrxtW44ASAcfH",
+        "tiles": [
+          "blMVrxtW44ASAcfH"
+        ]
       }
     ]
   }
