@@ -256,20 +256,23 @@
     "sortWorkConfig": {
       "docFilterOptions": [
         "Problem",
-        "All"
+        "Investigation"
       ],
       "sortOptions": [
         "Date",
         "Name",
-        "Strategy"
+        "Strategy",
+        "Problem"
       ],
       "defaultPrimarySort": "Date"
     },
     "termOverrides": {
       "sortLabel.sortByOwner": "User",
       "strategy": "Model focus",
-      "contentLevel.problem": "this storm",
+      "contentLevel.problem": "the storm",
       "contentLevel.problems": "these storms",
+      "contentLevel.investigation": "2026 Storms",
+      "contentLevel.investigations": "2026 Storms",
       "resourcesPanel": "Models and Forcasts"
     },
     "showCommentRating": false
