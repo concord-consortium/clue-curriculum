@@ -1,0 +1,223 @@
+{
+  "type": "warmup",
+  "content": {
+    "tiles": [
+      {
+        "id": "0qZdQ7QTjG-VyMtb",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>What’s going on inside a speaker?</strong></h2><p>For anything that produces sound, there has to be a force that is applied to the sound source to deform or bend it to get it to vibrate. We identified what that force was for many instruments, but we never identified what the force was in the speaker to make it vibrate.</p>"
+          ]
+        }
+      },
+      {
+        "id": "B91CCeE36rshIzf2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>Turn and talk</strong></h2><ol><li>How could we investigate what is causing the speaker to vibrate? Once you&#x27;ve thought about this,</li><li>Watch this video of <a href=\"https://www.youtube.com/watch?v=6MMwKN9TaVU\">a teacher dissecting a speaker</a>. </li><li>Make a Notice and Wonder chart in a new page in your notebook, like the example below.</li></ol>"
+          ]
+        }
+      },
+      {
+        "id": "q2U7rN1n_x2kZQBL",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "3u0IWGlggqxb6mGJ": 271.015625,
+            "Kflj31_eolw5rAPE": 287.44921875
+          }
+        }
+      },
+      {
+        "id": "1kD632NtjVbI82bQ",
+        "title": "Model a Speaker",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "3xptnP",
+          "tiles": [
+            {
+              "id": "Rm6zjtWh97H5Xo2d",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Copy this question into your workspace and draw a model of a speaker. Be sure to include the important parts and label them. Your model should help you explain how these parts work together to cause the speaker to vibrate and make sound.</p>"
+                ]
+              }
+            },
+            {
+              "id": "JWBU-Ovd1WORDz_v",
+              "title": "Speaker Model",
+              "content": {
+                "type": "Drawing",
+                "objects": []
+              },
+              "layout": {
+                "height": 236
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "jLxtkbmzC9FwPvjD",
+          "variables": [
+            {
+              "id": "s8fPM77XjunVZcST",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 21.049555810414166,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "rKN8N1sY2IQ2fu82",
+              "name": "humidity_key",
+              "displayName": "Humidity",
+              "unit": "%",
+              "value": 19.583333333333357,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://humidity_key",
+              "labels": [
+                "input",
+                "sensor:humidity"
+              ]
+            },
+            {
+              "id": "szrr1UiYsR4pKpvs",
+              "name": "raw_temperature_key",
+              "displayName": "Raw Temperature",
+              "value": 21,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "lCv2uXMAFMfa6LIY",
+              "name": "fan_key",
+              "displayName": "Fan",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://fan_key",
+              "labels": [
+                "output",
+                "live-output:Fan",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "lDG9lbiK7X9WWS9H",
+              "name": "heat_lamp_key",
+              "displayName": "Heat Lamp",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://heat_lamp_key",
+              "labels": [
+                "output",
+                "live-output:Heat Lamp",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "bIlI2ycAci13l-WL",
+              "name": "humidifier_key",
+              "displayName": "Humidifier",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://humidifier_key",
+              "labels": [
+                "output",
+                "live-output:Humidifier",
+                "decimalPlaces:0"
+              ]
+            }
+          ]
+        },
+        "tiles": [
+          "Rm6zjtWh97H5Xo2d",
+          "JWBU-Ovd1WORDz_v",
+          "0qZdQ7QTjG-VyMtb",
+          "B91CCeE36rshIzf2"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "OQ5ZAQyZoIyVVW8_",
+          "providerId": "q2U7rN1n_x2kZQBL",
+          "dataSet": {
+            "id": "AtKpsNFR5BVl53Ii",
+            "name": "What I noticed / What I wonder",
+            "attributes": [
+              {
+                "id": "3u0IWGlggqxb6mGJ",
+                "clientKey": "",
+                "name": "What I noticed",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "The membrane is thin",
+                  "It..."
+                ],
+                "title": ""
+              },
+              {
+                "id": "Kflj31_eolw5rAPE",
+                "clientKey": "",
+                "name": "What I wonder",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "would it work if it was thick?",
+                  null
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KWAQNQ7VW69XP50DM14T5N7P"
+              },
+              {
+                "__id__": "5vk1Q9CJLt43B-AY"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "q2U7rN1n_x2kZQBL",
+        "tiles": [
+          "q2U7rN1n_x2kZQBL"
+        ]
+      }
+    ]
+  }
+}

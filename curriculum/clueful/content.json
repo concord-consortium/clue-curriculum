@@ -9,6 +9,7 @@
     "autoSectionProblemDocuments": true,
     "defaultDocumentType": "problem",
     "defaultLearningLogDocument": false,
+    "groupDocumentsEnabled": true,
     "disablePublish": [
       "student"
     ],
@@ -45,11 +46,6 @@
         "isTileTool": true
       },
       {
-        "id": "Dataflow",
-        "title": "Program",
-        "isTileTool": true
-      },
-      {
         "id": "Question",
         "title": "Question",
         "isTileTool": true
@@ -75,6 +71,11 @@
     ],
     "authorTools": [
       {
+        "id": "Dataflow",
+        "title": "Program",
+        "isTileTool": true
+      },
+      {
         "id": "DataCard",
         "title": "Data Cards",
         "isTileTool": true
@@ -87,6 +88,11 @@
       {
         "id": "Simulator",
         "title": "Terrarium Simulator",
+        "isTileTool": true
+      },
+      {
+        "id": "IframeInteractive",
+        "title": "Simulation",
         "isTileTool": true
       },
       {
@@ -272,6 +278,7 @@
         "tools": [
           "bold",
           "italic",
+          "heading",
           "list-ul",
           "list-ol",
           "highlight",
@@ -282,6 +289,27 @@
           "new-variable",
           "insert-variable",
           "edit-variable"
+        ]
+      },
+      "datacard": {
+        "tools": [
+          "duplicate",
+          "link-tile",
+          "merge-in",
+          [
+            "data-set-view",
+            "table"
+          ],
+          [
+            "data-set-view",
+            "graph"
+          ],
+          [
+            "data-set-view",
+            "bargraph"
+          ],
+          "image-upload",
+          "delete-attribute"
         ]
       },
       "table": {
@@ -366,6 +394,12 @@
       "simulator": {
         "defaultSimulation": "terrarium",
         "maxTiles": 1
+      },
+      "iframeInteractive": {
+        "url": "https://magnets.concord.org",
+        "interactiveState": {},
+        "authoredState": {},
+        "allowedPermissions": "geolocation; microphone; camera; bluetooth"
       }
     },
     "enableCommentRoles": [
@@ -383,7 +417,8 @@
     "termOverrides": {
       "sortLabel.sortByOwner": "Name",
       "strategy": "Learning Journey",
-      "tools": "STEM tools"
+      "tools": "STEM tools",
+      "resourcesPanel": "Lessons and References"
     },
     "aiEvaluation": "custom",
     "aiPrompt": {
@@ -407,15 +442,16 @@
         "Unit"
       ],
       "sortOptions": [
+        "Group",
         "Strategy",
         "Date",
         "Name",
-        "Group",
         "Tools"
       ],
       "defaultPrimarySort": "Strategy"
     },
-    "defaultSharedDocuments": true
+    "defaultSharedDocuments": true,
+    "showCommentRating": false
   },
   "sections": {
     "warmup": {
@@ -498,18 +534,26 @@
           ]
         },
         {
-          "title": "Data and Categories - Experiments",
+          "title": "Gathering Data from Experiments",
           "ordinal": 4,
           "description": "",
           "subtitle": "",
-          "sections": []
+          "sections": [
+            "sections/investigation-1/problem-4/warmup/content.json",
+            "sections/investigation-1/problem-4/activity/content.json",
+            "sections/investigation-1/problem-4/reflect/content.json"
+          ]
         },
         {
-          "title": "Geometry and Scaling",
+          "title": "Electromagnetism and Simulations",
           "ordinal": 5,
           "description": "",
           "subtitle": "",
-          "sections": []
+          "sections": [
+            "sections/investigation-1/problem-5/warmup/content.json",
+            "sections/investigation-1/problem-5/activity/content.json",
+            "sections/investigation-1/problem-5/reflect/content.json"
+          ]
         },
         {
           "title": "Sketching and Design",

@@ -1,0 +1,158 @@
+{
+  "type": "warmup",
+  "content": {
+    "tiles": [
+      {
+        "id": "6PECEg9MXhhQZJUV",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>Welcome to MothEd!</strong></p><p>This is part of a curriculum developed with Michegan State University that lets students become naturalists in their own neighborhood, and think about the ways that scientists study and catalog creatures and plants. Begin by copying the question below into your workspace and answering the questions inside it.</p>"
+          ]
+        }
+      },
+      {
+        "id": "sRocwlF4pAGS_syh",
+        "title": "Biodiversity in Your State",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "gAMi2d",
+          "tiles": [
+            {
+              "id": "A7U_67QUw-BTHv9R",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>What do you know about insects in your state? How could you find out more. Use the questions below as a place to get started, then work with your group to develop some questions you&#x27;d like to answer about moths. Can you find and comment on some insect images? How would you contribute to these ideas if you found something new?</p>"
+                ]
+              }
+            },
+            {
+              "id": "ymWcoP-hTUWqoGWQ",
+              "title": "Text 2",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<ol><li>How many different species (or types) of insects are there in the entire world?</li><li>How many different species of insects are there in your state?</li><li>How many different species (or types) of moths are there in the entire world?</li><li>How many different species of moths are there in your state?</li></ol>"
+                ]
+              }
+            },
+            {
+              "id": "iJVnfRsLz-Z3rY9e",
+              "title": "Moth? Not Moth?",
+              "content": {
+                "type": "Drawing",
+                "objects": [
+                  {
+                    "type": "image",
+                    "id": "3NzpfToqAeluwx0E",
+                    "x": 477.78515625,
+                    "y": 55.265625,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 180.80859375,
+                    "height": 231.0546875,
+                    "url": "clueful/images/tigerMoth.jpg",
+                    "filename": "tigerMoth.jpg"
+                  },
+                  {
+                    "type": "image",
+                    "id": "rfX_j1f5DOeHCEy5",
+                    "x": 18.77734375,
+                    "y": 15.47265625,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 441.5,
+                    "height": 276.6015625,
+                    "url": "clueful/images/GreenMoth1.png",
+                    "filename": "GreenMoth1.png"
+                  }
+                ]
+              },
+              "layout": {
+                "height": 310
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "9a27jZwK30H-G21G",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Now share your answers with your group and come to a consensus answer for each question.</p><p>Enter your numbers in a table, and decide on some driving questions you would like to answer about moths and insects. Decide as a group on a table format. in the class Group Document (you can find this in the Class Gallery tab in Group Sorts - Whole Class).</p>"
+          ]
+        }
+      },
+      {
+        "id": "blMVrxtW44ASAcfH",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "POgBpWzEftm1oLKN": 185.64453125,
+            "NYFhfqEx9g_XllEJ": 181.9921875
+          }
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "5BLWTm2M08ljPOr5",
+          "providerId": "blMVrxtW44ASAcfH",
+          "dataSet": {
+            "id": "ZRy-MGpt1fvZcHpM",
+            "name": "Critter Counts in My State",
+            "attributes": [
+              {
+                "id": "POgBpWzEftm1oLKN",
+                "clientKey": "",
+                "name": "<name column>",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "NYFhfqEx9g_XllEJ",
+                "clientKey": "",
+                "name": "<name column 2>",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "blMVrxtW44ASAcfH",
+        "tiles": [
+          "blMVrxtW44ASAcfH"
+        ]
+      }
+    ]
+  }
+}

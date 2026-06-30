@@ -1,0 +1,147 @@
+{
+  "type": "activity",
+  "content": {
+    "tiles": [
+      {
+        "id": "_mTA17hBMXCUpXGN",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>Turn and talk</strong></h2><p>Navigate to the Class Gallery tab, and find your group in the list of Groups. Select one of the thumbnails of the models you and your group mates have made. Discuss and compare them and record the differences. Are the magnet and the wire touching inside the store-bought speaker? How does the electricity move the magnet? How does the motion of the speaker membrane convert to a sound we can hear? As your classmates share their models, mark features that are similar with a green dot and features that are different with an orange dot.</p>"
+          ]
+        }
+      },
+      {
+        "id": "TqQVpi5wXFQNXvco",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>In your notebook</strong></h2><p>What kinds of investigations could you do and/or what additional sources of data might you need to validate your models in the ways they are the same or differ? Copy the Investigations question below into your workspace and fill it with experiments you could do.</p>"
+          ]
+        }
+      },
+      {
+        "id": "K0w3gZGxOv6qML9r",
+        "title": "Ideas for Future Investigations and Data We Need",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "7b4c4x",
+          "tiles": [
+            {
+              "id": "78IHBRrwGy0e_0So",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>What kinds of experiments could you do with the speaker or the simulation to refine your model? You can include notes, sketches, snapshots of things in your class, tables of data or pictures from the simulation.</p>"
+                ]
+              }
+            },
+            {
+              "id": "qlOY520hKncItmsh",
+              "title": "Text 1",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Describe experiments here:</p>"
+                ]
+              }
+            },
+            {
+              "id": "ASnLS0sbK7kR5Woq",
+              "title": "Sketch of Experiments",
+              "content": {
+                "type": "Drawing",
+                "objects": []
+              }
+            },
+            {
+              "id": "pxaXo_wUhF4oNLnV",
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "UybyOlj08yFg9mG7": 80,
+                  "P0n2IbF7CKbBjNAg": 80
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "93JfugY564KqzcBR",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Here is a a simulator that allows you to test and verify magnetic features with both bar and electric magnets. Use this simulator to conduct some of the experiments you described above to validate your model.</p>"
+          ]
+        }
+      },
+      {
+        "id": "1LqfTQImgGyUgV9m",
+        "title": "Magnet Simulator",
+        "content": {
+          "type": "IframeInteractive",
+          "url": "https://magnets.concord.org",
+          "interactiveState": {},
+          "authoredState": {},
+          "maxHeight": 0,
+          "enableScroll": false
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "1VqW5Y4JouFfZR2w",
+          "providerId": "pxaXo_wUhF4oNLnV",
+          "dataSet": {
+            "id": "tPZKVO2OdlU6EUPS",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "UybyOlj08yFg9mG7",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "P0n2IbF7CKbBjNAg",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "pxaXo_wUhF4oNLnV"
+        ]
+      }
+    ]
+  }
+}

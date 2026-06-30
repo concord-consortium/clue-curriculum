@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Logic and Programming</strong></p><p>Computational Thinking is a suite of skills that define the ability to break a problem apart and apply math and logic to it so it can be solved efficiently. There are several tools to do this in CLUE, the most obvious of which is a programming tile. These tiles allow you to read sensor data or generate series of numeric inputs, then transform the numbers and use them to control outputs. You don&#x27;t need to know much to get started, except perhaps that 0 = off and 1 = on. Here are a set of program blocks. They make a series of numbers which you can see in the minigraphs.</p>"
+            "<p><strong>Logic and Programming</strong></p><p>Computational Thinking is the ability to break a problem apart and apply math and logic to it so it can be solved efficiently and repeatedly. There are several tools to do this in CLUE, including a programming tile. Programs can read sensor data (including simulated sensors) or generate series of numeric inputs, then transform the numbers and use them to control outputs. You don&#x27;t need to know much to get started, except perhaps that 0 = off and 1 = on. Copy this question into your document to get started. </p>"
           ]
         }
       },
@@ -30,7 +30,7 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p>Your goal is to turn the fan on and off. Then explain the logic conditions that describe the program.</p>"
+                  "<p>Your goal is to turn the fan on and off. Then explain the logic conditions that describe the program. Use the AI helper below for tips if you are confused.</p>"
                 ]
               }
             },
@@ -45,62 +45,62 @@
                       "vw6oj85gYnPmftHY": {
                         "id": "vw6oj85gYnPmftHY",
                         "name": "Demo Output",
-                        "x": 368.3577665441176,
-                        "y": 78.21277573529412,
+                        "x": 257.5857077205882,
+                        "y": 227.39935661764707,
                         "data": {
                           "type": "Demo Output",
                           "plot": false,
                           "orderedDisplayName": "Controlled Device",
                           "tickEntries": {
-                            "HM7h772wkwGFtNhi": {
+                            "EiLUttzbIDo3vhHV": {
                               "nodeValue": "0"
                             },
-                            "YIBofmNE3m38_BDh": {
+                            "ry9RBGkpAHarwgst": {
                               "nodeValue": "0"
                             },
-                            "RqLudNTx3KVpHPzW": {
+                            "u09dKcrNps_Ob0n5": {
                               "nodeValue": "0"
                             },
-                            "R2Kt4_I8l3DStSaF": {
+                            "--hTjph3IH4J-fDk": {
                               "nodeValue": "0"
                             },
-                            "R0i7CPOAci7VIopD": {
+                            "Gab_QKRd1Xc9sgpy": {
                               "nodeValue": "0"
                             },
-                            "ct6JpKvbYs2XlxnX": {
+                            "RdykqaQAsUPhepxY": {
                               "nodeValue": "0"
                             },
-                            "HG1yci_tB31tssw7": {
+                            "kv6GVJcr2xc_aAmg": {
                               "nodeValue": "0"
                             },
-                            "WmBhaUdofeHB9R8X": {
+                            "0p6YD1K4j8jMT8Ma": {
                               "nodeValue": "0"
                             },
-                            "2qIOQWRwGRM2In-A": {
+                            "qeIE1Hl6haRt4ynF": {
                               "nodeValue": "0"
                             },
-                            "HHPuPIY9cvkXk7-d": {
+                            "nsRDdH3hMfaAQUzW": {
                               "nodeValue": "0"
                             },
-                            "khBy4FmYgyuoxP1E": {
+                            "5mv66ud3fsn0tgFz": {
                               "nodeValue": "0"
                             },
-                            "qftlb2eQwqxb7iV0": {
+                            "IzS_yi-St1iKEFX-": {
                               "nodeValue": "0"
                             },
-                            "O42Cghtee1BPdyqO": {
+                            "h4R_5NLiJr3okWSO": {
                               "nodeValue": "0"
                             },
-                            "TlD07GaxE8-haY2_": {
+                            "DLF9_MbftZTgg7Z0": {
                               "nodeValue": "0"
                             },
-                            "RIhctyEz6RAqS2cQ": {
+                            "AGE9BiT3J4_LARFZ": {
                               "nodeValue": "0"
                             },
-                            "sIJaHjmqdYBGZBsp": {
+                            "pIUfD80P-kEUBYbK": {
                               "nodeValue": "0"
                             },
-                            "yWnlgD02J0m_gtIs": {
+                            "urdgP7cHuusWnwI4": {
                               "open": true,
                               "nodeValue": "0"
                             }
@@ -108,97 +108,100 @@
                           "outputType": "Fan"
                         }
                       },
-                      "zSCBvXeoZsIL4ta2": {
-                        "id": "zSCBvXeoZsIL4ta2",
-                        "name": "Number",
-                        "x": 28.272748161764696,
-                        "y": 148.8053768382353,
+                      "pD8zE8I3HLD26kY4": {
+                        "id": "pD8zE8I3HLD26kY4",
+                        "name": "Generator",
+                        "x": 51.55790441176472,
+                        "y": 43.874080882352935,
                         "data": {
-                          "type": "Number",
+                          "type": "Generator",
                           "plot": true,
-                          "orderedDisplayName": "Threshold",
+                          "orderedDisplayName": "Generator 1",
                           "tickEntries": {
-                            "HM7h772wkwGFtNhi": {
-                              "nodeValue": "12"
+                            "EiLUttzbIDo3vhHV": {
+                              "nodeValue": "-0.95"
                             },
-                            "YIBofmNE3m38_BDh": {
-                              "nodeValue": "12"
+                            "ry9RBGkpAHarwgst": {
+                              "nodeValue": "-0.95"
                             },
-                            "RqLudNTx3KVpHPzW": {
-                              "nodeValue": "12"
+                            "u09dKcrNps_Ob0n5": {
+                              "nodeValue": "-0.58"
                             },
-                            "R2Kt4_I8l3DStSaF": {
-                              "nodeValue": "12"
+                            "--hTjph3IH4J-fDk": {
+                              "nodeValue": "0.01"
                             },
-                            "R0i7CPOAci7VIopD": {
-                              "nodeValue": "12"
+                            "Gab_QKRd1Xc9sgpy": {
+                              "nodeValue": "0.59"
                             },
-                            "ct6JpKvbYs2XlxnX": {
-                              "nodeValue": "12"
+                            "RdykqaQAsUPhepxY": {
+                              "nodeValue": "0.95"
                             },
-                            "HG1yci_tB31tssw7": {
-                              "nodeValue": "12"
+                            "kv6GVJcr2xc_aAmg": {
+                              "nodeValue": "0.95"
                             },
-                            "WmBhaUdofeHB9R8X": {
-                              "nodeValue": "12"
+                            "0p6YD1K4j8jMT8Ma": {
+                              "nodeValue": "0.58"
                             },
-                            "2qIOQWRwGRM2In-A": {
-                              "nodeValue": "12"
+                            "qeIE1Hl6haRt4ynF": {
+                              "nodeValue": "-0.01"
                             },
-                            "HHPuPIY9cvkXk7-d": {
-                              "nodeValue": "12"
+                            "nsRDdH3hMfaAQUzW": {
+                              "nodeValue": "-0.6"
                             },
-                            "khBy4FmYgyuoxP1E": {
-                              "nodeValue": "12"
+                            "5mv66ud3fsn0tgFz": {
+                              "nodeValue": "-0.95"
                             },
-                            "qftlb2eQwqxb7iV0": {
-                              "nodeValue": "12"
+                            "IzS_yi-St1iKEFX-": {
+                              "nodeValue": "-0.95"
                             },
-                            "O42Cghtee1BPdyqO": {
-                              "nodeValue": "12"
+                            "h4R_5NLiJr3okWSO": {
+                              "nodeValue": "-0.58"
                             },
-                            "TlD07GaxE8-haY2_": {
-                              "nodeValue": "12"
+                            "DLF9_MbftZTgg7Z0": {
+                              "nodeValue": "0.01"
                             },
-                            "RIhctyEz6RAqS2cQ": {
-                              "nodeValue": "12"
+                            "AGE9BiT3J4_LARFZ": {
+                              "nodeValue": "0.6"
                             },
-                            "sIJaHjmqdYBGZBsp": {
-                              "nodeValue": "12"
+                            "pIUfD80P-kEUBYbK": {
+                              "nodeValue": "0.95"
                             },
-                            "yWnlgD02J0m_gtIs": {
+                            "urdgP7cHuusWnwI4": {
                               "open": true,
-                              "nodeValue": "12"
+                              "nodeValue": "0.95"
                             }
                           },
-                          "value": 12
+                          "generatorType": "Sine",
+                          "amplitude": 1,
+                          "period": 5,
+                          "periodUnits": "sec"
                         }
                       }
                     },
                     "connections": {},
                     "recentTicks": [
-                      "HM7h772wkwGFtNhi",
-                      "YIBofmNE3m38_BDh",
-                      "RqLudNTx3KVpHPzW",
-                      "R2Kt4_I8l3DStSaF",
-                      "R0i7CPOAci7VIopD",
-                      "ct6JpKvbYs2XlxnX",
-                      "HG1yci_tB31tssw7",
-                      "WmBhaUdofeHB9R8X",
-                      "2qIOQWRwGRM2In-A",
-                      "HHPuPIY9cvkXk7-d",
-                      "khBy4FmYgyuoxP1E",
-                      "qftlb2eQwqxb7iV0",
-                      "O42Cghtee1BPdyqO",
-                      "TlD07GaxE8-haY2_",
-                      "RIhctyEz6RAqS2cQ",
-                      "sIJaHjmqdYBGZBsp",
-                      "yWnlgD02J0m_gtIs"
+                      "EiLUttzbIDo3vhHV",
+                      "ry9RBGkpAHarwgst",
+                      "u09dKcrNps_Ob0n5",
+                      "--hTjph3IH4J-fDk",
+                      "Gab_QKRd1Xc9sgpy",
+                      "RdykqaQAsUPhepxY",
+                      "kv6GVJcr2xc_aAmg",
+                      "0p6YD1K4j8jMT8Ma",
+                      "qeIE1Hl6haRt4ynF",
+                      "nsRDdH3hMfaAQUzW",
+                      "5mv66ud3fsn0tgFz",
+                      "IzS_yi-St1iKEFX-",
+                      "h4R_5NLiJr3okWSO",
+                      "DLF9_MbftZTgg7Z0",
+                      "AGE9BiT3J4_LARFZ",
+                      "pIUfD80P-kEUBYbK",
+                      "urdgP7cHuusWnwI4"
                     ]
                   },
-                  "programDataRate": 1000,
+                  "programDataRate": 500,
                   "programZoom": {
-                    "dx": 1.3671875,
+                    "dx": 1.609375,
                     "dy": -0.38671875,
                     "scale": 0.8499999999999999
                   }
@@ -221,12 +224,12 @@
       },
       {
         "id": "-W0FFszlcwQkGXf9",
-        "title": "On and off help",
+        "title": "AI Programming Tips",
         "content": {
           "type": "AI",
           "description": "Drag or click to copy this tile into your workspace to get AI help on your program.",
           "hidePrompt": false,
-          "prompt": "There are programs in this document that are answers to questions. Check if the programs and descriptions actually perform the requested action. Use terms that nonprogrammers can understand, for example, do not discuss NaN but instead say 'this block output has no value'. Discuss whether the programs produce the desired effects or match the requested conditions. If they are supposed to control and output in the program or an associated simulation, check whether that is happening and give advice. If the program does not produce a value or match the question, suggest some debugging or connection strategies. Do not use more than a few sentences and do not solve the problem explicitly.",
+          "prompt": "There are programs in this document that are answers to questions. Check if the programs and descriptions actually perform the requested action. Use terms that nonprogrammers can understand, for example, do not discuss NaN but instead say 'this block output has no value'. Discuss whether the programs produce the desired effects or match the requested conditions. If they are supposed to control and output in the program or an associated simulation, check whether that is happening and give advice. If the program does not produce a value or match the question, suggest some debugging or connection strategies. Do not use more than two sentences and do not solve the problem explicitly. Address the user as 'you'.",
           "text": "This is where the dynamically generated AI response will appear."
         }
       }
@@ -332,6 +335,7 @@
           "providerId": "document_Dataflow_1",
           "dataSet": {
             "id": "iZeda3YWiktdlZFC",
+            "name": "Fan Program",
             "attributes": [
               {
                 "id": "ATTRrMmnBa4pZdMc",
