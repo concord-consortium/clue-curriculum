@@ -66,6 +66,79 @@
             }
           ]
         }
+      },
+      {
+        "id": "LrAiXnaEQMyWRVVz",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>Turn and talk</strong></h2><p>Navigate to the Class Gallery tab, and find your group in the list of Groups. Select one of the thumbnails of the models you and your group mates have made. Discuss and compare them and record the differences. Are the magnet and the wire touching inside the store-bought speaker? How does the electricity move the magnet? How does the motion of the speaker membrane convert to a sound we can hear? As your classmates share their models, mark features that are similar with a green dot and features that are different with an orange dot.</p>"
+          ]
+        }
+      },
+      {
+        "id": "MTEc1PFAPFbpx0Ik",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>In your notebook</strong></h2><p>What kinds of investigations could you do and/or what additional sources of data might you need to validate your models in the ways they are the same or differ? Copy the Investigations question below into your workspace and fill it with experiments you could do.</p>"
+          ]
+        }
+      },
+      {
+        "id": "bU7wjkIR8PPJ_hWA",
+        "title": "Ideas for Future Investigations and Data We Need",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": true,
+          "questionId": "7b4c4x",
+          "tiles": [
+            {
+              "id": "2sfJP1OegjD7_Far",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>What kinds of experiments could you do with the speaker or the simulation to refine your model? You can include notes, sketches, snapshots of things in your class, tables of data or pictures from the simulation.</p>"
+                ]
+              }
+            },
+            {
+              "id": "5g0nftdLHkMxZGZZ",
+              "title": "Text 1",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Describe experiments here:</p>"
+                ]
+              }
+            },
+            {
+              "id": "ndSxC4ryDDQhcuDS",
+              "title": "Sketch of Experiments",
+              "content": {
+                "type": "Drawing",
+                "objects": []
+              }
+            },
+            {
+              "id": "g_V3-qTyZ5c4bY9g",
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "q36hLX8IxT79N4Z6": 80,
+                  "Ed9rwDewZghYEWOY": 80
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "sharedModels": [
@@ -159,7 +232,11 @@
           "Rm6zjtWh97H5Xo2d",
           "JWBU-Ovd1WORDz_v",
           "0qZdQ7QTjG-VyMtb",
-          "B91CCeE36rshIzf2"
+          "B91CCeE36rshIzf2",
+          "2sfJP1OegjD7_Far",
+          "5g0nftdLHkMxZGZZ",
+          "LrAiXnaEQMyWRVVz",
+          "MTEc1PFAPFbpx0Ik"
         ]
       },
       {
@@ -216,6 +293,49 @@
         "provider": "q2U7rN1n_x2kZQBL",
         "tiles": [
           "q2U7rN1n_x2kZQBL"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "C3ECUAsDHgKgsbSm",
+          "providerId": "g_V3-qTyZ5c4bY9g",
+          "dataSet": {
+            "id": "H_2fQvB0HM4CcLoF",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "q36hLX8IxT79N4Z6",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "Ed9rwDewZghYEWOY",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "g_V3-qTyZ5c4bY9g",
+        "tiles": [
+          "g_V3-qTyZ5c4bY9g"
         ]
       }
     ]
