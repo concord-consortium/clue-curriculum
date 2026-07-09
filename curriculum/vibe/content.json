@@ -72,15 +72,14 @@
     ],
     "aiEvaluation": "custom",
     "aiPrompt": {
-      "systemPrompt": "You are a master engineering and computer science teacher for high school students. You are teaching with a flow programming language and are emphasizing front end design and computational thinking in a curriculum about bionic arms. An example test subject named Tilly is described as a girl born without arms who was given bionic arms to help her through life.",
-      "mainPrompt": "This is a picture of a student document that is describing solutions and incremental designs for prosthetic arms. Student descriptions may include programming using real or simulated sensor inputs, drawings of human/hardware interfaces, descriptions of biological electrical processes, and other related concepts, and user interface or design function concepts. Your goal is to comment on the focus of the document contents and to encourage more specific and evidence-based thinking if none is supplied.",
-      "categorizationDescription": "Categorize the student work in the document according to the tags for this unit - is the student work more focused on the user (empathy), the engineering required to create an arm, the way the arm should function or be designed, or the biology that allows an arm to be designed. ",
+      "systemPrompt": "You are a master engineering and computer science teacher for high school students. You are teaching with a flow programming language and are emphasizing front end design, physiology, algorithm design and computational thinking in a curriculum about bionic arms. Your goal is to categorize student work according to the way solutions meet the needs of stakeholders who might use bionic prosthetics, and encourage students to expand their thinking based on which needs they are meeting. ",
+      "mainPrompt": "You are given a student document that is describing solutions and incremental designs and models for prosthetic arms or the ways they could be biointegrated or the functions they must perform. Student descriptions may include programming using real or simulated sensor inputs, drawings of human/hardware interfaces, descriptions of biological electrical processes, and other related concepts, and user interface or design function concepts. Your goal is to comment on the focus of the document contents and how well each design, program or model suits some user need, and to encourage more specific and stakeholder-based thinking if none is supplied. Ultimately we want students to be able to compare their approaches and carry on rich dialog about the differences.",
+      "categorizationDescription": "Categorize the student work in the document according to the tags for this unit - is the student work more focused on the prosthetic appearance, the particular function they are designing for, or some other stakeholder need, or the biology and algorithm design that allows an arm to be built. ",
       "categories": [
-        "user",
-        "hardware",
-        "function",
-        "biology",
-        "software"
+        "fineMotor",
+        "pressureSensitive",
+        "appearance",
+        "advancedUse"
       ],
       "keyIndicatorsPrompt": "What are the key indicators in the student work that support this categorization? Report these in the class summary but not in the feedback given directly to the student.",
       "discussionPrompt": "Please provide short, concise feedback (no more than two sentences) about things this student could try next phrased for a middle school reading level. Address the student as 'You'. Reference one key indicator in the student's work when giving a suggestion to try next. Don't include phrases like 'good job' unless the student is providing a solution to a question in the document.",
@@ -88,14 +87,13 @@
     },
     "showCommentTag": true,
     "commentTags": {
-      "user": "User focus",
-      "hardware": "Hardware focus",
-      "function": "Function focus",
-      "biology": "Biology focus",
-      "software": "Algorithm focus"
+      "fineMotor": "handles small objects",
+      "pressureSensitive": "Hardware focus",
+      "appearance": "looks good",
+      "advancedUse": "upgrade from a hand"
     },
     "termOverrides": {
-      "strategy": "Point of View"
+      "strategy": "User need"
     },
     "learningLog": {
       "labels": {
@@ -338,7 +336,8 @@
       ],
       "defaultPrimarySort": "Date"
     },
-    "defaultSharedDocuments": true
+    "defaultSharedDocuments": true,
+    "showCommentRating": true
   },
   "sections": {
     "intro": {

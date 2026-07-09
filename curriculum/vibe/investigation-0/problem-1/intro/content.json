@@ -89,6 +89,7 @@
           "questionId": "6UZ3R7",
           "tiles": [
             {
+              "id": "document_Text_1",
               "title": "Question Prompt",
               "fixedPosition": true,
               "content": {
@@ -100,6 +101,7 @@
               }
             },
             {
+              "id": "document_Text_2",
               "title": "Text 1",
               "content": {
                 "type": "Text",
@@ -121,6 +123,111 @@
             "<p>Click on the &quot;Activities&quot; tab to continue. </p>"
           ]
         }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "5M_3QhuN3TDt4Xg_",
+          "variables": [
+            {
+              "id": "Iwh9KGpFQy36pAfn",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "rVf9GcdcXPGYhd6i",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "d9AY5ncdZhb1uPl_",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "82lt-4_PwxExF0Pi",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0"
+              ]
+            },
+            {
+              "id": "JNCOQPOonep1iNnv",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "value": 57.5,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "6b6YPrjVP3jz9IuP",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "value": 15.5,
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature"
+              ]
+            },
+            {
+              "id": "UoYsJ5wxmtmyq7vk",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "ab4qD_VhNxbQSPDI",
+          "Gfa_17RmLPGX_oP7",
+          "document_Text_1",
+          "document_Text_2",
+          "Prn74UZEK92lKVjs"
+        ]
       }
     ]
   }
