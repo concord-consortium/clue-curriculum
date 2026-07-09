@@ -233,22 +233,12 @@
       "researcher"
     ],
     "showCommentTag": true,
-    "commentTags": {
-      "severity": "Severity",
-      "coneofuncertainty": "Cone of Uncertainty",
-      "spaghetti": "Spaghetti Models",
-      "landfall": "Landfall"
-    },
+    "commentTags": {},
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
       "mainPrompt": "This is a discussion of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
       "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
-      "categories": [
-        "severity",
-        "coneofuncertainty",
-        "spaghetti",
-        "landfall"
-      ],
+      "categories": [],
       "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization? ",
       "discussionPrompt": "In no more than 1 sentence, suggest what other kinds of modeling the document author could pursue to better understand the storm path and uncertainty.",
       "summarizer": "image"
@@ -262,7 +252,7 @@
       "sortOptions": [
         "Date",
         "Name",
-        "Strategy"
+        "Bookmarked"
       ],
       "defaultPrimarySort": "Date"
     },
@@ -273,7 +263,7 @@
       "contentLevel.problems": "these storms",
       "contentLevel.investigation": "2026 Storms",
       "contentLevel.investigations": "2026 Storms",
-      "resourcesPanel": "Models and Forcasts"
+      "resourcesPanel": "Models and Forecasts"
     },
     "showCommentRating": false
   },
