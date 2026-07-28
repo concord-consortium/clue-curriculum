@@ -15,6 +15,8 @@
     "defaultDocumentTemplate": {
       "tiles": [
         {
+          "id": "document_IframeInteractive_1",
+          "title": "Storm Explorer Model",
           "content": {
             "type": "IframeInteractive",
             "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
@@ -25,12 +27,12 @@
           }
         },
         {
+          "id": "document_Text_1",
           "content": {
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>How to share your simulation</strong></p>",
-              "<p>When you are ready, share this document (including the Storm Explorer) with others by:</p><ol><li>Clicking the “Share” toggle in the upper right (It will change from gray to blue)</li><li>Go to the pink “Model Gallery” tab on the left side of the screen.</li><li>Find your document in the Model Gallery under your name or the date you made it. Start a chat about it with the comment button in the right corner of the Models and Forecasts pane.</li></ol>"
+              "<p><strong>How to share your simulation</strong></p><p>When you are ready, share this document (including the Storm Explorer) with others by:</p><ol><li>Clicking the “Share” toggle in the upper right (It will change from gray to blue)</li><li>Go to the pink “Model Gallery” tab on the left side of the screen.</li><li>Find your document in the Model Gallery under your name or the date you made it. Start a chat about it with the comment button in the right corner of the Models and Forecasts pane.</li></ol>"
             ]
           }
         }
@@ -129,11 +131,11 @@
             }
           ],
           "teacherOnly": false,
-          "hidden": false
+          "hidden": true
         },
         {
           "tab": "sort-work",
-          "label": "Model Gallery",
+          "label": "Daily Updates",
           "teacherOnly": false,
           "hidden": false
         },
@@ -152,7 +154,8 @@
         {
           "tab": "my-work",
           "label": "My Work",
-          "hidden": true
+          "hidden": true,
+          "teacherOnly": false
         },
         {
           "tab": "student-work",
@@ -232,7 +235,7 @@
       "teacher",
       "researcher"
     ],
-    "showCommentTag": true,
+    "showCommentTag": false,
     "commentTags": {},
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
@@ -259,13 +262,14 @@
     "termOverrides": {
       "sortLabel.sortByOwner": "User",
       "strategy": "Model focus",
-      "contentLevel.problem": "the storm",
+      "contentLevel.problem": "this storm",
       "contentLevel.problems": "these storms",
       "contentLevel.investigation": "2026 Storms",
       "contentLevel.investigations": "2026 Storms",
       "resourcesPanel": "Models and Forecasts"
     },
-    "showCommentRating": false
+    "showCommentRating": false,
+    "contentLayout": "wideContent"
   },
   "sections": {
     "cone": {
