@@ -4,6 +4,7 @@
     "tiles": [
       {
         "id": "It3Z2npmOo0ov-JL",
+        "title": "Text 1",
         "content": {
           "type": "Text",
           "format": "html",
@@ -14,6 +15,7 @@
       },
       {
         "id": "ZONlY5CgomZkjkx_",
+        "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
@@ -27,7 +29,9 @@
         "title": "AI 1",
         "content": {
           "type": "AI",
-          "prompt": "You are a helpful and somewhat experienced programming student in high school. Based on what work has been done in the class so far, comment on some features of bionic arms that have already been explored in the class, and what new features of bionic arms might be helpful and new to explore. Address the student as 'You' in the curriculum.",
+          "description": "Copy this tile into your workspace to get targeted AI help.",
+          "hidePrompt": false,
+          "prompt": "You are a helpful and somewhat experienced programming student in high school. Based on what work has been done in the class so far, comment on some features of bionic arms that have already been explored in the class, and what new features of bionic arms might be helpful and new to explore. Address the student as 'You' in the curriculum. Keep your responses to no more than a few sentences.",
           "text": "This is where the dynamically generated AI response will appear."
         }
       }

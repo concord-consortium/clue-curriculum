@@ -12,9 +12,6 @@
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
     "groupDocumentsEnabled": true,
-    "defaultDocumentTemplate": {
-      "tiles": []
-    },
     "defaultDocumentType": "problem",
     "settings": {
       "table": {
@@ -63,6 +60,9 @@
       },
       "ai": {
         "systemPrompt": "You are a smart and collaborative student in 9th-grade who has learned to write flow programs and think about solving logical problems. You are trying to help your fellow students who are struggling with programming. Using a straightforward tone without embellishment, Address your fellow students as 'You'."
+      },
+      "text": {
+        "hideTitle": false
       }
     },
     "enableCommentRoles": [
@@ -88,7 +88,7 @@
     "showCommentTag": true,
     "commentTags": {
       "fineMotor": "handles small objects",
-      "pressureSensitive": "Hardware focus",
+      "pressureSensitive": "works for fragile objects",
       "appearance": "looks good",
       "advancedUse": "upgrade from a hand"
     },
@@ -204,28 +204,6 @@
         {
           "tab": "problems",
           "label": "Lessons",
-          "sections": [
-            {
-              "initials": "IN",
-              "title": "Introduction",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "LAB",
-              "title": "Activities",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "PR",
-              "title": "Programming",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "RF",
-              "title": "Reflection",
-              "type": "problem-documents"
-            }
-          ],
           "teacherOnly": false,
           "hidden": false
         },
@@ -334,30 +312,35 @@
         "Name",
         "Strategy"
       ],
-      "defaultPrimarySort": "Date"
+      "defaultPrimarySort": "Strategy"
     },
     "defaultSharedDocuments": true,
-    "showCommentRating": true
+    "showCommentRating": true,
+    "allowCustomCommentTags": true,
+    "planningTemplateEnabled": false,
+    "contentLayout": "wideContent",
+    "chatTutorEnabled": true,
+    "chatTutorIntro": "Hi. I'm Ada Idea. I can see the work in your workspace and help you think it through."
   },
   "sections": {
     "intro": {
       "initials": "IN",
-      "title": "Introduction",
+      "title": "Investigate",
       "placeholder": "Add notes on this lesson's topic and goals."
     },
     "labWork": {
-      "initials": "LAB",
-      "title": "Activities",
+      "initials": "MAKE",
+      "title": "Develop",
       "placeholder": "Discuss how to approach your experiment, take data, write programs."
     },
     "programming": {
-      "initials": "PR",
-      "title": "Programming",
+      "initials": "PLAN",
+      "title": "Design",
       "type": "Create programs here"
     },
     "reflection": {
-      "initials": "RF",
-      "title": "Reflection",
+      "initials": "EV",
+      "title": "Evaluate",
       "type": "problem-documents",
       "placeholder": "Write up conclusions from your experiment. Document these in the Learning Journal on the My Work tab and capture the parts of your work you want to remember for next class there. "
     }
@@ -400,12 +383,73 @@
           "disabled": [],
           "sections": [
             "investigation-0/problem-1/intro/content.json",
+            "investigation-0/problem-1/programming/content.json",
             "investigation-0/problem-1/labWork/content.json",
             "investigation-0/problem-1/reflection/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-0/problem-1/exemplar-1/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": false,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "intro"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "intro",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "labWork"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "labWork",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "programming"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "programming",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "reflection"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "reflection",
+                    "containerType": "DocumentContent"
+                  }
+                }
+              ]
+            },
+            "planningTemplateEnabled": false
+          }
         },
         {
           "title": "Lesson 0.5 Mini Classroom Activity",
@@ -423,16 +467,17 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "Module 1: Motion",
+      "title": "Prototype 1: Figuring out an Initial Design",
       "problems": [
         {
           "description": "Lesson 1.1",
           "ordinal": 1,
-          "title": "Lesson 1.1 - What is a bionic arm?",
+          "title": "Lesson 1.1 - How do hands move? How can an arm move?",
           "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-1/problem-1/intro/content.json",
+            "investigation-1/problem-1/programming/content.json",
             "investigation-1/problem-1/labWork/content.json",
             "investigation-1/problem-1/reflection/content.json"
           ]
@@ -476,7 +521,7 @@
         {
           "description": "Lesson 1.5",
           "ordinal": 5,
-          "title": "Lesson 1.5 - Can you control a robot with your muscles?",
+          "title": "Lesson 1.5 - Can your muscles control a robot?",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -490,7 +535,7 @@
     {
       "description": "Investigation 2",
       "ordinal": 2,
-      "title": "Module 2: Touch",
+      "title": "Prototype 2: Touch",
       "problems": [
         {
           "description": "Lesson 2.1",
