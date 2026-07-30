@@ -15,6 +15,16 @@
     "defaultDocumentTemplate": {
       "tiles": [
         {
+          "id": "document_Text_1",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p><strong>Model Your Storm</strong></p><ol><li>Choose a Thumbnail from the Daily Updates tab to discuss today&#x27;s storm.</li><li>Model your predictions using the Storm Explorer below. Name and date your document for future reference.</li><li>Choose New from the File menu if you want to start a fresh document.</li><li>Use the tools on the left if you want to make new text or drawings below the model.</li></ol>"
+            ]
+          }
+        },
+        {
           "id": "document_IframeInteractive_1",
           "title": "Storm Explorer Model",
           "content": {
@@ -24,16 +34,6 @@
             "authoredState": {},
             "maxHeight": 0,
             "enableScroll": false
-          }
-        },
-        {
-          "id": "document_Text_1",
-          "content": {
-            "type": "Text",
-            "format": "html",
-            "text": [
-              "<p><strong>How to share your simulation</strong></p><p>When you are ready, share this document (including the Storm Explorer) with others by:</p><ol><li>Clicking the “Share” toggle in the upper right (It will change from gray to blue)</li><li>Go to the pink “Model Gallery” tab on the left side of the screen.</li><li>Find your document in the Model Gallery under your name or the date you made it. Start a chat about it with the comment button in the right corner of the Models and Forecasts pane.</li></ol>"
-            ]
           }
         }
       ]
@@ -76,11 +76,6 @@
         "isTileTool": true
       },
       {
-        "id": "Table",
-        "title": "Table",
-        "isTileTool": true
-      },
-      {
         "id": "duplicate",
         "title": "Duplicate Tile",
         "iconId": "icon-duplicate-tool",
@@ -93,7 +88,13 @@
         "isTileTool": false
       }
     ],
-    "authorTools": [],
+    "authorTools": [
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
@@ -131,13 +132,13 @@
             }
           ],
           "teacherOnly": false,
-          "hidden": true
+          "hidden": false
         },
         {
           "tab": "sort-work",
           "label": "Daily Updates",
           "teacherOnly": false,
-          "hidden": false
+          "hidden": true
         },
         {
           "tab": "problems",
