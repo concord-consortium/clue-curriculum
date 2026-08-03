@@ -3,32 +3,49 @@
   "content": {
     "tiles": [
       {
-        "id": "It3Z2npmOo0ov-JL",
+        "id": "SQDjS3_nn-UEYBAG",
+        "title": "By Yourself",
         "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Drag the tile below into your workspace, and answer the following questions:</p>"
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "RlwG8e",
+          "tiles": [
+            {
+              "id": "bQd8EOl_rzzS9ZXE",
+              "title": "Documenting",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>1. An important part of writing programs is documenting what you figure out so that others can use the new ideas, and so that you remember what you did next time you want to use the program. Explain how the gripper works to someone who has never used it before.</p><p></p><p>2. We are also trying to develop some strategies for figuring out how to make programs work. Maybe you used a good strategy, and maybe you think you can improve your strategy.</p><p>In the second space, explain to someone who is getting started with Dataflow what you suggest they do to figure out what a new block does.</p>"
+                ]
+              }
+            },
+            {
+              "id": "VLPyPC6TiLLir59a",
+              "title": "How the gripper works:",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            },
+            {
+              "id": "zWpngT85Tcr8RBtC",
+              "title": "Strategy for figuring out what blocks do:",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            }
           ]
-        }
-      },
-      {
-        "id": "ZONlY5CgomZkjkx_",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>Lesson 1.2 Journal Entry</strong></p><p>1. Today&#x27;s date:</p><p>2. Today&#x27;s topic:</p><p>3. What questions do you still have about how Tilly&#x27;s bionic arm functions?</p>"
-          ]
-        }
-      },
-      {
-        "id": "RAh5V4JX5WausLva",
-        "title": "AI 1",
-        "content": {
-          "type": "AI",
-          "prompt": "You are a helpful and somewhat experienced programming student in high school. Based on what work has been done in the class so far, comment on some features of bionic arms that have already been explored in the class, and what new features of bionic arms might be helpful and new to explore. Address the student as 'You' in the curriculum.",
-          "text": "This is where the dynamically generated AI response will appear."
         }
       }
     ]

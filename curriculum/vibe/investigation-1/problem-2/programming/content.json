@@ -1,0 +1,446 @@
+{
+  "type": "programming",
+  "content": {
+    "tiles": [
+      {
+        "id": "iRc4WOvHCwl4gS8E",
+        "title": "Adding Outputs",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Did you notice the blocks come in three different colors?</p><ul><li>The purple blocks are called “inputs.” They bring numbers into the program.</li><li>The blue blocks are called “processors.” They do something with those numbers inside the program.</li></ul><p>Now we can add a yellow block. This is called an output. Outputs use numbers to make something happen in real life or in simulations.</p><p>Click the “demo output” to add a tile to your workspace. Use the dropdown menu to change it into a gripper.</p>"
+          ]
+        }
+      },
+      {
+        "id": "pjFzzheCZUoWC0LA",
+        "title": "Sketch 1",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "kJbAWR0j8AOhzlX5",
+              "x": 630,
+              "y": 61,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 252,
+              "height": 282,
+              "url": "vibe/images/Demo-Output-Image.png",
+              "filename": "Demo-Output-Image.png"
+            },
+            {
+              "type": "rectangle",
+              "id": "ffuQ9fVJt7mjx78k",
+              "x": 632,
+              "y": 59,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 58,
+              "height": 112
+            },
+            {
+              "type": "rectangle",
+              "id": "vpa80CdPfKOck_MD",
+              "x": 633,
+              "y": 174,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 58,
+              "height": 101
+            },
+            {
+              "type": "text",
+              "id": "8KplG6zYnYgQbZg3",
+              "x": 479,
+              "y": 54,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 58,
+              "height": 35,
+              "stroke": "#d100d1",
+              "text": "Inputs"
+            },
+            {
+              "type": "vector",
+              "id": "DlEFMQYNGy0UfKVZ",
+              "x": 536,
+              "y": 72,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 95,
+              "dy": 37,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "f32UrFKopyyN-dzs",
+              "x": 458,
+              "y": 200,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 90,
+              "height": 42,
+              "stroke": "#0000ff",
+              "text": "Processors"
+            },
+            {
+              "type": "vector",
+              "id": "oS6fyFMpDOQDf2uc",
+              "x": 548,
+              "y": 216,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 82,
+              "dy": 2,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "jfVbqAAgyBmA54w8",
+              "x": 547,
+              "y": 313,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 82,
+              "dy": -18,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "QUj-f0gkdU2isUpt",
+              "x": 477,
+              "y": 301,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 69,
+              "height": 41,
+              "stroke": "#ff8415",
+              "text": "Outputs"
+            },
+            {
+              "type": "rectangle",
+              "id": "fI4hshreKWLpojJn",
+              "x": 631,
+              "y": 277,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 58,
+              "height": 60
+            },
+            {
+              "type": "vector",
+              "id": "XqZ_lRHBCydZeBsF",
+              "x": 933,
+              "y": 157,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -83,
+              "dy": 9,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "i8YjRQtD1jwlw67E",
+              "x": 928,
+              "y": 127,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 106,
+              "height": 60,
+              "stroke": "#000000",
+              "text": "Change it to a gripper here"
+            }
+          ]
+        },
+        "layout": {
+          "height": 372
+        }
+      },
+      {
+        "id": "vZQJ4a4yVqrs0TYo",
+        "title": "Designing an Experiment or Program to Figure Our what the Gripper Does",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Right now the gripper is 0% closed. We want to figure out how it works: can we make it fully closed or partially closed?</p><p></p><p>Connect the gripper to your program (or to a different program you design!) and try to figure out:</p><ol><li><strong>How do you make the gripper close 100%?</strong></li><li><strong>Can you make the gripper partially closed? (e.g., 25% closed, 50% closed, 90% closed)</strong></li><li><strong>If no, why not? If yes, how? Is there a percent closed that it </strong><strong><em>can&#x27;t</em></strong><strong> do?</strong></li></ol><p></p><p>You might ask &quot;But what do I connect it to?&quot; or &quot;What is my program supposed to look like?&quot;</p><p>As you saw earlier, there isn&#x27;t just one way to make things work in programming!</p><p>Throughout these lessons, you will be developing strategies for designing and making new programs!</p><p></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"52b0a17f-fac6-44ad-bf56-27b55ce9a7b7\"></span>: what should you try to figure out the questions?</p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"64597ffb-c9a3-42be-9e5b-a1db70e7a26c\"></span>: what is a way to connect this to figure out the problem? Is there a simpler program you can make that will make it easier for you to figure out how to control the gripper?</p><p>If you&#x27;re not sure, try one way you can think of to connect it, even if you&#x27;re not sure it&#x27;s the best way. If it doesn&#x27;t help you, you can think about a better way later!</p><p></p><p>Drag the table below to your workspace and fill as many rows as you need to help you keep track of what you have tried and to notice any patterns.</p>"
+          ],
+          "highlightedText": [
+            {
+              "id": "64597ffb-c9a3-42be-9e5b-a1db70e7a26c",
+              "text": "Design your program"
+            },
+            {
+              "id": "52b0a17f-fac6-44ad-bf56-27b55ce9a7b7",
+              "text": "Design your Dataflow experiment"
+            }
+          ]
+        }
+      },
+      {
+        "id": "OZd2K2B6asGy3zcD",
+        "content": {
+          "type": "Table",
+          "columnWidths": {
+            "SY0MjaMaDw29VNud": 304,
+            "PPsuhSYqaerUbZm_": 206
+          }
+        }
+      },
+      {
+        "id": "dAkxXPUp8XQUKL9W",
+        "title": "Designing an Automatic Machine",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Did you notice that if you want to make your gripper open and close, you have to it yourself? You put in the numbers, and it closes or opens the gripper.</p><p>But coding can also help you do a bunch of things automatically.</p><p>For example, maybe you want to test a gripper to make sure it won&#x27;t break even if you use it for a really, really long time.</p><p>You don&#x27;t really want to sit for days and days and change one number so that it closes, and then change a number so it opens, and then change a number so it closes again, and then change one number so it opens again...It would be boring and take forever!</p><p>Instead, you can use code to make the gripper automatically open and close.</p><p></p><p>The sketch below has a drawing of a program. It&#x27; s just a starting point! Yours might look different, and you might have other ideas.</p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"69d2febf-c8ef-4591-8c74-c981c9434095\">The goal is to design a program that automatically opens and closes the gripper.</span></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"ce83c637-d465-4e8c-8714-ec3ba345a4b3\">Drag the sketch  over to your workspace and show your idea.</span></p><p>It&#x27;s okay if you don&#x27;t know what the block is called or even if it actually exists! Once you have a design, it will be easier to adjust it based on the actual blocks.</p><p>Describe what you want the block to do, and where you would connect it. You might decide to delete or change some or all of the blocks that are there.</p>"
+          ],
+          "highlightedText": [
+            {
+              "id": "69d2febf-c8ef-4591-8c74-c981c9434095",
+              "text": "The goal is to design a program that automatically opens and closes the gripper."
+            },
+            {
+              "id": "ce83c637-d465-4e8c-8714-ec3ba345a4b3",
+              "text": "Drag the sketch  over to your workspace and show your idea."
+            }
+          ]
+        }
+      },
+      {
+        "id": "0r836aGDcH7Wfwxb",
+        "title": "Make changes to this sketch to design an automatic gripper tester!",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "text",
+              "id": "Kt1O8FwaeryeiB5W",
+              "x": 955,
+              "y": 100,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 116,
+              "height": 61,
+              "stroke": "#ff8415",
+              "text": "GRIPPER: It opens and closes"
+            },
+            {
+              "type": "text",
+              "id": "VrLWFPEzLoehn-da",
+              "x": 707,
+              "y": 94,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 114,
+              "height": 69,
+              "stroke": "#0000ff",
+              "text": "SUBTRACTION: __ - __ = __"
+            },
+            {
+              "type": "text",
+              "id": "zmUHWv2E-HV0w_ST",
+              "x": 450,
+              "y": 48,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 98,
+              "height": 72,
+              "stroke": "#d100d1",
+              "text": "NUMBER 1 (it's a number you choose)"
+            },
+            {
+              "type": "text",
+              "id": "rQ-aWh5WdL-f_2Ps",
+              "x": 445,
+              "y": 151,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 120,
+              "height": 70,
+              "stroke": "#d100d1",
+              "text": "NUMBER 2 (It's another number you choose)"
+            },
+            {
+              "type": "vector",
+              "id": "KNNeuHZfKNvdmdUC",
+              "x": 548,
+              "y": 69,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 157,
+              "dy": 43,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "Dbbvh5KkPr-diZwe",
+              "x": 566,
+              "y": 195,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 140,
+              "dy": -49,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "JUE5KUSokvV-RgLo",
+              "x": 821,
+              "y": 132,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 132,
+              "dy": 6,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 250
+        }
+      },
+      {
+        "id": "iSdI3yCckzJ9iKal",
+        "title": "Text 2",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p></p>"
+          ]
+        }
+      },
+      {
+        "id": "oZSzwSVK7klonXMa",
+        "title": "Text 1",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>This is where they design a program that can move their gripper [this is actually moving to the next lesson]</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "DRwNnpVS54WI9l1q",
+          "providerId": "OZd2K2B6asGy3zcD",
+          "dataSet": {
+            "id": "pTu-yMmCAGEYQqsl",
+            "name": "Figuring out how the demo gripper works",
+            "attributes": [
+              {
+                "id": "SY0MjaMaDw29VNud",
+                "clientKey": "",
+                "name": "What number is going into the gripper?",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "PPsuhSYqaerUbZm_",
+                "clientKey": "",
+                "name": "% closed",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "OZd2K2B6asGy3zcD"
+        ]
+      }
+    ]
+  }
+}
