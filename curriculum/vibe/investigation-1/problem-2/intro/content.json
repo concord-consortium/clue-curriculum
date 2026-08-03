@@ -4,22 +4,208 @@
     "tiles": [
       {
         "id": "M7NOi4drS5LYJ3qz",
-        "title": "Text 1",
+        "title": "Introducing Dataflow",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In this lesson, you will learn about electrical signals in the human body. This will help you understand how bionic arms work (like the ones used by <a href=\"https://www.youtube.com/watch?v=q2MjTcmLuIQ&amp;t=1s\">Tilly</a>). </p><p><strong>Do Now</strong></p><p>Working with your classmates, explore the behavior of energy sticks. As a group, your goal is to activate the energy stick (without taking them out of the plastic case). </p><p>Answer the questions and provide any observations bellow: </p><p>1)  How did you and your partners activate the energy stick? Try to come up with at least 3 ways to activate the energy stick. </p><p>2)  What do you think caused the energy stick to activate? What does that tell us about our body?</p>"
+            "<p>Because this unit involves engineering and robotics, you will need a programming tool that can read sensor data and control outputs.</p><p>In this unit, the programming tool is called Dataflow, and it can be launched from the button with two connected boxes, like this one:</p>"
           ]
         }
       },
       {
-        "id": "nI77bXEWPDtKRtS2",
-        "title": "Energy Sticks (image source: Amazon)",
+        "id": "-eSeN39ntDCZgQFE",
+        "title": "Button for Opening Dataflow",
         "content": {
-          "type": "Image",
-          "url": "brain/images/Lesson1img2.png"
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "Iq_7lW76-wSCi-Vb",
+              "x": 745,
+              "y": 50,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 66,
+              "height": 58,
+              "url": "vibe/images/Icon_Dataflow.png",
+              "filename": "Icon_Dataflow.png"
+            }
+          ]
+        },
+        "layout": {
+          "height": 125
         }
+      },
+      {
+        "id": "lzt1Uj2xW1YzIJk_",
+        "title": "Figuring out how it works",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>In this lesson, you&#x27;ll start figuring out how Dataflow works.</p><p>You probably won&#x27;t know everything right away.</p><p>The <span data-slate-type=\"highlight\" data-slate-highlight-id=\"ea11c3e1-348b-46fa-9320-a0dc2c6c2ff5\"></span> for figuring things out when you don&#x27;t know them yet.</p>"
+          ],
+          "highlightedText": [
+            {
+              "id": "ea11c3e1-348b-46fa-9320-a0dc2c6c2ff5",
+              "text": "goal is to develop strategies"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6LDm5Rbw-Glzndhc",
+        "title": "Subtraction Machine",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>The following Dataflow program is supposed to subtract one number from another, but the blocks aren&#x27;t connected.</p><p>Right now the math tile says  ___ - ___ = ___</p><p>Drag the program to your workspace and connect the blocks so that the equation is filled in.</p>"
+          ]
+        }
+      },
+      {
+        "id": "jPNOLV-eNEjkWqFd",
+        "content": {
+          "type": "Dataflow",
+          "program": {
+            "id": "dataflow@1",
+            "nodes": {
+              "RKXpaAcslj7T7leF": {
+                "id": "RKXpaAcslj7T7leF",
+                "name": "Number",
+                "x": 222,
+                "y": 71,
+                "data": {
+                  "type": "Number",
+                  "plot": false,
+                  "orderedDisplayName": "Number 1",
+                  "tickEntries": {},
+                  "value": 10
+                }
+              },
+              "YKSEfNVABJqghk53": {
+                "id": "YKSEfNVABJqghk53",
+                "name": "Number",
+                "x": 222,
+                "y": 229,
+                "data": {
+                  "type": "Number",
+                  "plot": false,
+                  "orderedDisplayName": "Number 2",
+                  "tickEntries": {},
+                  "value": 4.5
+                }
+              },
+              "7wxrHn_p7nSM-tj8": {
+                "id": "7wxrHn_p7nSM-tj8",
+                "name": "Math",
+                "x": 543,
+                "y": 117,
+                "data": {
+                  "type": "Math",
+                  "plot": false,
+                  "orderedDisplayName": "Math Equation",
+                  "tickEntries": {},
+                  "mathOperator": "Subtract"
+                }
+              }
+            },
+            "connections": {},
+            "groups": {},
+            "recentTicks": []
+          },
+          "programDataRate": 1000,
+          "programZoom": {
+            "dx": 0,
+            "dy": 0,
+            "scale": 1
+          }
+        }
+      },
+      {
+        "id": "elWywGUthRrd5fEM",
+        "title": "Making Changes to Your Program",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Now that you got the program to calculate 10 - 4.5, can you get it to calculate the opposite: 4.5 - 10?</p>"
+          ]
+        }
+      },
+      {
+        "id": "8TAmvtt8-nD8xa12",
+        "title": "Class Discussion!",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Once you figured out a way to calculate 4.5 - 10, find a group who figured out a different way.</p><p>Drag this question tile over and explain what your group figured out and what their group figured out.</p><p></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"ef62d01d-c79e-4bff-82fb-2c6c8d67bc3e\"></span></p>"
+          ],
+          "highlightedText": [
+            {
+              "id": "ef62d01d-c79e-4bff-82fb-2c6c8d67bc3e",
+              "text": "THIS IS A PLACEHOLDER! Make sure this is in the slides & teacher guide!"
+            }
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "_YeJWabBteU_MhHG",
+          "providerId": "jPNOLV-eNEjkWqFd",
+          "dataSet": {
+            "id": "ZiCDxHEucND2nh-w",
+            "name": "Subtraction Machine",
+            "attributes": [
+              {
+                "id": "ATTRsixAmiPpWl2A",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTRPe1T0O1qHUC6",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "jPNOLV-eNEjkWqFd"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "BJKG5SWGOOrtBwNS"
+        },
+        "tiles": [
+          "jPNOLV-eNEjkWqFd"
+        ]
       }
     ]
   }

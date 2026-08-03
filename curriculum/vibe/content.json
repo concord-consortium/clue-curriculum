@@ -27,6 +27,14 @@
         ]
       },
       "dataflow": {
+        "maxTiles": 1,
+        "servoInputMode": "proportion",
+        "liveOutputTypes": [
+          "Servo",
+          "Grabber",
+          "Gripper 2.0"
+        ],
+        "defaultSamplingRate": 500,
         "tools": [
           [
             "data-set-view",
@@ -36,6 +44,8 @@
             "data-set-view",
             "Graph"
           ],
+          "group",
+          "ungroup",
           "delete"
         ]
       },
@@ -141,19 +151,9 @@
         "isTileTool": true
       },
       {
-        "id": "Expression",
-        "title": "Expression",
-        "isTileTool": true
-      },
-      {
         "id": "Graph",
         "title": "XY Plot",
         "iconId": "icon-plot-tool",
-        "isTileTool": true
-      },
-      {
-        "id": "Question",
-        "title": "Question",
         "isTileTool": true
       },
       {
@@ -192,6 +192,11 @@
         "title": "Toggle Solution Tile",
         "iconId": "icon-solution-tool",
         "isTileTool": false
+      },
+      {
+        "id": "Question",
+        "title": "Question",
+        "isTileTool": true
       }
     ],
     "tools": [
@@ -320,7 +325,9 @@
     "planningTemplateEnabled": false,
     "contentLayout": "wideContent",
     "chatTutorEnabled": true,
-    "chatTutorIntro": "Hi. I'm Ada Idea. I can see the work in your workspace and help you think it through."
+    "chatTutorIntro": "Hi. I'm Ada Idea. I can see the work in your workspace and help you think it through.",
+    "hide4up": true,
+    "defaultDocumentTemplateEnabled": false
   },
   "sections": {
     "intro": {
@@ -483,21 +490,41 @@
           ]
         },
         {
-          "description": "Lesson 1.2",
+          "title": "Lesson 1.2 - Can you make an automatic machine?",
           "ordinal": 2,
-          "title": "Lesson 1.2 - How does electricity help us move?",
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-2/intro/content.json",
+            "investigation-1/problem-2/programming/content.json",
+            "investigation-1/problem-2/labWork/content.json",
+            "investigation-1/problem-2/reflection/content.json"
+          ]
+        },
+        {
+          "title": "Lesson 1.3 - Connecting your prototype to a servo!",
+          "ordinal": 3,
+          "description": "",
+          "subtitle": "",
+          "sections": []
+        },
+        {
+          "description": "Lesson 1.2",
+          "ordinal": 4,
+          "title": "PRIOR Lesson 1.2 - How does electricity help us move?",
           "subtitle": "",
           "disabled": [],
           "sections": [
             "investigation-1/problem-2/intro/content.json",
+            "investigation-1/problem-2/programming/content.json",
             "investigation-1/problem-2/labWork/content.json",
             "investigation-1/problem-2/reflection/content.json"
           ]
         },
         {
           "description": "Lesson 1.3",
-          "ordinal": 3,
-          "title": "Lesson 1.3 - How does the brain control movement?",
+          "ordinal": 5,
+          "title": "PRIOR Lesson 1.3 - How does the brain control movement?",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -508,8 +535,8 @@
         },
         {
           "description": "Lesson 1.4",
-          "ordinal": 4,
-          "title": "Lesson 1.4 -  How do muscles work?",
+          "ordinal": 6,
+          "title": "PRIOR Lesson 1.4 -  How do muscles work?",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -520,8 +547,8 @@
         },
         {
           "description": "Lesson 1.5",
-          "ordinal": 5,
-          "title": "Lesson 1.5 - Can your muscles control a robot?",
+          "ordinal": 7,
+          "title": "PRIOR Lesson 1.5 - Can your muscles control a robot?",
           "subtitle": "",
           "disabled": [],
           "sections": [
