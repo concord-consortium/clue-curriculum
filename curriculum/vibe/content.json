@@ -103,7 +103,11 @@
       "advancedUse": "upgrade from a hand"
     },
     "termOverrides": {
-      "strategy": "User need"
+      "strategy": "User need",
+      "contentLevel.problem": "lesson",
+      "contentLevel.problems": "lessons",
+      "contentLevel.investigation": "prototype",
+      "contentLevel.investigations": "prototypes"
     },
     "learningLog": {
       "labels": {
@@ -308,7 +312,6 @@
       "docFilterOptions": [
         "Problem",
         "Investigation",
-        "Unit",
         "All"
       ],
       "sortOptions": [
@@ -502,15 +505,32 @@
           ]
         },
         {
-          "title": "Lesson 1.3 - Connecting your prototype to a servo!",
+          "title": "Lesson 1.3 - Controlling a servo with Dataflow",
           "ordinal": 3,
           "description": "",
           "subtitle": "",
-          "sections": []
+          "sections": [
+            "investigation-1/problem-3/intro/content.json",
+            "investigation-1/problem-3/programming/content.json",
+            "investigation-1/problem-3/labWork/content.json",
+            "investigation-1/problem-3/reflection/content.json"
+          ]
+        },
+        {
+          "title": "Lesson 1.4 - Connecting your prototype to a servo!",
+          "ordinal": 4,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-4/intro/content.json",
+            "investigation-1/problem-4/programming/content.json",
+            "investigation-1/problem-4/labWork/content.json",
+            "investigation-1/problem-4/reflection/content.json"
+          ]
         },
         {
           "description": "Lesson 1.2",
-          "ordinal": 4,
+          "ordinal": 5,
           "title": "PRIOR Lesson 1.2 - How does electricity help us move?",
           "subtitle": "",
           "disabled": [],
@@ -523,7 +543,7 @@
         },
         {
           "description": "Lesson 1.3",
-          "ordinal": 5,
+          "ordinal": 6,
           "title": "PRIOR Lesson 1.3 - How does the brain control movement?",
           "subtitle": "",
           "disabled": [],
@@ -535,7 +555,7 @@
         },
         {
           "description": "Lesson 1.4",
-          "ordinal": 6,
+          "ordinal": 7,
           "title": "PRIOR Lesson 1.4 -  How do muscles work?",
           "subtitle": "",
           "disabled": [],
@@ -547,7 +567,7 @@
         },
         {
           "description": "Lesson 1.5",
-          "ordinal": 7,
+          "ordinal": 8,
           "title": "PRIOR Lesson 1.5 - Can your muscles control a robot?",
           "subtitle": "",
           "disabled": [],
@@ -560,14 +580,69 @@
       ]
     },
     {
-      "description": "Investigation 2",
+      "title": "Prototype 2: Making Your Prosthesis Bionic",
       "ordinal": 2,
-      "title": "Prototype 2: Touch",
+      "description": "",
+      "problems": [
+        {
+          "title": "L2.1 - What controls the muscles?",
+          "ordinal": 1,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-2/problem-1/intro/content.json",
+            "investigation-2/problem-1/programming/content.json",
+            "investigation-2/problem-1/labWork/content.json",
+            "investigation-2/problem-1/reflection/content.json"
+          ]
+        },
+        {
+          "title": "L2.2 - How can we measure muscle activity?",
+          "ordinal": 2,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-2/problem-2/intro/content.json",
+            "investigation-2/problem-2/programming/content.json",
+            "investigation-2/problem-2/labWork/content.json",
+            "investigation-2/problem-2/reflection/content.json"
+          ]
+        },
+        {
+          "title": "L2.3 - Using simulations to troubleshoot code",
+          "ordinal": 3,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-2/problem-3/intro/content.json",
+            "investigation-2/problem-3/programming/content.json",
+            "investigation-2/problem-3/labWork/content.json",
+            "investigation-2/problem-3/reflection/content.json"
+          ]
+        },
+        {
+          "title": "L2.4 - Making your prosthesis bionic!",
+          "ordinal": 4,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-2/problem-4/intro/content.json",
+            "investigation-2/problem-4/programming/content.json",
+            "investigation-2/problem-4/labWork/content.json",
+            "investigation-2/problem-4/reflection/content.json"
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Investigation 2",
+      "ordinal": 3,
+      "title": "Prototype 3: Adding Sensors",
       "problems": [
         {
           "description": "Lesson 2.1",
           "ordinal": 1,
-          "title": "Lesson 2.1 - How does touch impact movement?",
+          "title": "Lesson 3.1 - How does touch impact movement?",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -579,7 +654,7 @@
         {
           "description": "Lesson 2.2",
           "ordinal": 2,
-          "title": "Lesson 2.2 - How do we perceive touch?",
+          "title": "Lesson 3.2 - How do we perceive touch?",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -591,7 +666,7 @@
         {
           "description": "Lesson 2.3",
           "ordinal": 3,
-          "title": "Lesson 2.3 - Can robots sense objects?",
+          "title": "Lesson 3.3 - Can robots sense objects?",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -603,7 +678,7 @@
         {
           "description": "Lesson 2.4",
           "ordinal": 4,
-          "title": "Lesson 2.4 - Putting it all together",
+          "title": "Lesson 3.4 - Putting it all together",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -611,12 +686,54 @@
             "investigation-2/problem-4/labWork/content.json",
             "investigation-2/problem-4/reflection/content.json"
           ]
+        },
+        {
+          "title": "Lesson 3.5 - So far unnamed.",
+          "ordinal": 5,
+          "description": "",
+          "subtitle": "",
+          "sections": []
+        }
+      ]
+    },
+    {
+      "title": "Prototype 4: What is Controlled by the User vs. by the Bionic?",
+      "ordinal": 4,
+      "description": "",
+      "problems": [
+        {
+          "title": "Lesson 4.1 - Autonomic vs. somatic nervous system",
+          "ordinal": 1,
+          "description": "",
+          "subtitle": "",
+          "sections": []
+        },
+        {
+          "title": "Lesson 4.2 - Reviewing programs: what should be automatic vs. controlled?",
+          "ordinal": 2,
+          "description": "",
+          "subtitle": "",
+          "sections": []
+        },
+        {
+          "title": "Lesson 4.3 - Making program revisions & planning ahead",
+          "ordinal": 3,
+          "description": "",
+          "subtitle": "",
+          "sections": []
+        },
+        {
+          "title": "Lesson 4.4 - Presenting &/or preparing for the client",
+          "ordinal": 4,
+          "description": "",
+          "subtitle": "",
+          "sections": []
         }
       ]
     },
     {
       "description": "Investigation 3",
-      "ordinal": 3,
+      "ordinal": 5,
       "title": "Module 3: Microcontrollers",
       "config": {
         "settings": {
@@ -678,7 +795,7 @@
     },
     {
       "title": "Module 4: Sample Lessons",
-      "ordinal": 4,
+      "ordinal": 6,
       "description": "",
       "problems": [
         {

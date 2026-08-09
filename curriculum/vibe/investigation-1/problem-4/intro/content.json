@@ -3,33 +3,330 @@
   "content": {
     "tiles": [
       {
-        "id": "JjW7uhD05hjNttkr",
-        "title": "Text 1",
+        "id": "1lEgWRFYh9E68mEE",
+        "title": "Investigating",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In this lesson, you will use a technique called Electromyography (EMG) to measure your muscle electrical activity. </p><p><strong>Learning Objectives</strong></p><p>By the end of today&#x27;s lesson, you will be able to acquire and make sense of muscle electrical activity (EMG) data.  This will help you understand how muscle activity can drive bionic arms.</p>"
+            "<p>By now you have a first prototype of a prosthesis, you have figured out how to make an automatic machine, and you have figured out how to make a servo work.</p><p>Today, you&#x27;ll figure out how to connect your prosthesis to a servo so that it makes motions automatically.</p>"
           ]
         }
       },
       {
-        "id": "Hrv_5ES6azIrisdb",
-        "title": "Flexing muscles to make a EMG trace [Credit: Backyard Brains]",
+        "id": "Knn6rLiLh3ahAfja",
+        "title": "You might want to enlarge this!",
         "content": {
           "type": "Image",
-          "url": "brain/images/Lesson1_4img1.png",
-          "filename": "brain/images/Lesson1_4img1.png"
+          "url": "vibe/images/Icon-Enlarge-Lessons.png",
+          "filename": "vibe/images/Icon-Enlarge-Lessons.png"
         }
       },
       {
-        "id": "-rSXitCykW7FD_q2",
+        "id": "MSjSsoUKPp68VgLl",
+        "title": "Biomimicry: Inspiration from Nature",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>When you think of a robot, you probably think about something hard and rigid, like this:</p>"
+          ]
+        }
+      },
+      {
+        "id": "6Rvszk1aC6sLO1WU",
+        "title": "Sketch 2",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "text",
+              "id": "nE50LatFdsssbBR_",
+              "x": 533,
+              "y": 58,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 302,
+              "height": 54,
+              "stroke": "#000000",
+              "text": "STAND IN FOR HARD ROBOTS"
+            }
+          ]
+        }
+      },
+      {
+        "id": "u1CKMXu8UcHu5WNT",
         "title": "Text 2",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>D﻿o Now</strong></p><p>Drag and drop the following tile into your workspace and answer the following question:</p><p>What do you already know about how muscles contract?</p>"
+            "<p>Add the stuff from: https://www.gmwgroup.harvard.edu/soft-robotics (biomimicry)</p><p>Starfish vs. robot (similarities in form and function, but also dissimilarities in exact workings)</p><p>What are the parallels vs. not parallels/differences between their prosthesis and a hand?</p><p></p><p>In the &quot;evaluate&quot; section --&gt; review these parallels/differences and think about next steps [foreshadowing EMG]</p><p></p><p>These robotics are useful in manufacturing, research, healthcare, and lots of other areas.</p><p>However, they are not as good at working with really delicate objects without crushing them (e.g., a raw egg, a live mouse).</p><p>The Whitesides Research Group at Harvard University was trying to fix that issue. They noticed that some animals in nature have ways of grasping objects that are really different, and might be better for these tasks.</p><p>They were inspired by starfish and elephant trunks to build &quot;Soft Robots.&quot; They developed special elastomeric materials (materials that are rubbery and flexible) that can bend when they&#x27;re filled with high pressure air, like a balloon. That helps them curve gently around an object without breaking it.</p><p></p><p>This robot was designed by the Whitesides Research Group at Harvard University. It&#x27;s a soft robot: it works really differently from most robots that you see that are made of metal or hard plastics.  A 9-cm tip-to-tip pneu-net gripping an uncooked chicken egg. A string suspends the gripper and assists in lifting the egg; a tube, visible on the left side of the gripper, runs into the central portion of the gripper to provide pressurized air for actuation.</p>"
+          ]
+        }
+      },
+      {
+        "id": "qpRJxb1oS1rjYQVY",
+        "title": "Soft Robotics Inspired by Nature",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "t_J3fknZ3pzoQ3e5",
+              "x": 754.4444580078125,
+              "y": 40,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 227,
+              "height": 184,
+              "url": "vibe/images/L1.4-Starfish-Holding-Shell-small-cropped.jpg",
+              "filename": "L1.4-Starfish-Holding-Shell-small-cropped.jpg"
+            },
+            {
+              "type": "image",
+              "id": "2ATMeOij3cn_d_0C",
+              "x": 678.4479370117188,
+              "y": 316.2222099304199,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 400,
+              "height": 148,
+              "url": "vibe/images/L1.4-Biomimicry-Example-Soft-Robotics.jpg",
+              "filename": "L1.4-Biomimicry-Example-Soft-Robotics.jpg"
+            },
+            {
+              "type": "text",
+              "id": "lZekosuI1nU2qBfA",
+              "x": 231,
+              "y": 38,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 100,
+              "height": 100,
+              "stroke": "#000000",
+              "text": "Add starfish & elephant trunk here"
+            },
+            {
+              "type": "text",
+              "id": "7Pali5MTRIW8zqyF",
+              "x": 701.1109619140625,
+              "y": 474.3333282470703,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 359.6666259765625,
+              "height": 34.77778625488281,
+              "stroke": "#000000",
+              "text": "Soft Robot designed by the Whitesides Research Group"
+            },
+            {
+              "type": "text",
+              "id": "k0OUjh4BYEOX6NZM",
+              "x": 314.111083984375,
+              "y": 180.11111450195312,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 244,
+              "height": 94,
+              "stroke": "#000000",
+              "text": "Add comparison: what are direct parallels in form and function, and what are differences. What are the advantages/disadvantages of each?"
+            },
+            {
+              "type": "vector",
+              "id": "3wwbgKHRAu-yGebZ",
+              "x": 762.2396621704102,
+              "y": 326.2500114440918,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 32.22222900390625,
+              "dy": 0,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "NenWyigI5xHgAV7a",
+              "x": 866.6841201782227,
+              "y": 325.1388969421387,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 32.22222900390625,
+              "dy": 0,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "7u4KMytwEUqxkjOl",
+              "x": 965.5730972290039,
+              "y": 325.1388969421387,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 32.22222900390625,
+              "dy": 0,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "Ue2Ir3O4C96AA1Mp",
+              "x": 792.2396621704102,
+              "y": 356.2500114440918,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 32.22222900390625,
+              "dy": 0,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 548.9687805175781
+        }
+      },
+      {
+        "id": "96rdOUJfUzjC9ax5",
+        "title": "Sketch 3",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "text",
+              "id": "uGq_0bnTKUKfygJP",
+              "x": 742.239631652832,
+              "y": 218.1597900390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 152.22222900390625,
+              "height": 67.77777099609375,
+              "stroke": "#000000",
+              "text": "Star-like shape made by elastomeric materials"
+            },
+            {
+              "type": "text",
+              "id": "FoZrVR7t-wR23BXg",
+              "x": 931.1286087036133,
+              "y": 181.49322509765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 102.22235107421875,
+              "height": 36.66668701171875,
+              "stroke": "#000000",
+              "text": "Fills with air "
+            },
+            {
+              "type": "text",
+              "id": "vvAUAQhuhz_2N7ch",
+              "x": 1073.3506546020508,
+              "y": 223.71533203125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 145.55560302734375,
+              "height": 41.111083984375,
+              "stroke": "#000000",
+              "text": "Grasps an object"
+            },
+            {
+              "type": "text",
+              "id": "TnKvKfVSD0JSZ4YT",
+              "x": 483.3506546020508,
+              "y": 78.15966796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 70,
+              "height": 43.3333740234375,
+              "stroke": "#000000",
+              "text": "String"
+            },
+            {
+              "type": "text",
+              "id": "B0mtATxsxLVc4K2Q",
+              "x": 595.5728225708008,
+              "y": 34.826416015625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 83.33331298828125,
+              "height": 34.44439697265625,
+              "stroke": "#000000",
+              "text": "Lowers"
+            }
+          ]
+        },
+        "layout": {
+          "height": 396.9965515136719
+        }
+      },
+      {
+        "id": "qFKkgCBykQ9UEiJU",
+        "title": "With your partner",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "TsX3aw",
+          "tiles": [
+            {
+              "id": "Zs6CVLSzG5rqUIp0",
+              "title": "Thinking about your own parallels",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Now, you should think about your design.</p><p>What elements of your prosthesis are <u>similar</u>  to a biological hand and arm?</p><p>What elements (if any) were <u>inspired by other things</u> (not a hand and arm) when you designed your prosthesis?</p><p>What elements of your prosthesis are <u>different</u> from a biological hand and arm?</p><p>What elements are <u>missing</u> that would make your prosthesis work like a biological hand and arm?</p><p></p><p>You can write, sketch, or make a table. Choose which tile you want and drag a tile over to answer the question!</p>"
+                ]
+              }
+            },
+            {
+              "id": "-2bIKOMIdNs_3zS-",
+              "title": "Sketch 4",
+              "content": {
+                "type": "Drawing",
+                "objects": []
+              },
+              "layout": {
+                "height": 317.9861145019531
+              }
+            }
           ]
         }
       }
