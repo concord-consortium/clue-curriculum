@@ -4,58 +4,23 @@
     "tiles": [
       {
         "id": "c-qysfELvytIFe45",
-        "title": "Text 1",
+        "title": "Investigate",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>You already made a prosthesis that can be controlled by a Dataflow program. Now, we want to make it <em>bionic</em> - we want it to respond to the user&#x27;s own body, just like a hand would.</p><p>So, we want it close when the user flexes their muscles, and open when they relax their muscles.</p><p>Electromyography (EMG) measures the electrical activity of muscles. Your spiker:bit (the white and orange part attached to the black microcontroller you have) can measure EMG signals!</p><p></p><p>First, we need to figure out how the spiker:bit works with Dataflow. You also need to design ...</p><p></p><p>THINK ABOUT WHERE THE USER MIGHT WANT (AND BE ABLE TO USE) THE ELECTRODES.</p><p>THINK ABOUT THEIR LIMB DIFFERENCE, COMFORT, AND EFFECACY.</p><p></p><p></p><p><strong>Overview</strong></p><p>Today we will explore how the nervous system processes information about touch.  </p><p><strong>Learning Objectives</strong></p><p>By the end of the lesson you will be able to describe why different body parts have different sensitivity to touch.</p><p><strong>Do Now: </strong>Drag this tile into your workspace and answer the following questions </p><ol><li>Which body parts have the highest touch sensitivity? Why?</li><li> Do you think that Tilly can feel objects with her bionic arm?</li></ol>"
+            "<p>You already made a prosthesis that can be controlled by a Dataflow program. Now, we want to make it <em>bionic</em> - we want it to respond to the user&#x27;s own body, just like a hand would.</p><p>So, we want it close when the user flexes their muscles, and open when they relax their muscles.</p><p>Electromyography (EMG) measures the electrical activity of muscles. Your spiker:bit (the white and orange part attached to the black microcontroller you have) can measure EMG signals!</p><p></p><p>To connect the EMG</p><p></p><p></p><p>First, we need to figure out how the spiker:bit works with Dataflow. You also need to design ...</p><p></p><p>THINK ABOUT WHERE THE USER MIGHT WANT (AND BE ABLE TO USE) THE ELECTRODES.</p><p>THINK ABOUT THEIR LIMB DIFFERENCE, COMFORT, AND EFFECACY.</p><p></p><p></p><p><strong>Overview</strong></p><p>Today we will explore how the nervous system processes information about touch.  </p><p><strong>Learning Objectives</strong></p><p>By the end of the lesson you will be able to describe why different body parts have different sensitivity to touch.</p><p><strong>Do Now: </strong>Drag this tile into your workspace and answer the following questions </p><ol><li>Which body parts have the highest touch sensitivity? Why?</li><li> Do you think that Tilly can feel objects with her bionic arm?</li></ol>"
           ]
         }
       },
       {
-        "id": "IjCPaQD4howt6g__",
-        "content": {
-          "type": "Dataflow",
-          "program": {
-            "id": "dataflow@1",
-            "nodes": {
-              "tGUs0473R9vWdfbr": {
-                "id": "tGUs0473R9vWdfbr",
-                "name": "Sensor",
-                "x": 39.25933837890625,
-                "y": 57.59259033203125,
-                "data": {
-                  "type": "Sensor",
-                  "plot": false,
-                  "orderedDisplayName": "Sensor 1",
-                  "tickEntries": {},
-                  "sensorType": "emg-reading",
-                  "sensor": "emg",
-                  "sensorDisplayName": "⚠️ Connect a device for live EMG"
-                }
-              }
-            },
-            "connections": {},
-            "groups": {},
-            "recentTicks": []
-          },
-          "programDataRate": 500,
-          "programZoom": {
-            "dx": 0,
-            "dy": 0,
-            "scale": 1
-          }
-        }
-      },
-      {
         "id": "9t_w8rwy7Z2carhg",
-        "title": "Text 2",
+        "title": "Connecting the EMG reader to your body",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>There are three electrodes.</p><p>Two electrodes go on the muscle that you are measuring. They connect to the red wires.</p><p></p><p>The third one connects to the black wire, which is called the &quot;ground wire.&quot; It tells your microcontroller what electrical signals are moving through your body normally.  It goes somewhere nearby, but NOT on a muscle area.</p><p>For example, if you are measuring your forearm, you can put the electrode that connects to the ground wire on the back of your hand or on your wrist.</p><p>If you are measuring your blinking, you can put the electrode that connects to the ground wire behind your ear.</p>"
+            "<p>To use the EMG reader, you need to connect three electrodes to your body (the little stickers).</p><p>Two electrodes go on the muscle that you are measuring. They connect to the red wires.</p><p></p><p>The third one connects to the black wire, which is called the &quot;ground wire.&quot; It tells your microcontroller what electrical signals are moving through your body normally.  It goes somewhere nearby, but NOT on a muscle area.</p><p>For example, if you are measuring your forearm, you can put the electrode that connects to the ground wire on the back of your hand or on your wrist.</p><p>If you are measuring your blinking, you can put the electrode that connects to the ground wire behind your ear.</p>"
           ]
         }
       },
@@ -205,58 +170,164 @@
         "layout": {
           "height": 333.9884338378906
         }
+      },
+      {
+        "id": "nROeMACY5RTn2ik_",
+        "title": "Graph it!",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "J466lk1V5WkHmdcZ",
+              "x": 573.3333435058594,
+              "y": 21.11114501953125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 165,
+              "height": 204,
+              "url": "vibe/images/Table-or-Graph-Dataflow.png",
+              "filename": "Table-or-Graph-Dataflow.png"
+            },
+            {
+              "type": "vector",
+              "id": "_kSM_Yp9Wn3DARlA",
+              "x": 713.3507461547852,
+              "y": 125.8160400390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -72.22222900390625,
+              "dy": 63.33331298828125,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "sD-Jh9z_fyRe-oUe",
+              "x": 713.3506851196289,
+              "y": 92.482666015625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 241.11090087890625,
+              "height": 54.44439697265625,
+              "stroke": "#000000",
+              "text": "You can use the \"graph it\" function to record your EMG experiments"
+            }
+          ]
+        },
+        "layout": {
+          "height": 274.00001525878906
+        }
       }
     ],
     "sharedModels": [
       {
         "sharedModel": {
-          "type": "SharedDataSet",
-          "id": "ykiYluLIP3RYU-vU",
-          "providerId": "IjCPaQD4howt6g__",
-          "dataSet": {
-            "id": "EGYRwuWA8C1m9P3A",
-            "name": "Program 1",
-            "attributes": [
-              {
-                "id": "ATTRWVhh6qRqyPkn",
-                "clientKey": "",
-                "name": "x",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [],
-                "title": ""
-              },
-              {
-                "id": "ATTRNZinMLnVLeLZ",
-                "clientKey": "",
-                "name": "y",
-                "hidden": false,
-                "units": "",
-                "formula": {
-                  "display": ""
-                },
-                "values": [],
-                "title": ""
-              }
-            ],
-            "cases": [],
-            "sortDirection": "NONE"
-          }
+          "type": "SharedVariables",
+          "id": "vGTc1Q3B3g-SG19I",
+          "variables": [
+            {
+              "id": "bNks6afJi3R-DbAm",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 440,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "S9IOcdggq5U6HeWA",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "dgAp6sxqxvQD_SGf",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "z-F7f3URdFkNtT2F",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "lL32s2YI9s_IPKFm",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "inputs": [],
+              "color": "light-gray",
+              "labels": [
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "Ge59diZWt2ov5Dub",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "LpoSWD5RguQ9soUc",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
         },
         "tiles": [
-          "IjCPaQD4howt6g__"
-        ]
-      },
-      {
-        "sharedModel": {
-          "type": "SharedProgramData",
-          "id": "fkouRhTa4rTIkooF"
-        },
-        "tiles": [
-          "IjCPaQD4howt6g__"
+          "c-qysfELvytIFe45",
+          "9t_w8rwy7Z2carhg"
         ]
       }
     ]

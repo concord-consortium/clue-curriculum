@@ -4,23 +4,491 @@
     "tiles": [
       {
         "id": "lJiTUdoGFXB4ttkG",
-        "title": "Text 9",
+        "title": "Develop",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>This is where they actually make their program to move the gripper. --&gt; Move this to the next lesson. In this lesson, this segment will have a few examples of blocks and they&#x27;ll make their program.</p>"
+            "<p>Now, you will develop your program by changing the tiles in your subtraction machine (you might want to rename it, too!)</p><p>Does one of these blocks match the idea you designed?</p><p>If not, try some other blocks and experiment with a new idea.</p><p>You can also ask another pair or Ada Ideas for suggestions.</p>"
           ]
         }
       },
       {
+        "id": "VDYz7x0nN6AIosTB",
+        "title": "Sensor Block",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "rectangle",
+              "id": "CcI9tG0-_G2KBUhl",
+              "x": 280.8888702392578,
+              "y": 45.11112976074219,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#a5b2ff",
+              "width": 276.4444274902344,
+              "height": 60.44444274902344
+            },
+            {
+              "type": "image",
+              "id": "iBu8sBPJx5u4XBE2",
+              "x": 599.9999542236328,
+              "y": 55.99998474121094,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 151,
+              "height": 195,
+              "url": "vibe/images/Block-Sensor-Temperature-Demo.png",
+              "filename": "Block-Sensor-Temperature-Demo.png"
+            },
+            {
+              "type": "text",
+              "id": "yKEfReRGb7s94rzE",
+              "x": 295.44437408447266,
+              "y": 54.88893127441406,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 250.2222900390625,
+              "height": 39.55560302734375,
+              "stroke": "#000000",
+              "text": "This block sends a signal from a sensor."
+            },
+            {
+              "type": "text",
+              "id": "mhxedsSGpcJ5cg1k",
+              "x": 792.999885559082,
+              "y": 73.33334350585938,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 271.5556640625,
+              "height": 84,
+              "stroke": "#000000",
+              "text": "You could connect it to a real temperature sensor (like a thermometer), but right now it's set to just give you demo data."
+            },
+            {
+              "type": "text",
+              "id": "jwPObDPOIzPdJSIv",
+              "x": 310.2221221923828,
+              "y": 157.99998474121094,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 220.0001220703125,
+              "height": 82.22216796875,
+              "stroke": "#ff8415",
+              "text": "Notice! When you click the little graph box, you can see the graph of what signal a block is sending!"
+            },
+            {
+              "type": "vector",
+              "id": "-hGUDL3_e3EZ7BRd",
+              "x": 528.8889007568359,
+              "y": 198.00001525878906,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 83.5555419921875,
+              "dy": -32.888885498046875,
+              "headShape": "triangle"
+            },
+            {
+              "type": "rectangle",
+              "id": "-YH9hwPbhgEmPPf9",
+              "x": 614.2222137451172,
+              "y": 149.1111602783203,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 25.77777099609375,
+              "height": 25.77777099609375
+            },
+            {
+              "type": "vector",
+              "id": "zTC4Vac6_QL6OSOk",
+              "x": 792.8889007568359,
+              "y": 118,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -68.4444580078125,
+              "dy": 12.444442749023438,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 286
+        }
+      },
+      {
+        "id": "8WGrz-8vigkYemkf",
+        "title": "Waves block",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "OV5lx1oovX3JRtgY",
+              "x": 611.1111450195312,
+              "y": 55.5555419921875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 150,
+              "height": 214,
+              "url": "vibe/images/Block-Waves-Sine.png",
+              "filename": "Block-Waves-Sine.png"
+            },
+            {
+              "type": "text",
+              "id": "V-QBNyXfzMLluxYm",
+              "x": 242.44435119628906,
+              "y": 472.0000228881836,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 165.18505859375,
+              "height": 63.11102294921875,
+              "stroke": "#0000ff",
+              "text": "Then the number block was switched to 1"
+            },
+            {
+              "type": "text",
+              "id": "x1ZpR7WyqWqeah4p",
+              "x": 242.44435119628906,
+              "y": 472.0000228881836,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 165.18505859375,
+              "height": 63.11102294921875,
+              "stroke": "#0000ff",
+              "text": "Then the number block was switched to 1"
+            },
+            {
+              "type": "rectangle",
+              "id": "v0XUz5LIEjInj8sN",
+              "x": 278.90625762939453,
+              "y": 40.277740478515625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#a5b2ff",
+              "width": 276.6666564941406,
+              "height": 86.66665649414062
+            },
+            {
+              "type": "text",
+              "id": "uCTqddY5WnRaFzE8",
+              "x": 294.4617691040039,
+              "y": 54.722259521484375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 245.55557250976562,
+              "height": 57.7777099609375,
+              "stroke": "#000000",
+              "text": "This block sends a wave signal: the numbers go up and down like a wave."
+            },
+            {
+              "type": "text",
+              "id": "8p6H1uMTs8FTMyy0",
+              "x": 813.3506851196289,
+              "y": 85.83334350585938,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 213.333251953125,
+              "height": 77.77780151367188,
+              "stroke": "#000000",
+              "text": "Right now it's set to a sine wave  (remember from math class?). It can be other waves too, though!"
+            },
+            {
+              "type": "vector",
+              "id": "lqtKsn5LDX8w_Bdn",
+              "x": 812.2396011352539,
+              "y": 101.388916015625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -78.88885498046875,
+              "dy": 6.666656494140625,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 342.00001525878906
+        }
+      },
+      {
+        "id": "v6TE83dsX5w8Y9DE",
+        "title": "Transform block",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "BJXUPOaf0Hbbh6ul",
+              "x": 361.11102294921875,
+              "y": 369.6295928955078,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 339,
+              "height": 172,
+              "url": "vibe/images/Block-Transform-Ramp-0-to-1.png",
+              "filename": "Block-Transform-Ramp-0-to-1.png"
+            },
+            {
+              "type": "rectangle",
+              "id": "AJFEksRkrwEr0NDF",
+              "x": 568.4445037841797,
+              "y": 55.55561065673828,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#addef4",
+              "width": 253.33331298828125,
+              "height": 85.33332824707031
+            },
+            {
+              "type": "image",
+              "id": "6uyoY2qDoiuG2k5E",
+              "x": 360.11119842529297,
+              "y": 153.62963104248047,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 340,
+              "height": 169,
+              "url": "vibe/images/Block-Transform-Ramp-at-0.png",
+              "filename": "Block-Transform-Ramp-at-0.png"
+            },
+            {
+              "type": "text",
+              "id": "toN7oksBZF_Jfw-v",
+              "x": 578.0000610351562,
+              "y": 68.00010681152344,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 230.66668701171875,
+              "height": 58.2222900390625,
+              "stroke": "#000000",
+              "text": "This block transforms one number to a different number"
+            },
+            {
+              "type": "text",
+              "id": "QJzatCgwmEJ5SPJ4",
+              "x": 357.9999542236328,
+              "y": 284.96300506591797,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 148.88873291015625,
+              "height": 60.88885498046875,
+              "stroke": "#0000ff",
+              "text": "First, the number block sent a 0 signal"
+            },
+            {
+              "type": "ellipse",
+              "id": "8pa6ovntV-cTxgX0",
+              "x": 470.44459533691406,
+              "y": 248.66678619384766,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "rx": 21.777801513671875,
+              "ry": 19.555557250976562
+            },
+            {
+              "type": "vector",
+              "id": "gNQh0M2JYq7wX8qv",
+              "x": 488.6666717529297,
+              "y": 250.4444808959961,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 141.629638671875,
+              "dy": -15.7037353515625,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "8LBX44KgJjKjcNgk",
+              "x": 640.8564605712891,
+              "y": 242.89356231689453,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 13.3333740234375,
+              "dy": 0
+            },
+            {
+              "type": "text",
+              "id": "1nk6uczmUZONnYH2",
+              "x": 356.88880920410156,
+              "y": 507.5555953979492,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 165.18505859375,
+              "height": 63.11102294921875,
+              "stroke": "#0000ff",
+              "text": "Then the number block was switched to 1"
+            },
+            {
+              "type": "ellipse",
+              "id": "d7rjeQcMxZK0mnOy",
+              "x": 470.81495666503906,
+              "y": 469.77791595458984,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "rx": 21.777801513671875,
+              "ry": 19.555557250976562
+            },
+            {
+              "type": "vector",
+              "id": "OsiCWIFLck_lPZQd",
+              "x": 491.25926208496094,
+              "y": 472.2963333129883,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 141.629638671875,
+              "dy": -15.7037353515625,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "D2RX0ConFrpu2Rl9",
+              "x": 643.0787506103516,
+              "y": 460.67141342163086,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 11.851806640625,
+              "dy": 0.740692138671875
+            },
+            {
+              "type": "text",
+              "id": "1cZ4DQMg_iDhD5EB",
+              "x": 716.8889312744141,
+              "y": 465.3332748413086,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 242.592529296875,
+              "height": 57.926025390625,
+              "stroke": "#d100d1",
+              "text": "The ramp operator transformed the 1 by slowly \"ramping up\" from 0."
+            },
+            {
+              "type": "vector",
+              "id": "x0sFfX0W9vgIj6Li",
+              "x": 629.0046539306641,
+              "y": 527.3380088806152,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 41.48150634765625,
+              "dy": -29.629638671875,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 607.9977111816406
+        }
+      },
+      {
         "id": "PmazqIF31l8VN6bM",
-        "title": "Do you need some help?",
+        "title": "Did you figure out how to develop an automatic machine?",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><u>Ada Ideas</u> is a helpful tool</p>"
+            "<p>Move on to the &quot;Evaluate&quot; tab!</p>"
           ]
         }
       }

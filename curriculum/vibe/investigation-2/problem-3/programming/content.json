@@ -1,6 +1,168 @@
 {
   "type": "programming",
   "content": {
-    "tiles": []
+    "tiles": [
+      {
+        "id": "CiVzFOrVplaHHE8f",
+        "title": "Design",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Make your prosthesis <em>bionic</em>! (Controlled by the body.)</p><p></p><p>You already know</p><ul><li>how the gripper works (the simulated gripper works basically like the demo gripper)</li><li>how to make an automatic machine.</li><li>how to connect your data to the EMG reader.</li></ul><p>Now, design a way to put it together!</p><p></p><p>We&#x27;re working with the simulation, so design a way to make a <em>bionic </em>gripper.</p>"
+          ]
+        }
+      },
+      {
+        "id": "uKd4ILmxVtx4n9ct",
+        "title": "Start by yourself",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "S3L89x",
+          "tiles": [
+            {
+              "id": "c6549mTu_wLugmY-",
+              "title": "Design a program",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Design a program that will let the simulated arm control the simulated the gripper.</p><p>The sketch below will get you started.</p>"
+                ]
+              }
+            },
+            {
+              "id": "e7PzeAsTrq8A6eEe",
+              "title": "Your design",
+              "content": {
+                "type": "Drawing",
+                "objects": [
+                  {
+                    "type": "rectangle",
+                    "id": "V7rvevCBhNWKA4nB",
+                    "x": 240.79862213134766,
+                    "y": 33.732635498046875,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#d100d1",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "#a5b2ff",
+                    "width": 157.77780151367188,
+                    "height": 122.22219848632812
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "I-KjCU7xNqMuLGll",
+                    "x": 970.0173110961914,
+                    "y": 92.62152099609375,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#000000",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "#f7e58f",
+                    "width": 165.5555419921875,
+                    "height": 155.55551147460938
+                  },
+                  {
+                    "type": "text",
+                    "id": "KQFKFrI0hnvfd5zq",
+                    "x": 993.3506240844727,
+                    "y": 127.55209732055664,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 121.111083984375,
+                    "height": 90,
+                    "stroke": "#000000",
+                    "text": "This will be the live device (set to \"gripper\")"
+                  },
+                  {
+                    "type": "text",
+                    "id": "8Ykarh2PrdnU_T8t",
+                    "x": 254.46179962158203,
+                    "y": 68.6632080078125,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 127.77777099609375,
+                    "height": 56.666656494140625,
+                    "stroke": "#000000",
+                    "text": "Sensor set to EMG (simulated EMG)"
+                  },
+                  {
+                    "type": "vector",
+                    "id": "JiwZmqhV7FYbbCqj",
+                    "x": 398.90625762939453,
+                    "y": 95.32986450195312,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#bfbfbf",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "dx": 105.55557250976562,
+                    "dy": 22.22222900390625,
+                    "headShape": "triangle"
+                  },
+                  {
+                    "type": "vector",
+                    "id": "ns1VTpCMdRSb4kG2",
+                    "x": 838.9062881469727,
+                    "y": 190.88543701171875,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#bfbfbf",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "dx": 131.111083984375,
+                    "dy": -7.77777099609375,
+                    "headShape": "triangle"
+                  }
+                ]
+              },
+              "layout": {
+                "height": 311.00001525878906
+              }
+            },
+            {
+              "id": "_TBhGoS9oyIxJJDE",
+              "title": "If you need ideas or help, talk with a partner!",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Write down who you talked with.</p><p>If you added new connections after you worked someone else, write down what you changed, or circle it in a different color.</p>"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "Yng5FKO7UHyDRweD",
+        "title": "Did you figure out a design?",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Move to the develop tab!</p>"
+          ]
+        }
+      }
+    ]
   }
 }
