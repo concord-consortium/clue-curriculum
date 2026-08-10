@@ -163,6 +163,11 @@
         "title": "Coordinate Grid 1 Play Space",
         "content": {
           "type": "Geometry",
+          "isNavigatorVisible": true,
+          "navigatorPosition": "bottom",
+          "offsetX": 0,
+          "offsetY": 0,
+          "zoom": 1,
           "board": {
             "xAxis": {
               "name": "x",
@@ -464,7 +469,9 @@
                 "name": "Dinosaur",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "Velociraptor",
                   "Coelophysis",
@@ -479,7 +486,9 @@
                 "name": "Length (ft.)",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "6.5",
                   "10",
@@ -502,7 +511,8 @@
               {
                 "__id__": "01HCSQ6FZE7AF04P9H9K6QQBM1"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -524,7 +534,9 @@
                 "name": "Points",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "1",
                   "2",
@@ -541,8 +553,7 @@
                 "hidden": false,
                 "units": "",
                 "formula": {
-                  "display": "",
-                  "canonical": ""
+                  "display": ""
                 },
                 "values": [
                   "0",
@@ -570,7 +581,8 @@
               {
                 "__id__": "01HCSQ6FZGQB5Z3AWKG1X6DRS8"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
@@ -592,7 +604,9 @@
                 "name": "x",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "6",
                   "8",
@@ -622,7 +636,9 @@
                 "name": "y",
                 "hidden": false,
                 "units": "",
-                "formula": {},
+                "formula": {
+                  "display": ""
+                },
                 "values": [
                   "8.5",
                   "10",
@@ -705,7 +721,8 @@
               {
                 "__id__": "01HCSQ6G04WNXM1RXB7W0G7S3F"
               }
-            ]
+            ],
+            "sortDirection": "NONE"
           }
         },
         "tiles": [
