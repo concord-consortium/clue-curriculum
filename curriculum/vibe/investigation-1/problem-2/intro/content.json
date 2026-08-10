@@ -15,15 +15,15 @@
       },
       {
         "id": "-eSeN39ntDCZgQFE",
-        "title": "Button for Opening Dataflow",
+        "title": "Picture of the Button for Opening Dataflow",
         "content": {
           "type": "Drawing",
           "objects": [
             {
               "type": "image",
               "id": "Iq_7lW76-wSCi-Vb",
-              "x": 745,
-              "y": 50,
+              "x": 531.1111373901367,
+              "y": 58.888916015625,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -32,11 +32,41 @@
               "height": 58,
               "url": "vibe/images/Icon_Dataflow.png",
               "filename": "Icon_Dataflow.png"
+            },
+            {
+              "type": "text",
+              "id": "OFSTYuzElP6YWTwH",
+              "x": 617.7778167724609,
+              "y": 55.55560302734375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 284.88897705078125,
+              "height": 62.666656494140625,
+              "stroke": "#000000",
+              "text": "You can't  click it here. The actual button is on the toolbar in your workspace, over there!"
+            },
+            {
+              "type": "vector",
+              "id": "JbBAh1NN-6KcTvWU",
+              "x": 902.2222137451172,
+              "y": 89.33332824707031,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 240.00006103515625,
+              "dy": -49.77778625488281,
+              "headShape": "triangle"
             }
           ]
         },
         "layout": {
-          "height": 125
+          "height": 144
         }
       },
       {
@@ -63,7 +93,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>The following Dataflow program is supposed to subtract one number from another, but the blocks aren&#x27;t connected.</p><p>Right now the math tile says  ___ - ___ = ___</p><p>Drag the program to your workspace and connect the blocks so that the equation is filled in.</p>"
+            "<p>The Dataflow program below is supposed to subtract one number from another, but the blocks aren&#x27;t connected.</p><p>Right now the math tile says  ___ - ___ = ___</p><p>Drag the program to your workspace and connect the blocks so that the equation is filled in.</p>"
           ]
         }
       },
@@ -134,23 +164,6 @@
           "format": "html",
           "text": [
             "<p>Now that you got the program to calculate 10 - 4.5, can you get it to calculate the opposite: 4.5 - 10?</p>"
-          ]
-        }
-      },
-      {
-        "id": "8TAmvtt8-nD8xa12",
-        "title": "Class Discussion!",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p>Once you figured out a way to calculate 4.5 - 10, find a group who figured out a different way.</p><p>Drag this question tile over and explain what your group figured out and what their group figured out.</p><p></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"ef62d01d-c79e-4bff-82fb-2c6c8d67bc3e\"></span></p>"
-          ],
-          "highlightedText": [
-            {
-              "id": "ef62d01d-c79e-4bff-82fb-2c6c8d67bc3e",
-              "text": "THIS IS A PLACEHOLDER! Make sure this is in the slides & teacher guide!"
-            }
           ]
         }
       }

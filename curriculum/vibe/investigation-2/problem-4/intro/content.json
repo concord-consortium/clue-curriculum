@@ -4,16 +4,109 @@
     "tiles": [
       {
         "id": "5LJacKvSPaRhh7ER",
-        "title": "Text 1",
+        "title": "Investigate",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>In this lesson, you will have the opportunity to use what you have learned throughout the unit to design a technological solution for one of several end users. </p>",
-            "<p><strong>Do Now</strong></p>",
-            "<p>Think about a person (other than Tilly) who could benefit from the touch-sensitive gripper that you used in the previous lesson. Describe this person and their needs in your workspace. </p>"
+            "<p>You made a bionic gripper... now, make your prosthesis bionic!</p><p></p><p>Use the Class Portfolio to drag your Dataflow program from last time (but not the simulation!)</p><p>Make any changes you think you need to make it work with the servo. Here are two changes you will definitely have to make:</p><ul><li>Change your sensor setting from &quot;simulated EMG&quot; to a a device (the block doesn&#x27;t have to change)</li><li>Change your device from &quot;gripper&quot; to &quot;servo&quot; (this block doesn&#x27;t have to change, either.</li></ul><p>Hook everything up!</p><ul><li>If you need to connect your prototype arm to your servo, do that!</li><li>Connect your servo to the microcontroller</li><li>Tape the electrodes to you or your partner and connect the wires</li><li>Connect the microcontroller to your computer, and turn it on (and make sure it&#x27;s connected)</li></ul><p></p><p>If your group members have different programs, try all of them to see the different ways they work, or which work best.</p><p></p><p>If something doesn&#x27;t work properly, figure out how to fix it with your partner.</p><p>You might have to make some changes in your Dataflow program...</p><p></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"32e37faa-9c26-4048-99c8-4605fd4ff43a\"></span></p>"
+          ],
+          "highlightedText": [
+            {
+              "id": "32e37faa-9c26-4048-99c8-4605fd4ff43a",
+              "text": "Remember: Make a plan, then make a change!"
+            }
           ]
         }
+      },
+      {
+        "id": "1KaRD0JhF2YizyOx",
+        "title": "With your group!",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "xcfpz9",
+          "tiles": [
+            {
+              "id": "OwkSeWzGt1j1W4Ck",
+              "title": "Strengths and Challenges",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>When you try your Dataflow program (or one that is the same as yours), work with your group to evaluate the strengths and challenges of your program.</p>"
+                ]
+              }
+            },
+            {
+              "id": "H0eFTRH1wzuhTEWj",
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "l3rVVo1TTLIQel6s": 156.6666717529297,
+                  "iDNdoz4re88I0Jo3": 167.7604217529297
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "ohkWcUnazKylXfAN",
+        "title": "When it all works, move on to the next tab!",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Wait... did you notice it&#x27;s a little different this time?</p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "Ti5imB_To8OXVILZ",
+          "providerId": "H0eFTRH1wzuhTEWj",
+          "dataSet": {
+            "id": "y2uFpL8RbxS2YdUb",
+            "name": "Evaluating your program",
+            "attributes": [
+              {
+                "id": "l3rVVo1TTLIQel6s",
+                "clientKey": "",
+                "name": "Strengths",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "iDNdoz4re88I0Jo3",
+                "clientKey": "",
+                "name": "Challenges",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "H0eFTRH1wzuhTEWj"
+        ]
       }
     ]
   }

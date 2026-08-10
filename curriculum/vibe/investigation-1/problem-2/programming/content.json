@@ -3,41 +3,98 @@
   "content": {
     "tiles": [
       {
+        "id": "LGu7IbY7wK14JiIw",
+        "title": "It might be helpful to enlarge this section for now!",
+        "content": {
+          "type": "Image",
+          "url": "vibe/images/Icon-Enlarge-Lessons.png",
+          "filename": "vibe/images/Icon-Enlarge-Lessons.png"
+        }
+      },
+      {
         "id": "iRc4WOvHCwl4gS8E",
         "title": "Adding Outputs",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Did you notice the blocks come in three different colors?</p><ul><li>The purple blocks are called “inputs.” They bring numbers into the program.</li><li>The blue blocks are called “processors.” They do something with those numbers inside the program.</li></ul><p>Now we can add a yellow block. This is called an output. Outputs use numbers to make something happen in real life or in simulations.</p><p>Click the “demo output” to add a tile to your workspace. Use the dropdown menu to change it into a gripper.</p>"
+            "<p>Did you notice the blocks come in three different colors?</p><ul><li>The purple blocks are called “signals.” They bring new signals into the program in the form of numbers.</li><li>The blue blocks are called “operators.” They operate on (do something with) those numbers inside the program.</li></ul><p>Now we can add a yellow block. These are devices. A &quot;live device&quot; makes something happen in real life or in a simulation. A &quot;demo device&quot; just shows a demo in the Dataflow program - it doesn&#x27;t do anything outside the program.</p><p>Click the “demo device” to add a tile to your workspace. Use the dropdown menu to change it into a gripper.</p>"
           ]
         }
       },
       {
         "id": "pjFzzheCZUoWC0LA",
-        "title": "Sketch 1",
+        "title": "Understanding the Blocks",
         "content": {
           "type": "Drawing",
           "objects": [
             {
-              "type": "image",
-              "id": "kJbAWR0j8AOhzlX5",
-              "x": 630,
-              "y": 61,
+              "type": "rectangle",
+              "id": "QNzyTx-J980Deu2-",
+              "x": 296.6666717529297,
+              "y": 275.55555725097656,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 252,
-              "height": 282,
-              "url": "vibe/images/Demo-Output-Image.png",
-              "filename": "Demo-Output-Image.png"
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#f7e58f",
+              "width": 111.11114501953125,
+              "height": 77.33334350585938
+            },
+            {
+              "type": "rectangle",
+              "id": "sQ7HHs317ozW7hZ6",
+              "x": 289.55540466308594,
+              "y": 158.22227478027344,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#0000ff",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#addef4",
+              "width": 122.66693115234375,
+              "height": 71.99996948242188
+            },
+            {
+              "type": "rectangle",
+              "id": "KK3VFxMdwWnSsaLQ",
+              "x": 298.6666717529297,
+              "y": 27.777755737304688,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#d100d1",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#a5b2ff",
+              "width": 101.33343505859375,
+              "height": 78.22225952148438
+            },
+            {
+              "type": "image",
+              "id": "zVVkFmsFBXu_0FM6",
+              "x": 495.99993896484375,
+              "y": 56,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 246,
+              "height": 273,
+              "url": "vibe/images/L1.2-Demo-Output-Image-Updated.png",
+              "filename": "L1.2-Demo-Output-Image-Updated.png"
             },
             {
               "type": "rectangle",
               "id": "ffuQ9fVJt7mjx78k",
-              "x": 632,
-              "y": 59,
+              "x": 496.88885498046875,
+              "y": 53.666656494140625,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -46,14 +103,14 @@
               "strokeDashArray": "",
               "strokeWidth": 2,
               "fill": "none",
-              "width": 58,
-              "height": 112
+              "width": 53.55560302734375,
+              "height": 88.88894653320312
             },
             {
               "type": "rectangle",
               "id": "vpa80CdPfKOck_MD",
-              "x": 633,
-              "y": 174,
+              "x": 497.88885498046875,
+              "y": 144.66665649414062,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -62,28 +119,28 @@
               "strokeDashArray": "",
               "strokeWidth": 2,
               "fill": "none",
-              "width": 58,
-              "height": 101
+              "width": 51.77777099609375,
+              "height": 117.88888549804688
             },
             {
               "type": "text",
               "id": "8KplG6zYnYgQbZg3",
-              "x": 479,
-              "y": 54,
+              "x": 320.7777099609375,
+              "y": 47.77777099609375,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 58,
-              "height": 35,
-              "stroke": "#d100d1",
-              "text": "Inputs"
+              "width": 55.3333740234375,
+              "height": 37.666717529296875,
+              "stroke": "#000000",
+              "text": "Signals"
             },
             {
               "type": "vector",
               "id": "DlEFMQYNGy0UfKVZ",
-              "x": 536,
-              "y": 72,
+              "x": 400.88885498046875,
+              "y": 66.66665649414062,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -98,22 +155,22 @@
             {
               "type": "text",
               "id": "f32UrFKopyyN-dzs",
-              "x": 458,
-              "y": 200,
+              "x": 308.6666259765625,
+              "y": 176.88888549804688,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 90,
-              "height": 42,
-              "stroke": "#0000ff",
-              "text": "Processors"
+              "width": 81.11114501953125,
+              "height": 36.66668701171875,
+              "stroke": "#000000",
+              "text": "Operators"
             },
             {
               "type": "vector",
               "id": "oS6fyFMpDOQDf2uc",
-              "x": 548,
-              "y": 216,
+              "x": 413.77777099609375,
+              "y": 192.88888549804688,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -128,8 +185,8 @@
             {
               "type": "vector",
               "id": "jfVbqAAgyBmA54w8",
-              "x": 547,
-              "y": 313,
+              "x": 411.88885498046875,
+              "y": 307.6666564941406,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -144,22 +201,22 @@
             {
               "type": "text",
               "id": "QUj-f0gkdU2isUpt",
-              "x": 477,
-              "y": 301,
+              "x": 318.7777099609375,
+              "y": 294.7777404785156,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
               "width": 69,
               "height": 41,
-              "stroke": "#ff8415",
-              "text": "Outputs"
+              "stroke": "#000000",
+              "text": "Devices"
             },
             {
               "type": "rectangle",
               "id": "fI4hshreKWLpojJn",
-              "x": 631,
-              "y": 277,
+              "x": 495,
+              "y": 266.3333435058594,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -168,14 +225,14 @@
               "strokeDashArray": "",
               "strokeWidth": 2,
               "fill": "none",
-              "width": 58,
-              "height": 60
+              "width": 56.22222900390625,
+              "height": 61.77777099609375
             },
             {
               "type": "vector",
               "id": "XqZ_lRHBCydZeBsF",
-              "x": 933,
-              "y": 157,
+              "x": 789.8888549804688,
+              "y": 132.111083984375,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -190,8 +247,8 @@
             {
               "type": "text",
               "id": "i8YjRQtD1jwlw67E",
-              "x": 928,
-              "y": 127,
+              "x": 784.8888549804688,
+              "y": 102.111083984375,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
@@ -214,7 +271,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Right now the demo gripper is 0% closed. We want to figure out how it works: can we make it fully closed or partially closed?</p><p></p><p>Connect the gripper to your program (or to a different program you design!) and try to figure out:</p><ol><li><strong>How do you make the gripper close 100%?</strong></li><li><strong>Can you make the gripper partially closed? (e.g., 25% closed, 50% closed, 90% closed)</strong></li><li><strong>If no, why not? If yes, how? Is there a percent closed that it </strong><strong><em>can&#x27;t</em></strong><strong> do?</strong></li></ol><p></p><p>You might ask &quot;But what do I connect it to?&quot; or &quot;What is my program supposed to look like?&quot;</p><p>As you saw earlier, there isn&#x27;t just one way to make things work in programming!</p><p>Throughout these lessons, you will be developing strategies for designing and making new programs!</p><p></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"52b0a17f-fac6-44ad-bf56-27b55ce9a7b7\"></span>: what should you try to figure out the questions?</p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"64597ffb-c9a3-42be-9e5b-a1db70e7a26c\"></span>: what is a way to connect this to figure out the problem? Is there a simpler program you can make that will make it easier for you to figure out how to control the gripper?</p><p>If you&#x27;re not sure, try one way you can think of to connect it, even if you&#x27;re not sure it&#x27;s the best way. If it doesn&#x27;t help you, you can think about a better way later!</p><p></p><p>Drag the table below to your workspace and fill as many rows as you need to help you keep track of what you have tried and to notice any patterns.</p>"
+            "<p>Right now the demo gripper is 0% closed. We want to figure out how it works: can we make it fully closed or partially closed?</p><p></p><p>Connect the gripper to your program (or to a different program you design!) and try to figure out:</p><ol><li><strong>How do you make the gripper close 100%?</strong></li><li><strong>Can you make the gripper partially closed? (e.g., 25% closed, 50% closed, 90% closed)</strong></li><li><strong>If no, why not? If yes, how? Is there a percent closed that it </strong><strong><em>can&#x27;t</em></strong><strong> do?</strong></li></ol><p></p><p>You might ask &quot;But what do I connect it to?&quot; or &quot;What is my program supposed to look like?&quot;</p><p>As you saw earlier, there isn&#x27;t just one way to make things work in programming!</p><p>Throughout these lessons, you will be developing strategies for designing and making new programs!</p><p></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"52b0a17f-fac6-44ad-bf56-27b55ce9a7b7\"></span>: what numbers should you try to figure out the questions? What else should you do?</p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"64597ffb-c9a3-42be-9e5b-a1db70e7a26c\"></span>: what is a way to connect this to figure out the problem? Is there a simpler program you can make that will make it easier for you to figure out how to control the gripper?</p><p>If you&#x27;re not sure, try one way you can think of to connect it, even if you&#x27;re not sure it&#x27;s the best way. If it doesn&#x27;t help you, you can think about a better way later!</p>"
           ],
           "highlightedText": [
             {
@@ -229,13 +286,134 @@
         }
       },
       {
-        "id": "OZd2K2B6asGy3zcD",
+        "id": "LyNzY-4346KUUarj",
+        "title": "With your partner",
         "content": {
-          "type": "Table",
-          "columnWidths": {
-            "SY0MjaMaDw29VNud": 304,
-            "PPsuhSYqaerUbZm_": 206
-          }
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "2WuIld",
+          "tiles": [
+            {
+              "id": "qPB74BveaUmVAIe6",
+              "title": "Figuring out what the demo gripper does!",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Drag this tile to your workspace and fill as many rows as you need to help you keep track of what you have tried and to notice any patterns.</p>"
+                ]
+              }
+            },
+            {
+              "id": "OZd2K2B6asGy3zcD",
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "SY0MjaMaDw29VNud": 304,
+                  "PPsuhSYqaerUbZm_": 206
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "UT8tGNIbe41eZmt0",
+        "title": "One more tool: Ada Ideas",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>Do you have questions? You can ask your partner, your group, or your teacher. You can also ask Ada Ideas!</p><p>Ada is an AI. She seems like a person, but she&#x27;s really just another tool. She can help you really well with some things, but not with everything. It&#x27;s kind of like she&#x27;s still learning how to think. </p><p>Also, this is an engineering unit, meaning there isn&#x27;t just one way to do things. Ada can&#x27;t give you any answers or tell you if you&#x27;re right or wrong because there is not right or wrong: each program or prototype has advantages and disadvantages.</p><p>But she might have some ideas, or she might be able to help you with some things. You might want to give it a try!</p>"
+          ]
+        }
+      },
+      {
+        "id": "RcNP1nHGhKTpln_I",
+        "title": "Ada Ideas",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "zlEBjJDLAh0HneE7",
+              "x": 507.5555877685547,
+              "y": 51.555572509765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 294,
+              "height": 229,
+              "url": "vibe/images/Icon-AdaIdeas.png",
+              "filename": "Icon-AdaIdeas.png"
+            },
+            {
+              "type": "text",
+              "id": "o2QUVCSWiGESBOg0",
+              "x": 835.5555725097656,
+              "y": 33.8889045715332,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 157.77764892578125,
+              "height": 81.33332824707031,
+              "stroke": "#000000",
+              "text": "Want some feedback? Ask for an idea at the top of your workspace."
+            },
+            {
+              "type": "text",
+              "id": "MwX7qBSt1VlfrxH7",
+              "x": 866.444580078125,
+              "y": 180.33342361450195,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 166.66668701171875,
+              "height": 96.44447326660156,
+              "stroke": "#000000",
+              "text": "Want to talk with Ada? Open a chat using the button at the bottom of your workspace."
+            },
+            {
+              "type": "vector",
+              "id": "gJxTP5XVTkVvzafc",
+              "x": 835.5555877685547,
+              "y": 52.555572509765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -128.888916015625,
+              "dy": 16,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "JlOkT4x36CYZAEyV",
+              "x": 865.7777557373047,
+              "y": 232.11114501953125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -66.6666259765625,
+              "dy": 9.77777099609375,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 303
         }
       },
       {
@@ -245,182 +423,235 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Did you notice that if you want to make your gripper open and close, you have to it yourself? You put in the numbers, and it closes or opens the gripper.</p><p>But coding can also help you do a bunch of things automatically.</p><p>For example, maybe you want to test a gripper to make sure it won&#x27;t break even if you use it for a really, really long time.</p><p>You don&#x27;t really want to sit for days and days and change one number so that it closes, and then change a number so it opens, and then change a number so it closes again, and then change one number so it opens again...It would be boring and take forever!</p><p>Instead, you can use code to make the gripper automatically open and close.</p><p></p><p>The sketch below has a drawing of a program. It&#x27; s just a starting point! Yours might look different, and you might have other ideas.</p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"69d2febf-c8ef-4591-8c74-c981c9434095\"></span></p><p><span data-slate-type=\"highlight\" data-slate-highlight-id=\"ce83c637-d465-4e8c-8714-ec3ba345a4b3\"></span></p><p>It&#x27;s okay if you don&#x27;t know what the block is called or even if it actually exists! Once you have a design, it will be easier to adjust it based on the actual blocks.</p><p>Describe what you want the block to do, and where you would connect it. You might decide to delete or change some or all of the blocks that are there.</p>"
+            "<p>Did you notice that if you want to make your gripper open and close, you have to it yourself? You put in the numbers, and it closes or opens the gripper.</p><p>But coding can also help you do a bunch of things automatically.</p><p>For example, maybe you want to test a gripper to make sure it won&#x27;t break even if you use it for a really, really long time.</p><p>You don&#x27;t really want to sit for days and days and change one number so that it closes, and then change a number so it opens, and then change a number so it closes again, and then change one number so it opens again...It would be boring and take forever!</p><p>Instead, you can use code to make the gripper <span data-slate-type=\"highlight\" data-slate-highlight-id=\"c773df2a-c7ae-4895-9b62-c0800a967048\"></span> open and close.</p>"
           ],
           "highlightedText": [
             {
-              "id": "69d2febf-c8ef-4591-8c74-c981c9434095",
-              "text": "The goal is to design a program that automatically opens and closes the gripper."
-            },
-            {
-              "id": "ce83c637-d465-4e8c-8714-ec3ba345a4b3",
-              "text": "Drag the sketch  over to your workspace and show your idea."
+              "id": "c773df2a-c7ae-4895-9b62-c0800a967048",
+              "text": "automatically"
             }
           ]
         }
       },
       {
-        "id": "0r836aGDcH7Wfwxb",
-        "title": "Make changes to this sketch to design an automatic gripper tester!",
+        "id": "2YRf5XZ4olV_7hJU",
+        "title": "By yourself",
         "content": {
-          "type": "Drawing",
-          "objects": [
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "tN8OuG",
+          "tiles": [
             {
-              "type": "rectangle",
-              "id": "ScokvUhGKICObJ_t",
-              "x": 426,
-              "y": 144,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "#a5b2ff",
-              "width": 132,
-              "height": 82
+              "id": "pqgHdiTzrfGquuta",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>The sketch below has a drawing of a program. It&#x27; s just a starting point! Yours might look different, and you might have other ideas.</p><p>Drag this tile over and make changes to the sketch: <span data-slate-type=\"highlight\" data-slate-highlight-id=\"410e8ce6-0f9c-4769-aa1a-7caed93a08be\"></span></p><p>You can start by finishing the description of the demo gripper. Then, work on your design.</p><p>It&#x27;s okay if you don&#x27;t know what the block is called or even if it actually exists! Once you have a design, it will be easier to adjust it based on the actual blocks.</p><p>Describe what you want the block to do, and where you would connect it. You might decide to delete or change some or all of the blocks and connections that are there.</p>"
+                ],
+                "highlightedText": [
+                  {
+                    "id": "410e8ce6-0f9c-4769-aa1a-7caed93a08be",
+                    "text": "The goal is to design a program that automatically opens and closes the gripper."
+                  }
+                ]
+              }
             },
             {
-              "type": "rectangle",
-              "id": "KjZZcO1uFNfMlj6-",
-              "x": 425,
-              "y": 46,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "#a5b2ff",
-              "width": 132,
-              "height": 82
+              "id": "0r836aGDcH7Wfwxb",
+              "title": "Make changes to this sketch to design an automatic gripper tester!",
+              "content": {
+                "type": "Drawing",
+                "objects": [
+                  {
+                    "type": "rectangle",
+                    "id": "ScokvUhGKICObJ_t",
+                    "x": 112.55551147460938,
+                    "y": 167.99990844726562,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#000000",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "#a5b2ff",
+                    "width": 165.77774047851562,
+                    "height": 94.444580078125
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "KjZZcO1uFNfMlj6-",
+                    "x": 114.2220458984375,
+                    "y": 41.55548095703125,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#000000",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "#a5b2ff",
+                    "width": 161.3333740234375,
+                    "height": 99.77774047851562
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "0UzyytI4ae0fndRn",
+                    "x": 417.555419921875,
+                    "y": 109,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#000000",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "#addef4",
+                    "width": 152,
+                    "height": 93.33334350585938
+                  },
+                  {
+                    "type": "rectangle",
+                    "id": "sHt0BWeaIrpIRj6V",
+                    "x": 673.2220153808594,
+                    "y": 107.33322143554688,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#ff8415",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "fill": "#f7e58f",
+                    "width": 178.22219848632812,
+                    "height": 124.66683959960938
+                  },
+                  {
+                    "type": "text",
+                    "id": "Kt1O8FwaeryeiB5W",
+                    "x": 687.7777099609375,
+                    "y": 125.77774047851562,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 147.111083984375,
+                    "height": 85.00006103515625,
+                    "stroke": "#000000",
+                    "text": "DEMO GRIPPER: It opens when ____ and closes when ____"
+                  },
+                  {
+                    "type": "text",
+                    "id": "VrLWFPEzLoehn-da",
+                    "x": 437.99981689453125,
+                    "y": 121.55557250976562,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 114,
+                    "height": 69,
+                    "stroke": "#000000",
+                    "text": "SUBTRACTION: __ - __ = __"
+                  },
+                  {
+                    "type": "text",
+                    "id": "zmUHWv2E-HV0w_ST",
+                    "x": 132.3331298828125,
+                    "y": 57.22222900390625,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 126.4443359375,
+                    "height": 73.77777099609375,
+                    "stroke": "#000000",
+                    "text": "NUMBER 1 (sends a single number as a signal)"
+                  },
+                  {
+                    "type": "vector",
+                    "id": "KNNeuHZfKNvdmdUC",
+                    "x": 277.555419921875,
+                    "y": 95.33334350585938,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#bfbfbf",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "dx": 134,
+                    "dy": 47,
+                    "headShape": "triangle"
+                  },
+                  {
+                    "type": "vector",
+                    "id": "Dbbvh5KkPr-diZwe",
+                    "x": 277.555419921875,
+                    "y": 230.33334350585938,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#bfbfbf",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "dx": 136,
+                    "dy": -53,
+                    "headShape": "triangle"
+                  },
+                  {
+                    "type": "vector",
+                    "id": "JUE5KUSokvV-RgLo",
+                    "x": 570.66650390625,
+                    "y": 161.33334350585938,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "stroke": "#bfbfbf",
+                    "strokeDashArray": "",
+                    "strokeWidth": 2,
+                    "dx": 100.888916015625,
+                    "dy": 6.88897705078125,
+                    "headShape": "triangle"
+                  },
+                  {
+                    "type": "text",
+                    "id": "0vkqdTcajqqvP6pm",
+                    "x": 132.99981689453125,
+                    "y": 179.66668701171875,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 126.4443359375,
+                    "height": 73.77777099609375,
+                    "stroke": "#000000",
+                    "text": "NUMBER 1 (sends another number as a signal)"
+                  }
+                ]
+              },
+              "layout": {
+                "height": 301
+              }
             },
             {
-              "type": "rectangle",
-              "id": "0UzyytI4ae0fndRn",
-              "x": 699,
-              "y": 85,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#000000",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "fill": "#addef4",
-              "width": 128,
-              "height": 88
-            },
-            {
-              "type": "text",
-              "id": "Kt1O8FwaeryeiB5W",
-              "x": 955,
-              "y": 100,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 116,
-              "height": 61,
-              "stroke": "#ff8415",
-              "text": "GRIPPER: It opens and closes"
-            },
-            {
-              "type": "text",
-              "id": "VrLWFPEzLoehn-da",
-              "x": 707,
-              "y": 94,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 114,
-              "height": 69,
-              "stroke": "#0000ff",
-              "text": "SUBTRACTION: __ - __ = __"
-            },
-            {
-              "type": "text",
-              "id": "zmUHWv2E-HV0w_ST",
-              "x": 444,
-              "y": 51,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 98,
-              "height": 72,
-              "stroke": "#000000",
-              "text": "NUMBER 1 (it's a number you choose)"
-            },
-            {
-              "type": "text",
-              "id": "rQ-aWh5WdL-f_2Ps",
-              "x": 432,
-              "y": 151,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 120,
-              "height": 70,
-              "stroke": "#000000",
-              "text": "NUMBER 2 (It's another number you choose)"
-            },
-            {
-              "type": "vector",
-              "id": "KNNeuHZfKNvdmdUC",
-              "x": 559,
-              "y": 66,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#bfbfbf",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "dx": 134,
-              "dy": 47,
-              "headShape": "triangle"
-            },
-            {
-              "type": "vector",
-              "id": "Dbbvh5KkPr-diZwe",
-              "x": 559,
-              "y": 201,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#bfbfbf",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "dx": 136,
-              "dy": -53,
-              "headShape": "triangle"
-            },
-            {
-              "type": "vector",
-              "id": "JUE5KUSokvV-RgLo",
-              "x": 821,
-              "y": 132,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "stroke": "#bfbfbf",
-              "strokeDashArray": "",
-              "strokeWidth": 2,
-              "dx": 132,
-              "dy": 6,
-              "headShape": "triangle"
+              "id": "6IfzeAnnikXcX4l7",
+              "title": "You can also write some of your idea out",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>If you have an idea but you&#x27;re not sure how to draw it out, write it here!</p>"
+                ]
+              }
             }
           ]
-        },
-        "layout": {
-          "height": 250
         }
       },
       {

@@ -58,6 +58,133 @@
           }
         }
       },
+      [
+        {
+          "id": "t6cc9MTJa52H4ENk",
+          "title": "Oh no! My servo isn't connecting!",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<p>Are you having trouble connecting? Try these things:</p><ul><li>Click the lightening bolt icon at the top left of your Dataflow tile (in your workspace) and click spiker:bit, like this picture →</li></ul><p>If that doesn&#x27;t work, try these options. After each option, try connecting using the lightening bolt icon again!</p><ul><li>Make sure you&#x27;re in Google chrome (not Safari or another browser).</li><li>Turn the spiker:bit off and unplug it. Then, plug it back in and turn it on again.</li><li>Close the CLUE lesson and re-open it</li></ul><p>If all else fails, ask for help! Even engineers have connection problems sometimes!</p>"
+            ]
+          }
+        },
+        {
+          "id": "gqGbTyWRT0idQ1vL",
+          "title": "Try this first!",
+          "content": {
+            "type": "Drawing",
+            "objects": [
+              {
+                "type": "image",
+                "id": "U5vdKhPcVIXxrXkT",
+                "x": 0,
+                "y": 44.4444580078125,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "width": 129,
+                "height": 259,
+                "url": "vibe/images/Connecting-spikerbit.png",
+                "filename": "Connecting-spikerbit.png"
+              },
+              {
+                "type": "vector",
+                "id": "2hDYxAIGEINLDwej",
+                "x": 169.236083984375,
+                "y": 65.06947326660156,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "stroke": "#000000",
+                "strokeDashArray": "",
+                "strokeWidth": 2,
+                "dx": -128.8887939453125,
+                "dy": 5.5555419921875,
+                "headShape": "triangle"
+              },
+              {
+                "type": "text",
+                "id": "m8FbM5ug-Ogh2OID",
+                "x": 169.2362060546875,
+                "y": 53.95835876464844,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "width": 126.666748046875,
+                "height": 54.444427490234375,
+                "stroke": "#000000",
+                "text": "Click the lightening bolt icon"
+              },
+              {
+                "type": "text",
+                "id": "Rmsr2Re4RgUnrcvh",
+                "x": 170.3472900390625,
+                "y": 136.1805877685547,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "width": 124.444580078125,
+                "height": 32.22222900390625,
+                "stroke": "#000000",
+                "text": "Choose Spiker:bit"
+              },
+              {
+                "type": "text",
+                "id": "mhT3wHyV-IqRAcxC",
+                "x": 205.9029541015625,
+                "y": 179.51390075683594,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "width": 245.5557861328125,
+                "height": 56.6666259765625,
+                "stroke": "#008a00",
+                "text": "A pop-up should open, and you should see an option that you can connect."
+              },
+              {
+                "type": "vector",
+                "id": "okUzg-qH3TqhoEhV",
+                "x": 170.3472900390625,
+                "y": 147.29168701171875,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "stroke": "#000000",
+                "strokeDashArray": "",
+                "strokeWidth": 2,
+                "dx": -93.3333740234375,
+                "dy": -8.88885498046875,
+                "headShape": "triangle"
+              },
+              {
+                "type": "text",
+                "id": "rc81X7IAZHiPPKYR",
+                "x": 208.125244140625,
+                "y": 248.40269470214844,
+                "hFlip": false,
+                "vFlip": false,
+                "rotation": 0,
+                "visible": true,
+                "width": 247.778076171875,
+                "height": 50,
+                "stroke": "#eb0000",
+                "text": "If it says \"no compatible devices found\" try the other steps!"
+              }
+            ]
+          },
+          "layout": {
+            "height": 327.9930725097656
+          }
+        }
+      ],
       {
         "id": "l6SZ-VA_fj4_N7zj",
         "title": "With your partner",
@@ -69,7 +196,7 @@
           "tiles": [
             {
               "id": "zEP7vF71BTK6W8zk",
-              "title": "Question Prompt",
+              "title": "Once it finally connects...",
               "fixedPosition": true,
               "content": {
                 "type": "Text",
@@ -96,7 +223,7 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p><strong>How do you make the servo move to 180°?</strong></p>"
+                  "<p><strong>How do you make the servo move to 100% rotation?</strong></p>"
                 ]
               }
             },
@@ -107,7 +234,7 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p><strong>Can you make the servo move to other angles? For example, 90°, or 45°?</strong></p>"
+                  "<p><strong>Can you make the servo move to other angles? For example, 90% rotation, or 45% rotation?</strong></p>"
                 ]
               }
             },
@@ -118,7 +245,7 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p><strong>If no, why not? If yes, how? Is there an angle between 0° - 180° that it </strong><strong><em>can&#x27;t</em></strong><strong> go to?</strong></p>"
+                  "<p><strong>If no, why not? If yes, how? Is there an amount between 0-100% rotation that it </strong><strong><em>can&#x27;t</em></strong><strong> go to?</strong></p>"
                 ]
               }
             }
