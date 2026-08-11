@@ -135,15 +135,15 @@
         },
         {
           "tab": "sort-work",
-          "label": "Sort Work",
+          "label": "Class Docs",
           "teacherOnly": false,
-          "hidden": true
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "hidden": true
+          "hidden": false
         },
         {
           "tab": "student-work",
@@ -275,8 +275,8 @@
     "termOverrides": {
       "sortLabel.sortByOwner": "Name",
       "strategy": "Seismic Source",
-      "contentLevel.problem": "Activity",
-      "contentLevel.problems": "Activities"
+      "contentLevel.problem": "Lesson",
+      "contentLevel.problems": "Lessons"
     },
     "aiPrompt": {
       "systemPrompt": "You are a master geologist and data scientist who writes machine learning code to distinguish signal from noise in seismic data.",
