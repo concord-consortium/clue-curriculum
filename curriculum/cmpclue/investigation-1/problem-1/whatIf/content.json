@@ -3,6 +3,124 @@
   "content": {
     "tiles": [
       {
+        "id": "xMQ9nnrJBpFBoRqW",
+        "title": "Text 3",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>Explaining Your Ideas</strong></h2><p>When working on a math problem, it is important to show how you solved the problem and explain your thinking. Adding text can help, but showing connections with arrows between mathematical objects to explain the connection can be a huge help. </p><p>We will be looking at:</p><ul><li>Sparrows</li><li>Sharing work</li><li>Files</li></ul>"
+          ]
+        }
+      },
+      {
+        "id": "mUPyx5MS8rn_J_2E",
+        "title": "Text 4",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><u><strong>Sparrows</strong></u></p><p>Sparrows allow you to connect mathematical objects and describe how they relate. They come in two forms.</p><ul><li>Curved, two-ended Sparrows</li><li>Straight, one-ended Sparrows</li></ul><p>Sparrow can connect points, lines, shapes on any graphs or cells in a table. You can also show and hide all sparrows in your workspace.</p>"
+          ]
+        }
+      },
+      {
+        "id": "TGStxgw3KGlQLT5j",
+        "title": "Sparrow Features 1",
+        "content": {
+          "type": "Image",
+          "url": "cmpclue/images/sparrows.png",
+          "filename": "cmpclue/images/sparrows.png"
+        }
+      },
+      {
+        "id": "tE8jSTi3ckzrfGOb",
+        "title": "Text 5",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><strong>To Use Sparrows</strong></p><p>Select the sparrow button at the top of your workspace. All tiles that accept sparrows become outlined in blue. </p><p>Note: You can only add or edit sparrows when you have the sparrow button selected. You cannot edit tiles when the sparrow button is selected.</p><p>Click and release the start point of the sparrow. Move your mouse to the desired connection point and click. Enter text in the small textbox on the mid-point of the sparrow to explain why you have made that connection. When finished, click the sparrow button again or click the selection pointer. To edit, click the sparrow button again. When selected there is an &quot;x&quot; on the sparrow to delete it. You can drag curved sparrows by the text box to move the curve.</p><p>Delete the &quot;gets big quickly sparrow&quot; and add a new sparrow connecting an x-value in the table to its corresponding point on the graph.</p><p>Two examples of sparrow use below. Create your own sparrows! You can drag these tiles into your workspace or go back to the tables and number lines in the <strong>Initial Challenge </strong>tab if you wish!</p>"
+          ]
+        }
+      },
+      [
+        {
+          "id": "sLjosdE02tRu1fm6",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "WzljvWQLf2N_mLEw": 80,
+              "VuI2K9t9PauAnJX5": 80
+            }
+          }
+        },
+        {
+          "id": "3FKO5Tz3otdpYXbr",
+          "title": "Multiplying Numbers by Themselves 1",
+          "content": {
+            "type": "Graph",
+            "adornments": [],
+            "axes": {
+              "bottom": {
+                "type": "numeric",
+                "place": "bottom",
+                "scale": "linear",
+                "min": 0,
+                "max": 4.5
+              },
+              "left": {
+                "type": "numeric",
+                "place": "left",
+                "scale": "linear",
+                "min": -3.05,
+                "max": 18.34
+              }
+            },
+            "lockAxes": false,
+            "plotType": "scatterPlot",
+            "layers": [
+              {
+                "id": "LAYRZ7kf6BdL5W_T",
+                "config": {
+                  "id": "DCONXaZp9kc_ed9h",
+                  "dataset": "AqH8PrkSzrYWK76b",
+                  "metadata": "4vkFzGDbO5ujSR1E",
+                  "primaryRole": "x",
+                  "_attributeDescriptions": {
+                    "x": {
+                      "attributeID": "vLSGhqTm9pd_apsp"
+                    }
+                  },
+                  "_yAttributeDescriptions": [
+                    {
+                      "attributeID": "GKmq3M1ARzcV2O9g"
+                    }
+                  ]
+                },
+                "editable": false
+              }
+            ],
+            "_idColors": {
+              "GKmq3M1ARzcV2O9g": 0
+            },
+            "_pointColors": [
+              "#E6805B"
+            ],
+            "_pointStrokeColor": "#FFFFFF",
+            "pointStrokeSameAsFill": false,
+            "plotBackgroundColor": "#FFFFFF",
+            "pointSizeMultiplier": 1,
+            "isTransparent": false,
+            "plotBackgroundImageID": "",
+            "showParentToggles": false,
+            "showMeasuresForSelection": false,
+            "xAttributeLabel": "x",
+            "yAttributeLabel": "x * x"
+          }
+        }
+      ],
+      {
         "id": "Q-Vo3gyvvxjhWZN_",
         "title": "Text 1",
         "content": {
@@ -283,6 +401,151 @@
         "tiles": [
           "0YGrgySpyYXp1EK2"
         ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "LoScwZ7ZCzABlEtJ",
+          "providerId": "sLjosdE02tRu1fm6",
+          "dataSet": {
+            "id": "QvSHIUoiMhHxCiqr",
+            "name": "Number * Number",
+            "attributes": [
+              {
+                "id": "WzljvWQLf2N_mLEw",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "VuI2K9t9PauAnJX5",
+                "clientKey": "",
+                "name": "x * x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "16"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KZV7J1V7EX2H3DVX7WWM585P"
+              },
+              {
+                "__id__": "01KZV7J1V7EX2H3DVX7WWM585Q"
+              },
+              {
+                "__id__": "01KZV7J1V7EX2H3DVX7WWM585R"
+              },
+              {
+                "__id__": "01KZV7J1V7EX2H3DVX7WWM585S"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "provider": "sLjosdE02tRu1fm6",
+        "tiles": [
+          "sLjosdE02tRu1fm6"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "eun_5kO0hKKs5eEa",
+          "providerId": "",
+          "dataSet": {
+            "id": "AqH8PrkSzrYWK76b",
+            "name": "Number * Number",
+            "attributes": [
+              {
+                "id": "vLSGhqTm9pd_apsp",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "title": ""
+              },
+              {
+                "id": "GKmq3M1ARzcV2O9g",
+                "clientKey": "",
+                "name": "x * x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "1",
+                  "4",
+                  "9",
+                  "16"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "01KZV7J3VZNSD4AEFGHN8JJRAX"
+              },
+              {
+                "__id__": "01KZV7J3VZNSD4AEFGHN8JJRAY"
+              },
+              {
+                "__id__": "01KZV7J3VZNSD4AEFGHN8JJRAZ"
+              },
+              {
+                "__id__": "01KZV7J3VZNSD4AEFGHN8JJRB0"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "3FKO5Tz3otdpYXbr"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedCaseMetadata",
+          "id": "4vkFzGDbO5ujSR1E",
+          "data": "AqH8PrkSzrYWK76b",
+          "collections": {},
+          "categories": {},
+          "columnWidths": {},
+          "hidden": {}
+        },
+        "tiles": [
+          "3FKO5Tz3otdpYXbr"
+        ]
       }
     ],
     "annotations": [
@@ -340,6 +603,61 @@
           "dy": 47
         },
         "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "JVhZO7Z-WVQkOmlt",
+        "sourceObject": {
+          "tileId": "sLjosdE02tRu1fm6",
+          "objectId": "cell:{01KZV7J1V7EX2H3DVX7WWM585R}:{WzljvWQLf2N_mLEw}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetObject": {
+          "tileId": "sLjosdE02tRu1fm6",
+          "objectId": "cell:{01KZV7J1V7EX2H3DVX7WWM585R}:{VuI2K9t9PauAnJX5}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "text": "x * x",
+        "textOffset": {
+          "dx": 1.9999999999999927,
+          "dy": 47
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "pUNoO2JrBxKmFeZh",
+        "sourceObject": {
+          "tileId": "sLjosdE02tRu1fm6",
+          "objectId": "cell:{01KZV7J1V7EX2H3DVX7WWM585R}:{VuI2K9t9PauAnJX5}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 0,
+          "dy": -8
+        },
+        "targetOffset": {
+          "dx": 1325.5,
+          "dy": -94.5
+        },
+        "normalizedTargetOffset": {
+          "dx": 1.6589486858573217,
+          "dy": -0.21976744186046512
+        },
+        "text": "Gets big quickly",
+        "textOffset": {
+          "dx": -224,
+          "dy": 154
+        },
+        "shape": "straight",
         "type": "arrowAnnotation"
       }
     ]
