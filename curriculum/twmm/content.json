@@ -5,7 +5,8 @@
   "subtitle": "Linear Functions and Bivariate Data",
   "config": {
     "enableHistoryRoles": [
-      "teacher", "student"
+      "teacher",
+      "student"
     ],
     "disablePublish": true,
     "placeholderText": "Enter notes here",
@@ -37,13 +38,16 @@
               "title": "Now What Do You Know?",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -114,18 +118,28 @@
                 "teacher"
               ]
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "student-work",
           "label": "Student Work",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": true
         },
         {
           "tab": "sort-work",
           "label": "Class Work",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
@@ -340,7 +354,11 @@
     "termOverrides": {
       "strategy": "Select Student Strategy"
     },
-    "enableCommentRoles": ["student", "teacher", "researcher"],
+    "enableCommentRoles": [
+      "student",
+      "teacher",
+      "researcher"
+    ],
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master 8th grade math teacher.",
