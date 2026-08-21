@@ -49,13 +49,21 @@
         "title": "Expression",
         "isTileTool": true
       },
-      {"id": "Numberline", "title": "Numberline", "isTileTool": true},
+      {
+        "id": "Numberline",
+        "title": "Numberline",
+        "isTileTool": true
+      },
       {
         "id": "Image",
         "title": "Image",
         "isTileTool": true
       },
-      {"id": "Question", "title": "Question", "isTileTool": true},
+      {
+        "id": "Question",
+        "title": "Question",
+        "isTileTool": true
+      },
       {
         "id": "sparrow",
         "title": "Sparrow",
@@ -121,13 +129,16 @@
               "title": "Now What Do You Know?",
               "type": "problem-documents"
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "teacher-guide",
           "label": "Teacher Guide",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": false
         },
         {
           "tab": "my-work",
@@ -198,18 +209,28 @@
                 "teacher"
               ]
             }
-          ]
+          ],
+          "teacherOnly": false,
+          "hidden": false
         },
         {
           "tab": "student-work",
           "label": "Student Work",
           "teacherOnly": true,
-          "sections": []
+          "sections": [],
+          "hidden": true
         },
         {
           "tab": "sort-work",
           "label": "Class Work",
-          "teacherOnly": false
+          "teacherOnly": false,
+          "hidden": false
+        },
+        {
+          "tab": "class-work",
+          "label": "Class Work",
+          "teacherOnly": false,
+          "hidden": true
         }
       ]
     },
