@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h2><strong>How would you go about identifying an earthquake signal?</strong></h2>"
+            "<h2><strong>How does the machine determine what the signal is?</strong></h2><p>Now is the time to look through real seismic data from Anchorage. You will search through the data to identify earthquake signals!</p>"
           ]
         }
       },
@@ -20,44 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<h2>Today, we are going to use the WaveRunner and Timeline tiles to select seismic data and find events! <strong>Here is an example of what an earthquake wave looks like.</strong></h2>"
-          ]
-        }
-      },
-      {
-        "id": "LAOxR7I3R4RS8MLR",
-        "title": "Sketch 1",
-        "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "image",
-              "id": "QwMOaTgdICToJaJc",
-              "x": 0,
-              "y": 0,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 230,
-              "height": 290,
-              "url": "seismic/images/earthquakes.jpg",
-              "filename": "earthquakes.jpg"
-            }
-          ]
-        },
-        "layout": {
-          "height": 228
-        }
-      },
-      {
-        "id": "2F-_GzxLNKIaW4r5",
-        "title": "Text 4",
-        "content": {
-          "type": "Text",
-          "format": "html",
-          "text": [
-            "<p><strong>ACTIVITY</strong></p><p>Use the Timeline tile to search through the seismic data for signals of earthquakes. Be sure to check that each signal you choose matches the shape of the ones above! </p><p>Drag the table below into your workspace. When you have found a signal, record its characteristics in the table.</p>"
+            "<p><strong>Instructions</strong></p><p>1) In the WaveRunner tile under Challenge 2, pick a station and date range. </p><p>2) Click the &quot;Timeline It!&quot; button in the bottom control bar of the WaveRunner tile. The Timeline tile will display the data for the station and dates you selected. </p><p>3) Use the Timeline tile to search through the seismic data for signals of earthquakes. Be sure to check that each signal you choose matches the shape of the ones above! </p><p>4) When you have found a signal, record its characteristics in the table.</p>"
           ]
         }
       },
@@ -82,6 +45,30 @@
           "format": "html",
           "text": [
             "<p><strong>QUESTIONS TO ANSWER</strong></p>"
+          ]
+        }
+      },
+      {
+        "id": "vqu2fE3pJ3u7xYiD",
+        "title": "Question 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "kyzq3K",
+          "tiles": [
+            {
+              "id": "sai47DlIhukxjIpo",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            }
           ]
         }
       }

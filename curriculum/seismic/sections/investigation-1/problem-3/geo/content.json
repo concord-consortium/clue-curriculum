@@ -9,7 +9,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>As you saw in the previous lesson, even combing through a few minutes of seismic data can be unclear about what kind of signal you are looking at. To truly be useful, you&#x27;re going to want to look at hours or days of data and get a summary of what kind of signals you find. That&#x27;s where machine learning can really speed things up. A machine learning model looks at data in chunks and compares profiles to those it&#x27;s been trained on before, similar to the signals you saw yesterday.</p><p>In this activity, you will use a machine learning model to do much the same activity as you did by hand yesterday- find seismic signals in the noise of all the seismic data!</p>"
+            "<h2>What is the model able to do when trained properly by human scientists?</h2><p>As you saw in the previous lesson, even combing through a few minutes of seismic data can be unclear about what kind of signal you are looking at. To truly be useful, you&#x27;re going to want to look at hours or days of data and get a summary of what kind of signals you find. That&#x27;s where machine learning can really speed things up. A machine learning model looks at data in chunks and compares profiles to those it&#x27;s been trained on before, similar to the signals you saw yesterday.</p><p>In this activity, you will use a machine learning model to do much the same activity as you did by hand yesterday- find seismic signals in the noise of all the seismic data!</p>"
           ]
         }
       },
@@ -20,7 +20,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>INSTRUCTIONS</strong></p><p>1) In the &quot;File&quot; menu in the top left of the right side of CLUE, click &quot;Open&quot;. Then, select your document from yesterday, probably called &quot;____&quot;. Once that is open, click the &quot;File&quot; menu again and select &quot;Make a Copy&quot;. This will make sure your work from yesterday is copied!</p><p>2) In your WaveRunner tile from yesterday, we will now run the ML model on the same data. Select &quot;Natural events&quot; from the model dropdown list.</p><p>3) Click the &quot;Play&quot; button in the bottom toolbar of the model menu. </p><p>4) When it is finished running, click the &quot;Timeline It!&quot; and &quot;Data Table&quot; buttons in the bottom control bar of the WaveRunner Tile. </p>"
+            "<h2><strong>INSTRUCTIONS</strong></h2><p>1) In the &quot;File&quot; menu in the top left of the right side of CLUE, click &quot;Open&quot;. Then, select your document from yesterday, probably called &quot;____&quot;. Once that is open, click the &quot;File&quot; menu again and select &quot;Make a Copy&quot;. This will make sure your work from yesterday is copied!</p><p>2) In your WaveRunner tile from yesterday, we will now run the ML model on the same data. Select &quot;Natural events&quot; from the model dropdown list.</p><p>3) Click the &quot;Play&quot; button in the bottom toolbar of the model menu. </p><p>4) When it is finished running, click the &quot;Timeline It!&quot; and &quot;Data Table&quot; buttons in the bottom control bar of the WaveRunner Tile. </p>"
           ]
         }
       },
@@ -31,9 +31,100 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Questions</strong></p><p>Drag this tile to your document, on the right side of CLUE.  Answer each of the questions below.</p><p>1) How many natural events did the ML model find? Compare this number to the number of events you found yesterday looking through the same data!</p><p>2) Why do you think the model found such a different number of events than you did looking at the same data?</p><p>3) Did you find any of the same events as the ML model? Look closely at the timestamps of your events and the model events. Were any the same? Record them below!</p>"
+            "<h2><strong>Questions</strong></h2><p>Drag this tile to your document, on the right side of CLUE.  Answer each of the questions below.</p><p>1) How many natural events did the ML model find? Compare this number to the number of events you found yesterday looking through the same data!</p><p>2) Why do you think the model found such a different number of events than you did looking at the same data?</p><p>3) Did you find any of the same events as the ML model? Look closely at the timestamps of your events and the model events. Were any the same? Record them below!</p>"
           ]
         }
+      },
+      {
+        "id": "xrYNjhPs2IxCAeYl",
+        "title": "Question 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "JjcdG4",
+          "tiles": [
+            {
+              "id": "NaCNoJ9ETbrKXfTV",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>How many natural events did the ML model find? Compare this number to the number of events you found yesterday looking through the same data!</p>"
+                ]
+              }
+            },
+            [
+              {
+                "id": "eEatwEqRXaWdU2Vr",
+                "title": "Text 4",
+                "content": {
+                  "type": "Text",
+                  "format": "html",
+                  "text": [
+                    "<p></p>"
+                  ]
+                }
+              },
+              {
+                "id": "rTcgfk7Cf4lOVyH7",
+                "content": {
+                  "type": "Table",
+                  "columnWidths": {
+                    "rCkVykgikkDxb4tV": 80,
+                    "tfSu6karx3eRyX_G": 80
+                  }
+                }
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "p-gmljPDT4_zf3ku",
+          "providerId": "rTcgfk7Cf4lOVyH7",
+          "dataSet": {
+            "id": "ZvOy7091iqu4SAcj",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "rCkVykgikkDxb4tV",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "tfSu6karx3eRyX_G",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "rTcgfk7Cf4lOVyH7"
+        ]
       }
     ]
   }

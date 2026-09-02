@@ -7,7 +7,6 @@
   "config": {
     "placeholderText": "Drag text, models, or sketches here.",
     "autoAssignStudentsToIndividualGroups": false,
-    "defaultPanelLayout": "resources-only",
     "hide4up": true,
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Seismic Wave (type)",
@@ -286,22 +285,23 @@
         "Date",
         "Group"
       ]
-    }
+    },
+    "defaultPanelLayout": "workspace-only"
   },
   "sections": {
     "ml": {
-      "initials": "ML",
-      "title": "Machine Learning",
+      "initials": "CH1",
+      "title": "Challenge 1",
       "placeholder": "Discuss or program your machine learning models here."
     },
     "geo": {
-      "initials": "GEO",
-      "title": "Geology",
-      "placeholder": "Discuss, program or paste images of your geology ideas here."
+      "initials": "CH2",
+      "title": "Challenge 2",
+      "placeholder": "Show your work."
     },
     "help": {
-      "initials": "REF",
-      "title": "CLUE Help",
+      "initials": "EXIT",
+      "title": "Exit Ticket",
       "placeholder": "Any notes about the program or library."
     }
   },
@@ -309,34 +309,247 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "SeismicWaves",
+      "title": "SeismicML: Separating the Signal from the Noise",
       "problems": [
         {
           "description": "Activity 1.1",
           "ordinal": 1,
-          "title": "Activity 1: Earth is noisy",
+          "title": "Lesson 1: Earth is noisy",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-1/geo/content.json"
+            "sections/investigation-1/problem-1/ml/content.json",
+            "sections/investigation-1/problem-1/geo/content.json",
+            "sections/investigation-1/problem-1/help/content.json"
           ],
           "config": {
+            "defaultDocumentTemplateEnabled": true,
             "defaultDocumentTemplate": {
               "tiles": [
                 {
-                  "id": "8pKl3_OI-jz7hR8-",
-                  "title": "Text 1",
                   "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>Listening to Motion</strong></p>",
-                      "<p>Use the model below to read in some seismic data and observe its format.</p>"
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "id": "oVNhXVBt587_d6jd",
+                  "title": "Interactive 1",
+                  "content": {
+                    "type": "IframeInteractive",
+                    "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
+                    "interactiveState": {},
+                    "authoredState": {},
+                    "maxHeight": 0,
+                    "enableScroll": false
+                  }
+                },
+                {
+                  "id": "R51YlJkCjMPZCrcK",
+                  "title": "Sketch 1",
+                  "content": {
+                    "type": "Drawing",
+                    "objects": [
+                      {
+                        "type": "text",
+                        "id": "9eU4uRVvobZzVBrS",
+                        "x": 46.34375,
+                        "y": 18.58984375,
+                        "hFlip": false,
+                        "vFlip": false,
+                        "rotation": 0,
+                        "visible": true,
+                        "width": 119.7890625,
+                        "height": 106.41796875,
+                        "stroke": "#000000",
+                        "text": "In this box, upload an image of the signal your stomp made!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "8-sWQySW9PjVl6ac",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "6D3YPI",
+                    "tiles": [
+                      {
+                        "id": "kYC6yo3_MbF_NNtg",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Your stomp created a signal in the seismic data. <strong>Describe the shape of the stomp signal.</strong> How long did it last? How large of a spike did it create in the data?</p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "id": "cjlxvev_7TULwHQi",
+                  "content": {
+                    "type": "Table",
+                    "columnWidths": {
+                      "7yFIJk09TeCdn_J7": 195.578125,
+                      "Xizdn0Z_cquRE7gu": 255.32421875,
+                      "CXWdAivua1gB4hlb": 210.46484375,
+                      "gt4i5ENEY5sE-ZW-": 478.671875
+                    }
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "id": "PgS8xaPfkVCXgvrQ",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "Bq07FB",
+                    "tiles": [
+                      {
+                        "id": "nZ9Mg2hF3jI7__R_",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Describe how the stomp signals are similar and how they are different.</p>"
+                          ]
+                        }
+                      }
                     ]
                   }
                 }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "lATtnjLfd2zKgGwV",
+                    "providerId": "cjlxvev_7TULwHQi",
+                    "dataSet": {
+                      "id": "DIIU7KoEU0fN3uZo",
+                      "name": "Signals in seismic data",
+                      "attributes": [
+                        {
+                          "id": "7yFIJk09TeCdn_J7",
+                          "clientKey": "",
+                          "name": "Instance",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "Xizdn0Z_cquRE7gu",
+                          "clientKey": "",
+                          "name": "Date",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "CXWdAivua1gB4hlb",
+                          "clientKey": "",
+                          "name": "Time",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "gt4i5ENEY5sE-ZW-",
+                          "clientKey": "",
+                          "name": "Signal characteristics",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [
+                        {
+                          "__id__": "2-sKn863PpZ94KcY"
+                        },
+                        {
+                          "__id__": "obI4a1B3LNrFdCs_"
+                        },
+                        {
+                          "__id__": "-i_WK-56DIu5I6Hl"
+                        },
+                        {
+                          "__id__": "nvI9e6PxmAuWqCaJ"
+                        },
+                        {
+                          "__id__": "URe4qZt1DTqDDMM7"
+                        }
+                      ],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "cjlxvev_7TULwHQi"
+                  ]
+                }
               ]
-            }
+            },
+            "planningTemplateEnabled": false
           },
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -349,11 +562,13 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "Activity 2: Finding signals in the noise",
+          "title": "Lesson 2: Finding signals in the noise",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-2/geo/content.json"
+            "sections/investigation-1/problem-2/ml/content.json",
+            "sections/investigation-1/problem-2/geo/content.json",
+            "sections/investigation-1/problem-2/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -361,16 +576,101 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                [
+                  {
+                    "id": "tPEHfRVLxNd6Hnvk",
+                    "title": "Sketch 1",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  },
+                  {
+                    "id": "IjpN-mktqjh66U6i",
+                    "title": "Sketch 2",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "9-_8Oj-Q9KkvZ2pU",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "5oHsaT",
+                    "tiles": [
+                      {
+                        "id": "dI9v6ERx9H-iVujI",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What are the differences you see between the Stomp signal and the Earthquake signal? How would this help you tell them apart?</p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "id": "tLT4xOvj11bRs4NX",
+                  "title": "Wave Runner 1",
+                  "content": {
+                    "type": "WaveRunner",
+                    "startDate": "2025-01-01",
+                    "endDate": "2025-12-31"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "help",
+                    "containerType": "DocumentContent"
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "description": "Activity 1.3",
           "ordinal": 3,
-          "title": "Activity 3: Tagging Seismic Signals",
+          "title": "Lesson 3: Tagging Seismic Signals",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-3/geo/content.json"
+            "sections/investigation-1/problem-3/ml/content.json",
+            "sections/investigation-1/problem-3/geo/content.json",
+            "sections/investigation-1/problem-3/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -378,16 +678,64 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "ml",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "geo",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "help",
+                    "containerType": "DocumentContent"
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "description": "Activity 1.4",
           "ordinal": 4,
-          "title": "Activity 4: Seismic Investigations",
+          "title": "Lesson 4: Seismic Investigations",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-4/geo/content.json"
+            "sections/investigation-1/problem-4/ml/content.json",
+            "sections/investigation-1/problem-4/geo/content.json",
+            "sections/investigation-1/problem-4/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -395,16 +743,64 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "ml",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "geo",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "help",
+                    "containerType": "DocumentContent"
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "description": "Activity 1.5",
           "ordinal": 5,
-          "title": "Activity 5: Finding your answer",
+          "title": "Lesson 5: Finding your answer",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-5/geo/content.json"
+            "sections/investigation-1/problem-5/ml/content.json",
+            "sections/investigation-1/problem-5/geo/content.json",
+            "sections/investigation-1/problem-5/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -412,7 +808,53 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "ml",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "geo",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "help",
+                    "containerType": "DocumentContent"
+                  }
+                }
+              ]
+            }
+          }
         }
       ]
     }
