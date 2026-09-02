@@ -20,13 +20,13 @@
             "type": "Text",
             "format": "html",
             "text": [
-              "<p><strong>Model Your Storm</strong></p><ol><li>Choose a Thumbnail from the Daily Updates tab to discuss today&#x27;s storm.</li><li>Model your predictions using the Storm Explorer below. Name and date your document for future reference.</li><li>Choose New from the File menu if you want to start a fresh document.</li><li>Use the tools on the left if you want to make new text or drawings below the model.</li></ol>"
+              "<li>Need to know how to use the Storm Explorer simulation below? Watch this video.</li><li>To set up your simulation, read the information and maps to the right to find the current:</li><li><strong>Storm position and category</strong> — Public Advisory</li><li><strong>High- and low-pressure systems</strong> — Air Pressure Map</li><li><strong>Sea surface temperature anomaly</strong> — Daily Update</li><li><strong>Sea surface temperature</strong> — Summer (June to August), Early Fall (September to mid-October), or Late Fall (mid-October to November)</li><li></li>"
             ]
           }
         },
         {
           "id": "document_IframeInteractive_1",
-          "title": "Storm Explorer Model",
+          "title": "Storm Explorer Simulation",
           "content": {
             "type": "IframeInteractive",
             "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
@@ -275,7 +275,9 @@
     "showShare": false,
     "defaultDocumentTemplateEnabled": true,
     "planningTemplateEnabled": false,
-    "hide4up": true
+    "hide4up": true,
+    "fixedStartView": true,
+    "fixedStartTab": "class-work"
   },
   "sections": {
     "cone": {
@@ -337,13 +339,49 @@
           ]
         },
         {
-          "title": "Storm Edouard",
+          "title": "Introduction to Storm Tracker",
           "ordinal": 5,
           "description": "",
           "subtitle": "",
           "sections": [
             "investigation-1/problem-1/cone/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "cone"
+                  }
+                },
+                {
+                  "id": "_XtYg1LwjnVTv_cJ",
+                  "title": "Text 1",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p>For how to use <strong>Storm Explorer</strong>, visit this link.</p><p>To guide the initial set up of your simulation, find the current:</p><p>     1. <strong>Storm position and category</strong> — Public Advisory</p><p>     2. <strong>Sea surface temperature</strong> — Choose one based on date of current storm: Summer (June to August), Early Fall (September to mid-October), or Late Fall (mid-October to November)</p><p>     3. <strong>Sea surface temperature anomaly</strong> — Daily Update</p><p>     4. <strong>High- and low-pressure systems</strong> — Air Pressure Map</p><p></p>"
+                    ]
+                  }
+                },
+                {
+                  "id": "kh3IyNORxz5UHH5E",
+                  "title": "Interactive 1",
+                  "content": {
+                    "type": "IframeInteractive",
+                    "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
+                    "interactiveState": {},
+                    "authoredState": {},
+                    "maxHeight": 0,
+                    "enableScroll": false
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "title": "Storm Fay",
