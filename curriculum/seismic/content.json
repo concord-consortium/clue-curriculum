@@ -625,6 +625,17 @@
                             "<p>What are the differences you see between the Stomp signal and the Earthquake signal? How would this help you tell them apart?</p>"
                           ]
                         }
+                      },
+                      {
+                        "id": "uzjzSGajgvn7-w8Q",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
                       }
                     ]
                   }
@@ -651,10 +662,38 @@
                   }
                 },
                 {
+                  "id": "fWq_dIjKS0QkROM6",
+                  "title": "Question 2",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "help",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "UJRY6Q",
+                    "tiles": [
+                      {
+                        "id": "zGZchkuSUgtCfbiq",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Write 3 advantages of using an ML model like this one to identify earthquake signals in seismic data.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "NLQzmLALfQvAt7j0",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 }
               ]
@@ -690,10 +729,47 @@
                   }
                 },
                 {
+                  "id": "8SBwxJbkdwG9dTHi",
+                  "title": "Wave Runner 1",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "ml",
-                    "containerType": "DocumentContent"
+                    "type": "WaveRunner",
+                    "startDate": "2025-01-01",
+                    "endDate": "2025-12-31"
+                  }
+                },
+                {
+                  "id": "x8ch_QFV1Lwb3Ghy",
+                  "title": "Question 2",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "9wzoa-",
+                    "tiles": [
+                      {
+                        "id": "kTF4xF95bLUl476e",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>The ML model is trained to idenitfy earthquakes ike this one. How do you think scientists train the model to identify earthquake signals in the data?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "Nwupb9AI8RA-S_63",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -703,10 +779,108 @@
                   }
                 },
                 {
+                  "id": "WMx0azmfVGIo5hsn",
+                  "title": "Question 3",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "geo",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "YnVBcg",
+                    "tiles": [
+                      {
+                        "id": "etRLmzi4rpIh_Q7M",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>How many natural events did the ML model find? Compare this number to the number of events you found yesterday looking through the same data!</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "js6aXe0ISqBS4KrV",
+                        "title": "Text 3",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "U4SY_kDKErpzivf3",
+                  "title": "Question 4",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "MWlKHv",
+                    "tiles": [
+                      {
+                        "id": "33MfxqVouUJH_HfP",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Why do you think the model found such a different number of events than you did looking at the same data?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "2he3nYnWm_EM5Bja",
+                        "title": "Text 4",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "Gpfq99u2JYycV90W",
+                  "title": "Question 5",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "MWdgSK",
+                    "tiles": [
+                      {
+                        "id": "93gTOC_iRosBmqOp",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Did you find any of the same events as the ML model? Look closely at the timestamps of your events and the model events. Were any the same? Record them below!</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "dg4BqzSJtZHQEKoi",
+                        "content": {
+                          "type": "Table",
+                          "columnWidths": {
+                            "VotJj_pz7bd5f_Ih": 187.1796875,
+                            "-YSvlz3WxpUjLMFQ": 220.65625,
+                            "C9LZeEpVERKhy00H": 168.46484375
+                          }
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -716,11 +890,95 @@
                   }
                 },
                 {
+                  "id": "nfVM0ZLBJR8UVvtl",
+                  "title": "Question 1",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "help",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "MakCIk",
+                    "tiles": [
+                      {
+                        "id": "DohFwJfxPH02RR8j",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>You have prior and local knowledge of the earthquakes and other seismic vibrations, and the ML model does not. Do you think that knowledge makes you different, better, or worse compared to the ML model for categorization tasks like this one?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "NV5Hv7hqygEaVVJk",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
+                }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "ZhJw0p0dzy3olruT",
+                    "providerId": "dg4BqzSJtZHQEKoi",
+                    "dataSet": {
+                      "id": "0D__DgYlpQOWeh-N",
+                      "name": "Human and machine identified signals",
+                      "attributes": [
+                        {
+                          "id": "VotJj_pz7bd5f_Ih",
+                          "clientKey": "",
+                          "name": "Instance",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [],
+                          "title": ""
+                        },
+                        {
+                          "id": "-YSvlz3WxpUjLMFQ",
+                          "clientKey": "",
+                          "name": "Date",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [],
+                          "title": ""
+                        },
+                        {
+                          "id": "C9LZeEpVERKhy00H",
+                          "clientKey": "",
+                          "name": "Time",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "dg4BqzSJtZHQEKoi"
+                  ]
                 }
               ]
             }
