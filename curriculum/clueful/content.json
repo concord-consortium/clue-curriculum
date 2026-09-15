@@ -452,7 +452,33 @@
       "defaultPrimarySort": "Strategy"
     },
     "defaultSharedDocuments": true,
-    "showCommentRating": false
+    "showCommentRating": true,
+    "planningTemplateEnabled": false,
+    "defaultDocumentTemplateEnabled": true,
+    "defaultDocumentTemplate": {
+      "tiles": [
+        {
+          "content": {
+            "isSectionHeader": true,
+            "sectionId": "warmup"
+          }
+        },
+        {
+          "content": {
+            "isSectionHeader": true,
+            "sectionId": "activity"
+          }
+        },
+        {
+          "content": {
+            "isSectionHeader": true,
+            "sectionId": "reflect"
+          }
+        }
+      ]
+    },
+    "allowCustomCommentTags": true,
+    "chatTutorEnabled": true
   },
   "sections": {
     "warmup": {
@@ -532,7 +558,89 @@
             "exemplars/investigation-1/problem-3/exemplar-1/content.json",
             "exemplars/investigation-1/problem-3/exemplar-2/content.json",
             "exemplars/investigation-1/problem-3/exemplar-3/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "warmup"
+                  }
+                },
+                {
+                  "id": "gwt4Di9M_pmrfjvL",
+                  "title": "Text 1",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p>stuff</p>"
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "activity"
+                  }
+                },
+                {
+                  "id": "kjJH1JQKKbS6JwHo",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "M9WXJw",
+                    "tiles": [
+                      {
+                        "id": "VezjU5vqgBAzgSBD",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>a question</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "1VqsbAWVTKX2P2LM",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>more template stuff.</p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "4hQTytO9Yp8hDzlh",
+                  "title": "Text 3",
+                  "content": {
+                    "type": "Text",
+                    "format": "html",
+                    "text": [
+                      "<p></p>"
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "reflect"
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "title": "Gathering Data from Experiments",
