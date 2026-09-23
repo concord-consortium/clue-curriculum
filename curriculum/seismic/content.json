@@ -5,7 +5,7 @@
   "title": "Seismic ML",
   "subtitle": "Trains or Plates",
   "config": {
-    "placeholderText": "Drag text, models, or sketches here.",
+    "placeholderText": "Type or drag text, models, or sketches here.",
     "autoAssignStudentsToIndividualGroups": false,
     "hide4up": true,
     "autoSectionProblemDocuments": true,
@@ -387,6 +387,17 @@
                             "<p>Your stomp created a signal in the seismic data. <strong>Describe the shape of the stomp signal.</strong> How long did it last? How large of a spike did it create in the data?</p>"
                           ]
                         }
+                      },
+                      {
+                        "id": "vfwHcee-HVCrKJ0b",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
                       }
                     ]
                   }
@@ -433,6 +444,17 @@
                           "format": "html",
                           "text": [
                             "<p>Describe how the stomp signals are similar and how they are different.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "PEbLvXBjUUZGpIDf",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
                           ]
                         }
                       }
@@ -656,6 +678,18 @@
                   }
                 },
                 {
+                  "id": "_8iFQMhp8dHqW1Nx",
+                  "content": {
+                    "type": "Table",
+                    "columnWidths": {
+                      "pvUN1KOAigbi7Q6g": 174.27734375,
+                      "MseyzUcZ2cYURuqy": 283.35546875,
+                      "iEq6OOWTl4PcAC3p": 205.9296875,
+                      "VyfXCY0hyax9zLIX": 196.16796875
+                    }
+                  }
+                },
+                {
                   "content": {
                     "isSectionHeader": true,
                     "sectionId": "help"
@@ -663,7 +697,7 @@
                 },
                 {
                   "id": "fWq_dIjKS0QkROM6",
-                  "title": "Question 2",
+                  "title": "Question 3",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -678,7 +712,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Are you less sure about some signals being earthquakes than others? Describe the difficulties in idenitfying earthquake signals from this data.</p>"
+                            "<p>Scientists can recognize patterns that help them distinguish earthquakes from other signals. The ability to find the earthquake signal is an important part of training a computer to do the work. Think about why that is and answer the question below.</p><p>How can the examples we choose affect what a computer learns?</p>"
                           ]
                         }
                       },
@@ -695,6 +729,149 @@
                       }
                     ]
                   }
+                }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "5m_hyUNA8b50y0hA",
+                    "providerId": "_8iFQMhp8dHqW1Nx",
+                    "dataSet": {
+                      "id": "n-ASIC5mLiOET_qV",
+                      "name": "Suspected Earthquakes",
+                      "attributes": [
+                        {
+                          "id": "pvUN1KOAigbi7Q6g",
+                          "clientKey": "",
+                          "name": "Instance",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10"
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "MseyzUcZ2cYURuqy",
+                          "clientKey": "",
+                          "name": "Station",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "iEq6OOWTl4PcAC3p",
+                          "clientKey": "",
+                          "name": "Date",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "VyfXCY0hyax9zLIX",
+                          "clientKey": "",
+                          "name": "Time",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [
+                        {
+                          "__id__": "fM4LFBeV-_79VvAI"
+                        },
+                        {
+                          "__id__": "Y0JRIB2abisCiRTF"
+                        },
+                        {
+                          "__id__": "JBs4sZ4wTW2r7-jc"
+                        },
+                        {
+                          "__id__": "52QqTfApbPI0S0SJ"
+                        },
+                        {
+                          "__id__": "gd7kCat4owV1U65q"
+                        },
+                        {
+                          "__id__": "QIy9La5rPAZC_zSM"
+                        },
+                        {
+                          "__id__": "pwKlB_331WtWBKmQ"
+                        },
+                        {
+                          "__id__": "6Ki1auq4X-6X25ih"
+                        },
+                        {
+                          "__id__": "p51HtocCn48JeckY"
+                        },
+                        {
+                          "__id__": "maztgPsmfV6gjIre"
+                        }
+                      ],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "_8iFQMhp8dHqW1Nx"
+                  ]
                 }
               ]
             }
@@ -944,7 +1121,13 @@
                           "formula": {
                             "display": ""
                           },
-                          "values": [],
+                          "values": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                          ],
                           "title": ""
                         },
                         {
@@ -956,7 +1139,13 @@
                           "formula": {
                             "display": ""
                           },
-                          "values": [],
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
                           "title": ""
                         },
                         {
@@ -968,11 +1157,33 @@
                           "formula": {
                             "display": ""
                           },
-                          "values": [],
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
                           "title": ""
                         }
                       ],
-                      "cases": [],
+                      "cases": [
+                        {
+                          "__id__": "EVaicV-sxRNC7EqV"
+                        },
+                        {
+                          "__id__": "iXIizZgf_ELf_JQL"
+                        },
+                        {
+                          "__id__": "WbbbhHDak5gkQFoQ"
+                        },
+                        {
+                          "__id__": "XK4gcd_7UiTcb2nY"
+                        },
+                        {
+                          "__id__": "Gpuaw86c9xuRwL2i"
+                        }
+                      ],
                       "sortDirection": "NONE"
                     }
                   },
@@ -1013,10 +1224,73 @@
                   }
                 },
                 {
+                  "id": "RIpflzZ0Q6eKdmAs",
+                  "title": "Question 1",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "ml",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "3zCh-s",
+                    "tiles": [
+                      {
+                        "id": "RsSyg3thdiaypVLL",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>In the space below, record the question you are going to answer in this class.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "pQgJt5BabzvmgoHO",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "A6XUGKmPykftgaoI",
+                  "title": "Question 2",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "oD7Lp_",
+                    "tiles": [
+                      {
+                        "id": "aTwdavrU_m4plwFm",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Think about how you will use the WaveRunner and Timeline tiles to answer the question above. Fill in the details of your investigation in the space below. </p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "0Dqc_cIknjgOATr0",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What station(s) are you going to use?</p><p></p><p>What date range will you select?</p><p></p><p>What ML model will you choose?</p><p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -1026,10 +1300,47 @@
                   }
                 },
                 {
+                  "id": "7LvnbesJSx-gKf2_",
+                  "title": "Wave Runner 1",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "geo",
-                    "containerType": "DocumentContent"
+                    "type": "WaveRunner",
+                    "startDate": "2025-01-01",
+                    "endDate": "2025-12-31"
+                  }
+                },
+                {
+                  "id": "X1vuT8r5PyQcANxO",
+                  "title": "Question 3",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "qnGeu5",
+                    "tiles": [
+                      {
+                        "id": "c02m5RqCf10xSvBx",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Answer the question below while analyzing your data!</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "kpzKlXFV68U23QWn",
+                        "title": "Text 3",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>How many events did the ML model identify?</p><p></p><p>Is there a time-based pattern in your data? For example, are the vents evenly spaced out, or do they seem to occur randomly?</p><p></p><p>How does this evidence help you answer your investigation question?</p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -1039,10 +1350,38 @@
                   }
                 },
                 {
+                  "id": "PcnpWqv0iHRz6zXy",
+                  "title": "Question 4",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "help",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "XdiSPC",
+                    "tiles": [
+                      {
+                        "id": "TcAFQgYojTUwZz4K",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Write 3-4 sentences answering your investigation question. Your answer should include:</p><p>1) The inputs to the WaveRunner tile and why you chose them.</p><p>2) The evidence you found based on the events identified in the Timeline tile.</p><p>3) How the evidence relates to your investigation question.</p><p>4) How the evidence supports your answer to the investigation question.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "tf2I3zlGOGDqVRAB",
+                        "title": "Text 4",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 }
               ]
