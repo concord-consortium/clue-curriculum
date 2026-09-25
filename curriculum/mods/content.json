@@ -11,9 +11,14 @@
     ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
-    "defaultDocumentType": "problem",
     "disablePublish": true,
     "initiallyHideExemplars": true,
+    "classWideDocuments": [
+      {
+        "kind": "wordWall",
+        "title": "Word Wall"
+      }
+    ],
     "toolbar": [
       {
         "id": "select",
@@ -288,7 +293,11 @@
         "Tools"
       ],
       "defaultPrimarySort": "Name"
-    }
+    },
+    "planningTemplateEnabled": false,
+    "allowCustomCommentTags": true,
+    "showCommentRating": true,
+    "groupDocumentsEnabled": true
   },
   "sections": {
     "introduction": {
