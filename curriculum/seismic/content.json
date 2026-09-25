@@ -5,9 +5,8 @@
   "title": "Seismic ML",
   "subtitle": "Trains or Plates",
   "config": {
-    "placeholderText": "Drag text, models, or sketches here.",
+    "placeholderText": "Type or drag text, models, or sketches here.",
     "autoAssignStudentsToIndividualGroups": false,
-    "defaultPanelLayout": "resources-only",
     "hide4up": true,
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Seismic Wave (type)",
@@ -112,24 +111,7 @@
       "tabSpecs": [
         {
           "tab": "problems",
-          "label": "Lessons",
-          "sections": [
-            {
-              "initials": "ML",
-              "title": "Machine Learning",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "GEO",
-              "title": "Geology",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "HELP",
-              "title": "CLUE Help",
-              "type": "problem-documents"
-            }
-          ],
+          "label": "Lesson",
           "teacherOnly": false,
           "hidden": false
         },
@@ -299,27 +281,27 @@
         "All"
       ],
       "sortOptions": [
-        "Strategy",
+        "Name",
         "Date",
-        "Name"
-      ],
-      "defaultPrimarySort": "Strategy"
-    }
+        "Group"
+      ]
+    },
+    "defaultPanelLayout": "workspace-only"
   },
   "sections": {
     "ml": {
-      "initials": "ML",
-      "title": "Machine Learning",
+      "initials": "CH1",
+      "title": "Challenge 1",
       "placeholder": "Discuss or program your machine learning models here."
     },
     "geo": {
-      "initials": "GEO",
-      "title": "Geology",
-      "placeholder": "Discuss, program or paste images of your geology ideas here."
+      "initials": "CH2",
+      "title": "Challenge 2",
+      "placeholder": "Show your work."
     },
     "help": {
-      "initials": "REF",
-      "title": "CLUE Help",
+      "initials": "EXIT",
+      "title": "Exit Ticket",
       "placeholder": "Any notes about the program or library."
     }
   },
@@ -327,34 +309,269 @@
     {
       "description": "Investigation 1",
       "ordinal": 1,
-      "title": "SeismicWaves",
+      "title": "SeismicML: Separating the Signal from the Noise",
       "problems": [
         {
           "description": "Activity 1.1",
           "ordinal": 1,
-          "title": "Earth is noisy",
+          "title": "Lesson 1: Earth is noisy",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-1/geo/content.json"
+            "sections/investigation-1/problem-1/ml/content.json",
+            "sections/investigation-1/problem-1/geo/content.json",
+            "sections/investigation-1/problem-1/help/content.json"
           ],
           "config": {
+            "defaultDocumentTemplateEnabled": true,
             "defaultDocumentTemplate": {
               "tiles": [
                 {
-                  "id": "8pKl3_OI-jz7hR8-",
-                  "title": "Text 1",
                   "content": {
-                    "type": "Text",
-                    "format": "html",
-                    "text": [
-                      "<p><strong>Listening to Motion</strong></p>",
-                      "<p>Use the model below to read in some seismic data and observe its format.</p>"
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "id": "oVNhXVBt587_d6jd",
+                  "title": "Interactive 1",
+                  "content": {
+                    "type": "IframeInteractive",
+                    "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
+                    "interactiveState": {},
+                    "authoredState": {},
+                    "maxHeight": 0,
+                    "enableScroll": false
+                  }
+                },
+                {
+                  "id": "R51YlJkCjMPZCrcK",
+                  "title": "Sketch 1",
+                  "content": {
+                    "type": "Drawing",
+                    "objects": [
+                      {
+                        "type": "text",
+                        "id": "9eU4uRVvobZzVBrS",
+                        "x": 46.34375,
+                        "y": 18.58984375,
+                        "hFlip": false,
+                        "vFlip": false,
+                        "rotation": 0,
+                        "visible": true,
+                        "width": 119.7890625,
+                        "height": 106.41796875,
+                        "stroke": "#000000",
+                        "text": "In this box, upload an image of the signal your stomp made!"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "8-sWQySW9PjVl6ac",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "6D3YPI",
+                    "tiles": [
+                      {
+                        "id": "kYC6yo3_MbF_NNtg",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Your stomp created a signal in the seismic data. <strong>Describe the shape of the stomp signal.</strong> How long did it last? How large of a spike did it create in the data?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "vfwHcee-HVCrKJ0b",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "id": "cjlxvev_7TULwHQi",
+                  "content": {
+                    "type": "Table",
+                    "columnWidths": {
+                      "7yFIJk09TeCdn_J7": 195.578125,
+                      "Xizdn0Z_cquRE7gu": 255.32421875,
+                      "CXWdAivua1gB4hlb": 210.46484375,
+                      "gt4i5ENEY5sE-ZW-": 478.671875
+                    }
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "id": "PgS8xaPfkVCXgvrQ",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "Bq07FB",
+                    "tiles": [
+                      {
+                        "id": "nZ9Mg2hF3jI7__R_",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Describe how the stomp signals are similar and how they are different.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "PEbLvXBjUUZGpIDf",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
                     ]
                   }
                 }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "lATtnjLfd2zKgGwV",
+                    "providerId": "cjlxvev_7TULwHQi",
+                    "dataSet": {
+                      "id": "DIIU7KoEU0fN3uZo",
+                      "name": "Signals in seismic data",
+                      "attributes": [
+                        {
+                          "id": "7yFIJk09TeCdn_J7",
+                          "clientKey": "",
+                          "name": "Instance",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "Xizdn0Z_cquRE7gu",
+                          "clientKey": "",
+                          "name": "Date",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "CXWdAivua1gB4hlb",
+                          "clientKey": "",
+                          "name": "Time",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "gt4i5ENEY5sE-ZW-",
+                          "clientKey": "",
+                          "name": "Signal characteristics",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [
+                        {
+                          "__id__": "2-sKn863PpZ94KcY"
+                        },
+                        {
+                          "__id__": "obI4a1B3LNrFdCs_"
+                        },
+                        {
+                          "__id__": "-i_WK-56DIu5I6Hl"
+                        },
+                        {
+                          "__id__": "nvI9e6PxmAuWqCaJ"
+                        },
+                        {
+                          "__id__": "URe4qZt1DTqDDMM7"
+                        }
+                      ],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "cjlxvev_7TULwHQi"
+                  ]
+                }
               ]
-            }
+            },
+            "planningTemplateEnabled": false
           },
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -367,11 +584,13 @@
         {
           "description": "Activity 1.2",
           "ordinal": 2,
-          "title": "Finding signals in the noise",
+          "title": "Lesson 2: Finding signals in the noise",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-2/geo/content.json"
+            "sections/investigation-1/problem-2/ml/content.json",
+            "sections/investigation-1/problem-2/geo/content.json",
+            "sections/investigation-1/problem-2/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -379,16 +598,295 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                [
+                  {
+                    "id": "tPEHfRVLxNd6Hnvk",
+                    "title": "Sketch 1",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  },
+                  {
+                    "id": "IjpN-mktqjh66U6i",
+                    "title": "Sketch 2",
+                    "content": {
+                      "type": "Drawing",
+                      "objects": []
+                    }
+                  }
+                ],
+                {
+                  "id": "9-_8Oj-Q9KkvZ2pU",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "5oHsaT",
+                    "tiles": [
+                      {
+                        "id": "dI9v6ERx9H-iVujI",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What are the differences you see between the Stomp signal and the Earthquake signal? How would this help you tell them apart?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "uzjzSGajgvn7-w8Q",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "id": "tLT4xOvj11bRs4NX",
+                  "title": "Wave Runner 1",
+                  "content": {
+                    "type": "WaveRunner",
+                    "startDate": "2025-01-01",
+                    "endDate": "2025-12-31"
+                  }
+                },
+                {
+                  "id": "_8iFQMhp8dHqW1Nx",
+                  "content": {
+                    "type": "Table",
+                    "columnWidths": {
+                      "pvUN1KOAigbi7Q6g": 174.27734375,
+                      "MseyzUcZ2cYURuqy": 283.35546875,
+                      "iEq6OOWTl4PcAC3p": 205.9296875,
+                      "VyfXCY0hyax9zLIX": 196.16796875
+                    }
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "id": "fWq_dIjKS0QkROM6",
+                  "title": "Question 3",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "UJRY6Q",
+                    "tiles": [
+                      {
+                        "id": "zGZchkuSUgtCfbiq",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Scientists can recognize patterns that help them distinguish earthquakes from other signals. The ability to find the earthquake signal is an important part of training a computer to do the work. Think about why that is and answer the question below.</p><p>How can the examples we choose affect what a computer learns?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "NLQzmLALfQvAt7j0",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "5m_hyUNA8b50y0hA",
+                    "providerId": "_8iFQMhp8dHqW1Nx",
+                    "dataSet": {
+                      "id": "n-ASIC5mLiOET_qV",
+                      "name": "Suspected Earthquakes",
+                      "attributes": [
+                        {
+                          "id": "pvUN1KOAigbi7Q6g",
+                          "clientKey": "",
+                          "name": "Instance",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10"
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "MseyzUcZ2cYURuqy",
+                          "clientKey": "",
+                          "name": "Station",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "iEq6OOWTl4PcAC3p",
+                          "clientKey": "",
+                          "name": "Date",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "VyfXCY0hyax9zLIX",
+                          "clientKey": "",
+                          "name": "Time",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [
+                        {
+                          "__id__": "fM4LFBeV-_79VvAI"
+                        },
+                        {
+                          "__id__": "Y0JRIB2abisCiRTF"
+                        },
+                        {
+                          "__id__": "JBs4sZ4wTW2r7-jc"
+                        },
+                        {
+                          "__id__": "52QqTfApbPI0S0SJ"
+                        },
+                        {
+                          "__id__": "gd7kCat4owV1U65q"
+                        },
+                        {
+                          "__id__": "QIy9La5rPAZC_zSM"
+                        },
+                        {
+                          "__id__": "pwKlB_331WtWBKmQ"
+                        },
+                        {
+                          "__id__": "6Ki1auq4X-6X25ih"
+                        },
+                        {
+                          "__id__": "p51HtocCn48JeckY"
+                        },
+                        {
+                          "__id__": "maztgPsmfV6gjIre"
+                        }
+                      ],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "_8iFQMhp8dHqW1Nx"
+                  ]
+                }
+              ]
+            }
+          }
         },
         {
           "description": "Activity 1.3",
           "ordinal": 3,
-          "title": "Tagging Seismic Signals",
+          "title": "Lesson 3: Tagging Seismic Signals",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-3/geo/content.json"
+            "sections/investigation-1/problem-3/ml/content.json",
+            "sections/investigation-1/problem-3/geo/content.json",
+            "sections/investigation-1/problem-3/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -396,16 +894,317 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "id": "8SBwxJbkdwG9dTHi",
+                  "title": "Wave Runner 1",
+                  "content": {
+                    "type": "WaveRunner",
+                    "startDate": "2025-01-01",
+                    "endDate": "2025-12-31"
+                  }
+                },
+                {
+                  "id": "x8ch_QFV1Lwb3Ghy",
+                  "title": "Question 2",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "9wzoa-",
+                    "tiles": [
+                      {
+                        "id": "kTF4xF95bLUl476e",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>The ML model is trained to idenitfy earthquakes ike this one. How do you think scientists train the model to identify earthquake signals in the data?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "Nwupb9AI8RA-S_63",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "id": "WMx0azmfVGIo5hsn",
+                  "title": "Question 3",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "YnVBcg",
+                    "tiles": [
+                      {
+                        "id": "etRLmzi4rpIh_Q7M",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>How many natural events did the ML model find? Compare this number to the number of events you found yesterday looking through the same data!</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "js6aXe0ISqBS4KrV",
+                        "title": "Text 3",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "U4SY_kDKErpzivf3",
+                  "title": "Question 4",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "MWlKHv",
+                    "tiles": [
+                      {
+                        "id": "33MfxqVouUJH_HfP",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Why do you think the model found such a different number of events than you did looking at the same data?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "2he3nYnWm_EM5Bja",
+                        "title": "Text 4",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "Gpfq99u2JYycV90W",
+                  "title": "Question 5",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "MWdgSK",
+                    "tiles": [
+                      {
+                        "id": "93gTOC_iRosBmqOp",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Did you find any of the same events as the ML model? Look closely at the timestamps of your events and the model events. Were any the same? Record them below!</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "dg4BqzSJtZHQEKoi",
+                        "content": {
+                          "type": "Table",
+                          "columnWidths": {
+                            "VotJj_pz7bd5f_Ih": 187.1796875,
+                            "-YSvlz3WxpUjLMFQ": 220.65625,
+                            "C9LZeEpVERKhy00H": 168.46484375
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "id": "nfVM0ZLBJR8UVvtl",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "MakCIk",
+                    "tiles": [
+                      {
+                        "id": "DohFwJfxPH02RR8j",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>You have prior and local knowledge of the earthquakes and other seismic vibrations, and the ML model does not. Do you think that knowledge makes you different, better, or worse compared to the ML model for categorization tasks like this one?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "NV5Hv7hqygEaVVJk",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "ZhJw0p0dzy3olruT",
+                    "providerId": "dg4BqzSJtZHQEKoi",
+                    "dataSet": {
+                      "id": "0D__DgYlpQOWeh-N",
+                      "name": "Human and machine identified signals",
+                      "attributes": [
+                        {
+                          "id": "VotJj_pz7bd5f_Ih",
+                          "clientKey": "",
+                          "name": "Instance",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "-YSvlz3WxpUjLMFQ",
+                          "clientKey": "",
+                          "name": "Date",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "C9LZeEpVERKhy00H",
+                          "clientKey": "",
+                          "name": "Time",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null
+                          ],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [
+                        {
+                          "__id__": "EVaicV-sxRNC7EqV"
+                        },
+                        {
+                          "__id__": "iXIizZgf_ELf_JQL"
+                        },
+                        {
+                          "__id__": "WbbbhHDak5gkQFoQ"
+                        },
+                        {
+                          "__id__": "XK4gcd_7UiTcb2nY"
+                        },
+                        {
+                          "__id__": "Gpuaw86c9xuRwL2i"
+                        }
+                      ],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "dg4BqzSJtZHQEKoi"
+                  ]
+                }
+              ]
+            }
+          }
         },
         {
           "description": "Activity 1.4",
           "ordinal": 4,
-          "title": "Seismic Investigations",
+          "title": "Lesson 4: Seismic Investigations",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-4/geo/content.json"
+            "sections/investigation-1/problem-4/ml/content.json",
+            "sections/investigation-1/problem-4/geo/content.json",
+            "sections/investigation-1/problem-4/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -413,16 +1212,192 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "id": "RIpflzZ0Q6eKdmAs",
+                  "title": "Question 1",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "3zCh-s",
+                    "tiles": [
+                      {
+                        "id": "RsSyg3thdiaypVLL",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>In the space below, record the question you are going to answer in this class.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "pQgJt5BabzvmgoHO",
+                        "title": "Text 1",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "A6XUGKmPykftgaoI",
+                  "title": "Question 2",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "oD7Lp_",
+                    "tiles": [
+                      {
+                        "id": "aTwdavrU_m4plwFm",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Think about how you will use the WaveRunner and Timeline tiles to answer the question above. Fill in the details of your investigation in the space below. </p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "0Dqc_cIknjgOATr0",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What station(s) are you going to use?</p><p></p><p>What date range will you select?</p><p></p><p>What ML model will you choose?</p><p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "id": "7LvnbesJSx-gKf2_",
+                  "title": "Wave Runner 1",
+                  "content": {
+                    "type": "WaveRunner",
+                    "startDate": "2025-01-01",
+                    "endDate": "2025-12-31"
+                  }
+                },
+                {
+                  "id": "X1vuT8r5PyQcANxO",
+                  "title": "Question 3",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "qnGeu5",
+                    "tiles": [
+                      {
+                        "id": "c02m5RqCf10xSvBx",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Answer the question below while analyzing your data!</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "kpzKlXFV68U23QWn",
+                        "title": "Text 3",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>How many events did the ML model identify?</p><p></p><p>Is there a time-based pattern in your data? For example, are the vents evenly spaced out, or do they seem to occur randomly?</p><p></p><p>How does this evidence help you answer your investigation question?</p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "id": "PcnpWqv0iHRz6zXy",
+                  "title": "Question 4",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "XdiSPC",
+                    "tiles": [
+                      {
+                        "id": "TcAFQgYojTUwZz4K",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Write 3-4 sentences answering your investigation question. Your answer should include:</p><p>1) The inputs to the WaveRunner tile and why you chose them.</p><p>2) The evidence you found based on the events identified in the Timeline tile.</p><p>3) How the evidence relates to your investigation question.</p><p>4) How the evidence supports your answer to the investigation question.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "tf2I3zlGOGDqVRAB",
+                        "title": "Text 4",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "description": "Activity 1.5",
           "ordinal": 5,
-          "title": "Finding your answer",
+          "title": "Lesson 5: Finding your answer",
           "subtitle": "",
           "disabled": [],
           "sections": [
-            "sections/investigation-1/problem-5/geo/content.json"
+            "sections/investigation-1/problem-5/ml/content.json",
+            "sections/investigation-1/problem-5/geo/content.json",
+            "sections/investigation-1/problem-5/help/content.json"
           ],
           "exemplars": [
             "exemplars/investigation-1/problem-1/exemplar-1/content.json",
@@ -430,7 +1405,53 @@
             "exemplars/investigation-1/problem-1/exemplar-3/content.json",
             "exemplars/investigation-1/problem-1/exemplar-4/content.json",
             "exemplars/investigation-1/problem-1/exemplar-5/content.json"
-          ]
+          ],
+          "config": {
+            "defaultDocumentTemplateEnabled": true,
+            "defaultDocumentTemplate": {
+              "tiles": [
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "ml"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "ml",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "geo"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "geo",
+                    "containerType": "DocumentContent"
+                  }
+                },
+                {
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "help"
+                  }
+                },
+                {
+                  "content": {
+                    "type": "Placeholder",
+                    "sectionId": "help",
+                    "containerType": "DocumentContent"
+                  }
+                }
+              ]
+            }
+          }
         }
       ]
     }
