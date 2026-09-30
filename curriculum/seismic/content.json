@@ -161,6 +161,7 @@
           "set-expression",
           "link-tile",
           "import-data",
+          "image-upload",
           [
             "data-set-view",
             "bargraph"
@@ -286,7 +287,66 @@
         "Group"
       ]
     },
-    "defaultPanelLayout": "workspace-only"
+    "defaultPanelLayout": "workspace-only",
+    "aiUnitSummary": {
+      "generatedAt": "2026-09-30T14:34:15.806Z",
+      "sourceHash": "lbn5iy",
+      "sourceManifest": [
+        {
+          "ordinal": "1.1",
+          "title": "Lesson 1: Earth is noisy",
+          "problemHash": "1swzm11"
+        },
+        {
+          "ordinal": "1.2",
+          "title": "Lesson 2: Finding signals in the noise",
+          "problemHash": "14k4hoy"
+        },
+        {
+          "ordinal": "1.3",
+          "title": "Lesson 3: Tagging Seismic Signals",
+          "problemHash": "1812ez1"
+        },
+        {
+          "ordinal": "1.4",
+          "title": "Lesson 4: Seismic Investigations",
+          "problemHash": "1gunnpi"
+        },
+        {
+          "ordinal": "1.5",
+          "title": "Lesson 5: Finding your answer",
+          "problemHash": "1e9umg5"
+        }
+      ],
+      "overview": "This unit introduces students to seismic data by using classroom Raspberry Shake sensors to detect vibrations they create, identify signals in noisy ground-motion data, and reflect on the idea that Earth is constantly vibrating. Students compare human-made shaking and earthquake signals, then use WaveRunner and a Compact machine learning model to search Anchorage seismic data for earthquake-like events and explore labeled results. They learn that machine learning depends on human-identified examples and pattern choices, and they use model-generated timelines to investigate seismic activity around Anchorage. The unit culminates with students forming a hypothesis, identifying needed data, running an investigation, and explaining how their results answer their question.",
+      "entries": [
+        {
+          "ordinal": "1.1",
+          "priorKnowledge": "",
+          "problemDigest": "Challenge 1: Students use the classroom Raspberry Shake Data View to detect vibrations they create by stomping. They find the “stomp signal” in the seismic data, take and upload a screenshot, mark the signal with the freehand tool, and answer a question.\n\nChallenge 2: Students examine Raspberry Shake data from the class period to identify additional seismic signals made by other students stomping. They record the date and time of these likely stomp signals in a table.\n\nExit Ticket: Students reflect that Earth is constantly vibrating and that seismic sensors detect ground motion. They brainstorm different types of ground-shaking events the Raspberry Shake might record."
+        },
+        {
+          "ordinal": "1.2",
+          "priorKnowledge": "Raspberry Shake Data View; seismic data interpretation; stomp signal detection; classroom-created ground vibrations; screenshot capture and upload; freehand annotation of seismic signals; identifying multiple seismic events in time-series data; recording date and time of likely signals; Earth’s constant vibration; seismic sensors detecting ground motion; examples of ground-shaking events recorded by Raspberry Shake",
+          "problemDigest": "Challenge 1: Students compare two seismic signals—one from people jumping and one from an earthquake—to consider how a machine might distinguish earthquake signals from other shaking recorded by a seismometer.\n\nChallenge 2: Students learn that computers need human-provided examples and pattern choices to recognize earthquakes. They use WaveRunner to select a station, compact model, and date range, generate a timeline, search Anchorage seismic data for earthquake-like signals, and record date, time, station, and suspected event in a table.\n\nExit Ticket: Students answer the provided exit ticket question."
+        },
+        {
+          "ordinal": "1.3",
+          "priorKnowledge": "Raspberry Shake Data View; seismic sensors/seismometers; ground motion detection; Earth’s constant vibrations/background seismic noise; stomp signal identification in seismic data; seismic data screenshots; freehand signal annotation; date/time recording of seismic events; distinguishing human-caused shaking from earthquake signals; earthquake signal recognition; human-provided training examples; pattern selection for machine recognition; WaveRunner station selection; compact model selection; date range selection; seismic timeline generation; Anchorage seismic data search; suspected event logging",
+          "problemDigest": "Challenge 1: Introduces machine learning as computers learning patterns from human-identified examples to analyze new data. Students use the Compact model in WaveRunner on Anchorage station data from Nov. 29–Dec. 1, 2018, run the model, create a timeline, and explore labeled earthquake events.\n\nChallenge 2: Students use a scientist-trained ML model to find more earthquakes, recognizing signals of different magnitudes. They open and copy their previous document, run the Compact model on the same WaveRunner data, and generate a timeline.\n\nExit Ticket: Students answer the question provided in the Exit Ticket section."
+        },
+        {
+          "ordinal": "1.4",
+          "priorKnowledge": "Raspberry Shake Data View; seismic sensor detection of ground motion; Earth’s constant vibrations; stomp signal identification in seismic data; screenshot capture and signal annotation; seismic signal date/time recording; distinguishing signal from noise; comparing human-made jumping signals with earthquake signals; machine learning pattern recognition from human-labeled examples; WaveRunner station/model/date-range selection; Compact model use; seismic timeline generation; Anchorage seismic data search; earthquake-like signal identification; event metadata recording; labeled earthquake event exploration; scientist-trained ML model outputs; earthquake magnitude signal variation",
+          "problemDigest": "Challenge 1: Students consider what questions about seismic activity around Anchorage they could investigate using available seismic data and the WaveRunner machine learning model. They brainstorm possible patterns or signals to explore based on what they know about how WaveRunner works.\n\nChallenge 2: Students run their investigation by entering station, start/end date and time, and model selection in the WaveRunner tile, then clicking “Run Model.” After the model finishes, they use “Timeline It!” and answer questions to interpret the data.\n\nExit Ticket: Students use the Timeline tile results to answer their investigation question in the Exit Ticket section."
+        },
+        {
+          "ordinal": "1.5",
+          "priorKnowledge": "Use Raspberry Shake Data View to explore seismic sensor records of ground motion and Earth’s constant vibration/noise. Identify stomp signals, capture screenshots, mark signals freehand, and record event dates/times. Compare human-caused jumping with earthquake signals and learn to distinguish earthquakes from other shaking. Create human-labeled examples for computer recognition, choose patterns for earthquake detection, select a WaveRunner station, use a Compact ML model, set date ranges, and generate timelines with “Timeline It!”. Search Anchorage seismic data, tag earthquake-like signals, train from human-identified examples, examine labeled events and magnitude differences, set station/start/end/model investigations, interpret Timeline tiles, and design seismic investigation questions.",
+          "problemDigest": "Challenge 1: Students state their hypothesis for an experiment or investigation.\n\nChallenge 2: Students identify what data they need to collect to answer or test their hypothesis.\n\nExit Ticket: Students report the result of their experiment and explain why the collected data matters."
+        }
+      ]
+    }
   },
   "sections": {
     "ml": {
@@ -1275,7 +1335,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Think about how you will use the WaveRunner and Timeline tiles to answer the question above. Fill in the details of your investigation in the space below. </p>"
+                            "<p>Describe how your group  will use the WaveRunner and Timeline tiles to answer the question. Fill in the details of your investigation in the space below.</p>"
                           ]
                         }
                       },
@@ -1366,7 +1426,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Write 3-4 sentences answering your investigation question. Your answer should include:</p><p>1) The inputs to the WaveRunner tile and why you chose them.</p><p>2) The evidence you found based on the events identified in the Timeline tile.</p><p>3) How the evidence relates to your investigation question.</p><p>4) How the evidence supports your answer to the investigation question.</p>"
+                            "<p>Write 3-4 sentences that explain how the Machine Learning data helps or does not help answer your question about seismic events around Anchorage.</p>"
                           ]
                         }
                       },
