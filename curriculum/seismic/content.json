@@ -10,7 +10,6 @@
     "hide4up": true,
     "autoSectionProblemDocuments": true,
     "defaultDocumentTitle": "Seismic Wave (type)",
-    "defaultDocumentType": "problem",
     "defaultLearningLogDocument": false,
     "documentLabels": {
       "personal": {
@@ -346,7 +345,10 @@
           "problemDigest": "Challenge 1: Students state their hypothesis for an experiment or investigation.\n\nChallenge 2: Students identify what data they need to collect to answer or test their hypothesis.\n\nExit Ticket: Students report the result of their experiment and explain why the collected data matters."
         }
       ]
-    }
+    },
+    "defaultDocumentTemplateEnabled": false,
+    "planningTemplateEnabled": false,
+    "groupDocumentsEnabled": true
   },
   "sections": {
     "ml": {
@@ -394,7 +396,7 @@
                 },
                 {
                   "id": "oVNhXVBt587_d6jd",
-                  "title": "Interactive 1",
+                  "title": "Raspberry Shake",
                   "content": {
                     "type": "IframeInteractive",
                     "url": "https://dataview.raspberryshake.org/#/AM/S903B/00/EHZ",
@@ -475,8 +477,7 @@
                     "columnWidths": {
                       "7yFIJk09TeCdn_J7": 195.578125,
                       "Xizdn0Z_cquRE7gu": 255.32421875,
-                      "CXWdAivua1gB4hlb": 210.46484375,
-                      "gt4i5ENEY5sE-ZW-": 478.671875
+                      "CXWdAivua1gB4hlb": 210.46484375
                     }
                   }
                 },
@@ -488,7 +489,7 @@
                 },
                 {
                   "id": "PgS8xaPfkVCXgvrQ",
-                  "title": "Question 1",
+                  "title": "Exit Ticket",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -503,7 +504,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Describe how the stomp signals are similar and how they are different.</p>"
+                            "<p><strong>Write at least three different types of ground shaking events your Raspberry Shake might record.</strong></p>"
                           ]
                         }
                       },
@@ -572,24 +573,6 @@
                           "id": "CXWdAivua1gB4hlb",
                           "clientKey": "",
                           "name": "Time",
-                          "hidden": false,
-                          "units": "",
-                          "formula": {
-                            "display": ""
-                          },
-                          "values": [
-                            null,
-                            null,
-                            null,
-                            null,
-                            null
-                          ],
-                          "title": ""
-                        },
-                        {
-                          "id": "gt4i5ENEY5sE-ZW-",
-                          "clientKey": "",
-                          "name": "Signal characteristics",
                           "hidden": false,
                           "units": "",
                           "formula": {
@@ -675,7 +658,25 @@
                     "title": "Sketch 1",
                     "content": {
                       "type": "Drawing",
-                      "objects": []
+                      "objects": [
+                        {
+                          "type": "image",
+                          "id": "9wHBIwC1aFYxJUwX",
+                          "x": 129.21484375,
+                          "y": 65.65625,
+                          "hFlip": false,
+                          "vFlip": false,
+                          "rotation": 0,
+                          "visible": true,
+                          "width": 403.265625,
+                          "height": 233.1015625,
+                          "url": "seismic/images/Earthquake-signal.png",
+                          "filename": "Earthquake-signal.png"
+                        }
+                      ]
+                    },
+                    "layout": {
+                      "height": 341
                     }
                   },
                   {
@@ -683,7 +684,25 @@
                     "title": "Sketch 2",
                     "content": {
                       "type": "Drawing",
-                      "objects": []
+                      "objects": [
+                        {
+                          "type": "image",
+                          "id": "yU0ESGkXjR90Cl9d",
+                          "x": 134.796875,
+                          "y": 54.1796875,
+                          "hFlip": false,
+                          "vFlip": false,
+                          "rotation": 0,
+                          "visible": true,
+                          "width": 408.91796875,
+                          "height": 239.8046875,
+                          "url": "seismic/images/Jump-signal.png",
+                          "filename": "Jump-signal.png"
+                        }
+                      ]
+                    },
+                    "layout": {
+                      "height": 341
                     }
                   }
                 ],
@@ -757,7 +776,7 @@
                 },
                 {
                   "id": "fWq_dIjKS0QkROM6",
-                  "title": "Question 3",
+                  "title": "Exit Ticket",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -772,7 +791,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Scientists can recognize patterns that help them distinguish earthquakes from other signals. The ability to find the earthquake signal is an important part of training a computer to do the work. Think about why that is and answer the question below.</p><p>How can the examples we choose affect what a computer learns?</p>"
+                            "<p>How can the examples we choose as an example fo a type of seismic signal affect what a computer learns?</p>"
                           ]
                         }
                       },
@@ -1451,7 +1470,7 @@
         {
           "description": "Activity 1.5",
           "ordinal": 5,
-          "title": "Lesson 5: Finding your answer",
+          "title": "Lesson 5: Conducting your own Investigation",
           "subtitle": "",
           "disabled": [],
           "sections": [
