@@ -188,7 +188,25 @@
     },
     "termOverrides": {
       "strategy": "Select Student Strategy"
-    }
+    },
+    "aiEvaluation": "custom",
+    "aiPrompt": {
+      "systemPrompt": "You are a master middle school math teacher.",
+      "mainPrompt": "This is a picture of a student mathematics document. Please evaluate and categorize it.",
+      "categorizationDescription": "Categorize the document based on its content and the general proportional reasoning curriculum found in middle grades mathematics.",
+      "categories": [
+        "part-to-part",
+        "part-to-whole",
+        "building-up",
+        "scaling-up-down",
+        "unit-rates",
+        "other-proportional",
+        "non-proportional"
+      ],
+      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
+      "discussionPrompt": "Please provide any concise feedback about things this student could try next."
+    },
+    "aiEvaluateOnSessionEnd": true
   },
   "sections": {
     "introduction": {
