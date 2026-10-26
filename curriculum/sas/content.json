@@ -333,7 +333,7 @@
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are a master middle school math teacher.",
-      "mainPrompt": "This is a picture of a student mathematics document. Please evaluate and categorize it.",
+      "mainPrompt": "Below is a student's mathematics document, as a text summary, a picture, or both. Either may be absent. Evaluate and categorize it.",
       "categorizationDescription": "Categorize the document based on its content and the general proportional reasoning curriculum found in middle grades mathematics.",
       "categories": [
         "part-to-part",
@@ -344,8 +344,7 @@
         "other-proportional",
         "non-proportional"
       ],
-      "keyIndicatorsPrompt": "What are the key indicators that support this categorization?",
-      "discussionPrompt": "Please provide any concise feedback about things this student could try next."
+      "keyIndicatorsPrompt": "Return exactly one item: a single sentence of at most 30 words, written to the student as \"you\", saying why this category fits by naming one specific thing in their document - a number, ratio, label, table column, or phrase they actually wrote. Do not restate the problem, summarize the document as a whole, or explain the mathematics in general."
     },
     "aiEvaluateOnSessionEnd": true
   },
