@@ -4,14 +4,331 @@
     "tiles": [
       {
         "id": "c-qysfELvytIFe45",
-        "title": "Text 1",
+        "title": "Investigate",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Overview</strong></p><p>Today we will explore how the nervous system processes information about touch.  </p><p><strong>Learning Objectives</strong></p><p>By the end of the lesson you will be able to describe why different body parts have different sensitivity to touch.</p><p><strong>Do Now: </strong>Drag this tile into your workspace and answer the following questions </p><ol><li>Which body parts have the highest touch sensitivity? Why?</li><li> Do you think that Tilly can feel objects with her bionic arm?</li></ol>"
+            "<p>You already made a prosthesis that can be controlled by a Dataflow program. Now, we want to make it <em>bionic</em> - we want it to respond to the user&#x27;s own body, just like a hand would.</p><p>So, we want it close when the user flexes their muscles, and open when they relax their muscles.</p><p>Electromyography (EMG) measures the electrical activity of muscles. Your spiker:bit (the white and orange part attached to the black microcontroller you have) can measure EMG signals!</p>"
           ]
         }
+      },
+      {
+        "id": "9t_w8rwy7Z2carhg",
+        "title": "Connecting the EMG reader to your body",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>To use the EMG reader, you need to connect three electrodes to your body (the little stickers).</p><p>Two electrodes go on the muscle that you are measuring. They connect to the red wires.</p><p></p><p>The third one connects to the black wire, which is called the &quot;ground wire.&quot; It tells your microcontroller what electrical signals are moving through your body normally.  It goes somewhere nearby, but NOT on a muscle area.</p><p>For example, if you are measuring your forearm, you can put the electrode that connects to the ground wire on the back of your hand or on your wrist.</p><p>If you are measuring your blinking, you can put the electrode that connects to the ground wire behind your ear.</p>"
+          ]
+        }
+      },
+      {
+        "id": "pUmlvI6Twhve87Id",
+        "title": "How the microcontroller uses the electrodes to calculate your muscle activity",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "ellipse",
+              "id": "rfaD2jFvafej-FhA",
+              "x": 506.70140838623047,
+              "y": 175.71771240234375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#d4d4d4",
+              "rx": 56.296295166015625,
+              "ry": 53.333343505859375
+            },
+            {
+              "type": "ellipse",
+              "id": "rB4lyiFJgliH5KIB",
+              "x": 262.62728118896484,
+              "y": 107.1990966796875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#ffc7bf",
+              "rx": 56.296295166015625,
+              "ry": 53.333343505859375
+            },
+            {
+              "type": "ellipse",
+              "id": "6s4bTpepVWbEAUB6",
+              "x": 168.18280792236328,
+              "y": 214.2362060546875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "#ffc7bf",
+              "rx": 56.296295166015625,
+              "ry": 53.333343505859375
+            },
+            {
+              "type": "text",
+              "id": "f7ItNqHBHCEYiaE3",
+              "x": 181.51622772216797,
+              "y": 212.754638671875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 108.1480712890625,
+              "height": 56.2962646484375,
+              "stroke": "#000000",
+              "text": "Signals from your muscles"
+            },
+            {
+              "type": "text",
+              "id": "S_cvs1gHGnux5ju3",
+              "x": 481.8866195678711,
+              "y": 216.087890625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 136.29620361328125,
+              "height": 51.111083984375,
+              "stroke": "#000000",
+              "text": "Normal signal from your body"
+            },
+            {
+              "type": "vector",
+              "id": "h85Xhjc7-a9AMDkn",
+              "x": 342.99776458740234,
+              "y": 236.4583740234375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 56.296234130859375,
+              "dy": -2.22222900390625
+            },
+            {
+              "type": "vector",
+              "id": "jmEkuOFwJFgmfT5d",
+              "x": 684.4792098999023,
+              "y": 226.08798217773438,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 60,
+              "dy": -3.7037353515625
+            },
+            {
+              "type": "vector",
+              "id": "sdU2R9mbHe9dgXiL",
+              "x": 686.7014389038086,
+              "y": 240.90283203125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 57.7777099609375,
+              "dy": -3.7037353515625
+            },
+            {
+              "type": "text",
+              "id": "ws_CkZK44Z6-0qNO",
+              "x": 775.5902328491211,
+              "y": 172.01385498046875,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 150.37030029296875,
+              "height": 75.55557250976562,
+              "stroke": "#000000",
+              "text": "How much the muscle signal is different from your normal"
+            }
+          ]
+        },
+        "layout": {
+          "height": 333.9884338378906
+        }
+      },
+      {
+        "id": "nROeMACY5RTn2ik_",
+        "title": "Graph it!",
+        "content": {
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "J466lk1V5WkHmdcZ",
+              "x": 573.3333435058594,
+              "y": 21.11114501953125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 165,
+              "height": 204,
+              "url": "vibe/images/Table-or-Graph-Dataflow.png",
+              "filename": "Table-or-Graph-Dataflow.png"
+            },
+            {
+              "type": "vector",
+              "id": "_kSM_Yp9Wn3DARlA",
+              "x": 713.3507461547852,
+              "y": 125.8160400390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -72.22222900390625,
+              "dy": 63.33331298828125,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "sD-Jh9z_fyRe-oUe",
+              "x": 713.3506851196289,
+              "y": 92.482666015625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 241.11090087890625,
+              "height": 54.44439697265625,
+              "stroke": "#000000",
+              "text": "You can use the \"graph it\" function to record your EMG experiments"
+            }
+          ]
+        },
+        "layout": {
+          "height": 274.00001525878906
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "vGTc1Q3B3g-SG19I",
+          "variables": [
+            {
+              "id": "bNks6afJi3R-DbAm",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 440,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "S9IOcdggq5U6HeWA",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "dgAp6sxqxvQD_SGf",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "z-F7f3URdFkNtT2F",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "lL32s2YI9s_IPKFm",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "inputs": [],
+              "color": "light-gray",
+              "labels": [
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "Ge59diZWt2ov5Dub",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "LpoSWD5RguQ9soUc",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "c-qysfELvytIFe45",
+          "9t_w8rwy7Z2carhg"
+        ]
       }
     ]
   }

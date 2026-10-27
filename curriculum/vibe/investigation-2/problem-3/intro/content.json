@@ -4,14 +4,262 @@
     "tiles": [
       {
         "id": "xC4RUqsgRn4TNf8r",
-        "title": "Text 1",
+        "title": "Investigating",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Overview</strong></p><p>In this lesson you will be using Dataflow to model how bionic arms can &quot;feel&quot; objects. </p><p><strong>Do Now: Initial Thoughts</strong></p><p>Answer the following question in your workspace: How would change the design of the gripper to make it &quot;feel&quot; objects?  </p>"
+            "<p>Sometimes, instead of always using real data, scientists and engineers use simulations.</p><p>Today, we will try that.</p>"
           ]
         }
+      },
+      {
+        "id": "__lFbjcGtksKYfRE",
+        "title": "By yourself",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "hLKrOw",
+          "tiles": [
+            {
+              "id": "-l4CO4XrX1oA_5df",
+              "title": "Graph it!",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Graph the EMG data from the simulated arm when it&#x27;s flexed and relaxed.</p><p>Then, compare it with your own data from last lesson and answer the questions below.</p>"
+                ]
+              }
+            },
+            {
+              "id": "BrE9czCkQjF9-J1x",
+              "title": "How is the simulated data similar or different from yours?",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            },
+            {
+              "id": "nOVg3Tlhyg4nfGmr",
+              "title": "What do you think the simulation is useful for?",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p></p>"
+                ]
+              }
+            },
+            {
+              "id": "Lt9yhMrjeXAVTVFt",
+              "content": {
+                "type": "Dataflow",
+                "program": {
+                  "id": "dataflow@1",
+                  "nodes": {
+                    "-E1EmY6aGDKfv0iD": {
+                      "id": "-E1EmY6aGDKfv0iD",
+                      "name": "Sensor",
+                      "x": -153.88888549804688,
+                      "y": 34.44444274902344,
+                      "data": {
+                        "type": "Sensor",
+                        "plot": false,
+                        "orderedDisplayName": "Sensor 1",
+                        "tickEntries": {},
+                        "sensorType": "emg-reading",
+                        "sensor": "SIMemg_key",
+                        "sensorDisplayName": "Simulated EMG"
+                      }
+                    }
+                  },
+                  "connections": {},
+                  "groups": {},
+                  "recentTicks": []
+                },
+                "programDataRate": 500,
+                "programZoom": {
+                  "dx": 0,
+                  "dy": 0,
+                  "scale": 1
+                }
+              }
+            },
+            {
+              "id": "14r-_CzqMpMXrsug",
+              "title": "Simulation 1",
+              "content": {
+                "type": "Simulator",
+                "simulation": "EMG_and_claw"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedVariables",
+          "id": "UFbdr_72UbpOYOK6",
+          "variables": [
+            {
+              "id": "WMzmkdJ49tUhzCkH",
+              "name": "target_emg_key",
+              "displayName": "Target EMG",
+              "value": 40,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            },
+            {
+              "id": "n8av0ujF67A8d5Sd",
+              "name": "emg_key",
+              "displayName": "EMG",
+              "unit": "mV",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://emg_key",
+              "labels": [
+                "input",
+                "sensor:emg-reading",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "tB_AE52VukuKdELy",
+              "name": "pressure_key",
+              "displayName": "Surface Pressure",
+              "unit": "psi",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://pressure_key",
+              "labels": [
+                "input",
+                "sensor:fsr-reading",
+                "className:long-name",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "3bGD2GIV1344tUcK",
+              "name": "gripper_key",
+              "displayName": "Gripper",
+              "unit": "% closed",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://gripper_key",
+              "labels": [
+                "output",
+                "live-output:Grabber",
+                "live-output:Gripper 2.0",
+                "decimalPlaces:0",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "98EUbqOsYbljCrdg",
+              "name": "pan_temperature_key",
+              "displayName": "Pan Temperature",
+              "inputs": [],
+              "color": "light-gray",
+              "labels": [
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "cBkkrbnun3KwPTWM",
+              "name": "temperature_key",
+              "displayName": "Temperature",
+              "unit": "°C",
+              "inputs": [],
+              "color": "light-gray",
+              "icon": "ccicon://temperature_key",
+              "labels": [
+                "input",
+                "sensor:temperature",
+                "__volatile__"
+              ]
+            },
+            {
+              "id": "dlYA316dmWD2p3R-",
+              "name": "simulation_mode_key",
+              "displayName": "Simulation Mode",
+              "value": 0,
+              "inputs": [],
+              "color": "light-gray",
+              "labels": []
+            }
+          ]
+        },
+        "tiles": [
+          "14r-_CzqMpMXrsug",
+          "xC4RUqsgRn4TNf8r",
+          "Lt9yhMrjeXAVTVFt",
+          "-l4CO4XrX1oA_5df",
+          "BrE9czCkQjF9-J1x",
+          "nOVg3Tlhyg4nfGmr"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "S8LL6Kj9LAsRNqFG",
+          "providerId": "Lt9yhMrjeXAVTVFt",
+          "dataSet": {
+            "id": "Dbh83KqWBHLE8seS",
+            "name": "Program 1",
+            "attributes": [
+              {
+                "id": "ATTRxjGefCC072zs",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              },
+              {
+                "id": "ATTRZt5FtZoEM4H8",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [],
+                "title": ""
+              }
+            ],
+            "cases": [],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "Lt9yhMrjeXAVTVFt"
+        ]
+      },
+      {
+        "sharedModel": {
+          "type": "SharedProgramData",
+          "id": "ljdxiQ3jNGk47ALX"
+        },
+        "tiles": [
+          "Lt9yhMrjeXAVTVFt",
+          "14r-_CzqMpMXrsug"
+        ]
       }
     ]
   }

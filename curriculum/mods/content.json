@@ -11,9 +11,14 @@
     ],
     "placeholderText": "Document your thoughts",
     "autoSectionProblemDocuments": true,
-    "defaultDocumentType": "problem",
     "disablePublish": true,
     "initiallyHideExemplars": true,
+    "classWideDocuments": [
+      {
+        "kind": "wordWall",
+        "title": "Word Wall"
+      }
+    ],
     "toolbar": [
       {
         "id": "select",
@@ -267,20 +272,32 @@
     ],
     "showIdeasButton": true,
     "termOverrides": {
-      "strategy": "Design Focus",
       "studentGroup": "Group",
-      "sortLabel.sortByDate": "Day"
+      "sortLabel.sortByOwner": "Name",
+      "strategy": "Design Focus",
+      "sortLabel.sortByDate": "Day",
+      "contentLevel.problem": "Lesson",
+      "contentLevel.problems": "Lessons"
     },
     "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "Investigation",
+        "Unit"
+      ],
       "sortOptions": [
         "Date",
         "Group",
         "Name",
         "Strategy",
-        "Tools",
-        "Bookmarked"
-      ]
-    }
+        "Tools"
+      ],
+      "defaultPrimarySort": "Name"
+    },
+    "planningTemplateEnabled": false,
+    "allowCustomCommentTags": true,
+    "showCommentRating": true,
+    "groupDocumentsEnabled": true
   },
   "sections": {
     "introduction": {
@@ -682,7 +699,7 @@
     {
       "description": "Problem 3: Water Quality and Contamination",
       "ordinal": 3,
-      "title": "Water Quality and Contamination",
+      "title": "Water Resources II",
       "problems": [
         {
           "description": "Activity 3.1",

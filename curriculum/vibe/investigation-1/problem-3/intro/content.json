@@ -4,31 +4,4006 @@
     "tiles": [
       {
         "id": "V-hej2RQXhIlHFUd",
+        "title": "Investigate",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Today you will learn about the nervous system and investigate how fast you react to objects. This will help you understand how Tilly controls her bionic arm. </p><p><strong>Learning Objectives</strong></p><p>By the end of this activity, you should be able to describe the difference between the central and peripheral nervous systems and how each part contributes to movement.</p>"
+            "<p>So far, you made your first prototype of a prosthesis, and you made an automatic machine.</p><p>In the next two lessons, you&#x27;ll connect these things you figured out to make your prosthesis move automatically.</p><p>It won&#x27;t connect to anyone&#x27;s actual arm yet, but it&#x27;ll be able to open and close, like the demo gripper did last lesson.</p>"
+          ]
+        }
+      },
+      {
+        "id": "rkOUpmfpkKZiqerA",
+        "title": "By yourself!",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "I0nGvC",
+          "tiles": [
+            {
+              "id": "Z0zZYUPVwcUXHJru",
+              "title": "Thinking about the reason",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Why would you want to make a prosthesis move automatically before you connect it to someone&#x27;s actual arm?</p>"
+                ]
+              }
+            },
+            {
+              "id": "tmq0JRLhzZoT_hlc",
+              "title": "Your response",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Remember, when there&#x27;s a blue question block like this, it&#x27;s a reminder to drag it over and answer it in your workspace.</p><p>When you drag it, you can delete this text and put your answer here!</p>"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "id": "7ya4R1wIYZnjlebp",
+        "title": "Servos",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Do Now</strong></p><p>What do you already know about how the nervous system controls movement? Add a text tile in your workspace and answer this question.  </p>"
+            "<p>Last lesson, you used a demo gripper, but your prostheses are all different - each group made their own design and modifications. They don&#x27;t all look like that gripper.</p><p>You can make your prosthesis move by connecting it to a <span data-slate-type=\"highlight\" data-slate-highlight-id=\"a2c3acb5-f909-4ab6-a433-18575877f68e\"></span>. The servo is moves a little gear to different angles.</p><p>Yours can spin 180 degrees - from up to down. In Dataflow, you will see it as 0% rotation up to 100% rotation.</p>"
+          ],
+          "highlightedText": [
+            {
+              "id": "a2c3acb5-f909-4ab6-a433-18575877f68e",
+              "text": "servo"
+            }
           ]
         }
       },
       {
-        "id": "msAcurKPDmjIhMnE",
-        "title": "Spine [Credit: Montana DPHHS]",
+        "id": "UqPnuoYfS_GdZSVW",
+        "title": "Understanding the servo",
         "content": {
-          "type": "Image",
-          "url": "brain/images/lesson3NervousSystem1.jpeg",
-          "filename": "brain/images/lesson3NervousSystem1.jpeg"
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "rectangle",
+              "id": "n3cjSsYcY4FOdCku",
+              "x": 557,
+              "y": 65,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 97,
+              "height": 62
+            },
+            {
+              "type": "rectangle",
+              "id": "WqCB3U_dLIc2c8Kp",
+              "x": 559,
+              "y": 219,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 97,
+              "height": 62
+            },
+            {
+              "type": "rectangle",
+              "id": "l7RM1vzO886FkS8z",
+              "x": 562,
+              "y": 385,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 97,
+              "height": 62
+            },
+            {
+              "type": "vector",
+              "id": "fxYYGHSAlFN7oyc1",
+              "x": 592,
+              "y": 94,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 0,
+              "dy": -61,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "ED1aIo6yZYXLVWWz",
+              "x": 602,
+              "y": 413,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 1,
+              "dy": 72,
+              "headShape": "triangle"
+            },
+            {
+              "type": "text",
+              "id": "4FZNhJ7I7YMvpTXg",
+              "x": 669,
+              "y": 74,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 80.88885498046875,
+              "height": 38,
+              "stroke": "#000000",
+              "text": "0 degrees"
+            },
+            {
+              "type": "text",
+              "id": "r37fCzs-r23nm7aj",
+              "x": 700,
+              "y": 229,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 222,
+              "height": 77,
+              "stroke": "#000000",
+              "text": "It can move back and forth for 180 degrees (a half circle). Here you see it half way, at 90 degrees."
+            },
+            {
+              "type": "text",
+              "id": "-c8GIgifrYFjd0js",
+              "x": 678.4444580078125,
+              "y": 378.22222900390625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 95,
+              "height": 39,
+              "stroke": "#000000",
+              "text": "180 degrees"
+            },
+            {
+              "type": "line",
+              "id": "oaPs4txDge-2G5xu",
+              "x": 573,
+              "y": 189,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "F-QoH3mFoEtRMwMd",
+              "x": 529,
+              "y": 222,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "F39Qwj0LNKZlzp40",
+              "x": 529,
+              "y": 263,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "N9EI8vdzNha0VNMp",
+              "x": 568,
+              "y": 306,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 2
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "VnGvOFSchuQAuvpj",
+              "x": 687,
+              "y": 319,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "rQMUfsVNc-Ap0rmn",
+              "x": 574.5555419921875,
+              "y": 595.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "width": 97,
+              "height": 62
+            },
+            {
+              "type": "vector",
+              "id": "KXtIIZKO47ZqK_jq",
+              "x": 590,
+              "y": 249,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -79,
+              "dy": 0,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "MnZPU1Ee_sKdpsxQ",
+              "x": 618.5555419921875,
+              "y": 625.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 87,
+              "dy": 1,
+              "headShape": "triangle"
+            },
+            {
+              "type": "vector",
+              "id": "4OMU6GN4OxBGklCL",
+              "x": 617.5555419921875,
+              "y": 631.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#000000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 3,
+              "dy": 75,
+              "headShape": "triangle"
+            },
+            {
+              "type": "line",
+              "id": "DQ9l_0-WnS8NUhRZ",
+              "x": 542.5555419921875,
+              "y": 630.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": 0
+                },
+                {
+                  "dx": 3,
+                  "dy": 1
+                },
+                {
+                  "dx": 3,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": 0
+                },
+                {
+                  "dx": 3,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "X3ht0If8XPV7izYt",
+              "x": 600.5555419921875,
+              "y": 683.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 2
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "q8MP4jMeAM5DxDQ0",
+              "x": 699.5555419921875,
+              "y": 608.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -2
+                },
+                {
+                  "dx": 0,
+                  "dy": -2
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -3
+                },
+                {
+                  "dx": 0,
+                  "dy": -2
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -2
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -2
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": -2
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "FQ2mOPAqTGZdRAz3",
+              "x": 612.5555419921875,
+              "y": 544.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": -1
+                },
+                {
+                  "dx": -4,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": -3,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": -3,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": -3,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -4,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -2,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 2
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 2
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "VTFhtfrWIcSvZSzz",
+              "x": 537.5555419921875,
+              "y": 604.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -4
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "mb4Q3QaY-UEqfZQu",
+              "x": 767.5555419921875,
+              "y": 593.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 186.3333740234375,
+              "height": 76,
+              "stroke": "#eb0000",
+              "text": "It can't keep spinning! It can only go from 0 degrees to 180 degrees and back!"
+            },
+            {
+              "type": "line",
+              "id": "j4El01Aisbir-gwQ",
+              "x": 637.5555419921875,
+              "y": 691.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 2,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 3,
+                  "dy": 0
+                },
+                {
+                  "dx": 2,
+                  "dy": -1
+                },
+                {
+                  "dx": 2,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "SNbe7od-psfoHtCS",
+              "x": 685.5555419921875,
+              "y": 653.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "xIryGXIpjZqdi6nj",
+              "x": 688.5555419921875,
+              "y": 646.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "RhJ69YVnyc_CSZGN",
+              "x": 656.5555419921875,
+              "y": 538.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "XXt8W6Ai0KJW7dVr",
+              "x": 575,
+              "y": 38,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -2,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "YeJfLswpWvAQqSCo",
+              "x": 528,
+              "y": 66,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "-MBUZ6Y4ArbsY_Bb",
+              "x": 568,
+              "y": 182,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 2
+                },
+                {
+                  "dx": -1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "guydVS3gsc2kCaxf",
+              "x": 522,
+              "y": 266,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "BwZ3vgenbkpN9-JY",
+              "x": 588,
+              "y": 472,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": -2,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": -1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "line",
+              "id": "YiS9-8e-oFRmj4ep",
+              "x": 529,
+              "y": 422,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#bfbfbf",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "fill": "none",
+              "deltaPoints": [
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": -1
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 0,
+                  "dy": -1
+                },
+                {
+                  "dx": 1,
+                  "dy": 0
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 1,
+                  "dy": 2
+                },
+                {
+                  "dx": 0,
+                  "dy": 1
+                },
+                {
+                  "dx": 0,
+                  "dy": 0
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "z5yf5Dz87afO-ZmJ",
+              "x": 825.3333740234375,
+              "y": 390.6666259765625,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 177,
+              "height": 73,
+              "stroke": "#008a00",
+              "text": "This is as far as it can go. Now it can only stay here or go back."
+            },
+            {
+              "type": "text",
+              "id": "n6fFySZxf8pF_H-H",
+              "x": 784.3333129882812,
+              "y": 81.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 163,
+              "height": 74,
+              "stroke": "#008a00",
+              "text": "This is its starting point. It can only go in one direction from here."
+            },
+            {
+              "type": "vector",
+              "id": "kcHEjPhAc2nbQb5_",
+              "x": 524.5555419921875,
+              "y": 532.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": 205,
+              "dy": 169
+            },
+            {
+              "type": "vector",
+              "id": "ZS-4aLf-BmBOIR87",
+              "x": 729.5555419921875,
+              "y": 534.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#eb0000",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -204,
+              "dy": 158
+            },
+            {
+              "type": "text",
+              "id": "okWcAaVspI6v3mKX",
+              "x": 670.111083984375,
+              "y": 120.66665649414062,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 85.333251953125,
+              "height": 35.777801513671875,
+              "stroke": "#000000",
+              "text": "0% rotation"
+            },
+            {
+              "type": "text",
+              "id": "jQ8EAO7Kl8rwhnh1",
+              "x": 680.6666870117188,
+              "y": 427.111083984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 123.888916015625,
+              "height": 36.77777099609375,
+              "stroke": "#000000",
+              "text": "100% rotation"
+            }
+          ]
+        },
+        "layout": {
+          "height": 770
+        }
+      },
+      {
+        "id": "KAaZfslaNVC-cPCi",
+        "title": "By yourself",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "fKIiur",
+          "tiles": [
+            {
+              "id": "sRrDDa1I_3pk3sx2",
+              "title": "Figuring out how the servo works in Dataflow",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Last lesson, you figured out how the gripper worked in Dataflow. Does the servo work the same way?</p><p>Drag this question tile over and answer the questions!</p><p>As you make your prediction think:</p><ul><li><strong>Remembering</strong>: <u>What do I already know </u>about how the demo gripper works, and about how the servo works?</li><li><strong>Noticing</strong>: <u>What seems similar or different</u> between the demo gripper and the servo?</li></ul>"
+                ]
+              }
+            },
+            {
+              "id": "-uxF2m6oD8jY0xuU",
+              "title": "Predicting",
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p><strong>How do you think the servo works?</strong></p><p><strong>What information do you need to check if your prediction is right?</strong></p><p><strong></strong></p><p><strong>If you don&#x27;t have a prediction about the servo, what information do you need to figure out how it works?</strong></p>"
+                ]
+              }
+            }
+          ]
         }
       }
     ]

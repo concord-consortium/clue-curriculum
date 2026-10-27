@@ -12,6 +12,32 @@
     "defaultDocumentTitle": "Storm Name and Time",
     "defaultDocumentType": "personal",
     "defaultLearningLogDocument": false,
+    "defaultDocumentTemplate": {
+      "tiles": [
+        {
+          "id": "document_Text_1",
+          "content": {
+            "type": "Text",
+            "format": "html",
+            "text": [
+              "<li>Need to know how to use the Storm Explorer simulation below? Watch this video.</li><li>To set up your simulation, read the information and maps to the right to find the current:</li><li><strong>Storm position and category</strong> — Public Advisory</li><li><strong>High- and low-pressure systems</strong> — Air Pressure Map</li><li><strong>Sea surface temperature anomaly</strong> — Daily Update</li><li><strong>Sea surface temperature</strong> — Summer (June to August), Early Fall (September to mid-October), or Late Fall (mid-October to November)</li><li></li>"
+            ]
+          }
+        },
+        {
+          "id": "document_IframeInteractive_1",
+          "title": "Storm Explorer Simulation",
+          "content": {
+            "type": "IframeInteractive",
+            "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
+            "interactiveState": {},
+            "authoredState": {},
+            "maxHeight": 0,
+            "enableScroll": false
+          }
+        }
+      ]
+    },
     "documentLabels": {
       "personal": {
         "labels": {
@@ -50,11 +76,6 @@
         "isTileTool": true
       },
       {
-        "id": "Table",
-        "title": "Table",
-        "isTileTool": true
-      },
-      {
         "id": "duplicate",
         "title": "Duplicate Tile",
         "iconId": "icon-duplicate-tool",
@@ -67,14 +88,20 @@
         "isTileTool": false
       }
     ],
-    "authorTools": [],
+    "authorTools": [
+      {
+        "id": "Table",
+        "title": "Table",
+        "isTileTool": true
+      }
+    ],
     "navTabs": {
       "showNavPanel": true,
       "lazyLoadTabContents": true,
       "tabSpecs": [
         {
           "tab": "class-work",
-          "label": "Storm Forcast",
+          "label": "Daily Updates",
           "sections": [
             {
               "title": "Storms 2026",
@@ -109,30 +136,13 @@
         },
         {
           "tab": "sort-work",
-          "label": "Model Gallery",
+          "label": "Daily Updates",
           "teacherOnly": false,
-          "hidden": false
+          "hidden": true
         },
         {
           "tab": "problems",
           "label": "User Guide",
-          "sections": [
-            {
-              "initials": "CONE",
-              "title": "Cone of Uncertainty",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "PLOT",
-              "title": "Spaghetti Plots",
-              "type": "problem-documents"
-            },
-            {
-              "initials": "MODEL",
-              "title": "Storm Model Help",
-              "type": "problem-documents"
-            }
-          ],
           "teacherOnly": false,
           "hidden": false
         },
@@ -145,8 +155,8 @@
         {
           "tab": "my-work",
           "label": "My Work",
-          "teacherOnly": false,
-          "hidden": true
+          "hidden": true,
+          "teacherOnly": false
         },
         {
           "tab": "student-work",
@@ -213,7 +223,7 @@
       },
       "iframeInteractive": {
         "maxTiles": 1,
-        "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+        "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
         "interactiveState": {},
         "authoredState": {},
         "allowedPermissions": "geolocation; microphone; camera; bluetooth",
@@ -226,48 +236,53 @@
       "teacher",
       "researcher"
     ],
-    "showCommentTag": true,
-    "commentTags": {
-      "severity": "Severity",
-      "coneofuncertainty": "Cone of Uncertainty",
-      "spaghetti": "Spaghetti Models",
-      "landfall": "Landfall"
-    },
-    "aiEvaluation": "custom",
+    "showCommentTag": false,
+    "commentTags": {},
     "aiPrompt": {
       "systemPrompt": "You are a master researcher of hurricane science.",
       "mainPrompt": "This is a discussion of a hurricane map and model made by a non-expert weather enthusiast analyzing hurricanes and speculating about their severity and path. Please evaluate the quality of the model interpretation.",
       "categorizationDescription": "Categorize the discussion in the document according to which feature of the storm is most discussed: Severity, Timing, Path, Uncertainty, or Temperature.",
-      "categories": [
-        "severity",
-        "coneofuncertainty",
-        "spaghetti",
-        "landfall"
-      ],
+      "categories": [],
       "keyIndicatorsPrompt": "What are the key indicators in the document that support this categorization? ",
       "discussionPrompt": "In no more than 1 sentence, suggest what other kinds of modeling the document author could pursue to better understand the storm path and uncertainty.",
       "summarizer": "image"
     },
     "showIdeasButton": false,
     "sortWorkConfig": {
+      "docFilterOptions": [
+        "Problem",
+        "Investigation"
+      ],
       "sortOptions": [
         "Date",
         "Name",
-        "Strategy"
+        "Bookmarked"
       ],
-      "defaultPrimarySort": "Date",
-      "showContextFilter": false
+      "defaultPrimarySort": "Date"
     },
     "termOverrides": {
       "sortLabel.sortByOwner": "User",
       "strategy": "Model focus",
-      "contentLevel.problem": "Model"
-    }
+      "contentLevel.problem": "this storm",
+      "contentLevel.problems": "these storms",
+      "contentLevel.investigation": "2026 Storms",
+      "contentLevel.investigations": "2026 Storms",
+      "resourcesPanel": "Models and Forecasts"
+    },
+    "showCommentRating": false,
+    "contentLayout": "wideContent",
+    "defaultSharedDocuments": true,
+    "showShare": false,
+    "defaultDocumentTemplateEnabled": true,
+    "planningTemplateEnabled": false,
+    "hide4up": true,
+    "fixedStartView": true,
+    "fixedStartTab": "class-work"
   },
   "sections": {
     "cone": {
-      "initials": "CONE",
-      "title": "Cone of Uncertainty",
+      "initials": "GUIDE",
+      "title": "Stormcaster Model Guide",
       "placeholder": "Discuss or paste images of your cone of uncertainty here."
     },
     "plot": {
@@ -283,43 +298,84 @@
   },
   "investigations": [
     {
-      "description": "Investigation 1",
+      "title": "Stormcaster 2026",
       "ordinal": 1,
-      "title": "Storms 2026",
+      "description": "",
       "problems": [
         {
-          "description": "Activity 1.1",
+          "title": "Storm Arthur",
           "ordinal": 1,
-          "title": "Summer 2026",
+          "description": "",
           "subtitle": "",
-          "disabled": [],
           "sections": [
-            "investigation-1/problem-1/model/content.json"
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Bertha",
+          "ordinal": 2,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Cristobal",
+          "ordinal": 3,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Dolly",
+          "ordinal": 4,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Introduction to Storm Tracker",
+          "ordinal": 5,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
           ],
           "config": {
+            "defaultDocumentTemplateEnabled": true,
             "defaultDocumentTemplate": {
               "tiles": [
                 {
-                  "id": "8pKl3_OI-jz7hR8-",
+                  "content": {
+                    "isSectionHeader": true,
+                    "sectionId": "cone"
+                  }
+                },
+                {
+                  "id": "_XtYg1LwjnVTv_cJ",
                   "title": "Text 1",
                   "content": {
                     "type": "Text",
                     "format": "html",
                     "text": [
-                      "<p><strong>Storm Explorer</strong></p>",
-                      "<p>Make a new model that helps explain the current storm. Document your analysis using text and Sketches.</p>"
+                      "<p>For how to use <strong>Storm Explorer</strong>, <a href=\"https://has-production.s3.amazonaws.com/resources/APLUS%20project/Storm%20Explorer%20how-to.mov\">visit this link</a>.</p><p>To guide the initial set up of your simulation, find the current:</p><p>     1. <strong>Storm position and category</strong> — Public Advisory</p><p>     2. <strong>Sea surface temperature</strong> — Choose one based on date of current storm: Summer (June to August), Early Fall (September to mid-October), or Late Fall (mid-October to November)</p><p>     3. <strong>Sea surface temperature anomaly</strong> — Daily Update</p><p>     4. <strong>High- and low-pressure systems</strong> — Air Pressure Map</p><p></p>"
                     ]
                   }
                 },
                 {
-                  "id": "document_IframeInteractive_1",
-                  "title": "My Model for Storm A",
+                  "id": "kh3IyNORxz5UHH5E",
+                  "title": "Interactive 1",
                   "content": {
                     "type": "IframeInteractive",
-                    "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false",
+                    "url": "https://models-resources.concord.org/hurricane-model/branch/master/index.html?topBarVisible=false&mode=storm",
                     "interactiveState": {},
                     "authoredState": {},
-                    "maxHeight": 1000,
+                    "maxHeight": 0,
                     "enableScroll": false
                   }
                 }
@@ -328,12 +384,147 @@
           }
         },
         {
-          "title": "Fall 2026",
-          "ordinal": 2,
+          "title": "Storm Fay",
+          "ordinal": 6,
           "description": "",
           "subtitle": "",
           "sections": [
-            "investigation-1/problem-2/model/content.json"
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Gonzalo",
+          "ordinal": 7,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Hanna",
+          "ordinal": 8,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Isaias",
+          "ordinal": 9,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Josephine",
+          "ordinal": 10,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Kyle",
+          "ordinal": 11,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Leah",
+          "ordinal": 12,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Marco",
+          "ordinal": 13,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Nana",
+          "ordinal": 14,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Omar",
+          "ordinal": 15,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Paulette",
+          "ordinal": 16,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Rene",
+          "ordinal": 17,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Sally",
+          "ordinal": 18,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Teddy",
+          "ordinal": 19,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm Vicky",
+          "ordinal": 20,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
+          ]
+        },
+        {
+          "title": "Storm WIlfred",
+          "ordinal": 21,
+          "description": "",
+          "subtitle": "",
+          "sections": [
+            "investigation-1/problem-1/cone/content.json"
           ]
         }
       ]

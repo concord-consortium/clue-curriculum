@@ -2,6 +2,10 @@
 
 This is a repository for CLUE curriculum unit and teacher guide data. The unit and teacher guide data is imported by [CLUE](https://github.com/concord-consortium/collaborative-learning).
 
+## Deployment
+
+S3 deployment is handled by GitHub Actions using OIDC for AWS authentication. See [deploy-setup.md in starter-projects](https://github.com/concord-consortium/starter-projects/blob/main/doc/deploy-setup.md) for how the AWS side is set up, and [doc/deploy.md](doc/deploy.md) for how deploys work in this repo.
+
 ## Adding a Unit
 
 To add a new unit, first decide on a unit code. For example, the existing unit _Stretching and Shrinking_ uses the code `sas`. Next, create a new subdirectory in the curriculum directory using that code as a name. In that new subdirectory, add a file named `content.json`. Use the unit-template.json file as a starting place to build the new file's content.

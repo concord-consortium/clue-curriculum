@@ -3,29 +3,14 @@
   "content": {
     "tiles": [
       {
-        "id": "AEOcyqqiPOLvHa2G",
-        "title": "Sketch 1",
+        "id": "saHHjouUVFbDVqlF",
+        "title": "Text 1",
         "content": {
-          "type": "Drawing",
-          "objects": [
-            {
-              "type": "image",
-              "id": "akhIhdTyjEcjROKG",
-              "x": 0,
-              "y": 0,
-              "hFlip": false,
-              "vFlip": false,
-              "rotation": 0,
-              "visible": true,
-              "width": 1168,
-              "height": 1026,
-              "url": "seismic/images/MLmock.png",
-              "filename": "MLmock.png"
-            }
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<h2><strong>Use ML to explore the data to answer your questions!</strong></h2><p>Now that you have decided what settings need to be used to guide the machine learning model,  it is time to run your investigation.</p><p><strong>Instructions</strong></p><p>1) Enter the Station, Start date and time, End Date and time, and choose a model selection in the WaveRunner tile.</p><p>2) Click &quot;Run Model&quot; in the bottom control bar.</p><p>3) When the model is completed, click the &quot;Timeline It!&quot; button in the bottom control bar.</p><p>4) Answer the questions to interpret your data!</p>"
           ]
-        },
-        "layout": {
-          "height": 1029
         }
       }
     ]

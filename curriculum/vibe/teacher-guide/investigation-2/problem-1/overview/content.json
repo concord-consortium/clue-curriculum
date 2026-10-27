@@ -2,7 +2,15 @@
   "type": "overview",
   "content": {
     "tiles": [
-      {"id": "OkqWQlPcmv0mJyhU", "title": "Human Hand Gripping a Ski Pole", "content": {"type": "Image", "url": "brain/images/skiGloveGrip.png", "filename": "brain/images//skiGloveGrip.png"}},
+      {
+        "id": "OkqWQlPcmv0mJyhU",
+        "title": "Human Hand Gripping a Ski Pole",
+        "content": {
+          "type": "Image",
+          "url": "brain/images/skiGloveGrip.png",
+          "filename": "brain/images/skiGloveGrip.png"
+        }
+      },
       {
         "id": "qlmLt2DcbaH6z5H6",
         "title": "Text 1",
@@ -10,14 +18,100 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong>Lesson Overview:</strong></p>",
-            "<p>Students will begin Module 2 by examining how sensory input impacts our ability to move and interact with objects. </p>",
-            "<p><strong>Materials</strong>:</p>",
-            "<p>A 30 cm ruler and thick winter gloves (ski gloves) will be needed for each pair of students.   </p>",
-            "<p><strong>Learning Objectives:</strong></p>",
-            "<p>Students develop a model in which they describe the relationship “between components, including: (1) The functions of at least two major body systems in terms of contributions to overall function of an organism and (2) Ways the functions of the two different systems affect one another; and (3) A system’s function and how that relates both to the system’s parts and th overall function of the organism.”  (HS-LS1-2)</p>"
+            "<p><strong>Lesson Overview:</strong></p><p>Students will begin Module 2 by examining how sensory input impacts our ability to move and interact with objects. </p><p><strong>Materials</strong>:</p><p>A 30 cm ruler and thick winter gloves (ski gloves) will be needed for each pair of students.   </p><p><strong>Learning Objectives:</strong></p><p>Students develop a model in which they describe the relationship “between components, including: (1) The functions of at least two major body systems in terms of contributions to overall function of an organism and (2) Ways the functions of the two different systems affect one another; and (3) A system’s function and how that relates both to the system’s parts and th overall function of the organism.”  (HS-LS1-2)</p>"
           ]
         }
+      },
+      {
+        "id": "BgRbaKucVgAcz8UR",
+        "title": "Question 1",
+        "content": {
+          "type": "Question",
+          "version": 1,
+          "locked": false,
+          "questionId": "mU_p_R",
+          "tiles": [
+            {
+              "id": "ZfdFsLtGxFCoY0In",
+              "title": "Question Prompt",
+              "fixedPosition": true,
+              "content": {
+                "type": "Text",
+                "format": "html",
+                "text": [
+                  "<p>Have students compare senses needed to perform manual tasks</p>"
+                ]
+              }
+            },
+            {
+              "id": "voSQhN-HJs4It9La",
+              "content": {
+                "type": "Table",
+                "columnWidths": {
+                  "6faGZVtfkk7sjV2Q": 80,
+                  "u97_zfGrDAiYCUWF": 153.51171875
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "UqttmcvE_mFmxCxd",
+          "providerId": "voSQhN-HJs4It9La",
+          "dataSet": {
+            "id": "tNg30P2lwqlGavmv",
+            "name": "Senses",
+            "attributes": [
+              {
+                "id": "6faGZVtfkk7sjV2Q",
+                "clientKey": "",
+                "name": "Task",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "pick up cup",
+                  "pick up frying pan"
+                ],
+                "title": ""
+              },
+              {
+                "id": "u97_zfGrDAiYCUWF",
+                "clientKey": "",
+                "name": "receptors",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "pressure sensors in fingers",
+                  "heat sensors in fingers and palm"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "OdhyejQPiSBocw6H"
+              },
+              {
+                "__id__": "4rNxC6mNGzgcn_g4"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "voSQhN-HJs4It9La"
+        ]
       }
     ]
   },
