@@ -345,7 +345,192 @@
     },
     "hide4up": true,
     "showIdeasButton": false,
-    "aiEvaluateOnSessionEnd": true
+    "aiEvaluateOnSessionEnd": true,
+    "aiUnitSummary": {
+      "generatedAt": "2026-10-27T21:34:28.088Z",
+      "sourceHash": "r25usn",
+      "sourceManifest": [
+        {
+          "ordinal": "1.1",
+          "title": "FAW 1.1 How Big Are Those Boxes?",
+          "problemHash": "1raduo"
+        },
+        {
+          "ordinal": "1.2",
+          "title": "FAW 1.2 How Big are those Boxes",
+          "problemHash": "epzu39"
+        },
+        {
+          "ordinal": "1.3",
+          "title": "FAW 1.3 Compost Containers",
+          "problemHash": "9i6rdc"
+        },
+        {
+          "ordinal": "2.1",
+          "title": "FAW 2.1 Folding Paper",
+          "problemHash": "ozhuqm"
+        },
+        {
+          "ordinal": "2.2",
+          "title": "FAW 2.2 Packing a Prism",
+          "problemHash": "1t1fmrh"
+        },
+        {
+          "ordinal": "2.3",
+          "title": "FAW 2.3 Slicing Prisms and Pyramids",
+          "problemHash": "sm01b4"
+        },
+        {
+          "ordinal": "3.1",
+          "title": "FAW 3.1 Going Around in Circles",
+          "problemHash": "hgnwlj"
+        },
+        {
+          "ordinal": "3.2",
+          "title": "FAW 3.2 Testing Absorbency of Paper Towels",
+          "problemHash": "17j2jdt"
+        },
+        {
+          "ordinal": "3.3",
+          "title": "FAW 3.3 Connecting Circumference and Area",
+          "problemHash": "1bysqco"
+        },
+        {
+          "ordinal": "3.4",
+          "title": "FAW 3.4 Nate’s Conjecture",
+          "problemHash": "1s88g6"
+        },
+        {
+          "ordinal": "4.1",
+          "title": "FAW 4.1 Designing Under Constraints",
+          "problemHash": "pzuskn"
+        },
+        {
+          "ordinal": "4.2",
+          "title": "FAW 4.2 Connecting Circles to Cones and Spheres",
+          "problemHash": "12u92s7"
+        },
+        {
+          "ordinal": "4.3",
+          "title": "FAW 4.3 Creating Ice Cream Containers",
+          "problemHash": "xr1mhc"
+        },
+        {
+          "ordinal": "5.1",
+          "title": "Filling and Wrapping Mathematical Reflections",
+          "problemHash": "4iq5dj"
+        },
+        {
+          "ordinal": "6.1",
+          "title": "FAW ACE Question Banks",
+          "problemHash": "15nlv8t"
+        }
+      ],
+      "overview": "Filling and Wrapping is a grade 7 measurement unit on the volume and surface area of three-dimensional figures. Investigation 1 works with rectangular prisms: counting unit cubes in layers to get volume, finding every prism that holds a fixed number of cubes and discovering that the one closest to a cube has the least surface area, and scaling a prism by a factor to find that surface area grows by the square of it and volume by the cube. Investigation 2 generalises to right prisms with any polygon base, arriving at volume as base area times height, and slices prisms and pyramids to see what cross sections appear. Investigation 3 builds the circle formulas from measurement — the ratio of circumference to diameter found experimentally before it is named pi, area found by counting squares, then the two connected by rearranging a circle into a near-parallelogram — and extends them to cylinders. Investigation 4 designs containers under constraints and relates cones and spheres to the cylinder that encloses them.",
+      "entries": [
+        {
+          "ordinal": "1.1",
+          "priorKnowledge": "From Covering and Surrounding: area and perimeter of rectangles and other polygons; the idea of covering a region with unit squares. Students should be able to multiply multi-digit numbers, read a diagram of a three-dimensional figure, and work with a net. Volume as a formula is not assumed — it is built here.",
+          "problemDigest": "Opens the unit with shipping containers as rectangular prisms, asking how to find how much a container holds. Volume is built by counting: the number of unit cubes in one layer, multiplied by the number of layers. The What If section applies the same structure to stacked loads on a ship — a load with 4 by 6 containers in five layers being (4 × 6) × 5 — and then to a load given as 10 by 15 by 8. Surface area is developed alongside volume, as the total area of the six rectangular faces, or by way of a net in which the lateral surface is one rectangle whose length is the perimeter of the base. The two measures are kept distinct from the start: one counts cubes inside, the other covers the outside.",
+          "approach": "divergent",
+          "approachGuidance": "Volume and surface area are reasoned out by counting and by nets rather than applied as formulas. Support the counting strategy a student uses."
+        },
+        {
+          "ordinal": "1.2",
+          "priorKnowledge": "Volume of a rectangular prism as layers of unit cubes, or base area times height; surface area as the total area of the six faces, or from a net; factors of a whole number; recording dimensions and results in a table.",
+          "problemDigest": "Fixes the volume and varies the shape. A toy company ships 24 cube-shaped packages in a rectangular box, and students find every arrangement of 24 unit cubes into a prism, sketching each and recording dimensions, volume and surface area — so the systematic search is over factor triples of 24. Comparing the surface areas shows which box uses least material. The What If section repeats this for 8, 27, 12 and 30 cubes and asks for the pattern: 8 and 27 are cubes and their best box is a cube, while for other volumes the closer the dimensions are to equal, the smaller the surface area. A final question asks for the cube holding 500 cubic centimetres, which has no whole-number answer.",
+          "approach": "divergent",
+          "approachGuidance": "Students search systematically for arrangements and then generalise. Support the search and the pattern they draw from it rather than naming the cube result."
+        },
+        {
+          "ordinal": "1.3",
+          "priorKnowledge": "Volume and surface area of rectangular prisms; that among prisms of a fixed volume the one closest to a cube has least surface area; from Stretching and Shrinking, similar figures and scale factor; proportional reasoning; reading and completing a table.",
+          "problemDigest": "Extends similarity from two dimensions to three using compost boxes. The 1-2-3 box, one foot by two by three, decomposes half a pound of waste a day with about a thousand redworms. Students design boxes for families producing more waste and then, in the What If section, scale the basic design up by whole-number factors, tabulating dimensions, surface area, volume and the worms needed. The pattern is the unit's central result about scaling: multiplying every dimension by f multiplies surface area by f squared and volume by f cubed — so a box twice as long in each direction holds eight times as much. The closing discussion compares this with scaling similar rectangles.",
+          "approach": "divergent",
+          "approachGuidance": "Students design boxes to meet a need and then find the scaling pattern in their own table. Let the squared and cubed relationships emerge from the data."
+        },
+        {
+          "ordinal": "2.1",
+          "priorKnowledge": "Volume and surface area of rectangular prisms; the effect of scale factor on each; area of polygons including triangles and regular polygons; that a right prism has congruent polygon bases and rectangular lateral faces; making and folding nets.",
+          "problemDigest": "Generalises from rectangular prisms to right prisms with any polygon base. Students fold five sheets of identical paper into open-ended prisms with increasing numbers of lateral sides, predict how volume and surface area will change, and then fill the models with a dry material to compare capacities — so the comparison is physical before it is computed. The result is that, for a fixed sheet of paper, more sides gives more volume. The What If section tests Gabriel's claim that the rectangular-prism method generalises: find the number of unit cubes covering the base, which is the base area, then multiply by the height. Students apply it to the prisms they built.",
+          "approach": "divergent",
+          "approachGuidance": "Students predict, build and measure before any formula is confirmed. Work from what their models actually showed rather than the computed answer."
+        },
+        {
+          "ordinal": "2.2",
+          "priorKnowledge": "Volume of a right prism as base area times height; area of polygons; surface area from a net; from Covering and Surrounding, packing a region with unit squares; multiplying with fractions and decimals.",
+          "problemDigest": "Consolidates volume of right prisms, including cases where the prism cannot be packed with whole unit cubes and parts of cubes must be visualised instead. The challenge works through several tasks: a fish tank partly filled from a container, where students find what fraction of the tank one container fills and how many containers are needed, which requires computing both volumes and comparing them. The What If section gives three of Briana's flat plans for gift boxes and asks for the surface area and volume of each — including a triangular-based prism whose base height is irrational, so the answers are explicitly approximations. The closing discussion states the general strategy for any right prism.",
+          "approach": "divergent",
+          "approachGuidance": "Several of these volumes are approximations and the route through each task varies. Support the student's method and their handling of the approximation."
+        },
+        {
+          "ordinal": "2.3",
+          "priorKnowledge": "Right prisms and pyramids and their faces, edges and vertices; volume and surface area of prisms; polygon names; visualising a three-dimensional figure from a diagram.",
+          "problemDigest": "Looks inside solids by slicing them. Students predict what polygon appears at a cross section, then run an experiment: colour water poured into a clear prism or pyramid and tilted, with rubber bands marking the water line to outline the cross section — so the slice is produced physically rather than imagined. The What If section makes single cuts through rectangular prisms along given lines and asks, for each, what two solids result, what shapes their faces are, and how many vertices, edges and faces each has. The results collected are that slicing a rectangular prism can give triangles, rectangles and trapezoids as cross sections, and triangular, rectangular and trapezoidal prisms as pieces.",
+          "approach": "divergent",
+          "approachGuidance": "Students predict the cross section before testing it with water. Support the prediction and the reasoning, not just the shape that appears."
+        },
+        {
+          "ordinal": "3.1",
+          "priorKnowledge": "Radius, diameter and centre of a circle; measuring length with a ruler or tape; ratio as a multiplicative comparison and proportional relationships from Comparing and Scaling; plotting points and recognising a proportional graph through the origin.",
+          "problemDigest": "Derives the circumference relationship by measurement rather than giving it. Students predict how circumference relates to diameter, then measure several circular objects with string and a ruler and tabulate diameter, circumference and their ratio — finding it consistently a little over 3. The What If section examines two claims: Maren's, that a graph of circumference against diameter shows a proportional relationship, which the class data supports and which yields C ≈ 3d; and Matt's, that the radius can be used instead, which works once it is doubled, giving C ≈ 6r. The constant is left as about 3 here and only named pi in the next problem.",
+          "approach": "divergent",
+          "approachGuidance": "The relationship comes from students' own measurements, which will vary and will not be exact. Work from their data rather than correcting toward pi."
+        },
+        {
+          "ordinal": "3.2",
+          "priorKnowledge": "Circumference as about three times the diameter, and the name pi for that ratio; radius and diameter; area as a count of unit squares; measuring on a transparent grid; recording and comparing experimental results.",
+          "problemDigest": "Builds the area relationship the same experimental way, in a paper-towel absorbency test. Two drops of water are placed on each brand, the wet patch is roughly circular, and students measure its diameter and find its area by counting squares on a transparent grid — so area is first a count, not a formula, and the brands are compared by it. The What If section examines students' strategies for getting from the diameter to the area, including Sam's: draw a square on the diameter, note that the circle's area is less, and count the squares between circle and square to find the circle is about three quarters of the square, giving area ≈ three quarters of d squared. Students judge whether each strategy matches the table.",
+          "approach": "divergent",
+          "approachGuidance": "Area is approximated by counting and bounding before any formula appears, and several strategies are compared. Support the estimate and its justification."
+        },
+        {
+          "ordinal": "3.3",
+          "priorKnowledge": "Circumference as pi times diameter and the experimental origin of pi; area of a circle approximated by counting squares; area of parallelograms and rectangles; that a shape can be cut and rearranged without changing its area.",
+          "problemDigest": "Connects the two circle formulas rather than stating them separately. A circular pizza is cut into eight identical slices and rearranged into a shape close to a parallelogram, whose shorter side is the radius and whose longer side is half the circumference; students say how the two shapes are related and what changes if the circle is cut into 16 or 32 pieces, the shape approaching a rectangle. Multiplying those two sides gives the area as half the circumference times the radius, which simplifies to pi r squared — so the area formula is derived from the circumference formula. The What If section examines a student's version of the formula produced this way.",
+          "approach": "divergent",
+          "approachGuidance": "The derivation is the content and students reason about what happens as the slices get thinner. Support the argument rather than moving to the formula."
+        },
+        {
+          "ordinal": "3.4",
+          "priorKnowledge": "Area and circumference of a circle and the formulas for both; volume of a right prism as base area times height; surface area from a net; the effect of scaling a dimension on volume; that more lateral sides gives more volume for a fixed sheet of paper.",
+          "problemDigest": "Extends prisms to cylinders through Nate's conjecture: since a prism grows more circular as its sides increase, a cylinder should hold the most. Students find the volume of a cylinder of radius 5 and height 12, then compare the effect of doubling the height against doubling the radius — the radius matters more, since it is squared — and work out the factor when both are doubled. The What If section rolls the same 8-by-11 sheet two ways, Teri taping the short edges and Wyn the long ones, giving cylinders of equal surface area but different volumes, which students may settle by filling one and pouring it into the other. Surface area of a cylinder is built from two circles and a rectangle whose length is the circumference.",
+          "approach": "divergent",
+          "approachGuidance": "The two cylinders can be compared by calculation or by pouring, and both are expected. Follow the comparison the student sets up."
+        },
+        {
+          "ordinal": "4.1",
+          "priorKnowledge": "Volume and surface area of cylinders and of prisms with various bases; area of circles, triangles and rectangles; nets; that among containers of equal volume the surface area depends on the shape; approximating with pi.",
+          "problemDigest": "Poses a design problem under a fixed constraint. A juice company's cylindrical can is 11 cm high with radius 2.7 cm, and the company wants a rectangular box of the same volume; students compute that volume, design a net on centimetre grid paper, build the box, and compare its surface area with the can's. The What If section repeats the exercise for a triangular prism with right-triangle bases, the only requirement being that base area times height match the can's roughly 252 cubic centimetres — so many designs qualify and students' answers legitimately differ. The closing comparison is that for a fixed volume the surface area falls as the base gains sides, with the cylinder lowest.",
+          "approach": "divergent",
+          "approachGuidance": "Many containers satisfy the volume constraint and students design their own. Evaluate a design against the constraint rather than steering to particular dimensions."
+        },
+        {
+          "ordinal": "4.2",
+          "priorKnowledge": "Volume and surface area of cylinders; area and circumference of circles; radius and diameter; that doubling a linear dimension multiplies volume by a larger factor; conducting and tabulating an experiment.",
+          "problemDigest": "Relates cones and spheres to the cylinder that encloses them. Students build a clay sphere, fit a transparent cylinder of the same diameter and height around it, and make a cone of matching base and height, then fill and pour to find how the three volumes compare — the classic result being that the cone is a third of the cylinder and the sphere two thirds. The What If section tabulates the three volumes for shapes whose height is twice the radius as the radius grows, and asks how the volume changes as the radius doubles, returning to the cubing relationship from Investigation 1 in a new setting. The sphere is noted as determined by a single dimension, the cone by two.",
+          "approach": "divergent",
+          "approachGuidance": "The relationships are found by filling and pouring, with results that will not be exact. Work from what the students' pouring showed."
+        },
+        {
+          "ordinal": "4.3",
+          "priorKnowledge": "Volume and surface area of cylinders, cones, spheres and prisms; the relationships among cone, sphere and cylinder of matching dimensions; nets and net construction; designing to a volume constraint; scaling and its effect on volume.",
+          "problemDigest": "Closes the unit with an open design task: creating ice cream containers. Students apply the unit's results — volume and surface area of cylinders, cones and prisms, the relationships among the round solids, and the effect of shape on material used for a fixed capacity — to design containers meeting stated requirements, and justify their choices. It is the shortest problem in the unit and is essentially a consolidation, with the designs and their justifications rather than any single computation being the output.",
+          "approach": "divergent",
+          "approachGuidance": "This is an open design task with many defensible answers. Support the design a student proposes and how they justify it against the requirements."
+        },
+        {
+          "ordinal": "5.1",
+          "priorKnowledge": "The whole unit: volume and surface area of rectangular prisms, right prisms with any polygon base, cylinders, cones and spheres; the effect of a scale factor on surface area and volume; the circle formulas and their experimental origins; cross sections of prisms and pyramids; designing containers to a volume constraint.",
+          "problemDigest": "The unit's Mathematical Reflections, asking what students now know about filling and wrapping three-dimensional figures. The expected ground is volume as base area times height for any right prism and for cylinders; surface area as the total of the faces or from a net; that scaling every dimension by a factor multiplies surface area by its square and volume by its cube; that among prisms of fixed volume the one nearest a cube uses least material, and among containers of fixed volume the cylinder uses less than prisms; the circle formulas and the derivation connecting them; the cone and sphere relationships to an enclosing cylinder; and what cross sections slicing produces. A writing and discussion task."
+        },
+        {
+          "ordinal": "6.1",
+          "priorKnowledge": "Whatever has been covered when the exercises are assigned; the banks are organised by investigation and are normally used alongside the corresponding problems rather than after the whole unit.",
+          "problemDigest": "The unit's ACE question banks — Applications, Connections and Extensions — gathered as one item and grouped by investigation rather than taught as a problem. The banks follow the investigations: finding volume and surface area of rectangular prisms and searching for the arrangement of a fixed number of cubes that uses least material; scaling prisms and predicting the effect on each measure; volume and surface area of right prisms with polygon bases, and identifying cross sections; circumference and area of circles and problems in context; and volume and surface area of cylinders, cones and spheres with container-design tasks."
+        }
+      ]
+    }
   },
   "sections": {
     "introduction": {
@@ -1515,7 +1700,7 @@
         {
           "description": "SAS ACE Question Banks",
           "ordinal": 1,
-          "title": "SAS ACE Question Banks",
+          "title": "FAW ACE Question Banks",
           "subtitle": "",
           "sections": [
             "investigation-6/problem-1/ACE1/content.json",

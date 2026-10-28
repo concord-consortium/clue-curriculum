@@ -344,7 +344,158 @@
     },
     "hide4up": true,
     "showIdeasButton": false,
-    "aiEvaluateOnSessionEnd": true
+    "aiEvaluateOnSessionEnd": true,
+    "aiUnitSummary": {
+      "generatedAt": "2026-10-27T21:17:53.039Z",
+      "sourceHash": "10tw7pa",
+      "sourceManifest": [
+        {
+          "ordinal": "1.1",
+          "title": "SAD 1.1 Designing Triangles",
+          "problemHash": "13nwt4n"
+        },
+        {
+          "ordinal": "1.2",
+          "title": "SAD 1.2 Designing Quadrilaterals",
+          "problemHash": "1mwt5ej"
+        },
+        {
+          "ordinal": "1.3",
+          "title": "SAD 1.3 Designing Other Shapes",
+          "problemHash": "1dem34f"
+        },
+        {
+          "ordinal": "2.1",
+          "title": "SAD 2.1 In a Spin",
+          "problemHash": "b07grb"
+        },
+        {
+          "ordinal": "2.2",
+          "title": "SAD 2.2 The Bee Dance and Amelia Earhart",
+          "problemHash": "1ngctyo"
+        },
+        {
+          "ordinal": "2.3",
+          "title": "SAD 2.3 Vertical, Supplemental, and Complementary Angles",
+          "problemHash": "nat94w"
+        },
+        {
+          "ordinal": "3.1",
+          "title": "SAD 3.1 Back to the Bees",
+          "problemHash": "1grmams"
+        },
+        {
+          "ordinal": "3.2",
+          "title": "SAD 3.2 Relating Angle Measures to Number of Sides in Polygons",
+          "problemHash": "1b5lpky"
+        },
+        {
+          "ordinal": "3.3",
+          "title": "SAD 3.3 The Ins and Outs of Polygons",
+          "problemHash": "162yzx9"
+        },
+        {
+          "ordinal": "3.4",
+          "title": "SAD 3.4 Designing Polygons",
+          "problemHash": "vq70ms"
+        },
+        {
+          "ordinal": "4.1",
+          "title": "Shapes and Designs Mathematical Reflections",
+          "problemHash": "yy548"
+        },
+        {
+          "ordinal": "5.1",
+          "title": "SAD ACE Question Banks",
+          "problemHash": "zygng4"
+        }
+      ],
+      "overview": "Shapes and Designs is a grade 7 geometry unit about what makes a shape the shape it is, framed by why builders brace with triangles and why bees build in hexagons. Investigation 1 works from side lengths: students build polygons from polystrips and find that a polygon closes only when the longest side is shorter than the sum of the others, that three lengths fix exactly one triangle while four lengths allow many quadrilaterals, and that triangles alone are rigid — so diagonals that decompose a polygon into triangles are what stiffen it. Investigation 2 turns to angles: benchmark angles and estimation on circular grids, measuring with a protractor or angle ruler, and the relationships among vertical, adjacent, supplementary and complementary angles where lines cross. Investigation 3 joins the two, deriving the interior angle sum S = 180(n − 2), the constant 360° exterior sum, which regular polygons tile a plane and why, and finally which combinations of sides and angles determine a unique shape.",
+      "entries": [
+        {
+          "ordinal": "1.1",
+          "priorKnowledge": "From grade 6: naming and classifying polygons by number of sides; measuring lengths; recognising triangles and quadrilaterals. From Data About Us: recording results in a table, looking for patterns in collected data, and describing them. No prior work on angle measure or on the conditions for a shape to exist is assumed.",
+          "problemDigest": "Opens the unit by asking which sets of three lengths can actually make a triangle. Students pick three numbers between 2 and 20, build with polystrips or the digital equivalent, try to make a second different triangle from the same three lengths, and tabulate what worked. Two results come out of the data: a triangle exists only when the sum of the two shorter sides exceeds the longest, and when it exists it is unique — unlike later shapes, three lengths leave no freedom. The What If section applies this to Geraldo's tent, where four 3-foot, two 5-foot, one 6-foot and one 7-foot poles are available and students enumerate every triangular doorframe possible, then choose one and justify it; 3-3-6 and 3-3-7 are the instructive failures.",
+          "approach": "divergent",
+          "approachGuidance": "Students generate their own side lengths and collect results before any rule is stated. Let the pattern come from their data rather than supplying the triangle inequality."
+        },
+        {
+          "ordinal": "1.2",
+          "priorKnowledge": "That three lengths make a triangle only when the two shorter sides sum to more than the longest, and that such a triangle is unique; building and recording shapes from given side lengths; reading a pattern out of a table of results.",
+          "problemDigest": "Repeats the side-length experiment for quadrilaterals and then generalises. Students build from four lengths between 2 and 20, try to make a second different quadrilateral from the same four, and record what happens. The contrast with 1.1 is the point: four lengths that close at all close in many ways, and the order of the sides matters — 3, 4, 3, 4 gives a parallelogram while 3, 3, 4, 4 gives a kite. The What If section follows Michal into pentagons and hexagons and arrives at the general condition, that the longest side must be shorter than the sum of all the others, or the remaining sides flatten out with no angle left to close the shape. Students also build the largest polygon their set of strips allows.",
+          "approach": "divergent",
+          "approachGuidance": "Students choose their own lengths and extend the question to polygons of their own choosing. Support the generalisation they are building rather than stating it for them."
+        },
+        {
+          "ordinal": "1.3",
+          "priorKnowledge": "The side-length condition for a polygon to close; that three lengths determine a unique triangle while four or more do not; that a diagonal joins two non-adjacent vertices; building polygons from strips and tabulating results.",
+          "problemDigest": "Asks why triangles are used as braces, by testing rigidity directly. Students predict the minimum number of diagonals needed to make an n-sided polygon rigid, then build triangles, quadrilaterals, pentagons and hexagons and find the least number of diagonals that stops each flexing, repeating with differently shaped examples of the same polygon. The What If section gives Beatrice's observation that the minimum set of diagonals decomposes the shape into triangles, and asks students to say why that explains the rigidity. This closes Investigation 1 by connecting the earlier result — that three sides fix one triangle — to the structural fact that only triangles hold their shape.",
+          "approach": "divergent",
+          "approachGuidance": "Students predict first, then test with their own shapes. Work from what their building actually showed rather than confirming the expected number of diagonals."
+        },
+        {
+          "ordinal": "2.1",
+          "priorKnowledge": "Side-length conditions for polygons and the rigidity of triangles from Investigation 1; reading coordinates; the idea of a full turn. From Data About Us: collecting data, representing it and looking for patterns. Angle measure in degrees is introduced here rather than assumed.",
+          "problemDigest": "Introduces angle as an amount of turn and builds a set of benchmarks. Students play Four in a Row on circular grids marked at 30° and 45°, naming points by their coordinates on the grid and developing winning strategies — the game is the vehicle for reading angles off a polar grid. They then mark the benchmark angles 30°, 45°, 60°, 90°, 120°, 180° and 270° and use them to estimate unmeasured angles. The What If section works through Amit's benchmark estimates for four angles, including one estimated as a full turn minus a known angle, and then has students judge other students' estimation claims. The closing discussion collects the benchmarks as fractions of a turn.",
+          "approach": "divergent",
+          "approachGuidance": "Estimation strategies and game strategies both vary between students, and several are compared. Support a student's own benchmark reasoning rather than a single method."
+        },
+        {
+          "ordinal": "2.2",
+          "priorKnowledge": "Angle as an amount of turn, measured in degrees; the benchmark angles 30°, 45°, 60°, 90°, 120°, 180°, 270° and 360° and their use in estimating; reading angles on a circular grid; that estimates should be checked against a measurement.",
+          "problemDigest": "Moves from estimating angles to measuring them with an angle ruler or protractor, in two contexts. In the honeybee waggle dance, decoded by Karl von Frisch, the angle between the bee's run and straight up — which represents the sun — gives the direction to the flowers, and the length of the run is proportional to the distance; students estimate then measure the angles for several days, and sketch given angles of 180° and 120°. The What If section turns to Amelia Earhart's 1937 flight, estimating and then measuring how many degrees off course the Nikumaroro crash site lies from Howland Island, and asking where a plane 20° south of the intended course from New Guinea would arrive. The closing question weighs estimation against measurement.",
+          "approach": "divergent",
+          "approachGuidance": "Both contexts ask students to estimate first and then measure, and to weigh the two. Treat the estimate as worth reasoning about rather than a step to be replaced by the measurement."
+        },
+        {
+          "ordinal": "2.3",
+          "priorKnowledge": "Measuring and estimating angles with benchmarks, an angle ruler or a protractor; angle as an amount of turn; that a straight line is 180° and a full turn 360°; parallel lines as lines that stay the same distance apart.",
+          "problemDigest": "Names the angle relationships formed when lines cross. Vertical angles sit opposite each other at a vertex; adjacent angles share a side and vertex without overlapping; two angles are supplementary when they sum to 180° and complementary when they sum to 90°. The challenge gives three parallel lines cut by a transversal and asks what students notice, what they can measure, and which pairs are vertical, supplementary, adjacent or complementary. The What If section tests whether those relationships survive in two further figures — one with parallel lines, one without — which is where corresponding angles are seen to be equal only in the parallel case. The closing discussion is that these relationships let you find missing angles without measuring every one.",
+          "approach": "divergent",
+          "approachGuidance": "Students notice and conjecture relationships before testing them on new figures. Support the conjecture a student is testing rather than naming the relationships first."
+        },
+        {
+          "ordinal": "3.1",
+          "priorKnowledge": "Angle measure, benchmark angles and measuring tools; vertical, adjacent, supplementary and complementary angles; that a full turn is 360°; polygon names and the side-length conditions from Investigation 1.",
+          "problemDigest": "Asks why bees build in hexagons, by working out which shapes tile a plane. Students predict which of a given shape set will cover a surface without gaps or overlaps, then test each shape by duplicating and fitting copies, recording for each whether it tiles and what the angles total where the shapes meet — always 360° where a tiling succeeds. The What If section gives Maisie's argument: a regular hexagon's vertex angle is 120°, so three meet exactly at a point, and no regular polygon with more than six sides can tile because its vertex angles exceed 120° and two are already too few to reach 360°. The closing discussion notes that bees could have used triangles or quadrilaterals, and that hexagons give the most storage area.",
+          "approach": "divergent",
+          "approachGuidance": "Students test shapes themselves and build the 360° criterion from what they find. Let the rule emerge from their tiling attempts rather than stating it in advance."
+        },
+        {
+          "ordinal": "3.2",
+          "priorKnowledge": "Which polygons tile and that the angles meeting at a point in a tiling total 360°; vertical, supplementary and complementary angles; measuring and estimating angles; that a regular polygon has equal angles.",
+          "problemDigest": "Derives the interior angle sum of any polygon. Devon tears the corners off a triangle and rearranges them into a straight line, showing the sum is 180°; students test whether the argument holds for other triangles and other polygons by tearing and rearranging shapes from the set and tabulating the results, finding that each extra side adds 180° and so that S = 180(n − 2). The What If section compares three further derivations: Trevor draws diagonals from one vertex, cutting an n-gon into n − 2 triangles; Casey draws segments from an interior point instead; and Maria uses parallel lines to establish the triangle sum itself. The closing discussion extends this to the measure of a single angle in a regular polygon.",
+          "approach": "divergent",
+          "approachGuidance": "Four different derivations of the same formula are set side by side. Help students see why each works rather than promoting one as the proper proof."
+        },
+        {
+          "ordinal": "3.3",
+          "priorKnowledge": "The interior angle sum S = 180(n − 2) and the angle of a regular polygon; supplementary angles; that a full turn is 360°; measuring angles; decomposing polygons into triangles.",
+          "problemDigest": "Introduces exterior angles, formed by extending a side, and establishes that they sum to 360° for any polygon. Cyclists ride a pentagonal training circuit, turning through an exterior angle at each vertex, and students work out the total turn for one lap without measuring — the argument being that a full lap returns you to your starting direction, so the turns total one complete rotation — then check by measuring. They repeat for triangles, quadrilaterals and hexagons of their own drawing. The What If section compares three students' generalisations: Amy's, which works but must be recalculated per shape; Neveah's, which uses variables and so covers any polygon; and Nic's, which is Neveah's idea stated only for a triangle. Students judge which generalise.",
+          "approach": "divergent",
+          "approachGuidance": "Students reason to the 360° result before measuring, and compare three students' generalisations. Value the argument and its generality over the arithmetic."
+        },
+        {
+          "ordinal": "3.4",
+          "priorKnowledge": "The side-length conditions for polygons; that three side lengths fix a unique triangle; interior and exterior angle sums; vertical, supplementary and complementary angles; measuring and constructing angles and lengths; that a regular polygon's angles are equal.",
+          "problemDigest": "Pulls the unit together by asking what information determines a shape. A triangle is given with all its angles and sides, and students decide which of several short text messages carry enough information for someone else to reproduce it exactly — distinguishing messages that fix a unique triangle from those that fix only its shape, allowing any size, or that leave a side free to swing. The What If section works through a series of design briefs, deciding for each whether a polygon can be built at all, sketching it when it can, and saying whether it is unique; these include a set of lengths violating the triangle inequality, and angle sets given as x, 2x, 3x and x, 3x, 3x where students solve for the angles and find one is right-angled and the other isosceles.",
+          "approach": "divergent",
+          "approachGuidance": "Each design asks whether a shape is possible and whether it is unique, with several answers defensible until justified. Support the reasoning about sufficiency rather than producing a drawing."
+        },
+        {
+          "ordinal": "4.1",
+          "priorKnowledge": "The whole unit: side-length conditions for polygons and the uniqueness of a triangle from three sides; the rigidity of triangles and the use of diagonals; angle as turn, benchmark angles, estimating and measuring; vertical, adjacent, supplementary and complementary angles, and corresponding angles across parallel lines; S = 180(n − 2), the 360° exterior sum, and the tiling criterion.",
+          "problemDigest": "The unit's three Mathematical Reflections, one per investigation, each asking what students now know about geometric shapes. The expected ground is the side-length condition and what it implies about uniqueness; why triangles are rigid and other polygons are not; reading, sketching and estimating angles with benchmarks and the limits of measurement; the named angle relationships at intersecting and parallel lines and their use in writing equations for missing angles; the interior angle sum and its formula; the constant exterior sum; and the 360° condition for tiling. A writing and discussion task with no new content."
+        },
+        {
+          "ordinal": "5.1",
+          "priorKnowledge": "Whatever has been covered when the exercises are assigned; the banks are organised by investigation and are normally used alongside the corresponding problems rather than after the whole unit.",
+          "problemDigest": "The unit's ACE question banks — Applications, Connections and Extensions — gathered as one item and grouped by investigation rather than taught as a problem. Investigation 1's bank gives sets of three lengths and asks whether each builds a triangle, whether it is unique, and why some fail, introducing the isosceles, equilateral, scalene and right classifications through the examples. Investigation 2's bank covers classifying angles as acute, obtuse or right, reading snowboarders' 180, 540 and 720 as fractions of a turn, writing equations for a missing angle using supplementary and complementary relationships, and estimating against benchmarks. Investigation 3's bank is largely tiling and angle-sum work, including multiple-choice items on which regular polygons and combinations tile.",
+          "approach": "divergent",
+          "approachGuidance": "Many items ask for an explanation or a justification rather than only an answer. Support the reasoning the student offers rather than supplying the result."
+        }
+      ]
+    }
   },
   "sections": {
     "introduction": {
@@ -1257,7 +1408,7 @@
         {
           "description": "Problem 3.1",
           "ordinal": 1,
-          "title": "SAD 3.1 Relating Angle Measures to Number of Sides in Polygons",
+          "title": "SAD 3.1 Back to the Bees",
           "subtitle": "",
           "sections": [
             "investigation-3/problem-1/introduction/content.json",
@@ -1388,7 +1539,7 @@
         {
           "description": "Problem 3.2",
           "ordinal": 2,
-          "title": "SAD 3.2 Back to the Bees",
+          "title": "SAD 3.2 Relating Angle Measures to Number of Sides in Polygons",
           "subtitle": "Polygons in Nature",
           "sections": [
             "investigation-3/problem-2/introduction/content.json",
