@@ -377,7 +377,190 @@
     },
     "hide4up": true,
     "showIdeasButton": false,
-    "aiEvaluateOnSessionEnd": true
+    "aiEvaluateOnSessionEnd": true,
+    "aiUnitSummary": {
+      "generatedAt": "2026-10-28T15:13:58.933Z",
+      "sourceHash": "1shuopx",
+      "sourceManifest": [
+        {
+          "ordinal": "1.1",
+          "title": "TWMM 1.1 Bridge Thickness and Strength Experiment",
+          "problemHash": "1pv7jtu"
+        },
+        {
+          "ordinal": "1.2",
+          "title": "TWMM 1.2 Bridge Length and Strength Experiment",
+          "problemHash": "z3x9x3"
+        },
+        {
+          "ordinal": "1.3",
+          "title": "TWMM 1.3 Custom Construction Parts",
+          "problemHash": "1bwwiiy"
+        },
+        {
+          "ordinal": "2.1",
+          "title": "TWMM 2.1 Tree Top Fun",
+          "problemHash": "1t68brk"
+        },
+        {
+          "ordinal": "2.2",
+          "title": "TWMM 2.2 Boat Rental",
+          "problemHash": "6hd0fp"
+        },
+        {
+          "ordinal": "2.3",
+          "title": "TWMM 2.3 Up and Down the Staircase Again",
+          "problemHash": "spnlcy"
+        },
+        {
+          "ordinal": "2.4",
+          "title": "TWMM 2.4 Exploring Patterns with Lines",
+          "problemHash": "8rm0ld"
+        },
+        {
+          "ordinal": "3.1",
+          "title": "TWMM 3.1 Rectangles and Fixed Area",
+          "problemHash": "20q11f"
+        },
+        {
+          "ordinal": "3.2",
+          "title": "TWMM 3.2 Distance, Speed, and Time",
+          "problemHash": "q9zso8"
+        },
+        {
+          "ordinal": "3.3",
+          "title": "TWMM 3.3 Planning a Fundraising Event",
+          "problemHash": "97b5od"
+        },
+        {
+          "ordinal": "4.1",
+          "title": "TWMM 4.1 Lines of Best Fit",
+          "problemHash": "1tna16i"
+        },
+        {
+          "ordinal": "4.2",
+          "title": "TWMM 4.2 Wood or Steel? Relationships in Categorical Data",
+          "problemHash": "1ug6k3r"
+        },
+        {
+          "ordinal": "4.3",
+          "title": "TWMM 4.3 School Team-Building Activity",
+          "problemHash": "uacxtg"
+        },
+        {
+          "ordinal": "4.4",
+          "title": "TWMM 4.4 Linear, Bivariate, and Categorical Data",
+          "problemHash": "jb4fpf"
+        },
+        {
+          "ordinal": "5.1",
+          "title": "Thinking with Math Models Mathematical Reflections",
+          "problemHash": "chvo75"
+        }
+      ],
+      "overview": "Thinking with Mathematical Models is a grade 8 unit on using functions to model data and make predictions. Investigation 1 starts with two paper-bridge experiments: breaking weight against number of layers, which comes out roughly linear, and against bridge length, which does not — introducing bivariate data, scatter plots, and the idea that real data only approximates a model. Investigation 2 builds the machinery for linear models: writing y = mx + b from a situation, from two points, or from a table; slope as rise over run and as a constant rate of change; and comparing two linear plans by table, graph or equation. It closes by looking at families of lines and what their equations share, which is where parallel and perpendicular slopes come from. Investigation 3 turns to inverse variation, where a product rather than a difference is fixed — rectangles of fixed area, travel time against speed, cost per person against ticket sales — and contrasts it with linear change throughout.",
+      "entries": [
+        {
+          "ordinal": "1.1",
+          "priorKnowledge": "From Moving Straight Ahead and Comparing and Scaling: linear relationships, rate of change and y-intercept in tables, graphs and equations; plotting points and reading a graph; ratios and rates. Students should be able to run a simple experiment and record results in a table. Bivariate data and modelling are introduced here.",
+          "problemDigest": "Opens the unit with the bridge-thickness experiment. Students fold paper strips into bridges, suspend them between books, and add pennies to a cup until each collapses, recording breaking weight against the number of paper layers — so the data is their own and will be noisy. They graph it and decide whether the relationship looks linear, saying how the table and the graph each show that. The What If section asks for predictions beyond the data: a bridge 2.5 layers thick, which means interpolating between whole layers, and one 6 layers thick, which is extrapolation and can be tested. The closing question asks why a test might not match the prediction exactly, which is the unit's first encounter with a model that fits approximately rather than exactly.",
+          "approach": "divergent",
+          "approachGuidance": "Students collect their own experimental data, which varies between groups and is not perfectly linear. Work from what a group measured rather than an idealised result."
+        },
+        {
+          "ordinal": "1.2",
+          "priorKnowledge": "Running an experiment and tabulating results; plotting data and judging whether a pattern looks linear; rate of change; that a model may fit data approximately; the bridge-thickness result from 1.1.",
+          "problemDigest": "Repeats the experiment with the other variable and gets a different kind of relationship. Students test paper bridges of lengths 4, 6, 8, 9 and 11 inches and record the breaking weight for each, then describe how length and strength are related and decide whether that relationship is linear — it is not, since strength falls off faster than a constant rate. The terms bivariate data and scatter plot are introduced here. The What If section has students predict breaking weights for lengths of 3, 5, 10 and 12 inches, and then compare this data set directly with the thickness data from 1.1, so the contrast between a linear and a non-linear pattern is drawn from two experiments the students ran themselves.",
+          "approach": "divergent",
+          "approachGuidance": "The comparison is between two sets of the students' own measurements. Support the pattern they see in their data rather than naming the relationship for them."
+        },
+        {
+          "ordinal": "1.3",
+          "priorKnowledge": "Bivariate data, scatter plots and judging linearity from a table or graph; that experimental points need not lie exactly on a line; rate of change and y-intercept; writing an equation from a pattern.",
+          "problemDigest": "Moves from noticing a linear pattern to writing an equation for one. It opens with the observation that the bridge data points do not lie exactly on a line, and that different students could draw different approximating lines with different equations and different predictions — the question of which line to trust being raised here and settled later. The challenge then uses an exactly linear situation: a steel truss built from 1-foot rods, where students find a pattern predicting the number of rods for any length. The What If section compares four students' strategies — Maria's table showing a constant increase of 4 rods per unit, Sungah's graph, and others — and asks which would be chosen for predicting and how they are alike.",
+          "approach": "divergent",
+          "approachGuidance": "Four strategies are compared and students choose one for predicting. Support the choice and the reasoning rather than a preferred representation."
+        },
+        {
+          "ordinal": "2.1",
+          "priorKnowledge": "Linear relationships and writing an equation from a pattern; rate of change and y-intercept; tables, graphs and equations as representations of one relationship; income, costs and profit from earlier units.",
+          "problemDigest": "Applies linear functions to a business. An adventure company's manager must relate number of customers, ticket price, set-up costs, income and profit, and students write equations for each — daily income at a standard charge per customer being the simplest, with costs and profit building on it. The What If section gives a table of group admission fees and asks students to establish that the relationship is linear and that it is a function, to predict the fee for groups of 0, 21 and 30, and to write the equation relating fee to group size, then check the predictions against it. A matching exercise connects graphs to the situations they represent.",
+          "approach": "divergent",
+          "approachGuidance": "Students may reason from the table, the graph or the equation at each step. Follow the representation they choose."
+        },
+        {
+          "ordinal": "2.2",
+          "priorKnowledge": "Writing linear equations from situations and tables; rate of change and y-intercept; comparing two linear relationships; that a point of intersection marks where two plans are equal.",
+          "problemDigest": "Compares two pricing plans that are both linear but differ in structure. Sandy's Boat House charges $15 an hour for a canoe, prorated, while the manager offers c = 0.15t + 2.50 for t minutes — so one is proportional and the other carries a fixed charge, and which is cheaper depends on the rental length. The What If section sets three students' methods against each other: Serena uses tables, Rashida graphs, and Omar writes both as equations and sets them equal, solving 0.25t = 0.15t + 2.50 for the break-even time. The closing question asks for the advantages and disadvantages of each representation rather than which answer is right.",
+          "approach": "divergent",
+          "approachGuidance": "Three representations are compared for their strengths, with none preferred. Support the method a student is using rather than converting to another."
+        },
+        {
+          "ordinal": "2.3",
+          "priorKnowledge": "Linear equations in the form y = mx + b and what m and b mean; rate of change; plotting and reading coordinates; from Moving Straight Ahead, slope as rise over run; comparing two linear plans.",
+          "problemDigest": "Focuses on finding m and b and on what slope is. Rise and run are defined as the vertical and horizontal changes between two points, and slope as their ratio and as the constant rate of change. Students find the slope and y-intercept for several lines given by two points, including a horizontal one through (0, 3) and (3, 3), and write each in the form y = mx + b. The What If section puts four student claims up for judgement: that the choice of two points changes the slope (it does not), that each unit change in the independent variable gives a constant change in the dependent one, that both horizontal and vertical lines are linear functions (a vertical line is not), and one more.",
+          "approach": "divergent",
+          "approachGuidance": "Four claims are offered, some true and some not, for students to argue about. Support the argument or counterexample rather than ruling on each claim."
+        },
+        {
+          "ordinal": "2.4",
+          "priorKnowledge": "Writing a linear equation from two points or from a table; slope as rise over run and as rate of change; y-intercept; graphing several equations on shared axes; equivalent expressions.",
+          "problemDigest": "Looks at families of lines rather than single ones. Students examine groups of equations, graph each group on shared axes, say what the equations in a group have in common and what the graphs show, and predict that from the equations alone. Group A varies only the constant, giving parallel lines; Group B pairs slopes such as 2 and −½, or 4 and −0.25, giving perpendicular lines; Group C gives equations that look different but are equivalent, such as y = 2x + 1 and y = 2(x + 1) − 1. The What If section has students place two lines given by points into the right group, and returns to canoe rentals with four cost expressions, some equivalent, to be compared and graphed.",
+          "approach": "divergent",
+          "approachGuidance": "Students predict from the equations before graphing, and describe further examples of their own. Support the prediction and the generalisation they make."
+        },
+        {
+          "ordinal": "3.1",
+          "priorKnowledge": "Linear functions and their equations, tables and graphs; that some relationships are not linear, from the bridge-length experiment; area of a rectangle; writing an equation relating two variables.",
+          "problemDigest": "Introduces inverse variation through rectangles of fixed area. Roseville offers free lots of 24,000 square feet in varying shapes, and students work with a scaled-down rectangle of fixed area 24 square feet, tabulating length against width and looking for the pattern — the product is constant rather than the difference, so the graph curves and never meets either axis. The What If section repeats this for an area of 32 square feet and compares the two sets of tables, graphs and equations, then returns to the full 24,000 square feet and asks whether that graph would be linear. The closing question asks what pattern of change a fixed product produces and why it is not linear.",
+          "approach": "divergent",
+          "approachGuidance": "The non-linear pattern is meant to emerge from the students' own table and graph. Let them characterise it rather than naming inverse variation first."
+        },
+        {
+          "ordinal": "3.2",
+          "priorKnowledge": "Inverse variation as a relationship with a fixed product, and how it appears in a table and graph; linear functions and their equations; distance, speed and time; that the same context can give both a linear and a non-linear relationship.",
+          "problemDigest": "Uses one travel context to produce both kinds of relationship. For a fixed 300-mile trip, students describe how travel time changes as average speed increases, write the equation relating time to speed, and decide what the graph of that data shows — an inverse variation, since distance is the fixed product. The What If section then fixes the speed instead at 50 miles per hour and asks for a table, graph and equation relating distance travelled to time elapsed, which is linear. A third part works backwards from a five-hour target to the speed required. The closing question asks students to say which pairings of distance, rate and time give linear relationships and which give inverse variation, and why.",
+          "approach": "divergent",
+          "approachGuidance": "The same three quantities give a linear or an inverse relationship depending on which is held fixed, and students sort that out themselves. Support the distinction they draw."
+        },
+        {
+          "ordinal": "3.3",
+          "priorKnowledge": "Inverse variation and linear relationships, and how to tell them apart from a table, graph or equation; writing an equation relating two variables; income, costs and break-even from 2.1; dividing to find a rate.",
+          "problemDigest": "Applies both relationship types to a fundraiser with a fixed $750 rental cost. Students investigate how the cost per person relates to the number of people buying tickets — an inverse variation, since the product is the fixed rental — and use it to decide what to charge and how many tickets are needed to make a profit. The What If section compares students' strategies, including Zane's table used to find the break-even point and Molada's attempt to write an equation relating cost per person to number of tickets, which her group found difficult. The closing question separates the two relationships in the same situation: total money collected against number of tickets is linear, while cost per person against number is inverse.",
+          "approach": "divergent",
+          "approachGuidance": "Students choose their own ticket price and justify it, so answers legitimately differ. Support the reasoning rather than a particular price."
+        },
+        {
+          "ordinal": "4.1",
+          "priorKnowledge": "Linear functions and their equations; bivariate data and scatter plots from Investigation 1; that experimental points scatter about a line rather than lying on it; slope and y-intercept; inverse variation.",
+          "problemDigest": "Not yet authored. The problem exists in the unit with its four section headings — Introduction, Initial Challenge, What If...?, and Now What Do You Know? — but all of them are empty, so there is no content to describe. The title indicates the intended subject is lines of best fit, which would follow from the observation in Problem 1.3 that the bridge data points do not lie exactly on a line and that different approximating lines give different predictions. Treat this entry as a placeholder: it says nothing about what students are actually doing, and should be rewritten once the problem has content."
+        },
+        {
+          "ordinal": "4.2",
+          "priorKnowledge": "Linear functions in tables, graphs and equations; bivariate data and scatter plots; comparing two relationships; inverse variation; the strategies developed across Investigations 1 to 3.",
+          "problemDigest": "Not yet authored beyond an opening paragraph. The Introduction carries only the unit's general statement that numeric reasoning, tables, graphs and equations can all be used to find the value of a variable, and that the problem will examine students' strategies — wording shared with other problems rather than specific to this one. The Initial Challenge, What If...? and Now What Do You Know? sections are all empty. The title indicates the intended subject is relationships in categorical data, contrasting wood and steel, which would be new ground for the unit. Treat this entry as a placeholder and rewrite it once the problem has content."
+        },
+        {
+          "ordinal": "4.3",
+          "priorKnowledge": "Writing a linear equation from two points, a table or a situation; slope as rise over run and as a constant rate of change; y-intercept; using an equation to make predictions; the bridge experiments from Investigation 1.",
+          "problemDigest": "Not yet authored beyond its closing question. The Introduction, Initial Challenge and What If...? sections are empty. The Now What Do You Know? section asks what information is needed to write an equation for a linear function, how the constant rate of change relates to the ratio of rise to run between two points, and how having an equation helps make predictions about a situation like the bridge experiments — the same question Problem 2.3 closes with. The title indicates the intended subject is a school team-building activity. Treat this entry as a placeholder and rewrite it once the problem has content."
+        },
+        {
+          "ordinal": "4.4",
+          "priorKnowledge": "Linear functions and the form y = mx + b; slope as rise over run; graphing several equations on shared axes; equivalent expressions; that parallel lines share a slope and perpendicular slopes are negative reciprocals, from Problem 2.4.",
+          "problemDigest": "Examines families of lines through their equations. Students take groups of equations, identify what the members of each group have in common, graph them on shared axes, and say how the graphs could have been predicted from the equations — one group varying only the constant to give parallel lines, one pairing slopes such as 2 and −½ to give perpendicular lines, and one giving equations that look different but are equivalent. The What If section places two lines described by points into the right group, and compares four canoe-rental cost expressions, some of which are equivalent. Note that this problem's content closely follows Problem 2.4 and does not match its title, which names bivariate and categorical data.",
+          "approach": "divergent",
+          "approachGuidance": "Students predict from the equations before graphing and supply further examples. Support their prediction and generalisation."
+        },
+        {
+          "ordinal": "5.1",
+          "priorKnowledge": "The unit as authored: bivariate data, scatter plots and judging linearity from experimental data; writing linear equations from situations, tables or two points; slope as rise over run and as rate of change; y-intercept; comparing two linear plans by table, graph or equation; families of lines, parallel and perpendicular slopes; inverse variation and how a fixed product differs from a constant rate.",
+          "problemDigest": "The unit's Mathematical Reflections, four of them, each asking what the characteristics of linear functions are, how they can be used to model a situation, and what other kinds of model students have explored. The expected ground is what makes a function linear and how that appears in a table, graph and equation; how to write y = mx + b from a situation, a table or two points, and what m and b mean; slope as both a rate of change and a ratio of rise to run; that experimental data only approximates a model, so predictions carry uncertainty; what families of lines share and how parallel and perpendicular slopes show in equations; and inverse variation as the main non-linear model the unit treats."
+        }
+      ]
+    },
+    "allowCustomCommentTags": true,
+    "showCommentRating": true
   },
   "sections": {
     "introduction": {
@@ -668,7 +851,7 @@
         },
         {
           "description": "Problem 4.4",
-          "ordinal": 3,
+          "ordinal": 4,
           "title": "TWMM 4.4 Linear, Bivariate, and Categorical Data",
           "subtitle": "",
           "sections": [
