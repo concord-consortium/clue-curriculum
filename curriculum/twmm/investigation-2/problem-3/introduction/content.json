@@ -3,40 +3,249 @@
   "content": {
     "tiles": [
       {
+        "id": "TILEIso4ZRukGTFz",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "In any problem that calls for a linear mode that is an equation, the goal is to find the values of *m* and *b* for the linear equation y = *m*x + *b* that fits the data pattern well. Recall from *Moving Straight Ahead* unit that for linear relationships as x increases by a fixed increment y changes by a constant amount, *m*, called the rate of change. The y-intercept is (0,*b*) or *b*. "
+            "<p>In any problem that calls for a linear mode that is an equation, the goal is to find the values of <em>m</em> and <em>b</em> for the linear equation <em>y</em> = <em>mx </em>+<em> b </em>that fits the data pattern well. Recall from *Moving Straight Ahead* unit that for linear relationships as <em>x </em>increases by a fixed increment <em>y</em> changes by a constant amount, <em>m</em>, called the rate of change. The y-intercept is (0, <em>b</em>) or <em>b</em>. </p>"
           ]
-        },
-        "id": "TILEIso4ZRukGTFz"
+        }
       },
-      {"content": {"type": "Image", "url": "twmm/images/TWMM_2_3_intro_table_350w.png"}, "id": "TILEHe8Cxr1B4WGg"},
-      {"content": {"type": "Image", "url": "twmm/images/TWMM_2_3_intro_graph_450w.png"}, "id": "TILEDpVgiQLXPRCc"},
+      [
+        {
+          "id": "hGG5RWax7HtcWkVc",
+          "content": {
+            "type": "Table",
+            "columnWidths": {
+              "7wbCJV5zaNcIaD1D": 80,
+              "0TnxVxWd0E0926zJ": 80
+            }
+          }
+        },
+        {
+          "id": "TILEDpVgiQLXPRCc",
+          "title": "y = mx +b",
+          "content": {
+            "type": "Image",
+            "url": "twmm/images/TWMM_2_3_intro_graph_450w.png"
+          }
+        }
+      ],
       {
+        "id": "TILEu33tWl4pmKoP",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "The change in x from one point to the another is also called the *horizontal change* or **run** change. The change in y from one point to another is called the *vertical change* or **rise** change.  The ratio of rise to run is called the **slope** of the line which is also the coefficient of *m* in the equation, y = *m*x + *b*."
+            "<p>The change in x from one point to the another is also called the *horizontal change* or **run** change. The change in y from one point to another is called the *vertical change* or **rise** change.  The ratio of rise to run is called the **slope** of the line which is also the coefficient of *m* in the equation, y = *m*x + *b*.</p>"
           ]
-        },
-        "id": "TILEu33tWl4pmKoP"
+        }
       },
-      {"content": {"type": "Image", "url": "twmm/images/TWMM_2_3_slope_formula_400w.png"}, "id": "TILEgNrB6P5W_tyV"},
       {
+        "id": "TILEgNrB6P5W_tyV",
+        "content": {
+          "type": "Image",
+          "url": "twmm/images/TWMM_2_3_slope_formula_400w.png"
+        }
+      },
+      {
+        "id": "TILE2MNmLzG1xm7e",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "This ratio, slope, describes the steepness of a line that represents the linear function. The equation y = *m*x + *b* is also called the **slope intercept** form of a linear equation. To measure the steepness of a linear equation graph, it helps to imagine a staircase that lies underneath the line."
+            "<p>This ratio, slope, describes the steepness of a line that represents the linear function. The equation y = *m*x + *b* is also called the **slope intercept** form of a linear equation. To measure the steepness of a linear equation graph, it helps to imagine a staircase that lies underneath the line.</p>"
           ]
-        },
-        "id": "TILE2MNmLzG1xm7e"
+        }
       },
-      {"content": {"type": "Image", "url": "twmm/images/TWMM_2_3_staircase_400w.png"}, "id": "TILED4i1EL_qbSsO"},
-      {"content": {"type": "Text", "format": "html", "text": ["<em>What is the slope of the line that represents the steepness of the staircase?</em>"]}, "id": "TILEzQW74JLTTBrC"}
+      {
+        "id": "TILED4i1EL_qbSsO",
+        "content": {
+          "type": "Image",
+          "url": "twmm/images/TWMM_2_3_staircase_400w.png"
+        }
+      },
+      {
+        "id": "TILEzQW74JLTTBrC",
+        "content": {
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p><em>What is the slope of the line that represents the steepness of the staircase?</em></p>"
+          ]
+        }
+      }
+    ],
+    "sharedModels": [
+      {
+        "sharedModel": {
+          "type": "SharedDataSet",
+          "id": "v1TdD_tJRTE2TDCD",
+          "providerId": "hGG5RWax7HtcWkVc",
+          "dataSet": {
+            "id": "KA5A_xIljZYkrFBl",
+            "name": "Table Data 1",
+            "attributes": [
+              {
+                "id": "7wbCJV5zaNcIaD1D",
+                "clientKey": "",
+                "name": "x",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "5"
+                ],
+                "title": ""
+              },
+              {
+                "id": "0TnxVxWd0E0926zJ",
+                "clientKey": "",
+                "name": "y",
+                "hidden": false,
+                "units": "",
+                "formula": {
+                  "display": ""
+                },
+                "values": [
+                  "5",
+                  "10",
+                  "15",
+                  "20",
+                  "35"
+                ],
+                "title": ""
+              }
+            ],
+            "cases": [
+              {
+                "__id__": "d8BMokbCmmrgENcm"
+              },
+              {
+                "__id__": "VOM4eS1sCzBPMVkn"
+              },
+              {
+                "__id__": "9ooJjTXEgeQo1T5m"
+              },
+              {
+                "__id__": "923xrJo9rfjpT7QG"
+              },
+              {
+                "__id__": "0yFPlPSEHjvt2ooz"
+              }
+            ],
+            "sortDirection": "NONE"
+          }
+        },
+        "tiles": [
+          "hGG5RWax7HtcWkVc"
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "id": "b3xNvlrvo6edUyaD",
+        "sourceObject": {
+          "tileId": "hGG5RWax7HtcWkVc",
+          "objectId": "cell:{d8BMokbCmmrgENcm}:{0TnxVxWd0E0926zJ}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 26,
+          "dy": -3
+        },
+        "targetObject": {
+          "tileId": "hGG5RWax7HtcWkVc",
+          "objectId": "cell:{VOM4eS1sCzBPMVkn}:{0TnxVxWd0E0926zJ}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 24,
+          "dy": 1
+        },
+        "normalizedTargetOffset": {
+          "dx": 0.06201550387596899,
+          "dy": 0.002777777777777778
+        },
+        "text": "+5",
+        "textOffset": {
+          "dx": 64.12,
+          "dy": -2.3529411764706083
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "7LinJqTTd9-Tb1lD",
+        "sourceObject": {
+          "tileId": "hGG5RWax7HtcWkVc",
+          "objectId": "cell:{d8BMokbCmmrgENcm}:{7wbCJV5zaNcIaD1D}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": -28,
+          "dy": -5
+        },
+        "targetObject": {
+          "tileId": "hGG5RWax7HtcWkVc",
+          "objectId": "cell:{VOM4eS1sCzBPMVkn}:{7wbCJV5zaNcIaD1D}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": -19,
+          "dy": 4
+        },
+        "normalizedTargetOffset": {
+          "dx": -0.04909560723514212,
+          "dy": 0.011111111111111112
+        },
+        "text": "+1",
+        "textOffset": {
+          "dx": -7.815789473684212,
+          "dy": -1.4250915750915851
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      },
+      {
+        "id": "hno_8uDQPwp4624W",
+        "sourceObject": {
+          "tileId": "hGG5RWax7HtcWkVc",
+          "objectId": "cell:{VOM4eS1sCzBPMVkn}:{0TnxVxWd0E0926zJ}",
+          "objectType": "cell"
+        },
+        "sourceOffset": {
+          "dx": 14,
+          "dy": -3
+        },
+        "targetObject": {
+          "tileId": "hGG5RWax7HtcWkVc",
+          "objectId": "cell:{9ooJjTXEgeQo1T5m}:{0TnxVxWd0E0926zJ}",
+          "objectType": "cell"
+        },
+        "targetOffset": {
+          "dx": 21,
+          "dy": 2
+        },
+        "normalizedTargetOffset": {
+          "dx": 0.05426356589147287,
+          "dy": 0.005555555555555556
+        },
+        "text": "+5",
+        "textOffset": {
+          "dx": 71,
+          "dy": 6.318181818181813
+        },
+        "shape": "curved",
+        "type": "arrowAnnotation"
+      }
     ]
   },
   "supports": []
