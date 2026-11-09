@@ -53,7 +53,7 @@
             {
               "type": "text",
               "id": "yXjwbnfsZayB1Edo",
-              "x": 583,
+              "x": 583.7754440307617,
               "y": 95.296875,
               "hFlip": false,
               "vFlip": false,
@@ -62,7 +62,7 @@
               "width": 310,
               "height": 88,
               "stroke": "#d100d1",
-              "text": "When you hover your mouse over any tile in CLUE, a little triangle will appear that will let you pick up the tile and move it to your work space."
+              "text": "When you hover your mouse over any tile in CLUE, a little triangle will appear that will let you click on the tile and move it to your work space."
             },
             {
               "type": "vector",
@@ -175,8 +175,8 @@
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 97.77777099609375,
-              "height": 30.222198486328125,
+              "width": 96.2962646484375,
+              "height": 36.148162841796875,
               "stroke": "#000000",
               "text": "Make a table!"
             },
@@ -280,22 +280,13 @@
       },
       {
         "id": "_croJICfTtypkjTD",
-        "title": "Is this getting long? Pause here!",
+        "title": "Possible Handout",
+        "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p><strong></strong></p><p><strong>↑↑↑</strong><span data-slate-type=\"highlight\" data-slate-highlight-id=\"a6ca9071-1ac0-4306-9b9b-3c24c3cf8b53\"></span><strong>↑↑↑</strong></p><p>Let your teacher know when you got here!</p><p><strong>↓↓↓</strong><span data-slate-type=\"highlight\" data-slate-highlight-id=\"63f23694-a1c2-4c03-aa72-a75a8823dff8\"></span><strong>↓↓↓</strong></p>"
-          ],
-          "highlightedText": [
-            {
-              "id": "a6ca9071-1ac0-4306-9b9b-3c24c3cf8b53",
-              "text": "Above this tile is PART 1"
-            },
-            {
-              "id": "63f23694-a1c2-4c03-aa72-a75a8823dff8",
-              "text": "Below this tile is PART 2"
-            }
+            "<p>If you feel like this is too much text on the computer, the section about how hands work is also available in a handout, as well as on the slides.</p><p>You may want to go over this as a class. Depending on the level of the class, this may also be a good place to recall prior information or to develop a more complex worksheet.</p>"
           ]
         }
       },
@@ -306,7 +297,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Researchers from the University of Southern California and MIT used images from MRI, a kind of medical scan, to make simulations of the inside of hand.</p><p>Notice that the fingers have no muscles. When you curl your fingers in, it&#x27;s actually because your tendons are being pulled.</p>"
+            "<p>You probably found a bunch of ways that you can move an object, but how do hands even work?</p><p>Researchers from the University of Southern California and MIT used images from MRI, a kind of medical scan, to make simulations of the inside of a hand.</p><p>Notice that the fingers have no muscles. When you curl your fingers in, it&#x27;s actually because your tendons are being pulled.</p>"
           ]
         }
       },
@@ -319,7 +310,7 @@
             {
               "type": "image",
               "id": "sUu3QmBQaS18uMtp",
-              "x": 408.00010681152344,
+              "x": 408.03482818603516,
               "y": 40.00006103515625,
               "hFlip": false,
               "vFlip": false,
@@ -409,21 +400,84 @@
         }
       },
       {
-        "id": "bbFK48BvbbgvDKje",
-        "title": "Detailed drawings of the tendons and ligaments in the hand",
+        "id": "u1NAurO631izHN9V",
+        "title": "Enlarging the screen",
         "content": {
-          "type": "Image",
-          "url": "vibe/images/L1.1-Hand-Tendons-Image-Relabeled-and-Smaller-2.png",
-          "filename": "vibe/images/L1.1-Hand-Tendons-Image-Relabeled-and-Smaller-2.png"
+          "type": "Drawing",
+          "objects": [
+            {
+              "type": "image",
+              "id": "Ecykllt0vgvqNx_T",
+              "x": 279.2593078613281,
+              "y": 68.14814758300781,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 232,
+              "height": 229,
+              "url": "vibe/images/Icon-Enlarge-Lessons.png",
+              "filename": "Icon-Enlarge-Lessons.png"
+            },
+            {
+              "type": "text",
+              "id": "TSpiKM5y8G3LGif2",
+              "x": 579.6643905639648,
+              "y": 215.173583984375,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 248.888916015625,
+              "height": 77.03707885742188,
+              "stroke": "#0000ff",
+              "text": "Icon alert! Whenever it's extra useful to enlarge the lessons side, you'll see an icon like this picture as a reminder!"
+            },
+            {
+              "type": "text",
+              "id": "wb07UEfvUPvDC59i",
+              "x": 561.8866348266602,
+              "y": 77.39582824707031,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 279.2591552734375,
+              "height": 97.77780151367188,
+              "stroke": "#000000",
+              "text": "Are things looking small? If you hover your mouse over the center, these arrow bars will pop up and you'll be able to enlarge the lesson side or the workspace side."
+            },
+            {
+              "type": "vector",
+              "id": "WH5SD4gChhXn475a",
+              "x": 561.8866195678711,
+              "y": 119.61805725097656,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "stroke": "#ff8415",
+              "strokeDashArray": "",
+              "strokeWidth": 2,
+              "dx": -105.185302734375,
+              "dy": 36.2962646484375,
+              "headShape": "triangle"
+            }
+          ]
+        },
+        "layout": {
+          "height": 322.97918701171875
         }
       },
       {
-        "id": "x9ptgGEP4nVa__E9",
-        "title": "X-ray of tendons that pull your fingers in (lilke when you grasp things)",
+        "id": "Xy8HAkAqRPvNlnGN",
+        "title": "Where do the tendons go?",
         "content": {
-          "type": "Image",
-          "url": "vibe/images/L1.1-Hand-Tendons-x-ray.png",
-          "filename": "vibe/images/L1.1-Hand-Tendons-x-ray.png"
+          "type": "Text",
+          "format": "html",
+          "text": [
+            "<p>You might have noticed that the tendons seem to go on beyond your wrist.</p><p>That is because the tendons in your fingers actually stretch out and connect to muscles in your forearm.</p><p>When those muscles flex, your fingers curl inward, into a fist.</p>"
+          ]
         }
       },
       {
@@ -549,30 +603,30 @@
             {
               "type": "text",
               "id": "F3IH5mfHBflZPxaz",
-              "x": 143.99996948242188,
+              "x": 129.55552673339844,
               "y": 125.68058013916016,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 198.66664123535156,
-              "height": 59.111114501953125,
+              "width": 206.44442749023438,
+              "height": 114.66665649414062,
               "stroke": "#d100d1",
-              "text": "Notice: the tendons go all the way to the top of the fingers"
+              "text": "Notice: the tendons go all the way to the top of the fingers. The flexor digotorum profundus muscle is responsible for motions like this:"
             },
             {
               "type": "text",
               "id": "bCz2k44g4CV9l8yS",
               "x": 808.6666259765625,
-              "y": 161.90279388427734,
+              "y": 136.34725189208984,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 189.77784729003906,
-              "height": 56.4444580078125,
+              "width": 259.77784729003906,
+              "height": 102,
               "stroke": "#008a00",
-              "text": "Notice: the tendons stop about half way up the fingers"
+              "text": "Notice: the tendons stop about half way up the fingers. The flexor digotorum superficialis muscle is responsible for motions like this:"
             },
             {
               "type": "text",
@@ -665,11 +719,48 @@
               "height": 76.6666259765625,
               "stroke": "#000000",
               "text": "You can even feel these muscles! Hold your wrist with your forearm with your other hand while you move your fingers. Can you feel the muscle flexing?"
+            },
+            {
+              "type": "image",
+              "id": "KayfvxTRISK6nuJF",
+              "x": 227.77774047851562,
+              "y": 260,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 165.22222900390625,
+              "height": 65.11114501953125,
+              "url": "vibe/images/L1.1-FDP-Finger.png",
+              "filename": "L1.1-FDP-Finger.png"
+            },
+            {
+              "type": "image",
+              "id": "Hu2hTgivLqaHAyut",
+              "x": 821.1110534667969,
+              "y": 251.11114501953125,
+              "hFlip": false,
+              "vFlip": false,
+              "rotation": 0,
+              "visible": true,
+              "width": 230,
+              "height": 82,
+              "url": "vibe/images/L1.1-FDS-Finger.png",
+              "filename": "L1.1-FDS-Finger.png"
             }
           ]
         },
         "layout": {
           "height": 715.9722290039062
+        }
+      },
+      {
+        "id": "bbFK48BvbbgvDKje",
+        "title": "Here is a detailed drawing of the tendons and ligaments in the hand",
+        "content": {
+          "type": "Image",
+          "url": "vibe/images/L1.1-Hand-Tendons-Image-Relabeled-and-Smaller-2.png",
+          "filename": "vibe/images/L1.1-Hand-Tendons-Image-Relabeled-and-Smaller-2.png"
         }
       },
       {
@@ -689,8 +780,34 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p>Go back to where you wrote down the motions you make and draw or write what tendons, muscles, or other parts of your hand you think you use to make that motion.</p><p>As you are doing that, also answer the question below:</p>"
+                  "<p>Go back to where you wrote down the motions you make and draw or write what tendons, muscles, or other parts of your hand you think you use to make that motion.</p><p>As you are doing that, drag this blue section over and answer the questions below (if your screen is still enlarged, will have to bring your workspace back. Here&#x27;s how you do that)</p>"
                 ]
+              }
+            },
+            {
+              "id": "np-5xOvV_tYlBrQv",
+              "title": "Bring your workspace back",
+              "content": {
+                "type": "Drawing",
+                "objects": [
+                  {
+                    "type": "image",
+                    "id": "AG89kUlQxYog0rPr",
+                    "x": 299.38078253609785,
+                    "y": -3.9681573595319577,
+                    "hFlip": false,
+                    "vFlip": false,
+                    "rotation": 0,
+                    "visible": true,
+                    "width": 363,
+                    "height": 358,
+                    "url": "vibe/images/Icon-Reveal-Workspace.png",
+                    "filename": "Icon-Reveal-Workspace.png"
+                  }
+                ]
+              },
+              "layout": {
+                "height": 309.942138671875
               }
             },
             {
@@ -808,8 +925,8 @@
             {
               "type": "vector",
               "id": "FZml6KaIgN8uBFp7",
-              "x": 293.3333282470703,
-              "y": 223.53244018554688,
+              "x": 260.03470611572266,
+              "y": 225.7546730041504,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
