@@ -286,7 +286,6 @@
         "Group"
       ]
     },
-    "defaultPanelLayout": "workspace-only",
     "aiUnitSummary": {
       "generatedAt": "2026-09-30T14:34:15.806Z",
       "sourceHash": "lbn5iy",
@@ -791,7 +790,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>How can the examples we choose as an example fo a type of seismic signal affect what a computer learns?</p>"
+                            "<p>How can the signals you choose to train a machine learning model affect what a computer learns?</p>"
                           ]
                         }
                       },
@@ -892,7 +891,7 @@
                         {
                           "id": "VyfXCY0hyax9zLIX",
                           "clientKey": "",
-                          "name": "Time",
+                          "name": "Start Time",
                           "hidden": false,
                           "units": "",
                           "formula": {
@@ -995,7 +994,7 @@
                 },
                 {
                   "id": "x8ch_QFV1Lwb3Ghy",
-                  "title": "Question 2",
+                  "title": "Question 1",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -1010,13 +1009,48 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>The ML model is trained to idenitfy earthquakes ike this one. How do you think scientists train the model to identify earthquake signals in the data?</p>"
+                            "<p>The ML model is trained to identify earthquakes like this one. How do you think scientists train the model to identify earthquake signals in the data?</p>"
                           ]
                         }
                       },
                       {
                         "id": "Nwupb9AI8RA-S_63",
                         "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "MzrjASHL9KZmWjEj",
+                  "title": "Question 2",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "3k6V63",
+                    "tiles": [
+                      {
+                        "id": "Vsdsfy-LhJGtEZ0H",
+                        "title": "Question Prompt 1",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>The ML model is not perfect in identifying earthquakes signals. Describe some examples of where it may have mislabeled a signal. </p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "ezBCap4ArnkJTFff",
+                        "title": "Text 5",
                         "content": {
                           "type": "Text",
                           "format": "html",
@@ -1147,7 +1181,7 @@
                 },
                 {
                   "id": "nfVM0ZLBJR8UVvtl",
-                  "title": "Question 1",
+                  "title": "Exit Ticket",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -1162,7 +1196,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>You have prior and local knowledge of the earthquakes and other seismic vibrations, and the ML model does not. Do you think that knowledge makes you different, better, or worse compared to the ML model for categorization tasks like this one?</p>"
+                            "<p>You have prior and local knowledge of earthquakes and other seismic vibrations, and the ML model does not. </p><p>For comparing seismic signals like you did above, do you think your local knowledge makes you different, better, or worse? Share why you think that. </p>"
                           ]
                         }
                       },
@@ -1230,7 +1264,7 @@
                         {
                           "id": "C9LZeEpVERKhy00H",
                           "clientKey": "",
-                          "name": "Time",
+                          "name": "Start Time",
                           "hidden": false,
                           "units": "",
                           "formula": {
@@ -1277,7 +1311,7 @@
         {
           "description": "Activity 1.4",
           "ordinal": 4,
-          "title": "Lesson 4: Seismic Investigations",
+          "title": "Lesson 4: Thinking Like a Scientist: Seismic Investigations",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -1303,43 +1337,8 @@
                   }
                 },
                 {
-                  "id": "RIpflzZ0Q6eKdmAs",
-                  "title": "Question 1",
-                  "content": {
-                    "type": "Question",
-                    "version": 1,
-                    "locked": false,
-                    "questionId": "3zCh-s",
-                    "tiles": [
-                      {
-                        "id": "RsSyg3thdiaypVLL",
-                        "title": "Question Prompt",
-                        "fixedPosition": true,
-                        "content": {
-                          "type": "Text",
-                          "format": "html",
-                          "text": [
-                            "<p>In the space below, record the question you are going to answer in this class.</p>"
-                          ]
-                        }
-                      },
-                      {
-                        "id": "pQgJt5BabzvmgoHO",
-                        "title": "Text 1",
-                        "content": {
-                          "type": "Text",
-                          "format": "html",
-                          "text": [
-                            "<p></p>"
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
                   "id": "A6XUGKmPykftgaoI",
-                  "title": "Question 2",
+                  "title": "Question 1",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -1354,7 +1353,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Describe how your group  will use the WaveRunner and Timeline tiles to answer the question. Fill in the details of your investigation in the space below.</p>"
+                            "<p>Describe how your group  will use the WaveRunner and Timeline to answer the question. Fill in the details of your investigation in the space below.</p>"
                           ]
                         }
                       },
@@ -1389,7 +1388,7 @@
                 },
                 {
                   "id": "X1vuT8r5PyQcANxO",
-                  "title": "Question 3",
+                  "title": "Question 2",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -1404,19 +1403,18 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Answer the question below while analyzing your data!</p>"
+                            "<p>Fill out the table below while analyzing your data!</p>"
                           ]
                         }
                       },
                       {
-                        "id": "kpzKlXFV68U23QWn",
-                        "title": "Text 3",
+                        "id": "dqyxKz2y80ThmUPI",
                         "content": {
-                          "type": "Text",
-                          "format": "html",
-                          "text": [
-                            "<p>How many events did the ML model identify?</p><p></p><p>Is there a time-based pattern in your data? For example, are the vents evenly spaced out, or do they seem to occur randomly?</p><p></p><p>How does this evidence help you answer your investigation question?</p>"
-                          ]
+                          "type": "Table",
+                          "columnWidths": {
+                            "Hw-f1-IPPiXoN71b": 337.83984375,
+                            "SYKCr5DLfpbxaVlj": 348.4921875
+                          }
                         }
                       }
                     ]
@@ -1430,7 +1428,7 @@
                 },
                 {
                   "id": "PcnpWqv0iHRz6zXy",
-                  "title": "Question 4",
+                  "title": "Exit ticket 1",
                   "content": {
                     "type": "Question",
                     "version": 1,
@@ -1445,7 +1443,7 @@
                           "type": "Text",
                           "format": "html",
                           "text": [
-                            "<p>Write 3-4 sentences that explain how the Machine Learning data helps or does not help answer your question about seismic events around Anchorage.</p>"
+                            "<p>Based on you and your class&#x27;s analysis, in which month in the past 5 years did Anchorage experience the most earthquakes? </p>"
                           ]
                         }
                       },
@@ -1462,6 +1460,128 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "n2ClB4THlpKj7NZY",
+                  "title": "Exit ticket 2",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "vLXi_K",
+                    "tiles": [
+                      {
+                        "id": "ememYhgS9Uqy2GqH",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What do you want to know about earthquakes in Anchorage?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "-Zxh_iG_Eh7fJwIZ",
+                        "title": "Text 6",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "In8yMTyrSHVzjhuL",
+                  "title": "Bonus Question",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "WZBuy0",
+                    "tiles": [
+                      {
+                        "id": "u0Wso56HZbwCADAx",
+                        "title": "Question Prompt 1",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Take one of these things you want to know and turn it into a testable question!</p><p>Tip: How to write a testable question.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "i0YUFLp5qUR7wjGq",
+                        "title": "Text 7",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "sharedModels": [
+                {
+                  "sharedModel": {
+                    "type": "SharedDataSet",
+                    "id": "oQax0UVhTP76oAfF",
+                    "providerId": "dqyxKz2y80ThmUPI",
+                    "dataSet": {
+                      "id": "rodAJkHnAe50NIpV",
+                      "name": "Table Data 1",
+                      "attributes": [
+                        {
+                          "id": "Hw-f1-IPPiXoN71b",
+                          "clientKey": "",
+                          "name": "Month, year",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            ""
+                          ],
+                          "title": ""
+                        },
+                        {
+                          "id": "SYKCr5DLfpbxaVlj",
+                          "clientKey": "",
+                          "name": "Number of events",
+                          "hidden": false,
+                          "units": "",
+                          "formula": {
+                            "display": ""
+                          },
+                          "values": [
+                            null
+                          ],
+                          "title": ""
+                        }
+                      ],
+                      "cases": [
+                        {
+                          "__id__": "7DtJuEPYqhLxoSd1"
+                        }
+                      ],
+                      "sortDirection": "NONE"
+                    }
+                  },
+                  "tiles": [
+                    "dqyxKz2y80ThmUPI"
+                  ]
                 }
               ]
             }
@@ -1470,7 +1590,7 @@
         {
           "description": "Activity 1.5",
           "ordinal": 5,
-          "title": "Lesson 5: Conducting your own Investigation",
+          "title": "Lesson 5: From Data to Discovery: Conducting Your Own Investigation",
           "subtitle": "",
           "disabled": [],
           "sections": [
@@ -1496,12 +1616,112 @@
                   }
                 },
                 {
+                  "id": "6ICg2Yt7-usg0UkP",
+                  "title": "Question 1",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "ml",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "ynZYhz",
+                    "tiles": [
+                      {
+                        "id": "11hYOupvzs0PX2wr",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>What question will you use ML to answer? Write it here.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "V58hP1O25n0nBctn",
+                        "title": "Text 3",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 },
+                [
+                  {
+                    "id": "OmcPeEUWgWmT5RdE",
+                    "title": "Question 2",
+                    "content": {
+                      "type": "Question",
+                      "version": 1,
+                      "locked": false,
+                      "questionId": "LOhN-H",
+                      "tiles": [
+                        {
+                          "id": "0LuTir9bt0mO81U2",
+                          "title": "Question Prompt",
+                          "fixedPosition": true,
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p>What station(s) will you use?</p>"
+                            ]
+                          }
+                        },
+                        {
+                          "id": "q53mI0rl9_dLJ8LG",
+                          "title": "Text 4",
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p></p>"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": "YqP8WiNszsx4zZB8",
+                    "title": "Question 3",
+                    "content": {
+                      "type": "Question",
+                      "version": 1,
+                      "locked": false,
+                      "questionId": "QNMhvo",
+                      "tiles": [
+                        {
+                          "id": "TeMZWkk8kAvW_tQf",
+                          "title": "Question Prompt 1",
+                          "fixedPosition": true,
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p>What start date and end date will you use?</p>"
+                            ]
+                          }
+                        },
+                        {
+                          "id": "PxZbSplS29vX7x9f",
+                          "title": "Text 5",
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p></p>"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
                 {
                   "content": {
                     "isSectionHeader": true,
@@ -1509,10 +1729,119 @@
                   }
                 },
                 {
+                  "id": "i_-8K5cpB0hFNCPP",
+                  "title": "Wave Runner 1",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "geo",
-                    "containerType": "DocumentContent"
+                    "type": "WaveRunner",
+                    "startDate": "2026-09-01",
+                    "endDate": "2026-10-01"
+                  }
+                },
+                [
+                  {
+                    "id": "cGDKJRd12qAQOEv2",
+                    "title": "Question 4",
+                    "content": {
+                      "type": "Question",
+                      "version": 1,
+                      "locked": false,
+                      "questionId": "I5TcKO",
+                      "tiles": [
+                        {
+                          "id": "E4lC3Yv7MMMlAH-C",
+                          "title": "Question Prompt",
+                          "fixedPosition": true,
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p>How many events did </p>"
+                            ]
+                          }
+                        },
+                        {
+                          "id": "EqMbEUWovdhHQyq7",
+                          "title": "Text 1",
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p></p>"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "id": "22eFucedACPATpUx",
+                    "title": "Question 5",
+                    "content": {
+                      "type": "Question",
+                      "version": 1,
+                      "locked": false,
+                      "questionId": "E_m79P",
+                      "tiles": [
+                        {
+                          "id": "-uurGze35us7xBaM",
+                          "title": "Question Prompt 2",
+                          "fixedPosition": true,
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p>Answer the questions to interpret your data.</p>"
+                            ]
+                          }
+                        },
+                        {
+                          "id": "hQCNrWWrAkp21OQx",
+                          "title": "Text 6",
+                          "content": {
+                            "type": "Text",
+                            "format": "html",
+                            "text": [
+                              "<p></p>"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                {
+                  "id": "-bDEOROFA2ZcczRr",
+                  "title": "Question 6",
+                  "content": {
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "GSMxd9",
+                    "tiles": [
+                      {
+                        "id": "HGdMPckZ8ziPgpQQ",
+                        "title": "Question Prompt 3",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>How does this data help you answer your investigation question?</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "aDnqsrqatnDz7wh8",
+                        "title": "Text 7",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -1522,10 +1851,38 @@
                   }
                 },
                 {
+                  "id": "EUZQgTVh8QhQkv6S",
+                  "title": "Exit Ticket",
                   "content": {
-                    "type": "Placeholder",
-                    "sectionId": "help",
-                    "containerType": "DocumentContent"
+                    "type": "Question",
+                    "version": 1,
+                    "locked": false,
+                    "questionId": "InieLM",
+                    "tiles": [
+                      {
+                        "id": "OwZZHZu_0bHrAtq1",
+                        "title": "Question Prompt",
+                        "fixedPosition": true,
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p>Write 3-4 sentences that explain how the machine learning data helps or does not help answer your question about seismic events around Anchorage.</p>"
+                          ]
+                        }
+                      },
+                      {
+                        "id": "hEwyBtjzB1wrfW8Z",
+                        "title": "Text 2",
+                        "content": {
+                          "type": "Text",
+                          "format": "html",
+                          "text": [
+                            "<p></p>"
+                          ]
+                        }
+                      }
+                    ]
                   }
                 }
               ]
