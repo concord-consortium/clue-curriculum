@@ -18,7 +18,7 @@
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Did you notice the blocks come in three different colors?</p><ul><li>The purple blocks are called “signals.” They bring new signals into the program in the form of numbers.</li><li>The blue blocks are called “operators.” They operate on (do something with) those numbers inside the program.</li></ul><p>Now we can add a yellow block. These are devices. A &quot;live device&quot; makes something happen in real life or in a simulation. A &quot;demo device&quot; just shows a demo in the Dataflow program - it doesn&#x27;t do anything outside the program.</p><p>Click the “demo device” to add a tile to your workspace. Use the dropdown menu to change it into a gripper.</p>"
+            "<p>Did you notice the blocks come in three different colors?</p><ul><li>The purple blocks are called “signals.” They bring new signals into the program in the form of numbers.</li><li>The blue blocks are called “operators.” They operate on (do something with) those numbers inside the program.</li></ul><p>Now we can add a yellow block. These are devices. A &quot;live device&quot; makes something happen in real life or in a simulation. A &quot;demo device&quot; just shows a demo in the Dataflow program - it doesn&#x27;t connect to anything outside the program.</p><p>Click the “demo device” to add a tile to your workspace. Use the dropdown menu to change it into a gripper.</p>"
           ]
         }
       },
@@ -302,7 +302,7 @@
                 "type": "Text",
                 "format": "html",
                 "text": [
-                  "<p>Drag this tile to your workspace and fill as many rows as you need to help you keep track of what you have tried and to notice any patterns.</p>"
+                  "<p>Drag this tile to your workspace and fill as many rows as you need to help you keep track of what you have tried and to notice any patterns.</p><p>Remember: if you&#x27;re working together you can use your <u>group doc</u>.</p>"
                 ]
               }
             },
@@ -359,24 +359,24 @@
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 157.77764892578125,
-              "height": 81.33332824707031,
+              "width": 276.52764892578125,
+              "height": 96.33332824707031,
               "stroke": "#000000",
-              "text": "Want some feedback? Ask for an idea at the top of your workspace."
+              "text": "Want some feedback about how your work connects with the user needs in the class portfolio? Ask for an idea at the top of your workspace."
             },
             {
               "type": "text",
               "id": "MwX7qBSt1VlfrxH7",
               "x": 866.444580078125,
-              "y": 180.33342361450195,
+              "y": 179.08342361450195,
               "hFlip": false,
               "vFlip": false,
               "rotation": 0,
               "visible": true,
-              "width": 166.66668701171875,
-              "height": 96.44447326660156,
+              "width": 292.91668701171875,
+              "height": 77.69447326660156,
               "stroke": "#000000",
-              "text": "Want to talk with Ada? Open a chat using the button at the bottom of your workspace."
+              "text": "Need some help making a program or figuring something out? Open a chat using the button at the bottom of your workspace."
             },
             {
               "type": "vector",
@@ -417,240 +417,14 @@
         }
       },
       {
-        "id": "dAkxXPUp8XQUKL9W",
-        "title": "Designing an Automatic Machine",
+        "id": "0co2DJMvj50mCYaY",
+        "title": "Extension opportunity: AI Discussion",
+        "display": "teacher",
         "content": {
           "type": "Text",
           "format": "html",
           "text": [
-            "<p>Did you notice that if you want to make your gripper open and close, you have to it yourself? You put in the numbers, and it closes or opens the gripper.</p><p>But coding can also help you do a bunch of things automatically.</p><p>For example, maybe you want to test a gripper to make sure it won&#x27;t break even if you use it for a really, really long time.</p><p>You don&#x27;t really want to sit for days and days and change one number so that it closes, and then change a number so it opens, and then change a number so it closes again, and then change one number so it opens again...It would be boring and take forever!</p><p>Instead, you can use code to make the gripper <span data-slate-type=\"highlight\" data-slate-highlight-id=\"c773df2a-c7ae-4895-9b62-c0800a967048\"></span> open and close.</p>"
-          ],
-          "highlightedText": [
-            {
-              "id": "c773df2a-c7ae-4895-9b62-c0800a967048",
-              "text": "automatically"
-            }
-          ]
-        }
-      },
-      {
-        "id": "2YRf5XZ4olV_7hJU",
-        "title": "By yourself",
-        "content": {
-          "type": "Question",
-          "version": 1,
-          "locked": false,
-          "questionId": "tN8OuG",
-          "tiles": [
-            {
-              "id": "pqgHdiTzrfGquuta",
-              "title": "Question Prompt",
-              "fixedPosition": true,
-              "content": {
-                "type": "Text",
-                "format": "html",
-                "text": [
-                  "<p>The sketch below has a drawing of a program. It&#x27; s just a starting point! Yours might look different, and you might have other ideas.</p><p>Drag this tile over and make changes to the sketch: <span data-slate-type=\"highlight\" data-slate-highlight-id=\"410e8ce6-0f9c-4769-aa1a-7caed93a08be\"></span></p><p>You can start by finishing the description of the demo gripper. Then, work on your design.</p><p>It&#x27;s okay if you don&#x27;t know what the block is called or even if it actually exists! Once you have a design, it will be easier to adjust it based on the actual blocks.</p><p>Describe what you want the block to do, and where you would connect it. You might decide to delete or change some or all of the blocks and connections that are there.</p>"
-                ],
-                "highlightedText": [
-                  {
-                    "id": "410e8ce6-0f9c-4769-aa1a-7caed93a08be",
-                    "text": "The goal is to design a program that automatically opens and closes the gripper."
-                  }
-                ]
-              }
-            },
-            {
-              "id": "0r836aGDcH7Wfwxb",
-              "title": "Make changes to this sketch to design an automatic gripper tester!",
-              "content": {
-                "type": "Drawing",
-                "objects": [
-                  {
-                    "type": "rectangle",
-                    "id": "ScokvUhGKICObJ_t",
-                    "x": 112.55551147460938,
-                    "y": 167.99990844726562,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#000000",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "fill": "#a5b2ff",
-                    "width": 165.77774047851562,
-                    "height": 94.444580078125
-                  },
-                  {
-                    "type": "rectangle",
-                    "id": "KjZZcO1uFNfMlj6-",
-                    "x": 114.2220458984375,
-                    "y": 41.55548095703125,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#000000",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "fill": "#a5b2ff",
-                    "width": 161.3333740234375,
-                    "height": 99.77774047851562
-                  },
-                  {
-                    "type": "rectangle",
-                    "id": "0UzyytI4ae0fndRn",
-                    "x": 417.555419921875,
-                    "y": 109,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#000000",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "fill": "#addef4",
-                    "width": 152,
-                    "height": 93.33334350585938
-                  },
-                  {
-                    "type": "rectangle",
-                    "id": "sHt0BWeaIrpIRj6V",
-                    "x": 673.2220153808594,
-                    "y": 107.33322143554688,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#ff8415",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "fill": "#f7e58f",
-                    "width": 178.22219848632812,
-                    "height": 124.66683959960938
-                  },
-                  {
-                    "type": "text",
-                    "id": "Kt1O8FwaeryeiB5W",
-                    "x": 687.7777099609375,
-                    "y": 125.77774047851562,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "width": 147.111083984375,
-                    "height": 85.00006103515625,
-                    "stroke": "#000000",
-                    "text": "DEMO GRIPPER: It opens when ____ and closes when ____"
-                  },
-                  {
-                    "type": "text",
-                    "id": "VrLWFPEzLoehn-da",
-                    "x": 437.99981689453125,
-                    "y": 121.55557250976562,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "width": 114,
-                    "height": 69,
-                    "stroke": "#000000",
-                    "text": "SUBTRACTION: __ - __ = __"
-                  },
-                  {
-                    "type": "text",
-                    "id": "zmUHWv2E-HV0w_ST",
-                    "x": 132.3331298828125,
-                    "y": 57.22222900390625,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "width": 126.4443359375,
-                    "height": 73.77777099609375,
-                    "stroke": "#000000",
-                    "text": "NUMBER 1 (sends a single number as a signal)"
-                  },
-                  {
-                    "type": "vector",
-                    "id": "KNNeuHZfKNvdmdUC",
-                    "x": 277.555419921875,
-                    "y": 95.33334350585938,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#bfbfbf",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "dx": 134,
-                    "dy": 47,
-                    "headShape": "triangle"
-                  },
-                  {
-                    "type": "vector",
-                    "id": "Dbbvh5KkPr-diZwe",
-                    "x": 277.555419921875,
-                    "y": 230.33334350585938,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#bfbfbf",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "dx": 136,
-                    "dy": -53,
-                    "headShape": "triangle"
-                  },
-                  {
-                    "type": "vector",
-                    "id": "JUE5KUSokvV-RgLo",
-                    "x": 570.66650390625,
-                    "y": 161.33334350585938,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "stroke": "#bfbfbf",
-                    "strokeDashArray": "",
-                    "strokeWidth": 2,
-                    "dx": 100.888916015625,
-                    "dy": 6.88897705078125,
-                    "headShape": "triangle"
-                  },
-                  {
-                    "type": "text",
-                    "id": "0vkqdTcajqqvP6pm",
-                    "x": 132.99981689453125,
-                    "y": 179.66668701171875,
-                    "hFlip": false,
-                    "vFlip": false,
-                    "rotation": 0,
-                    "visible": true,
-                    "width": 126.4443359375,
-                    "height": 73.77777099609375,
-                    "stroke": "#000000",
-                    "text": "NUMBER 1 (sends another number as a signal)"
-                  }
-                ]
-              },
-              "layout": {
-                "height": 301
-              }
-            },
-            {
-              "id": "6IfzeAnnikXcX4l7",
-              "title": "You can also write some of your idea out",
-              "content": {
-                "type": "Text",
-                "format": "html",
-                "text": [
-                  "<p>If you have an idea but you&#x27;re not sure how to draw it out, write it here!</p>"
-                ]
-              }
-            }
+            "<p>If you have time and want to extend, you can have a class discussion around here about AI tools. Some topics you can discuss are:</p><ul><li>What are different things you can ask of AI? What is AI maybe <em>not</em> so good at?</li><li>Who should you ask for what kind of help? (e.g., AI, friends/peers, the teacher) What are other ways to get help? (e.g., reviewing your prior work, thinking, looking at the lesson)</li><li>What are we curious about regarding what Ada might be able to help us with?</li><li>How can we tell whether AI tools are trustworthy in general?</li><li>How are AI tools developed? (e.g., discussion around training sets, text completion -- you may want to note that Ada Ideas was specially trained to align with this curriculum)</li></ul><p>After students have tried Ada Ideas:</p><ul><li>How is Ada Ideas different from or similar to other AI tools they have used?</li><li>What can different AI tools look like or be used for? (The AIdeas chatbot is similar to ChatGPT, but students might not have realized that the sorting tool in the class portfolio is also run by AI. You can also bring up ideas like automatic detection of cancer cells)</li><li>Is Ada Ideas trustworthy? How can we tell? Is Ada Ideas trustworthy about everything or just about some things?</li><li>Do we have any tips for improving Ada Ideas?</li><li>What do we want to pay attention to in future lessons?</li><li>What strategies can we suggest for using AI tools like Ada effectively? (or specifically using Ada effectively in this unit)</li></ul><p>Note: You do not have to have this kind of discussion -- this is only an extension opportunity. An alternative is making an exit ticket question around Ada Ideas.</p><p>Additionally, if you <em>do </em>decide to have a class discussion here, you should just choose one or two main questions to explore.</p>"
           ]
         }
       },
