@@ -231,7 +231,7 @@
     "aiEvaluation": "custom",
     "aiPrompt": {
       "systemPrompt": "You are an experienced middle school STEM educator specializing in water conservation and front-end design. You provide warm, encouraging, and constructive feedback that is ALWAYS grounded in the student's specific words and ideas—never generic. You must directly quote or paraphrase something the student wrote before offering guidance. You are familiar with divergent-convergent thinking, where divergent thinking involves generating many different ideas and possibilities, and convergent thinking involves narrowing down and focusing on specific ideas and possibilities.\nYour middle school students are completing an online module aimed at teaching them about front-end design and water conservation. The module has eight lessons: L1: Importance of Water Conservation, L2: Stakeholder Mapping, L3: Stakeholder Profile and Community Research, L4: Scoping, L5: Research, L6: Concept Generation, Drawing Ideas, L7: Idea Generation Part 2, and L8: Presentation and Reflection.",
-      "mainPrompt": "This is a picture of the student's work. Review the student's work carefully. Identify ONE specific idea, phrase, or detail the student mentioned. Provide feedback in one to two sentences that directly references that specific detail and helps the student think more critically about their front-end design process and how it connects to water conservation. Do NOT give generic praise or vague suggestions. Your feedback must prove you read their work by naming something only they wrote.",
+      "mainPrompt": "This is a picture of the student's work in {{mywork}}. Review the student's work carefully. Identify ONE specific idea, phrase, or detail the student mentioned. Provide feedback in one to two sentences that directly references that specific detail and helps the student think more critically about their front-end design process and how it connects to water conservation in the {{curriculum}}. Do NOT give generic praise or vague suggestions. Your feedback must prove you read their work by naming something only they wrote.",
       "categorizationDescription": "Based on the student's work, categorize their thinking as focusing on the Stakeholder, Environment, Design, or Function of their description. State your categorization in one sentence, then explain in one sentence WHY by pointing to specific evidence from the student's response—for example, \"You focused on the Design by discussing the size of a water reservoir.\" or \"You chose to focus specifically on farmers and their irrigation needs.\"",
       "categories": [
         "user",
@@ -240,8 +240,7 @@
         "function"
       ],
       "keyIndicatorsPrompt": "List 2-3 specific phrases, ideas, or details FROM THE STUDENT'S ACTUAL RESPONSE that support your categorization. Use quotation marks or direct paraphrasing. Do not describe general behaviors—cite their actual words. For example: \"The student wrote 'taking a shower saves more water than a bath,' showing they are processing new information\" or \"The student mentioned 'a scale that shows how much water you're using,' indicating an emerging design idea.\"",
-      "discussionPrompt": "In one to two sentences written for a middle school student, connect something SPECIFIC the student said to a next step in their thinking. You MUST reference their actual words (quote or paraphrase) before asking your question. Keep language simple and encouraging. End with ONE clear question that builds on their idea.\nExample format: \"You said [specific thing they wrote]—that's interesting because [brief connection]. [One guiding question]?\"\nDo NOT use phrases like \"great job exploring\" or \"keep thinking about your community\" without tying them to the student's specific words.",
-      "summarizer": "image"
+      "discussionPrompt": "In one to two sentences written for a middle school student, connect something SPECIFIC the student said to a next step in their thinking. You MUST reference their actual words (quote or paraphrase) before asking your question. Keep language simple and encouraging. End with ONE clear question that builds on their idea.\nExample format: \"You said [specific thing they wrote]—that's interesting because [brief connection]. [One guiding question]?\"\nDo NOT use phrases like \"great job exploring\" or \"keep thinking about your community\" without tying them to the student's specific words."
     },
     "stamps": [
       {
@@ -297,7 +296,233 @@
     "planningTemplateEnabled": false,
     "allowCustomCommentTags": true,
     "showCommentRating": true,
-    "groupDocumentsEnabled": true
+    "groupDocumentsEnabled": true,
+    "aiUnitSummary": {
+      "generatedAt": "2026-11-19T17:54:17.723Z",
+      "sourceHash": "9qah3u",
+      "sourceManifest": [
+        {
+          "ordinal": "0.1",
+          "title": "Collaborative Learning Environment",
+          "problemHash": "demox7"
+        },
+        {
+          "ordinal": "1.1",
+          "title": "Activity 1.1",
+          "problemHash": "35uws2"
+        },
+        {
+          "ordinal": "1.2",
+          "title": "Activity 1.2",
+          "problemHash": "zijh5t"
+        },
+        {
+          "ordinal": "1.3",
+          "title": "Activity 1.3",
+          "problemHash": "123ebrz"
+        },
+        {
+          "ordinal": "1.4",
+          "title": "Activity 1.4",
+          "problemHash": "105gi8o"
+        },
+        {
+          "ordinal": "1.5",
+          "title": "Activity 1.5",
+          "problemHash": "he4mv1"
+        },
+        {
+          "ordinal": "1.6",
+          "title": "Activity 1.6",
+          "problemHash": "1d6rcbe"
+        },
+        {
+          "ordinal": "1.7",
+          "title": "Activity 1.7",
+          "problemHash": "1pugjy8"
+        },
+        {
+          "ordinal": "1.8",
+          "title": "Activity 1.8",
+          "problemHash": "u0hz4v"
+        },
+        {
+          "ordinal": "2.1",
+          "title": "Activity 2.1",
+          "problemHash": "hwlr7m"
+        },
+        {
+          "ordinal": "3.1",
+          "title": "Activity 3.1",
+          "problemHash": "1cj21cm"
+        },
+        {
+          "ordinal": "3.2",
+          "title": "Activity 3.2",
+          "problemHash": "ltcioo"
+        },
+        {
+          "ordinal": "3.3",
+          "title": "Activity 3.3",
+          "problemHash": "1u0pdwc"
+        },
+        {
+          "ordinal": "3.4",
+          "title": "Activity 3.4",
+          "problemHash": "wd0xbo"
+        },
+        {
+          "ordinal": "3.5",
+          "title": "Activity 3.5",
+          "problemHash": "2jcmos"
+        },
+        {
+          "ordinal": "3.6",
+          "title": "Activity 3.6",
+          "problemHash": "8awwfh"
+        },
+        {
+          "ordinal": "3.7",
+          "title": "Activity 3.7",
+          "problemHash": "zscsve"
+        },
+        {
+          "ordinal": "3.8",
+          "title": "Activity 3.8",
+          "problemHash": "1xa47e2"
+        }
+      ],
+      "overview": "This unit introduces CLUE/MODS collaboration tools and Learning Journal documentation, then guides students through front-end engineering design for water conservation. Students explore personal and community water use, U.S. water availability/drought patterns, stakeholder identification and mapping, stakeholder profiles, assumptions, environment research, and scoping questions organized into natural, social, and technical/design categories. They research selected water conservation questions, revise need statements, brainstorm and sketch multiple solution ideas using SCAMPER, brain-sketching, and design heuristic cards, then select strong, surprising, and presentation-ready concepts. Several later activities include AI/Idea support and reflections on when AI helped or did not help, while students continually document maps, notes, sketches, research, reflections, and design process evidence in the Learning Journal.",
+      "entries": [
+        {
+          "ordinal": "0.1",
+          "priorKnowledge": "",
+          "problemDigest": "**Introduction:** Introduces MODS/CLUE tiles, workspaces, dragging/copying tiles, group sharing, and collaboration. Students complete a question tile with **several different ideas**: three things they want to learn, and are prompted to share work and copy a partner’s tile.\n\n**Activity:** Students try core tools: create a text tile, format it, experiment with images/sketches/annotation arrows, and answer a question about their favorite CLUE tool so far. It asks for **a single answer** to the favorite-tool question, while also encouraging hands-on experimentation with multiple tool types.\n\n**Reflection:** Explains how to use the Learning Journal, copy previous work into it, access Class Work, sort documents, and understand teacher-only notes. This section mainly provides instructions/reference and **sets no specific task** in the problem.",
+          "approach": "mixed",
+          "approachGuidance": "Intro: students create/copy tiles and list 3 things they want to learn. Activity: try CLUE tools and say which they like. Reflection: save and find work. Assistant should support tool practice and brief personal responses, not push a single design solution."
+        },
+        {
+          "ordinal": "1.1",
+          "priorKnowledge": "MODS/CLUE tiles; workspaces; dragging tiles; copying tiles; group sharing; partner tile copying; collaborative workspace sharing; text tile creation; text formatting; image tools; sketch tools; annotation arrows; question tile responses; Learning Journal use; copying prior work into Learning Journal; Class Work access; document sorting; teacher-only notes awareness",
+          "problemDigest": "**Introduction:** Students reflect on their personal water experience, local water challenges/successes, ways people use water, why water matters to them, freshwater availability, and their water footprint questionnaire results; they also sketch one way people use water. This section asks for several different examples/ideas in the water-use list, plus several single personal responses and one sketch.\n\n**Activity:** Students analyze a U.S. water availability/drought map, identify their state/region’s condition, compare eastern and western U.S. patterns, consider how regional water availability affects conservation, and decide what their community should be concerned about. They discuss water conservation and draft one need statement using “[Who] needs [what] because [why],” so it asks for single answers/one statement rather than alternative designs.\n\n**Reflection:** Students write or sketch new thoughts, questions, important learnings, or initial design ideas after exploring personal water use and U.S. water availability, then document their engineer notebook in the Learning Journal. This is open-ended and can include several reflections/questions/initial ideas.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: reflect on personal water experiences and list many uses. Activity: interpret water-availability data, discuss conservation, and draft one preliminary need statement. Reflection: note thoughts, questions, initial ideas/sketches. Do not select or develop a final solution; support only"
+        },
+        {
+          "ordinal": "1.2",
+          "priorKnowledge": "MODS/CLUE tiles; workspace navigation; dragging/copying tiles; group sharing and partner tile copying; creating/formatting text tiles; image, sketch, and annotation-arrow tools; question tile responses; Learning Journal use, including copying work into it; Class Work access; document sorting; teacher-only notes; personal water-use reflection; local water challenges/successes; water-use examples; freshwater availability; water footprint questionnaire results; sketching water use; U.S. water availability and drought map analysis; identifying state/region drought conditions; comparing eastern vs. western U.S. water patterns; conservation implications of regional water availability; community water-concern assessment; water conservation discussion; need statement format: “[Who] needs [what]",
+          "problemDigest": "**Introduction:** Students identify two different people in their community and explain why water conservation matters to each, optionally with a sketch. This asks for several different stakeholder ideas (two people).\n\n**Activity:** Students build a numbered list of at least 12 community stakeholders affected by a water conservation solution, discuss commonalities, create a stakeholder map sorting them into Users, Resource-Providers, and Questioners, note wonderings, and revisit/edit their need statement. This asks for many different stakeholder ideas, organized into one map and one updated need statement.\n\n**Reflection:** Students journal or sketch about what they learned about stakeholder mapping, remaining questions, possible initial design ideas, strengths/improvements, and next steps, then document their map, notes, and notebook work in the Learning Journal. This is a single open-ended reflection/documentation task, though it may include multiple notes or ideas.",
+          "approach": "mixed",
+          "approachGuidance": "Intro/early Activity: students brainstorm community stakeholders and reasons. Activity: map them, note wonderings, consider edits to a need statement. Reflection: jot notes, questions, or next steps. Assistant should help brainstorm/group/revise, not pick or fully design one water-conservation"
+        },
+        {
+          "ordinal": "1.3",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces: drag/copy tiles, group sharing, question tiles, text creation/formatting, images, sketches, annotation arrows, Learning Journal, Class Work access/sorting, and teacher-only notes. Water topics: personal water-experience reflection; community water challenges/successes; water-use examples; freshwater availability; water-footprint questionnaire results; U.S. water availability/drought map analysis, including state/region drought conditions, eastern vs. western patterns, and effects on conservation; community water concerns and conservation. Design tasks: write/revise need statements in “[Who] needs [what] because [why]” format; identify community stakeholders; create stakeholder maps; categorize stakeholders as Users, Resource-Providers, or Questioners.",
+          "problemDigest": "Introduction: Frames the lesson around understanding stakeholder needs for water conservation before designing solutions. Students give several choices by naming two important stakeholders from their map and explaining why they matter.\n\nActivity: Students create a single stakeholder profile for one chosen stakeholder, including important values/interests, water uses or conservation actions, why conservation matters, and assumptions to clarify. They then choose one matching environment poster, study water storage/movement and stakeholder water challenges, and answer several research questions, all for one stakeholder/environment rather than alternative designs.\n\nReflection: Students review classmates’ profiles, then complete a single open-ended reflection or sketch about what they learned, questions, early design ideas, and how the activities helped. They also document their stakeholder profile, assumptions, and notebook work in the Learning Journal.",
+          "approach": "convergent",
+          "approachGuidance": "Students must pick 1–2 key stakeholders, then focus on one to build a detailed profile, examine assumptions, choose a matching environment, and research that stakeholder’s water needs/challenges. Do not push many design solutions; help deepen understanding of the chosen stakeholder and environment."
+        },
+        {
+          "ordinal": "1.4",
+          "priorKnowledge": "MODS/CLUE tiles and workspaces: drag, copy, share tiles; create/format text tiles; add images, sketches, annotation arrows; use Learning Journal; access/sort Class Work. Personal water-use reflection: water-footprint questionnaire results; sketch water uses. Analyze U.S. water availability/drought maps: identify state/region drought; compare eastern vs. western water patterns; discuss regional availability and conservation. Write conservation need statements: “[Who] needs [what] because [why].” Identify community stakeholders; map as Users, Resource-Providers, Questioners; create profiles with values/interests, water uses, conservation actions, and assumptions to clarify. Analyze environment posters; water storage/movement; stakeholder water challenges.",
+          "problemDigest": "**Introduction:** Students revisit their stakeholder map/profile and generate ideas about what information is needed to create an effective water conservation need statement, then take notes from a whole-class discussion. This asks for a single set of ideas/questions, not alternative designs.\n\n**Activity:** Students restate their updated need statement, write at least 5 relevant scoping questions, expand the list through class discussion to at least 12, then evaluate and organize key questions into natural, social, and technical categories in a scoping table. This asks for several different questions, but one organized scoping table rather than multiple solution versions.\n\n**Reflection:** Students reflect on what they learned about scoping, how the scoping table shaped their understanding of the problem and solution needs, and what they did well or want to improve; they may write or sketch and then document their work in the Learning Journal. This asks for a single reflection/documentation task, not multiple alternatives.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: brainstorm needed info. Activity: restate one need statement; generate scoping questions; select/organize key questions as natural, social, or technical. Reflection: reflect on learning. Assistant should not design a water-conservation solution, but support questioning, scoping,"
+        },
+        {
+          "ordinal": "1.5",
+          "priorKnowledge": "MODS/CLUE tiles and workspaces; dragging/copying tiles; group sharing; creating/formatting text tiles; images, sketches, annotation arrows; Learning Journal use/documentation; Class Work access/sorting; personal water-use reflection; water-footprint questionnaire results; U.S. water availability/drought map analysis; regional drought pattern comparisons; water conservation need statements; community water concerns; stakeholder identification/maps; Users, Resource-Providers, and Questioners categories; stakeholder profiles covering values, interests, water uses, conservation actions, assumptions, and water challenges; environment posters; water storage and movement; scoping questions; natural, social, and technical scoping categories; scoping tables",
+          "problemDigest": "Introduction: Students estimate their typical daily water use using a USGS questionnaire, then give a single response about what they learned/surprised them and whether stakeholders’ water usage might be similar or different. It also introduces research as a way to understand stakeholder needs and refine scoping questions.\n\nActivity: Students choose two research questions from their scoping table, label each as natural, social, or design, then research them using provided water conservation articles. They select at least two articles, record title/source and notes connected to each question, with an optional third article; this involves multiple source choices but a single research workflow.\n\nReflection: Students provide a single reflective response, written and/or sketched, about what they learned from research, remaining questions, possible design ideas, and how research affected their understanding of the problem and solution needs. They are also instructed to document their design process by adding research notes and engineer notebook work to the Learning Journal.",
+          "approach": "unclear",
+          "approachGuidance": "Students estimate personal water use, choose research questions, read articles, take notes, and reflect on water conservation and stakeholder needs. Do not suggest brainstorming many design solutions or choosing/developing a final design."
+        },
+        {
+          "ordinal": "1.6",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces: drag/copy, group share; text tiles/formatting, images, sketches, annotation arrows; Learning Journal; Class Work sorting; teacher-only notes. Personal water-experience reflection; water uses; freshwater availability; water-footprint questionnaire; U.S. availability/drought map analysis; regional availability comparison; conservation. Need statement: “[Who] needs [what] because [why]”; community stakeholders/map; Users/Resource-Providers/Questioners; profile; values/interests; water uses/conservation actions; assumptions to clarify. Environment posters; water storage/movement/challenges; scoping questions; natural/social/technical categories; scoping table; daily water-use estimate; research question selection; article source notes; natural/social/design labels",
+          "problemDigest": "Introduction: Students may revise their stakeholder need statement based on research, then brainstorm and sketch three water-conservation design solution ideas with labels/descriptions and stakeholder/help explanations. This section asks for several different design ideas, plus one updated need statement.\n\nActivity: Students use SCAMPER prompts (substitute, combine, adapt, modify, put to other uses, eliminate, rearrange) to build on prior sketches and generate up to three more design solution sketches, naming the prompt used and describing each idea. This section asks for several different design ideas/versions.\n\nReflection: Students reflect in writing and/or sketching on what they learned about idea generation, what helped, what worked or did not, what they did well, and what they want to improve; they also document their design process by adding sketches/notebook work to the Learning Journal. This section asks for a single reflection/documentation response, not alternative ideas.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: refine/update one stakeholder need, then brainstorm/sketch 3 distinct water-conservation designs. Activity: use SCAMPER to generate more varied ideas. Reflection: reflect on idea generation. Do not have students choose a best design or fully develop a final solution yet."
+        },
+        {
+          "ordinal": "1.7",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces: drag, copy, share; text formatting; images, sketches, annotation arrows; Learning Journal/Class Work documentation; personal water use/footprint; freshwater availability; U.S. drought/water-availability map analysis; regional conservation concerns; conservation need-statement format; community stakeholder identification and mapping (Users, Resource-Providers, Questioners); stakeholder profiles: values/interests, water uses, conservation actions, assumptions; environment posters; water storage/movement challenges; scoping questions/categories (natural, social, technical) and tables; research question selection; article source notes; research-based need-statement revision; labeled solution sketches; SCAMPER: substitute, combine, adapt, modify, put to other uses,",
+          "problemDigest": "**Introduction:** Students review prior sketches, share their need statement and design ideas with a teammate, compare similarities, and consider how to make ideas more diverse. It asks for single written responses, though focused on expanding toward more varied design ideas.\n\n**Activity:** Students do brain-sketching for a water-conservation need statement: sketch one design idea, then exchange with three partners who add inspired sketches using SCAMPER prompts, and describe prompts/features. It asks for several different design ideas/versions, including additional modified designs using selected design heuristic cards.\n\n**Reflection:** Students reflect in an engineer notebook on what helped their idea generation, what worked or didn’t, what they did well, what to improve, and any questions or notes; they then document sketches/notebook in the Learning Journal. It asks for a single reflective response, not alternative ideas.",
+          "approach": "divergent",
+          "approachGuidance": "Students generate many water-conservation design ideas, diversify them using classmates’ sketches, SCAMPER prompts, and design heuristic cards, then reflect on ideation. An assistant should brainstorm varied alternatives and modifications, not suggest choosing or finalizing one best design yet."
+        },
+        {
+          "ordinal": "1.8",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces; drag, copy, share tiles; text formatting; images, sketches, annotation arrows; Learning Journal/Class Work documentation; personal water use and footprint; U.S. water availability/drought map analysis; regional conservation concerns; engineering need statements ([who] needs [what] because [why]); community stakeholders; stakeholder maps (Users, Resource-Providers, Questioners); profiles covering values, interests, assumptions, water uses; environment posters on water storage, movement, challenges; scoping questions in natural, social, technical/design categories; scoping tables; USGS daily water-use questionnaire; article research notes; labeled design sketches; SCAMPER; brain-sketching; design heuristic cards; peer comparison of design ideas",
+          "problemDigest": "Introduction: Reviews prior front-end engineering design work for water conservation and asks for a single reflection table: students list at least 3 things learned about engineering design with Learning Journal evidence, then share with a partner.\n\nActivity: Asks for several selections/versions of design ideas: students choose 3 strongest solution sketches and explain stakeholder fit, choose 2 surprising ideas and explain why, then choose 1 solution to present to the class and a stakeholder guest with how it works and meets need.\n\nReflection: Asks for a single final reflection: students record reactions, strengths as front-end designers, and a possible home/school/community need to design for. It also instructs them to document their process by adding strong ideas, surprising ideas, and engineer notebook work to the Learning Journal.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: reflect on learning, citing Learning Journal evidence. Activity: choose existing strong, surprising, shareable design solutions; explain/present one. Reflection: record final thoughts on design work/future needs. Don’t suggest inventing new water-conservation ideas; use ideas already"
+        },
+        {
+          "ordinal": "2.1",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces; drag/copy/share tiles; format text; add images, sketches, annotation arrows; Learning Journal docs; Class Work navigation/sorting; personal water experiences/uses; freshwater availability; water footprint questionnaire; U.S. drought/water availability maps; regional conservation concerns; stakeholder IDs, need statements, maps, profiles, values/interests/assumptions, Users/Resource-Providers/Questioners; environment posters; water storage/movement; scoping questions/tables by natural/social/technical/design categories; USGS daily water-use estimates; article research notes; solution sketches; SCAMPER, brain-sketching, design heuristic cards; select strong/surprising ideas; stakeholder-fit explanations; front-end engineering design evidence; presentation prep",
+          "problemDigest": "Introduction: Presents a digital sketching design prompt asking for a single device homeowners can use to conserve or generate water within a house or its lot, easy for household members to install and operate.\n\nActivity: Asks students to provide a single concept name and describe one concept, including how it works and its features, mechanisms, and details; includes a drawing tile with “special notes” and a SCAMPER image.\n\nReflection: Provides an AI feedback area about water-quality work/designs; it sets no direct student task.",
+          "approach": "convergent",
+          "approachGuidance": "The problem asks students to design one household-scale device for conserving or generating water and describe how that concept works, including its features and mechanisms. An assistant should help refine and explain the chosen device rather than suggest brainstorming many unrelated options."
+        },
+        {
+          "ordinal": "3.1",
+          "priorKnowledge": "MODS/CLUE: workspaces; dragging/copying; sharing; Class Work; Learning Journal; text, image, sketch, and annotation tiles. Topics/activities: personal water use, water footprint, daily use estimates; U.S. water availability/drought map analysis; regional conservation implications; need statements (“[Who] needs [what] because [why]”); community stakeholders; stakeholder maps (Users, Resource-Providers, Questioners); profiles (values, interests, water uses/actions, assumptions); water storage/movement and stakeholder challenges; scoping questions, categories (natural/social/technical/design), and tables; article research notes tied to questions; iterative need revision; labeled solution sketches; SCAMPER, brain-sketching, design heuristic cards; strongest/surprising idea selection;",
+          "problemDigest": "**Introduction:** Students reflect on their personal water experience, local water challenges/successes, why water matters, and what they learned from a water footprint questionnaire. It asks for several examples of water uses, plus mostly single reflective answers and one sketch of a way people use water.\n\n**Activity:** Students interpret a U.S. water availability/drought map, identify their state/region’s conditions, compare eastern and western U.S. patterns, and explain how conditions affect water conservation concerns. It asks for single answers to each prompt, then a single draft need statement in the form “[Who] needs [what] because [why],” with optional AI feedback support.\n\n**Reflection:** Students record new thoughts, questions, important learning, and possible initial design ideas or sketches after studying water use and availability. It may invite several ideas/questions, and also asks single reflections on how AI helped or did not help revise the need statement and what support they expected.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: reflect on water experiences; list uses/sketch. Activity: analyze availability info; draft/refine one need statement. Reflection: note thoughts, questions, early design ideas, and AI help. AI: brainstorm only if invited; improve single [who] needs [what] because [why], not solutions."
+        },
+        {
+          "ordinal": "3.2",
+          "priorKnowledge": "MODS/CLUE: tiles/workspaces; drag/copy; group sharing; text formatting; image/sketch/annotation tools; Learning Journal; Class Work access/sort. Water inquiry: personal use; footprint results; U.S. availability/drought maps; region comparisons; conservation concerns. Needs/stakeholders: “[Who] needs [what] because [why]”; community stakeholders; maps/profiles: Users, Resource-Providers, Questioners; assumptions; environment posters; water storage/movement; stakeholder challenges. Scoping/research: natural/social/technical questions; tables; daily use estimates; research question choice; conservation article notes. Design: household water-conservation/generation devices; labeled sketches; SCAMPER; brain-sketching; heuristic cards; choose strong/surprising concepts; present names, features,",
+          "problemDigest": "**Introduction:** Students identify who in their community should conserve water and why it matters, including two people who may have different reasons. **Asks for several stakeholder examples/ideas**, then introduces stakeholders and who may be affected by a water conservation solution.\n\n**Activity:** Students make a numbered list of at least 12 community stakeholders, share and revise it in class discussion, note commonalities, and create one stakeholder map sorting stakeholders into Users, Resource-Providers, and Questioners. **Asks for several stakeholders**, but one map and one set of responses/wonderings. Students also reflect on how the map affects their need statement, discuss revisions, copy their current need statement, and may use an AI support tile for feedback.\n\n**Reflection:** Students use an engineer notebook to record what they learned about stakeholder mapping, questions, design ideas/sketches, strengths, improvements, or next steps. They answer prompts about where AI helped or did not help with updating the need statement and what support they expected. **Asks for a single reflective entry/set of answers**, plus documentation of the stakeholder map, need",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: name stakeholders and why water conservation matters. Activity: create a broad stakeholder list/map and refine/copy a need statement. Reflection: note learning, questions, and AI support. Do not prompt one solution yet; support stakeholder breadth and need-statement refinement."
+        },
+        {
+          "ordinal": "3.3",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces; dragging/copying/sharing tiles; text formatting; image/sketch/annotation-arrow tools; Learning Journal documentation; Class Work access/sorting; personal water-use reflection; water-footprint questionnaire; interpreting U.S. water availability/drought maps; comparing regional availability; water conservation concerns; need statements ([Who] needs [what] because [why]); identifying/mapping community stakeholders; Users, Resource-Providers, Questioners; stakeholder profiles, values/interests/assumptions; environment posters; water storage/movement; scoping questions and natural/social/technical categories; selecting research questions; article source notes; design solution sketching; SCAMPER, brain-sketching, design heuristic cards; selecting strong/surprising",
+          "problemDigest": "**Introduction:** Students review their stakeholder map, choose two stakeholders with important water needs, and explain why they matter. This asks for one selected set of stakeholders and rationale, not alternative versions.\n\n**Activity:** Students choose one stakeholder and create one profile with a title, at least three important facts, at least three ways they use or could conserve water, captions, and an explanation of why conservation matters to them. They use the Idea button and reflect on any revisions. They also identify at least two assumptions and ways to clarify them, choose one matching environment poster, and answer questions about water sources/storage, challenges, daily impacts, and one key thing the stakeholder needs to know. This asks for one developed profile and one research path, not multiple alternative designs.\n\n**Reflection:** Students examine classmates’ profiles and use an engineering notebook to write or sketch what they learned, questions, initial design ideas, or lesson reflections. They also explain how AI helped revise the profile and where it was not helpful. This asks for one reflective response set, not several alternative versions. Students",
+          "approach": "convergent",
+          "approachGuidance": "Students choose 1–2 key stakeholders, then focus on one to build a detailed profile, examine assumptions, and research that stakeholder’s water environment and challenges. Assistants should deepen/refine that profile and research, not brainstorm many new stakeholders or jump to solutions."
+        },
+        {
+          "ordinal": "3.4",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces; dragging, copying, sharing tiles; text/image/sketch/annotation tools; Learning Journal/Class Work documentation; personal water-use reflection; water-footprint questionnaire; U.S. water availability/drought map interpretation; regional conservation concerns; conservation need statements; community stakeholder identification; stakeholder maps (Users, Resource-Providers, Questioners); stakeholder profiles, values/interests, water uses, actions; assumptions and clarification methods; environment posters; water sources, storage, movement, challenges; scoping questions and natural/social/technical categories; scoping tables; article-based research notes; design sketches; SCAMPER, brain-sketching, design heuristic cards; selecting strong/surprising solutions; concept",
+          "problemDigest": "Introduction: Students review their stakeholder map/profile and answer what information is needed to create an effective water conservation need statement, then share ideas and take discussion notes. This asks for a single set of ideas, not alternative solution designs.\n\nActivity: Students restate their updated need statement, generate at least 5 scoping questions, use class discussion to expand to at least 12 questions, and organize key questions into a scoping table with natural, social, and design categories; an AI support tile offers feedback to help generate more stakeholder-focused questions. This asks for one evolving question set/table, not multiple alternative methods or designs.\n\nReflection: Students reflect in an engineering notebook on what they learned about scoping, how the scoping table informed their understanding of the problem/solution needs, what they did well or want to improve, and how AI helped or was not helpful; they then document their process by adding the scoping table and notebook to the Learning Journal. This asks for a single reflection/documentation response, not alternatives.",
+          "approach": "mixed",
+          "approachGuidance": "Intro: brainstorm needed info. Activity: revise one need statement; generate scoping questions; sort key ones as natural, social, or design, adding wonderings. Reflection: what students learned and how AI helped. Assistant should support questions/categories, not design/choose a final water"
+        },
+        {
+          "ordinal": "3.5",
+          "priorKnowledge": "MODS/CLUE: drag/copy/share tiles; text, image, sketch, annotation tools; Learning Journal; personal water use and footprint questionnaire; U.S. drought/water-availability maps; regional conservation concerns; need statements (“[Who] needs [what] because [why]”); stakeholder lists/maps (Users, Resource-Providers, Questioners); profiles with facts, values, water uses/conservation actions; assumptions and clarification plans; environment posters on water sources, storage, movement, challenges; scoping questions/tables (natural, social, design/technical); article notes; daily use estimates; SCAMPER, brain-sketching, design heuristic cards; labeled solution sketches; concept selection for presentation; home water conservation/generation device concepts; AI feedback/Idea button revision",
+          "problemDigest": "**Introduction:** Students estimate their daily water use using a USGS questionnaire, then reflect on what they learned, what surprised them, and whether their stakeholders’ water use might be similar or different. This asks for a single reflective response, not alternative ideas.\n\n**Activity:** Students choose two research questions from their scoping table, label each as natural, social, or design, then use provided water conservation research articles to take notes from at least two sources, with an optional third source. This asks for several distinct research items—two questions and multiple article notes—not alternative designs.\n\n**Reflection:** Students review their research notes and use an engineer notebook text/sketch space to record important learning, surprises, remaining questions, design ideas, and how research informed their understanding of the problem and possible solutions; they then document work in the Learning Journal. This asks for a single reflective notebook entry, not multiple alternatives.",
+          "approach": "unclear",
+          "approachGuidance": "Students estimate daily water use, choose research questions and articles, take notes, and reflect on stakeholders and water conservation. Do not suggest brainstorming or refining design solutions; support research, source evaluation, note-taking, and reflection."
+        },
+        {
+          "ordinal": "3.6",
+          "priorKnowledge": "CLUE/MODS tile workspaces: sharing/copying; text, image, sketch, and annotation tools; Learning Journal documentation. Topics: water uses/issues, water footprint, USGS daily-use estimates; U.S. drought/water-availability maps and east–west comparisons. Activities: conservation need statements (who/what/why); stakeholder lists/maps (Users, Resource-Providers, Questioners); stakeholder profiles (values, water uses, conservation actions); assumptions and clarification plans. Research: water sources, storage, movement, challenges; scoping questions/tables; natural, social, technical, and design categories; article notes. Ideation: solution brainstorming/sketching, SCAMPER, brain-sketching, design heuristic cards, idea selection, household water-device concepts, AI feedback/Idea-button",
+          "problemDigest": "**Introduction:** Students revisit and update a stakeholder need statement based on prior water-issue research, specifying stakeholders and their water conservation needs. They then generate **several different design solution ideas** by sketching three water-conservation concepts, describing how each works and whom it helps.\n\n**Activity:** Students use SCAMPER prompts—substitute, combine, adapt, modify, put to other uses, eliminate, rearrange—to build on earlier sketches. They create **several different revised or new design ideas** through three sketches, naming the prompt used and explaining each design’s features and function.\n\n**Reflection:** Students reflect on what they learned about idea generation, what helped or did not help, what they did well, and what they want to improve; this is a **single reflective response** with optional writing and/or sketching. They also answer **single-response questions** about how AI helped or did not help with SCAMPER idea generation, what support they expected, and what they wanted AI to help them do, then document their design process in the Learning Journal.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: refine stakeholder need statement; sketch 3 water-conservation design ideas. Activity: use SCAMPER to create more variations from sketches. Reflection: consider ideation and AI support. Assistant should help reframe/brainstorm, not push choosing or fully developing one design yet."
+        },
+        {
+          "ordinal": "3.7",
+          "priorKnowledge": "MODS/CLUE tiles and workspaces: copying/sharing; text, image, sketch, and annotation-arrow tiles. Learning Journal/Class Work documentation; personal water use and footprint questionnaire; U.S. water availability/drought map interpretation; community conservation concerns; stakeholder ID, maps (Users, Resource-Providers, Questioners), need statements “[Who] needs [what] because [why],” profiles, assumptions, and clarification methods. Environment posters; water sources, storage, movement, and challenges; scoping questions in natural, social, and design/technical categories; USGS daily water-use estimate; article research notes. Water-conservation design sketches; SCAMPER, brain-sketching, heuristic cards; strongest/surprising concepts; home water conservation/generation concept; AI",
+          "problemDigest": "Introduction: Students revisit sketches for stakeholders’ water needs, compare similarities with a teammate’s ideas, and explain how to make their ideas more diverse. It asks conceptually for multiple/diverse design ideas, but responses are single reflections.\n\nActivity: Students brain-sketch for a need statement: sketch one water conservation design idea, then partners add three sketches inspired by it using SCAMPER prompts. Each sketch includes the prompt and a short description. This asks for several different design ideas. Students also use design heuristic cards to modify ideas, sketch new versions, describe them, and use an AI/Idea tool for suggestions; this asks for multiple versions/iterations.\n\nReflection: Students write engineer notebook reflections on what helped generate ideas, what worked or did not, what they did well, what to improve, and what they learned or wondered. They also answer how AI helped, when it did not, and what they wanted AI to help with. These are single reflections, not alternative designs. Students also document their process by adding sketches and notebook work to the Learning Journal.",
+          "approach": "divergent",
+          "approachGuidance": "Students generate varied water-conservation design ideas using peer brain-sketching, SCAMPER, heuristic cards, and AI suggestions, then reflect on what helped. Assistant should broaden and diversify ideas, not steer them to pick a final design or refine one solution."
+        },
+        {
+          "ordinal": "3.8",
+          "priorKnowledge": "MODS/CLUE tiles/workspaces; copy/share; add text, images, sketches, annotation arrows; Learning Journal/Class Work docs; water-footprint questionnaire; interpret U.S. water availability/drought maps; regional conservation concerns; identify community stakeholders; stakeholder map: Users, Resource-Providers, Questioners; need statement: “[Who] needs [what] because [why]”; stakeholder profiles: values, water uses, conservation actions, assumptions; environment poster analysis: sources, storage/movement, challenges; scoping questions/table: natural, social, technical/design; USGS daily water-use estimates; conservation article notes; device concept name/description; labeled solution sketches; SCAMPER; brain-sketching; design heuristic card iteration; select strongest/surprising ideas; AI",
+          "problemDigest": "Introduction: Reviews prior front-end engineering design work (stakeholder maps/profiles, scoping, research, idea generation) and asks students for a single reflective response: identify at least 3 things learned about engineering design with Learning Journal evidence, then share with a partner.\n\nActivity: Asks students for several different selected design ideas/versions: choose three strongest design solutions and explain stakeholder fit, choose two surprising design ideas and explain why, then choose one design solution to present in two minutes to classmates and a special stakeholder guest.\n\nReflection: Asks for a single set of final reflections in an engineer notebook: students consider presentations and learning, describe their strengths as front-end designers, identify a need they might design for, reflect on conclusions/design decisions made with AI support, and evaluate when AI was most and least helpful. It also instructs students to document their process by adding strong ideas, surprising ideas, and notebook work to the Learning Journal.",
+          "approach": "mixed",
+          "approachGuidance": "Introduction: reflect on learning using journal evidence. Activity: choose existing strong, surprising, presentation-ready design ideas and explain them. Reflection: record final thoughts and process. Don’t suggest brainstorming new ideas; focus on reviewing, selecting, explaining, and reflecting"
+        }
+      ]
+    },
+    "aiEvaluateOnSessionEnd": false
   },
   "sections": {
     "introduction": {
